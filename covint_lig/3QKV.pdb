@@ -1,0 +1,56 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3QKV
+MODEL        1
+ATOM      1  N   SER B 241       1.665 -21.700 -36.043  1.00 29.06           N1+
+ATOM      2  CA  SER B 241       2.179 -20.922 -37.173  1.00 29.21           C  
+ATOM      3  C   SER B 241       3.712 -20.808 -37.301  1.00 29.07           C  
+ATOM      4  O   SER B 241       4.168 -20.394 -38.365  1.00 29.06           O  
+ATOM      5  CB  SER B 241       1.521 -19.526 -37.209  1.00 29.27           C  
+ATOM      6  OG  SER B 241       0.205 -19.656 -37.732  1.00 30.35           O  
+TER       7      SER B 241
+HETATM    8  N1  QKV B 580      -2.110 -19.621 -37.505  1.00 35.35           N  
+HETATM    9  C4  QKV B 580      -6.809 -21.697 -37.950  1.00 38.02           C  
+HETATM   10  C5  QKV B 580      -4.576 -19.664 -37.345  1.00 36.41           C  
+HETATM   11  C6  QKV B 580      -3.240 -21.839 -37.247  1.00 36.35           C  
+HETATM   12  C8  QKV B 580      -2.298 -20.960 -38.089  1.00 35.69           C  
+HETATM   13  C10 QKV B 580      -6.433 -21.144 -35.530  1.00 37.72           C  
+HETATM   14  C13 QKV B 580      -7.662 -21.964 -39.039  1.00 38.42           C  
+HETATM   15  C15 QKV B 580      -9.060 -21.934 -38.867  1.00 38.99           C  
+HETATM   16 BR1  QKV B 580     -11.504 -21.616 -37.381  1.00 40.84          Br  
+HETATM   17  C14 QKV B 580      -9.614 -21.639 -37.606  1.00 39.28           C  
+HETATM   18  C3  QKV B 580      -7.368 -21.411 -36.686  1.00 38.12           C  
+HETATM   19  C11 QKV B 580      -8.766 -21.375 -36.512  1.00 38.77           C  
+HETATM   20  O1  QKV B 580      -5.445 -21.752 -38.135  1.00 37.39           O  
+HETATM   21  C2  QKV B 580      -4.644 -21.199 -37.126  1.00 36.82           C  
+HETATM   22  O2  QKV B 580      -5.095 -21.515 -35.835  1.00 37.18           O  
+HETATM   23  C9  QKV B 580      -3.268 -19.106 -36.765  1.00 35.75           C  
+HETATM   24  C1  QKV B 580      -0.844 -19.391 -36.855  1.00 33.96           C  
+HETATM   25  O3  QKV B 580      -0.756 -20.132 -35.662  1.00 34.46           O  
+CONECT    8   12   23   24
+CONECT    9   14   18   20
+CONECT    9   14
+CONECT   10   21   23
+CONECT   11   12   21
+CONECT   12    8   11
+CONECT   13   18   22
+CONECT   14    9   15
+CONECT   14    9
+CONECT   15   14   17
+CONECT   15   17
+CONECT   16   17
+CONECT   17   15   16   19
+CONECT   17   15
+CONECT   18    9   13   19
+CONECT   18   19
+CONECT   19   17   18
+CONECT   19   18
+CONECT   20    9   21
+CONECT   21   10   11   20   22
+CONECT   22   13   21
+CONECT   23    8   10
+CONECT   24    6    8   25
+CONECT   25   24
+ENDMDL
+END   

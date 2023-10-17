@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1zyj_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N1  BI5 A 362      -2.716  18.001  46.249  1.00  0.00           N  
+HETATM    2  C1  BI5 A 362      -2.687  17.049  45.204  1.00  0.00           C  
+HETATM    3  C2  BI5 A 362      -2.358  15.652  45.436  1.00  0.00           C  
+HETATM    4  C3  BI5 A 362      -2.053  15.263  46.804  1.00  0.00           C  
+HETATM    5  C4  BI5 A 362      -2.081  16.247  47.876  1.00  0.00           C  
+HETATM    6  C5  BI5 A 362      -2.423  17.630  47.584  1.00  0.00           C  
+HETATM    7  C6  BI5 A 362      -3.029  17.506  43.808  1.00  0.00           C  
+HETATM    8  N2  BI5 A 362      -1.841  17.620  42.943  1.00  0.00           N  
+HETATM    9  C7  BI5 A 362      -1.195  18.784  42.972  1.00  0.00           C  
+HETATM   10  C8  BI5 A 362       0.219  18.878  42.421  1.00  0.00           C  
+HETATM   11  C9  BI5 A 362       0.782  20.194  42.177  1.00  0.00           C  
+HETATM   12  C10 BI5 A 362       2.104  20.228  41.578  1.00  0.00           C  
+HETATM   13  C11 BI5 A 362       2.796  18.989  41.247  1.00  0.00           C  
+HETATM   14  C12 BI5 A 362       2.227  17.678  41.514  1.00  0.00           C  
+HETATM   15  C13 BI5 A 362       0.907  17.632  42.117  1.00  0.00           C  
+HETATM   16  O1  BI5 A 362       3.980  18.983  40.617  1.00  0.00           O  
+HETATM   17  C14 BI5 A 362       4.543  20.148  40.288  1.00  0.00           C  
+HETATM   18  C15 BI5 A 362       4.323  20.611  38.929  1.00  0.00           C  
+HETATM   19  C16 BI5 A 362       4.972  21.851  38.533  1.00  0.00           C  
+HETATM   20  C17 BI5 A 362       5.798  22.576  39.488  1.00  0.00           C  
+HETATM   21  C18 BI5 A 362       6.003  22.112  40.853  1.00  0.00           C  
+HETATM   22  C19 BI5 A 362       5.356  20.871  41.257  1.00  0.00           C  
+HETATM   23  O2  BI5 A 362      -1.739  19.781  43.454  1.00  0.00           O  
+CONECT    1    2    6
+CONECT    1    6
+CONECT    2    1    3    7
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    1    5
+CONECT    6    1
+CONECT    7    2    8
+CONECT    8    7    9
+CONECT    9    8   10   23
+CONECT    9   23
+CONECT   10    9   11   15
+CONECT   10   15
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   14   16
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   10   14
+CONECT   15   10
+CONECT   16   13   17
+CONECT   17   16   18   22
+CONECT   17   22
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   17   21
+CONECT   22   17
+CONECT   23    9
+CONECT   23    9
+ENDMDL
+END   

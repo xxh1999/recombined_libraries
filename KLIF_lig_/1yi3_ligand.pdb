@@ -1,0 +1,70 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1yi3_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N14 LY2 A 306       3.038  15.496  40.101  1.00  0.00           N  
+HETATM    2  C15 LY2 A 306       1.985  14.778  40.841  1.00  0.00           C  
+HETATM    3  C19 LY2 A 306       3.561  14.641  39.019  1.00  0.00           C  
+HETATM    4  C11 LY2 A 306       2.687  16.906  39.846  1.00  0.00           C  
+HETATM    5  C16 LY2 A 306       2.575  13.489  41.426  1.00  0.00           C  
+HETATM    6  O17 LY2 A 306       3.102  12.684  40.374  1.00  0.00           O  
+HETATM    7  C18 LY2 A 306       4.126  13.355  39.642  1.00  0.00           C  
+HETATM    8  C1  LY2 A 306       1.011  21.556  40.840  1.00  0.00           C  
+HETATM    9  C2  LY2 A 306       1.761  21.022  39.782  1.00  0.00           C  
+HETATM   10  C6  LY2 A 306       0.538  20.717  41.864  1.00  0.00           C  
+HETATM   11  C3  LY2 A 306       2.038  19.645  39.776  1.00  0.00           C  
+HETATM   12  C4  LY2 A 306       1.569  18.818  40.807  1.00  0.00           C  
+HETATM   13  C9  LY2 A 306       2.804  19.056  38.677  1.00  0.00           C  
+HETATM   14  C5  LY2 A 306       0.808  19.332  41.856  1.00  0.00           C  
+HETATM   15  O12 LY2 A 306       1.897  17.474  40.794  1.00  0.00           O  
+HETATM   16  C20 LY2 A 306       0.247  18.451  42.934  1.00  0.00           C  
+HETATM   17  C25 LY2 A 306       0.245  18.867  44.290  1.00  0.00           C  
+HETATM   18  C24 LY2 A 306      -0.297  18.031  45.292  1.00  0.00           C  
+HETATM   19  C21 LY2 A 306      -0.301  17.188  42.597  1.00  0.00           C  
+HETATM   20  C22 LY2 A 306      -0.843  16.349  43.594  1.00  0.00           C  
+HETATM   21  C23 LY2 A 306      -0.839  16.774  44.941  1.00  0.00           C  
+HETATM   22  C10 LY2 A 306       3.127  17.620  38.788  1.00  0.00           C  
+HETATM   23  O13 LY2 A 306       3.203  19.649  37.682  1.00  0.00           O  
+CONECT    1    2    3    4
+CONECT    2    1    5
+CONECT    3    1    7
+CONECT    4    1   15   22
+CONECT    4   22
+CONECT    5    2    6
+CONECT    6    5    7
+CONECT    7    3    6
+CONECT    8    9   10
+CONECT    8    9
+CONECT    9    8   11
+CONECT    9    8
+CONECT   10    8   14
+CONECT   10   14
+CONECT   11    9   12   13
+CONECT   11   12
+CONECT   12   11   14   15
+CONECT   12   11
+CONECT   13   11   22   23
+CONECT   13   23
+CONECT   14   10   12   16
+CONECT   14   10
+CONECT   15    4   12
+CONECT   16   14   17   19
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   17   21
+CONECT   18   21
+CONECT   19   16   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   18   20
+CONECT   21   18
+CONECT   22    4   13
+CONECT   22    4
+CONECT   23   13
+CONECT   23   13
+ENDMDL
+END   

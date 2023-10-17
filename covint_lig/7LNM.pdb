@@ -1,0 +1,77 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7LNM
+MODEL        1
+ATOM      1  N   LYS C 292      12.069   0.401   7.687  1.00 33.09           N1+
+ATOM      2  CA  LYS C 292      13.429   0.317   7.217  1.00 34.88           C  
+ATOM      3  C   LYS C 292      14.132  -1.001   7.566  1.00 34.64           C  
+ATOM      4  O   LYS C 292      14.004  -1.988   6.794  1.00 37.27           O  
+ATOM      5  CB  LYS C 292      14.204   1.545   7.763  1.00 36.38           C  
+ATOM      6  CG  LYS C 292      13.656   2.809   7.088  1.00 38.52           C  
+ATOM      7  CD  LYS C 292      14.768   3.830   6.820  1.00 43.33           C  
+ATOM      8  CE  LYS C 292      14.216   5.219   6.440  1.00 42.17           C  
+ATOM      9  NZ  LYS C 292      13.752   5.238   5.041  0.59 43.01           N1+
+TER      10      LYS C 292
+HETATM   11  C11 Y7S B 502       9.289   8.054   8.754  1.00 46.71           C  
+HETATM   12  C12 Y7S B 502       9.950   8.284   7.535  1.00 49.67           C  
+HETATM   13  C13 Y7S B 502      11.233   8.833   7.577  1.00 52.08           C  
+HETATM   14  C14 Y7S B 502       9.278   7.946   6.175  1.00 52.84           C  
+HETATM   15  C16 Y7S B 502      11.739   9.190  11.373  1.00 45.64           C  
+HETATM   16  C17 Y7S B 502      14.044   6.203   4.219  0.77 44.19           C  
+HETATM   17  C18 Y7S B 502      15.907  10.765   3.396  0.32 57.27           C  
+HETATM   18  C01 Y7S B 502      14.878   7.453   4.647  0.73 49.06           C  
+HETATM   19  C02 Y7S B 502      15.502   8.292   3.609  0.89 51.74           C  
+HETATM   20  C03 Y7S B 502      14.261   8.312   5.553  0.92 52.26           C  
+HETATM   21  C05 Y7S B 502      14.653   9.713   5.272  0.87 52.84           C  
+HETATM   22  C06 Y7S B 502      12.057   9.126   6.235  1.00 52.71           C  
+HETATM   23  C07 Y7S B 502      15.893   9.693   4.278  0.62 54.05           C  
+HETATM   24  C08 Y7S B 502      11.805   9.118   8.823  1.00 52.07           C  
+HETATM   25  C09 Y7S B 502      11.091   8.865  10.002  1.00 46.14           C  
+HETATM   26  N04 Y7S B 502      12.859   7.942   5.910  1.00 53.46           N1+
+HETATM   27  N10 Y7S B 502       9.872   8.348   9.921  1.00 43.89           N1+
+HETATM   28  O15 Y7S B 502      13.083   9.659   8.884  1.00 55.17           O1-
+HETATM   29  O19 Y7S B 502      15.370  10.664   2.270  0.54 58.66           O  
+HETATM   30  O20 Y7S B 502      16.468  11.831   3.733  0.74 59.28           O1-
+HETATM   31  O39 Y7S B 502       9.961   6.813   5.616  1.00 57.27           O  
+HETATM   32  O41 Y7S B 502      10.672   7.190   3.122  1.00 60.14           O  
+HETATM   33  O42 Y7S B 502       8.292   6.687   3.603  1.00 48.12           O1-
+HETATM   34  O43 Y7S B 502      10.008   4.918   3.846  1.00 66.47           O1-
+HETATM   35  P40 Y7S B 502       9.722   6.396   4.008  1.00 60.07           P  
+CONECT   11   12   27
+CONECT   11   27
+CONECT   12   11   13   14
+CONECT   12   13
+CONECT   13   12   22   24
+CONECT   13   12
+CONECT   14   12   31
+CONECT   15   25
+CONECT   16    9   18
+CONECT   17   23   29   30
+CONECT   17   29
+CONECT   18   16   19   20
+CONECT   19   18   23
+CONECT   20   18   21   26
+CONECT   21   20   23
+CONECT   22   13   26
+CONECT   23   17   19   21
+CONECT   24   13   25   28
+CONECT   24   25
+CONECT   25   15   24   27
+CONECT   25   24
+CONECT   26   20   22
+CONECT   27   11   25
+CONECT   27   11
+CONECT   28   24
+CONECT   29   17
+CONECT   29   17
+CONECT   30   17
+CONECT   31   14   35
+CONECT   32   35
+CONECT   32   35
+CONECT   33   35
+CONECT   34   35
+CONECT   35   31   32   33   34
+CONECT   35   32
+ENDMDL
+END   

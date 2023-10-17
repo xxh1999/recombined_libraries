@@ -1,0 +1,32 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5CRA
+MODEL        1
+ATOM      1  N   CYS A 118     -46.762  26.551   4.503  1.00 24.83           N1+
+ATOM      2  CA  CYS A 118     -45.437  27.190   4.406  1.00 26.44           C  
+ATOM      3  C   CYS A 118     -44.763  27.152   3.017  1.00 28.51           C  
+ATOM      4  O   CYS A 118     -44.277  28.176   2.542  1.00 30.19           O  
+ATOM      5  CB  CYS A 118     -44.508  26.646   5.518  1.00 26.96           C  
+ATOM      6  SG  CYS A 118     -44.340  24.844   5.300  1.00 30.04           S  
+TER       7      CYS A 118
+HETATM    8  N   GVE D 101     -43.903  21.820   6.329  1.00 28.88           N  
+HETATM    9  CA  GVE D 101     -45.122  22.545   6.607  1.00 29.07           C  
+HETATM   10  CB  GVE D 101     -44.768  24.017   6.866  1.00 30.08           C  
+HETATM   11  CG  GVE D 101     -45.895  24.680   7.668  1.00 35.25           C  
+HETATM   12  CD  GVE D 101     -45.437  24.973   9.096  1.00 40.10           C  
+HETATM   13  OE1 GVE D 101     -46.213  24.403  10.024  1.00 36.33           O  
+HETATM   14  OE2 GVE D 101     -44.453  25.681   9.311  1.00 52.94           O  
+HETATM   15  CH3 GVE D 101     -45.910  24.590  11.395  1.00 34.01           C  
+CONECT    8    9
+CONECT    9    8   10
+CONECT   10    6    9   11
+CONECT   11   10   12
+CONECT   12   11   13   14
+CONECT   12   14
+CONECT   13   12   15
+CONECT   14   12
+CONECT   14   12
+CONECT   15   13
+ENDMDL
+END   

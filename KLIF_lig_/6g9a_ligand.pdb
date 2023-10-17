@@ -1,0 +1,86 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6g9a_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C2  ESQ A 404       0.851  20.144  41.606  1.00  0.00           C  
+HETATM    2  C3  ESQ A 404       0.303  20.798  42.696  1.00  0.00           C  
+HETATM    3  N4  ESQ A 404      -0.358  20.158  43.663  1.00  0.00           N  
+HETATM    4  C5  ESQ A 404      -0.441  18.831  43.516  1.00  0.00           C  
+HETATM    5  C7  ESQ A 404      -1.257  16.734  44.603  1.00  0.00           C  
+HETATM    6  C8  ESQ A 404      -2.418  16.251  43.750  1.00  0.00           C  
+HETATM    7  C11 ESQ A 404      -1.764  14.883  46.163  1.00  0.00           C  
+HETATM    8  C12 ESQ A 404      -1.467  16.359  46.056  1.00  0.00           C  
+HETATM    9  C14 ESQ A 404       0.724  18.755  41.531  1.00  0.00           C  
+HETATM   10  C15 ESQ A 404       1.175  17.880  40.410  1.00  0.00           C  
+HETATM   11  C16 ESQ A 404       0.354  16.809  40.007  1.00  0.00           C  
+HETATM   12  C19 ESQ A 404       2.459  15.549  37.036  1.00  0.00           C  
+HETATM   13  C21 ESQ A 404       4.689  15.976  35.800  1.00  0.00           C  
+HETATM   14  C22 ESQ A 404       5.248  14.553  35.847  1.00  0.00           C  
+HETATM   15  C24 ESQ A 404       5.659  14.209  38.243  1.00  0.00           C  
+HETATM   16  C25 ESQ A 404       6.683  13.703  39.224  1.00  0.00           C  
+HETATM   17  C27 ESQ A 404       8.427  14.578  37.898  1.00  0.00           C  
+HETATM   18  C28 ESQ A 404       7.426  15.081  36.886  1.00  0.00           C  
+HETATM   19  O30 ESQ A 404       4.694  18.206  37.607  1.00  0.00           O  
+HETATM   20  C31 ESQ A 404       2.664  17.308  38.588  1.00  0.00           C  
+HETATM   21 CL1  ESQ A 404       1.677  21.104  40.441  1.00  0.00          Cl  
+HETATM   22  N6  ESQ A 404      -1.104  18.179  44.492  1.00  0.00           N  
+HETATM   23  C9  ESQ A 404      -2.659  14.785  44.001  1.00  0.00           C  
+HETATM   24  O10 ESQ A 404      -2.905  14.529  45.388  1.00  0.00           O  
+HETATM   25  N13 ESQ A 404       0.052  18.099  42.497  1.00  0.00           N  
+HETATM   26  C17 ESQ A 404       0.688  15.999  38.929  1.00  0.00           C  
+HETATM   27  C18 ESQ A 404       1.851  16.249  38.213  1.00  0.00           C  
+HETATM   28  N20 ESQ A 404       3.710  16.288  36.849  1.00  0.00           N  
+HETATM   29  N23 ESQ A 404       6.233  14.226  36.894  1.00  0.00           N1+
+HETATM   30  O26 ESQ A 404       7.865  14.508  39.214  1.00  0.00           O  
+HETATM   31  C29 ESQ A 404       3.817  17.367  37.660  1.00  0.00           C  
+HETATM   32  C32 ESQ A 404       2.327  18.137  39.662  1.00  0.00           C  
+CONECT    1    2    9   21
+CONECT    1    9
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3   22   25
+CONECT    4   25
+CONECT    5    6    8   22
+CONECT    6    5   23
+CONECT    7    8   24
+CONECT    8    5    7
+CONECT    9    1   10   25
+CONECT    9    1
+CONECT   10    9   11   32
+CONECT   10   32
+CONECT   11   10   26
+CONECT   11   26
+CONECT   12   27   28
+CONECT   13   14   28
+CONECT   14   13   29
+CONECT   15   16   29
+CONECT   16   15   30
+CONECT   17   18   30
+CONECT   18   17   29
+CONECT   19   31
+CONECT   19   31
+CONECT   20   27   31   32
+CONECT   20   27
+CONECT   21    1
+CONECT   22    4    5
+CONECT   23    6   24
+CONECT   24    7   23
+CONECT   25    4    9
+CONECT   25    4
+CONECT   26   11   27
+CONECT   26   11
+CONECT   27   12   20   26
+CONECT   27   20
+CONECT   28   12   13   31
+CONECT   29   14   15   18
+CONECT   30   16   17
+CONECT   31   19   20   28
+CONECT   31   19
+CONECT   32   10   20
+CONECT   32   10
+ENDMDL
+END   

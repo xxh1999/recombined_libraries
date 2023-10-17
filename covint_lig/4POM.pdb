@@ -1,0 +1,31 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4POM
+MODEL        1
+ATOM      1  N   CYS A  69      26.184   7.282   5.248  1.00 29.88           N1+
+ATOM      2  CA  CYS A  69      25.551   8.139   6.248  1.00 29.11           C  
+ATOM      3  C   CYS A  69      25.391   7.439   7.613  1.00 28.33           C  
+ATOM      4  O   CYS A  69      24.960   8.086   8.566  1.00 28.20           O  
+ATOM      5  CB  CYS A  69      24.154   8.551   5.739  1.00 29.39           C  
+ATOM      6  SG  CYS A  69      24.127   9.624   4.270  1.00 32.14           S  
+TER       7      CYS A  69
+HETATM    8  C1  COM A 200      26.841  10.960   3.909  1.00 45.34           C  
+HETATM    9  C2  COM A 200      26.741  11.381   2.434  1.00 51.20           C  
+HETATM   10  S1  COM A 200      25.262  11.242   4.761  1.00 42.73           S  
+HETATM   11  S2  COM A 200      28.367  11.368   1.574  1.00 55.64           S  
+HETATM   12  O1S COM A 200      28.729   9.945   1.511  1.00 54.01           O  
+HETATM   13  O2S COM A 200      28.072  11.968   0.263  1.00 55.21           O  
+HETATM   14  O3S COM A 200      29.229  12.182   2.446  1.00 54.41           O1-
+CONECT    8    9   10
+CONECT    9    8   11
+CONECT   10    6    8
+CONECT   11    9   12   13   14
+CONECT   11   12   13
+CONECT   12   11
+CONECT   12   11
+CONECT   13   11
+CONECT   13   11
+CONECT   14   11
+ENDMDL
+END   

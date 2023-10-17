@@ -1,0 +1,30 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1GMH
+MODEL        1
+ATOM      1  N   SER G 195      24.405   3.013  34.976  1.00  0.00           N1+
+ATOM      2  CA  SER G 195      25.517   3.761  34.383  1.00  0.00           C  
+ATOM      3  C   SER G 195      25.276   4.193  32.936  1.00  0.00           C  
+ATOM      4  O   SER G 195      24.737   3.431  32.143  1.00  0.00           O  
+ATOM      5  CB  SER G 195      26.810   2.951  34.466  1.00  0.00           C  
+ATOM      6  OG  SER G 195      27.313   2.991  35.784  1.00  0.00           O  
+TER       7      SER G 195
+HETATM    8  C1  ISP G 290      26.923   4.179  39.167  1.00  0.00           C  
+HETATM    9  C2  ISP G 290      26.718   2.666  39.069  1.00  0.00           C  
+HETATM   10  C3  ISP G 290      26.755   1.979  40.436  1.00  0.00           C  
+HETATM   11  P   ISP G 290      27.442   1.565  36.679  1.00  0.00           P  
+HETATM   12  O1P ISP G 290      27.734   2.094  38.269  1.00  0.00           O  
+HETATM   13  O2P ISP G 290      28.657   0.872  36.198  1.00  0.00           O  
+HETATM   14  O3P ISP G 290      26.132   0.881  36.616  1.00  0.00           O1-
+CONECT    8    9
+CONECT    9    8   10   12
+CONECT   10    9
+CONECT   11    6   12   13   14
+CONECT   11   13
+CONECT   12    9   11
+CONECT   13   11
+CONECT   13   11
+CONECT   14   11
+ENDMDL
+END   

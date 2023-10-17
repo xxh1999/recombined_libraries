@@ -1,0 +1,86 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6EIN
+MODEL        1
+ATOM      1  N   CYS A 480      71.052  59.112  15.217  1.00 92.54           N1+
+ATOM      2  CA  CYS A 480      72.338  58.400  15.171  1.00100.38           C  
+ATOM      3  C   CYS A 480      73.565  59.224  15.589  1.00106.40           C  
+ATOM      4  O   CYS A 480      74.143  59.938  14.772  1.00106.15           O  
+ATOM      5  CB  CYS A 480      72.493  57.712  13.796  1.00100.72           C  
+ATOM      6  SG  CYS A 480      74.004  56.693  13.719  1.00101.26           S  
+TER       7      CYS A 480
+HETATM    8  C1  B7Z A 801      87.923  63.184  13.013  1.00 39.22           C  
+HETATM    9  C2  B7Z A 801      86.469  64.960  12.812  1.00 30.97           C  
+HETATM   10  C3  B7Z A 801      87.444  65.821  13.392  1.00 34.42           C  
+HETATM   11  C4  B7Z A 801      87.212  67.207  13.442  1.00 27.20           C  
+HETATM   12  C5  B7Z A 801      86.031  67.691  12.866  1.00 30.58           C  
+HETATM   13  C6  B7Z A 801      85.237  65.538  12.378  1.00 32.10           C  
+HETATM   14  N1  B7Z A 801      86.774  63.597  12.649  1.00 32.58           N  
+HETATM   15  O3  B7Z A 801      77.416  56.671  14.204  1.00 90.23           O  
+HETATM   16  C7  B7Z A 801      83.845  63.444  12.005  1.00 33.04           C  
+HETATM   17  N   B7Z A 801      88.917  63.922  13.603  1.00 35.03           N1-
+HETATM   18  C   B7Z A 801      88.719  65.229  13.936  1.00 30.30           C  
+HETATM   19  C10 B7Z A 801      81.099  61.409  12.715  1.00 56.12           C  
+HETATM   20  C11 B7Z A 801      80.301  59.391  13.737  1.00 81.45           C  
+HETATM   21  C12 B7Z A 801      79.776  57.983  13.422  1.00 88.30           C  
+HETATM   22  C13 B7Z A 801      77.439  57.247  13.116  1.00 91.50           C  
+HETATM   23  C14 B7Z A 801      76.298  56.939  12.128  1.00 96.16           C  
+HETATM   24  C15 B7Z A 801      74.968  57.625  12.485  1.00 98.79           C  
+HETATM   25  C19 B7Z A 801      78.484  58.928  11.568  1.00 87.18           C  
+HETATM   26  C20 B7Z A 801      79.120  60.297  11.893  1.00 79.18           C  
+HETATM   27  C21 B7Z A 801      81.989  64.491  11.431  1.00 34.34           C  
+HETATM   28  C8  B7Z A 801      82.518  63.191  11.616  1.00 41.71           C  
+HETATM   29  C9  B7Z A 801      81.814  61.868  11.436  1.00 39.36           C  
+HETATM   30  N2  B7Z A 801      85.088  66.887  12.346  1.00 29.51           N  
+HETATM   31  N3  B7Z A 801      84.068  64.785  12.011  1.00 37.86           N  
+HETATM   32  N4  B7Z A 801      80.448  60.122  12.483  1.00 72.59           N  
+HETATM   33  N5  B7Z A 801      78.474  58.040  12.742  1.00 89.43           N  
+HETATM   34  N7  B7Z A 801      82.929  65.424  11.656  1.00 31.08           N  
+HETATM   35  O   B7Z A 801      89.490  65.936  14.581  1.00 32.32           O  
+CONECT    8   14   17
+CONECT    8   14
+CONECT    9   10   13   14
+CONECT    9   13
+CONECT   10    9   11   18
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   30
+CONECT   12   30
+CONECT   13    9   30   31
+CONECT   13    9
+CONECT   14    8    9
+CONECT   14    8
+CONECT   15   22
+CONECT   15   22
+CONECT   16   28   31
+CONECT   16   28
+CONECT   17    8   18
+CONECT   18   10   17   35
+CONECT   18   35
+CONECT   19   29   32
+CONECT   20   21   32
+CONECT   21   20   33
+CONECT   22   15   23   33
+CONECT   22   15
+CONECT   23   22   24
+CONECT   24    6   23
+CONECT   25   26   33
+CONECT   26   25   32
+CONECT   27   28   34
+CONECT   27   34
+CONECT   28   16   27   29
+CONECT   28   16
+CONECT   29   19   28
+CONECT   30   12   13
+CONECT   30   12
+CONECT   31   13   16   34
+CONECT   32   19   20   26
+CONECT   33   21   22   25
+CONECT   34   27   31
+CONECT   34   27
+CONECT   35   18
+CONECT   35   18
+ENDMDL
+END   

@@ -1,0 +1,60 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1zlt_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CAI HYM A 400       2.129  20.260  41.035  1.00  0.00           C  
+HETATM    2  CAH HYM A 400       0.893  21.157  41.119  1.00  0.00           C  
+HETATM    3  NAG HYM A 400       0.218  21.064  42.424  1.00  0.00           N  
+HETATM    4  CAF HYM A 400      -0.089  19.990  43.152  1.00  0.00           C  
+HETATM    5  OAK HYM A 400      -0.685  20.105  44.222  1.00  0.00           O  
+HETATM    6  CAD HYM A 400       0.252  18.568  42.690  1.00  0.00           C  
+HETATM    7  NAC HYM A 400      -0.218  17.501  43.337  1.00  0.00           N  
+HETATM    8  CAA HYM A 400       0.200  16.337  42.848  1.00  0.00           C  
+HETATM    9 CLA  HYM A 400      -0.299  14.712  43.376  1.00  0.00          Cl  
+HETATM   10  CAB HYM A 400       1.035  16.677  41.793  1.00  0.00           C  
+HETATM   11 CLB  HYM A 400       2.056  15.485  40.952  1.00  0.00          Cl  
+HETATM   12  CAE HYM A 400       1.052  18.061  41.668  1.00  0.00           C  
+HETATM   13  CAJ HYM A 400       1.702  18.830  40.703  1.00  0.00           C  
+HETATM   14  CAL HYM A 400       1.924  18.349  39.412  1.00  0.00           C  
+HETATM   15  NAP HYM A 400       1.427  17.182  39.011  1.00  0.00           N  
+HETATM   16  CAM HYM A 400       2.580  18.932  38.329  1.00  0.00           C  
+HETATM   17  OAR HYM A 400       3.139  20.027  38.285  1.00  0.00           O  
+HETATM   18  NAN HYM A 400       2.453  18.086  37.310  1.00  0.00           N  
+HETATM   19  CAO HYM A 400       1.754  17.037  37.730  1.00  0.00           C  
+HETATM   20  NAQ HYM A 400       1.432  15.998  36.963  1.00  0.00           N  
+CONECT    1    2   13
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5    6
+CONECT    4    5
+CONECT    5    4
+CONECT    5    4
+CONECT    6    4    7   12
+CONECT    6   12
+CONECT    7    6    8
+CONECT    8    7    9   10
+CONECT    8   10
+CONECT    9    8
+CONECT   10    8   11   12
+CONECT   10    8
+CONECT   11   10
+CONECT   12    6   10   13
+CONECT   12    6
+CONECT   13    1   12   14
+CONECT   13   14
+CONECT   14   13   15   16
+CONECT   14   13
+CONECT   15   14   19
+CONECT   16   14   17   18
+CONECT   16   17
+CONECT   17   16
+CONECT   17   16
+CONECT   18   16   19
+CONECT   18   19
+CONECT   19   15   18   20
+CONECT   19   18
+CONECT   20   19
+ENDMDL
+END   

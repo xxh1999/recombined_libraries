@@ -1,0 +1,80 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1SNK
+MODEL        1
+ATOM      1  N   CYS A  25     -12.596  32.651  82.374  1.00 28.74           N1+
+ATOM      2  CA  CYS A  25     -12.055  34.015  82.292  1.00 29.52           C  
+ATOM      3  C   CYS A  25     -12.644  35.000  83.318  1.00 29.82           C  
+ATOM      4  O   CYS A  25     -11.939  35.885  83.794  1.00 29.57           O  
+ATOM      5  CB  CYS A  25     -12.197  34.556  80.855  1.00 29.15           C  
+ATOM      6  SG  CYS A  25     -13.947  34.762  80.378  1.00 30.57           S  
+TER       7      CYS A  25
+HETATM    8  C2  MYE A   1     -17.325  30.562  76.356  1.00 32.19           C  
+HETATM    9  C3  MYE A   1     -17.173  31.430  77.614  1.00 32.39           C  
+HETATM   10  C4  MYE A   1     -15.793  32.101  77.742  1.00 32.11           C  
+HETATM   11  C5  MYE A   1     -15.653  32.915  79.047  1.00 31.42           C  
+HETATM   12  N6  MYE A   1     -16.535  34.075  78.952  1.00 31.08           N  
+HETATM   13  C7  MYE A   1     -17.326  34.504  79.944  1.00 31.51           C  
+HETATM   14  O8  MYE A   1     -17.336  34.003  81.066  1.00 29.80           O  
+HETATM   15  C9  MYE A   1     -18.249  35.682  79.631  1.00 32.30           C  
+HETATM   16  C10 MYE A   1     -17.767  36.903  80.453  1.00 32.05           C  
+HETATM   17  C11 MYE A   1     -18.224  38.299  79.972  1.00 32.26           C  
+HETATM   18  C12 MYE A   1     -18.219  39.287  81.148  1.00 32.50           C  
+HETATM   19  C13 MYE A   1     -19.585  38.320  79.261  1.00 31.85           C  
+HETATM   20  N14 MYE A   1     -19.606  35.297  80.025  1.00 36.42           N  
+HETATM   21  C15 MYE A   1     -20.387  34.385  79.334  1.00 40.85           C  
+HETATM   22  O16 MYE A   1     -20.118  33.890  78.239  1.00 39.17           O  
+HETATM   23  O17 MYE A   1     -21.462  34.079  80.072  1.00 45.84           O  
+HETATM   24  C18 MYE A   1     -22.341  33.051  79.630  1.00 51.49           C  
+HETATM   25  C19 MYE A   1     -23.170  32.434  80.743  1.00 56.18           C  
+HETATM   26  C20 MYE A   1     -23.875  31.238  80.489  1.00 58.91           C  
+HETATM   27  C21 MYE A   1     -24.673  30.657  81.493  1.00 62.43           C  
+HETATM   28  C22 MYE A   1     -24.773  31.270  82.757  1.00 62.91           C  
+HETATM   29 BR2  MYE A   1     -25.866  30.500  84.110  1.00 69.66          Br  
+HETATM   30  C24 MYE A   1     -24.065  32.458  83.019  1.00 60.79           C  
+HETATM   31  C25 MYE A   1     -23.265  33.038  82.016  1.00 57.90           C  
+HETATM   32  C26 MYE A   1     -14.185  33.338  79.272  1.00 30.24           C  
+HETATM   33  O27 MYE A   1     -13.231  32.729  78.790  1.00 29.25           O  
+HETATM   34  C1  MYE A   1     -16.515  29.260  76.406  1.00 32.69           C  
+CONECT    8    9   34
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10   12   32
+CONECT   12   11   13
+CONECT   13   12   14   15
+CONECT   13   14
+CONECT   14   13
+CONECT   14   13
+CONECT   15   13   16   20
+CONECT   16   15   17
+CONECT   17   16   18   19
+CONECT   18   17
+CONECT   19   17
+CONECT   20   15   21
+CONECT   21   20   22   23
+CONECT   21   22
+CONECT   22   21
+CONECT   22   21
+CONECT   23   21   24
+CONECT   24   23   25
+CONECT   25   24   26   31
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   27   29   30
+CONECT   28   27
+CONECT   29   28
+CONECT   30   28   31
+CONECT   30   31
+CONECT   31   25   30
+CONECT   31   30
+CONECT   32    6   11   33
+CONECT   32   33
+CONECT   33   32
+CONECT   33   32
+CONECT   34    8
+ENDMDL
+END   

@@ -1,0 +1,43 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2XDW
+MODEL        1
+ATOM      1  N   PRO P 792      40.537  37.379  85.499  1.00 10.10           N1+
+ATOM      2  CA  PRO P 792      39.592  36.817  84.525  1.00  9.90           C  
+ATOM      3  C   PRO P 792      39.185  37.846  83.437  1.00  8.75           C  
+ATOM      4  O   PRO P 792      39.451  39.035  83.630  1.00 11.70           O  
+ATOM      5  CB  PRO P 792      38.388  36.401  85.389  1.00 12.26           C  
+ATOM      6  CG  PRO P 792      38.400  37.368  86.562  1.00 13.49           C  
+ATOM      7  CD  PRO P 792      39.883  37.665  86.779  1.00 13.43           C  
+TER       8      PRO P 792
+HETATM    9  C1  PHQ P 791      41.893  37.566  85.234  1.00 11.52           C  
+HETATM   10  O1  PHQ P 791      42.462  37.291  84.176  1.00  8.98           O  
+HETATM   11  O2  PHQ P 791      42.508  38.107  86.304  1.00 13.03           O  
+HETATM   12  C2  PHQ P 791      43.912  38.316  86.310  1.00 13.00           C  
+HETATM   13  C3  PHQ P 791      44.645  37.194  87.017  1.00 14.99           C  
+HETATM   14  C4  PHQ P 791      45.114  37.387  88.333  1.00 16.26           C  
+HETATM   15  C5  PHQ P 791      45.754  36.335  89.016  1.00 18.17           C  
+HETATM   16  C6  PHQ P 791      45.930  35.089  88.385  1.00 19.72           C  
+HETATM   17  C7  PHQ P 791      45.475  34.899  87.067  1.00 17.27           C  
+HETATM   18  C8  PHQ P 791      44.835  35.950  86.382  1.00 15.80           C  
+CONECT    9    1   10   11
+CONECT    9   10
+CONECT   10    9
+CONECT   10    9
+CONECT   11    9   12
+CONECT   12   11   13
+CONECT   13   12   14   18
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   13   17
+CONECT   18   17
+ENDMDL
+END   

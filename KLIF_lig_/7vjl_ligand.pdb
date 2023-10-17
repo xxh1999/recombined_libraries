@@ -1,0 +1,87 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7vjl_ligand
+MODEL        1
+HETATM    1  FAN Q7I A 801       1.321  22.593  49.430  1.00  0.00           F  
+HETATM    2  CAM Q7I A 801       1.024  21.298  49.228  1.00  0.00           C  
+HETATM    3  FAO Q7I A 801       1.333  20.934  47.930  1.00  0.00           F  
+HETATM    4  FAP Q7I A 801       1.698  20.468  50.071  1.00  0.00           F  
+HETATM    5  CAK Q7I A 801      -0.378  21.093  49.525  1.00  0.00           C  
+HETATM    6  OAL Q7I A 801      -0.950  21.955  50.505  1.00  0.00           O  
+HETATM    7  CAB Q7I A 801      -0.955  19.671  49.361  1.00  0.00           C  
+HETATM    8  CAC Q7I A 801      -1.567  19.027  50.464  1.00  0.00           C  
+HETATM    9  CAD Q7I A 801      -2.080  17.721  50.309  1.00  0.00           C  
+HETATM   10  NAA Q7I A 801      -0.851  19.019  48.207  1.00  0.00           N  
+HETATM   11  CAF Q7I A 801      -1.327  17.758  47.996  1.00  0.00           C  
+HETATM   12  CAE Q7I A 801      -1.948  17.065  49.008  1.00  0.00           C  
+HETATM   13  CAG Q7I A 801      -2.450  15.718  48.761  1.00  0.00           C  
+HETATM   14  CAH Q7I A 801      -2.273  15.153  47.444  1.00  0.00           C  
+HETATM   15  CAI Q7I A 801      -1.620  15.935  46.450  1.00  0.00           C  
+HETATM   16  NAJ Q7I A 801      -1.175  17.168  46.718  1.00  0.00           N  
+HETATM   17  CAQ Q7I A 801      -0.531  17.896  45.673  1.00  0.00           C  
+HETATM   18  OAR Q7I A 801      -0.109  18.990  45.847  1.00  0.00           O  
+HETATM   19  NAS Q7I A 801      -0.371  17.345  44.442  1.00  0.00           N  
+HETATM   20  CAT Q7I A 801       0.280  18.087  43.391  1.00  0.00           C  
+HETATM   21  CAU Q7I A 801       0.947  17.353  42.379  1.00  0.00           C  
+HETATM   22  NAY Q7I A 801       0.253  19.393  43.353  1.00  0.00           N  
+HETATM   23  CAX Q7I A 801       0.844  20.099  42.401  1.00  0.00           C  
+HETATM   24  CAW Q7I A 801       1.535  19.458  41.343  1.00  0.00           C  
+HETATM   25  CAZ Q7I A 801       2.182  20.282  40.277  1.00  0.00           C  
+HETATM   26  NBA Q7I A 801       2.667  20.919  39.477  1.00  0.00           N  
+HETATM   27  CAV Q7I A 801       1.590  18.061  41.326  1.00  0.00           C  
+HETATM   28  NBB Q7I A 801       2.296  17.328  40.259  1.00  0.00           N  
+HETATM   29  CBC Q7I A 801       1.748  16.177  39.734  1.00  0.00           C  
+HETATM   30  CBD Q7I A 801       2.235  14.910  40.457  1.00  0.00           C  
+HETATM   31  OBE Q7I A 801       3.658  14.761  40.283  1.00  0.00           O  
+HETATM   32  CBF Q7I A 801       4.020  13.982  39.151  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3    4    5
+CONECT    3    2
+CONECT    4    2
+CONECT    5    2    6    7
+CONECT    5    6
+CONECT    6    5
+CONECT    6    5
+CONECT    7    5    8   10
+CONECT    7    8
+CONECT    8    7    9
+CONECT    8    7
+CONECT    9    8   12
+CONECT    9   12
+CONECT   10    7   11
+CONECT   10   11
+CONECT   11   10   12   16
+CONECT   11   10
+CONECT   12    9   11   13
+CONECT   12    9
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   11   15   17
+CONECT   17   16   18   19
+CONECT   17   18
+CONECT   18   17
+CONECT   18   17
+CONECT   19   17   20
+CONECT   20   19   21   22
+CONECT   20   22
+CONECT   21   20   27
+CONECT   21   27
+CONECT   22   20   23
+CONECT   22   20
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25   27
+CONECT   24   23
+CONECT   25   24   26
+CONECT   26   25
+CONECT   27   21   24   28
+CONECT   27   21
+CONECT   28   27   29
+CONECT   29   28   30
+CONECT   30   29   31
+CONECT   31   30   32
+CONECT   32   31
+ENDMDL
+END   

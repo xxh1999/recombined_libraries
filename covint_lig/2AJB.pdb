@@ -1,0 +1,66 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2AJB
+MODEL        1
+ATOM      1  N   SER A 630      -7.045  16.243  -2.788  1.00 29.85           N1+
+ATOM      2  CA  SER A 630      -7.444  16.229  -1.374  1.00 30.99           C  
+ATOM      3  C   SER A 630      -8.978  16.280  -1.240  1.00 30.51           C  
+ATOM      4  O   SER A 630      -9.650  15.324  -1.627  1.00 31.70           O  
+ATOM      5  CB  SER A 630      -6.673  17.302  -0.583  1.00 35.74           C  
+ATOM      6  OG  SER A 630      -6.809  17.075   0.813  1.00 39.68           O  
+TER       7      SER A 630
+HETATM    8  N   0QG A 802      -5.991  19.646   7.185  1.00 35.41           N  
+HETATM    9  CA  0QG A 802      -6.732  20.063   6.012  1.00 37.36           C  
+HETATM   10  CB  0QG A 802      -6.459  21.578   5.727  1.00 35.00           C  
+HETATM   11  CG1 0QG A 802      -4.949  21.901   5.634  1.00 31.95           C  
+HETATM   12  CG2 0QG A 802      -7.020  22.439   6.881  1.00 31.30           C  
+HETATM   13  CG3 0QG A 802      -7.182  22.018   4.436  1.00 32.84           C  
+HETATM   14  C   0QG A 802      -6.416  19.086   4.848  1.00 36.96           C  
+HETATM   15  O   0QG A 802      -5.237  18.832   4.594  1.00 38.88           O  
+HETATM   16  N1  0QG A 802      -7.422  18.495   4.159  1.00 37.29           N  
+HETATM   17  CA1 0QG A 802      -7.221  17.533   3.063  1.00 38.45           C  
+HETATM   18  C1  0QG A 802      -6.806  18.171   1.688  1.00 38.50           C  
+HETATM   19  O1  0QG A 802      -7.751  19.026   1.390  1.00 38.84           O1-
+HETATM   20  CB1 0QG A 802      -8.543  16.735   2.973  1.00 37.24           C  
+HETATM   21  CG  0QG A 802      -9.602  17.627   3.598  1.00 37.73           C  
+HETATM   22  CD  0QG A 802      -8.837  18.583   4.506  1.00 36.86           C  
+HETATM   23  N2  0QG A 802      -5.501  18.819   1.747  0.00 40.29           N  
+HETATM   24  CA2 0QG A 802      -5.037  19.741   0.678  0.00 41.95           C  
+HETATM   25  C2  0QG A 802      -3.559  19.479   0.363  0.00 42.31           C  
+HETATM   26  O2  0QG A 802      -2.702  19.547   1.244  0.00 42.60           O  
+HETATM   27  CB2 0QG A 802      -5.311  21.241   0.997  0.00 42.62           C  
+HETATM   28 CG11 0QG A 802      -5.189  22.125  -0.264  0.00 43.12           C  
+HETATM   29 CG21 0QG A 802      -4.441  21.807   2.132  0.00 42.97           C  
+HETATM   30  CD1 0QG A 802      -5.738  23.547  -0.080  0.00 43.57           C  
+HETATM   31  OXT 0QG A 802      -3.258  19.151  -0.924  0.00 42.67           O  
+CONECT    8    9
+CONECT    9    8   10   14
+CONECT   10    9   11   12   13
+CONECT   11   10
+CONECT   12   10
+CONECT   13   10
+CONECT   14    9   15   16
+CONECT   14   15
+CONECT   15   14
+CONECT   15   14
+CONECT   16   14   17   22
+CONECT   17   16   18   20
+CONECT   18    6   17   19   23
+CONECT   19   18
+CONECT   20   17   21
+CONECT   21   20   22
+CONECT   22   16   21
+CONECT   23   18   24
+CONECT   24   23   25   27
+CONECT   25   24   26   31
+CONECT   25   26
+CONECT   26   25
+CONECT   26   25
+CONECT   27   24   28   29
+CONECT   28   27   30
+CONECT   29   27
+CONECT   30   28
+CONECT   31   25
+ENDMDL
+END   

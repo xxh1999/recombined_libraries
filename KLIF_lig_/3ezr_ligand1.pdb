@@ -1,0 +1,98 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3ezr_ligand1
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  EZR A 300       1.535  21.759  37.182  1.00  0.00           C  
+HETATM    2  C5  EZR A 300      -1.971  16.075  45.947  1.00  0.00           C  
+HETATM    3  C6  EZR A 300      -1.834  13.941  44.837  1.00  0.00           C  
+HETATM    4  C7  EZR A 300       1.893  22.349  35.994  1.00  0.00           C  
+HETATM    5  C8  EZR A 300       1.342  21.003  39.909  1.00  0.00           C  
+HETATM    6  C10 EZR A 300       0.592  19.106  41.242  1.00  0.00           C  
+HETATM    7  C13 EZR A 300      -1.037  15.822  43.708  1.00  0.00           C  
+HETATM    8  C15 EZR A 300       0.798  20.454  41.042  1.00  0.00           C  
+HETATM    9  C17 EZR A 300       2.944  21.840  35.264  1.00  0.00           C  
+HETATM   10  C20 EZR A 300      -0.493  17.833  43.225  1.00  0.00           C  
+HETATM   11  C21 EZR A 300      -1.563  14.026  41.365  1.00  0.00           C  
+HETATM   12  C22 EZR A 300      -0.943  12.211  42.917  1.00  0.00           C  
+HETATM   13  C24 EZR A 300      -1.582  11.386  41.812  1.00  0.00           C  
+HETATM   14  C26 EZR A 300       5.022  18.926  36.457  1.00  0.00           C  
+HETATM   15  C1  EZR A 300      -2.180  14.715  45.920  1.00  0.00           C  
+HETATM   16  C2  EZR A 300       0.981  18.212  40.258  1.00  0.00           C  
+HETATM   17  C3  EZR A 300       1.550  18.758  39.123  1.00  0.00           C  
+HETATM   18  C9  EZR A 300       3.622  20.747  35.751  1.00  0.00           C  
+HETATM   19  C11 EZR A 300       1.722  20.113  38.933  1.00  0.00           C  
+HETATM   20  C12 EZR A 300       2.209  20.663  37.688  1.00  0.00           C  
+HETATM   21  C14 EZR A 300      -1.391  16.580  44.805  1.00  0.00           C  
+HETATM   22  C16 EZR A 300      -1.261  14.452  43.691  1.00  0.00           C  
+HETATM   23  C18 EZR A 300       3.259  20.165  36.948  1.00  0.00           C  
+HETATM   24  C19 EZR A 300      -0.014  19.038  42.525  1.00  0.00           C  
+HETATM   25  C23 EZR A 300      -0.857  13.276  40.258  1.00  0.00           C  
+HETATM   26  C25 EZR A 300      -0.231  10.929  39.775  1.00  0.00           C  
+HETATM   27  N27 EZR A 300      -0.484  16.615  42.733  1.00  0.00           N  
+HETATM   28  N28 EZR A 300      -0.183  20.240  43.079  1.00  0.00           N  
+HETATM   29  N29 EZR A 300      -1.037  17.853  44.474  1.00  0.00           N  
+HETATM   30  N30 EZR A 300       0.317  21.072  42.156  1.00  0.00           N  
+HETATM   31  N31 EZR A 300      -0.912  13.634  42.598  1.00  0.00           N  
+HETATM   32  N32 EZR A 300       3.327  22.414  34.047  1.00  0.00           N  
+HETATM   33  N33 EZR A 300      -1.185  11.838  40.443  1.00  0.00           N1+
+HETATM   34  O34 EZR A 300       3.967  19.069  37.396  1.00  0.00           O  
+CONECT    1    4   20
+CONECT    1   20
+CONECT    2   15   21
+CONECT    2   15
+CONECT    3   15   22
+CONECT    3   22
+CONECT    4    1    9
+CONECT    4    9
+CONECT    5    8   19
+CONECT    5    8
+CONECT    6    8   16   24
+CONECT    6   16
+CONECT    7   21   22   27
+CONECT    7   21
+CONECT    8    5    6   30
+CONECT    8    5
+CONECT    9    4   18   32
+CONECT    9    4
+CONECT   10   24   27   29
+CONECT   10   27
+CONECT   11   25   31
+CONECT   12   13   31
+CONECT   13   12   33
+CONECT   14   34
+CONECT   15    2    3
+CONECT   15    2
+CONECT   16    6   17
+CONECT   16    6
+CONECT   17   16   19
+CONECT   17   19
+CONECT   18    9   23
+CONECT   18   23
+CONECT   19    5   17   20
+CONECT   19   17
+CONECT   20    1   19   23
+CONECT   20    1
+CONECT   21    2    7   29
+CONECT   21    7
+CONECT   22    3    7   31
+CONECT   22    3
+CONECT   23   18   20   34
+CONECT   23   18
+CONECT   24    6   10   28
+CONECT   24   28
+CONECT   25   11   33
+CONECT   26   33
+CONECT   27    7   10
+CONECT   27   10
+CONECT   28   24   30
+CONECT   28   24
+CONECT   29   10   21
+CONECT   30    8   28
+CONECT   31   11   12   22
+CONECT   32    9
+CONECT   33   13   25   26
+CONECT   34   14   23
+ENDMDL
+END   

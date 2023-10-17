@@ -1,0 +1,84 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5t1h_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  Q75 A 420       3.641  18.423  39.068  1.00  0.00           C  
+HETATM    2  C2  Q75 A 420       3.597  17.987  37.700  1.00  0.00           C  
+HETATM    3  C3  Q75 A 420       2.756  15.860  38.499  1.00  0.00           C  
+HETATM    4  C7  Q75 A 420       2.352  13.338  42.019  1.00  0.00           C  
+HETATM    5  C8  Q75 A 420       1.547  15.665  41.977  1.00  0.00           C  
+HETATM    6  C9  Q75 A 420       0.833  16.863  42.403  1.00  0.00           C  
+HETATM    7  C10 Q75 A 420      -0.003  16.814  43.564  1.00  0.00           C  
+HETATM    8  C11 Q75 A 420      -0.687  17.940  43.985  1.00  0.00           C  
+HETATM    9  C12 Q75 A 420       0.306  19.084  42.111  1.00  0.00           C  
+HETATM   10  C13 Q75 A 420       0.233  20.384  41.618  1.00  0.00           C  
+HETATM   11  C14 Q75 A 420      -0.633  21.064  42.490  1.00  0.00           C  
+HETATM   12  C15 Q75 A 420       0.910  20.891  40.466  1.00  0.00           C  
+HETATM   13  C16 Q75 A 420      -1.788  16.837  45.982  1.00  0.00           C  
+HETATM   14  N4  Q75 A 420       1.472  21.252  39.537  1.00  0.00           N  
+HETATM   15  N3  Q75 A 420      -1.091  20.296  43.464  1.00  0.00           N  
+HETATM   16  N1  Q75 A 420      -0.511  19.076  43.228  1.00  0.00           N  
+HETATM   17  N5  Q75 A 420      -1.539  17.997  45.119  1.00  0.00           N  
+HETATM   18  C18 Q75 A 420      -0.886  16.584  47.127  1.00  0.00           C  
+HETATM   19  C17 Q75 A 420      -2.270  17.075  47.360  1.00  0.00           C  
+HETATM   20  N2  Q75 A 420       0.979  17.992  41.691  1.00  0.00           N  
+HETATM   21  S   Q75 A 420       1.347  14.285  43.008  1.00  0.00           S  
+HETATM   22  C6  Q75 A 420       2.831  14.012  40.950  1.00  0.00           C  
+HETATM   23  C5  Q75 A 420       2.374  15.364  40.908  1.00  0.00           C  
+HETATM   24  C4  Q75 A 420       2.791  16.262  39.816  1.00  0.00           C  
+HETATM   25  C   Q75 A 420       3.256  17.596  40.075  1.00  0.00           C  
+HETATM   26  N   Q75 A 420       3.145  16.702  37.501  1.00  0.00           N  
+HETATM   27  O   Q75 A 420       3.927  18.672  36.717  1.00  0.00           O  
+CONECT    1    2   25
+CONECT    1   25
+CONECT    2    1   26   27
+CONECT    2   27
+CONECT    3   24   26
+CONECT    3   24
+CONECT    4   21   22
+CONECT    4   22
+CONECT    5    6   21   23
+CONECT    5   23
+CONECT    6    5    7   20
+CONECT    6   20
+CONECT    7    6    8
+CONECT    7    8
+CONECT    8    7   16   17
+CONECT    8    7
+CONECT    9   10   16   20
+CONECT    9   10
+CONECT   10    9   11   12
+CONECT   10    9
+CONECT   11   10   15
+CONECT   11   15
+CONECT   12   10   14
+CONECT   12   14
+CONECT   12   14
+CONECT   13   17   18   19
+CONECT   14   12
+CONECT   14   12
+CONECT   14   12
+CONECT   15   11   16
+CONECT   15   11
+CONECT   16    8    9   15
+CONECT   17    8   13
+CONECT   18   13   19
+CONECT   19   13   18
+CONECT   20    6    9
+CONECT   20    6
+CONECT   21    4    5
+CONECT   22    4   23
+CONECT   22    4
+CONECT   23    5   22   24
+CONECT   23    5
+CONECT   24    3   23   25
+CONECT   24    3
+CONECT   25    1   24
+CONECT   25    1
+CONECT   26    2    3
+CONECT   27    2
+CONECT   27    2
+ENDMDL
+END   

@@ -1,0 +1,59 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7O5X
+MODEL        1
+ATOM      1  N   LYS A 122      15.534  24.730  -8.053  1.00  5.02           N1+
+ATOM      2  CA  LYS A 122      16.496  23.679  -8.383  1.00  6.03           C  
+ATOM      3  C   LYS A 122      15.858  22.300  -8.257  1.00  9.89           C  
+ATOM      4  O   LYS A 122      16.024  21.442  -9.133  1.00  5.22           O  
+ATOM      5  CB  LYS A 122      17.721  23.789  -7.469  1.00  7.23           C  
+ATOM      6  CG  LYS A 122      18.756  22.663  -7.626  1.00  7.59           C  
+ATOM      7  CD  LYS A 122      19.844  22.791  -6.566  1.00  6.30           C  
+ATOM      8  CE  LYS A 122      20.805  21.589  -6.601  1.00  7.26           C  
+ATOM      9  NZ  LYS A 122      21.927  21.792  -5.644  1.00 14.81           N1+
+TER      10      LYS A 122
+HETATM   11  C01 V3W A 302      21.687  20.984  -4.493  1.00 12.64           C  
+HETATM   12  C02 V3W A 302      22.627  21.098  -3.300  1.00 20.46           C  
+HETATM   13  C03 V3W A 302      23.696  21.981  -3.329  1.00 14.05           C  
+HETATM   14  C04 V3W A 302      24.545  22.060  -2.235  1.00 18.22           C  
+HETATM   15  C05 V3W A 302      24.318  21.266  -1.122  1.00 19.07           C  
+HETATM   16  C06 V3W A 302      25.261  21.372   0.087  1.00 22.14           C  
+HETATM   17  C08 V3W A 302      25.724  22.022   2.563  1.00 42.50           C  
+HETATM   18  C09 V3W A 302      25.119  22.211   3.961  1.00 54.74           C  
+HETATM   19  C10 V3W A 302      23.640  22.214   3.993  1.00 51.10           C  
+HETATM   20  C12 V3W A 302      23.589  21.919   6.342  1.00 51.70           C  
+HETATM   21  C13 V3W A 302      23.134  23.088   2.921  1.00 49.39           C  
+HETATM   22  C14 V3W A 302      23.396  22.414   1.582  1.00 32.69           C  
+HETATM   23  C16 V3W A 302      23.248  20.379  -1.100  1.00 35.70           C  
+HETATM   24  C17 V3W A 302      22.400  20.301  -2.191  1.00 30.42           C  
+HETATM   25  N07 V3W A 302      24.804  21.922   1.366  1.00 41.11           N  
+HETATM   26  O11 V3W A 302      23.158  22.661   5.233  1.00 57.78           O  
+HETATM   27  O15 V3W A 302      26.373  21.006  -0.032  1.00 27.75           O  
+CONECT   11    9   12
+CONECT   12   11   13   24
+CONECT   12   24
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   16   23
+CONECT   15   23
+CONECT   16   15   25   27
+CONECT   16   27
+CONECT   17   18   25
+CONECT   18   17   19
+CONECT   19   18   21   26
+CONECT   20   26
+CONECT   21   19   22
+CONECT   22   21   25
+CONECT   23   15   24
+CONECT   23   15
+CONECT   24   12   23
+CONECT   24   12
+CONECT   25   16   17   22
+CONECT   26   19   20
+CONECT   27   16
+CONECT   27   16
+ENDMDL
+END   

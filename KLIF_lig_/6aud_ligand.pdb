@@ -1,0 +1,90 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6aud_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C7  BWY A1201       4.497  19.489  37.128  1.00  0.00           C  
+HETATM    2  N8  BWY A1201       4.702  18.309  37.647  1.00  0.00           N  
+HETATM    3  C9  BWY A1201       2.491  19.965  40.056  1.00  0.00           C  
+HETATM    4  C2  BWY A1201       3.955  17.088  39.749  1.00  0.00           C  
+HETATM    5  C10 BWY A1201       2.008  21.230  40.066  1.00  0.00           C  
+HETATM    6  C1  BWY A1201       4.942  16.050  39.210  1.00  0.00           C  
+HETATM    7  C12 BWY A1201       1.267  20.167  41.855  1.00  0.00           C  
+HETATM    8  C14 BWY A1201       0.576  19.806  43.133  1.00  0.00           C  
+HETATM    9  C15 BWY A1201       0.449  18.463  43.472  1.00  0.00           C  
+HETATM   10  C16 BWY A1201      -0.177  18.078  44.645  1.00  0.00           C  
+HETATM   11  C17 BWY A1201      -0.687  19.036  45.500  1.00  0.00           C  
+HETATM   12  C18 BWY A1201      -0.572  20.375  45.193  1.00  0.00           C  
+HETATM   13  C19 BWY A1201       0.059  20.770  44.030  1.00  0.00           C  
+HETATM   14  C21 BWY A1201      -0.500  22.504  42.559  1.00  0.00           C  
+HETATM   15  C22 BWY A1201       0.566  22.643  41.489  1.00  0.00           C  
+HETATM   16  C25 BWY A1201       0.449  16.203  46.682  1.00  0.00           C  
+HETATM   17  C26 BWY A1201      -0.544  16.529  47.798  1.00  0.00           C  
+HETATM   18  C27 BWY A1201       0.204  16.487  49.132  1.00  0.00           C  
+HETATM   19  C29 BWY A1201       1.631  14.694  48.275  1.00  0.00           C  
+HETATM   20  C3  BWY A1201       2.561  16.461  39.755  1.00  0.00           C  
+HETATM   21  C30 BWY A1201       0.915  14.765  46.921  1.00  0.00           C  
+HETATM   22  C31 BWY A1201       1.423  15.036  50.697  1.00  0.00           C  
+HETATM   23  C32 BWY A1201       2.937  15.244  50.579  1.00  0.00           C  
+HETATM   24  C33 BWY A1201       0.878  16.077  51.683  1.00  0.00           C  
+HETATM   25  C34 BWY A1201       1.152  13.644  51.271  1.00  0.00           C  
+HETATM   26  C5  BWY A1201       3.373  19.454  38.984  1.00  0.00           C  
+HETATM   27  N11 BWY A1201       1.243  21.386  41.169  1.00  0.00           N  
+HETATM   28  N13 BWY A1201       2.017  19.350  41.160  1.00  0.00           N  
+HETATM   29  N28 BWY A1201       0.762  15.147  49.377  1.00  0.00           N1+
+HETATM   30  N4  BWY A1201       3.986  18.248  38.853  1.00  0.00           N  
+HETATM   31  N6  BWY A1201       3.698  20.177  37.931  1.00  0.00           N  
+HETATM   32  O20 BWY A1201       0.157  22.073  43.735  1.00  0.00           O  
+HETATM   33  O24 BWY A1201       0.473  15.738  44.064  1.00  0.00           O1-
+HETATM   34  S23 BWY A1201      -0.336  16.365  45.049  1.00  0.00           S1+
+CONECT    1    2   31
+CONECT    1    2
+CONECT    2    1   30
+CONECT    2    1
+CONECT    3    5   26   28
+CONECT    3    5
+CONECT    4    6   20   30
+CONECT    5    3   27
+CONECT    5    3
+CONECT    6    4
+CONECT    7    8   27   28
+CONECT    7   28
+CONECT    8    7    9   13
+CONECT    8   13
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11   34
+CONECT   10    9
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13    8   12   32
+CONECT   13    8
+CONECT   14   15   32
+CONECT   15   14   27
+CONECT   16   17   21   34
+CONECT   17   16   18
+CONECT   18   17   29
+CONECT   19   21   29
+CONECT   20    4
+CONECT   21   16   19
+CONECT   22   23   24   25   29
+CONECT   23   22
+CONECT   24   22
+CONECT   25   22
+CONECT   26    3   30   31
+CONECT   26   31
+CONECT   27    5    7   15
+CONECT   28    3    7
+CONECT   28    7
+CONECT   29   18   19   22
+CONECT   30    2    4   26
+CONECT   31    1   26
+CONECT   31   26
+CONECT   32   13   14
+CONECT   33   34
+CONECT   34   10   16   33
+ENDMDL
+END   

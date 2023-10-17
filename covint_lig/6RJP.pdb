@@ -1,0 +1,36 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6RJP
+MODEL        1
+ATOM      1  N   CYS B  55      41.037 -73.137 -10.236  1.00221.62           N1+
+ATOM      2  CA  CYS B  55      41.688 -72.035 -10.959  1.00220.37           C  
+ATOM      3  C   CYS B  55      42.327 -71.055  -9.956  1.00222.61           C  
+ATOM      4  O   CYS B  55      43.503 -70.721 -10.092  1.00231.39           O  
+ATOM      5  CB  CYS B  55      40.625 -71.274 -11.800  1.00214.16           C  
+ATOM      6  SG  CYS B  55      41.395 -70.080 -12.956  1.00204.29           S  
+TER       7      CYS B  55
+HETATM    8  N   LV8 D   1      38.137 -67.224 -18.680  1.00202.87           N1+
+HETATM    9  CA  LV8 D   1      37.961 -67.516 -17.225  1.00188.53           C  
+HETATM   10  CB  LV8 D   1      39.367 -67.762 -16.607  1.00181.40           C  
+HETATM   11  NG  LV8 D   1      39.367 -68.284 -15.235  1.00173.19           N  
+HETATM   12  CD  LV8 D   1      40.172 -67.871 -14.238  1.00166.36           C  
+HETATM   13  OD2 LV8 D   1      40.878 -66.866 -14.318  1.00156.23           O  
+HETATM   14  CE  LV8 D   1      40.185 -68.712 -12.952  1.00171.16           C  
+HETATM   15  C   LV8 D   1      37.130 -66.490 -16.423  1.00183.49           C  
+HETATM   16  O   LV8 D   1      36.028 -66.825 -15.993  1.00183.69           O  
+CONECT    8    9
+CONECT    9    8   10   15
+CONECT   10    9   11
+CONECT   11   10   12
+CONECT   12   11   13   14
+CONECT   12   13
+CONECT   13   12
+CONECT   13   12
+CONECT   14    6   12
+CONECT   15    9   16
+CONECT   15   16
+CONECT   16   15
+CONECT   16   15
+ENDMDL
+END   

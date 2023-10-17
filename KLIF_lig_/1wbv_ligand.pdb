@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1wbv_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  F1  LI3 A1355       3.981  24.240  29.287  1.00  0.00           F  
+HETATM    2  C2  LI3 A1355       2.956  24.099  30.155  1.00  0.00           C  
+HETATM    3  C3  LI3 A1355       1.658  24.253  29.703  1.00  0.00           C  
+HETATM    4  C4  LI3 A1355       0.570  24.085  30.573  1.00  0.00           C  
+HETATM    5  C5  LI3 A1355       0.827  23.793  31.917  1.00  0.00           C  
+HETATM    6  C6  LI3 A1355       2.138  23.639  32.380  1.00  0.00           C  
+HETATM    7  C7  LI3 A1355       3.205  23.800  31.488  1.00  0.00           C  
+HETATM    8  C8  LI3 A1355       2.352  23.340  33.828  1.00  0.00           C  
+HETATM    9  O9  LI3 A1355       1.421  22.876  34.479  1.00  0.00           O  
+HETATM   10  N10 LI3 A1355       3.555  23.642  34.397  1.00  0.00           N  
+HETATM   11  C11 LI3 A1355       3.867  23.441  35.765  1.00  0.00           C  
+HETATM   12  C12 LI3 A1355       3.604  22.228  36.413  1.00  0.00           C  
+HETATM   13  C13 LI3 A1355       3.914  22.045  37.748  1.00  0.00           C  
+HETATM   14  C14 LI3 A1355       4.521  23.079  38.471  1.00  0.00           C  
+HETATM   15  N15 LI3 A1355       4.954  23.207  39.779  1.00  0.00           N  
+HETATM   16  C17 LI3 A1355       5.487  24.452  39.967  1.00  0.00           C  
+HETATM   17  C18 LI3 A1355       5.431  25.145  38.825  1.00  0.00           C  
+HETATM   18  C19 LI3 A1355       4.806  24.295  37.820  1.00  0.00           C  
+HETATM   19  C20 LI3 A1355       4.476  24.472  36.467  1.00  0.00           C  
+HETATM   20  N21 LI3 A1355      -0.747  24.264  30.097  1.00  0.00           N  
+HETATM   21  C22 LI3 A1355      -1.847  24.020  31.051  1.00  0.00           C  
+HETATM   22  C23 LI3 A1355      -3.143  24.544  30.443  1.00  0.00           C  
+HETATM   23  O24 LI3 A1355      -3.378  23.947  29.156  1.00  0.00           O  
+HETATM   24  C25 LI3 A1355      -2.320  24.308  28.259  1.00  0.00           C  
+HETATM   25  C26 LI3 A1355      -1.025  23.683  28.769  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3    7
+CONECT    2    7
+CONECT    3    2    4
+CONECT    3    4
+CONECT    4    3    5   20
+CONECT    4    3
+CONECT    5    4    6
+CONECT    5    6
+CONECT    6    5    7    8
+CONECT    6    5
+CONECT    7    2    6
+CONECT    7    2
+CONECT    8    6    9   10
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8   11
+CONECT   11   10   12   19
+CONECT   11   19
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15   18
+CONECT   14   18
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   14   17   19
+CONECT   18   14
+CONECT   19   11   18
+CONECT   19   11
+CONECT   20    4   21   25
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   20   24
+ENDMDL
+END   

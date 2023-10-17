@@ -1,0 +1,78 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3rin_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CAA I2O A 401       5.836  21.442  39.659  1.00  0.00           C  
+HETATM    2  CAB I2O A 401       4.933  20.808  40.556  1.00  0.00           C  
+HETATM    3  CAC I2O A 401       3.818  20.107  40.050  1.00  0.00           C  
+HETATM    4  CAD I2O A 401       3.632  20.061  38.645  1.00  0.00           C  
+HETATM    5  CAE I2O A 401       4.529  20.656  37.725  1.00  0.00           C  
+HETATM    6  CAF I2O A 401       5.633  21.381  38.274  1.00  0.00           C  
+HETATM    7  CAG I2O A 401       5.167  20.901  42.082  1.00  0.00           C  
+HETATM    8  CAH I2O A 401       4.232  20.613  36.198  1.00  0.00           C  
+HETATM    9  NAI I2O A 401       5.227  20.696  35.309  1.00  0.00           N  
+HETATM   10  CAJ I2O A 401       4.886  20.709  33.900  1.00  0.00           C  
+HETATM   11  CAK I2O A 401       4.095  21.949  33.459  1.00  0.00           C  
+HETATM   12  CAL I2O A 401       5.551  21.800  33.022  1.00  0.00           C  
+HETATM   13  OAM I2O A 401       3.079  20.616  35.793  1.00  0.00           O  
+HETATM   14  CAN I2O A 401       2.839  19.453  40.878  1.00  0.00           C  
+HETATM   15  CAO I2O A 401       1.938  20.265  41.554  1.00  0.00           C  
+HETATM   16  CAP I2O A 401       0.924  19.778  42.366  1.00  0.00           C  
+HETATM   17  CAQ I2O A 401       0.766  18.401  42.499  1.00  0.00           C  
+HETATM   18  CAR I2O A 401       1.653  17.521  41.805  1.00  0.00           C  
+HETATM   19  CAS I2O A 401       2.679  18.056  40.991  1.00  0.00           C  
+HETATM   20  NAT I2O A 401       0.010  20.470  43.064  1.00  0.00           N  
+HETATM   21  CAU I2O A 401      -0.838  19.636  43.692  1.00  0.00           C  
+HETATM   22  CAV I2O A 401      -0.469  18.197  43.441  1.00  0.00           C  
+HETATM   23  OAW I2O A 401      -1.809  19.979  44.355  1.00  0.00           O  
+HETATM   24  CAX I2O A 401      -0.223  17.394  44.740  1.00  0.00           C  
+HETATM   25  CAY I2O A 401      -1.618  16.808  45.014  1.00  0.00           C  
+HETATM   26  CAZ I2O A 401      -2.049  16.330  43.644  1.00  0.00           C  
+HETATM   27  CBA I2O A 401      -1.674  17.499  42.716  1.00  0.00           C  
+CONECT    1    2    6
+CONECT    1    6
+CONECT    2    1    3    7
+CONECT    2    3
+CONECT    3    2    4   14
+CONECT    3    2
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4    6    8
+CONECT    5    4
+CONECT    6    1    5
+CONECT    6    1
+CONECT    7    2
+CONECT    8    5    9   13
+CONECT    8   13
+CONECT    9    8   10
+CONECT   10    9   11   12
+CONECT   11   10   12
+CONECT   12   10   11
+CONECT   13    8
+CONECT   13    8
+CONECT   14    3   15   19
+CONECT   14   19
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16   15   17   20
+CONECT   16   15
+CONECT   17   16   18   22
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   14   18
+CONECT   19   14
+CONECT   20   16   21
+CONECT   21   20   22   23
+CONECT   21   23
+CONECT   22   17   21   24   27
+CONECT   23   21
+CONECT   23   21
+CONECT   24   22   25
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   27   22   26
+ENDMDL
+END   

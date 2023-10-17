@@ -1,0 +1,37 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7D9W
+MODEL        1
+ATOM      1  N   THR B 364      -1.283 -29.270  97.999  1.00 27.43           N1+
+ATOM      2  CA  THR B 364      -2.263 -30.234  98.488  1.00 22.75           C  
+ATOM      3  C   THR B 364      -1.574 -31.212  99.442  1.00 23.11           C  
+ATOM      4  O   THR B 364      -0.380 -31.480  99.324  1.00 22.83           O  
+ATOM      5  CB  THR B 364      -2.916 -31.021  97.327  1.00 23.97           C  
+ATOM      6  OG1 THR B 364      -3.387 -30.107  96.325  1.00 25.68           O  
+ATOM      7  CG2 THR B 364      -4.097 -31.868  97.811  1.00 21.30           C  
+TER       8      THR B 364
+HETATM    9  O   DON B 601      -7.598 -27.951  93.654  1.00 21.78           O  
+HETATM   10  C   DON B 601      -6.667 -28.403  92.992  1.00 25.49           C  
+HETATM   11  OXT DON B 601      -6.954 -29.356  92.062  1.00 22.28           O1-
+HETATM   12  CA  DON B 601      -5.196 -28.023  93.130  1.00 30.03           C  
+HETATM   13  N   DON B 601      -5.032 -26.658  93.563  1.00 23.14           N1+
+HETATM   14  CB  DON B 601      -4.576 -29.072  94.062  1.00 25.71           C  
+HETATM   15  C1E DON B 601      -3.306 -28.614  94.728  1.00 24.65           C  
+HETATM   16  C1D DON B 601      -2.568 -29.805  95.263  1.00 34.20           C  
+HETATM   17  O1J DON B 601      -2.227 -30.772  94.563  1.00 30.47           O  
+CONECT    9   10
+CONECT    9   10
+CONECT   10    9   11   12
+CONECT   10    9
+CONECT   11   10
+CONECT   12   10   13   14
+CONECT   13   12
+CONECT   14   12   15
+CONECT   15   14   16
+CONECT   16    6   15   17
+CONECT   16   17
+CONECT   17   16
+CONECT   17   16
+ENDMDL
+END   

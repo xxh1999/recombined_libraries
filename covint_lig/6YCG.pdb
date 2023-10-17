@@ -1,0 +1,65 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6YCG
+MODEL        1
+ATOM      1  N   CYS B  26     -28.573  19.198 -23.353  1.00 12.58           N1+
+ATOM      2  CA  CYS B  26     -29.193  19.299 -22.000  1.00 13.08           C  
+ATOM      3  C   CYS B  26     -30.230  18.187 -21.801  1.00 10.98           C  
+ATOM      4  O   CYS B  26     -30.361  17.681 -20.694  1.00 12.73           O  
+ATOM      5  CB  CYS B  26     -29.818  20.677 -21.769  1.00 12.32           C  
+ATOM      6  SG  CYS B  26     -31.147  21.066 -22.921  1.00 14.66           S  
+TER       7      CYS B  26
+HETATM    8  S   TCK B 304     -33.069  21.042 -26.358  0.50 17.35           S  
+HETATM    9  O1S TCK B 304     -32.389  19.854 -26.077  0.50 20.65           O  
+HETATM   10  O2S TCK B 304     -33.694  21.016 -27.692  0.50 21.63           O  
+HETATM   11  C1  TCK B 304     -34.216  21.369 -25.294  0.50 15.98           C  
+HETATM   12  C2  TCK B 304     -34.390  20.746 -24.090  0.50 17.03           C  
+HETATM   13  C3  TCK B 304     -35.345  21.127 -23.214  0.50 14.48           C  
+HETATM   14  C4  TCK B 304     -36.250  22.068 -23.580  0.50 13.00           C  
+HETATM   15  C5  TCK B 304     -36.138  22.659 -24.775  0.50 11.76           C  
+HETATM   16  C6  TCK B 304     -35.129  22.324 -25.637  0.50 17.78           C  
+HETATM   17  C7  TCK B 304     -37.393  22.507 -22.668  0.50 14.80           C  
+HETATM   18  N   TCK B 304     -32.016  22.242 -26.025  0.50 19.22           N  
+HETATM   19  CA  TCK B 304     -30.577  22.076 -26.086  0.50 15.69           C  
+HETATM   20  C   TCK B 304     -29.892  22.145 -24.734  0.50 17.70           C  
+HETATM   21  O   TCK B 304     -28.736  21.820 -24.619  0.50 17.26           O  
+HETATM   22  CB  TCK B 304     -30.037  23.202 -27.014  0.50 17.75           C  
+HETATM   23  CG  TCK B 304     -30.405  22.920 -28.483  0.50 25.43           C  
+HETATM   24  CD  TCK B 304     -29.959  24.030 -29.413  0.50 28.84           C  
+HETATM   25  CE  TCK B 304     -30.739  24.013 -30.736  0.50 36.01           C  
+HETATM   26  NZ  TCK B 304     -32.211  23.940 -30.617  0.50 27.90           N1+
+HETATM   27  CM  TCK B 304     -30.591  22.572 -23.465  0.50 15.81           C  
+CONECT    8    9   10   11   18
+CONECT    8    9   10
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8
+CONECT   10    8
+CONECT   11    8   12   16
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15   17
+CONECT   14   13
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16   11   15
+CONECT   16   15
+CONECT   17   14
+CONECT   18    8   19
+CONECT   19   18   20   22
+CONECT   20   19   21   27
+CONECT   20   21
+CONECT   21   20
+CONECT   21   20
+CONECT   22   19   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26   25
+CONECT   27    6   20
+ENDMDL
+END   

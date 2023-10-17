@@ -1,0 +1,90 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5usq_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  Q8L A 500       5.973  23.421  39.535  1.00  0.00           C  
+HETATM    2  C5  Q8L A 500       5.276  23.106  38.370  1.00  0.00           C  
+HETATM    3  C7  Q8L A 500       4.503  21.964  38.294  1.00  0.00           C  
+HETATM    4  C8  Q8L A 500       4.421  21.101  39.393  1.00  0.00           C  
+HETATM    5  C10 Q8L A 500       2.850  19.438  40.370  1.00  0.00           C  
+HETATM    6  N12 Q8L A 500       1.309  17.851  41.365  1.00  0.00           N  
+HETATM    7  C13 Q8L A 500       0.628  18.617  42.315  1.00  0.00           C  
+HETATM    8  C15 Q8L A 500      -0.255  20.656  43.283  1.00  0.00           C  
+HETATM    9  C17 Q8L A 500      -0.690  18.680  44.467  1.00  0.00           C  
+HETATM   10  C20 Q8L A 500      -0.973  15.273  45.710  1.00  0.00           C  
+HETATM   11  C21 Q8L A 500      -0.830  14.047  44.784  1.00  0.00           C  
+HETATM   12  C22 Q8L A 500      -0.937  12.751  45.610  1.00  0.00           C  
+HETATM   13  C26 Q8L A 500      -1.849  14.044  43.626  1.00  0.00           C  
+HETATM   14  C28 Q8L A 500       0.040  17.908  43.449  1.00  0.00           C  
+HETATM   15  F1  Q8L A 500       5.079  20.642  41.667  1.00  0.00           F  
+HETATM   16  C2  Q8L A 500       5.124  21.433  40.577  1.00  0.00           C  
+HETATM   17  C3  Q8L A 500       5.897  22.588  40.641  1.00  0.00           C  
+HETATM   18 CL6  Q8L A 500       5.367  24.140  36.988  1.00  0.00          Cl  
+HETATM   19  C9  Q8L A 500       3.558  19.896  39.263  1.00  0.00           C  
+HETATM   20  C11 Q8L A 500       2.013  18.326  40.258  1.00  0.00           C  
+HETATM   21  C14 Q8L A 500       0.452  20.001  42.274  1.00  0.00           C  
+HETATM   22  N16 Q8L A 500      -0.785  20.022  44.310  1.00  0.00           N  
+HETATM   23  C18 Q8L A 500      -1.126  17.755  45.400  1.00  0.00           C  
+HETATM   24  N19 Q8L A 500      -0.713  16.536  45.005  1.00  0.00           N  
+HETATM   25  C23 Q8L A 500      -0.802  11.515  44.704  1.00  0.00           C  
+HETATM   26  N24 Q8L A 500      -1.721  11.580  43.544  1.00  0.00           N1+
+HETATM   27  C25 Q8L A 500      -1.577  12.815  42.740  1.00  0.00           C  
+HETATM   28  N27 Q8L A 500       0.001  16.651  43.807  1.00  0.00           N  
+HETATM   29  C29 Q8L A 500       1.912  17.686  39.011  1.00  0.00           C  
+HETATM   30  C30 Q8L A 500       2.638  18.193  37.940  1.00  0.00           C  
+HETATM   31  N31 Q8L A 500       3.421  19.260  38.092  1.00  0.00           N  
+CONECT    1    2   17
+CONECT    1   17
+CONECT    2    1    3   18
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3   16   19
+CONECT    4   16
+CONECT    5   19   20
+CONECT    5   20
+CONECT    6    7   20
+CONECT    7    6   14   21
+CONECT    7   21
+CONECT    8   21   22
+CONECT    8   22
+CONECT    9   14   22   23
+CONECT    9   23
+CONECT   10   11   24
+CONECT   11   10   12   13
+CONECT   12   11   25
+CONECT   13   11   27
+CONECT   14    7    9   28
+CONECT   14   28
+CONECT   15   16
+CONECT   16    4   15   17
+CONECT   16    4
+CONECT   17    1   16
+CONECT   17    1
+CONECT   18    2
+CONECT   19    4    5   31
+CONECT   19   31
+CONECT   20    5    6   29
+CONECT   20    5
+CONECT   21    7    8
+CONECT   21    7
+CONECT   22    8    9
+CONECT   22    8
+CONECT   23    9   24
+CONECT   23    9
+CONECT   24   10   23   28
+CONECT   25   12   26
+CONECT   26   25   27
+CONECT   27   13   26
+CONECT   28   14   24
+CONECT   28   14
+CONECT   29   20   30
+CONECT   29   30
+CONECT   30   29   31
+CONECT   30   29
+CONECT   31   19   30
+CONECT   31   19
+ENDMDL
+END   

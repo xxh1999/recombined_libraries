@@ -1,0 +1,67 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6G9S
+MODEL        1
+ATOM      1  N   SER A 330      12.941  38.363  42.030  1.00 23.36           N1+
+ATOM      2  CA  SER A 330      12.098  37.966  40.905  1.00 20.71           C  
+ATOM      3  C   SER A 330      12.435  38.663  39.571  1.00 22.51           C  
+ATOM      4  O   SER A 330      11.954  38.202  38.536  1.00 22.46           O  
+ATOM      5  CB  SER A 330      10.632  38.276  41.236  1.00 30.40           C  
+ATOM      6  OG  SER A 330      10.079  37.498  42.285  1.00 33.97           O  
+TER       7      SER A 330
+HETATM    8  N1  ET5 A 701       9.009  37.396  44.273  1.00 44.82           N  
+HETATM    9  C1  ET5 A 701       7.760  37.028  43.601  1.00 38.94           C  
+HETATM   10  C2  ET5 A 701       8.945  36.299  46.529  1.00 47.70           C  
+HETATM   11  C3  ET5 A 701       3.763  39.841  46.839  1.00 44.25           C  
+HETATM   12  C7  ET5 A 701       8.846  37.615  45.722  1.00 44.89           C  
+HETATM   13  C8  ET5 A 701       7.528  38.319  46.037  1.00 36.37           C  
+HETATM   14  C9  ET5 A 701       6.574  38.608  45.124  1.00 33.79           C  
+HETATM   15  C10 ET5 A 701       6.795  38.233  43.662  1.00 41.95           C  
+HETATM   16  C11 ET5 A 701       5.313  39.130  45.559  1.00 43.71           C  
+HETATM   17  C12 ET5 A 701       4.246  39.477  44.770  1.00 47.28           C  
+HETATM   18  C13 ET5 A 701      10.089  37.936  43.564  1.00 42.77           C  
+HETATM   19  N3  ET5 A 701       9.962  35.360  46.028  1.00 41.89           N1+
+HETATM   20  N4  ET5 A 701       7.332  39.356  42.888  1.00 57.29           N  
+HETATM   21  N5  ET5 A 701       3.253  39.952  45.612  1.00 51.30           N  
+HETATM   22  O3  ET5 A 701       6.343  40.399  42.882  1.00 69.54           O  
+HETATM   23  O4  ET5 A 701       6.689  41.717  44.976  1.00 61.13           O  
+HETATM   24  O5  ET5 A 701       8.084  42.171  42.994  1.00 67.44           O  
+HETATM   25  O6  ET5 A 701       5.681  42.793  42.989  1.00 76.18           O1-
+HETATM   26  O7  ET5 A 701       5.027  39.346  46.877  1.00 34.37           O  
+HETATM   27  O8  ET5 A 701      10.913  38.732  44.013  1.00 35.55           O  
+HETATM   28  S1  ET5 A 701       6.735  41.916  43.521  1.00 66.94           S  
+CONECT    8    9   12   18
+CONECT    9    8   15
+CONECT   10   12   19
+CONECT   11   21   26
+CONECT   11   21
+CONECT   12    8   10   13
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15   16
+CONECT   14   13
+CONECT   15    9   14   20
+CONECT   16   14   17   26
+CONECT   16   17
+CONECT   17   16   21
+CONECT   17   16
+CONECT   18    6    8   27
+CONECT   18   27
+CONECT   19   10
+CONECT   20   15   22
+CONECT   21   11   17
+CONECT   21   11
+CONECT   22   20   28
+CONECT   23   28
+CONECT   23   28
+CONECT   24   28
+CONECT   24   28
+CONECT   25   28
+CONECT   26   11   16
+CONECT   27   18
+CONECT   27   18
+CONECT   28   22   23   24   25
+CONECT   28   23   24
+ENDMDL
+END   

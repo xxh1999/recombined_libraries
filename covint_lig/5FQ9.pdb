@@ -1,0 +1,70 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5FQ9
+MODEL        1
+ATOM      1  N   SER A  67     -20.142  16.170  -2.935  1.00  9.61           N1+
+ATOM      2  CA  SER A  67     -19.667  15.471  -1.750  1.00 11.09           C  
+ATOM      3  C   SER A  67     -18.780  14.240  -2.009  1.00 10.55           C  
+ATOM      4  O   SER A  67     -18.182  13.765  -1.049  1.00 10.27           O  
+ATOM      5  CB  SER A  67     -20.862  15.075  -0.886  1.00 12.51           C  
+ATOM      6  OG  SER A  67     -21.560  16.242  -0.479  1.00 14.12           O  
+TER       7      SER A  67
+HETATM    8  O01 C6S A 300     -22.980  16.484  -2.401  1.00 10.56           O  
+HETATM    9  B02 C6S A 300     -22.963  16.420  -0.927  1.00 14.00           B1-
+HETATM   10  O03 C6S A 300     -23.726  15.212  -0.496  1.00 15.24           O  
+HETATM   11  C04 C6S A 300     -25.041  15.332  -0.125  1.00 16.02           C  
+HETATM   12  C05 C6S A 300     -25.405  16.433   0.674  1.00 15.16           C  
+HETATM   13  C06 C6S A 300     -24.328  17.442   1.003  1.00 15.03           C  
+HETATM   14  C07 C6S A 300     -23.553  17.795  -0.277  1.00 16.52           C  
+HETATM   15  N08 C6S A 300     -24.457  18.475  -1.207  1.00 16.30           N  
+HETATM   16  C09 C6S A 300     -24.794  19.772  -1.144  1.00 14.86           C  
+HETATM   17  O10 C6S A 300     -24.200  20.586  -0.438  1.00 18.06           O  
+HETATM   18  C11 C6S A 300     -26.019  20.203  -1.966  1.00 17.30           C  
+HETATM   19  C12 C6S A 300     -25.992  21.710  -2.307  1.00 15.57           C  
+HETATM   20  C13 C6S A 300     -27.250  22.142  -3.074  1.00 17.62           C  
+HETATM   21  C14 C6S A 300     -28.525  21.776  -2.302  1.00 17.43           C  
+HETATM   22  C15 C6S A 300     -28.563  20.274  -1.986  1.00 22.25           C  
+HETATM   23  C16 C6S A 300     -27.313  19.842  -1.206  1.00 21.12           C  
+HETATM   24  C17 C6S A 300     -26.740  16.624   1.069  1.00 21.28           C  
+HETATM   25  C18 C6S A 300     -27.723  15.706   0.657  1.00 21.14           C  
+HETATM   26  C19 C6S A 300     -27.368  14.609  -0.150  1.00 20.80           C  
+HETATM   27  C20 C6S A 300     -26.024  14.404  -0.545  1.00 16.19           C  
+HETATM   28  C21 C6S A 300     -25.682  13.231  -1.420  1.00 22.56           C  
+HETATM   29  O22 C6S A 300     -26.611  12.644  -2.010  1.00 28.36           O1-
+HETATM   30  O23 C6S A 300     -24.494  12.862  -1.536  1.00 28.69           O  
+CONECT    8    9
+CONECT    9    6    8   10   14
+CONECT   10    9   11
+CONECT   11   10   12   27
+CONECT   11   27
+CONECT   12   11   13   24
+CONECT   12   24
+CONECT   13   12   14
+CONECT   14    9   13   15
+CONECT   15   14   16
+CONECT   16   15   17   18
+CONECT   16   17
+CONECT   17   16
+CONECT   17   16
+CONECT   18   16   19   23
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   23   18   22
+CONECT   24   12   25
+CONECT   24   12
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   11   26   28
+CONECT   27   11
+CONECT   28   27   29   30
+CONECT   28   30
+CONECT   29   28
+CONECT   30   28
+CONECT   30   28
+ENDMDL
+END   

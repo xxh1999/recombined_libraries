@@ -1,0 +1,77 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7kke_ligand
+MODEL        1
+HETATM    1  C1  WJV A1201       0.384  22.773  41.433  1.00  0.00           C  
+HETATM    2  C11 WJV A1201      -2.176  19.172  48.753  1.00  0.00           C  
+HETATM    3  C12 WJV A1201      -2.311  19.946  50.070  1.00  0.00           C  
+HETATM    4  C14 WJV A1201      -0.326  21.263  50.474  1.00  0.00           C  
+HETATM    5  C15 WJV A1201      -0.300  21.854  51.894  1.00  0.00           C  
+HETATM    6  C16 WJV A1201       0.481  23.178  52.002  1.00  0.00           C  
+HETATM    7  C17 WJV A1201       1.930  23.005  51.533  1.00  0.00           C  
+HETATM    8  C18 WJV A1201      -0.254  24.246  51.186  1.00  0.00           C  
+HETATM    9  C19 WJV A1201       0.576  23.650  53.457  1.00  0.00           C  
+HETATM   10  C2  WJV A1201       0.190  21.716  42.498  1.00  0.00           C  
+HETATM   11  C20 WJV A1201       1.618  20.060  41.382  1.00  0.00           C  
+HETATM   12  C21 WJV A1201       2.343  19.741  40.535  1.00  0.00           C  
+HETATM   13  C22 WJV A1201       3.233  19.390  39.484  1.00  0.00           C  
+HETATM   14  C23 WJV A1201       3.425  20.292  38.414  1.00  0.00           C  
+HETATM   15  C24 WJV A1201       4.327  19.941  37.431  1.00  0.00           C  
+HETATM   16  C26 WJV A1201       4.771  17.885  38.466  1.00  0.00           C  
+HETATM   17  C27 WJV A1201       3.941  18.175  39.529  1.00  0.00           C  
+HETATM   18  C3  WJV A1201       0.737  20.491  42.401  1.00  0.00           C  
+HETATM   19  C5  WJV A1201      -0.730  20.799  44.334  1.00  0.00           C  
+HETATM   20  C8  WJV A1201      -1.436  19.836  46.486  1.00  0.00           C  
+HETATM   21  N10 WJV A1201      -2.111  20.116  47.630  1.00  0.00           N  
+HETATM   22  N25 WJV A1201       4.931  18.759  37.472  1.00  0.00           N  
+HETATM   23  N6  WJV A1201      -0.600  21.830  43.545  1.00  0.00           N  
+HETATM   24  N7  WJV A1201      -1.412  20.806  45.536  1.00  0.00           N  
+HETATM   25  O13 WJV A1201      -1.671  21.225  49.990  1.00  0.00           O  
+HETATM   26  O9  WJV A1201      -0.909  18.743  46.335  1.00  0.00           O  
+HETATM   27  S4  WJV A1201       0.306  19.575  43.819  1.00  0.00           S  
+CONECT    1   10
+CONECT    2    3   21
+CONECT    3    2   25
+CONECT    4    5   25
+CONECT    5    4    6
+CONECT    6    5    7    8    9
+CONECT    7    6
+CONECT    8    6
+CONECT    9    6
+CONECT   10    1   18   23
+CONECT   10   18
+CONECT   11   12   18
+CONECT   11   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   12   11
+CONECT   13   12   14   17
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   22
+CONECT   15   22
+CONECT   16   17   22
+CONECT   16   17
+CONECT   17   13   16
+CONECT   17   16
+CONECT   18   10   11   27
+CONECT   18   10
+CONECT   19   23   24   27
+CONECT   19   23
+CONECT   20   21   24   26
+CONECT   20   26
+CONECT   21    2   20
+CONECT   22   15   16
+CONECT   22   15
+CONECT   23   10   19
+CONECT   23   19
+CONECT   24   19   20
+CONECT   25    3    4
+CONECT   26   20
+CONECT   26   20
+CONECT   27   18   19
+ENDMDL
+END   

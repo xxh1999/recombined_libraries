@@ -1,0 +1,102 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3SN8
+MODEL        1
+ATOM      1  N   CYS A 145      11.194  -5.220  23.842  1.00 21.83           N1+
+ATOM      2  CA  CYS A 145      11.519  -5.585  22.462  1.00 22.61           C  
+ATOM      3  C   CYS A 145      10.925  -6.952  22.111  1.00 21.59           C  
+ATOM      4  O   CYS A 145      10.925  -7.864  22.938  1.00 23.42           O  
+ATOM      5  CB  CYS A 145      13.040  -5.586  22.248  1.00 22.76           C  
+ATOM      6  SG  CYS A 145      13.607  -3.874  22.349  1.00 27.12           S  
+TER       7      CYS A 145
+HETATM    8  CAZ S89 A 307      16.823   1.349  22.940  1.00 39.16           C  
+HETATM    9  OAB S89 A 307      15.818   1.388  22.235  1.00 31.62           O  
+HETATM   10  CAE S89 A 307      17.187   2.372  23.899  1.00 42.96           C  
+HETATM   11  CAF S89 A 307      16.772   3.629  23.661  1.00 47.96           C  
+HETATM   12  CBB S89 A 307      16.888   4.798  24.534  1.00 52.92           C  
+HETATM   13  CAP S89 A 307      17.129   4.673  25.918  1.00 53.40           C  
+HETATM   14  CAJ S89 A 307      17.170   5.820  26.734  1.00 55.15           C  
+HETATM   15  CAG S89 A 307      17.001   7.098  26.167  1.00 54.39           C  
+HETATM   16  CAK S89 A 307      16.787   7.231  24.783  1.00 55.87           C  
+HETATM   17  CAQ S89 A 307      16.725   6.083  23.972  1.00 53.84           C  
+HETATM   18  NAY S89 A 307      17.662   0.304  22.943  1.00 37.20           N  
+HETATM   19  CBF S89 A 307      17.392  -0.940  22.220  1.00 35.55           C  
+HETATM   20  CBA S89 A 307      16.795  -1.934  23.214  1.00 34.81           C  
+HETATM   21  OAC S89 A 307      17.456  -2.858  23.689  1.00 34.65           O  
+HETATM   22  CAW S89 A 307      18.684  -1.451  21.556  1.00 37.40           C  
+HETATM   23  CBD S89 A 307      18.932  -0.720  20.253  1.00 38.66           C  
+HETATM   24  CAU S89 A 307      18.166  -1.066  19.122  1.00 38.64           C  
+HETATM   25  CAT S89 A 307      19.869   0.331  20.172  1.00 40.89           C  
+HETATM   26  CAO S89 A 307      18.320  -0.351  17.923  1.00 39.38           C  
+HETATM   27  CAN S89 A 307      20.027   1.038  18.963  1.00 39.56           C  
+HETATM   28  CAI S89 A 307      19.248   0.703  17.840  1.00 42.29           C  
+HETATM   29  N   S89 A 307      15.516  -1.683  23.527  1.00 33.66           N  
+HETATM   30  CA  S89 A 307      14.679  -2.420  24.460  1.00 33.11           C  
+HETATM   31  C   S89 A 307      14.443  -3.864  23.962  1.00 31.18           C  
+HETATM   32  O   S89 A 307      13.780  -4.562  24.991  1.00 32.82           O  
+HETATM   33  CB  S89 A 307      13.347  -1.659  24.691  1.00 32.91           C  
+HETATM   34  CG  S89 A 307      13.417  -0.249  25.266  1.00 33.30           C  
+HETATM   35  CD1 S89 A 307      12.247   0.537  25.215  1.00 32.29           C  
+HETATM   36  CD2 S89 A 307      14.570   0.271  25.899  1.00 33.47           C  
+HETATM   37  CE1 S89 A 307      12.218   1.813  25.802  1.00 31.32           C  
+HETATM   38  CE2 S89 A 307      14.543   1.556  26.477  1.00 34.45           C  
+HETATM   39  CZ  S89 A 307      13.366   2.327  26.433  1.00 33.85           C  
+CONECT    8    9   10   18
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8   11
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   13   17
+CONECT   12   17
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   12   16
+CONECT   17   12
+CONECT   18    8   19
+CONECT   19   18   20   22
+CONECT   20   19   21   29
+CONECT   20   21
+CONECT   21   20
+CONECT   21   20
+CONECT   22   19   23
+CONECT   23   22   24   25
+CONECT   23   24
+CONECT   24   23   26
+CONECT   24   23
+CONECT   25   23   27
+CONECT   25   27
+CONECT   26   24   28
+CONECT   26   28
+CONECT   27   25   28
+CONECT   27   25
+CONECT   28   26   27
+CONECT   28   26
+CONECT   29   20   30
+CONECT   30   29   31   33
+CONECT   31    6   30   32
+CONECT   32   31
+CONECT   33   30   34
+CONECT   34   33   35   36
+CONECT   34   35
+CONECT   35   34   37
+CONECT   35   34
+CONECT   36   34   38
+CONECT   36   38
+CONECT   37   35   39
+CONECT   37   39
+CONECT   38   36   39
+CONECT   38   36
+CONECT   39   37   38
+CONECT   39   37
+ENDMDL
+END   

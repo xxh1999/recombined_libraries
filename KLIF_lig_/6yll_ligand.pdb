@@ -1,0 +1,71 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6yll_ligand
+MODEL        1
+HETATM    1  C1  OYB A 401      -0.193  18.874  43.690  1.00  0.00           C  
+HETATM    2  C3  OYB A 401      -0.055  20.855  42.477  1.00  0.00           C  
+HETATM    3  N6  OYB A 401       0.578  18.220  42.813  1.00  0.00           N  
+HETATM    4  C9  OYB A 401       2.449  17.213  40.388  1.00  0.00           C  
+HETATM    5  C10 OYB A 401       3.621  17.170  39.618  1.00  0.00           C  
+HETATM    6  C11 OYB A 401       2.552  14.800  40.636  1.00  0.00           C  
+HETATM    7  C12 OYB A 401       1.919  16.014  40.891  1.00  0.00           C  
+HETATM    8  C14 OYB A 401       3.707  14.762  39.844  1.00  0.00           C  
+HETATM    9  C15 OYB A 401       4.247  15.957  39.349  1.00  0.00           C  
+HETATM   10  C19 OYB A 401       4.066  12.840  38.407  1.00  0.00           C  
+HETATM   11  C20 OYB A 401      -0.938  16.481  46.503  1.00  0.00           C  
+HETATM   12  C21 OYB A 401      -1.186  14.981  46.758  1.00  0.00           C  
+HETATM   13  C22 OYB A 401      -2.479  14.533  46.053  1.00  0.00           C  
+HETATM   14  C24 OYB A 401      -2.110  16.295  44.261  1.00  0.00           C  
+HETATM   15  N25 OYB A 401      -2.727  13.107  46.304  1.00  0.00           N1+
+HETATM   16  N2  OYB A 401      -0.485  20.168  43.528  1.00  0.00           N  
+HETATM   17  C4  OYB A 401       0.754  20.211  41.524  1.00  0.00           C  
+HETATM   18  C5  OYB A 401       1.065  18.839  41.726  1.00  0.00           C  
+HETATM   19  N7  OYB A 401       1.847  18.469  40.650  1.00  0.00           N  
+HETATM   20  N8  OYB A 401       1.346  20.610  40.378  1.00  0.00           N  
+HETATM   21  N13 OYB A 401       1.986  19.624  39.854  1.00  0.00           N  
+HETATM   22  O16 OYB A 401       4.340  13.573  39.608  1.00  0.00           O  
+HETATM   23  N17 OYB A 401      -0.700  18.247  44.827  1.00  0.00           N  
+HETATM   24  C18 OYB A 401      -0.849  16.794  44.996  1.00  0.00           C  
+HETATM   25  C23 OYB A 401      -2.370  14.801  44.538  1.00  0.00           C  
+CONECT    1    3   16   23
+CONECT    1   16
+CONECT    2   16   17
+CONECT    2   17
+CONECT    3    1   18
+CONECT    3   18
+CONECT    4    5    7   19
+CONECT    4    7
+CONECT    5    4    9
+CONECT    5    9
+CONECT    6    7    8
+CONECT    6    8
+CONECT    7    4    6
+CONECT    7    4
+CONECT    8    6    9   22
+CONECT    8    6
+CONECT    9    5    8
+CONECT    9    5
+CONECT   10   22
+CONECT   11   12   24
+CONECT   12   11   13
+CONECT   13   12   15   25
+CONECT   14   24   25
+CONECT   15   13
+CONECT   16    1    2
+CONECT   16    1
+CONECT   17    2   18   20
+CONECT   17    2
+CONECT   18    3   17   19
+CONECT   18    3
+CONECT   19    4   18   21
+CONECT   20   17   21
+CONECT   20   21
+CONECT   21   19   20
+CONECT   21   20
+CONECT   22    8   10
+CONECT   23    1   24
+CONECT   24   11   14   23
+CONECT   25   13   14
+ENDMDL
+END   

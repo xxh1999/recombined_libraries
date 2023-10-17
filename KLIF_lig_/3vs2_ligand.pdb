@@ -1,0 +1,100 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3vs2_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CAX VSB B 601       1.336  10.754  41.448  1.00  0.00           C  
+HETATM    2  CAY VSB B 601       2.340   9.790  40.587  1.00  0.00           C  
+HETATM    3  NAZ VSB B 601       1.073   9.605  39.991  1.00  0.00           N1+
+HETATM    4  CBC VSB B 601       0.195   8.485  39.849  1.00  0.00           C  
+HETATM    5  CBA VSB B 601       1.047  11.069  39.376  1.00  0.00           C  
+HETATM    6  CBB VSB B 601       1.338  12.187  40.386  1.00  0.00           C  
+HETATM    7  NAW VSB B 601       0.347  11.953  41.266  1.00  0.00           N  
+HETATM    8  CAT VSB B 601      -0.268  12.420  42.540  1.00  0.00           C  
+HETATM    9  CAU VSB B 601      -0.811  13.216  41.255  1.00  0.00           C  
+HETATM   10  CAV VSB B 601      -1.612  14.044  41.953  1.00  0.00           C  
+HETATM   11  CAS VSB B 601       0.203  13.290  43.804  1.00  0.00           C  
+HETATM   12  CAR VSB B 601       0.528  14.581  43.453  1.00  0.00           C  
+HETATM   13  CAQ VSB B 601      -0.927  15.102  42.970  1.00  0.00           C  
+HETATM   14  NAG VSB B 601      -0.036  16.221  42.740  1.00  0.00           N  
+HETATM   15  CAH VSB B 601       0.678  16.537  41.675  1.00  0.00           C  
+HETATM   16  C4  VSB B 601      -0.282  17.419  43.317  1.00  0.00           C  
+HETATM   17  N3  VSB B 601      -1.050  17.809  44.346  1.00  0.00           N  
+HETATM   18  C2  VSB B 601      -1.064  19.053  44.820  1.00  0.00           C  
+HETATM   19  N1  VSB B 601      -0.328  20.017  44.299  1.00  0.00           N  
+HETATM   20  C6  VSB B 601       0.468  19.728  43.255  1.00  0.00           C  
+HETATM   21  NAK VSB B 601       1.190  20.735  42.761  1.00  0.00           N  
+HETATM   22  C5  VSB B 601       0.510  18.418  42.724  1.00  0.00           C  
+HETATM   23  CAI VSB B 601       1.255  17.747  41.742  1.00  0.00           C  
+HETATM   24  CAJ VSB B 601       2.099  18.319  40.753  1.00  0.00           C  
+HETATM   25  CAP VSB B 601       1.818  18.231  39.378  1.00  0.00           C  
+HETATM   26  CAO VSB B 601       2.609  18.886  38.410  1.00  0.00           C  
+HETATM   27  CAL VSB B 601       3.054  19.261  41.080  1.00  0.00           C  
+HETATM   28  CAM VSB B 601       3.905  19.844  40.153  1.00  0.00           C  
+HETATM   29  CAN VSB B 601       3.685  19.689  38.799  1.00  0.00           C  
+HETATM   30  OBD VSB B 601       4.547  20.365  37.970  1.00  0.00           O  
+HETATM   31  CBE VSB B 601       4.192  21.085  36.883  1.00  0.00           C  
+HETATM   32  CBF VSB B 601       3.066  21.884  36.958  1.00  0.00           C  
+HETATM   33  CBG VSB B 601       2.705  22.672  35.877  1.00  0.00           C  
+HETATM   34  CBH VSB B 601       3.491  22.685  34.733  1.00  0.00           C  
+HETATM   35  CBI VSB B 601       4.640  21.907  34.666  1.00  0.00           C  
+HETATM   36  CBJ VSB B 601       5.007  21.120  35.753  1.00  0.00           C  
+CONECT    1    2    7
+CONECT    2    1    3
+CONECT    3    2    4    5
+CONECT    4    3
+CONECT    5    3    6
+CONECT    6    5    7
+CONECT    7    1    6    8
+CONECT    8    7    9   11
+CONECT    9    8   10
+CONECT   10    9   13
+CONECT   11    8   12
+CONECT   12   11   13
+CONECT   13   10   12   14
+CONECT   14   13   15   16
+CONECT   15   14   23
+CONECT   15   23
+CONECT   16   14   17   22
+CONECT   16   22
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21   22
+CONECT   20   19
+CONECT   21   20
+CONECT   22   16   20   23
+CONECT   22   16
+CONECT   23   15   22   24
+CONECT   23   15
+CONECT   24   23   25   27
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26   25   29
+CONECT   26   29
+CONECT   27   24   28
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   26   28   30
+CONECT   29   26
+CONECT   30   29   31
+CONECT   31   30   32   36
+CONECT   31   36
+CONECT   32   31   33
+CONECT   32   33
+CONECT   33   32   34
+CONECT   33   32
+CONECT   34   33   35
+CONECT   34   35
+CONECT   35   34   36
+CONECT   35   34
+CONECT   36   31   35
+CONECT   36   31
+ENDMDL
+END   

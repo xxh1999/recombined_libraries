@@ -1,0 +1,90 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5cav_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C14 Q4Z A1101       2.067  15.170  42.882  1.00  0.00           C  
+HETATM    2  C5  Q4Z A1101      -0.551  17.708  45.444  1.00  0.00           C  
+HETATM    3  C6  Q4Z A1101      -0.732  19.036  45.836  1.00  0.00           C  
+HETATM    4  C8  Q4Z A1101       0.062  19.818  43.791  1.00  0.00           C  
+HETATM    5  C9  Q4Z A1101       0.296  18.513  43.330  1.00  0.00           C  
+HETATM    6  C10 Q4Z A1101      -0.015  17.421  44.160  1.00  0.00           C  
+HETATM    7  C12 Q4Z A1101       0.536  15.173  42.970  1.00  0.00           C  
+HETATM    8  C13 Q4Z A1101      -0.080  15.518  41.609  1.00  0.00           C  
+HETATM    9  C3  Q4Z A1101      -0.405  15.544  45.294  1.00  0.00           C  
+HETATM   10  C1  Q4Z A1101      -0.456  13.897  47.207  1.00  0.00           C  
+HETATM   11  C2  Q4Z A1101      -0.520  14.081  45.688  1.00  0.00           C  
+HETATM   12  N4  Q4Z A1101      -0.775  16.529  46.063  1.00  0.00           N  
+HETATM   13  N7  Q4Z A1101      -0.431  20.020  45.011  1.00  0.00           N  
+HETATM   14  N11 Q4Z A1101       0.049  16.028  44.084  1.00  0.00           N  
+HETATM   15  F15 Q4Z A1101       2.626  14.973  44.148  1.00  0.00           F  
+HETATM   16  F16 Q4Z A1101       2.456  14.102  42.064  1.00  0.00           F  
+HETATM   17  F17 Q4Z A1101       2.537  16.379  42.357  1.00  0.00           F  
+HETATM   18  N18 Q4Z A1101       0.356  20.988  43.079  1.00  0.00           N  
+HETATM   19  C19 Q4Z A1101       0.625  21.141  41.726  1.00  0.00           C  
+HETATM   20  C20 Q4Z A1101       0.240  22.331  41.084  1.00  0.00           C  
+HETATM   21  C21 Q4Z A1101       0.505  22.460  39.728  1.00  0.00           C  
+HETATM   22  N22 Q4Z A1101       1.130  21.474  39.086  1.00  0.00           N  
+HETATM   23  C23 Q4Z A1101       1.477  20.342  39.709  1.00  0.00           C  
+HETATM   24  N24 Q4Z A1101       1.263  20.204  41.019  1.00  0.00           N  
+HETATM   25  N25 Q4Z A1101       2.134  19.322  39.020  1.00  0.00           N  
+HETATM   26  C26 Q4Z A1101       1.929  17.927  39.455  1.00  0.00           C  
+HETATM   27  C27 Q4Z A1101       3.264  17.195  39.243  1.00  0.00           C  
+HETATM   28  C28 Q4Z A1101       3.742  17.369  37.782  1.00  0.00           C  
+HETATM   29  C29 Q4Z A1101       3.711  18.845  37.312  1.00  0.00           C  
+HETATM   30  C30 Q4Z A1101       2.335  19.455  37.566  1.00  0.00           C  
+HETATM   31  F31 Q4Z A1101       4.625  19.621  38.035  1.00  0.00           F  
+HETATM   32  O32 Q4Z A1101       5.081  16.857  37.675  1.00  0.00           O  
+HETATM   33  C33 Q4Z A1101       5.263  15.633  36.951  1.00  0.00           C  
+HETATM   34  O34 Q4Z A1101      -1.757  13.560  45.193  1.00  0.00           O  
+CONECT    1    7   15   16   17
+CONECT    2    3    6   12
+CONECT    2    6
+CONECT    3    2   13
+CONECT    3   13
+CONECT    4    5   13   18
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    2    5   14
+CONECT    6    2
+CONECT    7    1    8   14
+CONECT    8    7
+CONECT    9   11   12   14
+CONECT    9   12
+CONECT   10   11
+CONECT   11    9   10   34
+CONECT   12    2    9
+CONECT   12    9
+CONECT   13    3    4
+CONECT   13    3
+CONECT   14    6    7    9
+CONECT   15    1
+CONECT   16    1
+CONECT   17    1
+CONECT   18    4   19
+CONECT   19   18   20   24
+CONECT   19   24
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24   25
+CONECT   23   22
+CONECT   24   19   23
+CONECT   24   19
+CONECT   25   23   26   30
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   27   29   32
+CONECT   29   28   30   31
+CONECT   30   25   29
+CONECT   31   29
+CONECT   32   28   33
+CONECT   33   32
+CONECT   34   11
+ENDMDL
+END   

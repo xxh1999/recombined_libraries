@@ -1,0 +1,65 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5FAS
+MODEL        1
+ATOM      1  N   SER A  70       4.546  22.063   0.540  1.00 14.25           N1+
+ATOM      2  CA  SER A  70       4.817  21.108   1.611  1.00 15.45           C  
+ATOM      3  C   SER A  70       5.153  21.762   2.968  1.00 14.72           C  
+ATOM      4  O   SER A  70       5.166  21.045   3.965  1.00 14.11           O  
+ATOM      5  CB  SER A  70       5.989  20.196   1.212  1.00 16.06           C  
+ATOM      6  OG  SER A  70       5.744  19.385   0.066  1.00 17.50           O  
+TER       7      SER A  70
+HETATM    8  OAL 5VR A 301      10.519  20.291  -1.112  1.00 30.17           O1-
+HETATM    9  SAI 5VR A 301      10.738  19.187  -0.166  1.00 31.17           S  
+HETATM   10  OAJ 5VR A 301      12.133  18.733  -0.062  1.00 31.44           O  
+HETATM   11  OAK 5VR A 301      10.037  19.342   1.118  1.00 36.08           O  
+HETATM   12  OAH 5VR A 301       9.935  17.894  -0.874  1.00 33.81           O  
+HETATM   13  NAG 5VR A 301       8.519  17.977  -0.792  1.00 32.71           N  
+HETATM   14  CAE 5VR A 301       7.910  17.101  -1.773  1.00 21.46           C  
+HETATM   15  CAF 5VR A 301       8.404  17.385  -3.210  1.00 20.43           C  
+HETATM   16  CB  5VR A 301       7.967  18.783  -3.682  1.00 20.78           C  
+HETATM   17  CAD 5VR A 301       6.394  17.375  -1.659  1.00 18.86           C  
+HETATM   18  N   5VR A 301       6.111  18.760  -2.096  1.00 18.09           N  
+HETATM   19  CAM 5VR A 301       6.036  19.824  -1.181  1.00 16.82           C  
+HETATM   20  OAN 5VR A 301       6.246  21.007  -1.450  1.00 16.02           O  
+HETATM   21  CA  5VR A 301       6.451  19.025  -3.505  1.00 19.83           C  
+HETATM   22  C   5VR A 301       5.546  18.353  -4.549  1.00 23.70           C  
+HETATM   23  O   5VR A 301       4.667  17.559  -4.217  1.00 26.01           O  
+HETATM   24  NAQ 5VR A 301       5.745  18.717  -5.827  1.00 30.16           N  
+HETATM   25  NAR 5VR A 301       5.058  18.091  -6.885  1.00 34.73           N  
+HETATM   26  CAS 5VR A 301       3.800  18.423  -7.215  1.00 35.72           C  
+HETATM   27  OAU 5VR A 301       3.142  19.278  -6.623  1.00 38.39           O  
+HETATM   28  CAT 5VR A 301       3.177  17.650  -8.371  1.00 39.97           C  
+CONECT    8    9
+CONECT    9    8   10   11   12
+CONECT    9   10   11
+CONECT   10    9
+CONECT   10    9
+CONECT   11    9
+CONECT   11    9
+CONECT   12    9   13
+CONECT   13   12   14
+CONECT   14   13   15   17
+CONECT   15   14   16
+CONECT   16   15   21
+CONECT   17   14   18
+CONECT   18   17   19   21
+CONECT   19    6   18   20
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   16   18   22
+CONECT   22   21   23   24
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22   25
+CONECT   25   24   26
+CONECT   26   25   27   28
+CONECT   26   27
+CONECT   27   26
+CONECT   27   26
+CONECT   28   26
+ENDMDL
+END   

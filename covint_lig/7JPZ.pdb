@@ -1,0 +1,96 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7JPZ
+MODEL        1
+ATOM      1  N   CYS A 145     -11.220  -3.679   5.366  1.00 25.14           N1+
+ATOM      2  CA  CYS A 145     -12.641  -3.967   5.472  1.00 25.27           C  
+ATOM      3  C   CYS A 145     -12.881  -5.344   6.086  1.00 25.86           C  
+ATOM      4  O   CYS A 145     -12.175  -6.319   5.805  1.00 21.85           O  
+ATOM      5  CB  CYS A 145     -13.305  -3.863   4.098  1.00 29.24           C  
+ATOM      6  SG  CYS A 145     -13.392  -2.144   3.529  1.00 36.68           S  
+TER       7      CYS A 145
+HETATM    8  O1  GHX A 401     -11.677   2.594   4.956  1.00 55.09           O  
+HETATM    9  C34 GHX A 401     -10.926   2.591   3.993  1.00 58.12           C  
+HETATM   10  N33 GHX A 401      -9.816   3.310   3.864  1.00 57.92           N  
+HETATM   11  C32 GHX A 401      -9.085   3.018   2.647  1.00 60.61           C  
+HETATM   12  C31 GHX A 401      -9.902   1.941   1.937  1.00 54.82           C  
+HETATM   13  C30 GHX A 401     -11.161   1.746   2.779  1.00 50.57           C  
+HETATM   14  C29 GHX A 401     -11.349   0.279   3.156  1.00 52.42           C  
+HETATM   15  C26 GHX A 401     -11.817  -0.513   1.939  1.00 55.74           C  
+HETATM   16  C27 GHX A 401     -12.122  -1.984   2.251  1.00 49.59           C  
+HETATM   17  O28 GHX A 401     -10.981  -2.688   2.757  1.00 43.18           O  
+HETATM   18  N24 GHX A 401     -13.031   0.108   1.441  1.00 66.93           N  
+HETATM   19  C23 GHX A 401     -13.490  -0.109   0.208  1.00 75.72           C  
+HETATM   20  O25 GHX A 401     -12.769  -0.420  -0.730  1.00 76.77           O  
+HETATM   21  C15 GHX A 401     -14.969   0.070   0.001  1.00 79.14           C  
+HETATM   22  C16 GHX A 401     -15.392  -0.798  -1.191  1.00 80.89           C  
+HETATM   23  C17 GHX A 401     -16.875  -0.800  -1.537  1.00 82.74           C  
+HETATM   24  C22 GHX A 401     -17.357  -1.715  -2.473  1.00 78.76           C  
+HETATM   25  C21 GHX A 401     -18.701  -1.750  -2.834  1.00 64.13           C  
+HETATM   26  C20 GHX A 401     -19.583  -0.860  -2.243  1.00 69.04           C  
+HETATM   27  C19 GHX A 401     -19.117   0.057  -1.308  1.00 77.20           C  
+HETATM   28  C18 GHX A 401     -17.772   0.087  -0.955  1.00 81.16           C  
+HETATM   29  N13 GHX A 401     -15.299   1.475  -0.178  1.00 82.09           N  
+HETATM   30  C12 GHX A 401     -14.536   2.483   0.246  1.00 79.62           C  
+HETATM   31  O14 GHX A 401     -14.112   2.600   1.385  1.00 69.14           O  
+HETATM   32  O11 GHX A 401     -14.187   3.495  -0.730  1.00 84.53           O  
+HETATM   33  C10 GHX A 401     -13.475   4.658  -0.330  1.00 85.92           C  
+HETATM   34  C1  GHX A 401     -14.280   5.827  -0.826  1.00 90.23           C  
+HETATM   35  C6  GHX A 401     -15.409   5.596  -1.610  1.00 89.89           C  
+HETATM   36  C5  GHX A 401     -16.171   6.657  -2.081  1.00 83.65           C  
+HETATM   37  C4  GHX A 401     -15.798   7.951  -1.759  1.00 84.31           C  
+HETATM   38  C3  GHX A 401     -14.672   8.168  -0.976  1.00 87.45           C  
+HETATM   39  C2  GHX A 401     -13.901   7.119  -0.503  1.00 89.37           C  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10   13
+CONECT    9    8
+CONECT   10    9   11
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13    9   12   14
+CONECT   14   13   15
+CONECT   15   14   16   18
+CONECT   16    6   15   17
+CONECT   17   16
+CONECT   18   15   19
+CONECT   19   18   20   21
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   19   22   29
+CONECT   22   21   23
+CONECT   23   22   24   28
+CONECT   23   28
+CONECT   24   23   25
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26   25   27
+CONECT   26   27
+CONECT   27   26   28
+CONECT   27   26
+CONECT   28   23   27
+CONECT   28   23
+CONECT   29   21   30
+CONECT   30   29   31   32
+CONECT   30   31
+CONECT   31   30
+CONECT   31   30
+CONECT   32   30   33
+CONECT   33   32   34
+CONECT   34   33   35   39
+CONECT   34   35
+CONECT   35   34   36
+CONECT   35   34
+CONECT   36   35   37
+CONECT   36   37
+CONECT   37   36   38
+CONECT   37   36
+CONECT   38   37   39
+CONECT   38   39
+CONECT   39   34   38
+CONECT   39   38
+ENDMDL
+END   

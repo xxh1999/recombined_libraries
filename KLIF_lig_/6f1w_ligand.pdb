@@ -1,0 +1,128 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6f1w_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  CG5 A 308      -3.490  14.151  48.906  1.00  0.00           C  
+HETATM    2  C02 CG5 A 308      -3.671  11.783  48.574  1.00  0.00           C  
+HETATM    3  C03 CG5 A 308      -2.954  10.775  47.729  1.00  0.00           C  
+HETATM    4  C05 CG5 A 308      -2.311  11.671  46.711  1.00  0.00           C  
+HETATM    5  C07 CG5 A 308      -1.887  12.925  47.461  1.00  0.00           C  
+HETATM    6  C08 CG5 A 308      -1.945  14.145  46.578  1.00  0.00           C  
+HETATM    7  C10 CG5 A 308      -2.818  15.339  48.373  1.00  0.00           C  
+HETATM    8  C11 CG5 A 308      -2.878  16.671  48.893  1.00  0.00           C  
+HETATM    9  C12 CG5 A 308      -2.121  17.403  48.031  1.00  0.00           C  
+HETATM   10  C13 CG5 A 308      -1.652  16.569  47.045  1.00  0.00           C  
+HETATM   11  C14 CG5 A 308      -0.813  17.016  45.886  1.00  0.00           C  
+HETATM   12  C17 CG5 A 308      -0.228  18.911  44.553  1.00  0.00           C  
+HETATM   13  C19 CG5 A 308       0.068  20.816  43.390  1.00  0.00           C  
+HETATM   14  C20 CG5 A 308       0.736  20.171  42.379  1.00  0.00           C  
+HETATM   15  C21 CG5 A 308       0.953  18.854  42.495  1.00  0.00           C  
+HETATM   16  C22 CG5 A 308       0.457  18.219  43.605  1.00  0.00           C  
+HETATM   17  C23 CG5 A 308       1.675  18.108  41.444  1.00  0.00           C  
+HETATM   18  C24 CG5 A 308       1.400  16.750  41.018  1.00  0.00           C  
+HETATM   19  C27 CG5 A 308       2.701  18.484  40.594  1.00  0.00           C  
+HETATM   20  C28 CG5 A 308       3.492  19.724  40.576  1.00  0.00           C  
+HETATM   21  C29 CG5 A 308       3.782  20.392  39.422  1.00  0.00           C  
+HETATM   22  C30 CG5 A 308       4.580  21.491  39.438  1.00  0.00           C  
+HETATM   23  C31 CG5 A 308       5.097  21.930  40.635  1.00  0.00           C  
+HETATM   24  C33 CG5 A 308       4.832  21.263  41.800  1.00  0.00           C  
+HETATM   25  C34 CG5 A 308       4.052  20.151  41.758  1.00  0.00           C  
+HETATM   26  C35 CG5 A 308       0.419  15.718  41.397  1.00  0.00           C  
+HETATM   27  C36 CG5 A 308      -0.027  14.856  40.252  1.00  0.00           C  
+HETATM   28  C37 CG5 A 308       1.002  14.819  42.437  1.00  0.00           C  
+HETATM   29  C38 CG5 A 308      -3.519  17.114  50.125  1.00  0.00           C  
+HETATM   30  C39 CG5 A 308      -4.809  16.816  50.428  1.00  0.00           C  
+HETATM   31  C40 CG5 A 308      -5.329  17.253  51.605  1.00  0.00           C  
+HETATM   32  C41 CG5 A 308      -4.559  17.968  52.473  1.00  0.00           C  
+HETATM   33  C43 CG5 A 308      -4.260  18.584  54.697  1.00  0.00           C  
+HETATM   34  C44 CG5 A 308      -3.249  18.241  52.220  1.00  0.00           C  
+HETATM   35  C45 CG5 A 308      -2.738  17.812  51.020  1.00  0.00           C  
+HETATM   36  F32 CG5 A 308       5.822  22.995  40.637  1.00  0.00           F  
+HETATM   37  N01 CG5 A 308      -2.805  12.952  48.579  1.00  0.00           N1+
+HETATM   38  N09 CG5 A 308      -2.105  15.353  47.301  1.00  0.00           N  
+HETATM   39  N16 CG5 A 308      -0.750  18.331  45.636  1.00  0.00           N  
+HETATM   40  N18 CG5 A 308      -0.409  20.182  44.387  1.00  0.00           N  
+HETATM   41  N26 CG5 A 308       3.031  17.462  39.803  1.00  0.00           N  
+HETATM   42  O04 CG5 A 308      -1.949  10.158  48.489  1.00  0.00           O  
+HETATM   43  O06 CG5 A 308      -1.265  11.009  46.097  1.00  0.00           O  
+HETATM   44  O15 CG5 A 308      -0.330  16.150  45.246  1.00  0.00           O  
+HETATM   45  O25 CG5 A 308       2.243  16.494  40.062  1.00  0.00           O  
+HETATM   46  O42 CG5 A 308      -5.101  18.348  53.614  1.00  0.00           O  
+CONECT    1    7   37
+CONECT    2    3   37
+CONECT    3    2    4   42
+CONECT    4    3    5   43
+CONECT    5    4    6   37
+CONECT    6    5   38
+CONECT    7    1    8   38
+CONECT    7    8
+CONECT    8    7    9   29
+CONECT    8    7
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11   38
+CONECT   10    9
+CONECT   11   10   39   44
+CONECT   11   44
+CONECT   12   16   39   40
+CONECT   12   16
+CONECT   13   14   40
+CONECT   13   40
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16   17
+CONECT   15   14
+CONECT   16   12   15
+CONECT   16   12
+CONECT   17   15   18   19
+CONECT   17   18
+CONECT   18   17   26   45
+CONECT   18   17
+CONECT   19   17   20   41
+CONECT   19   41
+CONECT   20   19   21   25
+CONECT   20   25
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   22   24   36
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   20   24
+CONECT   25   20
+CONECT   26   18   27   28
+CONECT   27   26
+CONECT   28   26
+CONECT   29    8   30   35
+CONECT   29   35
+CONECT   30   29   31
+CONECT   30   31
+CONECT   31   30   32
+CONECT   31   30
+CONECT   32   31   34   46
+CONECT   32   34
+CONECT   33   46
+CONECT   34   32   35
+CONECT   34   32
+CONECT   35   29   34
+CONECT   35   29
+CONECT   36   23
+CONECT   37    1    2    5
+CONECT   38    6    7   10
+CONECT   39   11   12
+CONECT   40   12   13
+CONECT   40   13
+CONECT   41   19   45
+CONECT   41   19
+CONECT   42    3
+CONECT   43    4
+CONECT   44   11
+CONECT   44   11
+CONECT   45   18   41
+CONECT   46   32   33
+ENDMDL
+END   

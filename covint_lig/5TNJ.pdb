@@ -1,0 +1,36 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5TNJ
+MODEL        1
+ATOM      1  N   ASP A 129      62.733  57.188  29.266  1.00  8.14           N1+
+ATOM      2  CA  ASP A 129      61.958  58.141  28.449  1.00  7.55           C  
+ATOM      3  C   ASP A 129      60.553  57.571  28.259  1.00  9.67           C  
+ATOM      4  O   ASP A 129      59.931  57.180  29.259  1.00 10.09           O  
+ATOM      5  CB  ASP A 129      62.730  58.449  27.174  1.00  8.37           C  
+ATOM      6  CG  ASP A 129      62.088  59.567  26.361  1.00 10.00           C  
+ATOM      7  OD1 ASP A 129      62.166  60.756  26.773  1.00 13.69           O  
+ATOM      8  OD2 ASP A 129      61.479  59.269  25.315  1.00  7.60           O1-
+TER       9      ASP A 129
+HETATM   10  C1  AVH A 401      61.689  61.786  25.952  0.59 11.86           C  
+HETATM   11  C2  AVH A 401      62.576  62.998  26.011  0.59 10.62           C  
+HETATM   12  C3  AVH A 401      62.104  64.049  26.967  0.59 17.35           C  
+HETATM   13  C4  AVH A 401      61.429  63.460  28.156  0.59 17.45           C  
+HETATM   14  C5  AVH A 401      60.189  62.703  27.801  0.59 10.82           C  
+HETATM   15  C6  AVH A 401      60.250  62.041  26.306  0.59 10.51           C  
+HETATM   16  C7  AVH A 401      61.062  64.565  29.087  0.59 19.33           C  
+HETATM   17  C8  AVH A 401      62.017  65.473  29.427  0.59 26.27           C  
+HETATM   18  O2  AVH A 401      59.660  62.864  25.353  0.59  7.85           O  
+CONECT   10    7   11   15
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12   14   16
+CONECT   14   13   15
+CONECT   15   10   14   18
+CONECT   16   13   17
+CONECT   16   17
+CONECT   17   16
+CONECT   17   16
+CONECT   18   15
+ENDMDL
+END   

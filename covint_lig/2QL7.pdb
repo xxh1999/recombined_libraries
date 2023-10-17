@@ -1,0 +1,33 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2QL7
+MODEL        1
+ATOM      1  N   PRO E 704     -53.284  24.047  -2.464  1.00 65.99           N1+
+ATOM      2  CA  PRO E 704     -52.082  23.276  -2.119  1.00 63.90           C  
+ATOM      3  C   PRO E 704     -51.008  23.366  -3.223  1.00 62.15           C  
+ATOM      4  O   PRO E 704     -51.299  23.684  -4.378  1.00 62.07           O  
+ATOM      5  CB  PRO E 704     -52.587  21.830  -2.011  1.00 64.01           C  
+ATOM      6  CG  PRO E 704     -53.721  21.761  -3.021  1.00 64.65           C  
+ATOM      7  CD  PRO E 704     -54.332  23.164  -2.983  1.00 64.59           C  
+TER       8      PRO E 704
+HETATM    9  C   ASJ E 705     -48.086  21.374  -3.636  1.00 55.31           C  
+HETATM   10  N   ASJ E 705     -49.769  23.031  -2.845  1.00 60.19           N  
+HETATM   11  O   ASJ E 705     -48.567  20.657  -4.752  1.00 55.65           O  
+HETATM   12  CA  ASJ E 705     -48.601  22.833  -3.704  1.00 57.26           C  
+HETATM   13  CB  ASJ E 705     -47.494  23.853  -3.336  1.00 57.19           C  
+HETATM   14  CG  ASJ E 705     -47.794  25.263  -3.846  1.00 57.22           C  
+HETATM   15  OD1 ASJ E 705     -47.273  26.225  -3.248  1.00 57.06           O1-
+HETATM   16  OD2 ASJ E 705     -48.472  25.378  -4.890  1.00 54.50           O  
+CONECT    9   11   12
+CONECT   10    3   12
+CONECT   11    9
+CONECT   12    9   10   13
+CONECT   13   12   14
+CONECT   14   13   15   16
+CONECT   14   16
+CONECT   15   14
+CONECT   16   14
+CONECT   16   14
+ENDMDL
+END   

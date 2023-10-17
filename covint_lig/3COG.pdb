@@ -1,0 +1,55 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3COG
+MODEL        1
+ATOM      1  N   LYS A 212     -19.011  33.894 -25.383  1.00 10.32           N1+
+ATOM      2  CA  LYS A 212     -18.632  35.241 -25.778  1.00 10.45           C  
+ATOM      3  C   LYS A 212     -17.483  35.148 -26.800  1.00 10.57           C  
+ATOM      4  O   LYS A 212     -17.729  34.675 -27.908  1.00 11.46           O  
+ATOM      5  CB  LYS A 212     -18.318  36.081 -24.521  1.00 11.28           C  
+ATOM      6  CG  LYS A 212     -19.342  35.933 -23.371  1.00 12.68           C  
+ATOM      7  CD  LYS A 212     -20.844  36.125 -23.709  1.00 11.08           C  
+ATOM      8  CE  LYS A 212     -21.772  35.678 -22.561  1.00 14.27           C  
+ATOM      9  NZ  LYS A 212     -21.358  36.315 -21.322  1.00 17.31           N1+
+TER      10      LYS A 212
+HETATM   11  N1  PLP A 500     -18.840  35.384 -17.085  1.00 18.60           N1+
+HETATM   12  C2  PLP A 500     -18.861  36.502 -17.833  1.00 22.47           C  
+HETATM   13  C2A PLP A 500     -17.785  37.545 -17.588  1.00 19.59           C  
+HETATM   14  C3  PLP A 500     -19.874  36.672 -18.802  1.00 21.28           C  
+HETATM   15  O3  PLP A 500     -19.878  37.826 -19.535  1.00 18.89           O1-
+HETATM   16  C4  PLP A 500     -20.859  35.652 -18.980  1.00 21.42           C  
+HETATM   17  C4A PLP A 500     -21.898  35.736 -20.099  1.00 21.30           C  
+HETATM   18  C5  PLP A 500     -20.846  34.541 -18.092  1.00 21.37           C  
+HETATM   19  C6  PLP A 500     -19.781  34.425 -17.175  1.00 20.80           C  
+HETATM   20  C5A PLP A 500     -21.929  33.463 -18.068  1.00 20.59           C  
+HETATM   21  O4P PLP A 500     -21.714  32.454 -19.037  1.00 22.46           O  
+HETATM   22  P   PLP A 500     -23.021  31.830 -19.800  1.00 24.29           P  
+HETATM   23  O1P PLP A 500     -23.929  32.971 -20.204  1.00 23.19           O  
+HETATM   24  O2P PLP A 500     -23.681  30.903 -18.808  1.00 21.27           O1-
+HETATM   25  O3P PLP A 500     -22.449  31.090 -20.991  1.00 20.30           O1-
+CONECT   11   12   19
+CONECT   11   12
+CONECT   12   11   13   14
+CONECT   12   11
+CONECT   13   12
+CONECT   14   12   15   16
+CONECT   14   16
+CONECT   15   14
+CONECT   16   14   17   18
+CONECT   16   14
+CONECT   17    9   16
+CONECT   18   16   19   20
+CONECT   18   19
+CONECT   19   11   18
+CONECT   19   18
+CONECT   20   18   21
+CONECT   21   20   22
+CONECT   22   21   23   24   25
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22
+CONECT   25   22
+ENDMDL
+END   

@@ -1,0 +1,99 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6thw_ligand
+MODEL        1
+HETATM    1  C1  NBK A 501       0.032  20.692  42.851  1.00  0.00           C  
+HETATM    2  C2  NBK A 501       1.638  20.624  38.725  1.00  0.00           C  
+HETATM    3  C3  NBK A 501       2.774  18.703  39.404  1.00  0.00           C  
+HETATM    4  C7  NBK A 501      -0.176  19.460  43.425  1.00  0.00           C  
+HETATM    5  C8  NBK A 501       0.301  18.373  42.714  1.00  0.00           C  
+HETATM    6  C9  NBK A 501      -2.053  16.881  46.930  1.00  0.00           C  
+HETATM    7  C10 NBK A 501       0.684  20.800  41.643  1.00  0.00           C  
+HETATM    8  C11 NBK A 501       1.139  19.675  40.994  1.00  0.00           C  
+HETATM    9  C12 NBK A 501       0.060  17.161  43.311  1.00  0.00           C  
+HETATM   10  C13 NBK A 501       3.117  19.626  37.377  1.00  0.00           C  
+HETATM   11  C14 NBK A 501      -0.972  18.119  45.104  1.00  0.00           C  
+HETATM   12  C15 NBK A 501       1.077  13.685  42.879  1.00  0.00           C  
+HETATM   13  C16 NBK A 501       0.722  14.157  44.262  1.00  0.00           C  
+HETATM   14  C19 NBK A 501      -3.984  13.195  51.003  1.00  0.00           C  
+HETATM   15  C20 NBK A 501      -5.996  13.522  49.706  1.00  0.00           C  
+HETATM   16  C21 NBK A 501      -3.849  14.608  49.070  1.00  0.00           C  
+HETATM   17  C22 NBK A 501       0.061  14.769  43.061  1.00  0.00           C  
+HETATM   18  C24 NBK A 501      -1.347  14.410  42.729  1.00  0.00           C  
+HETATM   19  N26 NBK A 501       2.253  20.635  37.535  1.00  0.00           N  
+HETATM   20  N29 NBK A 501       0.947  18.464  41.536  1.00  0.00           N  
+HETATM   21  C4  NBK A 501      -1.504  15.598  46.753  1.00  0.00           C  
+HETATM   22  C5  NBK A 501      -3.042  16.727  47.872  1.00  0.00           C  
+HETATM   23  C6  NBK A 501       1.845  19.685  39.721  1.00  0.00           C  
+HETATM   24  C17 NBK A 501      -3.321  14.453  50.467  1.00  0.00           C  
+HETATM   25  C18 NBK A 501      -5.363  14.711  48.987  1.00  0.00           C  
+HETATM   26  C23 NBK A 501       3.810  19.582  36.060  1.00  0.00           C  
+HETATM   27  C25 NBK A 501      -6.040  12.291  51.771  1.00  0.00           C  
+HETATM   28  N27 NBK A 501       3.422  18.645  38.238  1.00  0.00           N  
+HETATM   29  N28 NBK A 501      -2.093  14.677  47.515  1.00  0.00           N  
+HETATM   30  N30 NBK A 501      -0.823  19.348  44.588  1.00  0.00           N  
+HETATM   31  N31 NBK A 501      -0.552  17.005  44.497  1.00  0.00           N  
+HETATM   32  N32 NBK A 501      -3.025  15.383  48.162  1.00  0.00           N  
+HETATM   33  N33 NBK A 501      -5.438  13.411  51.059  1.00  0.00           N1+
+HETATM   34  N34 NBK A 501      -1.636  18.016  46.331  1.00  0.00           N  
+HETATM   35  O35 NBK A 501       0.526  16.058  42.603  1.00  0.00           O  
+HETATM   36  F36 NBK A 501       0.802  22.012  41.110  1.00  0.00           F  
+CONECT    1    4    7
+CONECT    1    4
+CONECT    2   19   23
+CONECT    2   19
+CONECT    3   23   28
+CONECT    3   23
+CONECT    4    1    5   30
+CONECT    4    1
+CONECT    5    4    9   20
+CONECT    5   20
+CONECT    6   21   22   34
+CONECT    6   22
+CONECT    7    1    8   36
+CONECT    7    8
+CONECT    8    7   20   23
+CONECT    8    7
+CONECT    9    5   31   35
+CONECT    9   31
+CONECT   10   19   26   28
+CONECT   10   28
+CONECT   11   30   31   34
+CONECT   11   30
+CONECT   12   13   17
+CONECT   13   12   17
+CONECT   14   24   33
+CONECT   15   25   33
+CONECT   16   24   25   32
+CONECT   17   12   13   18   35
+CONECT   18   17
+CONECT   19    2   10
+CONECT   19    2
+CONECT   20    5    8
+CONECT   20    5
+CONECT   21    6   29
+CONECT   21   29
+CONECT   22    6   32
+CONECT   22    6
+CONECT   23    2    3    8
+CONECT   23    3
+CONECT   24   14   16
+CONECT   25   15   16
+CONECT   26   10
+CONECT   27   33
+CONECT   28    3   10
+CONECT   28   10
+CONECT   29   21   32
+CONECT   29   21
+CONECT   30    4   11
+CONECT   30   11
+CONECT   31    9   11
+CONECT   31    9
+CONECT   32   16   22   29
+CONECT   33   14   15   27
+CONECT   34    6   11
+CONECT   35    9   17
+CONECT   36    7
+ENDMDL
+END   

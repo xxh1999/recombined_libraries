@@ -1,0 +1,21 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6z83_ligand1
+MODEL        1
+HETATM    1  C1  PEG B 409     -16.013  -6.295  18.858  1.00  0.00           C  
+HETATM    2  O1  PEG B 409     -15.459  -7.258  19.741  1.00  0.00           O  
+HETATM    3  C2  PEG B 409     -17.390  -6.653  18.414  1.00  0.00           C  
+HETATM    4  O2  PEG B 409     -17.711  -5.935  17.228  1.00  0.00           O  
+HETATM    5  C3  PEG B 409     -18.731  -6.553  16.451  1.00  0.00           C  
+HETATM    6  C4  PEG B 409     -18.188  -6.888  15.103  1.00  0.00           C  
+HETATM    7  O4  PEG B 409     -18.473  -5.882  14.159  1.00  0.00           O  
+CONECT    1    2    3
+CONECT    2    1
+CONECT    3    1    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    5    7
+CONECT    7    6
+ENDMDL
+END   

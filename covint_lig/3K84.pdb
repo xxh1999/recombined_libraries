@@ -1,0 +1,86 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3K84
+MODEL        1
+ATOM      1  N   SER A 241     -54.392   0.284  -0.026  1.00 16.92           N1+
+ATOM      2  CA  SER A 241     -54.153   1.011   1.220  1.00 20.06           C  
+ATOM      3  C   SER A 241     -55.346   1.734   1.875  1.00 17.04           C  
+ATOM      4  O   SER A 241     -55.224   2.058   3.052  1.00 19.46           O  
+ATOM      5  CB  SER A 241     -53.013   2.014   1.020  1.00 16.53           C  
+ATOM      6  OG  SER A 241     -51.764   1.354   0.815  1.00 21.18           O  
+TER       7      SER A 241
+HETATM    8  C21 K84 A   1     -44.815  -4.753  -2.374  1.00 33.96           C  
+HETATM    9  C22 K84 A   1     -45.194  -4.817  -3.665  1.00 34.79           C  
+HETATM   10  C23 K84 A   1     -46.525  -5.318  -4.183  1.00 32.34           C  
+HETATM   11  C24 K84 A   1     -46.480  -5.614  -5.691  1.00 30.27           C  
+HETATM   12  C25 K84 A   1     -47.654  -6.471  -6.178  1.00 29.54           C  
+HETATM   13  C26 K84 A   1     -47.552  -7.936  -5.740  1.00 21.84           C  
+HETATM   14  C27 K84 A   1     -48.652  -8.802  -6.366  1.00 29.10           C  
+HETATM   15  C28 K84 A   1     -48.660 -10.250  -5.853  1.00 30.49           C  
+HETATM   16  C29 K84 A   1     -47.322 -10.992  -6.003  1.00 35.49           C  
+HETATM   17  C30 K84 A   1     -46.767 -11.013  -7.433  1.00 34.53           C  
+HETATM   18  OAA K84 A   1     -51.955   1.226  -1.469  1.00 19.59           O1-
+HETATM   19  CAD K84 A   1     -46.197   6.216  -3.536  1.00 62.46           C  
+HETATM   20  CAG K84 A   1     -45.998   4.942  -2.970  1.00 67.00           C  
+HETATM   21  CAH K84 A   1     -47.446   6.841  -3.353  1.00 54.25           C  
+HETATM   22  CAK K84 A   1     -47.051   4.349  -2.249  1.00 59.19           C  
+HETATM   23  NAL K84 A   1     -50.459   5.055  -0.894  1.00 31.11           N  
+HETATM   24  CAM K84 A   1     -48.332  -2.418  -0.361  1.00 29.42           C  
+HETATM   25  CAN K84 A   1     -49.682  -2.109  -1.011  1.00 33.19           C  
+HETATM   26  CAO K84 A   1     -47.526  -3.436  -1.179  1.00 26.38           C  
+HETATM   27  CAP K84 A   1     -50.518  -1.044  -0.280  1.00 37.89           C  
+HETATM   28  CAQ K84 A   1     -46.274  -3.951  -0.452  1.00 33.83           C  
+HETATM   29  CAR K84 A   1     -50.022   0.405  -0.507  1.00 35.56           C  
+HETATM   30  NAS K84 A   1     -48.463   6.275  -2.669  1.00 44.47           N  
+HETATM   31  NAT K84 A   1     -51.259   4.052  -0.409  1.00 34.71           N  
+HETATM   32  OAU K84 A   1     -49.442   3.092  -1.298  1.00 33.92           O  
+HETATM   33  CAV K84 A   1     -45.631  -5.155  -1.163  1.00 36.25           C  
+HETATM   34  CAW K84 A   1     -48.270   5.047  -2.130  1.00 41.49           C  
+HETATM   35  CAX K84 A   1     -49.406   4.444  -1.442  1.00 30.18           C  
+HETATM   36  CAY K84 A   1     -50.632   2.895  -0.667  1.00 40.46           C  
+HETATM   37  CAZ K84 A   1     -51.143   1.476  -0.470  1.00 31.36           C  
+CONECT    8    9   33
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    9   11
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16
+CONECT   18   37
+CONECT   19   20   21
+CONECT   19   20
+CONECT   20   19   22
+CONECT   20   19
+CONECT   21   19   30
+CONECT   21   30
+CONECT   22   20   34
+CONECT   22   34
+CONECT   23   31   35
+CONECT   23   35
+CONECT   24   25   26
+CONECT   25   24   27
+CONECT   26   24   28
+CONECT   27   25   29
+CONECT   28   26   33
+CONECT   29   27   37
+CONECT   30   21   34
+CONECT   30   21
+CONECT   31   23   36
+CONECT   31   36
+CONECT   32   35   36
+CONECT   33    8   28
+CONECT   34   22   30   35
+CONECT   34   22
+CONECT   35   23   32   34
+CONECT   35   23
+CONECT   36   31   32   37
+CONECT   36   31
+CONECT   37    6   18   29   36
+ENDMDL
+END   

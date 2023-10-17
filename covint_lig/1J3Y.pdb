@@ -1,0 +1,131 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1J3Y
+MODEL        1
+ATOM      1  N   HIS D  92      29.373  81.205 -16.230  1.00 10.30           N1+
+ATOM      2  CA  HIS D  92      28.799  79.986 -15.668  1.00  9.85           C  
+ATOM      3  C   HIS D  92      27.422  79.637 -16.256  1.00 10.30           C  
+ATOM      4  O   HIS D  92      27.060  78.463 -16.253  1.00  9.83           O  
+ATOM      5  CB  HIS D  92      28.725  80.076 -14.134  1.00  9.63           C  
+ATOM      6  CG  HIS D  92      30.050  79.941 -13.423  1.00  9.00           C  
+ATOM      7  ND1 HIS D  92      31.003  80.939 -13.408  1.00  9.83           N  
+ATOM      8  CD2 HIS D  92      30.591  78.909 -12.691  1.00  9.03           C  
+ATOM      9  CE1 HIS D  92      32.030  80.508 -12.679  1.00  8.30           C  
+ATOM     10  NE2 HIS D  92      31.843  79.285 -12.208  1.00  9.23           N  
+TER      11      HIS D  92
+HETATM   12 NI   HNI D 147      33.250  78.178 -11.085  1.00 10.50          Ni1+
+HETATM   13  CHA HNI D 147      35.538  78.041 -13.738  1.00 12.84           C  
+HETATM   14  CHB HNI D 147      34.885  81.041  -9.913  1.00  9.37           C  
+HETATM   15  CHC HNI D 147      31.705  77.861  -8.004  1.00 10.54           C  
+HETATM   16  CHD HNI D 147      32.180  74.969 -11.951  1.00  9.59           C  
+HETATM   17  NA  HNI D 147      35.021  79.170 -11.568  1.00 10.82           N  
+HETATM   18  C1A HNI D 147      35.652  79.066 -12.768  1.00 12.79           C  
+HETATM   19  C2A HNI D 147      36.571  80.153 -12.979  1.00 13.88           C  
+HETATM   20  C3A HNI D 147      36.385  81.017 -11.851  1.00 12.74           C  
+HETATM   21  C4A HNI D 147      35.378  80.379 -11.058  1.00 12.01           C  
+HETATM   22  CMA HNI D 147      37.146  82.289 -11.543  1.00 14.33           C  
+HETATM   23  CAA HNI D 147      37.558  80.362 -14.113  1.00 15.64           C  
+HETATM   24  CBA HNI D 147      36.905  81.049 -15.312  1.00 19.62           C  
+HETATM   25  CGA HNI D 147      37.943  81.419 -16.370  1.00 25.83           C  
+HETATM   26  O1A HNI D 147      38.479  82.544 -16.284  1.00 27.94           O  
+HETATM   27  O2A HNI D 147      38.162  80.591 -17.278  1.00 26.72           O1-
+HETATM   28  NB  HNI D 147      33.320  79.231  -9.279  1.00 10.23           N1+
+HETATM   29  C1B HNI D 147      33.845  80.452  -9.171  1.00 10.51           C  
+HETATM   30  C2B HNI D 147      33.249  81.142  -8.056  1.00 10.82           C  
+HETATM   31  C3B HNI D 147      32.335  80.193  -7.465  1.00 12.12           C  
+HETATM   32  C4B HNI D 147      32.438  79.018  -8.300  1.00 10.38           C  
+HETATM   33  CMB HNI D 147      33.583  82.527  -7.540  1.00 12.26           C  
+HETATM   34  CAB HNI D 147      31.560  80.379  -6.166  1.00 12.79           C  
+HETATM   35  CBB HNI D 147      32.455  80.271  -4.931  1.00 15.14           C  
+HETATM   36  NC  HNI D 147      32.296  76.597 -10.079  1.00 11.63           N1+
+HETATM   37  C1C HNI D 147      31.629  76.811  -8.941  1.00 13.61           C  
+HETATM   38  C2C HNI D 147      30.663  75.764  -8.750  1.00 13.11           C  
+HETATM   39  C3C HNI D 147      30.754  74.928  -9.926  1.00 10.97           C  
+HETATM   40  C4C HNI D 147      31.804  75.526 -10.713  1.00 10.89           C  
+HETATM   41  CMC HNI D 147      29.733  75.592  -7.571  1.00 14.00           C  
+HETATM   42  CAC HNI D 147      29.944  73.676 -10.234  1.00 10.68           C  
+HETATM   43  CBC HNI D 147      30.203  72.543  -9.242  1.00 14.01           C  
+HETATM   44  ND  HNI D 147      33.833  76.758 -12.462  1.00 10.82           N  
+HETATM   45  C1D HNI D 147      33.123  75.637 -12.748  1.00 11.92           C  
+HETATM   46  C2D HNI D 147      33.479  75.067 -14.013  1.00 12.78           C  
+HETATM   47  C3D HNI D 147      34.537  75.902 -14.493  1.00 14.03           C  
+HETATM   48  C4D HNI D 147      34.626  76.979 -13.540  1.00 12.30           C  
+HETATM   49  CMD HNI D 147      32.962  73.786 -14.640  1.00 12.89           C  
+HETATM   50  CAD HNI D 147      35.485  75.566 -15.628  1.00 16.17           C  
+HETATM   51  CBD HNI D 147      36.781  74.951 -15.056  1.00 22.08           C  
+HETATM   52  CGD HNI D 147      37.720  74.367 -16.114  1.00 26.39           C  
+HETATM   53  O1D HNI D 147      37.257  74.104 -17.246  1.00 27.60           O  
+HETATM   54  O2D HNI D 147      38.900  74.168 -15.748  1.00 29.45           O1-
+CONECT   12   10   17   28   36
+CONECT   12   44
+CONECT   13   18   48
+CONECT   13   18
+CONECT   14   21   29
+CONECT   14   21
+CONECT   15   32   37
+CONECT   15   32
+CONECT   16   40   45
+CONECT   16   40
+CONECT   17   12   18   21
+CONECT   18   13   17   19
+CONECT   18   13
+CONECT   19   18   20   23
+CONECT   19   20
+CONECT   20   19   21   22
+CONECT   20   19
+CONECT   21   14   17   20
+CONECT   21   14
+CONECT   22   20
+CONECT   23   19   24
+CONECT   24   23   25
+CONECT   25   24   26   27
+CONECT   25   26
+CONECT   26   25
+CONECT   26   25
+CONECT   27   25
+CONECT   28   12   29   32
+CONECT   28   29
+CONECT   29   14   28   30
+CONECT   29   28
+CONECT   30   29   31   33
+CONECT   30   31
+CONECT   31   30   32   34
+CONECT   31   30
+CONECT   32   15   28   31
+CONECT   32   15
+CONECT   33   30
+CONECT   34   31   35
+CONECT   35   34
+CONECT   36   12   37   40
+CONECT   36   37
+CONECT   37   15   36   38
+CONECT   37   36
+CONECT   38   37   39   41
+CONECT   38   39
+CONECT   39   38   40   42
+CONECT   39   38
+CONECT   40   16   36   39
+CONECT   40   16
+CONECT   41   38
+CONECT   42   39   43
+CONECT   43   42
+CONECT   44   12   45   48
+CONECT   45   16   44   46
+CONECT   45   46
+CONECT   46   45   47   49
+CONECT   46   45
+CONECT   47   46   48   50
+CONECT   47   48
+CONECT   48   13   44   47
+CONECT   48   47
+CONECT   49   46
+CONECT   50   47   51
+CONECT   51   50   52
+CONECT   52   51   53   54
+CONECT   52   53
+CONECT   53   52
+CONECT   53   52
+CONECT   54   52
+ENDMDL
+END   

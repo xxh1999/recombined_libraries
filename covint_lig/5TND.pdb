@@ -1,0 +1,30 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5TND
+MODEL        1
+ATOM      1  N   ASP C 129      -5.157  26.715 -29.120  1.00  7.26           N1+
+ATOM      2  CA  ASP C 129      -5.962  25.756 -28.340  1.00  8.69           C  
+ATOM      3  C   ASP C 129      -7.358  26.345 -28.128  1.00  9.10           C  
+ATOM      4  O   ASP C 129      -7.989  26.766 -29.111  1.00  9.51           O  
+ATOM      5  CB  ASP C 129      -5.188  25.389 -27.071  1.00  8.42           C  
+ATOM      6  CG  ASP C 129      -5.872  24.303 -26.256  1.00 11.57           C  
+ATOM      7  OD1 ASP C 129      -5.853  23.132 -26.700  1.00 15.09           O  
+ATOM      8  OD2 ASP C 129      -6.427  24.616 -25.179  1.00  9.73           O1-
+TER       9      ASP C 129
+HETATM   10  C4  40O C 401      -7.947  21.160 -27.547  0.70 15.42           C  
+HETATM   11  C5  40O C 401      -7.708  21.786 -26.204  0.70 15.20           C  
+HETATM   12  C6  40O C 401      -6.282  22.090 -25.877  0.70 17.48           C  
+HETATM   13  C1  40O C 401      -5.399  20.720 -26.059  0.70 15.32           C  
+HETATM   14  C2  40O C 401      -5.875  19.809 -27.149  0.70 19.53           C  
+HETATM   15  C3  40O C 401      -6.779  20.448 -28.148  0.70 20.18           C  
+HETATM   16  O8  40O C 401      -8.231  20.980 -25.207  0.70 14.16           O  
+CONECT   10   11   15
+CONECT   11   10   12   16
+CONECT   12    7   11   13
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   10   14
+CONECT   16   11
+ENDMDL
+END   

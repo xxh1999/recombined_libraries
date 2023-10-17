@@ -1,0 +1,76 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2VGJ
+MODEL        1
+ATOM      1  N   SER A  49      -0.048  -5.631  35.295  1.00 17.74           N1+
+ATOM      2  CA  SER A  49       0.958  -5.721  36.355  1.00 16.39           C  
+ATOM      3  C   SER A  49       1.306  -7.154  36.827  1.00 16.40           C  
+ATOM      4  O   SER A  49       2.141  -7.295  37.718  1.00 14.92           O  
+ATOM      5  CB  SER A  49       0.509  -4.877  37.560  1.00 16.73           C  
+ATOM      6  OG  SER A  49       0.553  -3.467  37.347  1.00 15.84           O  
+TER       7      SER A  49
+HETATM    8  O14 REC A 500      -3.986  -3.024  41.422  1.00 27.76           O  
+HETATM    9  C13 REC A 500      -2.870  -3.090  40.866  1.00 25.25           C  
+HETATM   10  O15 REC A 500      -2.192  -4.138  40.731  1.00 24.92           O1-
+HETATM   11  C4  REC A 500      -2.296  -1.819  40.249  1.00 24.49           C  
+HETATM   12  N5  REC A 500      -1.308  -2.045  39.469  1.00 24.57           N  
+HETATM   13  C3  REC A 500      -2.815  -0.428  40.502  1.00 27.26           C  
+HETATM   14  C16 REC A 500      -3.598  -0.116  41.555  1.00 27.26           C  
+HETATM   15  C2  REC A 500      -2.332   0.679  39.581  1.00 24.85           C  
+HETATM   16  S1  REC A 500      -0.551   0.639  39.341  1.00 20.35           S  
+HETATM   17  C6  REC A 500      -0.427  -1.096  38.805  1.00 21.71           C  
+HETATM   18  C7  REC A 500      -0.444  -1.306  37.255  1.00 19.87           C  
+HETATM   19  C8  REC A 500      -0.515  -2.797  36.861  1.00 18.43           C  
+HETATM   20  O9  REC A 500      -1.475  -3.309  36.284  1.00 21.35           O  
+HETATM   21  N10 REC A 500      -1.519  -0.560  36.604  1.00 19.39           N  
+HETATM   22  C11 REC A 500      -1.336   0.569  35.906  1.00 20.71           C  
+HETATM   23  O12 REC A 500      -0.230   1.077  35.730  1.00 21.75           O  
+HETATM   24  CA1 REC A 500      -2.583   1.234  35.329  1.00 20.14           C  
+HETATM   25  CB1 REC A 500      -2.346   1.749  33.903  1.00 20.28           C  
+HETATM   26  CG1 REC A 500      -3.597   2.398  33.305  1.00 18.02           C  
+HETATM   27  CD1 REC A 500      -3.326   2.954  31.899  1.00 19.32           C  
+HETATM   28  CE1 REC A 500      -4.527   3.673  31.247  1.00 18.68           C  
+HETATM   29  NZ1 REC A 500      -4.116   4.334  29.997  1.00 19.24           N1+
+HETATM   30  CZ1 REC A 500      -5.663   2.687  30.935  1.00 15.69           C  
+HETATM   31  OH1 REC A 500      -5.639   2.094  29.835  1.00 17.84           O  
+HETATM   32  O   REC A 500      -6.540   2.527  31.810  1.00 17.74           O1-
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10   11
+CONECT    9    8
+CONECT   10    9
+CONECT   11    9   12   13
+CONECT   11   12
+CONECT   12   11   17
+CONECT   12   11
+CONECT   13   11   14   15
+CONECT   13   14
+CONECT   14   13
+CONECT   14   13
+CONECT   15   13   16
+CONECT   16   15   17
+CONECT   17   12   16   18
+CONECT   18   17   19   21
+CONECT   19    6   18   20
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   18   22
+CONECT   22   21   23   24
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22   25
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   27   29   30
+CONECT   29   28
+CONECT   30   28   31   32
+CONECT   30   31
+CONECT   31   30
+CONECT   31   30
+CONECT   32   30
+ENDMDL
+END   

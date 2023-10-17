@@ -1,0 +1,92 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5njz_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CAV Q8Z A1001      -5.085  14.379  49.584  1.00  0.00           C  
+HETATM    2  CAW Q8Z A1001      -6.022  13.528  50.425  1.00  0.00           C  
+HETATM    3  NAX Q8Z A1001      -5.329  12.355  50.993  1.00  0.00           N1+
+HETATM    4  CAY Q8Z A1001      -3.995  12.734  51.494  1.00  0.00           C  
+HETATM    5  CAZ Q8Z A1001      -3.075  13.131  50.341  1.00  0.00           C  
+HETATM    6  CAU Q8Z A1001      -3.946  13.486  49.141  1.00  0.00           C  
+HETATM    7  NAT Q8Z A1001      -3.176  14.133  48.070  1.00  0.00           N  
+HETATM    8  CAR Q8Z A1001      -2.456  15.259  48.173  1.00  0.00           C  
+HETATM    9  OAS Q8Z A1001      -2.321  15.949  49.184  1.00  0.00           O  
+HETATM   10  CAN Q8Z A1001      -1.902  15.622  46.955  1.00  0.00           C  
+HETATM   11  CAM Q8Z A1001      -1.824  16.959  46.589  1.00  0.00           C  
+HETATM   12  CAO Q8Z A1001      -1.470  14.617  46.099  1.00  0.00           C  
+HETATM   13  CAP Q8Z A1001      -0.942  14.959  44.867  1.00  0.00           C  
+HETATM   14  CAQ Q8Z A1001      -0.861  16.297  44.514  1.00  0.00           C  
+HETATM   15  CAL Q8Z A1001      -1.285  17.319  45.360  1.00  0.00           C  
+HETATM   16  NAK Q8Z A1001      -1.244  18.637  45.064  1.00  0.00           N  
+HETATM   17  CAJ Q8Z A1001      -0.414  19.216  44.178  1.00  0.00           C  
+HETATM   18  SBA Q8Z A1001       0.782  18.523  43.216  1.00  0.00           S  
+HETATM   19  NAI Q8Z A1001      -0.418  20.544  43.945  1.00  0.00           N  
+HETATM   20  CAH Q8Z A1001       0.490  20.962  43.023  1.00  0.00           C  
+HETATM   21  CAG Q8Z A1001       1.253  19.982  42.507  1.00  0.00           C  
+HETATM   22  CAE Q8Z A1001       2.239  20.090  41.586  1.00  0.00           C  
+HETATM   23  OAF Q8Z A1001       2.735  19.068  41.112  1.00  0.00           O  
+HETATM   24  NAD Q8Z A1001       2.677  21.332  41.262  1.00  0.00           N  
+HETATM   25  CAC Q8Z A1001       3.672  21.461  40.342  1.00  0.00           C  
+HETATM   26  CBB Q8Z A1001       3.380  21.310  38.988  1.00  0.00           C  
+HETATM   27 CL   Q8Z A1001       1.758  20.942  38.461  1.00  0.00          Cl  
+HETATM   28  CBC Q8Z A1001       4.398  21.450  38.044  1.00  0.00           C  
+HETATM   29  CBD Q8Z A1001       5.704  21.740  38.451  1.00  0.00           C  
+HETATM   30  CBE Q8Z A1001       5.981  21.897  39.806  1.00  0.00           C  
+HETATM   31  CAB Q8Z A1001       4.971  21.762  40.758  1.00  0.00           C  
+HETATM   32  CAA Q8Z A1001       5.276  21.918  42.106  1.00  0.00           C  
+CONECT    1    2    6
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    1    5    7
+CONECT    7    6    8
+CONECT    8    7    9   10
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8   11   12
+CONECT   10   12
+CONECT   11   10   15
+CONECT   11   15
+CONECT   12   10   13
+CONECT   12   10
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   11   14   16
+CONECT   15   11
+CONECT   16   15   17
+CONECT   17   16   18   19
+CONECT   17   19
+CONECT   18   17   21
+CONECT   19   17   20
+CONECT   19   17
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   18   20   22
+CONECT   21   20
+CONECT   22   21   23   24
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22   25
+CONECT   25   24   26   31
+CONECT   25   31
+CONECT   26   25   27   28
+CONECT   26   28
+CONECT   27   26
+CONECT   28   26   29
+CONECT   28   26
+CONECT   29   28   30
+CONECT   29   30
+CONECT   30   29   31
+CONECT   30   29
+CONECT   31   25   30   32
+CONECT   31   25
+CONECT   32   31
+ENDMDL
+END   

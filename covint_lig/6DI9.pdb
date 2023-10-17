@@ -1,0 +1,100 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6DI9
+MODEL        1
+ATOM      1  N   CYS A 481     -20.698  10.915   2.070  1.00  8.60           N1+
+ATOM      2  CA  CYS A 481     -20.412  12.177   1.386  0.50  8.53           C  
+ATOM      3  C   CYS A 481     -20.176  13.339   2.365  1.00  8.01           C  
+ATOM      4  O   CYS A 481     -20.774  13.400   3.440  1.00  7.73           O  
+ATOM      5  CB  CYS A 481     -21.491  12.496   0.328  0.50  9.12           C  
+ATOM      6  SG  CYS A 481     -23.035  13.145   1.033  0.50 10.10           S  
+TER       7      CYS A 481
+HETATM    8  C2  GJJ A 701     -20.346   5.996  -0.778  1.00 19.72           C  
+HETATM    9  C3  GJJ A 701     -19.297   5.629  -1.671  1.00 19.76           C  
+HETATM   10  C9  GJJ A 701     -21.151   5.868   1.670  1.00 20.06           C  
+HETATM   11  C10 GJJ A 701     -20.770   5.295   2.903  1.00 20.84           C  
+HETATM   12  C11 GJJ A 701     -21.547   5.479   4.061  1.00 24.55           C  
+HETATM   13  C12 GJJ A 701     -22.735   6.240   4.007  1.00 24.97           C  
+HETATM   14  C13 GJJ A 701     -23.155   6.763   2.769  1.00 22.28           C  
+HETATM   15  C14 GJJ A 701     -22.368   6.592   1.617  1.00 19.69           C  
+HETATM   16  C15 GJJ A 701     -23.554   6.493   5.235  1.00 35.71           C  
+HETATM   17  O17 GJJ A 701     -24.781   6.560   5.167  1.00 48.32           O  
+HETATM   18  C19 GJJ A 701     -24.272   6.054   8.259  1.00 41.31           C  
+HETATM   19  C20 GJJ A 701     -22.096   7.271   8.580  1.00 45.08           C  
+HETATM   20  C21 GJJ A 701     -24.048   8.492   7.590  1.00 44.55           C  
+HETATM   21  C22 GJJ A 701     -22.909   8.286  -4.153  1.00 23.97           C  
+HETATM   22  C24 GJJ A 701     -24.482   9.318  -2.619  1.00 25.24           C  
+HETATM   23  N26 GJJ A 701     -24.383  10.754  -2.378  1.00 23.54           N  
+HETATM   24  C27 GJJ A 701     -18.047   4.908  -1.223  1.00 16.77           C  
+HETATM   25  C30 GJJ A 701     -24.546  11.358  -1.192  1.00 20.88           C  
+HETATM   26  C32 GJJ A 701     -24.490  12.802  -1.333  1.00 19.96           C  
+HETATM   27  C33 GJJ A 701     -23.924  13.622  -0.424  1.00 15.02           C  
+HETATM   28  N1  GJJ A 701     -21.449   6.637  -1.213  1.00 22.13           N  
+HETATM   29  C4  GJJ A 701     -19.475   5.934  -3.042  1.00 18.52           C  
+HETATM   30  C5  GJJ A 701     -20.628   6.610  -3.471  1.00 21.75           C  
+HETATM   31  C6  GJJ A 701     -21.602   6.959  -2.514  1.00 23.27           C  
+HETATM   32  N7  GJJ A 701     -22.787   7.639  -2.860  1.00 24.23           N  
+HETATM   33  N8  GJJ A 701     -20.255   5.700   0.598  1.00 20.05           N  
+HETATM   34  N16 GJJ A 701     -22.842   6.725   6.352  1.00 41.52           N  
+HETATM   35  C18 GJJ A 701     -23.331   7.128   7.674  1.00 43.49           C  
+HETATM   36  C23 GJJ A 701     -24.263   8.991  -4.105  1.00 23.60           C  
+HETATM   37  C25 GJJ A 701     -23.407   8.508  -1.871  1.00 24.25           C  
+HETATM   38  N28 GJJ A 701     -16.965   5.083  -1.986  1.00 17.17           N  
+HETATM   39  O29 GJJ A 701     -18.010   4.220  -0.204  1.00 15.71           O  
+HETATM   40  O31 GJJ A 701     -24.759  10.747  -0.145  1.00 25.34           O  
+CONECT    8    9   28   33
+CONECT    8   28
+CONECT    9    8   24   29
+CONECT    9   29
+CONECT   10   11   15   33
+CONECT   10   15
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   14   16
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   10   14
+CONECT   15   10
+CONECT   16   13   17   34
+CONECT   16   17
+CONECT   17   16
+CONECT   17   16
+CONECT   18   35
+CONECT   19   35
+CONECT   20   35
+CONECT   21   32   36
+CONECT   22   23   36   37
+CONECT   23   22   25
+CONECT   24    9   38   39
+CONECT   24   39
+CONECT   25   23   26   40
+CONECT   25   40
+CONECT   26   25   27
+CONECT   26   27
+CONECT   27    6   26
+CONECT   27   26
+CONECT   28    8   31
+CONECT   28    8
+CONECT   29    9   30
+CONECT   29    9
+CONECT   30   29   31
+CONECT   30   31
+CONECT   31   28   30   32
+CONECT   31   30
+CONECT   32   21   31   37
+CONECT   33    8   10
+CONECT   34   16   35
+CONECT   35   18   19   20   34
+CONECT   36   21   22
+CONECT   37   22   32
+CONECT   38   24
+CONECT   39   24
+CONECT   39   24
+CONECT   40   25
+CONECT   40   25
+ENDMDL
+END   

@@ -1,0 +1,67 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5FAQ
+MODEL        1
+ATOM      1  N   SER A  70       4.484  22.063   0.629  1.00 15.33           N1+
+ATOM      2  CA  SER A  70       4.753  21.118   1.709  1.00 14.12           C  
+ATOM      3  C   SER A  70       5.072  21.781   3.065  1.00 13.64           C  
+ATOM      4  O   SER A  70       5.078  21.069   4.065  1.00 13.54           O  
+ATOM      5  CB  SER A  70       5.945  20.224   1.336  1.00 14.82           C  
+ATOM      6  OG  SER A  70       5.740  19.402   0.190  1.00 15.64           O  
+TER       7      SER A  70
+HETATM    8  OAL 5VW A 305      12.125  18.758   0.174  1.00 20.00           O1-
+HETATM    9  SAI 5VW A 305      10.732  19.202   0.018  1.00 20.00           S  
+HETATM   10  OAJ 5VW A 305      10.017  19.467   1.275  1.00 20.00           O  
+HETATM   11  OAK 5VW A 305      10.526  20.220  -1.023  1.00 20.00           O  
+HETATM   12  OAH 5VW A 305       9.939  17.850  -0.580  1.00 20.00           O  
+HETATM   13  NAG 5VW A 305       8.521  17.934  -0.529  1.00 20.00           N  
+HETATM   14  CAE 5VW A 305       7.937  17.063  -1.530  1.00 20.00           C  
+HETATM   15  CAF 5VW A 305       8.520  17.323  -2.937  1.00 20.00           C  
+HETATM   16  CB  5VW A 305       8.163  18.736  -3.428  1.00 20.00           C  
+HETATM   17  CAD 5VW A 305       6.424  17.379  -1.510  1.00 20.00           C  
+HETATM   18  N   5VW A 305       6.221  18.776  -1.946  1.00 20.00           N  
+HETATM   19  CAP 5VW A 305       6.065  19.840  -1.046  1.00 20.00           C  
+HETATM   20  OAQ 5VW A 305       6.239  21.028  -1.320  1.00 20.00           O  
+HETATM   21  CA  5VW A 305       6.647  19.032  -3.330  1.00 20.00           C  
+HETATM   22  C   5VW A 305       5.733  18.367  -4.364  1.00 20.00           C  
+HETATM   23  O   5VW A 305       4.536  18.223  -4.119  1.00 20.00           O  
+HETATM   24  NAN 5VW A 305       6.288  17.984  -5.523  1.00 20.00           N  
+HETATM   25  OAR 5VW A 305       5.468  17.436  -6.514  1.00 20.00           O  
+HETATM   26  CAS 5VW A 305       5.363  16.025  -6.363  1.00 20.00           C  
+HETATM   27  CAW 5VW A 305       4.421  15.488  -7.433  1.00 20.00           C  
+HETATM   28  CAV 5VW A 305       5.320  15.247  -8.650  1.00 20.00           C  
+HETATM   29  NAU 5VW A 305       6.706  15.189  -8.148  1.00 20.00           N1+
+HETATM   30  CAT 5VW A 305       6.677  15.307  -6.682  1.00 20.00           C  
+CONECT    8    9
+CONECT    9    8   10   11   12
+CONECT    9   10   11
+CONECT   10    9
+CONECT   10    9
+CONECT   11    9
+CONECT   11    9
+CONECT   12    9   13
+CONECT   13   12   14
+CONECT   14   13   15   17
+CONECT   15   14   16
+CONECT   16   15   21
+CONECT   17   14   18
+CONECT   18   17   19   21
+CONECT   19    6   18   20
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   16   18   22
+CONECT   22   21   23   24
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22   25
+CONECT   25   24   26
+CONECT   26   25   27   30
+CONECT   27   26   28
+CONECT   28   27   29
+CONECT   29   28   30
+CONECT   30   26   29
+ENDMDL
+END   

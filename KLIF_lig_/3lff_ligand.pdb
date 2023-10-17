@@ -1,0 +1,82 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3lff_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CAA Z83 A 362      -1.341  25.956  30.429  1.00  0.00           C  
+HETATM    2  CAB Z83 A 362      -1.262  24.061  28.801  1.00  0.00           C  
+HETATM    3  CAC Z83 A 362      -2.109  23.679  31.133  1.00  0.00           C  
+HETATM    4  OAD Z83 A 362       6.251  21.071  26.149  1.00  0.00           O  
+HETATM    5  OAE Z83 A 362       1.660  22.797  34.413  1.00  0.00           O  
+HETATM    6  OAF Z83 A 362       7.348  22.928  25.583  1.00  0.00           O1-
+HETATM    7  CAG Z83 A 362       4.539  21.867  38.102  1.00  0.00           C  
+HETATM    8  CAH Z83 A 362       3.232  21.777  38.397  1.00  0.00           C  
+HETATM    9  CAI Z83 A 362       5.452  21.902  29.657  1.00  0.00           C  
+HETATM   10  CAJ Z83 A 362       5.155  23.801  28.216  1.00  0.00           C  
+HETATM   11  CAK Z83 A 362       4.256  22.206  30.306  1.00  0.00           C  
+HETATM   12  CAL Z83 A 362       3.962  24.106  28.870  1.00  0.00           C  
+HETATM   13  CAM Z83 A 362       0.814  24.083  31.976  1.00  0.00           C  
+HETATM   14  CAN Z83 A 362       7.214  22.369  27.890  1.00  0.00           C  
+HETATM   15  NAO Z83 A 362       4.837  22.313  36.864  1.00  0.00           N  
+HETATM   16  NAP Z83 A 362       1.320  23.841  29.866  1.00  0.00           N  
+HETATM   17  NAQ Z83 A 362       3.028  23.601  32.803  1.00  0.00           N  
+HETATM   18  NAR Z83 A 362       3.844  23.055  34.846  1.00  0.00           N  
+HETATM   19  SAS Z83 A 362       2.395  22.280  37.012  1.00  0.00           S  
+HETATM   20  CAT Z83 A 362       6.917  22.097  26.413  1.00  0.00           C  
+HETATM   21  CAU Z83 A 362       2.781  23.138  34.036  1.00  0.00           C  
+HETATM   22  CAV Z83 A 362       5.902  22.701  28.613  1.00  0.00           C  
+HETATM   23  CAW Z83 A 362       3.511  23.319  29.924  1.00  0.00           C  
+HETATM   24  CAX Z83 A 362       0.339  24.126  30.723  1.00  0.00           C  
+HETATM   25  CAY Z83 A 362       2.104  23.758  31.828  1.00  0.00           C  
+HETATM   26  CAZ Z83 A 362       3.776  22.601  36.102  1.00  0.00           C  
+HETATM   27  NBA Z83 A 362       2.349  23.630  30.519  1.00  0.00           N  
+HETATM   28  CBB Z83 A 362      -1.099  24.451  30.277  1.00  0.00           C  
+CONECT    1   28
+CONECT    2   28
+CONECT    3   28
+CONECT    4   20
+CONECT    4   20
+CONECT    5   21
+CONECT    5   21
+CONECT    6   20
+CONECT    7    8   15
+CONECT    7    8
+CONECT    8    7   19
+CONECT    8    7
+CONECT    9   11   22
+CONECT    9   22
+CONECT   10   12   22
+CONECT   10   12
+CONECT   11    9   23
+CONECT   11   23
+CONECT   12   10   23
+CONECT   12   10
+CONECT   13   24   25
+CONECT   13   25
+CONECT   14   20   22
+CONECT   15    7   26
+CONECT   15   26
+CONECT   16   24   27
+CONECT   16   24
+CONECT   17   21   25
+CONECT   18   21   26
+CONECT   19    8   26
+CONECT   20    4    6   14
+CONECT   20    4
+CONECT   21    5   17   18
+CONECT   21    5
+CONECT   22    9   10   14
+CONECT   22    9
+CONECT   23   11   12   27
+CONECT   23   11
+CONECT   24   13   16   28
+CONECT   24   16
+CONECT   25   13   17   27
+CONECT   25   13
+CONECT   26   15   18   19
+CONECT   26   15
+CONECT   27   16   23   25
+CONECT   28    1    2    3   24
+ENDMDL
+END   

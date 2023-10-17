@@ -1,0 +1,66 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4NCS
+MODEL        1
+ATOM      1  N   TYR A 334      16.176  12.412 -25.647  1.00 22.42           N1+
+ATOM      2  CA  TYR A 334      17.083  13.161 -24.766  1.00 20.82           C  
+ATOM      3  C   TYR A 334      18.542  12.760 -25.033  1.00 20.70           C  
+ATOM      4  O   TYR A 334      18.811  11.609 -25.371  1.00 18.57           O  
+ATOM      5  CB  TYR A 334      16.782  12.889 -23.273  1.00 21.60           C  
+ATOM      6  CG  TYR A 334      15.509  13.437 -22.638  1.00 21.88           C  
+ATOM      7  CD1 TYR A 334      14.345  13.728 -23.384  1.00 20.80           C  
+ATOM      8  CD2 TYR A 334      15.504  13.678 -21.248  1.00 22.78           C  
+ATOM      9  CE1 TYR A 334      13.202  14.245 -22.747  1.00 23.47           C  
+ATOM     10  CE2 TYR A 334      14.353  14.183 -20.612  1.00 22.73           C  
+ATOM     11  CZ  TYR A 334      13.179  14.442 -21.347  1.00 23.61           C  
+ATOM     12  OH  TYR A 334      12.079  14.956 -20.684  1.00 27.14           O  
+TER      13      TYR A 334
+HETATM   14  O1B FSR A 401      10.257  12.625 -22.288  1.00 21.23           O1-
+HETATM   15  C1  FSR A 401      10.224  13.809 -21.890  1.00 29.40           C  
+HETATM   16  O1A FSR A 401       9.672  14.771 -22.466  1.00 22.51           O  
+HETATM   17  C2  FSR A 401      10.917  14.164 -20.508  1.00 35.82           C  
+HETATM   18  C3  FSR A 401      11.162  12.922 -19.616  1.00 39.18           C  
+HETATM   19  F1  FSR A 401      12.102  12.156 -20.151  1.00 38.90           F  
+HETATM   20  C4  FSR A 401      11.506  13.316 -18.168  1.00 42.27           C  
+HETATM   21  O4  FSR A 401      11.471  12.119 -17.417  1.00 35.20           O  
+HETATM   22  O6  FSR A 401       9.929  14.900 -19.876  1.00 39.54           O  
+HETATM   23  C6  FSR A 401      10.192  15.423 -18.591  1.00 40.51           C  
+HETATM   24  C7  FSR A 401       8.953  16.335 -18.377  1.00 38.32           C  
+HETATM   25  C8  FSR A 401       9.284  17.782 -17.959  1.00 43.21           C  
+HETATM   26  C9  FSR A 401       8.066  18.712 -18.041  1.00 40.05           C  
+HETATM   27  O9  FSR A 401       7.178  18.508 -16.971  1.00 44.30           O  
+HETATM   28  O8  FSR A 401      10.215  18.353 -18.858  1.00 45.32           O  
+HETATM   29  O7  FSR A 401       8.027  15.750 -17.482  1.00 36.57           O  
+HETATM   30  C5  FSR A 401      10.433  14.261 -17.593  1.00 42.37           C  
+HETATM   31  N5  FSR A 401      10.869  14.806 -16.305  1.00 45.52           N  
+HETATM   32  C10 FSR A 401      10.406  14.440 -15.099  1.00 51.57           C  
+HETATM   33  O10 FSR A 401       9.546  13.576 -14.932  1.00 45.76           O  
+HETATM   34  C11 FSR A 401      11.006  15.156 -13.895  1.00 49.17           C  
+CONECT   14   15
+CONECT   15   14   16   17
+CONECT   15   16
+CONECT   16   15
+CONECT   16   15
+CONECT   17   12   15   18   22
+CONECT   18   17   19   20
+CONECT   19   18
+CONECT   20   18   21   30
+CONECT   21   20
+CONECT   22   17   23
+CONECT   23   22   24   30
+CONECT   24   23   25   29
+CONECT   25   24   26   28
+CONECT   26   25   27
+CONECT   27   26
+CONECT   28   25
+CONECT   29   24
+CONECT   30   20   23   31
+CONECT   31   30   32
+CONECT   32   31   33   34
+CONECT   32   33
+CONECT   33   32
+CONECT   33   32
+CONECT   34   32
+ENDMDL
+END   

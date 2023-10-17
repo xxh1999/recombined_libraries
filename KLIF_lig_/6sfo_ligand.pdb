@@ -1,0 +1,96 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6sfo_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  LBE A 402       4.644  23.169  39.839  1.00  0.00           C  
+HETATM    2  C2  LBE A 402       4.191  23.107  38.403  1.00  0.00           C  
+HETATM    3  C3  LBE A 402       4.938  23.694  37.400  1.00  0.00           C  
+HETATM    4  C4  LBE A 402       4.537  23.616  36.075  1.00  0.00           C  
+HETATM    5  C5  LBE A 402       3.356  22.982  35.730  1.00  0.00           C  
+HETATM    6  C6  LBE A 402       2.769  23.003  34.356  1.00  0.00           C  
+HETATM    7  C7  LBE A 402       3.125  23.495  31.991  1.00  0.00           C  
+HETATM    8  C8  LBE A 402       2.418  24.855  31.990  1.00  0.00           C  
+HETATM    9  C9  LBE A 402       1.625  25.126  30.804  1.00  0.00           C  
+HETATM   10  C10 LBE A 402       0.448  24.242  30.574  1.00  0.00           C  
+HETATM   11  C12 LBE A 402      -1.327  23.695  28.860  1.00  0.00           C  
+HETATM   12  C15 LBE A 402      -0.668  24.487  31.592  1.00  0.00           C  
+HETATM   13  C16 LBE A 402       2.617  22.378  36.732  1.00  0.00           C  
+HETATM   14  C17 LBE A 402       3.026  22.442  38.050  1.00  0.00           C  
+HETATM   15  C21 LBE A 402      -0.782  18.117  42.794  1.00  0.00           C  
+HETATM   16  C22 LBE A 402      -1.493  17.029  43.277  1.00  0.00           C  
+HETATM   17  C23 LBE A 402      -1.200  16.500  44.515  1.00  0.00           C  
+HETATM   18  C24 LBE A 402      -0.194  17.050  45.279  1.00  0.00           C  
+HETATM   19  C25 LBE A 402       0.527  18.137  44.810  1.00  0.00           C  
+HETATM   20  C26 LBE A 402       1.313  21.781  42.414  1.00  0.00           C  
+HETATM   21  O1  LBE A 402       1.580  22.746  34.186  1.00  0.00           O  
+HETATM   22  N1  LBE A 402       3.597  23.274  33.347  1.00  0.00           N  
+HETATM   23  C14 LBE A 402      -1.914  23.688  31.253  1.00  0.00           C  
+HETATM   24  C13 LBE A 402      -2.397  23.986  29.863  1.00  0.00           C  
+HETATM   25  C11 LBE A 402      -0.066  24.479  29.168  1.00  0.00           C  
+HETATM   26  N   LBE A 402       3.623  22.687  40.752  1.00  0.00           N  
+HETATM   27  C   LBE A 402       3.526  21.393  41.063  1.00  0.00           C  
+HETATM   28  O   LBE A 402       4.309  20.530  40.636  1.00  0.00           O  
+HETATM   29  C18 LBE A 402       2.412  21.035  41.944  1.00  0.00           C  
+HETATM   30  N4  LBE A 402       0.452  21.028  43.084  1.00  0.00           N  
+HETATM   31  N3  LBE A 402       0.997  19.763  43.051  1.00  0.00           N  
+HETATM   32  C19 LBE A 402       2.187  19.739  42.397  1.00  0.00           C  
+HETATM   33  N2  LBE A 402       2.935  18.650  42.256  1.00  0.00           N  
+HETATM   34  C20 LBE A 402       0.232  18.670  43.563  1.00  0.00           C  
+CONECT    1    2   26
+CONECT    2    1    3   14
+CONECT    2   14
+CONECT    3    2    4
+CONECT    3    4
+CONECT    4    3    5
+CONECT    4    3
+CONECT    5    4    6   13
+CONECT    5   13
+CONECT    6    5   21   22
+CONECT    6   21
+CONECT    7    8   22
+CONECT    8    7    9
+CONECT    9    8   10
+CONECT   10    9   12   25
+CONECT   11   24   25
+CONECT   12   10   23
+CONECT   13    5   14
+CONECT   13    5
+CONECT   14    2   13
+CONECT   14    2
+CONECT   15   16   34
+CONECT   15   34
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   34
+CONECT   19   18
+CONECT   20   29   30
+CONECT   20   30
+CONECT   21    6
+CONECT   21    6
+CONECT   22    6    7
+CONECT   23   12   24
+CONECT   24   11   23
+CONECT   25   10   11
+CONECT   26    1   27
+CONECT   27   26   28   29
+CONECT   27   28
+CONECT   28   27
+CONECT   28   27
+CONECT   29   20   27   32
+CONECT   29   32
+CONECT   30   20   31
+CONECT   30   20
+CONECT   31   30   32   34
+CONECT   32   29   31   33
+CONECT   32   29
+CONECT   33   32
+CONECT   34   15   19   31
+CONECT   34   15
+ENDMDL
+END   

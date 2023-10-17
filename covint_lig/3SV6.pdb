@@ -1,0 +1,128 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3SV6
+MODEL        1
+ATOM      1  N   SER A1139      -8.549  -5.247  18.014  1.00 10.52           N1+
+ATOM      2  CA  SER A1139      -8.516  -6.708  18.193  1.00 10.71           C  
+ATOM      3  C   SER A1139      -7.187  -7.190  18.803  1.00 10.73           C  
+ATOM      4  O   SER A1139      -6.120  -6.899  18.267  1.00 11.11           O  
+ATOM      5  CB  SER A1139      -8.755  -7.392  16.834  1.00 11.42           C  
+ATOM      6  OG  SER A1139     -10.054  -7.075  16.314  1.00 12.62           O  
+TER       7      SER A1139
+HETATM    8  CBN SV6 A   1     -23.870  -9.467  13.433  1.00 31.12           C  
+HETATM    9  CBO SV6 A   1     -25.632  -8.683  12.161  1.00 35.93           C  
+HETATM   10  CBP SV6 A   1     -26.218  -9.966  12.172  1.00 37.08           C  
+HETATM   11  CBB SV6 A   1     -22.587  -9.183  14.165  1.00 25.10           C  
+HETATM   12  CBQ SV6 A   1     -24.473 -10.751  13.448  1.00 33.37           C  
+HETATM   13  OBW SV6 A   1     -22.228  -8.024  14.384  1.00 25.46           O  
+HETATM   14  NAF SV6 A   1     -24.461  -8.433  12.785  1.00 34.43           N  
+HETATM   15  NAG SV6 A   1     -25.639 -11.005  12.813  1.00 36.46           N  
+HETATM   16  NAD SV6 A   1     -21.851 -10.248  14.524  1.00 22.88           N  
+HETATM   17  CAY SV6 A   1     -20.553 -10.163  15.192  1.00 20.96           C  
+HETATM   18  CAX SV6 A   1     -19.478 -10.107  14.095  1.00 20.55           C  
+HETATM   19  OBU SV6 A   1     -19.356 -11.038  13.297  1.00 24.43           O  
+HETATM   20  CBH SV6 A   1     -20.346 -11.413  16.095  1.00 21.52           C  
+HETATM   21  CBI SV6 A   1     -21.479 -11.534  17.142  1.00 23.96           C  
+HETATM   22  CBJ SV6 A   1     -21.279 -12.729  18.084  1.00 25.68           C  
+HETATM   23  CBK SV6 A   1     -19.921 -12.658  18.795  1.00 25.66           C  
+HETATM   24  CBL SV6 A   1     -18.785 -12.580  17.770  1.00 24.49           C  
+HETATM   25  CBM SV6 A   1     -18.976 -11.389  16.820  1.00 22.02           C  
+HETATM   26  NAC SV6 A   1     -18.702  -9.013  14.081  1.00 16.66           N  
+HETATM   27  CAW SV6 A   1     -17.585  -8.776  13.166  1.00 17.35           C  
+HETATM   28  CAZ SV6 A   1     -17.743  -7.383  12.452  1.00 17.32           C  
+HETATM   29  CBC SV6 A   1     -17.876  -6.179  13.414  1.00 18.25           C  
+HETATM   30  CBD SV6 A   1     -19.008  -7.417  11.566  1.00 19.55           C  
+HETATM   31  CBA SV6 A   1     -16.533  -7.120  11.527  1.00 19.17           C  
+HETATM   32  CAV SV6 A   1     -16.286  -8.914  13.994  1.00 16.82           C  
+HETATM   33  OBT SV6 A   1     -16.118  -8.166  14.956  1.00 15.83           O  
+HETATM   34  C   SV6 A   1     -13.113  -8.852  13.849  1.00 16.21           C  
+HETATM   35  N   SV6 A   1     -15.361  -9.846  13.657  1.00 16.02           N  
+HETATM   36  O   SV6 A   1     -12.992  -8.633  12.643  1.00 17.64           O  
+HETATM   37  CA  SV6 A   1     -14.061  -9.965  14.331  1.00 16.15           C  
+HETATM   38  CB  SV6 A   1     -13.541 -11.353  13.932  1.00 16.39           C  
+HETATM   39  CG  SV6 A   1     -14.228 -11.710  12.623  1.00 17.35           C  
+HETATM   40  CBE SV6 A   1     -13.922 -12.487  14.889  1.00 17.96           C  
+HETATM   41  CBF SV6 A   1     -13.896 -13.725  13.999  1.00 22.06           C  
+HETATM   42  CD1 SV6 A   1     -15.526 -10.887  12.637  1.00 17.61           C  
+HETATM   43  CD2 SV6 A   1     -14.418 -13.241  12.639  1.00 22.41           C  
+HETATM   44  NAA SV6 A   1      -8.995  -6.022  13.050  1.00 18.95           N  
+HETATM   45  NAE SV6 A   1     -12.476  -8.140  14.794  1.00 15.00           N  
+HETATM   46  CAH SV6 A   1     -11.700  -6.919  14.543  1.00 15.86           C  
+HETATM   47  CAI SV6 A   1     -10.192  -7.081  14.914  1.00 15.71           C  
+HETATM   48  CAJ SV6 A   1     -12.375  -5.694  15.211  1.00 16.11           C  
+HETATM   49  CAK SV6 A   1     -13.824  -5.480  14.738  1.00 19.13           C  
+HETATM   50  CAL SV6 A   1     -14.409  -4.133  15.162  1.00 20.21           C  
+HETATM   51  CAM SV6 A   1      -9.402  -5.880  14.320  1.00 15.55           C  
+HETATM   52  CAN SV6 A   1      -8.290  -5.050  12.287  1.00 19.87           C  
+HETATM   53  CAO SV6 A   1      -7.058  -5.503  11.547  1.00 21.47           C  
+HETATM   54  CAP SV6 A   1      -8.316  -5.200  10.783  1.00 20.49           C  
+HETATM   55  OBR SV6 A   1      -9.704  -8.275  14.340  1.00 15.13           O  
+HETATM   56  OBS SV6 A   1      -9.185  -4.886  15.008  1.00 15.17           O  
+CONECT    8   11   12   14
+CONECT    8   12
+CONECT    9   10   14
+CONECT    9   14
+CONECT   10    9   15
+CONECT   10   15
+CONECT   11    8   13   16
+CONECT   11   13
+CONECT   12    8   15
+CONECT   12    8
+CONECT   13   11
+CONECT   13   11
+CONECT   14    8    9
+CONECT   14    9
+CONECT   15   10   12
+CONECT   15   10
+CONECT   16   11   17
+CONECT   17   16   18   20
+CONECT   18   17   19   26
+CONECT   18   19
+CONECT   19   18
+CONECT   19   18
+CONECT   20   17   21   25
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   20   24
+CONECT   26   18   27
+CONECT   27   26   28   32
+CONECT   28   27   29   30   31
+CONECT   29   28
+CONECT   30   28
+CONECT   31   28
+CONECT   32   27   33   35
+CONECT   32   33
+CONECT   33   32
+CONECT   33   32
+CONECT   34   36   37   45
+CONECT   34   36
+CONECT   35   32   37   42
+CONECT   36   34
+CONECT   36   34
+CONECT   37   34   35   38
+CONECT   38   37   39   40
+CONECT   39   38   42   43
+CONECT   40   38   41
+CONECT   41   40   43
+CONECT   42   35   39
+CONECT   43   39   41
+CONECT   44   51   52
+CONECT   45   34   46
+CONECT   46   45   47   48
+CONECT   47    6   46   51   55
+CONECT   48   46   49
+CONECT   49   48   50
+CONECT   50   49
+CONECT   51   44   47   56
+CONECT   51   56
+CONECT   52   44   53   54
+CONECT   53   52   54
+CONECT   54   52   53
+CONECT   55   47
+CONECT   56   51
+CONECT   56   51
+ENDMDL
+END   

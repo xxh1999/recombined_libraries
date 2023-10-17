@@ -1,0 +1,75 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6J4Q
+MODEL        1
+ATOM      1  N   CYS A 158      -3.925  76.705  39.099  1.00 34.01           N1+
+ATOM      2  CA  CYS A 158      -3.218  75.514  39.568  1.00 32.87           C  
+ATOM      3  C   CYS A 158      -3.795  74.812  40.815  1.00 38.22           C  
+ATOM      4  O   CYS A 158      -4.103  73.626  40.753  1.00 31.61           O  
+ATOM      5  CB  CYS A 158      -1.723  75.861  39.707  1.00 32.86           C  
+ATOM      6  SG  CYS A 158      -1.489  77.135  40.992  1.00 34.08           S  
+TER       7      CYS A 158
+HETATM    8  C1  TQ8 A 301       1.447  78.944  38.808  1.00 61.24           C  
+HETATM    9  N2  TQ8 A 301       1.064  78.374  37.497  1.00 59.77           N  
+HETATM   10  C3  TQ8 A 301       2.074  80.362  38.822  1.00 62.91           C  
+HETATM   11  C4  TQ8 A 301       0.277  78.870  39.786  1.00 52.80           C  
+HETATM   12  O5  TQ8 A 301      -0.568  79.763  39.859  1.00 59.49           O  
+HETATM   13  C6  TQ8 A 301       3.442  80.477  38.170  1.00 64.92           C  
+HETATM   14  C7  TQ8 A 301       3.723  81.568  37.322  1.00 63.34           C  
+HETATM   15  C8  TQ8 A 301       4.447  79.518  38.424  1.00 54.85           C  
+HETATM   16  C9  TQ8 A 301       4.980  81.677  36.701  1.00 59.86           C  
+HETATM   17  C10 TQ8 A 301       5.695  79.613  37.780  1.00 50.01           C  
+HETATM   18  C11 TQ8 A 301       5.960  80.692  36.918  1.00 53.21           C  
+HETATM   19  S12 TQ8 A 301       1.166  79.119  35.932  1.00 40.08           S  
+HETATM   20  O13 TQ8 A 301       0.979  80.570  36.068  1.00 69.58           O  
+HETATM   21  O14 TQ8 A 301       0.271  78.359  35.056  1.00 45.78           O  
+HETATM   22  C15 TQ8 A 301       5.428  78.336  34.389  1.00 44.60           C  
+HETATM   23  C16 TQ8 A 301       4.676  79.423  33.898  1.00 49.94           C  
+HETATM   24  C17 TQ8 A 301       3.371  79.649  34.375  1.00 46.84           C  
+HETATM   25  C18 TQ8 A 301       2.821  78.787  35.343  1.00 35.45           C  
+HETATM   26  C19 TQ8 A 301       3.552  77.681  35.818  1.00 44.51           C  
+HETATM   27  C20 TQ8 A 301       4.861  77.465  35.344  1.00 48.19           C  
+HETATM   28  C21 TQ8 A 301       6.846  78.122  33.898  1.00 43.07           C  
+HETATM   29  C22 TQ8 A 301       0.204  77.621  40.654  1.00 47.02           C  
+CONECT    8    9   10   11
+CONECT    9    8   19
+CONECT   10    8   13
+CONECT   11    8   12   29
+CONECT   11   12
+CONECT   12   11
+CONECT   12   11
+CONECT   13   10   14   15
+CONECT   13   15
+CONECT   14   13   16
+CONECT   14   16
+CONECT   15   13   17
+CONECT   15   13
+CONECT   16   14   18
+CONECT   16   14
+CONECT   17   15   18
+CONECT   17   18
+CONECT   18   16   17
+CONECT   18   17
+CONECT   19    9   20   21   25
+CONECT   19   20   21
+CONECT   20   19
+CONECT   20   19
+CONECT   21   19
+CONECT   21   19
+CONECT   22   23   27   28
+CONECT   22   27
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   19   24   26
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   22   26
+CONECT   27   22
+CONECT   28   22
+CONECT   29    6   11
+ENDMDL
+END   

@@ -1,0 +1,73 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7BGV
+MODEL        1
+ATOM      1  N   LYS A 122     -15.503 -24.811  -8.086  1.00  6.81           N1+
+ATOM      2  CA  LYS A 122     -16.480 -23.782  -8.427  1.00  5.29           C  
+ATOM      3  C   LYS A 122     -15.876 -22.390  -8.284  1.00  8.65           C  
+ATOM      4  O   LYS A 122     -16.094 -21.520  -9.136  1.00  8.83           O  
+ATOM      5  CB  LYS A 122     -17.723 -23.929  -7.548  1.00  8.31           C  
+ATOM      6  CG  LYS A 122     -18.726 -22.788  -7.663  1.00  9.29           C  
+ATOM      7  CD  LYS A 122     -19.837 -22.941  -6.633  1.00  6.81           C  
+ATOM      8  CE  LYS A 122     -20.754 -21.730  -6.609  1.00  8.54           C  
+ATOM      9  NZ  LYS A 122     -21.824 -21.876  -5.583  1.00 12.67           N1+
+TER      10      LYS A 122
+HETATM   11  C01 TLK A 301     -21.430 -21.096  -4.452  1.00 12.25           C  
+HETATM   12  C02 TLK A 301     -22.134 -21.369  -3.123  1.00 13.76           C  
+HETATM   13  C03 TLK A 301     -23.222 -22.227  -3.072  1.00 11.20           C  
+HETATM   14  C04 TLK A 301     -23.854 -22.470  -1.862  1.00 17.33           C  
+HETATM   15  C05 TLK A 301     -23.400 -21.854  -0.705  1.00 17.36           C  
+HETATM   16  C07 TLK A 301     -23.519 -22.615   1.673  1.00 18.72           C  
+HETATM   17  C08 TLK A 301     -22.053 -22.997   1.884  1.00 22.39           C  
+HETATM   18  C09 TLK A 301     -21.407 -23.831   0.987  1.00 18.38           C  
+HETATM   19  C10 TLK A 301     -20.079 -24.171   1.188  1.00 22.79           C  
+HETATM   20  C11 TLK A 301     -19.396 -23.683   2.289  1.00 21.06           C  
+HETATM   21  C12 TLK A 301     -20.042 -22.852   3.188  1.00 22.56           C  
+HETATM   22  C13 TLK A 301     -21.369 -22.509   2.987  1.00 25.74           C  
+HETATM   23  C15 TLK A 301     -25.612 -22.285   2.061  1.00 24.89           C  
+HETATM   24  C16 TLK A 301     -25.347 -21.918   0.776  1.00 18.04           C  
+HETATM   25  C17 TLK A 301     -22.306 -21.001  -0.756  1.00 20.15           C  
+HETATM   26  C19 TLK A 301     -20.522 -19.939   0.366  1.00 23.25           C  
+HETATM   27  C20 TLK A 301     -21.679 -20.754  -1.968  1.00 11.61           C  
+HETATM   28  N06 TLK A 301     -24.072 -22.118   0.555  1.00 19.57           N  
+HETATM   29  N14 TLK A 301     -24.484 -22.707   2.601  1.00 20.48           N  
+HETATM   30  O18 TLK A 301     -21.851 -20.372   0.411  1.00 17.46           O  
+CONECT   11    9   12
+CONECT   12   11   13   27
+CONECT   12   27
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   25   28
+CONECT   15   25
+CONECT   16   17   28   29
+CONECT   16   29
+CONECT   17   16   18   22
+CONECT   17   22
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   17   21
+CONECT   22   17
+CONECT   23   24   29
+CONECT   23   24
+CONECT   24   23   28
+CONECT   24   23
+CONECT   25   15   27   30
+CONECT   25   15
+CONECT   26   30
+CONECT   27   12   25
+CONECT   27   12
+CONECT   28   15   16   24
+CONECT   29   16   23
+CONECT   29   16
+CONECT   30   25   26
+ENDMDL
+END   

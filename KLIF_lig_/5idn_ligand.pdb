@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5idn_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C2  Q6A A 401       1.019  14.403  42.021  1.00  0.00           C  
+HETATM    2  C3  Q6A A 401       2.203  14.688  41.345  1.00  0.00           C  
+HETATM    3  C4  Q6A A 401       2.188  15.471  40.196  1.00  0.00           C  
+HETATM    4  C5  Q6A A 401       0.981  15.972  39.709  1.00  0.00           C  
+HETATM    5  C6  Q6A A 401      -0.193  15.688  40.397  1.00  0.00           C  
+HETATM    6  C7  Q6A A 401      -0.179  14.905  41.538  1.00  0.00           C  
+HETATM    7  C8  Q6A A 401       0.877  16.866  38.486  1.00  0.00           C  
+HETATM    8  C11 Q6A A 401       1.964  15.627  36.769  1.00  0.00           C  
+HETATM    9  C12 Q6A A 401       2.801  16.892  37.087  1.00  0.00           C  
+HETATM   10  N13 Q6A A 401       2.114  17.622  38.182  1.00  0.00           N  
+HETATM   11  C16 Q6A A 401       1.916  19.538  39.827  1.00  0.00           C  
+HETATM   12  C17 Q6A A 401       1.470  18.939  41.031  1.00  0.00           C  
+HETATM   13  C18 Q6A A 401       0.845  19.716  42.002  1.00  0.00           C  
+HETATM   14  C19 Q6A A 401       0.676  21.156  41.755  1.00  0.00           C  
+HETATM   15  C21 Q6A A 401       1.744  20.912  39.651  1.00  0.00           C  
+HETATM   16  N22 Q6A A 401       0.062  21.624  42.819  1.00  0.00           N  
+HETATM   17  C24 Q6A A 401       0.265  19.518  43.271  1.00  0.00           C  
+HETATM   18 CL1  Q6A A 401       1.023  13.430  43.460  1.00  0.00          Cl  
+HETATM   19  C10 Q6A A 401       0.546  16.046  37.229  1.00  0.00           C  
+HETATM   20  C14 Q6A A 401       2.592  18.779  38.742  1.00  0.00           C  
+HETATM   21  O15 Q6A A 401       3.637  19.246  38.317  1.00  0.00           O  
+HETATM   22  N20 Q6A A 401       1.148  21.678  40.574  1.00  0.00           N  
+HETATM   23  N23 Q6A A 401      -0.173  20.691  43.669  1.00  0.00           N  
+HETATM   24  C25 Q6A A 401       0.152  18.213  44.019  1.00  0.00           C  
+CONECT    1    2    6   18
+CONECT    1    6
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3    5    7
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    1    5
+CONECT    6    1
+CONECT    7    4   10   19
+CONECT    8    9   19
+CONECT    9    8   10
+CONECT   10    7    9   20
+CONECT   11   12   15   20
+CONECT   11   15
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14   17
+CONECT   13   12
+CONECT   14   13   16   22
+CONECT   14   22
+CONECT   15   11   22
+CONECT   15   11
+CONECT   16   14   23
+CONECT   17   13   23   24
+CONECT   17   23
+CONECT   18    1
+CONECT   19    7    8
+CONECT   20   10   11   21
+CONECT   20   21
+CONECT   21   20
+CONECT   21   20
+CONECT   22   14   15
+CONECT   22   14
+CONECT   23   16   17
+CONECT   23   17
+CONECT   24   17
+ENDMDL
+END   

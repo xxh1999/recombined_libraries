@@ -1,0 +1,68 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2wtj_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C01 WTJ A1513       1.179  13.372  37.389  1.00  0.00           C  
+HETATM    2  N02 WTJ A1513       1.491  14.782  37.596  1.00  0.00           N1+
+HETATM    3  C03 WTJ A1513       2.915  15.009  37.807  1.00  0.00           C  
+HETATM    4  C04 WTJ A1513       0.683  15.319  38.700  1.00  0.00           C  
+HETATM    5  C05 WTJ A1513       1.147  16.618  39.390  1.00  0.00           C  
+HETATM    6  N06 WTJ A1513       0.503  16.939  40.688  1.00  0.00           N  
+HETATM    7  C07 WTJ A1513       0.560  18.299  41.236  1.00  0.00           C  
+HETATM    8  O08 WTJ A1513       1.031  19.197  40.613  1.00  0.00           O  
+HETATM    9  C09 WTJ A1513      -0.075  18.532  42.626  1.00  0.00           C  
+HETATM   10  C10 WTJ A1513      -0.481  17.412  43.388  1.00  0.00           C  
+HETATM   11  C11 WTJ A1513      -1.096  17.610  44.648  1.00  0.00           C  
+HETATM   12  C12 WTJ A1513      -1.545  16.534  45.424  1.00  0.00           C  
+HETATM   13  S13 WTJ A1513      -1.636  14.977  44.983  1.00  0.00           S  
+HETATM   14  C14 WTJ A1513      -2.222  14.173  46.211  1.00  0.00           C  
+HETATM   15  C15 WTJ A1513      -2.497  15.180  47.365  1.00  0.00           C  
+HETATM   16  O16 WTJ A1513      -3.041  15.030  48.674  1.00  0.00           O  
+HETATM   17  C17 WTJ A1513      -2.749  16.140  49.539  1.00  0.00           C  
+HETATM   18  C18 WTJ A1513      -3.034  17.521  48.898  1.00  0.00           C  
+HETATM   19  O19 WTJ A1513      -2.230  17.783  47.712  1.00  0.00           O  
+HETATM   20  C20 WTJ A1513      -2.075  16.653  46.854  1.00  0.00           C  
+HETATM   21  C21 WTJ A1513      -1.292  18.970  45.152  1.00  0.00           C  
+HETATM   22  N22 WTJ A1513      -0.877  20.087  44.397  1.00  0.00           N  
+HETATM   23  C23 WTJ A1513      -0.265  19.894  43.142  1.00  0.00           C  
+HETATM   24  N24 WTJ A1513       0.187  21.053  42.395  1.00  0.00           N  
+CONECT    1    2
+CONECT    2    1    3    4
+CONECT    3    2
+CONECT    4    2    5
+CONECT    5    4    6
+CONECT    6    5    7
+CONECT    7    6    8    9
+CONECT    7    8
+CONECT    8    7
+CONECT    8    7
+CONECT    9    7   10   23
+CONECT    9   23
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   12   21
+CONECT   11   10
+CONECT   12   11   13   20
+CONECT   12   20
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16   20
+CONECT   15   14
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20   12   15   19
+CONECT   20   12
+CONECT   21   11   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23    9   22   24
+CONECT   23    9
+CONECT   24   23
+ENDMDL
+END   

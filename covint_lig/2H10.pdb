@@ -1,0 +1,67 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2H10
+MODEL        1
+ATOM      1  N   SER A  70      33.593  60.408   8.611  1.00 12.03           N1+
+ATOM      2  CA  SER A  70      33.044  59.323   7.789  1.00 12.76           C  
+ATOM      3  C   SER A  70      33.522  57.924   8.229  1.00 13.65           C  
+ATOM      4  O   SER A  70      33.065  56.943   7.648  1.00 10.32           O  
+ATOM      5  CB  SER A  70      33.473  59.488   6.314  1.00 13.90           C  
+ATOM      6  OG  SER A  70      32.907  60.609   5.642  1.00 17.42           O  
+TER       7      SER A  70
+HETATM    8  S1  TBE A 501      33.561  67.085   1.202  1.00 54.58           S  
+HETATM    9  O12 TBE A 501      33.899  67.680  -0.099  1.00 58.29           O  
+HETATM   10  O13 TBE A 501      34.482  67.299   2.329  1.00 57.30           O  
+HETATM   11  C2  TBE A 501      33.399  65.254   0.940  1.00 49.97           C  
+HETATM   12  C3  TBE A 501      32.879  64.573   2.240  1.00 46.86           C  
+HETATM   13  N4  TBE A 501      33.823  64.661   3.339  1.00 35.95           N  
+HETATM   14  C5  TBE A 501      34.005  63.725   4.332  1.00 28.85           C  
+HETATM   15  C20 TBE A 501      32.406  65.036  -0.219  1.00 47.24           C  
+HETATM   16  C14 TBE A 501      34.794  64.702   0.520  1.00 50.21           C  
+HETATM   17  N15 TBE A 501      34.844  63.264   0.284  1.00 51.60           N  
+HETATM   18  N16 TBE A 501      35.283  62.428   1.256  1.00 50.79           N  
+HETATM   19  N17 TBE A 501      35.252  61.225   0.775  1.00 53.24           N  
+HETATM   20  C18 TBE A 501      34.785  61.266  -0.536  1.00 53.15           C  
+HETATM   21  C19 TBE A 501      34.528  62.565  -0.864  1.00 50.60           C  
+HETATM   22  C9  TBE A 501      31.490  65.039   2.710  1.00 47.25           C  
+HETATM   23  O10 TBE A 501      31.423  66.078   3.405  1.00 48.86           O1-
+HETATM   24  O11 TBE A 501      30.522  64.322   2.382  1.00 50.53           O  
+HETATM   25  C6  TBE A 501      33.192  62.691   4.618  1.00 23.29           C  
+HETATM   26  C7  TBE A 501      33.538  61.791   5.708  1.00 21.21           C  
+HETATM   27  O8  TBE A 501      34.354  62.086   6.570  1.00 18.80           O  
+CONECT    8    9   10   11
+CONECT    8    9   10
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8
+CONECT   10    8
+CONECT   11    8   12   15   16
+CONECT   12   11   13   22
+CONECT   13   12   14
+CONECT   14   13   25
+CONECT   14   25
+CONECT   15   11
+CONECT   16   11   17
+CONECT   17   16   18   21
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   17   20
+CONECT   21   20
+CONECT   22   12   23   24
+CONECT   22   24
+CONECT   23   22
+CONECT   24   22
+CONECT   24   22
+CONECT   25   14   26
+CONECT   25   14
+CONECT   26    6   25   27
+CONECT   26   27
+CONECT   27   26
+CONECT   27   26
+ENDMDL
+END   

@@ -1,0 +1,62 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3W2T
+MODEL        1
+ATOM      1  N   SER A 630      59.630  59.409  42.086  1.00 27.26           N1+
+ATOM      2  CA  SER A 630      59.566  60.643  41.299  1.00 27.18           C  
+ATOM      3  C   SER A 630      59.335  61.867  42.193  1.00 26.53           C  
+ATOM      4  O   SER A 630      60.250  62.290  42.900  1.00 27.00           O  
+ATOM      5  CB  SER A 630      58.624  60.514  40.088  1.00 27.36           C  
+ATOM      6  OG  SER A 630      58.925  61.564  39.164  1.00 28.51           O  
+TER       7      SER A 630
+HETATM    8  O20 LF7 A 801      57.080  62.963  35.558  1.00 23.90           O  
+HETATM    9  C14 LF7 A 801      56.770  63.985  36.168  1.00 23.67           C  
+HETATM   10  N15 LF7 A 801      57.365  64.340  37.325  1.00 24.53           N  
+HETATM   11  C19 LF7 A 801      57.072  65.554  38.080  1.00 24.93           C  
+HETATM   12  C18 LF7 A 801      58.051  65.586  39.252  1.00 25.47           C  
+HETATM   13  C17 LF7 A 801      59.144  64.606  38.865  1.00 24.31           C  
+HETATM   14  C16 LF7 A 801      58.444  63.583  37.966  1.00 26.09           C  
+HETATM   15  C20 LF7 A 801      57.912  62.406  38.778  1.00 28.05           C  
+HETATM   16  N2  LF7 A 801      56.692  62.254  39.070  1.00 28.29           N  
+HETATM   17  C13 LF7 A 801      55.701  64.918  35.587  1.00 22.18           C  
+HETATM   18  N12 LF7 A 801      55.068  64.357  34.371  1.00 24.84           N1+
+HETATM   19  C7  LF7 A 801      53.758  63.675  34.542  1.00 24.92           C  
+HETATM   20  C8  LF7 A 801      53.740  62.706  35.761  1.00 25.30           C  
+HETATM   21  C1  LF7 A 801      52.364  62.023  35.878  1.00 25.81           C  
+HETATM   22  C2  LF7 A 801      51.263  63.092  36.046  1.00 25.31           C  
+HETATM   23  C10 LF7 A 801      51.260  64.026  34.818  1.00 25.61           C  
+HETATM   24  C9  LF7 A 801      52.630  64.726  34.701  1.00 24.61           C  
+HETATM   25  C5  LF7 A 801      50.988  63.200  33.542  1.00 25.27           C  
+HETATM   26  C21 LF7 A 801      52.098  61.196  34.607  1.00 25.03           C  
+HETATM   27  C3  LF7 A 801      52.096  62.139  33.387  1.00 25.53           C  
+HETATM   28  O4  LF7 A 801      51.856  61.367  32.231  1.00 27.64           O  
+HETATM   29  C6  LF7 A 801      53.465  62.843  33.268  1.00 25.04           C  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10   17
+CONECT    9    8
+CONECT   10    9   11   14
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   10   13   15
+CONECT   15    6   14   16
+CONECT   15   16
+CONECT   16   15
+CONECT   16   15
+CONECT   17    9   18
+CONECT   18   17   19
+CONECT   19   18   20   24   29
+CONECT   20   19   21
+CONECT   21   20   22   26
+CONECT   22   21   23
+CONECT   23   22   24   25
+CONECT   24   19   23
+CONECT   25   23   27
+CONECT   26   21   27
+CONECT   27   25   26   28   29
+CONECT   28   27
+CONECT   29   19   27
+ENDMDL
+END   

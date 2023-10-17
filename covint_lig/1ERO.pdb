@@ -1,0 +1,78 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1ERO
+MODEL        1
+ATOM      1  N   SER A  70      36.121  35.056  31.158  1.00 18.38           N1+
+ATOM      2  CA  SER A  70      36.273  35.787  29.902  1.00 21.01           C  
+ATOM      3  C   SER A  70      35.608  35.090  28.699  1.00 22.35           C  
+ATOM      4  O   SER A  70      35.572  35.683  27.622  1.00 20.87           O  
+ATOM      5  CB  SER A  70      37.778  35.975  29.602  1.00 23.02           C  
+ATOM      6  OG  SER A  70      38.373  37.034  30.342  1.00 25.05           O  
+TER       7      SER A  70
+HETATM    8  C2  BJP A 300      40.855  38.131  31.330  0.50 25.30           C  
+HETATM    9  C1  BJP A 300      39.687  37.988  32.331  0.50 25.28           C  
+HETATM   10  C11 BJP A 300      42.119  33.711  29.189  0.50 24.23           C  
+HETATM   11  O3  BJP A 300      41.181  33.859  28.378  0.50 26.19           O1-
+HETATM   12  O4  BJP A 300      42.842  32.689  29.186  0.50 23.83           O  
+HETATM   13  B   BJP A 300      38.532  36.964  31.824  0.50 23.54           B1-
+HETATM   14  OB1 BJP A 300      38.823  35.579  32.264  0.50 22.71           O  
+HETATM   15  C6  BJP A 300      42.952  36.878  32.008  0.50 25.57           C  
+HETATM   16  C5  BJP A 300      41.780  36.929  31.230  0.50 25.32           C  
+HETATM   17  C7  BJP A 300      43.828  35.785  31.898  0.50 25.03           C  
+HETATM   18  C10 BJP A 300      41.502  35.883  30.326  0.50 24.52           C  
+HETATM   19  C8  BJP A 300      43.549  34.744  30.994  0.50 24.58           C  
+HETATM   20  C9  BJP A 300      42.390  34.793  30.191  0.50 24.31           C  
+HETATM   21  OB2 BJP A 300      37.260  37.410  32.423  0.50 21.40           O  
+HETATM   22  C19 BJP A 300      42.899  37.737  35.502  0.25 26.18           C  
+HETATM   23  C20 BJP A 300      43.694  38.879  35.241  0.25 26.52           C  
+HETATM   24  C21 BJP A 300      45.063  38.739  34.946  0.25 26.59           C  
+HETATM   25  C22 BJP A 300      45.653  37.462  34.936  0.25 26.61           C  
+HETATM   26  C23 BJP A 300      44.873  36.324  35.224  0.25 26.53           C  
+HETATM   27  C24 BJP A 300      43.498  36.460  35.499  0.25 26.30           C  
+HETATM   28  C25 BJP A 300      41.407  37.875  35.765  0.25 25.75           C  
+HETATM   29  C26 BJP A 300      40.719  38.460  34.533  0.25 25.25           C  
+HETATM   30  O6  BJP A 300      40.732  39.675  34.362  0.25 24.24           O  
+HETATM   31  N1  BJP A 300      40.177  37.603  33.655  0.25 25.58           N  
+CONECT    8    9   16
+CONECT    9    8   13   31
+CONECT   10   11   12   20
+CONECT   10   12
+CONECT   11   10
+CONECT   12   10
+CONECT   12   10
+CONECT   13    6    9   14   21
+CONECT   14   13
+CONECT   15   16   17
+CONECT   15   16
+CONECT   16    8   15   18
+CONECT   16   15
+CONECT   17   15   19
+CONECT   17   19
+CONECT   18   16   20
+CONECT   18   20
+CONECT   19   17   20
+CONECT   19   17
+CONECT   20   10   18   19
+CONECT   20   18
+CONECT   21   13
+CONECT   22   23   27   28
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   23   25
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26   25   27
+CONECT   26   27
+CONECT   27   22   26
+CONECT   27   26
+CONECT   28   22   29
+CONECT   29   28   30   31
+CONECT   29   30
+CONECT   30   29
+CONECT   30   29
+CONECT   31    9   29
+ENDMDL
+END   

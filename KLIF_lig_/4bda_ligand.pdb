@@ -1,0 +1,42 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4bda_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N1  VFB A1515      -1.182  18.943  44.849  1.00  0.00           N1+
+HETATM    2  CAB VFB A1515      -1.477  16.466  45.283  1.00  0.00           C  
+HETATM    3  CAC VFB A1515      -0.456  15.088  43.574  1.00  0.00           C  
+HETATM    4  CAD VFB A1515      -1.002  17.591  44.611  1.00  0.00           C  
+HETATM    5  CAE VFB A1515       0.030  16.212  42.909  1.00  0.00           C  
+HETATM    6  CAF VFB A1515       0.342  20.686  42.292  1.00  0.00           C  
+HETATM    7  CAG VFB A1515      -0.602  19.660  43.858  1.00  0.00           C  
+HETATM    8  NAH VFB A1515      -0.386  20.890  43.423  1.00  0.00           N  
+HETATM    9  NAI VFB A1515       0.595  19.438  41.970  1.00  0.00           N  
+HETATM   10  CAJ VFB A1515      -1.205  15.215  44.743  1.00  0.00           C  
+HETATM   11  CAK VFB A1515      -0.263  17.463  43.434  1.00  0.00           C  
+HETATM   12  NAL VFB A1515      -0.022  18.744  42.988  1.00  0.00           N1+
+CONECT    1    4    7
+CONECT    1    7
+CONECT    2    4   10
+CONECT    2   10
+CONECT    3    5   10
+CONECT    3    5
+CONECT    4    1    2   11
+CONECT    4   11
+CONECT    5    3   11
+CONECT    5    3
+CONECT    6    8    9
+CONECT    6    9
+CONECT    7    1    8   12
+CONECT    7    1
+CONECT    8    6    7
+CONECT    9    6   12
+CONECT    9    6
+CONECT   10    2    3
+CONECT   10    2
+CONECT   11    4    5   12
+CONECT   11    4
+CONECT   12    7    9   11
+ENDMDL
+END   

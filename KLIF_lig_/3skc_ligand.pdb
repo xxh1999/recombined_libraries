@@ -1,0 +1,94 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3skc_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  BR2 A 801       2.491  19.684  40.441  1.00  0.00           C  
+HETATM    2  C2  BR2 A 801       3.317  20.501  39.530  1.00  0.00           C  
+HETATM    3  O3  BR2 A 801       2.304  18.488  40.236  1.00  0.00           O  
+HETATM    4  C4  BR2 A 801       2.883  20.584  38.238  1.00  0.00           C  
+HETATM    5  C5  BR2 A 801       3.590  21.394  37.297  1.00  0.00           C  
+HETATM    6  C6  BR2 A 801       4.746  22.096  37.680  1.00  0.00           C  
+HETATM    7  C7  BR2 A 801       5.207  21.999  38.993  1.00  0.00           C  
+HETATM    8  C8  BR2 A 801       4.507  21.209  39.924  1.00  0.00           C  
+HETATM    9  F9  BR2 A 801       4.947  21.126  41.192  1.00  0.00           F  
+HETATM   10  F10 BR2 A 801       1.771  19.919  37.869  1.00  0.00           F  
+HETATM   11  N11 BR2 A 801       3.109  21.473  36.076  1.00  0.00           N  
+HETATM   12  N12 BR2 A 801       1.964  20.398  41.461  1.00  0.00           N  
+HETATM   13  C13 BR2 A 801       1.118  19.981  42.522  1.00  0.00           C  
+HETATM   14  C14 BR2 A 801       1.018  18.640  42.928  1.00  0.00           C  
+HETATM   15  C15 BR2 A 801       0.172  18.362  43.998  1.00  0.00           C  
+HETATM   16  C16 BR2 A 801      -0.528  19.397  44.600  1.00  0.00           C  
+HETATM   17  N17 BR2 A 801      -0.478  20.707  44.254  1.00  0.00           N  
+HETATM   18  C18 BR2 A 801       0.344  20.962  43.223  1.00  0.00           C  
+HETATM   19  C19 BR2 A 801      -0.178  17.226  44.664  1.00  0.00           C  
+HETATM   20  N20 BR2 A 801      -1.036  17.466  45.634  1.00  0.00           N  
+HETATM   21  N21 BR2 A 801      -1.234  18.817  45.573  1.00  0.00           N  
+HETATM   22  O22 BR2 A 801       0.258  15.975  44.420  1.00  0.00           O  
+HETATM   23  C23 BR2 A 801      -0.251  14.946  45.262  1.00  0.00           C  
+HETATM   24  S24 BR2 A 801       3.633  22.379  34.768  1.00  0.00           S2+
+HETATM   25  C25 BR2 A 801       2.633  23.826  34.983  1.00  0.00           C  
+HETATM   26  C26 BR2 A 801       1.312  23.820  34.510  1.00  0.00           C  
+HETATM   27  C27 BR2 A 801       0.496  24.945  34.698  1.00  0.00           C  
+HETATM   28  C28 BR2 A 801       1.011  26.088  35.372  1.00  0.00           C  
+HETATM   29  C29 BR2 A 801       2.344  26.082  35.846  1.00  0.00           C  
+HETATM   30  C30 BR2 A 801       3.151  24.942  35.650  1.00  0.00           C  
+HETATM   31  O31 BR2 A 801       5.047  22.698  34.995  1.00  0.00           O1-
+HETATM   32  O32 BR2 A 801       3.191  21.650  33.577  1.00  0.00           O1-
+CONECT    1    2    3   12
+CONECT    1    3
+CONECT    2    1    4    8
+CONECT    2    8
+CONECT    3    1
+CONECT    3    1
+CONECT    4    2    5   10
+CONECT    4    5
+CONECT    5    4    6   11
+CONECT    5    4
+CONECT    6    5    7
+CONECT    6    7
+CONECT    7    6    8
+CONECT    7    6
+CONECT    8    2    7    9
+CONECT    8    2
+CONECT    9    8
+CONECT   10    4
+CONECT   11    5   24
+CONECT   12    1   13
+CONECT   13   12   14   18
+CONECT   13   18
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16   19
+CONECT   15   14
+CONECT   16   15   17   21
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   13   17
+CONECT   18   13
+CONECT   19   15   20   22
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   16   20
+CONECT   22   19   23
+CONECT   23   22
+CONECT   24   11   25   31   32
+CONECT   25   24   26   30
+CONECT   25   30
+CONECT   26   25   27
+CONECT   26   27
+CONECT   27   26   28
+CONECT   27   26
+CONECT   28   27   29
+CONECT   28   29
+CONECT   29   28   30
+CONECT   29   28
+CONECT   30   25   29
+CONECT   30   25
+CONECT   31   24
+CONECT   32   24
+ENDMDL
+END   

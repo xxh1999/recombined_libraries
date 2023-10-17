@@ -1,0 +1,27 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1BE8
+MODEL        1
+ATOM      1  N   HIS A  67       4.886  12.123  14.295  1.00 12.95           N1+
+ATOM      2  N   HIS A  67       4.773  12.512  14.102  1.00 10.59           N1+
+ATOM      3  CA  HIS A  67       5.767  11.025  13.900  1.00 14.04           C  
+ATOM      4  CA  HIS A  67       5.635  11.388  13.753  1.00 11.20           C  
+ATOM      5  C   HIS A  67       6.931  11.496  13.021  1.00 13.98           C  
+ATOM      6  C   HIS A  67       6.859  11.881  12.975  1.00 12.62           C  
+ATOM      7  O   HIS A  67       8.063  11.061  13.228  1.00 17.01           O  
+ATOM      8  O   HIS A  67       7.994  11.498  13.274  1.00 14.24           O  
+ATOM      9  CB  HIS A  67       4.914   9.964  13.178  1.00 11.54           C  
+ATOM     10  CG  HIS A  67       5.567   8.615  13.064  1.00 12.43           C  
+ATOM     11  ND1 HIS A  67       6.455   8.299  12.032  1.00 11.41           N  
+ATOM     12  CD2 HIS A  67       5.439   7.525  13.899  1.00 14.72           C  
+ATOM     13  CE1 HIS A  67       6.826   7.052  12.277  1.00 13.74           C  
+ATOM     14  NE2 HIS A  67       6.247   6.540  13.362  1.00 15.47           N  
+ATOM     15  CB  HIS A  67       4.847  10.387  12.912  1.00 10.05           C  
+ATOM     16  CG  HIS A  67       5.391   9.001  12.967  1.00 11.45           C  
+ATOM     17  ND1 HIS A  67       6.309   8.522  12.052  1.00 11.66           N  
+ATOM     18  CD2 HIS A  67       5.178   7.986  13.839  1.00 10.87           C  
+ATOM     19  CE1 HIS A  67       6.632   7.286  12.357  1.00 12.59           C  
+ATOM     20  NE2 HIS A  67       5.957   6.934  13.441  1.00 14.83           N  
+ENDMDL
+END   

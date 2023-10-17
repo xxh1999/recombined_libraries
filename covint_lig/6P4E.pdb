@@ -1,0 +1,76 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6P4E
+MODEL        1
+ATOM      1  N   CYS A  26       0.534  19.148  42.304  1.00  7.09           N1+
+ATOM      2  CA  CYS A  26       0.494  20.063  43.453  1.00  5.00           C  
+ATOM      3  C   CYS A  26       1.614  19.859  44.493  1.00  7.88           C  
+ATOM      4  O   CYS A  26       2.034  20.820  45.129  1.00  5.43           O  
+ATOM      5  CB  CYS A  26      -0.898  20.027  44.116  1.00  8.11           C  
+ATOM      6  SG  CYS A  26      -1.226  18.433  44.944  1.00  7.22           S  
+TER       7      CYS A  26
+HETATM    8  C10 GES A 306      -1.146  14.564  47.242  0.58  8.73           C  
+HETATM    9  C11 GES A 306      -0.329  15.560  48.101  0.58  9.88           C  
+HETATM   10  N5  GES A 306      -2.280  16.134  43.976  0.58  7.23           N  
+HETATM   11  C5  GES A 306       3.400   9.194  47.489  0.58 17.87           C  
+HETATM   12  C4  GES A 306       2.429   8.564  46.473  0.58 14.84           C  
+HETATM   13  C9  GES A 306      -1.204  12.143  46.756  0.58 11.14           C  
+HETATM   14  N3  GES A 306      -0.556  13.221  47.238  0.58  9.30           N  
+HETATM   15  C2  GES A 306      -0.390  10.947  46.434  0.58 10.83           C  
+HETATM   16  N1  GES A 306      -0.776   9.918  45.599  0.58 14.28           N  
+HETATM   17  C1  GES A 306       0.843  10.656  46.950  0.58 13.03           C  
+HETATM   18  C8  GES A 306      -2.011   9.716  44.861  0.58 12.72           C  
+HETATM   19  C7  GES A 306       2.047   7.162  46.990  0.58 14.96           C  
+HETATM   20  C6  GES A 306       3.152   8.442  45.115  0.58 18.14           C  
+HETATM   21  C12 GES A 306      -1.138  15.089  45.792  0.58 10.39           C  
+HETATM   22  C13 GES A 306      -3.520  15.779  46.009  0.58  9.77           C  
+HETATM   23  C14 GES A 306      -2.791  15.127  43.049  0.58  9.22           C  
+HETATM   24  C15 GES A 306      -2.041  17.467  43.630  0.58  9.36           C  
+HETATM   25  C16 GES A 306      -0.371  15.322  49.623  0.58 14.26           C  
+HETATM   26  C17 GES A 306       0.698  16.178  50.323  0.58  9.02           C  
+HETATM   27  C18 GES A 306      -1.760  15.612  50.223  0.58 11.69           C  
+HETATM   28  C3  GES A 306       1.176   9.415  46.325  0.58 11.97           C  
+HETATM   29  N2  GES A 306       0.201   8.993  45.523  0.58 16.92           N  
+HETATM   30  N4  GES A 306      -2.259  15.652  45.291  0.58  8.31           N  
+HETATM   31  N6  GES A 306      -2.374  17.947  42.489  0.58 10.48           N  
+HETATM   32  O1  GES A 306      -2.404  12.174  46.482  0.58 12.29           O  
+HETATM   33  O2  GES A 306      -0.102  14.988  45.134  0.58  9.12           O  
+CONECT    8    9   14   21
+CONECT    9    8   25
+CONECT   10   23   24   30
+CONECT   11   12
+CONECT   12   11   19   20   28
+CONECT   13   14   15   32
+CONECT   13   32
+CONECT   14    8   13
+CONECT   15   13   16   17
+CONECT   15   17
+CONECT   16   15   18   29
+CONECT   17   15   28
+CONECT   17   15
+CONECT   18   16
+CONECT   19   12
+CONECT   20   12
+CONECT   21    8   30   33
+CONECT   21   33
+CONECT   22   30
+CONECT   23   10
+CONECT   24    6   10   31
+CONECT   24   31
+CONECT   25    9   26   27
+CONECT   26   25
+CONECT   27   25
+CONECT   28   12   17   29
+CONECT   28   29
+CONECT   29   16   28
+CONECT   29   28
+CONECT   30   10   21   22
+CONECT   31   24
+CONECT   31   24
+CONECT   32   13
+CONECT   32   13
+CONECT   33   21
+CONECT   33   21
+ENDMDL
+END   

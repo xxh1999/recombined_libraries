@@ -1,0 +1,37 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7a4s_ligand
+MODEL        1
+HETATM    1  C1  QYE A 501       0.125  19.458  44.148  1.00  0.00           C  
+HETATM    2  N1  QYE A 501      -0.375  18.999  45.295  1.00  0.00           N  
+HETATM    3  S1  QYE A 501       2.055  18.009  41.030  1.00  0.00           S  
+HETATM    4  C2  QYE A 501       0.433  21.303  42.743  1.00  0.00           C  
+HETATM    5  N2  QYE A 501      -0.042  20.776  43.878  1.00  0.00           N  
+HETATM    6  C3  QYE A 501       1.088  20.548  41.789  1.00  0.00           C  
+HETATM    7  C4  QYE A 501       1.272  19.190  42.027  1.00  0.00           C  
+HETATM    8  C5  QYE A 501       0.791  18.629  43.216  1.00  0.00           C  
+HETATM    9  C6  QYE A 501       1.079  17.210  43.271  1.00  0.00           C  
+HETATM   10  C7  QYE A 501       1.834  16.798  42.233  1.00  0.00           C  
+HETATM   11 CL1  QYE A 501       1.652  21.284  40.315  1.00  0.00          Cl  
+CONECT    1    2    5    8
+CONECT    1    5
+CONECT    2    1
+CONECT    3    7   10
+CONECT    4    5    6
+CONECT    4    6
+CONECT    5    1    4
+CONECT    5    1
+CONECT    6    4    7   11
+CONECT    6    4
+CONECT    7    3    6    8
+CONECT    7    8
+CONECT    8    1    7    9
+CONECT    8    7
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    3    9
+CONECT   10    9
+CONECT   11    6
+ENDMDL
+END   

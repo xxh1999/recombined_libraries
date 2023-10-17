@@ -1,0 +1,67 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2ZZ6
+MODEL        1
+ATOM      1  N   LYS A  72      24.388 -21.421  22.365  1.00  7.57           N1+
+ATOM      2  CA  LYS A  72      25.809 -21.143  22.622  1.00  7.16           C  
+ATOM      3  C   LYS A  72      26.091 -21.011  24.123  1.00  7.09           C  
+ATOM      4  O   LYS A  72      26.614 -20.002  24.595  1.00  6.79           O  
+ATOM      5  CB  LYS A  72      26.283 -19.951  21.754  1.00 10.25           C  
+ATOM      6  CG  LYS A  72      26.664 -20.457  20.357  1.00 13.89           C  
+ATOM      7  CD  LYS A  72      26.519 -19.439  19.223  1.00 11.70           C  
+ATOM      8  CE  LYS A  72      26.895 -20.077  17.880  1.00 11.69           C  
+ATOM      9  NZ  LYS A  72      26.595 -19.230  16.740  1.00  8.43           N1+
+TER      10      LYS A  72
+HETATM   11  O3P 6AZ A 301      24.618 -17.218   7.627  1.00  8.27           O  
+HETATM   12  P   6AZ A 301      24.446 -16.263   8.788  1.00  7.56           P  
+HETATM   13  O1P 6AZ A 301      25.742 -15.566   9.158  1.00  7.92           O1-
+HETATM   14  O2P 6AZ A 301      23.325 -15.277   8.556  1.00  6.99           O1-
+HETATM   15  O5' 6AZ A 301      23.949 -17.179  10.055  1.00  6.06           O  
+HETATM   16  C5' 6AZ A 301      24.953 -17.578  10.969  1.00  7.37           C  
+HETATM   17  C4' 6AZ A 301      24.318 -18.295  12.171  1.00  5.38           C  
+HETATM   18  C3' 6AZ A 301      23.683 -17.304  13.149  1.00  4.50           C  
+HETATM   19  O3' 6AZ A 301      22.545 -17.917  13.730  1.00  7.33           O  
+HETATM   20  C2' 6AZ A 301      24.792 -17.056  14.160  1.00  5.77           C  
+HETATM   21  O2' 6AZ A 301      24.248 -16.654  15.395  1.00  6.87           O  
+HETATM   22  O4' 6AZ A 301      25.310 -18.999  12.931  1.00  6.35           O  
+HETATM   23  C1' 6AZ A 301      25.470 -18.424  14.201  1.00  6.49           C  
+HETATM   24  N1  6AZ A 301      26.957 -18.348  14.533  1.00  6.98           N  
+HETATM   25  C6  6AZ A 301      27.475 -18.793  15.758  1.00  7.71           C  
+HETATM   26  C5  6AZ A 301      28.813 -18.790  16.000  1.00  7.19           C  
+HETATM   27  C4  6AZ A 301      29.762 -18.345  15.000  1.00  7.26           C  
+HETATM   28  O4  6AZ A 301      30.975 -18.354  15.131  1.00  8.18           O  
+HETATM   29  N3  6AZ A 301      29.202 -17.888  13.826  1.00  4.70           N  
+HETATM   30  C2  6AZ A 301      27.845 -17.838  13.557  1.00  7.62           C  
+HETATM   31  O2  6AZ A 301      27.489 -17.364  12.490  1.00  6.32           O  
+CONECT   11   12
+CONECT   11   12
+CONECT   12   11   13   14   15
+CONECT   12   11
+CONECT   13   12
+CONECT   14   12
+CONECT   15   12   16
+CONECT   16   15   17
+CONECT   17   16   18   22
+CONECT   18   17   19   20
+CONECT   19   18
+CONECT   20   18   21   23
+CONECT   21   20
+CONECT   22   17   23
+CONECT   23   20   22   24
+CONECT   24   23   25   30
+CONECT   25    9   24   26
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   26   28   29
+CONECT   27   28
+CONECT   28   27
+CONECT   28   27
+CONECT   29   27   30
+CONECT   30   24   29   31
+CONECT   30   31
+CONECT   31   30
+CONECT   31   30
+ENDMDL
+END   

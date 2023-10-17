@@ -1,0 +1,108 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4Z16
+MODEL        1
+ATOM      1  N   CYS A 909     -10.835 -12.965   1.877  1.00 51.30           N1+
+ATOM      2  CA  CYS A 909     -10.961 -11.885   2.858  1.00 49.04           C  
+ATOM      3  C   CYS A 909     -12.219 -11.037   2.609  1.00 52.47           C  
+ATOM      4  O   CYS A 909     -12.667 -10.880   1.472  1.00 53.72           O  
+ATOM      5  CB  CYS A 909      -9.690 -11.011   2.881  1.00 47.79           C  
+ATOM      6  SG  CYS A 909      -9.139 -10.526   1.220  1.00 49.08           S  
+TER       7      CYS A 909
+HETATM    8  C2  4LH A2000      -7.272 -17.963   3.464  1.00 50.57           C  
+HETATM    9  C4  4LH A2000      -5.425 -17.500   4.754  1.00 50.91           C  
+HETATM   10  C5  4LH A2000      -5.891 -18.397   5.739  1.00 53.57           C  
+HETATM   11  C6  4LH A2000      -7.095 -19.072   5.451  1.00 50.63           C  
+HETATM   12  CAP 4LH A2000      -7.918  -9.285   1.542  1.00 47.37           C  
+HETATM   13  CAQ 4LH A2000      -6.657  -9.473   1.984  1.00 46.34           C  
+HETATM   14  CBE 4LH A2000      -6.086 -10.776   2.277  1.00 45.00           C  
+HETATM   15  OAE 4LH A2000      -5.449 -11.454   1.476  1.00 47.12           O  
+HETATM   16  NBA 4LH A2000      -6.301 -11.096   3.563  1.00 42.38           N  
+HETATM   17  CBH 4LH A2000      -5.867 -12.205   4.338  1.00 41.04           C  
+HETATM   18  CAN 4LH A2000      -5.163 -13.330   3.842  1.00 40.84           C  
+HETATM   19  CAJ 4LH A2000      -6.165 -12.137   5.712  1.00 40.60           C  
+HETATM   20  CAH 4LH A2000      -5.731 -13.133   6.599  1.00 39.41           C  
+HETATM   21  CAI 4LH A2000      -5.021 -14.239   6.109  1.00 39.42           C  
+HETATM   22  CBF 4LH A2000      -4.752 -14.354   4.727  1.00 41.73           C  
+HETATM   23  CAV 4LH A2000      -3.986 -15.554   4.197  1.00 45.53           C  
+HETATM   24  NAZ 4LH A2000      -4.223 -16.799   4.924  1.00 47.52           N  
+HETATM   25  N3  4LH A2000      -6.125 -17.302   3.621  1.00 51.80           N  
+HETATM   26 CL5  4LH A2000      -5.061 -18.650   7.232  1.00 58.14          Cl  
+HETATM   27  N1  4LH A2000      -7.783 -18.860   4.308  1.00 49.76           N  
+HETATM   28  NBB 4LH A2000      -8.020 -17.676   2.340  1.00 50.81           N  
+HETATM   29  CBK 4LH A2000      -7.871 -16.714   1.330  1.00 51.92           C  
+HETATM   30  CBL 4LH A2000      -8.289 -17.004   0.012  1.00 56.05           C  
+HETATM   31  CAO 4LH A2000      -8.110 -16.021  -0.997  1.00 57.13           C  
+HETATM   32  OBC 4LH A2000      -8.867 -18.234  -0.224  1.00 57.31           O  
+HETATM   33  CAA 4LH A2000      -9.469 -18.449  -1.491  1.00 55.87           C  
+HETATM   34  CAL 4LH A2000      -7.345 -15.439   1.630  1.00 49.83           C  
+HETATM   35  CAK 4LH A2000      -7.177 -14.476   0.628  1.00 52.40           C  
+HETATM   36  CBI 4LH A2000      -7.547 -14.761  -0.701  1.00 57.40           C  
+HETATM   37  NBP 4LH A2000      -7.380 -13.821  -1.731  1.00 64.16           N  
+HETATM   38  CAT 4LH A2000      -8.600 -13.313  -2.344  1.00 67.03           C  
+HETATM   39  CAR 4LH A2000      -8.346 -12.821  -3.788  1.00 71.21           C  
+HETATM   40  NBO 4LH A2000      -6.927 -12.447  -4.059  1.00 72.70           N1+
+HETATM   41  CAB 4LH A2000      -6.158 -13.512  -4.746  1.00 74.60           C  
+HETATM   42  CAS 4LH A2000      -6.232 -11.914  -2.860  1.00 71.02           C  
+HETATM   43  CAU 4LH A2000      -6.249 -12.897  -1.669  1.00 68.20           C  
+CONECT    8   25   27   28
+CONECT    8   27
+CONECT    9   10   24   25
+CONECT    9   25
+CONECT   10    9   11   26
+CONECT   10   11
+CONECT   11   10   27
+CONECT   11   10
+CONECT   12    6   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15   16
+CONECT   14   15
+CONECT   15   14
+CONECT   15   14
+CONECT   16   14   17
+CONECT   17   16   18   19
+CONECT   17   18
+CONECT   18   17   22
+CONECT   18   17
+CONECT   19   17   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   18   21   23
+CONECT   22   21
+CONECT   23   22   24
+CONECT   24    9   23
+CONECT   25    8    9
+CONECT   25    9
+CONECT   26   10
+CONECT   27    8   11
+CONECT   27    8
+CONECT   28    8   29
+CONECT   29   28   30   34
+CONECT   29   34
+CONECT   30   29   31   32
+CONECT   30   31
+CONECT   31   30   36
+CONECT   31   30
+CONECT   32   30   33
+CONECT   33   32
+CONECT   34   29   35
+CONECT   34   29
+CONECT   35   34   36
+CONECT   35   36
+CONECT   36   31   35   37
+CONECT   36   35
+CONECT   37   36   38   43
+CONECT   38   37   39
+CONECT   39   38   40
+CONECT   40   39   41   42
+CONECT   41   40
+CONECT   42   40   43
+CONECT   43   37   42
+ENDMDL
+END   

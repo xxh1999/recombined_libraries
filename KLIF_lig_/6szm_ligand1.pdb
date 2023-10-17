@@ -1,0 +1,88 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6szm_ligand1
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C10 M2Z A 501      11.837  37.502  45.315  1.00  0.00           C  
+HETATM    2  C13 M2Z A 501      12.717  40.861  44.081  1.00  0.00           C  
+HETATM    3  C17 M2Z A 501      12.519  44.760  42.065  1.00  0.00           C  
+HETATM    4  C20 M2Z A 501      10.448  42.863  41.687  1.00  0.00           C  
+HETATM    5  C21 M2Z A 501      10.706  40.211  42.962  1.00  0.00           C  
+HETATM    6  C22 M2Z A 501      10.716  38.995  43.647  1.00  0.00           C  
+HETATM    7  C24 M2Z A 501      11.877  36.057  43.252  1.00  0.00           C  
+HETATM    8  C26 M2Z A 501      12.128  31.381  45.078  1.00  0.00           C  
+HETATM    9  C28 M2Z A 501      10.078  30.383  45.778  1.00  0.00           C  
+HETATM   10  C01 M2Z A 501      15.934  33.203  42.770  1.00  0.00           C  
+HETATM   11  C03 M2Z A 501      14.070  32.332  43.999  1.00  0.00           C  
+HETATM   12  C04 M2Z A 501      13.644  33.597  44.440  1.00  0.00           C  
+HETATM   13  C05 M2Z A 501      12.428  33.765  45.162  1.00  0.00           C  
+HETATM   14  C06 M2Z A 501      12.154  35.124  45.586  1.00  0.00           C  
+HETATM   15  C07 M2Z A 501      12.243  35.352  46.961  1.00  0.00           C  
+HETATM   16  C09 M2Z A 501      11.924  37.620  46.700  1.00  0.00           C  
+HETATM   17  C11 M2Z A 501      11.682  38.711  44.580  1.00  0.00           C  
+HETATM   18  C12 M2Z A 501      12.722  39.636  44.759  1.00  0.00           C  
+HETATM   19  C14 M2Z A 501      11.707  41.145  43.165  1.00  0.00           C  
+HETATM   20  C16 M2Z A 501      12.185  43.676  43.095  1.00  0.00           C  
+HETATM   21  C19 M2Z A 501      10.652  44.065  40.752  1.00  0.00           C  
+HETATM   22  C23 M2Z A 501      11.964  36.229  44.735  1.00  0.00           C  
+HETATM   23  C25 M2Z A 501      11.689  32.646  45.510  1.00  0.00           C  
+HETATM   24  C29 M2Z A 501      13.300  31.219  44.341  1.00  0.00           C  
+HETATM   25  C31 M2Z A 501      13.039  29.317  42.922  1.00  0.00           C  
+HETATM   26  N08 M2Z A 501      12.093  36.558  47.485  1.00  0.00           N  
+HETATM   27  N15 M2Z A 501      11.666  42.442  42.437  1.00  0.00           N  
+HETATM   28  N18 M2Z A 501      11.384  45.153  41.304  1.00  0.00           N1+
+HETATM   29  O02 M2Z A 501      15.249  32.080  43.273  1.00  0.00           O  
+HETATM   30  O27 M2Z A 501      11.420  30.219  45.375  1.00  0.00           O  
+HETATM   31  O30 M2Z A 501      13.721  29.936  43.975  1.00  0.00           O  
+CONECT    1   16   17   22
+CONECT    1   16
+CONECT    2   18   19
+CONECT    2   18
+CONECT    3   20   28
+CONECT    4   21   27
+CONECT    5    6   19
+CONECT    5   19
+CONECT    6    5   17
+CONECT    6   17
+CONECT    7   22
+CONECT    8   23   24   30
+CONECT    8   23
+CONECT    9   30
+CONECT   10   29
+CONECT   11   12   24   29
+CONECT   11   24
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14   23
+CONECT   13   12
+CONECT   14   13   15   22
+CONECT   14   22
+CONECT   15   14   26
+CONECT   15   26
+CONECT   16    1   26
+CONECT   16    1
+CONECT   17    1    6   18
+CONECT   17    6
+CONECT   18    2   17
+CONECT   18    2
+CONECT   19    2    5   27
+CONECT   19    5
+CONECT   20    3   27
+CONECT   21    4   28
+CONECT   22    1    7   14
+CONECT   22   14
+CONECT   23    8   13
+CONECT   23    8
+CONECT   24    8   11   31
+CONECT   24   11
+CONECT   25   31
+CONECT   26   15   16
+CONECT   26   15
+CONECT   27    4   19   20
+CONECT   28    3   21
+CONECT   29   10   11
+CONECT   30    8    9
+CONECT   31   24   25
+ENDMDL
+END   

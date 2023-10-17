@@ -1,0 +1,109 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6w3a_ligand
+MODEL        1
+HETATM    1  C4  SJM A1001       3.904  21.127  35.787  1.00  0.00           C  
+HETATM    2  C14 SJM A1001       1.577  17.790  37.549  1.00  0.00           C  
+HETATM    3  C11 SJM A1001       3.178  18.872  39.527  1.00  0.00           C  
+HETATM    4  C7  SJM A1001       4.482  20.065  37.850  1.00  0.00           C  
+HETATM    5  C8  SJM A1001       5.252  20.589  38.867  1.00  0.00           C  
+HETATM    6  C9  SJM A1001       5.009  20.268  40.196  1.00  0.00           C  
+HETATM    7  C10 SJM A1001       3.994  19.426  40.528  1.00  0.00           C  
+HETATM    8  C12 SJM A1001       3.415  19.191  38.170  1.00  0.00           C  
+HETATM    9  C13 SJM A1001       2.589  18.625  37.189  1.00  0.00           C  
+HETATM   10  C3  SJM A1001       4.264  21.513  34.457  1.00  0.00           C  
+HETATM   11  C1  SJM A1001       4.934  22.223  31.999  1.00  0.00           C  
+HETATM   12  C15 SJM A1001       1.337  17.472  38.881  1.00  0.00           C  
+HETATM   13  C16 SJM A1001       2.129  18.000  39.873  1.00  0.00           C  
+HETATM   14  C18 SJM A1001       1.759  16.516  41.719  1.00  0.00           C  
+HETATM   15  C19 SJM A1001       0.974  16.347  42.878  1.00  0.00           C  
+HETATM   16  C2  SJM A1001       4.559  21.828  33.366  1.00  0.00           C  
+HETATM   17  C20 SJM A1001       0.808  15.049  43.369  1.00  0.00           C  
+HETATM   18  C21 SJM A1001       1.413  13.994  42.704  1.00  0.00           C  
+HETATM   19  C22 SJM A1001       2.164  14.245  41.573  1.00  0.00           C  
+HETATM   20  C24 SJM A1001       0.321  17.477  43.599  1.00  0.00           C  
+HETATM   21  C25 SJM A1001       0.504  18.814  43.225  1.00  0.00           C  
+HETATM   22  C26 SJM A1001      -0.128  19.814  43.936  1.00  0.00           C  
+HETATM   23  C28 SJM A1001      -1.060  18.214  45.305  1.00  0.00           C  
+HETATM   24  C31 SJM A1001      -2.096  16.556  46.831  1.00  0.00           C  
+HETATM   25  C33 SJM A1001      -2.639  16.574  48.263  1.00  0.00           C  
+HETATM   26  C34 SJM A1001      -2.945  15.141  48.702  1.00  0.00           C  
+HETATM   27  C35 SJM A1001      -3.949  14.526  47.725  1.00  0.00           C  
+HETATM   28  C37 SJM A1001      -3.108  15.874  45.907  1.00  0.00           C  
+HETATM   29  C38 SJM A1001       0.188  16.539  39.184  1.00  0.00           C  
+HETATM   30  N23 SJM A1001       2.315  15.473  41.121  1.00  0.00           N  
+HETATM   31  N27 SJM A1001      -0.894  19.481  44.960  1.00  0.00           N  
+HETATM   32  N29 SJM A1001      -0.469  17.227  44.643  1.00  0.00           N  
+HETATM   33  N30 SJM A1001      -1.878  17.932  46.386  1.00  0.00           N  
+HETATM   34  N36 SJM A1001      -3.365  14.508  46.378  1.00  0.00           N1+
+HETATM   35  N6  SJM A1001       4.788  20.445  36.542  1.00  0.00           N  
+HETATM   36  O17 SJM A1001       1.953  17.751  41.198  1.00  0.00           O  
+HETATM   37  O5  SJM A1001       2.805  21.411  36.229  1.00  0.00           O  
+CONECT    1   10   35   37
+CONECT    1   37
+CONECT    2    9   12
+CONECT    2    9
+CONECT    3    7    8   13
+CONECT    3    8
+CONECT    4    5    8   35
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    5    7
+CONECT    6    7
+CONECT    7    3    6
+CONECT    7    6
+CONECT    8    3    4    9
+CONECT    8    3
+CONECT    9    2    8
+CONECT    9    2
+CONECT   10    1   16
+CONECT   10   16
+CONECT   10   16
+CONECT   11   16
+CONECT   12    2   13   29
+CONECT   12   13
+CONECT   13    3   12   36
+CONECT   13   12
+CONECT   14   15   30   36
+CONECT   14   30
+CONECT   15   14   17   20
+CONECT   15   17
+CONECT   16   10   11
+CONECT   16   10
+CONECT   16   10
+CONECT   17   15   18
+CONECT   17   15
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   30
+CONECT   19   18
+CONECT   20   15   21   32
+CONECT   20   32
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   31
+CONECT   22   21
+CONECT   23   31   32   33
+CONECT   23   31
+CONECT   24   25   28   33
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   27   26   34
+CONECT   28   24   34
+CONECT   29   12
+CONECT   30   14   19
+CONECT   30   14
+CONECT   31   22   23
+CONECT   31   23
+CONECT   32   20   23
+CONECT   32   20
+CONECT   33   23   24
+CONECT   34   27   28
+CONECT   35    1    4
+CONECT   36   13   14
+CONECT   37    1
+CONECT   37    1
+ENDMDL
+END   

@@ -1,0 +1,39 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2JIE
+MODEL        1
+ATOM      1  N   GLU A 356      70.298  37.131  34.987  1.00 37.38           N1+
+ATOM      2  CA  GLU A 356      70.498  35.682  34.998  1.00 35.62           C  
+ATOM      3  C   GLU A 356      70.171  35.070  33.625  1.00 33.56           C  
+ATOM      4  O   GLU A 356      69.047  35.206  33.140  1.00 32.59           O  
+ATOM      5  CB  GLU A 356      69.588  35.074  36.074  1.00 36.48           C  
+ATOM      6  CG  GLU A 356      69.801  33.591  36.342  1.00 40.14           C  
+ATOM      7  CD  GLU A 356      68.556  32.968  36.931  1.00 41.18           C  
+ATOM      8  OE1 GLU A 356      68.776  32.419  38.139  1.00 42.54           O  
+ATOM      9  OE2 GLU A 356      67.501  32.979  36.299  1.00 46.04           O1-
+TER      10      GLU A 356
+HETATM   11  C1  G2F A1449      67.689  31.731  38.676  1.00 35.90           C  
+HETATM   12  C2  G2F A1449      67.722  31.839  40.201  1.00 35.28           C  
+HETATM   13  C3  G2F A1449      68.920  31.056  40.742  1.00 33.16           C  
+HETATM   14  C4  G2F A1449      68.854  29.600  40.251  1.00 31.34           C  
+HETATM   15  C5  G2F A1449      68.745  29.588  38.714  1.00 30.35           C  
+HETATM   16  C6  G2F A1449      68.512  28.218  38.062  1.00 28.63           C  
+HETATM   17  O3  G2F A1449      68.805  31.071  42.143  1.00 32.33           O  
+HETATM   18  O4  G2F A1449      70.039  28.942  40.635  1.00 29.16           O  
+HETATM   19  O5  G2F A1449      67.651  30.391  38.298  1.00 34.29           O  
+HETATM   20  O6  G2F A1449      67.388  27.593  38.641  1.00 27.53           O  
+HETATM   21  F2  G2F A1449      67.802  33.130  40.528  1.00 39.46           F  
+CONECT   11    8   12   19
+CONECT   12   11   13   21
+CONECT   13   12   14   17
+CONECT   14   13   15   18
+CONECT   15   14   16   19
+CONECT   16   15   20
+CONECT   17   13
+CONECT   18   14
+CONECT   19   11   15
+CONECT   20   16
+CONECT   21   12
+ENDMDL
+END   

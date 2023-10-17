@@ -1,0 +1,87 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6w06_ligand
+MODEL        1
+HETATM    1  N1  S5M A1103      -0.783  19.924  44.650  1.00  0.00           N  
+HETATM    2  N3  S5M A1103       3.074  13.743  38.966  1.00  0.00           N  
+HETATM    3  C4  S5M A1103      -0.436  17.521  44.422  1.00  0.00           C  
+HETATM    4  C5  S5M A1103       0.436  17.759  43.346  1.00  0.00           C  
+HETATM    5  C6  S5M A1103       1.129  16.689  42.597  1.00  0.00           C  
+HETATM    6  C7  S5M A1103       1.378  16.821  41.236  1.00  0.00           C  
+HETATM    7  C8  S5M A1103       2.014  15.812  40.538  1.00  0.00           C  
+HETATM    8  C10 S5M A1103       3.139  13.561  40.414  1.00  0.00           C  
+HETATM    9  C13 S5M A1103       5.069  14.713  36.062  1.00  0.00           C  
+HETATM   10  C15 S5M A1103       3.902  14.231  33.995  1.00  0.00           C  
+HETATM   11  C17 S5M A1103       2.530  14.557  31.901  1.00  0.00           C  
+HETATM   12  C20 S5M A1103       2.796  13.875  34.763  1.00  0.00           C  
+HETATM   13  C21 S5M A1103       2.813  13.942  36.144  1.00  0.00           C  
+HETATM   14  C22 S5M A1103       2.196  14.528  42.533  1.00  0.00           C  
+HETATM   15  C24 S5M A1103       0.051  20.017  43.614  1.00  0.00           C  
+HETATM   16  C1  S5M A1103      -1.007  18.659  45.033  1.00  0.00           C  
+HETATM   17  C11 S5M A1103       4.011  14.423  38.306  1.00  0.00           C  
+HETATM   18  C12 S5M A1103       3.955  14.361  36.807  1.00  0.00           C  
+HETATM   19  C14 S5M A1103       5.042  14.641  34.679  1.00  0.00           C  
+HETATM   20  C16 S5M A1103       3.886  14.131  32.468  1.00  0.00           C  
+HETATM   21  C18 S5M A1103       4.153  12.685  32.039  1.00  0.00           C  
+HETATM   22  C19 S5M A1103       4.974  15.016  31.855  1.00  0.00           C  
+HETATM   23  C2  S5M A1103      -1.766  16.866  46.103  1.00  0.00           C  
+HETATM   24  C23 S5M A1103       1.567  15.536  43.241  1.00  0.00           C  
+HETATM   25  C3  S5M A1103      -0.944  16.385  45.128  1.00  0.00           C  
+HETATM   26  C9  S5M A1103       2.430  14.654  41.173  1.00  0.00           C  
+HETATM   27  N2  S5M A1103      -1.812  18.242  46.052  1.00  0.00           N  
+HETATM   28  N4  S5M A1103       0.678  19.028  42.957  1.00  0.00           N  
+HETATM   29  O1  S5M A1103       4.906  15.039  38.881  1.00  0.00           O  
+CONECT    1   15   16
+CONECT    1   15
+CONECT    2    8   17
+CONECT    3    4   16   25
+CONECT    3   16
+CONECT    4    3    5   28
+CONECT    4   28
+CONECT    5    4    6   24
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    6   26
+CONECT    7   26
+CONECT    8    2   26
+CONECT    9   18   19
+CONECT    9   18
+CONECT   10   12   19   20
+CONECT   10   19
+CONECT   11   20
+CONECT   12   10   13
+CONECT   12   13
+CONECT   13   12   18
+CONECT   13   12
+CONECT   14   24   26
+CONECT   14   24
+CONECT   15    1   28
+CONECT   15    1
+CONECT   16    1    3   27
+CONECT   16    3
+CONECT   17    2   18   29
+CONECT   17   29
+CONECT   18    9   13   17
+CONECT   18    9
+CONECT   19    9   10
+CONECT   19   10
+CONECT   20   10   11   21   22
+CONECT   21   20
+CONECT   22   20
+CONECT   23   25   27
+CONECT   23   25
+CONECT   24    5   14
+CONECT   24   14
+CONECT   25    3   23
+CONECT   25   23
+CONECT   26    7    8   14
+CONECT   26    7
+CONECT   27   16   23
+CONECT   28    4   15
+CONECT   28    4
+CONECT   29   17
+CONECT   29   17
+ENDMDL
+END   

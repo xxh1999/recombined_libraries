@@ -1,0 +1,80 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5cf4_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C17 Q50 A4000      -1.234  13.860  41.576  1.00  0.00           C  
+HETATM    2  C16 Q50 A4000       0.077  14.220  42.179  1.00  0.00           C  
+HETATM    3  C15 Q50 A4000       2.064  15.046  39.820  1.00  0.00           C  
+HETATM    4  C20 Q50 A4000       1.155  16.063  37.600  1.00  0.00           C  
+HETATM    5  C21 Q50 A4000       3.103  14.464  37.742  1.00  0.00           C  
+HETATM    6  C22 Q50 A4000      -0.293  16.171  37.918  1.00  0.00           C  
+HETATM    7  C23 Q50 A4000       0.594  17.360  38.061  1.00  0.00           C  
+HETATM    8  C24 Q50 A4000       4.536  14.837  37.918  1.00  0.00           C  
+HETATM    9  C11 Q50 A4000      -0.155  21.086  43.043  1.00  0.00           C  
+HETATM   10  C27 Q50 A4000      -2.425  16.774  47.462  1.00  0.00           C  
+HETATM   11  C1  Q50 A4000       0.781  17.814  41.899  1.00  0.00           C  
+HETATM   12  C2  Q50 A4000       0.250  16.699  42.562  1.00  0.00           C  
+HETATM   13  N3  Q50 A4000      -0.449  16.674  43.703  1.00  0.00           N  
+HETATM   14  C4  Q50 A4000      -0.738  17.850  44.285  1.00  0.00           C  
+HETATM   15  C5  Q50 A4000      -0.369  19.063  43.654  1.00  0.00           C  
+HETATM   16  C6  Q50 A4000       0.390  19.043  42.482  1.00  0.00           C  
+HETATM   17  C7  Q50 A4000       1.527  17.321  40.793  1.00  0.00           C  
+HETATM   18  C8  Q50 A4000       1.395  15.954  40.784  1.00  0.00           C  
+HETATM   19  N9  Q50 A4000       0.595  15.567  41.857  1.00  0.00           N  
+HETATM   20  N10 Q50 A4000      -0.697  20.366  43.995  1.00  0.00           N  
+HETATM   21  N12 Q50 A4000       0.519  20.363  42.105  1.00  0.00           N  
+HETATM   22  N13 Q50 A4000      -1.355  17.828  45.478  1.00  0.00           N  
+HETATM   23  C14 Q50 A4000       1.240  20.897  40.956  1.00  0.00           C  
+HETATM   24  O18 Q50 A4000       2.763  14.165  40.304  1.00  0.00           O  
+HETATM   25  N19 Q50 A4000       2.040  15.231  38.470  1.00  0.00           N  
+HETATM   26  C25 Q50 A4000       3.846  15.110  36.623  1.00  0.00           C  
+HETATM   27  C26 Q50 A4000      -1.577  16.597  46.217  1.00  0.00           C  
+HETATM   28  C28 Q50 A4000      -2.155  15.723  48.507  1.00  0.00           C  
+HETATM   29  O29 Q50 A4000      -0.869  15.984  49.059  1.00  0.00           O  
+HETATM   30  C30 Q50 A4000      -0.485  15.031  50.044  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1   19
+CONECT    3   18   24   25
+CONECT    3   24
+CONECT    4    6    7   25
+CONECT    5    8   25   26
+CONECT    6    4    7
+CONECT    7    4    6
+CONECT    8    5   26
+CONECT    9   20   21
+CONECT    9   20
+CONECT   10   27   28
+CONECT   11   12   16   17
+CONECT   11   16
+CONECT   12   11   13   19
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15   22
+CONECT   14   15
+CONECT   15   14   16   20
+CONECT   15   14
+CONECT   16   11   15   21
+CONECT   16   11
+CONECT   17   11   18
+CONECT   17   18
+CONECT   18    3   17   19
+CONECT   18   17
+CONECT   19    2   12   18
+CONECT   20    9   15
+CONECT   20    9
+CONECT   21    9   16   23
+CONECT   22   14   27
+CONECT   23   21
+CONECT   24    3
+CONECT   24    3
+CONECT   25    3    4    5
+CONECT   26    5    8
+CONECT   27   10   22
+CONECT   28   10   29
+CONECT   29   28   30
+CONECT   30   29
+ENDMDL
+END   

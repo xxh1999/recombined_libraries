@@ -1,0 +1,78 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3op5_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C10 REB A 365       1.181  18.746  43.151  1.00  0.00           C  
+HETATM    2  N12 REB A 365       0.287  18.880  45.080  1.00  0.00           N  
+HETATM    3  C15 REB A 365       2.377  15.863  44.956  1.00  0.00           C  
+HETATM    4  C20 REB A 365       3.254  15.404  39.652  1.00  0.00           C  
+HETATM    5  C21 REB A 365       2.088  14.950  40.322  1.00  0.00           C  
+HETATM    6  C22 REB A 365       0.918  15.855  40.517  1.00  0.00           C  
+HETATM    7  C24 REB A 365       2.185  13.492  40.765  1.00  0.00           C  
+HETATM    8  C02 REB A 365       1.171  22.557  40.361  1.00  0.00           C  
+HETATM    9  C03 REB A 365       1.708  22.482  39.073  1.00  0.00           C  
+HETATM   10  N04 REB A 365       2.170  21.243  38.558  1.00  0.00           N  
+HETATM   11  C05 REB A 365       2.139  20.142  39.251  1.00  0.00           C  
+HETATM   12  N06 REB A 365       1.646  20.241  40.545  1.00  0.00           N  
+HETATM   13  C07 REB A 365       1.166  21.370  41.124  1.00  0.00           C  
+HETATM   14  N08 REB A 365       0.675  21.154  42.488  1.00  0.00           N  
+HETATM   15  C09 REB A 365       0.627  20.077  43.374  1.00  0.00           C  
+HETATM   16  C11 REB A 365       0.902  18.071  44.297  1.00  0.00           C  
+HETATM   17  N13 REB A 365       0.118  20.105  44.546  1.00  0.00           N  
+HETATM   18  C14 REB A 365       1.195  16.694  44.704  1.00  0.00           C  
+HETATM   19  C16 REB A 365       1.482  15.561  43.798  1.00  0.00           C  
+HETATM   20  N17 REB A 365       2.532  18.910  38.857  1.00  0.00           N  
+HETATM   21  C18 REB A 365       2.304  17.601  39.344  1.00  0.00           C  
+HETATM   22  C19 REB A 365       3.355  16.713  39.168  1.00  0.00           C  
+HETATM   23  C23 REB A 365       1.069  17.219  40.004  1.00  0.00           C  
+HETATM   24  C25 REB A 365       3.188  13.431  41.844  1.00  0.00           C  
+HETATM   25  N26 REB A 365       4.097  13.450  42.541  1.00  0.00           N  
+CONECT    1   15   16
+CONECT    1   16
+CONECT    2   16   17
+CONECT    3   18   19
+CONECT    4    5   22
+CONECT    4    5
+CONECT    5    4    6    7
+CONECT    5    4
+CONECT    6    5   23
+CONECT    6   23
+CONECT    7    5   24
+CONECT    8    9   13
+CONECT    8   13
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11   10   12   20
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13    8   12   14
+CONECT   13    8
+CONECT   14   13   15
+CONECT   15    1   14   17
+CONECT   15   17
+CONECT   16    1    2   18
+CONECT   16    1
+CONECT   17    2   15
+CONECT   17   15
+CONECT   18    3   16   19
+CONECT   19    3   18
+CONECT   20   11   21
+CONECT   21   20   22   23
+CONECT   21   22
+CONECT   22    4   21
+CONECT   22   21
+CONECT   23    6   21
+CONECT   23    6
+CONECT   24    7   25
+CONECT   24   25
+CONECT   24   25
+CONECT   25   24
+CONECT   25   24
+CONECT   25   24
+ENDMDL
+END   

@@ -1,0 +1,81 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6y9s_ligand
+MODEL        1
+HETATM    1  C1  OHK B 401      -2.583  15.277  45.408  1.00  0.00           C  
+HETATM    2  C2  OHK B 401      -2.336  13.759  45.273  1.00  0.00           C  
+HETATM    3  C3  OHK B 401      -2.614  13.116  46.632  1.00  0.00           C  
+HETATM    4  C5  OHK B 401      -1.799  15.127  47.763  1.00  0.00           C  
+HETATM    5  C6  OHK B 401      -1.611  15.871  46.427  1.00  0.00           C  
+HETATM    6  C7  OHK B 401      -2.507  15.903  44.024  1.00  0.00           C  
+HETATM    7  C12 OHK B 401       0.903  18.303  40.369  1.00  0.00           C  
+HETATM    8  C15 OHK B 401       1.528  20.976  40.579  1.00  0.00           C  
+HETATM    9  C16 OHK B 401       0.716  20.351  41.554  1.00  0.00           C  
+HETATM   10  C17 OHK B 401       0.083  20.772  42.713  1.00  0.00           C  
+HETATM   11  C19 OHK B 401       2.185  17.995  38.208  1.00  0.00           C  
+HETATM   12  C23 OHK B 401       2.353  15.816  37.055  1.00  0.00           C  
+HETATM   13  C24 OHK B 401       1.883  16.603  38.111  1.00  0.00           C  
+HETATM   14  O25 OHK B 401       2.090  14.481  36.902  1.00  0.00           O  
+HETATM   15  C27 OHK B 401       1.876  13.272  39.005  1.00  0.00           C  
+HETATM   16  O29 OHK B 401      -0.719  16.481  42.042  1.00  0.00           O  
+HETATM   17  O4  OHK B 401      -1.750  13.699  47.611  1.00  0.00           O  
+HETATM   18  N8  OHK B 401      -1.825  17.211  43.838  1.00  0.00           N  
+HETATM   19  C9  OHK B 401      -0.975  17.398  42.792  1.00  0.00           C  
+HETATM   20  C10 OHK B 401      -0.372  18.694  42.514  1.00  0.00           C  
+HETATM   21  N11 OHK B 401       0.431  19.018  41.438  1.00  0.00           N  
+HETATM   22  C13 OHK B 401       1.681  18.842  39.362  1.00  0.00           C  
+HETATM   23  C14 OHK B 401       1.983  20.238  39.510  1.00  0.00           C  
+HETATM   24  N18 OHK B 401      -0.577  19.772  43.243  1.00  0.00           N  
+HETATM   25  C20 OHK B 401       2.992  18.512  37.160  1.00  0.00           C  
+HETATM   26  N21 OHK B 401       3.409  17.735  36.168  1.00  0.00           N  
+HETATM   27  C22 OHK B 401       3.135  16.436  36.093  1.00  0.00           C  
+HETATM   28  C26 OHK B 401       1.179  13.708  37.707  1.00  0.00           C  
+HETATM   29  C28 OHK B 401       0.759  12.478  36.913  1.00  0.00           C  
+CONECT    1    2    5    6
+CONECT    2    1    3
+CONECT    3    2   17
+CONECT    4    5   17
+CONECT    5    1    4
+CONECT    6    1   18
+CONECT    7   21   22
+CONECT    7   22
+CONECT    8    9   23
+CONECT    8   23
+CONECT    9    8   10   21
+CONECT    9   10
+CONECT   10    9   24
+CONECT   10    9
+CONECT   11   13   22   25
+CONECT   11   13
+CONECT   12   13   14   27
+CONECT   12   27
+CONECT   13   11   12
+CONECT   13   11
+CONECT   14   12   28
+CONECT   15   28
+CONECT   16   19
+CONECT   16   19
+CONECT   17    3    4
+CONECT   18    6   19
+CONECT   19   16   18   20
+CONECT   19   16
+CONECT   20   19   21   24
+CONECT   20   24
+CONECT   21    7    9   20
+CONECT   22    7   11   23
+CONECT   22    7
+CONECT   23    8   22
+CONECT   23    8
+CONECT   24   10   20
+CONECT   24   20
+CONECT   25   11   26
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   12   26
+CONECT   27   12
+CONECT   28   14   15   29
+CONECT   29   28
+ENDMDL
+END   

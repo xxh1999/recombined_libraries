@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1agw_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N1  SU2 B1000       0.617  20.731  42.622  1.00  0.00           N  
+HETATM    2  C2  SU2 B1000       0.414  19.659  43.451  1.00  0.00           C  
+HETATM    3  O2  SU2 B1000      -0.152  19.810  44.540  1.00  0.00           O  
+HETATM    4  C3  SU2 B1000       0.908  18.505  42.874  1.00  0.00           C  
+HETATM    5  C4  SU2 B1000       2.080  18.216  40.566  1.00  0.00           C  
+HETATM    6  C5  SU2 B1000       2.463  18.922  39.436  1.00  0.00           C  
+HETATM    7  C6  SU2 B1000       2.238  20.301  39.338  1.00  0.00           C  
+HETATM    8  C7  SU2 B1000       1.646  21.009  40.357  1.00  0.00           C  
+HETATM    9  C8  SU2 B1000       1.254  20.300  41.489  1.00  0.00           C  
+HETATM   10  C9  SU2 B1000       1.455  18.907  41.614  1.00  0.00           C  
+HETATM   11  C10 SU2 B1000       0.939  17.082  43.424  1.00  0.00           C  
+HETATM   12  C1' SU2 B1000      -0.016  16.489  44.446  1.00  0.00           C  
+HETATM   13  C2' SU2 B1000      -0.028  15.119  44.668  1.00  0.00           C  
+HETATM   14  C3' SU2 B1000      -0.891  14.559  45.606  1.00  0.00           C  
+HETATM   15  C4' SU2 B1000      -1.758  15.362  46.342  1.00  0.00           C  
+HETATM   16  C5' SU2 B1000      -1.741  16.735  46.112  1.00  0.00           C  
+HETATM   17  C6' SU2 B1000      -0.881  17.291  45.175  1.00  0.00           C  
+HETATM   18  N1' SU2 B1000      -4.671  13.768  49.231  1.00  0.00           N  
+HETATM   19  C11 SU2 B1000      -5.771  13.383  50.063  1.00  0.00           C  
+HETATM   20  O3  SU2 B1000      -6.612  12.518  49.825  1.00  0.00           O  
+HETATM   21  C2B SU2 B1000      -4.089  15.156  49.345  1.00  0.00           C  
+HETATM   22  C3B SU2 B1000      -2.755  15.393  48.668  1.00  0.00           C  
+HETATM   23  N4' SU2 B1000      -2.635  14.804  47.304  1.00  0.00           N  
+HETATM   24  C5B SU2 B1000      -3.112  13.388  47.205  1.00  0.00           C  
+HETATM   25  C6B SU2 B1000      -4.449  13.110  47.891  1.00  0.00           C  
+CONECT    1    2    9
+CONECT    2    1    3    4
+CONECT    2    3
+CONECT    3    2
+CONECT    3    2
+CONECT    4    2   10   11
+CONECT    5    6   10
+CONECT    5   10
+CONECT    6    5    7
+CONECT    6    7
+CONECT    7    6    8
+CONECT    7    6
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    1    8   10
+CONECT    9    8
+CONECT   10    4    5    9
+CONECT   10    5
+CONECT   11    4   12
+CONECT   12   11   13   17
+CONECT   12   17
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   16   23
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   12   16
+CONECT   17   12
+CONECT   18   19   21   25
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   18   22
+CONECT   22   21   23
+CONECT   23   15   22   24
+CONECT   24   23   25
+CONECT   25   18   24
+ENDMDL
+END   

@@ -1,0 +1,22 @@
+Prediction of noncovalent interactions for PDB structure 4A52
+=============================================================
+Created on 2023/09/02 using PLIP v2.2.2
+
+If you are using PLIP in your work, please cite:
+Adasme,M. et al. PLIP 2021: expanding the scope of the protein-ligand interaction profiler to DNA and RNA. Nucl. Acids Res. (05 May 2021), gkab294. doi: 10.1093/nar/gkab294
+Analysis was done on model 1.
+
+IM2:A:1142 (IM2) - SMALLMOLECULE
+--------------------------------
+Interacting chain(s): A
+
+
+**Salt Bridges**
++-------+---------+----------+---------------+-----------+-------------+--------------+------+-----------+-------------+--------------+-----------------------+------------------------+
+| RESNR | RESTYPE | RESCHAIN | PROT_IDX_LIST | RESNR_LIG | RESTYPE_LIG | RESCHAIN_LIG | DIST | PROTISPOS | LIG_GROUP   | LIG_IDX_LIST | LIGCOO                | PROTCOO                | 
++=======+=========+==========+===============+===========+=============+==============+======+===========+=============+==============+=======================+========================+
+| 140   | LYS     | A        | 2138          | 1142      | IM2         | A            | 3.46 | True      | Carboxylate | 2610,2611    | -6.490, 7.949, 14.011 | -7.233, 10.863, 12.301 | 
++-------+---------+----------+---------------+-----------+-------------+--------------+------+-----------+-------------+--------------+-----------------------+------------------------+
+
+
+

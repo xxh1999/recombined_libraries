@@ -1,0 +1,82 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4fta_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N5  H5K A 301       3.602  19.317  36.906  1.00  0.00           N  
+HETATM    2  C13 H5K A 301       2.985  19.492  37.846  1.00  0.00           C  
+HETATM    3  C11 H5K A 301       2.238  19.740  39.025  1.00  0.00           C  
+HETATM    4  N3  H5K A 301       1.834  21.003  39.254  1.00  0.00           N  
+HETATM    5  C10 H5K A 301       1.231  21.242  40.424  1.00  0.00           C  
+HETATM    6  C12 H5K A 301       2.000  18.698  39.962  1.00  0.00           C  
+HETATM    7  N4  H5K A 301       1.354  18.949  41.110  1.00  0.00           N  
+HETATM    8  C9  H5K A 301       0.968  20.215  41.343  1.00  0.00           C  
+HETATM    9  N2  H5K A 301       0.294  20.500  42.545  1.00  0.00           N  
+HETATM   10  C8  H5K A 301      -0.150  19.698  43.567  1.00  0.00           C  
+HETATM   11  O3  H5K A 301      -0.685  20.158  44.571  1.00  0.00           O  
+HETATM   12  N1  H5K A 301       0.019  18.347  43.347  1.00  0.00           N  
+HETATM   13  C7  H5K A 301      -0.623  17.273  44.026  1.00  0.00           C  
+HETATM   14  C6  H5K A 301      -1.354  17.463  45.179  1.00  0.00           C  
+HETATM   15  C14 H5K A 301      -0.497  15.992  43.492  1.00  0.00           C  
+HETATM   16  C15 H5K A 301      -1.072  14.916  44.103  1.00  0.00           C  
+HETATM   17  C16 H5K A 301      -1.822  15.070  45.295  1.00  0.00           C  
+HETATM   18  C5  H5K A 301      -1.977  16.373  45.833  1.00  0.00           C  
+HETATM   19  C4  H5K A 301      -2.731  16.528  47.022  1.00  0.00           C  
+HETATM   20  C3  H5K A 301      -3.292  15.454  47.645  1.00  0.00           C  
+HETATM   21  C17 H5K A 301      -2.406  13.977  45.980  1.00  0.00           C  
+HETATM   22  C2  H5K A 301      -3.138  14.162  47.132  1.00  0.00           C  
+HETATM   23  C1  H5K A 301      -3.815  13.011  47.808  1.00  0.00           C  
+HETATM   24  O2  H5K A 301      -4.463  13.165  48.842  1.00  0.00           O  
+HETATM   25  O1  H5K A 301      -3.682  11.848  47.224  1.00  0.00           O1-
+CONECT    1    2
+CONECT    1    2
+CONECT    1    2
+CONECT    2    1    3
+CONECT    2    1
+CONECT    2    1
+CONECT    3    2    4    6
+CONECT    3    4
+CONECT    4    3    5
+CONECT    4    3
+CONECT    5    4    8
+CONECT    5    8
+CONECT    6    3    7
+CONECT    6    7
+CONECT    7    6    8
+CONECT    7    6
+CONECT    8    5    7    9
+CONECT    8    5
+CONECT    9    8   10
+CONECT   10    9   11   12
+CONECT   10   11
+CONECT   11   10
+CONECT   11   10
+CONECT   12   10   13
+CONECT   13   12   14   15
+CONECT   13   14
+CONECT   14   13   18
+CONECT   14   13
+CONECT   15   13   16
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   16   18   21
+CONECT   17   21
+CONECT   18   14   17   19
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   19   22
+CONECT   20   22
+CONECT   21   17   22
+CONECT   21   17
+CONECT   22   20   21   23
+CONECT   22   20
+CONECT   23   22   24   25
+CONECT   23   24
+CONECT   24   23
+CONECT   24   23
+CONECT   25   23
+ENDMDL
+END   

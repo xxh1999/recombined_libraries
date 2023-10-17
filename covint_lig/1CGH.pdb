@@ -1,0 +1,96 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1CGH
+MODEL        1
+ATOM      1  N   SER A 195      13.753  32.932   5.184  1.00 11.57           N1+
+ATOM      2  CA  SER A 195      14.815  33.555   5.989  1.00 11.59           C  
+ATOM      3  C   SER A 195      15.485  32.556   6.933  1.00 10.79           C  
+ATOM      4  O   SER A 195      14.794  31.781   7.585  1.00 11.03           O  
+ATOM      5  CB  SER A 195      14.284  34.712   6.833  1.00 14.66           C  
+ATOM      6  OG  SER A 195      13.865  35.799   6.040  1.00 14.83           O  
+TER       7      SER A 195
+HETATM    8  C1  1ZG A   1      13.688  47.287  -0.547  1.00 27.94           C  
+HETATM    9  O1  1ZG A   1      12.875  47.360  -1.494  1.00 28.06           O  
+HETATM   10  O2  1ZG A   1      14.892  47.621  -0.601  1.00 27.57           O1-
+HETATM   11  C2  1ZG A   1      13.139  46.753   0.778  1.00 29.27           C  
+HETATM   12  C3  1ZG A   1      14.226  46.091   1.652  1.00 27.08           C  
+HETATM   13  C4  1ZG A   1      13.637  45.520   2.940  1.00 26.23           C  
+HETATM   14  O3  1ZG A   1      14.016  45.941   4.033  1.00 24.53           O  
+HETATM   15  N   1ZG A   1      12.708  44.561   2.800  1.00 24.08           N  
+HETATM   16  CA  1ZG A   1      12.002  43.895   3.891  1.00 24.31           C  
+HETATM   17  C   1ZG A   1      12.731  42.572   4.211  1.00 22.86           C  
+HETATM   18  O   1ZG A   1      13.118  41.861   3.279  1.00 22.67           O  
+HETATM   19  CB  1ZG A   1      10.530  43.634   3.443  1.00 22.89           C  
+HETATM   20  CG1 1ZG A   1      10.351  42.664   2.256  1.00 24.68           C  
+HETATM   21  CG2 1ZG A   1       9.620  43.209   4.608  1.00 24.76           C  
+HETATM   22  N1  1ZG A   1      12.901  42.201   5.501  1.00 19.18           N  
+HETATM   23  CA1 1ZG A   1      13.475  40.908   5.885  1.00 17.93           C  
+HETATM   24  C5  1ZG A   1      12.501  39.762   5.571  1.00 17.61           C  
+HETATM   25  O4  1ZG A   1      11.297  39.883   5.801  1.00 16.21           O  
+HETATM   26  CB1 1ZG A   1      13.774  41.042   7.383  1.00 18.43           C  
+HETATM   27  CG  1ZG A   1      12.795  42.086   7.891  1.00 20.97           C  
+HETATM   28  CD  1ZG A   1      12.537  42.987   6.684  1.00 20.00           C  
+HETATM   29  N2  1ZG A   1      13.036  38.663   5.027  1.00 17.40           N  
+HETATM   30  CA2 1ZG A   1      12.285  37.482   4.622  1.00 16.49           C  
+HETATM   31  P   1ZG A   1      12.217  36.137   5.911  1.00 15.81           P  
+HETATM   32  O1P 1ZG A   1      11.547  34.942   5.369  1.00 15.17           O  
+HETATM   33  O2P 1ZG A   1      11.778  36.709   7.204  1.00 16.32           O1-
+HETATM   34  CB2 1ZG A   1      12.866  36.890   3.326  1.00 15.29           C  
+HETATM   35  CG3 1ZG A   1      12.738  37.754   2.079  1.00 18.07           C  
+HETATM   36  CD1 1ZG A   1      13.770  37.717   1.119  1.00 18.22           C  
+HETATM   37  CD2 1ZG A   1      11.590  38.544   1.830  1.00 19.33           C  
+HETATM   38  CE1 1ZG A   1      13.658  38.458  -0.071  1.00 21.13           C  
+HETATM   39  CE2 1ZG A   1      11.481  39.286   0.638  1.00 22.05           C  
+HETATM   40  CZ  1ZG A   1      12.513  39.235  -0.315  1.00 19.93           C  
+CONECT    8    9   10   11
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8
+CONECT   11    8   12
+CONECT   12   11   13
+CONECT   13   12   14   15
+CONECT   13   14
+CONECT   14   13
+CONECT   14   13
+CONECT   15   13   16
+CONECT   16   15   17   19
+CONECT   17   16   18   22
+CONECT   17   18
+CONECT   18   17
+CONECT   18   17
+CONECT   19   16   20   21
+CONECT   20   19
+CONECT   21   19
+CONECT   22   17   23   28
+CONECT   23   22   24   26
+CONECT   24   23   25   29
+CONECT   24   25
+CONECT   25   24
+CONECT   25   24
+CONECT   26   23   27
+CONECT   27   26   28
+CONECT   28   22   27
+CONECT   29   24   30
+CONECT   30   29   31   34
+CONECT   31    6   30   32   33
+CONECT   31   32
+CONECT   32   31
+CONECT   32   31
+CONECT   33   31
+CONECT   34   30   35
+CONECT   35   34   36   37
+CONECT   35   36
+CONECT   36   35   38
+CONECT   36   35
+CONECT   37   35   39
+CONECT   37   39
+CONECT   38   36   40
+CONECT   38   40
+CONECT   39   37   40
+CONECT   39   37
+CONECT   40   38   39
+CONECT   40   38
+ENDMDL
+END   

@@ -1,0 +1,63 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5INH
+MODEL        1
+ATOM      1  N   THR A 209       2.775  16.778  32.676  1.00 19.91           N1+
+ATOM      2  CA  THR A 209       3.937  16.407  33.492  1.00 20.63           C  
+ATOM      3  C   THR A 209       4.659  15.127  33.054  1.00 20.21           C  
+ATOM      4  O   THR A 209       5.805  15.201  32.615  1.00 20.14           O  
+ATOM      5  CB  THR A 209       3.503  16.335  34.973  1.00 21.92           C  
+ATOM      6  OG1 THR A 209       3.062  17.624  35.332  1.00 22.30           O  
+ATOM      7  CG2 THR A 209       4.614  15.985  35.972  1.00 22.30           C  
+TER       8      THR A 209
+HETATM    9  C4  6C1 A 914       1.421  16.931  37.199  1.00 24.53           C  
+HETATM   10  C5  6C1 A 914       0.838  15.651  37.044  1.00 25.43           C  
+HETATM   11  C6  6C1 A 914       0.631  14.796  38.134  1.00 27.61           C  
+HETATM   12  C7  6C1 A 914       1.023  15.205  39.416  1.00 30.06           C  
+HETATM   13  C8  6C1 A 914       1.600  16.468  39.599  1.00 28.56           C  
+HETATM   14  C13 6C1 A 914       1.827  19.159  42.334  1.00 36.46           C  
+HETATM   15  C15 6C1 A 914      -0.470  19.812  42.821  1.00 37.97           C  
+HETATM   16  O1  6C1 A 914       1.478  19.268  35.990  1.00 21.99           O  
+HETATM   17  B2  6C1 A 914       1.684  17.815  35.842  1.00 20.69           B1-
+HETATM   18  O3  6C1 A 914       0.745  17.421  34.774  1.00 18.47           O  
+HETATM   19  C9  6C1 A 914       1.790  17.354  38.507  1.00 27.54           C  
+HETATM   20  O10 6C1 A 914       2.326  18.614  38.672  1.00 28.25           O  
+HETATM   21  C11 6C1 A 914       2.727  19.061  39.967  1.00 29.87           C  
+HETATM   22  C12 6C1 A 914       1.588  19.304  40.952  1.00 32.87           C  
+HETATM   23  C14 6C1 A 914       0.804  19.414  43.266  1.00 38.82           C  
+HETATM   24  C16 6C1 A 914      -0.720  19.947  41.441  1.00 40.34           C  
+HETATM   25 CL   6C1 A 914      -2.278  20.438  40.887  1.00 52.42          Cl  
+HETATM   26  C18 6C1 A 914       0.303  19.683  40.512  1.00 35.63           C  
+CONECT    9   10   17   19
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   19
+CONECT   13   19
+CONECT   14   22   23
+CONECT   14   22
+CONECT   15   23   24
+CONECT   15   23
+CONECT   16   17
+CONECT   17    6    9   16   18
+CONECT   18   17
+CONECT   19    9   13   20
+CONECT   19   13
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22   14   21   26
+CONECT   22   14
+CONECT   23   14   15
+CONECT   23   15
+CONECT   24   15   25   26
+CONECT   24   26
+CONECT   25   24
+CONECT   26   22   24
+CONECT   26   24
+ENDMDL
+END   

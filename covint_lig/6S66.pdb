@@ -1,0 +1,49 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6S66
+MODEL        1
+ATOM      1  N   LYS A 357      42.190  36.867 -14.141  1.00 49.35           N1+
+ATOM      2  CA  LYS A 357      42.743  36.879 -12.797  1.00 49.60           C  
+ATOM      3  C   LYS A 357      41.598  37.099 -11.818  1.00 53.87           C  
+ATOM      4  O   LYS A 357      40.996  38.170 -11.807  1.00 48.84           O  
+ATOM      5  CB  LYS A 357      43.796  37.992 -12.716  1.00 55.59           C  
+ATOM      6  CG  LYS A 357      44.544  38.077 -11.367  1.00 71.00           C  
+ATOM      7  CD  LYS A 357      45.541  39.245 -11.311  1.00 80.64           C  
+ATOM      8  CE  LYS A 357      46.702  39.054 -12.302  1.00 87.27           C  
+ATOM      9  NZ  LYS A 357      47.487  40.251 -12.540  1.00100.32           N1+
+TER      10      LYS A 357
+HETATM   11  C1  MYR A 501      47.296  41.089 -13.570  1.00 87.20           C  
+HETATM   12  O1  MYR A 501      48.252  41.588 -14.149  1.00 76.56           O  
+HETATM   13  C2  MYR A 501      45.890  41.511 -14.015  1.00 75.79           C  
+HETATM   14  C3  MYR A 501      45.783  43.042 -13.894  1.00 72.32           C  
+HETATM   15  C4  MYR A 501      44.601  43.673 -14.632  1.00 69.19           C  
+HETATM   16  C5  MYR A 501      44.660  45.208 -14.652  1.00 68.41           C  
+HETATM   17  C6  MYR A 501      45.926  45.767 -15.323  1.00 63.31           C  
+HETATM   18  C7  MYR A 501      45.798  47.253 -15.654  1.00 62.05           C  
+HETATM   19  C8  MYR A 501      47.136  47.949 -15.862  1.00 64.60           C  
+HETATM   20  C9  MYR A 501      47.761  47.713 -17.235  1.00 61.99           C  
+HETATM   21  C10 MYR A 501      48.678  48.877 -17.625  1.00 59.65           C  
+HETATM   22  C11 MYR A 501      49.052  48.846 -19.107  1.00 65.05           C  
+HETATM   23  C12 MYR A 501      49.405  50.244 -19.630  1.00 73.63           C  
+HETATM   24  C13 MYR A 501      49.686  50.294 -21.136  1.00 73.98           C  
+HETATM   25  C14 MYR A 501      48.553  49.750 -22.003  1.00 74.66           C  
+CONECT   11    9   12   13
+CONECT   11   12
+CONECT   12   11
+CONECT   12   11
+CONECT   13   11   14
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   24
+ENDMDL
+END   

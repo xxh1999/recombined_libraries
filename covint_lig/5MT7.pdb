@@ -1,0 +1,15 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5MT7
+MODEL        1
+ATOM      1  N   ALA B   5      14.068   9.690 136.774  1.00 59.53           N1+
+ATOM      2  CA  ALA B   5      14.815   9.118 137.885  1.00 58.43           C  
+ATOM      3  C   ALA B   5      13.882   8.155 138.654  1.00 61.11           C  
+ATOM      4  O   ALA B   5      12.832   8.546 139.165  1.00 61.80           O  
+ATOM      5  CB  ALA B   5      15.294  10.293 138.760  1.00 58.18           C  
+TER       6      ALA B   5
+HETATM    7  C1  0QE B   6      14.214   6.651 138.714  1.00 61.83           C  
+CONECT    7    3
+ENDMDL
+END   

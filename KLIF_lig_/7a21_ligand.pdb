@@ -1,0 +1,87 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7a21_ligand
+MODEL        1
+HETATM    1  C10 QWQ B 501      -1.023  17.626  44.011  1.00  0.00           C  
+HETATM    2  C13 QWQ B 501      -2.150  14.106  44.736  1.00  0.00           C  
+HETATM    3  C15 QWQ B 501      -2.478  12.756  46.932  1.00  0.00           C  
+HETATM    4  C17 QWQ B 501      -3.931  11.358  47.669  1.00  0.00           C  
+HETATM    5  C20 QWQ B 501      -4.110  13.683  48.017  1.00  0.00           C  
+HETATM    6  C21 QWQ B 501      -1.677  15.184  46.846  1.00  0.00           C  
+HETATM    7  C22 QWQ B 501      -1.324  16.361  46.173  1.00  0.00           C  
+HETATM    8  C24 QWQ B 501       0.397  16.241  42.269  1.00  0.00           C  
+HETATM    9  C26 QWQ B 501       1.363  18.160  38.745  1.00  0.00           C  
+HETATM   10  C28 QWQ B 501      -0.026  16.552  37.779  1.00  0.00           C  
+HETATM   11  C01 QWQ B 501       4.562  20.952  40.858  1.00  0.00           C  
+HETATM   12  C03 QWQ B 501       2.909  19.692  39.762  1.00  0.00           C  
+HETATM   13  C04 QWQ B 501       2.101  19.695  40.930  1.00  0.00           C  
+HETATM   14  C05 QWQ B 501       0.907  18.885  41.002  1.00  0.00           C  
+HETATM   15  C06 QWQ B 501       0.101  18.847  42.171  1.00  0.00           C  
+HETATM   16  C07 QWQ B 501      -0.440  20.067  42.710  1.00  0.00           C  
+HETATM   17  C09 QWQ B 501      -1.496  18.910  44.465  1.00  0.00           C  
+HETATM   18  C11 QWQ B 501      -1.374  16.411  44.738  1.00  0.00           C  
+HETATM   19  C12 QWQ B 501      -1.817  15.281  44.066  1.00  0.00           C  
+HETATM   20  C14 QWQ B 501      -2.083  14.059  46.154  1.00  0.00           C  
+HETATM   21  C18 QWQ B 501      -4.929  11.597  48.480  1.00  0.00           C  
+HETATM   22  C19 QWQ B 501      -5.208  13.126  48.448  1.00  0.00           C  
+HETATM   23  C23 QWQ B 501      -0.188  17.621  42.825  1.00  0.00           C  
+HETATM   24  C25 QWQ B 501       0.561  18.142  39.907  1.00  0.00           C  
+HETATM   25  C29 QWQ B 501       2.545  18.927  38.688  1.00  0.00           C  
+HETATM   26  C31 QWQ B 501       3.269  20.131  36.849  1.00  0.00           C  
+HETATM   27  N08 QWQ B 501      -1.202  20.045  43.827  1.00  0.00           N  
+HETATM   28  N16 QWQ B 501      -3.561  12.681  47.044  1.00  0.00           N1+
+HETATM   29  O02 QWQ B 501       4.094  20.461  39.652  1.00  0.00           O  
+HETATM   30  O27 QWQ B 501       1.042  17.412  37.631  1.00  0.00           O  
+HETATM   31  O30 QWQ B 501       3.323  18.911  37.514  1.00  0.00           O  
+CONECT    1   17   18   23
+CONECT    1   17
+CONECT    2   19   20
+CONECT    2   19
+CONECT    3   20   28
+CONECT    4   21   28
+CONECT    5   22   28
+CONECT    6    7   20
+CONECT    6   20
+CONECT    7    6   18
+CONECT    7   18
+CONECT    8   23
+CONECT    9   24   25   30
+CONECT    9   24
+CONECT   10   30
+CONECT   11   29
+CONECT   12   13   25   29
+CONECT   12   25
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15   24
+CONECT   14   13
+CONECT   15   14   16   23
+CONECT   15   23
+CONECT   16   15   27
+CONECT   16   27
+CONECT   17    1   27
+CONECT   17    1
+CONECT   18    1    7   19
+CONECT   18    7
+CONECT   19    2   18
+CONECT   19    2
+CONECT   20    2    3    6
+CONECT   20    6
+CONECT   21    4   22
+CONECT   22    5   21
+CONECT   23    1    8   15
+CONECT   23   15
+CONECT   24    9   14
+CONECT   24    9
+CONECT   25    9   12   31
+CONECT   25   12
+CONECT   26   31
+CONECT   27   16   17
+CONECT   27   16
+CONECT   28    3    4    5
+CONECT   29   11   12
+CONECT   30    9   10
+CONECT   31   25   26
+ENDMDL
+END   

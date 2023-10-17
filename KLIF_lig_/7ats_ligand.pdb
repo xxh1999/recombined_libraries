@@ -1,0 +1,107 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7ats_ligand
+MODEL        1
+HETATM    1  N1  RXQ A 701       0.977  21.513  42.574  1.00  0.00           N  
+HETATM    2  C2  RXQ A 701       4.506  22.055  37.200  1.00  0.00           C  
+HETATM    3  O2  RXQ A 701       2.575  18.212  39.852  1.00  0.00           O  
+HETATM    4  C4  RXQ A 701       3.014  24.076  34.822  1.00  0.00           C  
+HETATM    5  C5  RXQ A 701       1.668  24.395  34.869  1.00  0.00           C  
+HETATM    6  C6  RXQ A 701       1.288  25.652  35.290  1.00  0.00           C  
+HETATM    7  N2  RXQ A 701      -0.433  20.032  43.843  1.00  0.00           N  
+HETATM    8  C7  RXQ A 701       2.235  26.575  35.680  1.00  0.00           C  
+HETATM    9  C8  RXQ A 701       3.577  26.250  35.635  1.00  0.00           C  
+HETATM   10  C   RXQ A 701       4.436  21.059  39.348  1.00  0.00           C  
+HETATM   11  C1  RXQ A 701       5.048  21.909  38.462  1.00  0.00           C  
+HETATM   12  C10 RXQ A 701       2.805  20.474  37.753  1.00  0.00           C  
+HETATM   13  C11 RXQ A 701       3.300  20.325  39.038  1.00  0.00           C  
+HETATM   14  C12 RXQ A 701       2.628  19.431  40.031  1.00  0.00           C  
+HETATM   15  C13 RXQ A 701       1.967  20.037  41.180  1.00  0.00           C  
+HETATM   16  C14 RXQ A 701       1.860  21.368  41.525  1.00  0.00           C  
+HETATM   17  C15 RXQ A 701       0.509  20.278  42.923  1.00  0.00           C  
+HETATM   18  C16 RXQ A 701      -0.791  18.743  43.960  1.00  0.00           C  
+HETATM   19  C17 RXQ A 701      -0.245  17.694  43.214  1.00  0.00           C  
+HETATM   20  C18 RXQ A 701       0.731  18.006  42.267  1.00  0.00           C  
+HETATM   21  C19 RXQ A 701       1.125  19.325  42.102  1.00  0.00           C  
+HETATM   22  C20 RXQ A 701      -0.649  16.280  43.412  1.00  0.00           C  
+HETATM   23  C21 RXQ A 701      -1.328  15.866  44.561  1.00  0.00           C  
+HETATM   24  C22 RXQ A 701      -1.631  14.530  44.773  1.00  0.00           C  
+HETATM   25  C23 RXQ A 701      -1.256  13.599  43.822  1.00  0.00           C  
+HETATM   26  C24 RXQ A 701      -0.603  13.977  42.671  1.00  0.00           C  
+HETATM   27  C25 RXQ A 701      -0.304  15.311  42.474  1.00  0.00           C  
+HETATM   28  C3  RXQ A 701       3.380  21.334  36.823  1.00  0.00           C  
+HETATM   29  C9  RXQ A 701       3.981  24.998  35.196  1.00  0.00           C  
+HETATM   30  F   RXQ A 701       4.952  20.936  40.591  1.00  0.00           F  
+HETATM   31  F1  RXQ A 701       1.755  19.730  37.356  1.00  0.00           F  
+HETATM   32  N   RXQ A 701       2.889  21.439  35.496  1.00  0.00           N  
+HETATM   33  O   RXQ A 701       2.719  22.086  33.206  1.00  0.00           O1-
+HETATM   34  O1  RXQ A 701       4.913  22.382  34.296  1.00  0.00           O1-
+HETATM   35  S   RXQ A 701       3.483  22.445  34.353  1.00  0.00           S2+
+HETATM   36 CL   RXQ A 701      -1.595  11.914  44.087  1.00  0.00          Cl  
+CONECT    1   16   17
+CONECT    2   11   28
+CONECT    2   28
+CONECT    3   14
+CONECT    3   14
+CONECT    4    5   29   35
+CONECT    4   29
+CONECT    5    4    6
+CONECT    5    6
+CONECT    6    5    8
+CONECT    6    5
+CONECT    7   17   18
+CONECT    7   18
+CONECT    8    6    9
+CONECT    8    9
+CONECT    9    8   29
+CONECT    9    8
+CONECT   10   11   13   30
+CONECT   10   11
+CONECT   11    2   10
+CONECT   11   10
+CONECT   12   13   28   31
+CONECT   12   13
+CONECT   13   10   12   14
+CONECT   13   12
+CONECT   14    3   13   15
+CONECT   14    3
+CONECT   15   14   16   21
+CONECT   15   16
+CONECT   16    1   15
+CONECT   16   15
+CONECT   17    1    7   21
+CONECT   17   21
+CONECT   18    7   19
+CONECT   18    7
+CONECT   19   18   20   22
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   15   17   20
+CONECT   21   17
+CONECT   22   19   23   27
+CONECT   22   27
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   24   26   36
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   22   26
+CONECT   27   22
+CONECT   28    2   12   32
+CONECT   28    2
+CONECT   29    4    9
+CONECT   29    4
+CONECT   30   10
+CONECT   31   12
+CONECT   32   28   35
+CONECT   33   35
+CONECT   34   35
+CONECT   35    4   32   33   34
+CONECT   36   25
+ENDMDL
+END   

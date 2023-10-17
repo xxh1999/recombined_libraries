@@ -1,0 +1,84 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4fkw_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N1  Q62 A 301      -0.579  17.319  42.552  1.00  0.00           N  
+HETATM    2  S1  Q62 A 301      -4.591  12.692  45.290  1.00  0.00           S2+
+HETATM    3  N2  Q62 A 301      -1.345  17.294  43.549  1.00  0.00           N  
+HETATM    4  N3  Q62 A 301      -4.229  11.368  44.440  1.00  0.00           N1-
+HETATM    5  N5  Q62 A 301       0.434  20.624  41.826  1.00  0.00           N  
+HETATM    6  CAA Q62 A 301       0.630  13.644  37.351  1.00  0.00           C  
+HETATM    7  CAB Q62 A 301       2.521  13.224  38.949  1.00  0.00           C  
+HETATM    8  OAD Q62 A 301       3.409  17.583  37.021  1.00  0.00           O  
+HETATM    9  OAE Q62 A 301      -0.789  19.980  43.651  1.00  0.00           O  
+HETATM   10  OAF Q62 A 301      -4.433  12.445  46.749  1.00  0.00           O1-
+HETATM   11  OAG Q62 A 301      -5.988  13.095  45.039  1.00  0.00           O1-
+HETATM   12  CAH Q62 A 301      -2.612  16.199  45.225  1.00  0.00           C  
+HETATM   13  CAI Q62 A 301      -2.264  15.131  43.093  1.00  0.00           C  
+HETATM   14  CAJ Q62 A 301      -3.372  15.095  45.657  1.00  0.00           C  
+HETATM   15  CAK Q62 A 301      -3.015  14.029  43.508  1.00  0.00           C  
+HETATM   16  CAL Q62 A 301       2.277  19.582  38.750  1.00  0.00           C  
+HETATM   17  CAM Q62 A 301       1.809  20.460  39.739  1.00  0.00           C  
+HETATM   18  CAN Q62 A 301       1.245  17.714  39.949  1.00  0.00           C  
+HETATM   19  CAO Q62 A 301       2.814  14.927  37.119  1.00  0.00           C  
+HETATM   20  OAS Q62 A 301       2.259  15.915  38.035  1.00  0.00           O  
+HETATM   21  CAT Q62 A 301       2.601  17.216  37.874  1.00  0.00           C  
+HETATM   22  CAU Q62 A 301      -2.001  16.197  43.977  1.00  0.00           C  
+HETATM   23  CAV Q62 A 301       2.025  18.206  38.889  1.00  0.00           C  
+HETATM   24  CAW Q62 A 301      -3.574  14.018  44.788  1.00  0.00           C  
+HETATM   25  CAX Q62 A 301      -0.147  19.721  42.628  1.00  0.00           C  
+HETATM   26  CAY Q62 A 301       0.005  18.445  42.093  1.00  0.00           C  
+HETATM   27  CAZ Q62 A 301       1.023  19.973  40.799  1.00  0.00           C  
+HETATM   28  CBA Q62 A 301       0.737  18.610  40.906  1.00  0.00           C  
+HETATM   29  CBB Q62 A 301       2.167  13.588  37.510  1.00  0.00           C  
+CONECT    1    3   26
+CONECT    1   26
+CONECT    2    4   10   11   24
+CONECT    3    1   22
+CONECT    4    2
+CONECT    5   25   27
+CONECT    6   29
+CONECT    7   29
+CONECT    8   21
+CONECT    8   21
+CONECT    9   25
+CONECT    9   25
+CONECT   10    2
+CONECT   11    2
+CONECT   12   14   22
+CONECT   12   22
+CONECT   13   15   22
+CONECT   13   15
+CONECT   14   12   24
+CONECT   14   24
+CONECT   15   13   24
+CONECT   15   13
+CONECT   16   17   23
+CONECT   16   23
+CONECT   17   16   27
+CONECT   17   27
+CONECT   18   23   28
+CONECT   18   28
+CONECT   19   20   29
+CONECT   20   19   21
+CONECT   21    8   20   23
+CONECT   21    8
+CONECT   22    3   12   13
+CONECT   22   12
+CONECT   23   16   18   21
+CONECT   23   16
+CONECT   24    2   14   15
+CONECT   24   14
+CONECT   25    5    9   26
+CONECT   25    9
+CONECT   26    1   25   28
+CONECT   26    1
+CONECT   27    5   17   28
+CONECT   27   17
+CONECT   28   18   26   27
+CONECT   28   18
+CONECT   29    6    7   19
+ENDMDL
+END   

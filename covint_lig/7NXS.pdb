@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7NXS
+MODEL        1
+ATOM      1  N   LYS A 122     -25.791  24.772  -8.038  1.00 11.00           N1+
+ATOM      2  CA  LYS A 122     -24.805  23.745  -8.355  1.00 11.23           C  
+ATOM      3  C   LYS A 122     -25.429  22.350  -8.236  1.00 10.89           C  
+ATOM      4  O   LYS A 122     -25.251  21.502  -9.116  1.00 11.18           O  
+ATOM      5  CB  LYS A 122     -23.589  23.895  -7.426  1.00 12.84           C  
+ATOM      6  CG  LYS A 122     -22.517  22.838  -7.597  1.00 13.75           C  
+ATOM      7  CD  LYS A 122     -21.473  22.996  -6.499  1.00 15.83           C  
+ATOM      8  CE  LYS A 122     -20.478  21.820  -6.394  1.00 16.64           C  
+ATOM      9  NZ  LYS A 122     -19.509  22.115  -5.284  1.00 19.60           N1+
+TER      10      LYS A 122
+HETATM   11  C02 UVK A 301     -12.889  21.088   0.367  1.00 34.93           C  
+HETATM   12  C03 UVK A 301     -12.675  19.948  -0.439  1.00 34.75           C  
+HETATM   13  C04 UVK A 301     -13.737  19.084  -0.683  1.00 32.28           C  
+HETATM   14  C05 UVK A 301     -14.988  19.375  -0.105  1.00 31.08           C  
+HETATM   15  C07 UVK A 301     -17.343  18.879   0.029  1.00 34.89           C  
+HETATM   16  C08 UVK A 301     -17.285  19.609   1.359  1.00 33.49           C  
+HETATM   17  C12 UVK A 301     -18.071  22.241  -0.351  1.00 28.23           C  
+HETATM   18  C13 UVK A 301     -17.369  22.587  -1.507  1.00 24.92           C  
+HETATM   19  C14 UVK A 301     -18.041  22.491  -2.714  1.00 22.38           C  
+HETATM   20  C15 UVK A 301     -19.359  22.037  -2.753  1.00 20.40           C  
+HETATM   21  C16 UVK A 301     -20.033  21.684  -1.595  1.00 20.88           C  
+HETATM   22  C17 UVK A 301     -19.376  21.790  -0.390  1.00 24.83           C  
+HETATM   23  C18 UVK A 301     -20.162  21.887  -4.038  1.00 20.32           C  
+HETATM   24  C21 UVK A 301     -15.212  20.519   0.696  1.00 33.91           C  
+HETATM   25  C22 UVK A 301     -14.128  21.392   0.954  1.00 33.90           C  
+HETATM   26  F01 UVK A 301     -11.832  21.891   0.578  1.00 35.43           F  
+HETATM   27  N09 UVK A 301     -16.500  20.757   1.283  1.00 31.20           N  
+HETATM   28  O06 UVK A 301     -16.064  18.413  -0.396  1.00 30.73           O  
+HETATM   29  O11 UVK A 301     -16.453  23.467   1.416  1.00 33.62           O  
+HETATM   30  O20 UVK A 301     -18.296  22.373   2.352  1.00 35.64           O  
+HETATM   31  S10 UVK A 301     -17.303  22.283   1.275  1.00 34.33           S  
+CONECT   11   12   25   26
+CONECT   11   25
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   24   28
+CONECT   14   24
+CONECT   15   16   28
+CONECT   16   15   27
+CONECT   17   18   22   31
+CONECT   17   22
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   19   21   23
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   17   21
+CONECT   22   17
+CONECT   23    9   20
+CONECT   24   14   25   27
+CONECT   24   14
+CONECT   25   11   24
+CONECT   25   11
+CONECT   26   11
+CONECT   27   16   24   31
+CONECT   28   14   15
+CONECT   29   31
+CONECT   29   31
+CONECT   30   31
+CONECT   30   31
+CONECT   31   17   27   29   30
+CONECT   31   29   30
+ENDMDL
+END   

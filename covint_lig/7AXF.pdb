@@ -1,0 +1,62 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7AXF
+MODEL        1
+ATOM      1  N   CYS A 207      19.822  78.989   2.131  1.00 79.11           N1+
+ATOM      2  CA  CYS A 207      20.614  77.816   1.779  1.00 76.42           C  
+ATOM      3  C   CYS A 207      21.536  78.109   0.609  1.00 79.13           C  
+ATOM      4  O   CYS A 207      21.364  79.078  -0.134  1.00 78.63           O  
+ATOM      5  CB  CYS A 207      19.741  76.620   1.394  1.00 76.35           C  
+ATOM      6  SG  CYS A 207      18.666  76.914  -0.026  1.00 72.38           S  
+TER       7      CYS A 207
+HETATM    8  C1  S6T A 502      11.369  81.057   2.124  1.00 57.05           C  
+HETATM    9  O1  S6T A 502      17.018  79.724  -0.121  1.00 80.99           O  
+HETATM   10  C2  S6T A 502      12.831  80.682   2.348  1.00 68.60           C  
+HETATM   11  C   S6T A 502      11.124  81.668   0.761  1.00 56.06           C  
+HETATM   12  O   S6T A 502      13.180  79.655   1.424  1.00 78.26           O  
+HETATM   13  C7  S6T A 502      15.244  76.754  -0.530  1.00 83.30           C  
+HETATM   14  N   S6T A 502      15.366  78.150  -0.306  1.00 81.72           N  
+HETATM   15  C10 S6T A 502      16.454  76.547  -4.170  1.00 81.03           C  
+HETATM   16  C11 S6T A 502      15.336  74.950  -2.261  1.00 79.20           C  
+HETATM   17  C12 S6T A 502      15.069  74.002  -1.278  1.00 85.43           C  
+HETATM   18  C13 S6T A 502      14.891  74.354   0.057  1.00 79.07           C  
+HETATM   19  C14 S6T A 502      14.947  75.671   0.493  1.00 79.76           C  
+HETATM   20  C15 S6T A 502      14.730  75.811   1.992  1.00 77.84           C  
+HETATM   21  C16 S6T A 502      14.210  77.140   2.476  1.00 77.37           C  
+HETATM   22  C3  S6T A 502      14.145  80.069   0.469  1.00 73.83           C  
+HETATM   23  C4  S6T A 502      14.207  78.991  -0.599  1.00 79.88           C  
+HETATM   24  C5  S6T A 502      16.555  78.613   0.093  1.00 79.04           C  
+HETATM   25  C6  S6T A 502      17.361  77.648   0.889  1.00 74.98           C  
+HETATM   26  C8  S6T A 502      15.434  76.299  -1.944  1.00 81.29           C  
+HETATM   27  C9  S6T A 502      15.726  77.275  -3.063  1.00 76.67           C  
+CONECT    8   10   11
+CONECT    9   24
+CONECT    9   24
+CONECT   10    8   12
+CONECT   11    8
+CONECT   12   10   22
+CONECT   13   14   19   26
+CONECT   13   26
+CONECT   14   13   23   24
+CONECT   15   27
+CONECT   16   17   26
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   13   18   20
+CONECT   19   18
+CONECT   20   19   21
+CONECT   21   20
+CONECT   22   12   23
+CONECT   23   14   22
+CONECT   24    9   14   25
+CONECT   24    9
+CONECT   25    6   24
+CONECT   26   13   16   27
+CONECT   26   13
+CONECT   27   15   26
+ENDMDL
+END   

@@ -1,0 +1,60 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5QIU
+MODEL        1
+ATOM      1  N   CYS A  51      14.866  53.822  17.686  1.00 12.12           N1+
+ATOM      2  CA  CYS A  51      15.796  52.780  18.130  1.00 13.04           C  
+ATOM      3  C   CYS A  51      15.575  51.349  17.608  1.00 12.26           C  
+ATOM      4  O   CYS A  51      16.562  50.630  17.481  1.00 12.83           O  
+ATOM      5  CB  CYS A  51      15.977  52.817  19.663  1.00 15.59           C  
+ATOM      6  SG  CYS A  51      14.676  51.922  20.576  1.00 20.16           S  
+TER       7      CYS A  51
+HETATM    8  C   J5M A 501      13.227  53.000  20.502  1.00 17.53           C  
+HETATM    9  O   J5M A 501      14.162  55.154  20.897  1.00 19.15           O  
+HETATM   10  C1  J5M A 501      13.401  54.281  21.306  1.00 20.73           C  
+HETATM   11  C2  J5M A 501      12.648  55.573  23.289  1.00 27.19           C  
+HETATM   12  C3  J5M A 501      13.534  55.458  24.458  1.00 24.49           C  
+HETATM   13  C4  J5M A 501      14.247  55.393  25.445  1.00 26.37           C  
+HETATM   14  C5  J5M A 501      15.067  55.333  26.643  1.00 36.06           C  
+HETATM   15  C6  J5M A 501      14.464  55.087  27.892  1.00 36.78           C  
+HETATM   16  F1  J5M A 501      19.183  56.380  28.748  1.00 91.86           F  
+HETATM   17  C11 J5M A 501      18.752  55.759  27.650  1.00 68.26           C  
+HETATM   18  F2  J5M A 501      19.393  54.597  27.536  1.00 76.49           F  
+HETATM   19  F   J5M A 501      19.055  56.522  26.599  1.00 75.66           F  
+HETATM   20  C9  J5M A 501      17.255  55.501  27.732  1.00 43.66           C  
+HETATM   21  C10 J5M A 501      16.462  55.526  26.565  1.00 39.02           C  
+HETATM   22  C7  J5M A 501      15.253  55.028  29.056  1.00 43.69           C  
+HETATM   23  C8  J5M A 501      16.643  55.235  28.976  1.00 37.73           C  
+HETATM   24  N   J5M A 501      12.686  54.393  22.434  1.00 23.78           N  
+CONECT    8    6   10
+CONECT    9   10
+CONECT    9   10
+CONECT   10    8    9   24
+CONECT   10    9
+CONECT   11   12   24
+CONECT   12   11   13
+CONECT   12   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   13   12
+CONECT   14   13   15   21
+CONECT   14   21
+CONECT   15   14   22
+CONECT   15   22
+CONECT   16   17
+CONECT   17   16   18   19   20
+CONECT   18   17
+CONECT   19   17
+CONECT   20   17   21   23
+CONECT   20   23
+CONECT   21   14   20
+CONECT   21   14
+CONECT   22   15   23
+CONECT   22   15
+CONECT   23   20   22
+CONECT   23   20
+CONECT   24   10   11
+ENDMDL
+END   

@@ -1,0 +1,92 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4at4_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  T6E A1839       0.814  20.935  41.886  1.00  0.00           C  
+HETATM    2  C5  T6E A1839       1.875  19.988  41.560  1.00  0.00           C  
+HETATM    3  C6  T6E A1839       2.113  18.943  42.527  1.00  0.00           C  
+HETATM    4  N1  T6E A1839       1.422  18.787  43.709  1.00  0.00           N  
+HETATM    5  N3  T6E A1839       0.081  20.809  43.083  1.00  0.00           N  
+HETATM    6  NBF T6E A1839       0.460  21.990  41.094  1.00  0.00           N  
+HETATM    7  C2  T6E A1839       0.424  19.740  43.903  1.00  0.00           C  
+HETATM    8  CBB T6E A1839       2.773  19.849  40.462  1.00  0.00           C  
+HETATM    9  CAZ T6E A1839       2.809  20.676  39.290  1.00  0.00           C  
+HETATM   10  CAO T6E A1839       3.843  21.614  38.977  1.00  0.00           C  
+HETATM   11  CAM T6E A1839       3.765  22.361  37.764  1.00  0.00           C  
+HETATM   12  CAN T6E A1839       1.698  20.485  38.417  1.00  0.00           C  
+HETATM   13  CAL T6E A1839       1.615  21.215  37.219  1.00  0.00           C  
+HETATM   14  CAX T6E A1839       2.647  22.177  36.877  1.00  0.00           C  
+HETATM   15  NAT T6E A1839       2.606  22.946  35.660  1.00  0.00           N  
+HETATM   16  CAV T6E A1839       1.553  23.114  34.723  1.00  0.00           C  
+HETATM   17  OAD T6E A1839       0.459  22.595  34.826  1.00  0.00           O  
+HETATM   18  NAU T6E A1839       1.888  23.943  33.633  1.00  0.00           N  
+HETATM   19  CAY T6E A1839       1.181  23.960  32.403  1.00  0.00           C  
+HETATM   20  CAP T6E A1839      -0.237  24.127  32.337  1.00  0.00           C  
+HETATM   21  CAJ T6E A1839       1.920  23.817  31.173  1.00  0.00           C  
+HETATM   22  CAH T6E A1839       1.258  23.837  29.907  1.00  0.00           C  
+HETATM   23  CAK T6E A1839      -0.156  23.994  29.873  1.00  0.00           C  
+HETATM   24  CBA T6E A1839      -0.889  24.133  31.087  1.00  0.00           C  
+HETATM   25  CBG T6E A1839      -2.395  24.299  31.029  1.00  0.00           C  
+HETATM   26  FAF T6E A1839      -2.834  25.546  30.970  1.00  0.00           F  
+HETATM   27  FAG T6E A1839      -3.021  23.782  32.096  1.00  0.00           F  
+HETATM   28  FAE T6E A1839      -2.970  23.703  29.993  1.00  0.00           F  
+HETATM   29  F1  T6E A1839       3.234  23.668  31.216  1.00  0.00           F  
+HETATM   30  S   T6E A1839       3.380  17.900  42.035  1.00  0.00           S  
+HETATM   31  C8  T6E A1839       3.601  18.794  40.598  1.00  0.00           C  
+CONECT    1    2    5    6
+CONECT    1    5
+CONECT    2    1    3    8
+CONECT    2    3
+CONECT    3    2    4   30
+CONECT    3    2
+CONECT    4    3    7
+CONECT    4    7
+CONECT    5    1    7
+CONECT    5    1
+CONECT    6    1
+CONECT    7    4    5
+CONECT    7    4
+CONECT    8    2    9   31
+CONECT    8   31
+CONECT    9    8   10   12
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11   10   14
+CONECT   11   14
+CONECT   12    9   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   11   13   15
+CONECT   14   11
+CONECT   15   14   16
+CONECT   16   15   17   18
+CONECT   16   17
+CONECT   17   16
+CONECT   17   16
+CONECT   18   16   19
+CONECT   19   18   20   21
+CONECT   19   21
+CONECT   20   19   24
+CONECT   20   24
+CONECT   21   19   22   29
+CONECT   21   19
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   20   23   25
+CONECT   24   20
+CONECT   25   24   26   27   28
+CONECT   26   25
+CONECT   27   25
+CONECT   28   25
+CONECT   29   21
+CONECT   30    3   31
+CONECT   31    8   30
+CONECT   31    8
+ENDMDL
+END   

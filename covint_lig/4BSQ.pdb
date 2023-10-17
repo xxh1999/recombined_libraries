@@ -1,0 +1,85 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4BSQ
+MODEL        1
+ATOM      1  N   CYS A 147       5.231  -7.997  28.103  1.00 17.61           N1+
+ATOM      2  CA  CYS A 147       5.098  -7.254  26.839  1.00 18.16           C  
+ATOM      3  C   CYS A 147       4.391  -5.891  26.967  1.00 17.44           C  
+ATOM      4  O   CYS A 147       4.772  -4.928  26.306  1.00 16.50           O  
+ATOM      5  CB  CYS A 147       4.423  -8.133  25.766  1.00 19.80           C  
+ATOM      6  SG  CYS A 147       2.689  -8.540  26.185  1.00 23.36           S  
+TER       7      CYS A 147
+HETATM    8  O12 QQV A1341      -3.821  -7.695  24.485  1.00 31.60           O  
+HETATM    9  S1  QQV A1341      -3.879  -6.435  25.237  1.00 32.39           S  
+HETATM   10  O11 QQV A1341      -3.292  -5.221  24.646  1.00 28.74           O  
+HETATM   11  C13 QQV A1341      -5.595  -6.102  25.624  1.00 34.96           C  
+HETATM   12  C24 QQV A1341      -5.971  -4.806  26.016  1.00 35.97           C  
+HETATM   13  C27 QQV A1341      -7.323  -4.511  26.274  1.00 38.99           C  
+HETATM   14  C28 QQV A1341      -8.291  -5.528  26.172  1.00 39.52           C  
+HETATM   15  C26 QQV A1341      -7.906  -6.840  25.827  1.00 37.28           C  
+HETATM   16  C25 QQV A1341      -6.554  -7.132  25.560  1.00 37.48           C  
+HETATM   17  C4  QQV A1341      -3.068  -6.712  26.867  1.00 29.73           C  
+HETATM   18  C7  QQV A1341      -1.662  -7.297  26.666  1.00 28.59           C  
+HETATM   19  C6  QQV A1341      -3.832  -7.738  27.721  1.00 27.92           C  
+HETATM   20  C2  QQV A1341      -2.773  -8.666  28.327  1.00 28.73           C  
+HETATM   21  C5  QQV A1341      -1.715  -8.736  27.207  1.00 28.75           C  
+HETATM   22  C9  QQV A1341      -0.345  -9.196  27.709  1.00 30.20           C  
+HETATM   23  N17 QQV A1341       0.237 -10.205  27.046  1.00 29.97           N  
+HETATM   24  C21 QQV A1341       1.490 -10.841  27.443  1.00 29.17           C  
+HETATM   25  C14 QQV A1341       2.740 -10.227  26.827  1.00 30.22           C  
+HETATM   26  N10 QQV A1341       3.800 -10.899  26.758  1.00 27.92           N  
+HETATM   27  O16 QQV A1341       0.169  -8.648  28.681  1.00 31.16           O  
+HETATM   28  C3  QQV A1341      -3.364 -10.018  28.777  1.00 30.66           C  
+HETATM   29  O15 QQV A1341      -3.166 -11.010  28.073  1.00 30.78           O  
+HETATM   30  N8  QQV A1341      -4.075 -10.083  29.932  1.00 30.68           N  
+HETATM   31  C19 QQV A1341      -4.415  -8.951  30.808  1.00 29.72           C  
+HETATM   32  C23 QQV A1341      -4.180  -9.312  32.285  1.00 30.92           C  
+HETATM   33  O18 QQV A1341      -4.918 -10.478  32.618  1.00 31.06           O  
+HETATM   34  C22 QQV A1341      -4.530 -11.592  31.826  1.00 30.54           C  
+HETATM   35  C20 QQV A1341      -4.791 -11.297  30.341  1.00 30.90           C  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10   11   17
+CONECT    9    8   10
+CONECT   10    9
+CONECT   10    9
+CONECT   11    9   12   16
+CONECT   11   16
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   11   15
+CONECT   16   11
+CONECT   17    9   18   19
+CONECT   18   17   21
+CONECT   19   17   20
+CONECT   20   19   21   28
+CONECT   21   18   20   22
+CONECT   22   21   23   27
+CONECT   22   27
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25    6   24   26
+CONECT   25   26
+CONECT   26   25
+CONECT   26   25
+CONECT   27   22
+CONECT   27   22
+CONECT   28   20   29   30
+CONECT   28   29
+CONECT   29   28
+CONECT   29   28
+CONECT   30   28   31   35
+CONECT   31   30   32
+CONECT   32   31   33
+CONECT   33   32   34
+CONECT   34   33   35
+CONECT   35   30   34
+ENDMDL
+END   

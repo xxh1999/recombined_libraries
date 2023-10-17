@@ -1,0 +1,15 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4QNZ
+MODEL        1
+ATOM      1  N   ALA B   5      10.019 -42.132 -46.632  1.00 35.52           N1+
+ATOM      2  CA  ALA B   5       9.562 -41.501 -47.861  1.00 41.56           C  
+ATOM      3  C   ALA B   5       8.764 -42.505 -48.773  1.00 43.17           C  
+ATOM      4  O   ALA B   5       9.195 -43.736 -48.594  1.00 35.49           O1-
+ATOM      5  CB  ALA B   5      10.797 -40.878 -48.525  1.00 42.69           C  
+TER       6      ALA B   5
+HETATM    7  C1  0QE B   6       7.245 -42.471 -48.447  1.00 40.62           C  
+CONECT    7    3
+ENDMDL
+END   

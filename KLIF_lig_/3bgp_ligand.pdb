@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3bgp_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N1  VX1 A 314       3.840  16.475  37.577  1.00  0.00           N  
+HETATM    2  C2  VX1 A 314       3.341  17.744  37.817  1.00  0.00           C  
+HETATM    3  N3  VX1 A 314       3.477  18.699  36.879  1.00  0.00           N  
+HETATM    4  C4  VX1 A 314       3.006  19.945  37.075  1.00  0.00           C  
+HETATM    5  C5  VX1 A 314       2.359  20.266  38.278  1.00  0.00           C  
+HETATM    6  C6  VX1 A 314       2.228  19.237  39.260  1.00  0.00           C  
+HETATM    7  N7  VX1 A 314       2.733  18.006  38.984  1.00  0.00           N  
+HETATM    8  C8  VX1 A 314       1.552  19.487  40.582  1.00  0.00           C  
+HETATM    9  C9  VX1 A 314       1.423  20.824  41.100  1.00  0.00           C  
+HETATM   10  C10 VX1 A 314       0.808  21.079  42.312  1.00  0.00           C  
+HETATM   11  C11 VX1 A 314       0.277  19.994  43.094  1.00  0.00           C  
+HETATM   12  N12 VX1 A 314      -0.343  19.873  44.241  1.00  0.00           N  
+HETATM   13  O13 VX1 A 314      -0.610  18.728  44.513  1.00  0.00           O  
+HETATM   14  C14 VX1 A 314      -0.217  17.828  43.590  1.00  0.00           C  
+HETATM   15  C15 VX1 A 314      -0.429  16.349  43.694  1.00  0.00           C  
+HETATM   16  C16 VX1 A 314      -0.084  15.437  42.638  1.00  0.00           C  
+HETATM   17  C17 VX1 A 314      -0.309  14.055  42.800  1.00  0.00           C  
+HETATM   18  C18 VX1 A 314      -0.876  13.565  44.001  1.00  0.00           C  
+HETATM   19 CL19 VX1 A 314      -1.151  11.864  44.197  1.00  0.00          Cl  
+HETATM   20  C20 VX1 A 314      -1.217  14.450  45.040  1.00  0.00           C  
+HETATM   21  C21 VX1 A 314      -1.000  15.827  44.897  1.00  0.00           C  
+HETATM   22  C22 VX1 A 314       0.404  18.593  42.570  1.00  0.00           C  
+HETATM   23  C23 VX1 A 314       1.047  18.385  41.312  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3    7
+CONECT    2    7
+CONECT    3    2    4
+CONECT    3    4
+CONECT    4    3    5
+CONECT    4    3
+CONECT    5    4    6
+CONECT    5    6
+CONECT    6    5    7    8
+CONECT    6    5
+CONECT    7    2    6
+CONECT    7    2
+CONECT    8    6    9   23
+CONECT    8   23
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11   10   12   22
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   14
+CONECT   14   13   15   22
+CONECT   14   22
+CONECT   15   14   16   21
+CONECT   15   21
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   17   19   20
+CONECT   18   20
+CONECT   19   18
+CONECT   20   18   21
+CONECT   20   18
+CONECT   21   15   20
+CONECT   21   15
+CONECT   22   11   14   23
+CONECT   22   14
+CONECT   23    8   22
+CONECT   23    8
+ENDMDL
+END   

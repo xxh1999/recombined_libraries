@@ -1,0 +1,129 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6tg1_ligand
+MODEL        1
+HETATM    1  C4  N82 B1101      -0.499  18.572  44.523  1.00  0.00           C  
+HETATM    2  C5  N82 B1101       0.149  17.808  43.573  1.00  0.00           C  
+HETATM    3  C6  N82 B1101       0.831  18.508  42.599  1.00  0.00           C  
+HETATM    4  N1  N82 B1101       0.888  19.860  42.610  1.00  0.00           N  
+HETATM    5  N3  N82 B1101      -0.443  19.911  44.540  1.00  0.00           N  
+HETATM    6  C2  N82 B1101       0.237  20.597  43.569  1.00  0.00           C  
+HETATM    7  CAL N82 B1101      -0.908  16.521  45.014  1.00  0.00           C  
+HETATM    8  CAM N82 B1101      -0.152  16.497  43.902  1.00  0.00           C  
+HETATM    9  CAN N82 B1101       0.215  15.275  43.353  1.00  0.00           C  
+HETATM   10  CAO N82 B1101       2.281  18.423  40.676  1.00  0.00           C  
+HETATM   11  CAP N82 B1101       2.204  18.046  39.339  1.00  0.00           C  
+HETATM   12  CAQ N82 B1101       3.079  18.559  38.369  1.00  0.00           C  
+HETATM   13  CAR N82 B1101       4.052  19.500  38.680  1.00  0.00           C  
+HETATM   14  CAS N82 B1101       4.153  19.887  40.024  1.00  0.00           C  
+HETATM   15  CAT N82 B1101       3.296  19.351  41.003  1.00  0.00           C  
+HETATM   16  CAU N82 B1101      -0.697  14.211  43.121  1.00  0.00           C  
+HETATM   17  CAV N82 B1101      -0.282  12.984  42.567  1.00  0.00           C  
+HETATM   18  CAW N82 B1101       1.074  12.767  42.259  1.00  0.00           C  
+HETATM   19  CAX N82 B1101       2.006  13.784  42.495  1.00  0.00           C  
+HETATM   20  CAY N82 B1101       1.556  15.005  43.042  1.00  0.00           C  
+HETATM   21  CAZ N82 B1101       4.930  20.015  37.663  1.00  0.00           C  
+HETATM   22  CBA N82 B1101       4.398  22.475  37.409  1.00  0.00           C  
+HETATM   23  CBB N82 B1101       3.719  23.274  36.564  1.00  0.00           C  
+HETATM   24  CBC N82 B1101       3.221  22.491  35.600  1.00  0.00           C  
+HETATM   25  CBD N82 B1101       3.596  21.228  35.879  1.00  0.00           C  
+HETATM   26  CBE N82 B1101       3.504  24.599  36.569  1.00  0.00           C  
+HETATM   27  CBF N82 B1101       2.753  25.188  35.554  1.00  0.00           C  
+HETATM   28  CBG N82 B1101       2.235  24.372  34.554  1.00  0.00           C  
+HETATM   29  CBH N82 B1101       2.482  23.006  34.611  1.00  0.00           C  
+HETATM   30  CBI N82 B1101       2.667  11.829  40.966  1.00  0.00           C  
+HETATM   31  CBJ N82 B1101       3.121  10.625  40.148  1.00  0.00           C  
+HETATM   32  CBK N82 B1101       1.535   8.931  40.594  1.00  0.00           C  
+HETATM   33  CBL N82 B1101       2.389   9.279  38.335  1.00  0.00           C  
+HETATM   34  CBM N82 B1101      -1.739  11.976  41.133  1.00  0.00           C  
+HETATM   35  CBN N82 B1101      -2.689  10.804  40.789  1.00  0.00           C  
+HETATM   36  CBO N82 B1101      -3.851  11.368  39.952  1.00  0.00           C  
+HETATM   37  NAC N82 B1101      -1.131  17.785  45.391  1.00  0.00           N  
+HETATM   38  NAD N82 B1101       1.442  17.832  41.588  1.00  0.00           N  
+HETATM   39  NAE N82 B1101      -1.127  11.945  42.320  1.00  0.00           N  
+HETATM   40  NAF N82 B1101       4.337  21.204  36.999  1.00  0.00           N  
+HETATM   41  NAG N82 B1101       1.970   9.926  39.592  1.00  0.00           N1+
+HETATM   42  OBP N82 B1101       1.469  11.554  41.707  1.00  0.00           O  
+HETATM   43  OBQ N82 B1101       4.995  22.865  38.422  1.00  0.00           O  
+HETATM   44  OBR N82 B1101       3.337  20.230  35.186  1.00  0.00           O  
+HETATM   45  OBS N82 B1101      -1.574  12.880  40.326  1.00  0.00           O  
+CONECT    1    2    5   37
+CONECT    1    5
+CONECT    2    1    3    8
+CONECT    2    3
+CONECT    3    2    4   38
+CONECT    3    2
+CONECT    4    3    6
+CONECT    4    6
+CONECT    5    1    6
+CONECT    5    1
+CONECT    6    4    5
+CONECT    6    4
+CONECT    7    8   37
+CONECT    7    8
+CONECT    8    2    7    9
+CONECT    8    7
+CONECT    9    8   16   20
+CONECT    9   20
+CONECT   10   11   15   38
+CONECT   10   15
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   14   21
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   10   14
+CONECT   15   10
+CONECT   16    9   17
+CONECT   16   17
+CONECT   17   16   18   39
+CONECT   17   16
+CONECT   18   17   19   42
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20    9   19
+CONECT   20    9
+CONECT   21   13   40
+CONECT   22   23   40   43
+CONECT   22   43
+CONECT   23   22   24   26
+CONECT   23   26
+CONECT   24   23   25   29
+CONECT   24   29
+CONECT   25   24   40   44
+CONECT   25   44
+CONECT   26   23   27
+CONECT   26   23
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   24   28
+CONECT   29   24
+CONECT   30   31   42
+CONECT   31   30   41
+CONECT   32   41
+CONECT   33   41
+CONECT   34   35   39   45
+CONECT   34   45
+CONECT   35   34   36
+CONECT   36   35
+CONECT   37    1    7
+CONECT   38    3   10
+CONECT   39   17   34
+CONECT   40   21   22   25
+CONECT   41   31   32   33
+CONECT   42   18   30
+CONECT   43   22
+CONECT   43   22
+CONECT   44   25
+CONECT   44   25
+CONECT   45   34
+CONECT   45   34
+ENDMDL
+END   

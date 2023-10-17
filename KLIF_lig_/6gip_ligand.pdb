@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6gip_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C21 EUN A 501       0.149  20.083  41.892  1.00  0.00           C  
+HETATM    2  C20 EUN A 501       0.273  18.608  42.204  1.00  0.00           C  
+HETATM    3  C10 EUN A 501       1.526  18.228  40.126  1.00  0.00           C  
+HETATM    4  C11 EUN A 501       0.990  17.778  38.930  1.00  0.00           C  
+HETATM    5  C12 EUN A 501       1.502  18.228  37.706  1.00  0.00           C  
+HETATM    6  C14 EUN A 501       3.068  19.592  38.870  1.00  0.00           C  
+HETATM    7  C15 EUN A 501       4.136  20.527  38.796  1.00  0.00           C  
+HETATM    8  C16 EUN A 501       4.721  21.020  39.955  1.00  0.00           C  
+HETATM    9  C19 EUN A 501       2.610  19.166  40.079  1.00  0.00           C  
+HETATM   10  C17 EUN A 501       4.252  20.589  41.192  1.00  0.00           C  
+HETATM   11  C18 EUN A 501       3.203  19.671  41.263  1.00  0.00           C  
+HETATM   12  C01 EUN A 501      -2.027  16.211  46.988  1.00  0.00           C  
+HETATM   13  C02 EUN A 501      -1.459  16.900  45.777  1.00  0.00           C  
+HETATM   14  C04 EUN A 501      -1.070  18.919  44.416  1.00  0.00           C  
+HETATM   15  C05 EUN A 501      -0.314  18.078  43.405  1.00  0.00           C  
+HETATM   16  C06 EUN A 501      -0.187  16.744  43.648  1.00  0.00           C  
+HETATM   17  C07 EUN A 501       0.505  15.904  42.740  1.00  0.00           C  
+HETATM   18  C08 EUN A 501       1.058  16.407  41.584  1.00  0.00           C  
+HETATM   19  C09 EUN A 501       0.961  17.757  41.311  1.00  0.00           C  
+HETATM   20  N03 EUN A 501      -1.615  18.302  45.561  1.00  0.00           N  
+HETATM   21  N13 EUN A 501       2.515  19.114  37.694  1.00  0.00           N  
+HETATM   22  N22 EUN A 501      -0.747  16.113  44.831  1.00  0.00           N  
+HETATM   23  O23 EUN A 501      -1.209  20.119  44.256  1.00  0.00           O  
+CONECT    1    2
+CONECT    2    1   15   19
+CONECT    2   19
+CONECT    3    4    9   19
+CONECT    3    4
+CONECT    4    3    5
+CONECT    4    3
+CONECT    5    4   21
+CONECT    5   21
+CONECT    6    7    9   21
+CONECT    6    7
+CONECT    7    6    8
+CONECT    7    6
+CONECT    8    7   10
+CONECT    8   10
+CONECT    9    3    6   11
+CONECT    9   11
+CONECT   10    8   11
+CONECT   10    8
+CONECT   11    9   10
+CONECT   11    9
+CONECT   12   13
+CONECT   13   12   20   22
+CONECT   13   22
+CONECT   14   15   20   23
+CONECT   14   23
+CONECT   15    2   14   16
+CONECT   15   16
+CONECT   16   15   17   22
+CONECT   16   15
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19    2    3   18
+CONECT   19    2
+CONECT   20   13   14
+CONECT   21    5    6
+CONECT   21    5
+CONECT   22   13   16
+CONECT   22   13
+CONECT   23   14
+CONECT   23   14
+ENDMDL
+END   

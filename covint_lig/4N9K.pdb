@@ -1,0 +1,70 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4N9K
+MODEL        1
+ATOM      1  N   SER B  70     -23.964 -18.696 -23.681  1.00  7.59           N1+
+ATOM      2  CA  SER B  70     -25.012 -19.030 -24.639  1.00  7.86           C  
+ATOM      3  C   SER B  70     -25.745 -20.341 -24.292  1.00  7.66           C  
+ATOM      4  O   SER B  70     -26.703 -20.672 -24.986  1.00  7.31           O  
+ATOM      5  CB  SER B  70     -24.390 -19.189 -26.039  1.00  8.12           C  
+ATOM      6  OG  SER B  70     -23.943 -17.966 -26.620  1.00  7.69           O  
+TER       7      SER B  70
+HETATM    8  S1  CED B 301     -21.147 -16.106 -30.062  1.00 17.99           S  
+HETATM    9  C2  CED B 301     -19.591 -16.973 -29.712  1.00 20.18           C  
+HETATM   10  C3  CED B 301     -19.701 -18.480 -29.524  1.00 19.21           C  
+HETATM   11  C3' CED B 301     -18.366 -19.191 -29.691  1.00 20.16           C  
+HETATM   12  C4  CED B 301     -20.864 -19.092 -29.192  1.00 19.58           C  
+HETATM   13  C4' CED B 301     -21.096 -20.619 -28.877  1.00 20.46           C  
+HETATM   14  O4A CED B 301     -22.161 -20.909 -28.282  1.00 19.71           O  
+HETATM   15  O4B CED B 301     -20.211 -21.431 -29.220  1.00 23.49           O1-
+HETATM   16  N5  CED B 301     -22.045 -18.391 -29.033  1.00 16.85           N  
+HETATM   17  C6  CED B 301     -22.279 -16.960 -28.927  1.00 16.51           C  
+HETATM   18  C7  CED B 301     -22.341 -16.425 -27.453  1.00 14.43           C  
+HETATM   19  C8  CED B 301     -22.696 -17.506 -26.416  1.00 12.84           C  
+HETATM   20  O9  CED B 301     -21.918 -17.940 -25.573  1.00 10.79           O  
+HETATM   21  N10 CED B 301     -21.151 -15.681 -27.036  1.00 14.91           N  
+HETATM   22  C11 CED B 301     -20.999 -14.349 -27.085  1.00 16.14           C  
+HETATM   23  O12 CED B 301     -21.864 -13.586 -27.508  1.00 14.53           O  
+HETATM   24  C13 CED B 301     -19.670 -13.777 -26.592  1.00 17.39           C  
+HETATM   25  C14 CED B 301     -18.578 -14.034 -27.580  1.00 19.96           C  
+HETATM   26  C15 CED B 301     -18.526 -13.651 -28.897  1.00 18.53           C  
+HETATM   27  C16 CED B 301     -17.341 -14.080 -29.562  1.00 21.87           C  
+HETATM   28  C17 CED B 301     -16.498 -14.778 -28.740  1.00 22.17           C  
+HETATM   29  S19 CED B 301     -17.147 -14.928 -27.130  1.00 27.27           S  
+CONECT    8    9   17
+CONECT    9    8   10
+CONECT   10    9   11   12
+CONECT   10   12
+CONECT   11   10
+CONECT   12   10   13   16
+CONECT   12   10
+CONECT   13   12   14   15
+CONECT   13   14
+CONECT   14   13
+CONECT   14   13
+CONECT   15   13
+CONECT   16   12   17
+CONECT   17    8   16   18
+CONECT   18   17   19   21
+CONECT   19    6   18   20
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   18   22
+CONECT   22   21   23   24
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22   25
+CONECT   25   24   26   29
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   25   28
+ENDMDL
+END   

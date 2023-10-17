@@ -1,0 +1,101 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7b34_ligand
+MODEL        1
+HETATM    1  C1  SQK A 608      -0.673  19.203  43.936  1.00  0.00           C  
+HETATM    2  O1  SQK A 608       0.234  16.181  40.464  1.00  0.00           O  
+HETATM    3  C2  SQK A 608       0.163  21.087  42.976  1.00  0.00           C  
+HETATM    4  C3  SQK A 608       1.107  18.954  42.541  1.00  0.00           C  
+HETATM    5  C4  SQK A 608       1.131  20.342  42.295  1.00  0.00           C  
+HETATM    6  C5  SQK A 608       2.112  20.846  41.377  1.00  0.00           C  
+HETATM    7  C6  SQK A 608       3.014  20.037  40.772  1.00  0.00           C  
+HETATM    8  C7  SQK A 608       3.993  20.540  39.775  1.00  0.00           C  
+HETATM    9  C8  SQK A 608       5.043  21.384  40.125  1.00  0.00           C  
+HETATM   10  C9  SQK A 608       5.955  21.824  39.186  1.00  0.00           C  
+HETATM   11  C10 SQK A 608       5.869  21.406  37.857  1.00  0.00           C  
+HETATM   12  C11 SQK A 608       6.856  21.861  36.855  1.00  0.00           C  
+HETATM   13  C12 SQK A 608       7.005  23.203  36.493  1.00  0.00           C  
+HETATM   14  N   SQK A 608      -1.585  18.637  44.732  1.00  0.00           N  
+HETATM   15  C   SQK A 608      -1.725  17.201  44.861  1.00  0.00           C  
+HETATM   16  O   SQK A 608       3.895  17.860  40.663  1.00  0.00           O  
+HETATM   17  C13 SQK A 608       7.899  23.543  35.505  1.00  0.00           C  
+HETATM   18  C14 SQK A 608       8.650  22.542  34.915  1.00  0.00           C  
+HETATM   19  C15 SQK A 608       8.485  21.223  35.334  1.00  0.00           C  
+HETATM   20  C16 SQK A 608       9.334  20.111  34.791  1.00  0.00           C  
+HETATM   21  C17 SQK A 608       4.829  20.543  37.511  1.00  0.00           C  
+HETATM   22  C18 SQK A 608       3.902  20.124  38.446  1.00  0.00           C  
+HETATM   23  C19 SQK A 608       3.026  18.617  41.074  1.00  0.00           C  
+HETATM   24  C20 SQK A 608       1.970  16.678  42.089  1.00  0.00           C  
+HETATM   25  C21 SQK A 608       1.595  16.002  40.784  1.00  0.00           C  
+HETATM   26  C22 SQK A 608      -0.063  15.705  39.143  1.00  0.00           C  
+HETATM   27  C23 SQK A 608       0.399  14.261  38.957  1.00  0.00           C  
+HETATM   28  C24 SQK A 608       1.810  14.049  39.504  1.00  0.00           C  
+HETATM   29  F   SQK A 608       6.320  24.177  37.129  1.00  0.00           F  
+HETATM   30  N1  SQK A 608      -0.740  20.536  43.795  1.00  0.00           N  
+HETATM   31  N2  SQK A 608       0.211  18.372  43.350  1.00  0.00           N  
+HETATM   32  N3  SQK A 608       7.594  20.891  36.282  1.00  0.00           N  
+HETATM   33  N4  SQK A 608       2.045  18.134  41.924  1.00  0.00           N  
+HETATM   34  N5  SQK A 608       0.346  13.899  37.542  1.00  0.00           N1+
+HETATM   35  O2  SQK A 608       1.967  14.647  40.796  1.00  0.00           O  
+HETATM   36 CL   SQK A 608       5.277  21.855  41.780  1.00  0.00          Cl  
+CONECT    1   14   30   31
+CONECT    1   30
+CONECT    2   25   26
+CONECT    3    5   30
+CONECT    3    5
+CONECT    4    5   31   33
+CONECT    4   31
+CONECT    5    3    4    6
+CONECT    5    3
+CONECT    6    5    7
+CONECT    6    7
+CONECT    7    6    8   23
+CONECT    7    6
+CONECT    8    7    9   22
+CONECT    8   22
+CONECT    9    8   10   36
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11   10   12   21
+CONECT   11   21
+CONECT   12   11   13   32
+CONECT   12   32
+CONECT   13   12   17   29
+CONECT   13   17
+CONECT   14    1   15
+CONECT   15   14
+CONECT   16   23
+CONECT   16   23
+CONECT   17   13   18
+CONECT   17   13
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20   32
+CONECT   19   18
+CONECT   20   19
+CONECT   21   11   22
+CONECT   21   11
+CONECT   22    8   21
+CONECT   22    8
+CONECT   23    7   16   33
+CONECT   23   16
+CONECT   24   25   33
+CONECT   25    2   24   35
+CONECT   26    2   27
+CONECT   27   26   28   34
+CONECT   28   27   35
+CONECT   29   13
+CONECT   30    1    3
+CONECT   30    1
+CONECT   31    1    4
+CONECT   31    4
+CONECT   32   12   19
+CONECT   32   12
+CONECT   33    4   23   24
+CONECT   34   27
+CONECT   35   25   28
+CONECT   36    9
+ENDMDL
+END   

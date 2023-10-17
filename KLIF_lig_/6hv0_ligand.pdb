@@ -1,0 +1,70 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6hv0_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CAM GUK A1001       0.160  16.196  46.633  1.00  0.00           C  
+HETATM    2  CAL GUK A1001       1.370  17.125  46.857  1.00  0.00           C  
+HETATM    3  CAN GUK A1001       1.283  17.574  48.333  1.00  0.00           C  
+HETATM    4  NAK GUK A1001       1.280  18.342  46.000  1.00  0.00           N  
+HETATM    5  CAD GUK A1001       2.116  18.534  44.852  1.00  0.00           C  
+HETATM    6  CAC GUK A1001       3.211  17.692  44.659  1.00  0.00           C  
+HETATM    7  CAB GUK A1001       4.054  17.869  43.524  1.00  0.00           C  
+HETATM    8 CL   GUK A1001       5.494  16.800  43.219  1.00  0.00          Cl  
+HETATM    9  NAA GUK A1001       3.890  18.820  42.577  1.00  0.00           N  
+HETATM   10  NAF GUK A1001       2.819  19.661  42.746  1.00  0.00           N  
+HETATM   11  CAE GUK A1001       1.895  19.581  43.852  1.00  0.00           C  
+HETATM   12  NAG GUK A1001       0.989  20.607  43.626  1.00  0.00           N  
+HETATM   13  CAH GUK A1001       1.335  21.303  42.417  1.00  0.00           C  
+HETATM   14  CAI GUK A1001       2.522  20.697  41.829  1.00  0.00           C  
+HETATM   15  CAO GUK A1001       3.225  21.102  40.589  1.00  0.00           C  
+HETATM   16  CAT GUK A1001       4.571  20.913  40.371  1.00  0.00           C  
+HETATM   17  CAS GUK A1001       5.228  21.318  39.169  1.00  0.00           C  
+HETATM   18  CAW GUK A1001       6.576  21.258  38.669  1.00  0.00           C  
+HETATM   19  NAV GUK A1001       6.668  21.782  37.463  1.00  0.00           N  
+HETATM   20  NAU GUK A1001       5.423  22.230  37.076  1.00  0.00           N  
+HETATM   21  CAR GUK A1001       4.508  21.947  38.125  1.00  0.00           C  
+HETATM   22  CAQ GUK A1001       3.118  22.156  38.315  1.00  0.00           C  
+HETATM   23  CAP GUK A1001       2.485  21.753  39.503  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3    4
+CONECT    3    2
+CONECT    4    2    5
+CONECT    5    4    6   11
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    6    8    9
+CONECT    7    9
+CONECT    8    7
+CONECT    9    7   10
+CONECT    9    7
+CONECT   10    9   11   14
+CONECT   11    5   10   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   10   13   15
+CONECT   14   13
+CONECT   15   14   16   23
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   16   18   21
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   17   20   22
+CONECT   21   20
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   15   22
+CONECT   23   22
+ENDMDL
+END   

@@ -1,0 +1,33 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1P05
+MODEL        1
+ATOM      1  N   PRO P   2      13.322  34.882  18.330  1.00 14.09           N1+
+ATOM      2  CA  PRO P   2      14.163  33.712  18.053  1.00 13.48           C  
+ATOM      3  C   PRO P   2      13.778  33.120  16.684  1.00 13.06           C  
+ATOM      4  O   PRO P   2      12.603  33.139  16.318  1.00 14.10           O  
+ATOM      5  CB  PRO P   2      13.867  32.752  19.211  1.00 13.93           C  
+ATOM      6  CG  PRO P   2      12.438  33.064  19.623  1.00 14.38           C  
+ATOM      7  CD  PRO P   2      12.278  34.551  19.309  1.00 13.63           C  
+TER       8      PRO P   2
+HETATM    9  N   BNO P   1      14.769  32.651  15.914  1.00  9.98           N  
+HETATM   10  CA  BNO P   1      14.631  32.287  14.503  1.00 13.75           C  
+HETATM   11  CB  BNO P   1      15.593  33.150  13.658  1.00 14.27           C  
+HETATM   12  CG  BNO P   1      15.259  34.647  13.725  1.00 15.05           C  
+HETATM   13  CD  BNO P   1      13.966  35.007  12.989  1.00 18.33           C  
+HETATM   14  CE  BNO P   1      13.101  35.988  13.780  1.00 17.27           C  
+HETATM   15  B   BNO P   1      14.931  30.711  14.328  1.00 11.43           B1-
+HETATM   16  O1  BNO P   1      14.877  30.317  12.909  1.00  8.68           O  
+HETATM   17  O2  BNO P   1      13.900  29.913  15.024  1.00 12.58           O  
+CONECT    9    3   10
+CONECT   10    9   11   15
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   13
+CONECT   15   10   16   17
+CONECT   16   15
+CONECT   17   15
+ENDMDL
+END   

@@ -1,0 +1,103 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3D29
+MODEL        1
+ATOM      1  N   THR H   1      64.569-139.731  44.750  1.00 34.74           N1+
+ATOM      2  CA  THR H   1      65.022-138.617  45.609  1.00 35.27           C  
+ATOM      3  C   THR H   1      65.063-139.026  47.060  1.00 36.54           C  
+ATOM      4  O   THR H   1      64.166-139.725  47.548  1.00 35.49           O  
+ATOM      5  CB  THR H   1      64.081-137.399  45.545  1.00 35.80           C  
+ATOM      6  OG1 THR H   1      64.290-136.691  44.331  1.00 39.02           O  
+ATOM      7  CG2 THR H   1      64.342-136.441  46.688  1.00 34.74           C  
+TER       8      THR H   1
+HETATM    9  N1  FEB H   0      62.122-135.933  41.440  1.00 43.02           N  
+HETATM   10  C2  FEB H   0      63.208-135.711  42.419  1.00 42.90           C  
+HETATM   11  C3  FEB H   0      63.055-136.731  43.549  1.00 40.80           C  
+HETATM   12  O4  FEB H   0      62.884-138.031  43.033  1.00 41.79           O  
+HETATM   13  C5  FEB H   0      63.192-134.263  43.011  1.00 45.35           C  
+HETATM   14  C6  FEB H   0      63.365-133.056  42.048  1.00 45.09           C  
+HETATM   15  C7  FEB H   0      63.327-131.751  42.868  1.00 47.40           C  
+HETATM   16  C8  FEB H   0      64.697-133.089  41.270  1.00 45.22           C  
+HETATM   17  N9  FEB H   0      61.059-136.308  38.035  1.00 42.56           N  
+HETATM   18  C10 FEB H   0      60.909-136.687  39.452  1.00 45.52           C  
+HETATM   19  C11 FEB H   0      62.244-136.550  40.249  1.00 44.76           C  
+HETATM   20  O12 FEB H   0      63.343-136.955  39.791  1.00 45.79           O  
+HETATM   21  C13 FEB H   0      60.305-138.116  39.487  1.00 48.23           C  
+HETATM   22  C14 FEB H   0      58.843-138.247  38.967  1.00 47.03           C  
+HETATM   23  C15 FEB H   0      57.889-137.197  39.531  1.00 46.55           C  
+HETATM   24  O16 FEB H   0      57.489-137.240  40.683  1.00 48.63           O  
+HETATM   25  N17 FEB H   0      57.479-136.234  38.768  1.00 47.53           N  
+HETATM   26  N18 FEB H   0      60.083-134.259  35.241  1.00 40.91           N  
+HETATM   27  C19 FEB H   0      61.157-134.913  36.039  1.00 40.17           C  
+HETATM   28  C20 FEB H   0      60.739-135.111  37.524  1.00 41.12           C  
+HETATM   29  O21 FEB H   0      60.136-134.226  38.171  1.00 38.19           O  
+HETATM   30  C22 FEB H   0      62.509-134.145  35.878  1.00 40.85           C  
+HETATM   31  C23 FEB H   0      62.983-133.890  34.452  1.00 41.21           C  
+HETATM   32  O24 FEB H   0      62.438-134.410  33.477  1.00 43.31           O  
+HETATM   33  N25 FEB H   0      63.991-133.094  34.266  1.00 41.52           N  
+HETATM   34  C26 FEB H   0      55.386-133.340  33.946  1.00 46.81           C  
+HETATM   35  C27 FEB H   0      56.361-134.409  34.440  1.00 46.04           C  
+HETATM   36  C28 FEB H   0      53.086-132.886  32.885  1.00 48.71           C  
+HETATM   37  C29 FEB H   0      53.892-133.700  33.910  1.00 46.59           C  
+HETATM   38  C30 FEB H   0      47.113-131.512  35.074  1.00 63.06           C  
+HETATM   39  C31 FEB H   0      47.163-131.681  33.561  1.00 59.96           C  
+HETATM   40  C32 FEB H   0      48.562-131.352  32.979  1.00 58.92           C  
+HETATM   41  C33 FEB H   0      49.208-132.490  32.150  1.00 55.24           C  
+HETATM   42  C34 FEB H   0      50.743-132.362  31.950  1.00 53.38           C  
+HETATM   43  C35 FEB H   0      51.564-132.997  33.085  1.00 49.21           C  
+HETATM   44  C36 FEB H   0      57.815-133.883  34.486  1.00 45.44           C  
+HETATM   45  O37 FEB H   0      56.288-135.524  33.558  1.00 47.12           O  
+HETATM   46  C38 FEB H   0      58.852-134.795  35.120  1.00 43.43           C  
+HETATM   47  O49 FEB H   0      58.550-135.949  35.496  1.00 43.04           O  
+CONECT    9   10   19
+CONECT   10    9   11   13
+CONECT   11    6   10   12
+CONECT   12   11
+CONECT   13   10   14
+CONECT   14   13   15   16
+CONECT   15   14
+CONECT   16   14
+CONECT   17   18   28
+CONECT   18   17   19   21
+CONECT   19    9   18   20
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   18   22
+CONECT   22   21   23
+CONECT   23   22   24   25
+CONECT   23   24
+CONECT   24   23
+CONECT   24   23
+CONECT   25   23
+CONECT   26   27   46
+CONECT   27   26   28   30
+CONECT   28   17   27   29
+CONECT   28   29
+CONECT   29   28
+CONECT   29   28
+CONECT   30   27   31
+CONECT   31   30   32   33
+CONECT   31   32
+CONECT   32   31
+CONECT   32   31
+CONECT   33   31
+CONECT   34   35   37
+CONECT   35   34   44   45
+CONECT   36   37   43
+CONECT   37   34   36
+CONECT   38   39
+CONECT   39   38   40
+CONECT   40   39   41
+CONECT   41   40   42
+CONECT   42   41   43
+CONECT   43   36   42
+CONECT   44   35   46
+CONECT   45   35
+CONECT   46   26   44   47
+CONECT   46   47
+CONECT   47   46
+CONECT   47   46
+ENDMDL
+END   

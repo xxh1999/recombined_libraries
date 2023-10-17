@@ -1,0 +1,88 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2hzi_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C10 JIN B 600       1.882  20.892  40.836  1.00  0.00           C  
+HETATM    2  C12 JIN B 600       2.491  18.768  39.989  1.00  0.00           C  
+HETATM    3  C13 JIN B 600       1.620  16.667  40.955  1.00  0.00           C  
+HETATM    4  C15 JIN B 600       3.777  21.879  36.691  1.00  0.00           C  
+HETATM    5  C16 JIN B 600       5.106  22.226  37.002  1.00  0.00           C  
+HETATM    6  C19 JIN B 600       3.454  20.937  38.919  1.00  0.00           C  
+HETATM    7  C20 JIN B 600       2.998  21.246  37.655  1.00  0.00           C  
+HETATM    8  C27 JIN B 600      -1.266  16.980  44.773  1.00  0.00           C  
+HETATM    9  C30 JIN B 600      -1.577  14.254  45.653  1.00  0.00           C  
+HETATM   10  C31 JIN B 600      -1.091  14.531  44.380  1.00  0.00           C  
+HETATM   11  C34 JIN B 600      -2.433  15.018  47.847  1.00  0.00           C  
+HETATM   12  F35 JIN B 600      -1.731  12.990  46.037  1.00  0.00           F  
+HETATM   13  C29 JIN B 600      -1.905  15.330  46.476  1.00  0.00           C  
+HETATM   14  C28 JIN B 600      -1.766  16.654  46.047  1.00  0.00           C  
+HETATM   15  C26 JIN B 600      -0.941  15.862  43.976  1.00  0.00           C  
+HETATM   16  N08 JIN B 600      -1.178  18.288  44.463  1.00  0.00           N  
+HETATM   17  C04 JIN B 600      -0.421  18.903  43.547  1.00  0.00           C  
+HETATM   18  N03 JIN B 600      -0.420  20.219  43.590  1.00  0.00           N  
+HETATM   19  C02 JIN B 600       0.328  20.941  42.727  1.00  0.00           C  
+HETATM   20  N05 JIN B 600       0.295  18.197  42.645  1.00  0.00           N  
+HETATM   21  C06 JIN B 600       1.029  18.864  41.774  1.00  0.00           C  
+HETATM   22  N11 JIN B 600       1.736  18.122  40.895  1.00  0.00           N  
+HETATM   23  O14 JIN B 600       3.123  18.043  39.194  1.00  0.00           O  
+HETATM   24  C09 JIN B 600       2.630  20.156  39.903  1.00  0.00           C  
+HETATM   25  C01 JIN B 600       1.100  20.249  41.767  1.00  0.00           C  
+HETATM   26  C18 JIN B 600       4.759  21.309  39.213  1.00  0.00           C  
+HETATM   27  C17 JIN B 600       5.599  21.948  38.284  1.00  0.00           C  
+HETATM   28 CL4  JIN B 600       5.436  21.016  40.801  1.00  0.00          Cl  
+HETATM   29 CL5  JIN B 600       1.372  20.855  37.180  1.00  0.00          Cl  
+CONECT    1   24   25
+CONECT    1   24
+CONECT    2   22   23   24
+CONECT    2   23
+CONECT    3   22
+CONECT    4    5    7
+CONECT    4    7
+CONECT    5    4   27
+CONECT    5   27
+CONECT    6    7   24   26
+CONECT    6   26
+CONECT    7    4    6   29
+CONECT    7    4
+CONECT    8   14   15   16
+CONECT    8   14
+CONECT    9   10   12   13
+CONECT    9   13
+CONECT   10    9   15
+CONECT   10   15
+CONECT   11   13
+CONECT   12    9
+CONECT   13    9   11   14
+CONECT   13    9
+CONECT   14    8   13
+CONECT   14    8
+CONECT   15    8   10
+CONECT   15   10
+CONECT   16    8   17
+CONECT   17   16   18   20
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   18   25
+CONECT   19   25
+CONECT   20   17   21
+CONECT   20   21
+CONECT   21   20   22   25
+CONECT   21   20
+CONECT   22    2    3   21
+CONECT   23    2
+CONECT   23    2
+CONECT   24    1    2    6
+CONECT   24    1
+CONECT   25    1   19   21
+CONECT   25   19
+CONECT   26    6   27   28
+CONECT   26    6
+CONECT   27    5   26
+CONECT   27    5
+CONECT   28   26
+CONECT   29    7
+ENDMDL
+END   

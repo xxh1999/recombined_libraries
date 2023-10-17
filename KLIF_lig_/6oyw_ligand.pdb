@@ -1,0 +1,78 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6oyw_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C10 NKJ D1001       1.285  21.597  40.882  1.00  0.00           C  
+HETATM    2  N12 NKJ D1001       0.178  18.595  42.952  1.00  0.00           N  
+HETATM    3  C13 NKJ D1001      -0.657  18.705  44.071  1.00  0.00           C  
+HETATM    4  C15 NKJ D1001      -1.116  17.565  44.941  1.00  0.00           C  
+HETATM    5  C17 NKJ D1001      -1.273  15.117  45.062  1.00  0.00           C  
+HETATM    6  C20 NKJ D1001      -1.722  17.622  46.214  1.00  0.00           C  
+HETATM    7  C22 NKJ D1001      -0.059  14.969  42.477  1.00  0.00           C  
+HETATM    8  C24 NKJ D1001       1.073  15.762  40.197  1.00  0.00           C  
+HETATM    9  C26 NKJ D1001       0.179  15.611  37.777  1.00  0.00           C  
+HETATM   10  C02 NKJ D1001       2.318  18.611  38.690  1.00  0.00           C  
+HETATM   11  C05 NKJ D1001       2.660  16.867  37.272  1.00  0.00           C  
+HETATM   12  C06 NKJ D1001       1.784  19.500  39.792  1.00  0.00           C  
+HETATM   13  C08 NKJ D1001       0.718  19.493  41.936  1.00  0.00           C  
+HETATM   14  C09 NKJ D1001       0.722  20.916  41.974  1.00  0.00           C  
+HETATM   15  C11 NKJ D1001       1.823  20.908  39.778  1.00  0.00           C  
+HETATM   16  C16 NKJ D1001      -0.903  16.292  44.388  1.00  0.00           C  
+HETATM   17  C18 NKJ D1001      -1.872  15.202  46.325  1.00  0.00           C  
+HETATM   18  C19 NKJ D1001      -2.096  16.454  46.900  1.00  0.00           C  
+HETATM   19  C23 NKJ D1001      -0.144  15.094  40.912  1.00  0.00           C  
+HETATM   20  C25 NKJ D1001       0.728  16.532  38.886  1.00  0.00           C  
+HETATM   21  N01 NKJ D1001       1.863  17.323  38.334  1.00  0.00           N  
+HETATM   22  N03 NKJ D1001       3.385  18.879  37.865  1.00  0.00           N  
+HETATM   23  N04 NKJ D1001       3.584  17.850  37.020  1.00  0.00           N  
+HETATM   24  N07 NKJ D1001       1.244  18.839  40.858  1.00  0.00           N  
+HETATM   25  O14 NKJ D1001      -1.056  19.859  44.354  1.00  0.00           O  
+HETATM   26  O21 NKJ D1001      -0.302  16.225  43.120  1.00  0.00           O  
+CONECT    1   14   15
+CONECT    1   14
+CONECT    2    3   13
+CONECT    3    2    4   25
+CONECT    3   25
+CONECT    4    3    6   16
+CONECT    4   16
+CONECT    5   16   17
+CONECT    5   17
+CONECT    6    4   18
+CONECT    6   18
+CONECT    7   19   26
+CONECT    8   19   20
+CONECT    9   20
+CONECT   10   12   21   22
+CONECT   10   22
+CONECT   11   21   23
+CONECT   11   23
+CONECT   12   10   15   24
+CONECT   12   15
+CONECT   13    2   14   24
+CONECT   13   24
+CONECT   14    1   13
+CONECT   14    1
+CONECT   15    1   12
+CONECT   15   12
+CONECT   16    4    5   26
+CONECT   16    4
+CONECT   17    5   18
+CONECT   17    5
+CONECT   18    6   17
+CONECT   18    6
+CONECT   19    7    8
+CONECT   20    8    9   21
+CONECT   21   10   11   20
+CONECT   22   10   23
+CONECT   22   10
+CONECT   23   11   22
+CONECT   23   11
+CONECT   24   12   13
+CONECT   24   13
+CONECT   25    3
+CONECT   25    3
+CONECT   26    7   16
+ENDMDL
+END   

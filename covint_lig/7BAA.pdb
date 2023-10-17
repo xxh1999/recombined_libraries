@@ -1,0 +1,60 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7BAA
+MODEL        1
+ATOM      1  N   CYS A  42      24.559  20.756  -3.542  1.00  9.42           N1+
+ATOM      2  CA  CYS A  42      23.562  19.720  -3.357  1.00 10.40           C  
+ATOM      3  C   CYS A  42      24.139  18.336  -3.620  1.00  9.22           C  
+ATOM      4  O   CYS A  42      23.865  17.402  -2.840  1.00 11.49           O  
+ATOM      5  CB  CYS A  42      22.369  19.997  -4.259  1.00 11.08           C  
+ATOM      6  SG  CYS A  42      21.176  21.028  -3.519  1.00 18.15           S  
+TER       7      CYS A  42
+HETATM    8  C1  T5Z A 304      15.372  18.960  -0.574  1.00 17.25           C  
+HETATM    9  C2  T5Z A 304      16.438  20.860   0.706  1.00 17.49           C  
+HETATM   10  C3  T5Z A 304      17.659  20.254   1.057  1.00 16.68           C  
+HETATM   11  C4  T5Z A 304      18.454  20.891   2.002  1.00 17.61           C  
+HETATM   12  C5  T5Z A 304      20.135  19.155   1.829  1.00 16.91           C  
+HETATM   13  C6  T5Z A 304      18.049  22.085   2.579  1.00 15.00           C  
+HETATM   14  C10 T5Z A 304      16.513  18.418  -1.414  1.00 20.47           C  
+HETATM   15  C11 T5Z A 304      18.310  18.902  -2.992  1.00 21.12           C  
+HETATM   16  N   T5Z A 304      17.322  19.300  -2.001  1.00 17.99           N  
+HETATM   17  C   T5Z A 304      14.111  18.904  -1.424  1.00 24.71           C  
+HETATM   18  O   T5Z A 304      15.573  20.339  -0.245  1.00 18.26           O  
+HETATM   19  C12 T5Z A 304      19.656  18.495  -2.376  1.00 19.73           C  
+HETATM   20  C7  T5Z A 304      16.841  22.687   2.241  1.00 16.54           C  
+HETATM   21  C8  T5Z A 304      16.048  22.058   1.296  1.00 16.06           C  
+HETATM   22  C9  T5Z A 304      15.138  18.152   0.694  1.00 23.92           C  
+HETATM   23  O1  T5Z A 304      19.654  20.368   2.405  1.00 17.07           O  
+HETATM   24  O2  T5Z A 304      16.653  17.208  -1.554  1.00 21.14           O  
+HETATM   25  S   T5Z A 304      20.587  19.943  -1.813  1.00 19.00           S  
+HETATM   26 BR   T5Z A 304      19.173  22.911   3.827  1.00 17.72          Br  
+CONECT    8   14   17   18   22
+CONECT    9   10   18   21
+CONECT    9   21
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   13   23
+CONECT   11   10
+CONECT   12   23
+CONECT   13   11   20   26
+CONECT   13   20
+CONECT   14    8   16   24
+CONECT   14   24
+CONECT   15   16   19
+CONECT   16   14   15
+CONECT   17    8
+CONECT   18    8    9
+CONECT   19   15   25
+CONECT   20   13   21
+CONECT   20   13
+CONECT   21    9   20
+CONECT   21    9
+CONECT   22    8
+CONECT   23   11   12
+CONECT   24   14
+CONECT   24   14
+CONECT   25    6   19
+CONECT   26   13
+ENDMDL
+END   

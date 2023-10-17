@@ -1,0 +1,32 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5sx9_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  Q71 A1101      12.375  35.272   7.856  1.00  0.00           C  
+HETATM    2  C6  Q71 A1101      12.775  34.812   5.558  1.00  0.00           C  
+HETATM    3  C7  Q71 A1101      12.563  33.445   5.789  1.00  0.00           C  
+HETATM    4  C8  Q71 A1101      13.103  35.318   4.174  1.00  0.00           C  
+HETATM    5  C3  Q71 A1101      12.157  33.917   8.130  1.00  0.00           C  
+HETATM    6  C2  Q71 A1101      12.253  32.997   7.084  1.00  0.00           C  
+HETATM    7  C1  Q71 A1101      12.018  31.535   7.357  1.00  0.00           C  
+HETATM    8  N5  Q71 A1101      12.678  35.688   6.593  1.00  0.00           N  
+HETATM    9  N9  Q71 A1101      12.282  36.261   8.956  1.00  0.00           N  
+CONECT    1    5    8    9
+CONECT    1    5
+CONECT    2    3    4    8
+CONECT    2    8
+CONECT    3    2    6
+CONECT    3    6
+CONECT    4    2
+CONECT    5    1    6
+CONECT    5    1
+CONECT    6    3    5    7
+CONECT    6    3
+CONECT    7    6
+CONECT    8    1    2
+CONECT    8    2
+CONECT    9    1
+ENDMDL
+END   

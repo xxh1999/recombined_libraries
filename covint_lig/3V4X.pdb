@@ -1,0 +1,68 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3V4X
+MODEL        1
+ATOM      1  N   CYS A 111      30.748  -4.771  10.444  1.00  8.59           N1+
+ATOM      2  CA  CYS A 111      31.747  -5.722  10.922  1.00  8.63           C  
+ATOM      3  C   CYS A 111      31.215  -7.171  10.939  1.00  8.81           C  
+ATOM      4  O   CYS A 111      31.871  -8.032  11.515  1.00  9.10           O  
+ATOM      5  CB  CYS A 111      32.132  -5.371  12.369  1.00  7.88           C  
+ATOM      6  SG  CYS A 111      32.700  -3.655  12.525  0.74  6.48           S  
+TER       7      CYS A 111
+HETATM    8  C1  F24 A 500      31.415  -1.461  13.798  1.00 27.99           C  
+HETATM    9  O1  F24 A 500      34.453   9.357  22.242  0.00 36.48           O  
+HETATM   10  C2  F24 A 500      32.390  -1.264  14.992  0.75 28.18           C  
+HETATM   11  O2  F24 A 500      30.233  -3.537  13.599  1.00 28.10           O  
+HETATM   12  C3  F24 A 500      34.640   8.260  22.813  0.44 36.37           C  
+HETATM   13  C4  F24 A 500      31.810  -0.595  12.585  0.74 28.08           C  
+HETATM   14  O4  F24 A 500      34.919   8.054  24.014  0.51 36.80           O1-
+HETATM   15  C5  F24 A 500      31.940  -0.199  15.999  1.00 28.60           C  
+HETATM   16  O5  F24 A 500      30.865  -0.722  11.544  0.88 28.23           O  
+HETATM   17  C6  F24 A 500      34.495   7.009  21.908  0.90 35.78           C  
+HETATM   18  O6  F24 A 500      32.485  -2.391  15.835  1.00 27.61           O  
+HETATM   19  C7  F24 A 500      34.180   6.228  18.861  0.73 33.40           C  
+HETATM   20  C8  F24 A 500      31.273  -2.926  13.369  1.00 27.88           C  
+HETATM   21  C9  F24 A 500      35.357   5.980  21.776  1.00 35.03           C  
+HETATM   22  C10 F24 A 500      31.805   1.220  15.454  0.44 29.28           C  
+HETATM   23  C11 F24 A 500      31.704   2.312  16.533  1.00 29.90           C  
+HETATM   24  C12 F24 A 500      35.085   4.896  20.849  0.16 34.24           C  
+HETATM   25  C13 F24 A 500      32.042   3.218  19.904  1.00 31.57           C  
+HETATM   26  C14 F24 A 500      34.569   4.957  19.603  1.00 33.38           C  
+HETATM   27  C16 F24 A 500      34.322   3.679  18.827  0.89 32.51           C  
+HETATM   28  C18 F24 A 500      32.828   3.387  18.590  1.00 31.54           C  
+HETATM   29  C20 F24 A 500      32.687   2.142  17.701  0.63 30.78           C  
+HETATM   30  C21 F24 A 500      36.624   5.881  22.606  1.00 34.78           C  
+CONECT    8   10   13   20
+CONECT    9   12
+CONECT    9   12
+CONECT   10    8   15   18
+CONECT   11   20
+CONECT   11   20
+CONECT   12    9   14   17
+CONECT   12    9
+CONECT   13    8   16
+CONECT   14   12
+CONECT   15   10   22
+CONECT   16   13
+CONECT   17   12   21
+CONECT   17   21
+CONECT   18   10
+CONECT   19   26
+CONECT   20    6    8   11
+CONECT   20   11
+CONECT   21   17   24   30
+CONECT   21   17
+CONECT   22   15   23
+CONECT   23   22   29
+CONECT   24   21   26
+CONECT   24   26
+CONECT   25   28
+CONECT   26   19   24   27
+CONECT   26   24
+CONECT   27   26   28
+CONECT   28   25   27   29
+CONECT   29   23   28
+CONECT   30   21
+ENDMDL
+END   

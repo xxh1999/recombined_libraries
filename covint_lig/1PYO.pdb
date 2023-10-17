@@ -1,0 +1,32 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1PYO
+MODEL        1
+ATOM      1  N   SER E 405      27.884  55.793  15.746  1.00 30.51           N1+
+ATOM      2  CA  SER E 405      27.192  54.562  16.141  1.00 31.12           C  
+ATOM      3  C   SER E 405      27.965  53.766  17.214  1.00 31.77           C  
+ATOM      4  O   SER E 405      29.194  53.696  17.200  1.00 31.42           O  
+ATOM      5  CB  SER E 405      27.032  53.664  14.895  1.00 32.14           C  
+ATOM      6  OG  SER E 405      28.265  53.292  14.309  1.00 33.42           O  
+TER       7      SER E 405
+HETATM    8  C   ASJ E 406      27.392  50.645  18.124  1.00 29.01           C  
+HETATM    9  N   ASJ E 406      27.199  53.091  18.082  1.00 29.59           N  
+HETATM   10  O   ASJ E 406      27.819  49.557  18.907  1.00 34.49           O  
+HETATM   11  CA  ASJ E 406      27.593  51.957  18.920  1.00 30.82           C  
+HETATM   12  CB  ASJ E 406      26.816  51.953  20.264  1.00 29.95           C  
+HETATM   13  CG  ASJ E 406      27.147  53.139  21.167  1.00 30.16           C  
+HETATM   14  OD1 ASJ E 406      26.278  53.499  21.989  1.00 26.53           O1-
+HETATM   15  OD2 ASJ E 406      28.300  53.614  21.101  1.00 31.26           O  
+CONECT    8   10   11
+CONECT    9    3   11
+CONECT   10    8
+CONECT   11    8    9   12
+CONECT   12   11   13
+CONECT   13   12   14   15
+CONECT   13   15
+CONECT   14   13
+CONECT   15   13
+CONECT   15   13
+ENDMDL
+END   

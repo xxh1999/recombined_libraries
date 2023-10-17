@@ -1,0 +1,80 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4obq_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  Q2Q A 403       1.312  16.468  40.541  1.00  0.00           C  
+HETATM    2  C2  Q2Q A 403       0.522  16.467  41.657  1.00  0.00           C  
+HETATM    3  C3  Q2Q A 403       0.102  17.681  42.243  1.00  0.00           C  
+HETATM    4  C4  Q2Q A 403       0.491  18.898  41.627  1.00  0.00           C  
+HETATM    5  C5  Q2Q A 403       1.345  18.846  40.516  1.00  0.00           C  
+HETATM    6  C6  Q2Q A 403       1.778  17.659  39.975  1.00  0.00           C  
+HETATM    7  C7  Q2Q A 403       2.690  17.665  38.808  1.00  0.00           C  
+HETATM    8  C8  Q2Q A 403       2.894  16.518  38.030  1.00  0.00           C  
+HETATM    9  C9  Q2Q A 403       3.788  16.532  36.960  1.00  0.00           C  
+HETATM   10  C10 Q2Q A 403       4.498  17.692  36.659  1.00  0.00           C  
+HETATM   11  C11 Q2Q A 403       4.313  18.785  37.466  1.00  0.00           C  
+HETATM   12  C12 Q2Q A 403       3.428  18.813  38.513  1.00  0.00           C  
+HETATM   13  N14 Q2Q A 403       4.014  15.359  36.198  1.00  0.00           N  
+HETATM   14  C15 Q2Q A 403       5.205  14.801  35.883  1.00  0.00           C  
+HETATM   15  O16 Q2Q A 403       6.285  15.164  36.349  1.00  0.00           O  
+HETATM   16  C17 Q2Q A 403       5.126  13.680  34.865  1.00  0.00           C  
+HETATM   17  N18 Q2Q A 403       6.306  13.622  34.007  1.00  0.00           N1+
+HETATM   18  C19 Q2Q A 403       6.112  13.361  32.578  1.00  0.00           C  
+HETATM   19  C20 Q2Q A 403       7.508  13.046  32.071  1.00  0.00           C  
+HETATM   20  C21 Q2Q A 403       8.294  12.620  33.271  1.00  0.00           C  
+HETATM   21  C22 Q2Q A 403       7.304  12.633  34.419  1.00  0.00           C  
+HETATM   22  C23 Q2Q A 403      -0.055  20.101  42.221  1.00  0.00           C  
+HETATM   23  N24 Q2Q A 403      -0.779  20.041  43.335  1.00  0.00           N  
+HETATM   24  C25 Q2Q A 403      -1.040  18.834  43.852  1.00  0.00           C  
+HETATM   25  N26 Q2Q A 403      -0.676  17.642  43.374  1.00  0.00           N  
+HETATM   26  N27 Q2Q A 403       0.064  21.290  41.593  1.00  0.00           N  
+HETATM   27  F13 Q2Q A 403       5.104  19.877  37.269  1.00  0.00           F  
+CONECT    1    2    6
+CONECT    1    6
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2    4   25
+CONECT    3    2
+CONECT    4    3    5   22
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    1    5    7
+CONECT    6    1
+CONECT    7    6    8   12
+CONECT    7   12
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    8   10   13
+CONECT    9    8
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   12   27
+CONECT   11   10
+CONECT   12    7   11
+CONECT   12    7
+CONECT   13    9   14
+CONECT   14   13   15   16
+CONECT   14   15
+CONECT   15   14
+CONECT   15   14
+CONECT   16   14   17
+CONECT   17   16   18   21
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   17   20
+CONECT   22    4   23   26
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   23   25
+CONECT   24   25
+CONECT   25    3   24
+CONECT   25   24
+CONECT   26   22
+CONECT   27   11
+ENDMDL
+END   

@@ -1,0 +1,90 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6srh_ligand1
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C10 LU8 B 501      -0.765  17.523  44.310  1.00  0.00           C  
+HETATM    2  C13 LU8 B 501      -1.665  15.199  47.178  1.00  0.00           C  
+HETATM    3  C15 LU8 B 501      -2.652  12.913  47.282  1.00  0.00           C  
+HETATM    4  C17 LU8 B 501      -1.897  10.627  48.029  1.00  0.00           C  
+HETATM    5  C20 LU8 B 501      -4.133  10.842  47.233  1.00  0.00           C  
+HETATM    6  C21 LU8 B 501      -3.688  12.097  46.501  1.00  0.00           C  
+HETATM    7  C22 LU8 B 501      -2.207  14.114  45.106  1.00  0.00           C  
+HETATM    8  C24 LU8 B 501       0.031  17.462  43.164  1.00  0.00           C  
+HETATM    9  C26 LU8 B 501       0.728  18.009  40.149  1.00  0.00           C  
+HETATM   10  C01 LU8 B 501       4.711  20.910  41.068  1.00  0.00           C  
+HETATM   11  C03 LU8 B 501       3.057  19.498  40.042  1.00  0.00           C  
+HETATM   12  C04 LU8 B 501       2.310  19.460  41.217  1.00  0.00           C  
+HETATM   13  C05 LU8 B 501       1.149  18.713  41.285  1.00  0.00           C  
+HETATM   14  C06 LU8 B 501       0.338  18.674  42.535  1.00  0.00           C  
+HETATM   15  C07 LU8 B 501      -0.147  19.878  43.045  1.00  0.00           C  
+HETATM   16  C09 LU8 B 501      -1.223  18.758  44.752  1.00  0.00           C  
+HETATM   17  C11 LU8 B 501      -1.223  16.326  45.088  1.00  0.00           C  
+HETATM   18  C12 LU8 B 501      -1.197  16.318  46.471  1.00  0.00           C  
+HETATM   19  C14 LU8 B 501      -2.165  14.092  46.499  1.00  0.00           C  
+HETATM   20  C16 LU8 B 501      -1.458  12.048  47.686  1.00  0.00           C  
+HETATM   21  C19 LU8 B 501      -3.698   9.392  49.031  1.00  0.00           C  
+HETATM   22  C23 LU8 B 501      -1.743  15.229  44.413  1.00  0.00           C  
+HETATM   23  C25 LU8 B 501       0.560  16.139  42.650  1.00  0.00           C  
+HETATM   24  C27 LU8 B 501       1.480  18.047  38.985  1.00  0.00           C  
+HETATM   25  C29 LU8 B 501      -0.061  16.604  37.809  1.00  0.00           C  
+HETATM   26  C30 LU8 B 501       2.641  18.789  38.942  1.00  0.00           C  
+HETATM   27  C32 LU8 B 501       3.206  19.910  36.938  1.00  0.00           C  
+HETATM   28  N08 LU8 B 501      -0.907  19.899  44.152  1.00  0.00           N  
+HETATM   29  N18 LU8 B 501      -3.308  10.669  48.423  1.00  0.00           N1+
+HETATM   30  O02 LU8 B 501       4.227  20.213  39.918  1.00  0.00           O  
+HETATM   31  O28 LU8 B 501       1.135  17.382  37.843  1.00  0.00           O  
+HETATM   32  O31 LU8 B 501       3.422  18.823  37.811  1.00  0.00           O  
+CONECT    1    8   16   17
+CONECT    1   16
+CONECT    2   18   19
+CONECT    2   18
+CONECT    3    6   19   20
+CONECT    4   20   29
+CONECT    5    6   29
+CONECT    6    3    5
+CONECT    7   19   22
+CONECT    7   19
+CONECT    8    1   14   23
+CONECT    8   14
+CONECT    9   13   24
+CONECT    9   13
+CONECT   10   30
+CONECT   11   12   26   30
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13    9   12   14
+CONECT   13    9
+CONECT   14    8   13   15
+CONECT   14    8
+CONECT   15   14   28
+CONECT   15   28
+CONECT   16    1   28
+CONECT   16    1
+CONECT   17    1   18   22
+CONECT   17   22
+CONECT   18    2   17
+CONECT   18    2
+CONECT   19    2    3    7
+CONECT   19    7
+CONECT   20    3    4
+CONECT   21   29
+CONECT   22    7   17
+CONECT   22   17
+CONECT   23    8
+CONECT   24    9   26   31
+CONECT   24   26
+CONECT   25   31
+CONECT   26   11   24   32
+CONECT   26   24
+CONECT   27   32
+CONECT   28   15   16
+CONECT   28   15
+CONECT   29    4    5   21
+CONECT   30   10   11
+CONECT   31   24   25
+CONECT   32   26   27
+ENDMDL
+END   

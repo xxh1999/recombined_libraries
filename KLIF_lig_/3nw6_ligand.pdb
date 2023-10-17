@@ -1,0 +1,92 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3nw6_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N1  LGW A   0       0.129  15.302  45.645  1.00  0.00           N  
+HETATM    2  C2  LGW A   0      -0.205  16.647  45.613  1.00  0.00           C  
+HETATM    3  C3  LGW A   0      -1.198  16.928  46.609  1.00  0.00           C  
+HETATM    4  C4  LGW A   0      -1.430  15.689  47.227  1.00  0.00           C  
+HETATM    5  C5  LGW A   0      -0.610  14.722  46.620  1.00  0.00           C  
+HETATM    6  N6  LGW A   0       1.063  14.792  44.779  1.00  0.00           N  
+HETATM    7  C7  LGW A   0       1.695  15.550  43.868  1.00  0.00           C  
+HETATM    8  N8  LGW A   0       1.397  16.863  43.805  1.00  0.00           N  
+HETATM    9  C9  LGW A   0       0.467  17.394  44.660  1.00  0.00           C  
+HETATM   10  N10 LGW A   0       0.175  18.706  44.591  1.00  0.00           N  
+HETATM   11  C11 LGW A   0       0.762  19.695  43.674  1.00  0.00           C  
+HETATM   12  C12 LGW A   0       1.797  19.675  42.650  1.00  0.00           C  
+HETATM   13  C13 LGW A   0       1.874  21.011  42.122  1.00  0.00           C  
+HETATM   14  N14 LGW A   0       0.958  21.717  42.794  1.00  0.00           N  
+HETATM   15  N15 LGW A   0       0.326  20.956  43.681  1.00  0.00           N  
+HETATM   16  C16 LGW A   0       2.746  21.662  41.033  1.00  0.00           C  
+HETATM   17  C17 LGW A   0       4.091  21.414  41.642  1.00  0.00           C  
+HETATM   18  C18 LGW A   0       3.542  20.509  40.554  1.00  0.00           C  
+HETATM   19  C19 LGW A   0       2.699  14.927  42.960  1.00  0.00           C  
+HETATM   20  N20 LGW A   0       2.519  15.289  41.551  1.00  0.00           N  
+HETATM   21  C21 LGW A   0       3.753  15.773  40.927  1.00  0.00           C  
+HETATM   22  C22 LGW A   0       4.858  15.426  41.943  1.00  0.00           C  
+HETATM   23  C23 LGW A   0       4.153  15.267  43.326  1.00  0.00           C  
+HETATM   24  C24 LGW A   0       1.293  15.156  40.963  1.00  0.00           C  
+HETATM   25  O25 LGW A   0       0.430  14.445  41.457  1.00  0.00           O  
+HETATM   26  C26 LGW A   0       0.957  15.848  39.735  1.00  0.00           C  
+HETATM   27  C27 LGW A   0       1.184  17.234  39.599  1.00  0.00           C  
+HETATM   28  C28 LGW A   0       0.863  17.890  38.433  1.00  0.00           C  
+HETATM   29  C29 LGW A   0       0.310  17.137  37.399  1.00  0.00           C  
+HETATM   30  N30 LGW A   0       0.079  15.794  37.498  1.00  0.00           N  
+HETATM   31  C31 LGW A   0       0.398  15.141  38.658  1.00  0.00           C  
+HETATM   32  F32 LGW A   0       0.033  17.862  36.306  1.00  0.00           F  
+CONECT    1    2    5    6
+CONECT    2    1    3    9
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    1    4
+CONECT    5    4
+CONECT    6    1    7
+CONECT    6    7
+CONECT    7    6    8   19
+CONECT    7    6
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    2    8   10
+CONECT    9    8
+CONECT   10    9   11
+CONECT   11   10   12   15
+CONECT   11   15
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14   16
+CONECT   13   12
+CONECT   14   13   15
+CONECT   15   11   14
+CONECT   15   11
+CONECT   16   13   17   18
+CONECT   17   16   18
+CONECT   18   16   17
+CONECT   19    7   20   23
+CONECT   20   19   21   24
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   23   19   22
+CONECT   24   20   25   26
+CONECT   24   25
+CONECT   25   24
+CONECT   25   24
+CONECT   26   24   27   31
+CONECT   26   31
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   28   30   32
+CONECT   29   30
+CONECT   30   29   31
+CONECT   30   29
+CONECT   31   26   30
+CONECT   31   26
+CONECT   32   29
+ENDMDL
+END   

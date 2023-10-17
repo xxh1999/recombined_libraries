@@ -1,0 +1,67 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7dua_ligand
+MODEL        1
+HETATM    1  C2  HJ0 A1101       1.687  19.647  40.386  1.00  0.00           C  
+HETATM    2  C4  HJ0 A1101       2.759  20.221  38.303  1.00  0.00           C  
+HETATM    3  C5  HJ0 A1101       3.627  21.249  38.563  1.00  0.00           C  
+HETATM    4  C6  HJ0 A1101       4.071  21.735  37.338  1.00  0.00           C  
+HETATM    5  C7  HJ0 A1101       5.033  22.866  37.102  1.00  0.00           C  
+HETATM    6  C11 HJ0 A1101       1.040  17.294  41.029  1.00  0.00           C  
+HETATM    7  C15 HJ0 A1101      -0.934  18.538  44.855  1.00  0.00           C  
+HETATM    8  C17 HJ0 A1101       0.038  19.995  43.321  1.00  0.00           C  
+HETATM    9  C19 HJ0 A1101       0.372  18.870  42.521  1.00  0.00           C  
+HETATM   10  C21 HJ0 A1101      -1.173  14.739  41.764  1.00  0.00           C  
+HETATM   11  C23 HJ0 A1101       1.393  14.335  41.742  1.00  0.00           C  
+HETATM   12  O1  HJ0 A1101       1.941  20.724  40.903  1.00  0.00           O  
+HETATM   13  N3  HJ0 A1101       2.067  19.354  39.123  1.00  0.00           N  
+HETATM   14  N8  HJ0 A1101       3.517  21.009  36.408  1.00  0.00           N  
+HETATM   15  N9  HJ0 A1101       2.710  20.053  36.992  1.00  0.00           N  
+HETATM   16  C10 HJ0 A1101       1.040  18.645  41.229  1.00  0.00           C  
+HETATM   17  N12 HJ0 A1101       0.413  16.675  42.053  1.00  0.00           N  
+HETATM   18  C13 HJ0 A1101      -0.003  17.582  42.977  1.00  0.00           C  
+HETATM   19  N14 HJ0 A1101      -0.654  17.461  44.145  1.00  0.00           N  
+HETATM   20  N16 HJ0 A1101      -0.619  19.779  44.469  1.00  0.00           N  
+HETATM   21  N18 HJ0 A1101       0.325  21.294  42.957  1.00  0.00           N  
+HETATM   22  C20 HJ0 A1101       0.219  15.235  42.133  1.00  0.00           C  
+HETATM   23  C22 HJ0 A1101       1.005  14.495  43.209  1.00  0.00           C  
+CONECT    1   12   13   16
+CONECT    1   12
+CONECT    2    3   13   15
+CONECT    2   15
+CONECT    3    2    4
+CONECT    3    4
+CONECT    4    3    5   14
+CONECT    4    3
+CONECT    5    4
+CONECT    6   16   17
+CONECT    6   16
+CONECT    7   19   20
+CONECT    7   19
+CONECT    8    9   20   21
+CONECT    8   20
+CONECT    9    8   16   18
+CONECT    9   18
+CONECT   10   22
+CONECT   11   22   23
+CONECT   12    1
+CONECT   12    1
+CONECT   13    1    2
+CONECT   14    4   15
+CONECT   15    2   14
+CONECT   15    2
+CONECT   16    1    6    9
+CONECT   16    6
+CONECT   17    6   18   22
+CONECT   18    9   17   19
+CONECT   18    9
+CONECT   19    7   18
+CONECT   19    7
+CONECT   20    7    8
+CONECT   20    8
+CONECT   21    8
+CONECT   22   10   11   17   23
+CONECT   23   11   22
+ENDMDL
+END   

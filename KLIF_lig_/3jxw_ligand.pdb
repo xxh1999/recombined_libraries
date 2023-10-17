@@ -1,0 +1,68 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3jxw_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  LXG A1000       1.034  15.204  37.028  1.00  0.00           C  
+HETATM    2  N1  LXG A1000       2.309  14.529  37.424  1.00  0.00           N1+
+HETATM    3  O1  LXG A1000       3.393  19.710  37.093  1.00  0.00           O  
+HETATM    4  S1  LXG A1000       1.925  20.673  39.730  1.00  0.00           S  
+HETATM    5  C2  LXG A1000       3.008  13.717  36.377  1.00  0.00           C  
+HETATM    6  N2  LXG A1000       2.310  16.814  39.781  1.00  0.00           N  
+HETATM    7  C3  LXG A1000       3.253  15.224  38.328  1.00  0.00           C  
+HETATM    8  N3  LXG A1000       3.317  17.513  37.738  1.00  0.00           N  
+HETATM    9  C4  LXG A1000       2.916  16.606  38.664  1.00  0.00           C  
+HETATM   10  C5  LXG A1000       2.031  18.172  40.034  1.00  0.00           C  
+HETATM   11  C6  LXG A1000       1.375  18.666  41.205  1.00  0.00           C  
+HETATM   12  C7  LXG A1000       0.892  17.957  42.290  1.00  0.00           C  
+HETATM   13  C8  LXG A1000       0.270  18.665  43.311  1.00  0.00           C  
+HETATM   14  C9  LXG A1000      -0.283  17.916  44.494  1.00  0.00           C  
+HETATM   15  C10 LXG A1000      -0.868  16.713  44.279  1.00  0.00           C  
+HETATM   16  C11 LXG A1000      -1.507  15.709  45.150  1.00  0.00           C  
+HETATM   17  C12 LXG A1000      -2.348  14.589  44.550  1.00  0.00           C  
+HETATM   18  C13 LXG A1000      -1.010  14.284  45.144  1.00  0.00           C  
+HETATM   19  C14 LXG A1000       0.159  20.050  43.227  1.00  0.00           C  
+HETATM   20  C15 LXG A1000       0.639  20.797  42.165  1.00  0.00           C  
+HETATM   21  C16 LXG A1000       1.238  20.052  41.176  1.00  0.00           C  
+HETATM   22  C17 LXG A1000       2.397  19.128  39.134  1.00  0.00           C  
+HETATM   23  C18 LXG A1000       3.070  18.862  37.905  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    5    7
+CONECT    3   23
+CONECT    3   23
+CONECT    4   21   22
+CONECT    5    2
+CONECT    6    9   10
+CONECT    6    9
+CONECT    7    2    9
+CONECT    8    9   23
+CONECT    9    6    7    8
+CONECT    9    6
+CONECT   10    6   11   22
+CONECT   10   22
+CONECT   11   10   12   21
+CONECT   11   21
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14   19
+CONECT   13   12
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   17   18
+CONECT   17   16   18
+CONECT   18   16   17
+CONECT   19   13   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21    4   11   20
+CONECT   21   11
+CONECT   22    4   10   23
+CONECT   22   10
+CONECT   23    3    8   22
+CONECT   23    3
+ENDMDL
+END   

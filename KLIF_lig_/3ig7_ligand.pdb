@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3ig7_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  EFP A 999       1.654  19.682  40.802  1.00  0.00           C  
+HETATM    2  N3  EFP A 999       0.577  19.580  41.768  1.00  0.00           N  
+HETATM    3  C4  EFP A 999      -0.043  18.390  42.105  1.00  0.00           C  
+HETATM    4  C6  EFP A 999      -0.962  18.750  43.092  1.00  0.00           C  
+HETATM    5  N7  EFP A 999      -1.903  17.947  43.713  1.00  0.00           N  
+HETATM    6  C9  EFP A 999      -2.140  16.592  43.551  1.00  0.00           C  
+HETATM    7  C10 EFP A 999      -3.332  16.075  44.346  1.00  0.00           C  
+HETATM    8  C13 EFP A 999      -2.868  15.230  45.491  1.00  0.00           C  
+HETATM    9  C14 EFP A 999      -2.812  15.862  46.741  1.00  0.00           C  
+HETATM   10  C16 EFP A 999      -2.363  15.185  47.862  1.00  0.00           C  
+HETATM   11  C18 EFP A 999      -1.976  13.845  47.750  1.00  0.00           C  
+HETATM   12  O19 EFP A 999      -1.534  13.128  48.829  1.00  0.00           O  
+HETATM   13  C20 EFP A 999      -2.518  12.911  49.849  1.00  0.00           C  
+HETATM   14  C24 EFP A 999      -2.050  13.207  46.514  1.00  0.00           C  
+HETATM   15  C26 EFP A 999      -2.479  13.898  45.359  1.00  0.00           C  
+HETATM   16  O28 EFP A 999      -1.520  15.757  42.877  1.00  0.00           O  
+HETATM   17  N29 EFP A 999      -0.923  20.119  43.279  1.00  0.00           N  
+HETATM   18  C30 EFP A 999       0.020  20.590  42.478  1.00  0.00           C  
+HETATM   19  C32 EFP A 999       1.215  19.122  39.432  1.00  0.00           C  
+HETATM   20  C35 EFP A 999       2.692  18.617  39.271  1.00  0.00           C  
+HETATM   21  N37 EFP A 999       2.712  17.217  38.758  1.00  0.00           N  
+HETATM   22  C39 EFP A 999       3.190  17.010  37.475  1.00  0.00           C  
+HETATM   23  C40 EFP A 999       3.510  15.562  37.160  1.00  0.00           C  
+HETATM   24  O44 EFP A 999       3.303  17.927  36.654  1.00  0.00           O  
+HETATM   25  C45 EFP A 999       2.806  18.657  40.832  1.00  0.00           C  
+CONECT    1    2   19   25
+CONECT    2    1    3   18
+CONECT    3    2    4
+CONECT    3    4
+CONECT    4    3    5   17
+CONECT    4    3
+CONECT    5    4    6
+CONECT    6    5    7   16
+CONECT    6   16
+CONECT    7    6    8
+CONECT    8    7    9   15
+CONECT    8   15
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11   10   12   14
+CONECT   11   14
+CONECT   12   11   13
+CONECT   13   12
+CONECT   14   11   15
+CONECT   14   11
+CONECT   15    8   14
+CONECT   15    8
+CONECT   16    6
+CONECT   16    6
+CONECT   17    4   18
+CONECT   17   18
+CONECT   18    2   17
+CONECT   18   17
+CONECT   19    1   20
+CONECT   20   19   21   25
+CONECT   21   20   22
+CONECT   22   21   23   24
+CONECT   22   24
+CONECT   23   22
+CONECT   24   22
+CONECT   24   22
+CONECT   25    1   20
+ENDMDL
+END   

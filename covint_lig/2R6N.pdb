@@ -1,0 +1,90 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2R6N
+MODEL        1
+ATOM      1  N   CYS A  25      36.409  13.678   7.439  1.00 11.51           N1+
+ATOM      2  CA  CYS A  25      37.126  14.149   6.244  1.00 12.22           C  
+ATOM      3  C   CYS A  25      36.220  14.754   5.151  1.00 12.48           C  
+ATOM      4  O   CYS A  25      36.606  15.721   4.498  1.00 12.43           O  
+ATOM      5  CB  CYS A  25      37.987  12.993   5.691  1.00 10.77           C  
+ATOM      6  SG  CYS A  25      36.918  11.553   5.355  1.00 13.19           S  
+TER       7      CYS A  25
+HETATM    8  C11 CKE A 300      33.869   6.111   4.236  1.00 13.14           C  
+HETATM    9  C12 CKE A 300      32.857   5.357   3.429  1.00 16.60           C  
+HETATM   10  C13 CKE A 300      31.443   5.873   3.634  1.00 17.34           C  
+HETATM   11  C14 CKE A 300      30.751   6.498   2.580  1.00 18.52           C  
+HETATM   12  C15 CKE A 300      29.433   6.954   2.768  1.00 19.53           C  
+HETATM   13  C16 CKE A 300      28.765   6.794   4.011  1.00 21.38           C  
+HETATM   14  C20 CKE A 300      26.545   6.391   5.016  1.00 26.43           C  
+HETATM   15  C21 CKE A 300      25.920   5.282   4.149  1.00 27.22           C  
+HETATM   16  C24 CKE A 300      26.713   7.855   3.101  1.00 25.13           C  
+HETATM   17  C27 CKE A 300      34.181   9.468   2.603  1.00 15.48           C  
+HETATM   18  C30 CKE A 300      34.910   9.725   0.199  1.00 15.82           C  
+HETATM   19  C31 CKE A 300      24.631   4.799   2.107  1.00 29.51           C  
+HETATM   20  N01 CKE A 300      36.857   8.139   7.006  1.00 13.37           N  
+HETATM   21  C02 CKE A 300      36.023   7.075   7.025  1.00 12.00           C  
+HETATM   22  C03 CKE A 300      35.248   6.781   5.879  1.00 12.37           C  
+HETATM   23  C04 CKE A 300      35.432   7.650   4.774  1.00 13.31           C  
+HETATM   24  N05 CKE A 300      36.314   8.688   4.733  1.00 10.50           N  
+HETATM   25  C06 CKE A 300      36.954   8.874   5.889  1.00 12.14           C  
+HETATM   26  C07 CKE A 300      34.286   5.796   5.504  1.00 13.40           C  
+HETATM   27  N08 CKE A 300      34.524   7.269   3.790  1.00 14.29           N  
+HETATM   28  N10 CKE A 300      38.397  10.368   7.252  1.00 13.49           N  
+HETATM   29  C17 CKE A 300      29.488   6.183   5.066  1.00 19.87           C  
+HETATM   30  C18 CKE A 300      30.804   5.720   4.879  1.00 18.11           C  
+HETATM   31  N19 CKE A 300      27.431   7.235   4.213  1.00 23.61           N  
+HETATM   32  N22 CKE A 300      25.232   5.848   2.959  1.00 27.87           N1+
+HETATM   33  C23 CKE A 300      26.096   6.777   2.188  1.00 27.85           C  
+HETATM   34  C25 CKE A 300      34.309   7.932   2.496  1.00 14.88           C  
+HETATM   35  C26 CKE A 300      35.394   7.569   1.470  1.00 15.78           C  
+HETATM   36  C28 CKE A 300      35.104   8.202   0.097  1.00 16.75           C  
+HETATM   37  C29 CKE A 300      33.834  10.082   1.238  1.00 16.53           C  
+HETATM   38  C09 CKE A 300      37.858  10.105   5.932  1.00 11.61           C  
+CONECT    8    9   26   27
+CONECT    8   26
+CONECT    9    8   10
+CONECT   10    9   11   30
+CONECT   10   30
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   29   31
+CONECT   13   29
+CONECT   14   15   31
+CONECT   15   14   32
+CONECT   16   31   33
+CONECT   17   34   37
+CONECT   18   36   37
+CONECT   19   32
+CONECT   20   21   25
+CONECT   20   25
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23   26
+CONECT   22   21
+CONECT   23   22   24   27
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   20   24   38
+CONECT   25   20
+CONECT   26    8   22
+CONECT   26    8
+CONECT   27    8   23   34
+CONECT   28   38
+CONECT   29   13   30
+CONECT   29   13
+CONECT   30   10   29
+CONECT   30   10
+CONECT   31   13   14   16
+CONECT   32   15   19   33
+CONECT   33   16   32
+CONECT   34   17   27   35
+CONECT   35   34   36
+CONECT   36   18   35
+CONECT   37   17   18
+CONECT   38    6   25   28
+ENDMDL
+END   

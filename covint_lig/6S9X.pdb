@@ -1,0 +1,148 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6S9X
+MODEL        1
+ATOM      1  N   CYS A 310       3.684  15.529  -1.961  1.00141.14           N1+
+ATOM      2  CA  CYS A 310       4.046  15.409  -0.553  1.00146.31           C  
+ATOM      3  C   CYS A 310       5.192  14.404  -0.403  1.00138.53           C  
+ATOM      4  O   CYS A 310       5.146  13.309  -0.966  1.00138.25           O  
+ATOM      5  CB  CYS A 310       2.780  15.022   0.237  1.00154.17           C  
+ATOM      6  SG  CYS A 310       2.994  15.272   2.025  1.00159.75           S  
+TER       7      CYS A 310
+HETATM    8  CAA L1W A 501       1.448  -0.254  15.444  1.00 81.08           C  
+HETATM    9  CAB L1W A 501       2.464  -0.641  16.441  1.00 75.32           C  
+HETATM   10  CAD L1W A 501       4.004   0.705  15.297  1.00 70.93           C  
+HETATM   11  CAE L1W A 501       2.963   1.053  14.231  1.00 70.45           C  
+HETATM   12  CAG L1W A 501       5.387   1.237  15.245  1.00 58.38           C  
+HETATM   13  CAH L1W A 501       3.244   1.993  13.112  1.00 69.66           C  
+HETATM   14  CAI L1W A 501       5.925   1.863  16.391  1.00 52.77           C  
+HETATM   15  CAJ L1W A 501       7.214   2.420  16.352  1.00 51.44           C  
+HETATM   16  CAK L1W A 501       7.977   2.341  15.175  1.00 61.35           C  
+HETATM   17  CAL L1W A 501       7.458   1.698  14.037  1.00 56.06           C  
+HETATM   18  CAM L1W A 501       6.167   1.140  14.071  1.00 54.09           C  
+HETATM   19  CAN L1W A 501       3.900   3.219  13.360  1.00 70.86           C  
+HETATM   20  CAO L1W A 501       4.229   4.080  12.298  1.00 80.63           C  
+HETATM   21  CAP L1W A 501       3.895   3.741  10.976  1.00 73.91           C  
+HETATM   22  CAQ L1W A 501       3.198   2.537  10.725  1.00 69.20           C  
+HETATM   23  CAR L1W A 501       2.869   1.669  11.788  1.00 68.59           C  
+HETATM   24  CAS L1W A 501       4.327   4.659   9.843  1.00 75.03           C  
+HETATM   25  CAU L1W A 501       2.223   5.955   9.649  1.00 75.88           C  
+HETATM   26  CAV L1W A 501       1.030   6.264   8.729  1.00 77.28           C  
+HETATM   27  CAW L1W A 501       1.509   6.864   7.390  1.00 80.76           C  
+HETATM   28  CAX L1W A 501       2.516   5.918   6.731  1.00 77.62           C  
+HETATM   29  CAY L1W A 501       3.680   5.662   7.690  1.00 75.94           C  
+HETATM   30  CBA L1W A 501      -0.690   6.546   6.125  1.00 93.95           C  
+HETATM   31  CBC L1W A 501      -0.623   8.393   4.860  1.00 96.59           C  
+HETATM   32  CBD L1W A 501       0.535   8.345   5.604  1.00 94.85           C  
+HETATM   33  CBE L1W A 501      -0.866   9.391   3.904  1.00106.97           C  
+HETATM   34  CBF L1W A 501       0.145  10.363   3.723  1.00104.55           C  
+HETATM   35  CBG L1W A 501       1.346  10.314   4.488  1.00100.96           C  
+HETATM   36  CBH L1W A 501       1.564   9.284   5.430  1.00 95.39           C  
+HETATM   37  CBJ L1W A 501       2.207  12.597   4.303  1.00113.94           C  
+HETATM   38  CBK L1W A 501       3.469  13.416   4.051  1.00116.39           C  
+HETATM   39  CBL L1W A 501       3.683  13.676   2.551  1.00117.69           C  
+HETATM   40  CBP L1W A 501       0.153  -0.567  15.690  1.00 81.88           C  
+HETATM   41  CBQ L1W A 501      -1.032  -0.203  14.893  1.00 86.32           C  
+HETATM   42  CBR L1W A 501      -1.032  -0.196  13.482  1.00 92.52           C  
+HETATM   43  CBS L1W A 501      -2.159   0.236  12.759  1.00 97.12           C  
+HETATM   44  CBT L1W A 501      -3.301   0.683  13.446  1.00 97.01           C  
+HETATM   45  CBU L1W A 501      -3.319   0.673  14.853  1.00 84.74           C  
+HETATM   46  CBV L1W A 501      -2.193   0.225  15.570  1.00 82.57           C  
+HETATM   47  NAC L1W A 501       3.728  -0.082  16.271  1.00 65.58           N  
+HETATM   48  NAF L1W A 501       1.798   0.541  14.340  1.00 71.88           N  
+HETATM   49  NAT L1W A 501       3.205   5.071   8.968  1.00 77.88           N1+
+HETATM   50  NAZ L1W A 501       0.445   7.223   6.444  1.00 90.75           N  
+HETATM   51  NBB L1W A 501      -1.371   7.275   5.220  1.00 87.04           N  
+HETATM   52  NBI L1W A 501       2.371  11.266   4.311  1.00106.37           N  
+HETATM   53  OBM L1W A 501       1.133  13.161   4.510  1.00116.17           O  
+HETATM   54  OBN L1W A 501      -1.042   5.450   6.556  1.00 97.86           O  
+HETATM   55  OBO L1W A 501       2.234  -1.382  17.395  1.00 85.36           O  
+HETATM   56  OBW L1W A 501      -4.386   1.126  12.750  1.00103.76           O  
+CONECT    8    9   40   48
+CONECT    8   40
+CONECT    9    8   47   55
+CONECT    9   55
+CONECT   10   11   12   47
+CONECT   10   47
+CONECT   11   10   13   48
+CONECT   11   48
+CONECT   12   10   14   18
+CONECT   12   18
+CONECT   13   11   19   23
+CONECT   13   23
+CONECT   14   12   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   12   17
+CONECT   18   12
+CONECT   19   13   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22   24
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   13   22
+CONECT   23   13
+CONECT   24   21   49
+CONECT   25   26   49
+CONECT   26   25   27
+CONECT   27   26   28   50
+CONECT   28   27   29
+CONECT   29   28   49
+CONECT   30   50   51   54
+CONECT   30   54
+CONECT   31   32   33   51
+CONECT   31   32
+CONECT   32   31   36   50
+CONECT   32   31
+CONECT   33   31   34
+CONECT   33   34
+CONECT   34   33   35
+CONECT   34   33
+CONECT   35   34   36   52
+CONECT   35   36
+CONECT   36   32   35
+CONECT   36   35
+CONECT   37   38   52   53
+CONECT   37   53
+CONECT   38   37   39
+CONECT   39    6   38
+CONECT   40    8   41
+CONECT   40    8
+CONECT   41   40   42   46
+CONECT   41   46
+CONECT   42   41   43
+CONECT   42   43
+CONECT   43   42   44
+CONECT   43   42
+CONECT   44   43   45   56
+CONECT   44   45
+CONECT   45   44   46
+CONECT   45   44
+CONECT   46   41   45
+CONECT   46   41
+CONECT   47    9   10
+CONECT   47   10
+CONECT   48    8   11
+CONECT   48   11
+CONECT   49   24   25   29
+CONECT   50   27   30   32
+CONECT   51   30   31
+CONECT   52   35   37
+CONECT   53   37
+CONECT   53   37
+CONECT   54   30
+CONECT   54   30
+CONECT   55    9
+CONECT   55    9
+CONECT   56   44
+ENDMDL
+END   

@@ -1,0 +1,68 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3ene_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C6  NPZ A   0       1.033  21.195  43.060  1.00  0.00           C  
+HETATM    2  NAF NPZ A   0       1.722  22.025  42.273  1.00  0.00           N  
+HETATM    3  C5  NPZ A   0       0.987  19.809  42.842  1.00  0.00           C  
+HETATM    4  N1  NPZ A   0       0.368  21.726  44.107  1.00  0.00           N  
+HETATM    5  C2  NPZ A   0      -0.325  20.937  44.946  1.00  0.00           C  
+HETATM    6  N3  NPZ A   0      -0.417  19.613  44.753  1.00  0.00           N  
+HETATM    7  C4  NPZ A   0       0.252  19.027  43.724  1.00  0.00           C  
+HETATM    8  NAT NPZ A   0       0.382  17.758  43.313  1.00  0.00           N  
+HETATM    9  CAU NPZ A   0      -0.179  16.460  43.803  1.00  0.00           C  
+HETATM   10  NAP NPZ A   0       1.141  17.634  42.142  1.00  0.00           N  
+HETATM   11  CAO NPZ A   0       1.586  18.873  41.832  1.00  0.00           C  
+HETATM   12  CAG NPZ A   0       2.350  19.267  40.733  1.00  0.00           C  
+HETATM   13  CAH NPZ A   0       3.497  18.656  40.192  1.00  0.00           C  
+HETATM   14  CAA NPZ A   0       1.829  20.398  40.126  1.00  0.00           C  
+HETATM   15  CAB NPZ A   0       2.418  20.971  39.018  1.00  0.00           C  
+HETATM   16  CAC NPZ A   0       3.535  20.406  38.469  1.00  0.00           C  
+HETATM   17  CAI NPZ A   0       4.090  19.255  39.048  1.00  0.00           C  
+HETATM   18  CAD NPZ A   0       4.068  21.033  37.350  1.00  0.00           C  
+HETATM   19  CAE NPZ A   0       5.205  20.485  36.766  1.00  0.00           C  
+HETATM   20  CAK NPZ A   0       5.785  19.344  37.315  1.00  0.00           C  
+HETATM   21  CAJ NPZ A   0       5.221  18.729  38.442  1.00  0.00           C  
+CONECT    1    2    3    4
+CONECT    1    4
+CONECT    2    1
+CONECT    3    1    7   11
+CONECT    3    7
+CONECT    4    1    5
+CONECT    4    1
+CONECT    5    4    6
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    3    6    8
+CONECT    7    3
+CONECT    8    7    9   10
+CONECT    9    8
+CONECT   10    8   11
+CONECT   10   11
+CONECT   11    3   10   12
+CONECT   11   10
+CONECT   12   11   13   14
+CONECT   12   13
+CONECT   13   12   17
+CONECT   13   12
+CONECT   14   12   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   17   18
+CONECT   16   18
+CONECT   17   13   16   21
+CONECT   17   21
+CONECT   18   16   19
+CONECT   18   16
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   17   20
+CONECT   21   17
+ENDMDL
+END   

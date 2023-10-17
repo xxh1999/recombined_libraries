@@ -1,0 +1,51 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1J12
+MODEL        1
+ATOM      1  N   GLU A 172      24.632  65.094  44.174  1.00 13.31           N1+
+ATOM      2  CA  GLU A 172      25.523  65.091  45.336  1.00 11.44           C  
+ATOM      3  C   GLU A 172      25.916  66.522  45.709  1.00  5.25           C  
+ATOM      4  O   GLU A 172      26.061  67.383  44.843  1.00 11.35           O  
+ATOM      5  CB  GLU A 172      26.835  64.333  45.028  1.00  8.52           C  
+ATOM      6  CG  GLU A 172      26.650  62.815  44.826  1.00 11.09           C  
+ATOM      7  CD  GLU A 172      26.472  62.381  43.375  1.00 16.87           C  
+ATOM      8  OE1 GLU A 172      26.670  63.145  42.430  1.00 21.85           O  
+ATOM      9  OE2 GLU A 172      26.102  61.101  43.281  1.00 21.96           O  
+TER      10      GLU A 172
+HETATM   11  C1  EBG A 601      23.445  59.535  38.303  1.00 15.40           C  
+HETATM   12  O1  EBG A 601      24.517  59.883  39.158  1.00 24.69           O  
+HETATM   13  C2  EBG A 601      23.063  60.714  37.395  1.00 18.87           C  
+HETATM   14  O2  EBG A 601      24.254  61.272  36.849  1.00 18.12           O  
+HETATM   15  C3  EBG A 601      22.251  61.778  38.145  1.00 13.56           C  
+HETATM   16  O3  EBG A 601      21.702  62.706  37.216  1.00 18.16           O  
+HETATM   17  C4  EBG A 601      21.116  61.140  38.963  1.00 10.53           C  
+HETATM   18  O4  EBG A 601      20.535  62.119  39.819  1.00 14.50           O  
+HETATM   19  C5  EBG A 601      21.617  59.947  39.803  1.00 12.91           C  
+HETATM   20  O5  EBG A 601      22.307  59.018  38.956  1.00 20.28           O  
+HETATM   21  C6  EBG A 601      20.503  59.170  40.529  1.00 10.21           C  
+HETATM   22  O6  EBG A 601      19.564  58.602  39.625  1.00 20.41           O  
+HETATM   23  C7  EBG A 601      25.351  58.799  39.605  1.00 28.15           C  
+HETATM   24  C8  EBG A 601      24.864  58.280  40.969  1.00 28.45           C  
+HETATM   25  C9  EBG A 601      24.969  59.275  42.114  1.00 37.72           C  
+HETATM   26  C10 EBG A 601      25.684  60.601  42.028  1.00 23.84           C  
+HETATM   27  O9  EBG A 601      24.263  60.507  41.917  1.00 41.73           O  
+CONECT   11   12   13   20
+CONECT   12   11   23
+CONECT   13   11   14   15
+CONECT   14   13
+CONECT   15   13   16   17
+CONECT   16   15
+CONECT   17   15   18   19
+CONECT   18   17
+CONECT   19   17   20   21
+CONECT   20   11   19
+CONECT   21   19   22
+CONECT   22   21
+CONECT   23   12   24
+CONECT   24   23   25
+CONECT   25   24   26   27
+CONECT   26    9   25   27
+CONECT   27   25   26
+ENDMDL
+END   

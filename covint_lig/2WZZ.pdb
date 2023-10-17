@@ -1,0 +1,65 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2WZZ
+MODEL        1
+ATOM      1  N   SER A  90       7.366   8.394  16.851  1.00  8.68           N1+
+ATOM      2  CA  SER A  90       6.915   7.651  18.029  1.00  9.10           C  
+ATOM      3  C   SER A  90       6.579   6.164  17.779  1.00  8.95           C  
+ATOM      4  O   SER A  90       6.282   5.457  18.740  1.00  8.97           O  
+ATOM      5  CB  SER A  90       5.651   8.319  18.599  1.00  9.37           C  
+ATOM      6  OG  SER A  90       5.831   9.608  19.171  1.00 11.45           O  
+TER       7      SER A  90
+HETATM    8  S1  ZX1 A 600       1.313  10.929  18.656  1.00 16.76           S  
+HETATM    9  O2  ZX1 A 600       1.181  11.616  17.364  1.00 20.22           O  
+HETATM   10  O3  ZX1 A 600       0.730  11.657  19.791  1.00 17.33           O  
+HETATM   11  O4  ZX1 A 600       1.031   9.487  18.616  1.00 16.44           O1-
+HETATM   12  N5  ZX1 A 600       2.999  10.961  18.974  1.00 15.80           N  
+HETATM   13  C6  ZX1 A 600       3.787  12.197  19.158  1.00 15.80           C  
+HETATM   14  C7  ZX1 A 600       3.666  13.179  18.000  1.00 16.27           C  
+HETATM   15  C8  ZX1 A 600       4.956  14.000  18.062  1.00 16.87           C  
+HETATM   16  N9  ZX1 A 600       5.936  13.160  18.759  1.00 15.86           N  
+HETATM   17  C10 ZX1 A 600       5.310  11.925  19.256  1.00 14.90           C  
+HETATM   18  C11 ZX1 A 600       5.745  10.714  18.408  1.00 12.67           C  
+HETATM   19  O12 ZX1 A 600       5.890  10.752  17.188  1.00 11.32           O  
+HETATM   20  C13 ZX1 A 600       7.259  13.412  18.886  1.00 16.55           C  
+HETATM   21  O14 ZX1 A 600       8.043  12.591  19.357  1.00 16.63           O  
+HETATM   22  N15 ZX1 A 600       7.656  14.622  18.453  1.00 17.65           N  
+HETATM   23  C16 ZX1 A 600       9.012  15.155  18.594  1.00 20.16           C  
+HETATM   24  C17 ZX1 A 600       8.986  16.263  19.656  1.00 20.92           C  
+HETATM   25  C18 ZX1 A 600      10.376  16.754  20.077  1.00 21.86           C  
+HETATM   26  C19 ZX1 A 600      10.976  17.864  19.199  1.00 23.25           C  
+HETATM   27  N20 ZX1 A 600      10.910  17.633  17.737  1.00 23.17           N1+
+HETATM   28  C21 ZX1 A 600      10.950  16.233  17.268  1.00 23.15           C  
+HETATM   29  C22 ZX1 A 600       9.539  15.624  17.227  1.00 21.24           C  
+CONECT    8    9   10   11   12
+CONECT    8    9   10
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8
+CONECT   10    8
+CONECT   11    8
+CONECT   12    8   13
+CONECT   13   12   14   17
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   15   17   20
+CONECT   17   13   16   18
+CONECT   18    6   17   19
+CONECT   18   19
+CONECT   19   18
+CONECT   19   18
+CONECT   20   16   21   22
+CONECT   20   21
+CONECT   21   20
+CONECT   21   20
+CONECT   22   20   23
+CONECT   23   22   24   29
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   27   29
+CONECT   29   23   28
+ENDMDL
+END   

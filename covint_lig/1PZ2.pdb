@@ -1,0 +1,35 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1PZ2
+MODEL        1
+ATOM      1  N   GLU A 294      79.796  25.972  39.393  1.00 34.95           N1+
+ATOM      2  CA  GLU A 294      80.872  25.007  39.180  1.00 35.18           C  
+ATOM      3  C   GLU A 294      80.744  23.901  40.225  1.00 35.14           C  
+ATOM      4  O   GLU A 294      80.941  24.155  41.411  1.00 35.08           O  
+ATOM      5  CB  GLU A 294      82.286  25.644  39.165  1.00 35.59           C  
+ATOM      6  CG  GLU A 294      82.594  26.460  37.899  1.00 37.35           C  
+ATOM      7  CD  GLU A 294      83.881  27.275  37.971  1.00 41.59           C  
+ATOM      8  OE1 GLU A 294      84.982  26.538  37.708  1.00 38.23           O  
+ATOM      9  OE2 GLU A 294      83.823  28.472  38.222  1.00 43.79           O1-
+TER      10      GLU A 294
+HETATM   11  O5  AHR A 550      85.988  24.696  35.263  1.00 42.06           O  
+HETATM   12  C5  AHR A 550      87.360  24.901  35.522  1.00 40.87           C  
+HETATM   13  C4  AHR A 550      87.602  26.156  36.379  1.00 41.88           C  
+HETATM   14  O4  AHR A 550      87.163  25.996  37.740  1.00 44.35           O  
+HETATM   15  C3  AHR A 550      86.994  27.478  35.865  1.00 43.24           C  
+HETATM   16  O3  AHR A 550      87.900  28.191  35.054  1.00 38.74           O  
+HETATM   17  C2  AHR A 550      86.814  28.170  37.194  1.00 46.59           C  
+HETATM   18  O2  AHR A 550      86.110  29.384  37.201  1.00 44.94           O  
+HETATM   19  C1  AHR A 550      86.262  27.017  38.059  1.00 46.82           C  
+CONECT   11   12
+CONECT   12   11   13
+CONECT   13   12   14   15
+CONECT   14   13   19
+CONECT   15   13   16   17
+CONECT   16   15
+CONECT   17   15   18   19
+CONECT   18   17
+CONECT   19    8   14   17
+ENDMDL
+END   

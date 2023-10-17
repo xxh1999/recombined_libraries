@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5ut6_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C10 Q8M A 901      -0.598  19.841  42.859  1.00  0.00           C  
+HETATM    2  C13 Q8M A 901      -0.515  17.467  42.462  1.00  0.00           C  
+HETATM    3  C15 Q8M A 901      -0.629  15.191  41.901  1.00  0.00           C  
+HETATM    4  C17 Q8M A 901       0.213  15.305  39.836  1.00  0.00           C  
+HETATM    5  C22 Q8M A 901      -2.610  17.192  47.715  1.00  0.00           C  
+HETATM    6  C02 Q8M A 901      -2.823  13.690  49.055  1.00  0.00           C  
+HETATM    7  C03 Q8M A 901      -2.466  14.853  48.143  1.00  0.00           C  
+HETATM    8  C04 Q8M A 901      -1.742  14.639  46.986  1.00  0.00           C  
+HETATM    9  C05 Q8M A 901      -1.438  15.723  46.173  1.00  0.00           C  
+HETATM   10  C06 Q8M A 901      -1.883  16.987  46.561  1.00  0.00           C  
+HETATM   11  C08 Q8M A 901      -1.163  18.328  44.472  1.00  0.00           C  
+HETATM   12  C12 Q8M A 901      -0.349  18.760  42.005  1.00  0.00           C  
+HETATM   13  C16 Q8M A 901      -0.297  14.442  40.779  1.00  0.00           C  
+HETATM   14  C18 Q8M A 901       0.696  14.915  38.440  1.00  0.00           C  
+HETATM   15  C23 Q8M A 901      -2.906  16.106  48.509  1.00  0.00           C  
+HETATM   16  N01 Q8M A 901      -3.106  12.848  49.749  1.00  0.00           N  
+HETATM   17  N07 Q8M A 901      -1.602  18.189  45.814  1.00  0.00           N  
+HETATM   18  N09 Q8M A 901      -1.001  19.603  44.082  1.00  0.00           N  
+HETATM   19  N11 Q8M A 901      -0.427  21.198  42.369  1.00  0.00           N  
+HETATM   20  N14 Q8M A 901      -0.302  16.438  41.640  1.00  0.00           N  
+HETATM   21  N20 Q8M A 901       0.199  16.532  40.370  1.00  0.00           N  
+HETATM   22  N21 Q8M A 901      -0.933  17.305  43.699  1.00  0.00           N  
+HETATM   23  O19 Q8M A 901       0.035  15.776  37.542  1.00  0.00           O  
+CONECT    1   12   18   19
+CONECT    1   12
+CONECT    2   12   20   22
+CONECT    2   22
+CONECT    3   13   20
+CONECT    3   13
+CONECT    4   13   14   21
+CONECT    4   21
+CONECT    5   10   15
+CONECT    5   10
+CONECT    6    7   16
+CONECT    6   16
+CONECT    6   16
+CONECT    7    6    8   15
+CONECT    7   15
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    5    9   17
+CONECT   10    5
+CONECT   11   17   18   22
+CONECT   11   18
+CONECT   12    1    2
+CONECT   12    1
+CONECT   13    3    4
+CONECT   13    3
+CONECT   14    4   23
+CONECT   15    5    7
+CONECT   15    7
+CONECT   16    6
+CONECT   16    6
+CONECT   16    6
+CONECT   17   10   11
+CONECT   18    1   11
+CONECT   18   11
+CONECT   19    1
+CONECT   20    2    3   21
+CONECT   21    4   20
+CONECT   21    4
+CONECT   22    2   11
+CONECT   22    2
+CONECT   23   14
+ENDMDL
+END   

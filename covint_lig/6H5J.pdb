@@ -1,0 +1,43 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6H5J
+MODEL        1
+ATOM      1  N   LYS A 170      -3.030  11.418 -15.219  1.00  9.72           N1+
+ATOM      2  CA  LYS A 170      -3.748  11.188 -13.974  1.00  9.22           C  
+ATOM      3  C   LYS A 170      -2.771  10.617 -12.949  1.00  9.87           C  
+ATOM      4  O   LYS A 170      -1.996   9.721 -13.275  1.00  9.42           O  
+ATOM      5  CB  LYS A 170      -5.019  10.332 -14.208  1.00  9.97           C  
+ATOM      6  CG  LYS A 170      -5.745   9.936 -12.904  1.00 11.11           C  
+ATOM      7  CD  LYS A 170      -7.005   9.080 -13.096  1.00 12.88           C  
+ATOM      8  CE  LYS A 170      -7.494   8.545 -11.740  1.00 13.18           C  
+ATOM      9  NZ  LYS A 170      -8.695   7.721 -11.883  1.00 13.29           N1+
+TER      10      LYS A 170
+HETATM   11  CAP FT5 A 301      -9.111   6.998 -10.675  1.00 14.98           C  
+HETATM   12  OAF FT5 A 301      -8.103   6.060 -10.395  1.00 22.28           O  
+HETATM   13  CAJ FT5 A 301      -9.239   7.950  -9.470  1.00 12.36           C  
+HETATM   14  CAN FT5 A 301      -9.809   7.246  -8.236  1.00 12.51           C  
+HETATM   15  CAL FT5 A 301      -9.886   8.258  -7.098  1.00 14.30           C  
+HETATM   16  OAC FT5 A 301     -10.913   8.961  -7.020  1.00 13.42           O  
+HETATM   17  OAB FT5 A 301      -8.914   8.316  -6.312  1.00 15.27           O1-
+HETATM   18  CAI FT5 A 301     -11.167   6.601  -8.554  1.00 11.16           C  
+HETATM   19  CAM FT5 A 301     -10.996   5.567  -9.669  1.00 11.70           C  
+HETATM   20  OAD FT5 A 301     -12.250   4.974  -9.913  1.00 12.03           O  
+HETATM   21  CAO FT5 A 301     -10.428   6.222 -10.949  1.00 11.66           C  
+HETATM   22  OAE FT5 A 301     -10.196   5.206 -11.903  1.00 12.64           O  
+CONECT   11    9   12   13   21
+CONECT   12   11
+CONECT   13   11   14
+CONECT   14   13   15   18
+CONECT   15   14   16   17
+CONECT   15   16
+CONECT   16   15
+CONECT   16   15
+CONECT   17   15
+CONECT   18   14   19
+CONECT   19   18   20   21
+CONECT   20   19
+CONECT   21   11   19   22
+CONECT   22   21
+ENDMDL
+END   

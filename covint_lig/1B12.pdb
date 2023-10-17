@@ -1,0 +1,64 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1B12
+MODEL        1
+ATOM      1  N   SER A  90      65.918  27.395   8.350  1.00 17.79           N1+
+ATOM      2  CA  SER A  90      64.510  27.718   8.632  1.00 20.32           C  
+ATOM      3  C   SER A  90      64.256  28.748   9.751  1.00 18.48           C  
+ATOM      4  O   SER A  90      63.129  29.220   9.870  1.00 17.89           O  
+ATOM      5  CB  SER A  90      63.685  26.444   8.911  1.00 23.72           C  
+ATOM      6  OG  SER A  90      63.944  25.845  10.171  1.00 27.69           O  
+TER       7      SER A  90
+HETATM    8  S1  1PN A1001      65.740  21.649  10.996  1.00 34.59           S  
+HETATM    9  C2  1PN A1001      64.792  21.349   9.577  1.00 37.82           C  
+HETATM   10  C3  1PN A1001      63.571  21.975   9.667  1.00 39.26           C  
+HETATM   11  N4  1PN A1001      63.331  22.639  10.819  1.00 35.93           N1-
+HETATM   12  C5  1PN A1001      64.512  22.813  11.665  1.00 34.33           C  
+HETATM   13  C6  1PN A1001      65.010  24.303  11.674  1.00 32.38           C  
+HETATM   14  C7  1PN A1001      64.948  24.971  10.284  1.00 31.57           C  
+HETATM   15  O8  1PN A1001      65.750  24.701   9.389  1.00 34.44           O  
+HETATM   16  C9  1PN A1001      62.634  21.917   8.504  1.00 42.24           C  
+HETATM   17  O10 1PN A1001      61.601  22.587   8.465  1.00 41.45           O  
+HETATM   18  O11 1PN A1001      63.039  21.064   7.555  1.00 45.86           O  
+HETATM   19  C12 1PN A1001      62.134  20.563   6.599  1.00 49.52           C  
+HETATM   20  C13 1PN A1001      62.855  19.584   5.706  1.00 50.00           C  
+HETATM   21  C14 1PN A1001      62.662  18.257   5.733  1.00 50.84           C  
+HETATM   22  C15 1PN A1001      66.438  24.553  12.239  1.00 32.20           C  
+HETATM   23  C16 1PN A1001      66.691  26.019  12.623  1.00 30.22           C  
+HETATM   24  O17 1PN A1001      66.801  23.756  13.373  1.00 31.25           O  
+HETATM   25  C18 1PN A1001      68.004  23.135  13.460  1.00 33.30           C  
+HETATM   26  O19 1PN A1001      68.342  22.424  14.403  1.00 36.78           O  
+HETATM   27  C20 1PN A1001      68.954  23.346  12.287  1.00 30.93           C  
+CONECT    8    9   12
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11   16
+CONECT   10    9
+CONECT   11   10   12
+CONECT   12    8   11   13
+CONECT   13   12   14   22
+CONECT   14    6   13   15
+CONECT   14   15
+CONECT   15   14
+CONECT   15   14
+CONECT   16   10   17   18
+CONECT   16   17
+CONECT   17   16
+CONECT   17   16
+CONECT   18   16   19
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20
+CONECT   21   20
+CONECT   22   13   23   24
+CONECT   23   22
+CONECT   24   22   25
+CONECT   25   24   26   27
+CONECT   25   26
+CONECT   26   25
+CONECT   26   25
+CONECT   27   25
+ENDMDL
+END   

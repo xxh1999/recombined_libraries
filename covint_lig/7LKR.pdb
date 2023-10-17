@@ -1,0 +1,84 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7LKR
+MODEL        1
+ATOM      1  N   CYS A 145       7.404  15.347  27.630  1.00 15.53           N1+
+ATOM      2  CA  CYS A 145       8.743  14.912  27.274  1.00 15.20           C  
+ATOM      3  C   CYS A 145       8.938  13.441  27.618  1.00 14.27           C  
+ATOM      4  O   CYS A 145       8.421  12.933  28.619  1.00 15.42           O  
+ATOM      5  CB  CYS A 145       9.782  15.777  27.978  1.00 15.86           C  
+ATOM      6  SG  CYS A 145       9.864  17.394  27.188  1.00 18.05           S1+
+TER       7      CYS A 145
+HETATM    8  N11 Y4D A 401       9.979  20.345  27.419  0.50 19.92           N  
+HETATM    9  C12 Y4D A 401      10.454  21.580  27.801  0.50 26.08           C  
+HETATM   10  C14 Y4D A 401      12.941  21.949  28.297  0.50 17.35           C  
+HETATM   11  C15 Y4D A 401      14.345  22.359  27.791  0.50 24.15           C  
+HETATM   12  C16 Y4D A 401      14.752  21.571  26.540  0.50 24.56           C  
+HETATM   13  O20 Y4D A 401      10.326  25.425  26.121  0.50 23.31           O  
+HETATM   14  C23 Y4D A 401       6.555  26.366  25.566  0.50 31.62           C  
+HETATM   15  C24 Y4D A 401       5.288  26.577  26.447  0.50 32.65           C  
+HETATM   16  C25 Y4D A 401       5.508  26.068  27.874  0.50 35.37           C  
+HETATM   17  C26 Y4D A 401       6.695  26.796  28.505  0.50 36.60           C  
+HETATM   18  C27 Y4D A 401       7.986  26.653  27.648  0.50 34.67           C  
+HETATM   19  C28 Y4D A 401       6.297  28.277  28.697  0.50 30.83           C  
+HETATM   20  C29 Y4D A 401       5.683  28.966  27.444  0.50 38.49           C  
+HETATM   21  C02 Y4D A 401       6.416  20.969  24.864  0.50 16.52           C  
+HETATM   22  C04 Y4D A 401       5.402  22.611  26.188  0.50 24.02           C  
+HETATM   23  C05 Y4D A 401       6.528  21.895  27.027  0.50 21.12           C  
+HETATM   24  C06 Y4D A 401       7.349  21.040  26.075  0.50 16.94           C  
+HETATM   25  C07 Y4D A 401       7.670  19.660  26.727  0.50 15.56           C  
+HETATM   26  C08 Y4D A 401       8.728  19.731  27.866  0.50 19.25           C  
+HETATM   27  C09 Y4D A 401       8.943  18.334  28.414  0.50 15.85           C  
+HETATM   28  C13 Y4D A 401      11.803  22.176  27.252  0.50 19.95           C  
+HETATM   29  C17 Y4D A 401      15.431  22.209  28.900  0.50 23.58           C  
+HETATM   30  C19 Y4D A 401      10.648  24.079  26.137  0.50 26.98           C  
+HETATM   31  C21 Y4D A 401       9.122  25.862  25.471  0.50 27.29           C  
+HETATM   32  C22 Y4D A 401       7.791  25.830  26.343  0.50 33.18           C  
+HETATM   33  C30 Y4D A 401       4.850  28.062  26.487  0.50 32.85           C  
+HETATM   34  N03 Y4D A 401       5.339  21.851  24.935  0.50 21.38           N  
+HETATM   35  N18 Y4D A 401      11.670  23.608  26.943  0.50 21.15           N  
+HETATM   36  O01 Y4D A 401       6.578  20.235  23.895  0.50 18.71           O  
+HETATM   37  O10 Y4D A 401       9.756  18.437  29.564  0.50 27.15           O1-
+HETATM   38  O31 Y4D A 401      10.007  23.304  25.441  0.50 21.28           O  
+HETATM   39  O32 Y4D A 401       9.794  22.269  28.587  0.50 22.36           O  
+CONECT    8    9   26
+CONECT    9    8   28   39
+CONECT    9   39
+CONECT   10   11   28
+CONECT   11   10   12   29
+CONECT   12   11
+CONECT   13   30   31
+CONECT   14   15   32
+CONECT   15   14   16   33
+CONECT   16   15   17
+CONECT   17   16   18   19
+CONECT   18   17   32
+CONECT   19   17   20
+CONECT   20   19   33
+CONECT   21   24   34   36
+CONECT   21   36
+CONECT   22   23   34
+CONECT   23   22   24
+CONECT   24   21   23   25
+CONECT   25   24   26
+CONECT   26    8   25   27
+CONECT   27    6   26   37
+CONECT   28    9   10   35
+CONECT   29   11
+CONECT   30   13   35   38
+CONECT   30   38
+CONECT   31   13   32
+CONECT   32   14   18   31
+CONECT   33   15   20
+CONECT   34   21   22
+CONECT   35   28   30
+CONECT   36   21
+CONECT   36   21
+CONECT   37   27
+CONECT   38   30
+CONECT   38   30
+CONECT   39    9
+CONECT   39    9
+ENDMDL
+END   

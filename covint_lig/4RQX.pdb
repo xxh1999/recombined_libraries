@@ -1,0 +1,31 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4RQX
+MODEL        1
+ATOM      1  N   CYS B 124     -14.208  28.899 -10.971  1.00 62.31           N1+
+ATOM      2  CA  CYS B 124     -15.064  29.285  -9.851  1.00 63.47           C  
+ATOM      3  C   CYS B 124     -16.488  29.560 -10.386  1.00 61.16           C  
+ATOM      4  O   CYS B 124     -16.609  30.217 -11.422  1.00 60.40           O  
+ATOM      5  CB  CYS B 124     -14.477  30.571  -9.242  1.00 65.89           C  
+ATOM      6  SG  CYS B 124     -12.779  30.350  -8.635  1.00 73.13           S  
+TER       7      CYS B 124
+HETATM    8  C1  COM B 301     -12.774  31.651  -5.922  0.50 76.96           C  
+HETATM    9  C2  COM B 301     -11.320  32.130  -6.042  0.50 78.47           C  
+HETATM   10  S1  COM B 301     -12.977  30.000  -6.637  0.50 74.73           S  
+HETATM   11  S2  COM B 301     -11.169  33.929  -5.709  0.50 80.68           S  
+HETATM   12  O1S COM B 301     -11.775  34.091  -4.378  0.50 78.93           O1-
+HETATM   13  O2S COM B 301      -9.720  34.170  -5.763  0.50 79.87           O  
+HETATM   14  O3S COM B 301     -11.936  34.545  -6.803  0.50 79.29           O  
+CONECT    8    9   10
+CONECT    9    8   11
+CONECT   10    6    8
+CONECT   11    9   12   13   14
+CONECT   11   13   14
+CONECT   12   11
+CONECT   13   11
+CONECT   13   11
+CONECT   14   11
+CONECT   14   11
+ENDMDL
+END   

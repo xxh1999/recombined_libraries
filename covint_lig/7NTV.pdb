@@ -1,0 +1,70 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7NTV
+MODEL        1
+ATOM      1  N   CYS B 145      19.474   0.624 -22.353  0.34 38.84           N1+
+ATOM      2  CA  CYS B 145      19.924  -0.408 -23.327  0.34 41.10           C  
+ATOM      3  C   CYS B 145      20.304  -1.681 -22.568  0.34 37.42           C  
+ATOM      4  O   CYS B 145      20.873  -1.565 -21.468  0.34 35.43           O  
+ATOM      5  CB  CYS B 145      21.081   0.097 -24.180  0.34 48.45           C  
+ATOM      6  SG  CYS B 145      20.618   1.324 -25.363  0.34 60.73           S  
+TER       7      CYS B 145
+HETATM    8  N1  US8 B 506      22.786   3.568 -24.924  0.34 72.67           N  
+HETATM    9  C4  US8 B 506      25.393   5.137 -22.599  0.34 74.67           C  
+HETATM   10  C5  US8 B 506      25.982   5.739 -21.393  0.34 70.91           C  
+HETATM   11  C6  US8 B 506      27.097   6.571 -21.487  0.34 70.12           C  
+HETATM   12  C7  US8 B 506      27.655   7.138 -20.355  0.34 67.32           C  
+HETATM   13  C8  US8 B 506      27.114   6.883 -19.114  0.34 67.14           C  
+HETATM   14  C10 US8 B 506      25.452   5.490 -20.127  0.34 68.62           C  
+HETATM   15  C13 US8 B 506      20.595   2.794 -24.301  0.34 61.21           C  
+HETATM   16  C15 US8 B 506      28.696   4.292 -26.954  0.34 80.08           C  
+HETATM   17  O1  US8 B 506      24.035   5.090 -26.979  0.34 75.90           O  
+HETATM   18  C1  US8 B 506      25.048   4.910 -26.307  0.34 79.63           C  
+HETATM   19  C2  US8 B 506      24.953   4.741 -24.852  0.34 78.19           C  
+HETATM   20  C3  US8 B 506      23.834   4.180 -24.260  0.34 75.72           C  
+HETATM   21  S1  US8 B 506      23.858   4.340 -22.546  0.34 69.98           S  
+HETATM   22  C9  US8 B 506      26.017   6.059 -18.999  0.34 66.31           C  
+HETATM   23  C11 US8 B 506      25.912   5.099 -23.862  0.34 76.06           C  
+HETATM   24  C12 US8 B 506      21.473   3.910 -24.813  0.34 68.16           C  
+HETATM   25  O2  US8 B 506      21.054   5.022 -25.107  0.34 69.35           O  
+HETATM   26  N2  US8 B 506      26.255   4.929 -26.882  0.34 81.31           N  
+HETATM   27  C14 US8 B 506      27.290   3.983 -26.572  0.34 80.87           C  
+HETATM   28  C16 US8 B 506      27.916   3.292 -27.732  0.34 79.19           C  
+CONECT    8   20   24
+CONECT    9   10   21   23
+CONECT    9   23
+CONECT   10    9   11   14
+CONECT   10   14
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   22
+CONECT   13   22
+CONECT   14   10   22
+CONECT   14   10
+CONECT   15    6   24
+CONECT   16   27   28
+CONECT   17   18
+CONECT   17   18
+CONECT   18   17   19   26
+CONECT   18   17
+CONECT   19   18   20   23
+CONECT   19   20
+CONECT   20    8   19   21
+CONECT   20   19
+CONECT   21    9   20
+CONECT   22   13   14
+CONECT   22   13
+CONECT   23    9   19
+CONECT   23    9
+CONECT   24    8   15   25
+CONECT   24   25
+CONECT   25   24
+CONECT   25   24
+CONECT   26   18   27
+CONECT   27   16   26   28
+CONECT   28   16   27
+ENDMDL
+END   

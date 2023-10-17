@@ -1,0 +1,90 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6npn_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  KWJ C 401      -0.002  15.458  45.350  1.00  0.00           C  
+HETATM    2  C14 KWJ C 401       1.419  22.244  39.209  1.00  0.00           C  
+HETATM    3  C5  KWJ C 401       0.320  15.223  43.892  1.00  0.00           C  
+HETATM    4  C6  KWJ C 401      -0.933  14.849  43.125  1.00  0.00           C  
+HETATM    5  C11 KWJ C 401       0.484  19.939  43.387  1.00  0.00           C  
+HETATM    6  C7  KWJ C 401       1.944  16.230  42.248  1.00  0.00           C  
+HETATM    7  C8  KWJ C 401       1.357  16.156  40.909  1.00  0.00           C  
+HETATM    8  C9  KWJ C 401       0.863  16.115  39.844  1.00  0.00           C  
+HETATM    9  C10 KWJ C 401       0.548  17.670  43.713  1.00  0.00           C  
+HETATM   10  C12 KWJ C 401       1.264  21.032  41.277  1.00  0.00           C  
+HETATM   11  C13 KWJ C 401       1.018  22.172  40.513  1.00  0.00           C  
+HETATM   12  N1  KWJ C 401      -0.503  16.691  45.672  1.00  0.00           N  
+HETATM   13  N2  KWJ C 401       0.933  16.414  43.293  1.00  0.00           N  
+HETATM   14  C3  KWJ C 401      -1.382  16.825  46.835  1.00  0.00           C  
+HETATM   15  N3  KWJ C 401       0.876  18.729  42.961  1.00  0.00           N  
+HETATM   16  C1  KWJ C 401      -0.108  17.824  48.919  1.00  0.00           C  
+HETATM   17  C2  KWJ C 401      -0.687  17.373  48.002  1.00  0.00           C  
+HETATM   18  O1  KWJ C 401       0.189  14.592  46.193  1.00  0.00           O  
+HETATM   19  N4  KWJ C 401       0.826  21.000  42.619  1.00  0.00           N  
+HETATM   20  C15 KWJ C 401       2.078  21.149  38.643  1.00  0.00           C  
+HETATM   21  C16 KWJ C 401       2.613  20.885  37.349  1.00  0.00           C  
+HETATM   22  O2  KWJ C 401       2.610  21.599  36.367  1.00  0.00           O  
+HETATM   23  N5  KWJ C 401       3.143  19.641  37.383  1.00  0.00           N  
+HETATM   24  N6  KWJ C 401       2.974  19.103  38.628  1.00  0.00           N  
+HETATM   25  C17 KWJ C 401       2.320  20.009  39.422  1.00  0.00           C  
+HETATM   26  C18 KWJ C 401       1.922  19.928  40.750  1.00  0.00           C  
+HETATM   27  N7  KWJ C 401      -0.212  20.171  44.509  1.00  0.00           N  
+HETATM   28  C19 KWJ C 401      -0.538  19.125  45.258  1.00  0.00           C  
+HETATM   29  C20 KWJ C 401      -0.179  17.825  44.901  1.00  0.00           C  
+CONECT    1    3   12   18
+CONECT    1   18
+CONECT    2   11   20
+CONECT    2   11
+CONECT    3    1    4   13
+CONECT    4    3
+CONECT    5   15   19   27
+CONECT    5   15
+CONECT    6    7   13
+CONECT    7    6    8
+CONECT    7    8
+CONECT    7    8
+CONECT    8    7
+CONECT    8    7
+CONECT    8    7
+CONECT    9   13   15   29
+CONECT    9   29
+CONECT   10   11   19   26
+CONECT   10   26
+CONECT   11    2   10
+CONECT   11    2
+CONECT   12    1   14   29
+CONECT   13    3    6    9
+CONECT   14   12   17
+CONECT   15    5    9
+CONECT   15    5
+CONECT   16   17
+CONECT   16   17
+CONECT   16   17
+CONECT   17   14   16
+CONECT   17   16
+CONECT   17   16
+CONECT   18    1
+CONECT   18    1
+CONECT   19    5   10
+CONECT   20    2   21   25
+CONECT   20   25
+CONECT   21   20   22   23
+CONECT   21   22
+CONECT   22   21
+CONECT   22   21
+CONECT   23   21   24
+CONECT   24   23   25
+CONECT   25   20   24   26
+CONECT   25   20
+CONECT   26   10   25
+CONECT   26   10
+CONECT   27    5   28
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29    9   12   28
+CONECT   29    9
+ENDMDL
+END   

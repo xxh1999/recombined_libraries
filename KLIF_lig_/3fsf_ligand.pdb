@@ -1,0 +1,96 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3fsf_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N3  FSS A 450       1.578  18.698  43.727  1.00  0.00           N  
+HETATM    2  C4  FSS A 450       0.522  19.269  44.331  1.00  0.00           C  
+HETATM    3  C6  FSS A 450       0.740  21.311  43.176  1.00  0.00           C  
+HETATM    4  C7  FSS A 450       1.896  20.783  42.466  1.00  0.00           C  
+HETATM    5  C8  FSS A 450       2.268  19.405  42.815  1.00  0.00           C  
+HETATM    6  C10 FSS A 450       4.185  19.527  41.189  1.00  0.00           C  
+HETATM    7  C15 FSS A 450       5.603  22.556  40.513  1.00  0.00           C  
+HETATM    8  C17 FSS A 450       6.156  23.285  38.218  1.00  0.00           C  
+HETATM    9  C22 FSS A 450       0.124  17.073  45.618  1.00  0.00           C  
+HETATM   10  C24 FSS A 450      -0.721  14.800  46.061  1.00  0.00           C  
+HETATM   11  C26 FSS A 450       1.736  15.273  46.088  1.00  0.00           C  
+HETATM   12  N38 FSS A 450      -0.188  18.467  45.302  1.00  0.00           N  
+HETATM   13  C23 FSS A 450      -0.978  16.165  45.754  1.00  0.00           C  
+HETATM   14  C25 FSS A 450       0.637  14.353  46.230  1.00  0.00           C  
+HETATM   15  O28 FSS A 450       0.837  13.016  46.531  1.00  0.00           O  
+HETATM   16  C29 FSS A 450       2.140  12.450  46.723  1.00  0.00           C  
+HETATM   17  N30 FSS A 450       2.131  11.426  47.795  1.00  0.00           N  
+HETATM   18  C32 FSS A 450       2.861  11.891  49.005  1.00  0.00           C  
+HETATM   19  C33 FSS A 450       1.930  12.006  50.221  1.00  0.00           C  
+HETATM   20  C31 FSS A 450       2.744  10.182  47.271  1.00  0.00           C  
+HETATM   21  C34 FSS A 450       1.764   9.001  47.340  1.00  0.00           C  
+HETATM   22  C27 FSS A 450       1.480  16.619  45.787  1.00  0.00           C  
+HETATM   23  N5  FSS A 450       0.088  20.566  44.074  1.00  0.00           N  
+HETATM   24  N9  FSS A 450       3.391  18.808  42.176  1.00  0.00           N  
+HETATM   25  C37 FSS A 450       3.780  17.412  42.517  1.00  0.00           C  
+HETATM   26  O34 FSS A 450       5.184  19.015  40.621  1.00  0.00           O  
+HETATM   27  N11 FSS A 450       3.777  20.914  40.873  1.00  0.00           N  
+HETATM   28  C14 FSS A 450       4.539  21.685  39.966  1.00  0.00           C  
+HETATM   29 CL36 FSS A 450       5.894  22.637  42.229  1.00  0.00          Cl  
+HETATM   30  C16 FSS A 450       6.388  23.340  39.622  1.00  0.00           C  
+HETATM   31  C18 FSS A 450       5.129  22.446  37.670  1.00  0.00           C  
+HETATM   32  C19 FSS A 450       4.320  21.647  38.511  1.00  0.00           C  
+HETATM   33 CL35 FSS A 450       3.091  20.650  37.822  1.00  0.00          Cl  
+HETATM   34  C12 FSS A 450       2.632  21.520  41.517  1.00  0.00           C  
+CONECT    1    2    5
+CONECT    1    5
+CONECT    2    1   12   23
+CONECT    2   23
+CONECT    3    4   23
+CONECT    3    4
+CONECT    4    3    5   34
+CONECT    4    3
+CONECT    5    1    4   24
+CONECT    5    1
+CONECT    6   24   26   27
+CONECT    6   26
+CONECT    7   28   29   30
+CONECT    7   30
+CONECT    8   30   31
+CONECT    8   31
+CONECT    9   12   13   22
+CONECT    9   13
+CONECT   10   13   14
+CONECT   10   14
+CONECT   11   14   22
+CONECT   11   22
+CONECT   12    2    9
+CONECT   13    9   10
+CONECT   13    9
+CONECT   14   10   11   15
+CONECT   14   10
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16   18   20
+CONECT   18   17   19
+CONECT   19   18
+CONECT   20   17   21
+CONECT   21   20
+CONECT   22    9   11
+CONECT   22   11
+CONECT   23    2    3
+CONECT   23    2
+CONECT   24    5    6   25
+CONECT   25   24
+CONECT   26    6
+CONECT   26    6
+CONECT   27    6   28   34
+CONECT   28    7   27   32
+CONECT   28   32
+CONECT   29    7
+CONECT   30    7    8
+CONECT   30    7
+CONECT   31    8   32
+CONECT   31    8
+CONECT   32   28   31   33
+CONECT   32   28
+CONECT   33   32
+CONECT   34    4   27
+ENDMDL
+END   

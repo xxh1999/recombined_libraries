@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7NVI
+MODEL        1
+ATOM      1  N   LYS A 122      25.613  24.713   7.966  1.00 10.17           N1+
+ATOM      2  CA  LYS A 122      24.607  23.700   8.270  1.00 10.11           C  
+ATOM      3  C   LYS A 122      25.221  22.303   8.157  1.00  9.83           C  
+ATOM      4  O   LYS A 122      25.042  21.462   9.036  1.00  9.76           O  
+ATOM      5  CB  LYS A 122      23.420  23.871   7.304  1.00 11.11           C  
+ATOM      6  CG  LYS A 122      22.332  22.829   7.436  1.00 11.68           C  
+ATOM      7  CD  LYS A 122      21.290  23.040   6.335  1.00 12.86           C  
+ATOM      8  CE  LYS A 122      20.270  21.892   6.202  1.00 14.03           C  
+ATOM      9  NZ  LYS A 122      19.310  22.155   5.127  1.00 15.24           N1+
+TER      10      LYS A 122
+HETATM   11  C02 USW A 301      13.703  19.329   0.718  1.00 19.91           C  
+HETATM   12  C03 USW A 301      13.421  20.637   0.256  1.00 20.94           C  
+HETATM   13  C04 USW A 301      14.316  21.286  -0.596  1.00 23.23           C  
+HETATM   14  C05 USW A 301      15.509  20.628  -0.966  1.00 20.58           C  
+HETATM   15  C09 USW A 301      17.915  22.536   0.192  1.00 17.25           C  
+HETATM   16  C10 USW A 301      17.222  22.889   1.356  1.00 17.57           C  
+HETATM   17  C11 USW A 301      17.848  22.702   2.585  1.00 16.89           C  
+HETATM   18  C12 USW A 301      19.139  22.167   2.605  1.00 14.84           C  
+HETATM   19  C13 USW A 301      19.824  21.825   1.435  1.00 17.00           C  
+HETATM   20  C14 USW A 301      19.204  22.007   0.220  1.00 19.29           C  
+HETATM   21  C15 USW A 301      19.919  21.900   3.870  1.00 16.38           C  
+HETATM   22  C18 USW A 301      17.345  20.394  -2.496  1.00 24.76           C  
+HETATM   23  C19 USW A 301      17.945  19.397  -1.534  1.00 22.92           C  
+HETATM   24  C21 USW A 301      15.747  19.347  -0.482  1.00 22.17           C  
+HETATM   25  C22 USW A 301      14.869  18.666   0.348  1.00 19.05           C  
+HETATM   26  N06 USW A 301      16.467  21.239  -1.835  1.00 24.65           N  
+HETATM   27  O08 USW A 301      16.083  23.747  -1.312  1.00 22.90           O  
+HETATM   28  O17 USW A 301      18.134  23.126  -2.426  1.00 23.58           O  
+HETATM   29  O20 USW A 301      16.952  18.613  -0.866  1.00 23.27           O  
+HETATM   30  S07 USW A 301      17.128  22.739  -1.398  1.00 20.84           S  
+HETATM   31 CL1  USW A 301      12.573  18.522   1.788  1.00 22.03          Cl  
+CONECT   11   12   25   31
+CONECT   11   25
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   24   26
+CONECT   14   24
+CONECT   15   16   20   30
+CONECT   15   20
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   17   19   21
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   15   19
+CONECT   20   15
+CONECT   21    9   18
+CONECT   22   23   26
+CONECT   23   22   29
+CONECT   24   14   25   29
+CONECT   24   14
+CONECT   25   11   24
+CONECT   25   11
+CONECT   26   14   22   30
+CONECT   27   30
+CONECT   27   30
+CONECT   28   30
+CONECT   28   30
+CONECT   29   23   24
+CONECT   30   15   26   27   28
+CONECT   30   27   28
+CONECT   31   11
+ENDMDL
+END   

@@ -1,0 +1,46 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4ZC6
+MODEL        1
+ATOM      1  N   ASN A  95     -24.107  -4.631 -20.655  1.00 32.44           N1+
+ATOM      2  CA  ASN A  95     -24.157  -3.801 -21.848  1.00 36.03           C  
+ATOM      3  C   ASN A  95     -23.187  -2.631 -21.595  1.00 33.72           C  
+ATOM      4  O   ASN A  95     -23.354  -1.896 -20.626  1.00 33.22           O  
+ATOM      5  CB  ASN A  95     -25.623  -3.320 -21.988  1.00 42.83           C  
+ATOM      6  CG  ASN A  95     -25.888  -2.446 -23.219  1.00 49.27           C  
+ATOM      7  OD1 ASN A  95     -25.156  -1.497 -23.477  1.00 47.78           O  
+ATOM      8  ND2 ASN A  95     -26.983  -2.761 -24.013  1.00 61.30           N1+
+TER       9      ASN A  95
+HETATM   10  C1  NAG A 601     -27.084  -1.904 -25.363  1.00 72.67           C  
+HETATM   11  C2  NAG A 601     -27.656  -2.930 -26.362  1.00 79.03           C  
+HETATM   12  C3  NAG A 601     -27.950  -2.158 -27.666  1.00 81.66           C  
+HETATM   13  C4  NAG A 601     -28.861  -0.945 -27.390  1.00 80.36           C  
+HETATM   14  C5  NAG A 601     -28.265  -0.085 -26.253  1.00 77.13           C  
+HETATM   15  C6  NAG A 601     -29.120   1.123 -25.826  1.00 72.09           C  
+HETATM   16  C7  NAG A 601     -26.568  -5.158 -26.063  1.00 81.11           C  
+HETATM   17  C8  NAG A 601     -25.442  -6.053 -26.546  1.00 74.54           C  
+HETATM   18  N2  NAG A 601     -26.649  -3.953 -26.640  1.00 77.45           N  
+HETATM   19  O3  NAG A 601     -28.624  -3.020 -28.560  1.00 89.12           O  
+HETATM   20  O4  NAG A 601     -28.922  -0.163 -28.567  1.00 82.05           O  
+HETATM   21  O5  NAG A 601     -28.015  -0.900 -25.112  1.00 76.87           O  
+HETATM   22  O6  NAG A 601     -30.411   0.721 -25.419  1.00 68.97           O  
+HETATM   23  O7  NAG A 601     -27.330  -5.537 -25.174  1.00 84.97           O  
+CONECT   10    8   11   21
+CONECT   11   10   12   18
+CONECT   12   11   13   19
+CONECT   13   12   14   20
+CONECT   14   13   15   21
+CONECT   15   14   22
+CONECT   16   17   18   23
+CONECT   16   23
+CONECT   17   16
+CONECT   18   11   16
+CONECT   19   12
+CONECT   20   13
+CONECT   21   10   14
+CONECT   22   15
+CONECT   23   16
+CONECT   23   16
+ENDMDL
+END   

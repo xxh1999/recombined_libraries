@@ -1,0 +1,58 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6GCH
+MODEL        1
+ATOM      1  N   SER G 195      37.498  79.794  84.342  1.00  5.40           N1+
+ATOM      2  CA  SER G 195      38.133  78.612  83.732  1.00  5.37           C  
+ATOM      3  C   SER G 195      38.631  78.852  82.316  1.00  5.22           C  
+ATOM      4  O   SER G 195      37.915  79.428  81.505  1.00  4.73           O  
+ATOM      5  CB  SER G 195      37.217  77.399  83.769  1.00  5.33           C  
+ATOM      6  OG  SER G 195      37.107  76.877  85.090  1.00  4.93           O  
+TER       7      SER G 195
+HETATM    8  CN2 APF G 246      36.565  72.974  87.992  1.00 11.85           C  
+HETATM    9  CN1 APF G 246      35.877  74.328  88.078  1.00 11.83           C  
+HETATM   10  ON1 APF G 246      34.840  74.450  88.730  1.00 12.20           O  
+HETATM   11  N3  APF G 246      36.489  75.315  87.401  1.00 12.38           N  
+HETATM   12  C3  APF G 246      36.076  76.707  87.230  1.00 13.31           C  
+HETATM   13  C2  APF G 246      35.856  77.087  85.749  1.00 14.29           C  
+HETATM   14  C1  APF G 246      34.676  76.282  85.146  1.00 17.45           C  
+HETATM   15  C4  APF G 246      37.106  77.646  87.887  1.00 13.27           C  
+HETATM   16  O2  APF G 246      35.502  78.348  85.731  1.00 13.70           O1-
+HETATM   17  F11 APF G 246      34.973  74.988  85.069  1.00 18.34           F  
+HETATM   18  F12 APF G 246      34.333  76.697  83.934  1.00 19.22           F  
+HETATM   19  F13 APF G 246      33.602  76.436  85.918  1.00 17.56           F  
+HETATM   20  CP1 APF G 246      37.211  77.521  89.379  1.00 13.15           C  
+HETATM   21  CP2 APF G 246      38.469  77.672  89.978  1.00 13.02           C  
+HETATM   22  CP3 APF G 246      38.588  77.474  91.354  1.00 12.64           C  
+HETATM   23  CP4 APF G 246      37.468  77.161  92.120  1.00 12.88           C  
+HETATM   24  CP5 APF G 246      36.202  77.060  91.545  1.00 12.77           C  
+HETATM   25  CP6 APF G 246      36.078  77.244  90.168  1.00 13.20           C  
+CONECT    8    9
+CONECT    9    8   10   11
+CONECT    9   10
+CONECT   10    9
+CONECT   10    9
+CONECT   11    9   12
+CONECT   12   11   13   15
+CONECT   13    6   12   14   16
+CONECT   14   13   17   18   19
+CONECT   15   12   20
+CONECT   16   13
+CONECT   17   14
+CONECT   18   14
+CONECT   19   14
+CONECT   20   15   21   25
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   23   25
+CONECT   24   25
+CONECT   25   20   24
+CONECT   25   24
+ENDMDL
+END   

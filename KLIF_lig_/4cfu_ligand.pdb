@@ -1,0 +1,80 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4cfu_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CAW Q2W A1299       0.495  17.045  38.254  1.00  0.00           C  
+HETATM    2  CAX Q2W A1299       0.041  15.667  37.908  1.00  0.00           C  
+HETATM    3  CAY Q2W A1299       1.143  14.882  37.115  1.00  0.00           C  
+HETATM    4  CAZ Q2W A1299       2.567  14.949  37.754  1.00  0.00           C  
+HETATM    5  CBA Q2W A1299       2.931  16.476  38.086  1.00  0.00           C  
+HETATM    6  CAV Q2W A1299       1.817  16.891  39.036  1.00  0.00           C  
+HETATM    7  CAU Q2W A1299       2.177  18.114  39.773  1.00  0.00           C  
+HETATM    8  O6  Q2W A1299       1.696  17.699  41.085  1.00  0.00           O  
+HETATM    9  C6  Q2W A1299       1.008  18.650  41.798  1.00  0.00           C  
+HETATM   10  N1  Q2W A1299       1.044  19.976  41.490  1.00  0.00           N  
+HETATM   11  C2  Q2W A1299       0.354  20.855  42.282  1.00  0.00           C  
+HETATM   12  N2  Q2W A1299       0.433  22.144  41.998  1.00  0.00           N  
+HETATM   13  N3  Q2W A1299      -0.344  20.429  43.352  1.00  0.00           N  
+HETATM   14  C4  Q2W A1299      -0.362  19.103  43.620  1.00  0.00           C  
+HETATM   15  N9  Q2W A1299      -1.018  18.399  44.537  1.00  0.00           N  
+HETATM   16  C5  Q2W A1299       0.279  18.189  42.847  1.00  0.00           C  
+HETATM   17  N7  Q2W A1299       0.040  16.929  43.331  1.00  0.00           N  
+HETATM   18  C8  Q2W A1299      -0.755  17.075  44.400  1.00  0.00           C  
+HETATM   19  CAJ Q2W A1299      -1.267  16.116  45.218  1.00  0.00           C  
+HETATM   20  CAK Q2W A1299      -1.328  16.361  46.594  1.00  0.00           C  
+HETATM   21  CAL Q2W A1299      -1.844  15.399  47.481  1.00  0.00           C  
+HETATM   22  CAM Q2W A1299      -2.359  14.176  46.996  1.00  0.00           C  
+HETATM   23  CAN Q2W A1299      -2.304  13.916  45.615  1.00  0.00           C  
+HETATM   24  CAQ Q2W A1299      -2.816  12.694  45.111  1.00  0.00           C  
+HETATM   25  OAS Q2W A1299      -3.844  12.724  44.379  1.00  0.00           O  
+HETATM   26  OAR Q2W A1299      -2.227  11.583  45.315  1.00  0.00           O1-
+HETATM   27  CAO Q2W A1299      -1.786  14.874  44.715  1.00  0.00           C  
+HETATM   28  CAP Q2W A1299      -1.755  14.589  43.307  1.00  0.00           C  
+CONECT    1    2    6
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    1    5    7
+CONECT    7    6    8
+CONECT    8    7    9
+CONECT    9    8   10   16
+CONECT    9   16
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   12   13
+CONECT   11   10
+CONECT   12   11
+CONECT   13   11   14
+CONECT   13   14
+CONECT   14   13   15   16
+CONECT   14   13
+CONECT   15   14   18
+CONECT   15   18
+CONECT   16    9   14   17
+CONECT   16    9
+CONECT   17   16   18
+CONECT   18   15   17   19
+CONECT   18   15
+CONECT   19   18   20   27
+CONECT   19   27
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24   27
+CONECT   23   22
+CONECT   24   23   25   26
+CONECT   24   25
+CONECT   25   24
+CONECT   25   24
+CONECT   26   24
+CONECT   27   19   23   28
+CONECT   27   19
+CONECT   28   27
+ENDMDL
+END   

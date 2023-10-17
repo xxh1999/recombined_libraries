@@ -1,0 +1,68 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1YLZ
+MODEL        1
+ATOM      1  N   SER A  70      42.915  58.133   8.148  1.00  4.08           N1+
+ATOM      2  CA  SER A  70      42.491  57.253   7.056  1.00  4.37           C  
+ATOM      3  C   SER A  70      41.041  57.490   6.591  1.00  4.51           C  
+ATOM      4  O   SER A  70      40.638  56.873   5.607  1.00  5.05           O  
+ATOM      5  CB  SER A  70      42.630  55.770   7.459  1.00  4.74           C  
+ATOM      6  OG  SER A  70      43.978  55.363   7.629  1.00  5.01           O  
+TER       7      SER A  70
+HETATM    8  B   CB4 A2001      44.463  55.029   8.991  0.89  5.16           B1-
+HETATM    9  OB1 CB4 A2001      44.314  56.222   9.833  0.89  4.42           O  
+HETATM   10  OB2 CB4 A2001      43.662  53.941   9.591  0.89  6.13           O  
+HETATM   11  C7  CB4 A2001      46.016  54.587   8.938  0.89  5.42           C  
+HETATM   12  N10 CB4 A2001      46.526  54.408  10.290  0.89  6.34           N  
+HETATM   13  C11 CB4 A2001      47.807  54.573  10.651  0.89  7.31           C  
+HETATM   14  O12 CB4 A2001      48.699  54.914   9.875  0.89  7.34           O  
+HETATM   15  C13 CB4 A2001      48.074  54.262  12.115  0.89  8.37           C  
+HETATM   16  N16 CB4 A2001      47.719  53.205  12.736  0.89 10.18           N  
+HETATM   17  O17 CB4 A2001      47.003  52.266  11.966  0.89 11.96           O  
+HETATM   18  C18 CB4 A2001      46.979  50.987  12.613  0.89 12.92           C  
+HETATM   19  C14 CB4 A2001      48.820  55.298  12.889  0.89  7.96           C  
+HETATM   20  C15 CB4 A2001      49.555  56.339  12.355  0.89  7.93           C  
+HETATM   21  S16 CB4 A2001      50.303  57.324  13.585  0.89  6.79           S  
+HETATM   22  C17 CB4 A2001      49.595  56.278  14.796  0.89  7.67           C  
+HETATM   23  N18 CB4 A2001      49.798  56.475  16.148  0.89  7.78           N  
+HETATM   24  N19 CB4 A2001      48.862  55.297  14.289  0.89  7.81           N  
+HETATM   25  C19 CB4 A2001      48.402  50.379  12.638  0.89 13.43           C  
+HETATM   26  C20 CB4 A2001      46.056  50.134  11.731  0.89 14.57           C  
+HETATM   27  C21 CB4 A2001      46.344  51.050  14.026  0.89 13.54           C  
+HETATM   28  O2A CB4 A2001      46.880  50.408  14.955  0.89 15.08           O  
+HETATM   29  O2B CB4 A2001      45.315  51.751  14.160  0.89 15.76           O1-
+CONECT    8    6    9   10   11
+CONECT    9    8
+CONECT   10    8
+CONECT   11    8   12
+CONECT   12   11   13
+CONECT   13   12   14   15
+CONECT   13   14
+CONECT   14   13
+CONECT   14   13
+CONECT   15   13   16   19
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   16   18
+CONECT   18   17   25   26   27
+CONECT   19   15   20   24
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22
+CONECT   22   21   23   24
+CONECT   22   24
+CONECT   23   22
+CONECT   24   19   22
+CONECT   24   22
+CONECT   25   18
+CONECT   26   18
+CONECT   27   18   28   29
+CONECT   27   28
+CONECT   28   27
+CONECT   28   27
+CONECT   29   27
+ENDMDL
+END   

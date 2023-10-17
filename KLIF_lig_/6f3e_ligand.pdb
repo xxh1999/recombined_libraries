@@ -1,0 +1,76 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6f3e_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  CJQ B 501      -0.057  17.651  43.102  1.00  0.00           C  
+HETATM    2  C2  CJQ B 501       0.343  18.765  42.334  1.00  0.00           C  
+HETATM    3  C3  CJQ B 501       0.982  18.897  41.068  1.00  0.00           C  
+HETATM    4  C7  CJQ B 501       2.649  19.093  39.409  1.00  0.00           C  
+HETATM    5  C8  CJQ B 501       1.663  18.053  40.014  1.00  0.00           C  
+HETATM    6  C9  CJQ B 501       0.670  17.429  39.028  1.00  0.00           C  
+HETATM    7  C10 CJQ B 501       1.201  16.174  38.374  1.00  0.00           C  
+HETATM    8  C11 CJQ B 501      -0.103  15.265  43.295  1.00  0.00           C  
+HETATM    9  C12 CJQ B 501      -1.482  14.752  42.947  1.00  0.00           C  
+HETATM   10  C13 CJQ B 501      -1.700  13.365  43.551  1.00  0.00           C  
+HETATM   11  C14 CJQ B 501      -0.585  12.423  43.104  1.00  0.00           C  
+HETATM   12  C15 CJQ B 501       0.797  12.965  43.435  1.00  0.00           C  
+HETATM   13  C16 CJQ B 501       0.972  14.330  42.799  1.00  0.00           C  
+HETATM   14  C19 CJQ B 501      -1.097   9.349  45.328  1.00  0.00           C  
+HETATM   15  C20 CJQ B 501      -1.377  10.783  44.923  1.00  0.00           C  
+HETATM   16  O   CJQ B 501       2.406  16.045  38.132  1.00  0.00           O  
+HETATM   17  N2  CJQ B 501       0.313  15.226  38.129  1.00  0.00           N  
+HETATM   18  C6  CJQ B 501       1.933  20.429  39.517  1.00  0.00           C  
+HETATM   19  C4  CJQ B 501       1.039  20.192  40.678  1.00  0.00           C  
+HETATM   20  C5  CJQ B 501      -0.027  19.990  42.883  1.00  0.00           C  
+HETATM   21  S   CJQ B 501       0.398  21.318  41.838  1.00  0.00           S  
+HETATM   22  N1  CJQ B 501      -0.683  20.153  44.033  1.00  0.00           N  
+HETATM   23  C   CJQ B 501      -1.005  19.003  44.635  1.00  0.00           C  
+HETATM   24  N   CJQ B 501      -0.732  17.754  44.237  1.00  0.00           N  
+HETATM   25  O1  CJQ B 501       0.248  16.457  42.572  1.00  0.00           O  
+HETATM   26  N3  CJQ B 501      -0.738  11.049  43.623  1.00  0.00           N1+
+HETATM   27  O2  CJQ B 501      -1.487   8.401  44.310  1.00  0.00           O  
+HETATM   28  C18 CJQ B 501      -0.856   8.688  43.067  1.00  0.00           C  
+HETATM   29  C17 CJQ B 501      -1.177  10.085  42.603  1.00  0.00           C  
+CONECT    1    2   24   25
+CONECT    1   24
+CONECT    2    1    3   20
+CONECT    2   20
+CONECT    3    2    5   19
+CONECT    3   19
+CONECT    4    5   18
+CONECT    5    3    4    6
+CONECT    6    5    7
+CONECT    7    6   16   17
+CONECT    7   16
+CONECT    8    9   13   25
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10   12   26
+CONECT   12   11   13
+CONECT   13    8   12
+CONECT   14   15   27
+CONECT   15   14   26
+CONECT   16    7
+CONECT   16    7
+CONECT   17    7
+CONECT   18    4   19
+CONECT   19    3   18   21
+CONECT   19    3
+CONECT   20    2   21   22
+CONECT   20    2
+CONECT   21   19   20
+CONECT   22   20   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24    1   23
+CONECT   24    1
+CONECT   25    1    8
+CONECT   26   11   15   29
+CONECT   27   14   28
+CONECT   28   27   29
+CONECT   29   26   28
+ENDMDL
+END   

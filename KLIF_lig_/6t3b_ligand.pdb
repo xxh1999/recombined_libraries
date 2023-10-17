@@ -1,0 +1,78 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6t3b_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  M9T A1201       1.376  21.939  40.509  1.00  0.00           C  
+HETATM    2  C2  M9T A1201       1.821  21.645  39.224  1.00  0.00           C  
+HETATM    3  C3  M9T A1201       2.887  20.759  39.014  1.00  0.00           C  
+HETATM    4  C7  M9T A1201       0.997  20.665  43.755  1.00  0.00           C  
+HETATM    5  C8  M9T A1201      -0.078  20.087  45.737  1.00  0.00           C  
+HETATM    6  C9  M9T A1201      -0.082  18.745  45.342  1.00  0.00           C  
+HETATM    7  C10 M9T A1201       0.492  18.428  44.099  1.00  0.00           C  
+HETATM    8  C11 M9T A1201      -0.239  16.544  44.998  1.00  0.00           C  
+HETATM    9  C12 M9T A1201      -1.203  17.372  47.178  1.00  0.00           C  
+HETATM   10  C13 M9T A1201       0.893  16.417  42.685  1.00  0.00           C  
+HETATM   11  C14 M9T A1201      -0.019  15.422  41.950  1.00  0.00           C  
+HETATM   12  C15 M9T A1201       0.446  15.294  40.487  1.00  0.00           C  
+HETATM   13  C16 M9T A1201       1.945  14.942  40.379  1.00  0.00           C  
+HETATM   14  C19 M9T A1201       4.239  21.357  37.095  1.00  0.00           C  
+HETATM   15  O   M9T A1201      -0.503  15.363  45.175  1.00  0.00           O  
+HETATM   16  N4  M9T A1201      -0.531  17.536  45.880  1.00  0.00           N  
+HETATM   17  N1  M9T A1201       0.462  21.008  44.929  1.00  0.00           N  
+HETATM   18  N3  M9T A1201       0.384  17.068  43.909  1.00  0.00           N  
+HETATM   19  C18 M9T A1201       2.381  16.041  42.658  1.00  0.00           C  
+HETATM   20  C17 M9T A1201       2.843  15.903  41.194  1.00  0.00           C  
+HETATM   21  O1  M9T A1201       2.326  14.980  39.000  1.00  0.00           O  
+HETATM   22  N2  M9T A1201       1.007  19.398  43.354  1.00  0.00           N  
+HETATM   23  N   M9T A1201       1.558  21.632  42.923  1.00  0.00           N  
+HETATM   24  C6  M9T A1201       1.998  21.343  41.611  1.00  0.00           C  
+HETATM   25  C   M9T A1201       0.227  22.900  40.699  1.00  0.00           C  
+HETATM   26  C5  M9T A1201       3.067  20.455  41.398  1.00  0.00           C  
+HETATM   27  C4  M9T A1201       3.506  20.164  40.113  1.00  0.00           C  
+HETATM   28  O2  M9T A1201       3.322  20.471  37.749  1.00  0.00           O  
+CONECT    1    2   24   25
+CONECT    1    2
+CONECT    2    1    3
+CONECT    2    1
+CONECT    3    2   27   28
+CONECT    3   27
+CONECT    4   17   22   23
+CONECT    4   17
+CONECT    5    6   17
+CONECT    5    6
+CONECT    6    5    7   16
+CONECT    6    5
+CONECT    7    6   18   22
+CONECT    7   22
+CONECT    8   15   16   18
+CONECT    8   15
+CONECT    9   16
+CONECT   10   11   18   19
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12   20   21
+CONECT   14   28
+CONECT   15    8
+CONECT   15    8
+CONECT   16    6    8    9
+CONECT   17    4    5
+CONECT   17    4
+CONECT   18    7    8   10
+CONECT   19   10   20
+CONECT   20   13   19
+CONECT   21   13
+CONECT   22    4    7
+CONECT   22    7
+CONECT   23    4   24
+CONECT   24    1   23   26
+CONECT   24   26
+CONECT   25    1
+CONECT   26   24   27
+CONECT   26   24
+CONECT   27    3   26
+CONECT   27    3
+CONECT   28    3   14
+ENDMDL
+END   

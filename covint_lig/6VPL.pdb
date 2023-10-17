@@ -1,0 +1,86 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6VPL
+MODEL        1
+ATOM      1  N   CYS A 290       0.849  -8.983 -24.561  1.00 25.77           N1+
+ATOM      2  CA  CYS A 290       0.580  -9.986 -25.601  1.00 32.72           C  
+ATOM      3  C   CYS A 290       1.703 -10.997 -25.765  1.00 40.54           C  
+ATOM      4  O   CYS A 290       1.553 -11.936 -26.544  1.00 36.90           O  
+ATOM      5  CB  CYS A 290       0.387  -9.352 -26.974  1.00 30.33           C  
+ATOM      6  SG  CYS A 290      -0.950  -8.126 -27.033  1.00 32.32           S  
+TER       7      CYS A 290
+HETATM    8  SD  R7D A 606      -2.634  -9.254 -26.800  1.00 25.64           S  
+HETATM    9  CE  R7D A 606      -2.890 -10.029 -28.454  1.00 24.05           C  
+HETATM   10  CAA R7D A 606      -5.468  -6.146 -28.804  1.00 41.82           C  
+HETATM   11  CAB R7D A 606      -4.146  -6.819 -29.176  1.00 39.90           C  
+HETATM   12  CAM R7D A 606      -4.356  -9.904 -33.003  1.00 42.36           C  
+HETATM   13  CAN R7D A 606      -5.307 -10.918 -33.007  1.00 47.15           C  
+HETATM   14  CAP R7D A 606      -6.615 -12.548 -31.867  1.00 52.84           C  
+HETATM   15  CAQ R7D A 606      -7.201 -12.947 -33.061  1.00 56.96           C  
+HETATM   16  CAR R7D A 606      -6.827 -12.323 -34.246  1.00 59.10           C  
+HETATM   17  CAS R7D A 606      -5.878 -11.307 -34.216  1.00 55.70           C  
+HETATM   18  CAY R7D A 606      -5.296  -5.316 -27.690  1.00 40.91           C  
+HETATM   19  CBA R7D A 606      -5.162  -3.941 -27.828  1.00 40.58           C  
+HETATM   20  CBB R7D A 606      -4.994  -3.132 -26.706  1.00 41.43           C  
+HETATM   21  CBC R7D A 606      -4.955  -3.683 -25.426  1.00 41.84           C  
+HETATM   22  CBD R7D A 606      -5.090  -5.059 -25.294  1.00 37.48           C  
+HETATM   23  CBE R7D A 606      -5.257  -5.866 -26.416  1.00 37.82           C  
+HETATM   24  CBF R7D A 606      -4.785  -2.884 -24.285  1.00 50.30           C  
+HETATM   25  CX  R7D A 606      -3.145  -9.623 -30.925  1.00 36.12           C  
+HETATM   26  CXA R7D A 606      -3.027  -8.963 -29.545  1.00 28.90           C  
+HETATM   27  FBG R7D A 606      -3.516  -2.433 -24.198  1.00 51.23           F  
+HETATM   28  FBH R7D A 606      -5.050  -3.605 -23.176  1.00 52.47           F  
+HETATM   29  FBI R7D A 606      -5.596  -1.836 -24.333  1.00 51.01           F  
+HETATM   30  NAL R7D A 606      -4.211  -9.299 -31.671  1.00 38.97           N  
+HETATM   31  NAO R7D A 606      -5.662 -11.523 -31.864  1.00 48.93           N  
+HETATM   32  NX  R7D A 606      -4.207  -8.151 -29.232  1.00 29.59           N  
+HETATM   33  OAD R7D A 606      -3.128  -6.165 -29.407  1.00 44.83           O  
+HETATM   34  OAZ R7D A 606      -5.931  -5.402 -29.928  1.00 46.76           O  
+HETATM   35  OX  R7D A 606      -2.282 -10.405 -31.307  1.00 41.63           O  
+CONECT    8    6    9
+CONECT    9    8   26
+CONECT   10   11   18   34
+CONECT   11   10   32   33
+CONECT   11   33
+CONECT   12   13   30
+CONECT   13   12   17   31
+CONECT   13   31
+CONECT   14   15   31
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   13   16
+CONECT   17   16
+CONECT   18   10   19   23
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20   22   24
+CONECT   21   20
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   18   22
+CONECT   23   22
+CONECT   24   21   27   28   29
+CONECT   25   26   30   35
+CONECT   25   35
+CONECT   26    9   25   32
+CONECT   27   24
+CONECT   28   24
+CONECT   29   24
+CONECT   30   12   25
+CONECT   31   13   14
+CONECT   31   13
+CONECT   32   11   26
+CONECT   33   11
+CONECT   33   11
+CONECT   34   10
+CONECT   35   25
+CONECT   35   25
+ENDMDL
+END   

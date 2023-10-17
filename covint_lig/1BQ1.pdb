@@ -1,0 +1,62 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1BQ1
+MODEL        1
+ATOM      1  N   CYS A 146      21.493  20.494  26.980  1.00 12.34           N1+
+ATOM      2  CA  CYS A 146      21.501  21.458  28.076  1.00 11.74           C  
+ATOM      3  C   CYS A 146      22.908  21.498  28.706  1.00 10.77           C  
+ATOM      4  O   CYS A 146      23.359  22.584  29.040  1.00 10.31           O  
+ATOM      5  CB  CYS A 146      20.509  21.054  29.174  1.00 13.97           C  
+ATOM      6  SG  CYS A 146      18.734  21.198  28.689  1.00 20.44           S  
+TER       7      CYS A 146
+HETATM    8  N1  UMP A 565      17.492  20.768  31.060  1.00 31.73           N  
+HETATM    9  C2  UMP A 565      17.825  20.285  32.337  1.00 35.90           C  
+HETATM   10  N3  UMP A 565      18.481  19.060  32.392  1.00 38.25           N  
+HETATM   11  C4  UMP A 565      18.874  18.305  31.288  1.00 36.40           C  
+HETATM   12  C5  UMP A 565      18.613  18.922  30.006  1.00 33.26           C  
+HETATM   13  C6  UMP A 565      18.061  20.150  29.948  1.00 31.22           C  
+HETATM   14  O2  UMP A 565      17.550  20.896  33.367  1.00 36.94           O  
+HETATM   15  O4  UMP A 565      19.479  17.252  31.429  1.00 32.57           O  
+HETATM   16  C1' UMP A 565      16.225  21.584  30.976  1.00 30.85           C  
+HETATM   17  C2' UMP A 565      16.420  23.062  30.740  1.00 29.97           C  
+HETATM   18  C3' UMP A 565      15.055  23.407  30.172  1.00 27.15           C  
+HETATM   19  C4' UMP A 565      14.686  22.150  29.369  1.00 27.49           C  
+HETATM   20  O3' UMP A 565      14.113  23.586  31.212  1.00 16.49           O  
+HETATM   21  O4' UMP A 565      15.448  21.090  29.937  1.00 30.08           O  
+HETATM   22  C5' UMP A 565      15.092  22.206  27.893  1.00 28.41           C  
+HETATM   23  O5' UMP A 565      14.247  23.105  27.198  1.00 31.76           O  
+HETATM   24  P   UMP A 565      14.996  24.278  26.349  1.00 25.11           P  
+HETATM   25  OP1 UMP A 565      13.865  25.161  25.868  1.00 24.32           O  
+HETATM   26  OP2 UMP A 565      15.938  25.002  27.286  1.00 26.50           O1-
+HETATM   27  OP3 UMP A 565      15.730  23.581  25.224  1.00 25.35           O1-
+CONECT    8    9   13   16
+CONECT    9    8   10   14
+CONECT    9   14
+CONECT   10    9   11
+CONECT   11   10   12   15
+CONECT   11   15
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13    6    8   12
+CONECT   13   12
+CONECT   14    9
+CONECT   14    9
+CONECT   15   11
+CONECT   15   11
+CONECT   16    8   17   21
+CONECT   17   16   18
+CONECT   18   17   19   20
+CONECT   19   18   21   22
+CONECT   20   18
+CONECT   21   16   19
+CONECT   22   19   23
+CONECT   23   22   24
+CONECT   24   23   25   26   27
+CONECT   24   25
+CONECT   25   24
+CONECT   25   24
+CONECT   26   24
+CONECT   27   24
+ENDMDL
+END   

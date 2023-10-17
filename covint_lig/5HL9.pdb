@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5HL9
+MODEL        1
+ATOM      1  N   SER A 510       2.215  22.341 -61.316  1.00 43.30           N1+
+ATOM      2  CA  SER A 510       1.968  22.143 -62.739  1.00 42.81           C  
+ATOM      3  C   SER A 510       0.479  22.183 -63.113  1.00 44.13           C  
+ATOM      4  O   SER A 510       0.172  22.172 -64.304  1.00 42.71           O  
+ATOM      5  CB  SER A 510       2.490  20.765 -63.147  1.00 48.49           C  
+ATOM      6  OG  SER A 510       3.902  20.703 -63.084  1.00 67.59           O  
+TER       7      SER A 510
+HETATM    8  C8  AIX A 901      10.665  16.621 -60.535  1.00 20.00           C  
+HETATM    9  C5  AIX A 901       9.234  18.419 -59.641  1.00 20.00           C  
+HETATM   10  C6  AIX A 901       6.214  16.141 -62.725  1.00 20.00           C  
+HETATM   11  N1  AIX A 901       6.784  19.657 -61.137  1.00 20.00           N  
+HETATM   12  C2  AIX A 901       3.619  16.057 -62.384  1.00 20.00           C  
+HETATM   13  N3  AIX A 901       4.809  17.935 -63.480  1.00 20.00           N  
+HETATM   14  C4  AIX A 901       8.751  19.831 -59.643  1.00 20.00           C  
+HETATM   15  C1  AIX A 901       6.132  15.200 -63.947  1.00 20.00           C  
+HETATM   16  C3  AIX A 901       8.053  20.068 -60.994  1.00 20.00           C  
+HETATM   17  C7  AIX A 901      10.152  17.929 -60.604  1.00 20.00           C  
+HETATM   18  C9  AIX A 901      10.278  15.774 -59.484  1.00 20.00           C  
+HETATM   19  C10 AIX A 901       9.363  16.234 -58.519  1.00 20.00           C  
+HETATM   20  C11 AIX A 901       8.845  17.539 -58.605  1.00 20.00           C  
+HETATM   21  C12 AIX A 901       4.900  16.903 -62.451  1.00 20.00           C  
+HETATM   22  C13 AIX A 901       6.038  18.715 -63.404  1.00 20.00           C  
+HETATM   23  C14 AIX A 901       5.965  19.867 -62.336  1.00 20.00           C  
+HETATM   24  C15 AIX A 901       4.534  20.290 -61.976  1.00 20.00           C  
+HETATM   25  C16 AIX A 901       6.713  15.371 -61.496  1.00 20.00           C  
+HETATM   26  N2  AIX A 901       9.861  20.757 -59.445  1.00 20.00           N  
+HETATM   27  O1  AIX A 901       3.303  15.582 -61.270  1.00 20.00           O1-
+HETATM   28  O2  AIX A 901       2.957  15.923 -63.437  1.00 20.00           O  
+HETATM   29  O3  AIX A 901       8.660  20.638 -61.898  1.00 20.00           O  
+HETATM   30  O4  AIX A 901       4.024  20.182 -60.863  1.00 20.00           O  
+HETATM   31  S1  AIX A 901       7.347  17.495 -63.103  1.00 20.00           S  
+CONECT    8   17   18
+CONECT    8   18
+CONECT    9   14   17   20
+CONECT    9   17
+CONECT   10   15   21   25   31
+CONECT   11   16   23
+CONECT   12   21   27   28
+CONECT   12   28
+CONECT   13   21   22
+CONECT   14    9   16   26
+CONECT   15   10
+CONECT   16   11   14   29
+CONECT   16   29
+CONECT   17    8    9
+CONECT   17    9
+CONECT   18    8   19
+CONECT   18    8
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20    9   19
+CONECT   20   19
+CONECT   21   10   12   13
+CONECT   22   13   23   31
+CONECT   23   11   22   24
+CONECT   24    6   23   30
+CONECT   24   30
+CONECT   25   10
+CONECT   26   14
+CONECT   27   12
+CONECT   28   12
+CONECT   28   12
+CONECT   29   16
+CONECT   29   16
+CONECT   30   24
+CONECT   30   24
+CONECT   31   10   22
+ENDMDL
+END   

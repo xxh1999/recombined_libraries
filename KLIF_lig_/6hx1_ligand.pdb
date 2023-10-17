@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6hx1_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C2  GXK A1001       4.084  17.636  43.348  1.00  0.00           C  
+HETATM    2  C3  GXK A1001       3.166  17.514  44.408  1.00  0.00           C  
+HETATM    3  C4  GXK A1001       2.090  18.394  44.514  1.00  0.00           C  
+HETATM    4  C6  GXK A1001       1.212  17.478  46.705  1.00  0.00           C  
+HETATM    5  C7  GXK A1001       0.827  16.041  46.346  1.00  0.00           C  
+HETATM    6  C8  GXK A1001      -0.300  15.367  47.136  1.00  0.00           C  
+HETATM    7  C12 GXK A1001       1.381  21.051  42.254  1.00  0.00           C  
+HETATM    8  C15 GXK A1001       4.571  20.709  40.279  1.00  0.00           C  
+HETATM    9  C16 GXK A1001       5.204  21.144  39.095  1.00  0.00           C  
+HETATM   10  C17 GXK A1001       6.494  21.074  38.608  1.00  0.00           C  
+HETATM   11  C21 GXK A1001       3.033  22.064  38.310  1.00  0.00           C  
+HETATM   12 CL1  GXK A1001       5.439  16.569  43.175  1.00  0.00          Cl  
+HETATM   13  N5  GXK A1001       1.123  18.348  45.523  1.00  0.00           N  
+HETATM   14  C9  GXK A1001      -0.529  15.801  45.682  1.00  0.00           C  
+HETATM   15  C10 GXK A1001       1.957  19.397  43.520  1.00  0.00           C  
+HETATM   16  N11 GXK A1001       1.069  20.358  43.343  1.00  0.00           N  
+HETATM   17  C13 GXK A1001       2.522  20.510  41.699  1.00  0.00           C  
+HETATM   18  C14 GXK A1001       3.217  20.958  40.467  1.00  0.00           C  
+HETATM   19  N18 GXK A1001       6.506  21.672  37.412  1.00  0.00           N  
+HETATM   20  N19 GXK A1001       5.233  22.146  37.090  1.00  0.00           N  
+HETATM   21  C20 GXK A1001       4.409  21.849  38.073  1.00  0.00           C  
+HETATM   22  C22 GXK A1001       2.471  21.629  39.467  1.00  0.00           C  
+HETATM   23  N23 GXK A1001       2.878  19.467  42.508  1.00  0.00           N  
+HETATM   24  N24 GXK A1001       3.938  18.563  42.448  1.00  0.00           N  
+CONECT    1    2   12   24
+CONECT    1   24
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2   13   15
+CONECT    3    2
+CONECT    4    5   13
+CONECT    5    4    6   14
+CONECT    6    5   14
+CONECT    7   16   17
+CONECT    7   17
+CONECT    8    9   18
+CONECT    8   18
+CONECT    9    8   10   21
+CONECT    9   10
+CONECT   10    9   19
+CONECT   10    9
+CONECT   11   21   22
+CONECT   11   22
+CONECT   12    1
+CONECT   13    3    4
+CONECT   14    5    6
+CONECT   15    3   16   23
+CONECT   15   16
+CONECT   16    7   15
+CONECT   16   15
+CONECT   17    7   18   23
+CONECT   17    7
+CONECT   18    8   17   22
+CONECT   18    8
+CONECT   19   10   20
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21    9   11   20
+CONECT   21   20
+CONECT   22   11   18
+CONECT   22   11
+CONECT   23   15   17   24
+CONECT   24    1   23
+CONECT   24    1
+ENDMDL
+END   

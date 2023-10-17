@@ -1,0 +1,29 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1WA3
+MODEL        1
+ATOM      1  N   LYS A 129      10.697  -5.740  -8.489  1.00  2.00           N1+
+ATOM      2  CA  LYS A 129      11.608  -4.605  -8.418  1.00  3.55           C  
+ATOM      3  C   LYS A 129      11.759  -4.238  -6.936  1.00  4.38           C  
+ATOM      4  O   LYS A 129      10.765  -4.175  -6.215  1.00  5.97           O  
+ATOM      5  CB  LYS A 129      10.980  -3.447  -9.213  1.00  3.86           C  
+ATOM      6  CG  LYS A 129      11.609  -2.054  -9.030  1.00  5.89           C  
+ATOM      7  CD  LYS A 129      10.877  -1.061  -9.929  1.00  6.00           C  
+ATOM      8  CE  LYS A 129      11.271   0.405  -9.745  1.00  8.58           C  
+ATOM      9  NZ  LYS A 129      10.340   1.175 -10.543  1.00 10.76           N1+
+TER      10      LYS A 129
+HETATM   11  C1  PYR A1204       9.557   3.203 -11.626  1.00  9.75           C  
+HETATM   12  O1  PYR A1204       8.833   2.456 -12.324  1.00  7.68           O  
+HETATM   13  O2  PYR A1204       9.416   4.440 -11.561  1.00  8.20           O1-
+HETATM   14  C2  PYR A1204      10.703   2.560 -10.821  1.00  9.74           C  
+HETATM   15  C3  PYR A1204      11.095   3.351  -9.555  1.00  7.14           C  
+CONECT   11   12   13   14
+CONECT   11   12
+CONECT   12   11
+CONECT   12   11
+CONECT   13   11
+CONECT   14    9   11   15
+CONECT   15   14
+ENDMDL
+END   

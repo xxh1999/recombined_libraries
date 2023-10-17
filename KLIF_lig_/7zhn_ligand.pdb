@@ -1,0 +1,75 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7zhn_ligand
+MODEL        1
+HETATM    1  N1    * A   0      -0.130  20.443  43.250  1.00  0.00           N  
+HETATM    2  N3    * A   0       1.248  19.893  41.368  1.00  0.00           N  
+HETATM    3  C4    * A   0       0.609  20.767  42.176  1.00  0.00           C  
+HETATM    4  C5    * A   0       1.118  18.589  41.650  1.00  0.00           C  
+HETATM    5  C6    * A   0       1.832  17.620  40.763  1.00  0.00           C  
+HETATM    6  C7    * A   0       2.410  18.026  39.474  1.00  0.00           C  
+HETATM    7  C8    * A   0       2.510  19.238  38.781  1.00  0.00           C  
+HETATM    8  C10   * A   0       3.298  20.525  36.839  1.00  0.00           C  
+HETATM    9  C13   * A   0       4.779  23.581  35.887  1.00  0.00           C  
+HETATM   10  C15   * A   0       3.633  18.096  36.951  1.00  0.00           C  
+HETATM   11  C17   * A   0       2.947  16.867  38.887  1.00  0.00           C  
+HETATM   12  C20   * A   0       1.207  15.842  43.273  1.00  0.00           C  
+HETATM   13  C1    * A   0       0.000  16.709  43.028  1.00  0.00           C  
+HETATM   14  C11   * A   0       3.447  21.537  36.219  1.00  0.00           C  
+HETATM   15  C12   * A   0       3.605  22.755  35.389  1.00  0.00           C  
+HETATM   16  C14   * A   0       2.314  23.556  35.393  1.00  0.00           C  
+HETATM   17  C16   * A   0       3.553  16.889  37.632  1.00  0.00           C  
+HETATM   18  C18   * A   0       2.077  16.231  40.879  1.00  0.00           C  
+HETATM   19  C19   * A   0       1.772  15.262  41.983  1.00  0.00           C  
+HETATM   20  C2    * A   0       0.339  18.150  42.733  1.00  0.00           C  
+HETATM   21  C3    * A   0      -0.221  19.140  43.506  1.00  0.00           C  
+HETATM   22  C9    * A   0       3.134  19.271  37.525  1.00  0.00           C  
+HETATM   23  N2    * A   0       0.744  22.061  41.902  1.00  0.00           N  
+HETATM   24  N4    * A   0       2.743  15.795  39.749  1.00  0.00           N  
+HETATM   25  O1    * A   0       3.874  22.380  34.029  1.00  0.00           O  
+CONECT    1    3   21
+CONECT    1    3
+CONECT    2    3    4
+CONECT    2    4
+CONECT    3    1    2   23
+CONECT    3    1
+CONECT    4    2    5   20
+CONECT    4    2
+CONECT    5    4    6   18
+CONECT    5   18
+CONECT    6    5    7   11
+CONECT    6   11
+CONECT    7    6   22
+CONECT    7   22
+CONECT    8   14   22
+CONECT    8   14
+CONECT    8   14
+CONECT    9   15
+CONECT   10   17   22
+CONECT   10   17
+CONECT   11    6   17   24
+CONECT   11    6
+CONECT   12   13   19
+CONECT   13   12   20
+CONECT   14    8   15
+CONECT   14    8
+CONECT   14    8
+CONECT   15    9   14   16   25
+CONECT   16   15
+CONECT   17   10   11
+CONECT   17   10
+CONECT   18    5   19   24
+CONECT   18    5
+CONECT   19   12   18
+CONECT   20    4   13   21
+CONECT   20   21
+CONECT   21    1   20
+CONECT   21   20
+CONECT   22    7    8   10
+CONECT   22    7
+CONECT   23    3
+CONECT   24   11   18
+CONECT   25   15
+ENDMDL
+END   

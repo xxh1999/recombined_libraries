@@ -1,0 +1,77 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5HZQ
+MODEL        1
+ATOM      1  N   TYR A 134       2.239  -7.771  -5.877  0.50 22.80           N1+
+ATOM      2  CA  TYR A 134       1.262  -6.937  -6.571  0.50 24.07           C  
+ATOM      3  C   TYR A 134      -0.134  -7.116  -5.953  0.50 24.23           C  
+ATOM      4  O   TYR A 134      -0.425  -8.153  -5.358  0.50 23.15           O  
+ATOM      5  CB  TYR A 134       1.226  -7.318  -8.070  0.50 25.06           C  
+ATOM      6  CG  TYR A 134       2.458  -7.008  -8.903  0.50 26.11           C  
+ATOM      7  CD1 TYR A 134       2.425  -5.954  -9.836  0.50 27.13           C  
+ATOM      8  CD2 TYR A 134       3.626  -7.793  -8.787  0.50 28.14           C  
+ATOM      9  CE1 TYR A 134       3.560  -5.660 -10.612  0.50 29.14           C  
+ATOM     10  CE2 TYR A 134       4.769  -7.480  -9.546  0.50 29.23           C  
+ATOM     11  CZ  TYR A 134       4.743  -6.397 -10.451  0.50 31.11           C  
+ATOM     12  OH  TYR A 134       5.848  -6.015 -11.161  0.50 35.91           O  
+TER      13      TYR A 134
+HETATM   14  O1  YWZ A 201       5.625  -8.220 -12.442  0.50 39.57           O  
+HETATM   15  O2  YWZ A 201       7.890  -7.477 -11.491  0.50 43.08           O  
+HETATM   16  O3  YWZ A 201       6.902  -6.328 -13.570  0.50 43.40           O  
+HETATM   17  O4  YWZ A 201      16.128  -5.379 -17.210  0.50 51.51           O  
+HETATM   18  O5  YWZ A 201      18.277  -5.776 -19.044  0.50 54.08           O  
+HETATM   19  C6  YWZ A 201       8.193  -6.212 -14.013  0.50 45.29           C  
+HETATM   20  C7  YWZ A 201       8.721  -4.935 -14.268  0.50 44.32           C  
+HETATM   21  C8  YWZ A 201      10.018  -4.787 -14.792  0.50 45.66           C  
+HETATM   22  C9  YWZ A 201      10.827  -5.911 -15.092  0.50 46.30           C  
+HETATM   23  C10 YWZ A 201      12.189  -5.753 -15.675  0.50 47.55           C  
+HETATM   24  C11 YWZ A 201      12.610  -4.536 -16.272  0.50 49.22           C  
+HETATM   25  C12 YWZ A 201      13.906  -4.380 -16.802  0.50 49.65           C  
+HETATM   26  C13 YWZ A 201      14.832  -5.448 -16.751  0.50 50.50           C  
+HETATM   27  C14 YWZ A 201      16.459  -4.368 -18.150  0.50 52.73           C  
+HETATM   28  C15 YWZ A 201      17.951  -4.503 -18.499  0.50 53.19           C  
+HETATM   29  C16 YWZ A 201      17.802  -5.997 -20.361  0.50 54.21           C  
+HETATM   30  C25 YWZ A 201      14.424  -6.660 -16.172  0.50 48.77           C  
+HETATM   31  C26 YWZ A 201      13.126  -6.814 -15.650  0.50 48.31           C  
+HETATM   32  C27 YWZ A 201      10.280  -7.191 -14.819  0.50 45.87           C  
+HETATM   33  C28 YWZ A 201       8.983  -7.344 -14.293  0.50 45.60           C  
+HETATM   34  S   YWZ A 201       6.605  -7.163 -12.131  0.50 41.18           S  
+CONECT   14   34
+CONECT   14   34
+CONECT   15   34
+CONECT   15   34
+CONECT   16   19   34
+CONECT   17   26   27
+CONECT   18   28   29
+CONECT   19   16   20   33
+CONECT   19   33
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   21   23   32
+CONECT   22   32
+CONECT   23   22   24   31
+CONECT   23   31
+CONECT   24   23   25
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26   17   25   30
+CONECT   26   30
+CONECT   27   17   28
+CONECT   28   18   27
+CONECT   29   18
+CONECT   30   26   31
+CONECT   30   26
+CONECT   31   23   30
+CONECT   31   23
+CONECT   32   22   33
+CONECT   32   22
+CONECT   33   19   32
+CONECT   33   19
+CONECT   34   12   14   15   16
+CONECT   34   14   15
+ENDMDL
+END   

@@ -1,0 +1,76 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5vo1_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C14 Q9F A 501      -0.769  19.063  44.515  1.00  0.00           C  
+HETATM    2  C5  Q9F A 501      -1.851  15.123  46.171  1.00  0.00           C  
+HETATM    3  C6  Q9F A 501      -1.737  16.467  45.888  1.00  0.00           C  
+HETATM    4  C11 Q9F A 501       0.946  18.839  42.385  1.00  0.00           C  
+HETATM    5  C7  Q9F A 501      -0.865  16.576  44.795  1.00  0.00           C  
+HETATM    6  C9  Q9F A 501      -0.368  17.795  44.122  1.00  0.00           C  
+HETATM    7  C10 Q9F A 501       0.507  17.694  43.046  1.00  0.00           C  
+HETATM    8  C12 Q9F A 501       0.444  20.107  42.827  1.00  0.00           C  
+HETATM    9  C3  Q9F A 501      -1.670  12.344  44.120  1.00  0.00           C  
+HETATM   10  C1  Q9F A 501       0.730  12.845  44.644  1.00  0.00           C  
+HETATM   11  C2  Q9F A 501      -0.709  13.010  45.088  1.00  0.00           C  
+HETATM   12  N4  Q9F A 501      -1.038  14.447  45.228  1.00  0.00           N  
+HETATM   13  N8  Q9F A 501      -0.452  15.370  44.388  1.00  0.00           N  
+HETATM   14  N13 Q9F A 501      -0.383  20.185  43.896  1.00  0.00           N  
+HETATM   15  N15 Q9F A 501       0.730  21.230  42.160  1.00  0.00           N  
+HETATM   16  C16 Q9F A 501       1.947  18.674  41.278  1.00  0.00           C  
+HETATM   17  F17 Q9F A 501       2.246  17.388  41.036  1.00  0.00           F  
+HETATM   18  F18 Q9F A 501       1.479  19.111  40.123  1.00  0.00           F  
+HETATM   19  F19 Q9F A 501       3.111  19.321  41.537  1.00  0.00           F  
+HETATM   20  C20 Q9F A 501      -2.598  14.434  47.235  1.00  0.00           C  
+HETATM   21  C21 Q9F A 501      -2.679  14.933  48.669  1.00  0.00           C  
+HETATM   22  C22 Q9F A 501      -3.913  14.919  47.825  1.00  0.00           C  
+HETATM   23  C23 Q9F A 501      -4.849  13.876  48.425  1.00  0.00           C  
+HETATM   24  N24 Q9F A 501      -4.299  13.565  49.759  1.00  0.00           N1+
+HETATM   25  C25 Q9F A 501      -2.868  13.904  49.780  1.00  0.00           C  
+HETATM   26  C26 Q9F A 501      -4.582  12.261  50.391  1.00  0.00           C  
+HETATM   27  C27 Q9F A 501      -5.265  11.155  49.501  1.00  0.00           C  
+HETATM   28  O28 Q9F A 501      -6.547  11.570  49.981  1.00  0.00           O  
+HETATM   29  C29 Q9F A 501      -5.962  12.195  51.138  1.00  0.00           C  
+CONECT    1    6   14
+CONECT    1    6
+CONECT    2    3   12   20
+CONECT    2    3
+CONECT    3    2    5
+CONECT    3    2
+CONECT    4    7    8   16
+CONECT    4    7
+CONECT    5    3    6   13
+CONECT    5   13
+CONECT    6    1    5    7
+CONECT    6    1
+CONECT    7    4    6
+CONECT    7    4
+CONECT    8    4   14   15
+CONECT    8   14
+CONECT    9   11
+CONECT   10   11
+CONECT   11    9   10   12
+CONECT   12    2   11   13
+CONECT   13    5   12
+CONECT   13    5
+CONECT   14    1    8
+CONECT   14    8
+CONECT   15    8
+CONECT   16    4   17   18   19
+CONECT   17   16
+CONECT   18   16
+CONECT   19   16
+CONECT   20    2   21   22
+CONECT   21   20   22   25
+CONECT   22   20   21   23
+CONECT   23   22   24
+CONECT   24   23   25   26
+CONECT   25   21   24
+CONECT   26   24   27   29
+CONECT   27   26   28
+CONECT   28   27   29
+CONECT   29   26   28
+ENDMDL
+END   

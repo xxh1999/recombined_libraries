@@ -1,0 +1,106 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6LNQ
+MODEL        1
+ATOM      1  N   CYS A 145     -17.869 -22.218   2.118  1.00 23.24           N1+
+ATOM      2  CA  CYS A 145     -18.115 -22.554   3.520  1.00 17.13           C  
+ATOM      3  C   CYS A 145     -17.541 -23.930   3.883  1.00 20.15           C  
+ATOM      4  O   CYS A 145     -17.565 -24.853   3.070  1.00 19.43           O  
+ATOM      5  CB  CYS A 145     -19.621 -22.472   3.811  1.00 21.07           C  
+ATOM      6  SG  CYS A 145     -20.070 -20.721   4.005  1.00 18.00           S  
+TER       7      CYS A 145
+HETATM    8  C10 EJF A 401     -26.692 -10.683   4.651  1.00 68.01           C  
+HETATM    9  C13 EJF A 401     -27.712  -6.995   5.212  1.00 60.68           C  
+HETATM   10  C15 EJF A 401     -26.310  -7.896   6.983  1.00 57.69           C  
+HETATM   11  C20 EJF A 401     -25.058 -12.196   1.852  1.00 55.96           C  
+HETATM   12  C21 EJF A 401     -24.354 -14.501   1.201  1.00 40.21           C  
+HETATM   13  C24 EJF A 401     -25.349 -18.537   6.662  1.00 39.19           C  
+HETATM   14  C26 EJF A 401     -25.374 -17.110   7.237  1.00 34.17           C  
+HETATM   15  C28 EJF A 401     -21.303 -18.933   2.177  1.00 45.95           C  
+HETATM   16  C02 EJF A 401     -23.441 -18.286   3.297  1.00 41.93           C  
+HETATM   17  C03 EJF A 401     -24.059 -17.667   4.564  1.00 34.72           C  
+HETATM   18  C05 EJF A 401     -24.009 -15.218   4.100  1.00 43.09           C  
+HETATM   19  C06 EJF A 401     -24.807 -13.963   3.704  1.00 47.44           C  
+HETATM   20  C08 EJF A 401     -25.268 -12.587   5.726  1.00 57.94           C  
+HETATM   21  C09 EJF A 401     -25.901 -11.264   5.609  1.00 64.75           C  
+HETATM   22  C11 EJF A 401     -26.946  -9.332   5.074  1.00 67.97           C  
+HETATM   23  C12 EJF A 401     -27.663  -8.234   4.540  1.00 63.64           C  
+HETATM   24  C14 EJF A 401     -27.033  -6.823   6.433  1.00 61.28           C  
+HETATM   25  C16 EJF A 401     -26.281  -9.132   6.316  1.00 63.60           C  
+HETATM   26  C19 EJF A 401     -24.298 -13.448   2.321  1.00 52.95           C  
+HETATM   27  C23 EJF A 401     -25.162 -18.599   5.128  1.00 40.53           C  
+HETATM   28  C25 EJF A 401     -26.629 -19.283   7.068  1.00 35.67           C  
+HETATM   29  C29 EJF A 401     -20.834 -20.377   2.399  1.00 35.42           C  
+HETATM   30  C31 EJF A 401     -20.045 -18.056   2.023  1.00 35.55           C  
+HETATM   31  C32 EJF A 401     -20.328 -16.625   1.527  1.00 36.68           C  
+HETATM   32  C33 EJF A 401     -21.061 -16.533   0.181  1.00 37.14           C  
+HETATM   33  C34 EJF A 401     -20.457 -15.318  -0.535  1.00 31.88           C  
+HETATM   34  C36 EJF A 401     -19.051 -15.851   1.228  1.00 38.66           C  
+HETATM   35  N04 EJF A 401     -24.673 -16.377   4.227  1.00 41.95           N  
+HETATM   36  N07 EJF A 401     -24.493 -12.938   4.694  1.00 50.65           N  
+HETATM   37  N17 EJF A 401     -25.683 -10.340   6.618  1.00 58.24           N  
+HETATM   38  N27 EJF A 401     -22.107 -18.450   3.302  1.00 40.83           N  
+HETATM   39  N35 EJF A 401     -19.170 -15.149   0.105  1.00 36.25           N  
+HETATM   40  O01 EJF A 401     -24.155 -18.588   2.340  1.00 39.40           O  
+HETATM   41  O18 EJF A 401     -25.304 -13.218   6.778  1.00 61.82           O  
+HETATM   42  O22 EJF A 401     -22.792 -15.137   4.255  1.00 43.64           O  
+HETATM   43  O30 EJF A 401     -20.915 -21.232   1.522  1.00 35.22           O  
+HETATM   44  O37 EJF A 401     -18.059 -15.875   1.949  1.00 39.77           O  
+CONECT    8   21   22
+CONECT    8   21
+CONECT    9   23   24
+CONECT    9   23
+CONECT   10   24   25
+CONECT   10   24
+CONECT   11   26
+CONECT   12   26
+CONECT   13   14   27   28
+CONECT   14   13
+CONECT   15   29   30   38
+CONECT   16   17   38   40
+CONECT   16   40
+CONECT   17   16   27   35
+CONECT   18   19   35   42
+CONECT   18   42
+CONECT   19   18   26   36
+CONECT   20   21   36   41
+CONECT   20   41
+CONECT   21    8   20   37
+CONECT   21    8
+CONECT   22    8   23   25
+CONECT   22   25
+CONECT   23    9   22
+CONECT   23    9
+CONECT   24    9   10
+CONECT   24   10
+CONECT   25   10   22   37
+CONECT   25   22
+CONECT   26   11   12   19
+CONECT   27   13   17
+CONECT   28   13
+CONECT   29    6   15   43
+CONECT   29   43
+CONECT   30   15   31
+CONECT   31   30   32   34
+CONECT   32   31   33
+CONECT   33   32   39
+CONECT   34   31   39   44
+CONECT   34   44
+CONECT   35   17   18
+CONECT   36   19   20
+CONECT   37   21   25
+CONECT   38   15   16
+CONECT   39   33   34
+CONECT   40   16
+CONECT   40   16
+CONECT   41   20
+CONECT   41   20
+CONECT   42   18
+CONECT   42   18
+CONECT   43   29
+CONECT   43   29
+CONECT   44   34
+CONECT   44   34
+ENDMDL
+END   

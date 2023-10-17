@@ -1,0 +1,70 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1py5_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  PY1 A 700       1.161  18.824  40.354  1.00  0.00           C  
+HETATM    2  C2  PY1 A 700       2.469  19.150  39.696  1.00  0.00           C  
+HETATM    3  N3  PY1 A 700       2.643  18.335  38.600  1.00  0.00           N  
+HETATM    4  N4  PY1 A 700       1.509  17.530  38.556  1.00  0.00           N  
+HETATM    5  C5  PY1 A 700       0.601  17.790  39.578  1.00  0.00           C  
+HETATM    6  C8  PY1 A 700       0.514  19.454  41.602  1.00  0.00           C  
+HETATM    7  C10 PY1 A 700       3.480  20.170  40.065  1.00  0.00           C  
+HETATM    8  N12 PY1 A 700       4.043  20.864  38.972  1.00  0.00           N  
+HETATM    9  C13 PY1 A 700       4.950  21.835  39.058  1.00  0.00           C  
+HETATM   10  C14 PY1 A 700       5.396  22.218  40.346  1.00  0.00           C  
+HETATM   11  C15 PY1 A 700       4.856  21.545  41.529  1.00  0.00           C  
+HETATM   12  C16 PY1 A 700       3.885  20.506  41.421  1.00  0.00           C  
+HETATM   13  C21 PY1 A 700       0.024  18.674  42.780  1.00  0.00           C  
+HETATM   14  C22 PY1 A 700      -0.573  19.453  43.898  1.00  0.00           C  
+HETATM   15  N23 PY1 A 700      -0.618  20.862  43.810  1.00  0.00           N  
+HETATM   16  C24 PY1 A 700      -0.175  21.584  42.742  1.00  0.00           C  
+HETATM   17  C25 PY1 A 700       0.405  20.915  41.624  1.00  0.00           C  
+HETATM   18  C28 PY1 A 700       0.034  17.208  42.941  1.00  0.00           C  
+HETATM   19  C29 PY1 A 700      -0.490  16.571  44.133  1.00  0.00           C  
+HETATM   20  C30 PY1 A 700      -1.043  17.354  45.186  1.00  0.00           C  
+HETATM   21  C31 PY1 A 700      -1.075  18.781  45.073  1.00  0.00           C  
+CONECT    1    2    5    6
+CONECT    1    5
+CONECT    2    1    3    7
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3    5
+CONECT    5    1    4
+CONECT    5    1
+CONECT    6    1   13   17
+CONECT    6   17
+CONECT    7    2    8   12
+CONECT    7   12
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12    7   11
+CONECT   12    7
+CONECT   13    6   14   18
+CONECT   13   18
+CONECT   14   13   15   21
+CONECT   14   21
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17    6   16
+CONECT   17    6
+CONECT   18   13   19
+CONECT   18   13
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   14   20
+CONECT   21   14
+ENDMDL
+END   

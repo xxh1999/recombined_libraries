@@ -1,0 +1,62 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5RFL
+MODEL        1
+ATOM      1  N   CYS A 145       6.283  -5.089  16.704  0.50 17.90           N1+
+ATOM      2  CA  CYS A 145       7.721  -5.315  16.567  0.50 17.79           C  
+ATOM      3  C   CYS A 145       7.994  -6.719  16.011  0.50 17.00           C  
+ATOM      4  O   CYS A 145       7.221  -7.648  16.239  0.50 17.16           O  
+ATOM      5  CB  CYS A 145       8.435  -5.131  17.913  0.50 18.06           C  
+ATOM      6  SG  CYS A 145       8.626  -3.364  18.314  0.50 18.30           S  
+TER       7      CYS A 145
+HETATM    8  N1  T7G A 404       6.904  -4.186  21.129  0.50 21.37           N  
+HETATM    9  C4  T7G A 404       7.553  -1.241  27.911  0.50 32.56           C  
+HETATM   10  C5  T7G A 404       6.664  -1.257  26.822  0.50 31.97           C  
+HETATM   11  C6  T7G A 404       6.013  -2.931  25.113  0.50 26.59           C  
+HETATM   12  C7  T7G A 404       6.640  -3.684  23.943  0.50 23.86           C  
+HETATM   13  C8  T7G A 404       5.662  -4.619  23.197  0.50 23.10           C  
+HETATM   14  C10 T7G A 404       7.933  -3.390  21.796  0.50 21.81           C  
+HETATM   15  C13 T7G A 404       7.017  -2.866  18.996  0.50 19.33           C  
+HETATM   16  N   T7G A 404       6.903  -2.240  25.840  0.50 29.43           N  
+HETATM   17  C   T7G A 404       5.674  -0.244  26.705  0.50 32.97           C  
+HETATM   18  O   T7G A 404       4.871  -0.126  25.606  0.50 36.33           O  
+HETATM   19  C1  T7G A 404       5.531   0.703  27.737  0.50 33.10           C  
+HETATM   20  C11 T7G A 404       7.279  -2.665  22.969  0.50 22.85           C  
+HETATM   21  C12 T7G A 404       6.398  -3.929  19.905  0.50 20.04           C  
+HETATM   22  C2  T7G A 404       6.384   0.670  28.856  0.50 33.15           C  
+HETATM   23  C3  T7G A 404       7.417  -0.277  28.926  0.50 33.19           C  
+HETATM   24  C9  T7G A 404       6.371  -5.254  21.989  0.50 22.12           C  
+HETATM   25  O1  T7G A 404       4.806  -2.987  25.350  0.50 27.05           O  
+HETATM   26  O2  T7G A 404       5.475  -4.584  19.445  0.50 20.93           O  
+CONECT    8   14   21   24
+CONECT    9   10   23
+CONECT    9   23
+CONECT   10    9   16   17
+CONECT   10   17
+CONECT   11   12   16   25
+CONECT   11   25
+CONECT   12   11   13   20
+CONECT   13   12   24
+CONECT   14    8   20
+CONECT   15    6   21
+CONECT   16   10   11
+CONECT   17   10   18   19
+CONECT   17   10
+CONECT   18   17
+CONECT   19   17   22
+CONECT   19   22
+CONECT   20   12   14
+CONECT   21    8   15   26
+CONECT   21   26
+CONECT   22   19   23
+CONECT   22   19
+CONECT   23    9   22
+CONECT   23    9
+CONECT   24    8   13
+CONECT   25   11
+CONECT   25   11
+CONECT   26   21
+CONECT   26   21
+ENDMDL
+END   

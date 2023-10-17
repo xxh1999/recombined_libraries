@@ -1,0 +1,88 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2QLQ
+MODEL        1
+ATOM      1  N   CYS A 345      10.616   5.784   0.272  1.00 28.90           N1+
+ATOM      2  CA  CYS A 345       9.495   5.449  -0.617  1.00 29.95           C  
+ATOM      3  C   CYS A 345       9.932   5.176  -2.076  1.00 27.61           C  
+ATOM      4  O   CYS A 345      10.725   5.931  -2.641  1.00 27.32           O  
+ATOM      5  CB  CYS A 345       8.413   6.556  -0.507  1.00 32.73           C  
+ATOM      6  SG  CYS A 345       9.189   8.215  -0.454  1.00 43.46           S  
+TER       7      CYS A 345
+HETATM    8  C4  SR2 A1345       5.103   3.749   7.673  0.70 43.50           C  
+HETATM    9  C3  SR2 A1345       4.256   3.250   8.683  0.70 46.02           C  
+HETATM   10 BRR1 SR2 A1345       2.717   2.235   8.221  0.70 51.46          Br  
+HETATM   11  C22 SR2 A1345       4.559   3.479  10.039  0.70 43.27           C  
+HETATM   12  C21 SR2 A1345       5.725   4.184  10.387  0.70 45.53           C  
+HETATM   13  C20 SR2 A1345       6.584   4.662   9.380  0.70 44.16           C  
+HETATM   14  C5  SR2 A1345       6.281   4.443   8.017  0.70 43.04           C  
+HETATM   15  N1  SR2 A1345       7.140   4.899   7.008  0.70 35.84           N  
+HETATM   16  C6  SR2 A1345       8.528   4.694   6.945  0.70 32.31           C  
+HETATM   17  C7  SR2 A1345       9.378   5.474   6.118  0.70 30.43           C  
+HETATM   18  C8  SR2 A1345       8.899   6.486   5.264  0.70 29.29           C  
+HETATM   19  N3  SR2 A1345       9.031   3.687   7.689  0.70 28.72           N  
+HETATM   20  C19 SR2 A1345      10.339   3.469   7.618  0.70 27.61           C  
+HETATM   21  N2  SR2 A1345      11.234   4.173   6.929  0.70 28.05           N  
+HETATM   22  C18 SR2 A1345      10.769   5.183   6.164  0.70 29.74           C  
+HETATM   23  C17 SR2 A1345      11.652   5.962   5.391  0.70 29.92           C  
+HETATM   24  C13 SR2 A1345      11.169   6.965   4.529  0.70 29.76           C  
+HETATM   25  C9  SR2 A1345       9.786   7.195   4.422  0.70 30.19           C  
+HETATM   26  N11 SR2 A1345       9.311   8.132   3.467  0.70 30.83           N  
+HETATM   27  C10 SR2 A1345       8.222   7.953   2.696  0.70 39.29           C  
+HETATM   28  O61 SR2 A1345       7.519   6.944   2.729  0.70 43.20           O  
+HETATM   29  C11 SR2 A1345       7.903   9.111   1.894  0.70 43.63           C  
+HETATM   30  C51 SR2 A1345       8.212   9.290   0.589  0.70 44.83           C  
+HETATM   31  C61 SR2 A1345       7.739  10.551  -0.117  0.70 49.20           C  
+HETATM   32  N63 SR2 A1345       6.810  10.277  -1.244  0.70 53.86           N1+
+HETATM   33  C65 SR2 A1345       5.687   9.366  -0.910  0.70 55.60           C  
+HETATM   34  C67 SR2 A1345       6.329  11.529  -1.869  0.70 56.46           C  
+CONECT    8    9   14
+CONECT    8   14
+CONECT    9    8   10   11
+CONECT    9   11
+CONECT   10    9
+CONECT   11    9   12
+CONECT   11    9
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14    8   13   15
+CONECT   14    8
+CONECT   15   14   16
+CONECT   16   15   17   19
+CONECT   16   19
+CONECT   17   16   18   22
+CONECT   17   18
+CONECT   18   17   25
+CONECT   18   17
+CONECT   19   16   20
+CONECT   19   16
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   17   21   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   23   25
+CONECT   24   25
+CONECT   25   18   24   26
+CONECT   25   24
+CONECT   26   25   27
+CONECT   27   26   28   29
+CONECT   27   28
+CONECT   28   27
+CONECT   28   27
+CONECT   29   27   30
+CONECT   29   30
+CONECT   30    6   29   31
+CONECT   30   29
+CONECT   31   30   32
+CONECT   32   31   33   34
+CONECT   33   32
+CONECT   34   32
+ENDMDL
+END   

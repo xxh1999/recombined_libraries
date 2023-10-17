@@ -1,0 +1,86 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5oto_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  AQW B 403     -14.493  15.096  37.141  1.00  0.00           C  
+HETATM    2  N1  AQW B 403      -3.853  13.484  41.926  1.00  0.00           N  
+HETATM    3  C2  AQW B 403     -14.180  14.215  35.949  1.00  0.00           C  
+HETATM    4  C3  AQW B 403     -15.041  14.226  34.851  1.00  0.00           C  
+HETATM    5  C4  AQW B 403     -14.797  13.425  33.750  1.00  0.00           C  
+HETATM    6  C5  AQW B 403     -13.703  12.586  33.734  1.00  0.00           C  
+HETATM    7  C6  AQW B 403     -12.830  12.561  34.810  1.00  0.00           C  
+HETATM    8  C7  AQW B 403     -13.040  13.388  35.917  1.00  0.00           C  
+HETATM    9  C8  AQW B 403     -11.950  13.459  36.940  1.00  0.00           C  
+HETATM   10  C9  AQW B 403     -11.803  12.424  37.866  1.00  0.00           C  
+HETATM   11  C10 AQW B 403     -10.781  12.452  38.804  1.00  0.00           C  
+HETATM   12  C11 AQW B 403      -9.877  13.506  38.854  1.00  0.00           C  
+HETATM   13  C12 AQW B 403      -8.797  13.560  39.911  1.00  0.00           C  
+HETATM   14  C13 AQW B 403      -6.383  13.515  40.340  1.00  0.00           C  
+HETATM   15  C14 AQW B 403      -5.025  13.194  39.742  1.00  0.00           C  
+HETATM   16  C15 AQW B 403      -3.867  13.618  40.580  1.00  0.00           C  
+HETATM   17  C16 AQW B 403      -2.565  13.764  42.351  1.00  0.00           C  
+HETATM   18  C17 AQW B 403      -1.946  13.697  43.593  1.00  0.00           C  
+HETATM   19  C18 AQW B 403      -0.580  13.936  43.672  1.00  0.00           C  
+HETATM   20  C20 AQW B 403      -0.484  14.332  41.278  1.00  0.00           C  
+HETATM   21  C21 AQW B 403      -1.855  14.081  41.196  1.00  0.00           C  
+HETATM   22  C22 AQW B 403     -10.012  14.536  37.931  1.00  0.00           C  
+HETATM   23  C23 AQW B 403     -11.036  14.513  37.001  1.00  0.00           C  
+HETATM   24 CL1  AQW B 403     -11.202  15.858  35.921  1.00  0.00          Cl  
+HETATM   25  C   AQW B 403     -15.702  14.690  37.952  1.00  0.00           C  
+HETATM   26  N   AQW B 403      -7.463  13.268  39.379  1.00  0.00           N1+
+HETATM   27  N2  AQW B 403      -2.702  14.004  40.092  1.00  0.00           N  
+HETATM   28  C19 AQW B 403       0.129  14.237  42.517  1.00  0.00           C  
+HETATM   29 CL   AQW B 403       1.856  14.458  42.618  1.00  0.00          Cl  
+CONECT    1    3   25
+CONECT    2   16   17
+CONECT    3    1    4    8
+CONECT    3    8
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    5    7
+CONECT    6    7
+CONECT    7    6    8
+CONECT    7    6
+CONECT    8    3    7    9
+CONECT    8    3
+CONECT    9    8   10   23
+CONECT    9   23
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   13   22
+CONECT   12   22
+CONECT   13   12   26
+CONECT   14   15   26
+CONECT   15   14   16
+CONECT   16    2   15   27
+CONECT   16   27
+CONECT   17    2   18   21
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   18   28
+CONECT   19   28
+CONECT   20   21   28
+CONECT   20   21
+CONECT   21   17   20   27
+CONECT   21   20
+CONECT   22   12   23
+CONECT   22   12
+CONECT   23    9   22   24
+CONECT   23    9
+CONECT   24   23
+CONECT   25    1
+CONECT   26   13   14
+CONECT   27   16   21
+CONECT   27   16
+CONECT   28   19   20   29
+CONECT   28   19
+CONECT   29   28
+ENDMDL
+END   

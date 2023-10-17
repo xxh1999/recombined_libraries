@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6pdo_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  OD1 A 501       0.243  18.956  43.550  1.00  0.00           C  
+HETATM    2  C14 OD1 A 501      -0.595  13.296  44.461  1.00  0.00           C  
+HETATM    3  C5  OD1 A 501       0.722  18.065  42.608  1.00  0.00           C  
+HETATM    4  C6  OD1 A 501       1.298  18.578  41.426  1.00  0.00           C  
+HETATM    5  C11 OD1 A 501       1.569  15.663  42.550  1.00  0.00           C  
+HETATM    6  C7  OD1 A 501       2.362  18.724  39.347  1.00  0.00           C  
+HETATM    7  C8  OD1 A 501       1.867  17.876  40.293  1.00  0.00           C  
+HETATM    8  C9  OD1 A 501       3.053  18.364  38.084  1.00  0.00           C  
+HETATM    9  C10 OD1 A 501       0.633  16.616  42.837  1.00  0.00           C  
+HETATM   10  C12 OD1 A 501       1.133  14.363  42.839  1.00  0.00           C  
+HETATM   11  C13 OD1 A 501       0.012  14.356  43.616  1.00  0.00           C  
+HETATM   12  N1  OD1 A 501       3.358  17.096  37.899  1.00  0.00           N  
+HETATM   13  N2  OD1 A 501      -0.150  12.051  44.276  1.00  0.00           N  
+HETATM   14  C3  OD1 A 501       0.319  20.325  43.366  1.00  0.00           C  
+HETATM   15  N3  OD1 A 501      -1.980   7.555  44.597  1.00  0.00           N1+
+HETATM   16  C1  OD1 A 501       1.363  19.975  41.248  1.00  0.00           C  
+HETATM   17  C2  OD1 A 501       0.872  20.853  42.221  1.00  0.00           C  
+HETATM   18  S1  OD1 A 501       2.103  20.402  39.740  1.00  0.00           S  
+HETATM   19  O1  OD1 A 501       3.308  19.251  37.264  1.00  0.00           O  
+HETATM   20  S2  OD1 A 501      -0.755  15.899  43.568  1.00  0.00           S  
+HETATM   21  O2  OD1 A 501      -1.444  13.585  45.306  1.00  0.00           O  
+HETATM   22  C15 OD1 A 501      -0.401  10.979  45.233  1.00  0.00           C  
+HETATM   23  C16 OD1 A 501      -0.686   9.655  44.550  1.00  0.00           C  
+HETATM   24  C17 OD1 A 501      -1.553   8.733  45.361  1.00  0.00           C  
+CONECT    1    3   14
+CONECT    1    3
+CONECT    2   11   13   21
+CONECT    2   21
+CONECT    3    1    4    9
+CONECT    3    1
+CONECT    4    3    7   16
+CONECT    4   16
+CONECT    5    9   10
+CONECT    5    9
+CONECT    6    7    8   18
+CONECT    6    7
+CONECT    7    4    6
+CONECT    7    6
+CONECT    8    6   12   19
+CONECT    8   19
+CONECT    9    3    5   20
+CONECT    9    5
+CONECT   10    5   11
+CONECT   10   11
+CONECT   11    2   10   20
+CONECT   11   10
+CONECT   12    8
+CONECT   13    2   22
+CONECT   14    1   17
+CONECT   14   17
+CONECT   15   24
+CONECT   16    4   17   18
+CONECT   16    4
+CONECT   17   14   16
+CONECT   17   14
+CONECT   18    6   16
+CONECT   19    8
+CONECT   19    8
+CONECT   20    9   11
+CONECT   21    2
+CONECT   21    2
+CONECT   22   13   23
+CONECT   23   22   24
+CONECT   24   15   23
+ENDMDL
+END   

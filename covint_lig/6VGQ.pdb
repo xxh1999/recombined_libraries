@@ -1,0 +1,21 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6VGQ
+MODEL        1
+ATOM      1  N   PHE U   3      81.911  73.161 108.658  1.00  0.00           N1+
+ATOM      2  CA  PHE U   3      80.544  72.662 108.953  1.00  0.00           C  
+ATOM      3  C   PHE U   3      79.580  73.796 109.434  1.00  0.00           C  
+ATOM      4  O   PHE U   3      80.415  74.699 110.162  1.00  0.00           O  
+ATOM      5  CB  PHE U   3      80.799  71.510 109.945  1.00  0.00           C  
+ATOM      6  CG  PHE U   3      79.601  70.633 110.201  1.00  0.00           C  
+ATOM      7  CD1 PHE U   3      79.045  69.842 109.205  1.00  0.00           C  
+ATOM      8  CD2 PHE U   3      79.075  70.599 111.475  1.00  0.00           C  
+ATOM      9  CE1 PHE U   3      77.943  69.043 109.486  1.00  0.00           C  
+ATOM     10  CE2 PHE U   3      77.971  69.806 111.760  1.00  0.00           C  
+ATOM     11  CZ  PHE U   3      77.403  69.027 110.764  1.00  0.00           C  
+TER      12      PHE U   3
+HETATM   13  C1  0QE U   4      78.852  74.650 108.369  1.00  0.00           C  
+CONECT   13    3
+ENDMDL
+END   

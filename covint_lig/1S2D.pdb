@@ -1,0 +1,35 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1S2D
+MODEL        1
+ATOM      1  N   GLU A 101      -2.665  -9.655 -13.858  1.00 23.68           N1+
+ATOM      2  CA  GLU A 101      -3.359  -8.375 -13.725  1.00 23.68           C  
+ATOM      3  C   GLU A 101      -4.682  -8.500 -12.942  1.00 23.68           C  
+ATOM      4  O   GLU A 101      -5.050  -7.552 -12.249  1.00 23.68           O  
+ATOM      5  CB  GLU A 101      -3.658  -7.854 -15.139  1.00 26.62           C  
+ATOM      6  CG  GLU A 101      -2.398  -7.381 -15.898  1.00 26.62           C  
+ATOM      7  CD  GLU A 101      -2.579  -7.366 -17.417  1.00 26.62           C  
+ATOM      8  OE1 GLU A 101      -3.683  -7.549 -17.930  1.00 26.62           O  
+ATOM      9  OE2 GLU A 101      -1.399  -7.158 -18.068  1.00 26.62           O  
+TER      10      GLU A 101
+HETATM   11  O5  V3M A 202      -1.099 -10.463 -22.001  1.00 31.40           O  
+HETATM   12  C5  V3M A 202      -1.524  -9.124 -22.116  1.00 31.13           C  
+HETATM   13  C4  V3M A 202      -2.489  -8.776 -20.976  1.00 31.52           C  
+HETATM   14  O4  V3M A 202      -1.761  -8.724 -19.757  1.00 31.87           O  
+HETATM   15  C1  V3M A 202      -1.338  -7.432 -19.449  1.00 32.04           C  
+HETATM   16  C2  V3M A 202      -2.182  -6.466 -20.303  1.00102.62           C  
+HETATM   17  F2  V3M A 202      -1.371  -5.787 -21.110  1.00 35.24           F  
+HETATM   18  C3  V3M A 202      -3.085  -7.374 -21.124  1.00 31.85           C  
+HETATM   19  O3  V3M A 202      -4.407  -7.349 -20.634  1.00 31.33           O  
+CONECT   11   12
+CONECT   12   11   13
+CONECT   13   12   14   18
+CONECT   14   13   15
+CONECT   15    9   14   16
+CONECT   16   15   17   18
+CONECT   17   16
+CONECT   18   13   16   19
+CONECT   19   18
+ENDMDL
+END   

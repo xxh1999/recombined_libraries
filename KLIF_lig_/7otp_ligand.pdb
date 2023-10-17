@@ -1,0 +1,77 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7otp_ligand
+MODEL        1
+HETATM    1  PG  AGS A6101       3.707  12.248  36.226  1.00  0.00           P1+
+HETATM    2  S1G AGS A6101       1.914  11.163  36.578  1.00  0.00           S1-
+HETATM    3  O2G AGS A6101       3.438  13.423  35.342  1.00  0.00           O  
+HETATM    4  O3G AGS A6101       4.761  11.327  35.545  1.00  0.00           O  
+HETATM    5  PB  AGS A6101       5.666  13.667  37.765  1.00  0.00           P1+
+HETATM    6  O1B AGS A6101       6.040  14.185  36.388  1.00  0.00           O  
+HETATM    7  O2B AGS A6101       6.772  12.826  38.312  1.00  0.00           O  
+HETATM    8  O3B AGS A6101       4.302  12.772  37.650  1.00  0.00           O  
+HETATM    9  PA  AGS A6101       4.051  15.850  38.668  1.00  0.00           P1+
+HETATM   10  O1A AGS A6101       3.136  15.280  37.525  1.00  0.00           O1-
+HETATM   11  O2A AGS A6101       4.452  17.280  38.337  1.00  0.00           O  
+HETATM   12  O3A AGS A6101       5.377  14.934  38.788  1.00  0.00           O  
+HETATM   13  O5' AGS A6101       3.232  15.820  40.114  1.00  0.00           O  
+HETATM   14  C5' AGS A6101       2.318  14.791  40.310  1.00  0.00           C  
+HETATM   15  C4' AGS A6101       1.947  14.828  41.715  1.00  0.00           C  
+HETATM   16  O4' AGS A6101       2.538  16.220  42.338  1.00  0.00           O  
+HETATM   17  C3' AGS A6101       0.618  14.838  41.826  1.00  0.00           C  
+HETATM   18  O3' AGS A6101       0.205  13.729  42.704  1.00  0.00           O1-
+HETATM   19  C2' AGS A6101       0.215  16.169  42.463  1.00  0.00           C  
+HETATM   20  O2' AGS A6101      -0.485  15.943  43.578  1.00  0.00           O  
+HETATM   21  C1' AGS A6101       1.563  16.899  42.852  1.00  0.00           C  
+HETATM   22  N9  AGS A6101       1.612  18.258  42.294  1.00  0.00           N  
+HETATM   23  C8  AGS A6101       2.237  18.602  41.193  1.00  0.00           C  
+HETATM   24  N7  AGS A6101       2.080  19.906  40.998  1.00  0.00           N  
+HETATM   25  C5  AGS A6101       1.353  20.389  42.001  1.00  0.00           C  
+HETATM   26  C6  AGS A6101       0.873  21.663  42.311  1.00  0.00           C  
+HETATM   27  N6  AGS A6101       1.184  22.803  41.434  1.00  0.00           N  
+HETATM   28  N1  AGS A6101       0.152  21.826  43.394  1.00  0.00           N  
+HETATM   29  C2  AGS A6101      -0.123  20.799  44.176  1.00  0.00           C  
+HETATM   30  N3  AGS A6101       0.310  19.587  43.904  1.00  0.00           N  
+HETATM   31  C4  AGS A6101       1.049  19.341  42.831  1.00  0.00           C  
+CONECT    1    2    3    4    8
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1
+CONECT    5    6    7    8   12
+CONECT    6    5
+CONECT    7    5
+CONECT    8    1    5
+CONECT    9   10   11   12   13
+CONECT   10    9
+CONECT   11    9
+CONECT   12    5    9
+CONECT   13    9   14
+CONECT   14   13   15
+CONECT   15   14   16   17
+CONECT   16   15   21
+CONECT   17   15   18   19
+CONECT   18   17
+CONECT   19   17   20   21
+CONECT   20   19
+CONECT   21   16   19   22
+CONECT   22   21   23   31
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   24   26   31
+CONECT   25   31
+CONECT   26   25   27   28
+CONECT   26   28
+CONECT   27   26
+CONECT   28   26   29
+CONECT   28   26
+CONECT   29   28   30
+CONECT   29   30
+CONECT   30   29   31
+CONECT   30   29
+CONECT   31   22   25   30
+CONECT   31   25
+ENDMDL
+END   

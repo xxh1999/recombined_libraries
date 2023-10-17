@@ -1,0 +1,80 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2x7f_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  O3  Q82 C 500      -2.355  16.787  46.024  1.00  0.00           O  
+HETATM    2  C19 Q82 C 500      -1.512  16.610  44.923  1.00  0.00           C  
+HETATM    3  C20 Q82 C 500      -1.219  15.300  44.650  1.00  0.00           C  
+HETATM    4  C18 Q82 C 500      -0.364  14.912  43.576  1.00  0.00           C  
+HETATM    5  C16 Q82 C 500       0.243  15.967  42.712  1.00  0.00           C  
+HETATM    6  C15 Q82 C 500      -0.091  17.461  43.021  1.00  0.00           C  
+HETATM    7  C17 Q82 C 500      -1.001  17.830  44.151  1.00  0.00           C  
+HETATM    8  C13 Q82 C 500       0.604  18.209  42.040  1.00  0.00           C  
+HETATM    9  C14 Q82 C 500       1.278  17.205  41.252  1.00  0.00           C  
+HETATM   10  N2  Q82 C 500       1.069  15.967  41.684  1.00  0.00           N  
+HETATM   11  C4  Q82 C 500       0.651  19.537  41.778  1.00  0.00           C  
+HETATM   12  C5  Q82 C 500       0.106  20.636  42.306  1.00  0.00           C  
+HETATM   13  O1  Q82 C 500      -0.527  20.716  43.191  1.00  0.00           O  
+HETATM   14  C3  Q82 C 500       1.424  19.982  40.623  1.00  0.00           C  
+HETATM   15  C6  Q82 C 500       1.230  21.317  40.641  1.00  0.00           C  
+HETATM   16  O2  Q82 C 500       1.606  22.096  39.898  1.00  0.00           O  
+HETATM   17  N1  Q82 C 500       0.441  21.773  41.651  1.00  0.00           N  
+HETATM   18  C2  Q82 C 500       2.143  18.986  39.855  1.00  0.00           C  
+HETATM   19  C1  Q82 C 500       2.048  17.595  40.181  1.00  0.00           C  
+HETATM   20  C7  Q82 C 500       3.017  19.223  38.760  1.00  0.00           C  
+HETATM   21  C8  Q82 C 500       3.139  18.647  37.531  1.00  0.00           C  
+HETATM   22  C9  Q82 C 500       4.088  19.096  36.629  1.00  0.00           C  
+HETATM   23  C10 Q82 C 500       4.950  20.144  36.888  1.00  0.00           C  
+HETATM   24  C11 Q82 C 500       4.961  20.813  38.147  1.00  0.00           C  
+HETATM   25  C12 Q82 C 500       3.974  20.326  39.111  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3    7
+CONECT    2    7
+CONECT    3    2    4
+CONECT    3    4
+CONECT    4    3    5
+CONECT    4    3
+CONECT    5    4    6   10
+CONECT    5    6
+CONECT    6    5    7    8
+CONECT    6    5
+CONECT    7    2    6
+CONECT    7    2
+CONECT    8    6    9   11
+CONECT    8   11
+CONECT    9    8   10   19
+CONECT    9   19
+CONECT   10    5    9
+CONECT   11    8   12   14
+CONECT   11    8
+CONECT   12   11   13   17
+CONECT   12   13
+CONECT   13   12
+CONECT   13   12
+CONECT   14   11   15   18
+CONECT   14   18
+CONECT   15   14   16   17
+CONECT   15   16
+CONECT   16   15
+CONECT   16   15
+CONECT   17   12   15
+CONECT   18   14   19   20
+CONECT   18   14
+CONECT   19    9   18
+CONECT   19    9
+CONECT   20   18   21   25
+CONECT   20   25
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   20   24
+CONECT   25   20
+ENDMDL
+END   

@@ -1,0 +1,130 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5vfi_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  Q9A A 701       4.772  14.782  36.362  1.00  0.00           C  
+HETATM    2  C14 Q9A A 701       1.379  13.428  38.308  1.00  0.00           C  
+HETATM    3  C5  Q9A A 701       4.296  14.616  35.045  1.00  0.00           C  
+HETATM    4  C6  Q9A A 701       4.750  14.717  33.620  1.00  0.00           C  
+HETATM    5  C11 Q9A A 701       3.014  14.303  35.099  1.00  0.00           C  
+HETATM    6  C7  Q9A A 701       3.612  14.103  32.764  1.00  0.00           C  
+HETATM    7  C8  Q9A A 701       3.889  12.634  32.444  1.00  0.00           C  
+HETATM    8  C9  Q9A A 701       3.324  14.920  31.513  1.00  0.00           C  
+HETATM    9  C10 Q9A A 701       2.398  14.155  33.750  1.00  0.00           C  
+HETATM   10  C13 Q9A A 701       1.270  13.990  36.922  1.00  0.00           C  
+HETATM   11  C3  Q9A A 701       3.723  14.508  37.201  1.00  0.00           C  
+HETATM   12  O47 Q9A A 701      -0.858  20.130  44.620  1.00  0.00           O  
+HETATM   13  C46 Q9A A 701      -0.369  19.123  44.093  1.00  0.00           C  
+HETATM   14  C26 Q9A A 701      -0.729  17.817  44.575  1.00  0.00           C  
+HETATM   15  N27 Q9A A 701      -1.628  17.837  45.653  1.00  0.00           N  
+HETATM   16  C28 Q9A A 701      -1.994  16.785  46.470  1.00  0.00           C  
+HETATM   17  N33 Q9A A 701      -1.799  15.531  46.170  1.00  0.00           N  
+HETATM   18  C32 Q9A A 701      -2.163  14.547  46.977  1.00  0.00           C  
+HETATM   19  C31 Q9A A 701      -2.857  14.788  48.179  1.00  0.00           C  
+HETATM   20  N34 Q9A A 701      -3.266  13.683  48.998  1.00  0.00           N  
+HETATM   21  C39 Q9A A 701      -4.534  13.894  49.774  1.00  0.00           C  
+HETATM   22  C41 Q9A A 701      -5.681  14.122  48.782  1.00  0.00           C  
+HETATM   23  C38 Q9A A 701      -4.887  12.669  50.632  1.00  0.00           C  
+HETATM   24  N37 Q9A A 701      -3.727  12.208  51.424  1.00  0.00           N1+
+HETATM   25  C42 Q9A A 701      -4.082  11.040  52.280  1.00  0.00           C  
+HETATM   26  C45 Q9A A 701      -5.090  11.279  53.429  1.00  0.00           C  
+HETATM   27  O44 Q9A A 701      -3.933  11.470  54.272  1.00  0.00           O  
+HETATM   28  C43 Q9A A 701      -3.069  10.715  53.409  1.00  0.00           C  
+HETATM   29  C36 Q9A A 701      -2.657  11.816  50.477  1.00  0.00           C  
+HETATM   30  C35 Q9A A 701      -2.155  13.063  49.745  1.00  0.00           C  
+HETATM   31  C30 Q9A A 701      -3.129  16.112  48.503  1.00  0.00           C  
+HETATM   32  C29 Q9A A 701      -2.741  17.110  47.628  1.00  0.00           C  
+HETATM   33  C25 Q9A A 701      -0.223  16.682  44.002  1.00  0.00           C  
+HETATM   34  N48 Q9A A 701       0.502  19.231  43.076  1.00  0.00           N  
+HETATM   35  C49 Q9A A 701       0.931  20.524  42.501  1.00  0.00           C  
+HETATM   36  C50 Q9A A 701       1.030  18.095  42.517  1.00  0.00           C  
+HETATM   37  C24 Q9A A 701       0.687  16.821  42.919  1.00  0.00           C  
+HETATM   38  C20 Q9A A 701       1.312  15.614  42.306  1.00  0.00           C  
+HETATM   39  C19 Q9A A 701       1.799  14.586  43.125  1.00  0.00           C  
+HETATM   40  C18 Q9A A 701       2.397  13.474  42.579  1.00  0.00           C  
+HETATM   41  N17 Q9A A 701       2.563  13.308  41.274  1.00  0.00           N  
+HETATM   42  C21 Q9A A 701       1.513  15.455  40.919  1.00  0.00           C  
+HETATM   43  C22 Q9A A 701       0.987  16.492  39.968  1.00  0.00           C  
+HETATM   44  O23 Q9A A 701       1.938  17.316  39.325  1.00  0.00           O  
+HETATM   45  C16 Q9A A 701       2.170  14.277  40.453  1.00  0.00           C  
+HETATM   46  N15 Q9A A 701       2.364  14.110  39.118  1.00  0.00           N  
+HETATM   47  C2  Q9A A 701       3.575  14.586  38.613  1.00  0.00           C  
+HETATM   48  O1  Q9A A 701       4.499  15.130  39.282  1.00  0.00           O  
+HETATM   49  N12 Q9A A 701       2.615  14.205  36.395  1.00  0.00           N  
+CONECT    1    3   11
+CONECT    1   11
+CONECT    2   10   46
+CONECT    3    1    4    5
+CONECT    3    5
+CONECT    4    3    6
+CONECT    5    3    9   49
+CONECT    5    3
+CONECT    6    4    7    8    9
+CONECT    7    6
+CONECT    8    6
+CONECT    9    5    6
+CONECT   10    2   49
+CONECT   11    1   47   49
+CONECT   11    1
+CONECT   12   13
+CONECT   12   13
+CONECT   13   12   14   34
+CONECT   13   12
+CONECT   14   13   15   33
+CONECT   14   33
+CONECT   15   14   16
+CONECT   16   15   17   32
+CONECT   16   32
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   18   20   31
+CONECT   19   31
+CONECT   20   19   21   30
+CONECT   21   20   22   23
+CONECT   22   21
+CONECT   23   21   24
+CONECT   24   23   25   29
+CONECT   25   24   26   28
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   25   27
+CONECT   29   24   30
+CONECT   30   20   29
+CONECT   31   19   32
+CONECT   31   19
+CONECT   32   16   31
+CONECT   32   16
+CONECT   33   14   37
+CONECT   33   14
+CONECT   34   13   35   36
+CONECT   35   34
+CONECT   36   34   37
+CONECT   36   37
+CONECT   37   33   36   38
+CONECT   37   36
+CONECT   38   37   39   42
+CONECT   38   42
+CONECT   39   38   40
+CONECT   39   40
+CONECT   40   39   41
+CONECT   40   39
+CONECT   41   40   45
+CONECT   41   45
+CONECT   42   38   43   45
+CONECT   42   38
+CONECT   43   42   44
+CONECT   44   43
+CONECT   45   41   42   46
+CONECT   45   41
+CONECT   46    2   45   47
+CONECT   47   11   46   48
+CONECT   47   48
+CONECT   48   47
+CONECT   48   47
+CONECT   49    5   10   11
+ENDMDL
+END   

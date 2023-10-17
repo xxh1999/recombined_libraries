@@ -1,0 +1,97 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1VSN
+MODEL        1
+ATOM      1  N   CYS A  25       3.316  18.574   9.905  1.00  7.60           N1+
+ATOM      2  CA  CYS A  25       4.611  19.212   9.615  1.00  7.85           C  
+ATOM      3  C   CYS A  25       4.834  20.574  10.303  1.00  7.94           C  
+ATOM      4  O   CYS A  25       5.949  20.878  10.722  1.00  7.76           O  
+ATOM      5  CB  CYS A  25       4.791  19.314   8.085  1.00  9.06           C  
+ATOM      6  SG  CYS A  25       3.422  20.284   7.366  1.00  9.43           S  
+TER       7      CYS A  25
+HETATM    8  C46 NFT A 283      -6.125  24.711   7.172  1.00 12.29           C  
+HETATM    9  C08 NFT A 283      -3.821  25.565   6.616  1.00 12.36           C  
+HETATM   10  C09 NFT A 283      -4.823  24.577   6.484  1.00 12.57           C  
+HETATM   11  C10 NFT A 283      -4.541  23.447   5.683  1.00 12.42           C  
+HETATM   12  C11 NFT A 283      -3.303  23.310   5.028  1.00 12.87           C  
+HETATM   13  C07 NFT A 283      -2.577  25.428   5.970  1.00 12.95           C  
+HETATM   14  C06 NFT A 283      -2.307  24.297   5.171  1.00 12.87           C  
+HETATM   15  C15 NFT A 283      -0.975  24.148   4.439  1.00 13.74           C  
+HETATM   16  C16 NFT A 283      -0.966  24.946   3.116  1.00 14.46           C  
+HETATM   17  F35 NFT A 283      -2.018  24.607   2.370  1.00 14.88           F  
+HETATM   18  F36 NFT A 283      -1.008  26.258   3.352  1.00 15.80           F  
+HETATM   19  F37 NFT A 283       0.134  24.671   2.419  1.00 15.30           F  
+HETATM   20  N26 NFT A 283       1.598  21.317   5.020  1.00 12.11           N  
+HETATM   21  C41 NFT A 283       1.531  19.903   5.372  1.00 10.66           C  
+HETATM   22  N24 NFT A 283       0.146  24.576   5.278  1.00 13.18           N  
+HETATM   23  C17 NFT A 283       1.366  23.748   5.205  1.00 13.44           C  
+HETATM   24  C18 NFT A 283       2.507  24.437   5.992  1.00 13.26           C  
+HETATM   25  C19 NFT A 283       3.271  25.593   5.293  1.00 14.02           C  
+HETATM   26  C20 NFT A 283       2.500  26.355   4.200  1.00 14.32           C  
+HETATM   27  C21 NFT A 283       3.780  26.587   6.348  1.00 14.21           C  
+HETATM   28  C22 NFT A 283       1.135  22.334   5.763  1.00 12.02           C  
+HETATM   29  O23 NFT A 283       0.561  22.178   6.840  1.00 12.78           O  
+HETATM   30  C47 NFT A 283      -7.318  24.239   6.574  1.00 12.55           C  
+HETATM   31  C48 NFT A 283      -8.550  24.307   7.253  1.00 12.74           C  
+HETATM   32  C50 NFT A 283      -8.598  24.854   8.548  1.00 13.14           C  
+HETATM   33  C51 NFT A 283      -7.432  25.362   9.147  1.00 13.77           C  
+HETATM   34  C52 NFT A 283      -6.205  25.290   8.461  1.00 12.89           C  
+HETATM   35  S60 NFT A 283     -10.125  24.871   9.475  1.00 13.93           S  
+HETATM   36  N63 NFT A 283      -9.840  23.639  10.637  1.00 13.33           N  
+HETATM   37  O61 NFT A 283     -10.227  26.147  10.198  1.00 14.66           O  
+HETATM   38  O62 NFT A 283     -11.216  24.411   8.601  1.00 14.42           O  
+HETATM   39  C44 NFT A 283       2.886  19.377   5.881  1.00 11.20           C  
+HETATM   40  N45 NFT A 283       2.777  17.941   6.187  1.00 10.20           N1+
+CONECT    8   10   30   34
+CONECT    8   30
+CONECT    9   10   13
+CONECT    9   13
+CONECT   10    8    9   11
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   14
+CONECT   12   14
+CONECT   13    9   14
+CONECT   13    9
+CONECT   14   12   13   15
+CONECT   14   12
+CONECT   15   14   16   22
+CONECT   16   15   17   18   19
+CONECT   17   16
+CONECT   18   16
+CONECT   19   16
+CONECT   20   21   28
+CONECT   21   20   39
+CONECT   22   15   23
+CONECT   23   22   24   28
+CONECT   24   23   25
+CONECT   25   24   26   27
+CONECT   26   25
+CONECT   27   25
+CONECT   28   20   23   29
+CONECT   28   29
+CONECT   29   28
+CONECT   29   28
+CONECT   30    8   31
+CONECT   30    8
+CONECT   31   30   32
+CONECT   31   32
+CONECT   32   31   33   35
+CONECT   32   31
+CONECT   33   32   34
+CONECT   33   34
+CONECT   34    8   33
+CONECT   34   33
+CONECT   35   32   36   37   38
+CONECT   35   37   38
+CONECT   36   35
+CONECT   37   35
+CONECT   37   35
+CONECT   38   35
+CONECT   38   35
+CONECT   39    6   21   40
+CONECT   40   39
+ENDMDL
+END   

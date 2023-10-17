@@ -1,0 +1,76 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3r04_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C01 UNQ A 555       0.622  19.081  42.820  1.00  0.00           C  
+HETATM    2  C02 UNQ A 555       1.626  18.991  40.688  1.00  0.00           C  
+HETATM    3  C03 UNQ A 555       1.255  18.320  41.819  1.00  0.00           C  
+HETATM    4  C04 UNQ A 555       1.397  20.374  40.528  1.00  0.00           C  
+HETATM    5  C05 UNQ A 555       0.415  20.482  42.649  1.00  0.00           C  
+HETATM    6  C06 UNQ A 555       0.834  21.197  41.534  1.00  0.00           C  
+HETATM    7  O07 UNQ A 555       1.903  20.796  39.317  1.00  0.00           O  
+HETATM    8  C08 UNQ A 555       2.299  18.495  39.467  1.00  0.00           C  
+HETATM    9  C09 UNQ A 555       2.433  19.637  38.744  1.00  0.00           C  
+HETATM   10  C10 UNQ A 555       2.977  19.737  37.333  1.00  0.00           C  
+HETATM   11  O11 UNQ A 555       3.496  18.778  36.732  1.00  0.00           O  
+HETATM   12  O12 UNQ A 555       2.585  20.884  36.792  1.00  0.00           O1-
+HETATM   13  C13 UNQ A 555       0.114  18.328  43.995  1.00  0.00           C  
+HETATM   14  C14 UNQ A 555      -0.659  16.404  45.161  1.00  0.00           C  
+HETATM   15  N15 UNQ A 555      -0.125  16.970  44.002  1.00  0.00           N  
+HETATM   16  C16 UNQ A 555      -0.959  17.202  46.292  1.00  0.00           C  
+HETATM   17  C17 UNQ A 555      -0.265  19.092  45.119  1.00  0.00           C  
+HETATM   18  N18 UNQ A 555      -0.767  18.534  46.264  1.00  0.00           N  
+HETATM   19  N19 UNQ A 555      -0.864  15.016  45.166  1.00  0.00           N  
+HETATM   20  C20 UNQ A 555      -0.299  14.223  44.013  1.00  0.00           C  
+HETATM   21  C21 UNQ A 555      -0.129  12.727  44.441  1.00  0.00           C  
+HETATM   22  C22 UNQ A 555       0.272  11.830  43.230  1.00  0.00           C  
+HETATM   23  C23 UNQ A 555      -0.699  11.978  42.028  1.00  0.00           C  
+HETATM   24  C24 UNQ A 555      -0.815  13.467  41.637  1.00  0.00           C  
+HETATM   25  C25 UNQ A 555      -1.313  14.305  42.816  1.00  0.00           C  
+HETATM   26  N26 UNQ A 555      -0.425  11.109  40.923  1.00  0.00           N1+
+CONECT    1    3    5   13
+CONECT    1    3
+CONECT    2    3    4    8
+CONECT    2    4
+CONECT    3    1    2
+CONECT    3    1
+CONECT    4    2    6    7
+CONECT    4    2
+CONECT    5    1    6
+CONECT    5    6
+CONECT    6    4    5
+CONECT    6    5
+CONECT    7    4    9
+CONECT    8    2    9
+CONECT    8    9
+CONECT    9    7    8   10
+CONECT    9    8
+CONECT   10    9   11   12
+CONECT   10   11
+CONECT   11   10
+CONECT   11   10
+CONECT   12   10
+CONECT   13    1   15   17
+CONECT   13   15
+CONECT   14   15   16   19
+CONECT   14   16
+CONECT   15   13   14
+CONECT   15   13
+CONECT   16   14   18
+CONECT   16   14
+CONECT   17   13   18
+CONECT   17   18
+CONECT   18   16   17
+CONECT   18   17
+CONECT   19   14   20
+CONECT   20   19   21   25
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   23   22   24   26
+CONECT   24   23   25
+CONECT   25   20   24
+CONECT   26   23
+ENDMDL
+END   

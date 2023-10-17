@@ -1,0 +1,82 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3kc3_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  MK2 E 500      -3.301  14.725  46.786  1.00  0.00           C  
+HETATM    2  C2  MK2 E 500      -3.319  13.814  45.754  1.00  0.00           C  
+HETATM    3  C3  MK2 E 500      -2.670  15.944  46.671  1.00  0.00           C  
+HETATM    4  C4  MK2 E 500      -2.727  14.012  44.525  1.00  0.00           C  
+HETATM    5  C5  MK2 E 500       3.043  16.719  37.687  1.00  0.00           C  
+HETATM    6  C6  MK2 E 500       3.745  17.199  36.617  1.00  0.00           C  
+HETATM    7  C7  MK2 E 500      -1.324  17.260  44.931  1.00  0.00           C  
+HETATM    8  C8  MK2 E 500       1.139  19.236  40.603  1.00  0.00           C  
+HETATM    9  C9  MK2 E 500       0.345  17.094  41.486  1.00  0.00           C  
+HETATM   10  C10 MK2 E 500       0.423  21.013  42.077  1.00  0.00           C  
+HETATM   11  C11 MK2 E 500      -2.058  16.177  45.456  1.00  0.00           C  
+HETATM   12  C12 MK2 E 500      -2.107  15.232  44.443  1.00  0.00           C  
+HETATM   13  C13 MK2 E 500       2.267  17.625  38.370  1.00  0.00           C  
+HETATM   14  C14 MK2 E 500       1.014  17.851  40.527  1.00  0.00           C  
+HETATM   15  C15 MK2 E 500       0.515  19.700  41.735  1.00  0.00           C  
+HETATM   16  C16 MK2 E 500      -0.262  17.620  42.616  1.00  0.00           C  
+HETATM   17  C17 MK2 E 500      -0.979  16.910  43.645  1.00  0.00           C  
+HETATM   18  C18 MK2 E 500      -0.165  18.988  42.727  1.00  0.00           C  
+HETATM   19  C19 MK2 E 500       2.921  19.272  36.960  1.00  0.00           C  
+HETATM   20  N20 MK2 E 500       2.868  20.605  36.582  1.00  0.00           N  
+HETATM   21  N21 MK2 E 500      -0.653  19.818  43.658  1.00  0.00           N  
+HETATM   22  N22 MK2 E 500       3.705  18.471  36.226  1.00  0.00           N  
+HETATM   23  N23 MK2 E 500      -0.280  21.032  43.248  1.00  0.00           N  
+HETATM   24  N24 MK2 E 500       2.192  18.913  38.024  1.00  0.00           N  
+HETATM   25  N25 MK2 E 500       1.557  17.107  39.459  1.00  0.00           N  
+HETATM   26  O26 MK2 E 500      -1.448  15.672  43.334  1.00  0.00           O  
+CONECT    1    2    3
+CONECT    1    2
+CONECT    2    1    4
+CONECT    2    1
+CONECT    3    1   11
+CONECT    3   11
+CONECT    4    2   12
+CONECT    4   12
+CONECT    5    6   13
+CONECT    5    6
+CONECT    6    5   22
+CONECT    6    5
+CONECT    7   11   17
+CONECT    7   17
+CONECT    8   14   15
+CONECT    8   14
+CONECT    9   14   16
+CONECT    9   16
+CONECT   10   15   23
+CONECT   10   23
+CONECT   11    3    7   12
+CONECT   11    3
+CONECT   12    4   11   26
+CONECT   12    4
+CONECT   13    5   24   25
+CONECT   13   24
+CONECT   14    8    9   25
+CONECT   14    8
+CONECT   15    8   10   18
+CONECT   15   18
+CONECT   16    9   17   18
+CONECT   16    9
+CONECT   17    7   16   26
+CONECT   17    7
+CONECT   18   15   16   21
+CONECT   18   15
+CONECT   19   20   22   24
+CONECT   19   22
+CONECT   20   19
+CONECT   21   18   23
+CONECT   22    6   19
+CONECT   22   19
+CONECT   23   10   21
+CONECT   23   10
+CONECT   24   13   19
+CONECT   24   13
+CONECT   25   13   14
+CONECT   26   12   17
+ENDMDL
+END   

@@ -1,0 +1,82 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2jbp_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C19 P4O L1345      -0.647  16.810  44.938  1.00  0.00           C  
+HETATM    2  C20 P4O L1345      -0.976  16.158  46.123  1.00  0.00           C  
+HETATM    3  C25 P4O L1345      -0.943  14.768  46.197  1.00  0.00           C  
+HETATM    4  C24 P4O L1345      -1.203  14.140  47.411  1.00  0.00           C  
+HETATM    5  C23 P4O L1345      -1.497  14.894  48.542  1.00  0.00           C  
+HETATM    6  C22 P4O L1345      -1.535  16.283  48.469  1.00  0.00           C  
+HETATM    7  C21 P4O L1345      -1.272  16.913  47.257  1.00  0.00           C  
+HETATM    8  N16 P4O L1345      -1.237  18.253  47.195  1.00  0.00           N  
+HETATM    9  C17 P4O L1345      -0.921  18.894  46.081  1.00  0.00           C  
+HETATM   10  C18 P4O L1345      -0.611  18.202  44.913  1.00  0.00           C  
+HETATM   11  C14 P4O L1345      -0.217  18.919  43.786  1.00  0.00           C  
+HETATM   12  C13 P4O L1345       0.286  18.300  42.645  1.00  0.00           C  
+HETATM   13  N15 P4O L1345      -0.312  20.259  43.826  1.00  0.00           N  
+HETATM   14  C10 P4O L1345       0.054  21.031  42.818  1.00  0.00           C  
+HETATM   15  C11 P4O L1345       0.561  20.465  41.654  1.00  0.00           C  
+HETATM   16  C12 P4O L1345       0.683  19.081  41.562  1.00  0.00           C  
+HETATM   17  C2  P4O L1345       1.176  18.499  40.396  1.00  0.00           C  
+HETATM   18  C3  P4O L1345       1.738  19.154  39.381  1.00  0.00           C  
+HETATM   19  C4  P4O L1345       2.083  18.280  38.441  1.00  0.00           C  
+HETATM   20  C6  P4O L1345       2.674  18.379  37.185  1.00  0.00           C  
+HETATM   21  O26 P4O L1345       2.831  19.479  36.658  1.00  0.00           O  
+HETATM   22  N7  P4O L1345       3.136  17.218  36.542  1.00  0.00           N  
+HETATM   23  C8  P4O L1345       3.052  15.865  37.144  1.00  0.00           C  
+HETATM   24  C9  P4O L1345       1.859  15.738  38.094  1.00  0.00           C  
+HETATM   25  C5  P4O L1345       1.709  17.026  38.906  1.00  0.00           C  
+HETATM   26  N1  P4O L1345       1.162  17.198  40.106  1.00  0.00           N  
+CONECT    1    2   10
+CONECT    1   10
+CONECT    2    1    3    7
+CONECT    2    7
+CONECT    3    2    4
+CONECT    3    4
+CONECT    4    3    5
+CONECT    4    3
+CONECT    5    4    6
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    2    6    8
+CONECT    7    2
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    1    9   11
+CONECT   10    1
+CONECT   11   10   12   13
+CONECT   11   13
+CONECT   12   11   16
+CONECT   12   16
+CONECT   13   11   14
+CONECT   13   11
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   12   15   17
+CONECT   16   12
+CONECT   17   16   18   26
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   18   20   25
+CONECT   19   25
+CONECT   20   19   21   22
+CONECT   20   21
+CONECT   21   20
+CONECT   21   20
+CONECT   22   20   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   19   24   26
+CONECT   25   19
+CONECT   26   17   25
+ENDMDL
+END   

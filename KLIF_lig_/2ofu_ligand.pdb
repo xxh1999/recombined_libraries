@@ -1,0 +1,134 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2ofu_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C13 Q1N A   1      -0.503  18.972  43.945  1.00  0.00           C  
+HETATM    2  N1  Q1N A   1       0.279  18.389  43.019  1.00  0.00           N  
+HETATM    3  C19 Q1N A   1       0.965  19.128  42.136  1.00  0.00           C  
+HETATM    4  C20 Q1N A   1       0.880  20.567  42.137  1.00  0.00           C  
+HETATM    5  C5  Q1N A   1       0.048  21.117  43.111  1.00  0.00           C  
+HETATM    6  N3  Q1N A   1      -0.605  20.304  43.963  1.00  0.00           N  
+HETATM    7  N4  Q1N A   1      -1.187  18.273  44.906  1.00  0.00           N  
+HETATM    8  C9  Q1N A   1      -1.208  16.906  45.112  1.00  0.00           C  
+HETATM    9  N6  Q1N A   1       1.739  18.375  41.232  1.00  0.00           N  
+HETATM   10  C10 Q1N A   1       1.911  16.976  41.275  1.00  0.00           C  
+HETATM   11  C11 Q1N A   1       1.424  16.202  40.142  1.00  0.00           C  
+HETATM   12  C12 Q1N A   1       2.340  19.099  40.229  1.00  0.00           C  
+HETATM   13  C14 Q1N A   1       2.591  16.363  42.420  1.00  0.00           C  
+HETATM   14  C15 Q1N A   1       2.790  14.957  42.422  1.00  0.00           C  
+HETATM   15  C16 Q1N A   1       2.306  14.201  41.300  1.00  0.00           C  
+HETATM   16  C17 Q1N A   1       1.628  14.781  40.148  1.00  0.00           C  
+HETATM   17  C18 Q1N A   1      -1.007  15.880  44.101  1.00  0.00           C  
+HETATM   18  C21 Q1N A   1      -1.092  14.503  44.433  1.00  0.00           C  
+HETATM   19  C22 Q1N A   1      -1.390  14.177  45.800  1.00  0.00           C  
+HETATM   20  C23 Q1N A   1      -1.585  15.183  46.808  1.00  0.00           C  
+HETATM   21  C24 Q1N A   1      -1.490  16.567  46.449  1.00  0.00           C  
+HETATM   22  O1  Q1N A   1       3.660  18.485  39.883  1.00  0.00           O  
+HETATM   23  C25 Q1N A   1       4.470  19.323  38.911  1.00  0.00           C  
+HETATM   24  C26 Q1N A   1       5.183  20.436  39.419  1.00  0.00           C  
+HETATM   25  C27 Q1N A   1       5.953  21.221  38.476  1.00  0.00           C  
+HETATM   26  C28 Q1N A   1       5.920  20.812  37.109  1.00  0.00           C  
+HETATM   27  C29 Q1N A   1       5.181  19.680  36.626  1.00  0.00           C  
+HETATM   28  C30 Q1N A   1       4.416  18.899  37.576  1.00  0.00           C  
+HETATM   29  C31 Q1N A   1       3.595  17.716  37.186  1.00  0.00           C  
+HETATM   30  C32 Q1N A   1       5.112  20.810  40.854  1.00  0.00           C  
+HETATM   31  O6  Q1N A   1      -1.844  14.726  48.112  1.00  0.00           O  
+HETATM   32  C33 Q1N A   1      -2.076  15.647  49.186  1.00  0.00           C  
+HETATM   33  O2  Q1N A   1       1.989  20.038  39.654  1.00  0.00           O  
+HETATM   34  O3  Q1N A   1       2.484  12.816  41.439  1.00  0.00           O  
+HETATM   35  O4  Q1N A   1       0.756  16.918  39.099  1.00  0.00           O  
+HETATM   36  C36 Q1N A   1       0.473  16.245  37.846  1.00  0.00           C  
+HETATM   37  C37 Q1N A   1       2.876  12.045  40.306  1.00  0.00           C  
+HETATM   38  O5  Q1N A   1      -1.514  12.817  46.113  1.00  0.00           O  
+HETATM   39  C7  Q1N A   1      -0.242  12.228  46.373  1.00  0.00           C  
+HETATM   40  C8  Q1N A   1      -0.463  10.862  46.922  1.00  0.00           C  
+HETATM   41  C35 Q1N A   1      -1.345  10.029  45.988  1.00  0.00           C  
+HETATM   42  O7  Q1N A   1      -0.868  13.469  43.486  1.00  0.00           O  
+HETATM   43  C34 Q1N A   1      -1.188  13.597  42.083  1.00  0.00           C  
+HETATM   44  C1  Q1N A   1      -0.538   6.646  47.683  1.00  0.00           C  
+HETATM   45  N2  Q1N A   1      -1.694   5.910  47.054  1.00  0.00           N  
+HETATM   46  C3  Q1N A   1      -1.936   6.276  45.612  1.00  0.00           C  
+HETATM   47  C4  Q1N A   1      -2.183   7.829  45.486  1.00  0.00           C  
+HETATM   48  N5  Q1N A   1      -1.042   8.587  46.094  1.00  0.00           N1+
+HETATM   49  C6  Q1N A   1      -0.846   8.171  47.525  1.00  0.00           C  
+HETATM   50  C2  Q1N A   1      -2.960   6.152  47.806  1.00  0.00           C  
+CONECT    1    2    6    7
+CONECT    1    6
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2    4    9
+CONECT    3    2
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    1    5
+CONECT    6    1
+CONECT    7    1    8
+CONECT    8    7   17   21
+CONECT    8   21
+CONECT    9    3   10   12
+CONECT   10    9   11   13
+CONECT   10   13
+CONECT   11   10   16   35
+CONECT   11   16
+CONECT   12    9   22   33
+CONECT   12   33
+CONECT   13   10   14
+CONECT   13   10
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16   34
+CONECT   15   14
+CONECT   16   11   15
+CONECT   16   11
+CONECT   17    8   18
+CONECT   17   18
+CONECT   18   17   19   42
+CONECT   18   17
+CONECT   19   18   20   38
+CONECT   19   20
+CONECT   20   19   21   31
+CONECT   20   19
+CONECT   21    8   20
+CONECT   21    8
+CONECT   22   12   23
+CONECT   23   22   24   28
+CONECT   23   28
+CONECT   24   23   25   30
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26   25   27
+CONECT   26   27
+CONECT   27   26   28
+CONECT   27   26
+CONECT   28   23   27   29
+CONECT   28   23
+CONECT   29   28
+CONECT   30   24
+CONECT   31   20   32
+CONECT   32   31
+CONECT   33   12
+CONECT   33   12
+CONECT   34   15   37
+CONECT   35   11   36
+CONECT   36   35
+CONECT   37   34
+CONECT   38   19   39
+CONECT   39   38   40
+CONECT   40   39   41
+CONECT   41   40   48
+CONECT   42   18   43
+CONECT   43   42
+CONECT   44   45   49
+CONECT   45   44   46   50
+CONECT   46   45   47
+CONECT   47   46   48
+CONECT   48   41   47   49
+CONECT   49   44   48
+CONECT   50   45
+ENDMDL
+END   

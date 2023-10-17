@@ -1,0 +1,80 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2brg_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C2  DFY A1270       0.328  21.070  42.811  1.00  0.00           C  
+HETATM    2  C10 DFY A1270      -0.832  17.252  44.888  1.00  0.00           C  
+HETATM    3  C11 DFY A1270      -1.350  16.289  45.795  1.00  0.00           C  
+HETATM    4  C12 DFY A1270      -0.718  15.043  46.020  1.00  0.00           C  
+HETATM    5  C13 DFY A1270      -1.222  14.108  46.932  1.00  0.00           C  
+HETATM    6  C14 DFY A1270      -2.355  14.428  47.669  1.00  0.00           C  
+HETATM    7  C15 DFY A1270      -2.964  15.667  47.471  1.00  0.00           C  
+HETATM    8  C16 DFY A1270      -2.485  16.603  46.552  1.00  0.00           C  
+HETATM    9  C19 DFY A1270      -0.516  14.792  43.021  1.00  0.00           C  
+HETATM   10  C20 DFY A1270      -0.094  13.496  42.718  1.00  0.00           C  
+HETATM   11  C21 DFY A1270       1.254  13.155  42.797  1.00  0.00           C  
+HETATM   12  C22 DFY A1270       2.183  14.138  43.181  1.00  0.00           C  
+HETATM   13  N1  DFY A1270      -0.355  20.579  43.862  1.00  0.00           N  
+HETATM   14  C6  DFY A1270      -0.398  19.269  44.082  1.00  0.00           C  
+HETATM   15  O6  DFY A1270      -1.051  18.590  45.077  1.00  0.00           O  
+HETATM   16  C5  DFY A1270       0.286  18.365  43.226  1.00  0.00           C  
+HETATM   17  N9  DFY A1270       1.742  18.268  41.205  1.00  0.00           N  
+HETATM   18  C4  DFY A1270       1.008  18.940  42.135  1.00  0.00           C  
+HETATM   19  N3  DFY A1270       0.998  20.290  41.966  1.00  0.00           N  
+HETATM   20  C17 DFY A1270       1.765  15.437  43.492  1.00  0.00           C  
+HETATM   21  C1  DFY A1270      -0.018  17.077  43.758  1.00  0.00           C  
+HETATM   22  C18 DFY A1270       0.408  15.786  43.392  1.00  0.00           C  
+HETATM   23  C23 DFY A1270       1.992  19.693  39.152  1.00  0.00           C  
+HETATM   24  C8  DFY A1270       2.703  19.090  40.404  1.00  0.00           C  
+HETATM   25  O24 DFY A1270       1.549  21.042  39.377  1.00  0.00           O  
+HETATM   26  CAA DFY A1270       1.599  16.814  41.026  1.00  0.00           C  
+CONECT    1   13   19
+CONECT    1   19
+CONECT    2    3   15   21
+CONECT    2   21
+CONECT    3    2    4    8
+CONECT    3    8
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    5    7
+CONECT    6    7
+CONECT    7    6    8
+CONECT    7    6
+CONECT    8    3    7
+CONECT    8    3
+CONECT    9   10   22
+CONECT    9   22
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   20
+CONECT   12   20
+CONECT   13    1   14
+CONECT   13   14
+CONECT   14   13   15   16
+CONECT   14   13
+CONECT   15    2   14
+CONECT   16   14   18   21
+CONECT   16   18
+CONECT   17   18   24   26
+CONECT   18   16   17   19
+CONECT   18   16
+CONECT   19    1   18
+CONECT   19    1
+CONECT   20   12   22
+CONECT   20   12
+CONECT   21    2   16   22
+CONECT   21    2
+CONECT   22    9   20   21
+CONECT   22    9
+CONECT   23   24   25
+CONECT   24   17   23
+CONECT   25   23
+CONECT   26   17
+ENDMDL
+END   

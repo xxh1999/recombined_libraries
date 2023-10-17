@@ -1,0 +1,41 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5JAW
+MODEL        1
+ATOM      1  N   GLU A 349      59.406  23.517 -39.325  1.00 15.08           N1+
+ATOM      2  CA  GLU A 349      59.825  24.929 -39.518  1.00 15.83           C  
+ATOM      3  C   GLU A 349      60.938  24.833 -40.559  1.00 15.41           C  
+ATOM      4  O   GLU A 349      61.761  23.958 -40.500  1.00 16.18           O  
+ATOM      5  CB  GLU A 349      60.362  25.618 -38.259  1.00 15.79           C  
+ATOM      6  CG  GLU A 349      60.887  27.051 -38.449  1.00 14.84           C  
+ATOM      7  CD  GLU A 349      61.828  27.471 -37.321  1.00 14.72           C  
+ATOM      8  OE1 GLU A 349      61.245  28.196 -36.249  1.00 15.46           O  
+ATOM      9  OE2 GLU A 349      62.953  27.029 -37.260  1.00 16.72           O1-
+TER      10      GLU A 349
+HETATM   11  C1  UUU A 601      61.051  31.206 -34.565  1.00 15.66           C  
+HETATM   12  C2  UUU A 601      62.066  30.960 -35.677  1.00 15.96           C  
+HETATM   13  C3  UUU A 601      62.918  29.702 -35.421  1.00 14.25           C  
+HETATM   14  C4  UUU A 601      62.100  28.468 -35.109  1.00 15.17           C  
+HETATM   15  C5  UUU A 601      61.109  28.771 -33.984  1.00 16.25           C  
+HETATM   16  C6  UUU A 601      60.194  29.980 -34.356  1.00 16.48           C  
+HETATM   17  C8  UUU A 601      62.948  32.193 -35.822  1.00 16.13           C  
+HETATM   18  O8  UUU A 601      62.202  33.259 -36.362  1.00 17.51           O  
+HETATM   19  O1  UUU A 601      61.715  31.598 -33.362  1.00 14.92           O  
+HETATM   20  O6  UUU A 601      59.210  30.206 -33.303  1.00 14.85           O  
+HETATM   21  O5  UUU A 601      60.322  27.586 -33.708  1.00 16.36           O  
+HETATM   22  N1  UUU A 601      63.916  29.983 -34.345  1.00 15.37           N  
+CONECT   11   12   16   19
+CONECT   12   11   13   17
+CONECT   13   12   14   22
+CONECT   14    8   13   15
+CONECT   15   14   16   21
+CONECT   16   11   15   20
+CONECT   17   12   18
+CONECT   18   17
+CONECT   19   11
+CONECT   20   16
+CONECT   21   15
+CONECT   22   13
+ENDMDL
+END   

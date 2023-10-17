@@ -1,0 +1,46 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6hor_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C12 GJK A 401       0.564  17.021  43.051  1.00  0.00           C  
+HETATM    2  C13 GJK A 401       0.183  18.142  43.990  1.00  0.00           C  
+HETATM    3  C01 GJK A 401       3.639  16.312  37.327  1.00  0.00           C  
+HETATM    4  O02 GJK A 401       3.542  17.685  36.985  1.00  0.00           O  
+HETATM    5  C03 GJK A 401       2.933  18.547  37.913  1.00  0.00           C  
+HETATM    6  C04 GJK A 401       2.859  19.900  37.584  1.00  0.00           C  
+HETATM    7  O05 GJK A 401       3.384  20.332  36.362  1.00  0.00           O  
+HETATM    8  C06 GJK A 401       2.279  20.830  38.445  1.00  0.00           C  
+HETATM    9  C07 GJK A 401       1.769  20.389  39.657  1.00  0.00           C  
+HETATM   10  C08 GJK A 401       1.831  19.043  39.996  1.00  0.00           C  
+HETATM   11  C09 GJK A 401       2.417  18.111  39.135  1.00  0.00           C  
+HETATM   12  C10 GJK A 401       1.250  18.635  41.342  1.00  0.00           C  
+HETATM   13  C11 GJK A 401       1.143  17.343  41.693  1.00  0.00           C  
+HETATM   14  O14 GJK A 401       0.433  15.864  43.390  1.00  0.00           O  
+CONECT    1    2   13   14
+CONECT    1   14
+CONECT    2    1
+CONECT    3    4
+CONECT    4    3    5
+CONECT    5    4    6   11
+CONECT    5   11
+CONECT    6    5    7    8
+CONECT    6    8
+CONECT    7    6
+CONECT    8    6    9
+CONECT    8    6
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11   12
+CONECT   10    9
+CONECT   11    5   10
+CONECT   11    5
+CONECT   12   10   13
+CONECT   12   13
+CONECT   13    1   12
+CONECT   13   12
+CONECT   14    1
+CONECT   14    1
+ENDMDL
+END   

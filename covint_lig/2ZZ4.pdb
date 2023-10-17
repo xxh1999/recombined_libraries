@@ -1,0 +1,67 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2ZZ4
+MODEL        1
+ATOM      1  N   LYS A  72      24.530 -21.707  22.374  1.00 10.68           N1+
+ATOM      2  CA  LYS A  72      25.987 -21.571  22.536  1.00  9.98           C  
+ATOM      3  C   LYS A  72      26.371 -21.343  24.004  1.00 10.74           C  
+ATOM      4  O   LYS A  72      27.045 -20.374  24.349  1.00 11.34           O  
+ATOM      5  CB  LYS A  72      26.524 -20.510  21.545  1.00 11.02           C  
+ATOM      6  CG  LYS A  72      26.622 -21.121  20.136  1.00 11.90           C  
+ATOM      7  CD  LYS A  72      26.774 -20.118  18.991  1.00 13.59           C  
+ATOM      8  CE  LYS A  72      26.764 -20.827  17.626  1.00 10.02           C  
+ATOM      9  NZ  LYS A  72      26.511 -19.910  16.525  1.00 12.98           N1+
+TER      10      LYS A  72
+HETATM   11  O3P 6CN A 301      24.666 -17.163   7.598  1.00  9.01           O  
+HETATM   12  P   6CN A 301      24.518 -16.209   8.764  1.00  8.48           P  
+HETATM   13  O1P 6CN A 301      25.823 -15.523   9.121  1.00  9.97           O1-
+HETATM   14  O2P 6CN A 301      23.397 -15.217   8.555  1.00  9.51           O1-
+HETATM   15  O5' 6CN A 301      24.038 -17.120  10.036  1.00  8.79           O  
+HETATM   16  C5' 6CN A 301      25.059 -17.568  10.910  1.00  7.89           C  
+HETATM   17  C4' 6CN A 301      24.413 -18.347  12.064  1.00  7.70           C  
+HETATM   18  C3' 6CN A 301      23.770 -17.421  13.102  1.00  7.54           C  
+HETATM   19  O3' 6CN A 301      22.593 -18.043  13.583  1.00  9.26           O  
+HETATM   20  C2' 6CN A 301      24.835 -17.307  14.183  1.00  8.20           C  
+HETATM   21  O2' 6CN A 301      24.249 -17.042  15.439  1.00 10.51           O  
+HETATM   22  O4' 6CN A 301      25.397 -19.110  12.769  1.00  7.76           O  
+HETATM   23  C1' 6CN A 301      25.496 -18.684  14.099  1.00  8.59           C  
+HETATM   24  N1  6CN A 301      26.964 -18.668  14.511  1.00  9.07           N  
+HETATM   25  C6  6CN A 301      27.423 -19.296  15.680  1.00 11.38           C  
+HETATM   26  C5  6CN A 301      28.745 -19.288  16.009  1.00 10.24           C  
+HETATM   27  C4  6CN A 301      29.732 -18.649  15.159  1.00  9.88           C  
+HETATM   28  O4  6CN A 301      30.932 -18.599  15.382  1.00 10.37           O  
+HETATM   29  N3  6CN A 301      29.227 -18.057  14.017  1.00  6.63           N  
+HETATM   30  C2  6CN A 301      27.890 -18.018  13.663  1.00  9.92           C  
+HETATM   31  O2  6CN A 301      27.580 -17.429  12.636  1.00  8.55           O  
+CONECT   11   12
+CONECT   11   12
+CONECT   12   11   13   14   15
+CONECT   12   11
+CONECT   13   12
+CONECT   14   12
+CONECT   15   12   16
+CONECT   16   15   17
+CONECT   17   16   18   22
+CONECT   18   17   19   20
+CONECT   19   18
+CONECT   20   18   21   23
+CONECT   21   20
+CONECT   22   17   23
+CONECT   23   20   22   24
+CONECT   24   23   25   30
+CONECT   25    9   24   26
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   26   28   29
+CONECT   27   28
+CONECT   28   27
+CONECT   28   27
+CONECT   29   27   30
+CONECT   30   24   29   31
+CONECT   30   31
+CONECT   31   30
+CONECT   31   30
+ENDMDL
+END   

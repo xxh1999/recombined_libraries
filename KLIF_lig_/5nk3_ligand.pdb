@@ -1,0 +1,90 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5nk3_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CAV Q92 A1001       1.399  11.380  43.766  1.00  0.00           C  
+HETATM    2  CAU Q92 A1001       1.517   9.950  43.213  1.00  0.00           C  
+HETATM    3  NAT Q92 A1001       0.377   9.225  43.816  1.00  0.00           N1+
+HETATM    4  CAS Q92 A1001      -0.127  10.143  44.857  1.00  0.00           C  
+HETATM    5  CAR Q92 A1001      -0.070  11.441  44.117  1.00  0.00           C  
+HETATM    6  NAQ Q92 A1001      -0.385  12.598  44.993  1.00  0.00           N  
+HETATM    7  CAP Q92 A1001      -0.381  13.853  44.503  1.00  0.00           C  
+HETATM    8  OAW Q92 A1001      -0.131  14.102  43.327  1.00  0.00           O  
+HETATM    9  CAO Q92 A1001      -0.713  14.885  45.393  1.00  0.00           C  
+HETATM   10  CAX Q92 A1001      -0.715  16.213  44.950  1.00  0.00           C  
+HETATM   11  CAN Q92 A1001      -1.056  14.605  46.709  1.00  0.00           C  
+HETATM   12  CAM Q92 A1001      -1.386  15.647  47.573  1.00  0.00           C  
+HETATM   13  CAL Q92 A1001      -1.379  16.968  47.118  1.00  0.00           C  
+HETATM   14  CAK Q92 A1001      -1.032  17.275  45.805  1.00  0.00           C  
+HETATM   15  NAJ Q92 A1001      -1.067  18.589  45.449  1.00  0.00           N  
+HETATM   16  CAI Q92 A1001      -0.299  19.176  44.516  1.00  0.00           C  
+HETATM   17  SAY Q92 A1001       0.783  18.511  43.432  1.00  0.00           S  
+HETATM   18  NAH Q92 A1001      -0.313  20.500  44.297  1.00  0.00           N  
+HETATM   19  CAG Q92 A1001       0.516  20.925  43.301  1.00  0.00           C  
+HETATM   20  CAF Q92 A1001       1.217  19.937  42.715  1.00  0.00           C  
+HETATM   21  CAE Q92 A1001       2.117  20.020  41.712  1.00  0.00           C  
+HETATM   22  OAZ Q92 A1001       2.551  18.989  41.201  1.00  0.00           O  
+HETATM   23  NAD Q92 A1001       2.517  21.252  41.319  1.00  0.00           N  
+HETATM   24  CAC Q92 A1001       3.429  21.377  40.320  1.00  0.00           C  
+HETATM   25  CAB Q92 A1001       3.069  21.153  38.989  1.00  0.00           C  
+HETATM   26 CL   Q92 A1001       1.474  20.689  38.526  1.00  0.00          Cl  
+HETATM   27  CBE Q92 A1001       4.031  21.301  37.987  1.00  0.00           C  
+HETATM   28  CBD Q92 A1001       5.335  21.672  38.305  1.00  0.00           C  
+HETATM   29  CBC Q92 A1001       5.678  21.901  39.633  1.00  0.00           C  
+HETATM   30  CBA Q92 A1001       4.731  21.756  40.645  1.00  0.00           C  
+HETATM   31  CBB Q92 A1001       5.095  21.987  41.967  1.00  0.00           C  
+CONECT    1    2    5
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    1    4    6
+CONECT    6    5    7
+CONECT    7    6    8    9
+CONECT    7    8
+CONECT    8    7
+CONECT    8    7
+CONECT    9    7   10   11
+CONECT    9   11
+CONECT   10    9   14
+CONECT   10   14
+CONECT   11    9   12
+CONECT   11    9
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   10   13   15
+CONECT   14   10
+CONECT   15   14   16
+CONECT   16   15   17   18
+CONECT   16   18
+CONECT   17   16   20
+CONECT   18   16   19
+CONECT   18   16
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   17   19   21
+CONECT   20   19
+CONECT   21   20   22   23
+CONECT   21   22
+CONECT   22   21
+CONECT   22   21
+CONECT   23   21   24
+CONECT   24   23   25   30
+CONECT   24   30
+CONECT   25   24   26   27
+CONECT   25   27
+CONECT   26   25
+CONECT   27   25   28
+CONECT   27   25
+CONECT   28   27   29
+CONECT   28   29
+CONECT   29   28   30
+CONECT   29   28
+CONECT   30   24   29   31
+CONECT   30   24
+CONECT   31   30
+ENDMDL
+END   

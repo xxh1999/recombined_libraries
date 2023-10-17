@@ -1,0 +1,41 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2XE4
+MODEL        1
+ATOM      1  N   VAL B   3      -4.417  24.364  72.903  1.00 37.36           N1+
+ATOM      2  CA  VAL B   3      -3.604  23.179  73.174  1.00 36.84           C  
+ATOM      3  C   VAL B   3      -2.778  23.334  74.462  1.00 33.06           C  
+ATOM      4  O   VAL B   3      -2.523  24.444  74.927  1.00 37.48           O  
+ATOM      5  CB  VAL B   3      -2.665  22.956  71.959  1.00 36.37           C  
+ATOM      6  CG1 VAL B   3      -3.475  22.587  70.707  1.00 42.20           C  
+ATOM      7  CG2 VAL B   3      -1.698  24.115  71.647  1.00 41.41           C  
+TER       8      VAL B   3
+HETATM    9  N   RGL B   4      -2.339  22.196  75.018  1.00 31.81           N  
+HETATM   10  CA  RGL B   4      -1.382  22.122  76.116  1.00 33.57           C  
+HETATM   11  C   RGL B   4       0.035  22.008  75.554  1.00 33.35           C  
+HETATM   12  O   RGL B   4       0.310  21.658  74.407  1.00 33.49           O  
+HETATM   13  CB  RGL B   4      -1.608  20.823  76.908  1.00 31.53           C  
+HETATM   14  CG  RGL B   4      -2.982  20.733  77.571  1.00 28.88           C  
+HETATM   15  CD  RGL B   4      -3.099  19.453  78.397  1.00 32.25           C  
+HETATM   16  NE  RGL B   4      -4.486  19.058  78.605  1.00 31.67           N  
+HETATM   17  CZ  RGL B   4      -5.236  19.231  79.700  1.00 31.03           C  
+HETATM   18  NH1 RGL B   4      -4.795  19.911  80.764  1.00 36.09           N  
+HETATM   19  NH2 RGL B   4      -6.467  18.712  79.705  1.00 32.53           N1+
+CONECT    9    3   10
+CONECT   10    9   11   13
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12   11
+CONECT   12   11
+CONECT   13   10   14
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16   18   19
+CONECT   17   19
+CONECT   18   17
+CONECT   19   17
+CONECT   19   17
+ENDMDL
+END   

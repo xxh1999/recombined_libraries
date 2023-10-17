@@ -1,0 +1,84 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3qtx_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N1  X43 A 299      -0.461  19.769  43.074  1.00  0.00           N  
+HETATM    2  C2  X43 A 299       0.201  20.105  41.958  1.00  0.00           C  
+HETATM    3  N3  X43 A 299       0.480  21.405  41.706  1.00  0.00           N  
+HETATM    4  C4  X43 A 299       0.533  19.020  41.136  1.00  0.00           C  
+HETATM    5  C5  X43 A 299       1.199  19.080  39.924  1.00  0.00           C  
+HETATM    6  C6  X43 A 299       1.513  17.879  39.084  1.00  0.00           C  
+HETATM    7  C7  X43 A 299       2.851  17.622  38.644  1.00  0.00           C  
+HETATM    8  C8  X43 A 299       3.162  16.462  37.834  1.00  0.00           C  
+HETATM    9  C9  X43 A 299       2.078  15.570  37.482  1.00  0.00           C  
+HETATM   10  C10 X43 A 299       0.750  15.825  37.914  1.00  0.00           C  
+HETATM   11  C11 X43 A 299       0.466  16.969  38.709  1.00  0.00           C  
+HETATM   12  O12 X43 A 299       1.602  20.274  39.418  1.00  0.00           O  
+HETATM   13  S13 X43 A 299      -0.017  17.545  41.843  1.00  0.00           S  
+HETATM   14  C14 X43 A 299      -0.685  18.454  43.154  1.00  0.00           C  
+HETATM   15  N15 X43 A 299      -1.381  17.967  44.238  1.00  0.00           N  
+HETATM   16  C16 X43 A 299      -1.851  16.684  44.418  1.00  0.00           C  
+HETATM   17  N17 X43 A 299       4.418  16.225  37.433  1.00  0.00           N1+
+HETATM   18  O18 X43 A 299       5.415  17.044  37.756  1.00  0.00           O1-
+HETATM   19  O19 X43 A 299       4.699  15.255  36.758  1.00  0.00           O  
+HETATM   20  C20 X43 A 299      -2.593  16.417  45.608  1.00  0.00           C  
+HETATM   21  C21 X43 A 299      -3.174  15.147  45.820  1.00  0.00           C  
+HETATM   22  C22 X43 A 299      -3.029  14.115  44.859  1.00  0.00           C  
+HETATM   23  C23 X43 A 299      -2.286  14.341  43.678  1.00  0.00           C  
+HETATM   24  C24 X43 A 299      -1.709  15.614  43.453  1.00  0.00           C  
+HETATM   25  S25 X43 A 299      -3.795  12.577  45.142  1.00  0.00           S2+
+HETATM   26  O26 X43 A 299      -5.401  12.871  44.994  1.00  0.00           O1-
+HETATM   27  O27 X43 A 299      -3.533  12.057  46.535  1.00  0.00           O1-
+HETATM   28  N28 X43 A 299      -3.472  11.558  44.008  1.00  0.00           N  
+CONECT    1    2   14
+CONECT    1   14
+CONECT    2    1    3    4
+CONECT    2    4
+CONECT    3    2
+CONECT    4    2    5   13
+CONECT    4    2
+CONECT    5    4    6   12
+CONECT    5   12
+CONECT    6    5    7   11
+CONECT    6   11
+CONECT    7    6    8
+CONECT    7    8
+CONECT    8    7    9   17
+CONECT    8    7
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11    6   10
+CONECT   11    6
+CONECT   12    5
+CONECT   12    5
+CONECT   13    4   14
+CONECT   14    1   13   15
+CONECT   14    1
+CONECT   15   14   16
+CONECT   16   15   20   24
+CONECT   16   24
+CONECT   17    8   18   19
+CONECT   17   19
+CONECT   18   17
+CONECT   19   17
+CONECT   19   17
+CONECT   20   16   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   21   23   25
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   16   23
+CONECT   24   16
+CONECT   25   22   26   27   28
+CONECT   26   25
+CONECT   27   25
+CONECT   28   25
+ENDMDL
+END   

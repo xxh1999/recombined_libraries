@@ -1,0 +1,79 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4BS5
+MODEL        1
+ATOM      1  N   CYS A 147       4.581  -8.116  28.356  1.00  4.27           N1+
+ATOM      2  CA  CYS A 147       4.416  -7.325  27.124  1.00  4.62           C  
+ATOM      3  C   CYS A 147       3.771  -5.959  27.384  1.00  4.19           C  
+ATOM      4  O   CYS A 147       4.164  -4.951  26.828  1.00  4.95           O  
+ATOM      5  CB  CYS A 147       3.680  -8.119  26.025  1.00  4.38           C  
+ATOM      6  SG  CYS A 147       1.981  -8.554  26.399  1.00  5.17           S  
+TER       7      CYS A 147
+HETATM    8  F22 MG2 A1341      -4.652  -3.417  24.213  1.00 11.37           F  
+HETATM    9  C5  MG2 A1341      -5.189  -3.650  25.395  1.00 10.13           C  
+HETATM   10  F20 MG2 A1341      -5.849  -2.566  25.738  1.00 12.46           F  
+HETATM   11  F21 MG2 A1341      -4.219  -3.801  26.277  1.00 10.55           F  
+HETATM   12  C3  MG2 A1341      -6.134  -4.838  25.325  1.00  7.63           C  
+HETATM   13  C23 MG2 A1341      -7.547  -4.633  25.331  1.00  8.82           C  
+HETATM   14  C25 MG2 A1341      -8.425  -5.689  25.233  1.00  8.41           C  
+HETATM   15  C26 MG2 A1341      -7.993  -6.978  25.183  1.00  8.77           C  
+HETATM   16  C24 MG2 A1341      -6.619  -7.212  25.183  1.00  8.34           C  
+HETATM   17  C4  MG2 A1341      -5.640  -6.185  25.256  1.00  7.82           C  
+HETATM   18  S1  MG2 A1341      -4.046  -6.684  25.196  1.00  6.73           S  
+HETATM   19  O14 MG2 A1341      -3.277  -5.801  24.378  1.00  7.73           O  
+HETATM   20  O15 MG2 A1341      -4.089  -8.049  24.774  1.00  6.37           O  
+HETATM   21  C2  MG2 A1341      -3.465  -6.681  26.803  1.00  6.10           C  
+HETATM   22  C16 MG2 A1341      -4.238  -7.548  27.819  1.00  5.87           C  
+HETATM   23  N9  MG2 A1341      -3.303  -8.567  28.283  1.00  5.75           N  
+HETATM   24  C10 MG2 A1341      -2.205  -8.685  27.322  1.00  5.09           C  
+HETATM   25  C8  MG2 A1341      -2.045  -7.262  26.821  1.00  5.84           C  
+HETATM   26  C7  MG2 A1341      -0.938  -9.309  27.821  1.00  5.96           C  
+HETATM   27  O19 MG2 A1341      -0.498  -9.040  28.929  1.00  6.47           O  
+HETATM   28  N11 MG2 A1341      -0.397 -10.165  26.973  1.00  5.49           N  
+HETATM   29  C6  MG2 A1341       0.809 -10.919  27.262  1.00  5.53           C  
+HETATM   30  C18 MG2 A1341       0.728 -12.414  27.022  1.00  5.56           C  
+HETATM   31  C17 MG2 A1341       0.741 -11.897  28.459  1.00  5.62           C  
+HETATM   32  C12 MG2 A1341       2.139 -10.201  27.042  1.00  5.37           C  
+HETATM   33  N13 MG2 A1341       3.250 -10.782  27.230  1.00  6.20           N  
+CONECT    8    9
+CONECT    9    8   10   11   12
+CONECT   10    9
+CONECT   11    9
+CONECT   12    9   13   17
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   12   16   18
+CONECT   17   16
+CONECT   18   17   19   20   21
+CONECT   18   19   20
+CONECT   19   18
+CONECT   19   18
+CONECT   20   18
+CONECT   20   18
+CONECT   21   18   22   25
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   23   25   26
+CONECT   25   21   24
+CONECT   26   24   27   28
+CONECT   26   27
+CONECT   27   26
+CONECT   27   26
+CONECT   28   26   29
+CONECT   29   28   30   31   32
+CONECT   30   29   31
+CONECT   31   29   30
+CONECT   32    6   29   33
+CONECT   32   33
+CONECT   33   32
+CONECT   33   32
+ENDMDL
+END   

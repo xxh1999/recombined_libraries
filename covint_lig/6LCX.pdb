@@ -1,0 +1,135 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6LCX
+MODEL        1
+ATOM      1  N   HIS B  92       4.722  29.824   9.252  1.00  5.99           N1+
+ATOM      2  CA  HIS B  92       4.637  28.369   9.179  1.00  6.47           C  
+ATOM      3  C   HIS B  92       5.755  27.711   9.987  1.00  6.46           C  
+ATOM      4  O   HIS B  92       5.587  26.605  10.505  1.00  7.80           O  
+ATOM      5  CB  HIS B  92       4.662  27.902   7.724  1.00  6.80           C  
+ATOM      6  CG  HIS B  92       3.351  28.051   7.019  1.00  7.85           C  
+ATOM      7  ND1 HIS B  92       2.879  29.264   6.561  1.00  7.40           N  
+ATOM      8  CD2 HIS B  92       2.406  27.136   6.704  1.00  6.20           C  
+ATOM      9  CE1 HIS B  92       1.703  29.089   5.987  1.00  8.33           C  
+ATOM     10  NE2 HIS B  92       1.395  27.808   6.064  1.00  6.51           N  
+TER      11      HIS B  92
+HETATM   12 NI   HNI B 201      -0.464  27.004   5.246  1.00  6.74          Ni1+
+HETATM   13  CHA HNI B 201      -2.341  28.606   7.631  1.00  8.19           C  
+HETATM   14  CHB HNI B 201      -0.783  29.752   3.178  1.00  8.25           C  
+HETATM   15  CHC HNI B 201       0.789  25.207   2.595  1.00  8.17           C  
+HETATM   16  CHD HNI B 201      -0.551  24.130   7.121  1.00  7.62           C  
+HETATM   17  NA  HNI B 201      -1.407  28.829   5.358  1.00  6.26           N1+
+HETATM   18  C1A HNI B 201      -2.096  29.296   6.463  1.00  7.78           C  
+HETATM   19  C2A HNI B 201      -2.530  30.650   6.185  1.00  8.30           C  
+HETATM   20  C3A HNI B 201      -2.112  30.973   4.956  1.00  8.43           C  
+HETATM   21  C4A HNI B 201      -1.393  29.833   4.407  1.00  6.57           C  
+HETATM   22  CMA HNI B 201      -2.351  32.320   4.234  1.00 10.34           C  
+HETATM   23  CAA HNI B 201      -3.318  31.536   7.178  1.00 10.21           C  
+HETATM   24  CBA HNI B 201      -2.275  32.274   8.018  1.00 10.11           C  
+HETATM   25  CGA HNI B 201      -2.789  32.758   9.349  1.00 11.25           C  
+HETATM   26  O1A HNI B 201      -2.403  33.887   9.745  1.00 10.24           O  
+HETATM   27  O2A HNI B 201      -3.563  32.027  10.015  1.00 13.81           O1-
+HETATM   28  NB  HNI B 201      -0.102  27.395   3.267  1.00  8.06           N  
+HETATM   29  C1B HNI B 201      -0.191  28.625   2.645  1.00  8.70           C  
+HETATM   30  C2B HNI B 201       0.419  28.515   1.336  1.00  7.37           C  
+HETATM   31  C3B HNI B 201       0.869  27.256   1.181  1.00  8.41           C  
+HETATM   32  C4B HNI B 201       0.531  26.538   2.386  1.00  6.18           C  
+HETATM   33  CMB HNI B 201       0.530  29.697   0.345  1.00 10.15           C  
+HETATM   34  CAB HNI B 201       1.572  26.586  -0.027  1.00  8.06           C  
+HETATM   35  CBB HNI B 201       1.467  27.026  -1.287  1.00 17.61           C  
+HETATM   36  NC  HNI B 201       0.026  25.037   4.921  1.00  5.89           N1+
+HETATM   37  C1C HNI B 201       0.504  24.511   3.743  1.00  5.04           C  
+HETATM   38  C2C HNI B 201       0.671  23.087   3.923  1.00  6.76           C  
+HETATM   39  C3C HNI B 201       0.322  22.785   5.189  1.00  7.06           C  
+HETATM   40  C4C HNI B 201      -0.101  24.010   5.829  1.00  6.11           C  
+HETATM   41  CMC HNI B 201       1.197  22.161   2.805  1.00  9.87           C  
+HETATM   42  CAC HNI B 201       0.287  21.425   5.927  1.00  8.43           C  
+HETATM   43  CBC HNI B 201       0.236  20.244   5.297  1.00  9.95           C  
+HETATM   44  ND  HNI B 201      -1.301  26.462   7.040  1.00  9.18           N  
+HETATM   45  C1D HNI B 201      -1.203  25.224   7.641  1.00  8.09           C  
+HETATM   46  C2D HNI B 201      -1.889  25.285   8.906  1.00  8.70           C  
+HETATM   47  C3D HNI B 201      -2.380  26.519   9.049  1.00  7.55           C  
+HETATM   48  C4D HNI B 201      -2.025  27.286   7.873  1.00  7.93           C  
+HETATM   49  CMD HNI B 201      -2.005  24.100   9.892  1.00  9.23           C  
+HETATM   50  CAD HNI B 201      -3.216  27.032  10.236  1.00 10.48           C  
+HETATM   51  CBD HNI B 201      -4.624  26.460  10.060  1.00 13.75           C  
+HETATM   52  CGD HNI B 201      -5.516  26.832  11.213  1.00 23.58           C  
+HETATM   53  O1D HNI B 201      -5.935  25.913  11.964  1.00 27.29           O  
+HETATM   54  O2D HNI B 201      -5.800  28.043  11.382  1.00 23.33           O1-
+CONECT   12   10   17   36   28
+CONECT   12   44
+CONECT   13   18   48
+CONECT   13   18
+CONECT   14   21   29
+CONECT   14   29
+CONECT   15   32   37
+CONECT   15   32
+CONECT   16   40   45
+CONECT   16   40
+CONECT   17   12   18   21
+CONECT   17   21
+CONECT   18   13   17   19
+CONECT   18   13
+CONECT   19   18   20   23
+CONECT   19   20
+CONECT   20   19   21   22
+CONECT   20   19
+CONECT   21   14   17   20
+CONECT   21   17
+CONECT   22   20
+CONECT   23   19   24
+CONECT   24   23   25
+CONECT   25   24   26   27
+CONECT   25   26
+CONECT   26   25
+CONECT   26   25
+CONECT   27   25
+CONECT   28   12   29   32
+CONECT   29   14   28   30
+CONECT   29   14
+CONECT   30   29   31   33
+CONECT   30   31
+CONECT   31   30   32   34
+CONECT   31   30
+CONECT   32   15   28   31
+CONECT   32   15
+CONECT   33   30
+CONECT   34   31   35
+CONECT   34   35
+CONECT   35   34
+CONECT   35   34
+CONECT   36   12   37   40
+CONECT   36   37
+CONECT   37   15   36   38
+CONECT   37   36
+CONECT   38   37   39   41
+CONECT   38   39
+CONECT   39   38   40   42
+CONECT   39   38
+CONECT   40   16   36   39
+CONECT   40   16
+CONECT   41   38
+CONECT   42   39   43
+CONECT   42   43
+CONECT   43   42
+CONECT   43   42
+CONECT   44   12   45   48
+CONECT   45   16   44   46
+CONECT   45   46
+CONECT   46   45   47   49
+CONECT   46   45
+CONECT   47   46   48   50
+CONECT   47   48
+CONECT   48   13   44   47
+CONECT   48   47
+CONECT   49   46
+CONECT   50   47   51
+CONECT   51   50   52
+CONECT   52   51   53   54
+CONECT   52   53
+CONECT   53   52
+CONECT   53   52
+CONECT   54   52
+ENDMDL
+END   

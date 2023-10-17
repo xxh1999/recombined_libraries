@@ -1,0 +1,85 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7zun_ligand
+MODEL        1
+HETATM    1  C4  JYO A 401       3.212  17.317  38.091  1.00  0.00           C  
+HETATM    2  C6  JYO A 401       3.119  14.866  38.052  1.00  0.00           C  
+HETATM    3  C7  JYO A 401       4.433  14.926  37.277  1.00  0.00           C  
+HETATM    4  C10 JYO A 401       1.598  18.889  40.974  1.00  0.00           C  
+HETATM    5  C15 JYO A 401       1.243  20.186  40.611  1.00  0.00           C  
+HETATM    6  C17 JYO A 401       0.453  20.660  42.832  1.00  0.00           C  
+HETATM    7  C26 JYO A 401       0.226  15.568  41.075  1.00  0.00           C  
+HETATM    8  C1  JYO A 401       2.190  16.511  39.832  1.00  0.00           C  
+HETATM    9  C2  JYO A 401       2.846  18.429  38.802  1.00  0.00           C  
+HETATM   10  C3  JYO A 401       2.193  18.000  39.936  1.00  0.00           C  
+HETATM   11  C9  JYO A 401       3.946  17.282  36.823  1.00  0.00           C  
+HETATM   12  C11 JYO A 401       2.077  14.510  36.987  1.00  0.00           C  
+HETATM   13  C12 JYO A 401       0.828  13.870  37.539  1.00  0.00           C  
+HETATM   14  C16 JYO A 401       0.673  21.066  41.534  1.00  0.00           C  
+HETATM   15  C18 JYO A 401       0.787  19.370  43.187  1.00  0.00           C  
+HETATM   16  C25 JYO A 401       1.594  15.573  40.824  1.00  0.00           C  
+HETATM   17  F24 JYO A 401      -0.403  17.939  46.092  1.00  0.00           F  
+HETATM   18  C21 JYO A 401      -0.554  18.218  44.828  1.00  0.00           C  
+HETATM   19  F22 JYO A 401      -0.586  17.110  44.124  1.00  0.00           F  
+HETATM   20  F23 JYO A 401      -1.673  18.893  44.685  1.00  0.00           F  
+HETATM   21  O20 JYO A 401       0.555  19.007  44.455  1.00  0.00           O  
+HETATM   22  C19 JYO A 401       1.359  18.479  42.284  1.00  0.00           C  
+HETATM   23  O14 JYO A 401       4.077  18.373  36.074  1.00  0.00           O1-
+HETATM   24  N8  JYO A 401       4.444  16.165  36.489  1.00  0.00           N  
+HETATM   25  N13 JYO A 401       0.919  12.423  37.459  1.00  0.00           N1+
+HETATM   26  N5  JYO A 401       2.828  16.189  38.686  1.00  0.00           N  
+HETATM   27  C27 JYO A 401      -0.307  14.681  42.023  1.00  0.00           C  
+HETATM   28  C28 JYO A 401       0.517  13.793  42.709  1.00  0.00           C  
+HETATM   29  C29 JYO A 401       1.896  13.809  42.466  1.00  0.00           C  
+HETATM   30  C30 JYO A 401       2.435  14.707  41.545  1.00  0.00           C  
+CONECT    1    9   11   26
+CONECT    1    9
+CONECT    2    3   12   26
+CONECT    3    2   24
+CONECT    4    5   10   22
+CONECT    4   22
+CONECT    5    4   14
+CONECT    5   14
+CONECT    6   14   15
+CONECT    6   15
+CONECT    7   16   27
+CONECT    7   27
+CONECT    8   10   16   26
+CONECT    8   10
+CONECT    9    1   10
+CONECT    9    1
+CONECT   10    4    8    9
+CONECT   10    8
+CONECT   11    1   23   24
+CONECT   11   24
+CONECT   12    2   13
+CONECT   13   12   25
+CONECT   14    5    6
+CONECT   14    5
+CONECT   15    6   21   22
+CONECT   15    6
+CONECT   16    7    8   30
+CONECT   16   30
+CONECT   17   18
+CONECT   18   17   19   20   21
+CONECT   19   18
+CONECT   20   18
+CONECT   21   15   18
+CONECT   22    4   15
+CONECT   22    4
+CONECT   23   11
+CONECT   24    3   11
+CONECT   24   11
+CONECT   25   13
+CONECT   26    1    2    8
+CONECT   27    7   28
+CONECT   27    7
+CONECT   28   27   29
+CONECT   28   29
+CONECT   29   28   30
+CONECT   29   28
+CONECT   30   16   29
+CONECT   30   16
+ENDMDL
+END   

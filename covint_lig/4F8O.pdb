@@ -1,0 +1,53 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4F8O
+MODEL        1
+ATOM      1  N   TYR A  52      12.918   2.203   5.596  1.00  8.98           N1+
+ATOM      2  CA  TYR A  52      13.743   1.223   6.306  1.00 10.56           C  
+ATOM      3  C   TYR A  52      14.814   1.900   7.172  1.00 11.13           C  
+ATOM      4  O   TYR A  52      15.319   2.967   6.833  1.00 13.58           O  
+ATOM      5  CB  TYR A  52      14.463   0.329   5.271  1.00 11.38           C  
+ATOM      6  CG  TYR A  52      13.535  -0.550   4.455  1.00 12.51           C  
+ATOM      7  CD1 TYR A  52      13.231  -1.861   4.876  1.00 11.28           C  
+ATOM      8  CD2 TYR A  52      12.966  -0.053   3.268  1.00 10.81           C  
+ATOM      9  CE1 TYR A  52      12.367  -2.670   4.113  1.00  9.72           C  
+ATOM     10  CE2 TYR A  52      12.083  -0.850   2.518  1.00 17.20           C  
+ATOM     11  CZ  TYR A  52      11.773  -2.157   2.939  1.00 17.05           C  
+ATOM     12  OH  TYR A  52      10.932  -2.910   2.161  1.00 17.00           O  
+TER      13      TYR A  52
+HETATM   14  C3  AES A 205       8.673  -0.571   5.580  1.00 12.50           C  
+HETATM   15  C2  AES A 205       9.186  -1.717   4.942  1.00 21.75           C  
+HETATM   16  C1  AES A 205       8.831  -1.994   3.608  1.00 24.08           C  
+HETATM   17  S   AES A 205       9.468  -3.470   2.810  1.00 26.28           S  
+HETATM   18  O1S AES A 205       9.784  -4.476   3.836  1.00 25.24           O  
+HETATM   19  O2S AES A 205       8.598  -3.806   1.673  1.00 26.55           O  
+HETATM   20  C6  AES A 205       7.951  -1.142   2.913  1.00 20.57           C  
+HETATM   21  C5  AES A 205       7.433  -0.002   3.558  1.00 22.42           C  
+HETATM   22  C4  AES A 205       7.799   0.291   4.889  1.00 18.52           C  
+HETATM   23  C7  AES A 205       7.283   1.541   5.573  1.00 23.36           C  
+HETATM   24  C8  AES A 205       6.027   1.302   6.426  1.00 16.52           C  
+HETATM   25  N8  AES A 205       4.844   0.981   5.614  1.00 26.23           N1+
+CONECT   14   15   22
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   17   20
+CONECT   16   20
+CONECT   17   12   16   18   19
+CONECT   17   18   19
+CONECT   18   17
+CONECT   18   17
+CONECT   19   17
+CONECT   19   17
+CONECT   20   16   21
+CONECT   20   16
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   14   21   23
+CONECT   22   21
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   24
+ENDMDL
+END   

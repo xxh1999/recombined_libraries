@@ -1,0 +1,58 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5TG6
+MODEL        1
+ATOM      1  N   SER A  81      -1.582  27.071 -14.240  1.00 17.10           N1+
+ATOM      2  CA  SER A  81      -1.173  26.609 -12.917  1.00 18.14           C  
+ATOM      3  C   SER A  81      -2.247  25.789 -12.153  1.00 18.45           C  
+ATOM      4  O   SER A  81      -1.933  25.293 -11.074  1.00 17.24           O  
+ATOM      5  CB  SER A  81      -0.726  27.824 -12.080  1.00 18.16           C  
+ATOM      6  OG  SER A  81       0.340  28.542 -12.707  1.00 18.75           O  
+TER       7      SER A  81
+HETATM    8  O9  J4W A 301       2.767  30.943 -17.945  1.00 36.29           O  
+HETATM    9  C8  J4W A 301       3.869  31.136 -17.437  1.00 37.03           C  
+HETATM   10  O11 J4W A 301       5.041  31.249 -18.107  1.00 36.32           O  
+HETATM   11  C12 J4W A 301       5.168  31.456 -19.521  1.00 41.79           C  
+HETATM   12  C15 J4W A 301       6.688  31.462 -19.756  1.00 40.76           C  
+HETATM   13  C14 J4W A 301       4.539  30.332 -20.370  1.00 42.04           C  
+HETATM   14  C13 J4W A 301       4.591  32.829 -19.915  1.00 40.38           C  
+HETATM   15  N1  J4W A 301       4.141  31.313 -16.092  1.00 27.75           N  
+HETATM   16  C5  J4W A 301       3.181  31.508 -15.073  1.00 23.71           C  
+HETATM   17  C6  J4W A 301       3.330  32.649 -14.249  1.00 22.22           C  
+HETATM   18  C7  J4W A 301       2.458  32.872 -13.165  1.00 22.53           C  
+HETATM   19  C2  J4W A 301       1.461  31.917 -12.915  1.00 21.04           C  
+HETATM   20  C4  J4W A 301       2.164  30.556 -14.798  1.00 21.22           C  
+HETATM   21  C3  J4W A 301       1.319  30.779 -13.692  1.00 20.03           C  
+HETATM   22  B9  J4W A 301       0.059  29.939 -13.138  1.00 20.48           B1-
+HETATM   23  O10 J4W A 301      -1.008  29.936 -14.145  1.00 17.97           O  
+HETATM   24  O8  J4W A 301      -0.359  30.774 -11.968  1.00 19.64           O  
+HETATM   25  C1  J4W A 301       0.413  31.973 -11.845  1.00 19.76           C  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10   15
+CONECT    9    8
+CONECT   10    9   11
+CONECT   11   10   12   13   14
+CONECT   12   11
+CONECT   13   11
+CONECT   14   11
+CONECT   15    9   16
+CONECT   16   15   17   20
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   21   25
+CONECT   19   18
+CONECT   20   16   21
+CONECT   20   21
+CONECT   21   19   20   22
+CONECT   21   20
+CONECT   22    6   21   23   24
+CONECT   23   22
+CONECT   24   22   25
+CONECT   25   19   24
+ENDMDL
+END   

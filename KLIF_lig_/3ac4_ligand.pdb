@@ -1,0 +1,82 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3ac4_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  KZL A 513      -2.375  15.558  48.373  1.00  0.00           C  
+HETATM    2  C2  KZL A 513      -2.082  14.203  48.244  1.00  0.00           C  
+HETATM    3  C3  KZL A 513      -1.514  13.719  47.068  1.00  0.00           C  
+HETATM    4  C4  KZL A 513      -1.245  14.595  46.020  1.00  0.00           C  
+HETATM    5  C5  KZL A 513      -1.537  15.951  46.144  1.00  0.00           C  
+HETATM    6  C6  KZL A 513      -2.104  16.430  47.323  1.00  0.00           C  
+HETATM    7  O7  KZL A 513      -2.932  16.032  49.535  1.00  0.00           O  
+HETATM    8  C8  KZL A 513      -2.458  15.577  50.803  1.00  0.00           C  
+HETATM    9  O9  KZL A 513      -1.224  12.384  46.938  1.00  0.00           O  
+HETATM   10  C10 KZL A 513      -0.211  11.781  47.744  1.00  0.00           C  
+HETATM   11  N11 KZL A 513      -1.279  16.804  45.126  1.00  0.00           N  
+HETATM   12  C12 KZL A 513      -0.466  16.453  44.103  1.00  0.00           C  
+HETATM   13  N13 KZL A 513      -0.327  15.164  43.712  1.00  0.00           N  
+HETATM   14  C14 KZL A 513       0.493  14.801  42.688  1.00  0.00           C  
+HETATM   15  N15 KZL A 513       1.213  15.697  41.980  1.00  0.00           N  
+HETATM   16  C16 KZL A 513       1.168  17.013  42.261  1.00  0.00           C  
+HETATM   17  C17 KZL A 513       0.301  17.481  43.370  1.00  0.00           C  
+HETATM   18  C18 KZL A 513       0.202  18.931  43.725  1.00  0.00           C  
+HETATM   19  O19 KZL A 513      -0.464  19.259  44.690  1.00  0.00           O  
+HETATM   20  N20 KZL A 513       0.830  19.826  42.963  1.00  0.00           N  
+HETATM   21  N21 KZL A 513       1.979  17.676  41.411  1.00  0.00           N  
+HETATM   22  N22 KZL A 513       2.550  16.713  40.570  1.00  0.00           N  
+HETATM   23  C23 KZL A 513       2.054  15.516  40.951  1.00  0.00           C  
+HETATM   24  N24 KZL A 513       0.571  13.489  42.353  1.00  0.00           N  
+HETATM   25  C25 KZL A 513       1.581  12.588  42.885  1.00  0.00           C  
+HETATM   26  C26 KZL A 513       0.875  11.351  43.436  1.00  0.00           C  
+HETATM   27  C27 KZL A 513       2.369  13.285  43.987  1.00  0.00           C  
+HETATM   28  C28 KZL A 513       2.525  12.187  41.756  1.00  0.00           C  
+HETATM   29  N29 KZL A 513       1.837  10.298  43.703  1.00  0.00           N  
+CONECT    1    2    6    7
+CONECT    1    6
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2    4    9
+CONECT    3    2
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4    6   11
+CONECT    5    4
+CONECT    6    1    5
+CONECT    6    1
+CONECT    7    1    8
+CONECT    8    7
+CONECT    9    3   10
+CONECT   10    9
+CONECT   11    5   12
+CONECT   12   11   13   17
+CONECT   12   17
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15   24
+CONECT   14   13
+CONECT   15   14   16   23
+CONECT   16   15   17   21
+CONECT   16   21
+CONECT   17   12   16   18
+CONECT   17   12
+CONECT   18   17   19   20
+CONECT   18   19
+CONECT   19   18
+CONECT   19   18
+CONECT   20   18
+CONECT   21   16   22
+CONECT   21   16
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   15   22
+CONECT   23   22
+CONECT   24   14   25
+CONECT   25   24   26   27   28
+CONECT   26   25   29
+CONECT   27   25
+CONECT   28   25
+CONECT   29   26
+ENDMDL
+END   

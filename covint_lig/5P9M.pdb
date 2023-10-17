@@ -1,0 +1,106 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5P9M
+MODEL        1
+ATOM      1  N   CYS A 481     -20.799  10.906   2.616  1.00 15.11           N1+
+ATOM      2  CA  CYS A 481     -20.797  12.207   1.951  1.00 15.87           C  
+ATOM      3  C   CYS A 481     -20.227  13.312   2.857  1.00 14.29           C  
+ATOM      4  O   CYS A 481     -20.567  13.375   4.038  1.00 14.75           O  
+ATOM      5  CB  CYS A 481     -22.268  12.567   1.648  1.00 17.64           C  
+ATOM      6  SG  CYS A 481     -23.111  11.309   0.648  1.00 22.81           S  
+TER       7      CYS A 481
+HETATM    8  C2  7GB A 701     -18.751   4.742   0.387  1.00 12.56           C  
+HETATM    9  C8  7GB A 701     -21.049   6.710  -2.893  1.00 14.30           C  
+HETATM   10  C11 7GB A 701     -22.527   6.672  -0.835  1.00 16.94           C  
+HETATM   11  C12 7GB A 701     -23.865   6.253  -1.463  1.00 17.34           C  
+HETATM   12  C13 7GB A 701     -24.801   7.427  -1.190  1.00 21.14           C  
+HETATM   13  C15 7GB A 701     -22.628   8.190  -0.648  1.00 19.83           C  
+HETATM   14  C16 7GB A 701     -24.251   9.775  -1.774  1.00 26.07           C  
+HETATM   15  O17 7GB A 701     -25.397  10.050  -2.124  1.00 29.28           O  
+HETATM   16  C19 7GB A 701     -22.524  11.379  -1.045  1.00 22.70           C  
+HETATM   17  C20 7GB A 701     -21.322  12.236  -1.387  1.00 23.82           C  
+HETATM   18  C22 7GB A 701     -19.230   6.183  -4.479  1.00 14.18           C  
+HETATM   19  C24 7GB A 701     -18.424   7.251  -6.521  1.00 14.87           C  
+HETATM   20  C27 7GB A 701     -18.934   4.919  -5.034  1.00 14.15           C  
+HETATM   21  O28 7GB A 701     -17.653   5.851  -8.360  1.00 14.61           O  
+HETATM   22  C30 7GB A 701     -15.562   7.078  -8.073  1.00 13.79           C  
+HETATM   23  C31 7GB A 701     -14.583   7.931  -8.618  1.00 15.34           C  
+HETATM   24  C32 7GB A 701     -14.740   8.438  -9.922  1.00 16.03           C  
+HETATM   25  C33 7GB A 701     -15.875   8.091 -10.678  1.00 15.57           C  
+HETATM   26  C34 7GB A 701     -16.848   7.230 -10.138  1.00 14.86           C  
+HETATM   27  N1  7GB A 701     -17.743   4.677  -0.497  1.00 11.99           N  
+HETATM   28  N3  7GB A 701     -19.969   5.260   0.191  1.00 12.98           N  
+HETATM   29  C4  7GB A 701     -20.199   5.720  -1.056  1.00 13.37           C  
+HETATM   30  C5  7GB A 701     -19.241   5.684  -2.051  1.00 12.00           C  
+HETATM   31  C6  7GB A 701     -17.968   5.168  -1.736  1.00 11.22           C  
+HETATM   32  N7  7GB A 701     -21.333   6.330  -1.620  1.00 14.30           N  
+HETATM   33  N9  7GB A 701     -19.801   6.289  -3.187  1.00 13.45           N  
+HETATM   34  O10 7GB A 701     -21.772   7.380  -3.630  1.00 17.28           O  
+HETATM   35  N14 7GB A 701     -23.925   8.591  -1.199  1.00 21.13           N  
+HETATM   36  C18 7GB A 701     -23.124  10.661  -2.016  1.00 23.84           C  
+HETATM   37  N21 7GB A 701     -16.899   5.173  -2.626  1.00 11.08           N  
+HETATM   38  C23 7GB A 701     -18.980   7.349  -5.233  1.00 14.32           C  
+HETATM   39  C25 7GB A 701     -18.134   5.988  -7.081  1.00 15.87           C  
+HETATM   40  C26 7GB A 701     -18.399   4.825  -6.332  1.00 14.68           C  
+HETATM   41  C29 7GB A 701     -16.702   6.723  -8.833  1.00 13.48           C  
+CONECT    8   27   28
+CONECT    8   28
+CONECT    9   32   33   34
+CONECT    9   34
+CONECT   10   11   13   32
+CONECT   11   10   12
+CONECT   12   11   35
+CONECT   13   10   35
+CONECT   14   15   35   36
+CONECT   14   15
+CONECT   15   14
+CONECT   15   14
+CONECT   16    6   17   36
+CONECT   16   36
+CONECT   17   16
+CONECT   18   20   33   38
+CONECT   18   20
+CONECT   19   38   39
+CONECT   19   38
+CONECT   20   18   40
+CONECT   20   18
+CONECT   21   39   41
+CONECT   22   23   41
+CONECT   22   41
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   25   41
+CONECT   26   25
+CONECT   27    8   31
+CONECT   27   31
+CONECT   28    8   29
+CONECT   28    8
+CONECT   29   28   30   32
+CONECT   29   30
+CONECT   30   29   31   33
+CONECT   30   29
+CONECT   31   27   30   37
+CONECT   31   27
+CONECT   32    9   10   29
+CONECT   33    9   18   30
+CONECT   34    9
+CONECT   34    9
+CONECT   35   12   13   14
+CONECT   36   14   16
+CONECT   36   16
+CONECT   37   31
+CONECT   38   18   19
+CONECT   38   19
+CONECT   39   19   21   40
+CONECT   39   40
+CONECT   40   20   39
+CONECT   40   39
+CONECT   41   21   22   26
+CONECT   41   22
+ENDMDL
+END   

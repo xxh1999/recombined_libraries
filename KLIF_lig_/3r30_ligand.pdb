@@ -1,0 +1,84 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3r30_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  CD2 A   1      -2.833  15.091  48.002  1.00  0.00           C  
+HETATM    2  C2  CD2 A   1      -2.932  14.430  46.772  1.00  0.00           C  
+HETATM    3  C3  CD2 A   1      -2.421  15.025  45.623  1.00  0.00           C  
+HETATM    4  C4  CD2 A   1      -2.227  16.346  48.090  1.00  0.00           C  
+HETATM    5  C5  CD2 A   1      -1.712  16.933  46.943  1.00  0.00           C  
+HETATM    6  C6  CD2 A   1      -1.809  16.278  45.719  1.00  0.00           C  
+HETATM    7  C7  CD2 A   1      -1.292  16.877  44.578  1.00  0.00           C  
+HETATM    8  C8  CD2 A   1      -0.685  18.114  44.681  1.00  0.00           C  
+HETATM    9  C9  CD2 A   1      -0.631  18.723  45.930  1.00  0.00           C  
+HETATM   10  N10 CD2 A   1      -1.131  18.135  47.019  1.00  0.00           N  
+HETATM   11  C11 CD2 A   1      -0.115  18.794  43.486  1.00  0.00           C  
+HETATM   12  N12 CD2 A   1      -0.168  20.141  43.439  1.00  0.00           N  
+HETATM   13  C13 CD2 A   1       0.329  20.820  42.405  1.00  0.00           C  
+HETATM   14  C14 CD2 A   1       0.910  20.157  41.340  1.00  0.00           C  
+HETATM   15  C15 CD2 A   1       0.990  18.780  41.349  1.00  0.00           C  
+HETATM   16  C16 CD2 A   1       0.471  18.088  42.438  1.00  0.00           C  
+HETATM   17  C17 CD2 A   1       1.595  18.087  40.186  1.00  0.00           C  
+HETATM   18  C18 CD2 A   1       2.321  18.697  39.190  1.00  0.00           C  
+HETATM   19  N19 CD2 A   1       1.502  16.784  39.881  1.00  0.00           N  
+HETATM   20  N20 CD2 A   1       2.195  16.602  38.683  1.00  0.00           N  
+HETATM   21  C21 CD2 A   1       2.704  17.755  38.265  1.00  0.00           C  
+HETATM   22  C22 CD2 A   1       3.517  18.063  37.046  1.00  0.00           C  
+HETATM   23  C23 CD2 A   1       0.986  14.418  38.351  1.00  0.00           C  
+HETATM   24  C24 CD2 A   1       2.267  15.231  38.134  1.00  0.00           C  
+HETATM   25  O25 CD2 A   1       4.311  17.223  36.544  1.00  0.00           O  
+HETATM   26  N26 CD2 A   1      -0.133  15.071  37.709  1.00  0.00           N1+
+HETATM   27  O27 CD2 A   1       3.378  19.206  36.549  1.00  0.00           O1-
+CONECT    1    2    4
+CONECT    1    4
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2    6
+CONECT    3    2
+CONECT    4    1    5
+CONECT    4    1
+CONECT    5    4    6   10
+CONECT    5   10
+CONECT    6    3    5    7
+CONECT    6    7
+CONECT    7    6    8
+CONECT    7    6
+CONECT    8    7    9   11
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    5    9
+CONECT   10    5
+CONECT   11    8   12   16
+CONECT   11   16
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16   17
+CONECT   15   14
+CONECT   16   11   15
+CONECT   16   11
+CONECT   17   15   18   19
+CONECT   17   19
+CONECT   18   17   21
+CONECT   18   21
+CONECT   19   17   20
+CONECT   19   17
+CONECT   20   19   21   24
+CONECT   21   18   20   22
+CONECT   21   18
+CONECT   22   21   25   27
+CONECT   22   25
+CONECT   23   24   26
+CONECT   24   20   23
+CONECT   25   22
+CONECT   25   22
+CONECT   26   23
+CONECT   27   22
+ENDMDL
+END   

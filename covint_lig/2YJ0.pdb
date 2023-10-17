@@ -1,0 +1,75 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2YJ0
+MODEL        1
+ATOM      1  N   CYS B  59     -44.057 -19.843   3.222  1.00 19.65           N1+
+ATOM      2  CA  CYS B  59     -44.486 -21.195   3.554  0.60 20.04           C  
+ATOM      3  C   CYS B  59     -45.999 -21.157   3.794  1.00 19.37           C  
+ATOM      4  O   CYS B  59     -46.474 -20.362   4.602  1.00 19.91           O  
+ATOM      5  CB  CYS B  59     -43.769 -21.674   4.833  0.60 22.01           C  
+ATOM      6  SG  CYS B  59     -44.156 -23.431   5.128  0.60 24.75           S  
+TER       7      CYS B  59
+HETATM    8  C1  420 B 100     -43.808 -23.585   6.909  0.60 18.97           C  
+HETATM    9  C2  420 B 100     -42.403 -24.079   7.206  0.60 21.34           C  
+HETATM   10  O3  420 B 100     -42.201 -25.135   7.805  0.60 21.13           O  
+HETATM   11  N4  420 B 100     -41.433 -23.252   6.814  0.60 23.63           N  
+HETATM   12  C5  420 B 100     -40.037 -23.355   7.188  0.60 25.40           C  
+HETATM   13  C6  420 B 100     -39.418 -21.952   7.155  0.60 26.96           C  
+HETATM   14  N7  420 B 100     -38.623 -21.713   5.961  0.60 28.77           N  
+HETATM   15  S8  420 B 100     -39.095 -20.723   4.593  0.60 30.37           S  
+HETATM   16  O9  420 B 100     -39.272 -19.341   4.948  0.60 30.23           O  
+HETATM   17  O10 420 B 100     -40.319 -21.274   3.998  0.60 29.97           O  
+HETATM   18  C11 420 B 100     -37.625 -20.683   3.499  0.60 30.46           C  
+HETATM   19  C12 420 B 100     -37.949 -20.587   2.152  0.60 30.74           C  
+HETATM   20  C13 420 B 100     -36.965 -20.674   1.165  0.60 31.01           C  
+HETATM   21  C14 420 B 100     -35.634 -20.850   1.517  0.60 31.02           C  
+HETATM   22  C15 420 B 100     -35.213 -20.879   2.866  0.60 31.25           C  
+HETATM   23  C16 420 B 100     -36.248 -20.827   3.872  0.60 31.13           C  
+HETATM   24  C17 420 B 100     -35.886 -20.979   5.219  0.60 31.58           C  
+HETATM   25  C18 420 B 100     -34.600 -21.348   5.556  0.60 31.95           C  
+HETATM   26  C19 420 B 100     -33.606 -21.382   4.564  0.60 32.21           C  
+HETATM   27  C20 420 B 100     -33.835 -21.083   3.206  0.60 32.29           C  
+HETATM   28  N21 420 B 100     -32.717 -20.974   2.294  0.60 32.98           N  
+HETATM   29  C22 420 B 100     -32.820 -20.440   0.943  0.60 32.98           C  
+HETATM   30  C23 420 B 100     -31.310 -21.241   2.599  0.60 33.29           C  
+CONECT    8    6    9
+CONECT    9    8   10   11
+CONECT    9   10
+CONECT   10    9
+CONECT   10    9
+CONECT   11    9   12
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   16   17   18
+CONECT   15   16   17
+CONECT   16   15
+CONECT   16   15
+CONECT   17   15
+CONECT   17   15
+CONECT   18   15   19   23
+CONECT   18   23
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23   27
+CONECT   22   21
+CONECT   23   18   22   24
+CONECT   23   18
+CONECT   24   23   25
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26   25   27
+CONECT   26   27
+CONECT   27   22   26   28
+CONECT   27   26
+CONECT   28   27   29   30
+CONECT   29   28
+CONECT   30   28
+ENDMDL
+END   

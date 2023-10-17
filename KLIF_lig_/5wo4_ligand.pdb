@@ -1,0 +1,76 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5wo4_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  B7V A2001       0.023  20.380  42.789  1.00  0.00           C  
+HETATM    2  C2  B7V A2001       0.779  18.827  40.880  1.00  0.00           C  
+HETATM    3  C3  B7V A2001       1.282  16.697  39.596  1.00  0.00           C  
+HETATM    4  C7  B7V A2001       0.141  15.995  38.786  1.00  0.00           C  
+HETATM    5  C8  B7V A2001      -0.696  17.010  38.137  1.00  0.00           C  
+HETATM    6  C9  B7V A2001      -0.119  17.784  42.620  1.00  0.00           C  
+HETATM    7  C10 B7V A2001      -1.015  16.457  44.570  1.00  0.00           C  
+HETATM    8  C11 B7V A2001      -0.864  15.217  43.956  1.00  0.00           C  
+HETATM    9  C12 B7V A2001      -1.195  14.053  44.639  1.00  0.00           C  
+HETATM   10  C13 B7V A2001      -0.721  12.664  42.725  1.00  0.00           C  
+HETATM   11  C14 B7V A2001      -1.629  14.148  45.959  1.00  0.00           C  
+HETATM   12  C15 B7V A2001      -1.782  15.379  46.572  1.00  0.00           C  
+HETATM   13  C16 B7V A2001      -1.475  16.536  45.879  1.00  0.00           C  
+HETATM   14 CL   B7V A2001      -2.006  12.706  46.839  1.00  0.00          Cl  
+HETATM   15  O2  B7V A2001      -1.195  12.804  44.076  1.00  0.00           O  
+HETATM   16  N4  B7V A2001      -0.663  17.633  43.869  1.00  0.00           N  
+HETATM   17  C   B7V A2001       0.224  19.082  42.103  1.00  0.00           C  
+HETATM   18  N   B7V A2001       0.296  21.476  42.098  1.00  0.00           N  
+HETATM   19  O   B7V A2001      -0.399  20.402  43.945  1.00  0.00           O  
+HETATM   20  N3  B7V A2001       0.186  16.830  41.779  1.00  0.00           N  
+HETATM   21  N1  B7V A2001       0.750  17.495  40.721  1.00  0.00           N  
+HETATM   22  N2  B7V A2001      -1.363  17.766  37.613  1.00  0.00           N  
+HETATM   23  C6  B7V A2001       0.765  15.081  37.717  1.00  0.00           C  
+HETATM   24  C5  B7V A2001       1.730  14.114  38.362  1.00  0.00           C  
+HETATM   25  O1  B7V A2001       2.787  14.783  39.060  1.00  0.00           O  
+HETATM   26  C4  B7V A2001       2.267  15.639  40.104  1.00  0.00           C  
+CONECT    1   17   18   19
+CONECT    1   19
+CONECT    2   17   21
+CONECT    2   17
+CONECT    3    4   21   26
+CONECT    4    3    5   23
+CONECT    5    4   22
+CONECT    5   22
+CONECT    5   22
+CONECT    6   16   17   20
+CONECT    6   20
+CONECT    7    8   13   16
+CONECT    7   13
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    8   11   15
+CONECT    9    8
+CONECT   10   15
+CONECT   11    9   12   14
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13    7   12
+CONECT   13    7
+CONECT   14   11
+CONECT   15    9   10
+CONECT   16    6    7
+CONECT   17    1    2    6
+CONECT   17    2
+CONECT   18    1
+CONECT   19    1
+CONECT   19    1
+CONECT   20    6   21
+CONECT   20    6
+CONECT   21    2    3   20
+CONECT   22    5
+CONECT   22    5
+CONECT   22    5
+CONECT   23    4   24
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26    3   25
+ENDMDL
+END   

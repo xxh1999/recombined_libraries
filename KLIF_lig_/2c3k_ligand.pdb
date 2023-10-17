@@ -1,0 +1,84 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2c3k_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C18 ABO A1271       0.934  24.047  36.098  1.00  0.00           C  
+HETATM    2  O17 ABO A1271       2.227  23.411  35.647  1.00  0.00           O  
+HETATM    3  C12 ABO A1271       2.688  22.280  36.323  1.00  0.00           C  
+HETATM    4  C11 ABO A1271       2.097  21.807  37.513  1.00  0.00           C  
+HETATM    5  C13 ABO A1271       3.783  21.589  35.798  1.00  0.00           C  
+HETATM    6  O16 ABO A1271       4.371  22.040  34.655  1.00  0.00           O  
+HETATM    7  C14 ABO A1271       4.296  20.452  36.434  1.00  0.00           C  
+HETATM    8  C15 ABO A1271       3.695  19.980  37.623  1.00  0.00           C  
+HETATM    9  C10 ABO A1271       2.588  20.653  38.166  1.00  0.00           C  
+HETATM   10  C8  ABO A1271       1.971  20.198  39.333  1.00  0.00           C  
+HETATM   11  C9  ABO A1271       1.417  21.153  40.228  1.00  0.00           C  
+HETATM   12  C7  ABO A1271       1.884  18.823  39.601  1.00  0.00           C  
+HETATM   13  C6  ABO A1271       1.255  18.394  40.781  1.00  0.00           C  
+HETATM   14  C5  ABO A1271       0.712  19.327  41.678  1.00  0.00           C  
+HETATM   15  C4  ABO A1271       0.800  20.701  41.401  1.00  0.00           C  
+HETATM   16  N3  ABO A1271       0.200  21.352  42.432  1.00  0.00           N  
+HETATM   17  N1  ABO A1271      -0.262  20.569  43.298  1.00  0.00           N  
+HETATM   18  C2  ABO A1271       0.051  19.290  42.940  1.00  0.00           C  
+HETATM   19  C19 ABO A1271      -0.353  18.153  43.641  1.00  0.00           C  
+HETATM   20  N21 ABO A1271      -0.033  16.850  43.400  1.00  0.00           N  
+HETATM   21  C22 ABO A1271      -0.723  16.109  44.315  1.00  0.00           C  
+HETATM   22  C27 ABO A1271      -0.771  14.749  44.553  1.00  0.00           C  
+HETATM   23  C26 ABO A1271      -1.589  14.185  45.562  1.00  0.00           C  
+HETATM   24  C25 ABO A1271      -2.370  15.055  46.373  1.00  0.00           C  
+HETATM   25  C24 ABO A1271      -2.309  16.470  46.134  1.00  0.00           C  
+HETATM   26  C23 ABO A1271      -1.501  16.969  45.104  1.00  0.00           C  
+HETATM   27  N20 ABO A1271      -1.261  18.221  44.677  1.00  0.00           N  
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4    5
+CONECT    3    5
+CONECT    4    3    9
+CONECT    4    9
+CONECT    5    3    6    7
+CONECT    5    3
+CONECT    6    5
+CONECT    7    5    8
+CONECT    7    8
+CONECT    8    7    9
+CONECT    8    7
+CONECT    9    4    8   10
+CONECT    9    4
+CONECT   10    9   11   12
+CONECT   10   12
+CONECT   11   10   15
+CONECT   11   15
+CONECT   12   10   13
+CONECT   12   10
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15   18
+CONECT   14   13
+CONECT   15   11   14   16
+CONECT   15   11
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   14   17   19
+CONECT   18   17
+CONECT   19   18   20   27
+CONECT   19   27
+CONECT   20   19   21
+CONECT   21   20   22   26
+CONECT   21   26
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   23   25
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26   21   25   27
+CONECT   26   21
+CONECT   27   19   26
+CONECT   27   19
+ENDMDL
+END   

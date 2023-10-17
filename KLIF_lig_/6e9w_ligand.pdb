@@ -1,0 +1,80 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6e9w_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N1  J0P B 501      -0.625  20.604  44.200  1.00  0.00           N  
+HETATM    2  C4  J0P B 501       7.868  15.000  38.923  1.00  0.00           C  
+HETATM    3  C5  J0P B 501       8.868  14.735  37.972  1.00  0.00           C  
+HETATM    4  C6  J0P B 501       8.490  14.416  36.647  1.00  0.00           C  
+HETATM    5  C7  J0P B 501       7.130  14.374  36.255  1.00  0.00           C  
+HETATM    6  C8  J0P B 501       7.776  13.842  34.024  1.00  0.00           C  
+HETATM    7  C10 J0P B 501       2.805  17.346  38.836  1.00  0.00           C  
+HETATM    8  C13 J0P B 501       1.443  18.513  41.012  1.00  0.00           C  
+HETATM    9  C15 J0P B 501       3.159  18.627  39.292  1.00  0.00           C  
+HETATM   10  C17 J0P B 501       0.464  20.596  42.031  1.00  0.00           C  
+HETATM   11  C20 J0P B 501       0.176  18.509  43.206  1.00  0.00           C  
+HETATM   12  O   J0P B 501       4.008  17.521  36.761  1.00  0.00           O  
+HETATM   13  C   J0P B 501       3.607  16.794  37.670  1.00  0.00           C  
+HETATM   14  C14 J0P B 501       2.495  19.193  40.376  1.00  0.00           C  
+HETATM   15  C16 J0P B 501       0.643  19.192  42.073  1.00  0.00           C  
+HETATM   16  C19 J0P B 501      -0.432  19.258  44.233  1.00  0.00           C  
+HETATM   17  C18 J0P B 501      -0.192  21.238  43.096  1.00  0.00           C  
+HETATM   18  C12 J0P B 501       1.138  17.192  40.608  1.00  0.00           C  
+HETATM   19  C11 J0P B 501       1.797  16.621  39.511  1.00  0.00           C  
+HETATM   20  N   J0P B 501       3.872  15.415  37.685  1.00  0.00           N  
+HETATM   21  C1  J0P B 501       4.681  14.756  36.699  1.00  0.00           C  
+HETATM   22  C2  J0P B 501       6.113  14.668  37.193  1.00  0.00           C  
+HETATM   23  O1  J0P B 501       6.747  14.072  34.965  1.00  0.00           O  
+HETATM   24  C9  J0P B 501       9.101  14.553  34.409  1.00  0.00           C  
+HETATM   25  O2  J0P B 501       9.498  14.179  35.727  1.00  0.00           O  
+HETATM   26  C3  J0P B 501       6.507  14.953  38.544  1.00  0.00           C  
+CONECT    1   16   17
+CONECT    1   17
+CONECT    2    3   26
+CONECT    2   26
+CONECT    3    2    4
+CONECT    3    4
+CONECT    4    3    5   25
+CONECT    4    3
+CONECT    5    4   22   23
+CONECT    5   22
+CONECT    6   23   24
+CONECT    7    9   13   19
+CONECT    7    9
+CONECT    8   14   15   18
+CONECT    8   14
+CONECT    9    7   14
+CONECT    9    7
+CONECT   10   15   17
+CONECT   10   15
+CONECT   11   15   16
+CONECT   11   16
+CONECT   12   13
+CONECT   12   13
+CONECT   13    7   12   20
+CONECT   13   12
+CONECT   14    8    9
+CONECT   14    8
+CONECT   15    8   10   11
+CONECT   15   10
+CONECT   16    1   11
+CONECT   16   11
+CONECT   17    1   10
+CONECT   17    1
+CONECT   18    8   19
+CONECT   18   19
+CONECT   19    7   18
+CONECT   19   18
+CONECT   20   13   21
+CONECT   21   20   22
+CONECT   22    5   21   26
+CONECT   22    5
+CONECT   23    5    6
+CONECT   24    6   25
+CONECT   25    4   24
+CONECT   26    2   22
+CONECT   26    2
+ENDMDL
+END   

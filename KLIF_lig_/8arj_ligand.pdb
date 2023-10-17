@@ -1,0 +1,95 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     8arj_ligand
+MODEL        1
+HETATM    1  C13 NRR A1501      -0.771  16.613  45.454  1.00  0.00           C  
+HETATM    2  N2  NRR A1501       0.402  21.284  42.627  1.00  0.00           N  
+HETATM    3  C17 NRR A1501      -0.945  11.963  47.635  1.00  0.00           C  
+HETATM    4  C11 NRR A1501      -0.722  19.129  45.218  1.00  0.00           C  
+HETATM    5  C9  NRR A1501       0.958  20.809  41.453  1.00  0.00           C  
+HETATM    6  C8  NRR A1501       1.420  21.516  40.348  1.00  0.00           C  
+HETATM    7  C20 NRR A1501      -3.678  11.592  48.169  1.00  0.00           C  
+HETATM    8  N1  NRR A1501       0.971  16.141  38.672  1.00  0.00           N  
+HETATM    9  O1  NRR A1501       2.728  19.363  37.073  1.00  0.00           O  
+HETATM   10  C1  NRR A1501       0.343  15.153  39.542  1.00  0.00           C  
+HETATM   11  C2  NRR A1501       0.085  16.845  37.746  1.00  0.00           C  
+HETATM   12  C3  NRR A1501       2.287  16.309  38.662  1.00  0.00           C  
+HETATM   13  C4  NRR A1501       3.026  17.341  38.141  1.00  0.00           C  
+HETATM   14  C5  NRR A1501       2.530  18.678  38.090  1.00  0.00           C  
+HETATM   15  C6  NRR A1501       1.962  19.385  39.291  1.00  0.00           C  
+HETATM   16  C7  NRR A1501       1.921  20.795  39.288  1.00  0.00           C  
+HETATM   17  C10 NRR A1501       0.106  20.214  43.424  1.00  0.00           C  
+HETATM   18  C12 NRR A1501      -0.415  17.840  44.682  1.00  0.00           C  
+HETATM   19  C14 NRR A1501      -1.426  16.694  46.683  1.00  0.00           C  
+HETATM   20  N3  NRR A1501      -0.475  20.291  44.623  1.00  0.00           N  
+HETATM   21  C15 NRR A1501      -1.784  15.563  47.392  1.00  0.00           C  
+HETATM   22  C16 NRR A1501      -1.522  14.283  46.876  1.00  0.00           C  
+HETATM   23  N4  NRR A1501      -1.851  13.116  47.609  1.00  0.00           N  
+HETATM   24  C18 NRR A1501      -1.671  10.721  47.163  1.00  0.00           C  
+HETATM   25  N5  NRR A1501      -3.103  10.976  46.967  1.00  0.00           N1+
+HETATM   26  C19 NRR A1501      -3.807   9.741  46.618  1.00  0.00           C  
+HETATM   27  C21 NRR A1501      -3.078  12.963  48.399  1.00  0.00           C  
+HETATM   28  C22 NRR A1501      -0.892  14.194  45.626  1.00  0.00           C  
+HETATM   29  C23 NRR A1501      -0.541  15.342  44.932  1.00  0.00           C  
+HETATM   30  C24 NRR A1501       0.149  17.800  43.411  1.00  0.00           C  
+HETATM   31  C25 NRR A1501       0.424  19.004  42.755  1.00  0.00           C  
+HETATM   32  C26 NRR A1501       0.987  19.396  41.491  1.00  0.00           C  
+HETATM   33  C27 NRR A1501       1.497  18.697  40.402  1.00  0.00           C  
+CONECT    1   18   19   29
+CONECT    1   29
+CONECT    2    5   17
+CONECT    3   23   24
+CONECT    4   18   20
+CONECT    4   20
+CONECT    5    2    6   32
+CONECT    5   32
+CONECT    6    5   16
+CONECT    6   16
+CONECT    7   25   27
+CONECT    8   10   11   12
+CONECT    9   14
+CONECT    9   14
+CONECT   10    8
+CONECT   11    8
+CONECT   12    8   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14    9   13   15
+CONECT   14    9
+CONECT   15   14   16   33
+CONECT   15   33
+CONECT   16    6   15
+CONECT   16    6
+CONECT   17    2   20   31
+CONECT   17   31
+CONECT   18    1    4   30
+CONECT   18   30
+CONECT   19    1   21
+CONECT   19   21
+CONECT   20    4   17
+CONECT   20    4
+CONECT   21   19   22
+CONECT   21   19
+CONECT   22   21   23   28
+CONECT   22   28
+CONECT   23    3   22   27
+CONECT   24    3   25
+CONECT   25    7   24   26
+CONECT   26   25
+CONECT   27    7   23
+CONECT   28   22   29
+CONECT   28   22
+CONECT   29    1   28
+CONECT   29    1
+CONECT   30   18   31
+CONECT   30   18
+CONECT   31   17   30   32
+CONECT   31   17
+CONECT   32    5   31   33
+CONECT   32    5
+CONECT   33   15   32
+CONECT   33   15
+ENDMDL
+END   

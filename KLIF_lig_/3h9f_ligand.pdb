@@ -1,0 +1,90 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3h9f_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  Q92 A 809       0.940  18.610  43.098  1.00  0.00           C  
+HETATM    2  C5  Q92 A 809       1.243  19.957  43.099  1.00  0.00           C  
+HETATM    3  C6  Q92 A 809       0.621  20.790  44.017  1.00  0.00           C  
+HETATM    4  N1  Q92 A 809      -0.244  20.268  44.860  1.00  0.00           N  
+HETATM    5  N3  Q92 A 809       0.052  18.140  43.977  1.00  0.00           N  
+HETATM    6  CAT Q92 A 809      -2.491  12.633  48.242  1.00  0.00           C  
+HETATM    7  CAU Q92 A 809      -1.985  11.187  48.255  1.00  0.00           C  
+HETATM    8  CAV Q92 A 809      -2.944  10.324  47.402  1.00  0.00           C  
+HETATM    9  OAW Q92 A 809      -2.477   8.966  47.285  1.00  0.00           O  
+HETATM   10  CAX Q92 A 809      -3.106  10.953  45.997  1.00  0.00           C  
+HETATM   11  CAY Q92 A 809      -2.156  12.140  45.769  1.00  0.00           C  
+HETATM   12  NAS Q92 A 809      -2.229  13.123  46.875  1.00  0.00           N  
+HETATM   13  CAR Q92 A 809      -2.024  14.475  46.606  1.00  0.00           C  
+HETATM   14  CAZ Q92 A 809      -1.865  15.400  47.640  1.00  0.00           C  
+HETATM   15  CBA Q92 A 809      -1.631  16.743  47.324  1.00  0.00           C  
+HETATM   16  OBB Q92 A 809      -1.450  17.675  48.279  1.00  0.00           O  
+HETATM   17  CBC Q92 A 809      -1.584  17.193  49.597  1.00  0.00           C  
+HETATM   18  CAQ Q92 A 809      -1.960  14.914  45.285  1.00  0.00           C  
+HETATM   19  CAP Q92 A 809      -1.748  16.259  44.975  1.00  0.00           C  
+HETATM   20  CAO Q92 A 809      -1.565  17.178  45.998  1.00  0.00           C  
+HETATM   21  NAN Q92 A 809      -1.390  18.478  45.752  1.00  0.00           N  
+HETATM   22  C2  Q92 A 809      -0.527  18.952  44.857  1.00  0.00           C  
+HETATM   23  NBG Q92 A 809       2.087  20.595  42.302  1.00  0.00           N  
+HETATM   24  CBH Q92 A 809       2.886  21.701  42.861  1.00  0.00           C  
+HETATM   25  CAB Q92 A 809       2.279  20.285  41.025  1.00  0.00           C  
+HETATM   26  OAA Q92 A 809       3.101  20.932  40.362  1.00  0.00           O  
+HETATM   27  CAC Q92 A 809       1.516  19.174  40.380  1.00  0.00           C  
+HETATM   28  CAD Q92 A 809       1.992  17.847  40.976  1.00  0.00           C  
+HETATM   29  NAE Q92 A 809       1.392  17.646  42.295  1.00  0.00           N  
+HETATM   30  CAF Q92 A 809       1.119  16.231  42.652  1.00  0.00           C  
+HETATM   31  CAG Q92 A 809       2.339  15.334  42.409  1.00  0.00           C  
+HETATM   32  CAH Q92 A 809       1.790  13.982  42.018  1.00  0.00           C  
+HETATM   33  CAI Q92 A 809       0.425  14.247  41.420  1.00  0.00           C  
+HETATM   34  CAJ Q92 A 809       0.095  15.724  41.685  1.00  0.00           C  
+CONECT    1    2    5   29
+CONECT    1    5
+CONECT    2    1    3   23
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3   22
+CONECT    4   22
+CONECT    5    1   22
+CONECT    5    1
+CONECT    6    7   12
+CONECT    7    6    8
+CONECT    8    7    9   10
+CONECT    9    8
+CONECT   10    8   11
+CONECT   11   10   12
+CONECT   12    6   11   13
+CONECT   13   12   14   18
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   16   20
+CONECT   15   20
+CONECT   16   15   17
+CONECT   17   16
+CONECT   18   13   19
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   15   19   21
+CONECT   20   15
+CONECT   21   20   22
+CONECT   22    4    5   21
+CONECT   22    4
+CONECT   23    2   24   25
+CONECT   24   23
+CONECT   25   23   26   27
+CONECT   25   26
+CONECT   26   25
+CONECT   26   25
+CONECT   27   25   28
+CONECT   28   27   29
+CONECT   29    1   28   30
+CONECT   30   29   31   34
+CONECT   31   30   32
+CONECT   32   31   33
+CONECT   33   32   34
+CONECT   34   30   33
+ENDMDL
+END   

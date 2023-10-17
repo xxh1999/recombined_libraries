@@ -1,0 +1,88 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4mf1_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  Q29 B 701      -5.189  15.923  55.161  1.00  0.00           C  
+HETATM    2  N2  Q29 B 701      -4.251  17.048  55.263  1.00  0.00           N1+
+HETATM    3  C3  Q29 B 701      -4.162  17.553  56.642  1.00  0.00           C  
+HETATM    4  C4  Q29 B 701      -2.931  16.659  54.749  1.00  0.00           C  
+HETATM    5  C5  Q29 B 701      -3.037  16.349  53.276  1.00  0.00           C  
+HETATM    6  C6  Q29 B 701      -2.253  15.353  52.729  1.00  0.00           C  
+HETATM    7  C7  Q29 B 701      -2.345  15.058  51.383  1.00  0.00           C  
+HETATM    8  C8  Q29 B 701      -3.231  15.750  50.573  1.00  0.00           C  
+HETATM    9  C9  Q29 B 701      -4.010  16.754  51.119  1.00  0.00           C  
+HETATM   10  C10 Q29 B 701      -3.917  17.051  52.471  1.00  0.00           C  
+HETATM   11  C11 Q29 B 701      -3.300  15.436  49.094  1.00  0.00           C  
+HETATM   12  C13 Q29 B 701      -4.567  15.672  48.259  1.00  0.00           C  
+HETATM   13  C14 Q29 B 701      -3.431  16.696  48.226  1.00  0.00           C  
+HETATM   14  C16 Q29 B 701      -2.533  16.790  47.030  1.00  0.00           C  
+HETATM   15  O17 Q29 B 701      -2.050  15.795  46.547  1.00  0.00           O  
+HETATM   16  N18 Q29 B 701      -2.252  18.009  46.531  1.00  0.00           N  
+HETATM   17  C19 Q29 B 701      -1.439  18.182  45.416  1.00  0.00           C  
+HETATM   18  N20 Q29 B 701      -1.181  19.326  44.885  1.00  0.00           N  
+HETATM   19  C21 Q29 B 701      -0.391  19.361  43.793  1.00  0.00           C  
+HETATM   20  C22 Q29 B 701       0.036  20.485  43.042  1.00  0.00           C  
+HETATM   21  C23 Q29 B 701       0.840  20.322  41.956  1.00  0.00           C  
+HETATM   22  C24 Q29 B 701       1.262  19.040  41.582  1.00  0.00           C  
+HETATM   23  C25 Q29 B 701       0.861  17.929  42.307  1.00  0.00           C  
+HETATM   24  C26 Q29 B 701       0.037  18.089  43.407  1.00  0.00           C  
+HETATM   25  S27 Q29 B 701      -0.632  16.907  44.518  1.00  0.00           S  
+HETATM   26  C28 Q29 B 701       2.129  18.825  40.403  1.00  0.00           C  
+HETATM   27  C29 Q29 B 701       2.162  19.584  39.272  1.00  0.00           C  
+HETATM   28  N30 Q29 B 701       3.065  19.025  38.447  1.00  0.00           N  
+HETATM   29  N32 Q29 B 701       3.603  17.903  39.076  1.00  0.00           N  
+HETATM   30  C33 Q29 B 701       3.040  17.769  40.240  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3    4
+CONECT    3    2
+CONECT    4    2    5
+CONECT    5    4    6   10
+CONECT    5   10
+CONECT    6    5    7
+CONECT    6    7
+CONECT    7    6    8
+CONECT    7    6
+CONECT    8    7    9   11
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    5    9
+CONECT   10    5
+CONECT   11    8   12   13
+CONECT   12   11   13
+CONECT   13   11   12   14
+CONECT   14   13   15   16
+CONECT   14   15
+CONECT   15   14
+CONECT   15   14
+CONECT   16   14   17
+CONECT   17   16   18   25
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   18   20   24
+CONECT   19   24
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   21   23   26
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   19   23   25
+CONECT   24   19
+CONECT   25   17   24
+CONECT   26   22   27   30
+CONECT   26   27
+CONECT   27   26   28
+CONECT   27   26
+CONECT   28   27   29
+CONECT   29   28   30
+CONECT   29   30
+CONECT   30   26   29
+CONECT   30   29
+ENDMDL
+END   

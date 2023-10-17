@@ -1,0 +1,58 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7BA6
+MODEL        1
+ATOM      1  N   CYS A  42      24.390  20.807  -3.414  1.00 16.17           N1+
+ATOM      2  CA  CYS A  42      23.369  19.787  -3.224  1.00 16.98           C  
+ATOM      3  C   CYS A  42      23.911  18.394  -3.503  1.00 17.41           C  
+ATOM      4  O   CYS A  42      23.667  17.479  -2.715  1.00 18.45           O  
+ATOM      5  CB  CYS A  42      22.183  20.090  -4.110  1.00 18.57           C  
+ATOM      6  SG  CYS A  42      21.107  21.415  -3.419  1.00 26.52           S  
+TER       7      CYS A  42
+HETATM    8  C1  T5Q A 303      15.236  20.562  -0.008  1.00 34.59           C  
+HETATM    9  C2  T5Q A 303      17.200  21.315   1.325  1.00 28.07           C  
+HETATM   10  C3  T5Q A 303      17.573  22.216   2.297  1.00 25.56           C  
+HETATM   11  C4  T5Q A 303      18.751  22.068   2.993  1.00 25.09           C  
+HETATM   12  C5  T5Q A 303      19.574  20.966   2.759  1.00 26.02           C  
+HETATM   13  C6  T5Q A 303      19.207  20.066   1.780  1.00 29.02           C  
+HETATM   14  C7  T5Q A 303      18.026  20.209   1.094  1.00 29.16           C  
+HETATM   15  C9  T5Q A 303      15.988  19.957  -1.191  1.00 40.05           C  
+HETATM   16  C8  T5Q A 303      14.002  21.321  -0.495  1.00 36.12           C  
+HETATM   17  N   T5Q A 303      16.817  20.762  -1.863  1.00 33.35           N  
+HETATM   18  C   T5Q A 303      14.832  19.454   0.981  1.00 36.90           C  
+HETATM   19  O   T5Q A 303      16.026  21.567   0.641  1.00 31.26           O  
+HETATM   20  C10 T5Q A 303      17.765  20.215  -2.840  1.00 31.07           C  
+HETATM   21  C11 T5Q A 303      18.913  19.414  -2.216  1.00 28.19           C  
+HETATM   22  F   T5Q A 303      19.064  22.955   3.954  1.00 30.62           F  
+HETATM   23  F1  T5Q A 303      19.973  18.987   1.498  1.00 34.84           F  
+HETATM   24  O1  T5Q A 303      15.840  18.771  -1.473  1.00 38.14           O  
+HETATM   25  S   T5Q A 303      20.283  20.526  -1.757  1.00 26.34           S  
+CONECT    8   15   16   18   19
+CONECT    9   10   14   19
+CONECT    9   14
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   12   22
+CONECT   11   10
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14   23
+CONECT   13   12
+CONECT   14    9   13
+CONECT   14    9
+CONECT   15    8   17   24
+CONECT   15   24
+CONECT   16    8
+CONECT   17   15   20
+CONECT   18    8
+CONECT   19    8    9
+CONECT   20   17   21
+CONECT   21   20   25
+CONECT   22   11
+CONECT   23   13
+CONECT   24   15
+CONECT   24   15
+CONECT   25    6   21
+ENDMDL
+END   

@@ -1,0 +1,64 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2OP3
+MODEL        1
+ATOM      1  N   CYS A  25      16.204  39.257  12.008  1.00 14.26           N1+
+ATOM      2  CA  CYS A  25      15.580  37.953  11.725  1.00 14.42           C  
+ATOM      3  C   CYS A  25      15.592  36.965  12.907  1.00 13.00           C  
+ATOM      4  O   CYS A  25      14.628  36.228  13.102  1.00 13.20           O  
+ATOM      5  CB  CYS A  25      16.199  37.327  10.457  1.00 14.53           C  
+ATOM      6  SG  CYS A  25      17.983  36.997  10.641  1.00 17.78           S  
+TER       7      CYS A  25
+HETATM    8  C10 TF5 A 501      22.073  33.066  11.274  1.00 26.92           C  
+HETATM    9  C17 TF5 A 501      18.623  38.083   9.337  1.00 27.55           C  
+HETATM   10  C16 TF5 A 501      20.157  38.083   9.218  1.00 29.64           C  
+HETATM   11  C8  TF5 A 501      20.366  34.250  12.531  1.00 25.51           C  
+HETATM   12  C7  TF5 A 501      21.025  35.472  12.284  1.00 26.86           C  
+HETATM   13  C5  TF5 A 501      24.193  39.144  10.274  1.00 27.94           C  
+HETATM   14  C4  TF5 A 501      22.797  39.040  10.143  1.00 28.04           C  
+HETATM   15  C3  TF5 A 501      22.122  37.866  10.550  1.00 27.47           C  
+HETATM   16  C2  TF5 A 501      22.852  36.782  11.105  1.00 27.88           C  
+HETATM   17  O   TF5 A 501      20.754  37.776  10.468  1.00 28.41           O  
+HETATM   18  C   TF5 A 501      24.922  38.079  10.827  1.00 28.02           C  
+HETATM   19  F13 TF5 A 501      19.222  34.231  13.252  1.00 26.79           F  
+HETATM   20  F   TF5 A 501      20.527  36.612  12.819  1.00 28.64           F  
+HETATM   21  C9  TF5 A 501      20.883  33.048  12.020  1.00 27.69           C  
+HETATM   22  F14 TF5 A 501      20.235  31.878  12.239  1.00 28.98           F  
+HETATM   23  C11 TF5 A 501      22.713  34.290  11.005  1.00 26.64           C  
+HETATM   24  C6  TF5 A 501      22.192  35.513  11.482  1.00 26.97           C  
+HETATM   25  C1  TF5 A 501      24.255  36.910  11.236  1.00 28.05           C  
+HETATM   26  O20 TF5 A 501      18.180  39.403   9.469  1.00 28.94           O  
+CONECT    8   21   23
+CONECT    8   23
+CONECT    9    6   10   26
+CONECT   10    9   17
+CONECT   11   12   19   21
+CONECT   11   21
+CONECT   12   11   20   24
+CONECT   12   24
+CONECT   13   14   18
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   16   17
+CONECT   15   16
+CONECT   16   15   24   25
+CONECT   16   15
+CONECT   17   10   15
+CONECT   18   13   25
+CONECT   18   25
+CONECT   19   11
+CONECT   20   12
+CONECT   21    8   11   22
+CONECT   21   11
+CONECT   22   21
+CONECT   23    8   24
+CONECT   23    8
+CONECT   24   12   16   23
+CONECT   24   12
+CONECT   25   16   18
+CONECT   25   18
+CONECT   26    9
+ENDMDL
+END   

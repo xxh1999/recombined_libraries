@@ -1,0 +1,52 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4X91
+MODEL        1
+ATOM      1  N   SER B 165       3.210 -29.049 -21.210  1.00 22.45           N1+
+ATOM      2  CA  SER B 165       2.623 -29.672 -22.392  1.00 22.07           C  
+ATOM      3  C   SER B 165       2.557 -28.689 -23.575  1.00 21.33           C  
+ATOM      4  O   SER B 165       3.580 -28.093 -23.902  1.00 20.29           O  
+ATOM      5  CB  SER B 165       1.306 -30.366 -22.016  1.00 22.54           C  
+ATOM      6  OG  SER B 165       1.017 -31.343 -22.992  1.00 23.45           O  
+TER       7      SER B 165
+HETATM    8  P1  TO4 B 405      -0.486 -31.502 -23.567  0.50 22.84           P  
+HETATM    9  O1  TO4 B 405      -1.174 -30.230 -23.922  0.50 22.95           O  
+HETATM   10  O2  TO4 B 405      -1.184 -32.424 -22.422  0.50 22.81           O  
+HETATM   11  CM  TO4 B 405      -2.429 -32.075 -21.847  0.50 23.06           C  
+HETATM   12  CM2 TO4 B 405      -2.172 -31.217 -20.599  0.50 23.16           C  
+HETATM   13  CM1 TO4 B 405      -3.215 -33.350 -21.534  0.50 22.99           C  
+HETATM   14  C1  TO4 B 405      -0.234 -32.668 -24.971  0.50 23.65           C  
+HETATM   15  C2  TO4 B 405      -1.560 -33.187 -25.528  0.50 24.33           C  
+HETATM   16  C3  TO4 B 405      -1.343 -34.294 -26.569  0.50 24.91           C  
+HETATM   17  C4  TO4 B 405      -2.655 -34.911 -27.065  0.50 25.11           C  
+HETATM   18  C5  TO4 B 405      -3.398 -34.025 -28.078  0.50 25.47           C  
+HETATM   19  C6  TO4 B 405      -4.906 -34.295 -28.085  0.50 25.80           C  
+HETATM   20  C7  TO4 B 405      -5.643 -33.543 -26.967  0.50 26.01           C  
+HETATM   21  C8  TO4 B 405      -7.104 -33.987 -26.798  0.50 26.62           C  
+HETATM   22  C9  TO4 B 405      -8.062 -32.825 -26.509  0.50 26.99           C  
+HETATM   23  C10 TO4 B 405      -8.388 -31.995 -27.762  0.50 26.98           C  
+HETATM   24  C11 TO4 B 405      -9.515 -30.977 -27.544  0.50 26.64           C  
+HETATM   25  C12 TO4 B 405      -9.049 -29.675 -26.891  0.50 26.25           C  
+CONECT    8    6    9   10   14
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8   11
+CONECT   11   10   12   13
+CONECT   12   11
+CONECT   13   11
+CONECT   14    8   15
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   24
+ENDMDL
+END   

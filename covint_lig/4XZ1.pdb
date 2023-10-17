@@ -1,0 +1,57 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4XZ1
+MODEL        1
+ATOM      1  N   LEU B 303     -17.788   8.400  85.145  1.00 68.43           N1+
+ATOM      2  CA  LEU B 303     -19.186   8.034  84.898  1.00104.27           C  
+ATOM      3  C   LEU B 303     -19.535   8.138  83.397  1.00103.21           C  
+ATOM      4  O   LEU B 303     -20.673   8.434  83.034  1.00105.15           O  
+ATOM      5  CB  LEU B 303     -20.117   8.885  85.807  1.00119.07           C  
+ATOM      6  CG  LEU B 303     -21.298   8.130  86.463  1.00116.57           C  
+ATOM      7  CD1 LEU B 303     -22.012   9.036  87.479  1.00 83.29           C  
+ATOM      8  CD2 LEU B 303     -22.317   7.567  85.458  1.00110.37           C  
+HETATM    9  N   PTR B 304     -18.560   7.874  82.511  1.00 98.30           N  
+HETATM   10  CA  PTR B 304     -18.740   7.852  81.059  1.00 93.57           C  
+HETATM   11  C   PTR B 304     -19.337   6.509  80.626  1.00 88.56           C  
+HETATM   12  O   PTR B 304     -18.975   5.456  81.151  1.00 98.59           O  
+HETATM   13  CB  PTR B 304     -17.374   8.029  80.370  1.00 86.95           C  
+HETATM   14  CG  PTR B 304     -16.876   9.458  80.431  1.00 72.12           C  
+HETATM   15  CD1 PTR B 304     -17.419  10.420  79.555  1.00 70.58           C  
+HETATM   16  CD2 PTR B 304     -15.898   9.840  81.372  1.00 71.35           C  
+HETATM   17  CE1 PTR B 304     -17.009  11.762  79.631  1.00 69.91           C  
+HETATM   18  CE2 PTR B 304     -15.484  11.184  81.446  1.00 72.57           C  
+HETATM   19  CZ  PTR B 304     -16.055  12.147  80.590  1.00 72.97           C  
+HETATM   20  OH  PTR B 304     -15.678  13.456  80.683  1.00 84.66           O  
+HETATM   21  P   PTR B 304     -16.521  14.431  81.685  1.00 75.87           P  
+HETATM   22  O1P PTR B 304     -17.871  14.640  81.033  1.00 71.28           O  
+HETATM   23  O2P PTR B 304     -16.618  13.714  83.017  1.00 78.28           O1-
+HETATM   24  O3P PTR B 304     -15.705  15.706  81.748  1.00 79.97           O1-
+CONECT    9    3   10
+CONECT   10    9   11   13
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12   11
+CONECT   12   11
+CONECT   13   10   14
+CONECT   14   13   15   16
+CONECT   14   15
+CONECT   15   14   17
+CONECT   15   14
+CONECT   16   14   18
+CONECT   16   18
+CONECT   17   15   19
+CONECT   17   19
+CONECT   18   16   19
+CONECT   18   16
+CONECT   19   17   18   20
+CONECT   19   17
+CONECT   20   19   21
+CONECT   21   20   22   23   24
+CONECT   21   22
+CONECT   22   21
+CONECT   22   21
+CONECT   23   21
+CONECT   24   21
+ENDMDL
+END   

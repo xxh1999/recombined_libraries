@@ -1,0 +1,80 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6CZU
+MODEL        1
+ATOM      1  N   MET A 149      -3.545  -3.032   4.861  1.00 12.58           N1+
+ATOM      2  CA  MET A 149      -3.316  -2.012   5.875  1.00 13.24           C  
+ATOM      3  C   MET A 149      -2.945  -2.620   7.242  1.00 12.60           C  
+ATOM      4  O   MET A 149      -2.186  -1.993   7.979  1.00 13.55           O  
+ATOM      5  CB  MET A 149      -4.598  -1.171   5.997  1.00 16.25           C  
+ATOM      6  CG  MET A 149      -4.750  -0.199   4.815  1.00 20.05           C  
+ATOM      7  SD  MET A 149      -6.046   1.062   4.954  1.00 23.70           S1+
+ATOM      8  CE  MET A 149      -5.934   1.758   3.282  1.00 24.04           C  
+TER       9      MET A 149
+HETATM   10  C1  FP7 A 201     -10.657   0.795   6.355  1.00 20.29           C  
+HETATM   11  C2  FP7 A 201     -11.855   0.253   6.855  1.00 16.46           C  
+HETATM   12  C3  FP7 A 201     -12.496  -0.809   6.182  1.00 19.39           C  
+HETATM   13  C4  FP7 A 201     -11.909  -1.334   5.012  1.00 19.83           C  
+HETATM   14  C5  FP7 A 201     -10.704  -0.801   4.517  1.00 21.13           C  
+HETATM   15  C6  FP7 A 201     -13.819  -1.373   6.689  1.00 19.18           C  
+HETATM   16  C7  FP7 A 201     -13.281  -3.057   8.377  1.00 18.22           C  
+HETATM   17  C12 FP7 A 201     -12.556  -4.823   9.874  1.00 16.05           C  
+HETATM   18  O   FP7 A 201     -14.664   0.185   8.858  1.00 24.01           O  
+HETATM   19  C11 FP7 A 201     -14.173  -0.919   9.095  1.00 21.05           C  
+HETATM   20  N   FP7 A 201     -13.779  -1.771   8.103  1.00 17.95           N  
+HETATM   21  C   FP7 A 201     -10.081   0.282   5.175  1.00 19.85           C  
+HETATM   22  C17 FP7 A 201      -8.822   0.919   4.613  1.00 23.99           C  
+HETATM   23  O2  FP7 A 201      -8.938   1.150   3.222  1.00 30.74           O  
+HETATM   24  C18 FP7 A 201      -7.568   0.068   4.865  1.00 20.50           C  
+HETATM   25  C10 FP7 A 201     -13.950  -1.394  10.462  1.00 18.22           C  
+HETATM   26  C9  FP7 A 201     -13.420  -2.607  10.710  1.00 20.74           C  
+HETATM   27  C8  FP7 A 201     -13.082  -3.509   9.630  1.00 16.72           C  
+HETATM   28  C15 FP7 A 201     -11.556  -5.190  10.817  1.00 15.99           C  
+HETATM   29  C16 FP7 A 201     -10.759  -4.346  11.771  1.00 16.10           C  
+HETATM   30  N1  FP7 A 201     -11.308  -6.484  10.729  1.00 16.83           N  
+HETATM   31  O1  FP7 A 201     -12.162  -6.997   9.743  1.00 17.90           O  
+HETATM   32  C13 FP7 A 201     -12.899  -5.980   9.231  1.00 16.64           C  
+HETATM   33  C14 FP7 A 201     -13.890  -6.336   8.174  1.00 18.45           C  
+CONECT   10   11   21
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   13   15
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   21
+CONECT   14   21
+CONECT   15   12   20
+CONECT   16   20   27
+CONECT   16   27
+CONECT   17   27   28   32
+CONECT   17   32
+CONECT   18   19
+CONECT   18   19
+CONECT   19   18   20   25
+CONECT   19   18
+CONECT   20   15   16   19
+CONECT   21   10   14   22
+CONECT   21   14
+CONECT   22   21   23   24
+CONECT   23   22
+CONECT   24    7   22
+CONECT   25   19   26
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   16   17   26
+CONECT   27   16
+CONECT   28   17   29   30
+CONECT   28   30
+CONECT   29   28
+CONECT   30   28   31
+CONECT   30   28
+CONECT   31   30   32
+CONECT   32   17   31   33
+CONECT   32   17
+CONECT   33   32
+ENDMDL
+END   

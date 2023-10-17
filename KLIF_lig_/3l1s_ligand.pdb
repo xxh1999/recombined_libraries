@@ -1,0 +1,76 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3l1s_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  Z92 B 422       3.296  16.387  36.444  1.00  0.00           C  
+HETATM    2  O2  Z92 B 422       3.538  17.765  36.526  1.00  0.00           O  
+HETATM    3  C3  Z92 B 422       2.992  18.355  37.571  1.00  0.00           C  
+HETATM    4  C4  Z92 B 422       2.597  17.599  38.643  1.00  0.00           C  
+HETATM    5  C5  Z92 B 422       2.018  18.176  39.730  1.00  0.00           C  
+HETATM    6  C6  Z92 B 422       1.854  19.533  39.695  1.00  0.00           C  
+HETATM    7  C7  Z92 B 422       2.259  20.295  38.639  1.00  0.00           C  
+HETATM    8  C8  Z92 B 422       2.818  19.709  37.567  1.00  0.00           C  
+HETATM    9  O9  Z92 B 422       3.164  20.522  36.585  1.00  0.00           O  
+HETATM   10  C10 Z92 B 422       3.600  21.770  37.034  1.00  0.00           C  
+HETATM   11  C11 Z92 B 422       1.263  20.238  40.790  1.00  0.00           C  
+HETATM   12  N12 Z92 B 422       1.145  21.489  40.904  1.00  0.00           N  
+HETATM   13  N13 Z92 B 422       0.570  21.853  42.094  1.00  0.00           N  
+HETATM   14  C14 Z92 B 422       0.299  20.773  42.767  1.00  0.00           C  
+HETATM   15  O15 Z92 B 422      -0.179  20.665  43.831  1.00  0.00           O  
+HETATM   16  C16 Z92 B 422       0.654  19.675  41.949  1.00  0.00           C  
+HETATM   17  N17 Z92 B 422       0.375  18.470  42.227  1.00  0.00           N  
+HETATM   18  N18 Z92 B 422      -0.197  18.378  43.333  1.00  0.00           N  
+HETATM   19  C19 Z92 B 422      -0.568  17.120  43.688  1.00  0.00           C  
+HETATM   20  C20 Z92 B 422      -1.541  16.943  44.611  1.00  0.00           C  
+HETATM   21  C21 Z92 B 422      -1.881  15.674  44.931  1.00  0.00           C  
+HETATM   22  C22 Z92 B 422      -1.286  14.606  44.334  1.00  0.00           C  
+HETATM   23 CL23 Z92 B 422      -1.730  12.996  44.753  1.00  0.00          Cl  
+HETATM   24  C24 Z92 B 422      -0.316  14.811  43.408  1.00  0.00           C  
+HETATM   25  C25 Z92 B 422       0.041  16.073  43.079  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4    8
+CONECT    3    8
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    5    7   11
+CONECT    6    7
+CONECT    7    6    8
+CONECT    7    6
+CONECT    8    3    7    9
+CONECT    8    3
+CONECT    9    8   10
+CONECT   10    9
+CONECT   11    6   12   16
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   14
+CONECT   14   13   15   16
+CONECT   14   15
+CONECT   15   14
+CONECT   15   14
+CONECT   16   11   14   17
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   17   19
+CONECT   19   18   20   25
+CONECT   19   25
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   21   23   24
+CONECT   22   24
+CONECT   23   22
+CONECT   24   22   25
+CONECT   24   22
+CONECT   25   19   24
+CONECT   25   19
+ENDMDL
+END   

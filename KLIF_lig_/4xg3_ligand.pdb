@@ -1,0 +1,92 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4xg3_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  X3G A 701       0.816  19.312  41.576  1.00  0.00           C  
+HETATM    2  C5  X3G A 701       0.624  20.697  41.618  1.00  0.00           C  
+HETATM    3  C6  X3G A 701      -0.161  21.230  42.633  1.00  0.00           C  
+HETATM    4  N1  X3G A 701      -0.735  20.437  43.526  1.00  0.00           N  
+HETATM    5  N3  X3G A 701       0.194  18.566  42.520  1.00  0.00           N  
+HETATM    6  CAD X3G A 701      -1.021  10.814  44.462  1.00  0.00           C  
+HETATM    7  SBH X3G A 701      -1.427  12.005  45.721  1.00  0.00           S2+
+HETATM    8  OAE X3G A 701      -1.445  11.303  47.046  1.00  0.00           O1-
+HETATM    9  OAF X3G A 701      -2.780  12.601  45.480  1.00  0.00           O1-
+HETATM   10  OAU X3G A 701      -0.408  13.013  45.762  1.00  0.00           O  
+HETATM   11  CBC X3G A 701      -0.654  14.332  45.423  1.00  0.00           C  
+HETATM   12  CAW X3G A 701      -1.348  15.214  46.275  1.00  0.00           C  
+HETATM   13  CAB X3G A 701      -1.945  14.753  47.609  1.00  0.00           C  
+HETATM   14  CAK X3G A 701      -1.527  16.549  45.907  1.00  0.00           C  
+HETATM   15  CAV X3G A 701      -0.119  14.843  44.227  1.00  0.00           C  
+HETATM   16  CAA X3G A 701       0.655  13.961  43.243  1.00  0.00           C  
+HETATM   17  CAJ X3G A 701      -0.310  16.177  43.869  1.00  0.00           C  
+HETATM   18  CAZ X3G A 701      -1.003  17.059  44.711  1.00  0.00           C  
+HETATM   19  NAT X3G A 701      -1.206  18.363  44.436  1.00  0.00           N  
+HETATM   20  C2  X3G A 701      -0.566  19.099  43.501  1.00  0.00           C  
+HETATM   21  F5  X3G A 701       1.177  21.530  40.727  1.00  0.00           F  
+HETATM   22  NBG X3G A 701       1.524  18.694  40.615  1.00  0.00           N  
+HETATM   23  CAM X3G A 701       1.609  17.362  40.502  1.00  0.00           C  
+HETATM   24  CAL X3G A 701       2.200  19.239  39.584  1.00  0.00           C  
+HETATM   25  CAX X3G A 701       2.711  18.245  38.860  1.00  0.00           C  
+HETATM   26  CAC X3G A 701       3.573  18.399  37.603  1.00  0.00           C  
+HETATM   27  CBA X3G A 701       2.337  17.044  39.435  1.00  0.00           C  
+HETATM   28  CAP X3G A 701       2.690  15.626  38.974  1.00  0.00           C  
+HETATM   29  NBF X3G A 701       1.646  15.078  38.092  1.00  0.00           N1+
+HETATM   30  CAQ X3G A 701       0.398  14.754  38.812  1.00  0.00           C  
+HETATM   31  CAO X3G A 701       2.138  13.821  37.492  1.00  0.00           C  
+HETATM   32  CAN X3G A 701       1.190  12.731  37.969  1.00  0.00           C  
+HETATM   33  CBE X3G A 701      -0.102  13.493  38.157  1.00  0.00           C  
+HETATM   34  OAG X3G A 701      -0.930  12.801  39.088  1.00  0.00           O  
+CONECT    1    2    5   22
+CONECT    1    5
+CONECT    2    1    3   21
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3   20
+CONECT    4   20
+CONECT    5    1   20
+CONECT    5    1
+CONECT    6    7
+CONECT    7    6    8    9   10
+CONECT    8    7
+CONECT    9    7
+CONECT   10    7   11
+CONECT   11   10   12   15
+CONECT   11   12
+CONECT   12   11   13   14
+CONECT   12   11
+CONECT   13   12
+CONECT   14   12   18
+CONECT   14   18
+CONECT   15   11   16   17
+CONECT   15   17
+CONECT   16   15
+CONECT   17   15   18
+CONECT   17   15
+CONECT   18   14   17   19
+CONECT   18   14
+CONECT   19   18   20
+CONECT   20    4    5   19
+CONECT   20    4
+CONECT   21    2
+CONECT   22    1   23   24
+CONECT   23   22   27
+CONECT   23   27
+CONECT   24   22   25
+CONECT   24   25
+CONECT   25   24   26   27
+CONECT   25   24
+CONECT   26   25
+CONECT   27   23   25   28
+CONECT   27   23
+CONECT   28   27   29
+CONECT   29   28   30   31
+CONECT   30   29   33
+CONECT   31   29   32
+CONECT   32   31   33
+CONECT   33   30   32   34
+CONECT   34   33
+ENDMDL
+END   

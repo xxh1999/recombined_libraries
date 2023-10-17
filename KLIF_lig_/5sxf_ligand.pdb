@@ -1,0 +1,40 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5sxf_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  HPP A1101       5.976  53.758  35.431  1.00  0.00           C  
+HETATM    2  C2  HPP A1101       4.775  54.424  35.151  1.00  0.00           C  
+HETATM    3  C3  HPP A1101       4.592  55.053  33.920  1.00  0.00           C  
+HETATM    4  C4  HPP A1101       5.606  55.013  32.960  1.00  0.00           C  
+HETATM    5  O4  HPP A1101       5.415  55.628  31.768  1.00  0.00           O  
+HETATM    6  C5  HPP A1101       6.807  54.350  33.226  1.00  0.00           C  
+HETATM    7  C6  HPP A1101       6.991  53.722  34.461  1.00  0.00           C  
+HETATM    8  C7  HPP A1101       6.167  53.077  36.776  1.00  0.00           C  
+HETATM    9  C8  HPP A1101       6.125  54.076  37.942  1.00  0.00           C  
+HETATM   10  C9  HPP A1101       7.392  54.901  38.045  1.00  0.00           C  
+HETATM   11  O1  HPP A1101       7.554  55.876  37.274  1.00  0.00           O  
+HETATM   12  O2  HPP A1101       8.238  54.587  38.914  1.00  0.00           O1-
+CONECT    1    2    7    8
+CONECT    1    7
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3    5    6
+CONECT    4    6
+CONECT    5    4
+CONECT    6    4    7
+CONECT    6    4
+CONECT    7    1    6
+CONECT    7    1
+CONECT    8    1    9
+CONECT    9    8   10
+CONECT   10    9   11   12
+CONECT   10   11
+CONECT   11   10
+CONECT   11   10
+CONECT   12   10
+ENDMDL
+END   

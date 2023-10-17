@@ -1,0 +1,92 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5otd_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1 CL   AOW B 402     -11.111  15.877  35.838  1.00  0.00          Cl  
+HETATM    2  C23 AOW B 402     -11.031  14.602  37.010  1.00  0.00           C  
+HETATM    3  C8  AOW B 402     -12.030  13.632  37.035  1.00  0.00           C  
+HETATM    4  C7  AOW B 402     -13.096  13.543  35.988  1.00  0.00           C  
+HETATM    5  C6  AOW B 402     -12.885  12.651  34.932  1.00  0.00           C  
+HETATM    6  C5  AOW B 402     -13.719  12.658  33.826  1.00  0.00           C  
+HETATM    7  C4  AOW B 402     -14.777  13.540  33.761  1.00  0.00           C  
+HETATM    8  C3  AOW B 402     -15.020  14.409  34.810  1.00  0.00           C  
+HETATM    9  C2  AOW B 402     -14.193  14.421  35.934  1.00  0.00           C  
+HETATM   10  C1  AOW B 402     -14.488  15.400  37.053  1.00  0.00           C  
+HETATM   11  C   AOW B 402     -15.439  14.898  38.105  1.00  0.00           C  
+HETATM   12  C22 AOW B 402      -9.998  14.608  37.929  1.00  0.00           C  
+HETATM   13  C11 AOW B 402      -9.945  13.652  38.936  1.00  0.00           C  
+HETATM   14  C10 AOW B 402     -10.954  12.697  38.991  1.00  0.00           C  
+HETATM   15  C9  AOW B 402     -11.980  12.680  38.057  1.00  0.00           C  
+HETATM   16  C12 AOW B 402      -8.821  13.658  39.946  1.00  0.00           C  
+HETATM   17  N   AOW B 402      -7.520  13.309  39.363  1.00  0.00           N1+
+HETATM   18  C13 AOW B 402      -6.407  13.440  40.309  1.00  0.00           C  
+HETATM   19  C14 AOW B 402      -5.037  13.066  39.763  1.00  0.00           C  
+HETATM   20  C15 AOW B 402      -3.903  13.539  40.608  1.00  0.00           C  
+HETATM   21  N2  AOW B 402      -2.729  13.913  40.137  1.00  0.00           N  
+HETATM   22  C21 AOW B 402      -1.925  14.131  41.254  1.00  0.00           C  
+HETATM   23  C16 AOW B 402      -2.684  13.888  42.410  1.00  0.00           C  
+HETATM   24  N1  AOW B 402      -3.942  13.521  41.960  1.00  0.00           N  
+HETATM   25  C20 AOW B 402      -0.569  14.481  41.468  1.00  0.00           C  
+HETATM   26  N3  AOW B 402       0.335  14.752  40.338  1.00  0.00           N1+
+HETATM   27  O1  AOW B 402       1.287  15.502  40.519  1.00  0.00           O  
+HETATM   28  O   AOW B 402       0.105  14.217  39.262  1.00  0.00           O  
+HETATM   29  C19 AOW B 402      -0.028  14.571  42.744  1.00  0.00           C  
+HETATM   30  C18 AOW B 402      -0.827  14.322  43.850  1.00  0.00           C  
+HETATM   31  C17 AOW B 402      -2.163  13.982  43.698  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3   12
+CONECT    2   12
+CONECT    3    2    4   15
+CONECT    3   15
+CONECT    4    3    5    9
+CONECT    4    9
+CONECT    5    4    6
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    6    8
+CONECT    7    8
+CONECT    8    7    9
+CONECT    8    7
+CONECT    9    4    8   10
+CONECT    9    4
+CONECT   10    9   11
+CONECT   11   10
+CONECT   12    2   13
+CONECT   12    2
+CONECT   13   12   14   16
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15    3   14
+CONECT   15    3
+CONECT   16   13   17
+CONECT   17   16   18
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20   19   21   24
+CONECT   20   24
+CONECT   21   20   22
+CONECT   22   21   23   25
+CONECT   22   25
+CONECT   23   22   24   31
+CONECT   23   31
+CONECT   24   20   23
+CONECT   24   20
+CONECT   25   22   26   29
+CONECT   25   22
+CONECT   26   25   27   28
+CONECT   26   27
+CONECT   27   26
+CONECT   27   26
+CONECT   28   26
+CONECT   29   25   30
+CONECT   29   30
+CONECT   30   29   31
+CONECT   30   29
+CONECT   31   23   30
+CONECT   31   23
+ENDMDL
+END   

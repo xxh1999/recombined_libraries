@@ -1,0 +1,68 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7CMM
+MODEL        1
+ATOM      1  N   CYS A 359      48.264  20.576   0.554  1.00 79.21           N1+
+ATOM      2  CA  CYS A 359      47.494  21.025  -0.595  1.00 85.52           C  
+ATOM      3  C   CYS A 359      48.115  22.277  -1.197  1.00 92.62           C  
+ATOM      4  O   CYS A 359      48.666  23.125  -0.490  1.00 97.59           O  
+ATOM      5  CB  CYS A 359      46.054  21.326  -0.178  1.00 90.70           C  
+ATOM      6  SG  CYS A 359      45.587  20.203   1.095  1.00102.43           S  
+TER       7      CYS A 359
+HETATM    8  C1  KK9 A 501      48.577  27.315   9.309  1.00 97.94           C  
+HETATM    9  C10 KK9 A 501      45.977  20.815   2.702  1.00 99.83           C  
+HETATM   10  C11 KK9 A 501      45.802  20.820   7.756  1.00108.72           C  
+HETATM   11  C12 KK9 A 501      46.039  21.049   9.103  1.00107.44           C  
+HETATM   12  C13 KK9 A 501      47.103  21.853   9.485  1.00103.68           C  
+HETATM   13  C14 KK9 A 501      47.363  22.097  10.947  1.00105.76           C  
+HETATM   14  C15 KK9 A 501      47.577  25.139   9.072  1.00 96.56           C  
+HETATM   15  C16 KK9 A 501      47.446  26.516   9.198  1.00 98.28           C  
+HETATM   16  C2  KK9 A 501      49.843  26.739   9.292  1.00 97.45           C  
+HETATM   17  C3  KK9 A 501      49.974  25.362   9.164  1.00 95.73           C  
+HETATM   18  C4  KK9 A 501      48.842  24.563   9.053  1.00 96.57           C  
+HETATM   19  C5  KK9 A 501      47.928  22.421   8.532  1.00101.53           C  
+HETATM   20  C6  KK9 A 501      47.691  22.194   7.179  1.00104.27           C  
+HETATM   21  C7  KK9 A 501      46.617  21.403   6.789  1.00108.35           C  
+HETATM   22  C8  KK9 A 501      46.517  19.910   5.028  1.00108.66           C  
+HETATM   23  C9  KK9 A 501      46.132  19.607   3.606  1.00 99.22           C  
+HETATM   24  N1  KK9 A 501      46.381  21.156   5.480  1.00110.30           N  
+HETATM   25  O1  KK9 A 501      48.978  23.207   8.927  1.00 99.50           O  
+HETATM   26  O2  KK9 A 501      46.911  18.983   5.716  1.00115.30           O  
+HETATM   27 CL1  KK9 A 501      48.391  29.092   9.474  1.00 96.88          Cl  
+CONECT    8   15   16   27
+CONECT    8   15
+CONECT    9    6   23
+CONECT   10   11   21
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   13   19
+CONECT   12   19
+CONECT   13   12
+CONECT   14   15   18
+CONECT   14   18
+CONECT   15    8   14
+CONECT   15    8
+CONECT   16    8   17
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   14   17   25
+CONECT   18   14
+CONECT   19   12   20   25
+CONECT   19   12
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   10   20   24
+CONECT   21   20
+CONECT   22   23   24   26
+CONECT   22   26
+CONECT   23    9   22
+CONECT   24   21   22
+CONECT   25   18   19
+CONECT   26   22
+CONECT   26   22
+CONECT   27    8
+ENDMDL
+END   

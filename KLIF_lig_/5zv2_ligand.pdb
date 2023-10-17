@@ -1,0 +1,88 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5zv2_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  LEV B 801      -1.957  15.815  47.496  1.00  0.00           C  
+HETATM    2  O2  LEV B 801      -2.151  15.826  46.082  1.00  0.00           O  
+HETATM    3  C3  LEV B 801      -1.321  16.541  45.279  1.00  0.00           C  
+HETATM    4  C4  LEV B 801      -1.340  17.907  45.359  1.00  0.00           C  
+HETATM    5  C5  LEV B 801      -0.510  18.684  44.535  1.00  0.00           C  
+HETATM    6  N6  LEV B 801      -0.529  20.018  44.625  1.00  0.00           N  
+HETATM    7  C7  LEV B 801       0.243  20.755  43.856  1.00  0.00           C  
+HETATM    8  C8  LEV B 801       1.114  20.216  42.928  1.00  0.00           C  
+HETATM    9  C9  LEV B 801       1.193  18.831  42.774  1.00  0.00           C  
+HETATM   10  C10 LEV B 801       0.357  18.040  43.604  1.00  0.00           C  
+HETATM   11  C11 LEV B 801       0.362  16.638  43.525  1.00  0.00           C  
+HETATM   12  C12 LEV B 801      -0.470  15.881  44.347  1.00  0.00           C  
+HETATM   13  C13 LEV B 801      -0.426  14.408  44.202  1.00  0.00           C  
+HETATM   14  O14 LEV B 801       0.582  13.886  43.772  1.00  0.00           O  
+HETATM   15  N15 LEV B 801      -1.486  13.623  44.506  1.00  0.00           N  
+HETATM   16  O16 LEV B 801       2.018  18.204  41.895  1.00  0.00           O  
+HETATM   17  C17 LEV B 801       2.589  18.840  40.848  1.00  0.00           C  
+HETATM   18  C18 LEV B 801       3.681  19.674  41.065  1.00  0.00           C  
+HETATM   19  C19 LEV B 801       4.256  20.331  39.998  1.00  0.00           C  
+HETATM   20  C20 LEV B 801       3.766  20.158  38.711  1.00  0.00           C  
+HETATM   21  C21 LEV B 801       2.679  19.304  38.497  1.00  0.00           C  
+HETATM   22  C22 LEV B 801       2.086  18.656  39.567  1.00  0.00           C  
+HETATM   23  N23 LEV B 801       4.441  20.855  37.694  1.00  0.00           N  
+HETATM   24  C24 LEV B 801       3.865  21.370  36.586  1.00  0.00           C  
+HETATM   25  O25 LEV B 801       2.669  21.266  36.373  1.00  0.00           O  
+HETATM   26  N26 LEV B 801       4.664  22.016  35.710  1.00  0.00           N  
+HETATM   27  C27 LEV B 801       4.136  22.583  34.476  1.00  0.00           C  
+HETATM   28  C28 LEV B 801       4.928  23.590  33.640  1.00  0.00           C  
+HETATM   29  C29 LEV B 801       4.896  22.117  33.242  1.00  0.00           C  
+HETATM   30 CL   LEV B 801       5.608  21.379  40.230  1.00  0.00          Cl  
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4   12
+CONECT    3   12
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4    6   10
+CONECT    5    4
+CONECT    6    5    7
+CONECT    6    7
+CONECT    7    6    8
+CONECT    7    6
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    8   10   16
+CONECT    9    8
+CONECT   10    5    9   11
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12    3   11   13
+CONECT   12    3
+CONECT   13   12   14   15
+CONECT   13   14
+CONECT   14   13
+CONECT   14   13
+CONECT   15   13
+CONECT   16    9   17
+CONECT   17   16   18   22
+CONECT   17   22
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20   30
+CONECT   19   18
+CONECT   20   19   21   23
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   17   21
+CONECT   22   17
+CONECT   23   20   24
+CONECT   24   23   25   26
+CONECT   24   25
+CONECT   25   24
+CONECT   25   24
+CONECT   26   24   27
+CONECT   27   26   28   29
+CONECT   28   27   29
+CONECT   29   27   28
+CONECT   30   19
+ENDMDL
+END   

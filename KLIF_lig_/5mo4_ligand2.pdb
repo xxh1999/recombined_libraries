@@ -1,0 +1,88 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5mo4_ligand2
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  AY7 A 602     -22.042   4.681  39.971  1.00  0.00           C  
+HETATM    2  C3  AY7 A 602     -21.555   3.091  41.790  1.00  0.00           C  
+HETATM    3  C11 AY7 A 602     -21.204   5.104  38.907  1.00  0.00           C  
+HETATM    4  C12 AY7 A 602     -20.142   4.238  38.281  1.00  0.00           C  
+HETATM    5  C13 AY7 A 602     -22.378   8.662  38.402  1.00  0.00           C  
+HETATM    6  C16 AY7 A 602     -21.972   9.990  36.298  1.00  0.00           C  
+HETATM    7  C17 AY7 A 602     -21.816  11.264  36.898  1.00  0.00           C  
+HETATM    8  C18 AY7 A 602     -21.601  12.394  36.102  1.00  0.00           C  
+HETATM    9  C19 AY7 A 602     -21.460  12.264  34.700  1.00  0.00           C  
+HETATM   10  C20 AY7 A 602     -21.555  10.991  34.095  1.00  0.00           C  
+HETATM   11  C21 AY7 A 602     -21.782   9.867  34.905  1.00  0.00           C  
+HETATM   12  C26 AY7 A 602     -18.357   2.958  37.935  1.00  0.00           C  
+HETATM   13  C27 AY7 A 602     -19.073   3.764  38.939  1.00  0.00           C  
+HETATM   14  C28 AY7 A 602     -19.879  13.994  33.869  1.00  0.00           C  
+HETATM   15  N2  AY7 A 602     -22.034   3.417  40.466  1.00  0.00           N  
+HETATM   16  C4  AY7 A 602     -22.667   2.094  42.191  1.00  0.00           C  
+HETATM   17  C5  AY7 A 602     -22.982   1.319  40.883  1.00  0.00           C  
+HETATM   18  C6  AY7 A 602     -22.551   2.263  39.731  1.00  0.00           C  
+HETATM   19  N7  AY7 A 602     -22.974   5.539  40.484  1.00  0.00           N  
+HETATM   20  C8  AY7 A 602     -23.112   6.812  40.045  1.00  0.00           C  
+HETATM   21  C9  AY7 A 602     -22.302   7.280  38.993  1.00  0.00           C  
+HETATM   22  C10 AY7 A 602     -21.348   6.409  38.435  1.00  0.00           C  
+HETATM   23  N14 AY7 A 602     -22.087   8.800  37.074  1.00  0.00           N  
+HETATM   24  O15 AY7 A 602     -22.751   9.560  39.150  1.00  0.00           O  
+HETATM   25  O22 AY7 A 602     -21.198  13.424  33.958  1.00  0.00           O  
+HETATM   26  O23 AY7 A 602     -22.215   1.257  43.271  1.00  0.00           O  
+HETATM   27  N24 AY7 A 602     -20.143   3.792  37.049  1.00  0.00           N  
+HETATM   28  N25 AY7 A 602     -19.028   3.054  36.853  1.00  0.00           N  
+HETATM   29  F29 AY7 A 602     -20.018  15.099  33.084  1.00  0.00           F  
+HETATM   30  F30 AY7 A 602     -19.429  14.373  35.083  1.00  0.00           F  
+HETATM   31 CL   AY7 A 602     -18.640  12.834  33.243  1.00  0.00          Cl  
+CONECT    1    3   15   19
+CONECT    1   19
+CONECT    2   15   16
+CONECT    3    1    4   22
+CONECT    3   22
+CONECT    4    3   13   27
+CONECT    4   13
+CONECT    5   21   23   24
+CONECT    5   24
+CONECT    6    7   11   23
+CONECT    6   11
+CONECT    7    6    8
+CONECT    7    8
+CONECT    8    7    9
+CONECT    8    7
+CONECT    9    8   10   25
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11    6   10
+CONECT   11    6
+CONECT   12   13   28
+CONECT   12   28
+CONECT   13    4   12
+CONECT   13    4
+CONECT   14   25   29   30   31
+CONECT   15    1    2   18
+CONECT   16    2   17   26
+CONECT   17   16   18
+CONECT   18   15   17
+CONECT   19    1   20
+CONECT   19    1
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21    5   20   22
+CONECT   21   20
+CONECT   22    3   21
+CONECT   22    3
+CONECT   23    5    6
+CONECT   24    5
+CONECT   24    5
+CONECT   25    9   14
+CONECT   26   16
+CONECT   27    4   28
+CONECT   28   12   27
+CONECT   28   12
+CONECT   29   14
+CONECT   30   14
+CONECT   31   14
+ENDMDL
+END   

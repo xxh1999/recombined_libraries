@@ -1,0 +1,116 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5K9I
+MODEL        1
+ATOM      1  N   LYS A 295       3.102  -8.540 -14.816  1.00 34.07           N1+
+ATOM      2  CA  LYS A 295       1.950  -9.158 -14.165  1.00 37.00           C  
+ATOM      3  C   LYS A 295       1.066  -9.728 -15.284  1.00 41.53           C  
+ATOM      4  O   LYS A 295       0.452  -8.977 -16.042  1.00 41.95           O  
+ATOM      5  CB  LYS A 295       1.217  -8.053 -13.362  1.00 41.87           C  
+ATOM      6  CG  LYS A 295      -0.216  -8.342 -12.865  1.00 40.22           C  
+ATOM      7  CD  LYS A 295      -0.366  -9.557 -11.934  1.00 51.23           C  
+ATOM      8  CE  LYS A 295      -1.764  -9.603 -11.301  1.00 53.09           C  
+ATOM      9  NZ  LYS A 295      -2.050 -10.903 -10.690  1.00 56.88           N1+
+TER      10      LYS A 295
+HETATM   11  OBJ O44 A 601      -3.018  -9.833  -8.526  1.00 54.89           O  
+HETATM   12  SBH O44 A 601      -2.421 -11.090  -9.008  1.00 64.03           S  
+HETATM   13  OBI O44 A 601      -3.155 -12.356  -8.877  1.00 55.47           O  
+HETATM   14  CBE O44 A 601      -0.837 -11.331  -8.208  1.00 48.35           C  
+HETATM   15  CBD O44 A 601      -0.643 -10.874  -6.889  1.00 48.98           C  
+HETATM   16  CBC O44 A 601       0.544 -11.204  -6.201  1.00 41.24           C  
+HETATM   17  CBF O44 A 601       0.172 -12.059  -8.865  1.00 51.30           C  
+HETATM   18  CBG O44 A 601       1.361 -12.372  -8.180  1.00 48.17           C  
+HETATM   19  CBB O44 A 601       1.540 -11.976  -6.837  1.00 45.86           C  
+HETATM   20  CBA O44 A 601       2.768 -12.460  -6.079  1.00 45.63           C  
+HETATM   21  NAX O44 A 601       3.767 -11.424  -5.704  1.00 52.11           N1+
+HETATM   22  CAY O44 A 601       5.028 -12.064  -5.244  1.00 42.35           C  
+HETATM   23  CAZ O44 A 601       6.084 -11.038  -4.806  1.00 41.58           C  
+HETATM   24  CAW O44 A 601       4.028 -10.396  -6.744  1.00 43.27           C  
+HETATM   25  CAV O44 A 601       5.066  -9.366  -6.272  1.00 29.89           C  
+HETATM   26  NAA O44 A 601       6.301 -10.027  -5.841  1.00 37.96           N  
+HETATM   27  C2  O44 A 601       7.575  -9.579  -6.211  1.00 35.33           C  
+HETATM   28  N3  O44 A 601       7.640  -8.499  -6.995  1.00 29.30           N  
+HETATM   29  N1  O44 A 601       8.636 -10.253  -5.755  1.00 35.38           N  
+HETATM   30  C6  O44 A 601       9.869  -9.806  -6.094  1.00 33.33           C  
+HETATM   31  CAQ O44 A 601      11.081 -10.527  -5.584  1.00 33.78           C  
+HETATM   32  NAR O44 A 601      10.903 -11.246  -4.463  1.00 33.99           N  
+HETATM   33  CAS O44 A 601      11.960 -11.937  -3.730  1.00 45.93           C  
+HETATM   34  CAT O44 A 601      12.924 -11.016  -3.102  1.00 46.10           C  
+HETATM   35  CBL O44 A 601      13.725 -10.223  -2.628  1.00 37.36           C  
+HETATM   36  OAU O44 A 601      12.172 -10.394  -6.142  1.00 37.26           O  
+HETATM   37  C5  O44 A 601      10.028  -8.671  -6.913  1.00 27.71           C  
+HETATM   38  C4  O44 A 601       8.856  -8.038  -7.353  1.00 30.88           C  
+HETATM   39  NAH O44 A 601       8.976  -6.907  -8.165  1.00 28.87           N  
+HETATM   40  CAI O44 A 601       7.988  -6.171  -8.828  1.00 29.72           C  
+HETATM   41  CAJ O44 A 601       6.639  -6.569  -9.057  1.00 30.52           C  
+HETATM   42  NAP O44 A 601       8.275  -4.994  -9.343  1.00 30.72           N  
+HETATM   43  NAO O44 A 601       7.110  -4.588  -9.877  1.00 33.58           N  
+HETATM   44  CAK O44 A 601       6.094  -5.502  -9.714  1.00 32.59           C  
+HETATM   45  CAL O44 A 601       4.705  -5.245 -10.192  1.00 30.49           C  
+HETATM   46  CAN O44 A 601       3.520  -5.924  -9.543  1.00 34.91           C  
+HETATM   47  CAM O44 A 601       3.934  -6.301 -10.945  1.00 29.13           C  
+CONECT   11   12
+CONECT   11   12
+CONECT   12    9   11   13   14
+CONECT   12   11   13
+CONECT   13   12
+CONECT   13   12
+CONECT   14   12   15   17
+CONECT   14   17
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16   15   19
+CONECT   16   15
+CONECT   17   14   18
+CONECT   17   14
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   16   18   20
+CONECT   19   18
+CONECT   20   19   21
+CONECT   21   20   22   24
+CONECT   22   21   23
+CONECT   23   22   26
+CONECT   24   21   25
+CONECT   25   24   26
+CONECT   26   23   25   27
+CONECT   27   26   28   29
+CONECT   27   29
+CONECT   28   27   38
+CONECT   28   38
+CONECT   29   27   30
+CONECT   29   27
+CONECT   30   29   31   37
+CONECT   30   37
+CONECT   31   30   32   36
+CONECT   31   36
+CONECT   32   31   33
+CONECT   33   32   34
+CONECT   34   33   35
+CONECT   34   35
+CONECT   34   35
+CONECT   35   34
+CONECT   35   34
+CONECT   35   34
+CONECT   36   31
+CONECT   36   31
+CONECT   37   30   38
+CONECT   37   30
+CONECT   38   28   37   39
+CONECT   38   28
+CONECT   39   38   40
+CONECT   40   39   41   42
+CONECT   40   42
+CONECT   41   40   44
+CONECT   41   44
+CONECT   42   40   43
+CONECT   42   40
+CONECT   43   42   44
+CONECT   44   41   43   45
+CONECT   44   41
+CONECT   45   44   46   47
+CONECT   46   45   47
+CONECT   47   45   46
+ENDMDL
+END   

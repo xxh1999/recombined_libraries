@@ -1,0 +1,73 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     8bk0_ligand
+MODEL        1
+HETATM    1  N1  QJI A1007      -0.577  20.521  44.316  1.00  0.00           N  
+HETATM    2  C7  QJI A1007       0.910  19.975  42.685  1.00  0.00           C  
+HETATM    3  C8  QJI A1007       0.244  20.991  43.335  1.00  0.00           C  
+HETATM    4  N2  QJI A1007       0.716  12.772  41.737  1.00  0.00           N1+
+HETATM    5  C9  QJI A1007      -0.463  19.190  44.264  1.00  0.00           C  
+HETATM    6  C1  QJI A1007       3.329  21.244  40.203  1.00  0.00           C  
+HETATM    7  C5  QJI A1007       5.580  21.595  39.376  1.00  0.00           C  
+HETATM    8  C6  QJI A1007       4.681  21.484  40.425  1.00  0.00           C  
+HETATM    9  N3  QJI A1007       0.437  18.804  43.281  1.00  0.00           N  
+HETATM   10  C4  QJI A1007       5.120  21.437  38.072  1.00  0.00           C  
+HETATM   11  C3  QJI A1007       3.781  21.206  37.824  1.00  0.00           C  
+HETATM   12  C2  QJI A1007       2.873  21.102  38.874  1.00  0.00           C  
+HETATM   13 CL   QJI A1007       5.262  21.662  42.056  1.00  0.00          Cl  
+HETATM   14  N   QJI A1007       2.485  21.117  41.318  1.00  0.00           N  
+HETATM   15  C   QJI A1007       1.961  19.944  41.649  1.00  0.00           C  
+HETATM   16  O   QJI A1007       2.263  18.905  41.063  1.00  0.00           O  
+HETATM   17  C18 QJI A1007       0.715  17.461  43.020  1.00  0.00           C  
+HETATM   18  C12 QJI A1007       0.116  16.497  43.755  1.00  0.00           C  
+HETATM   19  C11 QJI A1007      -0.818  16.881  44.769  1.00  0.00           C  
+HETATM   20  C10 QJI A1007      -1.097  18.174  45.021  1.00  0.00           C  
+HETATM   21  C13 QJI A1007       0.328  15.018  43.559  1.00  0.00           C  
+HETATM   22  C17 QJI A1007       1.704  14.661  42.984  1.00  0.00           C  
+HETATM   23  C16 QJI A1007       1.782  13.171  42.635  1.00  0.00           C  
+HETATM   24  C15 QJI A1007      -0.578  13.003  42.367  1.00  0.00           C  
+HETATM   25  C14 QJI A1007      -0.757  14.478  42.648  1.00  0.00           C  
+CONECT    1    3    5
+CONECT    1    5
+CONECT    2    3    9   15
+CONECT    2    3
+CONECT    3    1    2
+CONECT    3    2
+CONECT    4   23   24
+CONECT    5    1    9   20
+CONECT    5    1
+CONECT    6    8   12   14
+CONECT    6    8
+CONECT    7    8   10
+CONECT    7   10
+CONECT    8    6    7   13
+CONECT    8    6
+CONECT    9    2    5   17
+CONECT   10    7   11
+CONECT   10    7
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12    6   11
+CONECT   12   11
+CONECT   13    8
+CONECT   14    6   15
+CONECT   15    2   14   16
+CONECT   15   16
+CONECT   16   15
+CONECT   16   15
+CONECT   17    9   18
+CONECT   17   18
+CONECT   18   17   19   21
+CONECT   18   17
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20    5   19
+CONECT   20   19
+CONECT   21   18   22   25
+CONECT   22   21   23
+CONECT   23    4   22
+CONECT   24    4   25
+CONECT   25   21   24
+ENDMDL
+END   

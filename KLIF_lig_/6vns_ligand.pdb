@@ -1,0 +1,84 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6vns_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N3  R5D A4000      -1.438  18.375  44.645  1.00  0.00           N  
+HETATM    2  C4  R5D A4000      -1.185  13.395  45.025  1.00  0.00           C  
+HETATM    3  N2  R5D A4000      -1.897  15.275  46.446  1.00  0.00           N  
+HETATM    4  C7  R5D A4000       0.289  20.703  42.601  1.00  0.00           C  
+HETATM    5  C6  R5D A4000      -0.650  18.853  43.610  1.00  0.00           C  
+HETATM    6  C9  R5D A4000       0.591  18.486  41.669  1.00  0.00           C  
+HETATM    7  C13 R5D A4000       1.476  16.747  38.546  1.00  0.00           C  
+HETATM    8  C8  R5D A4000       0.891  19.878  41.640  1.00  0.00           C  
+HETATM    9  N5  R5D A4000      -0.144  17.953  42.706  1.00  0.00           N  
+HETATM   10  C18 R5D A4000       5.800  14.533  37.416  1.00  0.00           C  
+HETATM   11  C16 R5D A4000       4.477  15.117  36.924  1.00  0.00           C  
+HETATM   12  C19 R5D A4000       6.970  14.895  36.678  1.00  0.00           C  
+HETATM   13  C1  R5D A4000      -1.970  16.625  46.331  1.00  0.00           C  
+HETATM   14  C2  R5D A4000      -1.476  17.036  45.041  1.00  0.00           C  
+HETATM   15  C3  R5D A4000      -1.104  15.869  44.372  1.00  0.00           C  
+HETATM   16  N1  R5D A4000      -1.357  14.832  45.276  1.00  0.00           N  
+HETATM   17  C5  R5D A4000      -2.457  12.778  44.399  1.00  0.00           C  
+HETATM   18  O1  R5D A4000      -2.665  13.245  43.105  1.00  0.00           O  
+HETATM   19  N4  R5D A4000      -0.502  20.243  43.582  1.00  0.00           N  
+HETATM   20  N6  R5D A4000       0.982  17.582  40.707  1.00  0.00           N  
+HETATM   21  C10 R5D A4000       0.418  16.208  40.689  1.00  0.00           C  
+HETATM   22  C11 R5D A4000       0.653  15.700  39.281  1.00  0.00           C  
+HETATM   23  C12 R5D A4000       0.026  16.485  38.143  1.00  0.00           C  
+HETATM   24  C14 R5D A4000       1.659  17.966  39.444  1.00  0.00           C  
+HETATM   25  N7  R5D A4000       2.534  16.423  37.648  1.00  0.00           N  
+HETATM   26  C15 R5D A4000       3.500  15.489  37.996  1.00  0.00           C  
+HETATM   27  O2  R5D A4000       3.544  14.984  39.114  1.00  0.00           O  
+HETATM   28  C17 R5D A4000       4.769  13.638  36.759  1.00  0.00           C  
+HETATM   29  N8  R5D A4000       7.915  15.203  36.088  1.00  0.00           N  
+HETATM   30  F1  R5D A4000       1.712  20.415  40.746  1.00  0.00           F  
+CONECT    1    5   14
+CONECT    2   16   17
+CONECT    3   13   16
+CONECT    3   13
+CONECT    4    8   19
+CONECT    4    8
+CONECT    5    1    9   19
+CONECT    5   19
+CONECT    6    8    9   20
+CONECT    6    9
+CONECT    7   22   23   24   25
+CONECT    8    4    6   30
+CONECT    8    4
+CONECT    9    5    6
+CONECT    9    6
+CONECT   10   11   12   28
+CONECT   11   10   26   28
+CONECT   12   10   29
+CONECT   12   29
+CONECT   12   29
+CONECT   13    3   14
+CONECT   13    3
+CONECT   14    1   13   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16    2    3   15
+CONECT   17    2   18
+CONECT   18   17
+CONECT   19    4    5
+CONECT   19    5
+CONECT   20    6   21   24
+CONECT   21   20   22
+CONECT   22    7   21   23
+CONECT   23    7   22
+CONECT   24    7   20
+CONECT   25    7   26
+CONECT   26   11   25   27
+CONECT   26   27
+CONECT   27   26
+CONECT   27   26
+CONECT   28   10   11
+CONECT   29   12
+CONECT   29   12
+CONECT   29   12
+CONECT   30    8
+ENDMDL
+END   

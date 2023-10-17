@@ -1,0 +1,137 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7xaf_ligand
+MODEL        1
+HETATM    1  C13 FKT A 801       2.932  21.366  38.301  1.00  0.00           C  
+HETATM    2  C15 FKT A 801       4.829  21.291  36.802  1.00  0.00           C  
+HETATM    3  C17 FKT A 801       2.659  22.029  35.949  1.00  0.00           C  
+HETATM    4  C20 FKT A 801       6.488  19.794  37.387  1.00  0.00           C  
+HETATM    5  C21 FKT A 801       0.580  22.091  37.631  1.00  0.00           C  
+HETATM    6  C22 FKT A 801       1.837  22.490  34.708  1.00  0.00           C  
+HETATM    7  C24 FKT A 801       4.835  16.485  42.173  1.00  0.00           C  
+HETATM    8  C26 FKT A 801       7.981  19.471  37.473  1.00  0.00           C  
+HETATM    9  C28 FKT A 801       6.936  17.331  38.425  1.00  0.00           C  
+HETATM   10  C01 FKT A 801       2.660  17.302  43.146  1.00  0.00           C  
+HETATM   11  N02 FKT A 801       2.475  18.393  42.432  1.00  0.00           N  
+HETATM   12  N03 FKT A 801       1.784  19.443  42.885  1.00  0.00           N  
+HETATM   13  C04 FKT A 801       1.242  19.463  44.076  1.00  0.00           C  
+HETATM   14  C05 FKT A 801       1.373  18.321  44.969  1.00  0.00           C  
+HETATM   15  C06 FKT A 801       2.112  17.200  44.484  1.00  0.00           C  
+HETATM   16  C07 FKT A 801       1.526  20.639  42.221  1.00  0.00           C  
+HETATM   17  C08 FKT A 801       0.762  21.422  43.110  1.00  0.00           C  
+HETATM   18  N09 FKT A 801       0.604  20.662  44.250  1.00  0.00           N  
+HETATM   19  N10 FKT A 801       3.416  16.236  42.580  1.00  0.00           N  
+HETATM   20  C11 FKT A 801       2.029  20.929  40.793  1.00  0.00           C  
+HETATM   21  C12 FKT A 801       2.427  21.132  39.689  1.00  0.00           C  
+HETATM   22  C14 FKT A 801       4.290  21.097  38.061  1.00  0.00           C  
+HETATM   23  C16 FKT A 801       4.011  21.744  35.737  1.00  0.00           C  
+HETATM   24  C18 FKT A 801       2.110  21.813  37.251  1.00  0.00           C  
+HETATM   25  O19 FKT A 801       6.215  20.986  36.647  1.00  0.00           O  
+HETATM   26  C23 FKT A 801       5.046  16.364  40.623  1.00  0.00           C  
+HETATM   27  N25 FKT A 801       6.300  15.675  40.361  1.00  0.00           N  
+HETATM   28  C27 FKT A 801       8.200  18.003  37.864  1.00  0.00           C  
+HETATM   29  C29 FKT A 801       7.245  16.124  39.303  1.00  0.00           C  
+HETATM   30  O30 FKT A 801       8.281  15.511  39.130  1.00  0.00           O  
+HETATM   31  C31 FKT A 801       2.830  14.949  42.399  1.00  0.00           C  
+HETATM   32  N32 FKT A 801       2.479  23.151  33.568  1.00  0.00           N  
+HETATM   33  O33 FKT A 801       0.626  22.215  34.654  1.00  0.00           O  
+HETATM   34  C34 FKT A 801       1.809  23.546  32.353  1.00  0.00           C  
+HETATM   35  C35 FKT A 801       2.577  23.692  31.179  1.00  0.00           C  
+HETATM   36  C36 FKT A 801       1.967  24.058  29.959  1.00  0.00           C  
+HETATM   37  C37 FKT A 801       0.574  24.253  29.913  1.00  0.00           C  
+HETATM   38  C38 FKT A 801      -0.196  24.104  31.063  1.00  0.00           C  
+HETATM   39  C39 FKT A 801       0.415  23.746  32.278  1.00  0.00           C  
+HETATM   40  N40 FKT A 801       2.743  24.216  28.728  1.00  0.00           N  
+HETATM   41  C41 FKT A 801       2.551  23.506  27.575  1.00  0.00           C  
+HETATM   42  C42 FKT A 801       3.501  23.963  26.665  1.00  0.00           C  
+HETATM   43  N43 FKT A 801       4.236  24.916  27.272  1.00  0.00           N  
+HETATM   44  C44 FKT A 801       3.753  25.058  28.516  1.00  0.00           C  
+HETATM   45  C45 FKT A 801       3.677  23.441  25.227  1.00  0.00           C  
+HETATM   46  C46 FKT A 801      -1.728  24.328  31.002  1.00  0.00           C  
+HETATM   47  F47 FKT A 801      -2.243  24.525  32.234  1.00  0.00           F  
+HETATM   48  F48 FKT A 801      -1.979  25.391  30.233  1.00  0.00           F  
+HETATM   49  F49 FKT A 801      -2.307  23.246  30.477  1.00  0.00           F  
+CONECT    1   21   22   24
+CONECT    1   22
+CONECT    2   22   23   25
+CONECT    2   23
+CONECT    3    6   23   24
+CONECT    3   24
+CONECT    4    8   25
+CONECT    5   24
+CONECT    6    3   32   33
+CONECT    6   33
+CONECT    7   19   26
+CONECT    8    4   28
+CONECT    9   28   29
+CONECT   10   11   15   19
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   13   16
+CONECT   13   12   14   18
+CONECT   13   18
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   10   14
+CONECT   15   14
+CONECT   16   12   17   20
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   13   17
+CONECT   18   13
+CONECT   19    7   10   31
+CONECT   20   16   21
+CONECT   20   21
+CONECT   20   21
+CONECT   21    1   20
+CONECT   21   20
+CONECT   21   20
+CONECT   22    1    2
+CONECT   22    1
+CONECT   23    2    3
+CONECT   23    2
+CONECT   24    1    3    5
+CONECT   24    3
+CONECT   25    2    4
+CONECT   26    7   27
+CONECT   27   26   29
+CONECT   28    8    9
+CONECT   29    9   27   30
+CONECT   29   30
+CONECT   30   29
+CONECT   30   29
+CONECT   31   19
+CONECT   32    6   34
+CONECT   33    6
+CONECT   33    6
+CONECT   34   32   35   39
+CONECT   34   39
+CONECT   35   34   36
+CONECT   35   36
+CONECT   36   35   37   40
+CONECT   36   35
+CONECT   37   36   38
+CONECT   37   38
+CONECT   38   37   39   46
+CONECT   38   37
+CONECT   39   34   38
+CONECT   39   34
+CONECT   40   36   41   44
+CONECT   41   40   42
+CONECT   41   42
+CONECT   42   41   43   45
+CONECT   42   41
+CONECT   43   42   44
+CONECT   43   44
+CONECT   44   40   43
+CONECT   44   43
+CONECT   45   42
+CONECT   46   38   47   48   49
+CONECT   47   46
+CONECT   48   46
+CONECT   49   46
+ENDMDL
+END   

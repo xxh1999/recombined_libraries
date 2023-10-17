@@ -1,0 +1,90 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1FCO
+MODEL        1
+ATOM      1  N   SER A  61      26.711   1.885  16.229  1.00 13.32           N1+
+ATOM      2  CA  SER A  61      28.021   2.419  16.609  1.00 14.47           C  
+ATOM      3  C   SER A  61      28.959   1.469  17.395  1.00 14.74           C  
+ATOM      4  O   SER A  61      30.143   1.788  17.499  1.00 14.75           O  
+ATOM      5  CB  SER A  61      27.863   3.703  17.437  1.00 18.87           C  
+ATOM      6  OG  SER A  61      27.309   4.831  16.756  1.00 16.79           O  
+TER       7      SER A  61
+HETATM    8  C1  MOX A 961      25.977   5.032  16.801  1.00 25.01           C  
+HETATM    9  O1  MOX A 961      25.159   4.245  17.262  1.00 20.66           O  
+HETATM   10  C2  MOX A 961      25.535   6.418  16.255  1.00 29.87           C  
+HETATM   11  N2  MOX A 961      24.430   6.232  15.315  1.00 31.48           N  
+HETATM   12  C3  MOX A 961      25.052   7.285  17.474  1.00 33.64           C  
+HETATM   13  O4  MOX A 961      26.196   7.663  18.172  1.00 37.14           O  
+HETATM   14  C5  MOX A 961      25.933   8.541  19.242  1.00 39.02           C  
+HETATM   15  C6  MOX A 961      25.255   9.795  18.728  1.00 39.50           C  
+HETATM   16  C7  MOX A 961      24.278   9.570  17.608  1.00 38.85           C  
+HETATM   17  C8  MOX A 961      23.341  10.632  17.043  1.00 39.94           C  
+HETATM   18  N8  MOX A 961      24.203   8.407  17.073  1.00 37.05           N  
+HETATM   19  C9  MOX A 961      25.632  11.004  19.193  1.00 40.45           C  
+HETATM   20  C21 MOX A 961      24.437   5.460  14.204  1.00 31.63           C  
+HETATM   21  O21 MOX A 961      25.419   4.787  13.884  1.00 29.51           O  
+HETATM   22  C22 MOX A 961      23.196   5.410  13.268  1.00 32.53           C  
+HETATM   23  C23 MOX A 961      23.434   6.169  11.967  1.00 32.98           C  
+HETATM   24  C24 MOX A 961      23.202   5.531  10.729  1.00 33.32           C  
+HETATM   25  C25 MOX A 961      23.396   6.231   9.522  1.00 34.89           C  
+HETATM   26  C26 MOX A 961      23.845   7.565   9.542  1.00 35.74           C  
+HETATM   27  O26 MOX A 961      24.062   8.237   8.374  1.00 37.56           O  
+HETATM   28  C27 MOX A 961      24.064   8.208  10.773  1.00 36.21           C  
+HETATM   29  C28 MOX A 961      23.852   7.518  11.979  1.00 33.87           C  
+HETATM   30  C29 MOX A 961      21.888   5.955  13.901  1.00 31.26           C  
+HETATM   31  O30 MOX A 961      20.837   5.357  13.588  1.00 31.41           O  
+HETATM   32  O31 MOX A 961      21.913   6.979  14.621  1.00 32.67           O1-
+HETATM   33  O61 MOX A 961      26.633   7.049  15.627  1.00 32.42           O  
+HETATM   34  C62 MOX A 961      26.412   8.214  14.827  1.00 33.65           C  
+HETATM   35  O81 MOX A 961      22.711  10.339  16.002  1.00 38.69           O  
+HETATM   36  O82 MOX A 961      23.243  11.717  17.655  1.00 41.59           O1-
+CONECT    8    6    9   10
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8   11   12   33
+CONECT   11   10   20
+CONECT   12   10   13   18
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   16   19
+CONECT   15   19
+CONECT   16   15   17   18
+CONECT   16   18
+CONECT   17   16   35   36
+CONECT   17   35
+CONECT   18   12   16
+CONECT   18   16
+CONECT   19   15
+CONECT   19   15
+CONECT   20   11   21   22
+CONECT   20   21
+CONECT   21   20
+CONECT   21   20
+CONECT   22   20   23   30
+CONECT   23   22   24   29
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   25   27   28
+CONECT   26   25
+CONECT   27   26
+CONECT   28   26   29
+CONECT   28   29
+CONECT   29   23   28
+CONECT   29   28
+CONECT   30   22   31   32
+CONECT   30   31
+CONECT   31   30
+CONECT   31   30
+CONECT   32   30
+CONECT   33   10   34
+CONECT   34   33
+CONECT   35   17
+CONECT   35   17
+CONECT   36   17
+ENDMDL
+END   

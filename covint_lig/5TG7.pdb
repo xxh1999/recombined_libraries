@@ -1,0 +1,62 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5TG7
+MODEL        1
+ATOM      1  N   SER A  81      -1.742  27.148 -14.410  1.00 37.29           N1+
+ATOM      2  CA  SER A  81      -1.379  26.688 -13.074  1.00 36.51           C  
+ATOM      3  C   SER A  81      -2.449  25.824 -12.364  1.00 35.69           C  
+ATOM      4  O   SER A  81      -2.120  25.243 -11.334  1.00 38.10           O  
+ATOM      5  CB  SER A  81      -0.996  27.897 -12.202  1.00 35.36           C  
+ATOM      6  OG  SER A  81       0.126  28.586 -12.746  1.00 38.93           O  
+TER       7      SER A  81
+HETATM    8  O19 JW3 A 301       1.405  31.390 -18.013  1.00 44.66           O  
+HETATM    9  C10 JW3 A 301       2.505  31.417 -17.460  1.00 52.26           C  
+HETATM   10  C6  JW3 A 301       2.550  31.232 -15.971  1.00 55.39           C  
+HETATM   11  C5  JW3 A 301       1.482  30.546 -15.342  1.00 49.75           C  
+HETATM   12  C4  JW3 A 301       1.313  30.550 -13.941  1.00 44.05           C  
+HETATM   13  B7  JW3 A 301      -0.049  29.972 -13.257  1.00 39.49           B1-
+HETATM   14  O9  JW3 A 301      -0.491  30.875 -12.167  1.00 38.90           O  
+HETATM   15  O8  JW3 A 301      -1.130  29.977 -14.254  1.00 34.62           O  
+HETATM   16  C3  JW3 A 301       2.290  31.189 -13.156  1.00 42.96           C  
+HETATM   17  C2  JW3 A 301       3.347  31.885 -13.770  1.00 51.63           C  
+HETATM   18  C1  JW3 A 301       3.500  31.895 -15.169  1.00 50.26           C  
+HETATM   19  N11 JW3 A 301       3.646  31.590 -18.161  1.00 58.72           N  
+HETATM   20  C12 JW3 A 301       3.546  31.834 -19.603  1.00 76.72           C  
+HETATM   21  C13 JW3 A 301       4.797  32.091 -20.378  1.00101.64           C  
+HETATM   22  O18 JW3 A 301       4.930  33.360 -20.860  1.00109.53           O  
+HETATM   23  C15 JW3 A 301       6.008  33.357 -21.690  1.00113.90           C  
+HETATM   24  C16 JW3 A 301       6.568  32.113 -21.740  1.00110.04           C  
+HETATM   25  C17 JW3 A 301       5.789  31.292 -20.876  1.00104.40           C  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10   19
+CONECT    9    8
+CONECT   10    9   11   18
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   13   16
+CONECT   12   16
+CONECT   13    6   12   14   15
+CONECT   14   13
+CONECT   15   13
+CONECT   16   12   17
+CONECT   16   12
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   10   17
+CONECT   18   17
+CONECT   19    9   20
+CONECT   20   19   21
+CONECT   21   20   22   25
+CONECT   21   25
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   21   24
+CONECT   25   21
+ENDMDL
+END   

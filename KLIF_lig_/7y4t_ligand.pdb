@@ -1,0 +1,103 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7y4t_ligand
+MODEL        1
+HETATM    1  CAB I90 A1401      -1.836  17.150  47.370  1.00  0.00           C  
+HETATM    2  CAC I90 A1401      -1.100  16.803  46.328  1.00  0.00           C  
+HETATM    3  CAD I90 A1401      -1.046  15.481  46.268  1.00  0.00           C  
+HETATM    4  CAF I90 A1401      -1.980  13.620  47.658  1.00  0.00           C  
+HETATM    5  CAG I90 A1401      -0.534  17.650  45.472  1.00  0.00           C  
+HETATM    6  CAH I90 A1401       0.283  17.185  44.450  1.00  0.00           C  
+HETATM    7  CAI I90 A1401       0.852  18.095  43.566  1.00  0.00           C  
+HETATM    8  CAJ I90 A1401       0.597  19.456  43.697  1.00  0.00           C  
+HETATM    9  CAL I90 A1401      -0.776  19.013  45.586  1.00  0.00           C  
+HETATM   10  CAM I90 A1401       1.674  17.637  42.542  1.00  0.00           C  
+HETATM   11  CAN I90 A1401       2.244  18.539  41.655  1.00  0.00           C  
+HETATM   12  CAO I90 A1401       1.990  19.899  41.784  1.00  0.00           C  
+HETATM   13  CAP I90 A1401       1.165  20.357  42.804  1.00  0.00           C  
+HETATM   14  CAQ I90 A1401       3.066  18.083  40.633  1.00  0.00           C  
+HETATM   15  CAR I90 A1401       2.512  18.570  39.295  1.00  0.00           C  
+HETATM   16  CAU I90 A1401       0.354  15.674  38.919  1.00  0.00           C  
+HETATM   17  CAV I90 A1401      -0.304  15.896  37.719  1.00  0.00           C  
+HETATM   18  CAW I90 A1401      -0.012  17.059  37.028  1.00  0.00           C  
+HETATM   19  CAX I90 A1401       0.924  17.918  37.580  1.00  0.00           C  
+HETATM   20  CAY I90 A1401       0.079  14.505  39.622  1.00  0.00           C  
+HETATM   21  CAZ I90 A1401      -0.611  13.487  38.976  1.00  0.00           C  
+HETATM   22  CBA I90 A1401      -0.903  12.298  39.630  1.00  0.00           C  
+HETATM   23  CBB I90 A1401      -0.497  12.128  40.944  1.00  0.00           C  
+HETATM   24  CBC I90 A1401       0.195  13.143  41.595  1.00  0.00           C  
+HETATM   25  CBD I90 A1401       0.488  14.335  40.938  1.00  0.00           C  
+HETATM   26  NAA I90 A1401      -2.216  16.009  47.944  1.00  0.00           N  
+HETATM   27  NAE I90 A1401      -1.758  15.043  47.307  1.00  0.00           N  
+HETATM   28  NAK I90 A1401      -0.195  19.905  44.680  1.00  0.00           N  
+HETATM   29  NAS I90 A1401       1.516  17.619  38.748  1.00  0.00           N  
+HETATM   30  NAT I90 A1401       1.251  16.568  39.373  1.00  0.00           N  
+HETATM   31  NBF I90 A1401       0.572  12.959  42.854  1.00  0.00           N1+
+HETATM   32  OBE I90 A1401       1.212  18.961  36.993  1.00  0.00           O  
+HETATM   33  OBG I90 A1401       0.104  13.860  43.843  1.00  0.00           O1-
+HETATM   34  OBH I90 A1401       1.412  11.844  43.160  1.00  0.00           O  
+CONECT    1    2   26
+CONECT    1   26
+CONECT    2    1    3    5
+CONECT    2    3
+CONECT    3    2   27
+CONECT    3    2
+CONECT    4   27
+CONECT    5    2    6    9
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    6    8   10
+CONECT    7   10
+CONECT    8    7   13   28
+CONECT    8   13
+CONECT    9    5   28
+CONECT    9   28
+CONECT   10    7   11
+CONECT   10    7
+CONECT   11   10   12   14
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13    8   12
+CONECT   13    8
+CONECT   14   11   15
+CONECT   15   14   29
+CONECT   16   17   20   30
+CONECT   16   30
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   18   29   32
+CONECT   19   32
+CONECT   20   16   21   25
+CONECT   20   25
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25   31
+CONECT   24   23
+CONECT   25   20   24
+CONECT   25   20
+CONECT   26    1   27
+CONECT   26    1
+CONECT   27    3    4   26
+CONECT   28    8    9
+CONECT   28    9
+CONECT   29   15   19   30
+CONECT   30   16   29
+CONECT   30   16
+CONECT   31   24   33   34
+CONECT   31   34
+CONECT   32   19
+CONECT   32   19
+CONECT   33   31
+CONECT   34   31
+CONECT   34   31
+ENDMDL
+END   

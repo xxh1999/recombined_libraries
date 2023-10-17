@@ -1,0 +1,86 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6c1s_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  EFV A1201       6.345  17.291  39.624  1.00  0.00           C  
+HETATM    2  C3  EFV A1201       5.088  18.820  38.208  1.00  0.00           C  
+HETATM    3  C4  EFV A1201       4.069  19.098  39.123  1.00  0.00           C  
+HETATM    4  C5  EFV A1201       3.265  20.247  39.005  1.00  0.00           C  
+HETATM    5  C6  EFV A1201       3.541  21.118  37.948  1.00  0.00           C  
+HETATM    6  C8  EFV A1201       5.285  19.739  37.159  1.00  0.00           C  
+HETATM    7  O2  EFV A1201       5.854  17.678  38.332  1.00  0.00           O  
+HETATM    8  N7  EFV A1201       4.501  20.824  37.077  1.00  0.00           N  
+HETATM    9  O9  EFV A1201       6.230  19.461  36.205  1.00  0.00           O  
+HETATM   10  C10 EFV A1201       6.749  20.479  35.342  1.00  0.00           C  
+HETATM   11  C11 EFV A1201       2.282  20.531  40.084  1.00  0.00           C  
+HETATM   12  C12 EFV A1201       1.745  21.822  40.273  1.00  0.00           C  
+HETATM   13  C13 EFV A1201       0.930  22.070  41.365  1.00  0.00           C  
+HETATM   14  C14 EFV A1201       0.650  21.011  42.236  1.00  0.00           C  
+HETATM   15  C15 EFV A1201       1.233  19.751  42.016  1.00  0.00           C  
+HETATM   16  N16 EFV A1201       2.027  19.563  40.980  1.00  0.00           N  
+HETATM   17  C17 EFV A1201       0.773  18.857  43.138  1.00  0.00           C  
+HETATM   18  N18 EFV A1201      -0.063  19.701  44.018  1.00  0.00           N  
+HETATM   19  C19 EFV A1201      -0.141  20.936  43.463  1.00  0.00           C  
+HETATM   20  O20 EFV A1201      -0.729  21.887  43.916  1.00  0.00           O  
+HETATM   21  C21 EFV A1201      -0.683  19.277  45.232  1.00  0.00           C  
+HETATM   22  C22 EFV A1201      -0.882  17.952  45.665  1.00  0.00           C  
+HETATM   23  N23 EFV A1201      -1.483  17.968  46.825  1.00  0.00           N  
+HETATM   24  N24 EFV A1201      -1.677  19.301  47.211  1.00  0.00           N  
+HETATM   25  C25 EFV A1201      -1.187  20.078  46.212  1.00  0.00           C  
+HETATM   26  C26 EFV A1201      -2.324  19.772  48.447  1.00  0.00           C  
+HETATM   27  C27 EFV A1201      -1.355  20.168  49.487  1.00  0.00           C  
+HETATM   28  N28 EFV A1201      -0.627  20.489  50.304  1.00  0.00           N  
+CONECT    1    7
+CONECT    2    3    6    7
+CONECT    2    6
+CONECT    3    2    4
+CONECT    3    4
+CONECT    4    3    5   11
+CONECT    4    3
+CONECT    5    4    8
+CONECT    5    8
+CONECT    6    2    8    9
+CONECT    6    2
+CONECT    7    1    2
+CONECT    8    5    6
+CONECT    8    5
+CONECT    9    6   10
+CONECT   10    9
+CONECT   11    4   12   16
+CONECT   11   16
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15   19
+CONECT   14   15
+CONECT   15   14   16   17
+CONECT   15   14
+CONECT   16   11   15
+CONECT   16   11
+CONECT   17   15   18
+CONECT   18   17   19   21
+CONECT   19   14   18   20
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   18   22   25
+CONECT   21   25
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   23   25   26
+CONECT   25   21   24
+CONECT   25   21
+CONECT   26   24   27
+CONECT   27   26   28
+CONECT   27   28
+CONECT   27   28
+CONECT   28   27
+CONECT   28   27
+CONECT   28   27
+ENDMDL
+END   

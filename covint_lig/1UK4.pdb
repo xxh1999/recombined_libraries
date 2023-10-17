@@ -1,0 +1,20 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1UK4
+MODEL        1
+ATOM      1  N   GLN G   5      69.121   0.542   7.380  1.00109.54           N1+
+ATOM      2  CA  GLN G   5      68.449  -0.653   7.908  1.00115.59           C  
+ATOM      3  C   GLN G   5      68.728  -0.929   9.428  1.00117.27           C  
+ATOM      4  O   GLN G   5      68.074   0.007  10.049  1.00117.93           O1-
+ATOM      5  CB  GLN G   5      68.864  -1.774   6.910  1.00117.60           C  
+ATOM      6  CG  GLN G   5      68.092  -3.117   6.957  1.00122.65           C  
+ATOM      7  CD  GLN G   5      68.877  -4.302   7.529  1.00123.90           C  
+ATOM      8  OE1 GLN G   5      70.056  -4.207   7.858  1.00125.09           O  
+ATOM      9  NE2 GLN G   5      68.230  -5.462   7.592  1.00125.10           N  
+ATOM     10  OXT GLN G   5      68.229  -2.081   9.787  1.00118.14           O1-
+TER      11      GLN G   5
+HETATM   12  C1  ATO A1006      70.221  -0.991   9.874  1.00100.04           C  
+CONECT   12    3
+ENDMDL
+END   

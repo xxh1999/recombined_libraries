@@ -1,0 +1,95 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7mkx_ligand
+MODEL        1
+HETATM    1  N1  ZGY A 301      -2.259  11.714  44.015  1.00  0.00           N  
+HETATM    2  N3  ZGY A 301      -1.241  18.246  44.367  1.00  0.00           N  
+HETATM    3  C4  ZGY A 301      -1.994  14.704  43.491  1.00  0.00           C  
+HETATM    4  C5  ZGY A 301      -1.501  15.990  43.398  1.00  0.00           C  
+HETATM    5  C6  ZGY A 301      -2.958  15.232  45.629  1.00  0.00           C  
+HETATM    6  C7  ZGY A 301      -2.463  16.518  45.537  1.00  0.00           C  
+HETATM    7  C8  ZGY A 301      -1.726  16.917  44.420  1.00  0.00           C  
+HETATM    8  C10 ZGY A 301       0.085  20.836  42.400  1.00  0.00           C  
+HETATM    9  C13 ZGY A 301       1.465  16.543  40.471  1.00  0.00           C  
+HETATM   10  C15 ZGY A 301       1.542  16.849  37.961  1.00  0.00           C  
+HETATM   11  C17 ZGY A 301       1.357  13.759  40.135  1.00  0.00           C  
+HETATM   12  C1  ZGY A 301      -2.366  10.264  44.225  1.00  0.00           C  
+HETATM   13  C11 ZGY A 301       0.814  20.128  41.471  1.00  0.00           C  
+HETATM   14  C12 ZGY A 301       0.831  18.734  41.558  1.00  0.00           C  
+HETATM   15  C14 ZGY A 301       1.477  15.975  39.175  1.00  0.00           C  
+HETATM   16  C16 ZGY A 301       1.421  14.599  39.050  1.00  0.00           C  
+HETATM   17  C18 ZGY A 301       1.351  14.315  41.398  1.00  0.00           C  
+HETATM   18  C19 ZGY A 301       1.409  15.685  41.577  1.00  0.00           C  
+HETATM   19  C2  ZGY A 301      -2.063   9.912  45.618  1.00  0.00           C  
+HETATM   20  C3  ZGY A 301      -2.725  14.326  44.605  1.00  0.00           C  
+HETATM   21  C9  ZGY A 301      -0.542  18.875  43.397  1.00  0.00           C  
+HETATM   22  F1  ZGY A 301       1.427  14.043  37.817  1.00  0.00           F  
+HETATM   23  N2  ZGY A 301      -1.833   9.642  46.707  1.00  0.00           N  
+HETATM   24  N4  ZGY A 301      -0.594  20.223  43.371  1.00  0.00           N  
+HETATM   25  N5  ZGY A 301       1.526  17.953  40.660  1.00  0.00           N  
+HETATM   26  N6  ZGY A 301       0.731  16.554  36.954  1.00  0.00           N  
+HETATM   27  N7  ZGY A 301       0.149  18.120  42.525  1.00  0.00           N  
+HETATM   28  O1  ZGY A 301      -3.399  12.333  46.103  1.00  0.00           O1-
+HETATM   29  O2  ZGY A 301       2.343  17.797  37.901  1.00  0.00           O  
+HETATM   30  O3  ZGY A 301      -4.541  12.612  43.929  1.00  0.00           O1-
+HETATM   31  S1  ZGY A 301      -3.350  12.683  44.717  1.00  0.00           S2+
+HETATM   32 BR1  ZGY A 301       1.762  21.027  40.104  1.00  0.00          Br  
+CONECT    1   12   31
+CONECT    2    7   21
+CONECT    3    4   20
+CONECT    3   20
+CONECT    4    3    7
+CONECT    4    7
+CONECT    5    6   20
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    2    4    6
+CONECT    7    4
+CONECT    8   13   24
+CONECT    8   13
+CONECT    9   15   18   25
+CONECT    9   15
+CONECT   10   15   26   29
+CONECT   10   29
+CONECT   11   16   17
+CONECT   11   16
+CONECT   12    1   19
+CONECT   13    8   14   32
+CONECT   13    8
+CONECT   14   13   25   27
+CONECT   14   27
+CONECT   15    9   10   16
+CONECT   15    9
+CONECT   16   11   15   22
+CONECT   16   11
+CONECT   17   11   18
+CONECT   17   18
+CONECT   18    9   17
+CONECT   18   17
+CONECT   19   12   23
+CONECT   19   23
+CONECT   19   23
+CONECT   20    3    5   31
+CONECT   20    3
+CONECT   21    2   24   27
+CONECT   21   24
+CONECT   22   16
+CONECT   23   19
+CONECT   23   19
+CONECT   23   19
+CONECT   24    8   21
+CONECT   24   21
+CONECT   25    9   14
+CONECT   26   10
+CONECT   27   14   21
+CONECT   27   14
+CONECT   28   31
+CONECT   29   10
+CONECT   29   10
+CONECT   30   31
+CONECT   31    1   20   28   30
+CONECT   32   13
+ENDMDL
+END   

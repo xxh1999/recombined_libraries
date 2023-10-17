@@ -1,0 +1,89 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     8bcy_ligand
+MODEL        1
+HETATM    1  C2  I3H A1101       1.149  21.689  42.461  1.00  0.00           C  
+HETATM    2  C4  I3H A1101       1.577  20.455  41.754  1.00  0.00           C  
+HETATM    3  C6  I3H A1101       2.751  19.505  39.959  1.00  0.00           C  
+HETATM    4  C8  I3H A1101       1.699  18.057  41.395  1.00  0.00           C  
+HETATM    5  N10 I3H A1101       0.510  18.643  43.217  1.00  0.00           N  
+HETATM    6  C11 I3H A1101       0.514  17.296  43.080  1.00  0.00           C  
+HETATM    7  N13 I3H A1101       1.228  16.918  42.000  1.00  0.00           N  
+HETATM    8  C15 I3H A1101       2.079  14.600  42.473  1.00  0.00           C  
+HETATM    9  C16 I3H A1101       3.407  15.088  42.996  1.00  0.00           C  
+HETATM   10  C17 I3H A1101       4.221  15.998  42.317  1.00  0.00           C  
+HETATM   11  C18 I3H A1101       5.424  16.395  42.858  1.00  0.00           C  
+HETATM   12  C19 I3H A1101       5.826  15.880  44.077  1.00  0.00           C  
+HETATM   13  C21 I3H A1101       5.028  14.963  44.759  1.00  0.00           C  
+HETATM   14  C23 I3H A1101       3.823  14.567  44.211  1.00  0.00           C  
+HETATM   15  C24 I3H A1101       3.564  19.752  38.753  1.00  0.00           C  
+HETATM   16  C27 I3H A1101       5.079  20.314  36.470  1.00  0.00           C  
+HETATM   17  O29 I3H A1101       4.031  22.481  36.393  1.00  0.00           O  
+HETATM   18  C30 I3H A1101       3.432  20.987  38.104  1.00  0.00           C  
+HETATM   19  N1  I3H A1101       1.280  22.869  41.830  1.00  0.00           N  
+HETATM   20  O3  I3H A1101       0.668  21.672  43.580  1.00  0.00           O  
+HETATM   21  N5  I3H A1101       2.309  20.561  40.651  1.00  0.00           N  
+HETATM   22  N7  I3H A1101       2.455  18.260  40.316  1.00  0.00           N  
+HETATM   23  C9  I3H A1101       1.238  19.161  42.170  1.00  0.00           C  
+HETATM   24  O12 I3H A1101      -0.047  16.537  43.835  1.00  0.00           O  
+HETATM   25  C14 I3H A1101       1.417  15.555  41.483  1.00  0.00           C  
+HETATM   26 CL20 I3H A1101       7.343  16.401  44.710  1.00  0.00          Cl  
+HETATM   27 CL22 I3H A1101       5.502  14.289  46.289  1.00  0.00          Cl  
+HETATM   28  C25 I3H A1101       4.458  18.789  38.248  1.00  0.00           C  
+HETATM   29  C26 I3H A1101       5.213  19.075  37.108  1.00  0.00           C  
+HETATM   30  C28 I3H A1101       4.195  21.269  36.977  1.00  0.00           C  
+CONECT    1    2   19   20
+CONECT    1   20
+CONECT    2    1   21   23
+CONECT    2   21
+CONECT    3   15   21   22
+CONECT    3   22
+CONECT    4    7   22   23
+CONECT    4   23
+CONECT    5    6   23
+CONECT    6    5    7   24
+CONECT    6   24
+CONECT    7    4    6   25
+CONECT    8    9   25
+CONECT    9    8   10   14
+CONECT    9   14
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   13   26
+CONECT   12   13
+CONECT   13   12   14   27
+CONECT   13   12
+CONECT   14    9   13
+CONECT   14    9
+CONECT   15    3   18   28
+CONECT   15   28
+CONECT   16   29   30
+CONECT   16   29
+CONECT   17   30
+CONECT   18   15   30
+CONECT   18   30
+CONECT   19    1
+CONECT   20    1
+CONECT   20    1
+CONECT   21    2    3
+CONECT   21    2
+CONECT   22    3    4
+CONECT   22    3
+CONECT   23    2    4    5
+CONECT   23    4
+CONECT   24    6
+CONECT   24    6
+CONECT   25    7    8
+CONECT   26   12
+CONECT   27   13
+CONECT   28   15   29
+CONECT   28   15
+CONECT   29   16   28
+CONECT   29   16
+CONECT   30   16   17   18
+CONECT   30   18
+ENDMDL
+END   

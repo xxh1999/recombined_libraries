@@ -1,0 +1,28 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6VJ9
+MODEL        1
+ATOM      1  N   MET B 502       2.081  16.667  -7.463  1.00 54.05           N1+
+ATOM      2  CA  MET B 502       2.483  16.112  -8.743  1.00 56.89           C  
+ATOM      3  C   MET B 502       1.503  16.602  -9.813  1.00 52.92           C  
+ATOM      4  O   MET B 502       0.301  16.348  -9.732  1.00 55.14           O  
+ATOM      5  CB  MET B 502       2.400  14.579  -8.593  1.00 55.06           C  
+ATOM      6  CG  MET B 502       3.623  14.025  -7.838  1.00 79.94           C  
+ATOM      7  SD  MET B 502       3.350  12.516  -6.879  1.00 91.42           S  
+ATOM      8  CE  MET B 502       3.003  13.256  -5.261  1.00 86.52           C  
+TER       9      MET B 502
+HETATM   10  N   B2A B 503       2.040  17.301 -10.822  1.00 61.13           N  
+HETATM   11  CA  B2A B 503       1.322  17.799 -11.984  1.00 61.74           C  
+HETATM   12  CB  B2A B 503       1.904  19.144 -12.437  1.00 49.78           C  
+HETATM   13  B   B2A B 503       1.375  16.679 -13.153  1.00 63.71           B1-
+HETATM   14  O1  B2A B 503       2.749  16.460 -13.623  1.00 74.00           O  
+HETATM   15  O2  B2A B 503       0.872  15.377 -12.652  1.00 74.54           O  
+CONECT   10    3   11
+CONECT   11   10   12   13
+CONECT   12   11
+CONECT   13   11   14   15
+CONECT   14   13
+CONECT   15   13
+ENDMDL
+END   

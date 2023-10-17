@@ -1,0 +1,40 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6SZ4
+MODEL        1
+ATOM      1  N   SER A 267      24.917   3.201  16.812  1.00 30.46           N1+
+ATOM      2  CA  SER A 267      24.109   4.403  16.708  1.00 31.02           C  
+ATOM      3  C   SER A 267      24.621   5.551  17.608  1.00 28.65           C  
+ATOM      4  O   SER A 267      25.739   6.013  17.410  1.00 26.57           O  
+ATOM      5  CB  SER A 267      22.639   4.057  17.005  1.00 31.13           C  
+ATOM      6  OG  SER A 267      21.749   4.936  16.292  1.00 30.05           O  
+TER       7      SER A 267
+HETATM    8  C1  BDP A 501      18.307   8.149  16.262  1.00 43.00           C  
+HETATM    9  C2  BDP A 501      19.059   9.490  16.128  1.00 34.64           C  
+HETATM   10  C3  BDP A 501      20.402   9.146  15.485  1.00 26.46           C  
+HETATM   11  C4  BDP A 501      21.170   8.063  16.253  1.00 32.19           C  
+HETATM   12  C5  BDP A 501      20.286   6.829  16.376  1.00 28.41           C  
+HETATM   13  C6  BDP A 501      21.018   5.729  17.136  1.00 27.22           C  
+HETATM   14  O2  BDP A 501      18.348  10.437  15.332  1.00 29.86           O  
+HETATM   15  O3  BDP A 501      21.205  10.290  15.305  1.00 29.35           O  
+HETATM   16  O4  BDP A 501      22.365   7.767  15.505  1.00 32.10           O  
+HETATM   17  O5  BDP A 501      19.068   7.190  17.040  1.00 35.61           O  
+HETATM   18  O6A BDP A 501      20.913   5.661  18.386  1.00 28.85           O  
+HETATM   19  O1  BDP A 501      17.026   8.425  16.821  1.00 45.07           O  
+CONECT    8    9   17   19
+CONECT    9    8   10   14
+CONECT   10    9   11   15
+CONECT   11   10   12   16
+CONECT   12   11   13   17
+CONECT   13    6   12   18
+CONECT   13   18
+CONECT   14    9
+CONECT   15   10
+CONECT   16   11
+CONECT   17    8   12
+CONECT   18   13
+CONECT   18   13
+CONECT   19    8
+ENDMDL
+END   

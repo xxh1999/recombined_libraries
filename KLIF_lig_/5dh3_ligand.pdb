@@ -1,0 +1,82 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5dh3_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  Q5B A 401       0.367  18.008  42.360  1.00  0.00           C  
+HETATM    2  C5  Q5B A 401       0.459  19.310  41.932  1.00  0.00           C  
+HETATM    3  C6  Q5B A 401      -0.135  20.301  42.675  1.00  0.00           C  
+HETATM    4  N1  Q5B A 401      -0.801  19.930  43.829  1.00  0.00           N  
+HETATM    5  N3  Q5B A 401      -0.292  17.695  43.480  1.00  0.00           N  
+HETATM    6  CAA Q5B A 401       1.429  21.227  40.865  1.00  0.00           C  
+HETATM    7  NAZ Q5B A 401       1.057  19.796  40.847  1.00  0.00           N  
+HETATM    8  CAU Q5B A 401       1.317  19.105  39.735  1.00  0.00           C  
+HETATM    9  OAD Q5B A 401       1.858  19.736  38.839  1.00  0.00           O  
+HETATM   10  CAY Q5B A 401       1.051  17.821  39.529  1.00  0.00           C  
+HETATM   11  SAQ Q5B A 401       0.923  17.198  38.054  1.00  0.00           S  
+HETATM   12  CAG Q5B A 401       0.613  15.675  38.506  1.00  0.00           C  
+HETATM   13  CAL Q5B A 401       0.610  15.657  39.838  1.00  0.00           C  
+HETATM   14  CAW Q5B A 401       0.862  16.842  40.410  1.00  0.00           C  
+HETATM   15  NBA Q5B A 401       0.871  16.954  41.741  1.00  0.00           N  
+HETATM   16  CAB Q5B A 401       1.438  15.875  42.561  1.00  0.00           C  
+HETATM   17  C2  Q5B A 401      -0.869  18.655  44.207  1.00  0.00           C  
+HETATM   18  NAP Q5B A 401      -1.533  18.411  45.327  1.00  0.00           N  
+HETATM   19  CAR Q5B A 401      -1.743  17.181  45.776  1.00  0.00           C  
+HETATM   20  CAH Q5B A 401      -2.521  17.054  46.911  1.00  0.00           C  
+HETATM   21  CAJ Q5B A 401      -2.786  15.812  47.452  1.00  0.00           C  
+HETATM   22  CAT Q5B A 401      -2.277  14.674  46.862  1.00  0.00           C  
+HETATM   23  SBB Q5B A 401      -2.645  13.128  47.575  1.00  0.00           S2+
+HETATM   24  OAE Q5B A 401      -1.371  12.289  47.685  1.00  0.00           O1-
+HETATM   25  OAF Q5B A 401      -3.230  13.354  48.972  1.00  0.00           O1-
+HETATM   26  NAC Q5B A 401      -3.734  12.344  46.650  1.00  0.00           N1-
+HETATM   27  CAK Q5B A 401      -1.494  14.794  45.719  1.00  0.00           C  
+HETATM   28  CAI Q5B A 401      -1.223  16.047  45.176  1.00  0.00           C  
+CONECT    1    2    5   15
+CONECT    1    5
+CONECT    2    1    3    7
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3   17
+CONECT    4   17
+CONECT    5    1   17
+CONECT    5    1
+CONECT    6    7
+CONECT    7    2    6    8
+CONECT    8    7    9   10
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8   11   14
+CONECT   10   14
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   10   13   15
+CONECT   14   10
+CONECT   15    1   14   16
+CONECT   16   15
+CONECT   17    4    5   18
+CONECT   17    4
+CONECT   18   17   19
+CONECT   19   18   20   28
+CONECT   19   28
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   21   23   27
+CONECT   22   27
+CONECT   23   22   24   25   26
+CONECT   24   23
+CONECT   25   23
+CONECT   26   23
+CONECT   27   22   28
+CONECT   27   22
+CONECT   28   19   27
+CONECT   28   19
+ENDMDL
+END   

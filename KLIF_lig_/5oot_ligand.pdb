@@ -1,0 +1,114 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5oot_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  Q4K A 301       0.902  17.930  42.442  1.00  0.00           C  
+HETATM    2  C5  Q4K A 301       0.914  19.302  42.066  1.00  0.00           C  
+HETATM    3  C6  Q4K A 301       0.192  20.241  42.824  1.00  0.00           C  
+HETATM    4  N1  Q4K A 301      -0.462  19.780  43.880  1.00  0.00           N  
+HETATM    5  N3  Q4K A 301       0.239  17.538  43.517  1.00  0.00           N  
+HETATM    6  CAU Q4K A 301       2.366  10.153  50.531  1.00  0.00           C  
+HETATM    7  CAS Q4K A 301       3.611   9.232  50.661  1.00  0.00           C  
+HETATM    8  NBL Q4K A 301       3.245   7.851  51.070  1.00  0.00           N1+
+HETATM    9  CAB Q4K A 301       4.419   6.951  51.038  1.00  0.00           C  
+HETATM   10  CAT Q4K A 301       2.110   7.272  50.294  1.00  0.00           C  
+HETATM   11  CAV Q4K A 301       0.911   8.241  50.116  1.00  0.00           C  
+HETATM   12  NBN Q4K A 301       1.357   9.541  49.597  1.00  0.00           N  
+HETATM   13  CBK Q4K A 301       0.297  10.347  48.913  1.00  0.00           C  
+HETATM   14  CAP Q4K A 301      -1.105  10.345  49.584  1.00  0.00           C  
+HETATM   15  CAR Q4K A 301      -2.129  11.034  48.724  1.00  0.00           C  
+HETATM   16  CAO Q4K A 301       0.725  11.793  48.797  1.00  0.00           C  
+HETATM   17  CAQ Q4K A 301      -0.202  12.598  47.907  1.00  0.00           C  
+HETATM   18  NBM Q4K A 301      -1.663  12.307  48.079  1.00  0.00           N  
+HETATM   19  CBA Q4K A 301      -2.581  13.210  47.648  1.00  0.00           C  
+HETATM   20  OAE Q4K A 301      -3.750  13.067  47.971  1.00  0.00           O  
+HETATM   21  CBB Q4K A 301      -2.223  14.409  47.005  1.00  0.00           C  
+HETATM   22  CAN Q4K A 301      -2.218  15.567  47.765  1.00  0.00           C  
+HETATM   23  CBE Q4K A 301      -1.853  16.770  47.173  1.00  0.00           C  
+HETATM   24  OAZ Q4K A 301      -1.796  17.983  47.814  1.00  0.00           O  
+HETATM   25  CAA Q4K A 301      -1.479  17.966  49.209  1.00  0.00           C  
+HETATM   26  CAI Q4K A 301      -1.862  14.474  45.659  1.00  0.00           C  
+HETATM   27  CAJ Q4K A 301      -1.490  15.684  45.057  1.00  0.00           C  
+HETATM   28  CBC Q4K A 301      -1.483  16.862  45.826  1.00  0.00           C  
+HETATM   29  NAY Q4K A 301      -1.169  18.142  45.353  1.00  0.00           N  
+HETATM   30  C2  Q4K A 301      -0.425  18.470  44.215  1.00  0.00           C  
+HETATM   31  NBP Q4K A 301       1.512  16.995  41.759  1.00  0.00           N  
+HETATM   32  CAD Q4K A 301       1.815  15.752  42.468  1.00  0.00           C  
+HETATM   33  CBH Q4K A 301       1.166  16.808  40.395  1.00  0.00           C  
+HETATM   34  CAL Q4K A 301       0.598  15.595  39.962  1.00  0.00           C  
+HETATM   35  CAH Q4K A 301       0.296  15.382  38.625  1.00  0.00           C  
+HETATM   36  CAG Q4K A 301       0.507  16.384  37.681  1.00  0.00           C  
+HETATM   37  CAK Q4K A 301       1.015  17.611  38.082  1.00  0.00           C  
+HETATM   38  CBG Q4K A 301       1.365  17.806  39.433  1.00  0.00           C  
+HETATM   39  CBF Q4K A 301       1.933  19.113  39.810  1.00  0.00           C  
+HETATM   40  OAF Q4K A 301       2.698  19.614  38.977  1.00  0.00           O  
+HETATM   41  NBO Q4K A 301       1.641  19.781  40.964  1.00  0.00           N  
+HETATM   42  CAC Q4K A 301       2.171  21.144  41.069  1.00  0.00           C  
+CONECT    1    2    5   31
+CONECT    1    5
+CONECT    2    1    3   41
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3   30
+CONECT    4   30
+CONECT    5    1   30
+CONECT    5    1
+CONECT    6    7   12
+CONECT    7    6    8
+CONECT    8    7    9   10
+CONECT    9    8
+CONECT   10    8   11
+CONECT   11   10   12
+CONECT   12    6   11   13
+CONECT   13   12   14   16
+CONECT   14   13   15
+CONECT   15   14   18
+CONECT   16   13   17
+CONECT   17   16   18
+CONECT   18   15   17   19
+CONECT   19   18   20   21
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   19   22   26
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   22   24   28
+CONECT   23   28
+CONECT   24   23   25
+CONECT   25   24
+CONECT   26   21   27
+CONECT   26   27
+CONECT   27   26   28
+CONECT   27   26
+CONECT   28   23   27   29
+CONECT   28   23
+CONECT   29   28   30
+CONECT   30    4    5   29
+CONECT   30    4
+CONECT   31    1   32   33
+CONECT   32   31
+CONECT   33   31   34   38
+CONECT   33   38
+CONECT   34   33   35
+CONECT   34   35
+CONECT   35   34   36
+CONECT   35   34
+CONECT   36   35   37
+CONECT   36   37
+CONECT   37   36   38
+CONECT   37   36
+CONECT   38   33   37   39
+CONECT   38   33
+CONECT   39   38   40   41
+CONECT   39   40
+CONECT   40   39
+CONECT   40   39
+CONECT   41    2   39   42
+CONECT   42   41
+ENDMDL
+END   

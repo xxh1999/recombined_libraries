@@ -1,0 +1,85 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6z5e_ligand
+MODEL        1
+HETATM    1  C4  Q8K A 806       0.687  18.964  42.257  1.00  0.00           C  
+HETATM    2  C5  Q8K A 806       0.519  21.241  42.358  1.00  0.00           C  
+HETATM    3  C6  Q8K A 806       1.107  20.150  41.617  1.00  0.00           C  
+HETATM    4  N1  Q8K A 806       0.882  17.605  42.034  1.00  0.00           N  
+HETATM    5  C7  Q8K A 806       1.420  14.783  41.737  1.00  0.00           C  
+HETATM    6  C8  Q8K A 806      -0.525  14.378  43.357  1.00  0.00           C  
+HETATM    7  N2  Q8K A 806      -0.144  19.447  43.325  1.00  0.00           N  
+HETATM    8  C9  Q8K A 806      -1.960  14.428  42.818  1.00  0.00           C  
+HETATM    9  C10 Q8K A 806       1.896  20.200  40.396  1.00  0.00           C  
+HETATM   10  C11 Q8K A 806       2.037  21.427  39.762  1.00  0.00           C  
+HETATM   11  C12 Q8K A 806       2.639  21.517  38.528  1.00  0.00           C  
+HETATM   12  N3  Q8K A 806      -0.229  20.845  43.386  1.00  0.00           N  
+HETATM   13  C13 Q8K A 806       3.128  20.391  37.913  1.00  0.00           C  
+HETATM   14  C14 Q8K A 806       3.003  19.152  38.527  1.00  0.00           C  
+HETATM   15  C15 Q8K A 806       2.408  19.060  39.784  1.00  0.00           C  
+HETATM   16  N4  Q8K A 806       0.402  15.370  42.675  1.00  0.00           N  
+HETATM   17  C2  Q8K A 806      -0.652  17.221  43.855  1.00  0.00           C  
+HETATM   18  C3  Q8K A 806      -0.815  18.552  44.108  1.00  0.00           C  
+HETATM   19  C16 Q8K A 806       3.422  17.980  37.717  1.00  0.00           C  
+HETATM   20  O2  Q8K A 806       3.787  18.110  36.566  1.00  0.00           O  
+HETATM   21  N5  Q8K A 806       3.355  16.797  38.312  1.00  0.00           N  
+HETATM   22  C18 Q8K A 806       3.044  15.582  37.596  1.00  0.00           C  
+HETATM   23  C17 Q8K A 806       3.318  14.504  38.507  1.00  0.00           C  
+HETATM   24  N6  Q8K A 806       2.200  14.119  39.391  1.00  0.00           N  
+HETATM   25  C19 Q8K A 806       1.263  14.928  40.210  1.00  0.00           C  
+HETATM   26  C1  Q8K A 806       0.210  16.735  42.867  1.00  0.00           C  
+HETATM   27  O1  Q8K A 806      -2.863  13.495  43.465  1.00  0.00           O  
+HETATM   28  C20 Q8K A 806       2.816  12.944  40.001  1.00  0.00           C  
+HETATM   29  C22 Q8K A 806       2.836  11.800  39.050  1.00  0.00           C  
+HETATM   30  C21 Q8K A 806       1.893  11.795  40.205  1.00  0.00           C  
+CONECT    1    3    4    7
+CONECT    1    3
+CONECT    2    3   12
+CONECT    2   12
+CONECT    3    1    2    9
+CONECT    3    1
+CONECT    4    1   26
+CONECT    4   26
+CONECT    5   16   25
+CONECT    5   25
+CONECT    6    8   16
+CONECT    7    1   12   18
+CONECT    8    6   27
+CONECT    9    3   10   15
+CONECT    9   15
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   13
+CONECT   11   10
+CONECT   12    2    7
+CONECT   12    2
+CONECT   13   11   14
+CONECT   13   14
+CONECT   14   13   15   19
+CONECT   14   13
+CONECT   15    9   14
+CONECT   15    9
+CONECT   16    5    6   26
+CONECT   17   18   26
+CONECT   17   18
+CONECT   18    7   17
+CONECT   18   17
+CONECT   19   14   20   21
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   19   22
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   23   25   28
+CONECT   25    5   24
+CONECT   25    5
+CONECT   26    4   16   17
+CONECT   26    4
+CONECT   27    8
+CONECT   28   24   29   30
+CONECT   29   28   30
+CONECT   30   28   29
+ENDMDL
+END   

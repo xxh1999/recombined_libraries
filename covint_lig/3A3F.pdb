@@ -1,0 +1,88 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3A3F
+MODEL        1
+ATOM      1  N   SER A  69      29.464   7.131  28.362  1.00 13.44           N1+
+ATOM      2  CA  SER A  69      29.375   8.171  29.385  1.00 13.78           C  
+ATOM      3  C   SER A  69      30.492   9.238  29.350  1.00 12.67           C  
+ATOM      4  O   SER A  69      30.439  10.159  30.163  1.00 13.74           O  
+ATOM      5  CB  SER A  69      29.325   7.527  30.779  1.00 12.36           C  
+ATOM      6  OG  SER A  69      28.139   6.787  31.054  1.00 14.72           O  
+TER       7      SER A  69
+HETATM    8  C14 FMZ A   1      27.207   4.748  31.852  1.00 20.71           C  
+HETATM    9  C6  FMZ A   1      29.249   3.152  34.616  1.00 22.14           C  
+HETATM   10  C12 FMZ A   1      29.861   3.983  33.467  1.00 23.49           C  
+HETATM   11  C13 FMZ A   1      27.696   4.931  33.337  1.00 20.48           C  
+HETATM   12  N1  FMZ A   1      26.919   3.364  31.473  1.00 17.54           N  
+HETATM   13  C3  FMZ A   1      25.766   2.723  31.725  1.00 20.83           C  
+HETATM   14  N3  FMZ A   1      29.112   5.229  33.398  1.00 21.37           N  
+HETATM   15  O1  FMZ A   1      31.664   5.415  34.029  1.00 24.27           O1-
+HETATM   16  C2  FMZ A   1      31.359   4.283  33.596  1.00 23.57           C  
+HETATM   17  O2  FMZ A   1      32.173   3.394  33.263  1.00 24.80           O  
+HETATM   18  C16 FMZ A   1      29.511   1.654  34.422  1.00 26.54           C  
+HETATM   19  C1  FMZ A   1      29.713   3.591  36.024  1.00 22.22           C  
+HETATM   20  S1  FMZ A   1      27.480   3.505  34.446  1.00 23.06           S  
+HETATM   21  C15 FMZ A   1      28.086   5.460  30.801  1.00 19.63           C  
+HETATM   22  O4  FMZ A   1      28.756   4.880  29.949  1.00 19.43           O  
+HETATM   23  O3  FMZ A   1      24.842   3.256  32.339  1.00 13.81           O  
+HETATM   24  CAK FMZ A   1      25.630   1.273  31.226  1.00 21.26           C  
+HETATM   25  NAL FMZ A   1      24.229   0.834  31.169  1.00 31.81           N  
+HETATM   26  NAI FMZ A   1      23.660   0.767  29.902  1.00 40.78           N  
+HETATM   27  CAU FMZ A   1      24.176  -0.215  28.964  1.00 38.38           C  
+HETATM   28  CAV FMZ A   1      23.038  -0.296  27.944  1.00 40.68           C  
+HETATM   29  NAO FMZ A   1      22.008   0.527  28.537  1.00 41.04           N  
+HETATM   30  CAM FMZ A   1      22.374   1.072  29.697  1.00 44.91           C  
+HETATM   31  OAR FMZ A   1      21.648   1.733  30.434  1.00 43.59           O  
+HETATM   32  CAS FMZ A   1      26.359   0.422  32.211  1.00 23.11           C  
+HETATM   33  CAZ FMZ A   1      27.509  -0.308  31.831  1.00 20.89           C  
+HETATM   34  CBC FMZ A   1      28.147  -1.191  32.723  1.00 23.71           C  
+HETATM   35  CBD FMZ A   1      27.641  -1.364  34.024  1.00 24.46           C  
+HETATM   36  CBB FMZ A   1      26.504  -0.644  34.428  1.00 25.72           C  
+HETATM   37  CBA FMZ A   1      25.876   0.238  33.531  1.00 26.27           C  
+CONECT    8   11   12   21
+CONECT    9   10   18   19   20
+CONECT   10    9   14   16
+CONECT   11    8   14   20
+CONECT   12    8   13
+CONECT   13   12   23   24
+CONECT   13   23
+CONECT   14   10   11
+CONECT   15   16
+CONECT   16   10   15   17
+CONECT   16   17
+CONECT   17   16
+CONECT   17   16
+CONECT   18    9
+CONECT   19    9
+CONECT   20    9   11
+CONECT   21    6    8   22
+CONECT   21   22
+CONECT   22   21
+CONECT   22   21
+CONECT   23   13
+CONECT   23   13
+CONECT   24   13   25   32
+CONECT   25   24   26
+CONECT   26   25   27   30
+CONECT   27   26   28
+CONECT   28   27   29
+CONECT   29   28   30
+CONECT   30   26   29   31
+CONECT   30   31
+CONECT   31   30
+CONECT   31   30
+CONECT   32   24   33   37
+CONECT   32   33
+CONECT   33   32   34
+CONECT   33   32
+CONECT   34   33   35
+CONECT   34   35
+CONECT   35   34   36
+CONECT   35   34
+CONECT   36   35   37
+CONECT   36   37
+CONECT   37   32   36
+CONECT   37   36
+ENDMDL
+END   

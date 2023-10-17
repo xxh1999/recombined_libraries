@@ -1,0 +1,86 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1MS6
+MODEL        1
+ATOM      1  N   CYS A  25      44.316  24.097  59.224  1.00  7.17           N1+
+ATOM      2  CA  CYS A  25      44.506  24.172  57.777  1.00  7.47           C  
+ATOM      3  C   CYS A  25      45.782  23.428  57.368  1.00  7.59           C  
+ATOM      4  O   CYS A  25      45.813  22.720  56.354  1.00  6.73           O  
+ATOM      5  CB  CYS A  25      44.596  25.641  57.349  1.00  8.36           C  
+ATOM      6  SG  CYS A  25      46.010  26.512  58.107  1.00  9.27           S1+
+TER       7      CYS A  25
+HETATM    8  C1  BLN A 281      50.679  28.984  61.669  1.00 10.52           C  
+HETATM    9  C2  BLN A 281      51.567  29.631  63.869  1.00 12.78           C  
+HETATM   10  C3  BLN A 281      51.910  28.836  65.133  1.00 12.39           C  
+HETATM   11  C5  BLN A 281      53.060  27.173  63.900  1.00 12.90           C  
+HETATM   12  C6  BLN A 281      52.705  27.816  62.546  1.00 12.10           C  
+HETATM   13  O1  BLN A 281      49.779  29.817  61.776  1.00 11.94           O  
+HETATM   14  O2  BLN A 281      53.152  28.155  64.936  1.00 12.89           O  
+HETATM   15  N1  BLN A 281      51.616  28.789  62.649  1.00 12.12           N  
+HETATM   16  N   BLN A 281      50.788  28.258  60.555  1.00 10.42           N  
+HETATM   17  CA  BLN A 281      49.792  28.425  59.484  1.00 10.47           C  
+HETATM   18  CB  BLN A 281      50.193  27.639  58.231  1.00 10.18           C  
+HETATM   19  CG  BLN A 281      51.505  28.089  57.576  1.00 12.45           C  
+HETATM   20  CD1 BLN A 281      51.832  27.198  56.367  1.00 12.76           C  
+HETATM   21  CD2 BLN A 281      51.372  29.551  57.133  1.00 13.26           C  
+HETATM   22  C   BLN A 281      48.477  27.897  60.064  1.00 10.73           C  
+HETATM   23  O   BLN A 281      48.468  26.842  60.685  1.00 10.57           O  
+HETATM   24  CB' BLN A 281      45.350  29.445  60.958  1.00 14.43           C  
+HETATM   25  N'  BLN A 281      47.370  28.610  59.857  1.00 10.74           N  
+HETATM   26  OG  BLN A 281      45.079  30.263  59.840  1.00 15.67           O  
+HETATM   27  CD  BLN A 281      44.786  31.603  60.223  1.00 17.68           C  
+HETATM   28  C1' BLN A 281      44.039  32.240  59.090  1.00 17.74           C  
+HETATM   29  C2' BLN A 281      42.660  32.165  59.027  1.00 19.09           C  
+HETATM   30  C3' BLN A 281      41.958  32.747  57.961  1.00 20.08           C  
+HETATM   31  C4' BLN A 281      42.648  33.410  56.955  1.00 18.42           C  
+HETATM   32  C5' BLN A 281      44.035  33.492  57.007  1.00 18.37           C  
+HETATM   33  C6' BLN A 281      44.723  32.908  58.071  1.00 19.26           C  
+HETATM   34  C'  BLN A 281      45.193  27.361  59.600  1.00 12.14           C  
+HETATM   35  N40 BLN A 281      43.898  27.182  59.816  1.00 11.39           N  
+HETATM   36  CA' BLN A 281      46.097  28.203  60.477  1.00 12.13           C  
+CONECT    8   13   15   16
+CONECT    8   13
+CONECT    9   10   15
+CONECT   10    9   14
+CONECT   11   12   14
+CONECT   12   11   15
+CONECT   13    8
+CONECT   13    8
+CONECT   14   10   11
+CONECT   15    8    9   12
+CONECT   16    8   17
+CONECT   17   16   18   22
+CONECT   18   17   19
+CONECT   19   18   20   21
+CONECT   20   19
+CONECT   21   19
+CONECT   22    6   17   23   25
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   26   36
+CONECT   25   22   36
+CONECT   26   24   27
+CONECT   27   26   28
+CONECT   28   27   29   33
+CONECT   28   29
+CONECT   29   28   30
+CONECT   29   28
+CONECT   30   29   31
+CONECT   30   31
+CONECT   31   30   32
+CONECT   31   30
+CONECT   32   31   33
+CONECT   32   33
+CONECT   33   28   32
+CONECT   33   32
+CONECT   34    6   35   36
+CONECT   34   35
+CONECT   34   35
+CONECT   35   34
+CONECT   35   34
+CONECT   35   34
+CONECT   36   24   25   34
+ENDMDL
+END   

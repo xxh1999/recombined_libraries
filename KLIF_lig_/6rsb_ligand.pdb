@@ -1,0 +1,101 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6rsb_ligand
+MODEL        1
+HETATM    1  C4  KGZ B1201       0.719  18.451  41.063  1.00  0.00           C  
+HETATM    2  C14 KGZ B1201       3.763  14.050  37.325  1.00  0.00           C  
+HETATM    3  C5  KGZ B1201       0.195  18.786  42.287  1.00  0.00           C  
+HETATM    4  C6  KGZ B1201       0.043  20.113  42.932  1.00  0.00           C  
+HETATM    5  C11 KGZ B1201      -1.204  15.533  47.167  1.00  0.00           C  
+HETATM    6  C7  KGZ B1201      -0.184  17.571  42.873  1.00  0.00           C  
+HETATM    7  C8  KGZ B1201      -0.977  16.198  44.714  1.00  0.00           C  
+HETATM    8  C9  KGZ B1201      -1.743  16.272  45.963  1.00  0.00           C  
+HETATM    9  C10 KGZ B1201      -2.408  15.020  46.477  1.00  0.00           C  
+HETATM   10  C12 KGZ B1201       1.990  16.949  38.989  1.00  0.00           C  
+HETATM   11  C13 KGZ B1201       2.588  16.089  37.876  1.00  0.00           C  
+HETATM   12  N1  KGZ B1201      -1.343  17.825  37.643  1.00  0.00           N  
+HETATM   13  N2  KGZ B1201       0.615  17.093  40.946  1.00  0.00           N  
+HETATM   14  C3  KGZ B1201       0.984  16.190  39.890  1.00  0.00           C  
+HETATM   15  N3  KGZ B1201       0.434  21.195  42.266  1.00  0.00           N  
+HETATM   16  C1  KGZ B1201      -0.770  17.028  38.211  1.00  0.00           C  
+HETATM   17  C2  KGZ B1201      -0.170  15.896  38.905  1.00  0.00           C  
+HETATM   18  O1  KGZ B1201      -0.474  20.202  44.032  1.00  0.00           O  
+HETATM   19  N4  KGZ B1201      -0.786  17.378  44.113  1.00  0.00           N  
+HETATM   20  O2  KGZ B1201      -0.538  15.157  44.236  1.00  0.00           O  
+HETATM   21  N5  KGZ B1201       0.066  16.555  42.062  1.00  0.00           N  
+HETATM   22  N6  KGZ B1201       3.260  14.907  38.410  1.00  0.00           N1+
+HETATM   23  C15 KGZ B1201       5.066  14.550  36.753  1.00  0.00           C  
+HETATM   24  C16 KGZ B1201       6.224  14.507  37.512  1.00  0.00           C  
+HETATM   25  C17 KGZ B1201       7.419  14.974  36.998  1.00  0.00           C  
+HETATM   26  C18 KGZ B1201       7.485  15.510  35.710  1.00  0.00           C  
+HETATM   27  C19 KGZ B1201       8.765  16.022  35.170  1.00  0.00           C  
+HETATM   28  C20 KGZ B1201       9.003  16.065  33.848  1.00  0.00           C  
+HETATM   29  C21 KGZ B1201      10.234  16.704  33.284  1.00  0.00           C  
+HETATM   30  C22 KGZ B1201      10.687  17.798  34.164  1.00  0.00           C  
+HETATM   31  C23 KGZ B1201      10.961  17.300  35.572  1.00  0.00           C  
+HETATM   32  C24 KGZ B1201       9.786  16.497  36.150  1.00  0.00           C  
+HETATM   33  C25 KGZ B1201       6.305  15.573  34.962  1.00  0.00           C  
+HETATM   34  C26 KGZ B1201       5.112  15.100  35.477  1.00  0.00           C  
+HETATM   35  C27 KGZ B1201       2.323  14.151  39.242  1.00  0.00           C  
+HETATM   36  C28 KGZ B1201       1.810  15.002  40.376  1.00  0.00           C  
+HETATM   37  F1  KGZ B1201       2.915  15.478  41.118  1.00  0.00           F  
+CONECT    1    3   13
+CONECT    1    3
+CONECT    2   22   23
+CONECT    3    1    4    6
+CONECT    3    1
+CONECT    4    3   15   18
+CONECT    4   18
+CONECT    5    8    9
+CONECT    6    3   19   21
+CONECT    6   21
+CONECT    7    8   19   20
+CONECT    7   20
+CONECT    8    5    7    9
+CONECT    9    5    8
+CONECT   10   11   14
+CONECT   11   10   22
+CONECT   12   16
+CONECT   12   16
+CONECT   12   16
+CONECT   13    1   14   21
+CONECT   14   10   13   17   36
+CONECT   15    4
+CONECT   16   12   17
+CONECT   16   12
+CONECT   16   12
+CONECT   17   14   16
+CONECT   18    4
+CONECT   18    4
+CONECT   19    6    7
+CONECT   20    7
+CONECT   20    7
+CONECT   21    6   13
+CONECT   21    6
+CONECT   22    2   11   35
+CONECT   23    2   24   34
+CONECT   23   34
+CONECT   24   23   25
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26   25   27   33
+CONECT   26   33
+CONECT   27   26   28   32
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   28   30
+CONECT   30   29   31
+CONECT   31   30   32
+CONECT   32   27   31
+CONECT   33   26   34
+CONECT   33   26
+CONECT   34   23   33
+CONECT   34   23
+CONECT   35   22   36
+CONECT   36   14   35   37
+CONECT   37   36
+ENDMDL
+END   

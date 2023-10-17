@@ -1,0 +1,21 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2O99
+MODEL        1
+ATOM      1  N   ILE A 153      13.153  -5.605 -24.060  1.00 28.00           N1+
+ATOM      2  CA  ILE A 153      14.217  -4.997 -24.865  1.00 28.06           C  
+ATOM      3  C   ILE A 153      15.004  -4.065 -23.919  1.00 29.26           C  
+ATOM      4  O   ILE A 153      14.921  -2.841 -23.993  1.00 28.99           O  
+ATOM      5  CB  ILE A 153      13.633  -4.225 -26.090  1.00 28.47           C  
+ATOM      6  CG1 ILE A 153      12.636  -5.094 -26.898  1.00 26.88           C  
+ATOM      7  CG2 ILE A 153      14.771  -3.715 -27.010  1.00 23.13           C  
+ATOM      8  CD1 ILE A 153      12.116  -4.443 -28.189  1.00 27.23           C  
+ATOM      9  N   SER A 169      56.465  41.232  22.684  1.00 17.22           N  
+ATOM     10  CA  SER A 169      56.477  39.767  22.787  1.00 17.42           C  
+ATOM     11  C   SER A 169      55.580  39.123  21.719  1.00 16.48           C  
+ATOM     12  O   SER A 169      55.851  39.283  20.530  1.00 15.35           O  
+ATOM     13  CB  SER A 169      56.259  39.319  24.249  1.00 17.72           C  
+ATOM     14  OG  SER A 169      56.802  38.032  24.486  1.00 21.27           O  
+ENDMDL
+END   

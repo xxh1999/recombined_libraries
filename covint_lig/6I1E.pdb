@@ -1,0 +1,76 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6I1E
+MODEL        1
+ATOM      1  N   SER A 294      -7.069  34.255 -16.199  1.00 19.48           N1+
+ATOM      2  CA  SER A 294      -6.392  33.876 -17.436  1.00 19.57           C  
+ATOM      3  C   SER A 294      -5.713  32.490 -17.405  1.00 19.37           C  
+ATOM      4  O   SER A 294      -5.276  32.021 -18.454  1.00 19.02           O  
+ATOM      5  CB  SER A 294      -5.329  34.939 -17.761  1.00 20.05           C  
+ATOM      6  OG  SER A 294      -5.855  36.245 -17.985  1.00 20.41           O  
+TER       7      SER A 294
+HETATM    8  C1  AXL A 701      -5.989  37.129 -16.971  1.00 21.83           C  
+HETATM    9  O1  AXL A 701      -5.944  36.850 -15.772  1.00 20.30           O  
+HETATM   10  C2  AXL A 701      -6.094  38.563 -17.521  1.00 22.81           C  
+HETATM   11  C3  AXL A 701      -4.823  39.080 -18.299  1.00 22.76           C  
+HETATM   12  S4  AXL A 701      -4.278  40.761 -17.863  1.00 23.74           S  
+HETATM   13  C5  AXL A 701      -2.698  40.248 -17.141  1.00 23.89           C  
+HETATM   14  C51 AXL A 701      -2.442  41.055 -15.860  1.00 23.63           C  
+HETATM   15  C52 AXL A 701      -1.561  40.507 -18.152  1.00 24.46           C  
+HETATM   16  C6  AXL A 701      -2.959  38.745 -16.893  1.00 23.42           C  
+HETATM   17  C61 AXL A 701      -1.742  37.879 -16.527  1.00 24.74           C  
+HETATM   18  O62 AXL A 701      -1.320  37.959 -15.353  1.00 24.26           O1-
+HETATM   19  O63 AXL A 701      -1.269  37.113 -17.398  1.00 25.61           O  
+HETATM   20  N7  AXL A 701      -3.645  38.252 -18.089  1.00 23.45           N  
+HETATM   21  N8  AXL A 701      -6.603  39.478 -16.493  1.00 22.56           N  
+HETATM   22  C9  AXL A 701      -7.454  40.493 -16.710  1.00 23.38           C  
+HETATM   23  O91 AXL A 701      -7.833  40.818 -17.836  1.00 22.96           O  
+HETATM   24  C10 AXL A 701      -7.983  41.242 -15.475  1.00 24.25           C  
+HETATM   25  N11 AXL A 701      -9.292  41.840 -15.727  1.00 24.67           N  
+HETATM   26  C12 AXL A 701      -6.963  42.274 -15.119  1.00 25.83           C  
+HETATM   27  C13 AXL A 701      -6.347  42.261 -13.846  1.00 26.90           C  
+HETATM   28  C14 AXL A 701      -5.425  43.251 -13.461  1.00 28.63           C  
+HETATM   29  C15 AXL A 701      -5.097  44.291 -14.350  1.00 28.46           C  
+HETATM   30  C16 AXL A 701      -5.696  44.329 -15.621  1.00 27.98           C  
+HETATM   31  C17 AXL A 701      -6.617  43.331 -15.997  1.00 27.21           C  
+HETATM   32  O18 AXL A 701      -4.216  45.266 -13.983  1.00 30.71           O  
+CONECT    8    6    9   10
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8   11   21
+CONECT   11   10   12   20
+CONECT   12   11   13
+CONECT   13   12   14   15   16
+CONECT   14   13
+CONECT   15   13
+CONECT   16   13   17   20
+CONECT   17   16   18   19
+CONECT   17   19
+CONECT   18   17
+CONECT   19   17
+CONECT   19   17
+CONECT   20   11   16
+CONECT   21   10   22
+CONECT   22   21   23   24
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22   25   26
+CONECT   25   24
+CONECT   26   24   27   31
+CONECT   26   27
+CONECT   27   26   28
+CONECT   27   26
+CONECT   28   27   29
+CONECT   28   29
+CONECT   29   28   30   32
+CONECT   29   28
+CONECT   30   29   31
+CONECT   30   31
+CONECT   31   26   30
+CONECT   31   30
+CONECT   32   29
+ENDMDL
+END   

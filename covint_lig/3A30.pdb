@@ -1,0 +1,24 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3A30
+MODEL        1
+ATOM      1  N   CYS A  59      27.325  18.586  -4.206  1.00 14.58           N1+
+ATOM      2  CA  CYS A  59      26.356  17.572  -3.803  1.00 14.16           C  
+ATOM      3  C   CYS A  59      26.233  16.360  -4.751  1.00 14.34           C  
+ATOM      4  O   CYS A  59      26.138  15.228  -4.278  1.00 13.11           O  
+ATOM      5  CB  CYS A  59      25.004  18.264  -3.530  1.00 17.86           C  
+ATOM      6  SG  CYS A  59      24.208  18.903  -5.033  1.00 20.21           S  
+TER       7      CYS A  59
+HETATM    8  C   ACT A2001      24.868  21.250  -5.302  1.00 30.00           C  
+HETATM    9  O   ACT A2001      23.979  20.336  -4.682  1.00 28.66           O  
+HETATM   10  OXT ACT A2001      26.172  21.263  -4.768  1.00 26.81           O1-
+HETATM   11  CH3 ACT A2001      24.290  22.655  -5.170  1.00 28.91           C  
+CONECT    8    9   10   11
+CONECT    8    9
+CONECT    9    6    8
+CONECT    9    8
+CONECT   10    8
+CONECT   11    8
+ENDMDL
+END   

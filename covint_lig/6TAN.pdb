@@ -1,0 +1,88 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6TAN
+MODEL        1
+ATOM      1  N   CYS A  12      -3.442  -4.774   2.033  1.00 16.80           N1+
+ATOM      2  CA  CYS A  12      -4.329  -3.705   1.582  1.00 18.19           C  
+ATOM      3  C   CYS A  12      -5.194  -3.169   2.733  1.00 16.59           C  
+ATOM      4  O   CYS A  12      -5.927  -3.925   3.371  1.00 18.71           O  
+ATOM      5  CB  CYS A  12      -5.192  -4.273   0.434  1.00 22.07           C  
+ATOM      6  SG  CYS A  12      -6.304  -3.026  -0.299  1.00 23.29           S  
+TER       7      CYS A  12
+HETATM    8  N1  MZN A 203       5.011  -7.672  -3.429  1.00 22.89           N  
+HETATM    9  C4  MZN A 203       3.767  -6.129  -1.450  1.00 18.81           C  
+HETATM   10  C5  MZN A 203       3.049  -5.390  -0.353  1.00 17.78           C  
+HETATM   11  C8  MZN A 203       0.995  -5.723  -1.608  1.00 19.68           C  
+HETATM   12  C10 MZN A 203      -0.781  -3.978  -1.113  1.00 21.56           C  
+HETATM   13  C13 MZN A 203      -1.223  -5.537  -2.881  1.00 24.25           C  
+HETATM   14  C17 MZN A 203      -5.170  -1.785  -0.991  1.00 22.49           C  
+HETATM   15  C20 MZN A 203       3.700  -7.386  -3.514  1.00 21.61           C  
+HETATM   16  C21 MZN A 203       7.201  -7.500  -2.429  1.00 21.17           C  
+HETATM   17  C22 MZN A 203       7.903  -7.719  -3.652  1.00 25.73           C  
+HETATM   18  C24 MZN A 203       9.991  -8.083  -2.468  1.00 20.82           C  
+HETATM   19  C26 MZN A 203       7.954  -7.578  -1.227  1.00 21.26           C  
+HETATM   20  C16 MZN A 203      -4.151  -2.358  -1.989  1.00 25.22           C  
+HETATM   21  C14 MZN A 203      -2.756  -2.559  -1.386  1.00 19.51           C  
+HETATM   22  O15 MZN A 203      -2.298  -1.727  -0.602  1.00 18.02           O  
+HETATM   23  N11 MZN A 203      -2.067  -3.662  -1.713  1.00 22.99           N  
+HETATM   24  C12 MZN A 203      -2.463  -4.684  -2.678  1.00 23.02           C  
+HETATM   25  C9  MZN A 203      -0.484  -5.409  -1.551  1.00 20.54           C  
+HETATM   26  C18 MZN A 203       1.606  -6.369  -2.618  1.00 22.31           C  
+HETATM   27  N7  MZN A 203       1.719  -5.260  -0.500  1.00 18.42           N  
+HETATM   28  O6  MZN A 203       3.643  -4.972   0.635  1.00 20.38           O  
+HETATM   29  C3  MZN A 203       5.151  -6.382  -1.395  1.00 18.88           C  
+HETATM   30  C19 MZN A 203       3.036  -6.621  -2.549  1.00 19.86           C  
+HETATM   31  C2  MZN A 203       5.748  -7.173  -2.404  1.00 18.38           C  
+HETATM   32  F27 MZN A 203       7.377  -7.410  -0.012  1.00 33.67           F  
+HETATM   33  C25 MZN A 203       9.333  -7.844  -1.257  1.00 27.38           C  
+HETATM   34  C23 MZN A 203       9.276  -8.021  -3.668  1.00 24.96           C  
+HETATM   35  O28 MZN A 203       7.283  -7.631  -4.862  1.00 36.51           O  
+CONECT    8   15   31
+CONECT    8   31
+CONECT    9   10   29   30
+CONECT    9   29
+CONECT   10    9   27   28
+CONECT   10   28
+CONECT   11   25   26   27
+CONECT   11   26
+CONECT   12   23   25
+CONECT   13   24   25
+CONECT   14    6   20
+CONECT   15    8   30
+CONECT   15   30
+CONECT   16   17   19   31
+CONECT   16   19
+CONECT   17   16   34   35
+CONECT   17   34
+CONECT   18   33   34
+CONECT   18   33
+CONECT   19   16   32   33
+CONECT   19   16
+CONECT   20   14   21
+CONECT   21   20   22   23
+CONECT   21   22
+CONECT   22   21
+CONECT   22   21
+CONECT   23   12   21   24
+CONECT   24   13   23
+CONECT   25   11   12   13
+CONECT   26   11   30
+CONECT   26   11
+CONECT   27   10   11
+CONECT   28   10
+CONECT   28   10
+CONECT   29    9   31
+CONECT   29    9
+CONECT   30    9   15   26
+CONECT   30   15
+CONECT   31    8   16   29
+CONECT   31    8
+CONECT   32   19
+CONECT   33   18   19
+CONECT   33   18
+CONECT   34   17   18
+CONECT   34   17
+CONECT   35   17
+ENDMDL
+END   

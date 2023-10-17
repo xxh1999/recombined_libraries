@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6fck_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C2  D4Z A 301       0.215  20.212  42.959  1.00  0.00           C  
+HETATM    2  C7  D4Z A 301       0.897  16.215  41.425  1.00  0.00           C  
+HETATM    3  C9  D4Z A 301       1.602  14.647  39.618  1.00  0.00           C  
+HETATM    4  C11 D4Z A 301       1.958  13.160  39.470  1.00  0.00           C  
+HETATM    5  C12 D4Z A 301       2.191  12.801  37.994  1.00  0.00           C  
+HETATM    6  C13 D4Z A 301       0.928  13.063  37.158  1.00  0.00           C  
+HETATM    7  C15 D4Z A 301       0.335  14.914  38.766  1.00  0.00           C  
+HETATM    8  C16 D4Z A 301       0.165  16.417  42.606  1.00  0.00           C  
+HETATM    9  C21 D4Z A 301      -0.016  17.711  43.107  1.00  0.00           C  
+HETATM   10  C22 D4Z A 301      -1.878  15.950  45.597  1.00  0.00           C  
+HETATM   11  C24 D4Z A 301      -2.945  14.245  46.951  1.00  0.00           C  
+HETATM   12  C27 D4Z A 301      -2.480  16.943  46.383  1.00  0.00           C  
+HETATM   13  N1  D4Z A 301       0.525  21.247  42.175  1.00  0.00           N  
+HETATM   14  O3  D4Z A 301      -0.410  20.387  44.013  1.00  0.00           O  
+HETATM   15  C4  D4Z A 301       0.536  18.826  42.466  1.00  0.00           C  
+HETATM   16  C5  D4Z A 301       1.277  18.623  41.286  1.00  0.00           C  
+HETATM   17  C6  D4Z A 301       1.457  17.329  40.785  1.00  0.00           C  
+HETATM   18  N8  D4Z A 301       1.107  14.929  40.968  1.00  0.00           N  
+HETATM   19  N14 D4Z A 301       0.456  14.429  37.388  1.00  0.00           N1+
+HETATM   20  C17 D4Z A 301      -0.500  15.479  43.426  1.00  0.00           C  
+HETATM   21  C18 D4Z A 301      -1.013  16.292  44.426  1.00  0.00           C  
+HETATM   22  N19 D4Z A 301      -0.764  17.600  44.219  1.00  0.00           N  
+HETATM   23  C23 D4Z A 301      -2.113  14.595  45.880  1.00  0.00           C  
+HETATM   24  C25 D4Z A 301      -3.543  15.243  47.734  1.00  0.00           C  
+HETATM   25  C26 D4Z A 301      -3.321  16.603  47.448  1.00  0.00           C  
+CONECT    1   13   14   15
+CONECT    1   14
+CONECT    2    8   17   18
+CONECT    2   17
+CONECT    3    4    7   18
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    5   19
+CONECT    7    3   19
+CONECT    8    2    9   20
+CONECT    8    9
+CONECT    9    8   15   22
+CONECT    9    8
+CONECT   10   12   21   23
+CONECT   10   23
+CONECT   11   23   24
+CONECT   11   24
+CONECT   12   10   25
+CONECT   12   25
+CONECT   13    1
+CONECT   14    1
+CONECT   14    1
+CONECT   15    1    9   16
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17    2   16
+CONECT   17    2
+CONECT   18    2    3
+CONECT   19    6    7
+CONECT   20    8   21
+CONECT   20   21
+CONECT   21   10   20   22
+CONECT   21   20
+CONECT   22    9   21
+CONECT   23   10   11
+CONECT   23   10
+CONECT   24   11   25
+CONECT   24   11
+CONECT   25   12   24
+CONECT   25   12
+ENDMDL
+END   

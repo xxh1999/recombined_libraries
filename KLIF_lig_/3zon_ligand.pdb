@@ -1,0 +1,58 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3zon_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  NAA IK1 A1871       0.612  21.723  39.732  1.00  0.00           N  
+HETATM    2  NAB IK1 A1871      -1.261  18.363  44.757  1.00  0.00           N  
+HETATM    3  OAC IK1 A1871       0.890  19.589  39.138  1.00  0.00           O  
+HETATM    4  OAD IK1 A1871      -1.042  20.097  43.353  1.00  0.00           O  
+HETATM    5  CAG IK1 A1871       1.392  12.756  42.494  1.00  0.00           C  
+HETATM    6  CAF IK1 A1871       2.556  13.393  40.487  1.00  0.00           C  
+HETATM    7  CAI IK1 A1871       0.986  14.069  42.674  1.00  0.00           C  
+HETATM    8  CAH IK1 A1871       2.143  14.702  40.660  1.00  0.00           C  
+HETATM    9  CAJ IK1 A1871       0.235  16.845  42.897  1.00  0.00           C  
+HETATM   10  NAK IK1 A1871       0.383  20.039  41.289  1.00  0.00           N  
+HETATM   11  SAL IK1 A1871       1.237  17.511  40.794  1.00  0.00           S  
+HETATM   12  CAM IK1 A1871       0.672  20.413  40.019  1.00  0.00           C  
+HETATM   13  CAN IK1 A1871      -0.761  18.933  43.654  1.00  0.00           C  
+HETATM   14  CAO IK1 A1871       2.186  12.415  41.404  1.00  0.00           C  
+HETATM   15  CAP IK1 A1871       1.348  15.065  41.756  1.00  0.00           C  
+HETATM   16  CAQ IK1 A1871       0.958  16.340  41.895  1.00  0.00           C  
+HETATM   17  CAR IK1 A1871      -0.036  18.177  42.779  1.00  0.00           C  
+HETATM   18  CAS IK1 A1871       0.458  18.746  41.652  1.00  0.00           C  
+CONECT    1   12
+CONECT    2   13
+CONECT    3   12
+CONECT    3   12
+CONECT    4   13
+CONECT    4   13
+CONECT    5    7   14
+CONECT    5   14
+CONECT    6    8   14
+CONECT    6    8
+CONECT    7    5   15
+CONECT    7   15
+CONECT    8    6   15
+CONECT    8    6
+CONECT    9   16   17
+CONECT    9   16
+CONECT   10   12   18
+CONECT   11   16   18
+CONECT   12    1    3   10
+CONECT   12    3
+CONECT   13    2    4   17
+CONECT   13    4
+CONECT   14    5    6
+CONECT   14    5
+CONECT   15    7    8   16
+CONECT   15    7
+CONECT   16    9   11   15
+CONECT   16    9
+CONECT   17    9   13   18
+CONECT   17   18
+CONECT   18   10   11   17
+CONECT   18   17
+ENDMDL
+END   

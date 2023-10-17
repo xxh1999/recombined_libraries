@@ -1,0 +1,77 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6SGD
+MODEL        1
+ATOM      1  N   CYS A  22      29.778  -7.198  12.447  1.00 33.88           N1+
+ATOM      2  CA  CYS A  22      29.090  -6.306  13.363  1.00 36.74           C  
+ATOM      3  C   CYS A  22      30.139  -5.866  14.393  1.00 30.59           C  
+ATOM      4  O   CYS A  22      30.672  -6.699  15.127  1.00 35.67           O  
+ATOM      5  CB  CYS A  22      28.013  -7.170  14.039  1.00 38.76           C  
+ATOM      6  SG  CYS A  22      26.987  -6.231  15.200  1.00 37.72           S  
+TER       7      CYS A  22
+HETATM    8  C15 LD5 A 304      26.009  -8.995  22.060  1.00 32.89           C  
+HETATM    9  C18 LD5 A 304      24.687  -6.304  17.525  1.00 26.43           C  
+HETATM   10  C19 LD5 A 304      25.018  -7.470  16.713  1.00 32.78           C  
+HETATM   11  C27 LD5 A 304      23.949  -5.196  17.053  1.00 27.23           C  
+HETATM   12  N28 LD5 A 304      23.459  -4.858  15.800  1.00 25.96           N  
+HETATM   13  C20 LD5 A 304      25.928  -7.537  15.733  1.00 34.95           C  
+HETATM   14  C01 LD5 A 304      22.851  -3.704  16.058  1.00 33.53           C  
+HETATM   15  C03 LD5 A 304      23.597  -4.228  18.037  1.00 27.00           C  
+HETATM   16  C05 LD5 A 304      24.554  -5.401  19.672  1.00 24.39           C  
+HETATM   17  C07 LD5 A 304      25.408  -6.636  21.746  1.00 23.64           C  
+HETATM   18  C08 LD5 A 304      26.041  -6.323  22.966  1.00 28.31           C  
+HETATM   19  C09 LD5 A 304      26.667  -7.330  23.724  1.00 31.66           C  
+HETATM   20  C10 LD5 A 304      26.671  -8.658  23.257  1.00 33.82           C  
+HETATM   21  C16 LD5 A 304      25.368  -7.987  21.320  1.00 33.43           C  
+HETATM   22  N02 LD5 A 304      22.890  -3.276  17.330  1.00 26.02           N  
+HETATM   23  N04 LD5 A 304      23.896  -4.276  19.369  1.00 21.90           N  
+HETATM   24  N06 LD5 A 304      24.812  -5.598  21.014  1.00 25.19           N  
+HETATM   25  N12 LD5 A 304      26.961 -11.395  23.591  1.00 50.19           N  
+HETATM   26  N17 LD5 A 304      24.958  -6.368  18.843  1.00 25.57           N  
+HETATM   27  O13 LD5 A 304      27.006  -9.798  25.619  1.00 46.93           O  
+HETATM   28  O14 LD5 A 304      28.943  -9.788  23.954  1.00 50.69           O  
+HETATM   29  S11 LD5 A 304      27.505  -9.897  24.240  1.00 42.08           S  
+CONECT    8   20   21
+CONECT    8   21
+CONECT    9   10   11   26
+CONECT    9   26
+CONECT   10    9   13
+CONECT   10   13
+CONECT   11    9   12   15
+CONECT   11   15
+CONECT   12   11   14
+CONECT   12   14
+CONECT   13    6   10
+CONECT   13   10
+CONECT   14   12   22
+CONECT   14   12
+CONECT   15   11   22   23
+CONECT   15   11
+CONECT   16   23   24   26
+CONECT   16   23
+CONECT   17   18   21   24
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20    8   19   29
+CONECT   20   19
+CONECT   21    8   17
+CONECT   21    8
+CONECT   22   14   15
+CONECT   23   15   16
+CONECT   23   16
+CONECT   24   16   17
+CONECT   25   29
+CONECT   26    9   16
+CONECT   26    9
+CONECT   27   29
+CONECT   27   29
+CONECT   28   29
+CONECT   28   29
+CONECT   29   20   25   27   28
+CONECT   29   27   28
+ENDMDL
+END   

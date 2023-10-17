@@ -1,0 +1,62 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3OVX
+MODEL        1
+ATOM      1  N   CYS A  25      24.237  41.157  21.701  1.00 14.93           N1+
+ATOM      2  CA  CYS A  25      24.430  40.924  20.262  1.00 15.76           C  
+ATOM      3  C   CYS A  25      23.766  39.642  19.714  1.00 15.20           C  
+ATOM      4  O   CYS A  25      23.277  39.630  18.586  1.00 15.50           O  
+ATOM      5  CB  CYS A  25      25.937  40.979  19.921  1.00 17.27           C  
+ATOM      6  SG  CYS A  25      26.846  39.548  20.616  1.00 22.22           S  
+TER       7      CYS A  25
+HETATM    8  C1  O64 A 218      28.878  33.745  20.407  0.50 22.05           C  
+HETATM    9  C2  O64 A 218      30.033  33.321  21.100  0.50 22.42           C  
+HETATM   10  C3  O64 A 218      30.537  34.073  22.177  0.50 21.64           C  
+HETATM   11  C4  O64 A 218      29.894  35.260  22.568  0.50 22.06           C  
+HETATM   12  C5  O64 A 218      28.739  35.703  21.889  0.50 21.28           C  
+HETATM   13  C6  O64 A 218      28.237  34.947  20.798  0.50 21.46           C  
+HETATM   14 CL7  O64 A 218      26.853  35.494  19.913  0.50 23.68          Cl  
+HETATM   15  C8  O64 A 218      28.020  36.918  22.394  0.50 20.69           C  
+HETATM   16  N9  O64 A 218      28.746  38.044  22.493  0.50 18.89           N  
+HETATM   17  O10 O64 A 218      26.834  36.851  22.704  0.50 17.44           O  
+HETATM   18  C11 O64 A 218      28.275  39.298  23.096  0.50 19.75           C  
+HETATM   19  C12 O64 A 218      27.642  40.280  22.070  0.50 19.71           C  
+HETATM   20  O13 O64 A 218      27.617  41.496  22.246  0.50 15.92           O  
+HETATM   21  C14 O64 A 218      29.492  39.980  23.765  0.50 20.46           C  
+HETATM   22  C15 O64 A 218      29.976  39.234  25.016  0.50 20.66           C  
+HETATM   23  C16 O64 A 218      28.331  32.909  19.249  0.50 22.31           C  
+HETATM   24  F17 O64 A 218      28.434  33.595  18.110  0.50 23.10           F  
+HETATM   25  F18 O64 A 218      27.051  32.596  19.457  0.50 22.19           F  
+HETATM   26  F19 O64 A 218      29.000  31.766  19.107  0.50 24.46           F  
+CONECT    8    9   13   23
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   13   15
+CONECT   12   13
+CONECT   13    8   12   14
+CONECT   13   12
+CONECT   14   13
+CONECT   15   12   16   17
+CONECT   15   17
+CONECT   16   15   18
+CONECT   17   15
+CONECT   17   15
+CONECT   18   16   19   21
+CONECT   19    6   18   20
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   18   22
+CONECT   22   21
+CONECT   23    8   24   25   26
+CONECT   24   23
+CONECT   25   23
+CONECT   26   23
+ENDMDL
+END   

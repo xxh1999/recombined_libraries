@@ -1,0 +1,14 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1KHP
+MODEL        1
+ATOM      1  N   GLY I 253      -0.055   9.065   4.779  1.00 42.19           N1+
+ATOM      2  CA  GLY I 253       1.139   9.892   4.940  1.00 38.41           C  
+ATOM      3  C   GLY I 253       1.895   9.586   6.241  1.00 34.36           C  
+ATOM      4  O   GLY I 253       3.090   9.836   6.358  1.00 32.50           O  
+TER       5      GLY I 253
+HETATM    6  C1  0HQ I 254       1.147   8.984   7.416  1.00 31.47           C  
+CONECT    6    3
+ENDMDL
+END   

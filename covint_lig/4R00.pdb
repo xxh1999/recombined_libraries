@@ -1,0 +1,49 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4R00
+MODEL        1
+ATOM      1  N   THR H   1      64.735-140.320  44.919  1.00 42.41           N1+
+ATOM      2  CA  THR H   1      65.209-139.044  45.531  1.00 41.63           C  
+ATOM      3  C   THR H   1      65.407-139.376  46.995  1.00 39.59           C  
+ATOM      4  O   THR H   1      64.521-139.967  47.608  1.00 38.99           O  
+ATOM      5  CB  THR H   1      64.158-137.939  45.369  1.00 42.09           C  
+ATOM      6  OG1 THR H   1      64.173-137.515  44.005  1.00 44.64           O  
+ATOM      7  CG2 THR H   1      64.446-136.722  46.254  1.00 42.02           C  
+TER       8      THR H   1
+HETATM    9  C1  SLA H 301      62.939-138.843  41.695  1.00 40.66           C  
+HETATM   10  C2  SLA H 301      61.974-138.899  40.508  1.00 39.55           C  
+HETATM   11  C3  SLA H 301      61.065-137.858  40.756  1.00 40.23           C  
+HETATM   12  N4  SLA H 301      61.531-136.955  41.617  1.00 41.01           N  
+HETATM   13  C5  SLA H 301      62.869-137.367  42.082  1.00 41.03           C  
+HETATM   14  C6  SLA H 301      62.944-137.248  43.476  1.00 43.62           C  
+HETATM   15  O7  SLA H 301      61.960-136.911  44.137  1.00 45.75           O  
+HETATM   16  O8  SLA H 301      62.484-139.673  42.789  1.00 41.71           O  
+HETATM   17  C9  SLA H 301      61.282-140.269  40.366  1.00 37.75           C  
+HETATM   18  O10 SLA H 301      59.972-137.743  40.203  1.00 40.89           O  
+HETATM   19  C11 SLA H 301      63.983-136.550  41.371  1.00 41.04           C  
+HETATM   20  O12 SLA H 301      64.084-136.973  40.006  1.00 41.40           O  
+HETATM   21  C13 SLA H 301      63.736-135.027  41.315  1.00 40.88           C  
+HETATM   22  C14 SLA H 301      63.456-134.371  42.681  1.00 41.26           C  
+HETATM   23  C15 SLA H 301      64.990-134.384  40.707  1.00 41.57           C  
+CONECT    9   10   13   16
+CONECT   10    9   11   17
+CONECT   11   10   12   18
+CONECT   11   18
+CONECT   12   11   13
+CONECT   13    9   12   14   19
+CONECT   14    6   13   15
+CONECT   14   15
+CONECT   15   14
+CONECT   15   14
+CONECT   16    9
+CONECT   17   10
+CONECT   18   11
+CONECT   18   11
+CONECT   19   13   20   21
+CONECT   20   19
+CONECT   21   19   22   23
+CONECT   22   21
+CONECT   23   21
+ENDMDL
+END   

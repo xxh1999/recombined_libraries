@@ -1,0 +1,85 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7zy6_ligand
+MODEL        1
+HETATM    1  C1  KCI A1001       4.516  24.902  36.242  1.00  0.00           C  
+HETATM    2  C2  KCI A1001       3.649  23.639  36.307  1.00  0.00           C  
+HETATM    3  C4  KCI A1001       2.735  22.091  38.083  1.00  0.00           C  
+HETATM    4  C5  KCI A1001       2.254  21.964  39.391  1.00  0.00           C  
+HETATM    5  C6  KCI A1001       1.566  20.791  39.733  1.00  0.00           C  
+HETATM    6  C7  KCI A1001       1.390  19.806  38.745  1.00  0.00           C  
+HETATM    7  C11 KCI A1001       0.378  21.547  41.861  1.00  0.00           C  
+HETATM    8  C15 KCI A1001       0.548  17.394  43.640  1.00  0.00           C  
+HETATM    9  C16 KCI A1001       1.188  17.143  42.406  1.00  0.00           C  
+HETATM   10  C17 KCI A1001       1.390  18.155  41.523  1.00  0.00           C  
+HETATM   11  C19 KCI A1001       2.374  23.838  35.515  1.00  0.00           C  
+HETATM   12  C21 KCI A1001       1.304  23.542  33.413  1.00  0.00           C  
+HETATM   13  C24 KCI A1001       1.226  24.473  36.008  1.00  0.00           C  
+HETATM   14  C27 KCI A1001      -2.435  24.176  31.193  1.00  0.00           C  
+HETATM   15  N3  KCI A1001       3.428  23.254  37.709  1.00  0.00           N  
+HETATM   16  N8  KCI A1001       1.860  19.968  37.527  1.00  0.00           N  
+HETATM   17  C9  KCI A1001       2.522  21.050  37.180  1.00  0.00           C  
+HETATM   18  C10 KCI A1001       1.001  20.604  41.090  1.00  0.00           C  
+HETATM   19  N12 KCI A1001       0.012  20.988  43.018  1.00  0.00           N  
+HETATM   20  C13 KCI A1001       0.324  19.700  42.998  1.00  0.00           C  
+HETATM   21  C14 KCI A1001       0.125  18.665  43.936  1.00  0.00           C  
+HETATM   22  N18 KCI A1001       0.947  19.424  41.800  1.00  0.00           N  
+HETATM   23  C20 KCI A1001       2.408  23.375  34.212  1.00  0.00           C  
+HETATM   24  C22 KCI A1001       0.183  24.181  33.945  1.00  0.00           C  
+HETATM   25  N23 KCI A1001       0.165  24.639  35.215  1.00  0.00           N  
+HETATM   26  N25 KCI A1001      -0.894  24.364  33.078  1.00  0.00           N  
+HETATM   27  C26 KCI A1001      -1.120  23.635  31.809  1.00  0.00           C  
+HETATM   28  C28 KCI A1001      -2.521  25.584  31.833  1.00  0.00           C  
+HETATM   29  C29 KCI A1001      -1.961  25.351  33.252  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1   11   15
+CONECT    3    4   15   17
+CONECT    3   17
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4    6   18
+CONECT    5    4
+CONECT    6    5   16
+CONECT    6   16
+CONECT    7   18   19
+CONECT    7   18
+CONECT    8    9   21
+CONECT    8   21
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   22
+CONECT   10    9
+CONECT   11    2   13   23
+CONECT   11   23
+CONECT   12   23   24
+CONECT   12   24
+CONECT   13   11   25
+CONECT   13   25
+CONECT   14   27   28
+CONECT   15    2    3
+CONECT   16    6   17
+CONECT   16    6
+CONECT   17    3   16
+CONECT   17    3
+CONECT   18    5    7   22
+CONECT   18    7
+CONECT   19    7   20
+CONECT   19   20
+CONECT   20   19   21   22
+CONECT   20   19
+CONECT   21    8   20
+CONECT   21    8
+CONECT   22   10   18   20
+CONECT   23   11   12
+CONECT   23   11
+CONECT   24   12   25   26
+CONECT   24   12
+CONECT   25   13   24
+CONECT   25   13
+CONECT   26   24   27   29
+CONECT   27   14   26
+CONECT   28   14   29
+CONECT   29   26   28
+ENDMDL
+END   

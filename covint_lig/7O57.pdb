@@ -1,0 +1,57 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7O57
+MODEL        1
+ATOM      1  N   LYS A 122     -15.594 -24.774  -8.111  1.00  8.66           N1+
+ATOM      2  CA  LYS A 122     -16.567 -23.740  -8.462  1.00  8.14           C  
+ATOM      3  C   LYS A 122     -15.938 -22.354  -8.325  1.00  9.33           C  
+ATOM      4  O   LYS A 122     -16.126 -21.503  -9.197  1.00  9.15           O  
+ATOM      5  CB  LYS A 122     -17.794 -23.862  -7.541  1.00 11.01           C  
+ATOM      6  CG  LYS A 122     -18.841 -22.762  -7.749  1.00  9.49           C  
+ATOM      7  CD  LYS A 122     -19.920 -22.878  -6.683  1.00 11.91           C  
+ATOM      8  CE  LYS A 122     -20.850 -21.683  -6.690  1.00 12.90           C  
+ATOM      9  NZ  LYS A 122     -21.970 -21.920  -5.742  1.00 20.57           N1+
+TER      10      LYS A 122
+HETATM   11  C03 V2E A 301     -24.310 -21.128  -1.182  0.45 21.90           C  
+HETATM   12  C04 V2E A 301     -23.188 -20.331  -1.222  0.45 22.04           C  
+HETATM   13  C06 V2E A 301     -21.403 -19.157   0.150  0.45 23.77           C  
+HETATM   14  C07 V2E A 301     -21.203 -18.332   1.402  0.45 29.43           C  
+HETATM   15  C09 V2E A 301     -23.165 -17.166   0.940  0.45 29.15           C  
+HETATM   16  C10 V2E A 301     -23.378 -18.000  -0.324  0.45 28.24           C  
+HETATM   17  C11 V2E A 301     -22.304 -20.416  -2.309  0.45 19.47           C  
+HETATM   18  C12 V2E A 301     -22.560 -21.310  -3.349  0.45 18.38           C  
+HETATM   19  C13 V2E A 301     -21.541 -21.346  -4.507  0.45 19.03           C  
+HETATM   20  C14 V2E A 301     -23.691 -22.142  -3.320  0.45 19.17           C  
+HETATM   21  C15 V2E A 301     -24.565 -22.054  -2.249  0.45 18.79           C  
+HETATM   22  N02 V2E A 301     -25.249 -21.073  -0.089  0.45 26.78           N1+
+HETATM   23  N05 V2E A 301     -22.841 -19.341  -0.172  0.45 25.38           N  
+HETATM   24  O01 V2E A 301     -26.237 -22.040  -0.003  0.45 26.71           O1-
+HETATM   25  O08 V2E A 301     -21.824 -17.086   1.297  0.45 32.76           O  
+HETATM   26  O16 V2E A 301     -25.195 -20.203   0.724  0.45 35.86           O  
+CONECT   11   12   21   22
+CONECT   11   21
+CONECT   12   11   17   23
+CONECT   12   17
+CONECT   13   14   23
+CONECT   14   13   25
+CONECT   15   16   25
+CONECT   16   15   23
+CONECT   17   12   18
+CONECT   17   12
+CONECT   18   17   19   20
+CONECT   18   20
+CONECT   19    9   18
+CONECT   20   18   21
+CONECT   20   18
+CONECT   21   11   20
+CONECT   21   11
+CONECT   22   11   24   26
+CONECT   22   26
+CONECT   23   12   13   16
+CONECT   24   22
+CONECT   25   14   15
+CONECT   26   22
+CONECT   26   22
+ENDMDL
+END   

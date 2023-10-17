@@ -1,0 +1,68 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4XTD
+MODEL        1
+ATOM      1  N   CYS A 334      -0.526 137.899  38.177  1.00 57.50           N1+
+ATOM      2  CA  CYS A 334      -1.562 138.334  37.248  0.79 63.39           C  
+ATOM      3  C   CYS A 334      -2.524 137.170  36.968  1.00 64.33           C  
+ATOM      4  O   CYS A 334      -2.110 136.013  36.878  1.00 61.63           O  
+ATOM      5  CB  CYS A 334      -0.871 138.734  35.930  0.79 65.36           C  
+ATOM      6  SG  CYS A 334      -2.048 139.573  34.821  0.79 72.27           S  
+TER       7      CYS A 334
+HETATM    8  P   IMP A 601       6.374 138.662  37.029  1.00 41.05           P  
+HETATM    9  O1P IMP A 601       6.120 137.261  36.256  1.00 43.15           O  
+HETATM   10  O2P IMP A 601       5.470 138.475  38.358  1.00 44.78           O  
+HETATM   11  O3P IMP A 601       7.800 139.020  37.251  1.00 43.50           O  
+HETATM   12  O5' IMP A 601       5.505 139.712  36.150  1.00 41.43           O  
+HETATM   13  C5' IMP A 601       5.589 141.109  36.367  1.00 39.54           C  
+HETATM   14  C4' IMP A 601       4.702 141.790  35.319  1.00 42.61           C  
+HETATM   15  O4' IMP A 601       3.345 141.486  35.608  1.00 43.71           O  
+HETATM   16  C3' IMP A 601       4.673 143.321  35.350  1.00 41.21           C  
+HETATM   17  O3' IMP A 601       5.788 143.971  34.786  1.00 32.78           O  
+HETATM   18  C2' IMP A 601       3.383 143.639  34.608  1.00 41.94           C  
+HETATM   19  O2' IMP A 601       3.517 143.658  33.201  1.00 40.80           O  
+HETATM   20  C1' IMP A 601       2.529 142.439  35.001  1.00 47.12           C  
+HETATM   21  N9  IMP A 601       1.464 142.816  35.968  0.79 53.73           N  
+HETATM   22  C8  IMP A 601       1.585 143.533  37.206  0.79 54.28           C  
+HETATM   23  N7  IMP A 601       0.474 143.567  37.865  0.79 53.81           N  
+HETATM   24  C5  IMP A 601      -0.436 142.835  37.116  0.79 56.85           C  
+HETATM   25  C6  IMP A 601      -1.730 142.478  37.453  0.79 52.63           C  
+HETATM   26  O6  IMP A 601      -2.470 142.711  38.428  0.79 53.24           O1-
+HETATM   27  N1  IMP A 601      -2.350 141.645  36.515  0.79 54.35           N  
+HETATM   28  C2  IMP A 601      -1.808 141.333  35.179  0.79 50.04           C  
+HETATM   29  N3  IMP A 601      -0.405 141.677  34.959  0.79 52.27           N  
+HETATM   30  C4  IMP A 601       0.130 142.365  35.903  0.79 54.37           C  
+CONECT    8    9   10   11   12
+CONECT    8   11
+CONECT    9    8
+CONECT   10    8
+CONECT   11    8
+CONECT   11    8
+CONECT   12    8   13
+CONECT   13   12   14
+CONECT   14   13   15   16
+CONECT   15   14   20
+CONECT   16   14   17   18
+CONECT   17   16
+CONECT   18   16   19   20
+CONECT   19   18
+CONECT   20   15   18   21
+CONECT   21   20   22   30
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   23   25   30
+CONECT   24   25
+CONECT   25   24   26   27
+CONECT   25   24
+CONECT   26   25
+CONECT   27   25   28
+CONECT   28    6   27   29
+CONECT   29   28   30
+CONECT   29   30
+CONECT   30   21   24   29
+CONECT   30   29
+ENDMDL
+END   

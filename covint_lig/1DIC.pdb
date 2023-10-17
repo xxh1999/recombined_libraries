@@ -1,0 +1,44 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1DIC
+MODEL        1
+ATOM      1  N   SER A 195      12.887  17.052  15.423  1.00  7.16           N1+
+ATOM      2  CA  SER A 195      12.385  17.125  16.797  1.00  8.36           C  
+ATOM      3  C   SER A 195      10.851  17.119  16.832  1.00 10.30           C  
+ATOM      4  O   SER A 195      10.207  17.756  16.002  1.00  8.18           O  
+ATOM      5  CB  SER A 195      12.925  18.408  17.443  1.00 11.31           C  
+ATOM      6  OG  SER A 195      14.342  18.345  17.438  1.00 20.81           O  
+TER       7      SER A 195
+HETATM    8  C1  DIC A 244      19.302  18.564  17.482  1.00 21.87           C  
+HETATM    9  C2  DIC A 244      18.838  19.890  17.435  1.00 24.01           C  
+HETATM   10  C3  DIC A 244      17.465  20.195  17.562  1.00 26.83           C  
+HETATM   11  C4  DIC A 244      16.536  19.127  17.761  1.00 25.26           C  
+HETATM   12  C5  DIC A 244      17.020  17.796  17.813  1.00 23.14           C  
+HETATM   13  C6  DIC A 244      18.390  17.514  17.674  1.00 22.16           C  
+HETATM   14  C7  DIC A 244      15.073  19.344  17.964  1.00 25.46           C  
+HETATM   15  O7  DIC A 244      14.587  20.312  18.551  1.00 30.94           O  
+HETATM   16  C8  DIC A 244      17.126  21.630  17.437  1.00 31.19           C  
+HETATM   17  C9  DIC A 244      16.141  22.222  16.661  1.00 36.50           C  
+CONECT    8    9   13
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    9   11   16
+CONECT   10   11
+CONECT   11   10   12   14
+CONECT   11   10
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13    8   12
+CONECT   13   12
+CONECT   14    6   11   15
+CONECT   14   15
+CONECT   15   14
+CONECT   15   14
+CONECT   16   10   17
+CONECT   16   17
+CONECT   17   16
+CONECT   17   16
+ENDMDL
+END   

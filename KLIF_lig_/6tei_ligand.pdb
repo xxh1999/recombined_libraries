@@ -1,0 +1,67 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6tei_ligand
+MODEL        1
+HETATM    1  C02 N4N B 401       3.021  19.687  37.159  1.00  0.00           C  
+HETATM    2  C04 N4N B 401       2.452  19.532  38.593  1.00  0.00           C  
+HETATM    3  C05 N4N B 401       2.295  18.271  39.121  1.00  0.00           C  
+HETATM    4  C06 N4N B 401       1.786  18.042  40.385  1.00  0.00           C  
+HETATM    5  C07 N4N B 401       1.414  19.162  41.169  1.00  0.00           C  
+HETATM    6  C08 N4N B 401       1.571  20.448  40.652  1.00  0.00           C  
+HETATM    7  C09 N4N B 401       2.088  20.643  39.375  1.00  0.00           C  
+HETATM    8  C11 N4N B 401       1.138  16.215  42.014  1.00  0.00           C  
+HETATM    9  C13 N4N B 401       0.212  16.091  44.039  1.00  0.00           C  
+HETATM   10  C14 N4N B 401       0.323  14.788  43.878  1.00  0.00           C  
+HETATM   11  C16 N4N B 401      -0.362  16.719  45.297  1.00  0.00           C  
+HETATM   12  C17 N4N B 401      -1.020  15.915  46.223  1.00  0.00           C  
+HETATM   13  C18 N4N B 401      -1.504  16.561  47.353  1.00  0.00           C  
+HETATM   14  C19 N4N B 401      -1.316  17.939  47.522  1.00  0.00           C  
+HETATM   15  C20 N4N B 401      -0.631  18.630  46.522  1.00  0.00           C  
+HETATM   16  N10 N4N B 401       1.659  16.690  40.847  1.00  0.00           N  
+HETATM   17  N12 N4N B 401       0.656  16.972  43.038  1.00  0.00           N  
+HETATM   18  N21 N4N B 401      -0.144  18.049  45.399  1.00  0.00           N  
+HETATM   19  O01 N4N B 401       2.752  20.728  36.541  1.00  0.00           O  
+HETATM   20  O03 N4N B 401       3.691  18.721  36.741  1.00  0.00           O1-
+HETATM   21  S15 N4N B 401       1.034  14.481  42.353  1.00  0.00           S  
+CONECT    1    2   19   20
+CONECT    1   19
+CONECT    2    1    3    7
+CONECT    2    7
+CONECT    3    2    4
+CONECT    3    4
+CONECT    4    3    5   16
+CONECT    4    3
+CONECT    5    4    6
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    2    6
+CONECT    7    2
+CONECT    8   16   17   21
+CONECT    8   17
+CONECT    9   10   11   17
+CONECT    9   10
+CONECT   10    9   21
+CONECT   10    9
+CONECT   11    9   12   18
+CONECT   11   18
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   18
+CONECT   15   14
+CONECT   16    4    8
+CONECT   17    8    9
+CONECT   17    8
+CONECT   18   11   15
+CONECT   18   11
+CONECT   19    1
+CONECT   19    1
+CONECT   20    1
+CONECT   21    8   10
+ENDMDL
+END   

@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6y6h_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N1  OBW A 401       0.958  20.317  41.602  1.00  0.00           N  
+HETATM    2  C2  OBW A 401       0.926  18.998  41.819  1.00  0.00           C  
+HETATM    3  C4  OBW A 401      -0.351  19.302  43.813  1.00  0.00           C  
+HETATM    4  C5  OBW A 401      -1.014  18.542  44.829  1.00  0.00           C  
+HETATM    5  C6  OBW A 401      -0.915  17.204  44.697  1.00  0.00           C  
+HETATM    6  O1  OBW A 401       2.866  16.977  38.322  1.00  0.00           O  
+HETATM    7  C   OBW A 401       2.861  18.196  38.307  1.00  0.00           C  
+HETATM    8  O   OBW A 401       3.205  18.908  37.258  1.00  0.00           O1-
+HETATM    9  C1  OBW A 401       2.413  19.017  39.493  1.00  0.00           C  
+HETATM   10  S   OBW A 401       1.602  17.878  40.657  1.00  0.00           S  
+HETATM   11  C15 OBW A 401       0.333  21.056  42.524  1.00  0.00           C  
+HETATM   12  N   OBW A 401      -0.308  20.652  43.629  1.00  0.00           N  
+HETATM   13  S2  OBW A 401       0.037  16.751  43.307  1.00  0.00           S  
+HETATM   14  C3  OBW A 401       0.270  18.434  42.920  1.00  0.00           C  
+HETATM   15  C7  OBW A 401      -1.552  16.181  45.517  1.00  0.00           C  
+HETATM   16  S1  OBW A 401      -2.555  16.650  46.883  1.00  0.00           S  
+HETATM   17  C14 OBW A 401      -2.711  15.006  47.379  1.00  0.00           C  
+HETATM   18  C9  OBW A 401      -2.055  14.121  46.515  1.00  0.00           C  
+HETATM   19  C8  OBW A 401      -1.411  14.839  45.429  1.00  0.00           C  
+HETATM   20  C13 OBW A 401      -3.358  14.549  48.526  1.00  0.00           C  
+HETATM   21  C12 OBW A 401      -3.349  13.193  48.817  1.00  0.00           C  
+HETATM   22  C11 OBW A 401      -2.718  12.303  47.972  1.00  0.00           C  
+HETATM   23  C10 OBW A 401      -2.079  12.756  46.826  1.00  0.00           C  
+CONECT    1    2   11
+CONECT    1   11
+CONECT    2    1   10   14
+CONECT    2   14
+CONECT    3    4   12   14
+CONECT    3   12
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4   13   15
+CONECT    5    4
+CONECT    6    7
+CONECT    6    7
+CONECT    7    6    8    9
+CONECT    7    6
+CONECT    8    7
+CONECT    9    7   10
+CONECT   10    2    9
+CONECT   11    1   12
+CONECT   11    1
+CONECT   12    3   11
+CONECT   12    3
+CONECT   13    5   14
+CONECT   14    2    3   13
+CONECT   14    2
+CONECT   15    5   16   19
+CONECT   15   19
+CONECT   16   15   17
+CONECT   17   16   18   20
+CONECT   17   20
+CONECT   18   17   19   23
+CONECT   18   23
+CONECT   19   15   18
+CONECT   19   15
+CONECT   20   17   21
+CONECT   20   17
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   18   22
+CONECT   23   18
+ENDMDL
+END   

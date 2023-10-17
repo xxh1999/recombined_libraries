@@ -1,0 +1,84 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6o95_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  LSV B 501      -2.136  16.530  46.727  1.00  0.00           C  
+HETATM    2  C5  LSV B 501      -1.598  17.472  45.884  1.00  0.00           C  
+HETATM    3  C6  LSV B 501      -0.987  17.119  44.711  1.00  0.00           C  
+HETATM    4  C7  LSV B 501      -0.978  15.772  44.354  1.00  0.00           C  
+HETATM    5  C8  LSV B 501      -1.528  14.838  45.183  1.00  0.00           C  
+HETATM    6  C9  LSV B 501      -2.097  15.190  46.389  1.00  0.00           C  
+HETATM    7  C12 LSV B 501       0.711  14.498  43.227  1.00  0.00           C  
+HETATM    8  C13 LSV B 501       1.289  14.314  41.847  1.00  0.00           C  
+HETATM    9  C3  LSV B 501      -2.816  16.622  48.061  1.00  0.00           C  
+HETATM   10  C1  LSV B 501      -4.508  14.873  48.742  1.00  0.00           C  
+HETATM   11  C2  LSV B 501      -3.040  15.142  48.446  1.00  0.00           C  
+HETATM   12  O10 LSV B 501      -2.645  14.403  47.307  1.00  0.00           O  
+HETATM   13  N11 LSV B 501      -0.416  15.392  43.145  1.00  0.00           N  
+HETATM   14  O14 LSV B 501       0.311  13.929  40.912  1.00  0.00           O  
+HETATM   15  C15 LSV B 501      -0.826  14.758  40.838  1.00  0.00           C  
+HETATM   16  C16 LSV B 501      -1.429  14.917  42.221  1.00  0.00           C  
+HETATM   17  N17 LSV B 501      -0.466  18.026  43.805  1.00  0.00           N  
+HETATM   18  C18 LSV B 501      -0.327  19.334  43.925  1.00  0.00           C  
+HETATM   19  O19 LSV B 501      -0.666  19.870  44.904  1.00  0.00           O  
+HETATM   20  C20 LSV B 501       0.164  20.079  42.757  1.00  0.00           C  
+HETATM   21  C21 LSV B 501       0.100  21.446  42.556  1.00  0.00           C  
+HETATM   22  N22 LSV B 501       0.576  21.741  41.420  1.00  0.00           N  
+HETATM   23  N23 LSV B 501       0.975  20.627  40.788  1.00  0.00           N  
+HETATM   24  C24 LSV B 501       0.726  19.583  41.582  1.00  0.00           C  
+HETATM   25  N25 LSV B 501       1.039  18.357  41.187  1.00  0.00           N  
+HETATM   26  C26 LSV B 501       1.598  18.141  40.020  1.00  0.00           C  
+HETATM   27  C27 LSV B 501       1.865  19.204  39.175  1.00  0.00           C  
+HETATM   28  C28 LSV B 501       1.544  20.442  39.576  1.00  0.00           C  
+HETATM   29  C29 LSV B 501      -2.244  14.805  49.702  1.00  0.00           C  
+HETATM   30  O30 LSV B 501      -1.819  13.472  49.712  1.00  0.00           O  
+CONECT    1    2    6    9
+CONECT    1    6
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2    4   17
+CONECT    3    2
+CONECT    4    3    5   13
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    1    5   12
+CONECT    6    1
+CONECT    7    8   13
+CONECT    8    7   14
+CONECT    9    1   11
+CONECT   10   11
+CONECT   11    9   10   12   29
+CONECT   12    6   11
+CONECT   13    4    7   16
+CONECT   14    8   15
+CONECT   15   14   16
+CONECT   16   13   15
+CONECT   17    3   18
+CONECT   18   17   19   20
+CONECT   18   19
+CONECT   19   18
+CONECT   19   18
+CONECT   20   18   21   24
+CONECT   20   24
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   22   24   28
+CONECT   24   20   23   25
+CONECT   24   20
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   23   27
+CONECT   28   27
+CONECT   29   11   30
+CONECT   30   29
+ENDMDL
+END   

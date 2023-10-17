@@ -1,0 +1,83 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7uys_ligand
+MODEL        1
+HETATM    1  C1  OVC A1201      -3.252  12.704  46.458  1.00  0.00           C  
+HETATM    2  C3  OVC A1201      -1.393  14.102  45.990  1.00  0.00           C  
+HETATM    3  C4  OVC A1201      -1.822  15.357  46.391  1.00  0.00           C  
+HETATM    4  C5  OVC A1201      -1.371  16.483  45.732  1.00  0.00           C  
+HETATM    5  C6  OVC A1201      -0.491  16.398  44.651  1.00  0.00           C  
+HETATM    6  C7  OVC A1201      -0.047  15.127  44.261  1.00  0.00           C  
+HETATM    7  C8  OVC A1201      -0.503  13.989  44.924  1.00  0.00           C  
+HETATM    8  C12 OVC A1201       0.929  17.307  40.604  1.00  0.00           C  
+HETATM    9  N13 OVC A1201       1.083  18.578  40.229  1.00  0.00           N  
+HETATM   10  C15 OVC A1201       0.929  21.057  40.971  1.00  0.00           C  
+HETATM   11  C17 OVC A1201       0.286  20.533  43.090  1.00  0.00           C  
+HETATM   12  C19 OVC A1201       0.460  19.262  42.386  1.00  0.00           C  
+HETATM   13  C21 OVC A1201       2.070  15.192  39.906  1.00  0.00           C  
+HETATM   14  C23 OVC A1201       2.307  14.202  38.962  1.00  0.00           C  
+HETATM   15  C24 OVC A1201       1.685  14.255  37.723  1.00  0.00           C  
+HETATM   16  O2  OVC A1201      -1.859  13.004  46.641  1.00  0.00           O  
+HETATM   17  N9  OVC A1201      -0.092  17.629  44.085  1.00  0.00           N  
+HETATM   18  C10 OVC A1201       0.298  17.901  42.773  1.00  0.00           C  
+HETATM   19  N11 OVC A1201       0.550  16.973  41.843  1.00  0.00           N  
+HETATM   20  C14 OVC A1201       0.860  19.559  41.075  1.00  0.00           C  
+HETATM   21  N16 OVC A1201       0.546  21.577  42.286  1.00  0.00           N  
+HETATM   22  O18 OVC A1201      -0.055  20.620  44.252  1.00  0.00           O  
+HETATM   23  C20 OVC A1201       1.191  16.250  39.606  1.00  0.00           C  
+HETATM   24  F22 OVC A1201       2.683  15.126  41.107  1.00  0.00           F  
+HETATM   25  C25 OVC A1201       0.819  15.297  37.422  1.00  0.00           C  
+HETATM   26  C26 OVC A1201       0.560  16.296  38.347  1.00  0.00           C  
+HETATM   27  F27 OVC A1201      -0.290  17.299  38.015  1.00  0.00           F  
+CONECT    1   16
+CONECT    2    3    7   16
+CONECT    2    7
+CONECT    3    2    4
+CONECT    3    4
+CONECT    4    3    5
+CONECT    4    3
+CONECT    5    4    6   17
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    2    6
+CONECT    7    2
+CONECT    8    9   19   23
+CONECT    8   19
+CONECT    9    8   20
+CONECT    9   20
+CONECT   10   20   21
+CONECT   10   21
+CONECT   11   12   21   22
+CONECT   11   22
+CONECT   12   11   18   20
+CONECT   12   18
+CONECT   13   14   23   24
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   25
+CONECT   15   25
+CONECT   16    1    2
+CONECT   17    5   18
+CONECT   18   12   17   19
+CONECT   18   12
+CONECT   19    8   18
+CONECT   19    8
+CONECT   20    9   10   12
+CONECT   20    9
+CONECT   21   10   11
+CONECT   21   10
+CONECT   22   11
+CONECT   22   11
+CONECT   23    8   13   26
+CONECT   23   26
+CONECT   24   13
+CONECT   25   15   26
+CONECT   25   15
+CONECT   26   23   25   27
+CONECT   26   23
+CONECT   27   26
+ENDMDL
+END   

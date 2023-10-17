@@ -1,0 +1,42 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2NTG
+MODEL        1
+ATOM      1  N   CYS A 115      37.959  12.332  33.188  1.00 19.67           N1+
+ATOM      2  CA  CYS A 115      39.012  11.437  33.697  1.00 17.83           C  
+ATOM      3  C   CYS A 115      38.602  10.588  34.909  1.00 14.66           C  
+ATOM      4  O   CYS A 115      38.791   9.373  34.894  1.00 15.67           O  
+ATOM      5  CB  CYS A 115      40.301  12.242  33.981  1.00 24.21           C  
+ATOM      6  SG  CYS A 115      41.826  11.285  34.281  1.00 27.83           S  
+TER       7      CYS A 115
+HETATM    8  SD  R7A A 315      41.764  10.644  36.226  1.00 35.27           S  
+HETATM    9  CE  R7A A 315      42.431  12.014  37.212  1.00 99.05           C  
+HETATM   10  C3  R7A A 315      43.613  11.588  38.065  1.00104.09           C  
+HETATM   11  C2  R7A A 315      45.043  11.978  37.750  1.00108.85           C  
+HETATM   12  C9  R7A A 315      45.510  11.279  36.452  1.00116.86           C  
+HETATM   13  C8  R7A A 315      45.230  13.503  37.658  1.00109.28           C  
+HETATM   14  C4  R7A A 315      43.591  10.835  39.160  1.00101.81           C  
+HETATM   15 BR4  R7A A 315      41.963  10.069  39.997  1.00 83.88          Br  
+HETATM   16  C5  R7A A 315      44.942  10.568  39.759  1.00103.93           C  
+HETATM   17  C6  R7A A 315      45.014  10.965  41.242  1.00109.67           C  
+HETATM   18  C7  R7A A 315      45.325   9.086  39.543  1.00101.15           C  
+HETATM   19  N1  R7A A 315      45.743  11.532  38.976  1.00109.30           N  
+HETATM   20  O1  R7A A 315      47.075  11.024  38.690  1.00116.76           O  
+CONECT    8    6    9
+CONECT    9    8   10
+CONECT   10    9   11   14
+CONECT   10   14
+CONECT   11   10   12   13   19
+CONECT   12   11
+CONECT   13   11
+CONECT   14   10   15   16
+CONECT   14   10
+CONECT   15   14
+CONECT   16   14   17   18   19
+CONECT   17   16
+CONECT   18   16
+CONECT   19   11   16   20
+CONECT   20   19
+ENDMDL
+END   

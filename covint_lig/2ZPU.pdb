@@ -1,0 +1,69 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2ZPU
+MODEL        1
+ATOM      1  N   LYS A  57      11.870   2.486  19.660  1.00 10.89           N1+
+ATOM      2  CA  LYS A  57      10.584   2.449  18.979  1.00 10.90           C  
+ATOM      3  C   LYS A  57       9.493   3.314  19.606  1.00 11.66           C  
+ATOM      4  O   LYS A  57       8.557   3.689  18.904  1.00 11.74           O  
+ATOM      5  CB  LYS A  57      10.113   0.991  18.961  1.00 10.88           C  
+ATOM      6  CG  LYS A  57      10.889   0.135  17.964  1.00 13.06           C  
+ATOM      7  CD  LYS A  57      10.437   0.362  16.517  1.00 14.54           C  
+ATOM      8  CE  LYS A  57      11.021  -0.717  15.609  1.00 19.45           C  
+ATOM      9  NZ  LYS A  57      10.141  -1.038  14.502  1.00 21.60           N1+
+TER      10      LYS A  57
+HETATM   11  N   PDD A 350      12.099  -3.652  15.116  1.00 16.55           N  
+HETATM   12  N1  PDD A 350      17.046  -3.054  16.672  1.00 12.87           N  
+HETATM   13  C2  PDD A 350      15.916  -3.399  17.314  1.00 13.39           C  
+HETATM   14  C2A PDD A 350      16.073  -3.717  18.783  1.00 12.91           C  
+HETATM   15  C3  PDD A 350      14.654  -3.440  16.685  1.00 14.31           C  
+HETATM   16  O3A PDD A 350      13.549  -3.749  17.422  1.00 12.74           O  
+HETATM   17  C4  PDD A 350      14.578  -3.104  15.307  1.00 14.46           C  
+HETATM   18  C4A PDD A 350      13.281  -3.056  14.516  1.00 14.83           C  
+HETATM   19  C5  PDD A 350      15.766  -2.700  14.652  1.00 13.69           C  
+HETATM   20  C5A PDD A 350      15.797  -2.229  13.209  1.00 18.17           C  
+HETATM   21  OP4 PDD A 350      15.035  -1.049  13.037  1.00 21.63           O  
+HETATM   22  P   PDD A 350      14.242  -0.885  11.618  1.00 31.18           P  
+HETATM   23  OP1 PDD A 350      13.292  -2.051  11.464  1.00 22.45           O  
+HETATM   24  OP2 PDD A 350      13.516   0.437  11.723  1.00 22.25           O1-
+HETATM   25  OP3 PDD A 350      15.310  -0.878  10.549  1.00 22.25           O1-
+HETATM   26  C6  PDD A 350      16.961  -2.700  15.380  1.00 14.42           C  
+HETATM   27  CA  PDD A 350      10.863  -3.502  14.324  1.00 16.28           C  
+HETATM   28  CB  PDD A 350      10.662  -2.103  13.654  1.00 18.76           C  
+HETATM   29  C   PDD A 350       9.631  -3.948  15.140  1.00 14.09           C  
+HETATM   30  O   PDD A 350       9.769  -4.213  16.356  1.00 14.05           O  
+HETATM   31  OXT PDD A 350       8.544  -4.010  14.530  1.00 13.26           O1-
+CONECT   11   18   27
+CONECT   12   13   26
+CONECT   12   13
+CONECT   13   12   14   15
+CONECT   13   12
+CONECT   14   13
+CONECT   15   13   16   17
+CONECT   15   17
+CONECT   16   15
+CONECT   17   15   18   19
+CONECT   17   15
+CONECT   18   11   17
+CONECT   19   17   20   26
+CONECT   19   26
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22   21   23   24   25
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22
+CONECT   25   22
+CONECT   26   12   19
+CONECT   26   19
+CONECT   27   11   28   29
+CONECT   28    9   27
+CONECT   29   27   30   31
+CONECT   29   30
+CONECT   30   29
+CONECT   30   29
+CONECT   31   29
+ENDMDL
+END   

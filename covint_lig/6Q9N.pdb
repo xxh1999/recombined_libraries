@@ -1,0 +1,104 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6Q9N
+MODEL        1
+ATOM      1  N   SER A 403     -24.163 -25.528   9.898  1.00 56.99           N1+
+ATOM      2  CA  SER A 403     -23.166 -25.165   8.905  1.00 58.75           C  
+ATOM      3  C   SER A 403     -21.774 -24.797   9.396  1.00 59.22           C  
+ATOM      4  O   SER A 403     -20.887 -24.522   8.589  1.00 59.73           O  
+ATOM      5  CB  SER A 403     -23.503 -23.877   8.202  1.00 60.86           C  
+ATOM      6  OG  SER A 403     -24.597 -23.597   7.220  1.00 63.53           O  
+TER       7      SER A 403
+HETATM    8  S   JPP A 702     -27.863 -22.676   4.144  1.00 75.53           S  
+HETATM    9  O01 JPP A 702     -26.084 -24.568   8.393  1.00 69.92           O  
+HETATM   10  O02 JPP A 702     -26.674 -18.679   7.109  1.00 79.27           O1-
+HETATM   11  O03 JPP A 702     -25.900 -20.631   7.284  1.00 81.48           O  
+HETATM   12  O06 JPP A 702     -28.883 -25.662   4.904  1.00 71.65           O  
+HETATM   13  O04 JPP A 702     -32.678 -26.289   8.107  1.00 77.24           O  
+HETATM   14  O05 JPP A 702     -31.622 -28.510   4.530  1.00 81.32           O  
+HETATM   15  O   JPP A 702     -33.175 -30.811   3.968  1.00 86.19           O  
+HETATM   16  N02 JPP A 702     -28.081 -21.890   6.578  1.00 79.64           N  
+HETATM   17  N03 JPP A 702     -28.341 -24.565   6.962  1.00 71.92           N  
+HETATM   18  N04 JPP A 702     -31.208 -26.654   6.278  1.00 77.54           N  
+HETATM   19  N01 JPP A 702     -33.110 -28.085   6.481  1.00 81.61           N  
+HETATM   20  N   JPP A 702     -34.835 -29.773   5.538  1.00 85.10           N  
+HETATM   21  C17 JPP A 702     -27.236 -22.854   5.813  1.00 74.48           C  
+HETATM   22  C19 JPP A 702     -27.375 -20.984   4.617  1.00 77.39           C  
+HETATM   23  C18 JPP A 702     -27.839 -20.538   6.012  1.00 76.99           C  
+HETATM   24  C20 JPP A 702     -27.097 -24.288   6.291  1.00 71.64           C  
+HETATM   25  C01 JPP A 702     -25.972 -24.175   7.274  1.00 68.72           C  
+HETATM   26  C02 JPP A 702     -27.968 -19.824   3.807  1.00 74.35           C  
+HETATM   27  C03 JPP A 702     -25.857 -21.054   4.383  1.00 78.98           C  
+HETATM   28  C04 JPP A 702     -26.734 -19.877   6.860  1.00 79.50           C  
+HETATM   29  C21 JPP A 702     -29.227 -25.266   6.228  1.00 72.86           C  
+HETATM   30  CA  JPP A 702     -30.560 -25.511   6.885  1.00 74.59           C  
+HETATM   31  C05 JPP A 702     -31.325 -24.251   6.444  1.00 72.21           C  
+HETATM   32  C06 JPP A 702     -32.348 -27.036   6.934  1.00 79.97           C  
+HETATM   33  C07 JPP A 702     -31.526 -24.042   5.064  1.00 71.56           C  
+HETATM   34  C08 JPP A 702     -31.799 -23.313   7.378  1.00 74.07           C  
+HETATM   35  C09 JPP A 702     -34.240 -28.388   7.215  1.00 82.69           C  
+HETATM   36  C10 JPP A 702     -35.287 -28.898   6.448  1.00 84.93           C  
+HETATM   37  C11 JPP A 702     -32.773 -28.807   5.331  1.00 82.21           C  
+HETATM   38  C12 JPP A 702     -32.210 -22.905   4.617  1.00 71.89           C  
+HETATM   39  C13 JPP A 702     -32.486 -22.169   6.925  1.00 73.38           C  
+HETATM   40  C14 JPP A 702     -33.632 -29.854   4.938  1.00 84.87           C  
+HETATM   41  C15 JPP A 702     -35.811 -30.827   5.175  1.00 83.77           C  
+HETATM   42  C16 JPP A 702     -32.691 -21.966   5.550  1.00 71.40           C  
+HETATM   43  C   JPP A 702     -37.275 -30.310   5.231  1.00 84.47           C  
+CONECT    8   21   22
+CONECT    9   25
+CONECT    9   25
+CONECT   10   28
+CONECT   11   28
+CONECT   11   28
+CONECT   12   29
+CONECT   12   29
+CONECT   13   32
+CONECT   13   32
+CONECT   14   37
+CONECT   14   37
+CONECT   15   40
+CONECT   15   40
+CONECT   16   21   23
+CONECT   17   24   29
+CONECT   18   30   32
+CONECT   19   32   35   37
+CONECT   20   36   40   41
+CONECT   21    8   16   24
+CONECT   22    8   23   26   27
+CONECT   23   16   22   28
+CONECT   24   17   21   25
+CONECT   25    6    9   24
+CONECT   25    9
+CONECT   26   22
+CONECT   27   22
+CONECT   28   10   11   23
+CONECT   28   11
+CONECT   29   12   17   30
+CONECT   29   12
+CONECT   30   18   29   31
+CONECT   31   30   33   34
+CONECT   31   34
+CONECT   32   13   18   19
+CONECT   32   13
+CONECT   33   31   38
+CONECT   33   38
+CONECT   34   31   39
+CONECT   34   31
+CONECT   35   19   36
+CONECT   36   20   35
+CONECT   37   14   19   40
+CONECT   37   14
+CONECT   38   33   42
+CONECT   38   33
+CONECT   39   34   42
+CONECT   39   42
+CONECT   40   15   20   37
+CONECT   40   15
+CONECT   41   20   43
+CONECT   42   38   39
+CONECT   42   39
+CONECT   43   41
+ENDMDL
+END   

@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4d0w_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C16 VVQ A2132      -0.582  17.929  44.060  1.00  0.00           C  
+HETATM    2  C17 VVQ A2132      -0.923  19.122  44.703  1.00  0.00           C  
+HETATM    3  N18 VVQ A2132      -0.627  20.311  44.132  1.00  0.00           N  
+HETATM    4  C19 VVQ A2132       0.086  20.354  42.920  1.00  0.00           C  
+HETATM    5  N21 VVQ A2132       0.368  21.558  42.369  1.00  0.00           N  
+HETATM    6  N20 VVQ A2132       0.469  19.196  42.315  1.00  0.00           N  
+HETATM    7  C15 VVQ A2132       0.110  17.949  42.843  1.00  0.00           C  
+HETATM    8  C11 VVQ A2132       0.442  16.825  42.149  1.00  0.00           C  
+HETATM    9  N7  VVQ A2132       1.136  16.904  40.979  1.00  0.00           N  
+HETATM   10  C10 VVQ A2132       0.082  15.509  42.382  1.00  0.00           C  
+HETATM   11  C9  VVQ A2132       0.603  14.735  41.361  1.00  0.00           C  
+HETATM   12  C12 VVQ A2132       0.417  13.315  41.175  1.00  0.00           C  
+HETATM   13  O13 VVQ A2132      -0.381  12.599  41.798  1.00  0.00           O  
+HETATM   14  N14 VVQ A2132       0.982  12.696  40.194  1.00  0.00           N  
+HETATM   15  C8  VVQ A2132       1.256  15.612  40.517  1.00  0.00           C  
+HETATM   16  C1  VVQ A2132       1.889  15.418  39.313  1.00  0.00           C  
+HETATM   17  C6  VVQ A2132       3.261  15.110  39.210  1.00  0.00           C  
+HETATM   18  C5  VVQ A2132       3.916  14.996  37.985  1.00  0.00           C  
+HETATM   19 CL   VVQ A2132       5.671  14.629  37.899  1.00  0.00          Cl  
+HETATM   20  C4  VVQ A2132       3.332  15.181  36.744  1.00  0.00           C  
+HETATM   21  C3  VVQ A2132       1.977  15.508  36.835  1.00  0.00           C  
+HETATM   22  C2  VVQ A2132       1.278  15.627  38.058  1.00  0.00           C  
+HETATM   23  C22 VVQ A2132      -0.058  16.038  37.923  1.00  0.00           C  
+CONECT    1    2    7
+CONECT    1    7
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3    5    6
+CONECT    4    6
+CONECT    5    4
+CONECT    6    4    7
+CONECT    6    4
+CONECT    7    1    6    8
+CONECT    7    1
+CONECT    8    7    9   10
+CONECT    8   10
+CONECT    9    8   15
+CONECT   10    8   11
+CONECT   10    8
+CONECT   11   10   12   15
+CONECT   11   15
+CONECT   12   11   13   14
+CONECT   12   13
+CONECT   13   12
+CONECT   13   12
+CONECT   14   12
+CONECT   15    9   11   16
+CONECT   15   11
+CONECT   16   15   17   22
+CONECT   16   22
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   17   19   20
+CONECT   18   17
+CONECT   19   18
+CONECT   20   18   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   16   21   23
+CONECT   22   16
+CONECT   23   22
+ENDMDL
+END   

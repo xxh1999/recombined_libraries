@@ -1,0 +1,118 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5zto_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  Q9J A1101       0.925  18.479  43.339  1.00  0.00           C  
+HETATM    2  C5  Q9J A1101       1.005  19.842  43.128  1.00  0.00           C  
+HETATM    3  C6  Q9J A1101       0.133  20.724  43.852  1.00  0.00           C  
+HETATM    4  N1  Q9J A1101      -0.729  20.157  44.730  1.00  0.00           N  
+HETATM    5  N3  Q9J A1101       0.030  17.991  44.226  1.00  0.00           N  
+HETATM    6  C2  Q9J A1101      -0.775  18.827  44.901  1.00  0.00           C  
+HETATM    7  CAA Q9J A1101       5.445  13.121  39.976  1.00  0.00           C  
+HETATM    8  CAB Q9J A1101      -3.668  14.935  49.083  1.00  0.00           C  
+HETATM    9  CAC Q9J A1101      -1.659   8.975  48.542  1.00  0.00           C  
+HETATM   10  CAG Q9J A1101       5.910  20.930  38.840  1.00  0.00           C  
+HETATM   11  CAH Q9J A1101       4.808  20.267  38.306  1.00  0.00           C  
+HETATM   12  CAI Q9J A1101       6.016  21.111  40.213  1.00  0.00           C  
+HETATM   13  CAJ Q9J A1101       3.795  19.763  39.122  1.00  0.00           C  
+HETATM   14  CAK Q9J A1101      -1.097  15.849  45.709  1.00  0.00           C  
+HETATM   15  CAL Q9J A1101      -1.177  14.524  46.184  1.00  0.00           C  
+HETATM   16  CAN Q9J A1101      -2.657  16.571  47.418  1.00  0.00           C  
+HETATM   17  CAO Q9J A1101       5.708  12.325  41.289  1.00  0.00           C  
+HETATM   18  CAP Q9J A1101       2.268  13.853  43.769  1.00  0.00           C  
+HETATM   19  CAQ Q9J A1101       1.130  13.997  41.457  1.00  0.00           C  
+HETATM   20  CAR Q9J A1101       2.703  15.309  43.650  1.00  0.00           C  
+HETATM   21  CAS Q9J A1101       1.295  15.520  41.534  1.00  0.00           C  
+HETATM   22  CAT Q9J A1101      -2.227  10.484  47.022  1.00  0.00           C  
+HETATM   23  CAU Q9J A1101      -2.079  11.019  49.383  1.00  0.00           C  
+HETATM   24  CAV Q9J A1101      -1.577  11.849  46.762  1.00  0.00           C  
+HETATM   25  CAW Q9J A1101      -1.462  12.368  48.982  1.00  0.00           C  
+HETATM   26  CAX Q9J A1101       2.027  20.388  42.125  1.00  0.00           C  
+HETATM   27  CBC Q9J A1101       4.370  12.217  42.059  1.00  0.00           C  
+HETATM   28  CBD Q9J A1101       2.796  18.017  41.679  1.00  0.00           C  
+HETATM   29  CBE Q9J A1101      -2.747  15.249  47.889  1.00  0.00           C  
+HETATM   30  CBF Q9J A1101       5.002  20.606  41.025  1.00  0.00           C  
+HETATM   31  CBG Q9J A1101      -1.824  16.868  46.325  1.00  0.00           C  
+HETATM   32  CBJ Q9J A1101      -1.995  14.232  47.276  1.00  0.00           C  
+HETATM   33  CBK Q9J A1101       3.905  19.949  40.486  1.00  0.00           C  
+HETATM   34  CBM Q9J A1101       2.052  13.226  42.396  1.00  0.00           C  
+HETATM   35  CBN Q9J A1101       1.606  16.074  42.941  1.00  0.00           C  
+HETATM   36  NBA Q9J A1101      -1.761  18.280  45.857  1.00  0.00           N  
+HETATM   37  NBB Q9J A1101       3.365  13.246  41.734  1.00  0.00           N  
+HETATM   38  NBO Q9J A1101      -2.251  10.101  48.352  1.00  0.00           N1+
+HETATM   39  NBP Q9J A1101      -2.045  12.821  47.727  1.00  0.00           N  
+HETATM   40  NBQ Q9J A1101       2.889  19.450  41.426  1.00  0.00           N  
+HETATM   41  NBR Q9J A1101       1.806  17.512  42.637  1.00  0.00           N  
+HETATM   42  OAD Q9J A1101       4.141  11.373  42.867  1.00  0.00           O  
+HETATM   43  OAE Q9J A1101       3.508  17.277  41.097  1.00  0.00           O  
+HETATM   44 CL1  Q9J A1101       5.130  20.814  42.796  1.00  0.00          Cl  
+CONECT    1    2    5   41
+CONECT    1    5
+CONECT    2    1    3   26
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3    6
+CONECT    4    6
+CONECT    5    1    6
+CONECT    5    1
+CONECT    6    4    5   36
+CONECT    6    4
+CONECT    7   17
+CONECT    8   29
+CONECT    9   38
+CONECT   10   11   12
+CONECT   10   11
+CONECT   11   10   13
+CONECT   11   10
+CONECT   12   10   30
+CONECT   12   30
+CONECT   13   11   33
+CONECT   13   33
+CONECT   14   15   31
+CONECT   14   31
+CONECT   15   14   32
+CONECT   15   32
+CONECT   16   29   31
+CONECT   16   29
+CONECT   17    7   27
+CONECT   18   20   34
+CONECT   19   21   34
+CONECT   20   18   35
+CONECT   21   19   35
+CONECT   22   24   38
+CONECT   23   25   38
+CONECT   24   22   39
+CONECT   25   23   39
+CONECT   26    2   40
+CONECT   27   17   37   42
+CONECT   27   42
+CONECT   28   40   41   43
+CONECT   28   43
+CONECT   29    8   16   32
+CONECT   29   16
+CONECT   30   12   33   44
+CONECT   30   12
+CONECT   31   14   16   36
+CONECT   31   14
+CONECT   32   15   29   39
+CONECT   32   15
+CONECT   33   13   30   40
+CONECT   33   13
+CONECT   34   18   19   37
+CONECT   35   20   21   41
+CONECT   36    6   31
+CONECT   37   27   34
+CONECT   38    9   22   23
+CONECT   39   24   25   32
+CONECT   40   26   28   33
+CONECT   41    1   28   35
+CONECT   42   27
+CONECT   42   27
+CONECT   43   28
+CONECT   43   28
+CONECT   44   30
+ENDMDL
+END   

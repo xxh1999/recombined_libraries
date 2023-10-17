@@ -1,0 +1,75 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7rxo_ligand
+MODEL        1
+HETATM    1  C10 Q80 A 302       2.959  25.791  32.951  1.00  0.00           C  
+HETATM    2  C13 Q80 A 302       1.002  28.559  33.914  1.00  0.00           C  
+HETATM    3  C15 Q80 A 302       0.058  29.077  31.975  1.00  0.00           C  
+HETATM    4  C17 Q80 A 302       0.138  27.037  30.696  1.00  0.00           C  
+HETATM    5  C20 Q80 A 302      -0.575  29.735  30.890  1.00  0.00           C  
+HETATM    6  C21 Q80 A 302       4.999  22.631  33.175  1.00  0.00           C  
+HETATM    7  C22 Q80 A 302       4.111  21.732  34.032  1.00  0.00           C  
+HETATM    8  C02 Q80 A 302       8.383  22.386  31.492  1.00  0.00           C  
+HETATM    9  C04 Q80 A 302      10.019  20.713  31.315  1.00  0.00           C  
+HETATM   10  C05 Q80 A 302       7.037  22.924  31.962  1.00  0.00           C  
+HETATM   11  C06 Q80 A 302       6.655  24.209  31.615  1.00  0.00           C  
+HETATM   12  C07 Q80 A 302       5.436  24.708  32.044  1.00  0.00           C  
+HETATM   13  C08 Q80 A 302       4.612  23.912  32.826  1.00  0.00           C  
+HETATM   14  C11 Q80 A 302       1.593  26.076  33.549  1.00  0.00           C  
+HETATM   15  C12 Q80 A 302       1.021  27.426  33.123  1.00  0.00           C  
+HETATM   16  C16 Q80 A 302       0.417  27.756  31.887  1.00  0.00           C  
+HETATM   17  C18 Q80 A 302      -0.485  27.681  29.629  1.00  0.00           C  
+HETATM   18  C19 Q80 A 302      -0.846  29.026  29.729  1.00  0.00           C  
+HETATM   19  C25 Q80 A 302       6.209  22.130  32.742  1.00  0.00           C  
+HETATM   20  N09 Q80 A 302       3.342  24.431  33.266  1.00  0.00           N  
+HETATM   21  N14 Q80 A 302       0.433  29.535  33.210  1.00  0.00           N  
+HETATM   22  O01 Q80 A 302       9.063  23.046  30.778  1.00  0.00           O  
+HETATM   23  O03 Q80 A 302       8.815  21.123  31.904  1.00  0.00           O  
+HETATM   24  O23 Q80 A 302       4.636  20.721  34.568  1.00  0.00           O  
+HETATM   25  O24 Q80 A 302       2.884  22.001  34.201  1.00  0.00           O1-
+CONECT    1   14   20
+CONECT    2   15   21
+CONECT    2   15
+CONECT    3    5   16   21
+CONECT    3   16
+CONECT    4   16   17
+CONECT    4   17
+CONECT    5    3   18
+CONECT    5   18
+CONECT    6    7   13   19
+CONECT    6   13
+CONECT    7    6   24   25
+CONECT    7   24
+CONECT    8   10   22   23
+CONECT    8   22
+CONECT    9   23
+CONECT   10    8   11   19
+CONECT   10   19
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13    6   12   20
+CONECT   13    6
+CONECT   14    1   15
+CONECT   15    2   14   16
+CONECT   15    2
+CONECT   16    3    4   15
+CONECT   16    3
+CONECT   17    4   18
+CONECT   17    4
+CONECT   18    5   17
+CONECT   18    5
+CONECT   19    6   10
+CONECT   19   10
+CONECT   20    1   13
+CONECT   21    2    3
+CONECT   22    8
+CONECT   22    8
+CONECT   23    8    9
+CONECT   24    7
+CONECT   24    7
+CONECT   25    7
+ENDMDL
+END   

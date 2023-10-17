@@ -1,0 +1,52 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1BCS
+MODEL        1
+ATOM      1  N   PHE C   1      73.672  38.544  74.066  1.00 42.14           N1+
+ATOM      2  CA  PHE C   1      74.109  39.922  74.284  1.00 39.87           C  
+ATOM      3  C   PHE C   1      75.644  40.008  74.342  1.00 47.30           C  
+ATOM      4  O   PHE C   1      76.289  38.984  74.665  1.00 41.22           O  
+ATOM      5  CB  PHE C   1      73.545  40.416  75.629  1.00 35.48           C  
+ATOM      6  CG  PHE C   1      72.046  40.663  75.652  1.00 51.41           C  
+ATOM      7  CD1 PHE C   1      71.516  41.892  75.208  1.00 53.19           C  
+ATOM      8  CD2 PHE C   1      71.177  39.685  76.169  1.00 56.53           C  
+ATOM      9  CE1 PHE C   1      70.135  42.152  75.324  1.00 56.59           C  
+ATOM     10  CE2 PHE C   1      69.806  39.959  76.328  1.00 60.65           C  
+ATOM     11  CZ  PHE C   1      69.283  41.192  75.902  1.00 59.85           C  
+ATOM     12  OXT PHE C   1      76.148  41.117  74.062  1.00 58.08           O1-
+TER      13      PHE C   1
+HETATM   14  NE  CSI C   2      75.397  32.747  70.588  1.00 75.00           N1+
+HETATM   15  CD2 CSI C   2      75.222  33.066  71.884  1.00 75.00           C  
+HETATM   16  CD1 CSI C   2      74.838  33.542  69.487  1.00 54.76           C  
+HETATM   17  NH  CSI C   2      75.746  32.287  72.837  1.00 59.20           N  
+HETATM   18  CB  CSI C   2      73.946  35.087  71.264  1.00 69.25           C  
+HETATM   19  CG1 CSI C   2      73.605  34.301  69.986  1.00 49.61           C  
+HETATM   20  NG2 CSI C   2      74.533  34.162  72.243  1.00 53.00           N  
+HETATM   21  N   CSI C   2      73.148  36.698  72.965  1.00 44.84           N  
+HETATM   22  CA  CSI C   2      72.744  35.865  71.840  1.00 43.42           C  
+HETATM   23  C   CSI C   2      71.513  35.065  72.273  1.00 35.98           C  
+HETATM   24  O   CSI C   2      71.589  34.244  73.189  1.00 37.26           O  
+HETATM   25  O3  CSI C   2      73.875  38.507  71.806  1.00 36.35           O  
+HETATM   26  C7  CSI C   2      73.601  37.952  72.869  1.00 65.23           C  
+CONECT   14   15   16
+CONECT   14   15
+CONECT   15   14   17   20
+CONECT   15   14
+CONECT   16   14   19
+CONECT   17   15
+CONECT   18   19   20   22
+CONECT   19   16   18
+CONECT   20   15   18
+CONECT   21   22   26
+CONECT   22   18   21   23
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23
+CONECT   24   23
+CONECT   25   26
+CONECT   25   26
+CONECT   26    1   21   25
+CONECT   26   25
+ENDMDL
+END   

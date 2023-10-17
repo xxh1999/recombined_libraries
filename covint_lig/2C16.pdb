@@ -1,0 +1,73 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2C16
+MODEL        1
+ATOM      1  N   ALA A 204     119.196  43.509   5.449  1.00  9.88           N1+
+ATOM      2  CA  ALA A 204     118.021  43.454   4.593  1.00  9.54           C  
+ATOM      3  C   ALA A 204     117.615  41.986   4.411  1.00  9.36           C  
+ATOM      4  O   ALA A 204     117.831  41.403   3.347  1.00  8.46           O  
+ATOM      5  CB  ALA A 204     118.369  44.123   3.251  1.00  9.74           C  
+TER       6      ALA A 204
+HETATM    7  O4  OBS A 205     117.249  29.259   4.144  1.00 12.07           O  
+HETATM    8  C11 OBS A 205     118.438  29.386   4.514  1.00 11.96           C  
+HETATM    9  O3  OBS A 205     119.416  28.830   3.980  1.00 10.91           O1-
+HETATM   10  C10 OBS A 205     118.755  30.273   5.707  1.00 12.42           C  
+HETATM   11  C9  OBS A 205     117.491  30.915   6.326  1.00 11.45           C  
+HETATM   12  C8  OBS A 205     117.754  31.982   7.429  1.00 13.28           C  
+HETATM   13  C7  OBS A 205     118.532  31.255   8.567  1.00 15.93           C  
+HETATM   14  C5  OBS A 205     117.264  32.968  10.330  1.00 13.84           C  
+HETATM   15  C3  OBS A 205     116.408  32.634   7.956  1.00 15.57           C  
+HETATM   16  C2  OBS A 205     115.315  31.571   8.325  1.00 17.93           C  
+HETATM   17  C1  OBS A 205     113.936  32.095   8.768  1.00 22.62           C  
+HETATM   18  O1  OBS A 205     113.004  31.265   8.795  1.00 27.41           O  
+HETATM   19  O2  OBS A 205     113.785  33.297   9.057  1.00 25.53           O1-
+HETATM   20  C4  OBS A 205     116.712  33.631   9.102  1.00 16.19           C  
+HETATM   21  NZ  OBS A 205     116.622  34.902   9.084  1.00 14.15           N  
+HETATM   22  CE  OBS A 205     116.184  35.622   7.915  1.00 11.26           C  
+HETATM   23  CD  OBS A 205     116.565  37.101   8.048  1.00  9.18           C  
+HETATM   24  CG  OBS A 205     116.321  37.841   6.733  1.00  6.22           C  
+HETATM   25  CB  OBS A 205     116.750  39.315   6.762  1.00  6.68           C  
+HETATM   26  CA  OBS A 205     116.479  40.036   5.432  1.00  7.38           C  
+HETATM   27  N   OBS A 205     117.034  41.387   5.467  1.00  6.74           N  
+HETATM   28  C   OBS A 205     114.964  40.135   5.194  1.00  8.29           C  
+HETATM   29  O   OBS A 205     114.251  40.796   5.950  1.00  9.18           O  
+HETATM   30  S6  OBS A 205     118.971  32.356   9.991  1.00 13.45           S  
+HETATM   31  O5  OBS A 205     119.323  31.412  11.139  1.00 21.96           O  
+CONECT    7    8
+CONECT    7    8
+CONECT    8    7    9   10
+CONECT    8    7
+CONECT    9    8
+CONECT   10    8   11
+CONECT   11   10   12
+CONECT   12   11   13   15
+CONECT   13   12   30
+CONECT   14   20   30
+CONECT   15   12   16   20
+CONECT   16   15   17
+CONECT   17   16   18   19
+CONECT   17   18
+CONECT   18   17
+CONECT   18   17
+CONECT   19   17
+CONECT   20   14   15   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26   25   27   28
+CONECT   27    3   26
+CONECT   28   26   29
+CONECT   28   29
+CONECT   29   28
+CONECT   29   28
+CONECT   30   13   14   31
+CONECT   30   31
+CONECT   31   30
+CONECT   31   30
+ENDMDL
+END   

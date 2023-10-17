@@ -1,0 +1,38 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3K8M
+MODEL        1
+ATOM      1  N   ASP A 388      54.610  40.389  17.179  1.00 40.03           N1+
+ATOM      2  CA  ASP A 388      54.803  41.360  16.115  1.00 42.70           C  
+ATOM      3  C   ASP A 388      56.286  41.755  16.059  1.00 41.57           C  
+ATOM      4  O   ASP A 388      56.881  42.041  17.100  1.00 41.00           O  
+ATOM      5  CB  ASP A 388      53.984  42.601  16.522  1.00 46.15           C  
+ATOM      6  CG  ASP A 388      54.100  43.753  15.531  1.00 50.14           C  
+ATOM      7  OD1 ASP A 388      54.994  44.595  15.648  1.00 53.78           O  
+ATOM      8  OD2 ASP A 388      53.143  43.705  14.580  1.00 51.06           O  
+TER       9      ASP A 388
+HETATM   10  C1  GLC C   1      53.096  44.780  13.693  1.00 46.61           C  
+HETATM   11  C2  GLC C   1      51.738  44.693  12.967  1.00 43.47           C  
+HETATM   12  C3  GLC C   1      51.464  45.996  12.172  1.00 42.14           C  
+HETATM   13  C4  GLC C   1      51.729  47.211  13.067  1.00 42.56           C  
+HETATM   14  C5  GLC C   1      53.164  47.139  13.582  1.00 44.10           C  
+HETATM   15  C6  GLC C   1      53.545  48.294  14.509  1.00 44.64           C  
+HETATM   16  O2  GLC C   1      51.695  43.566  12.120  1.00 44.12           O  
+HETATM   17  O3  GLC C   1      50.084  46.035  11.878  1.00 43.33           O  
+HETATM   18  O4  GLC C   1      51.541  48.433  12.367  1.00 40.81           O  
+HETATM   19  O5  GLC C   1      53.148  45.989  14.391  1.00 45.44           O  
+HETATM   20  O6  GLC C   1      54.884  48.141  14.890  1.00 50.37           O  
+CONECT   10    8   11   19
+CONECT   11   10   12   16
+CONECT   12   11   13   17
+CONECT   13   12   14   18
+CONECT   14   13   15   19
+CONECT   15   14   20
+CONECT   16   11
+CONECT   17   12
+CONECT   18   13
+CONECT   19   10   14
+CONECT   20   15
+ENDMDL
+END   

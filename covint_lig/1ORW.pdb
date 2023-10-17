@@ -1,0 +1,28 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1ORW
+MODEL        1
+ATOM      1  N   SER A 630      -7.124  16.333  -2.568  1.00 22.44           N1+
+ATOM      2  CA  SER A 630      -7.524  16.236  -1.165  1.00 24.35           C  
+ATOM      3  C   SER A 630      -9.046  16.313  -0.982  1.00 23.66           C  
+ATOM      4  O   SER A 630      -9.743  15.320  -1.183  1.00 24.95           O  
+ATOM      5  CB  SER A 630      -6.727  17.194  -0.264  1.00 28.08           C  
+ATOM      6  OG  SER A 630      -7.025  16.831   1.074  1.00 34.10           O  
+TER       7      SER A 630
+HETATM    8  NA  P2Y A 802      -7.988  18.938   1.724  1.00 35.24           N1+
+HETATM    9  C   P2Y A 802      -6.883  17.841   2.009  1.00 36.93           C  
+HETATM   10  CA  P2Y A 802      -7.326  17.334   3.407  1.00 39.36           C  
+HETATM   11  N   P2Y A 802      -7.408  18.397   4.407  1.00 42.72           N  
+HETATM   12  CD  P2Y A 802      -8.770  18.557   4.904  1.00 41.23           C  
+HETATM   13  CG  P2Y A 802      -9.651  17.575   4.136  1.00 40.65           C  
+HETATM   14  CB  P2Y A 802      -8.706  16.648   3.386  1.00 39.36           C  
+CONECT    8    9
+CONECT    9    6    8   10
+CONECT   10    9   11   14
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   10   13
+ENDMDL
+END   

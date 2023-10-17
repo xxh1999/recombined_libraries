@@ -1,0 +1,77 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7b3z_ligand
+MODEL        1
+HETATM    1  C1  SV8 A1402       4.664  17.276  40.881  1.00  0.00           C  
+HETATM    2  C2  SV8 A1402       3.330  17.605  41.081  1.00  0.00           C  
+HETATM    3  C3  SV8 A1402       2.686  18.497  40.235  1.00  0.00           C  
+HETATM    4  C7  SV8 A1402       1.021  19.654  41.712  1.00  0.00           C  
+HETATM    5  C8  SV8 A1402       1.256  20.986  41.892  1.00  0.00           C  
+HETATM    6  C9  SV8 A1402       0.501  20.250  43.847  1.00  0.00           C  
+HETATM    7  C10 SV8 A1402       0.535  19.164  42.970  1.00  0.00           C  
+HETATM    8  C11 SV8 A1402       0.118  17.930  43.468  1.00  0.00           C  
+HETATM    9  C12 SV8 A1402      -0.297  17.849  44.798  1.00  0.00           C  
+HETATM   10  C13 SV8 A1402      -0.290  19.015  45.567  1.00  0.00           C  
+HETATM   11  C14 SV8 A1402      -0.767  16.558  45.358  1.00  0.00           C  
+HETATM   12  C15 SV8 A1402      -0.668  15.343  44.715  1.00  0.00           C  
+HETATM   13  C16 SV8 A1402      -1.682  14.932  46.663  1.00  0.00           C  
+HETATM   14  C19 SV8 A1402      -2.355  14.611  47.940  1.00  0.00           C  
+HETATM   15  O   SV8 A1402      -2.724  13.507  48.318  1.00  0.00           O  
+HETATM   16  N2  SV8 A1402      -1.210  14.380  45.497  1.00  0.00           N  
+HETATM   17  N3  SV8 A1402      -2.475  15.817  48.608  1.00  0.00           N  
+HETATM   18  C18 SV8 A1402      -1.931  16.944  47.879  1.00  0.00           C  
+HETATM   19  C17 SV8 A1402      -1.419  16.316  46.609  1.00  0.00           C  
+HETATM   20  N1  SV8 A1402       0.103  20.219  45.126  1.00  0.00           N  
+HETATM   21  N   SV8 A1402       0.944  21.355  43.179  1.00  0.00           N  
+HETATM   22  C6  SV8 A1402       1.233  18.857  40.453  1.00  0.00           C  
+HETATM   23  C4  SV8 A1402       3.407  19.056  39.185  1.00  0.00           C  
+HETATM   24  C5  SV8 A1402       4.740  18.726  38.986  1.00  0.00           C  
+HETATM   25  C   SV8 A1402       5.369  17.838  39.836  1.00  0.00           C  
+CONECT    1    2   25
+CONECT    1   25
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2   22   23
+CONECT    3    2
+CONECT    4    5    7   22
+CONECT    4    5
+CONECT    5    4   21
+CONECT    5    4
+CONECT    6    7   20   21
+CONECT    6   20
+CONECT    7    4    6    8
+CONECT    7    8
+CONECT    8    7    9
+CONECT    8    7
+CONECT    9    8   10   11
+CONECT    9   10
+CONECT   10    9   20
+CONECT   10    9
+CONECT   11    9   12   19
+CONECT   11   12
+CONECT   12   11   16
+CONECT   12   11
+CONECT   13   14   16   19
+CONECT   13   19
+CONECT   14   13   15   17
+CONECT   14   15
+CONECT   15   14
+CONECT   15   14
+CONECT   16   12   13
+CONECT   17   14   18
+CONECT   18   17   19
+CONECT   19   11   13   18
+CONECT   19   13
+CONECT   20    6   10
+CONECT   20    6
+CONECT   21    5    6
+CONECT   22    3    4
+CONECT   23    3   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25    1   24
+CONECT   25    1
+ENDMDL
+END   

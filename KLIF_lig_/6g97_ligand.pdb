@@ -1,0 +1,78 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6g97_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  EQZ A 407       7.741  15.552  37.429  1.00  0.00           C  
+HETATM    2  C3  EQZ A 407       5.872  15.270  35.997  1.00  0.00           C  
+HETATM    3  C6  EQZ A 407       3.578  15.188  37.918  1.00  0.00           C  
+HETATM    4  C7  EQZ A 407       2.845  15.943  38.980  1.00  0.00           C  
+HETATM    5  C8  EQZ A 407       2.334  15.531  40.200  1.00  0.00           C  
+HETATM    6  C10 EQZ A 407       1.551  17.791  40.658  1.00  0.00           C  
+HETATM    7  C11 EQZ A 407       2.102  18.199  39.434  1.00  0.00           C  
+HETATM    8  C12 EQZ A 407       2.719  17.270  38.597  1.00  0.00           C  
+HETATM    9  C13 EQZ A 407       3.385  17.448  37.286  1.00  0.00           C  
+HETATM   10  C15 EQZ A 407       0.867  18.723  41.594  1.00  0.00           C  
+HETATM   11  N18 EQZ A 407      -1.177  18.143  44.379  1.00  0.00           N  
+HETATM   12  C19 EQZ A 407      -1.229  16.697  44.504  1.00  0.00           C  
+HETATM   13  C21 EQZ A 407      -1.640  14.834  46.080  1.00  0.00           C  
+HETATM   14  C23 EQZ A 407      -2.401  14.637  43.849  1.00  0.00           C  
+HETATM   15  C24 EQZ A 407      -2.315  16.127  43.614  1.00  0.00           C  
+HETATM   16  C26 EQZ A 407       0.201  20.781  42.594  1.00  0.00           C  
+HETATM   17  C27 EQZ A 407       0.907  20.117  41.606  1.00  0.00           C  
+HETATM   18  O2  EQZ A 407       6.593  16.142  36.840  1.00  0.00           O  
+HETATM   19  C4  EQZ A 407       4.560  15.924  35.685  1.00  0.00           C  
+HETATM   20  N5  EQZ A 407       3.766  16.210  36.887  1.00  0.00           N  
+HETATM   21  C9  EQZ A 407       1.689  16.440  41.020  1.00  0.00           C  
+HETATM   22  O14 EQZ A 407       3.574  18.475  36.665  1.00  0.00           O  
+HETATM   23  N16 EQZ A 407       0.162  18.081  42.537  1.00  0.00           N  
+HETATM   24  C17 EQZ A 407      -0.482  18.813  43.449  1.00  0.00           C  
+HETATM   25  C20 EQZ A 407      -1.481  16.327  45.956  1.00  0.00           C  
+HETATM   26  O22 EQZ A 407      -2.693  14.343  45.230  1.00  0.00           O  
+HETATM   27  N25 EQZ A 407      -0.510  20.146  43.524  1.00  0.00           N  
+HETATM   28 CL1  EQZ A 407       1.811  21.075  40.484  1.00  0.00          Cl  
+CONECT    1   18
+CONECT    2   18   19
+CONECT    3    4   20
+CONECT    4    3    5    8
+CONECT    4    8
+CONECT    5    4   21
+CONECT    5   21
+CONECT    6    7   10   21
+CONECT    6    7
+CONECT    7    6    8
+CONECT    7    6
+CONECT    8    4    7    9
+CONECT    8    4
+CONECT    9    8   20   22
+CONECT    9   22
+CONECT   10    6   17   23
+CONECT   10   17
+CONECT   11   12   24
+CONECT   12   11   15   25
+CONECT   13   25   26
+CONECT   14   15   26
+CONECT   15   12   14
+CONECT   16   17   27
+CONECT   16   27
+CONECT   17   10   16   28
+CONECT   17   10
+CONECT   18    1    2
+CONECT   19    2   20
+CONECT   20    3    9   19
+CONECT   21    5    6
+CONECT   21    5
+CONECT   22    9
+CONECT   22    9
+CONECT   23   10   24
+CONECT   23   24
+CONECT   24   11   23   27
+CONECT   24   23
+CONECT   25   12   13
+CONECT   26   13   14
+CONECT   27   16   24
+CONECT   27   16
+CONECT   28   17
+ENDMDL
+END   

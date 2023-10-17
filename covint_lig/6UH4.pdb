@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6UH4
+MODEL        1
+ATOM      1  N   CYS B   2      18.515   0.144 -13.584  1.00147.66           N1+
+ATOM      2  CA  CYS B   2      19.009   1.543 -13.451  1.00145.84           C  
+ATOM      3  C   CYS B   2      17.872   2.522 -13.762  1.00142.32           C  
+ATOM      4  O   CYS B   2      16.874   2.082 -14.359  1.00140.81           O  
+ATOM      5  CB  CYS B   2      20.148   1.825 -14.420  1.00145.76           C  
+ATOM      6  SG  CYS B   2      21.641   0.856 -14.091  1.00149.68           S  
+TER       7      CYS B   2
+HETATM    8  C10 QC7 B 401      23.505  -3.652 -17.224  1.00230.78           C  
+HETATM    9  C11 QC7 B 401      23.735  -5.218 -17.878  1.00230.68           C  
+HETATM   10  C12 QC7 B 401      25.324  -5.273 -18.158  1.00230.88           C  
+HETATM   11  C13 QC7 B 401      25.936  -6.367 -19.025  1.00229.41           C  
+HETATM   12  C14 QC7 B 401      25.288  -7.692 -18.808  1.00228.24           C  
+HETATM   13  C16 QC7 B 401      26.193  -8.867 -19.455  1.00231.70           C  
+HETATM   14  C17 QC7 B 401      27.729  -8.773 -18.975  1.00233.59           C  
+HETATM   15  C18 QC7 B 401      27.670  -9.070 -17.489  1.00229.12           C  
+HETATM   16  C19 QC7 B 401      29.065  -9.035 -16.852  1.00228.00           C  
+HETATM   17  C21 QC7 B 401      29.773  -7.680 -17.152  1.00228.63           C  
+HETATM   18  C22 QC7 B 401      29.813  -7.339 -18.641  1.00229.96           C  
+HETATM   19  C23 QC7 B 401      28.411  -7.411 -19.266  1.00227.71           C  
+HETATM   20  C24 QC7 B 401      28.507  -7.224 -20.778  1.00227.34           C  
+HETATM   21  C25 QC7 B 401      27.559  -6.278 -18.666  1.00226.60           C  
+HETATM   22  C01 QC7 B 401      25.780  -0.609 -17.897  1.00232.29           C  
+HETATM   23  C02 QC7 B 401      24.464  -1.446 -17.900  1.00230.90           C  
+HETATM   24  C03 QC7 B 401      23.467  -0.870 -16.825  1.00231.01           C  
+HETATM   25  C04 QC7 B 401      22.911   0.557 -16.987  1.00232.03           C  
+HETATM   26  C05 QC7 B 401      21.891   0.857 -15.873  1.00229.29           C  
+HETATM   27  C07 QC7 B 401      21.497  -0.255 -14.896  1.00229.28           C  
+HETATM   28  C09 QC7 B 401      24.810  -2.813 -17.511  1.00230.86           C  
+HETATM   29  C26 QC7 B 401      28.107  -4.925 -19.020  1.00229.33           C  
+HETATM   30  C27 QC7 B 401      27.180  -3.597 -18.522  1.00230.04           C  
+HETATM   31  C28 QC7 B 401      25.676  -3.770 -18.500  1.00229.30           C  
+HETATM   32  C29 QC7 B 401      25.150  -3.481 -19.900  1.00228.03           C  
+HETATM   33  O06 QC7 B 401      21.390   1.930 -15.731  1.00230.35           O  
+HETATM   34  O15 QC7 B 401      25.028  -7.880 -17.463  1.00231.50           O  
+HETATM   35  O20 QC7 B 401      28.945  -9.230 -15.478  1.00231.98           O  
+CONECT    8   28    9
+CONECT    9    8   10
+CONECT   10    9   11   31
+CONECT   11   10   12   21
+CONECT   12   11   13   34
+CONECT   13   12   14
+CONECT   14   13   15   19
+CONECT   15   14   16
+CONECT   16   15   17   35
+CONECT   17   16   18
+CONECT   18   17   19
+CONECT   19   14   18   20   21
+CONECT   20   19
+CONECT   21   11   19   29
+CONECT   22   23
+CONECT   23   22   24   28
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26    6   25   27   33
+CONECT   26   33
+CONECT   27   26
+CONECT   28    8   23   31
+CONECT   29   21   30
+CONECT   30   29   31
+CONECT   31   10   28   30   32
+CONECT   32   31
+CONECT   33   26
+CONECT   33   26
+CONECT   34   12
+CONECT   35   16
+ENDMDL
+END   

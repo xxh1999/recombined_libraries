@@ -1,0 +1,84 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4xg7_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  X7G A 701       1.041  19.486  41.628  1.00  0.00           C  
+HETATM    2  C5  X7G A 701       0.831  20.834  41.533  1.00  0.00           C  
+HETATM    3  C6  X7G A 701       0.049  21.444  42.497  1.00  0.00           C  
+HETATM    4  N1  X7G A 701      -0.481  20.737  43.432  1.00  0.00           N  
+HETATM    5  N3  X7G A 701       0.447  18.841  42.615  1.00  0.00           N  
+HETATM    6  CAB X7G A 701      -1.643  12.958  46.864  1.00  0.00           C  
+HETATM    7  NBB X7G A 701      -1.086  13.608  45.791  1.00  0.00           N  
+HETATM    8  NAQ X7G A 701      -0.518  13.055  44.892  1.00  0.00           N  
+HETATM    9  CAH X7G A 701      -0.118  14.004  44.050  1.00  0.00           C  
+HETATM   10  CAX X7G A 701      -0.476  15.180  44.492  1.00  0.00           C  
+HETATM   11  CAI X7G A 701      -0.358  16.480  44.038  1.00  0.00           C  
+HETATM   12  CAY X7G A 701      -1.114  14.885  45.643  1.00  0.00           C  
+HETATM   13  CAG X7G A 701      -1.646  15.873  46.397  1.00  0.00           C  
+HETATM   14  CAF X7G A 701      -1.533  17.156  45.961  1.00  0.00           C  
+HETATM   15  CAS X7G A 701      -0.896  17.509  44.788  1.00  0.00           C  
+HETATM   16  NAO X7G A 701      -0.864  18.807  44.503  1.00  0.00           N  
+HETATM   17  C2  X7G A 701      -0.307  19.445  43.499  1.00  0.00           C  
+HETATM   18  NBC X7G A 701       1.734  18.823  40.700  1.00  0.00           N  
+HETATM   19  CAJ X7G A 701       1.771  17.520  40.592  1.00  0.00           C  
+HETATM   20  NAN X7G A 701       2.273  19.372  39.767  1.00  0.00           N  
+HETATM   21  CAT X7G A 701       2.782  18.451  39.007  1.00  0.00           C  
+HETATM   22  CAA X7G A 701       3.587  18.684  37.750  1.00  0.00           C  
+HETATM   23  CAU X7G A 701       2.457  17.232  39.519  1.00  0.00           C  
+HETATM   24  CAK X7G A 701       2.765  15.838  38.982  1.00  0.00           C  
+HETATM   25  NBA X7G A 701       1.657  15.421  38.130  1.00  0.00           N1+
+HETATM   26  CAM X7G A 701       0.408  15.257  38.815  1.00  0.00           C  
+HETATM   27  CAL X7G A 701       1.580  14.028  37.760  1.00  0.00           C  
+HETATM   28  CAZ X7G A 701       0.091  14.187  37.807  1.00  0.00           C  
+HETATM   29  OAC X7G A 701      -0.517  13.084  38.392  1.00  0.00           O  
+CONECT    1    2    5   18
+CONECT    1    5
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3   17
+CONECT    4   17
+CONECT    5    1   17
+CONECT    5    1
+CONECT    6    7
+CONECT    7    6    8   12
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    9   11   12
+CONECT   10   12
+CONECT   11   10   15
+CONECT   11   15
+CONECT   12    7   10   13
+CONECT   12   10
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   11   14   16
+CONECT   15   11
+CONECT   16   15   17
+CONECT   17    4    5   16
+CONECT   17    4
+CONECT   18    1   19   20
+CONECT   19   18   23
+CONECT   19   23
+CONECT   20   18   21
+CONECT   20   21
+CONECT   21   20   22   23
+CONECT   21   20
+CONECT   22   21
+CONECT   23   19   21   24
+CONECT   23   19
+CONECT   24   23   25
+CONECT   25   24   26   27
+CONECT   26   25   28
+CONECT   27   25   28
+CONECT   28   26   27   29
+CONECT   29   28
+ENDMDL
+END   

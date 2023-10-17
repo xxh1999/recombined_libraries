@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4X6J
+MODEL        1
+ATOM      1  N   CYS A  25      46.350  17.122  10.719  1.00 10.76           N1+
+ATOM      2  CA  CYS A  25      47.432  16.157  10.478  1.00 11.06           C  
+ATOM      3  C   CYS A  25      47.777  15.262  11.684  1.00 10.41           C  
+ATOM      4  O   CYS A  25      48.122  14.096  11.508  1.00 10.01           O  
+ATOM      5  CB  CYS A  25      48.684  16.873   9.935  1.00 11.93           C  
+ATOM      6  SG  CYS A  25      49.438  17.991  11.169  1.00 13.17           S  
+TER       7      CYS A  25
+HETATM    8  C1  3Y2 A 307      48.886  19.642  10.693  1.00 16.14           C  
+HETATM    9  C2  3Y2 A 307      49.371  20.860  11.472  1.00 17.45           C  
+HETATM   10  C4  3Y2 A 307      50.089  20.169  13.743  1.00 15.79           C  
+HETATM   11  C6  3Y2 A 307      51.232  20.018  14.775  1.00 16.01           C  
+HETATM   12  C7  3Y2 A 307      51.460  18.498  14.996  1.00 15.66           C  
+HETATM   13  C8  3Y2 A 307      52.563  18.194  16.026  1.00 16.90           C  
+HETATM   14  C9  3Y2 A 307      53.890  18.851  15.622  1.00 17.57           C  
+HETATM   15  C10 3Y2 A 307      53.704  20.352  15.366  1.00 16.28           C  
+HETATM   16  C11 3Y2 A 307      52.602  20.590  14.316  1.00 16.78           C  
+HETATM   17  C13 3Y2 A 307      50.572  21.973  16.249  1.00 17.04           C  
+HETATM   18  N3  3Y2 A 307      50.375  20.588  12.501  1.00 14.82           N  
+HETATM   19  N1  3Y2 A 307      48.106  19.794   9.719  1.00 17.13           N  
+HETATM   20  O5  3Y2 A 307      48.936  19.911  14.091  1.00 13.42           O  
+HETATM   21  N12 3Y2 A 307      50.779  20.657  16.026  1.00 15.36           N  
+HETATM   22  O14 3Y2 A 307      50.880  22.849  15.438  1.00 18.57           O  
+HETATM   23  C15 3Y2 A 307      49.816  22.307  17.514  1.00 18.19           C  
+HETATM   24  C16 3Y2 A 307      48.910  23.405  17.595  1.00 20.96           C  
+HETATM   25  C17 3Y2 A 307      48.128  23.595  18.752  1.00 19.94           C  
+HETATM   26  C18 3Y2 A 307      48.257  22.730  19.851  1.00 20.42           C  
+HETATM   27  C19 3Y2 A 307      49.202  21.694  19.812  1.00 19.94           C  
+HETATM   28  C20 3Y2 A 307      49.982  21.489  18.659  1.00 19.03           C  
+HETATM   29  N21 3Y2 A 307      48.730  24.315  16.552  1.00 20.86           N  
+HETATM   30 CL2  3Y2 A 307      47.251  22.931  21.238  1.00 27.26          Cl  
+CONECT    8    6    9   19
+CONECT    8   19
+CONECT    9    8   18
+CONECT   10   11   18   20
+CONECT   10   20
+CONECT   11   10   12   16   21
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   11   15
+CONECT   17   21   22   23
+CONECT   17   22
+CONECT   18    9   10
+CONECT   19    8
+CONECT   19    8
+CONECT   20   10
+CONECT   20   10
+CONECT   21   11   17
+CONECT   22   17
+CONECT   22   17
+CONECT   23   17   24   28
+CONECT   23   28
+CONECT   24   23   25   29
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26   25   27   30
+CONECT   26   27
+CONECT   27   26   28
+CONECT   27   26
+CONECT   28   23   27
+CONECT   28   23
+CONECT   29   24
+CONECT   30   26
+ENDMDL
+END   

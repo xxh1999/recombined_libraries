@@ -1,0 +1,68 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6k0j_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C10 CQO A 601       1.083  18.677  42.046  1.00  0.00           C  
+HETATM    2  C13 CQO A 601       4.433  17.161  36.911  1.00  0.00           C  
+HETATM    3  C17 CQO A 601       0.286  14.021  40.871  1.00  0.00           C  
+HETATM    4  C22 CQO A 601       5.111  14.759  35.951  1.00  0.00           C  
+HETATM    5  C01 CQO A 601       2.341  17.401  40.468  1.00  0.00           C  
+HETATM    6  C02 CQO A 601       3.028  17.328  39.297  1.00  0.00           C  
+HETATM    7  C03 CQO A 601       3.165  18.446  38.491  1.00  0.00           C  
+HETATM    8  C05 CQO A 601       1.928  19.701  40.034  1.00  0.00           C  
+HETATM    9  C06 CQO A 601       1.788  18.588  40.847  1.00  0.00           C  
+HETATM   10  C07 CQO A 601       1.359  20.915  40.394  1.00  0.00           C  
+HETATM   11  C08 CQO A 601       0.660  21.003  41.590  1.00  0.00           C  
+HETATM   12  C09 CQO A 601       0.518  19.893  42.412  1.00  0.00           C  
+HETATM   13  C11 CQO A 601       3.588  16.121  38.908  1.00  0.00           C  
+HETATM   14  C12 CQO A 601       4.291  16.037  37.717  1.00  0.00           C  
+HETATM   15  C14 CQO A 601       3.861  18.366  37.295  1.00  0.00           C  
+HETATM   16  C16 CQO A 601       0.470  15.329  41.637  1.00  0.00           C  
+HETATM   17  C18 CQO A 601      -0.827  14.166  39.826  1.00  0.00           C  
+HETATM   18  C23 CQO A 601      -0.481  18.847  44.302  1.00  0.00           C  
+HETATM   19  N04 CQO A 601       2.614  19.623  38.872  1.00  0.00           N  
+HETATM   20  N19 CQO A 601      -0.318  13.801  38.505  1.00  0.00           N1+
+HETATM   21  O20 CQO A 601      -0.206  20.034  43.599  1.00  0.00           O  
+HETATM   22  O21 CQO A 601       4.869  14.816  37.329  1.00  0.00           O  
+HETATM   23  S15 CQO A 601       2.203  15.905  41.493  1.00  0.00           S  
+CONECT    1    9   12
+CONECT    1    9
+CONECT    2   14   15
+CONECT    2   15
+CONECT    3   16   17
+CONECT    4   22
+CONECT    5    6    9   23
+CONECT    5    6
+CONECT    6    5    7   13
+CONECT    6    5
+CONECT    7    6   15   19
+CONECT    7   19
+CONECT    8    9   10   19
+CONECT    8   10
+CONECT    9    1    5    8
+CONECT    9    1
+CONECT   10    8   11
+CONECT   10    8
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12    1   11   21
+CONECT   12   11
+CONECT   13    6   14
+CONECT   13   14
+CONECT   14    2   13   22
+CONECT   14   13
+CONECT   15    2    7
+CONECT   15    2
+CONECT   16    3   23
+CONECT   17    3   20
+CONECT   18   21
+CONECT   19    7    8
+CONECT   19    7
+CONECT   20   17
+CONECT   21   12   18
+CONECT   22    4   14
+CONECT   23    5   16
+ENDMDL
+END   

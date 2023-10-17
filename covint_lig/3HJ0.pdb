@@ -1,0 +1,71 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3HJ0
+MODEL        1
+ATOM      1  N   LYS A  15      -1.060  -7.906  -2.773  0.50 12.57           N1+
+ATOM      2  CA  LYS A  15      -1.994  -6.792  -2.719  0.50 13.62           C  
+ATOM      3  C   LYS A  15      -2.670  -6.659  -4.077  0.50 11.55           C  
+ATOM      4  O   LYS A  15      -2.012  -6.789  -5.106  0.50 15.30           O  
+ATOM      5  CB  LYS A  15      -1.232  -5.528  -2.313  0.50 16.01           C  
+ATOM      6  CG  LYS A  15      -2.149  -4.341  -2.001  0.50 20.22           C  
+ATOM      7  CD  LYS A  15      -1.333  -3.197  -1.412  0.50 23.20           C  
+ATOM      8  CE  LYS A  15      -2.157  -2.146  -0.661  0.50 26.59           C  
+ATOM      9  NZ  LYS A  15      -1.228  -1.356   0.135  0.50 28.63           N1+
+TER      10      LYS A  15
+HETATM   11  CAE A93 A 128      -0.461  -0.364  -0.338  0.50 27.83           C  
+HETATM   12  OAE A93 A 128       0.617  -0.062   0.168  0.50 31.31           O  
+HETATM   13  CAQ A93 A 128      -1.049   0.470  -1.432  0.50 27.29           C  
+HETATM   14  CAI A93 A 128      -2.017   1.430  -1.078  0.50 26.14           C  
+HETATM   15  CAH A93 A 128      -2.588   2.252  -2.060  0.50 26.26           C  
+HETATM   16  CAJ A93 A 128      -2.192   2.111  -3.399  0.50 24.87           C  
+HETATM   17  CAR A93 A 128      -1.233   1.147  -3.780  0.50 23.56           C  
+HETATM   18  CAM A93 A 128      -0.661   0.315  -2.787  0.50 24.62           C  
+HETATM   19  CAF A93 A 128      -0.963   1.042  -5.224  0.50 19.93           C  
+HETATM   20  CAG A93 A 128      -0.406   0.028  -5.916  0.50 16.50           C  
+HETATM   21  CAS A93 A 128      -0.227   0.028  -7.387  0.50 14.49           C  
+HETATM   22  CAL A93 A 128       0.055  -1.181  -8.058  0.50 11.58           C  
+HETATM   23  CAO A93 A 128       0.171  -1.226  -9.465  0.50 10.51           C  
+HETATM   24  CAB A93 A 128       0.467  -2.547 -10.149  0.50 13.10           C  
+HETATM   25  CAP A93 A 128      -0.008  -0.046 -10.222  0.50 10.76           C  
+HETATM   26  OAD A93 A 128       0.093  -0.069 -11.584  0.50 11.10           O  
+HETATM   27  CAN A93 A 128      -0.301   1.169  -9.567  0.50 10.91           C  
+HETATM   28  CAA A93 A 128      -0.513   2.446 -10.360  0.50 13.27           C  
+HETATM   29  CAK A93 A 128      -0.404   1.199  -8.163  0.50 12.34           C  
+CONECT   11    9   12   13
+CONECT   11   12
+CONECT   12   11
+CONECT   12   11
+CONECT   13   11   14   18
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   16   18   19
+CONECT   17   18
+CONECT   18   13   17
+CONECT   18   17
+CONECT   19   17   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22   29
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   22   24   25
+CONECT   23   25
+CONECT   24   23
+CONECT   25   23   26   27
+CONECT   25   23
+CONECT   26   25
+CONECT   27   25   28   29
+CONECT   27   29
+CONECT   28   27
+CONECT   29   21   27
+CONECT   29   27
+ENDMDL
+END   

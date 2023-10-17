@@ -1,0 +1,60 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2H6M
+MODEL        1
+ATOM      1  N   HIS A 102      16.131   8.513  36.817  1.00 10.36           N1+
+ATOM      2  CA  HIS A 102      15.321   8.445  38.032  1.00  9.49           C  
+ATOM      3  C   HIS A 102      14.694   7.059  38.234  1.00 10.97           C  
+ATOM      4  O   HIS A 102      14.092   6.844  39.282  1.00 10.90           O  
+ATOM      5  CB  HIS A 102      14.186   9.490  37.965  1.00 10.11           C  
+ATOM      6  CG  HIS A 102      14.720  10.870  38.129  1.00  9.72           C  
+ATOM      7  ND1 HIS A 102      15.334  11.277  39.285  1.00 10.84           N  
+ATOM      8  CD2 HIS A 102      14.753  11.953  37.287  1.00 12.52           C  
+ATOM      9  CE1 HIS A 102      15.734  12.545  39.186  1.00 13.62           C  
+ATOM     10  NE2 HIS A 102      15.386  12.963  37.965  1.00 15.12           N1+
+TER      11      HIS A 102
+HETATM   12  OG2 BBL A 901      16.075  16.024  34.989  1.00 25.12           O1-
+HETATM   13  CB2 BBL A 901      16.944  15.702  35.830  1.00 22.79           C  
+HETATM   14  OG1 BBL A 901      17.875  16.450  36.202  1.00 19.54           O  
+HETATM   15  CA  BBL A 901      16.822  14.296  36.441  1.00 17.38           C  
+HETATM   16  CBZ BBL A 901      15.686  14.313  37.481  1.00 21.48           C  
+HETATM   17  N   BBL A 901      18.052  13.908  37.124  1.00 18.26           N  
+HETATM   18  C   BBL A 901      19.136  13.288  36.536  1.00 21.92           C  
+HETATM   19  O   BBL A 901      19.218  12.902  35.369  1.00 24.77           O  
+HETATM   20  OEZ BBL A 901      20.098  13.192  37.457  1.00 24.80           O  
+HETATM   21  CB  BBL A 901      21.398  12.752  37.098  1.00 25.80           C  
+HETATM   22  CG  BBL A 901      22.465  13.233  38.067  1.00 21.01           C  
+HETATM   23  CD1 BBL A 901      23.758  12.676  37.995  1.00 21.26           C  
+HETATM   24  CE1 BBL A 901      24.771  13.115  38.869  1.00 15.06           C  
+HETATM   25  CZ  BBL A 901      24.497  14.117  39.819  1.00 22.17           C  
+HETATM   26  CE2 BBL A 901      23.210  14.683  39.893  1.00 19.20           C  
+HETATM   27  CD2 BBL A 901      22.197  14.245  39.018  1.00 22.00           C  
+CONECT   12   13
+CONECT   13   12   14   15
+CONECT   13   14
+CONECT   14   13
+CONECT   14   13
+CONECT   15   13   16   17
+CONECT   16   10   15
+CONECT   17   15   18
+CONECT   18   17   19   20
+CONECT   18   19
+CONECT   19   18
+CONECT   19   18
+CONECT   20   18   21
+CONECT   21   20   22
+CONECT   22   21   23   27
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   23   25
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26   25   27
+CONECT   26   27
+CONECT   27   22   26
+CONECT   27   26
+ENDMDL
+END   

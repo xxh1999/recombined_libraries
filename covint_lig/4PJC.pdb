@@ -1,0 +1,67 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4PJC
+MODEL        1
+ATOM      1  N   LYS A  43      -4.008  69.146 156.259  1.00 23.52           N1+
+ATOM      2  CA  LYS A  43      -3.864  69.541 157.658  1.00 22.17           C  
+ATOM      3  C   LYS A  43      -4.403  70.975 157.790  1.00 28.99           C  
+ATOM      4  O   LYS A  43      -3.871  71.903 157.178  1.00 29.37           O  
+ATOM      5  CB  LYS A  43      -2.381  69.507 158.098  1.00 22.97           C  
+ATOM      6  CG  LYS A  43      -2.256  69.694 159.625  1.00  8.58           C  
+ATOM      7  CD  LYS A  43      -0.827  69.851 160.161  1.00 14.73           C  
+ATOM      8  CE  LYS A  43      -0.876  70.338 161.617  1.00 14.16           C  
+ATOM      9  NZ  LYS A  43       0.414  70.533 162.267  1.00 16.18           N1+
+TER      10      LYS A  43
+HETATM   11  C4  2LJ A 301      -0.496  65.269 163.700  1.00 17.51           C  
+HETATM   12  C6  2LJ A 301       0.387  68.181 163.132  1.00 15.79           C  
+HETATM   13  C7  2LJ A 301       1.209  69.336 162.535  1.00 18.40           C  
+HETATM   14  C8  2LJ A 301       2.364  69.774 163.456  1.00 21.62           C  
+HETATM   15  N1  2LJ A 301       1.430  63.731 165.043  1.00 17.71           N  
+HETATM   16  N3  2LJ A 301      -0.736  63.974 164.150  1.00 17.43           N  
+HETATM   17  N5  2LJ A 301       1.226  67.052 163.504  1.00 15.79           N  
+HETATM   18  C4A 2LJ A 301       0.867  65.781 163.947  1.00 14.28           C  
+HETATM   19  O4  2LJ A 301      -1.424  65.865 163.162  1.00 18.67           O  
+HETATM   20  C2  2LJ A 301       0.177  63.177 164.821  1.00 18.57           C  
+HETATM   21  O2  2LJ A 301      -0.114  62.058 165.226  1.00 22.51           O  
+HETATM   22  C8A 2LJ A 301       1.763  64.998 164.612  1.00 18.70           C  
+HETATM   23  N8  2LJ A 301       3.049  65.432 164.891  1.00 17.80           N  
+HETATM   24  C1' 2LJ A 301       3.827  65.066 166.065  1.00 19.70           C  
+HETATM   25  C2' 2LJ A 301       4.947  64.046 165.774  1.00 20.22           C  
+HETATM   26  O2' 2LJ A 301       5.811  64.630 164.831  1.00 18.65           O  
+HETATM   27  C3' 2LJ A 301       4.475  62.659 165.286  1.00 20.73           C  
+HETATM   28  O3' 2LJ A 301       3.549  62.156 166.230  1.00 23.35           O  
+HETATM   29  C4' 2LJ A 301       5.610  61.618 165.111  1.00 20.63           C  
+HETATM   30  O4' 2LJ A 301       5.041  60.497 164.464  1.00 21.42           O  
+HETATM   31  C5' 2LJ A 301       6.261  61.160 166.432  1.00 19.12           C  
+HETATM   32  O5' 2LJ A 301       7.307  60.247 166.206  1.00 20.83           O  
+CONECT   11   16   18   19
+CONECT   11   19
+CONECT   12   13   17
+CONECT   13    9   12   14
+CONECT   14   13
+CONECT   15   20   22
+CONECT   16   11   20
+CONECT   17   12   18
+CONECT   18   11   17   22
+CONECT   18   22
+CONECT   19   11
+CONECT   19   11
+CONECT   20   15   16   21
+CONECT   20   21
+CONECT   21   20
+CONECT   21   20
+CONECT   22   15   18   23
+CONECT   22   18
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   24   26   27
+CONECT   26   25
+CONECT   27   25   28   29
+CONECT   28   27
+CONECT   29   27   30   31
+CONECT   30   29
+CONECT   31   29   32
+CONECT   32   31
+ENDMDL
+END   

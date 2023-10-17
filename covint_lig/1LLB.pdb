@@ -1,0 +1,78 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1LLB
+MODEL        1
+ATOM      1  N   SER B  64      76.823   1.112  29.819  0.75 17.74           N1+
+ATOM      2  CA  SER B  64      75.540   1.673  29.407  0.75 18.42           C  
+ATOM      3  C   SER B  64      74.647   0.741  28.561  0.75 18.20           C  
+ATOM      4  O   SER B  64      73.552   1.161  28.192  0.75 17.78           O  
+ATOM      5  CB  SER B  64      75.789   2.960  28.612  0.75 20.66           C  
+ATOM      6  OG  SER B  64      76.407   3.980  29.393  0.75 25.15           O  
+TER       7      SER B  64
+HETATM    8  O1  PCN B 964      78.509   3.264  28.913  0.75 29.96           O  
+HETATM    9  C1  PCN B 964      77.745   4.069  29.433  0.75 30.53           C  
+HETATM   10  C2  PCN B 964      78.205   5.412  30.007  0.75 33.40           C  
+HETATM   11  C3  PCN B 964      78.004   6.538  28.956  0.75 34.80           C  
+HETATM   12  S4  PCN B 964      78.864   8.086  29.356  0.75 40.56           S  
+HETATM   13  C5  PCN B 964      79.902   8.040  27.873  0.75 35.17           C  
+HETATM   14  C51 PCN B 964      81.302   8.593  28.188  0.75 34.41           C  
+HETATM   15  C52 PCN B 964      79.256   8.895  26.791  0.75 35.38           C  
+HETATM   16  C6  PCN B 964      79.850   6.548  27.469  0.75 35.17           C  
+HETATM   17  C61 PCN B 964      80.417   6.182  26.080  0.75 35.03           C  
+HETATM   18  O62 PCN B 964      81.659   6.140  25.951  0.75 34.37           O  
+HETATM   19  O63 PCN B 964      79.610   5.894  25.168  0.75 33.57           O1-
+HETATM   20  N7  PCN B 964      78.451   6.138  27.624  0.75 36.10           N  
+HETATM   21  N8  PCN B 964      79.583   5.326  30.496  0.75 34.21           N  
+HETATM   22  C9  PCN B 964      80.033   5.862  31.640  0.75 35.51           C  
+HETATM   23  O91 PCN B 964      79.303   6.475  32.420  0.75 34.31           O  
+HETATM   24  C10 PCN B 964      81.525   5.642  31.890  0.75 36.03           C  
+HETATM   25  N11 PCN B 964      82.479   5.602  31.040  0.75 35.19           N  
+HETATM   26  O12 PCN B 964      82.150   5.869  29.715  0.75 35.92           O  
+HETATM   27  C13 PCN B 964      83.364   5.871  28.985  0.75 34.19           C  
+HETATM   28  C14 PCN B 964      81.919   5.344  33.292  0.75 37.37           C  
+HETATM   29  C15 PCN B 964      81.275   5.767  34.437  0.75 36.99           C  
+HETATM   30  S16 PCN B 964      82.051   5.175  35.879  0.75 43.26           S  
+HETATM   31  C17 PCN B 964      83.253   4.400  34.873  0.75 37.62           C  
+HETATM   32  N18 PCN B 964      83.066   4.598  33.579  0.75 37.73           N  
+HETATM   33  N19 PCN B 964      84.303   3.670  35.390  0.75 37.22           N  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    6    8   10
+CONECT    9    8
+CONECT   10    9   11   21
+CONECT   11   10   12   20
+CONECT   12   11   13
+CONECT   13   12   14   15   16
+CONECT   14   13
+CONECT   15   13
+CONECT   16   13   17   20
+CONECT   17   16   18   19
+CONECT   17   18
+CONECT   18   17
+CONECT   18   17
+CONECT   19   17
+CONECT   20   11   16
+CONECT   21   10   22
+CONECT   22   21   23   24
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22   25   28
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26   25   27
+CONECT   27   26
+CONECT   28   24   29   32
+CONECT   28   29
+CONECT   29   28   30
+CONECT   29   28
+CONECT   30   29   31
+CONECT   31   30   32   33
+CONECT   31   32
+CONECT   32   28   31
+CONECT   32   31
+CONECT   33   31
+ENDMDL
+END   

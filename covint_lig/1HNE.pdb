@@ -1,0 +1,33 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1HNE
+MODEL        1
+ATOM      1  N   ALA I   2      33.869  17.087  51.287  1.00 28.41           N1+
+ATOM      2  CA  ALA I   2      34.431  15.748  51.446  1.00 24.83           C  
+ATOM      3  C   ALA I   2      35.958  15.879  51.501  1.00 23.00           C  
+ATOM      4  O   ALA I   2      36.590  16.267  50.518  1.00 23.82           O  
+ATOM      5  CB  ALA I   2      34.027  14.884  50.241  1.00 24.37           C  
+TER       6      ALA I   2
+HETATM    7  C1  MSU I   1      33.762  17.978  52.287  1.00 31.14           C  
+HETATM    8  O1  MSU I   1      33.996  17.697  53.463  1.00 31.29           O  
+HETATM    9  C2  MSU I   1      33.379  19.411  51.910  1.00 34.22           C  
+HETATM   10  C3  MSU I   1      31.871  19.684  52.039  1.00 36.68           C  
+HETATM   11  C4  MSU I   1      31.330  19.591  53.466  1.00 38.77           C  
+HETATM   12  OT1 MSU I   1      31.987  19.934  54.453  1.00 40.18           O  
+HETATM   13  OT2 MSU I   1      30.095  19.093  53.482  1.00 39.95           O  
+HETATM   14  CT  MSU I   1      29.440  18.896  54.714  1.00 39.84           C  
+CONECT    7    1    8    9
+CONECT    7    8
+CONECT    8    7
+CONECT    8    7
+CONECT    9    7   10
+CONECT   10    9   11
+CONECT   11   10   12   13
+CONECT   11   12
+CONECT   12   11
+CONECT   12   11
+CONECT   13   11   14
+CONECT   14   13
+ENDMDL
+END   

@@ -1,0 +1,122 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2JIV
+MODEL        1
+ATOM      1  N   CYS A 797      -1.991   2.682  21.066  1.00 30.52           N1+
+ATOM      2  CA  CYS A 797      -1.087   1.643  21.526  1.00 30.61           C  
+ATOM      3  C   CYS A 797      -1.873   0.801  22.507  1.00 30.19           C  
+ATOM      4  O   CYS A 797      -2.729   1.334  23.209  1.00 30.22           O  
+ATOM      5  CB  CYS A 797       0.129   2.295  22.206  1.00 30.70           C  
+ATOM      6  SG  CYS A 797      -0.317   3.803  23.135  1.00 33.02           S  
+TER       7      CYS A 797
+HETATM    8  CAJ HKI A1797       4.932   2.210  13.906  1.00 36.40           C  
+HETATM    9  CAL HKI A1797       9.456  -1.372  14.586  1.00 29.59           C  
+HETATM   10  CAK HKI A1797      10.244  -2.109  15.481  1.00 29.76           C  
+HETATM   11  CAO HKI A1797       7.294   2.348  16.776  1.00 33.52           C  
+HETATM   12  CAP HKI A1797       8.563   2.245  16.220  1.00 33.57           C  
+HETATM   13  CAN HKI A1797       9.737  -0.005  14.427  1.00 30.01           C  
+HETATM   14  CAS HKI A1797       2.934   4.669  17.751  1.00 35.94           C  
+HETATM   15  CAT HKI A1797       0.755   5.211  16.072  1.00 35.50           C  
+HETATM   16  CAR HKI A1797       6.794   4.182  15.276  1.00 33.26           C  
+HETATM   17  CAM HKI A1797      11.283  -1.440  16.162  1.00 29.60           C  
+HETATM   18  CAQ HKI A1797       2.781   3.346  13.802  1.00 36.20           C  
+HETATM   19  CBL HKI A1797       3.913   3.016  14.545  1.00 36.12           C  
+HETATM   20  CBR HKI A1797       2.922   4.204  16.418  1.00 35.83           C  
+HETATM   21  CBQ HKI A1797       1.821   4.471  15.571  1.00 35.70           C  
+HETATM   22  CBI HKI A1797       6.404   3.286  16.280  1.00 33.46           C  
+HETATM   23  CBM HKI A1797       1.837   5.384  18.244  1.00 35.93           C  
+HETATM   24  CBP HKI A1797       3.994   3.469  15.888  1.00 35.70           C  
+HETATM   25  CBN HKI A1797       8.928   3.035  15.104  1.00 33.11           C  
+HETATM   26  CBO HKI A1797       0.750   5.694  17.393  1.00 35.82           C  
+HETATM   27  CBJ HKI A1797       8.023   4.011  14.644  1.00 32.99           C  
+HETATM   28  CBK HKI A1797      10.789   0.565  15.152  1.00 30.73           C  
+HETATM   29  CBH HKI A1797       0.778   5.490  20.407  1.00 35.90           C  
+HETATM   30  CAA HKI A1797      -2.436   7.481  17.789  1.00 35.44           C  
+HETATM   31  CAB HKI A1797       3.481   6.568  25.274  1.00 38.40           C  
+HETATM   32  CAC HKI A1797       3.832   5.856  22.979  1.00 38.43           C  
+HETATM   33  CAV HKI A1797      11.098   2.043  15.034  1.00 31.17           C  
+HETATM   34  CAX HKI A1797       0.817   5.991  21.837  1.00 35.45           C  
+HETATM   35  CBT HKI A1797       1.140   4.839  22.814  1.00 34.84           C  
+HETATM   36  CAY HKI A1797       1.690   5.349  24.147  1.00 36.55           C  
+HETATM   37  CAU HKI A1797      -1.414   6.635  17.047  1.00 35.16           C  
+HETATM   38  NAD HKI A1797       5.764   1.581  13.424  1.00 36.64           N  
+HETATM   39  NBA HKI A1797       1.761   4.051  14.298  1.00 35.76           N  
+HETATM   40  NAZ HKI A1797      11.552  -0.131  16.015  1.00 30.20           N  
+HETATM   41  NBC HKI A1797       5.094   3.230  16.707  1.00 34.71           N  
+HETATM   42  NBB HKI A1797       1.824   5.755  19.606  1.00 35.75           N  
+HETATM   43  NBU HKI A1797       2.830   6.285  23.983  1.00 38.24           N1+
+HETATM   44  OAG HKI A1797      -0.206   4.856  20.040  1.00 36.58           O  
+HETATM   45  OBE HKI A1797      10.112   2.872  14.435  1.00 32.67           O  
+HETATM   46  OBD HKI A1797      -0.278   6.469  17.877  1.00 35.69           O  
+HETATM   47 CLA  HKI A1797       8.330   4.976  13.271  1.00 33.77          Cl  
+CONECT    8   19   38
+CONECT    8   38
+CONECT    8   38
+CONECT    9   10   13
+CONECT    9   10
+CONECT   10    9   17
+CONECT   10    9
+CONECT   11   12   22
+CONECT   11   12
+CONECT   12   11   25
+CONECT   12   11
+CONECT   13    9   28
+CONECT   13   28
+CONECT   14   20   23
+CONECT   14   23
+CONECT   15   21   26
+CONECT   15   26
+CONECT   16   22   27
+CONECT   16   22
+CONECT   17   10   40
+CONECT   17   40
+CONECT   18   19   39
+CONECT   18   19
+CONECT   19    8   18   24
+CONECT   19   18
+CONECT   20   14   21   24
+CONECT   20   24
+CONECT   21   15   20   39
+CONECT   21   39
+CONECT   22   11   16   41
+CONECT   22   16
+CONECT   23   14   26   42
+CONECT   23   14
+CONECT   24   19   20   41
+CONECT   24   20
+CONECT   25   12   27   45
+CONECT   25   27
+CONECT   26   15   23   46
+CONECT   26   15
+CONECT   27   16   25   47
+CONECT   27   25
+CONECT   28   13   33   40
+CONECT   28   13
+CONECT   29   34   42   44
+CONECT   29   44
+CONECT   30   37
+CONECT   31   43
+CONECT   32   43
+CONECT   33   28   45
+CONECT   34   29   35
+CONECT   35    6   34   36
+CONECT   36   35   43
+CONECT   37   30   46
+CONECT   38    8
+CONECT   38    8
+CONECT   38    8
+CONECT   39   18   21
+CONECT   39   21
+CONECT   40   17   28
+CONECT   40   17
+CONECT   41   22   24
+CONECT   42   23   29
+CONECT   43   31   32   36
+CONECT   44   29
+CONECT   44   29
+CONECT   45   25   33
+CONECT   46   26   37
+CONECT   47   27
+ENDMDL
+END   

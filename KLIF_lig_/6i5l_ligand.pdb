@@ -1,0 +1,76 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6i5l_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  H3Q C 502       1.297  19.432  40.801  1.00  0.00           C  
+HETATM    2  C5  H3Q C 502       1.198  20.786  41.088  1.00  0.00           C  
+HETATM    3  C6  H3Q C 502       0.602  21.157  42.282  1.00  0.00           C  
+HETATM    4  N1  H3Q C 502       2.960  18.920  37.516  1.00  0.00           N  
+HETATM    5  C7  H3Q C 502       0.141  20.188  43.154  1.00  0.00           C  
+HETATM    6  C8  H3Q C 502       0.286  18.871  42.787  1.00  0.00           C  
+HETATM    7  N2  H3Q C 502       0.853  18.480  41.638  1.00  0.00           N  
+HETATM    8  C9  H3Q C 502      -0.328  18.114  43.863  1.00  0.00           C  
+HETATM    9  C10 H3Q C 502      -0.756  19.025  44.775  1.00  0.00           C  
+HETATM   10  C11 H3Q C 502      -0.522  16.646  44.012  1.00  0.00           C  
+HETATM   11  C12 H3Q C 502      -1.292  16.138  45.054  1.00  0.00           C  
+HETATM   12  C13 H3Q C 502      -1.514  14.778  45.157  1.00  0.00           C  
+HETATM   13  C14 H3Q C 502      -0.980  13.912  44.217  1.00  0.00           C  
+HETATM   14  C15 H3Q C 502      -0.230  14.397  43.152  1.00  0.00           C  
+HETATM   15  C   H3Q C 502       2.793  16.554  37.019  1.00  0.00           C  
+HETATM   16  N   H3Q C 502       2.554  17.677  37.907  1.00  0.00           N  
+HETATM   17  C3  H3Q C 502       2.547  19.696  38.517  1.00  0.00           C  
+HETATM   18  C2  H3Q C 502       1.903  18.954  39.543  1.00  0.00           C  
+HETATM   19  C1  H3Q C 502       1.936  17.659  39.093  1.00  0.00           C  
+HETATM   20  O   H3Q C 502      -0.489  20.314  44.367  1.00  0.00           O  
+HETATM   21  C16 H3Q C 502       0.007  15.766  43.071  1.00  0.00           C  
+HETATM   22  C17 H3Q C 502       0.229  13.459  42.045  1.00  0.00           C  
+HETATM   23  C20 H3Q C 502      -0.290  13.612  40.596  1.00  0.00           C  
+HETATM   24  C19 H3Q C 502       1.099  13.181  40.076  1.00  0.00           C  
+HETATM   25  C18 H3Q C 502       1.651  13.506  41.481  1.00  0.00           C  
+CONECT    1    2    7   18
+CONECT    1    7
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2    5
+CONECT    3    2
+CONECT    4   16   17
+CONECT    4   17
+CONECT    5    3    6   20
+CONECT    5    6
+CONECT    6    5    7    8
+CONECT    6    5
+CONECT    7    1    6
+CONECT    7    1
+CONECT    8    6    9   10
+CONECT    8    9
+CONECT    9    8   20
+CONECT    9    8
+CONECT   10    8   11   21
+CONECT   10   21
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   21   22
+CONECT   14   13
+CONECT   15   16
+CONECT   16    4   15   19
+CONECT   17    4   18
+CONECT   17    4
+CONECT   18    1   17   19
+CONECT   18   19
+CONECT   19   16   18
+CONECT   19   18
+CONECT   20    5    9
+CONECT   21   10   14
+CONECT   21   10
+CONECT   22   14   23   25
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   22   24
+ENDMDL
+END   

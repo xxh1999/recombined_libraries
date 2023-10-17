@@ -1,0 +1,77 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7s26_ligand
+MODEL        1
+HETATM    1  C2  Q86 A 502       4.356  17.403  37.014  1.00  0.00           C  
+HETATM    2  C3  Q86 A 502       4.252  15.960  36.536  1.00  0.00           C  
+HETATM    3  C5  Q86 A 502       4.486  14.170  38.199  1.00  0.00           C  
+HETATM    4  C6  Q86 A 502       6.625  15.338  37.389  1.00  0.00           C  
+HETATM    5  C7  Q86 A 502       7.149  15.815  38.595  1.00  0.00           C  
+HETATM    6  C8  Q86 A 502       8.515  15.979  38.740  1.00  0.00           C  
+HETATM    7  C11 Q86 A 502       7.495  15.028  36.344  1.00  0.00           C  
+HETATM    8  C15 Q86 A 502       2.165  19.214  40.036  1.00  0.00           C  
+HETATM    9  C16 Q86 A 502       2.720  19.898  39.064  1.00  0.00           C  
+HETATM   10  C17 Q86 A 502       3.065  19.309  37.737  1.00  0.00           C  
+HETATM   11  C18 Q86 A 502       1.472  19.880  41.142  1.00  0.00           C  
+HETATM   12  C19 Q86 A 502       1.196  21.224  41.209  1.00  0.00           C  
+HETATM   13  C24 Q86 A 502      -0.367  19.018  44.742  1.00  0.00           C  
+HETATM   14  C27 Q86 A 502       0.977  19.306  42.369  1.00  0.00           C  
+HETATM   15  O1  Q86 A 502       5.229  18.122  36.555  1.00  0.00           O  
+HETATM   16  N4  Q86 A 502       5.154  15.078  37.252  1.00  0.00           N  
+HETATM   17  C9  Q86 A 502       9.371  15.657  37.707  1.00  0.00           C  
+HETATM   18  C10 Q86 A 502       8.865  15.174  36.519  1.00  0.00           C  
+HETATM   19  N12 Q86 A 502       3.377  17.877  37.825  1.00  0.00           N  
+HETATM   20  C13 Q86 A 502       2.457  17.064  38.635  1.00  0.00           C  
+HETATM   21  C14 Q86 A 502       2.062  17.729  39.956  1.00  0.00           C  
+HETATM   22  N20 Q86 A 502       0.589  21.524  42.397  1.00  0.00           N  
+HETATM   23  C22 Q86 A 502       0.450  20.371  43.120  1.00  0.00           C  
+HETATM   24  N23 Q86 A 502      -0.188  20.274  44.299  1.00  0.00           N  
+HETATM   25  C25 Q86 A 502       0.113  17.882  44.083  1.00  0.00           C  
+HETATM   26  C26 Q86 A 502       0.809  18.027  42.888  1.00  0.00           C  
+CONECT    1    2   15   19
+CONECT    1   15
+CONECT    2    1   16
+CONECT    3   16
+CONECT    4    5    7   16
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    5   17
+CONECT    6   17
+CONECT    7    4   18
+CONECT    7   18
+CONECT    8    9   11   21
+CONECT    8   21
+CONECT    9    8   10
+CONECT   10    9   19
+CONECT   11    8   12   14
+CONECT   11   12
+CONECT   12   11   22
+CONECT   12   11
+CONECT   13   24   25
+CONECT   13   24
+CONECT   14   11   23   26
+CONECT   14   23
+CONECT   15    1
+CONECT   15    1
+CONECT   16    2    3    4
+CONECT   17    6   18
+CONECT   17    6
+CONECT   18    7   17
+CONECT   18    7
+CONECT   19    1   10   20
+CONECT   20   19   21
+CONECT   21    8   20
+CONECT   21    8
+CONECT   22   12   23
+CONECT   23   14   22   24
+CONECT   23   14
+CONECT   24   13   23
+CONECT   24   13
+CONECT   25   13   26
+CONECT   25   26
+CONECT   26   14   25
+CONECT   26   25
+ENDMDL
+END   

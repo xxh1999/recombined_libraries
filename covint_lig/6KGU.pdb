@@ -1,0 +1,85 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6KGU
+MODEL        1
+ATOM      1  N   SER A 386      24.341   2.108  -2.201  1.00 29.59           N1+
+ATOM      2  CA  SER A 386      24.602   0.674  -2.144  1.00 26.75           C  
+ATOM      3  C   SER A 386      25.187   0.175  -0.803  1.00 31.91           C  
+ATOM      4  O   SER A 386      25.121  -1.025  -0.554  1.00 27.80           O  
+ATOM      5  CB  SER A 386      25.557   0.284  -3.287  1.00 25.74           C  
+ATOM      6  OG  SER A 386      25.059   0.515  -4.601  1.00 27.91           O  
+TER       7      SER A 386
+HETATM    8  C7  AZR A 701      26.045   1.040  -8.970  1.00 36.47           C  
+HETATM    9  S8  AZR A 701      21.030   6.014  -4.423  1.00 64.23           S  
+HETATM   10  O9  AZR A 701      25.614   2.740  -4.671  1.00 31.29           O  
+HETATM   11  O10 AZR A 701      22.204   2.385  -7.415  1.00 42.19           O  
+HETATM   12  O11 AZR A 701      23.993   4.393  -9.700  1.00 47.11           O  
+HETATM   13  N12 AZR A 701      26.900   0.071  -6.920  1.00 32.34           N  
+HETATM   14  N13 AZR A 701      24.431   2.870  -7.209  1.00 34.59           N  
+HETATM   15  N14 AZR A 701      23.408   5.258  -8.744  1.00 46.91           N  
+HETATM   16  N15 AZR A 701      21.774   6.720  -6.806  1.00 49.67           N  
+HETATM   17  N16 AZR A 701      20.623   8.450  -5.603  1.00 45.76           N  
+HETATM   18  S17 AZR A 701      28.525   0.112  -6.368  1.00 34.08           S  
+HETATM   19  C18 AZR A 701      26.247   1.260  -7.472  1.00 32.77           C  
+HETATM   20  C19 AZR A 701      24.927   1.584  -6.724  1.00 36.57           C  
+HETATM   21  C20 AZR A 701      25.226   1.707  -5.216  1.00 34.25           C  
+HETATM   22  C21 AZR A 701      23.148   3.175  -7.446  1.00 45.67           C  
+HETATM   23  C22 AZR A 701      22.960   4.649  -7.716  1.00 49.18           C  
+HETATM   24  C23 AZR A 701      24.630   5.133 -10.751  1.00 55.36           C  
+HETATM   25  C24 AZR A 701      22.200   5.392  -6.668  1.00 46.61           C  
+HETATM   26  C25 AZR A 701      21.874   4.870  -5.430  1.00 45.57           C  
+HETATM   27  C26 AZR A 701      21.139   7.176  -5.727  1.00 48.50           C  
+HETATM   28  C27 AZR A 701      25.797   5.965 -10.177  1.00 52.32           C  
+HETATM   29  C28 AZR A 701      25.188   4.068 -11.712  1.00 53.23           C  
+HETATM   30  C29 AZR A 701      23.629   6.005 -11.549  1.00 48.12           C  
+HETATM   31  O30 AZR A 701      22.485   5.534 -11.741  1.00 54.18           O1-
+HETATM   32  O31 AZR A 701      24.022   7.113 -11.976  1.00 56.48           O  
+HETATM   33  O32 AZR A 701      29.307   0.085  -7.613  1.00 36.19           O1-
+HETATM   34  O33 AZR A 701      28.608  -1.101  -5.548  1.00 32.28           O  
+HETATM   35  O34 AZR A 701      28.616   1.369  -5.612  1.00 37.19           O  
+CONECT    8   19
+CONECT    9   26   27
+CONECT   10   21
+CONECT   10   21
+CONECT   11   22
+CONECT   11   22
+CONECT   12   15   24
+CONECT   13   18   19
+CONECT   14   20   22
+CONECT   15   12   23
+CONECT   15   23
+CONECT   16   25   27
+CONECT   16   27
+CONECT   17   27
+CONECT   18   13   33   34   35
+CONECT   18   34   35
+CONECT   19    8   13   20
+CONECT   20   14   19   21
+CONECT   21    6   10   20
+CONECT   21   10
+CONECT   22   11   14   23
+CONECT   22   11
+CONECT   23   15   22   25
+CONECT   23   15
+CONECT   24   12   28   29   30
+CONECT   25   16   23   26
+CONECT   25   26
+CONECT   26    9   25
+CONECT   26   25
+CONECT   27    9   16   17
+CONECT   27   16
+CONECT   28   24
+CONECT   29   24
+CONECT   30   24   31   32
+CONECT   30   32
+CONECT   31   30
+CONECT   32   30
+CONECT   32   30
+CONECT   33   18
+CONECT   34   18
+CONECT   34   18
+CONECT   35   18
+CONECT   35   18
+ENDMDL
+END   

@@ -1,0 +1,84 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7K0G
+MODEL        1
+ATOM      1  N   CYS A 145      10.636  14.429  16.044  1.00 23.43           N1+
+ATOM      2  CA  CYS A 145      11.932  13.911  16.443  1.00 22.75           C  
+ATOM      3  C   CYS A 145      11.885  13.311  17.845  1.00 27.39           C  
+ATOM      4  O   CYS A 145      11.126  13.736  18.717  1.00 27.72           O  
+ATOM      5  CB  CYS A 145      12.993  15.019  16.333  1.00 23.88           C  
+ATOM      6  SG  CYS A 145      13.343  15.340  14.605  1.00 27.79           S1+
+TER       7      CYS A 145
+HETATM    8  C7  K36 A 401      14.827  19.251   6.671  0.50 35.84           C  
+HETATM    9  O8  K36 A 401      15.506  19.673   7.871  0.50 36.82           O  
+HETATM   10  C9  K36 A 401      15.460  18.871   9.005  0.50 33.67           C  
+HETATM   11  O10 K36 A 401      14.951  17.766   8.978  0.50 33.10           O  
+HETATM   12  C1  K36 A 401      13.337  19.569   6.645  0.50 39.56           C  
+HETATM   13  C2  K36 A 401      12.748  20.399   7.593  0.50 46.11           C  
+HETATM   14  C3  K36 A 401      11.380  20.700   7.584  0.50 50.18           C  
+HETATM   15  C4  K36 A 401      10.535  20.173   6.618  0.50 44.47           C  
+HETATM   16  C5  K36 A 401      11.093  19.338   5.656  0.50 43.79           C  
+HETATM   17  C6  K36 A 401      12.462  19.042   5.672  0.50 45.73           C  
+HETATM   18  N11 K36 A 401      16.036  19.390  10.192  0.50 32.17           N  
+HETATM   19  C12 K36 A 401      15.973  18.616  11.415  0.50 30.15           C  
+HETATM   20  C17 K36 A 401      14.453  18.591  11.886  0.50 31.00           C  
+HETATM   21  O18 K36 A 401      13.745  19.581  11.720  0.50 29.75           O  
+HETATM   22  C13 K36 A 401      16.865  19.174  12.564  0.50 28.92           C  
+HETATM   23  C14 K36 A 401      18.366  19.328  12.199  0.50 32.05           C  
+HETATM   24  C15 K36 A 401      19.268  19.893  13.331  0.50 31.08           C  
+HETATM   25  C16 K36 A 401      18.956  17.997  11.709  0.50 31.19           C  
+HETATM   26  N19 K36 A 401      13.929  17.493  12.496  0.50 28.14           N  
+HETATM   27  C20 K36 A 401      12.552  17.381  12.966  0.50 27.09           C  
+HETATM   28  C21 K36 A 401      12.514  16.928  14.435  0.50 24.75           C  
+HETATM   29  O22 K36 A 401      11.157  16.834  14.797  0.50 29.02           O1-
+HETATM   30  C24 K36 A 401      11.758  16.383  12.078  0.50 28.85           C  
+HETATM   31  C25 K36 A 401      11.714  16.766  10.570  0.50 30.90           C  
+HETATM   32  C26 K36 A 401      10.859  18.020  10.346  0.50 33.09           C  
+HETATM   33  C27 K36 A 401       9.903  17.731   9.192  0.50 38.56           C  
+HETATM   34  N28 K36 A 401      10.008  16.301   8.953  0.50 35.21           N  
+HETATM   35  C29 K36 A 401      11.012  15.705   9.717  0.50 33.82           C  
+HETATM   36  O30 K36 A 401      11.258  14.508   9.656  0.50 29.78           O  
+CONECT    8    9   12
+CONECT    9    8   10
+CONECT   10    9   11   18
+CONECT   10   11
+CONECT   11   10
+CONECT   11   10
+CONECT   12    8   13   17
+CONECT   12   17
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   12   16
+CONECT   17   12
+CONECT   18   10   19
+CONECT   19   18   20   22
+CONECT   20   19   21   26
+CONECT   20   21
+CONECT   21   20
+CONECT   21   20
+CONECT   22   19   23
+CONECT   23   22   24   25
+CONECT   24   23
+CONECT   25   23
+CONECT   26   20   27
+CONECT   27   26   28   30
+CONECT   28    6   27   29
+CONECT   29   28
+CONECT   30   27   31
+CONECT   31   30   32   35
+CONECT   32   31   33
+CONECT   33   32   34
+CONECT   34   33   35
+CONECT   35   31   34   36
+CONECT   35   36
+CONECT   36   35
+CONECT   36   35
+ENDMDL
+END   

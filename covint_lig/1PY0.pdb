@@ -1,0 +1,90 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1PY0
+MODEL        1
+ATOM      1  N   CYS A  51      -4.123  20.483   2.920  1.00 36.53           N1+
+ATOM      2  CA  CYS A  51      -3.500  19.157   2.866  1.00 37.80           C  
+ATOM      3  C   CYS A  51      -3.748  18.560   1.474  1.00 36.03           C  
+ATOM      4  O   CYS A  51      -4.893  18.313   1.097  1.00 37.25           O  
+ATOM      5  CB  CYS A  51      -4.081  18.255   3.976  1.00 38.32           C  
+ATOM      6  SG  CYS A  51      -3.135  16.743   4.356  1.00 48.34           S  
+TER       7      CYS A  51
+HETATM    8  O8  YMA A 195       3.256  14.554   2.386  0.70 73.88           O  
+HETATM    9  C2  YMA A 195       3.011  13.485   2.984  0.70 74.32           C  
+HETATM   10  O7  YMA A 195       2.116  13.341   3.839  0.70 73.85           O1-
+HETATM   11  C1  YMA A 195       3.790  12.237   2.571  0.70 74.62           C  
+HETATM   12  N1  YMA A 195       3.014  11.516   1.522  0.70 74.11           N1+
+HETATM   13  C10 YMA A 195       3.746  11.407   0.233  0.70 72.79           C  
+HETATM   14  C11 YMA A 195       3.786  12.754  -0.532  0.70 70.69           C  
+HETATM   15  N3  YMA A 195       2.528  13.093  -1.222  0.70 69.14           N  
+HETATM   16  C14 YMA A 195       2.444  14.574  -1.395  0.70 65.70           C  
+HETATM   17  C15 YMA A 195       1.160  15.158  -2.031  0.70 61.54           C  
+HETATM   18  N5  YMA A 195       0.999  16.490  -2.130  0.70 56.08           N  
+HETATM   19  C16 YMA A 195       1.629  17.589  -1.390  0.70 48.22           C  
+HETATM   20  C18 YMA A 195       3.157  17.760  -1.477  0.70 42.13           C  
+HETATM   21  S2  YMA A 195       3.811  17.999  -3.150  0.70 32.41           S  
+HETATM   22  O6  YMA A 195       0.271  14.420  -2.450  0.70 62.62           O  
+HETATM   23  C12 YMA A 195       2.418  12.332  -2.486  0.70 70.51           C  
+HETATM   24  C13 YMA A 195       1.539  11.090  -2.318  0.70 71.95           C  
+HETATM   25  O4  YMA A 195       2.064   9.979  -2.545  0.70 73.38           O1-
+HETATM   26  O3  YMA A 195       0.364  11.269  -1.934  0.70 72.31           O  
+HETATM   27  C3  YMA A 195       2.410  10.236   1.991  0.70 74.74           C  
+HETATM   28  C4  YMA A 195       1.000   9.974   1.393  0.70 75.01           C  
+HETATM   29  N2  YMA A 195      -0.041  10.920   1.833  0.70 74.40           N  
+HETATM   30  C5  YMA A 195      -0.339  10.773   3.274  0.70 75.29           C  
+HETATM   31  C6  YMA A 195      -1.311  11.824   3.820  0.70 75.85           C  
+HETATM   32  O2  YMA A 195      -2.443  11.429   4.173  0.70 76.28           O  
+HETATM   33  O1  YMA A 195      -0.922  13.010   3.826  0.70 75.85           O1-
+HETATM   34  C7  YMA A 195      -1.274  10.807   0.990  0.70 72.86           C  
+HETATM   35  C8  YMA A 195      -1.912  12.171   0.665  0.70 71.43           C  
+HETATM   36  O5  YMA A 195      -1.296  12.968  -0.035  0.70 71.19           O  
+HETATM   37  N4  YMA A 195      -3.099  12.465   1.226  0.70 69.18           N  
+HETATM   38  C9  YMA A 195      -3.809  13.735   1.063  0.70 65.75           C  
+HETATM   39  C17 YMA A 195      -3.225  14.884   1.914  0.70 63.05           C  
+HETATM   40  S1  YMA A 195      -4.112  15.174   3.468  0.70 57.12           S  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10   11
+CONECT    9    8
+CONECT   10    9
+CONECT   11    9   12
+CONECT   12   11   13   27
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   16   23
+CONECT   16   15   17
+CONECT   17   16   18   22
+CONECT   17   22
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   20
+CONECT   22   17
+CONECT   22   17
+CONECT   23   15   24
+CONECT   24   23   25   26
+CONECT   24   26
+CONECT   25   24
+CONECT   26   24
+CONECT   26   24
+CONECT   27   12   28
+CONECT   28   27   29
+CONECT   29   28   30   34
+CONECT   30   29   31
+CONECT   31   30   32   33
+CONECT   31   32
+CONECT   32   31
+CONECT   32   31
+CONECT   33   31
+CONECT   34   29   35
+CONECT   35   34   36   37
+CONECT   35   36
+CONECT   36   35
+CONECT   36   35
+CONECT   37   35   38
+CONECT   38   37   39
+CONECT   39   38   40
+CONECT   40    6   39
+ENDMDL
+END   

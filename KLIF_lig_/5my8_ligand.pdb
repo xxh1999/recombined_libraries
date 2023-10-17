@@ -1,0 +1,106 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5my8_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  RXZ A 724       2.132  14.373  40.565  1.00  0.00           C  
+HETATM    2  C5  RXZ A 724       3.516  13.775  40.596  1.00  0.00           C  
+HETATM    3  C6  RXZ A 724       4.631  14.547  40.334  1.00  0.00           C  
+HETATM    4  N1  RXZ A 724       1.513  14.491  41.890  1.00  0.00           N1+
+HETATM    5  C7  RXZ A 724       5.881  13.976  40.477  1.00  0.00           C  
+HETATM    6  C8  RXZ A 724       5.992  12.669  40.854  1.00  0.00           C  
+HETATM    7  N2  RXZ A 724       3.601  12.485  40.962  1.00  0.00           N  
+HETATM    8  C9  RXZ A 724       4.832  11.959  41.086  1.00  0.00           C  
+HETATM    9  C10 RXZ A 724      -0.187  16.437  45.224  1.00  0.00           C  
+HETATM   10  C11 RXZ A 724      -0.649  15.503  46.134  1.00  0.00           C  
+HETATM   11  C12 RXZ A 724      -1.213  15.920  47.317  1.00  0.00           C  
+HETATM   12  N3  RXZ A 724       0.237  18.665  44.529  1.00  0.00           N  
+HETATM   13  C13 RXZ A 724      -1.334  17.266  47.623  1.00  0.00           C  
+HETATM   14  C14 RXZ A 724      -0.860  18.215  46.720  1.00  0.00           C  
+HETATM   15  C15 RXZ A 724      -0.286  17.804  45.516  1.00  0.00           C  
+HETATM   16  N4  RXZ A 724       3.682  18.784  37.920  1.00  0.00           N  
+HETATM   17  F2  RXZ A 724      -1.745  18.907  49.222  1.00  0.00           F  
+HETATM   18  C26 RXZ A 724      -2.008  17.688  48.885  1.00  0.00           C  
+HETATM   19  F   RXZ A 724      -1.710  16.921  49.908  1.00  0.00           F  
+HETATM   20  F1  RXZ A 724      -3.322  17.597  48.818  1.00  0.00           F  
+HETATM   21  C16 RXZ A 724       0.182  20.000  44.448  1.00  0.00           C  
+HETATM   22  O1  RXZ A 724      -0.258  20.720  45.332  1.00  0.00           O  
+HETATM   23  C17 RXZ A 724       0.693  20.549  43.220  1.00  0.00           C  
+HETATM   24  O   RXZ A 724       1.236  19.729  42.256  1.00  0.00           O  
+HETATM   25  C20 RXZ A 724       1.628  20.549  41.230  1.00  0.00           C  
+HETATM   26  C21 RXZ A 724       2.285  19.930  40.068  1.00  0.00           C  
+HETATM   27  C25 RXZ A 724       2.510  18.555  40.008  1.00  0.00           C  
+HETATM   28  C24 RXZ A 724       3.209  18.040  38.928  1.00  0.00           C  
+HETATM   29  C23 RXZ A 724       3.447  20.104  37.985  1.00  0.00           C  
+HETATM   30  C22 RXZ A 724       2.768  20.712  39.022  1.00  0.00           C  
+HETATM   31  C19 RXZ A 724       1.344  21.838  41.551  1.00  0.00           C  
+HETATM   32  C18 RXZ A 724       0.756  21.832  42.812  1.00  0.00           C  
+HETATM   33  N   RXZ A 724       0.400  16.055  44.026  1.00  0.00           N  
+HETATM   34  C1  RXZ A 724       1.712  15.422  44.168  1.00  0.00           C  
+HETATM   35  C2  RXZ A 724      -0.454  15.296  43.104  1.00  0.00           C  
+HETATM   36  C3  RXZ A 724       0.211  15.158  41.765  1.00  0.00           C  
+HETATM   37  C   RXZ A 724       2.370  15.286  42.815  1.00  0.00           C  
+CONECT    1    2    4
+CONECT    2    1    3    7
+CONECT    2    7
+CONECT    3    2    5
+CONECT    3    5
+CONECT    4    1   36   37
+CONECT    5    3    6
+CONECT    5    3
+CONECT    6    5    8
+CONECT    6    8
+CONECT    7    2    8
+CONECT    7    2
+CONECT    8    6    7
+CONECT    8    6
+CONECT    9   10   15   33
+CONECT    9   15
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   13
+CONECT   11   10
+CONECT   12   15   21
+CONECT   13   11   14   18
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15    9   12   14
+CONECT   15    9
+CONECT   16   28   29
+CONECT   16   28
+CONECT   17   18
+CONECT   18   13   17   19   20
+CONECT   19   18
+CONECT   20   18
+CONECT   21   12   22   23
+CONECT   21   22
+CONECT   22   21
+CONECT   22   21
+CONECT   23   21   24   32
+CONECT   23   32
+CONECT   24   23   25
+CONECT   25   24   26   31
+CONECT   25   31
+CONECT   26   25   27   30
+CONECT   26   27
+CONECT   27   26   28
+CONECT   27   26
+CONECT   28   16   27
+CONECT   28   16
+CONECT   29   16   30
+CONECT   29   30
+CONECT   30   26   29
+CONECT   30   29
+CONECT   31   25   32
+CONECT   31   25
+CONECT   32   23   31
+CONECT   32   23
+CONECT   33    9   34   35
+CONECT   34   33   37
+CONECT   35   33   36
+CONECT   36    4   35
+CONECT   37    4   34
+ENDMDL
+END   

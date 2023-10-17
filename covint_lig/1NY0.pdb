@@ -1,0 +1,66 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1NY0
+MODEL        1
+ATOM      1  N   SER A  70      10.424   4.658  35.623  1.00  7.63           N1+
+ATOM      2  CA  SER A  70       9.137   4.806  36.304  1.00 10.79           C  
+ATOM      3  C   SER A  70       7.939   4.142  35.601  1.00 11.49           C  
+ATOM      4  O   SER A  70       6.848   4.156  36.169  1.00  9.90           O  
+ATOM      5  CB  SER A  70       8.811   6.296  36.461  0.50 10.97           C  
+ATOM      6  OG  SER A  70       9.709   6.932  37.346  0.50 12.49           O  
+TER       7      SER A  70
+HETATM    8  C25 NBF A 300      12.792  14.334  37.979  0.50 29.09           C  
+HETATM    9  C24 NBF A 300      12.068  12.986  37.852  0.50 26.77           C  
+HETATM   10  O23 NBF A 300      12.364  12.324  36.623  0.50 26.31           O  
+HETATM   11  C15 NBF A 300      13.687  11.998  36.436  0.50 20.67           C  
+HETATM   12  C13 NBF A 300      14.319  10.916  37.112  0.50 19.79           C  
+HETATM   13  C11 NBF A 300      13.503  10.032  38.014  0.50 19.02           C  
+HETATM   14  O12 NBF A 300      13.802   9.832  39.190  0.50 17.79           O  
+HETATM   15  N10 NBF A 300      12.446   9.493  37.407  0.50 15.32           N  
+HETATM   16  C7  NBF A 300      11.509   8.570  38.003  0.50 13.96           C  
+HETATM   17  B   NBF A 300      10.634   7.954  36.800  0.50 12.15           B1-
+HETATM   18  O1  NBF A 300      11.538   7.344  35.809  0.50  8.58           O  
+HETATM   19  O2  NBF A 300       9.878   9.040  36.136  0.50 13.33           O  
+HETATM   20  C14 NBF A 300      15.706  10.671  36.896  0.50 18.99           C  
+HETATM   21  C16 NBF A 300      16.426  11.502  35.995  0.50 17.04           C  
+HETATM   22  C18 NBF A 300      17.801  11.293  35.766  0.50 19.45           C  
+HETATM   23  C20 NBF A 300      18.476  10.253  36.423  0.50 18.05           C  
+HETATM   24  C22 NBF A 300      17.775   9.405  37.297  0.50 19.32           C  
+HETATM   25  C17 NBF A 300      16.404   9.608  37.529  0.50 16.68           C  
+HETATM   26  C19 NBF A 300      15.778  12.544  35.308  0.50 20.90           C  
+HETATM   27  C21 NBF A 300      14.414  12.783  35.522  0.50 21.31           C  
+CONECT    8    9
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10   12   27
+CONECT   11   12
+CONECT   12   11   13   20
+CONECT   12   11
+CONECT   13   12   14   15
+CONECT   13   14
+CONECT   14   13
+CONECT   14   13
+CONECT   15   13   16
+CONECT   16   15   17
+CONECT   17    6   16   18   19
+CONECT   18   17
+CONECT   19   17
+CONECT   20   12   21   25
+CONECT   20   21
+CONECT   21   20   22   26
+CONECT   21   20
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   23   25
+CONECT   24   25
+CONECT   25   20   24
+CONECT   25   24
+CONECT   26   21   27
+CONECT   26   27
+CONECT   27   11   26
+CONECT   27   26
+ENDMDL
+END   

@@ -1,0 +1,80 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2AIM
+MODEL        1
+ATOM      1  N   CYS A  25       8.754   9.181   7.762  1.00  2.44           N1+
+ATOM      2  CA  CYS A  25       8.181   8.029   8.477  1.00  7.74           C  
+ATOM      3  C   CYS A  25       7.469   6.991   7.582  1.00  3.22           C  
+ATOM      4  O   CYS A  25       7.475   5.800   7.885  1.00  8.99           O  
+ATOM      5  CB  CYS A  25       7.263   8.528   9.610  1.00 11.48           C  
+ATOM      6  SG  CYS A  25       5.686   9.188   8.966  1.00 13.15           S  
+TER       7      CYS A  25
+HETATM    8  C1  ZRA A 280       1.326  12.481   4.852  1.00 21.55           C  
+HETATM    9  O1  ZRA A 280       0.894  13.460   5.461  1.00 27.74           O  
+HETATM   10  O2  ZRA A 280       1.252  12.310   3.517  1.00 12.16           O  
+HETATM   11  C2  ZRA A 280       0.663  13.332   2.725  1.00  8.34           C  
+HETATM   12  C3  ZRA A 280       0.726  13.048   1.236  1.00 17.33           C  
+HETATM   13  C4  ZRA A 280       1.888  13.359   0.498  1.00 15.53           C  
+HETATM   14  C5  ZRA A 280       1.927  13.131  -0.891  1.00 17.18           C  
+HETATM   15  C6  ZRA A 280       0.804  12.595  -1.551  1.00 22.91           C  
+HETATM   16  C7  ZRA A 280      -0.358  12.286  -0.819  1.00 25.06           C  
+HETATM   17  C8  ZRA A 280      -0.397  12.512   0.571  1.00 12.95           C  
+HETATM   18  CA1 ZRA A 280       2.367  11.266   6.814  1.00 15.25           C  
+HETATM   19  CB1 ZRA A 280       2.173   9.799   7.270  1.00 22.38           C  
+HETATM   20  CG  ZRA A 280       0.756   9.244   7.064  1.00 22.00           C  
+HETATM   21  CD  ZRA A 280      -0.339  10.132   7.682  0.79 21.25           C  
+HETATM   22  NE  ZRA A 280      -1.650   9.500   7.724  0.79 21.11           N  
+HETATM   23  CZ  ZRA A 280      -2.263   9.378   6.416  0.79 12.21           C  
+HETATM   24  NH1 ZRA A 280      -1.824   8.127   5.786  0.79 17.49           N1+
+HETATM   25  NH2 ZRA A 280      -3.698   9.330   6.596  0.79 23.73           N  
+HETATM   26  C   ZRA A 280       3.865  11.574   6.915  1.00  9.47           C  
+HETATM   27  N1  ZRA A 280       1.971  11.393   5.412  1.00 16.53           N  
+HETATM   28  O   ZRA A 280       4.660  10.961   6.205  1.00  9.56           O  
+HETATM   29  N2  ZRA A 280       4.251  12.487   7.819  1.00  8.05           N  
+HETATM   30  CA2 ZRA A 280       5.640  12.859   8.101  1.00 13.15           C  
+HETATM   31  CT  ZRA A 280       6.367  11.829   9.004  1.00 24.72           C  
+HETATM   32  OT  ZRA A 280       7.588  11.798   9.116  1.00 15.71           O  
+HETATM   33  CB2 ZRA A 280       5.637  14.216   8.819  1.00 20.30           C  
+HETATM   34  CM  ZRA A 280       5.567  10.797   9.786  1.00 15.65           C  
+CONECT    8    9   10   27
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8   11
+CONECT   11   10   12
+CONECT   12   11   13   17
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   12   16
+CONECT   17   16
+CONECT   18   19   26   27
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   23   22   24   25
+CONECT   24   23
+CONECT   25   23
+CONECT   26   18   28   29
+CONECT   26   28
+CONECT   27    8   18
+CONECT   28   26
+CONECT   28   26
+CONECT   29   26   30
+CONECT   30   29   31   33
+CONECT   31   30   32   34
+CONECT   31   32
+CONECT   32   31
+CONECT   32   31
+CONECT   33   30
+CONECT   34    6   31
+ENDMDL
+END   

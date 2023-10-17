@@ -1,0 +1,69 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     8a5x_ligand
+MODEL        1
+HETATM    1  C1  L6A A2001       1.224  21.078  44.633  1.00  0.00           C  
+HETATM    2  C2  L6A A2001       1.955  19.620  43.047  1.00  0.00           C  
+HETATM    3  C3  L6A A2001       2.269  20.689  42.189  1.00  0.00           C  
+HETATM    4  C4  L6A A2001       2.822  20.396  40.922  1.00  0.00           C  
+HETATM    5  C5  L6A A2001       3.046  19.098  40.532  1.00  0.00           C  
+HETATM    6  C6  L6A A2001       3.667  18.946  39.176  1.00  0.00           C  
+HETATM    7  C12 L6A A2001       3.165  13.899  40.311  1.00  0.00           C  
+HETATM    8  C13 L6A A2001       3.852  14.397  41.409  1.00  0.00           C  
+HETATM    9  C14 L6A A2001       4.706  13.493  42.261  1.00  0.00           C  
+HETATM   10  O1  L6A A2001       3.965  12.415  42.804  1.00  0.00           O  
+HETATM   11  N   L6A A2001       2.229  23.105  41.959  1.00  0.00           N  
+HETATM   12  C   L6A A2001       1.992  22.010  42.696  1.00  0.00           C  
+HETATM   13  O   L6A A2001       4.437  18.006  38.948  1.00  0.00           O  
+HETATM   14  C10 L6A A2001       2.210  16.061  39.889  1.00  0.00           C  
+HETATM   15  C11 L6A A2001       2.350  14.724  39.556  1.00  0.00           C  
+HETATM   16  C15 L6A A2001       3.711  15.744  41.729  1.00  0.00           C  
+HETATM   17  C7  L6A A2001       2.716  18.018  41.379  1.00  0.00           C  
+HETATM   18  C8  L6A A2001       2.185  18.291  42.624  1.00  0.00           C  
+HETATM   19  C9  L6A A2001       2.889  16.593  40.985  1.00  0.00           C  
+HETATM   20  N1  L6A A2001       1.475  22.175  43.916  1.00  0.00           N  
+HETATM   21  N2  L6A A2001       1.420  19.811  44.302  1.00  0.00           N  
+HETATM   22  N3  L6A A2001       3.372  19.866  38.266  1.00  0.00           N  
+CONECT    1   20   21
+CONECT    1   21
+CONECT    2    3   18   21
+CONECT    2   18
+CONECT    3    2    4   12
+CONECT    3    4
+CONECT    4    3    5
+CONECT    4    3
+CONECT    5    4    6   17
+CONECT    5   17
+CONECT    6    5   13   22
+CONECT    6   13
+CONECT    7    8   15
+CONECT    7   15
+CONECT    8    7    9   16
+CONECT    8   16
+CONECT    9    8   10
+CONECT   10    9
+CONECT   11   12
+CONECT   12    3   11   20
+CONECT   12   20
+CONECT   13    6
+CONECT   13    6
+CONECT   14   15   19
+CONECT   14   19
+CONECT   15    7   14
+CONECT   15    7
+CONECT   16    8   19
+CONECT   16    8
+CONECT   17    5   18   19
+CONECT   17    5
+CONECT   18    2   17
+CONECT   18    2
+CONECT   19   14   16   17
+CONECT   19   14
+CONECT   20    1   12
+CONECT   20   12
+CONECT   21    1    2
+CONECT   21    1
+CONECT   22    6
+ENDMDL
+END   

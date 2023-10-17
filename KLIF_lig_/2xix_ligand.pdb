@@ -1,0 +1,26 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2xix_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N1  XIX A1307       1.481  17.852  41.550  1.00  0.00           N  
+HETATM    2  N2  XIX A1307       1.009  18.675  42.349  1.00  0.00           N  
+HETATM    3  N4  XIX A1307       0.661  21.013  42.351  1.00  0.00           N  
+HETATM    4  C6  XIX A1307       1.878  18.492  40.434  1.00  0.00           C  
+HETATM    5  N7  XIX A1307       1.633  19.798  40.549  1.00  0.00           N  
+HETATM    6  N8  XIX A1307       2.435  17.897  39.370  1.00  0.00           N  
+HETATM    7  C2  XIX A1307       1.086  19.885  41.772  1.00  0.00           C  
+CONECT    1    2    4
+CONECT    1    4
+CONECT    2    1    7
+CONECT    3    7
+CONECT    4    1    5    6
+CONECT    4    1
+CONECT    5    4    7
+CONECT    5    7
+CONECT    6    4
+CONECT    7    2    3    5
+CONECT    7    5
+ENDMDL
+END   

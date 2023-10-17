@@ -1,0 +1,32 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2WDT
+MODEL        1
+ATOM      1  N   CYS C  92     -13.384 -31.556  12.720  1.00 23.86           N1+
+ATOM      2  CA  CYS C  92     -14.208 -30.348  12.580  1.00 24.12           C  
+ATOM      3  C   CYS C  92     -15.116 -30.304  11.320  1.00 24.35           C  
+ATOM      4  O   CYS C  92     -16.163 -29.667  11.351  1.00 25.15           O  
+ATOM      5  CB  CYS C  92     -13.367 -29.063  12.861  1.00 23.80           C  
+ATOM      6  SG  CYS C  92     -12.439 -28.426  11.428  1.00 28.18           S1+
+TER       7      CYS C  92
+HETATM    8  N   GVE B  76     -10.002 -28.695   9.358  1.00 41.12           N  
+HETATM    9  CA  GVE B  76     -10.064 -29.671  10.433  1.00 41.96           C  
+HETATM   10  CB  GVE B  76     -10.832 -29.239  11.657  1.00 41.11           C  
+HETATM   11  CG  GVE B  76     -10.821 -27.781  12.018  1.00 46.39           C  
+HETATM   12  CD  GVE B  76     -10.471 -27.438  13.435  1.00 50.65           C  
+HETATM   13  OE1 GVE B  76     -11.091 -26.357  13.877  1.00 53.24           O  
+HETATM   14  OE2 GVE B  76      -9.500 -27.956  13.984  1.00 57.02           O  
+HETATM   15  CH3 GVE B  76     -10.442 -25.558  14.849  1.00 50.02           C  
+CONECT    8    9
+CONECT    9    8   10
+CONECT   10    6    9   11
+CONECT   11    6   10   12
+CONECT   12   11   13   14
+CONECT   12   14
+CONECT   13   12   15
+CONECT   14   12
+CONECT   14   12
+CONECT   15   13
+ENDMDL
+END   

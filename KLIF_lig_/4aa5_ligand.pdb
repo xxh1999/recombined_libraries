@@ -1,0 +1,88 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4aa5_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  NQB A1353       0.011  13.840  43.921  1.00  0.00           C  
+HETATM    2  C2  NQB A1353      -0.404  12.398  43.569  1.00  0.00           C  
+HETATM    3  C8  NQB A1353       0.407  10.049  43.466  1.00  0.00           C  
+HETATM    4  C9  NQB A1353       2.260  16.316  42.053  1.00  0.00           C  
+HETATM    5  C10 NQB A1353       1.355  15.761  42.989  1.00  0.00           C  
+HETATM    6  C11 NQB A1353       0.543  16.672  43.695  1.00  0.00           C  
+HETATM    7  C12 NQB A1353       0.582  18.059  43.490  1.00  0.00           C  
+HETATM    8  C14 NQB A1353       3.578  20.521  38.417  1.00  0.00           C  
+HETATM    9  C15 NQB A1353       4.466  21.146  37.514  1.00  0.00           C  
+HETATM   10  C16 NQB A1353       5.681  21.705  38.002  1.00  0.00           C  
+HETATM   11  C19 NQB A1353       3.995  21.240  36.096  1.00  0.00           C  
+HETATM   12  C20 NQB A1353       4.556  21.679  33.678  1.00  0.00           C  
+HETATM   13  C21 NQB A1353       4.956  22.950  32.967  1.00  0.00           C  
+HETATM   14  C22 NQB A1353       3.507  22.632  33.237  1.00  0.00           C  
+HETATM   15  N29 NQB A1353       3.086  19.722  40.692  1.00  0.00           N  
+HETATM   16  C30 NQB A1353       3.204  18.343  40.828  1.00  0.00           C  
+HETATM   17  N3  NQB A1353       0.757  11.468  43.565  1.00  0.00           N1+
+HETATM   18  C4  NQB A1353       1.683  11.858  42.488  1.00  0.00           C  
+HETATM   19  C5  NQB A1353       2.110  13.366  42.467  1.00  0.00           C  
+HETATM   20  C17 NQB A1353       6.000  21.576  39.347  1.00  0.00           C  
+HETATM   21  C18 NQB A1353       5.135  20.927  40.255  1.00  0.00           C  
+HETATM   22  C23 NQB A1353       5.483  20.813  41.706  1.00  0.00           C  
+HETATM   23  O24 NQB A1353       2.820  21.096  35.927  1.00  0.00           O  
+HETATM   24  C13 NQB A1353       3.914  20.413  39.773  1.00  0.00           C  
+HETATM   25  C25 NQB A1353       2.301  17.714  41.830  1.00  0.00           C  
+HETATM   26  C26 NQB A1353       1.458  18.590  42.555  1.00  0.00           C  
+HETATM   27  N27 NQB A1353       1.440  19.962  42.391  1.00  0.00           N  
+HETATM   28  C28 NQB A1353       2.219  20.448  41.489  1.00  0.00           C  
+HETATM   29  N5  NQB A1353       1.265  14.343  43.233  1.00  0.00           N  
+HETATM   30  O29 NQB A1353       3.920  17.646  40.163  1.00  0.00           O  
+HETATM   31  N32 NQB A1353       4.868  21.529  35.072  1.00  0.00           N  
+CONECT    1    2   29
+CONECT    2    1   17
+CONECT    3   17
+CONECT    4    5   25
+CONECT    4   25
+CONECT    5    4    6   29
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    6   26
+CONECT    7   26
+CONECT    8    9   24
+CONECT    8   24
+CONECT    9    8   10   11
+CONECT    9   10
+CONECT   10    9   20
+CONECT   10    9
+CONECT   11    9   23   31
+CONECT   11   23
+CONECT   12   13   14   31
+CONECT   13   12   14
+CONECT   14   12   13
+CONECT   15   16   24   28
+CONECT   16   15   25   30
+CONECT   16   30
+CONECT   17    2    3   18
+CONECT   18   17   19
+CONECT   19   18   29
+CONECT   20   10   21
+CONECT   20   21
+CONECT   21   20   22   24
+CONECT   21   20
+CONECT   22   21
+CONECT   23   11
+CONECT   23   11
+CONECT   24    8   15   21
+CONECT   24    8
+CONECT   25    4   16   26
+CONECT   25    4
+CONECT   26    7   25   27
+CONECT   26    7
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   15   27
+CONECT   28   27
+CONECT   29    1    5   19
+CONECT   30   16
+CONECT   30   16
+CONECT   31   11   12
+ENDMDL
+END   

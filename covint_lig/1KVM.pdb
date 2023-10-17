@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1KVM
+MODEL        1
+ATOM      1  N   SER B  64      76.456   1.256  29.621  1.00 26.53           N1+
+ATOM      2  CA  SER B  64      75.210   1.840  29.129  1.00 28.33           C  
+ATOM      3  C   SER B  64      74.221   0.878  28.418  1.00 25.84           C  
+ATOM      4  O   SER B  64      73.110   1.312  28.120  1.00 25.80           O  
+ATOM      5  CB  SER B  64      75.520   3.014  28.191  1.00 30.79           C  
+ATOM      6  OG  SER B  64      76.362   4.009  28.772  1.00 38.91           O  
+TER       7      SER B  64
+HETATM    8  S1  CEO B 864      79.361   7.985  29.131  0.80 51.57           S  
+HETATM    9  C2  CEO B 864      80.345   8.801  27.879  0.80 50.94           C  
+HETATM   10  C3  CEO B 864      81.541   7.981  27.434  0.80 52.58           C  
+HETATM   11  C3' CEO B 864      82.679   8.626  27.106  0.80 51.79           C  
+HETATM   12  C4  CEO B 864      81.416   6.476  27.372  0.80 53.15           C  
+HETATM   13  C4' CEO B 864      82.569   5.624  26.890  0.80 55.25           C  
+HETATM   14  O4A CEO B 864      82.338   4.868  25.917  0.80 57.57           O1-
+HETATM   15  O4B CEO B 864      83.659   5.768  27.489  0.80 55.89           O  
+HETATM   16  N5  CEO B 864      80.351   5.841  27.721  0.80 52.13           N  
+HETATM   17  C6  CEO B 864      79.107   6.490  28.138  0.80 49.30           C  
+HETATM   18  C7  CEO B 864      78.189   5.527  28.956  0.80 46.89           C  
+HETATM   19  C8  CEO B 864      77.503   4.410  28.152  0.80 43.82           C  
+HETATM   20  O9  CEO B 864      77.954   3.928  27.113  0.80 43.55           O  
+HETATM   21  N10 CEO B 864      78.882   4.940  30.097  0.80 46.83           N  
+HETATM   22  C11 CEO B 864      78.768   5.327  31.375  0.80 47.49           C  
+HETATM   23  O12 CEO B 864      78.048   6.256  31.727  0.80 45.16           O  
+HETATM   24  C13 CEO B 864      79.554   4.488  32.387  0.80 48.66           C  
+HETATM   25  C14 CEO B 864      80.160   5.207  33.551  0.80 51.29           C  
+HETATM   26  C15 CEO B 864      79.807   6.377  34.175  0.80 50.44           C  
+HETATM   27  C16 CEO B 864      80.661   6.717  35.264  0.80 51.96           C  
+HETATM   28  C17 CEO B 864      81.647   5.793  35.472  0.80 53.09           C  
+HETATM   29  S19 CEO B 864      81.539   4.485  34.331  0.80 52.31           S  
+CONECT    8    9   17
+CONECT    9    8   10
+CONECT   10    9   11   12
+CONECT   10   11
+CONECT   11   10
+CONECT   11   10
+CONECT   12   10   13   16
+CONECT   12   16
+CONECT   13   12   14   15
+CONECT   13   15
+CONECT   14   13
+CONECT   15   13
+CONECT   15   13
+CONECT   16   12   17
+CONECT   16   12
+CONECT   17    8   16   18
+CONECT   18   17   19   21
+CONECT   19    6   18   20
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   18   22
+CONECT   22   21   23   24
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22   25
+CONECT   25   24   26   29
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   25   28
+ENDMDL
+END   

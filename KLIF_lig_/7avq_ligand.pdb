@@ -1,0 +1,71 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7avq_ligand
+MODEL        1
+HETATM    1  N1  S1Z A 801       4.004  17.813  36.678  1.00  0.00           N  
+HETATM    2  C7  S1Z A 801       3.465  16.735  37.241  1.00  0.00           C  
+HETATM    3  C8  S1Z A 801       3.586  18.858  37.446  1.00  0.00           C  
+HETATM    4  N2  S1Z A 801      -0.172  20.714  43.243  1.00  0.00           N  
+HETATM    5  C9  S1Z A 801       2.783  18.451  38.486  1.00  0.00           C  
+HETATM    6  C1  S1Z A 801       0.558  14.905  41.727  1.00  0.00           C  
+HETATM    7  C5  S1Z A 801       3.044  14.448  37.793  1.00  0.00           C  
+HETATM    8  C6  S1Z A 801       3.595  15.354  36.944  1.00  0.00           C  
+HETATM    9  N3  S1Z A 801       0.364  21.629  42.388  1.00  0.00           N  
+HETATM   10  C4  S1Z A 801       2.211  14.921  38.821  1.00  0.00           C  
+HETATM   11  C3  S1Z A 801      -0.707  13.204  40.370  1.00  0.00           C  
+HETATM   12  C2  S1Z A 801       0.247  14.390  40.336  1.00  0.00           C  
+HETATM   13  N4  S1Z A 801       2.706  17.059  38.344  1.00  0.00           N  
+HETATM   14  O   S1Z A 801      -1.066  12.741  39.069  1.00  0.00           O  
+HETATM   15  C   S1Z A 801      -0.562  15.767  42.266  1.00  0.00           C  
+HETATM   16  N   S1Z A 801       1.382  14.074  39.482  1.00  0.00           N  
+HETATM   17  N5  S1Z A 801       2.037  16.187  39.157  1.00  0.00           N  
+HETATM   18  C10 S1Z A 801       2.173  19.290  39.536  1.00  0.00           C  
+HETATM   19  C15 S1Z A 801       1.508  18.778  40.646  1.00  0.00           C  
+HETATM   20  C14 S1Z A 801       0.942  19.649  41.589  1.00  0.00           C  
+HETATM   21  C16 S1Z A 801       0.170  19.531  42.773  1.00  0.00           C  
+HETATM   22  C13 S1Z A 801       1.050  21.034  41.382  1.00  0.00           C  
+HETATM   23  C12 S1Z A 801       1.713  21.555  40.286  1.00  0.00           C  
+HETATM   24  C11 S1Z A 801       2.285  20.686  39.380  1.00  0.00           C  
+CONECT    1    2    3
+CONECT    1    2
+CONECT    2    1    8   13
+CONECT    2    1
+CONECT    3    1    5
+CONECT    3    5
+CONECT    4    9   21
+CONECT    5    3   13   18
+CONECT    5    3
+CONECT    6   12   15
+CONECT    7    8   10
+CONECT    7    8
+CONECT    8    2    7
+CONECT    8    7
+CONECT    9    4   22
+CONECT    9   22
+CONECT   10    7   16   17
+CONECT   10   17
+CONECT   11   12   14
+CONECT   12    6   11   16
+CONECT   13    2    5   17
+CONECT   14   11
+CONECT   15    6
+CONECT   16   10   12
+CONECT   17   10   13
+CONECT   17   10
+CONECT   18    5   19   24
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   19   21   22
+CONECT   20   21
+CONECT   21    4   20
+CONECT   21   20
+CONECT   22    9   20   23
+CONECT   22    9
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   18   23
+CONECT   24   23
+ENDMDL
+END   

@@ -1,0 +1,77 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     8flg_ligand
+MODEL        1
+HETATM    1  N1  Y8C A 702      -0.900  19.949  45.306  1.00  0.00           N  
+HETATM    2  N3  Y8C A 702       0.365  20.711  43.393  1.00  0.00           N  
+HETATM    3  C4  Y8C A 702      -1.308  18.823  45.885  1.00  0.00           C  
+HETATM    4  C5  Y8C A 702       0.933  18.728  42.499  1.00  0.00           C  
+HETATM    5  C6  Y8C A 702       1.042  20.081  42.375  1.00  0.00           C  
+HETATM    6  C7  Y8C A 702       0.278  15.645  42.661  1.00  0.00           C  
+HETATM    7  C8  Y8C A 702       1.550  14.788  42.760  1.00  0.00           C  
+HETATM    8  C10 Y8C A 702       0.805  14.095  45.074  1.00  0.00           C  
+HETATM    9  C13 Y8C A 702       3.030  14.307  39.283  1.00  0.00           C  
+HETATM   10  C15 Y8C A 702       5.782  15.077  39.658  1.00  0.00           C  
+HETATM   11  C17 Y8C A 702       7.757  16.180  38.804  1.00  0.00           C  
+HETATM   12  C1  Y8C A 702      -0.333  17.355  44.385  1.00  0.00           C  
+HETATM   13  C11 Y8C A 702      -0.436  14.927  44.888  1.00  0.00           C  
+HETATM   14  C12 Y8C A 702       2.564  15.052  40.519  1.00  0.00           C  
+HETATM   15  C14 Y8C A 702       5.074  15.498  38.539  1.00  0.00           C  
+HETATM   16  C16 Y8C A 702       7.113  15.432  39.767  1.00  0.00           C  
+HETATM   17  C18 Y8C A 702       7.045  16.593  37.705  1.00  0.00           C  
+HETATM   18  C19 Y8C A 702       5.712  16.255  37.562  1.00  0.00           C  
+HETATM   19  C2  Y8C A 702       0.149  18.488  43.664  1.00  0.00           C  
+HETATM   20  C3  Y8C A 702      -0.184  19.750  44.194  1.00  0.00           C  
+HETATM   21  C9  Y8C A 702       1.345  13.621  43.723  1.00  0.00           C  
+HETATM   22  N2  Y8C A 702      -1.070  17.566  45.480  1.00  0.00           N  
+HETATM   23  N4  Y8C A 702      -0.153  16.058  43.998  1.00  0.00           N  
+HETATM   24  N5  Y8C A 702       1.968  14.306  41.449  1.00  0.00           N  
+HETATM   25  N6  Y8C A 702       3.760  15.171  38.388  1.00  0.00           N  
+HETATM   26  O1  Y8C A 702       2.722  16.262  40.632  1.00  0.00           O  
+HETATM   27 CL1  Y8C A 702       8.003  14.910  41.168  1.00  0.00          Cl  
+CONECT    1    3   20
+CONECT    1   20
+CONECT    2    5   20
+CONECT    3    1   22
+CONECT    3   22
+CONECT    4    5   19
+CONECT    4    5
+CONECT    5    2    4
+CONECT    5    4
+CONECT    6    7   23
+CONECT    7    6   21   24
+CONECT    8   13   21
+CONECT    9   14   25
+CONECT   10   15   16
+CONECT   10   16
+CONECT   11   16   17
+CONECT   11   17
+CONECT   12   19   22   23
+CONECT   12   19
+CONECT   13    8   23
+CONECT   14    9   24   26
+CONECT   14   26
+CONECT   15   10   18   25
+CONECT   15   18
+CONECT   16   10   11   27
+CONECT   16   10
+CONECT   17   11   18
+CONECT   17   11
+CONECT   18   15   17
+CONECT   18   15
+CONECT   19    4   12   20
+CONECT   19   12
+CONECT   20    1    2   19
+CONECT   20    1
+CONECT   21    7    8
+CONECT   22    3   12
+CONECT   22    3
+CONECT   23    6   12   13
+CONECT   24    7   14
+CONECT   25    9   15
+CONECT   26   14
+CONECT   26   14
+CONECT   27   16
+ENDMDL
+END   

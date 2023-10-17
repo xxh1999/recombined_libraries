@@ -1,0 +1,68 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3lxn_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  MI1 A   1       0.887  17.004  40.345  1.00  0.00           C  
+HETATM    2  C2  MI1 A   1       1.651  15.743  40.050  1.00  0.00           C  
+HETATM    3  C4  MI1 A   1       1.174  16.008  37.597  1.00  0.00           C  
+HETATM    4  C5  MI1 A   1       0.453  17.307  37.876  1.00  0.00           C  
+HETATM    5  C6  MI1 A   1      -0.162  17.288  39.258  1.00  0.00           C  
+HETATM    6  N3  MI1 A   1       2.081  15.696  38.680  1.00  0.00           N  
+HETATM    7  O21 MI1 A   1       4.051  14.870  39.373  1.00  0.00           O  
+HETATM    8  C20 MI1 A   1       3.370  15.329  38.471  1.00  0.00           C  
+HETATM    9  C22 MI1 A   1       3.858  15.561  37.064  1.00  0.00           C  
+HETATM   10  C23 MI1 A   1       5.319  15.439  37.014  1.00  0.00           C  
+HETATM   11  N24 MI1 A   1       6.477  15.328  37.040  1.00  0.00           N  
+HETATM   12  C7  MI1 A   1      -1.353  16.343  39.270  1.00  0.00           C  
+HETATM   13  N8  MI1 A   1       0.191  16.819  41.611  1.00  0.00           N  
+HETATM   14  C9  MI1 A   1      -0.207  15.414  42.282  1.00  0.00           C  
+HETATM   15  C10 MI1 A   1       0.035  17.958  42.432  1.00  0.00           C  
+HETATM   16  C15 MI1 A   1       0.320  19.274  42.090  1.00  0.00           C  
+HETATM   17  C16 MI1 A   1       0.843  19.960  40.956  1.00  0.00           C  
+HETATM   18  C11 MI1 A   1       0.874  21.301  41.258  1.00  0.00           C  
+HETATM   19  N12 MI1 A   1       0.387  21.463  42.527  1.00  0.00           N  
+HETATM   20  C14 MI1 A   1       0.054  20.245  43.039  1.00  0.00           C  
+HETATM   21  N17 MI1 A   1      -0.455  20.066  44.252  1.00  0.00           N  
+HETATM   22  C18 MI1 A   1      -0.679  18.774  44.471  1.00  0.00           C  
+HETATM   23  N19 MI1 A   1      -0.470  17.744  43.654  1.00  0.00           N  
+CONECT    1    2    5   13
+CONECT    2    1    6
+CONECT    3    4    6
+CONECT    4    3    5
+CONECT    5    1    4   12
+CONECT    6    2    3    8
+CONECT    7    8
+CONECT    7    8
+CONECT    8    6    7    9
+CONECT    8    7
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   10   11
+CONECT   10   11
+CONECT   11   10
+CONECT   11   10
+CONECT   11   10
+CONECT   12    5
+CONECT   13    1   14   15
+CONECT   14   13
+CONECT   15   13   16   23
+CONECT   15   23
+CONECT   16   15   17   20
+CONECT   16   20
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   18   20
+CONECT   20   16   19   21
+CONECT   20   16
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   15   22
+CONECT   23   15
+ENDMDL
+END   

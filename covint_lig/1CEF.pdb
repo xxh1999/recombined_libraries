@@ -1,0 +1,82 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1CEF
+MODEL        1
+ATOM      1  N   SER A  62      15.366  -9.796  36.727  1.00  2.00           N1+
+ATOM      2  CA  SER A  62      14.466  -9.495  37.846  1.00  2.00           C  
+ATOM      3  C   SER A  62      13.695  -8.162  37.784  1.00  2.00           C  
+ATOM      4  O   SER A  62      12.754  -8.000  38.559  1.00  2.00           O  
+ATOM      5  CB  SER A  62      15.241  -9.552  39.175  1.00  2.00           C  
+ATOM      6  OG  SER A  62      15.533 -10.864  39.648  1.00  2.84           O  
+TER       7      SER A  62
+HETATM    8  S1  CEF A 400      17.747 -12.930  43.046  1.00  8.01           S  
+HETATM    9  C2  CEF A 400      18.092 -11.717  44.326  1.00 13.06           C  
+HETATM   10  C3  CEF A 400      19.084 -10.648  43.911  1.00 15.98           C  
+HETATM   11  C3' CEF A 400      19.967 -10.183  44.816  1.00 18.60           C  
+HETATM   12  C4  CEF A 400      19.020 -10.127  42.503  1.00 17.61           C  
+HETATM   13  C4' CEF A 400      19.858  -8.974  42.002  1.00 21.18           C  
+HETATM   14  O4A CEF A 400      19.247  -8.102  41.335  1.00 22.17           O  
+HETATM   15  O4B CEF A 400      21.080  -9.004  42.251  1.00 22.01           O1-
+HETATM   16  N5  CEF A 400      18.242 -10.611  41.616  1.00 15.38           N  
+HETATM   17  C6  CEF A 400      17.313 -11.721  41.768  1.00 12.02           C  
+HETATM   18  C7  CEF A 400      17.173 -12.439  40.396  1.00 10.02           C  
+HETATM   19  C8  CEF A 400      16.706 -11.430  39.318  1.00  7.75           C  
+HETATM   20  O9  CEF A 400      17.384 -11.083  38.354  1.00  4.19           O  
+HETATM   21  N10 CEF A 400      18.475 -13.013  40.038  1.00 10.91           N  
+HETATM   22  C11 CEF A 400      18.780 -14.311  39.880  1.00 12.59           C  
+HETATM   23  O12 CEF A 400      17.958 -15.227  39.923  1.00 15.91           O  
+HETATM   24  C13 CEF A 400      20.275 -14.549  39.658  1.00 12.10           C  
+HETATM   25  N16 CEF A 400      20.782 -15.271  38.741  1.00  7.56           N  
+HETATM   26  O17 CEF A 400      19.849 -15.800  37.842  1.00  7.36           O  
+HETATM   27  C18 CEF A 400      20.584 -16.395  36.791  1.00  2.00           C  
+HETATM   28  C14 CEF A 400      21.208 -13.840  40.583  1.00 15.10           C  
+HETATM   29  C15 CEF A 400      20.951 -13.663  41.924  1.00 16.67           C  
+HETATM   30  S16 CEF A 400      22.182 -12.726  42.723  1.00 19.24           S  
+HETATM   31  C17 CEF A 400      23.091 -12.730  41.225  1.00 16.66           C  
+HETATM   32  N18 CEF A 400      24.340 -12.140  41.140  1.00 18.97           N  
+HETATM   33  N19 CEF A 400      22.476 -13.356  40.221  1.00 16.00           N  
+CONECT    8    9   17
+CONECT    9    8   10
+CONECT   10    9   11   12
+CONECT   10   11
+CONECT   11   10
+CONECT   11   10
+CONECT   12   10   13   16
+CONECT   12   16
+CONECT   13   12   14   15
+CONECT   13   14
+CONECT   14   13
+CONECT   14   13
+CONECT   15   13
+CONECT   16   12   17
+CONECT   16   12
+CONECT   17    8   16   18
+CONECT   18   17   19   21
+CONECT   19    6   18   20
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   18   22
+CONECT   22   21   23   24
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22   25   28
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26   25   27
+CONECT   27   26
+CONECT   28   24   29   33
+CONECT   28   29
+CONECT   29   28   30
+CONECT   29   28
+CONECT   30   29   31
+CONECT   31   30   32   33
+CONECT   31   33
+CONECT   32   31
+CONECT   33   28   31
+CONECT   33   31
+ENDMDL
+END   

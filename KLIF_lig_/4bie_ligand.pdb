@@ -1,0 +1,64 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4bie_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C12 IE6 B1943       1.806  19.189  39.911  1.00  0.00           C  
+HETATM    2  C13 IE6 B1943       2.438  18.349  38.975  1.00  0.00           C  
+HETATM    3  C06 IE6 B1943       0.817  20.500  42.168  1.00  0.00           C  
+HETATM    4  C03 IE6 B1943      -0.344  17.178  43.472  1.00  0.00           C  
+HETATM    5  C07 IE6 B1943       0.158  21.308  43.214  1.00  0.00           C  
+HETATM    6  C04 IE6 B1943      -0.016  18.543  43.201  1.00  0.00           C  
+HETATM    7  C05 IE6 B1943       0.730  19.162  42.142  1.00  0.00           C  
+HETATM    8  C11 IE6 B1943       1.378  18.545  41.048  1.00  0.00           C  
+HETATM    9  C02 IE6 B1943      -1.118  17.230  44.559  1.00  0.00           C  
+HETATM   10  C09 IE6 B1943      -0.615  19.276  44.146  1.00  0.00           C  
+HETATM   11  C14 IE6 B1943       2.485  17.047  39.391  1.00  0.00           C  
+HETATM   12  C01 IE6 B1943      -1.735  16.064  45.227  1.00  0.00           C  
+HETATM   13  C20 IE6 B1943       0.911  15.060  37.185  1.00  0.00           C  
+HETATM   14  C21 IE6 B1943       0.941  13.602  36.812  1.00  0.00           C  
+HETATM   15  N08 IE6 B1943      -0.575  20.536  44.229  1.00  0.00           N  
+HETATM   16  N10 IE6 B1943      -1.308  18.496  45.045  1.00  0.00           N  
+HETATM   17  N19 IE6 B1943       2.291  15.557  37.085  1.00  0.00           N  
+HETATM   18  N22 IE6 B1943       0.512  12.869  38.027  1.00  0.00           N1+
+HETATM   19  O17 IE6 B1943       4.487  16.204  38.121  1.00  0.00           O1-
+HETATM   20  O18 IE6 B1943       3.072  14.541  39.423  1.00  0.00           O1-
+HETATM   21  S15 IE6 B1943       1.737  16.863  40.941  1.00  0.00           S  
+HETATM   22  S16 IE6 B1943       3.196  15.690  38.539  1.00  0.00           S2+
+CONECT    1    2    8
+CONECT    1    8
+CONECT    2    1   11
+CONECT    2   11
+CONECT    3    5    7
+CONECT    3    7
+CONECT    4    6    9
+CONECT    4    9
+CONECT    5    3   15
+CONECT    5   15
+CONECT    6    4    7   10
+CONECT    6   10
+CONECT    7    3    6    8
+CONECT    7    3
+CONECT    8    1    7   21
+CONECT    8    1
+CONECT    9    4   12   16
+CONECT    9    4
+CONECT   10    6   15   16
+CONECT   10    6
+CONECT   11    2   21   22
+CONECT   11    2
+CONECT   12    9
+CONECT   13   14   17
+CONECT   14   13   18
+CONECT   15    5   10
+CONECT   15    5
+CONECT   16    9   10
+CONECT   17   13   22
+CONECT   18   14
+CONECT   19   22
+CONECT   20   22
+CONECT   21    8   11
+CONECT   22   11   17   19   20
+ENDMDL
+END   

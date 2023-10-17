@@ -1,0 +1,35 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3ZSE
+MODEL        1
+ATOM      1  N   GLU A 127       9.553  17.219  19.696  1.00 12.33           N1+
+ATOM      2  CA  GLU A 127       8.663  17.258  18.534  1.00 12.25           C  
+ATOM      3  C   GLU A 127       8.795  15.893  17.825  1.00 11.71           C  
+ATOM      4  O   GLU A 127       9.856  15.271  17.897  1.00 12.63           O  
+ATOM      5  CB  GLU A 127       9.180  18.372  17.595  1.00 12.60           C  
+ATOM      6  CG  GLU A 127       8.162  18.842  16.535  1.00 13.19           C  
+ATOM      7  CD  GLU A 127       8.788  19.781  15.500  1.00 14.09           C  
+ATOM      8  OE1 GLU A 127       9.809  19.454  14.903  1.00 13.67           O  
+ATOM      9  OE2 GLU A 127       8.092  20.932  15.305  1.00 15.43           O  
+TER      10      GLU A 127
+HETATM   11  C1  X2F B   1       8.444  21.682  14.167  1.00 15.79           C  
+HETATM   12  C2  X2F B   1       9.505  22.757  14.498  1.00 16.69           C  
+HETATM   13  C3  X2F B   1       8.907  23.801  15.447  1.00 16.78           C  
+HETATM   14  C4  X2F B   1       7.513  24.274  14.976  1.00 16.57           C  
+HETATM   15  C5  X2F B   1       7.138  23.670  13.614  1.00 16.50           C  
+HETATM   16  O3  X2F B   1       9.788  24.907  15.469  1.00 16.21           O  
+HETATM   17  O4  X2F B   1       6.509  23.843  15.888  1.00 17.13           O  
+HETATM   18  O5  X2F B   1       7.298  22.248  13.585  1.00 16.39           O  
+HETATM   19  F2  X2F B   1      10.594  22.184  15.007  1.00 17.67           F  
+CONECT   11    9   12   18
+CONECT   12   11   13   19
+CONECT   13   12   14   16
+CONECT   14   13   15   17
+CONECT   15   14   18
+CONECT   16   13
+CONECT   17   14
+CONECT   18   11   15
+CONECT   19   12
+ENDMDL
+END   

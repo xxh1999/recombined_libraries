@@ -1,0 +1,24 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5UUP
+MODEL        1
+ATOM      1  N   CYS A  55       1.897   8.824 -22.731  1.00 43.78           N1+
+ATOM      2  CA  CYS A  55       0.603   9.487 -22.877  1.00 47.51           C  
+ATOM      3  C   CYS A  55       0.344  10.468 -21.726  1.00 47.75           C  
+ATOM      4  O   CYS A  55      -0.228  11.529 -21.962  1.00 46.34           O  
+ATOM      5  CB  CYS A  55      -0.505   8.415 -22.872  1.00 46.39           C  
+ATOM      6  SG  CYS A  55      -0.250   7.289 -24.279  1.00 58.45           S  
+TER       7      CYS A  55
+HETATM    8  CA  AKR B   1      -1.165   9.337 -26.041  1.00 39.56           C  
+HETATM    9  CB  AKR B   1      -1.421   7.907 -25.523  1.00 46.93           C  
+HETATM   10  C   AKR B   1      -2.134  10.384 -25.470  1.00 48.94           C  
+HETATM   11  O   AKR B   1      -1.692  11.435 -25.004  1.00 57.84           O  
+CONECT    8    9   10
+CONECT    9    6    8
+CONECT   10    8   11
+CONECT   10   11
+CONECT   11   10
+CONECT   11   10
+ENDMDL
+END   

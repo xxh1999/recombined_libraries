@@ -1,0 +1,98 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3A3E
+MODEL        1
+ATOM      1  N   SER A  69     -29.436  -7.121  28.304  1.00 20.63           N1+
+ATOM      2  CA  SER A  69     -29.344  -8.191  29.306  1.00 19.68           C  
+ATOM      3  C   SER A  69     -30.461  -9.255  29.251  1.00 19.50           C  
+ATOM      4  O   SER A  69     -30.402 -10.198  30.039  1.00 20.23           O  
+ATOM      5  CB  SER A  69     -29.304  -7.615  30.735  1.00 19.92           C  
+ATOM      6  OG  SER A  69     -28.146  -6.858  31.073  1.00 19.95           O  
+TER       7      SER A  69
+HETATM    8  C1  CMV A   1     -29.894  -3.566  35.994  1.00 15.00           C  
+HETATM    9  C2  CMV A   1     -31.421  -4.410  33.529  1.00 23.25           C  
+HETATM   10  C6  CMV A   1     -29.372  -3.182  34.591  1.00 23.03           C  
+HETATM   11  C12 CMV A   1     -29.927  -4.079  33.461  1.00 18.23           C  
+HETATM   12  C13 CMV A   1     -27.754  -4.981  33.416  1.00 23.22           C  
+HETATM   13  C14 CMV A   1     -27.300  -4.796  31.922  1.00 23.39           C  
+HETATM   14  C15 CMV A   1     -28.158  -5.530  30.869  1.00 21.04           C  
+HETATM   15  C16 CMV A   1     -29.626  -1.691  34.325  1.00 19.49           C  
+HETATM   16  O1  CMV A   1     -31.722  -5.533  33.992  1.00 26.05           O1-
+HETATM   17  O2  CMV A   1     -32.233  -3.566  33.097  1.00 20.96           O  
+HETATM   18  N3  CMV A   1     -29.155  -5.315  33.501  1.00 19.11           N  
+HETATM   19  S1  CMV A   1     -27.594  -3.532  34.512  1.00 26.12           S  
+HETATM   20  O4  CMV A   1     -28.863  -4.957  30.043  1.00 27.16           O  
+HETATM   21  N1  CMV A   1     -27.144  -3.409  31.521  1.00 21.94           N  
+HETATM   22  CAL CMV A   1     -26.056  -2.672  31.741  1.00 21.57           C  
+HETATM   23  OAV CMV A   1     -25.115  -3.065  32.431  1.00 22.02           O  
+HETATM   24  CAM CMV A   1     -26.026  -1.314  31.043  1.00 24.39           C  
+HETATM   25  CAW CMV A   1     -26.365  -0.285  32.081  1.00 24.48           C  
+HETATM   26  CBD CMV A   1     -25.631  -0.083  33.276  1.00 25.19           C  
+HETATM   27  CBG CMV A   1     -26.071   0.820  34.264  1.00 28.20           C  
+HETATM   28  CBH CMV A   1     -27.254   1.556  34.074  1.00 30.60           C  
+HETATM   29  CBF CMV A   1     -27.988   1.391  32.887  1.00 27.76           C  
+HETATM   30  CBC CMV A   1     -27.541   0.485  31.908  1.00 24.43           C  
+HETATM   31  NAN CMV A   1     -24.846  -1.210  30.182  1.00 31.73           N  
+HETATM   32  NAG CMV A   1     -23.836  -0.318  30.492  1.00 42.54           N  
+HETATM   33  CAE CMV A   1     -23.538   0.571  29.526  1.00 45.01           C  
+HETATM   34  OAS CMV A   1     -24.386   1.111  28.812  1.00 42.12           O  
+HETATM   35  CAQ CMV A   1     -22.816  -0.871  31.376  1.00 43.91           C  
+HETATM   36  CAU CMV A   1     -21.558  -1.223  30.581  1.00 43.82           C  
+HETATM   37  NAO CMV A   1     -21.150  -0.145  29.671  1.00 47.25           N  
+HETATM   38  CAI CMV A   1     -22.022   0.809  29.238  1.00 47.25           C  
+HETATM   39  OAT CMV A   1     -21.711   1.810  28.595  1.00 46.83           O  
+HETATM   40  CBB CMV A   1     -19.703  -0.215  29.387  1.00 46.52           C  
+HETATM   41  CBE CMV A   1     -19.163   0.585  28.190  1.00 46.55           C  
+CONECT    8   10
+CONECT    9   11   16   17
+CONECT    9   17
+CONECT   10    8   11   15   19
+CONECT   11    9   10   18
+CONECT   12   13   18   19
+CONECT   13   12   14   21
+CONECT   14    6   13   20
+CONECT   14   20
+CONECT   15   10
+CONECT   16    9
+CONECT   17    9
+CONECT   17    9
+CONECT   18   11   12
+CONECT   19   10   12
+CONECT   20   14
+CONECT   20   14
+CONECT   21   13   22
+CONECT   22   21   23   24
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22   25   31
+CONECT   25   24   26   30
+CONECT   25   30
+CONECT   26   25   27
+CONECT   26   27
+CONECT   27   26   28
+CONECT   27   26
+CONECT   28   27   29
+CONECT   28   29
+CONECT   29   28   30
+CONECT   29   28
+CONECT   30   25   29
+CONECT   30   25
+CONECT   31   24   32
+CONECT   32   31   33   35
+CONECT   33   32   34   38
+CONECT   33   34
+CONECT   34   33
+CONECT   34   33
+CONECT   35   32   36
+CONECT   36   35   37
+CONECT   37   36   38   40
+CONECT   38   33   37   39
+CONECT   38   39
+CONECT   39   38
+CONECT   39   38
+CONECT   40   37   41
+CONECT   41   40
+ENDMDL
+END   

@@ -1,0 +1,67 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2QAF
+MODEL        1
+ATOM      1  N   LYS A 138      14.556 -23.146 -21.385  1.00 12.26           N1+
+ATOM      2  CA  LYS A 138      13.867 -23.787 -22.513  1.00 12.57           C  
+ATOM      3  C   LYS A 138      14.801 -24.767 -23.241  1.00 13.79           C  
+ATOM      4  O   LYS A 138      14.806 -24.847 -24.468  1.00 12.80           O  
+ATOM      5  CB  LYS A 138      13.168 -22.720 -23.402  1.00 13.41           C  
+ATOM      6  CG  LYS A 138      12.057 -22.025 -22.589  1.00 11.21           C  
+ATOM      7  CD  LYS A 138      11.304 -20.847 -23.228  1.00 12.87           C  
+ATOM      8  CE  LYS A 138      10.399 -20.232 -22.146  1.00 11.55           C  
+ATOM      9  NZ  LYS A 138      10.000 -18.857 -22.363  1.00 11.82           N1+
+TER      10      LYS A 138
+HETATM   11  N1  U5P A3000       8.400 -17.079 -22.121  1.00  8.89           N  
+HETATM   12  C2  U5P A3000       7.174 -16.501 -22.507  1.00  7.36           C  
+HETATM   13  N3  U5P A3000       6.286 -17.303 -23.198  1.00  7.56           N  
+HETATM   14  C4  U5P A3000       6.501 -18.620 -23.564  1.00 11.55           C  
+HETATM   15  C5  U5P A3000       7.821 -19.131 -23.244  1.00  7.32           C  
+HETATM   16  C6  U5P A3000       8.722 -18.368 -22.573  1.00 10.72           C  
+HETATM   17  O2  U5P A3000       6.849 -15.350 -22.238  1.00  8.28           O  
+HETATM   18  O4  U5P A3000       5.605 -19.252 -24.103  1.00 11.99           O  
+HETATM   19  C1' U5P A3000       9.247 -16.342 -21.099  1.00  8.87           C  
+HETATM   20  C2' U5P A3000       9.904 -15.064 -21.606  1.00  5.41           C  
+HETATM   21  O2' U5P A3000      11.180 -15.268 -22.153  1.00  6.15           O  
+HETATM   22  C3' U5P A3000      10.032 -14.278 -20.312  1.00  9.10           C  
+HETATM   23  C4' U5P A3000       8.783 -14.679 -19.530  1.00  9.10           C  
+HETATM   24  O3' U5P A3000      11.154 -14.679 -19.549  1.00 10.18           O  
+HETATM   25  O4' U5P A3000       8.416 -15.969 -20.030  1.00  8.60           O  
+HETATM   26  C5' U5P A3000       7.656 -13.644 -19.691  1.00 11.66           C  
+HETATM   27  O5' U5P A3000       8.029 -12.482 -18.963  1.00  9.88           O  
+HETATM   28  P   U5P A3000       7.141 -11.118 -19.166  1.00  9.64           P  
+HETATM   29  O1P U5P A3000       8.112  -9.978 -18.956  1.00 11.26           O  
+HETATM   30  O2P U5P A3000       6.564 -11.123 -20.567  1.00  9.01           O1-
+HETATM   31  O3P U5P A3000       6.070 -11.150 -18.099  1.00  9.32           O1-
+CONECT   11   12   16   19
+CONECT   12   11   13   17
+CONECT   12   17
+CONECT   13   12   14
+CONECT   14   13   15   18
+CONECT   14   18
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16    9   11   15
+CONECT   16   15
+CONECT   17   12
+CONECT   17   12
+CONECT   18   14
+CONECT   18   14
+CONECT   19   11   20   25
+CONECT   20   19   21   22
+CONECT   21   20
+CONECT   22   20   23   24
+CONECT   23   22   25   26
+CONECT   24   22
+CONECT   25   19   23
+CONECT   26   23   27
+CONECT   27   26   28
+CONECT   28   27   29   30   31
+CONECT   28   29
+CONECT   29   28
+CONECT   29   28
+CONECT   30   28
+CONECT   31   28
+ENDMDL
+END   

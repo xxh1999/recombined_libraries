@@ -1,0 +1,70 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4i5c_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  C5I A1201       1.154  20.113  40.778  1.00  0.00           C  
+HETATM    2  C2  C5I A1201       1.095  21.440  41.039  1.00  0.00           C  
+HETATM    3  N3  C5I A1201       0.444  21.664  42.228  1.00  0.00           N  
+HETATM    4  C5  C5I A1201       0.051  20.454  42.772  1.00  0.00           C  
+HETATM    5  C6  C5I A1201       0.481  19.433  41.880  1.00  0.00           C  
+HETATM    6  C7  C5I A1201       0.177  18.079  42.186  1.00  0.00           C  
+HETATM    7  C8  C5I A1201      -0.543  17.792  43.356  1.00  0.00           C  
+HETATM    8  C9  C5I A1201      -0.921  18.869  44.191  1.00  0.00           C  
+HETATM    9  N10 C5I A1201      -0.621  20.126  43.884  1.00  0.00           N  
+HETATM   10  N11 C5I A1201      -0.735  16.447  43.394  1.00  0.00           N  
+HETATM   11  N12 C5I A1201      -0.253  15.879  42.340  1.00  0.00           N  
+HETATM   12  N13 C5I A1201       0.377  16.867  41.572  1.00  0.00           N  
+HETATM   13  C14 C5I A1201       0.976  16.689  40.243  1.00  0.00           C  
+HETATM   14  C16 C5I A1201      -0.121  17.071  39.204  1.00  0.00           C  
+HETATM   15  C17 C5I A1201       0.393  16.923  37.775  1.00  0.00           C  
+HETATM   16  C18 C5I A1201       0.864  15.465  37.583  1.00  0.00           C  
+HETATM   17  N19 C5I A1201       1.892  15.181  38.616  1.00  0.00           N  
+HETATM   18  C20 C5I A1201       1.459  15.244  40.022  1.00  0.00           C  
+HETATM   19  C21 C5I A1201       3.209  14.997  38.299  1.00  0.00           C  
+HETATM   20  O22 C5I A1201       4.041  14.803  39.185  1.00  0.00           O  
+HETATM   21  C23 C5I A1201       3.642  14.978  36.847  1.00  0.00           C  
+HETATM   22  C24 C5I A1201       5.106  15.036  36.703  1.00  0.00           C  
+HETATM   23  N25 C5I A1201       6.232  15.084  36.590  1.00  0.00           N  
+CONECT    1    2    5
+CONECT    1    2
+CONECT    2    1    3
+CONECT    2    1
+CONECT    3    2    4
+CONECT    4    3    5    9
+CONECT    4    9
+CONECT    5    1    4    6
+CONECT    5    6
+CONECT    6    5    7   12
+CONECT    6    5
+CONECT    7    6    8   10
+CONECT    7    8
+CONECT    8    7    9
+CONECT    8    7
+CONECT    9    4    8
+CONECT    9    4
+CONECT   10    7   11
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12    6   11   13
+CONECT   13   12   14   18
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16   18   19
+CONECT   18   13   17
+CONECT   19   17   20   21
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   19   22
+CONECT   22   21   23
+CONECT   22   23
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   23   22
+ENDMDL
+END   

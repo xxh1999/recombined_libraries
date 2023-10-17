@@ -1,0 +1,97 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5saz_ligand
+MODEL        1
+HETATM    1  C11 Q1I A1001       0.918  23.741  31.049  1.00  0.00           C  
+HETATM    2  C13 Q1I A1001       4.380  24.115  39.175  1.00  0.00           C  
+HETATM    3  C15 Q1I A1001       0.435  18.041  44.212  1.00  0.00           C  
+HETATM    4  C16 Q1I A1001       1.607  21.707  41.733  1.00  0.00           C  
+HETATM    5  C17 Q1I A1001       3.744  23.927  36.471  1.00  0.00           C  
+HETATM    6  C19 Q1I A1001       2.048  23.690  30.195  1.00  0.00           C  
+HETATM    7  C20 Q1I A1001       1.966  20.369  41.850  1.00  0.00           C  
+HETATM    8  C21 Q1I A1001       1.372  18.217  43.204  1.00  0.00           C  
+HETATM    9  C23 Q1I A1001       3.410  23.389  32.201  1.00  0.00           C  
+HETATM   10  C24 Q1I A1001       3.311  23.508  30.812  1.00  0.00           C  
+HETATM   11  C25 Q1I A1001       0.584  22.236  42.583  1.00  0.00           C  
+HETATM   12  C26 Q1I A1001       4.926  24.989  38.272  1.00  0.00           C  
+HETATM   13  C1  Q1I A1001       3.487  23.131  38.745  1.00  0.00           C  
+HETATM   14  C2  Q1I A1001       2.862  22.121  39.616  1.00  0.00           C  
+HETATM   15  C3  Q1I A1001       2.295  23.340  34.471  1.00  0.00           C  
+HETATM   16  C4  Q1I A1001       0.291  20.216  43.590  1.00  0.00           C  
+HETATM   17  N5  Q1I A1001      -0.079  21.523  43.512  1.00  0.00           N  
+HETATM   18  N6  Q1I A1001       2.241  22.592  40.790  1.00  0.00           N  
+HETATM   19  N7  Q1I A1001       3.443  23.863  35.074  1.00  0.00           N  
+HETATM   20  C8  Q1I A1001       2.263  23.446  33.004  1.00  0.00           C  
+HETATM   21  C9  Q1I A1001       1.299  19.591  42.789  1.00  0.00           C  
+HETATM   22  N10 Q1I A1001      -0.230  19.256  44.458  1.00  0.00           N  
+HETATM   23  C12 Q1I A1001       1.007  23.629  32.415  1.00  0.00           C  
+HETATM   24  C14 Q1I A1001       3.179  23.028  37.375  1.00  0.00           C  
+HETATM   25  O18 Q1I A1001       2.892  20.943  39.272  1.00  0.00           O  
+HETATM   26  O22 Q1I A1001       1.395  22.841  35.119  1.00  0.00           O  
+HETATM   27  N27 Q1I A1001       1.908  23.802  28.823  1.00  0.00           N  
+HETATM   28 CL28 Q1I A1001      -0.665  23.959  30.400  1.00  0.00          Cl  
+HETATM   29  C29 Q1I A1001       4.619  24.896  36.924  1.00  0.00           C  
+HETATM   30 CL30 Q1I A1001       4.839  24.305  40.845  1.00  0.00          Cl  
+HETATM   31  O31 Q1I A1001       2.247  22.549  26.119  1.00  0.00           O  
+HETATM   32  C32 Q1I A1001       3.101  23.828  27.992  1.00  0.00           C  
+HETATM   33  C33 Q1I A1001       3.220  22.585  27.153  1.00  0.00           C  
+CONECT    1    6   23   28
+CONECT    1   23
+CONECT    2   12   13   30
+CONECT    2   13
+CONECT    3    8   22
+CONECT    3    8
+CONECT    4    7   11   18
+CONECT    4   11
+CONECT    5   19   24   29
+CONECT    5   24
+CONECT    6    1   10   27
+CONECT    6   10
+CONECT    7    4   21
+CONECT    7   21
+CONECT    8    3   21
+CONECT    8    3
+CONECT    9   10   20
+CONECT    9   20
+CONECT   10    6    9
+CONECT   10    6
+CONECT   11    4   17
+CONECT   11    4
+CONECT   12    2   29
+CONECT   12   29
+CONECT   13    2   14   24
+CONECT   13    2
+CONECT   14   13   18   25
+CONECT   14   25
+CONECT   15   19   20   26
+CONECT   15   26
+CONECT   16   17   21   22
+CONECT   16   17
+CONECT   17   11   16
+CONECT   17   16
+CONECT   18    4   14
+CONECT   19    5   15
+CONECT   20    9   15   23
+CONECT   20    9
+CONECT   21    7    8   16
+CONECT   21    7
+CONECT   22    3   16
+CONECT   23    1   20
+CONECT   23    1
+CONECT   24    5   13
+CONECT   24    5
+CONECT   25   14
+CONECT   25   14
+CONECT   26   15
+CONECT   26   15
+CONECT   27    6   32
+CONECT   28    1
+CONECT   29    5   12
+CONECT   29   12
+CONECT   30    2
+CONECT   31   33
+CONECT   32   27   33
+CONECT   33   31   32
+ENDMDL
+END   

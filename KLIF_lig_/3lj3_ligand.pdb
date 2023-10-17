@@ -1,0 +1,86 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3lj3_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  WYE A1109      -0.126  19.134  44.716  1.00  0.00           C  
+HETATM    2  N1  WYE A1109      -0.524  21.431  43.993  1.00  0.00           N  
+HETATM    3  O1  WYE A1109       4.769  17.661  39.352  1.00  0.00           O  
+HETATM    4  C2  WYE A1109       3.814  21.694  37.031  1.00  0.00           C  
+HETATM    5  N2  WYE A1109       0.742  22.048  42.043  1.00  0.00           N  
+HETATM    6  O2  WYE A1109       3.058  20.747  39.130  1.00  0.00           O  
+HETATM    7  C3  WYE A1109       5.419  20.323  35.798  1.00  0.00           C  
+HETATM    8  N3  WYE A1109       1.398  17.647  43.563  1.00  0.00           N  
+HETATM    9  O3  WYE A1109       4.664  22.458  34.958  1.00  0.00           O  
+HETATM   10  C4  WYE A1109      -0.729  20.381  44.819  1.00  0.00           C  
+HETATM   11  N4  WYE A1109       0.906  14.848  43.657  1.00  0.00           N1+
+HETATM   12  O4  WYE A1109       6.149  18.208  36.650  1.00  0.00           O  
+HETATM   13  C5  WYE A1109       1.642  21.448  41.208  1.00  0.00           C  
+HETATM   14  C6  WYE A1109       1.035  19.959  42.787  1.00  0.00           C  
+HETATM   15  C7  WYE A1109       4.572  19.548  37.871  1.00  0.00           C  
+HETATM   16  C8  WYE A1109       1.847  20.155  41.637  1.00  0.00           C  
+HETATM   17  C9  WYE A1109       0.781  18.902  43.680  1.00  0.00           C  
+HETATM   18  C10 WYE A1109       3.803  20.707  37.987  1.00  0.00           C  
+HETATM   19  C11 WYE A1109       4.635  21.496  35.922  1.00  0.00           C  
+HETATM   20  C12 WYE A1109       5.395  19.326  36.782  1.00  0.00           C  
+HETATM   21  C13 WYE A1109       0.355  21.159  43.010  1.00  0.00           C  
+HETATM   22  C14 WYE A1109       4.303  18.738  39.058  1.00  0.00           C  
+HETATM   23  C15 WYE A1109       3.331  19.572  39.810  1.00  0.00           C  
+HETATM   24  C16 WYE A1109       2.755  19.277  40.993  1.00  0.00           C  
+HETATM   25  C17 WYE A1109       1.200  16.890  42.316  1.00  0.00           C  
+HETATM   26  C18 WYE A1109       1.782  16.884  44.754  1.00  0.00           C  
+HETATM   27  C19 WYE A1109       0.327  15.664  42.531  1.00  0.00           C  
+HETATM   28  C20 WYE A1109       0.908  15.650  44.933  1.00  0.00           C  
+HETATM   29  C21 WYE A1109       0.276  23.406  41.899  1.00  0.00           C  
+HETATM   30  C22 WYE A1109       0.189  13.537  43.822  1.00  0.00           C  
+CONECT    1   10   17
+CONECT    1   10
+CONECT    2   10   21
+CONECT    2   21
+CONECT    3   22
+CONECT    3   22
+CONECT    4   18   19
+CONECT    4   18
+CONECT    5   13   21   29
+CONECT    6   18   23
+CONECT    7   19   20
+CONECT    7   19
+CONECT    8   17   25   26
+CONECT    9   19
+CONECT   10    1    2
+CONECT   10    1
+CONECT   11   27   28   30
+CONECT   12   20
+CONECT   13    5   16
+CONECT   13   16
+CONECT   14   16   17   21
+CONECT   14   17
+CONECT   15   18   20   22
+CONECT   15   20
+CONECT   16   13   14   24
+CONECT   16   13
+CONECT   17    1    8   14
+CONECT   17   14
+CONECT   18    4    6   15
+CONECT   18    4
+CONECT   19    4    7    9
+CONECT   19    7
+CONECT   20    7   12   15
+CONECT   20   15
+CONECT   21    2    5   14
+CONECT   21    2
+CONECT   22    3   15   23
+CONECT   22    3
+CONECT   23    6   22   24
+CONECT   23   24
+CONECT   24   16   23
+CONECT   24   23
+CONECT   25    8   27
+CONECT   26    8   28
+CONECT   27   11   25
+CONECT   28   11   26
+CONECT   29    5
+CONECT   30   11
+ENDMDL
+END   

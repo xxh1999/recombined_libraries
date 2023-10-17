@@ -1,0 +1,22 @@
+Prediction of noncovalent interactions for PDB structure KLIF_COMPLEX\5OO0_PROTEIN
+==================================================================================
+Created on 2023/05/28 using PLIP v2.2.2
+
+If you are using PLIP in your work, please cite:
+Adasme,M. et al. PLIP 2021: expanding the scope of the protein-ligand interaction profiler to DNA and RNA. Nucl. Acids Res. (05 May 2021), gkab294. doi: 10.1093/nar/gkab294
+Analysis was done on model 1.
+
+Q9Y:A:301 (Q9Y) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): A
+
+
+**Hydrophobic Interactions**
++-------+---------+----------+-----------+-------------+--------------+------+--------------+---------------+-----------------------+------------------------+
+| RESNR | RESTYPE | RESCHAIN | RESNR_LIG | RESTYPE_LIG | RESCHAIN_LIG | DIST | LIGCARBONIDX | PROTCARBONIDX | LIGCOO                | PROTCOO                | 
++=======+=========+==========+===========+=============+==============+======+==============+===============+=======================+========================+
+| 271   | PRO     | A        | 301       | Q9Y         | A            | 3.80 | 2617         | 2093          | -4.287, 15.313, 9.844 | -5.892, 15.858, 13.248 | 
++-------+---------+----------+-----------+-------------+--------------+------+--------------+---------------+-----------------------+------------------------+
+
+
+

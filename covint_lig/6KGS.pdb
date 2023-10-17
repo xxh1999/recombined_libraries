@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6KGS
+MODEL        1
+ATOM      1  N   SER A 386      24.684   2.099  -2.319  1.00 33.03           N1+
+ATOM      2  CA  SER A 386      24.713   0.643  -2.229  1.00 32.55           C  
+ATOM      3  C   SER A 386      25.366   0.086  -0.944  1.00 33.49           C  
+ATOM      4  O   SER A 386      25.279  -1.116  -0.716  1.00 33.20           O  
+ATOM      5  CB  SER A 386      25.426   0.075  -3.471  1.00 34.50           C  
+ATOM      6  OG  SER A 386      24.795   0.427  -4.702  1.00 34.69           O  
+TER       7      SER A 386
+HETATM    8  C1  MER A 701      25.165   1.555  -5.351  1.00 41.30           C  
+HETATM    9  C2  MER A 701      27.323   0.893  -8.715  1.00 49.48           C  
+HETATM   10  C3  MER A 701      24.612   1.692  -6.775  1.00 38.29           C  
+HETATM   11  C4  MER A 701      25.137   0.590  -7.772  1.00 45.10           C  
+HETATM   12  C5  MER A 701      27.433   0.109  -7.636  1.00 48.98           C  
+HETATM   13  O6  MER A 701      25.896   2.425  -4.895  1.00 42.83           O  
+HETATM   14  C7  MER A 701      23.072   1.883  -6.748  1.00 43.35           C  
+HETATM   15  O8  MER A 701      22.585   2.085  -8.059  1.00 46.87           O  
+HETATM   16  C9  MER A 701      22.601   3.099  -5.927  1.00 41.60           C  
+HETATM   17  N10 MER A 701      26.183  -0.253  -7.196  1.00 43.43           N  
+HETATM   18  C11 MER A 701      28.632  -0.262  -6.699  1.00 46.02           C  
+HETATM   19  O12 MER A 701      28.328  -0.591  -5.528  1.00 45.83           O1-
+HETATM   20  O13 MER A 701      29.783  -0.171  -7.171  1.00 51.60           O  
+HETATM   21  S14 MER A 701      28.604   1.800  -9.546  1.00 69.65           S  
+HETATM   22  C15 MER A 701      29.736   0.520 -10.172  1.00 61.64           C  
+HETATM   23  C16 MER A 701      29.769   0.462 -11.698  1.00 66.19           C  
+HETATM   24  C17 MER A 701      30.901   1.423 -12.115  1.00 70.84           C  
+HETATM   25  C18 MER A 701      25.863   1.128  -9.045  1.00 50.45           C  
+HETATM   26  N19 MER A 701      31.841   1.443 -10.972  1.00 70.22           N1+
+HETATM   27  C20 MER A 701      25.533   2.544  -9.560  1.00 51.83           C  
+HETATM   28  C21 MER A 701      31.184   0.846  -9.790  1.00 73.88           C  
+HETATM   29  C22 MER A 701      30.447   2.838 -12.552  1.00 68.96           C  
+HETATM   30  N23 MER A 701      31.362   3.803 -12.823  1.00 65.80           N  
+HETATM   31  O24 MER A 701      29.240   3.063 -12.649  1.00 67.42           O  
+HETATM   32  C25 MER A 701      32.816   3.610 -12.838  1.00 67.79           C  
+HETATM   33  C26 MER A 701      30.928   5.153 -13.192  1.00 48.89           C  
+CONECT    8    6   10   13
+CONECT    8   13
+CONECT    9   12   21   25
+CONECT    9   12
+CONECT   10    8   11   14
+CONECT   11   10   17   25
+CONECT   12    9   17   18
+CONECT   12    9
+CONECT   13    8
+CONECT   13    8
+CONECT   14   10   15   16
+CONECT   15   14
+CONECT   16   14
+CONECT   17   11   12
+CONECT   18   12   19   20
+CONECT   18   20
+CONECT   19   18
+CONECT   20   18
+CONECT   20   18
+CONECT   21    9   22
+CONECT   22   21   23   28
+CONECT   23   22   24
+CONECT   24   23   26   29
+CONECT   25    9   11   27
+CONECT   26   24   28
+CONECT   27   25
+CONECT   28   22   26
+CONECT   29   24   30   31
+CONECT   29   31
+CONECT   30   29   32   33
+CONECT   31   29
+CONECT   31   29
+CONECT   32   30
+CONECT   33   30
+ENDMDL
+END   

@@ -1,0 +1,77 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2NYL
+MODEL        1
+ATOM      1  N   ARG G   4     -15.120 100.965 -52.470  1.00112.24           N1+
+ATOM      2  CA  ARG G   4     -13.988 100.052 -52.576  1.00112.23           C  
+ATOM      3  C   ARG G   4     -12.663 100.644 -52.099  1.00109.33           C  
+ATOM      4  O   ARG G   4     -11.706  99.887 -51.954  1.00109.67           O  
+ATOM      5  CB  ARG G   4     -13.817  99.693 -54.068  1.00117.82           C  
+ATOM      6  CG  ARG G   4     -14.872  98.700 -54.563  1.00124.78           C  
+ATOM      7  CD  ARG G   4     -14.594  97.283 -54.041  1.00130.72           C  
+ATOM      8  NE  ARG G   4     -15.799  96.453 -54.063  1.00134.87           N  
+ATOM      9  CZ  ARG G   4     -15.909  95.258 -53.462  1.00136.91           C  
+ATOM     10  NH1 ARG G   4     -14.891  94.730 -52.766  1.00137.63           N  
+ATOM     11  NH2 ARG G   4     -17.057  94.578 -53.565  1.00137.29           N1+
+TER      12      ARG G   4
+HETATM   13  C1  1ZN G   5      -6.897 105.486 -59.907  1.00 81.28           C  
+HETATM   14  O1  1ZN G   5      -7.868 106.111 -59.077  1.00 82.02           O  
+HETATM   15  C2  1ZN G   5      -8.061 105.451 -57.831  1.00 81.32           C  
+HETATM   16  C3  1ZN G   5      -7.606 106.402 -56.711  1.00 79.58           C  
+HETATM   17  C4  1ZN G   5      -6.154 106.833 -56.828  1.00 79.09           C  
+HETATM   18  C5  1ZN G   5      -5.119 105.889 -56.673  1.00 78.43           C  
+HETATM   19  C6  1ZN G   5      -3.776 106.302 -56.716  1.00 77.35           C  
+HETATM   20  C7  1ZN G   5      -3.470 107.659 -56.899  1.00 77.55           C  
+HETATM   21  C8  1ZN G   5      -4.492 108.605 -57.083  1.00 78.86           C  
+HETATM   22  C9  1ZN G   5      -5.834 108.189 -57.054  1.00 79.78           C  
+HETATM   23  C10 1ZN G   5      -9.545 105.024 -57.694  1.00 83.52           C  
+HETATM   24  C11 1ZN G   5      -9.972 104.163 -58.888  1.00 84.55           C  
+HETATM   25  C12 1ZN G   5      -9.741 104.251 -56.400  1.00 85.79           C  
+HETATM   26  C13 1ZN G   5     -10.847 104.164 -55.635  1.00 88.81           C  
+HETATM   27  C14 1ZN G   5     -12.176 104.791 -56.039  1.00 85.96           C  
+HETATM   28  C15 1ZN G   5     -10.700 103.410 -54.406  1.00 92.95           C  
+HETATM   29  C16 1ZN G   5     -11.497 103.513 -53.336  1.00 96.63           C  
+HETATM   30  C17 1ZN G   5     -11.316 102.691 -52.083  1.00 99.79           C  
+HETATM   31  N1  1ZN G   5     -12.572 101.967 -51.921  1.00104.30           N  
+HETATM   32  C18 1ZN G   5     -10.906 103.497 -50.825  1.00100.22           C  
+HETATM   33  C19 1ZN G   5      -9.690 104.414 -51.081  1.00103.02           C  
+HETATM   34  C20 1ZN G   5     -10.582 102.530 -49.675  1.00100.88           C  
+HETATM   35  O3  1ZN G   5      -9.409 102.286 -49.376  1.00101.06           O  
+CONECT   13   14
+CONECT   14   13   15
+CONECT   15   14   16   23
+CONECT   16   15   17
+CONECT   17   16   18   22
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   17   21
+CONECT   22   21
+CONECT   23   15   24   25
+CONECT   24   23
+CONECT   25   23   26
+CONECT   25   26
+CONECT   26   25   27   28
+CONECT   26   25
+CONECT   27   26
+CONECT   28   26   29
+CONECT   28   29
+CONECT   29   28   30
+CONECT   29   28
+CONECT   30   29   31   32
+CONECT   31    3   30
+CONECT   32   30   33   34
+CONECT   33   32
+CONECT   34   32   35
+CONECT   34   35
+CONECT   35   34
+CONECT   35   34
+ENDMDL
+END   

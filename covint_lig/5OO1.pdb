@@ -1,0 +1,62 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5OO1
+MODEL        1
+ATOM      1  N   CYS A  80       6.343  -3.199  31.732  1.00 30.91           N1+
+ATOM      2  CA  CYS A  80       5.345  -2.502  30.936  1.00 32.31           C  
+ATOM      3  C   CYS A  80       4.120  -2.156  31.779  1.00 33.50           C  
+ATOM      4  O   CYS A  80       3.857  -2.783  32.803  1.00 33.10           O  
+ATOM      5  CB  CYS A  80       4.995  -3.332  29.677  1.00 30.66           C  
+ATOM      6  SG  CYS A  80       6.181  -2.902  28.379  1.00 38.99           S  
+TER       7      CYS A  80
+HETATM    8  N1  9Z2 A 301      -1.052 -10.254  27.747  1.00 60.58           N  
+HETATM    9  C2  9Z2 A 301       5.613  -3.806  26.922  1.00 61.59           C  
+HETATM   10  C4  9Z2 A 301       2.739  -8.263  27.272  1.00 73.82           C  
+HETATM   11  C5  9Z2 A 301       1.553  -9.000  27.500  1.00 65.31           C  
+HETATM   12  C6  9Z2 A 301       1.756  -6.335  28.384  1.00 82.77           C  
+HETATM   13  O   9Z2 A 301       5.658  -7.501  27.383  1.00 88.55           O  
+HETATM   14  C   9Z2 A 301       5.214  -6.368  27.264  1.00 75.64           C  
+HETATM   15  C1  9Z2 A 301       6.175  -5.244  26.869  1.00 68.18           C  
+HETATM   16  N   9Z2 A 301       3.929  -6.059  27.465  1.00 75.84           N  
+HETATM   17  C3  9Z2 A 301       2.837  -6.920  27.718  1.00 80.65           C  
+HETATM   18  C7  9Z2 A 301       0.590  -7.072  28.608  1.00 66.89           C  
+HETATM   19  C8  9Z2 A 301       0.458  -8.409  28.178  1.00 63.46           C  
+HETATM   20  C9  9Z2 A 301      -0.816  -9.127  28.428  1.00 57.28           C  
+HETATM   21  N2  9Z2 A 301      -1.664  -8.579  29.312  1.00 60.31           N  
+HETATM   22  C12 9Z2 A 301      -2.844  -9.193  29.533  1.00 66.62           C  
+HETATM   23  C11 9Z2 A 301      -3.188 -10.377  28.861  1.00 70.38           C  
+HETATM   24  C10 9Z2 A 301      -2.233 -10.878  27.956  1.00 62.18           C  
+CONECT    8   20   24
+CONECT    8   24
+CONECT    9    6   15
+CONECT   10   11   17
+CONECT   10   17
+CONECT   11   10   19
+CONECT   11   19
+CONECT   12   17   18
+CONECT   12   18
+CONECT   13   14
+CONECT   13   14
+CONECT   14   13   15   16
+CONECT   14   13
+CONECT   15    9   14
+CONECT   16   14   17
+CONECT   17   10   12   16
+CONECT   17   10
+CONECT   18   12   19
+CONECT   18   12
+CONECT   19   11   18   20
+CONECT   19   11
+CONECT   20    8   19   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24    8   23
+CONECT   24    8
+ENDMDL
+END   

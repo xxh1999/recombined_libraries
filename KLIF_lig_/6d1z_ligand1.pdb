@@ -1,0 +1,56 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6d1z_ligand1
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  FQD A 801      13.264  15.379  51.519  1.00  0.00           C  
+HETATM    2  C2  FQD A 801      14.155  15.290  52.563  1.00  0.00           C  
+HETATM    3  C6  FQD A 801      11.704  11.620  51.185  1.00  0.00           C  
+HETATM    4  C10 FQD A 801      13.336  17.903  48.832  1.00  0.00           C  
+HETATM    5  F   FQD A 801      13.283  20.225  48.926  1.00  0.00           F  
+HETATM    6  C9  FQD A 801      13.250  19.061  49.575  1.00  0.00           C  
+HETATM    7  C7  FQD A 801      13.319  16.683  49.469  1.00  0.00           C  
+HETATM    8  C11 FQD A 801      13.099  19.041  50.945  1.00  0.00           C  
+HETATM    9  C8  FQD A 801      13.056  17.817  51.581  1.00  0.00           C  
+HETATM   10  C5  FQD A 801      13.181  16.649  50.845  1.00  0.00           C  
+HETATM   11  C   FQD A 801      12.610  14.139  51.254  1.00  0.00           C  
+HETATM   12  C4  FQD A 801      11.643  13.736  50.340  1.00  0.00           C  
+HETATM   13  O   FQD A 801      11.124  14.617  49.425  1.00  0.00           O  
+HETATM   14  N1  FQD A 801      11.189  12.475  50.292  1.00  0.00           N  
+HETATM   15  N   FQD A 801      12.623  11.873  52.128  1.00  0.00           N  
+HETATM   16  C3  FQD A 801      13.040  13.144  52.116  1.00  0.00           C  
+HETATM   17  S   FQD A 801      14.206  13.720  53.235  1.00  0.00           S  
+CONECT    1    2   10   11
+CONECT    1    2
+CONECT    2    1   17
+CONECT    2    1
+CONECT    3   14   15
+CONECT    3   15
+CONECT    4    6    7
+CONECT    4    6
+CONECT    5    6
+CONECT    6    4    5    8
+CONECT    6    4
+CONECT    7    4   10
+CONECT    7   10
+CONECT    8    6    9
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    1    7    9
+CONECT   10    7
+CONECT   11    1   12   16
+CONECT   11   16
+CONECT   12   11   13   14
+CONECT   12   13
+CONECT   13   12
+CONECT   13   12
+CONECT   14    3   12
+CONECT   15    3   16
+CONECT   15    3
+CONECT   16   11   15   17
+CONECT   16   11
+CONECT   17    2   16
+ENDMDL
+END   

@@ -1,0 +1,110 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6n8g_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CAL KFD D 501       1.189  14.696  42.572  1.00  0.00           C  
+HETATM    2  CAM KFD D 501       1.916  14.791  41.257  1.00  0.00           C  
+HETATM    3  CAN KFD D 501       1.157  13.816  40.314  1.00  0.00           C  
+HETATM    4  CAO KFD D 501      -0.310  14.355  40.160  1.00  0.00           C  
+HETATM    5  CAP KFD D 501      -1.043  14.509  41.485  1.00  0.00           C  
+HETATM    6  NAK KFD D 501      -0.207  15.179  42.506  1.00  0.00           N  
+HETATM    7  CAJ KFD D 501      -0.711  15.684  43.628  1.00  0.00           C  
+HETATM    8  CAI KFD D 501      -1.244  14.663  44.395  1.00  0.00           C  
+HETATM    9  CAH KFD D 501      -1.773  14.967  45.575  1.00  0.00           C  
+HETATM   10  OBM KFD D 501      -2.326  14.230  46.398  1.00  0.00           O  
+HETATM   11  CAG KFD D 501      -2.711  14.957  47.481  1.00  0.00           C  
+HETATM   12  NAQ KFD D 501      -3.316  14.500  48.593  1.00  0.00           N  
+HETATM   13  CAR KFD D 501      -3.584  15.463  49.747  1.00  0.00           C  
+HETATM   14  CAS KFD D 501      -5.062  15.262  50.108  1.00  0.00           C  
+HETATM   15  OAT KFD D 501      -5.303  13.886  50.518  1.00  0.00           O  
+HETATM   16  CAU KFD D 501      -5.002  12.814  49.538  1.00  0.00           C  
+HETATM   17  CAV KFD D 501      -3.649  13.036  48.755  1.00  0.00           C  
+HETATM   18  NBL KFD D 501      -2.376  16.262  47.274  1.00  0.00           N  
+HETATM   19  CAF KFD D 501      -1.788  16.213  46.069  1.00  0.00           C  
+HETATM   20  CAE KFD D 501      -1.317  17.224  45.366  1.00  0.00           C  
+HETATM   21  CAD KFD D 501      -0.732  17.009  44.167  1.00  0.00           C  
+HETATM   22  NAC KFD D 501      -0.240  18.003  43.446  1.00  0.00           N  
+HETATM   23  CAB KFD D 501      -0.126  19.329  43.756  1.00  0.00           C  
+HETATM   24  OAA KFD D 501      -0.480  19.944  44.769  1.00  0.00           O  
+HETATM   25  CAW KFD D 501       0.351  19.992  42.598  1.00  0.00           C  
+HETATM   26  NBB KFD D 501       0.804  19.320  41.499  1.00  0.00           N  
+HETATM   27  CAX KFD D 501       0.190  21.330  42.470  1.00  0.00           C  
+HETATM   28  CAY KFD D 501       0.563  21.990  41.309  1.00  0.00           C  
+HETATM   29  CAZ KFD D 501       1.112  21.288  40.252  1.00  0.00           C  
+HETATM   30  CBA KFD D 501       1.219  19.914  40.361  1.00  0.00           C  
+HETATM   31  CBC KFD D 501       1.715  19.196  39.260  1.00  0.00           C  
+HETATM   32  CBK KFD D 501       1.234  17.936  38.943  1.00  0.00           C  
+HETATM   33  CBJ KFD D 501       1.707  17.271  37.897  1.00  0.00           C  
+HETATM   34  CBI KFD D 501       1.384  16.070  37.409  1.00  0.00           C  
+HETATM   35  CBH KFD D 501       2.115  15.851  36.325  1.00  0.00           C  
+HETATM   36  NBG KFD D 501       2.900  16.906  36.142  1.00  0.00           N  
+HETATM   37  CBF KFD D 501       2.642  17.776  37.114  1.00  0.00           C  
+HETATM   38  NBE KFD D 501       3.160  18.985  37.340  1.00  0.00           N  
+HETATM   39  CBD KFD D 501       2.701  19.709  38.440  1.00  0.00           C  
+CONECT    1    2    6
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    1    5    7
+CONECT    7    6    8   21
+CONECT    7   21
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    8   10   19
+CONECT    9    8
+CONECT   10    9   11
+CONECT   11   10   12   18
+CONECT   11   18
+CONECT   12   11   13   17
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   12   16
+CONECT   18   11   19
+CONECT   18   11
+CONECT   19    9   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21    7   20   22
+CONECT   21    7
+CONECT   22   21   23
+CONECT   23   22   24   25
+CONECT   23   24
+CONECT   24   23
+CONECT   24   23
+CONECT   25   23   26   27
+CONECT   25   27
+CONECT   26   25   30
+CONECT   26   30
+CONECT   27   25   28
+CONECT   27   25
+CONECT   28   27   29
+CONECT   28   29
+CONECT   29   28   30
+CONECT   29   28
+CONECT   30   26   29   31
+CONECT   30   26
+CONECT   31   30   32   39
+CONECT   31   39
+CONECT   32   31   33
+CONECT   32   33
+CONECT   33   32   34   37
+CONECT   33   32
+CONECT   34   33   35
+CONECT   34   35
+CONECT   35   34   36
+CONECT   35   34
+CONECT   36   35   37
+CONECT   37   33   36   38
+CONECT   37   38
+CONECT   38   37   39
+CONECT   38   37
+CONECT   39   31   38
+CONECT   39   31
+ENDMDL
+END   

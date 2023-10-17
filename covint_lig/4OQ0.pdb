@@ -1,0 +1,80 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4OQ0
+MODEL        1
+ATOM      1  N   SER A  69     -16.833  -3.206   2.842  1.00  7.91           N1+
+ATOM      2  CA  SER A  69     -18.244  -3.539   2.669  1.00  7.18           C  
+ATOM      3  C   SER A  69     -18.910  -2.806   1.485  1.00  6.43           C  
+ATOM      4  O   SER A  69     -20.055  -3.122   1.171  1.00  7.17           O  
+ATOM      5  CB  SER A  69     -19.005  -3.238   3.979  1.00  8.09           C  
+ATOM      6  OG  SER A  69     -18.754  -4.208   4.993  1.00  9.09           O  
+TER       7      SER A  69
+HETATM    8  C3  2UL A 301     -14.702  -3.202  10.536  1.00 18.12           C  
+HETATM    9  C4  2UL A 301     -14.953  -2.387  11.655  1.00 21.19           C  
+HETATM   10  C5  2UL A 301     -15.351  -2.973  12.867  1.00 26.16           C  
+HETATM   11  C6  2UL A 301     -15.498  -4.369  12.945  1.00 28.88           C  
+HETATM   12  C7  2UL A 301     -15.241  -5.173  11.817  1.00 25.69           C  
+HETATM   13  C2  2UL A 301     -14.830  -4.609  10.587  1.00 17.06           C  
+HETATM   14  C1  2UL A 301     -14.533  -5.439   9.380  1.00 17.15           C  
+HETATM   15  N2  2UL A 301     -13.783  -6.655   9.675  1.00 25.09           N  
+HETATM   16  C8  2UL A 301     -15.911  -5.760   8.791  1.00 14.69           C  
+HETATM   17  O5  2UL A 301     -16.519  -6.777   9.131  1.00 15.20           O  
+HETATM   18  N1  2UL A 301     -16.386  -4.885   7.896  1.00 12.69           N  
+HETATM   19  C11 2UL A 301     -17.636  -5.021   7.160  1.00  9.77           C  
+HETATM   20  B   2UL A 301     -17.453  -4.274   5.727  1.00 10.16           B1-
+HETATM   21  O4  2UL A 301     -16.475  -5.075   4.965  1.00 11.49           O  
+HETATM   22  O3  2UL A 301     -16.860  -2.926   5.881  1.00  8.41           O  
+HETATM   23  C9  2UL A 301     -18.848  -4.550   7.990  1.00 11.94           C  
+HETATM   24  C16 2UL A 301     -18.765  -3.110   8.465  1.00 13.67           C  
+HETATM   25  C17 2UL A 301     -19.254  -2.086   7.636  1.00 12.27           C  
+HETATM   26  C21 2UL A 301     -18.207  -2.785   9.718  1.00 15.15           C  
+HETATM   27  C20 2UL A 301     -18.143  -1.440  10.129  1.00 17.95           C  
+HETATM   28  C19 2UL A 301     -18.630  -0.418   9.290  1.00 14.96           C  
+HETATM   29  C18 2UL A 301     -19.190  -0.737   8.034  1.00 11.29           C  
+HETATM   30  C22 2UL A 301     -19.710   0.332   7.122  1.00 11.75           C  
+HETATM   31  O2  2UL A 301     -20.421   0.005   6.148  1.00 14.45           O  
+HETATM   32  O1  2UL A 301     -19.422   1.525   7.353  1.00 15.05           O1-
+CONECT    8    9   13
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13    8   12   14
+CONECT   13   12
+CONECT   14   13   15   16
+CONECT   15   14
+CONECT   16   14   17   18
+CONECT   16   17
+CONECT   17   16
+CONECT   17   16
+CONECT   18   16   19
+CONECT   19   18   20   23
+CONECT   20    6   19   21   22
+CONECT   21   20
+CONECT   22   20
+CONECT   23   19   24
+CONECT   24   23   25   26
+CONECT   24   25
+CONECT   25   24   29
+CONECT   25   24
+CONECT   26   24   27
+CONECT   26   27
+CONECT   27   26   28
+CONECT   27   26
+CONECT   28   27   29
+CONECT   28   29
+CONECT   29   25   28   30
+CONECT   29   28
+CONECT   30   29   31   32
+CONECT   30   31
+CONECT   31   30
+CONECT   31   30
+CONECT   32   30
+ENDMDL
+END   

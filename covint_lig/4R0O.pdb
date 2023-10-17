@@ -1,0 +1,31 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4R0O
+MODEL        1
+ATOM      1  N   THR K   1      11.606-140.926   9.691  1.00 39.81           N1+
+ATOM      2  CA  THR K   1      11.444-139.688   8.870  1.00 40.52           C  
+ATOM      3  C   THR K   1      12.061-139.814   7.489  1.00 37.55           C  
+ATOM      4  O   THR K   1      13.146-140.374   7.327  1.00 36.56           O  
+ATOM      5  CB  THR K   1      12.100-138.474   9.552  1.00 42.94           C  
+ATOM      6  OG1 THR K   1      11.471-138.243  10.820  1.00 48.24           O  
+ATOM      7  CG2 THR K   1      11.993-137.205   8.692  1.00 41.35           C  
+TER       8      THR K   1
+HETATM    9  C1  LCY D 202      19.486  -7.671  12.537  1.00150.72           C  
+HETATM   10  C2  LCY D 202      18.241  -6.811  12.284  1.00145.89           C  
+HETATM   11  C3  LCY D 202      17.267  -7.298  13.348  1.00148.74           C  
+HETATM   12  O2  LCY D 202      16.131  -6.843  13.468  1.00142.47           O  
+HETATM   13  N1  LCY D 202      17.820  -8.257  14.102  1.00145.77           N  
+HETATM   14  C4  LCY D 202      19.066  -8.548  13.708  1.00150.27           C  
+HETATM   15  O1  LCY D 202      19.802  -9.411  14.189  1.00146.41           O  
+HETATM   16  C5  LCY D 202      17.127  -8.897  15.220  1.00128.14           C  
+CONECT    9   10   14
+CONECT   10    9   11
+CONECT   11   10   12   13
+CONECT   12   11
+CONECT   13   11   14   16
+CONECT   14    9   13   15
+CONECT   15   14
+CONECT   16   13
+ENDMDL
+END   

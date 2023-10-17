@@ -1,0 +1,80 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6UNB
+MODEL        1
+ATOM      1  N   SER A  70      -2.470  -0.536  15.117  1.00  5.30           N1+
+ATOM      2  CA  SER A  70      -2.049  -1.448  16.187  1.00  5.95           C  
+ATOM      3  C   SER A  70      -0.650  -1.135  16.743  1.00  4.66           C  
+ATOM      4  O   SER A  70      -0.300  -1.695  17.779  1.00  6.04           O  
+ATOM      5  CB  SER A  70      -1.975  -2.898  15.672  1.00  5.57           C  
+ATOM      6  OG  SER A  70      -3.208  -3.565  15.447  1.00  7.04           O  
+TER       7      SER A  70
+HETATM    8  O7  TJ7 A 301      -3.503  -2.692  13.361  1.00  7.37           O  
+HETATM    9  C15 TJ7 A 301      -3.773  -3.514  14.236  1.00  7.71           C  
+HETATM   10  C6  TJ7 A 301      -4.742  -4.725  14.000  1.00  8.09           C  
+HETATM   11  O5  TJ7 A 301      -5.407  -4.969  15.218  1.00 12.28           O  
+HETATM   12  C14 TJ7 A 301      -6.403  -5.991  15.247  1.00  9.80           C  
+HETATM   13  C   TJ7 A 301      -4.011  -6.065  13.601  1.00 10.52           C  
+HETATM   14  S   TJ7 A 301      -4.926  -7.222  12.532  1.00 11.02           S  
+HETATM   15  C3  TJ7 A 301      -3.571  -7.429  11.371  1.00 10.94           C  
+HETATM   16  C4  TJ7 A 301      -2.701  -8.631  11.801  1.00 16.02           C  
+HETATM   17  C5  TJ7 A 301      -4.149  -7.667   9.968  1.00 12.60           C  
+HETATM   18  C1  TJ7 A 301      -2.853  -6.071  11.511  1.00  9.72           C  
+HETATM   19  C2  TJ7 A 301      -1.511  -5.971  10.788  1.00 10.86           C  
+HETATM   20  O1  TJ7 A 301      -0.467  -5.879  11.466  1.00 12.17           O  
+HETATM   21  O   TJ7 A 301      -1.549  -5.968   9.542  1.00 13.41           O1-
+HETATM   22  N   TJ7 A 301      -2.744  -5.782  12.932  1.00 10.86           N  
+HETATM   23  N1  TJ7 A 301      -5.720  -4.395  12.970  1.00 10.15           N  
+HETATM   24  C7  TJ7 A 301      -6.593  -3.370  13.056  1.00 11.62           C  
+HETATM   25  O2  TJ7 A 301      -6.531  -2.546  13.963  1.00 14.91           O  
+HETATM   26  C8  TJ7 A 301      -7.686  -3.245  11.971  1.00 12.90           C  
+HETATM   27  C9  TJ7 A 301      -9.026  -2.889  12.654  1.00 14.39           C  
+HETATM   28  O4  TJ7 A 301      -9.816  -2.166  12.009  1.00 17.93           O  
+HETATM   29  O3  TJ7 A 301      -9.272  -3.342  13.793  1.00 15.17           O1-
+HETATM   30  C10 TJ7 A 301      -7.837  -4.513  11.159  1.00 13.17           C  
+HETATM   31  C13 TJ7 A 301      -7.335  -4.639   9.826  1.00 18.64           C  
+HETATM   32  C12 TJ7 A 301      -7.525  -5.884   9.290  1.00 14.63           C  
+HETATM   33  S1  TJ7 A 301      -8.327  -6.948  10.406  1.00 31.80           S  
+HETATM   34  C11 TJ7 A 301      -8.406  -5.685  11.600  1.00 16.57           C  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    6    8   10
+CONECT    9    8
+CONECT   10    9   11   13   23
+CONECT   11   10   12
+CONECT   12   11
+CONECT   13   10   14   22
+CONECT   14   13   15
+CONECT   15   14   16   17   18
+CONECT   16   15
+CONECT   17   15
+CONECT   18   15   19   22
+CONECT   19   18   20   21
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   19
+CONECT   22   13   18
+CONECT   23   10   24
+CONECT   24   23   25   26
+CONECT   24   25
+CONECT   25   24
+CONECT   25   24
+CONECT   26   24   27   30
+CONECT   27   26   28   29
+CONECT   27   28
+CONECT   28   27
+CONECT   28   27
+CONECT   29   27
+CONECT   30   26   31   34
+CONECT   30   34
+CONECT   31   30   32
+CONECT   31   32
+CONECT   32   31   33
+CONECT   32   31
+CONECT   33   32   34
+CONECT   34   30   33
+CONECT   34   30
+ENDMDL
+END   

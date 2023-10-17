@@ -1,0 +1,43 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     8ahi_ligand
+MODEL        1
+HETATM    1  N1  M56 A 601      -0.897  14.073  43.757  1.00  0.00           N  
+HETATM    2  C4  M56 A 601      -1.279  16.934  44.109  1.00  0.00           C  
+HETATM    3  C5  M56 A 601      -1.391  18.288  44.279  1.00  0.00           C  
+HETATM    4  C6  M56 A 601      -0.612  19.131  43.483  1.00  0.00           C  
+HETATM    5  C7  M56 A 601       0.306  20.998  42.579  1.00  0.00           C  
+HETATM    6  C8  M56 A 601       0.239  18.584  42.541  1.00  0.00           C  
+HETATM    7  C1  M56 A 601      -1.145  12.689  43.395  1.00  0.00           C  
+HETATM    8  C2  M56 A 601      -0.284  14.909  42.915  1.00  0.00           C  
+HETATM    9  O1  M56 A 601       0.333  14.484  41.930  1.00  0.00           O  
+HETATM   10  C3  M56 A 601      -0.443  16.385  43.144  1.00  0.00           C  
+HETATM   11  N2  M56 A 601      -0.560  20.528  43.497  1.00  0.00           N  
+HETATM   12  S1  M56 A 601       1.062  19.780  41.735  1.00  0.00           S  
+HETATM   13  C9  M56 A 601       0.315  17.226  42.351  1.00  0.00           C  
+CONECT    1    7    8
+CONECT    2    3   10
+CONECT    2   10
+CONECT    3    2    4
+CONECT    3    4
+CONECT    4    3    6   11
+CONECT    4    3
+CONECT    5   11   12
+CONECT    5   11
+CONECT    6    4   12   13
+CONECT    6   13
+CONECT    7    1
+CONECT    8    1    9   10
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT   10    2    8   13
+CONECT   10    2
+CONECT   11    4    5
+CONECT   11    5
+CONECT   12    5    6
+CONECT   13    6   10
+CONECT   13    6
+ENDMDL
+END   

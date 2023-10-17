@@ -1,0 +1,88 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6o9d_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  LTY B 501      -1.547  17.502  45.914  1.00  0.00           C  
+HETATM    2  C14 LTY B 501       0.298  13.921  40.671  1.00  0.00           C  
+HETATM    3  C5  LTY B 501      -0.923  17.111  44.754  1.00  0.00           C  
+HETATM    4  C6  LTY B 501      -0.846  15.738  44.441  1.00  0.00           C  
+HETATM    5  C7  LTY B 501      -1.323  14.787  45.320  1.00  0.00           C  
+HETATM    6  C8  LTY B 501      -1.947  15.181  46.526  1.00  0.00           C  
+HETATM    7  C10 LTY B 501      -3.148  14.606  48.419  1.00  0.00           C  
+HETATM    8  C12 LTY B 501       0.736  14.396  43.129  1.00  0.00           C  
+HETATM    9  C13 LTY B 501       1.343  14.254  41.735  1.00  0.00           C  
+HETATM   10  C3  LTY B 501      -2.076  16.558  46.827  1.00  0.00           C  
+HETATM   11  C1  LTY B 501      -3.310  15.937  48.796  1.00  0.00           C  
+HETATM   12  C2  LTY B 501      -2.782  16.913  47.999  1.00  0.00           C  
+HETATM   13  N9  LTY B 501      -2.491  14.207  47.337  1.00  0.00           N  
+HETATM   14  N11 LTY B 501      -0.359  15.374  43.140  1.00  0.00           N  
+HETATM   15  C15 LTY B 501      -0.842  14.932  40.745  1.00  0.00           C  
+HETATM   16  C16 LTY B 501      -1.407  15.074  42.154  1.00  0.00           C  
+HETATM   17  C17 LTY B 501       0.924  13.899  39.285  1.00  0.00           C  
+HETATM   18  N18 LTY B 501       0.105  13.111  38.356  1.00  0.00           N1+
+HETATM   19  N19 LTY B 501      -0.299  18.051  43.892  1.00  0.00           N  
+HETATM   20  C20 LTY B 501      -0.392  19.397  43.909  1.00  0.00           C  
+HETATM   21  O21 LTY B 501      -0.866  20.026  44.845  1.00  0.00           O  
+HETATM   22  C22 LTY B 501       0.149  20.111  42.710  1.00  0.00           C  
+HETATM   23  C23 LTY B 501       0.086  21.489  42.445  1.00  0.00           C  
+HETATM   24  N24 LTY B 501       0.591  21.834  41.244  1.00  0.00           N  
+HETATM   25  N25 LTY B 501       1.027  20.640  40.733  1.00  0.00           N  
+HETATM   26  C26 LTY B 501       0.792  19.573  41.590  1.00  0.00           C  
+HETATM   27  N27 LTY B 501       1.133  18.314  41.286  1.00  0.00           N  
+HETATM   28  C28 LTY B 501       1.712  18.110  40.089  1.00  0.00           C  
+HETATM   29  C29 LTY B 501       1.981  19.112  39.175  1.00  0.00           C  
+HETATM   30  C30 LTY B 501       1.629  20.399  39.519  1.00  0.00           C  
+CONECT    1    3   10
+CONECT    1    3
+CONECT    2    9   15   17
+CONECT    3    1    4   19
+CONECT    3    1
+CONECT    4    3    5   14
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    5   10   13
+CONECT    6   13
+CONECT    7   11   13
+CONECT    7   11
+CONECT    8    9   14
+CONECT    9    2    8
+CONECT   10    1    6   12
+CONECT   10   12
+CONECT   11    7   12
+CONECT   11    7
+CONECT   12   10   11
+CONECT   12   10
+CONECT   13    6    7
+CONECT   13    6
+CONECT   14    4    8   16
+CONECT   15    2   16
+CONECT   16   14   15
+CONECT   17    2   18
+CONECT   18   17
+CONECT   19    3   20
+CONECT   20   19   21   22
+CONECT   20   21
+CONECT   21   20
+CONECT   21   20
+CONECT   22   20   23   26
+CONECT   22   26
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   24   26   30
+CONECT   26   22   25   27
+CONECT   26   22
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   28   30
+CONECT   29   30
+CONECT   30   25   29
+CONECT   30   29
+ENDMDL
+END   

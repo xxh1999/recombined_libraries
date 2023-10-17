@@ -1,0 +1,73 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7u2z_ligand
+MODEL        1
+HETATM    1  F   L7C A 401       2.597  13.428  42.316  1.00  0.00           F  
+HETATM    2  C17 L7C A 401       2.474  12.090  42.197  1.00  0.00           C  
+HETATM    3  C18 L7C A 401       2.923  11.462  41.037  1.00  0.00           C  
+HETATM    4  C16 L7C A 401       2.803  10.079  40.897  1.00  0.00           C  
+HETATM    5  C14 L7C A 401       2.235   9.299  41.907  1.00  0.00           C  
+HETATM    6  C15 L7C A 401       1.771   9.879  43.089  1.00  0.00           C  
+HETATM    7  C13 L7C A 401       1.857  11.260  43.280  1.00  0.00           C  
+HETATM    8  C12 L7C A 401       1.359  11.899  44.566  1.00  0.00           C  
+HETATM    9  C11 L7C A 401      -0.103  11.579  44.886  1.00  0.00           C  
+HETATM   10  C10 L7C A 401      -1.042  12.575  44.241  1.00  0.00           C  
+HETATM   11  O1  L7C A 401      -1.674  12.223  43.256  1.00  0.00           O  
+HETATM   12  N2  L7C A 401      -1.162  13.799  44.773  1.00  0.00           N  
+HETATM   13  C8  L7C A 401      -0.587  14.205  46.055  1.00  0.00           C  
+HETATM   14  C7  L7C A 401      -0.921  15.684  46.165  1.00  0.00           C  
+HETATM   15  C9  L7C A 401      -1.907  14.867  44.105  1.00  0.00           C  
+HETATM   16  C6  L7C A 401      -1.478  16.139  44.831  1.00  0.00           C  
+HETATM   17  C5  L7C A 401      -0.443  16.898  44.038  1.00  0.00           C  
+HETATM   18  O   L7C A 401       0.496  16.286  43.553  1.00  0.00           O  
+HETATM   19  N1  L7C A 401      -0.665  18.211  43.890  1.00  0.00           N  
+HETATM   20  C1  L7C A 401       0.023  19.048  43.065  1.00  0.00           C  
+HETATM   21  N   L7C A 401      -0.433  20.323  42.990  1.00  0.00           N  
+HETATM   22  C2  L7C A 401       1.134  18.686  42.295  1.00  0.00           C  
+HETATM   23  C4  L7C A 401       1.755  19.630  41.485  1.00  0.00           C  
+HETATM   24  C3  L7C A 401       1.260  20.926  41.443  1.00  0.00           C  
+HETATM   25  C   L7C A 401       0.149  21.248  42.216  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3    7
+CONECT    2    7
+CONECT    3    2    4
+CONECT    3    4
+CONECT    4    3    5
+CONECT    4    3
+CONECT    5    4    6
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    2    6    8
+CONECT    7    2
+CONECT    8    7    9
+CONECT    9    8   10
+CONECT   10    9   11   12
+CONECT   10   11
+CONECT   11   10
+CONECT   11   10
+CONECT   12   10   13   15
+CONECT   13   12   14
+CONECT   14   13   16
+CONECT   15   12   16
+CONECT   16   14   15   17
+CONECT   17   16   18   19
+CONECT   17   18
+CONECT   18   17
+CONECT   18   17
+CONECT   19   17   20
+CONECT   20   19   21   22
+CONECT   20   22
+CONECT   21   20   25
+CONECT   21   25
+CONECT   22   20   23
+CONECT   22   20
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   21   24
+CONECT   25   21
+ENDMDL
+END   

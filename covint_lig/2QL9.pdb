@@ -1,0 +1,34 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2QL9
+MODEL        1
+ATOM      1  N   MET E 704     -52.831  23.894  -2.162  1.00 52.88           N1+
+ATOM      2  CA  MET E 704     -51.710  23.028  -1.809  1.00 53.21           C  
+ATOM      3  C   MET E 704     -50.695  22.975  -2.961  1.00 52.72           C  
+ATOM      4  O   MET E 704     -51.066  22.932  -4.135  1.00 53.70           O  
+ATOM      5  CB  MET E 704     -52.264  21.613  -1.567  1.00 54.14           C  
+ATOM      6  CG  MET E 704     -53.067  21.513  -0.257  1.00 58.37           C  
+ATOM      7  SD  MET E 704     -54.642  20.637  -0.401  1.00 60.91           S  
+ATOM      8  CE  MET E 704     -55.647  21.916  -1.203  1.00 60.70           C  
+TER       9      MET E 704
+HETATM   10  C   ASJ E 705     -47.765  21.239  -3.352  1.00 46.08           C  
+HETATM   11  N   ASJ E 705     -49.409  22.943  -2.591  1.00 50.26           N  
+HETATM   12  O   ASJ E 705     -48.350  20.494  -4.392  1.00 48.67           O  
+HETATM   13  CA  ASJ E 705     -48.249  22.703  -3.449  1.00 47.26           C  
+HETATM   14  CB  ASJ E 705     -47.125  23.710  -3.102  1.00 47.16           C  
+HETATM   15  CG  ASJ E 705     -47.433  25.119  -3.609  1.00 46.92           C  
+HETATM   16  OD1 ASJ E 705     -46.940  26.092  -3.003  1.00 46.55           O1-
+HETATM   17  OD2 ASJ E 705     -48.104  25.225  -4.657  1.00 45.22           O  
+CONECT   10   12   13
+CONECT   11    3   13
+CONECT   12   10
+CONECT   13   10   11   14
+CONECT   14   13   15
+CONECT   15   14   16   17
+CONECT   15   17
+CONECT   16   15
+CONECT   17   15
+CONECT   17   15
+ENDMDL
+END   

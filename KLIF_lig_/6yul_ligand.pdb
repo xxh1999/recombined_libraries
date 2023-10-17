@@ -1,0 +1,73 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6yul_ligand
+MODEL        1
+HETATM    1  C15 PQ5 A 403      -0.989  18.525  45.541  1.00  0.00           C  
+HETATM    2  C13 PQ5 A 403       0.441  19.833  42.587  1.00  0.00           C  
+HETATM    3  C1  PQ5 A 403       2.296  19.669  38.719  1.00  0.00           C  
+HETATM    4  C6  PQ5 A 403       2.108  18.511  39.482  1.00  0.00           C  
+HETATM    5  C4  PQ5 A 403       1.150  19.780  41.282  1.00  0.00           C  
+HETATM    6  C3  PQ5 A 403       1.344  20.939  40.541  1.00  0.00           C  
+HETATM    7  C5  PQ5 A 403       1.560  18.562  40.752  1.00  0.00           C  
+HETATM    8  C2  PQ5 A 403       1.909  20.885  39.280  1.00  0.00           C  
+HETATM    9  C11 PQ5 A 403      -0.068  16.688  44.364  1.00  0.00           C  
+HETATM   10  C8  PQ5 A 403       1.796  15.311  39.932  1.00  0.00           C  
+HETATM   11  C9  PQ5 A 403       0.845  14.580  41.991  1.00  0.00           C  
+HETATM   12  C10 PQ5 A 403       1.213  14.772  43.434  1.00  0.00           C  
+HETATM   13  C12 PQ5 A 403       0.105  18.754  43.445  1.00  0.00           C  
+HETATM   14  C7  PQ5 A 403       2.906  16.249  39.633  1.00  0.00           C  
+HETATM   15  O3  PQ5 A 403       2.747  20.625  36.609  1.00  0.00           O  
+HETATM   16  C   PQ5 A 403       2.969  19.706  37.385  1.00  0.00           C  
+HETATM   17  O   PQ5 A 403       3.646  18.655  37.029  1.00  0.00           O1-
+HETATM   18  O1  PQ5 A 403       2.381  17.329  38.853  1.00  0.00           O  
+HETATM   19  O2  PQ5 A 403       2.023  14.735  41.206  1.00  0.00           O  
+HETATM   20  N   PQ5 A 403       0.124  15.353  44.201  1.00  0.00           N  
+HETATM   21  C16 PQ5 A 403      -0.741  17.198  45.507  1.00  0.00           C  
+HETATM   22  N3  PQ5 A 403      -0.562  19.299  44.497  1.00  0.00           N  
+HETATM   23  N1  PQ5 A 403       0.405  17.448  43.373  1.00  0.00           N  
+HETATM   24  N2  PQ5 A 403      -0.684  20.668  44.388  1.00  0.00           N  
+HETATM   25  C14 PQ5 A 403      -0.082  20.958  43.242  1.00  0.00           C  
+CONECT    1   21   22
+CONECT    1   21
+CONECT    2    5   13   25
+CONECT    2   13
+CONECT    3    4    8   16
+CONECT    3    8
+CONECT    4    3    7   18
+CONECT    4    7
+CONECT    5    2    6    7
+CONECT    5    6
+CONECT    6    5    8
+CONECT    6    5
+CONECT    7    4    5
+CONECT    7    4
+CONECT    8    3    6
+CONECT    8    3
+CONECT    9   20   21   23
+CONECT    9   23
+CONECT   10   14   19
+CONECT   11   12   19
+CONECT   12   11   20
+CONECT   13    2   22   23
+CONECT   13    2
+CONECT   14   10   18
+CONECT   15   16
+CONECT   15   16
+CONECT   16    3   15   17
+CONECT   16   15
+CONECT   17   16
+CONECT   18    4   14
+CONECT   19   10   11
+CONECT   20    9   12
+CONECT   21    1    9
+CONECT   21    1
+CONECT   22    1   13   24
+CONECT   23    9   13
+CONECT   23    9
+CONECT   24   22   25
+CONECT   24   25
+CONECT   25    2   24
+CONECT   25   24
+ENDMDL
+END   

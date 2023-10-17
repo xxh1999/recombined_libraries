@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2G8E
+MODEL        1
+ATOM      1  N   CYS A 115      60.055  10.642  23.337  1.00 16.86           N1+
+ATOM      2  CA  CYS A 115      61.165  11.068  22.474  1.00 16.54           C  
+ATOM      3  C   CYS A 115      61.567  10.024  21.424  1.00 16.21           C  
+ATOM      4  O   CYS A 115      61.898  10.391  20.304  1.00 16.60           O  
+ATOM      5  CB  CYS A 115      62.397  11.501  23.311  1.00 16.24           C  
+ATOM      6  SG  CYS A 115      62.962  10.144  24.396  1.00 18.70           S  
+TER       7      CYS A 115
+HETATM    8  CAK 0M6 A 400      63.223   1.538  27.510  1.00 39.50           C  
+HETATM    9  CAI 0M6 A 400      63.249   0.421  26.655  1.00 42.25           C  
+HETATM   10  CAH 0M6 A 400      64.297   0.272  25.727  1.00 42.16           C  
+HETATM   11  CAJ 0M6 A 400      65.308   1.250  25.640  1.00 43.42           C  
+HETATM   12  CAL 0M6 A 400      65.281   2.368  26.495  1.00 41.74           C  
+HETATM   13  CAV 0M6 A 400      64.229   2.521  27.428  1.00 38.85           C  
+HETATM   14  NAP 0M6 A 400      64.200   3.576  28.376  1.00 36.25           N  
+HETATM   15  CAU 0M6 A 400      64.453   4.900  28.225  1.00 31.71           C  
+HETATM   16  SAG 0M6 A 400      64.567   5.868  29.578  1.00 35.15           S  
+HETATM   17  N   0M6 A 400      64.547   5.298  26.923  1.00 29.58           N  
+HETATM   18  CA  0M6 A 400      64.741   6.682  26.464  1.00 25.97           C  
+HETATM   19  CB  0M6 A 400      65.195   6.711  24.982  1.00 25.16           C  
+HETATM   20  CG  0M6 A 400      66.467   5.911  24.645  1.00 23.30           C  
+HETATM   21  CD2 0M6 A 400      66.750   5.967  23.134  1.00 18.53           C  
+HETATM   22  CD1 0M6 A 400      67.684   6.396  25.445  1.00 18.36           C  
+HETATM   23  C   0M6 A 400      63.411   7.444  26.519  1.00 26.00           C  
+HETATM   24  O   0M6 A 400      62.390   6.929  26.068  1.00 24.91           O  
+HETATM   25  NAQ 0M6 A 400      63.448   8.683  27.033  1.00 24.43           N  
+HETATM   26  CAZ 0M6 A 400      62.320   9.612  27.071  1.00 23.85           C  
+HETATM   27  CAX 0M6 A 400      62.504  10.757  26.047  1.00 17.68           C  
+HETATM   28  OAF 0M6 A 400      61.278  11.448  26.022  1.00 21.80           O  
+HETATM   29  CAN 0M6 A 400      62.097  10.119  28.515  1.00 22.59           C  
+HETATM   30  CAM 0M6 A 400      61.460   9.060  29.428  1.00 27.33           C  
+HETATM   31  OAE 0M6 A 400      61.105   9.643  30.663  1.00 32.65           O  
+CONECT    8    9   13
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13    8   12   14
+CONECT   13   12
+CONECT   14   13   15
+CONECT   15   14   16   17
+CONECT   15   16
+CONECT   16   15
+CONECT   16   15
+CONECT   17   15   18
+CONECT   18   17   19   23
+CONECT   19   18   20
+CONECT   20   19   21   22
+CONECT   21   20
+CONECT   22   20
+CONECT   23   18   24   25
+CONECT   23   24
+CONECT   24   23
+CONECT   24   23
+CONECT   25   23   26
+CONECT   26   25   27   29
+CONECT   27    6   26   28
+CONECT   28   27
+CONECT   29   26   30
+CONECT   30   29   31
+CONECT   31   30
+ENDMDL
+END   

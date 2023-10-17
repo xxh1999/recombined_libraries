@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2xj1_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C3  XJ1 A1307       2.398  13.165  39.565  1.00  0.00           C  
+HETATM    2  C4  XJ1 A1307       2.448  12.811  38.063  1.00  0.00           C  
+HETATM    3  C5  XJ1 A1307       1.841  13.939  37.210  1.00  0.00           C  
+HETATM    4  N8  XJ1 A1307       1.871  13.610  35.767  1.00  0.00           N1+
+HETATM    5  C6  XJ1 A1307       0.406  14.175  37.676  1.00  0.00           C  
+HETATM    6  C7  XJ1 A1307       0.314  14.494  39.183  1.00  0.00           C  
+HETATM    7  C2  XJ1 A1307       0.935  13.372  40.017  1.00  0.00           C  
+HETATM    8  N1  XJ1 A1307       0.877  13.588  41.485  1.00  0.00           N  
+HETATM    9  C9  XJ1 A1307       0.315  14.552  42.225  1.00  0.00           C  
+HETATM   10  N10 XJ1 A1307       0.596  15.855  42.019  1.00  0.00           N  
+HETATM   11  C14 XJ1 A1307      -0.516  14.200  43.293  1.00  0.00           C  
+HETATM   12  N13 XJ1 A1307      -1.032  15.150  44.070  1.00  0.00           N  
+HETATM   13  C12 XJ1 A1307      -0.774  16.451  43.850  1.00  0.00           C  
+HETATM   14  C11 XJ1 A1307       0.079  16.831  42.805  1.00  0.00           C  
+HETATM   15  C15 XJ1 A1307       0.369  18.187  42.497  1.00  0.00           C  
+HETATM   16  C16 XJ1 A1307       0.881  18.486  41.233  1.00  0.00           C  
+HETATM   17  C20 XJ1 A1307       0.126  19.248  43.373  1.00  0.00           C  
+HETATM   18  C19 XJ1 A1307       0.405  20.574  42.986  1.00  0.00           C  
+HETATM   19  C18 XJ1 A1307       0.924  20.838  41.719  1.00  0.00           C  
+HETATM   20  C17 XJ1 A1307       1.184  19.788  40.837  1.00  0.00           C  
+HETATM   21  C21 XJ1 A1307       1.676  20.043  39.550  1.00  0.00           C  
+HETATM   22  C22 XJ1 A1307       2.450  19.172  38.779  1.00  0.00           C  
+HETATM   23  C23 XJ1 A1307       2.859  19.534  37.486  1.00  0.00           C  
+HETATM   24  O25 XJ1 A1307       3.553  18.713  36.868  1.00  0.00           O  
+HETATM   25  O24 XJ1 A1307       2.504  20.636  36.991  1.00  0.00           O1-
+CONECT    1    2    7
+CONECT    2    1    3
+CONECT    3    2    4    5
+CONECT    4    3
+CONECT    5    3    6
+CONECT    6    5    7
+CONECT    7    1    6    8
+CONECT    8    7    9
+CONECT    9    8   10   11
+CONECT    9   11
+CONECT   10    9   14
+CONECT   10   14
+CONECT   11    9   12
+CONECT   11    9
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   10   13   15
+CONECT   14   10
+CONECT   15   14   16   17
+CONECT   15   17
+CONECT   16   15   20
+CONECT   16   20
+CONECT   17   15   18
+CONECT   17   15
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   16   19   21
+CONECT   20   16
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   22   24   25
+CONECT   23   24
+CONECT   24   23
+CONECT   24   23
+CONECT   25   23
+ENDMDL
+END   

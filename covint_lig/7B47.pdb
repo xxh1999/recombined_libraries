@@ -1,0 +1,22 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7B47
+MODEL        1
+ATOM      1  N  ALYS A 101      54.020  26.397  22.048  0.88 35.93           N1+
+ATOM      2  N  BLYS A 101      73.456  -9.135 -22.002  1.00 33.52           N1+
+ATOM      3  CA ALYS A 101      54.005  27.845  21.881  0.88 41.96           C  
+ATOM      4  CA BLYS A 101      72.383  -9.048 -21.020  1.00 39.06           C  
+ATOM      5  C  ALYS A 101      53.780  28.220  20.420  0.88 40.36           C  
+ATOM      6  C  BLYS A 101      72.008  -7.594 -20.748  1.00 36.72           C  
+ATOM      7  O  ALYS A 101      54.459  27.713  19.523  0.88 35.83           O  
+ATOM      8  O  BLYS A 101      72.862  -6.772 -20.401  1.00 39.72           O  
+ATOM      9  CB ALYS A 101      55.314  28.452  22.380  0.88 43.32           C  
+ATOM     10  CB BLYS A 101      72.799  -9.741 -19.723  1.00 35.50           C  
+ATOM     11  CG ALYS A 101      55.245  29.956  22.617  0.88 44.90           C  
+ATOM     12  CG BLYS A 101      71.645  -9.969 -18.756  1.00 43.07           C  
+ATOM     13  CD  LYS A 101      56.624  30.578  22.688  0.88 50.56           C  
+ATOM     14  CE  LYS A 101      57.149  30.817  21.293  0.88 48.47           C  
+ATOM     15  NZ  LYS A 101      58.534  31.342  21.211  0.88 53.96           N1+
+ENDMDL
+END   

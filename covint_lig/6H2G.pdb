@@ -1,0 +1,28 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6H2G
+MODEL        1
+ATOM      1  N   SER A  70       3.295 -14.242 -22.179  1.00 21.37           N1+
+ATOM      2  CA  SER A  70       2.671 -14.779 -20.974  1.00 22.85           C  
+ATOM      3  C   SER A  70       2.487 -13.748 -19.835  1.00 23.26           C  
+ATOM      4  O   SER A  70       1.951 -14.128 -18.795  1.00 22.81           O  
+ATOM      5  CB  SER A  70       3.511 -15.958 -20.450  1.00 24.31           C  
+ATOM      6  OG  SER A  70       3.460 -17.107 -21.294  1.00 28.01           O  
+TER       7      SER A  70
+HETATM    8  C1  FK2 A 401       4.263 -18.692 -22.891  1.00 32.57           C  
+HETATM    9  C2  FK2 A 401       5.161 -18.852 -24.119  1.00 31.66           C  
+HETATM   10  O1  FK2 A 401       6.036 -19.716 -24.158  1.00 29.54           O  
+HETATM   11  C   FK2 A 401       4.385 -17.303 -22.252  1.00 31.85           C  
+HETATM   12  O   FK2 A 401       5.249 -16.488 -22.568  1.00 33.79           O  
+CONECT    8    9   11
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9
+CONECT   10    9
+CONECT   11    6    8   12
+CONECT   11   12
+CONECT   12   11
+CONECT   12   11
+ENDMDL
+END   

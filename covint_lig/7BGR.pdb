@@ -1,0 +1,71 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7BGR
+MODEL        1
+ATOM      1  N   LYS A 122     -15.503 -24.616  -7.997  1.00  5.79           N1+
+ATOM      2  CA  LYS A 122     -16.466 -23.563  -8.311  1.00  5.05           C  
+ATOM      3  C   LYS A 122     -15.812 -22.181  -8.206  1.00  7.32           C  
+ATOM      4  O   LYS A 122     -15.975 -21.329  -9.088  1.00  5.85           O  
+ATOM      5  CB  LYS A 122     -17.673 -23.664  -7.366  1.00  7.58           C  
+ATOM      6  CG  LYS A 122     -18.722 -22.558  -7.535  1.00  8.88           C  
+ATOM      7  CD  LYS A 122     -19.825 -22.684  -6.477  1.00  7.49           C  
+ATOM      8  CE  LYS A 122     -20.717 -21.445  -6.453  1.00  9.35           C  
+ATOM      9  NZ  LYS A 122     -21.745 -21.563  -5.373  1.00 19.09           N1+
+TER      10      LYS A 122
+HETATM   11  C01 TQK A 301     -21.367 -21.026  -4.105  1.00 21.56           C  
+HETATM   12  C02 TQK A 301     -22.251 -21.293  -2.892  1.00 22.07           C  
+HETATM   13  C03 TQK A 301     -23.401 -22.056  -3.027  1.00 16.06           C  
+HETATM   14  C04 TQK A 301     -24.201 -22.298  -1.919  1.00 17.86           C  
+HETATM   15  C05 TQK A 301     -23.852 -21.774  -0.682  1.00 24.26           C  
+HETATM   16  C07 TQK A 301     -24.443 -22.759   1.556  1.00 34.22           C  
+HETATM   17  C08 TQK A 301     -23.147 -23.458   1.936  1.00 39.72           C  
+HETATM   18  C09 TQK A 301     -22.174 -23.776   1.001  1.00 42.60           C  
+HETATM   19  C10 TQK A 301     -21.008 -24.396   1.394  1.00 47.36           C  
+HETATM   20  C11 TQK A 301     -20.828 -24.721   2.719  1.00 54.27           C  
+HETATM   21  C12 TQK A 301     -21.803 -24.409   3.654  1.00 56.60           C  
+HETATM   22  C13 TQK A 301     -22.963 -23.777   3.266  1.00 48.04           C  
+HETATM   23  C15 TQK A 301     -26.473 -22.059   1.727  1.00 29.92           C  
+HETATM   24  C16 TQK A 301     -25.950 -21.618   0.547  1.00 29.47           C  
+HETATM   25  C17 TQK A 301     -22.696 -21.010  -0.547  1.00 27.14           C  
+HETATM   26  C18 TQK A 301     -21.897 -20.772  -1.659  1.00 22.36           C  
+HETATM   27  C19 TQK A 301     -20.621 -19.941  -1.529  1.00 39.61           C  
+HETATM   28  N06 TQK A 301     -24.716 -22.043   0.455  1.00 25.86           N  
+HETATM   29  N14 TQK A 301     -25.536 -22.757   2.341  1.00 30.23           N  
+CONECT   11    9   12
+CONECT   12   11   13   26
+CONECT   12   26
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   25   28
+CONECT   15   25
+CONECT   16   17   28   29
+CONECT   16   29
+CONECT   17   16   18   22
+CONECT   17   22
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   17   21
+CONECT   22   17
+CONECT   23   24   29
+CONECT   23   24
+CONECT   24   23   28
+CONECT   24   23
+CONECT   25   15   26
+CONECT   25   15
+CONECT   26   12   25   27
+CONECT   26   12
+CONECT   27   26
+CONECT   28   15   16   24
+CONECT   29   16   23
+CONECT   29   16
+ENDMDL
+END   

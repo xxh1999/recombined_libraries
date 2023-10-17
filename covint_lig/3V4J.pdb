@@ -1,0 +1,46 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3V4J
+MODEL        1
+ATOM      1  N   CYS A 308     -10.790 -20.307   3.153  1.00 52.03           N1+
+ATOM      2  CA  CYS A 308     -12.012 -19.579   2.826  1.00 51.31           C  
+ATOM      3  C   CYS A 308     -12.501 -18.852   4.082  1.00 51.03           C  
+ATOM      4  O   CYS A 308     -13.019 -19.495   4.988  1.00 49.75           O  
+ATOM      5  CB  CYS A 308     -13.087 -20.554   2.303  1.00 53.80           C  
+ATOM      6  SG  CYS A 308     -12.743 -21.010   0.580  1.00 59.68           S  
+TER       7      CYS A 308
+HETATM    8  O5  PQR A 403     -17.362 -23.168   1.180  1.00 66.60           O  
+HETATM    9  C6  PQR A 403     -16.421 -22.713   0.300  1.00 66.51           C  
+HETATM   10  C7  PQR A 403     -16.672 -22.734  -1.080  1.00 69.69           C  
+HETATM   11  O4  PQR A 403     -17.870 -23.175  -1.558  1.00 75.17           O  
+HETATM   12  C8  PQR A 403     -15.683 -22.308  -1.981  1.00 69.95           C  
+HETATM   13  C9  PQR A 403     -14.429 -21.802  -1.541  1.00 68.89           C  
+HETATM   14  N2  PQR A 403     -13.447 -21.419  -2.497  1.00 72.42           N  
+HETATM   15  N3  PQR A 403     -12.107 -21.486  -2.294  1.00 74.96           N  
+HETATM   16  O3  PQR A 403     -11.381 -21.119  -3.196  1.00 77.07           O  
+HETATM   17  C10 PQR A 403     -13.986 -21.078  -3.821  1.00 75.06           C  
+HETATM   18  C5  PQR A 403     -15.198 -22.208   0.768  1.00 63.49           C  
+HETATM   19  C4  PQR A 403     -14.215 -21.723  -0.125  1.00 64.53           C  
+CONECT    8    9
+CONECT    9    8   10   18
+CONECT    9   18
+CONECT   10    9   11   12
+CONECT   10   12
+CONECT   11   10
+CONECT   12   10   13
+CONECT   12   10
+CONECT   13   12   14   19
+CONECT   13   19
+CONECT   14   13   15   17
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16   15
+CONECT   16   15
+CONECT   17   14
+CONECT   18    9   19
+CONECT   18    9
+CONECT   19    6   13   18
+CONECT   19   13
+ENDMDL
+END   

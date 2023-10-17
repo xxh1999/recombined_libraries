@@ -1,0 +1,86 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5iui_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C10 Q45 A1501      -0.148  19.504  44.586  1.00  0.00           C  
+HETATM    2  C14 Q45 A1501      -0.308  17.293  45.682  1.00  0.00           C  
+HETATM    3  C15 Q45 A1501      -1.090  16.508  46.692  1.00  0.00           C  
+HETATM    4  C17 Q45 A1501      -1.941  17.179  47.703  1.00  0.00           C  
+HETATM    5  N01 Q45 A1501       3.291  21.187  37.673  1.00  0.00           N  
+HETATM    6  C02 Q45 A1501       1.454  21.560  39.253  1.00  0.00           C  
+HETATM    7  C03 Q45 A1501       2.757  20.973  38.910  1.00  0.00           C  
+HETATM    8  C04 Q45 A1501       3.445  20.126  39.933  1.00  0.00           C  
+HETATM    9  C05 Q45 A1501       2.821  19.899  41.253  1.00  0.00           C  
+HETATM   10  C06 Q45 A1501       1.534  20.520  41.579  1.00  0.00           C  
+HETATM   11  C07 Q45 A1501       0.858  21.326  40.580  1.00  0.00           C  
+HETATM   12  C08 Q45 A1501       0.790  20.358  42.857  1.00  0.00           C  
+HETATM   13  C09 Q45 A1501       0.587  19.218  43.504  1.00  0.00           C  
+HETATM   14  N11 Q45 A1501      -0.441  20.779  44.532  1.00  0.00           N  
+HETATM   15  N12 Q45 A1501       0.137  21.299  43.483  1.00  0.00           N  
+HETATM   16  N13 Q45 A1501      -0.665  18.631  45.525  1.00  0.00           N  
+HETATM   17  O16 Q45 A1501       0.533  16.783  45.062  1.00  0.00           O  
+HETATM   18  C18 Q45 A1501      -2.730  16.390  48.670  1.00  0.00           C  
+HETATM   19  C19 Q45 A1501      -2.704  14.916  48.613  1.00  0.00           C  
+HETATM   20  C20 Q45 A1501      -1.856  14.234  47.621  1.00  0.00           C  
+HETATM   21  C21 Q45 A1501      -1.062  15.024  46.645  1.00  0.00           C  
+HETATM   22  C22 Q45 A1501      -3.488  14.163  49.633  1.00  0.00           C  
+HETATM   23  N23 Q45 A1501      -4.705  13.777  49.426  1.00  0.00           N  
+HETATM   24  C24 Q45 A1501      -5.208  13.062  50.511  1.00  0.00           C  
+HETATM   25  C25 Q45 A1501      -6.645  12.590  50.331  1.00  0.00           C  
+HETATM   26  N26 Q45 A1501      -7.153  12.911  49.102  1.00  0.00           N1+
+HETATM   27  C27 Q45 A1501      -6.925  14.166  48.587  1.00  0.00           C  
+HETATM   28  C28 Q45 A1501      -5.518  14.680  48.854  1.00  0.00           C  
+HETATM   29  C29 Q45 A1501      -8.367  12.511  48.889  1.00  0.00           C  
+HETATM   30  C30 Q45 A1501       4.759  19.506  39.656  1.00  0.00           C  
+CONECT    1   13   14   16
+CONECT    1   13
+CONECT    2    3   16   17
+CONECT    2   17
+CONECT    3    2    4   21
+CONECT    3   21
+CONECT    4    3   18
+CONECT    4   18
+CONECT    5    7
+CONECT    6    7   11
+CONECT    6   11
+CONECT    7    5    6    8
+CONECT    7    8
+CONECT    8    7    9   30
+CONECT    8    7
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11   12
+CONECT   10    9
+CONECT   11    6   10
+CONECT   11    6
+CONECT   12   10   13   15
+CONECT   12   15
+CONECT   13    1   12
+CONECT   13    1
+CONECT   14    1   15
+CONECT   15   12   14
+CONECT   15   12
+CONECT   16    1    2
+CONECT   17    2
+CONECT   17    2
+CONECT   18    4   19
+CONECT   18    4
+CONECT   19   18   20   22
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21    3   20
+CONECT   21    3
+CONECT   22   19   23
+CONECT   23   22   24   28
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26   25   27   29
+CONECT   27   26   28
+CONECT   28   23   27
+CONECT   29   26
+CONECT   30    8
+ENDMDL
+END   

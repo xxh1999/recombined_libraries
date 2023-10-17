@@ -1,0 +1,82 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5WFJ
+MODEL        1
+ATOM      1  N   CYS A 909      -3.547 -19.339  -7.575  1.00 40.87           N1+
+ATOM      2  CA  CYS A 909      -3.074 -19.242  -8.956  1.00 40.63           C  
+ATOM      3  C   CYS A 909      -4.025 -19.904  -9.966  1.00 44.17           C  
+ATOM      4  O   CYS A 909      -4.678 -20.906  -9.672  1.00 44.42           O  
+ATOM      5  CB  CYS A 909      -1.656 -19.829  -9.076  1.00 40.76           C  
+ATOM      6  SG  CYS A 909      -1.578 -21.569  -8.556  1.00 45.39           S  
+TER       7      CYS A 909
+HETATM    8  C1  9Z4 A4000      -0.746 -15.675  -3.495  1.00 41.37           C  
+HETATM    9  N2  9Z4 A4000      -2.108 -15.401  -3.334  1.00 41.06           N  
+HETATM   10  N3  9Z4 A4000      -2.705 -14.232  -3.301  1.00 43.43           N1+
+HETATM   11  C4  9Z4 A4000      -1.937 -13.138  -3.442  1.00 44.78           C  
+HETATM   12  C5  9Z4 A4000      -0.519 -13.236  -3.606  1.00 47.15           C  
+HETATM   13  C6  9Z4 A4000       0.087 -14.507  -3.607  1.00 44.94           C  
+HETATM   14  C7  9Z4 A4000      -0.637 -17.053  -3.489  1.00 40.64           C  
+HETATM   15  C8  9Z4 A4000      -1.940 -17.581  -3.301  1.00 40.09           C  
+HETATM   16  C9  9Z4 A4000      -2.843 -16.562  -3.193  1.00 41.85           C  
+HETATM   17  C10 9Z4 A4000       0.257 -11.953  -3.843  1.00 48.40           C  
+HETATM   18  N11 9Z4 A4000      -0.282 -10.820  -3.386  1.00 49.14           N  
+HETATM   19  O12 9Z4 A4000       1.345 -11.936  -4.412  1.00 46.93           O  
+HETATM   20  N13 9Z4 A4000       1.491 -14.603  -3.676  1.00 41.97           N  
+HETATM   21  C14 9Z4 A4000       2.246 -15.815  -3.950  1.00 38.63           C  
+HETATM   22  C15 9Z4 A4000       2.204 -16.298  -5.385  1.00 41.39           C  
+HETATM   23  C16 9Z4 A4000       2.403 -15.387  -6.444  1.00 46.57           C  
+HETATM   24  C17 9Z4 A4000       2.497 -15.858  -7.765  1.00 48.41           C  
+HETATM   25  C18 9Z4 A4000       2.381 -17.235  -8.026  1.00 49.26           C  
+HETATM   26  C19 9Z4 A4000       2.095 -18.143  -6.991  1.00 47.90           C  
+HETATM   27  C20 9Z4 A4000       2.044 -17.673  -5.661  1.00 44.67           C  
+HETATM   28  N21 9Z4 A4000       1.919 -19.511  -7.328  1.00 44.86           N  
+HETATM   29  C22 9Z4 A4000       1.021 -20.361  -6.797  1.00 46.39           C  
+HETATM   30  C23 9Z4 A4000       0.982 -21.771  -7.396  1.00 46.91           C  
+HETATM   31  O24 9Z4 A4000       0.253 -20.071  -5.879  1.00 50.41           O  
+HETATM   32  C25 9Z4 A4000       0.206 -21.868  -8.726  1.00 46.80           C  
+CONECT    8    9   13   14
+CONECT    8   14
+CONECT    9    8   10   16
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   13   17
+CONECT   12   13
+CONECT   13    8   12   20
+CONECT   13   12
+CONECT   14    8   15
+CONECT   14    8
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16    9   15
+CONECT   16   15
+CONECT   17   12   18   19
+CONECT   17   19
+CONECT   18   17
+CONECT   19   17
+CONECT   19   17
+CONECT   20   13   21
+CONECT   21   20   22
+CONECT   22   21   23   27
+CONECT   22   27
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   25   27   28
+CONECT   26   25
+CONECT   27   22   26
+CONECT   27   22
+CONECT   28   26   29
+CONECT   29   28   30   31
+CONECT   29   31
+CONECT   30   29   32
+CONECT   31   29
+CONECT   31   29
+CONECT   32    6   30
+ENDMDL
+END   

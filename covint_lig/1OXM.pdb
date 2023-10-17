@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1OXM
+MODEL        1
+ATOM      1  N   SER A 120      13.605  63.798   7.935  1.00 11.29           N1+
+ATOM      2  CA  SER A 120      14.165  62.450   8.026  1.00 13.32           C  
+ATOM      3  C   SER A 120      13.711  61.574   6.844  1.00 12.42           C  
+ATOM      4  O   SER A 120      14.152  61.819   5.721  1.00 13.30           O  
+ATOM      5  CB  SER A 120      13.986  61.886   9.449  1.00 14.69           C  
+ATOM      6  OG  SER A 120      14.872  60.810   9.675  1.00 15.67           O  
+TER       7      SER A 120
+HETATM    8  C1  TC4 A 901      15.663  58.210   9.796  1.00 21.43           C  
+HETATM    9  C2  TC4 A 901      15.442  56.848  10.464  1.00 22.74           C  
+HETATM   10  C3  TC4 A 901      16.517  55.826  10.071  1.00 26.67           C  
+HETATM   11  C4  TC4 A 901      16.284  54.457  10.713  1.00 27.90           C  
+HETATM   12  C5  TC4 A 901      13.408  60.245  12.524  1.00 35.20           C  
+HETATM   13  C6  TC4 A 901      13.550  59.923  14.015  1.00 43.42           C  
+HETATM   14  C7  TC4 A 901      13.605  57.750  15.062  1.00 49.35           C  
+HETATM   15  C8  TC4 A 901      13.088  55.479  16.005  1.00 51.93           C  
+HETATM   16  C9  TC4 A 901      12.032  55.260  17.101  1.00 49.45           C  
+HETATM   17  C10 TC4 A 901      12.218  56.124  18.358  1.00 50.88           C  
+HETATM   18  C11 TC4 A 901      13.301  55.580  19.301  1.00 53.56           C  
+HETATM   19  C12 TC4 A 901      12.753  60.917  14.870  1.00 52.04           C  
+HETATM   20  C13 TC4 A 901      12.190  60.682  17.184  1.00 68.26           C  
+HETATM   21  C14 TC4 A 901      12.077  60.024  19.584  1.00 71.83           C  
+HETATM   22  C15 TC4 A 901      13.026  59.457  20.644  1.00 74.02           C  
+HETATM   23  C16 TC4 A 901      12.305  59.052  21.935  1.00 73.73           C  
+HETATM   24  C17 TC4 A 901      13.270  58.493  22.983  1.00 71.97           C  
+HETATM   25  N1  TC4 A 901      12.780  56.646  15.185  1.00 52.57           N  
+HETATM   26  N2  TC4 A 901      12.809  60.311  18.361  1.00 69.99           N  
+HETATM   27  O1  TC4 A 901      12.965  59.001   9.646  1.00 18.27           O  
+HETATM   28  O2  TC4 A 901      14.401  59.543  11.803  1.00 23.94           O  
+HETATM   29  O3  TC4 A 901      13.010  58.623  14.228  1.00 46.20           O  
+HETATM   30  O4  TC4 A 901      14.688  57.924  15.622  1.00 51.07           O  
+HETATM   31  O5  TC4 A 901      13.125  60.764  16.230  1.00 62.87           O  
+HETATM   32  O6  TC4 A 901      10.986  60.877  17.021  1.00 70.03           O  
+HETATM   33  P1  TC4 A 901      14.297  59.384  10.190  1.00 18.03           P  
+CONECT    8    9   33
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10
+CONECT   12   13   28
+CONECT   13   12   19   29
+CONECT   14   25   29   30
+CONECT   14   30
+CONECT   15   16   25
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   18   17
+CONECT   19   13   31
+CONECT   20   26   31   32
+CONECT   20   32
+CONECT   21   22   26
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   23
+CONECT   25   14   15
+CONECT   26   20   21
+CONECT   27   33
+CONECT   27   33
+CONECT   28   12   33
+CONECT   29   13   14
+CONECT   30   14
+CONECT   30   14
+CONECT   31   19   20
+CONECT   32   20
+CONECT   32   20
+CONECT   33    6    8   27   28
+CONECT   33   27
+ENDMDL
+END   

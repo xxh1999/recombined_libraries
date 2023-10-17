@@ -1,0 +1,67 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4ZZM
+MODEL        1
+ATOM      1  N   CYS A 166      -9.827   7.523  44.725  1.00 21.94           N1+
+ATOM      2  CA  CYS A 166      -9.639   8.155  43.419  1.00 23.34           C  
+ATOM      3  C   CYS A 166      -8.291   8.882  43.322  1.00 26.44           C  
+ATOM      4  O   CYS A 166      -7.636   9.109  44.339  1.00 23.18           O  
+ATOM      5  CB  CYS A 166     -10.876   9.002  43.046  1.00 24.57           C  
+ATOM      6  SG  CYS A 166     -10.998  10.496  44.072  1.00 29.39           S  
+TER       7      CYS A 166
+HETATM    8  O   CQ6 A1357     -11.366  14.501  41.368  1.00 35.41           O  
+HETATM    9  S   CQ6 A1357     -11.834  13.272  40.711  1.00 34.05           S  
+HETATM   10  O1  CQ6 A1357     -11.062  12.700  39.597  1.00 34.97           O  
+HETATM   11  C1  CQ6 A1357     -12.049  11.969  41.987  1.00 35.24           C  
+HETATM   12  C   CQ6 A1357     -10.779  11.793  42.824  1.00 33.88           C  
+HETATM   13  N   CQ6 A1357     -13.451  13.555  40.161  1.00 30.88           N  
+HETATM   14  C8  CQ6 A1357     -14.404  14.268  41.038  1.00 27.13           C  
+HETATM   15  C7  CQ6 A1357     -15.691  13.507  41.323  1.00 26.19           C  
+HETATM   16  C4  CQ6 A1357     -15.938  12.239  40.760  1.00 26.27           C  
+HETATM   17  C3  CQ6 A1357     -14.940  11.607  39.815  1.00 25.41           C  
+HETATM   18  C2  CQ6 A1357     -14.061  12.679  39.145  1.00 28.47           C  
+HETATM   19  N2  CQ6 A1357     -16.607  14.118  42.101  1.00 27.11           N  
+HETATM   20  C6  CQ6 A1357     -17.747  13.459  42.332  1.00 27.32           C  
+HETATM   21  N1  CQ6 A1357     -18.068  12.242  41.884  1.00 28.27           N  
+HETATM   22  C5  CQ6 A1357     -17.158  11.625  41.098  1.00 25.62           C  
+HETATM   23  N3  CQ6 A1357     -18.714  14.085  43.091  1.00 28.96           N  
+HETATM   24  C9  CQ6 A1357     -18.519  15.329  43.824  1.00 31.45           C  
+HETATM   25  C10 CQ6 A1357     -19.869  15.964  44.186  1.00 31.80           C  
+HETATM   26  C11 CQ6 A1357     -19.655  17.231  45.028  1.00 32.84           C  
+HETATM   27  O2  CQ6 A1357     -18.911  16.915  46.199  1.00 32.85           O  
+HETATM   28  C12 CQ6 A1357     -17.610  16.411  45.918  1.00 31.66           C  
+HETATM   29  C13 CQ6 A1357     -17.708  15.108  45.108  1.00 32.69           C  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10   11   13
+CONECT    9    8   10
+CONECT   10    9
+CONECT   10    9
+CONECT   11    9   12
+CONECT   12    6   11
+CONECT   13    9   14   18
+CONECT   14   13   15
+CONECT   15   14   16   19
+CONECT   15   16
+CONECT   16   15   17   22
+CONECT   16   15
+CONECT   17   16   18
+CONECT   18   13   17
+CONECT   19   15   20
+CONECT   19   20
+CONECT   20   19   21   23
+CONECT   20   19
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   16   21
+CONECT   22   21
+CONECT   23   20   24
+CONECT   24   23   25   29
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   27   29
+CONECT   29   24   28
+ENDMDL
+END   

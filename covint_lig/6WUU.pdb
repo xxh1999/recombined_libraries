@@ -1,0 +1,51 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6WUU
+MODEL        1
+ATOM      1  CH3 ACE G   1      20.264  67.993  -1.473  1.00 74.54           C  
+ATOM      2  C   ACE G   1      21.655  68.440  -1.912  1.00 74.41           C  
+ATOM      3  O   ACE G   1      21.951  68.455  -3.053  1.00 75.04           O  
+TER       4      ACE G   1
+HETATM    5  C   UB4 G   2      21.770  70.182   0.929  1.00 77.59           C  
+HETATM    6  CA  UB4 G   2      22.257  68.821   0.470  1.00 71.28           C  
+HETATM    7  CB  UB4 G   2      23.468  68.462   1.322  1.00 77.62           C  
+HETATM    8  CG  UB4 G   2      23.514  66.975   1.657  1.00 77.83           C  
+HETATM    9  CD  UB4 G   2      23.806  66.190   0.391  1.00 79.70           C  
+HETATM   10  CT1 UB4 G   2      25.950  65.098  -2.336  1.00 81.57           C  
+HETATM   11  CT2 UB4 G   2      23.447  63.901  -2.761  1.00 83.24           C  
+HETATM   12  CZ2 UB4 G   2      23.654  64.737  -1.657  1.00 88.83           C  
+HETATM   13  CZ1 UB4 G   2      24.889  65.333  -1.438  1.00 84.21           C  
+HETATM   14  CI1 UB4 G   2      25.738  64.274  -3.424  1.00 83.10           C  
+HETATM   15  CI2 UB4 G   2      24.497  63.671  -3.647  1.00 81.33           C  
+HETATM   16  NE1 UB4 G   2      25.011  66.178  -0.274  1.00 74.90           N  
+HETATM   17  N   UB4 G   2      22.624  68.854  -0.926  1.00 70.82           N  
+HETATM   18  O   UB4 G   2      22.301  71.184   0.582  1.00 84.76           O  
+HETATM   19  SE1 UB4 G   2      22.681  65.240  -0.416  1.00 91.87           S  
+CONECT    5    6   18
+CONECT    5   18
+CONECT    6    5    7   17
+CONECT    7    6    8
+CONECT    8    7    9
+CONECT    9    8   16   19
+CONECT    9   16
+CONECT   10   13   14
+CONECT   10   13
+CONECT   11   12   15
+CONECT   11   12
+CONECT   12   11   13   19
+CONECT   12   11
+CONECT   13   10   12   16
+CONECT   13   10
+CONECT   14   10   15
+CONECT   14   15
+CONECT   15   11   14
+CONECT   15   14
+CONECT   16    9   13
+CONECT   16    9
+CONECT   17    2    6
+CONECT   18    5
+CONECT   18    5
+CONECT   19    9   12
+ENDMDL
+END   

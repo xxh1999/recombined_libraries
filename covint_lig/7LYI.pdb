@@ -1,0 +1,88 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7LYI
+MODEL        1
+ATOM      1  N   CYS A 145      -6.625 -32.075 -16.766  1.00 24.67           N1+
+ATOM      2  CA  CYS A 145      -8.045 -32.463 -16.650  1.00 22.25           C  
+ATOM      3  C   CYS A 145      -8.202 -33.843 -15.993  1.00 22.43           C  
+ATOM      4  O   CYS A 145      -7.310 -34.681 -16.125  1.00 29.65           O  
+ATOM      5  CB  CYS A 145      -8.720 -32.397 -18.010  1.00 23.23           C  
+ATOM      6  SG  CYS A 145      -9.184 -30.709 -18.447  1.00 25.29           S  
+TER       7      CYS A 145
+HETATM    8  C10 YHI A 503      -5.099 -23.860 -23.141  1.00 20.00           C  
+HETATM    9  C15 YHI A 503     -11.890 -28.471 -23.012  1.00 20.00           C  
+HETATM   10  C17 YHI A 503     -14.194 -27.465 -22.503  1.00 20.00           C  
+HETATM   11  C21 YHI A 503      -7.903 -29.094 -20.115  1.00 20.00           C  
+HETATM   12  C22 YHI A 503      -7.291 -28.139 -19.042  1.00 20.00           C  
+HETATM   13  C24 YHI A 503      -6.072 -26.357 -20.457  1.00 20.00           C  
+HETATM   14  C01 YHI A 503     -12.122 -27.621 -24.252  1.00 20.00           C  
+HETATM   15  C02 YHI A 503     -11.247 -26.410 -24.104  1.00 20.00           C  
+HETATM   16  N03 YHI A 503     -10.942 -26.308 -22.665  1.00 20.00           N  
+HETATM   17  C04 YHI A 503     -10.407 -25.256 -22.144  1.00 20.00           C  
+HETATM   18  O05 YHI A 503     -10.297 -24.126 -22.950  1.00 20.00           O  
+HETATM   19  C06 YHI A 503      -9.303 -23.119 -22.611  1.00 20.00           C  
+HETATM   20  C07 YHI A 503      -7.827 -23.476 -22.782  1.00 20.00           C  
+HETATM   21  C08 YHI A 503      -6.841 -22.546 -22.289  1.00 20.00           C  
+HETATM   22  C09 YHI A 503      -5.513 -22.745 -22.442  1.00 20.00           C  
+HETATM   23  C11 YHI A 503      -5.968 -24.812 -23.670  1.00 20.00           C  
+HETATM   24  C12 YHI A 503      -7.334 -24.597 -23.534  1.00 20.00           C  
+HETATM   25  O13 YHI A 503      -9.998 -25.185 -21.019  1.00 20.00           O  
+HETATM   26  C14 YHI A 503     -11.029 -27.661 -22.114  1.00 20.00           C  
+HETATM   27  C16 YHI A 503     -13.337 -28.364 -23.496  1.00 20.00           C  
+HETATM   28  C18 YHI A 503     -14.004 -29.462 -24.034  1.00 20.00           C  
+HETATM   29  C19 YHI A 503      -9.551 -28.160 -21.837  1.00 20.00           C  
+HETATM   30  N20 YHI A 503      -9.237 -28.657 -20.495  1.00 20.00           N  
+HETATM   31  C23 YHI A 503      -7.126 -26.653 -19.344  1.00 20.00           C  
+HETATM   32  C25 YHI A 503      -5.160 -25.291 -19.973  1.00 20.00           C  
+HETATM   33  N26 YHI A 503      -5.535 -25.095 -18.491  1.00 20.00           N  
+HETATM   34  C27 YHI A 503      -6.683 -25.835 -18.144  1.00 20.00           C  
+HETATM   35  O28 YHI A 503      -7.214 -25.823 -17.054  1.00 20.00           O  
+HETATM   36  C29 YHI A 503      -8.028 -30.456 -19.676  1.00 20.00           C  
+HETATM   37  O30 YHI A 503      -6.614 -30.844 -19.427  1.00 20.00           O  
+HETATM   38  O31 YHI A 503      -8.630 -28.129 -22.667  1.00 20.00           O  
+CONECT    8   22   23
+CONECT    8   22
+CONECT    9   14   26   27
+CONECT   10   27
+CONECT   11   12   30   36
+CONECT   12   11   31
+CONECT   13   31   32
+CONECT   14    9   15   27
+CONECT   15   14   16
+CONECT   16   15   17   26
+CONECT   17   16   18   25
+CONECT   17   25
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20   19   21   24
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22    8   21
+CONECT   22    8
+CONECT   23    8   24
+CONECT   23   24
+CONECT   24   20   23
+CONECT   24   23
+CONECT   25   17
+CONECT   25   17
+CONECT   26    9   16   29
+CONECT   27    9   10   14   28
+CONECT   28   27
+CONECT   29   26   30   38
+CONECT   29   38
+CONECT   30   11   29
+CONECT   31   12   13   34
+CONECT   32   13   33
+CONECT   33   32   34
+CONECT   34   31   33   35
+CONECT   34   35
+CONECT   35   34
+CONECT   35   34
+CONECT   36    6   11   37
+CONECT   37   36
+CONECT   38   29
+CONECT   38   29
+ENDMDL
+END   

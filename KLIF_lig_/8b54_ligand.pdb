@@ -1,0 +1,93 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     8b54_ligand
+MODEL        1
+HETATM    1  C10 P2V A 301      -1.931  16.120  44.791  1.00  0.00           C  
+HETATM    2  C13 P2V A 301      -0.726  15.707  48.475  1.00  0.00           C  
+HETATM    3  C15 P2V A 301      -1.178  13.514  47.663  1.00  0.00           C  
+HETATM    4  C17 P2V A 301      -1.930  13.198  45.351  1.00  0.00           C  
+HETATM    5  C20 P2V A 301      -2.651  11.356  43.352  1.00  0.00           C  
+HETATM    6  C21 P2V A 301      -3.604  12.241  43.857  1.00  0.00           C  
+HETATM    7  C22 P2V A 301      -3.279  13.166  44.856  1.00  0.00           C  
+HETATM    8  C24 P2V A 301       1.041  16.821  41.998  1.00  0.00           C  
+HETATM    9  C26 P2V A 301       0.740  14.138  40.528  1.00  0.00           C  
+HETATM   10  C28 P2V A 301       0.930  12.198  39.120  1.00  0.00           C  
+HETATM   11  C01 P2V A 301       1.018  21.293  39.334  1.00  0.00           C  
+HETATM   12  C02 P2V A 301       1.885  21.126  40.658  1.00  0.00           C  
+HETATM   13  C03 P2V A 301       3.208  20.372  40.382  1.00  0.00           C  
+HETATM   14  C04 P2V A 301       0.955  20.479  41.757  1.00  0.00           C  
+HETATM   15  N05 P2V A 301       0.130  21.131  42.562  1.00  0.00           N  
+HETATM   16  N06 P2V A 301      -0.492  20.221  43.364  1.00  0.00           N  
+HETATM   17  C07 P2V A 301      -0.089  18.999  43.047  1.00  0.00           C  
+HETATM   18  C08 P2V A 301      -0.450  17.703  43.551  1.00  0.00           C  
+HETATM   19  N09 P2V A 301      -1.458  17.478  44.613  1.00  0.00           N  
+HETATM   20  C11 P2V A 301      -1.486  15.492  46.169  1.00  0.00           C  
+HETATM   21  C12 P2V A 301      -1.089  16.309  47.239  1.00  0.00           C  
+HETATM   22  C14 P2V A 301      -0.770  14.323  48.708  1.00  0.00           C  
+HETATM   23  C16 P2V A 301      -1.536  14.103  46.388  1.00  0.00           C  
+HETATM   24  C18 P2V A 301      -0.976  12.312  44.846  1.00  0.00           C  
+HETATM   25  C19 P2V A 301      -1.313  11.382  43.845  1.00  0.00           C  
+HETATM   26  N23 P2V A 301       0.193  16.629  42.980  1.00  0.00           N  
+HETATM   27  S25 P2V A 301       1.769  15.317  41.428  1.00  0.00           S  
+HETATM   28  C27 P2V A 301       1.327  12.776  40.490  1.00  0.00           C  
+HETATM   29  N29 P2V A 301      -0.487  12.548  38.850  1.00  0.00           N1+
+HETATM   30  C30 P2V A 301      -1.323  13.059  40.009  1.00  0.00           C  
+HETATM   31  C31 P2V A 301      -0.644  14.046  40.984  1.00  0.00           C  
+HETATM   32  N32 P2V A 301       1.440  17.974  41.483  1.00  0.00           N  
+HETATM   33  C33 P2V A 301       0.839  19.098  42.028  1.00  0.00           C  
+CONECT    1   19   20
+CONECT    2   21   22
+CONECT    2   22
+CONECT    3   22   23
+CONECT    3   23
+CONECT    4    7   23   24
+CONECT    4    7
+CONECT    5    6   25
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    4    6
+CONECT    7    4
+CONECT    8   26   27   32
+CONECT    8   32
+CONECT    9   27   28   31
+CONECT   10   28   29
+CONECT   11   12
+CONECT   12   11   13   14
+CONECT   13   12
+CONECT   14   12   15   33
+CONECT   14   33
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   16   18   33
+CONECT   17   16
+CONECT   18   17   19   26
+CONECT   18   26
+CONECT   19    1   18
+CONECT   20    1   21   23
+CONECT   20   21
+CONECT   21    2   20
+CONECT   21   20
+CONECT   22    2    3
+CONECT   22    2
+CONECT   23    3    4   20
+CONECT   23    3
+CONECT   24    4   25
+CONECT   24   25
+CONECT   25    5   24
+CONECT   25   24
+CONECT   26    8   18
+CONECT   26   18
+CONECT   27    8    9
+CONECT   28    9   10
+CONECT   29   10   30
+CONECT   30   29   31
+CONECT   31    9   30
+CONECT   32    8   33
+CONECT   32    8
+CONECT   33   14   17   32
+CONECT   33   14
+ENDMDL
+END   

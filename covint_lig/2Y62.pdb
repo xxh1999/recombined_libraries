@@ -1,0 +1,37 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2Y62
+MODEL        1
+ATOM      1  N   GLU A1167     -19.860  -7.687 -11.431  1.00  6.08           N1+
+ATOM      2  CA  GLU A1167     -21.098  -7.508 -10.704  0.76  6.24           C  
+ATOM      3  C   GLU A1167     -21.656  -8.892 -10.394  1.00  5.94           C  
+ATOM      4  O   GLU A1167     -22.376  -9.428 -11.228  1.00  7.50           O  
+ATOM      5  CB  GLU A1167     -22.020  -6.679 -11.611  0.76  8.58           C  
+ATOM      6  CG  GLU A1167     -23.320  -6.359 -10.952  0.76  7.86           C  
+ATOM      7  CD  GLU A1167     -23.929  -5.098 -11.551  0.76  8.39           C  
+ATOM      8  OE1 GLU A1167     -24.237  -5.026 -12.734  0.76 11.17           O  
+ATOM      9  OE2 GLU A1167     -24.010  -4.150 -10.719  0.76  7.54           O  
+TER      10      GLU A1167
+HETATM   11  C1  G3P A2250     -24.548  -2.927 -11.228  0.76  7.73           C  
+HETATM   12  C2  G3P A2250     -25.987  -2.704 -10.795  0.76  6.18           C  
+HETATM   13  O2  G3P A2250     -26.866  -3.581 -11.402  0.76  6.82           O  
+HETATM   14  C3  G3P A2250     -26.101  -2.935  -9.280  0.76  7.57           C  
+HETATM   15  O1P G3P A2250     -27.401  -2.475  -8.828  0.76  5.63           O  
+HETATM   16  O4P G3P A2250     -26.455  -1.102  -7.026  0.76  5.91           O  
+HETATM   17  O2P G3P A2250     -28.962  -1.677  -7.082  0.76 10.34           O1-
+HETATM   18  O3P G3P A2250     -27.224  -3.420  -6.465  0.76  8.12           O1-
+HETATM   19  P   G3P A2250     -27.499  -2.164  -7.250  0.76  7.48           P  
+CONECT   11    9   12
+CONECT   12   11   13   14
+CONECT   13   12
+CONECT   14   12   15
+CONECT   15   14   19
+CONECT   16   19
+CONECT   16   19
+CONECT   17   19
+CONECT   18   19
+CONECT   19   15   16   17   18
+CONECT   19   16
+ENDMDL
+END   

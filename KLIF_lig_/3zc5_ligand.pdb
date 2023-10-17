@@ -1,0 +1,84 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3zc5_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  W9Z A2345       0.553  19.263  43.869  1.00  0.00           C  
+HETATM    2  N1  W9Z A2345      -0.173  19.611  44.976  1.00  0.00           N  
+HETATM    3  C2  W9Z A2345       0.757  20.245  42.869  1.00  0.00           C  
+HETATM    4  N2  W9Z A2345       1.134  17.171  38.783  1.00  0.00           N  
+HETATM    5  C3  W9Z A2345       1.513  19.953  41.699  1.00  0.00           C  
+HETATM    6  N3  W9Z A2345       0.965  16.054  39.444  1.00  0.00           N  
+HETATM    7  C4  W9Z A2345       2.110  18.653  41.466  1.00  0.00           C  
+HETATM    8  N4  W9Z A2345       0.238  12.268  41.209  1.00  0.00           N  
+HETATM    9  C5  W9Z A2345       2.966  18.411  40.158  1.00  0.00           C  
+HETATM   10  N5  W9Z A2345      -0.669  11.871  40.368  1.00  0.00           N  
+HETATM   11  C6  W9Z A2345       1.972  18.239  39.002  1.00  0.00           C  
+HETATM   12  N6  W9Z A2345       0.872  18.670  37.224  1.00  0.00           N  
+HETATM   13  C7  W9Z A2345       0.049  15.164  38.955  1.00  0.00           C  
+HETATM   14  C8  W9Z A2345      -0.106  13.872  39.683  1.00  0.00           C  
+HETATM   15  C9  W9Z A2345       0.629  13.451  40.877  1.00  0.00           C  
+HETATM   16  C10 W9Z A2345      -0.948  12.812  39.381  1.00  0.00           C  
+HETATM   17  N10 W9Z A2345       1.783  19.094  38.044  1.00  0.00           N  
+HETATM   18  C11 W9Z A2345      -1.335  10.571  40.443  1.00  0.00           C  
+HETATM   19  C12 W9Z A2345      -0.721  15.444  37.771  1.00  0.00           C  
+HETATM   20  C13 W9Z A2345      -0.518  16.672  37.073  1.00  0.00           C  
+HETATM   21  C14 W9Z A2345       0.456  17.525  37.629  1.00  0.00           C  
+HETATM   22  C15 W9Z A2345       3.804  19.698  39.990  1.00  0.00           C  
+HETATM   23  C16 W9Z A2345       1.904  17.642  42.470  1.00  0.00           C  
+HETATM   24  C17 W9Z A2345       1.127  17.939  43.669  1.00  0.00           C  
+HETATM   25  C18 W9Z A2345       0.901  16.968  44.696  1.00  0.00           C  
+HETATM   26  C19 W9Z A2345       0.139  17.333  45.853  1.00  0.00           C  
+HETATM   27  C20 W9Z A2345      -0.373  18.666  45.946  1.00  0.00           C  
+CONECT    1    2    3   24
+CONECT    1   24
+CONECT    2    1   27
+CONECT    2   27
+CONECT    3    1    5
+CONECT    3    5
+CONECT    4    6   11   21
+CONECT    5    3    7
+CONECT    5    3
+CONECT    6    4   13
+CONECT    6   13
+CONECT    7    5    9   23
+CONECT    7   23
+CONECT    8   10   15
+CONECT    8   15
+CONECT    9    7   11   22
+CONECT   10    8   16   18
+CONECT   11    4    9   17
+CONECT   11   17
+CONECT   12   17   21
+CONECT   12   21
+CONECT   13    6   14   19
+CONECT   13    6
+CONECT   14   13   15   16
+CONECT   14   16
+CONECT   15    8   14
+CONECT   15    8
+CONECT   16   10   14
+CONECT   16   14
+CONECT   17   11   12
+CONECT   17   11
+CONECT   18   10
+CONECT   19   13   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21    4   12   20
+CONECT   21   12
+CONECT   22    9
+CONECT   23    7   24
+CONECT   23    7
+CONECT   24    1   23   25
+CONECT   24    1
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27    2   26
+CONECT   27    2
+ENDMDL
+END   

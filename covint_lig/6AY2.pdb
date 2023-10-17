@@ -1,0 +1,78 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6AY2
+MODEL        1
+ATOM      1  N   CYS A  29       2.352   6.263  36.852  1.00 22.93           N1+
+ATOM      2  CA  CYS A  29       2.768   4.849  36.937  1.00 21.72           C  
+ATOM      3  C   CYS A  29       1.918   3.843  36.133  1.00 20.31           C  
+ATOM      4  O   CYS A  29       2.447   2.833  35.670  1.00 18.68           O  
+ATOM      5  CB  CYS A  29       2.986   4.397  38.401  1.00 22.72           C  
+ATOM      6  SG  CYS A  29       1.457   4.182  39.391  1.00 24.53           S  
+TER       7      CYS A  29
+HETATM    8  C2  C1G A 301      -4.084   3.880  41.057  1.00 25.29           C  
+HETATM    9  C4  C1G A 301      -6.329   4.971  40.953  1.00 25.70           C  
+HETATM   10  C5  C1G A 301      -7.175   3.979  41.773  0.00 22.57           C  
+HETATM   11  C6  C1G A 301      -7.154   5.627  39.879  1.00 24.85           C  
+HETATM   12  C7  C1G A 301      -7.880   4.922  38.868  1.00 24.67           C  
+HETATM   13  C8  C1G A 301      -8.555   5.746  38.007  1.00 24.77           C  
+HETATM   14  C11 C1G A 301      -2.910   3.295  40.242  1.00 24.31           C  
+HETATM   15  C12 C1G A 301      -2.157   2.126  40.915  1.00 24.08           C  
+HETATM   16  C15 C1G A 301      -2.017   4.497  39.866  1.00 23.30           C  
+HETATM   17  C18 C1G A 301      -0.249   6.049  40.777  1.00 20.20           C  
+HETATM   18  C19 C1G A 301       0.173   6.370  42.234  1.00 21.19           C  
+HETATM   19  C21 C1G A 301       0.727   8.164  43.986  0.00 22.57           C  
+HETATM   20  N22 C1G A 301       1.230   9.522  44.154  0.00 22.57           N  
+HETATM   21  C23 C1G A 301       1.856   9.960  45.253  0.00 22.57           C  
+HETATM   22  O25 C1G A 301       2.039   9.286  46.264  0.00 22.57           O  
+HETATM   23  O1  C1G A 301      -3.999   3.950  42.284  1.00 27.08           O  
+HETATM   24  N3  C1G A 301      -5.159   4.314  40.374  1.00 25.50           N  
+HETATM   25  S9  C1G A 301      -8.315   7.422  38.407  1.00 24.22           S  
+HETATM   26  C10 C1G A 301      -7.298   6.987  39.754  1.00 24.50           C  
+HETATM   27  C13 C1G A 301      -2.613   1.168  39.818  1.00 23.88           C  
+HETATM   28  C14 C1G A 301      -3.286   2.332  39.094  1.00 24.24           C  
+HETATM   29  O16 C1G A 301      -2.112   5.036  38.765  1.00 24.12           O  
+HETATM   30  N17 C1G A 301      -1.153   4.902  40.809  1.00 22.32           N  
+HETATM   31  C20 C1G A 301       0.486   7.860  42.502  0.00 22.57           C  
+HETATM   32  N24 C1G A 301       2.285  11.216  45.140  0.00 22.57           N  
+HETATM   33  C26 C1G A 301       0.903   5.882  39.729  1.00 18.41           C  
+HETATM   34  N27 C1G A 301       2.080   6.696  40.069  1.00 18.84           N1+
+CONECT    8   14   23   24
+CONECT    8   23
+CONECT    9   10   11   24
+CONECT   10    9
+CONECT   11    9   12   26
+CONECT   11   26
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   25
+CONECT   13   12
+CONECT   14    8   15   16   28
+CONECT   15   14   27
+CONECT   16   14   29   30
+CONECT   16   29
+CONECT   17   18   30   33
+CONECT   18   17   31
+CONECT   19   20   31
+CONECT   20   19   21
+CONECT   21   20   22   32
+CONECT   21   22
+CONECT   22   21
+CONECT   22   21
+CONECT   23    8
+CONECT   23    8
+CONECT   24    8    9
+CONECT   25   13   26
+CONECT   26   11   25
+CONECT   26   11
+CONECT   27   15   28
+CONECT   28   14   27
+CONECT   29   16
+CONECT   29   16
+CONECT   30   16   17
+CONECT   31   18   19
+CONECT   32   21
+CONECT   33    6   17   34
+CONECT   34   33
+ENDMDL
+END   

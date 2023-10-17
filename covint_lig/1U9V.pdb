@@ -1,0 +1,80 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1U9V
+MODEL        1
+ATOM      1  N   CYS A  25      61.831  18.817  -2.856  1.00 11.20           N1+
+ATOM      2  CA  CYS A  25      60.514  19.436  -2.867  1.00 12.61           C  
+ATOM      3  C   CYS A  25      59.638  18.857  -1.729  1.00 11.94           C  
+ATOM      4  O   CYS A  25      58.910  19.597  -1.072  1.00 13.77           O  
+ATOM      5  CB  CYS A  25      59.805  19.202  -4.178  1.00 12.27           C  
+ATOM      6  SG  CYS A  25      59.669  17.421  -4.593  1.00 14.80           S  
+TER       7      CYS A  25
+HETATM    8  C01 IHE A 300      62.379  15.303 -12.154  1.00 22.78           C  
+HETATM    9  C02 IHE A 300      63.038  12.504 -12.793  1.00 26.48           C  
+HETATM   10  N03 IHE A 300      62.363  13.403 -13.789  1.00 26.99           N  
+HETATM   11  C04 IHE A 300      61.522  14.463 -13.123  1.00 23.10           C  
+HETATM   12  C05 IHE A 300      63.908  13.328 -11.823  1.00 22.26           C  
+HETATM   13  N06 IHE A 300      63.076  14.398 -11.158  1.00 24.66           N  
+HETATM   14  C15 IHE A 300      61.539  12.588 -14.724  1.00 27.56           C  
+HETATM   15  C16 IHE A 300      63.940  15.220 -10.207  1.00 19.94           C  
+HETATM   16  C17 IHE A 300      64.446  14.417  -8.963  1.00 20.27           C  
+HETATM   17  N18 IHE A 300      63.314  13.757  -8.291  1.00 19.40           N  
+HETATM   18  C19 IHE A 300      62.950  12.407  -8.373  1.00 21.55           C  
+HETATM   19  N20 IHE A 300      61.885  12.133  -7.678  1.00 20.30           N  
+HETATM   20  C21 IHE A 300      62.401  14.343  -7.461  1.00 18.76           C  
+HETATM   21  N22 IHE A 300      62.304  15.648  -7.042  1.00 19.66           N  
+HETATM   22  C23 IHE A 300      61.246  15.917  -6.217  1.00 18.49           C  
+HETATM   23  N24 IHE A 300      60.355  14.962  -5.856  1.00 16.51           N  
+HETATM   24  C25 IHE A 300      60.496  13.696  -6.300  1.00 21.03           C  
+HETATM   25  C26 IHE A 300      61.545  13.359  -7.108  1.00 22.02           C  
+HETATM   26  N28 IHE A 300      59.556  12.703  -5.951  1.00 24.00           N  
+HETATM   27  C29 IHE A 300      58.359  12.858  -5.170  1.00 26.10           C  
+HETATM   28  C30 IHE A 300      57.740  11.541  -4.681  1.00 24.73           C  
+HETATM   29  C31 IHE A 300      56.442  11.776  -3.870  1.00 27.58           C  
+HETATM   30  C32 IHE A 300      55.407  12.580  -4.701  1.00 28.42           C  
+HETATM   31  C33 IHE A 300      55.989  13.920  -5.239  1.00 30.11           C  
+HETATM   32  C34 IHE A 300      57.320  13.697  -5.971  1.00 26.12           C  
+HETATM   33  N35 IHE A 300      61.938  18.154  -5.935  1.00 16.17           N  
+HETATM   34  C27 IHE A 300      61.044  17.296  -5.696  1.00 14.83           C  
+CONECT    8   11   13
+CONECT    9   10   12
+CONECT   10    9   11   14
+CONECT   11    8   10
+CONECT   12    9   13
+CONECT   13    8   12   15
+CONECT   14   10
+CONECT   15   13   16
+CONECT   16   15   17
+CONECT   17   16   18   20
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   25
+CONECT   19   18
+CONECT   20   17   21   25
+CONECT   20   25
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23   34
+CONECT   22   21
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25   26
+CONECT   24   23
+CONECT   25   19   20   24
+CONECT   25   20
+CONECT   26   24   27
+CONECT   27   26   28   32
+CONECT   28   27   29
+CONECT   29   28   30
+CONECT   30   29   31
+CONECT   31   30   32
+CONECT   32   27   31
+CONECT   33   34
+CONECT   33   34
+CONECT   33   34
+CONECT   34    6   22   33
+CONECT   34   33
+CONECT   34   33
+ENDMDL
+END   

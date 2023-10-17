@@ -1,0 +1,29 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4Y6Z
+MODEL        1
+ATOM      1  N   ALA c   3      62.042-136.728  38.406  1.00 84.12           N1+
+ATOM      2  CA  ALA c   3      61.609-137.037  39.743  1.00 80.38           C  
+ATOM      3  C   ALA c   3      62.869-137.009  40.578  1.00 82.67           C  
+ATOM      4  O   ALA c   3      63.960-137.033  40.039  1.00 77.76           O  
+ATOM      5  CB  ALA c   3      60.983-138.410  39.743  1.00 77.03           C  
+TER       6      ALA c   3
+HETATM    7  N   DCL c   4      62.685-136.964  41.892  1.00 86.92           N  
+HETATM    8  CA  DCL c   4      63.766-136.833  42.853  1.00 88.25           C  
+HETATM    9  C   DCL c   4      63.650-137.757  44.069  1.00 87.55           C  
+HETATM   10  CB  DCL c   4      63.480-135.432  43.351  1.00 88.28           C  
+HETATM   11  CG  DCL c   4      64.408-134.345  42.836  1.00 88.93           C  
+HETATM   12  CD1 DCL c   4      63.595-133.066  42.791  1.00 87.75           C  
+HETATM   13  CD2 DCL c   4      64.952-134.651  41.454  1.00 89.85           C  
+HETATM   14  OXT DCL c   4      62.330-137.604  44.537  1.00 80.23           O  
+CONECT    7    3    8
+CONECT    8    7    9   10
+CONECT    9    8   14
+CONECT   10    8   11
+CONECT   11   10   12   13
+CONECT   12   11
+CONECT   13   11
+CONECT   14    9
+ENDMDL
+END   

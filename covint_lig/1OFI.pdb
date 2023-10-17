@@ -1,0 +1,114 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1OFI
+MODEL        1
+ATOM      1  N   THR G   1      91.935 137.667  40.286  1.00 64.22           N1+
+ATOM      2  CA  THR G   1      91.348 136.799  41.321  1.00 42.19           C  
+ATOM      3  C   THR G   1      89.892 136.475  40.972  1.00 42.19           C  
+ATOM      4  O   THR G   1      89.175 137.325  40.450  1.00 42.19           O  
+ATOM      5  CB  THR G   1      91.497 137.431  42.730  1.00 42.19           C  
+ATOM      6  OG1 THR G   1      92.884 137.587  42.977  1.00 42.19           O  
+ATOM      7  CG2 THR G   1      90.893 136.576  43.861  1.00 64.22           C  
+TER       8      THR G   1
+HETATM    9  CB1 LVS G   0     101.001 141.644  45.722  1.00 64.22           C  
+HETATM   10  CG1 LVS G   0     102.381 141.982  46.330  1.00 64.22           C  
+HETATM   11  CD1 LVS G   0     102.293 142.633  47.724  1.00 64.22           C  
+HETATM   12  CD2 LVS G   0     103.218 140.704  46.435  1.00 64.22           C  
+HETATM   13  C1  LVS G   0      98.733 142.544  45.210  1.00 42.19           C  
+HETATM   14  O1  LVS G   0      98.243 142.739  46.322  1.00 42.19           O  
+HETATM   15  N1  LVS G   0     100.551 144.099  45.515  1.00 42.19           N  
+HETATM   16  CA1 LVS G   0     100.231 142.775  44.985  1.00 42.19           C  
+HETATM   17  N2  LVS G   0      98.014 142.131  44.165  1.00 42.19           N  
+HETATM   18  CA2 LVS G   0      96.575 141.933  44.201  1.00 42.19           C  
+HETATM   19  CB2 LVS G   0      95.796 143.131  43.590  1.00 64.22           C  
+HETATM   20  CG2 LVS G   0      95.984 143.452  42.086  1.00 64.22           C  
+HETATM   21  CD3 LVS G   0      94.812 144.302  41.568  1.00 64.22           C  
+HETATM   22  CD4 LVS G   0      97.287 144.212  41.787  1.00 64.22           C  
+HETATM   23  C2  LVS G   0      96.234 140.544  43.670  1.00 42.19           C  
+HETATM   24  O2  LVS G   0      96.674 140.141  42.597  1.00 42.19           O  
+HETATM   25  N3  LVS G   0      95.405 139.833  44.441  1.00 42.19           N  
+HETATM   26  CA3 LVS G   0      94.731 138.592  44.080  1.00 42.19           C  
+HETATM   27  CS  LVS G   0      93.438 138.820  43.270  1.00 42.19           C  
+HETATM   28  CB3 LVS G   0      94.629 137.671  45.321  1.00 64.22           C  
+HETATM   29  CG3 LVS G   0      94.342 138.324  46.694  1.00 64.22           C  
+HETATM   30  CD5 LVS G   0      92.865 138.680  46.835  1.00 64.22           C  
+HETATM   31  CD6 LVS G   0      94.765 137.393  47.838  1.00 64.22           C  
+HETATM   32  C1' LVS G   0      90.166 140.482  42.181  1.00 64.22           C  
+HETATM   33  S   LVS G   0      91.887 140.937  41.811  1.00 64.22           S  
+HETATM   34  O1' LVS G   0      91.979 142.344  42.209  1.00 64.22           O  
+HETATM   35  O2' LVS G   0      92.216 140.556  40.428  1.00 64.22           O  
+HETATM   36  C2' LVS G   0      93.065 140.092  42.920  1.00 64.22           C  
+HETATM   37  C3  LVS G   0     100.161 145.259  44.961  1.00102.19           C  
+HETATM   38  C4  LVS G   0     100.403 146.526  45.777  1.00124.22           C  
+HETATM   39  C5  LVS G   0     101.735 147.149  45.415  1.00124.22           C  
+HETATM   40  C6  LVS G   0     101.918 147.729  44.142  1.00124.22           C  
+HETATM   41  C7  LVS G   0     103.153 148.332  43.790  1.00124.22           C  
+HETATM   42  C8  LVS G   0     104.203 148.328  44.740  1.00124.22           C  
+HETATM   43  C9  LVS G   0     104.017 147.753  46.012  1.00124.22           C  
+HETATM   44  C10 LVS G   0     102.786 147.165  46.351  1.00124.22           C  
+HETATM   45  N4  LVS G   0     103.400 148.933  42.514  1.00124.22           N  
+HETATM   46  O3  LVS G   0     102.153 149.328  41.922  1.00124.22           O1-
+HETATM   47  O4  LVS G   0     103.941 147.879  41.699  1.00124.22           O  
+HETATM   48  O5  LVS G   0     105.415 148.881  44.436  1.00124.22           O  
+HETATM   49  O6  LVS G   0      99.603 145.330  43.866  1.00102.19           O  
+CONECT    9   10   16
+CONECT   10    9   11   12
+CONECT   11   10
+CONECT   12   10
+CONECT   13   14   16   17
+CONECT   13   14
+CONECT   14   13
+CONECT   14   13
+CONECT   15   16   37
+CONECT   16    9   13   15
+CONECT   17   13   18
+CONECT   18   17   19   23
+CONECT   19   18   20
+CONECT   20   19   21   22
+CONECT   21   20
+CONECT   22   20
+CONECT   23   18   24   25
+CONECT   23   24
+CONECT   24   23
+CONECT   24   23
+CONECT   25   23   26
+CONECT   26   25   27   28
+CONECT   27    6   26   36
+CONECT   27   36
+CONECT   28   26   29
+CONECT   29   28   30   31
+CONECT   30   29
+CONECT   31   29
+CONECT   32   33
+CONECT   33   32   34   35   36
+CONECT   33   34   35
+CONECT   34   33
+CONECT   34   33
+CONECT   35   33
+CONECT   35   33
+CONECT   36   27   33
+CONECT   36   27
+CONECT   37   15   38   49
+CONECT   37   49
+CONECT   38   37   39
+CONECT   39   38   40   44
+CONECT   39   40
+CONECT   40   39   41
+CONECT   40   39
+CONECT   41   40   42   45
+CONECT   41   42
+CONECT   42   41   43   48
+CONECT   42   41
+CONECT   43   42   44
+CONECT   43   44
+CONECT   44   39   43
+CONECT   44   43
+CONECT   45   41   46   47
+CONECT   46   45
+CONECT   47   45
+CONECT   48   42
+CONECT   49   37
+CONECT   49   37
+ENDMDL
+END   

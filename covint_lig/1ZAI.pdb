@@ -1,0 +1,59 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1ZAI
+MODEL        1
+ATOM      1  N   LYS A 229       4.841 -24.325  40.831  1.00 12.44           N1+
+ATOM      2  CA  LYS A 229       5.295 -25.553  41.471  1.00 12.72           C  
+ATOM      3  C   LYS A 229       4.564 -26.724  40.806  1.00 13.63           C  
+ATOM      4  O   LYS A 229       3.594 -27.239  41.359  1.00 12.89           O  
+ATOM      5  CB  LYS A 229       5.157 -25.435  43.007  1.00 11.94           C  
+ATOM      6  CG  LYS A 229       5.416 -26.740  43.782  1.00 10.98           C  
+ATOM      7  CD  LYS A 229       5.508 -26.580  45.303  1.00 12.39           C  
+ATOM      8  CE  LYS A 229       5.711 -27.968  45.928  1.00 17.03           C  
+ATOM      9  NZ  LYS A 229       5.652 -27.953  47.376  1.00 18.41           N1+
+TER      10      LYS A 229
+HETATM   11  P6  2FP A3001      -0.200 -30.882  52.973  1.00 26.17           P  
+HETATM   12  O6  2FP A3001       1.221 -30.237  52.537  1.00 23.30           O  
+HETATM   13  C6  2FP A3001       1.621 -30.513  51.210  1.00 23.51           C  
+HETATM   14  C5  2FP A3001       3.047 -29.976  51.068  1.00 23.10           C  
+HETATM   15  O5  2FP A3001       3.860 -30.860  51.804  1.00 23.31           O  
+HETATM   16  C4  2FP A3001       3.556 -29.938  49.611  1.00 21.79           C  
+HETATM   17  O4  2FP A3001       2.594 -29.322  48.784  1.00 23.64           O  
+HETATM   18  C3  2FP A3001       4.875 -29.162  49.407  1.00 20.37           C  
+HETATM   19  O3  2FP A3001       4.705 -27.811  49.805  1.00 19.26           O  
+HETATM   20  C2  2FP A3001       5.387 -29.282  47.945  1.00 19.97           C  
+HETATM   21  C1  2FP A3001       6.596 -30.223  47.857  1.00 22.73           C  
+HETATM   22  O1  2FP A3001       6.261 -31.455  48.479  1.00 24.26           O  
+HETATM   23  O61 2FP A3001      -0.381 -30.456  54.415  1.00 24.07           O1-
+HETATM   24  O62 2FP A3001      -1.239 -30.293  52.050  1.00 23.75           O1-
+HETATM   25  O63 2FP A3001      -0.062 -32.379  52.821  1.00 23.27           O  
+HETATM   26  P1  2FP A3001       7.014 -32.786  47.904  1.00 24.32           P  
+HETATM   27  O11 2FP A3001       7.174 -33.708  49.099  1.00 22.67           O  
+HETATM   28  O12 2FP A3001       6.088 -33.363  46.857  1.00 22.61           O1-
+HETATM   29  O13 2FP A3001       8.340 -32.350  47.329  1.00 23.16           O1-
+CONECT   11   12   23   24   25
+CONECT   11   25
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   13   15   16
+CONECT   15   14
+CONECT   16   14   17   18
+CONECT   17   16
+CONECT   18   16   19   20
+CONECT   19   18
+CONECT   20    9   18   21
+CONECT   21   20   22
+CONECT   22   21   26
+CONECT   23   11
+CONECT   24   11
+CONECT   25   11
+CONECT   25   11
+CONECT   26   22   27   28   29
+CONECT   26   27
+CONECT   27   26
+CONECT   27   26
+CONECT   28   26
+CONECT   29   26
+ENDMDL
+END   

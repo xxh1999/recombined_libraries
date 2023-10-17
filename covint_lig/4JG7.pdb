@@ -1,0 +1,84 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4JG7
+MODEL        1
+ATOM      1  N   CYS A 436       5.516  16.497 -21.200  1.00 33.45           N1+
+ATOM      2  CA  CYS A 436       6.542  15.461 -21.154  1.00 33.33           C  
+ATOM      3  C   CYS A 436       7.675  15.833 -22.111  1.00 34.31           C  
+ATOM      4  O   CYS A 436       7.434  16.426 -23.162  1.00 34.87           O  
+ATOM      5  CB  CYS A 436       5.966  14.073 -21.499  1.00 33.64           C  
+ATOM      6  SG  CYS A 436       4.523  13.653 -20.474  1.00 36.54           S  
+TER       7      CYS A 436
+HETATM    8  O01 1LC A 801       7.972   7.631 -22.839  1.00 32.65           O  
+HETATM    9  C02 1LC A 801       6.936   8.281 -22.976  1.00 34.25           C  
+HETATM   10  C03 1LC A 801       6.441   9.135 -21.850  1.00 34.12           C  
+HETATM   11  C04 1LC A 801       5.519  10.188 -22.045  1.00 33.77           C  
+HETATM   12  C05 1LC A 801       5.106  11.015 -20.987  1.00 32.46           C  
+HETATM   13  C06 1LC A 801       4.057  12.086 -21.271  1.00 34.52           C  
+HETATM   14  C07 1LC A 801       2.619  11.647 -20.915  1.00 34.41           C  
+HETATM   15  C08 1LC A 801       2.488  11.395 -19.473  1.00 34.32           C  
+HETATM   16  N09 1LC A 801       2.395  11.201 -18.337  1.00 33.54           N  
+HETATM   17  C10 1LC A 801       2.160  10.437 -21.746  1.00 35.17           C  
+HETATM   18  N11 1LC A 801       1.507  10.685 -22.884  1.00 38.14           N  
+HETATM   19  O12 1LC A 801       2.390   9.289 -21.369  1.00 32.40           O  
+HETATM   20  C13 1LC A 801       5.641  10.807 -19.698  1.00 32.28           C  
+HETATM   21  C14 1LC A 801       6.564   9.769 -19.482  1.00 32.15           C  
+HETATM   22  C15 1LC A 801       6.950   8.931 -20.547  1.00 32.25           C  
+HETATM   23  C16 1LC A 801       6.224   8.297 -24.257  1.00 35.02           C  
+HETATM   24  C17 1LC A 801       4.862   8.383 -24.441  1.00 34.34           C  
+HETATM   25  N18 1LC A 801       4.572   8.356 -25.795  1.00 36.50           N  
+HETATM   26  C19 1LC A 801       5.734   8.265 -26.529  1.00 37.40           C  
+HETATM   27  N20 1LC A 801       5.845   8.240 -27.888  1.00 37.54           N  
+HETATM   28  C21 1LC A 801       7.115   8.174 -28.346  1.00 37.95           C  
+HETATM   29  C22 1LC A 801       8.258   8.129 -27.522  1.00 37.15           C  
+HETATM   30  C23 1LC A 801       8.093   8.143 -26.124  1.00 35.97           C  
+HETATM   31  C24 1LC A 801       6.792   8.219 -25.578  1.00 36.38           C  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10   23
+CONECT    9    8
+CONECT   10    9   11   22
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   13   20
+CONECT   12   20
+CONECT   13    6   12   14
+CONECT   14   13   15   17
+CONECT   15   14   16
+CONECT   15   16
+CONECT   15   16
+CONECT   16   15
+CONECT   16   15
+CONECT   16   15
+CONECT   17   14   18   19
+CONECT   17   19
+CONECT   18   17
+CONECT   19   17
+CONECT   19   17
+CONECT   20   12   21
+CONECT   20   12
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   10   21
+CONECT   22   21
+CONECT   23    9   24   31
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   24   26
+CONECT   26   25   27   31
+CONECT   26   31
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   28   30
+CONECT   29   30
+CONECT   30   29   31
+CONECT   30   29
+CONECT   31   23   26   30
+CONECT   31   26
+ENDMDL
+END   

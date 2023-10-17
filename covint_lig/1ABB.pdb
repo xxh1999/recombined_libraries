@@ -1,0 +1,65 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1ABB
+MODEL        1
+ATOM      1  N   LYS A 680      34.368  -3.542  25.296  1.00 13.52           N1+
+ATOM      2  CA  LYS A 680      34.034  -3.687  26.707  1.00  8.55           C  
+ATOM      3  C   LYS A 680      32.582  -3.289  26.940  1.00  9.15           C  
+ATOM      4  O   LYS A 680      31.924  -3.945  27.735  1.00 14.42           O  
+ATOM      5  CB  LYS A 680      34.911  -2.795  27.582  1.00 10.66           C  
+ATOM      6  CG  LYS A 680      36.363  -3.256  27.635  1.00  7.99           C  
+ATOM      7  CD  LYS A 680      37.213  -2.267  28.415  1.00  7.05           C  
+ATOM      8  CE  LYS A 680      38.624  -2.124  27.839  1.00 10.19           C  
+ATOM      9  NZ  LYS A 680      39.049  -0.827  28.301  1.00  9.12           N1+
+TER      10      LYS A 680
+HETATM   11  N1  PDP A 931      41.493   3.433  29.373  1.00  4.20           N1+
+HETATM   12  C2  PDP A 931      41.008   2.462  30.170  1.00  2.00           C  
+HETATM   13  C2A PDP A 931      40.898   2.784  31.643  1.00  4.54           C  
+HETATM   14  C3  PDP A 931      40.622   1.219  29.621  1.00  2.78           C  
+HETATM   15  O3  PDP A 931      40.207   0.236  30.484  1.00 10.31           O1-
+HETATM   16  C4  PDP A 931      40.666   1.048  28.201  1.00  3.09           C  
+HETATM   17  C4A PDP A 931      40.031  -0.148  27.490  1.00  2.00           C  
+HETATM   18  C5  PDP A 931      41.232   2.092  27.423  1.00  4.92           C  
+HETATM   19  C6  PDP A 931      41.643   3.281  28.047  1.00  3.39           C  
+HETATM   20  C5A PDP A 931      41.271   2.087  25.914  1.00  9.98           C  
+HETATM   21  O5A PDP A 931      40.171   2.839  25.478  1.00 22.25           O  
+HETATM   22  PA  PDP A 931      39.807   3.136  23.859  1.00 21.11           P  
+HETATM   23  O1A PDP A 931      38.334   3.095  23.777  1.00 25.95           O  
+HETATM   24  O3A PDP A 931      40.312   4.722  23.537  1.00 41.49           O  
+HETATM   25  O2A PDP A 931      40.592   2.225  22.997  1.00 25.86           O1-
+HETATM   26  PB  PDP A 931      41.630   5.667  23.655  1.00 65.77           P  
+HETATM   27  O1B PDP A 931      41.333   6.895  22.852  1.00 61.31           O  
+HETATM   28  O2B PDP A 931      41.801   5.997  25.121  1.00 62.04           O1-
+HETATM   29  O3B PDP A 931      42.781   4.882  23.066  1.00 65.68           O1-
+CONECT   11   12   19
+CONECT   11   12
+CONECT   12   11   13   14
+CONECT   12   11
+CONECT   13   12
+CONECT   14   12   15   16
+CONECT   14   16
+CONECT   15   14
+CONECT   16   14   17   18
+CONECT   16   14
+CONECT   17    9   16
+CONECT   18   16   19   20
+CONECT   18   19
+CONECT   19   11   18
+CONECT   19   18
+CONECT   20   18   21
+CONECT   21   20   22
+CONECT   22   21   23   24   25
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22   26
+CONECT   25   22
+CONECT   26   24   27   28   29
+CONECT   26   27
+CONECT   27   26
+CONECT   27   26
+CONECT   28   26
+CONECT   29   26
+ENDMDL
+END   

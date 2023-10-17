@@ -1,0 +1,38 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5ADO
+MODEL        1
+ATOM      1  N   TYR L  37     -15.129   1.366   8.841  1.00 18.63           N1+
+ATOM      2  CA  TYR L  37     -14.165   0.377   9.302  1.00 17.81           C  
+ATOM      3  C   TYR L  37     -13.883   0.603  10.785  1.00 17.70           C  
+ATOM      4  O   TYR L  37     -13.701   1.742  11.206  1.00 20.55           O  
+ATOM      5  CB  TYR L  37     -12.854   0.429   8.486  1.00 18.56           C  
+ATOM      6  CG  TYR L  37     -13.011   0.480   6.980  1.00 19.25           C  
+ATOM      7  CD1 TYR L  37     -13.239   1.723   6.356  1.00 22.19           C  
+ATOM      8  CD2 TYR L  37     -12.946  -0.694   6.201  1.00 20.16           C  
+ATOM      9  CE1 TYR L  37     -13.452   1.788   4.970  1.00 22.12           C  
+ATOM     10  CE2 TYR L  37     -13.131  -0.622   4.805  1.00 23.61           C  
+ATOM     11  CZ  TYR L  37     -13.395   0.623   4.186  1.00 24.45           C  
+ATOM     12  OH  TYR L  37     -13.618   0.762   2.841  1.00 39.03           O  
+TER      13      TYR L  37
+HETATM   14  C1  DEP L1356     -10.482  -0.613   0.975  1.00 44.86           C  
+HETATM   15  C2  DEP L1356     -10.454  -2.144   1.018  1.00 44.25           C  
+HETATM   16  C3  DEP L1356     -12.754   2.056   0.177  1.00 38.85           C  
+HETATM   17  C4  DEP L1356     -13.709   3.114   0.737  1.00 32.98           C  
+HETATM   18  O1  DEP L1356     -11.413  -0.052   1.882  1.00 39.54           O  
+HETATM   19  O2  DEP L1356     -13.265   0.739   0.323  1.00 39.18           O  
+HETATM   20  O3  DEP L1356     -13.576  -1.550   1.593  1.00 40.65           O  
+HETATM   21  P   DEP L1356     -13.018  -0.171   1.654  1.00 31.25           P  
+CONECT   14   15   18
+CONECT   15   14
+CONECT   16   17   19
+CONECT   17   16
+CONECT   18   14   21
+CONECT   19   16   21
+CONECT   20   21
+CONECT   20   21
+CONECT   21   12   18   19   20
+CONECT   21   20
+ENDMDL
+END   

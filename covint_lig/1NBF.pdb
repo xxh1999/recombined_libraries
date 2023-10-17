@@ -1,0 +1,21 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1NBF
+MODEL        1
+ATOM      1  N   GLY C 375      18.435   0.964   2.592  1.00 27.96           N1+
+ATOM      2  CA  GLY C 375      17.766   1.436   1.388  1.00 31.61           C  
+ATOM      3  C   GLY C 375      17.965   2.937   1.192  1.00 34.66           C  
+ATOM      4  O   GLY C 375      18.252   3.669   2.141  1.00 36.17           O  
+HETATM    5  N   GLZ C 376      17.809   3.375  -0.065  1.00 37.00           N  
+HETATM    6  CA  GLZ C 376      18.035   4.735  -0.531  1.00 36.23           C  
+HETATM    7  C   GLZ C 376      16.748   5.546  -0.727  1.00 35.86           C  
+HETATM    8  O   GLZ C 376      16.783   6.620  -1.320  1.00 33.49           O  
+CONECT    5    3    6
+CONECT    6    5    7
+CONECT    7    6    8
+CONECT    7    8
+CONECT    8    7
+CONECT    8    7
+ENDMDL
+END   

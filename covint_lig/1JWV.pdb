@@ -1,0 +1,68 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1JWV
+MODEL        1
+ATOM      1  N   SER A  70      10.316   4.183  35.099  1.00  9.10           N1+
+ATOM      2  CA  SER A  70       9.037   4.289  35.796  1.00  7.94           C  
+ATOM      3  C   SER A  70       7.853   3.603  35.087  1.00  8.64           C  
+ATOM      4  O   SER A  70       6.771   3.558  35.668  1.00  8.08           O  
+ATOM      5  CB  SER A  70       8.689   5.770  35.981  1.00  9.85           C  
+ATOM      6  OG  SER A  70       9.598   6.414  36.858  1.00  9.14           O  
+TER       7      SER A  70
+HETATM    8  B   CB4 A 300      10.489   7.470  36.313  1.00 11.44           B1-
+HETATM    9  OB1 CB4 A 300      11.432   6.861  35.360  1.00 10.30           O  
+HETATM   10  OB2 CB4 A 300       9.695   8.483  35.595  1.00  9.69           O  
+HETATM   11  C7  CB4 A 300      11.290   8.179  37.524  1.00 10.43           C  
+HETATM   12  N10 CB4 A 300      12.232   9.156  36.997  1.00 10.68           N  
+HETATM   13  C11 CB4 A 300      13.070   9.845  37.778  1.00 16.35           C  
+HETATM   14  O12 CB4 A 300      13.110   9.754  39.002  1.00 19.55           O  
+HETATM   15  C13 CB4 A 300      13.991  10.766  37.015  1.00 15.45           C  
+HETATM   16  N16 CB4 A 300      13.667  11.904  36.551  1.00 22.84           N  
+HETATM   17  O17 CB4 A 300      12.336  12.293  36.804  1.00 27.63           O  
+HETATM   18  C18 CB4 A 300      12.213  13.725  36.739  1.00 28.22           C  
+HETATM   19  C14 CB4 A 300      15.395  10.302  36.844  1.00 12.74           C  
+HETATM   20  C15 CB4 A 300      15.937   9.203  37.473  1.00 12.85           C  
+HETATM   21  S16 CB4 A 300      17.631   9.004  37.111  1.00 15.40           S  
+HETATM   22  C17 CB4 A 300      17.537  10.410  36.072  1.00 14.16           C  
+HETATM   23  N18 CB4 A 300      18.628  10.869  35.354  1.00 13.51           N  
+HETATM   24  N19 CB4 A 300      16.331  10.968  36.038  1.00 13.32           N  
+HETATM   25  C19 CB4 A 300      13.066  14.374  37.856  1.00 27.39           C  
+HETATM   26  C20 CB4 A 300      10.725  14.020  36.988  1.00 27.92           C  
+HETATM   27  C21 CB4 A 300      12.578  14.282  35.338  1.00 30.11           C  
+HETATM   28  O2A CB4 A 300      12.953  15.476  35.255  1.00 31.64           O  
+HETATM   29  O2B CB4 A 300      12.478  13.510  34.361  1.00 29.35           O1-
+CONECT    8    6    9   10   11
+CONECT    9    8
+CONECT   10    8
+CONECT   11    8   12
+CONECT   12   11   13
+CONECT   13   12   14   15
+CONECT   13   14
+CONECT   14   13
+CONECT   14   13
+CONECT   15   13   16   19
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   16   18
+CONECT   18   17   25   26   27
+CONECT   19   15   20   24
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22
+CONECT   22   21   23   24
+CONECT   22   24
+CONECT   23   22
+CONECT   24   19   22
+CONECT   24   22
+CONECT   25   18
+CONECT   26   18
+CONECT   27   18   28   29
+CONECT   27   28
+CONECT   28   27
+CONECT   28   27
+CONECT   29   27
+ENDMDL
+END   

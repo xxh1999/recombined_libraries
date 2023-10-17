@@ -1,0 +1,64 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6MD2
+MODEL        1
+ATOM      1  N   CYS A 285      18.043  22.928  12.812  1.00 35.67           N1+
+ATOM      2  CA  CYS A 285      18.067  21.600  13.445  1.00 37.16           C  
+ATOM      3  C   CYS A 285      17.580  21.690  14.898  1.00 38.05           C  
+ATOM      4  O   CYS A 285      16.828  20.826  15.342  1.00 34.80           O  
+ATOM      5  CB  CYS A 285      19.522  21.068  13.431  1.00 43.60           C  
+ATOM      6  SG  CYS A 285      19.614  19.240  13.479  1.00 53.36           S  
+TER       7      CYS A 285
+HETATM    8  C9  GW9 A 501      20.342  18.630  15.065  1.00 59.96           C  
+HETATM    9  C10 GW9 A 501      21.388  19.557  15.743  1.00 58.46           C  
+HETATM   10  C11 GW9 A 501      21.057  19.950  17.178  1.00 61.97           C  
+HETATM   11  C12 GW9 A 501      20.063  19.413  17.905  1.00 61.18           C  
+HETATM   12  N2  GW9 A 501      19.888  19.791  19.290  1.00 61.45           N1+
+HETATM   13  O3  GW9 A 501      20.349  20.860  19.676  1.00 64.97           O  
+HETATM   14  O2  GW9 A 501      19.299  19.020  20.041  1.00 51.95           O1-
+HETATM   15  C13 GW9 A 501      19.191  18.421  17.320  1.00 58.68           C  
+HETATM   16  C8  GW9 A 501      19.302  18.058  16.028  1.00 61.86           C  
+HETATM   17  C1  GW9 A 501      18.398  17.054  15.523  1.00 57.37           C  
+HETATM   18  O1  GW9 A 501      18.722  15.913  15.189  1.00 52.64           O  
+HETATM   19  N1  GW9 A 501      17.149  17.535  15.461  1.00 53.11           N  
+HETATM   20  C2  GW9 A 501      16.143  16.984  14.656  1.00 46.52           C  
+HETATM   21  C7  GW9 A 501      14.882  16.692  15.209  1.00 44.55           C  
+HETATM   22  C6  GW9 A 501      13.893  16.101  14.404  1.00 37.87           C  
+HETATM   23  C5  GW9 A 501      14.167  15.827  13.050  1.00 38.32           C  
+HETATM   24  C4  GW9 A 501      15.411  16.171  12.492  1.00 43.06           C  
+HETATM   25  C3  GW9 A 501      16.401  16.751  13.292  1.00 46.15           C  
+CONECT    8    6    9   16
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   12   15
+CONECT   11   10
+CONECT   12   11   13   14
+CONECT   12   13
+CONECT   13   12
+CONECT   13   12
+CONECT   14   12
+CONECT   15   11   16
+CONECT   15   16
+CONECT   16    8   15   17
+CONECT   16   15
+CONECT   17   16   18   19
+CONECT   17   18
+CONECT   18   17
+CONECT   18   17
+CONECT   19   17   20
+CONECT   20   19   21   25
+CONECT   20   25
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   20   24
+CONECT   25   20
+ENDMDL
+END   

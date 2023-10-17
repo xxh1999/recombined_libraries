@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7BIW
+MODEL        1
+ATOM      1  N   LYS A 122     -25.663 -24.719   8.009  1.00 10.84           N1+
+ATOM      2  CA  LYS A 122     -24.669 -23.703   8.329  1.00 10.78           C  
+ATOM      3  C   LYS A 122     -25.284 -22.307   8.203  1.00 10.22           C  
+ATOM      4  O   LYS A 122     -25.105 -21.466   9.080  1.00 10.96           O  
+ATOM      5  CB  LYS A 122     -23.471 -23.879   7.372  1.00 12.65           C  
+ATOM      6  CG  LYS A 122     -22.361 -22.853   7.525  1.00 12.77           C  
+ATOM      7  CD  LYS A 122     -21.327 -23.046   6.388  1.00 13.96           C  
+ATOM      8  CE  LYS A 122     -20.309 -21.885   6.275  1.00 14.83           C  
+ATOM      9  NZ  LYS A 122     -19.336 -22.152   5.196  1.00 16.11           N1+
+TER      10      LYS A 122
+HETATM   11  C02 TW8 A 301     -19.993 -21.920   3.963  1.00 17.89           C  
+HETATM   12  C03 TW8 A 301     -19.209 -22.164   2.692  1.00 16.27           C  
+HETATM   13  C04 TW8 A 301     -19.914 -21.821   1.525  1.00 16.78           C  
+HETATM   14  C05 TW8 A 301     -19.287 -21.986   0.291  1.00 18.35           C  
+HETATM   15  C06 TW8 A 301     -17.978 -22.461   0.244  1.00 17.33           C  
+HETATM   16  C10 TW8 A 301     -17.205 -20.076  -1.897  1.00 22.91           C  
+HETATM   17  C11 TW8 A 301     -17.455 -19.178  -0.672  1.00 24.57           C  
+HETATM   18  C13 TW8 A 301     -15.101 -19.602  -0.042  1.00 21.55           C  
+HETATM   19  C14 TW8 A 301     -13.940 -19.224   0.674  1.00 22.07           C  
+HETATM   20  C15 TW8 A 301     -12.785 -20.080   0.590  1.00 24.10           C  
+HETATM   21  C16 TW8 A 301     -12.815 -21.249  -0.174  1.00 24.07           C  
+HETATM   22  C17 TW8 A 301     -13.977 -21.607  -0.908  1.00 23.04           C  
+HETATM   23  C18 TW8 A 301     -15.139 -20.785  -0.818  1.00 19.72           C  
+HETATM   24  C20 TW8 A 301     -17.245 -22.808   1.399  1.00 17.35           C  
+HETATM   25  C21 TW8 A 301     -17.882 -22.649   2.634  1.00 17.08           C  
+HETATM   26  N09 TW8 A 301     -16.368 -21.149  -1.544  1.00 21.41           N  
+HETATM   27  N12 TW8 A 301     -16.291 -18.750   0.016  1.00 22.70           N  
+HETATM   28  O08 TW8 A 301     -16.220 -23.710  -1.307  1.00 19.79           O  
+HETATM   29  O19 TW8 A 301     -18.187 -22.808  -2.401  1.00 21.54           O  
+HETATM   30  S07 TW8 A 301     -17.180 -22.618  -1.335  1.00 19.32           S  
+CONECT   11    9   12
+CONECT   12   11   13   25
+CONECT   12   25
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   24   30
+CONECT   15   24
+CONECT   16   17   26
+CONECT   17   16   27
+CONECT   18   19   23   27
+CONECT   18   23
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   18   22   26
+CONECT   23   18
+CONECT   24   15   25
+CONECT   24   15
+CONECT   25   12   24
+CONECT   25   12
+CONECT   26   16   23   30
+CONECT   27   17   18
+CONECT   28   30
+CONECT   28   30
+CONECT   29   30
+CONECT   29   30
+CONECT   30   15   26   28   29
+CONECT   30   28   29
+ENDMDL
+END   

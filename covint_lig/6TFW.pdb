@@ -1,0 +1,126 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6TFW
+MODEL        1
+ATOM      1  N   CYS A 797     -44.930  14.345  -5.936  1.00 45.60           N1+
+ATOM      2  CA  CYS A 797     -45.475  13.625  -7.085  1.00 42.40           C  
+ATOM      3  C   CYS A 797     -45.470  14.526  -8.331  1.00 41.19           C  
+ATOM      4  O   CYS A 797     -45.520  15.754  -8.232  1.00 43.79           O  
+ATOM      5  CB  CYS A 797     -46.897  13.109  -6.774  1.00 44.41           C  
+ATOM      6  SG  CYS A 797     -48.100  14.458  -6.587  1.00 47.46           S  
+TER       7      CYS A 797
+HETATM    8  C4  N7W A1101     -41.800  11.889  -1.300  1.00 50.01           C  
+HETATM    9  C5  N7W A1101     -43.097  11.303  -1.249  1.00 48.46           C  
+HETATM   10  C6  N7W A1101     -43.100   9.879  -1.248  1.00 48.18           C  
+HETATM   11  N1  N7W A1101     -41.913   9.227  -1.301  1.00 49.17           N  
+HETATM   12  N3  N7W A1101     -40.611  11.234  -1.321  1.00 47.78           N  
+HETATM   13  C2  N7W A1101     -40.777   9.915  -1.339  1.00 46.69           C  
+HETATM   14  CAL N7W A1101     -43.316  13.559  -1.274  1.00 50.29           C  
+HETATM   15  CAM N7W A1101     -44.041  12.398  -1.201  1.00 50.17           C  
+HETATM   16  CAN N7W A1101     -45.481  12.270  -1.054  1.00 47.85           C  
+HETATM   17  CAO N7W A1101     -44.293   7.708  -1.010  1.00 46.19           C  
+HETATM   18  CAP N7W A1101     -44.992   6.857  -1.887  1.00 48.25           C  
+HETATM   19  CAQ N7W A1101     -44.958   5.460  -1.694  1.00 47.29           C  
+HETATM   20  CAR N7W A1101     -44.263   4.894  -0.596  1.00 47.82           C  
+HETATM   21  CAS N7W A1101     -43.564   5.756   0.272  1.00 47.37           C  
+HETATM   22  CAT N7W A1101     -43.586   7.144   0.071  1.00 45.07           C  
+HETATM   23  CAU N7W A1101     -44.773   2.587  -1.171  1.00 52.48           C  
+HETATM   24  CAV N7W A1101     -43.763   2.083  -2.186  1.00 54.21           C  
+HETATM   25  CAW N7W A1101     -42.388   2.024  -1.868  1.00 56.34           C  
+HETATM   26  CAX N7W A1101     -41.511   1.419  -2.787  1.00 55.12           C  
+HETATM   27  CAY N7W A1101     -42.044   0.886  -3.975  1.00 54.25           C  
+HETATM   28  CAZ N7W A1101     -43.427   1.007  -4.208  1.00 55.70           C  
+HETATM   29  CBA N7W A1101     -46.335  12.847  -2.011  1.00 49.29           C  
+HETATM   30  CBB N7W A1101     -47.724  12.868  -1.786  1.00 50.72           C  
+HETATM   31  CBC N7W A1101     -48.275  12.332  -0.602  1.00 52.35           C  
+HETATM   32  CBD N7W A1101     -47.411  11.720   0.335  1.00 49.68           C  
+HETATM   33  CBE N7W A1101     -46.023  11.691   0.107  1.00 47.94           C  
+HETATM   34  CBF N7W A1101     -50.288  11.489   0.377  1.00 58.47           C  
+HETATM   35  CBG N7W A1101     -51.774  11.855   0.445  1.00 62.49           C  
+HETATM   36  CBH N7W A1101     -49.095  12.822  -3.784  1.00 56.47           C  
+HETATM   37  CBI N7W A1101     -49.993  13.650  -4.702  1.00 52.66           C  
+HETATM   38  CBJ N7W A1101     -49.607  13.535  -6.181  1.00 49.91           C  
+HETATM   39  CBK N7W A1101     -53.679  12.866  -0.719  1.00 68.12           C  
+HETATM   40  CBL N7W A1101     -52.372  11.123  -1.847  1.00 65.10           C  
+HETATM   41  NAC N7W A1101     -41.973  13.252  -1.330  1.00 50.17           N  
+HETATM   42  NAD N7W A1101     -44.262   9.094  -1.230  1.00 44.02           N  
+HETATM   43  NAE N7W A1101     -44.275   1.597  -3.339  1.00 53.65           N  
+HETATM   44  NAF N7W A1101     -48.564  13.474  -2.740  1.00 50.54           N  
+HETATM   45  NAG N7W A1101     -52.350  12.233  -0.869  1.00 65.67           N1+
+HETATM   46  OBM N7W A1101     -44.244   3.554  -0.274  1.00 51.63           O  
+HETATM   47  OBN N7W A1101     -49.628  12.475  -0.399  1.00 56.03           O  
+HETATM   48  OBO N7W A1101     -48.900  11.626  -4.016  1.00 58.85           O  
+HETATM   49 CL1  N7W A1101     -42.659   5.119   1.593  1.00 45.51          Cl  
+CONECT    8    9   12   41
+CONECT    8    9
+CONECT    9    8   10   15
+CONECT    9    8
+CONECT   10    9   11   42
+CONECT   10   11
+CONECT   11   10   13
+CONECT   11   10
+CONECT   12    8   13
+CONECT   12   13
+CONECT   13   11   12
+CONECT   13   12
+CONECT   14   15   41
+CONECT   14   15
+CONECT   15    9   14   16
+CONECT   15   14
+CONECT   16   15   29   33
+CONECT   16   33
+CONECT   17   18   22   42
+CONECT   17   22
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   19   21   46
+CONECT   20   21
+CONECT   21   20   22   49
+CONECT   21   20
+CONECT   22   17   21
+CONECT   22   17
+CONECT   23   24   46
+CONECT   24   23   25   43
+CONECT   24   43
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   27   43
+CONECT   28   27
+CONECT   29   16   30
+CONECT   29   30
+CONECT   30   29   31   44
+CONECT   30   29
+CONECT   31   30   32   47
+CONECT   31   32
+CONECT   32   31   33
+CONECT   32   31
+CONECT   33   16   32
+CONECT   33   16
+CONECT   34   35   47
+CONECT   35   34   45
+CONECT   36   37   44   48
+CONECT   36   48
+CONECT   37   36   38
+CONECT   38    6   37
+CONECT   39   45
+CONECT   40   45
+CONECT   41    8   14
+CONECT   42   10   17
+CONECT   43   24   28
+CONECT   43   24
+CONECT   44   30   36
+CONECT   45   35   39   40
+CONECT   46   20   23
+CONECT   47   31   34
+CONECT   48   36
+CONECT   48   36
+CONECT   49   21
+ENDMDL
+END   

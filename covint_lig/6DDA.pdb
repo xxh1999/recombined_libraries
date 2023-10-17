@@ -1,0 +1,42 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6DDA
+MODEL        1
+ATOM      1  N   CYS B 566     -38.069  24.708  15.302  1.00 84.96           N1+
+ATOM      2  CA  CYS B 566     -39.086  25.736  15.084  1.00 83.29           C  
+ATOM      3  C   CYS B 566     -39.305  26.003  13.581  1.00 86.19           C  
+ATOM      4  O   CYS B 566     -40.454  25.989  13.146  1.00 85.06           O  
+ATOM      5  CB  CYS B 566     -38.699  27.024  15.852  1.00 83.08           C  
+ATOM      6  SG  CYS B 566     -39.552  28.478  15.163  1.00 84.38           S  
+TER       7      CYS B 566
+HETATM    8  N1  G7J B 602     -37.294  29.919  15.725  0.67 92.26           N  
+HETATM    9  C2  G7J B 602     -38.744  29.876  15.950  0.67 87.50           C  
+HETATM   10  C3  G7J B 602     -39.346  31.175  15.423  0.67 89.64           C  
+HETATM   11  C4  G7J B 602     -38.127  33.446  15.289  0.67 96.66           C  
+HETATM   12  C5  G7J B 602     -36.878  34.088  15.409  0.67100.87           C  
+HETATM   13  C6  G7J B 602     -35.705  33.328  15.647  0.67103.06           C  
+HETATM   14  C7  G7J B 602     -35.761  31.917  15.728  0.67100.09           C  
+HETATM   15  C8  G7J B 602     -37.013  31.287  15.615  0.67 95.75           C  
+HETATM   16  C9  G7J B 602     -38.154  32.050  15.422  0.67 93.78           C  
+HETATM   17  O1  G7J B 602     -36.811  35.448  15.313  0.67103.51           O  
+HETATM   18  O2  G7J B 602     -34.511  33.967  15.809  0.67107.07           O  
+CONECT    8    9   15
+CONECT    9    6    8   10
+CONECT   10    9   16
+CONECT   11   12   16
+CONECT   11   16
+CONECT   12   11   13   17
+CONECT   12   13
+CONECT   13   12   14   18
+CONECT   13   12
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15    8   14   16
+CONECT   15   14
+CONECT   16   10   11   15
+CONECT   16   11
+CONECT   17   12
+CONECT   18   13
+ENDMDL
+END   

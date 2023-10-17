@@ -1,0 +1,42 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1JSR
+MODEL        1
+ATOM      1  N   TYR A  29      47.952   9.910  49.050  1.00 21.93           N1+
+ATOM      2  CA  TYR A  29      48.531  11.253  49.031  1.00 21.65           C  
+ATOM      3  C   TYR A  29      47.695  12.236  49.873  1.00 21.49           C  
+ATOM      4  O   TYR A  29      46.567  11.934  50.269  1.00 21.18           O  
+ATOM      5  CB  TYR A  29      48.556  11.714  47.555  1.00 21.07           C  
+ATOM      6  CG  TYR A  29      47.220  11.633  46.851  1.00 20.23           C  
+ATOM      7  CD1 TYR A  29      46.911  10.477  46.113  1.00 20.35           C  
+ATOM      8  CD2 TYR A  29      46.263  12.656  46.990  1.00 19.40           C  
+ATOM      9  CE1 TYR A  29      45.642  10.341  45.544  1.00 19.40           C  
+ATOM     10  CE2 TYR A  29      44.982  12.504  46.439  1.00 19.48           C  
+ATOM     11  CZ  TYR A  29      44.673  11.341  45.691  1.00 19.30           C  
+ATOM     12  OH  TYR A  29      43.513  11.076  45.012  1.00 19.20           O  
+TER      13      TYR A  29
+HETATM   14  N   LDO A2401      39.795  11.746  49.232  1.00 14.33           N1+
+HETATM   15  CA  LDO A2401      40.202  12.696  48.192  1.00 15.27           C  
+HETATM   16  CB  LDO A2401      40.394  12.002  46.834  1.00 16.00           C  
+HETATM   17  CG  LDO A2401      41.800  11.436  46.595  1.00 16.72           C  
+HETATM   18  CD  LDO A2401      42.343  11.803  45.191  1.00 17.36           C  
+HETATM   19  CE  LDO A2401      41.470  11.265  44.026  1.00 15.03           C  
+HETATM   20  OZ  LDO A2401      40.365  12.042  43.676  1.00 15.81           O  
+HETATM   21  C   LDO A2401      39.146  13.796  48.060  1.00 14.87           C  
+HETATM   22  O   LDO A2401      39.532  14.967  48.225  1.00 15.08           O  
+HETATM   23  OXT LDO A2401      37.984  13.478  47.740  1.00 13.31           O1-
+CONECT   14   15
+CONECT   15   14   16   21
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   18   12   17   19
+CONECT   19   18   20
+CONECT   20   19
+CONECT   21   15   22   23
+CONECT   21   22
+CONECT   22   21
+CONECT   22   21
+CONECT   23   21
+ENDMDL
+END   

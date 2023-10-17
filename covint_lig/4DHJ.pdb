@@ -1,0 +1,21 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4DHJ
+MODEL        1
+ATOM      1  N   GLY B 575     -60.385 -57.107 101.488  1.00 45.77           N1+
+ATOM      2  CA  GLY B 575     -59.243 -57.725 100.850  1.00 47.18           C  
+ATOM      3  C   GLY B 575     -58.220 -58.218 101.861  1.00 48.62           C  
+ATOM      4  O   GLY B 575     -57.977 -57.575 102.881  1.00 48.32           O  
+HETATM    5  N   GLZ B 576     -57.606 -59.361 101.532  1.00 50.55           N  
+HETATM    6  CA  GLZ B 576     -56.587 -60.037 102.313  1.00 54.43           C  
+HETATM    7  C   GLZ B 576     -55.228 -60.003 101.620  1.00 57.10           C  
+HETATM    8  O   GLZ B 576     -54.419 -60.905 101.812  1.00 63.05           O  
+CONECT    5    3    6
+CONECT    6    5    7
+CONECT    7    6    8
+CONECT    7    8
+CONECT    8    7
+CONECT    8    7
+ENDMDL
+END   

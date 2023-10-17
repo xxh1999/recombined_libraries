@@ -1,0 +1,69 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7NJA
+MODEL        1
+ATOM      1  N   LYS A 122     -15.482 -24.706  -8.049  1.00  3.42           N1+
+ATOM      2  CA  LYS A 122     -16.441 -23.651  -8.356  1.00  1.60           C  
+ATOM      3  C   LYS A 122     -15.784 -22.284  -8.247  1.00  5.58           C  
+ATOM      4  O   LYS A 122     -15.954 -21.437  -9.125  1.00  6.09           O  
+ATOM      5  CB  LYS A 122     -17.647 -23.737  -7.421  1.00  4.40           C  
+ATOM      6  CG  LYS A 122     -18.739 -22.701  -7.664  1.00  2.74           C  
+ATOM      7  CD  LYS A 122     -19.774 -22.822  -6.587  1.00  2.92           C  
+ATOM      8  CE  LYS A 122     -20.622 -21.571  -6.511  1.00  6.93           C  
+ATOM      9  NZ  LYS A 122     -21.585 -21.771  -5.432  1.00 11.99           N1+
+TER      10      LYS A 122
+HETATM   11  C01 UG2 A 301     -21.380 -21.007  -4.243  1.00 17.89           C  
+HETATM   12  C02 UG2 A 301     -22.189 -21.332  -2.988  1.00 29.01           C  
+HETATM   13  C03 UG2 A 301     -21.734 -20.891  -1.755  1.00 26.85           C  
+HETATM   14  C04 UG2 A 301     -22.463 -21.182  -0.610  1.00 31.34           C  
+HETATM   15  C05 UG2 A 301     -23.644 -21.914  -0.688  1.00 36.46           C  
+HETATM   16  C07 UG2 A 301     -24.005 -22.904   1.596  1.00 34.78           C  
+HETATM   17  C08 UG2 A 301     -22.621 -23.494   1.845  1.00 41.17           C  
+HETATM   18  C09 UG2 A 301     -22.160 -23.557   3.140  1.00 53.17           C  
+HETATM   19  C10 UG2 A 301     -20.906 -24.089   3.377  1.00 57.67           C  
+HETATM   20  C11 UG2 A 301     -20.086 -24.548   2.362  1.00 50.11           C  
+HETATM   21  C12 UG2 A 301     -20.551 -24.474   1.069  1.00 48.97           C  
+HETATM   22  C13 UG2 A 301     -21.816 -23.961   0.818  1.00 47.59           C  
+HETATM   23  C15 UG2 A 301     -26.059 -22.346   1.933  1.00 39.53           C  
+HETATM   24  C16 UG2 A 301     -25.671 -21.883   0.707  1.00 37.98           C  
+HETATM   25  C17 UG2 A 301     -24.088 -22.357  -1.929  1.00 19.75           C  
+HETATM   26  C18 UG2 A 301     -23.366 -22.068  -3.077  1.00 24.05           C  
+HETATM   27  N06 UG2 A 301     -24.418 -22.222   0.516  1.00 37.81           N  
+HETATM   28  N14 UG2 A 301     -25.026 -22.966   2.469  1.00 46.07           N  
+CONECT   11    9   12
+CONECT   12   11   13   26
+CONECT   12   26
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   25   27
+CONECT   15   25
+CONECT   16   17   27   28
+CONECT   16   28
+CONECT   17   16   18   22
+CONECT   17   22
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   17   21
+CONECT   22   17
+CONECT   23   24   28
+CONECT   23   24
+CONECT   24   23   27
+CONECT   24   23
+CONECT   25   15   26
+CONECT   25   15
+CONECT   26   12   25
+CONECT   26   12
+CONECT   27   15   16   24
+CONECT   28   16   23
+CONECT   28   16
+ENDMDL
+END   

@@ -1,0 +1,92 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4bb4_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  O1  Q32 A1889      -3.043  12.903  49.408  1.00  0.00           O  
+HETATM    2  C3  Q32 A1889      -1.978  13.239  48.894  1.00  0.00           C  
+HETATM    3  N   Q32 A1889      -0.862  12.510  49.015  1.00  0.00           N  
+HETATM    4  C2  Q32 A1889      -0.803  11.249  49.749  1.00  0.00           C  
+HETATM    5  C1  Q32 A1889      -0.437  11.424  51.195  1.00  0.00           C  
+HETATM    6  O   Q32 A1889       0.858  11.989  51.250  1.00  0.00           O  
+HETATM    7  C   Q32 A1889       1.291  12.214  52.582  1.00  0.00           C  
+HETATM    8  C4  Q32 A1889      -1.873  14.513  48.109  1.00  0.00           C  
+HETATM    9  C22 Q32 A1889      -2.751  15.564  48.370  1.00  0.00           C  
+HETATM   10  C21 Q32 A1889      -2.674  16.743  47.647  1.00  0.00           C  
+HETATM   11  C7  Q32 A1889      -1.811  16.841  46.562  1.00  0.00           C  
+HETATM   12  C6  Q32 A1889      -0.864  15.840  46.365  1.00  0.00           C  
+HETATM   13  C5  Q32 A1889      -0.935  14.663  47.089  1.00  0.00           C  
+HETATM   14  N1  Q32 A1889      -1.665  18.100  45.949  1.00  0.00           N  
+HETATM   15  C8  Q32 A1889      -0.857  18.592  44.977  1.00  0.00           C  
+HETATM   16  N3  Q32 A1889      -0.112  17.694  44.183  1.00  0.00           N  
+HETATM   17  C15 Q32 A1889       0.641  18.276  43.196  1.00  0.00           C  
+HETATM   18  C10 Q32 A1889       0.630  19.674  42.965  1.00  0.00           C  
+HETATM   19  C9  Q32 A1889      -0.247  20.420  43.795  1.00  0.00           C  
+HETATM   20  N2  Q32 A1889      -0.933  19.923  44.801  1.00  0.00           N  
+HETATM   21  C14 Q32 A1889       1.425  17.447  42.355  1.00  0.00           C  
+HETATM   22  C13 Q32 A1889       2.205  17.986  41.373  1.00  0.00           C  
+HETATM   23  C12 Q32 A1889       2.222  19.361  41.121  1.00  0.00           C  
+HETATM   24  C11 Q32 A1889       1.429  20.184  41.910  1.00  0.00           C  
+HETATM   25  C16 Q32 A1889       3.167  19.953  40.149  1.00  0.00           C  
+HETATM   26  C20 Q32 A1889       2.903  19.959  38.784  1.00  0.00           C  
+HETATM   27  C19 Q32 A1889       3.820  20.532  37.922  1.00  0.00           C  
+HETATM   28  N4  Q32 A1889       4.956  21.113  38.322  1.00  0.00           N  
+HETATM   29  C18 Q32 A1889       5.195  21.127  39.636  1.00  0.00           C  
+HETATM   30  C17 Q32 A1889       4.338  20.581  40.575  1.00  0.00           C  
+CONECT    1    2
+CONECT    1    2
+CONECT    2    1    3    8
+CONECT    2    1
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    5    7
+CONECT    7    6
+CONECT    8    2    9   13
+CONECT    8   13
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11   10   12   14
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13    8   12
+CONECT   13    8
+CONECT   14   11   15
+CONECT   15   14   16   20
+CONECT   15   20
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   16   18   21
+CONECT   17   16
+CONECT   18   17   19   24
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   15   19
+CONECT   20   15
+CONECT   21   17   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   22   24   25
+CONECT   23   24
+CONECT   24   18   23
+CONECT   24   23
+CONECT   25   23   26   30
+CONECT   25   30
+CONECT   26   25   27
+CONECT   26   27
+CONECT   27   26   28
+CONECT   27   26
+CONECT   28   27   29
+CONECT   28   29
+CONECT   29   28   30
+CONECT   29   28
+CONECT   30   25   29
+CONECT   30   25
+ENDMDL
+END   

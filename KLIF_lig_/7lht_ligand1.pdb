@@ -1,0 +1,71 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7lht_ligand1
+MODEL        1
+HETATM    1  PB  GDP A2601      -9.755  25.970  19.553  1.00  0.00           P1+
+HETATM    2  O1B GDP A2601     -10.501  26.719  20.581  1.00  0.00           O1-
+HETATM    3  O2B GDP A2601      -8.897  26.825  18.689  1.00  0.00           O1-
+HETATM    4  O3B GDP A2601      -9.086  24.755  20.059  1.00  0.00           O1-
+HETATM    5  O3A GDP A2601     -10.978  25.393  18.720  1.00  0.00           O  
+HETATM    6  PA  GDP A2601     -11.023  23.833  18.430  1.00  0.00           P1+
+HETATM    7  O1A GDP A2601     -11.400  23.087  19.648  1.00  0.00           O1-
+HETATM    8  O2A GDP A2601      -9.740  23.464  17.777  1.00  0.00           O1-
+HETATM    9  O5' GDP A2601     -12.162  23.559  17.355  1.00  0.00           O  
+HETATM   10  C5' GDP A2601     -12.082  22.253  16.817  1.00  0.00           C  
+HETATM   11  C4' GDP A2601     -12.109  22.188  15.296  1.00  0.00           C  
+HETATM   12  O4' GDP A2601     -11.476  20.988  14.857  1.00  0.00           O  
+HETATM   13  C3' GDP A2601     -13.524  22.062  14.791  1.00  0.00           C  
+HETATM   14  O3' GDP A2601     -13.567  22.456  13.422  1.00  0.00           O  
+HETATM   15  C2' GDP A2601     -13.798  20.588  14.825  1.00  0.00           C  
+HETATM   16  O2' GDP A2601     -14.707  20.249  13.785  1.00  0.00           O1-
+HETATM   17  C1' GDP A2601     -12.443  19.987  14.564  1.00  0.00           C  
+HETATM   18  N9  GDP A2601     -12.224  18.854  15.469  1.00  0.00           N  
+HETATM   19  C8  GDP A2601     -11.933  18.918  16.770  1.00  0.00           C  
+HETATM   20  N7  GDP A2601     -11.784  17.691  17.302  1.00  0.00           N  
+HETATM   21  C5  GDP A2601     -11.984  16.829  16.317  1.00  0.00           C  
+HETATM   22  C6  GDP A2601     -11.978  15.383  16.190  1.00  0.00           C  
+HETATM   23  O6  GDP A2601     -11.736  14.679  17.160  1.00  0.00           O  
+HETATM   24  N1  GDP A2601     -12.227  14.860  15.011  1.00  0.00           N  
+HETATM   25  C2  GDP A2601     -12.487  15.597  13.933  1.00  0.00           C  
+HETATM   26  N2  GDP A2601     -12.731  14.965  12.764  1.00  0.00           N  
+HETATM   27  N3  GDP A2601     -12.516  16.944  13.970  1.00  0.00           N  
+HETATM   28  C4  GDP A2601     -12.273  17.593  15.117  1.00  0.00           C  
+CONECT    1    2    3    4    5
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1
+CONECT    5    1    6
+CONECT    6    5    7    8    9
+CONECT    7    6
+CONECT    8    6
+CONECT    9    6   10
+CONECT   10    9   11
+CONECT   11   10   12   13
+CONECT   12   11   17
+CONECT   13   11   14   15
+CONECT   14   13
+CONECT   15   13   16   17
+CONECT   16   15
+CONECT   17   12   15   18
+CONECT   18   17   19   28
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22   28
+CONECT   21   28
+CONECT   22   21   23   24
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22   25
+CONECT   25   24   26   27
+CONECT   25   27
+CONECT   26   25
+CONECT   27   25   28
+CONECT   27   25
+CONECT   28   18   21   27
+CONECT   28   21
+ENDMDL
+END   

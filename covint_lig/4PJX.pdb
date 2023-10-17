@@ -1,0 +1,61 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4PJX
+MODEL        1
+ATOM      1  N   LYS A  43      -2.995  27.797 154.044  1.00 28.05           N1+
+ATOM      2  CA  LYS A  43      -2.888  28.148 155.457  1.00 27.70           C  
+ATOM      3  C   LYS A  43      -3.157  29.649 155.605  1.00 36.09           C  
+ATOM      4  O   LYS A  43      -2.487  30.470 154.977  1.00 36.42           O  
+ATOM      5  CB  LYS A  43      -1.493  27.824 156.015  1.00 29.31           C  
+ATOM      6  CG  LYS A  43      -1.521  27.845 157.556  1.00 30.87           C  
+ATOM      7  CD  LYS A  43      -0.210  27.392 158.186  1.00 39.30           C  
+ATOM      8  CE  LYS A  43      -0.385  26.999 159.655  1.00 36.75           C  
+ATOM      9  NZ  LYS A  43       0.816  26.341 160.135  1.00 31.78           N1+
+TER      10      LYS A  43
+HETATM   11  C4  30W A 301       2.937  22.001 163.453  1.00 32.72           C  
+HETATM   12  C6  30W A 301       1.782  25.088 162.038  1.00 29.91           C  
+HETATM   13  C11 30W A 301       8.110  20.171 165.134  1.00 29.73           C  
+HETATM   14  C7  30W A 301       3.038  25.922 162.115  1.00 29.58           C  
+HETATM   15  C9  30W A 301       0.565  25.792 161.460  1.00 32.78           C  
+HETATM   16  C10 30W A 301       6.700  20.451 164.620  1.00 31.54           C  
+HETATM   17  N1  30W A 301       5.326  23.601 163.426  1.00 32.85           N  
+HETATM   18  N2  30W A 301       6.531  21.769 164.215  1.00 28.83           N  
+HETATM   19  N3  30W A 301       4.185  21.553 163.865  1.00 34.18           N  
+HETATM   20  O10 30W A 301       5.885  19.527 164.628  1.00 36.03           O  
+HETATM   21  C2  30W A 301       5.383  22.268 163.852  1.00 32.87           C  
+HETATM   22  C8A 30W A 301       4.226  24.111 163.013  1.00 29.95           C  
+HETATM   23  N8  30W A 301       4.147  25.481 162.567  1.00 29.53           N  
+HETATM   24  N5  30W A 301       1.764  23.876 162.452  1.00 28.48           N  
+HETATM   25  C4A 30W A 301       2.947  23.303 162.963  1.00 30.96           C  
+HETATM   26  O4  30W A 301       2.065  21.118 163.595  1.00 33.95           O1-
+CONECT   11   19   25   26
+CONECT   11   25
+CONECT   12   14   15   24
+CONECT   12   24
+CONECT   13   16
+CONECT   14   12   23
+CONECT   14   23
+CONECT   15    9   12
+CONECT   16   13   18   20
+CONECT   16   20
+CONECT   17   21   22
+CONECT   17   22
+CONECT   18   16   21
+CONECT   18   21
+CONECT   19   11   21
+CONECT   20   16
+CONECT   20   16
+CONECT   21   17   18   19
+CONECT   21   18
+CONECT   22   17   23   25
+CONECT   22   17
+CONECT   23   14   22
+CONECT   23   14
+CONECT   24   12   25
+CONECT   24   12
+CONECT   25   11   22   24
+CONECT   25   11
+CONECT   26   11
+ENDMDL
+END   

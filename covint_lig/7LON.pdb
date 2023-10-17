@@ -1,0 +1,77 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7LON
+MODEL        1
+ATOM      1  N   THR B 501       8.878 -32.487 -19.549  1.00 25.80           N1+
+ATOM      2  CA  THR B 501       9.527 -33.759 -19.241  1.00 27.84           C  
+ATOM      3  C   THR B 501       8.924 -34.918 -19.971  1.00 22.77           C  
+ATOM      4  O   THR B 501       9.747 -35.585 -20.616  1.00 25.79           O  
+ATOM      5  CB  THR B 501       9.446 -34.083 -17.749  1.00 31.67           C  
+ATOM      6  OG1 THR B 501       9.889 -32.822 -17.415  1.00 32.98           O  
+ATOM      7  CG2 THR B 501      10.505 -35.099 -17.424  1.00 30.12           C  
+TER       8      THR B 501
+HETATM    9  C18 7QP B 502       7.592 -28.381 -14.483  1.00 35.94           C  
+HETATM   10  C17 7QP B 502       9.904 -28.599 -13.284  1.00 35.68           C  
+HETATM   11  C16 7QP B 502       8.548 -28.174 -13.272  1.00 34.64           C  
+HETATM   12  C13 7QP B 502      10.132 -27.645 -11.051  1.00 29.26           C  
+HETATM   13  C12 7QP B 502      10.677 -28.349 -12.145  1.00 35.47           C  
+HETATM   14  C11 7QP B 502      10.668 -29.241 -18.011  1.00 46.62           C  
+HETATM   15  C01 7QP B 502      12.923 -30.220 -17.240  1.00 46.29           C  
+HETATM   16  C02 7QP B 502      12.139 -29.401 -18.314  1.00 46.37           C  
+HETATM   17  C03 7QP B 502      12.168 -29.525 -19.856  1.00 45.82           C  
+HETATM   18  C06 7QP B 502      12.113 -30.527 -15.940  1.00 45.36           C  
+HETATM   19  C08 7QP B 502      10.709 -30.957 -16.304  1.00 43.74           C  
+HETATM   20  C09 7QP B 502      10.469 -29.416 -14.511  1.00 43.77           C  
+HETATM   21  O40 7QP B 502       7.294 -29.734 -14.683  1.00 34.93           O  
+HETATM   22  O42 7QP B 502       6.092 -31.633 -15.791  1.00 34.46           O  
+HETATM   23  O43 7QP B 502       7.860 -30.338 -17.053  1.00 33.92           O1-
+HETATM   24  O44 7QP B 502       5.727 -29.245 -16.762  1.00 30.20           O1-
+HETATM   25  P41 7QP B 502       6.676 -30.253 -16.148  1.00 35.00           P  
+HETATM   26  C10 7QP B 502      10.506 -30.722 -17.780  1.00 47.53           C  
+HETATM   27  C15 7QP B 502       8.068 -27.461 -12.152  1.00 33.86           C  
+HETATM   28  C20 7QP B 502      11.007 -27.358  -9.846  1.00 32.24           C  
+HETATM   29  C21 7QP B 502      10.265 -32.404 -16.116  1.00 37.83           C  
+HETATM   30  N07 7QP B 502      11.940 -29.774 -14.844  1.00 48.98           N1+
+HETATM   31  N14 7QP B 502       8.875 -27.215 -11.090  1.00 26.15           N1+
+HETATM   32  O04 7QP B 502      12.649 -30.524 -20.499  1.00 44.62           O  
+HETATM   33  O05 7QP B 502      11.626 -28.545 -20.448  1.00 44.61           O1-
+HETATM   34  O19 7QP B 502      12.013 -28.780 -12.116  1.00 38.55           O1-
+CONECT    9   11   21
+CONECT   10   11   13   20
+CONECT   10   13
+CONECT   11    9   10   27
+CONECT   11   27
+CONECT   12   13   28   31
+CONECT   12   31
+CONECT   13   10   12   34
+CONECT   13   10
+CONECT   14   16   26
+CONECT   15   16   18
+CONECT   16   14   15   17
+CONECT   17   16   32   33
+CONECT   17   32
+CONECT   18   15   19   30
+CONECT   19   18   26   29
+CONECT   20   10   30
+CONECT   21    9   25
+CONECT   22   25
+CONECT   22   25
+CONECT   23   25
+CONECT   24   25
+CONECT   25   21   22   23   24
+CONECT   25   22
+CONECT   26   14   19
+CONECT   27   11   31
+CONECT   27   11
+CONECT   28   12
+CONECT   29    6   19
+CONECT   30   18   20
+CONECT   31   12   27
+CONECT   31   12
+CONECT   32   17
+CONECT   32   17
+CONECT   33   17
+CONECT   34   13
+ENDMDL
+END   

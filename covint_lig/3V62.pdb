@@ -1,0 +1,40 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3V62
+MODEL        1
+ATOM      1  N   LEU A  26      37.419  55.139  90.087  1.00 83.59           N1+
+ATOM      2  CA  LEU A  26      38.248  54.467  89.086  1.00 78.62           C  
+ATOM      3  C   LEU A  26      39.651  54.267  89.655  1.00 79.23           C  
+ATOM      4  O   LEU A  26      40.173  55.165  90.309  1.00 77.05           O  
+ATOM      5  CB  LEU A  26      38.308  55.301  87.784  1.00 82.02           C  
+ATOM      6  CG  LEU A  26      36.966  55.503  87.048  1.00 87.69           C  
+ATOM      7  CD1 LEU A  26      37.098  56.580  85.961  1.00 86.03           C  
+ATOM      8  CD2 LEU A  26      36.438  54.191  86.452  1.00 87.38           C  
+TER       9      LEU A  26
+HETATM   10  N   MLY A  27      40.287  53.124  89.366  1.00 78.77           N  
+HETATM   11  CA  MLY A  27      41.708  52.910  89.620  1.00 78.90           C  
+HETATM   12  CB  MLY A  27      41.921  51.492  90.189  1.00 75.21           C  
+HETATM   13  CG  MLY A  27      43.371  51.264  90.656  1.00 81.38           C  
+HETATM   14  CD  MLY A  27      43.580  49.978  91.460  1.00 86.59           C  
+HETATM   15  CE  MLY A  27      43.486  48.688  90.635  1.00 86.08           C  
+HETATM   16  NZ  MLY A  27      44.076  47.522  91.339  1.00 91.46           N1+
+HETATM   17  CH1 MLY A  27      44.313  46.377  90.436  1.00 93.61           C  
+HETATM   18  CH2 MLY A  27      43.331  47.120  92.554  1.00 91.27           C  
+HETATM   19  C   MLY A  27      42.463  53.049  88.293  1.00 79.70           C  
+HETATM   20  O   MLY A  27      42.004  52.548  87.268  1.00 82.91           O  
+CONECT   10    3   11
+CONECT   11   10   12   19
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   15   17   18
+CONECT   17   16
+CONECT   18   16
+CONECT   19   11   20
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+ENDMDL
+END   

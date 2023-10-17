@@ -1,0 +1,124 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1RHR
+MODEL        1
+ATOM      1  N   CYS A 285      70.943 -13.738  98.987  1.00 15.85           N1+
+ATOM      2  CA  CYS A 285      72.105 -13.255  98.273  1.00 15.85           C  
+ATOM      3  C   CYS A 285      71.851 -11.862  97.691  1.00 15.85           C  
+ATOM      4  O   CYS A 285      70.825 -11.633  97.063  1.00 15.85           O  
+ATOM      5  CB  CYS A 285      72.321 -14.290  97.158  1.00 14.04           C  
+ATOM      6  SG  CYS A 285      73.325 -15.607  97.919  1.00 14.04           S  
+TER       7      CYS A 285
+HETATM    8  C24 CNE A 501      80.884 -23.708  99.665  1.00  3.60           C  
+HETATM    9  C25 CNE A 501      79.521 -23.626  99.302  1.00  3.60           C  
+HETATM   10  C20 CNE A 501      78.549 -23.490 100.317  1.00  3.60           C  
+HETATM   11  C21 CNE A 501      78.939 -23.454 101.672  1.00  3.60           C  
+HETATM   12  C22 CNE A 501      80.296 -23.548 102.041  1.00  3.60           C  
+HETATM   13  C23 CNE A 501      81.260 -23.654 101.021  1.00  3.60           C  
+HETATM   14  C26 CNE A 501      80.744 -23.525 103.444  1.00  3.60           C  
+HETATM   15  C27 CNE A 501      79.982 -23.233 104.519  1.00  3.60           C  
+HETATM   16  C28 CNE A 501      80.475 -23.293 105.909  1.00  3.60           C  
+HETATM   17  O7  CNE A 501      81.738 -23.748 106.024  1.00  3.60           O  
+HETATM   18  O6  CNE A 501      79.777 -22.968 106.868  1.00  3.60           O  
+HETATM   19  C29 CNE A 501      82.312 -23.883 107.314  1.00  3.60           C  
+HETATM   20  O8  CNE A 501      79.107 -23.702  97.994  1.00  3.60           O  
+HETATM   21  C30 CNE A 501      79.717 -22.792  97.096  1.00  3.60           C  
+HETATM   22  C31 CNE A 501      79.153 -23.026  95.694  1.00  3.60           C  
+HETATM   23  C19 CNE A 501      77.078 -23.349  99.965  1.00  3.60           C  
+HETATM   24  C18 CNE A 501      76.670 -21.876  99.991  1.00  3.60           C  
+HETATM   25  N2  CNE A 501      76.919 -21.144  98.890  1.00  3.60           N  
+HETATM   26  O5  CNE A 501      76.114 -21.419 100.988  1.00  3.60           O  
+HETATM   27  C14 CNE A 501      76.428 -19.775  98.678  1.00  3.60           C  
+HETATM   28  C13 CNE A 501      74.915 -19.773  98.396  1.00  3.60           C  
+HETATM   29  C15 CNE A 501      77.178 -19.078  97.507  1.00  3.60           C  
+HETATM   30  C17 CNE A 501      77.059 -19.794  96.148  1.00  3.60           C  
+HETATM   31  C16 CNE A 501      78.638 -18.764  97.860  1.00  3.60           C  
+HETATM   32  O4  CNE A 501      74.284 -20.823  98.239  1.00  3.60           O  
+HETATM   33  N1  CNE A 501      74.344 -18.563  98.342  1.00  3.60           N  
+HETATM   34  C10 CNE A 501      72.915 -18.315  98.251  1.00  3.60           C  
+HETATM   35  C9  CNE A 501      72.600 -17.138  97.276  1.00  3.60           C  
+HETATM   36  C11 CNE A 501      72.365 -18.173  99.712  1.00  3.60           C  
+HETATM   37  C12 CNE A 501      71.147 -19.030 100.031  1.00  3.60           C  
+HETATM   38  O2  CNE A 501      70.732 -18.818 101.311  1.00  3.60           O  
+HETATM   39  O3  CNE A 501      70.644 -19.830  99.247  1.00  3.60           O  
+HETATM   40  C8  CNE A 501      73.103 -17.407  95.826  1.00  3.60           C  
+HETATM   41  O1  CNE A 501      71.296 -17.113  97.280  1.00  3.60           O1-
+HETATM   42  S1  CNE A 501      72.195 -16.483  94.532  1.00  3.60           S  
+HETATM   43  C7  CNE A 501      73.373 -16.505  93.153  1.00  3.60           C  
+HETATM   44  C6  CNE A 501      72.839 -15.702  91.972  1.00  3.60           C  
+HETATM   45  C5  CNE A 501      72.454 -16.360  90.782  1.00  3.60           C  
+HETATM   46  C4  CNE A 501      71.975 -15.621  89.681  1.00  3.60           C  
+HETATM   47  C3  CNE A 501      71.880 -14.220  89.754  1.00  3.60           C  
+HETATM   48  C2  CNE A 501      72.276 -13.557  90.926  1.00  3.60           C  
+HETATM   49  C1  CNE A 501      72.748 -14.290  92.031  1.00  3.60           C  
+HETATM   50  F1  CNE A 501      72.554 -17.707  90.683  1.00  3.60           F  
+HETATM   51 CL1  CNE A 501      73.213 -13.419  93.439  1.00  3.60          Cl  
+CONECT    8    9   13
+CONECT    8   13
+CONECT    9    8   10   20
+CONECT    9   10
+CONECT   10    9   11   23
+CONECT   10    9
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12   11   13   14
+CONECT   12   11
+CONECT   13    8   12
+CONECT   13    8
+CONECT   14   12   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   17   18
+CONECT   16   18
+CONECT   17   16   19
+CONECT   18   16
+CONECT   18   16
+CONECT   19   17
+CONECT   20    9   21
+CONECT   21   20   22
+CONECT   22   21
+CONECT   23   10   24
+CONECT   24   23   25   26
+CONECT   24   26
+CONECT   25   24   27
+CONECT   26   24
+CONECT   26   24
+CONECT   27   25   28   29
+CONECT   28   27   32   33
+CONECT   28   32
+CONECT   29   27   30   31
+CONECT   30   29
+CONECT   31   29
+CONECT   32   28
+CONECT   32   28
+CONECT   33   28   34
+CONECT   34   33   35   36
+CONECT   35    6   34   40   41
+CONECT   36   34   37
+CONECT   37   36   38   39
+CONECT   37   39
+CONECT   38   37
+CONECT   39   37
+CONECT   39   37
+CONECT   40   35   42
+CONECT   41   35
+CONECT   42   40   43
+CONECT   43   42   44
+CONECT   44   43   45   49
+CONECT   44   45
+CONECT   45   44   46   50
+CONECT   45   44
+CONECT   46   45   47
+CONECT   46   47
+CONECT   47   46   48
+CONECT   47   46
+CONECT   48   47   49
+CONECT   48   49
+CONECT   49   44   48   51
+CONECT   49   48
+CONECT   50   45
+CONECT   51   49
+ENDMDL
+END   

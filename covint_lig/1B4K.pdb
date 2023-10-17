@@ -1,0 +1,24 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1B4K
+MODEL        1
+ATOM      1  N   LYS A 247     -16.351 -17.601  11.186  1.00 10.59           N  
+ATOM      2  CA  LYS A 247     -17.463 -18.530  11.312  1.00 12.09           C  
+ATOM      3  C   LYS A 247     -18.795 -17.841  10.982  1.00  4.27           C  
+ATOM      4  O   LYS A 247     -19.133 -16.878  11.665  1.00 15.88           O  
+ATOM      5  CB  LYS A 247     -17.467 -19.164  12.708  1.00  2.13           C  
+ATOM      6  CG  LYS A 247     -18.640 -20.139  12.895  1.00 10.19           C  
+ATOM      7  CD  LYS A 247     -18.552 -20.850  14.228  1.00  2.05           C  
+ATOM      8  CE  LYS A 247     -19.459 -22.070  14.322  1.00  9.64           C  
+ATOM      9  NZ  LYS A 247     -19.812 -22.279  15.715  1.00 24.17           N1+
+ATOM     10  N   ASP A 255     132.604  46.426  11.624  1.00 12.10           N1+
+ATOM     11  CA  ASP A 255     133.800  46.289  10.778  1.00 12.88           C  
+ATOM     12  C   ASP A 255     133.444  45.753   9.386  1.00 13.37           C  
+ATOM     13  O   ASP A 255     134.166  46.026   8.429  1.00 13.99           O  
+ATOM     14  CB  ASP A 255     134.799  45.285  11.397  1.00 11.44           C  
+ATOM     15  CG  ASP A 255     135.108  45.589  12.853  1.00 12.99           C  
+ATOM     16  OD1 ASP A 255     135.921  46.505  13.103  1.00 13.60           O  
+ATOM     17  OD2 ASP A 255     134.473  44.923  13.693  1.00 14.01           O1-
+ENDMDL
+END   

@@ -1,0 +1,93 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7kie_ligand
+MODEL        1
+HETATM    1  N4  WF7 B 801       0.269  21.279  43.147  1.00  0.00           N  
+HETATM    2  C24 WF7 B 801       2.697  13.303  41.768  1.00  0.00           C  
+HETATM    3  C23 WF7 B 801       3.459  12.692  40.758  1.00  0.00           C  
+HETATM    4  N3  WF7 B 801      -1.014  18.750  45.040  1.00  0.00           N  
+HETATM    5  C22 WF7 B 801       4.487   7.792  37.179  1.00  0.00           C  
+HETATM    6  C20 WF7 B 801       3.777   9.586  38.871  1.00  0.00           C  
+HETATM    7  C18 WF7 B 801       2.369  10.604  41.232  1.00  0.00           C  
+HETATM    8  C19 WF7 B 801       3.317  11.324  40.480  1.00  0.00           C  
+HETATM    9  C17 WF7 B 801       1.604  11.216  42.242  1.00  0.00           C  
+HETATM   10  C15 WF7 B 801       0.964  13.158  43.558  1.00  0.00           C  
+HETATM   11  C16 WF7 B 801       1.755  12.579  42.531  1.00  0.00           C  
+HETATM   12  N2  WF7 B 801      -2.067  14.824  47.348  1.00  0.00           N  
+HETATM   13  C21 WF7 B 801       4.641   9.259  37.635  1.00  0.00           C  
+HETATM   14  C14 WF7 B 801       0.730  14.688  43.494  1.00  0.00           C  
+HETATM   15  C1  WF7 B 801      -5.251  13.041  49.358  1.00  0.00           C  
+HETATM   16  C13 WF7 B 801      -0.052  15.354  44.445  1.00  0.00           C  
+HETATM   17  C4  WF7 B 801      -2.035  13.350  47.432  1.00  0.00           C  
+HETATM   18  C5  WF7 B 801      -3.413  12.884  47.804  1.00  0.00           C  
+HETATM   19  O1  WF7 B 801       2.931   8.768  39.245  1.00  0.00           O  
+HETATM   20  N1  WF7 B 801      -3.921  13.592  49.002  1.00  0.00           N1+
+HETATM   21  C6  WF7 B 801      -1.455  15.434  46.329  1.00  0.00           C  
+HETATM   22  C3  WF7 B 801      -2.679  15.637  48.453  1.00  0.00           C  
+HETATM   23  C2  WF7 B 801      -4.022  15.059  48.793  1.00  0.00           C  
+HETATM   24  C7  WF7 B 801      -1.555  16.821  46.192  1.00  0.00           C  
+HETATM   25  C12 WF7 B 801       1.876  20.417  41.398  1.00  0.00           C  
+HETATM   26  C11 WF7 B 801       0.889  20.243  42.589  1.00  0.00           C  
+HETATM   27  C10 WF7 B 801       0.529  19.099  43.190  1.00  0.00           C  
+HETATM   28  C9  WF7 B 801      -0.338  19.474  44.131  1.00  0.00           C  
+HETATM   29  C8  WF7 B 801      -0.886  17.437  45.147  1.00  0.00           C  
+HETATM   30  N8  WF7 B 801      -0.705  14.726  45.453  1.00  0.00           N  
+HETATM   31  N5  WF7 B 801      -0.494  20.793  44.102  1.00  0.00           N  
+HETATM   32  N6  WF7 B 801      -0.152  16.690  44.299  1.00  0.00           N  
+HETATM   33  N7  WF7 B 801       4.052  10.793  39.464  1.00  0.00           N  
+CONECT    1   26   31
+CONECT    2    3   11
+CONECT    2   11
+CONECT    3    2    8
+CONECT    3    8
+CONECT    4   28   29
+CONECT    5   13
+CONECT    6   13   19   33
+CONECT    6   19
+CONECT    7    8    9
+CONECT    7    9
+CONECT    8    3    7   33
+CONECT    8    3
+CONECT    9    7   11
+CONECT    9    7
+CONECT   10   11   14
+CONECT   10   14
+CONECT   11    2    9   10
+CONECT   11    2
+CONECT   12   17   21   22
+CONECT   13    5    6
+CONECT   14   10   16
+CONECT   14   10
+CONECT   15   20
+CONECT   16   14   30   32
+CONECT   16   30
+CONECT   17   12   18
+CONECT   18   17   20
+CONECT   19    6
+CONECT   19    6
+CONECT   20   15   18   23
+CONECT   21   12   24   30
+CONECT   21   24
+CONECT   22   12   23
+CONECT   23   20   22
+CONECT   24   21   29
+CONECT   24   21
+CONECT   25   26
+CONECT   26    1   25   27
+CONECT   26   27
+CONECT   27   26   28
+CONECT   27   26
+CONECT   28    4   27   31
+CONECT   28   31
+CONECT   29    4   24   32
+CONECT   29   32
+CONECT   30   16   21
+CONECT   30   16
+CONECT   31    1   28
+CONECT   31   28
+CONECT   32   16   29
+CONECT   32   29
+CONECT   33    6    8
+ENDMDL
+END   

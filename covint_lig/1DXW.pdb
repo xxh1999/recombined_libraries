@@ -1,0 +1,78 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1DXW
+MODEL        1
+ATOM      1  N   SER A 139      -0.555   7.168  -4.968  1.00  0.00           N1+
+ATOM      2  CA  SER A 139      -0.601   5.728  -5.195  1.00  0.00           C  
+ATOM      3  C   SER A 139      -2.040   5.323  -5.539  1.00  0.00           C  
+ATOM      4  O   SER A 139      -2.996   5.923  -5.060  1.00  0.00           O  
+ATOM      5  CB  SER A 139      -0.025   5.030  -3.945  1.00  0.00           C  
+ATOM      6  OG  SER A 139      -0.304   5.846  -2.812  1.00  0.00           O  
+TER       7      SER A 139
+HETATM    8  N   2ZF A 188       8.609   3.280  -0.531  1.00  0.00           N1+
+HETATM    9  CA  2ZF A 188       7.523   3.592   0.412  1.00  0.00           C  
+HETATM   10  C4  2ZF A 188       6.185   3.620  -0.308  1.00  0.00           C  
+HETATM   11  O   2ZF A 188       5.968   4.471  -1.161  1.00  0.00           O  
+HETATM   12  CB  2ZF A 188       7.755   4.953   1.081  1.00  0.00           C  
+HETATM   13  CG  2ZF A 188       8.890   4.922   2.109  1.00  0.00           C  
+HETATM   14  CD  2ZF A 188       9.039   6.265   2.813  1.00  0.00           C  
+HETATM   15  OE1 2ZF A 188       8.447   7.291   2.478  1.00  0.00           O  
+HETATM   16  OE2 2ZF A 188       9.958   6.213   3.812  1.00  0.00           O  
+HETATM   17  N1  2ZF A 188       5.278   2.716   0.067  1.00  0.00           N  
+HETATM   18  CA1 2ZF A 188       3.901   2.623  -0.408  1.00  0.00           C  
+HETATM   19  C5  2ZF A 188       3.134   3.946  -0.223  1.00  0.00           C  
+HETATM   20  O3  2ZF A 188       3.185   4.527   0.862  1.00  0.00           O  
+HETATM   21  CB1 2ZF A 188       3.268   1.433   0.340  1.00  0.00           C  
+HETATM   22  CG1 2ZF A 188       3.255   0.111  -0.464  1.00  0.00           C  
+HETATM   23  CD1 2ZF A 188       4.631  -0.313  -0.976  1.00  0.00           C  
+HETATM   24  CD2 2ZF A 188       2.689  -1.032   0.381  1.00  0.00           C  
+HETATM   25  N2  2ZF A 188       2.471   4.434  -1.285  1.00  0.00           N  
+HETATM   26  CA2 2ZF A 188       1.690   5.680  -1.283  1.00  0.00           C  
+HETATM   27  C6  2ZF A 188       0.143   5.456  -1.518  1.00  0.00           C  
+HETATM   28  O4  2ZF A 188      -0.203   4.236  -1.246  1.00  0.00           O1-
+HETATM   29  CB2 2ZF A 188       2.344   6.739  -2.188  1.00  0.00           C  
+HETATM   30  CG2 2ZF A 188       3.489   7.537  -1.527  1.00  0.00           C  
+HETATM   31  F1  2ZF A 188       3.100   8.068  -0.369  1.00  0.00           F  
+HETATM   32  F2  2ZF A 188       4.587   6.817  -1.333  1.00  0.00           F  
+HETATM   33  CD3 2ZF A 188      -0.747   6.245  -0.549  1.00  0.00           C  
+HETATM   34 OE11 2ZF A 188      -0.273   6.309   0.726  1.00  0.00           O  
+HETATM   35 OE21 2ZF A 188      -1.849   6.658  -0.881  1.00  0.00           O  
+CONECT    8    9
+CONECT    9    8   10   12
+CONECT   10    9   11   17
+CONECT   10   11
+CONECT   11   10
+CONECT   11   10
+CONECT   12    9   13
+CONECT   13   12   14
+CONECT   14   13   15   16
+CONECT   14   15
+CONECT   15   14
+CONECT   15   14
+CONECT   16   14
+CONECT   17   10   18
+CONECT   18   17   19   21
+CONECT   19   18   20   25
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   18   22
+CONECT   22   21   23   24
+CONECT   23   22
+CONECT   24   22
+CONECT   25   19   26
+CONECT   26   25   27   29
+CONECT   27    6   26   28   33
+CONECT   28   27
+CONECT   29   26   30
+CONECT   30   29   31   32
+CONECT   31   30
+CONECT   32   30
+CONECT   33   27   34   35
+CONECT   33   35
+CONECT   34   33
+CONECT   35   33
+CONECT   35   33
+ENDMDL
+END   

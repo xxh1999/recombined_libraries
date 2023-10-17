@@ -1,0 +1,49 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2XGB
+MODEL        1
+ATOM      1  N   GLU A 184      10.262  14.193  24.708  1.00  7.11           N1+
+ATOM      2  CA  GLU A 184      10.846  14.868  23.560  1.00  6.83           C  
+ATOM      3  C   GLU A 184       9.750  15.626  22.809  1.00  6.50           C  
+ATOM      4  O   GLU A 184       8.666  15.086  22.601  1.00  6.92           O  
+ATOM      5  CB  GLU A 184      11.410  13.768  22.641  1.00  7.99           C  
+ATOM      6  CG  GLU A 184      12.660  13.122  23.266  1.00  9.39           C  
+ATOM      7  CD  GLU A 184      12.861  11.634  23.015  1.00 10.68           C  
+ATOM      8  OE1 GLU A 184      12.323  11.041  22.081  1.00 12.50           O  
+ATOM      9  OE2 GLU A 184      13.746  11.116  23.879  1.00 11.38           O  
+TER      10      GLU A 184
+HETATM   11  C1  EPG A1500      14.063   8.060  27.561  1.00 10.33           C  
+HETATM   12  O1  EPG A1500      13.888   9.056  26.581  1.00 11.11           O  
+HETATM   13  C2  EPG A1500      12.726   7.383  27.853  1.00 10.40           C  
+HETATM   14  O2  EPG A1500      12.202   6.821  26.655  1.00 11.30           O  
+HETATM   15  C3  EPG A1500      11.759   8.396  28.462  1.00  9.76           C  
+HETATM   16  O3  EPG A1500      10.565   7.732  28.862  1.00 10.37           O  
+HETATM   17  C4  EPG A1500      12.400   9.124  29.657  1.00  9.25           C  
+HETATM   18  O4  EPG A1500      11.574  10.224  29.998  1.00  9.27           O  
+HETATM   19  C5  EPG A1500      13.831   9.625  29.332  1.00  8.76           C  
+HETATM   20  O5  EPG A1500      14.595   8.554  28.763  1.00  9.87           O  
+HETATM   21  C6  EPG A1500      14.633  10.171  30.524  1.00 10.06           C  
+HETATM   22  O6  EPG A1500      14.823   9.202  31.547  1.00 10.31           O  
+HETATM   23  C7  EPG A1500      15.090   9.632  26.073  1.00 10.65           C  
+HETATM   24  C8  EPG A1500      15.171   9.210  24.632  1.00 10.78           C  
+HETATM   25  C9  EPG A1500      14.433   9.928  23.538  1.00 11.02           C  
+HETATM   26  O8  EPG A1500      15.850  10.070  23.708  1.00 12.06           O  
+CONECT   11   12   13   20
+CONECT   12   11   23
+CONECT   13   11   14   15
+CONECT   14   13
+CONECT   15   13   16   17
+CONECT   16   15
+CONECT   17   15   18   19
+CONECT   18   17
+CONECT   19   17   20   21
+CONECT   20   11   19
+CONECT   21   19   22
+CONECT   22   21
+CONECT   23   12   24
+CONECT   24   23   25   26
+CONECT   25    9   24   26
+CONECT   26   24   25
+ENDMDL
+END   

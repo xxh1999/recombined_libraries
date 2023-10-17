@@ -1,0 +1,118 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6IJR
+MODEL        1
+ATOM      1  N   CYS A 285     -11.291 -24.411   1.386  1.00 80.31           N1+
+ATOM      2  CA  CYS A 285     -10.744 -25.395   0.454  1.00 86.58           C  
+ATOM      3  C   CYS A 285     -10.059 -24.717  -0.748  1.00 88.22           C  
+ATOM      4  O   CYS A 285      -9.015 -25.190  -1.194  1.00 90.68           O  
+ATOM      5  CB  CYS A 285     -11.860 -26.374  -0.006  1.00 84.73           C  
+ATOM      6  SG  CYS A 285     -11.407 -28.024   0.613  1.00 85.72           S  
+TER       7      CYS A 285
+HETATM    8  CAV A9C A 501     -11.712 -25.773   8.144  1.00 80.25           C  
+HETATM    9  CAT A9C A 501     -12.373 -26.513   9.325  1.00 84.47           C  
+HETATM   10  NBN A9C A 501     -13.555 -25.811   9.824  1.00 84.84           N  
+HETATM   11  CAA A9C A 501     -13.219 -24.585  10.540  1.00 90.13           C  
+HETATM   12  CAU A9C A 501     -14.515 -25.605   8.737  1.00 80.72           C  
+HETATM   13  CAW A9C A 501     -13.886 -24.856   7.542  1.00 81.35           C  
+HETATM   14  NBO A9C A 501     -12.690 -25.577   7.044  1.00 80.25           N1+
+HETATM   15  CAZ A9C A 501     -12.105 -24.951   5.833  1.00 77.89           C  
+HETATM   16  CBH A9C A 501     -11.108 -25.871   5.150  1.00 76.93           C  
+HETATM   17  CAM A9C A 501      -9.722 -25.609   5.209  1.00 73.46           C  
+HETATM   18  CAO A9C A 501      -8.805 -26.491   4.598  1.00 73.40           C  
+HETATM   19  CAL A9C A 501     -11.569 -27.015   4.472  1.00 80.11           C  
+HETATM   20  CAN A9C A 501     -10.646 -27.899   3.885  1.00 76.75           C  
+HETATM   21  CBJ A9C A 501      -9.260 -27.646   3.928  1.00 74.68           C  
+HETATM   22  CBE A9C A 501      -8.285 -28.632   3.344  1.00 77.53           C  
+HETATM   23  OAF A9C A 501      -7.154 -28.749   3.813  1.00 88.20           O  
+HETATM   24  NBB A9C A 501      -8.732 -29.349   2.300  1.00 77.88           N  
+HETATM   25  CAX A9C A 501      -8.006 -30.433   1.647  1.00 72.21           C  
+HETATM   26  CBG A9C A 501      -7.161 -29.979   0.468  1.00 72.18           C  
+HETATM   27  CAP A9C A 501      -7.712 -29.161  -0.545  1.00 69.40           C  
+HETATM   28  CAJ A9C A 501      -5.819 -30.405   0.364  1.00 69.62           C  
+HETATM   29  CAI A9C A 501      -5.035 -30.016  -0.738  1.00 73.20           C  
+HETATM   30  CAK A9C A 501      -5.589 -29.205  -1.746  1.00 71.19           C  
+HETATM   31  CBI A9C A 501      -6.931 -28.781  -1.657  1.00 70.91           C  
+HETATM   32  CAY A9C A 501      -7.504 -27.869  -2.725  1.00 74.89           C  
+HETATM   33  OBD A9C A 501      -8.782 -28.288  -3.198  1.00 76.97           O  
+HETATM   34  CBM A9C A 501      -9.402 -27.369  -4.100  1.00 75.62           C  
+HETATM   35  CAS A9C A 501      -8.756 -27.444  -5.490  1.00 71.72           C  
+HETATM   36  CAQ A9C A 501      -9.363 -28.686  -6.149  1.00 75.21           C  
+HETATM   37  CAR A9C A 501     -10.745 -28.877  -5.510  1.00 80.70           C  
+HETATM   38  CBL A9C A 501     -10.843 -27.766  -4.455  1.00 81.90           C  
+HETATM   39  NBC A9C A 501     -11.737 -28.027  -3.336  1.00 84.07           N  
+HETATM   40  CBF A9C A 501     -11.773 -29.063  -2.481  1.00 90.15           C  
+HETATM   41  OAG A9C A 501     -10.942 -29.970  -2.457  1.00100.19           O  
+HETATM   42  CBK A9C A 501     -12.971 -29.097  -1.522  1.00 94.75           C  
+HETATM   43  CAH A9C A 501     -13.960 -28.051  -1.825  1.00109.99           C  
+HETATM   44  NAE A9C A 501     -14.730 -27.229  -2.078  1.00125.45           N  
+HETATM   45  CBA A9C A 501     -12.583 -29.274  -0.028  1.00 91.78           C  
+HETATM   46  CBP A9C A 501     -13.741 -29.639   0.959  1.00 92.45           C  
+HETATM   47  CAC A9C A 501     -13.197 -30.072   2.334  1.00 99.53           C  
+HETATM   48  CAD A9C A 501     -14.530 -30.826   0.401  1.00 91.63           C  
+HETATM   49  CAB A9C A 501     -14.734 -28.500   1.202  1.00 84.68           C  
+CONECT    8    9   14
+CONECT    9    8   10
+CONECT   10    9   11   12
+CONECT   11   10
+CONECT   12   10   13
+CONECT   13   12   14
+CONECT   14    8   13   15
+CONECT   15   14   16
+CONECT   16   15   17   19
+CONECT   16   19
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   17   21
+CONECT   18   17
+CONECT   19   16   20
+CONECT   19   16
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   18   20   22
+CONECT   21   20
+CONECT   22   21   23   24
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22   25
+CONECT   25   24   26
+CONECT   26   25   27   28
+CONECT   26   28
+CONECT   27   26   31
+CONECT   27   31
+CONECT   28   26   29
+CONECT   28   26
+CONECT   29   28   30
+CONECT   29   30
+CONECT   30   29   31
+CONECT   30   29
+CONECT   31   27   30   32
+CONECT   31   27
+CONECT   32   31   33
+CONECT   33   32   34
+CONECT   34   33   35   38
+CONECT   35   34   36
+CONECT   36   35   37
+CONECT   37   36   38
+CONECT   38   34   37   39
+CONECT   39   38   40
+CONECT   40   39   41   42
+CONECT   40   41
+CONECT   41   40
+CONECT   41   40
+CONECT   42   40   43   45
+CONECT   43   42   44
+CONECT   43   44
+CONECT   43   44
+CONECT   44   43
+CONECT   44   43
+CONECT   44   43
+CONECT   45    6   42   46
+CONECT   46   45   47   48   49
+CONECT   47   46
+CONECT   48   46
+CONECT   49   46
+ENDMDL
+END   

@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1QFS
+MODEL        1
+ATOM      1  N   SER A 554      33.279  41.179  79.292  1.00 24.60           N1+
+ATOM      2  CA  SER A 554      34.501  40.368  79.339  1.00 23.65           C  
+ATOM      3  C   SER A 554      34.247  38.940  78.832  1.00 25.26           C  
+ATOM      4  O   SER A 554      34.106  38.721  77.630  1.00 23.26           O  
+ATOM      5  CB  SER A 554      35.180  40.509  80.717  1.00 25.50           C  
+ATOM      6  OG  SER A 554      36.507  40.002  80.710  1.00 23.62           O  
+TER       7      SER A 554
+HETATM    8  C1  ZPR A 791      36.844  39.004  81.537  1.00 21.44           C  
+HETATM    9  O2  ZPR A 791      36.077  38.453  82.325  1.00 23.76           O  
+HETATM   10  C3  ZPR A 791      38.305  38.582  81.310  1.00 27.11           C  
+HETATM   11  C4  ZPR A 791      38.371  37.712  80.055  1.00 25.68           C  
+HETATM   12  C5  ZPR A 791      38.097  36.302  80.550  1.00 27.93           C  
+HETATM   13  C6  ZPR A 791      38.644  36.295  81.976  1.00 29.64           C  
+HETATM   14  N7  ZPR A 791      38.757  37.694  82.382  1.00 30.14           N  
+HETATM   15  C8  ZPR A 791      39.227  38.126  83.572  1.00 35.31           C  
+HETATM   16  O9  ZPR A 791      39.301  39.328  83.840  1.00 30.91           O  
+HETATM   17  C10 ZPR A 791      39.668  37.074  84.619  1.00 35.74           C  
+HETATM   18  C11 ZPR A 791      38.477  36.609  85.470  1.00 35.23           C  
+HETATM   19  C12 ZPR A 791      38.455  37.566  86.651  1.00 35.50           C  
+HETATM   20  C13 ZPR A 791      39.929  37.908  86.877  1.00 36.82           C  
+HETATM   21  N14 ZPR A 791      40.597  37.644  85.598  1.00 36.52           N  
+HETATM   22  C15 ZPR A 791      41.948  37.847  85.329  1.00 37.19           C  
+HETATM   23  O16 ZPR A 791      42.518  37.576  84.270  1.00 34.16           O  
+HETATM   24  O17 ZPR A 791      42.558  38.395  86.391  1.00 38.93           O  
+HETATM   25  C18 ZPR A 791      43.959  38.609  86.380  1.00 40.76           C  
+HETATM   26  C19 ZPR A 791      44.699  37.494  87.086  1.00 40.33           C  
+HETATM   27  C20 ZPR A 791      44.925  36.253  86.454  1.00 40.04           C  
+HETATM   28  C21 ZPR A 791      45.574  35.215  87.151  1.00 40.52           C  
+HETATM   29  C22 ZPR A 791      45.994  35.415  88.479  1.00 41.83           C  
+HETATM   30  C23 ZPR A 791      45.776  36.658  89.104  1.00 39.65           C  
+HETATM   31  C24 ZPR A 791      45.135  37.697  88.408  1.00 40.79           C  
+CONECT    8    6    9   10
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8   11   14
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   10   13   15
+CONECT   15   14   16   17
+CONECT   15   16
+CONECT   16   15
+CONECT   16   15
+CONECT   17   15   18   21
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   17   20   22
+CONECT   22   21   23   24
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22   25
+CONECT   25   24   26
+CONECT   26   25   27   31
+CONECT   26   27
+CONECT   27   26   28
+CONECT   27   26
+CONECT   28   27   29
+CONECT   28   29
+CONECT   29   28   30
+CONECT   29   28
+CONECT   30   29   31
+CONECT   30   31
+CONECT   31   26   30
+CONECT   31   30
+ENDMDL
+END   

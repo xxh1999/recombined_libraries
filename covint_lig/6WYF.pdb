@@ -1,0 +1,44 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6WYF
+MODEL        1
+ATOM      1  N   CYS A 157       9.517  53.400   9.384  1.00 11.35           N1+
+ATOM      2  CA  CYS A 157       9.835  53.661   7.984  0.80 10.99           C  
+ATOM      3  C   CYS A 157       8.581  53.671   7.123  1.00 12.56           C  
+ATOM      4  O   CYS A 157       8.502  54.428   6.144  1.00 16.08           O  
+ATOM      5  CB  CYS A 157      10.806  52.592   7.489  0.80 11.47           C  
+ATOM      6  SG  CYS A 157      12.492  52.759   8.069  0.80 14.64           S  
+TER       7      CYS A 157
+HETATM    8  C12 RFT A 201      14.480  56.856   9.585  0.80 79.85           C  
+HETATM    9  C15 RFT A 201      14.954  57.885   7.339  0.80 67.60           C  
+HETATM   10  C16 RFT A 201      14.337  57.214   6.116  0.80 58.06           C  
+HETATM   11  C18 RFT A 201      13.027  54.973   6.508  0.80 37.89           C  
+HETATM   12  C20 RFT A 201      13.399  53.563   6.713  0.80 28.60           C  
+HETATM   13  C21 RFT A 201      14.902  53.531   6.946  0.80 35.47           C  
+HETATM   14  C22 RFT A 201      15.421  54.907   6.466  0.80 42.45           C  
+HETATM   15  N14 RFT A 201      14.085  57.726   8.490  0.80 74.80           N  
+HETATM   16  N17 RFT A 201      14.289  55.780   6.338  0.80 46.37           N  
+HETATM   17  O13 RFT A 201      15.499  56.253   9.556  0.80 82.58           O  
+HETATM   18  O19 RFT A 201      11.938  55.428   6.447  0.80 38.13           O  
+HETATM   19  O23 RFT A 201      16.547  55.208   6.250  0.80 43.00           O  
+CONECT    8   15   17
+CONECT    8   17
+CONECT    9   10   15
+CONECT   10    9   16
+CONECT   11   12   16   18
+CONECT   11   18
+CONECT   12    6   11   13
+CONECT   13   12   14
+CONECT   14   13   16   19
+CONECT   14   19
+CONECT   15    8    9
+CONECT   16   10   11   14
+CONECT   17    8
+CONECT   17    8
+CONECT   18   11
+CONECT   18   11
+CONECT   19   14
+CONECT   19   14
+ENDMDL
+END   

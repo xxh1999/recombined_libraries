@@ -1,0 +1,64 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2Q9N
+MODEL        1
+ATOM      1  N   SER A  64      21.016  16.242  21.356  1.00 32.83           N1+
+ATOM      2  CA  SER A  64      20.162  15.378  22.178  1.00 32.99           C  
+ATOM      3  C   SER A  64      19.739  14.034  21.540  1.00 32.27           C  
+ATOM      4  O   SER A  64      19.115  13.236  22.234  1.00 32.37           O  
+ATOM      5  CB  SER A  64      18.913  16.155  22.650  1.00 34.49           C  
+ATOM      6  OG  SER A  64      19.262  17.266  23.470  1.00 35.24           O  
+TER       7      SER A  64
+HETATM    8  C1  LK5 A   0      23.024  26.709  22.518  0.00 32.34           C  
+HETATM    9  C3  LK5 A   0      23.105  27.175  23.974  0.00 30.27           C  
+HETATM   10  C4  LK5 A   0      21.754  27.170  24.712  0.00 30.73           C  
+HETATM   11  C5  LK5 A   0      21.318  25.787  25.225  0.00 27.85           C  
+HETATM   12  O4  LK5 A   0      20.840  24.988  24.150  1.00 45.31           O  
+HETATM   13  C6  LK5 A   0      21.027  23.585  24.312  1.00 45.11           C  
+HETATM   14  C7  LK5 A   0      21.755  23.075  23.061  1.00 45.14           C  
+HETATM   15  C8  LK5 A   0      20.812  23.149  21.856  1.00 44.97           C  
+HETATM   16  C9  LK5 A   0      19.711  22.096  21.986  1.00 44.61           C  
+HETATM   17  C10 LK5 A   0      19.052  22.067  23.376  1.00 44.51           C  
+HETATM   18  C11 LK5 A   0      19.730  22.802  24.510  1.00 45.12           C  
+HETATM   19  C12 LK5 A   0      19.261  22.313  25.662  1.00 45.21           C  
+HETATM   20  C13 LK5 A   0      19.659  22.623  27.118  1.00 46.55           C  
+HETATM   21  O3  LK5 A   0      19.852  23.828  27.386  1.00 47.05           O  
+HETATM   22  O2  LK5 A   0      19.717  21.637  27.882  1.00 47.86           O1-
+HETATM   23  N1  LK5 A   0      18.531  21.160  25.450  1.00 43.56           N  
+HETATM   24  C14 LK5 A   0      18.716  20.719  24.072  1.00 43.09           C  
+HETATM   25  C15 LK5 A   0      19.827  19.609  23.914  1.00 40.08           C  
+HETATM   26  C16 LK5 A   0      20.519  19.056  25.190  1.00 39.92           C  
+HETATM   27  C2  LK5 A   0      21.785  19.834  25.584  1.00 39.69           C  
+HETATM   28  C17 LK5 A   0      19.362  18.507  22.946  1.00 37.23           C  
+HETATM   29  O1  LK5 A   0      19.108  18.793  21.782  1.00 37.31           O  
+CONECT    8    9
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12   14   18
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16   18   24
+CONECT   18   13   17   19
+CONECT   18   19
+CONECT   19   18   20   23
+CONECT   19   18
+CONECT   20   19   21   22
+CONECT   20   21
+CONECT   21   20
+CONECT   21   20
+CONECT   22   20
+CONECT   23   19   24
+CONECT   24   17   23   25
+CONECT   25   24   26   28
+CONECT   26   25   27
+CONECT   27   26
+CONECT   28    6   25   29
+CONECT   28   29
+CONECT   29   28
+CONECT   29   28
+ENDMDL
+END   

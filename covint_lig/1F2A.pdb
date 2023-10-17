@@ -1,0 +1,131 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1F2A
+MODEL        1
+ATOM      1  N   CYS A  25       3.286  -9.070  11.207  1.00 10.36           N1+
+ATOM      2  CA  CYS A  25       4.195  -7.926  11.041  1.00  9.33           C  
+ATOM      3  C   CYS A  25       3.733  -6.850  10.031  1.00  7.49           C  
+ATOM      4  O   CYS A  25       4.027  -5.670  10.203  1.00  8.50           O  
+ATOM      5  CB  CYS A  25       5.609  -8.447  10.719  1.00  8.18           C  
+ATOM      6  SG  CYS A  25       5.658  -9.227   9.072  1.00 10.13           S  
+TER       7      CYS A  25
+HETATM    8  C1  VS2 A 300       1.048 -12.794   1.348  1.00 16.79           C  
+HETATM    9  C2  VS2 A 300       0.869 -11.979   0.211  1.00 17.66           C  
+HETATM   10  C3  VS2 A 300      -0.429 -11.665  -0.237  1.00 19.56           C  
+HETATM   11  C4  VS2 A 300      -1.552 -12.166   0.450  1.00 16.74           C  
+HETATM   12  C5  VS2 A 300      -1.375 -12.991   1.577  1.00 16.16           C  
+HETATM   13  C6  VS2 A 300      -0.078 -13.308   2.025  1.00 17.12           C  
+HETATM   14  C7  VS2 A 300       2.444 -13.104   1.847  1.00 17.02           C  
+HETATM   15  O1  VS2 A 300       3.058 -11.954   2.407  1.00 15.41           O  
+HETATM   16  C8  VS2 A 300       4.118 -12.083   3.216  1.00 16.65           C  
+HETATM   17  O2  VS2 A 300       4.676 -13.144   3.498  1.00 18.14           O  
+HETATM   18  N1  VS2 A 300       4.435 -10.832   3.711  1.00 13.63           N  
+HETATM   19  C9  VS2 A 300       5.437 -10.543   4.735  1.00 13.25           C  
+HETATM   20  C10 VS2 A 300       5.711  -9.019   4.749  1.00 12.82           C  
+HETATM   21  C11 VS2 A 300       6.020  -8.388   3.401  1.00 13.51           C  
+HETATM   22  C12 VS2 A 300       5.303  -7.247   2.982  1.00 12.54           C  
+HETATM   23  C13 VS2 A 300       5.557  -6.672   1.722  1.00 13.97           C  
+HETATM   24  C14 VS2 A 300       6.518  -7.244   0.868  1.00 13.19           C  
+HETATM   25  C15 VS2 A 300       7.233  -8.384   1.282  1.00 14.40           C  
+HETATM   26  C16 VS2 A 300       6.998  -8.946   2.551  1.00 13.67           C  
+HETATM   27  C17 VS2 A 300       4.858 -10.921   6.105  1.00 14.76           C  
+HETATM   28  O3  VS2 A 300       3.678 -10.677   6.353  1.00 14.79           O  
+HETATM   29  N2  VS2 A 300       5.686 -11.486   6.997  1.00 12.54           N  
+HETATM   30  C18 VS2 A 300       5.306 -11.890   8.355  1.00 14.47           C  
+HETATM   31  C19 VS2 A 300       5.574 -13.400   8.543  1.00 15.52           C  
+HETATM   32  C20 VS2 A 300       4.631 -14.295   7.727  1.00 19.51           C  
+HETATM   33  C21 VS2 A 300       5.043 -15.752   7.780  1.00 24.05           C  
+HETATM   34  C22 VS2 A 300       4.596 -16.577   8.832  1.00 27.42           C  
+HETATM   35  C23 VS2 A 300       4.986 -17.929   8.886  1.00 28.70           C  
+HETATM   36  C24 VS2 A 300       5.826 -18.459   7.888  1.00 27.97           C  
+HETATM   37  C25 VS2 A 300       6.275 -17.638   6.836  1.00 27.13           C  
+HETATM   38  C26 VS2 A 300       5.884 -16.286   6.782  1.00 26.37           C  
+HETATM   39  C28 VS2 A 300       7.490 -11.253   9.584  1.00 17.28           C  
+HETATM   40  S1  VS2 A 300       7.924 -11.843  11.273  1.00 16.11           S  
+HETATM   41  O4  VS2 A 300       6.970 -12.894  11.657  1.00 17.73           O  
+HETATM   42  O5  VS2 A 300       8.076 -10.665  12.139  1.00 15.13           O  
+HETATM   43  C29 VS2 A 300       9.592 -12.595  11.014  1.00 22.66           C  
+HETATM   44  C30 VS2 A 300       9.505 -13.786  10.074  1.00 27.50           C  
+HETATM   45  C31 VS2 A 300       8.891 -14.984  10.498  1.00 30.37           C  
+HETATM   46  C32 VS2 A 300       8.781 -16.077   9.617  1.00 32.87           C  
+HETATM   47  C33 VS2 A 300       9.300 -15.983   8.312  1.00 32.50           C  
+HETATM   48  C34 VS2 A 300       9.930 -14.797   7.890  1.00 30.50           C  
+HETATM   49  C35 VS2 A 300      10.031 -13.699   8.767  1.00 29.42           C  
+HETATM   50  C27 VS2 A 300       5.978 -10.988   9.424  1.00 13.71           C  
+CONECT    8    9   13   14
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13    8   12
+CONECT   13   12
+CONECT   14    8   15
+CONECT   15   14   16
+CONECT   16   15   17   18
+CONECT   16   17
+CONECT   17   16
+CONECT   17   16
+CONECT   18   16   19
+CONECT   19   18   20   27
+CONECT   20   19   21
+CONECT   21   20   22   26
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   21   25
+CONECT   26   25
+CONECT   27   19   28   29
+CONECT   27   28
+CONECT   28   27
+CONECT   28   27
+CONECT   29   27   30
+CONECT   30   29   31   50
+CONECT   31   30   32
+CONECT   32   31   33
+CONECT   33   32   34   38
+CONECT   33   34
+CONECT   34   33   35
+CONECT   34   33
+CONECT   35   34   36
+CONECT   35   36
+CONECT   36   35   37
+CONECT   36   35
+CONECT   37   36   38
+CONECT   37   38
+CONECT   38   33   37
+CONECT   38   37
+CONECT   39   40   50
+CONECT   40   39   41   42   43
+CONECT   40   41   42
+CONECT   41   40
+CONECT   41   40
+CONECT   42   40
+CONECT   42   40
+CONECT   43   40   44
+CONECT   44   43   45   49
+CONECT   44   45
+CONECT   45   44   46
+CONECT   45   44
+CONECT   46   45   47
+CONECT   46   47
+CONECT   47   46   48
+CONECT   47   46
+CONECT   48   47   49
+CONECT   48   49
+CONECT   49   44   48
+CONECT   49   48
+CONECT   50    6   30   39
+ENDMDL
+END   

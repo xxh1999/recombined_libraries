@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6J4P
+MODEL        1
+ATOM      1  N   CYS A 158     -21.136  -2.811 -20.752  1.00  5.24           N1+
+ATOM      2  CA  CYS A 158     -21.330  -3.059 -19.324  1.00  6.34           C  
+ATOM      3  C   CYS A 158     -21.369  -4.534 -18.877  1.00  5.52           C  
+ATOM      4  O   CYS A 158     -20.718  -4.865 -17.892  1.00  5.94           O  
+ATOM      5  CB  CYS A 158     -22.503  -2.223 -18.770  1.00  7.71           C  
+ATOM      6  SG  CYS A 158     -24.160  -2.970 -18.980  1.00  9.91           S  
+TER       7      CYS A 158
+HETATM    8  CB1 BJL A 900     -26.588   2.162 -20.169  1.00 11.05           C  
+HETATM    9  CG  BJL A 900     -26.773   3.614 -20.538  1.00 10.23           C  
+HETATM   10  CD1 BJL A 900     -27.333   3.949 -21.785  1.00 11.42           C  
+HETATM   11  CD2 BJL A 900     -26.383   4.626 -19.637  1.00 13.87           C  
+HETATM   12  CE1 BJL A 900     -27.537   5.298 -22.121  1.00 13.03           C  
+HETATM   13  CE2 BJL A 900     -26.573   5.975 -19.978  1.00 12.76           C  
+HETATM   14  CZ  BJL A 900     -27.164   6.305 -21.213  1.00 13.44           C  
+HETATM   15  OH  BJL A 900     -27.400   7.606 -21.521  1.00 15.95           O  
+HETATM   16  C1  BJL A 900     -24.051   2.183 -20.340  1.00 13.43           C  
+HETATM   17  C14 BJL A 900     -24.506  -0.866 -20.787  1.00 15.21           C  
+HETATM   18  C15 BJL A 900     -24.887  -2.321 -20.527  1.00 12.18           C  
+HETATM   19  C17 BJL A 900     -24.583  -3.198 -21.773  1.00 20.79           C  
+HETATM   20  C19 BJL A 900     -25.471  -2.909 -23.007  1.00 15.28           C  
+HETATM   21  C22 BJL A 900     -27.287  -1.545 -23.820  1.00 22.79           C  
+HETATM   22  C23 BJL A 900     -27.811  -0.161 -23.421  1.00 22.42           C  
+HETATM   23  CA1 BJL A 900     -25.351   1.495 -20.789  1.00 12.45           C  
+HETATM   24  N1  BJL A 900     -25.422   0.065 -20.488  1.00 13.65           N  
+HETATM   25  O1  BJL A 900     -23.752   2.091 -19.133  1.00 14.89           O  
+HETATM   26  O16 BJL A 900     -23.415  -0.620 -21.286  1.00 15.24           O  
+HETATM   27  O18 BJL A 900     -24.696  -4.564 -21.441  1.00 21.07           O  
+HETATM   28  O20 BJL A 900     -25.246  -3.450 -24.091  1.00 16.53           O  
+HETATM   29  O21 BJL A 900     -26.463  -2.025 -22.773  1.00 19.63           O  
+HETATM   30  OXT BJL A 900     -23.392   2.814 -21.193  1.00 10.27           O1-
+CONECT    8    9   23
+CONECT    9    8   10   11
+CONECT    9   11
+CONECT   10    9   12
+CONECT   10   12
+CONECT   11    9   13
+CONECT   11    9
+CONECT   12   10   14
+CONECT   12   10
+CONECT   13   11   14
+CONECT   13   14
+CONECT   14   12   13   15
+CONECT   14   13
+CONECT   15   14
+CONECT   16   23   25   30
+CONECT   16   25
+CONECT   17   18   24   26
+CONECT   17   26
+CONECT   18    6   17   19
+CONECT   19   18   20   27
+CONECT   20   19   28   29
+CONECT   20   28
+CONECT   21   22   29
+CONECT   22   21
+CONECT   23    8   16   24
+CONECT   24   17   23
+CONECT   25   16
+CONECT   25   16
+CONECT   26   17
+CONECT   26   17
+CONECT   27   19
+CONECT   28   20
+CONECT   28   20
+CONECT   29   20   21
+CONECT   30   16
+ENDMDL
+END   

@@ -1,0 +1,36 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4WKV
+MODEL        1
+ATOM      1  N   SER C 217      24.278  23.500   1.463  1.00 17.88           N1+
+ATOM      2  CA  SER C 217      24.629  22.978   2.786  1.00 20.92           C  
+ATOM      3  C   SER C 217      23.891  21.674   3.058  1.00 18.53           C  
+ATOM      4  O   SER C 217      22.711  21.567   2.730  1.00 18.36           O  
+ATOM      5  CB  SER C 217      24.253  23.991   3.866  1.00 22.73           C  
+ATOM      6  OG  SER C 217      25.007  25.175   3.692  1.00 28.36           O  
+TER       7      SER C 217
+HETATM    8  C6  3QK C 801      24.737  33.059   9.371  1.00 24.33           C  
+HETATM    9  C7  3QK C 801      25.519  31.894   9.996  1.00 25.86           C  
+HETATM   10  C8  3QK C 801      25.183  30.521   9.395  1.00 27.47           C  
+HETATM   11  C9  3QK C 801      25.490  30.426   7.895  1.00 30.94           C  
+HETATM   12  C10 3QK C 801      25.207  29.034   7.322  1.00 32.34           C  
+HETATM   13  C11 3QK C 801      25.382  29.001   5.803  1.00 36.52           C  
+HETATM   14  C12 3QK C 801      24.929  27.679   5.186  1.00 37.55           C  
+HETATM   15  C13 3QK C 801      25.096  27.673   3.660  1.00 39.63           C  
+HETATM   16  B1  3QK C 801      24.441  26.358   2.997  1.00 15.11           B1-
+HETATM   17  O2  3QK C 801      22.976  26.439   3.106  1.00 25.60           O  
+HETATM   18  O3  3QK C 801      24.747  26.303   1.558  1.00 39.49           O  
+CONECT    8    9
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16    6   15   17   18
+CONECT   17   16
+CONECT   18   16
+ENDMDL
+END   

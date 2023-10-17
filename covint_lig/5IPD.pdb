@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5IPD
+MODEL        1
+ATOM      1  N   HIS A 112     -27.628  -2.098 -23.413  1.00  9.27           N1+
+ATOM      2  CA  HIS A 112     -26.706  -1.053 -23.849  1.00  7.84           C  
+ATOM      3  C   HIS A 112     -26.136  -0.282 -22.659  1.00 10.76           C  
+ATOM      4  O   HIS A 112     -26.876   0.375 -21.928  1.00 11.00           O  
+ATOM      5  CB  HIS A 112     -27.328  -0.154 -24.953  1.00  8.62           C  
+ATOM      6  CG  HIS A 112     -28.619   0.508 -24.586  1.00  8.70           C  
+ATOM      7  ND1 HIS A 112     -29.739  -0.226 -24.315  1.00  9.97           N  
+ATOM      8  CD2 HIS A 112     -29.017   1.822 -24.508  1.00 10.74           C  
+ATOM      9  CE1 HIS A 112     -30.772   0.560 -24.045  1.00  9.93           C  
+ATOM     10  NE2 HIS A 112     -30.350   1.816 -24.182  1.00 12.51           N1+
+TER      11      HIS A 112
+HETATM   12  C2  6CG A 201     -26.910   4.963 -33.146  1.00 12.32           C  
+HETATM   13  C4  6CG A 201     -28.842   5.102 -31.997  1.00 12.60           C  
+HETATM   14  C5  6CG A 201     -29.632   4.840 -33.099  1.00 17.08           C  
+HETATM   15  C6  6CG A 201     -29.017   4.645 -34.379  1.00 17.14           C  
+HETATM   16  N1  6CG A 201     -27.625   4.713 -34.310  1.00 13.15           N  
+HETATM   17  N2  6CG A 201     -25.581   5.017 -33.271  1.00 11.21           N  
+HETATM   18  N3  6CG A 201     -27.472   5.166 -31.969  1.00 12.42           N  
+HETATM   19  C8  6CG A 201     -30.960   5.103 -31.467  1.00 13.63           C  
+HETATM   20  C1' 6CG A 201     -29.329   5.741 -29.568  1.00 14.56           C  
+HETATM   21  C3' 6CG A 201     -30.209   6.679 -27.576  1.00 16.02           C  
+HETATM   22  C4' 6CG A 201     -29.833   5.193 -27.426  1.00 13.05           C  
+HETATM   23  C5' 6CG A 201     -30.868   4.380 -26.649  1.00 14.36           C  
+HETATM   24  O6  6CG A 201     -29.558   4.453 -35.465  1.00 15.28           O  
+HETATM   25  N7  6CG A 201     -30.973   4.831 -32.739  1.00 16.11           N  
+HETATM   26  N9  6CG A 201     -29.708   5.346 -30.954  1.00 14.48           N  
+HETATM   27  O4' 6CG A 201     -29.701   4.692 -28.745  1.00 15.66           O  
+HETATM   28  C2' 6CG A 201     -30.138   6.945 -29.079  1.00 13.65           C  
+HETATM   29  O2' 6CG A 201     -29.553   8.195 -29.387  1.00 14.63           O  
+HETATM   30  O3' 6CG A 201     -29.297   7.446 -26.813  1.00 13.71           O  
+HETATM   31  S5' 6CG A 201     -31.001   5.012 -24.964  1.00 15.86           S  
+HETATM   32  P   6CG A 201     -31.423   3.213 -23.892  1.00 13.51           P  
+HETATM   33  O2P 6CG A 201     -31.178   3.426 -22.453  1.00 14.66           O  
+HETATM   34  O3P 6CG A 201     -32.727   2.661 -24.315  1.00 13.10           O1-
+CONECT   12   16   17   18
+CONECT   12   18
+CONECT   13   14   18   26
+CONECT   13   14
+CONECT   14   13   15   25
+CONECT   14   13
+CONECT   15   14   16   24
+CONECT   15   24
+CONECT   16   12   15
+CONECT   17   12
+CONECT   18   12   13
+CONECT   18   12
+CONECT   19   25   26
+CONECT   19   25
+CONECT   20   26   27   28
+CONECT   21   22   28   30
+CONECT   22   21   23   27
+CONECT   23   22   31
+CONECT   24   15
+CONECT   24   15
+CONECT   25   14   19
+CONECT   25   19
+CONECT   26   13   19   20
+CONECT   27   20   22
+CONECT   28   20   21   29
+CONECT   29   28
+CONECT   30   21
+CONECT   31   23   32
+CONECT   32   10   31   33   34
+CONECT   32   33
+CONECT   33   32
+CONECT   33   32
+CONECT   34   32
+ENDMDL
+END   

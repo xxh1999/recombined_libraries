@@ -1,0 +1,78 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1ogu_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C2  ST8 A1298      -0.171  18.954  43.119  1.00  0.00           C  
+HETATM    2  C10 ST8 A1298       1.617  16.130  40.793  1.00  0.00           C  
+HETATM    3  C11 ST8 A1298       1.982  15.323  39.576  1.00  0.00           C  
+HETATM    4  C12 ST8 A1298       0.912  15.537  38.514  1.00  0.00           C  
+HETATM    5  C13 ST8 A1298       1.423  14.860  37.261  1.00  0.00           C  
+HETATM    6  C14 ST8 A1298       1.609  13.371  37.555  1.00  0.00           C  
+HETATM    7  C15 ST8 A1298       2.511  13.081  38.768  1.00  0.00           C  
+HETATM    8  C16 ST8 A1298       2.025  13.862  39.977  1.00  0.00           C  
+HETATM    9  C19 ST8 A1298      -1.790  15.420  45.881  1.00  0.00           C  
+HETATM   10  C20 ST8 A1298      -2.007  14.546  44.818  1.00  0.00           C  
+HETATM   11  C21 ST8 A1298      -1.804  15.018  43.508  1.00  0.00           C  
+HETATM   12  C22 ST8 A1298      -1.429  16.345  43.255  1.00  0.00           C  
+HETATM   13  N25 ST8 A1298      -3.212  12.283  44.312  1.00  0.00           N  
+HETATM   14  N3  ST8 A1298       0.397  18.057  42.300  1.00  0.00           N  
+HETATM   15  C4  ST8 A1298       1.056  18.419  41.194  1.00  0.00           C  
+HETATM   16  O6  ST8 A1298       1.724  17.506  40.446  1.00  0.00           O  
+HETATM   17  C5  ST8 A1298       1.149  19.838  40.866  1.00  0.00           C  
+HETATM   18  N7  ST8 A1298       1.808  20.218  39.712  1.00  0.00           N  
+HETATM   19  N9  ST8 A1298       0.503  22.097  41.576  1.00  0.00           N  
+HETATM   20  C6  ST8 A1298       0.494  20.774  41.801  1.00  0.00           C  
+HETATM   21  N1  ST8 A1298      -0.133  20.274  42.897  1.00  0.00           N  
+HETATM   22  N2  ST8 A1298      -0.830  18.512  44.185  1.00  0.00           N  
+HETATM   23  C17 ST8 A1298      -1.219  17.200  44.339  1.00  0.00           C  
+HETATM   24  C18 ST8 A1298      -1.414  16.719  45.635  1.00  0.00           C  
+HETATM   25  C23 ST8 A1298      -2.369  13.094  45.120  1.00  0.00           C  
+HETATM   26  O8  ST8 A1298       1.900  21.392  39.431  1.00  0.00           O  
+HETATM   27  O24 ST8 A1298      -1.833  12.575  46.092  1.00  0.00           O  
+CONECT    1   14   21   22
+CONECT    1   21
+CONECT    2    3   16
+CONECT    3    2    4    8
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    5    7
+CONECT    7    6    8
+CONECT    8    3    7
+CONECT    9   10   24
+CONECT    9   24
+CONECT   10    9   11   25
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   23
+CONECT   12   23
+CONECT   13   25
+CONECT   14    1   15
+CONECT   14   15
+CONECT   15   14   16   17
+CONECT   15   14
+CONECT   16    2   15
+CONECT   17   15   18   20
+CONECT   17   20
+CONECT   18   17   26
+CONECT   18   26
+CONECT   19   20
+CONECT   20   17   19   21
+CONECT   20   17
+CONECT   21    1   20
+CONECT   21    1
+CONECT   22    1   23
+CONECT   23   12   22   24
+CONECT   23   12
+CONECT   24    9   23
+CONECT   24    9
+CONECT   25   10   13   27
+CONECT   25   27
+CONECT   26   18
+CONECT   26   18
+CONECT   27   25
+CONECT   27   25
+ENDMDL
+END   

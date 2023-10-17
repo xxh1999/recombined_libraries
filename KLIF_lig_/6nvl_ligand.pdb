@@ -1,0 +1,94 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6nvl_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  XL6 D 804       3.343  21.424  37.677  1.00  0.00           C  
+HETATM    2  C2  XL6 D 804       2.973  20.585  38.722  1.00  0.00           C  
+HETATM    3  C3  XL6 D 804       3.849  20.268  39.755  1.00  0.00           C  
+HETATM    4  C4  XL6 D 804       5.128  20.836  39.723  1.00  0.00           C  
+HETATM    5  C5  XL6 D 804       5.517  21.675  38.680  1.00  0.00           C  
+HETATM    6  C6  XL6 D 804       4.620  21.967  37.662  1.00  0.00           C  
+HETATM    7  O1  XL6 D 804       2.394  21.637  36.719  1.00  0.00           O  
+HETATM    8  O2  XL6 D 804       6.773  22.212  38.701  1.00  0.00           O  
+HETATM    9  C7  XL6 D 804       2.547  22.735  35.825  1.00  0.00           C  
+HETATM   10  C8  XL6 D 804       7.775  21.613  37.887  1.00  0.00           C  
+HETATM   11 CL1  XL6 D 804       1.375  19.913  38.728  1.00  0.00          Cl  
+HETATM   12 CL2  XL6 D 804       6.254  20.494  40.998  1.00  0.00          Cl  
+HETATM   13  C9  XL6 D 804       3.403  19.374  40.877  1.00  0.00           C  
+HETATM   14  O3  XL6 D 804       2.456  20.120  41.655  1.00  0.00           O  
+HETATM   15  C10 XL6 D 804       1.676  19.486  42.589  1.00  0.00           C  
+HETATM   16  C11 XL6 D 804       0.619  20.192  43.131  1.00  0.00           C  
+HETATM   17  N1  XL6 D 804      -0.184  19.646  44.045  1.00  0.00           N  
+HETATM   18  C12 XL6 D 804       0.084  18.374  44.417  1.00  0.00           C  
+HETATM   19  N2  XL6 D 804       1.098  17.623  43.934  1.00  0.00           N  
+HETATM   20  C13 XL6 D 804       1.891  18.190  43.021  1.00  0.00           C  
+HETATM   21  N3  XL6 D 804      -0.776  17.866  45.346  1.00  0.00           N  
+HETATM   22  C14 XL6 D 804      -0.913  16.585  45.974  1.00  0.00           C  
+HETATM   23  C15 XL6 D 804      -0.560  15.365  45.346  1.00  0.00           C  
+HETATM   24  C16 XL6 D 804      -0.736  14.144  46.040  1.00  0.00           C  
+HETATM   25  C17 XL6 D 804      -1.293  14.129  47.290  1.00  0.00           C  
+HETATM   26  C18 XL6 D 804      -1.665  15.315  47.886  1.00  0.00           C  
+HETATM   27  C19 XL6 D 804      -1.490  16.540  47.255  1.00  0.00           C  
+HETATM   28  C20 XL6 D 804      -1.917  17.788  47.979  1.00  0.00           C  
+HETATM   29  N4  XL6 D 804       0.066  15.295  44.082  1.00  0.00           N  
+HETATM   30  C21 XL6 D 804      -0.341  14.582  43.009  1.00  0.00           C  
+HETATM   31  C22 XL6 D 804       0.608  14.650  41.832  1.00  0.00           C  
+HETATM   32  C23 XL6 D 804       1.846  13.808  42.019  1.00  0.00           C  
+HETATM   33  O4  XL6 D 804      -1.388  13.946  42.985  1.00  0.00           O  
+CONECT    1    2    6    7
+CONECT    1    6
+CONECT    2    1    3   11
+CONECT    2    3
+CONECT    3    2    4   13
+CONECT    3    2
+CONECT    4    3    5   12
+CONECT    4    5
+CONECT    5    4    6    8
+CONECT    5    4
+CONECT    6    1    5
+CONECT    6    1
+CONECT    7    1    9
+CONECT    8    5   10
+CONECT    9    7
+CONECT   10    8
+CONECT   11    2
+CONECT   12    4
+CONECT   13    3   14
+CONECT   14   13   15
+CONECT   15   14   16   20
+CONECT   15   20
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   17   19   21
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   15   19
+CONECT   20   15
+CONECT   21   18   22
+CONECT   22   21   23   27
+CONECT   22   27
+CONECT   23   22   24   29
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   22   26   28
+CONECT   27   22
+CONECT   28   27
+CONECT   29   23   30
+CONECT   30   29   31   33
+CONECT   30   33
+CONECT   31   30   32
+CONECT   32   31
+CONECT   33   30
+CONECT   33   30
+ENDMDL
+END   

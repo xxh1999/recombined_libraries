@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5m56_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C10 Q7F A 401       1.510  20.490  39.918  1.00  0.00           C  
+HETATM    2  C15 Q7F A 401      -1.424  17.085  45.961  1.00  0.00           C  
+HETATM    3  C17 Q7F A 401      -0.325  16.358  43.946  1.00  0.00           C  
+HETATM    4  C20 Q7F A 401       0.716  19.226  41.971  1.00  0.00           C  
+HETATM    5  C21 Q7F A 401      -0.376  20.115  43.954  1.00  0.00           C  
+HETATM    6  C22 Q7F A 401      -0.580  18.729  44.365  1.00  0.00           C  
+HETATM    7  O01 Q7F A 401       3.338  20.317  36.133  1.00  0.00           O  
+HETATM    8  O02 Q7F A 401      -0.808  21.157  44.734  1.00  0.00           O  
+HETATM    9  O03 Q7F A 401       4.118  18.325  36.570  1.00  0.00           O1-
+HETATM   10  O04 Q7F A 401       0.507  21.638  42.295  1.00  0.00           O  
+HETATM   11 CL5  Q7F A 401      -2.223  16.708  47.441  1.00  0.00          Cl  
+HETATM   12 CL6  Q7F A 401       0.251  15.098  42.913  1.00  0.00          Cl  
+HETATM   13  C07 Q7F A 401       2.640  18.149  38.942  1.00  0.00           C  
+HETATM   14  C08 Q7F A 401       2.173  20.494  38.699  1.00  0.00           C  
+HETATM   15  C09 Q7F A 401       1.982  18.150  40.159  1.00  0.00           C  
+HETATM   16  C11 Q7F A 401      -0.967  16.053  45.138  1.00  0.00           C  
+HETATM   17  C12 Q7F A 401      -1.240  18.419  45.591  1.00  0.00           C  
+HETATM   18  O13 Q7F A 401       0.490  18.005  42.404  1.00  0.00           O  
+HETATM   19  C14 Q7F A 401       3.438  19.326  36.904  1.00  0.00           C  
+HETATM   20  C16 Q7F A 401       2.735  19.326  38.214  1.00  0.00           C  
+HETATM   21  C18 Q7F A 401       1.418  19.316  40.655  1.00  0.00           C  
+HETATM   22  C19 Q7F A 401       0.296  20.343  42.712  1.00  0.00           C  
+HETATM   23  C23 Q7F A 401      -0.137  17.724  43.569  1.00  0.00           C  
+CONECT    1   14   21
+CONECT    1   21
+CONECT    2   11   16   17
+CONECT    2   16
+CONECT    3   12   16   23
+CONECT    3   23
+CONECT    4   18   21   22
+CONECT    4   22
+CONECT    5    6    8   22
+CONECT    5    8
+CONECT    6    5   17   23
+CONECT    6   17
+CONECT    7   19
+CONECT    7   19
+CONECT    8    5
+CONECT    8    5
+CONECT    9   19
+CONECT   10   22
+CONECT   11    2
+CONECT   12    3
+CONECT   13   15   20
+CONECT   13   15
+CONECT   14    1   20
+CONECT   14   20
+CONECT   15   13   21
+CONECT   15   13
+CONECT   16    2    3
+CONECT   16    2
+CONECT   17    2    6
+CONECT   17    6
+CONECT   18    4   23
+CONECT   19    7    9   20
+CONECT   19    7
+CONECT   20   13   14   19
+CONECT   20   14
+CONECT   21    1    4   15
+CONECT   21    1
+CONECT   22    4    5   10
+CONECT   22    4
+CONECT   23    3    6   18
+CONECT   23    3
+ENDMDL
+END   

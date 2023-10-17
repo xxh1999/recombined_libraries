@@ -1,0 +1,131 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4JWS
+MODEL        1
+ATOM      1  N   CYS A 357      10.773  -0.696  38.364  1.00 27.45           N1+
+ATOM      2  CA  CYS A 357      10.128  -1.756  37.590  1.00 26.65           C  
+ATOM      3  C   CYS A 357       8.990  -1.297  36.672  1.00 29.42           C  
+ATOM      4  O   CYS A 357       7.962  -0.822  37.154  1.00 27.91           O  
+ATOM      5  CB  CYS A 357       9.672  -2.852  38.561  1.00 25.38           C  
+ATOM      6  SG  CYS A 357       8.997  -4.335  37.796  1.00 27.45           S1-
+TER       7      CYS A 357
+HETATM    8  CHA HEM A 501      13.380  -3.857  36.904  1.00 22.40           C  
+HETATM    9  CHB HEM A 501      11.632  -5.946  40.943  1.00 26.05           C  
+HETATM   10  CHC HEM A 501       8.197  -8.156  38.271  1.00 33.03           C  
+HETATM   11  CHD HEM A 501      10.218  -6.418  34.183  1.00 31.59           C  
+HETATM   12  C1A HEM A 501      13.173  -4.209  38.258  1.00 27.23           C  
+HETATM   13  C2A HEM A 501      13.909  -3.666  39.321  1.00 28.05           C  
+HETATM   14  C3A HEM A 501      13.456  -4.315  40.472  1.00 22.40           C  
+HETATM   15  C4A HEM A 501      12.423  -5.172  40.062  1.00 23.35           C  
+HETATM   16  CMA HEM A 501      13.987  -4.083  41.867  1.00 21.52           C  
+HETATM   17  CAA HEM A 501      14.930  -2.541  39.273  1.00 31.87           C  
+HETATM   18  CBA HEM A 501      16.364  -3.009  38.971  1.00 38.48           C  
+HETATM   19  CGA HEM A 501      17.340  -1.838  38.795  1.00 31.87           C  
+HETATM   20  O1A HEM A 501      16.973  -0.682  39.101  1.00 29.91           O  
+HETATM   21  O2A HEM A 501      18.474  -2.119  38.348  1.00 39.67           O1-
+HETATM   22  C1B HEM A 501      10.545  -6.762  40.551  1.00 27.80           C  
+HETATM   23  C2B HEM A 501       9.748  -7.477  41.456  1.00 25.01           C  
+HETATM   24  C3B HEM A 501       8.768  -8.137  40.696  1.00 28.29           C  
+HETATM   25  C4B HEM A 501       9.014  -7.757  39.363  1.00 30.12           C  
+HETATM   26  CMB HEM A 501       9.929  -7.525  42.963  1.00 24.54           C  
+HETATM   27  CAB HEM A 501       7.673  -8.999  41.172  1.00 27.93           C  
+HETATM   28  CBB HEM A 501       7.070  -8.944  42.371  1.00 27.74           C  
+HETATM   29  C1C HEM A 501       8.416  -7.825  36.910  1.00 25.83           C  
+HETATM   30  C2C HEM A 501       7.551  -8.189  35.868  1.00 39.85           C  
+HETATM   31  C3C HEM A 501       8.139  -7.747  34.673  1.00 34.99           C  
+HETATM   32  C4C HEM A 501       9.314  -7.067  35.064  1.00 29.42           C  
+HETATM   33  CMC HEM A 501       6.218  -8.904  36.014  1.00 39.61           C  
+HETATM   34  CAC HEM A 501       7.528  -7.911  33.341  1.00 40.84           C  
+HETATM   35  CBC HEM A 501       7.574  -7.041  32.322  1.00 48.15           C  
+HETATM   36  C1D HEM A 501      11.300  -5.588  34.586  1.00 31.36           C  
+HETATM   37  C2D HEM A 501      12.158  -4.917  33.692  1.00 34.26           C  
+HETATM   38  C3D HEM A 501      13.010  -4.127  34.475  1.00 40.50           C  
+HETATM   39  C4D HEM A 501      12.678  -4.412  35.807  1.00 36.93           C  
+HETATM   40  CMD HEM A 501      12.211  -5.028  32.181  1.00 41.15           C  
+HETATM   41  CAD HEM A 501      14.078  -3.156  33.979  1.00 32.43           C  
+HETATM   42  CBD HEM A 501      13.614  -1.684  34.095  1.00 32.97           C  
+HETATM   43  CGD HEM A 501      14.692  -0.663  33.702  1.00 57.05           C  
+HETATM   44  O1D HEM A 501      14.304   0.370  33.111  1.00 46.86           O  
+HETATM   45  O2D HEM A 501      15.879  -0.890  34.029  1.00 71.70           O1-
+HETATM   46  NA  HEM A 501      12.285  -5.100  38.728  1.00 25.37           N1-
+HETATM   47  NB  HEM A 501      10.092  -6.955  39.300  1.00 23.97           N  
+HETATM   48  NC  HEM A 501       9.447  -7.137  36.399  1.00 30.61           N1-
+HETATM   49  ND  HEM A 501      11.648  -5.279  35.851  1.00 34.53           N  
+HETATM   50 FE   HEM A 501      10.742  -5.977  37.597  1.00 30.45          Fe2+
+CONECT    8   12   39
+CONECT    8   12
+CONECT    9   15   22
+CONECT    9   15
+CONECT   10   25   29
+CONECT   10   25
+CONECT   11   32   36
+CONECT   11   36
+CONECT   12    8   13   46
+CONECT   12    8
+CONECT   13   12   14   17
+CONECT   13   14
+CONECT   14   13   15   16
+CONECT   14   13
+CONECT   15    9   14   46
+CONECT   15    9
+CONECT   16   14
+CONECT   17   13   18
+CONECT   18   17   19
+CONECT   19   18   20   21
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   19
+CONECT   22    9   23   47
+CONECT   22   47
+CONECT   23   22   24   26
+CONECT   23   24
+CONECT   24   23   25   27
+CONECT   24   23
+CONECT   25   10   24   47
+CONECT   25   10
+CONECT   26   23
+CONECT   27   24   28
+CONECT   27   28
+CONECT   28   27
+CONECT   28   27
+CONECT   29   10   30   48
+CONECT   29   30
+CONECT   30   29   31   33
+CONECT   30   29
+CONECT   31   30   32   34
+CONECT   31   32
+CONECT   32   11   31   48
+CONECT   32   31
+CONECT   33   30
+CONECT   34   31   35
+CONECT   34   35
+CONECT   35   34
+CONECT   35   34
+CONECT   36   11   37   49
+CONECT   36   11
+CONECT   37   36   38   40
+CONECT   37   38
+CONECT   38   37   39   41
+CONECT   38   37
+CONECT   39    8   38   49
+CONECT   39   49
+CONECT   40   37
+CONECT   41   38   42
+CONECT   42   41   43
+CONECT   43   42   44   45
+CONECT   43   44
+CONECT   44   43
+CONECT   44   43
+CONECT   45   43
+CONECT   46   12   15   50
+CONECT   47   22   25   50
+CONECT   47   22
+CONECT   48   29   32   50
+CONECT   49   36   39   50
+CONECT   49   39
+CONECT   50    6   46   47   48
+CONECT   50   49
+ENDMDL
+END   

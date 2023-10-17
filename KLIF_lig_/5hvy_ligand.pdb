@@ -1,0 +1,90 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5hvy_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C14 Q66 A 501       1.925  22.639  37.944  1.00  0.00           C  
+HETATM    2  C5  Q66 A 501      -0.024  22.755  41.750  1.00  0.00           C  
+HETATM    3  C6  Q66 A 501       0.680  22.822  40.552  1.00  0.00           C  
+HETATM    4  C11 Q66 A 501       4.053  21.627  37.546  1.00  0.00           C  
+HETATM    5  C7  Q66 A 501       1.674  21.876  40.299  1.00  0.00           C  
+HETATM    6  C10 Q66 A 501       3.622  21.109  38.906  1.00  0.00           C  
+HETATM    7  C12 Q66 A 501       2.757  22.003  36.848  1.00  0.00           C  
+HETATM    8  N2  Q66 A 501       1.509  19.904  43.280  1.00  0.00           N  
+HETATM    9  C3  Q66 A 501       1.223  20.881  42.381  1.00  0.00           C  
+HETATM   10  C1  Q66 A 501       2.548  18.900  43.028  1.00  0.00           C  
+HETATM   11  N4  Q66 A 501       0.262  21.791  42.641  1.00  0.00           N  
+HETATM   12  N8  Q66 A 501       1.916  20.930  41.223  1.00  0.00           N  
+HETATM   13  N9  Q66 A 501       2.393  21.875  39.093  1.00  0.00           N  
+HETATM   14  N15 Q66 A 501       3.123  22.871  35.715  1.00  0.00           N  
+HETATM   15  C16 Q66 A 501       2.260  23.059  34.718  1.00  0.00           C  
+HETATM   16  O17 Q66 A 501       1.140  22.567  34.796  1.00  0.00           O  
+HETATM   17  N18 Q66 A 501       2.616  23.836  33.680  1.00  0.00           N  
+HETATM   18  C19 Q66 A 501       1.764  24.012  32.574  1.00  0.00           C  
+HETATM   19  C20 Q66 A 501       2.430  23.940  31.357  1.00  0.00           C  
+HETATM   20  C21 Q66 A 501       1.752  24.033  30.145  1.00  0.00           C  
+HETATM   21  C22 Q66 A 501       0.362  24.190  30.135  1.00  0.00           C  
+HETATM   22  C23 Q66 A 501      -0.403  24.298  28.820  1.00  0.00           C  
+HETATM   23  N24 Q66 A 501       0.469  24.531  27.676  1.00  0.00           N1+
+HETATM   24  C25 Q66 A 501      -0.159  24.044  26.431  1.00  0.00           C  
+HETATM   25  C26 Q66 A 501       0.725  24.409  25.240  1.00  0.00           C  
+HETATM   26  O27 Q66 A 501       0.957  25.818  25.229  1.00  0.00           O  
+HETATM   27  C28 Q66 A 501       1.641  26.188  26.425  1.00  0.00           C  
+HETATM   28  C29 Q66 A 501       0.705  25.971  27.598  1.00  0.00           C  
+HETATM   29  C30 Q66 A 501      -0.318  24.242  31.347  1.00  0.00           C  
+HETATM   30  C31 Q66 A 501       0.368  24.135  32.567  1.00  0.00           C  
+HETATM   31  C32 Q66 A 501      -1.803  24.389  31.316  1.00  0.00           C  
+HETATM   32  F33 Q66 A 501      -2.259  24.354  32.545  1.00  0.00           F  
+HETATM   33  F34 Q66 A 501      -2.281  23.366  30.620  1.00  0.00           F  
+HETATM   34  F35 Q66 A 501      -2.179  25.539  30.782  1.00  0.00           F  
+CONECT    1    7   13
+CONECT    2    3   11
+CONECT    2    3
+CONECT    3    2    5
+CONECT    3    2
+CONECT    4    6    7
+CONECT    5    3   12   13
+CONECT    5   12
+CONECT    6    4   13
+CONECT    7    1    4   14
+CONECT    8    9   10
+CONECT    9    8   11   12
+CONECT    9   11
+CONECT   10    8
+CONECT   11    2    9
+CONECT   11    9
+CONECT   12    5    9
+CONECT   12    5
+CONECT   13    1    5    6
+CONECT   14    7   15
+CONECT   15   14   16   17
+CONECT   15   16
+CONECT   16   15
+CONECT   16   15
+CONECT   17   15   18
+CONECT   18   17   19   30
+CONECT   18   30
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22   29
+CONECT   21   29
+CONECT   22   21   23
+CONECT   23   22   24   28
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   23   27
+CONECT   29   21   30   31
+CONECT   29   21
+CONECT   30   18   29
+CONECT   30   18
+CONECT   31   29   32   33   34
+CONECT   32   31
+CONECT   33   31
+CONECT   34   31
+ENDMDL
+END   

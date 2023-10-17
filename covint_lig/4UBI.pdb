@@ -1,0 +1,32 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4UBI
+MODEL        1
+ATOM      1  N   SER A 218      20.272 -12.170  25.258  1.00 33.60           N1+
+ATOM      2  CA  SER A 218      19.783 -11.604  24.001  1.00 33.34           C  
+ATOM      3  C   SER A 218      20.956 -11.043  23.184  1.00 31.84           C  
+ATOM      4  O   SER A 218      21.864 -11.801  22.852  1.00 31.57           O  
+ATOM      5  CB  SER A 218      18.601 -10.654  24.255  1.00 35.54           C  
+ATOM      6  OG  SER A 218      17.903 -10.434  23.048  1.00 41.69           O  
+TER       7      SER A 218
+HETATM    8  O4  DPF A 601      18.724  -7.953  22.903  1.00 31.80           O  
+HETATM    9  P1  DPF A 601      17.680  -8.928  22.498  1.00 40.44           P  
+HETATM   10  O3  DPF A 601      17.492  -9.160  20.903  1.00 39.48           O  
+HETATM   11  C1  DPF A 601      16.809 -10.301  20.424  1.00 39.21           C  
+HETATM   12  C4  DPF A 601      16.091  -9.943  19.128  1.00 37.89           C  
+HETATM   13  O1  DPF A 601      16.173  -8.599  22.998  1.00 40.83           O  
+HETATM   14  C2  DPF A 601      15.939  -8.202  24.334  1.00 45.09           C  
+HETATM   15  C3  DPF A 601      14.490  -7.738  24.438  1.00 50.81           C  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    6    8   10   13
+CONECT    9    8
+CONECT   10    9   11
+CONECT   11   10   12
+CONECT   12   11
+CONECT   13    9   14
+CONECT   14   13   15
+CONECT   15   14
+ENDMDL
+END   

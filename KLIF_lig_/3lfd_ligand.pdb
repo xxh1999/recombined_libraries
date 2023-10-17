@@ -1,0 +1,100 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3lfd_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CAA Z85 A 361       8.133  21.962  28.593  1.00  0.00           C  
+HETATM    2  CAB Z85 A 361      -0.529  23.748  29.156  1.00  0.00           C  
+HETATM    3  CAC Z85 A 361      -1.289  23.701  31.524  1.00  0.00           C  
+HETATM    4  CAD Z85 A 361      -0.387  25.825  30.556  1.00  0.00           C  
+HETATM    5  OAE Z85 A 361       2.308  21.686  34.108  1.00  0.00           O  
+HETATM    6  CAF Z85 A 361       4.855  25.350  39.143  1.00  0.00           C  
+HETATM    7  CAG Z85 A 361       4.331  24.212  38.539  1.00  0.00           C  
+HETATM    8  CAH Z85 A 361       5.359  25.301  40.447  1.00  0.00           C  
+HETATM    9  CAI Z85 A 361       4.316  23.021  39.255  1.00  0.00           C  
+HETATM   10  CAJ Z85 A 361       5.342  24.103  41.160  1.00  0.00           C  
+HETATM   11  CAK Z85 A 361       5.590  21.825  28.641  1.00  0.00           C  
+HETATM   12  CAL Z85 A 361       6.730  23.163  30.310  1.00  0.00           C  
+HETATM   13  CAM Z85 A 361       4.360  22.171  29.209  1.00  0.00           C  
+HETATM   14  CAN Z85 A 361       5.500  23.506  30.867  1.00  0.00           C  
+HETATM   15  CAO Z85 A 361       3.727  19.816  38.010  1.00  0.00           C  
+HETATM   16  CAP Z85 A 361       1.550  23.807  32.261  1.00  0.00           C  
+HETATM   17  CAQ Z85 A 361       5.945  19.933  40.229  1.00  0.00           C  
+HETATM   18  CAR Z85 A 361       6.144  19.594  38.744  1.00  0.00           C  
+HETATM   19  CAS Z85 A 361       4.800  21.762  41.267  1.00  0.00           C  
+HETATM   20  NAT Z85 A 361       5.278  20.993  36.835  1.00  0.00           N  
+HETATM   21  NAU Z85 A 361       2.141  23.621  30.181  1.00  0.00           N  
+HETATM   22  NAV Z85 A 361       3.639  23.225  33.181  1.00  0.00           N  
+HETATM   23  NAW Z85 A 361       4.261  22.230  35.103  1.00  0.00           N  
+HETATM   24  OAX Z85 A 361       4.660  20.500  40.573  1.00  0.00           O  
+HETATM   25  SAY Z85 A 361       2.855  20.639  36.832  1.00  0.00           S  
+HETATM   26  CAZ Z85 A 361       3.351  22.339  34.130  1.00  0.00           C  
+HETATM   27  CBA Z85 A 361       6.775  22.325  29.198  1.00  0.00           C  
+HETATM   28  CBB Z85 A 361       4.819  22.962  40.558  1.00  0.00           C  
+HETATM   29  CBC Z85 A 361       5.026  20.141  37.852  1.00  0.00           C  
+HETATM   30  CBD Z85 A 361       4.310  23.009  30.332  1.00  0.00           C  
+HETATM   31  CBE Z85 A 361       2.821  23.444  32.157  1.00  0.00           C  
+HETATM   32  CBF Z85 A 361       1.137  23.908  31.005  1.00  0.00           C  
+HETATM   33  CBG Z85 A 361       4.204  21.387  36.148  1.00  0.00           C  
+HETATM   34  NBH Z85 A 361       3.129  23.344  30.863  1.00  0.00           N  
+HETATM   35  CBI Z85 A 361      -0.274  24.301  30.559  1.00  0.00           C  
+CONECT    1   27
+CONECT    2   35
+CONECT    3   35
+CONECT    4   35
+CONECT    5   26
+CONECT    5   26
+CONECT    6    7    8
+CONECT    6    7
+CONECT    7    6    9
+CONECT    7    6
+CONECT    8    6   10
+CONECT    8   10
+CONECT    9    7   28
+CONECT    9   28
+CONECT   10    8   28
+CONECT   10    8
+CONECT   11   13   27
+CONECT   11   27
+CONECT   12   14   27
+CONECT   12   14
+CONECT   13   11   30
+CONECT   13   30
+CONECT   14   12   30
+CONECT   14   12
+CONECT   15   25   29
+CONECT   15   29
+CONECT   16   31   32
+CONECT   16   31
+CONECT   17   18   24
+CONECT   18   17   29
+CONECT   19   24   28
+CONECT   20   29   33
+CONECT   20   33
+CONECT   21   32   34
+CONECT   21   32
+CONECT   22   26   31
+CONECT   23   26   33
+CONECT   24   17   19
+CONECT   25   15   33
+CONECT   26    5   22   23
+CONECT   26    5
+CONECT   27    1   11   12
+CONECT   27   11
+CONECT   28    9   10   19
+CONECT   28    9
+CONECT   29   15   18   20
+CONECT   29   15
+CONECT   30   13   14   34
+CONECT   30   13
+CONECT   31   16   22   34
+CONECT   31   16
+CONECT   32   16   21   35
+CONECT   32   21
+CONECT   33   20   23   25
+CONECT   33   20
+CONECT   34   21   30   31
+CONECT   35    2    3    4   32
+ENDMDL
+END   

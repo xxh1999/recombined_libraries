@@ -1,0 +1,118 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6M07
+MODEL        1
+ATOM      1  N   SER A 273      18.377  -9.688  14.642  1.00 34.40           N1+
+ATOM      2  CA  SER A 273      18.001  -8.732  15.695  1.00 34.15           C  
+ATOM      3  C   SER A 273      19.138  -8.565  16.710  1.00 29.06           C  
+ATOM      4  O   SER A 273      20.204  -8.045  16.386  1.00 28.51           O  
+ATOM      5  CB  SER A 273      16.646  -9.136  16.325  1.00 38.64           C  
+ATOM      6  OG  SER A 273      16.226  -8.245  17.356  1.00 44.35           O  
+TER       7      SER A 273
+HETATM    8  C1  BWO A 501      15.082  -8.514  18.010  1.00 59.18           C  
+HETATM    9  O2  BWO A 501      14.358  -9.472  17.750  1.00 44.93           O  
+HETATM   10  N3  BWO A 501      14.790  -7.511  18.925  1.00 77.02           N  
+HETATM   11  C4  BWO A 501      13.425  -7.123  19.275  1.00 81.49           C  
+HETATM   12  C5  BWO A 501      13.570  -6.421  20.622  1.00 87.64           C  
+HETATM   13  C6  BWO A 501      14.951  -5.784  20.565  1.00 85.98           C  
+HETATM   14  C7  BWO A 501      15.765  -6.725  19.670  1.00 81.69           C  
+HETATM   15  C8  BWO A 501      12.909  -6.095  18.245  1.00 90.88           C  
+HETATM   16  O9  BWO A 501      13.650  -5.513  17.456  1.00 96.90           O  
+HETATM   17  C11 BWO A 501      11.435  -5.709  18.297  1.00 90.84           C  
+HETATM   18  C12 BWO A 501      10.496  -6.852  17.898  1.00 86.68           C  
+HETATM   19  N13 BWO A 501       9.185  -6.554  17.884  1.00 79.34           N  
+HETATM   20  O14 BWO A 501      10.923  -7.940  17.509  1.00 89.32           O  
+HETATM   21  C15 BWO A 501       8.499  -5.908  19.016  1.00 76.61           C  
+HETATM   22  C16 BWO A 501       8.778  -6.620  20.370  1.00 73.46           C  
+HETATM   23  N17 BWO A 501       8.057  -6.018  21.522  1.00 63.45           N1+
+HETATM   24  C18 BWO A 501       8.368  -4.591  21.825  1.00 65.85           C  
+HETATM   25  C19 BWO A 501       9.859  -4.202  21.772  1.00 65.42           C  
+HETATM   26  C21 BWO A 501       7.994  -6.901  22.722  1.00 57.57           C  
+HETATM   27  C22 BWO A 501       9.298  -6.985  23.532  1.00 58.50           C  
+HETATM   28  C23 BWO A 501       8.393  -6.841  16.685  1.00 75.03           C  
+HETATM   29  C24 BWO A 501       7.545  -8.094  16.759  1.00 70.39           C  
+HETATM   30  C25 BWO A 501       7.744  -9.065  17.763  1.00 68.22           C  
+HETATM   31  C26 BWO A 501       6.891 -10.172  17.845  1.00 67.99           C  
+HETATM   32  C27 BWO A 501       5.860 -10.360  16.903  1.00 66.31           C  
+HETATM   33  C28 BWO A 501       5.694  -9.409  15.875  1.00 66.21           C  
+HETATM   34  C29 BWO A 501       6.528  -8.281  15.803  1.00 66.77           C  
+HETATM   35  C30 BWO A 501       4.976 -11.528  17.006  1.00 66.97           C  
+HETATM   36  C31 BWO A 501       5.506 -12.835  17.140  1.00 68.63           C  
+HETATM   37  C32 BWO A 501       4.619 -13.936  17.231  1.00 66.84           C  
+HETATM   38  C33 BWO A 501       3.221 -13.731  17.214  1.00 70.05           C  
+HETATM   39  C34 BWO A 501       2.707 -12.429  17.085  1.00 67.88           C  
+HETATM   40  C35 BWO A 501       3.579 -11.336  16.975  1.00 65.14           C  
+HETATM   41  C36 BWO A 501       2.252 -14.885  17.369  1.00 76.26           C  
+HETATM   42  F37 BWO A 501       2.862 -16.066  17.340  1.00 70.38           F  
+HETATM   43  F38 BWO A 501       1.643 -14.749  18.543  1.00 85.77           F  
+HETATM   44  F39 BWO A 501       1.339 -14.851  16.398  1.00 76.13           F  
+HETATM   45  O40 BWO A 501       6.882 -12.953  17.159  1.00 68.39           O  
+HETATM   46  C41 BWO A 501       7.491 -14.215  17.385  1.00 70.61           C  
+HETATM   47  C42 BWO A 501       8.951 -14.014  17.831  1.00 76.42           C  
+HETATM   48  F43 BWO A 501       9.723 -14.954  17.287  1.00 74.86           F  
+HETATM   49  F44 BWO A 501       9.414 -12.821  17.461  1.00 71.75           F  
+HETATM   50  F46 BWO A 501       9.034 -14.105  19.156  1.00 84.29           F  
+CONECT    8    6    9   10
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8   11   14
+CONECT   11   10   12   15
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   10   13
+CONECT   15   11   16   17
+CONECT   15   16
+CONECT   16   15
+CONECT   16   15
+CONECT   17   15   18
+CONECT   18   17   19   20
+CONECT   18   20
+CONECT   19   18   21   28
+CONECT   20   18
+CONECT   20   18
+CONECT   21   19   22
+CONECT   22   21   23
+CONECT   23   22   24   26
+CONECT   24   23   25
+CONECT   25   24
+CONECT   26   23   27
+CONECT   27   26
+CONECT   28   19   29
+CONECT   29   28   30   34
+CONECT   29   34
+CONECT   30   29   31
+CONECT   30   31
+CONECT   31   30   32
+CONECT   31   30
+CONECT   32   31   33   35
+CONECT   32   33
+CONECT   33   32   34
+CONECT   33   32
+CONECT   34   29   33
+CONECT   34   29
+CONECT   35   32   36   40
+CONECT   35   40
+CONECT   36   35   37   45
+CONECT   36   37
+CONECT   37   36   38
+CONECT   37   36
+CONECT   38   37   39   41
+CONECT   38   39
+CONECT   39   38   40
+CONECT   39   38
+CONECT   40   35   39
+CONECT   40   35
+CONECT   41   38   42   43   44
+CONECT   42   41
+CONECT   43   41
+CONECT   44   41
+CONECT   45   36   46
+CONECT   46   45   47
+CONECT   47   46   48   49   50
+CONECT   48   47
+CONECT   49   47
+CONECT   50   47
+ENDMDL
+END   

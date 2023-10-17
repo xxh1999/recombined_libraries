@@ -1,0 +1,134 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5j87_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CBA N42 D 701      -4.830  11.303  44.610  1.00  0.00           C  
+HETATM    2  CBB N42 D 701      -3.835  11.382  45.779  1.00  0.00           C  
+HETATM    3  CBK N42 D 701      -3.757  12.832  46.290  1.00  0.00           C  
+HETATM    4  OAH N42 D 701      -4.737  13.356  46.791  1.00  0.00           O  
+HETATM    5  NBF N42 D 701      -2.567  13.442  46.146  1.00  0.00           N  
+HETATM    6  CBS N42 D 701      -2.413  14.708  46.557  1.00  0.00           C  
+HETATM    7  CAV N42 D 701      -2.071  15.707  45.654  1.00  0.00           C  
+HETATM    8  CBV N42 D 701      -2.593  15.018  47.903  1.00  0.00           C  
+HETATM    9  CBM N42 D 701      -2.880  14.080  48.890  1.00  0.00           C  
+HETATM   10  OAJ N42 D 701      -1.975  13.328  49.228  1.00  0.00           O  
+HETATM   11  NBZ N42 D 701      -4.061  14.085  49.524  1.00  0.00           N  
+HETATM   12  CBC N42 D 701      -4.313  13.126  50.605  1.00  0.00           C  
+HETATM   13  CAY N42 D 701      -5.003  13.793  51.756  1.00  0.00           C  
+HETATM   14  OBI N42 D 701      -6.183  14.353  51.266  1.00  0.00           O  
+HETATM   15  CAZ N42 D 701      -5.831  15.477  50.446  1.00  0.00           C  
+HETATM   16  CBD N42 D 701      -5.135  15.015  49.183  1.00  0.00           C  
+HETATM   17  CAU N42 D 701      -2.400  16.326  48.322  1.00  0.00           C  
+HETATM   18  CAO N42 D 701      -2.066  17.321  47.423  1.00  0.00           C  
+HETATM   19  CBO N42 D 701      -1.891  17.016  46.082  1.00  0.00           C  
+HETATM   20  NBH N42 D 701      -1.593  18.001  45.249  1.00  0.00           N  
+HETATM   21  CBU N42 D 701      -0.577  17.959  44.389  1.00  0.00           C  
+HETATM   22  CAW N42 D 701       0.023  16.802  43.854  1.00  0.00           C  
+HETATM   23  CBX N42 D 701      -0.160  19.225  44.000  1.00  0.00           C  
+HETATM   24  OAK N42 D 701      -0.702  20.218  44.467  1.00  0.00           O  
+HETATM   25  NCA N42 D 701       0.837  19.351  43.115  1.00  0.00           N  
+HETATM   26  CAB N42 D 701       1.304  20.690  42.710  1.00  0.00           C  
+HETATM   27  CAX N42 D 701       1.458  18.210  42.580  1.00  0.00           C  
+HETATM   28  CBQ N42 D 701       1.065  16.924  42.923  1.00  0.00           C  
+HETATM   29  CBW N42 D 701       1.724  15.814  42.368  1.00  0.00           C  
+HETATM   30  CBN N42 D 701       1.899  15.646  40.993  1.00  0.00           C  
+HETATM   31  CAA N42 D 701       1.384  16.604  40.129  1.00  0.00           C  
+HETATM   32  CAR N42 D 701       2.230  14.837  43.206  1.00  0.00           C  
+HETATM   33  CAM N42 D 701       2.898  13.734  42.696  1.00  0.00           C  
+HETATM   34  CAN N42 D 701       3.056  13.562  41.335  1.00  0.00           C  
+HETATM   35  CBR N42 D 701       2.572  14.533  40.477  1.00  0.00           C  
+HETATM   36  NBG N42 D 701       2.679  14.416  39.144  1.00  0.00           N  
+HETATM   37  CBL N42 D 701       3.810  14.778  38.509  1.00  0.00           C  
+HETATM   38  OAI N42 D 701       4.773  15.251  39.091  1.00  0.00           O  
+HETATM   39  CBP N42 D 701       3.822  14.655  37.102  1.00  0.00           C  
+HETATM   40  CAP N42 D 701       4.944  15.004  36.347  1.00  0.00           C  
+HETATM   41  CAS N42 D 701       4.975  14.906  34.955  1.00  0.00           C  
+HETATM   42  CBT N42 D 701       3.852  14.454  34.263  1.00  0.00           C  
+HETATM   43  CCB N42 D 701       3.835  14.334  32.868  1.00  0.00           C  
+HETATM   44  CAD N42 D 701       2.460  13.871  32.377  1.00  0.00           C  
+HETATM   45  CAE N42 D 701       4.862  13.305  32.422  1.00  0.00           C  
+HETATM   46  CAC N42 D 701       4.139  15.681  32.232  1.00  0.00           C  
+HETATM   47  CAT N42 D 701       2.736  14.113  35.006  1.00  0.00           C  
+HETATM   48  CAQ N42 D 701       2.717  14.226  36.392  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4    5
+CONECT    3    4
+CONECT    4    3
+CONECT    4    3
+CONECT    5    3    6
+CONECT    6    5    7    8
+CONECT    6    8
+CONECT    7    6   19
+CONECT    7   19
+CONECT    8    6    9   17
+CONECT    8    6
+CONECT    9    8   10   11
+CONECT    9   10
+CONECT   10    9
+CONECT   10    9
+CONECT   11    9   12   16
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   11   15
+CONECT   17    8   18
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19    7   18   20
+CONECT   19    7
+CONECT   20   19   21
+CONECT   21   20   22   23
+CONECT   21   22
+CONECT   22   21   28
+CONECT   22   21
+CONECT   23   21   24   25
+CONECT   23   24
+CONECT   24   23
+CONECT   24   23
+CONECT   25   23   26   27
+CONECT   26   25
+CONECT   27   25   28
+CONECT   27   28
+CONECT   28   22   27   29
+CONECT   28   27
+CONECT   29   28   30   32
+CONECT   29   32
+CONECT   30   29   31   35
+CONECT   30   35
+CONECT   31   30
+CONECT   32   29   33
+CONECT   32   29
+CONECT   33   32   34
+CONECT   33   34
+CONECT   34   33   35
+CONECT   34   33
+CONECT   35   30   34   36
+CONECT   35   30
+CONECT   36   35   37
+CONECT   37   36   38   39
+CONECT   37   38
+CONECT   38   37
+CONECT   38   37
+CONECT   39   37   40   48
+CONECT   39   48
+CONECT   40   39   41
+CONECT   40   41
+CONECT   41   40   42
+CONECT   41   40
+CONECT   42   41   43   47
+CONECT   42   47
+CONECT   43   42   44   45   46
+CONECT   44   43
+CONECT   45   43
+CONECT   46   43
+CONECT   47   42   48
+CONECT   47   42
+CONECT   48   39   47
+CONECT   48   39
+ENDMDL
+END   

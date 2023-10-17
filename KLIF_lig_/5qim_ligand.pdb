@@ -1,0 +1,84 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5qim_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C18 J2Y A 601       4.018  21.326  38.610  1.00  0.00           C  
+HETATM    2  C16 J2Y A 601       3.294  19.666  40.056  1.00  0.00           C  
+HETATM    3  C15 J2Y A 601       0.411  18.083  43.284  1.00  0.00           C  
+HETATM    4  C19 J2Y A 601       4.738  21.942  39.617  1.00  0.00           C  
+HETATM    5  C20 J2Y A 601       4.731  21.389  40.894  1.00  0.00           C  
+HETATM    6  C21 J2Y A 601       3.994  20.237  41.125  1.00  0.00           C  
+HETATM    7  C23 J2Y A 601      -1.122  16.830  45.593  1.00  0.00           C  
+HETATM    8  C11 J2Y A 601       0.723  20.137  42.084  1.00  0.00           C  
+HETATM    9  C12 J2Y A 601      -0.060  20.762  43.045  1.00  0.00           C  
+HETATM   10  C27 J2Y A 601       5.323  23.827  38.215  1.00  0.00           C  
+HETATM   11  C1  J2Y A 601       2.971  17.126  39.485  1.00  0.00           C  
+HETATM   12  C2  J2Y A 601       2.209  16.103  40.050  1.00  0.00           C  
+HETATM   13  C3  J2Y A 601       2.389  14.787  39.611  1.00  0.00           C  
+HETATM   14  C4  J2Y A 601       3.315  14.559  38.591  1.00  0.00           C  
+HETATM   15  C5  J2Y A 601       4.015  15.643  38.063  1.00  0.00           C  
+HETATM   16  N6  J2Y A 601       3.861  16.920  38.491  1.00  0.00           N  
+HETATM   17  C7  J2Y A 601       2.596  18.370  40.222  1.00  0.00           C  
+HETATM   18  C8  J2Y A 601       1.636  18.003  41.139  1.00  0.00           C  
+HETATM   19  N9  J2Y A 601       1.395  16.640  41.027  1.00  0.00           N  
+HETATM   20  C10 J2Y A 601       0.944  18.765  42.194  1.00  0.00           C  
+HETATM   21  N13 J2Y A 601      -0.619  20.123  44.090  1.00  0.00           N  
+HETATM   22  C14 J2Y A 601      -0.394  18.791  44.194  1.00  0.00           C  
+HETATM   23  N17 J2Y A 601       3.289  20.201  38.820  1.00  0.00           N  
+HETATM   24  N22 J2Y A 601      -1.054  18.163  45.279  1.00  0.00           N  
+HETATM   25  O24 J2Y A 601      -0.551  15.952  44.951  1.00  0.00           O  
+HETATM   26  C25 J2Y A 601      -1.911  16.493  46.833  1.00  0.00           C  
+HETATM   27  O26 J2Y A 601       5.405  23.138  39.476  1.00  0.00           O  
+CONECT    1    4   23
+CONECT    1   23
+CONECT    2    6   17   23
+CONECT    2    6
+CONECT    3   20   22
+CONECT    3   20
+CONECT    4    1    5   27
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    2    5
+CONECT    6    2
+CONECT    7   24   25   26
+CONECT    7   25
+CONECT    8    9   20
+CONECT    8    9
+CONECT    9    8   21
+CONECT    9    8
+CONECT   10   27
+CONECT   11   12   16   17
+CONECT   11   16
+CONECT   12   11   13   19
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   11   15
+CONECT   16   11
+CONECT   17    2   11   18
+CONECT   17   18
+CONECT   18   17   19   20
+CONECT   18   17
+CONECT   19   12   18
+CONECT   20    3    8   18
+CONECT   20    3
+CONECT   21    9   22
+CONECT   21   22
+CONECT   22    3   21   24
+CONECT   22   21
+CONECT   23    1    2
+CONECT   23    1
+CONECT   24    7   22
+CONECT   25    7
+CONECT   25    7
+CONECT   26    7
+CONECT   27    4   10
+ENDMDL
+END   

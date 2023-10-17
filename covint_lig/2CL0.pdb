@@ -1,0 +1,66 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2CL0
+MODEL        1
+ATOM      1  N   CYS X  32      29.148  62.757  46.920  1.00 47.50           N1+
+ATOM      2  CA  CYS X  32      30.561  62.466  47.147  1.00 48.00           C  
+ATOM      3  C   CYS X  32      30.656  61.339  48.177  1.00 47.54           C  
+ATOM      4  O   CYS X  32      30.177  61.489  49.302  1.00 46.85           O  
+ATOM      5  CB  CYS X  32      31.252  63.691  47.780  1.00 49.06           C  
+ATOM      6  SG  CYS X  32      31.499  64.995  46.544  1.00 54.42           S  
+TER       7      CYS X  32
+HETATM    8  C1  XY2 X 332      28.767  69.638  53.533  1.00 90.17           C  
+HETATM    9  C2  XY2 X 332      27.784  70.094  52.642  1.00 90.20           C  
+HETATM   10  C3  XY2 X 332      27.948  69.951  51.213  1.00 90.24           C  
+HETATM   11  C19 XY2 X 332      29.835  65.710  46.498  1.00 67.13           C  
+HETATM   12  C17 XY2 X 332      29.811  67.227  46.324  1.00 70.79           C  
+HETATM   13  O18 XY2 X 332      30.835  67.810  45.963  1.00 72.62           O  
+HETATM   14  N15 XY2 X 332      28.668  67.873  46.647  1.00 76.59           N  
+HETATM   15  C16 XY2 X 332      27.384  67.181  46.806  1.00 76.94           C  
+HETATM   16  C14 XY2 X 332      28.619  69.328  46.815  1.00 79.96           C  
+HETATM   17  C13 XY2 X 332      28.409  69.738  48.291  1.00 87.97           C  
+HETATM   18  N11 XY2 X 332      29.392  69.259  49.274  1.00 89.34           N  
+HETATM   19  C12 XY2 X 332      30.811  69.340  48.916  1.00 89.98           C  
+HETATM   20  N5  XY2 X 332      26.628  70.721  52.899  1.00 90.11           N  
+HETATM   21  O6  XY2 X 332      26.053  70.928  51.649  1.00 90.20           O  
+HETATM   22  N7  XY2 X 332      26.870  70.477  50.613  1.00 90.39           N  
+HETATM   23  N8  XY2 X 332      28.638  69.900  54.949  1.00 90.50           N  
+HETATM   24  O10 XY2 X 332      27.344  69.419  55.369  1.00 91.51           O  
+HETATM   25  O9  XY2 X 332      29.614  69.146  55.685  1.00 92.37           O1-
+HETATM   26  C21 XY2 X 332      29.906  69.009  52.977  1.00 89.98           C  
+HETATM   27  C20 XY2 X 332      30.059  68.860  51.595  1.00 89.85           C  
+HETATM   28  C4  XY2 X 332      29.110  69.360  50.672  1.00 90.01           C  
+CONECT    8    9   23   26
+CONECT    8   26
+CONECT    9    8   10   20
+CONECT    9   20
+CONECT   10    9   22   28
+CONECT   10   22
+CONECT   11    6   12
+CONECT   12   11   13   14
+CONECT   12   13
+CONECT   13   12
+CONECT   13   12
+CONECT   14   12   15   16
+CONECT   15   14
+CONECT   16   14   17
+CONECT   17   16   18
+CONECT   18   17   19   28
+CONECT   19   18
+CONECT   20    9   21
+CONECT   20    9
+CONECT   21   20   22
+CONECT   22   10   21
+CONECT   22   10
+CONECT   23    8   24   25
+CONECT   24   23
+CONECT   25   23
+CONECT   26    8   27
+CONECT   26    8
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   10   18   27
+CONECT   28   27
+ENDMDL
+END   

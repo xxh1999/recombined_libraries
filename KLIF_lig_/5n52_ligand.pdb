@@ -1,0 +1,48 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5n52_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  O3  Q8N A 401       2.613  20.853  36.677  1.00  0.00           O  
+HETATM    2  C4  Q8N A 401       1.302  20.368  41.454  1.00  0.00           C  
+HETATM    3  C5  Q8N A 401       1.544  19.070  40.995  1.00  0.00           C  
+HETATM    4  C6  Q8N A 401       1.103  18.000  41.777  1.00  0.00           C  
+HETATM    5  C7  Q8N A 401       2.225  15.903  42.035  1.00  0.00           C  
+HETATM    6  C8  Q8N A 401       2.178  18.889  39.680  1.00  0.00           C  
+HETATM    7  C9  Q8N A 401       2.143  19.851  38.752  1.00  0.00           C  
+HETATM    8  C10 Q8N A 401       2.807  19.836  37.411  1.00  0.00           C  
+HETATM    9  O2  Q8N A 401       3.503  18.844  37.067  1.00  0.00           O1-
+HETATM   10  C3  Q8N A 401       0.633  20.589  42.641  1.00  0.00           C  
+HETATM   11  C2  Q8N A 401       0.196  19.524  43.408  1.00  0.00           C  
+HETATM   12  O1  Q8N A 401       1.292  16.710  41.316  1.00  0.00           O  
+HETATM   13  C1  Q8N A 401       0.429  18.226  42.986  1.00  0.00           C  
+HETATM   14  O   Q8N A 401       0.021  17.127  43.684  1.00  0.00           O  
+HETATM   15  C   Q8N A 401      -0.728  17.352  44.875  1.00  0.00           C  
+CONECT    1    8
+CONECT    1    8
+CONECT    2    3   10
+CONECT    2    3
+CONECT    3    2    4    6
+CONECT    3    2
+CONECT    4    3   12   13
+CONECT    4   13
+CONECT    5   12
+CONECT    6    3    7
+CONECT    6    7
+CONECT    7    6    8
+CONECT    7    6
+CONECT    8    1    7    9
+CONECT    8    1
+CONECT    9    8
+CONECT   10    2   11
+CONECT   10   11
+CONECT   11   10   13
+CONECT   11   10
+CONECT   12    4    5
+CONECT   13    4   11   14
+CONECT   13    4
+CONECT   14   13   15
+CONECT   15   14
+ENDMDL
+END   

@@ -1,0 +1,112 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6bke_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  DVJ A 704      -1.948  13.055  47.502  1.00  0.00           C  
+HETATM    2  C6  DVJ A 704      -2.719  15.332  48.073  1.00  0.00           C  
+HETATM    3  C11 DVJ A 704      -0.700  17.676  44.523  1.00  0.00           C  
+HETATM    4  C7  DVJ A 704      -2.653  16.562  47.541  1.00  0.00           C  
+HETATM    5  C8  DVJ A 704      -1.941  16.484  46.331  1.00  0.00           C  
+HETATM    6  C12 DVJ A 704      -0.128  16.582  43.925  1.00  0.00           C  
+HETATM    7  C13 DVJ A 704       0.871  16.759  42.936  1.00  0.00           C  
+HETATM    8  N2  DVJ A 704      -3.296  13.440  49.527  1.00  0.00           N1+
+HETATM    9  C3  DVJ A 704      -2.030  12.886  49.024  1.00  0.00           C  
+HETATM   10  C1  DVJ A 704      -3.499  13.063  50.935  1.00  0.00           C  
+HETATM   11  N5  DVJ A 704      -2.077  14.489  47.233  1.00  0.00           N  
+HETATM   12  N9  DVJ A 704      -1.599  15.227  46.149  1.00  0.00           N  
+HETATM   13  N10 DVJ A 704      -1.692  17.587  45.501  1.00  0.00           N  
+HETATM   14  N14 DVJ A 704       1.247  17.969  42.594  1.00  0.00           N  
+HETATM   15  N15 DVJ A 704       0.676  19.100  43.185  1.00  0.00           N  
+HETATM   16  C17 DVJ A 704      -0.277  18.967  44.126  1.00  0.00           C  
+HETATM   17  O18 DVJ A 704      -0.773  19.959  44.640  1.00  0.00           O  
+HETATM   18  C19 DVJ A 704       1.492  15.572  42.282  1.00  0.00           C  
+HETATM   19  C20 DVJ A 704       1.800  14.444  43.042  1.00  0.00           C  
+HETATM   20  C21 DVJ A 704       2.368  13.335  42.443  1.00  0.00           C  
+HETATM   21  C22 DVJ A 704       2.639  13.330  41.087  1.00  0.00           C  
+HETATM   22  C23 DVJ A 704       2.332  14.444  40.319  1.00  0.00           C  
+HETATM   23  C24 DVJ A 704       1.757  15.558  40.910  1.00  0.00           C  
+HETATM   24  C25 DVJ A 704       1.454  16.745  40.036  1.00  0.00           C  
+HETATM   25  C26 DVJ A 704       2.752  17.547  39.886  1.00  0.00           C  
+HETATM   26  O27 DVJ A 704       2.563  18.602  38.939  1.00  0.00           O  
+HETATM   27  N28 DVJ A 704       2.591  14.463  38.943  1.00  0.00           N  
+HETATM   28  C29 DVJ A 704       3.842  14.565  38.451  1.00  0.00           C  
+HETATM   29  O30 DVJ A 704       4.794  14.639  39.206  1.00  0.00           O  
+HETATM   30  C31 DVJ A 704       4.043  14.581  36.993  1.00  0.00           C  
+HETATM   31  C32 DVJ A 704       3.058  14.516  36.093  1.00  0.00           C  
+HETATM   32  C33 DVJ A 704       3.456  14.541  34.747  1.00  0.00           C  
+HETATM   33  C34 DVJ A 704       2.653  14.491  33.580  1.00  0.00           C  
+HETATM   34  C35 DVJ A 704       3.224  14.528  32.346  1.00  0.00           C  
+HETATM   35  C36 DVJ A 704       4.604  14.616  32.205  1.00  0.00           C  
+HETATM   36  C37 DVJ A 704       5.410  14.666  33.317  1.00  0.00           C  
+HETATM   37  C38 DVJ A 704       4.845  14.630  34.599  1.00  0.00           C  
+HETATM   38  S39 DVJ A 704       5.598  14.677  36.189  1.00  0.00           S  
+HETATM   39  C40 DVJ A 704      -3.372  14.908  49.367  1.00  0.00           C  
+CONECT    1    9   11
+CONECT    2    4   11   39
+CONECT    2    4
+CONECT    3    6   13   16
+CONECT    3    6
+CONECT    4    2    5
+CONECT    4    2
+CONECT    5    4   12   13
+CONECT    5   12
+CONECT    6    3    7
+CONECT    6    3
+CONECT    7    6   14   18
+CONECT    7   14
+CONECT    8    9   10   39
+CONECT    9    1    8
+CONECT   10    8
+CONECT   11    1    2   12
+CONECT   12    5   11
+CONECT   12    5
+CONECT   13    3    5
+CONECT   14    7   15
+CONECT   14    7
+CONECT   15   14   16
+CONECT   16    3   15   17
+CONECT   16   17
+CONECT   17   16
+CONECT   17   16
+CONECT   18    7   19   23
+CONECT   18   23
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23   27
+CONECT   22   21
+CONECT   23   18   22   24
+CONECT   23   18
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26   25
+CONECT   27   22   28
+CONECT   28   27   29   30
+CONECT   28   29
+CONECT   29   28
+CONECT   29   28
+CONECT   30   28   31   38
+CONECT   30   31
+CONECT   31   30   32
+CONECT   31   30
+CONECT   32   31   33   37
+CONECT   32   37
+CONECT   33   32   34
+CONECT   33   34
+CONECT   34   33   35
+CONECT   34   33
+CONECT   35   34   36
+CONECT   35   36
+CONECT   36   35   37
+CONECT   36   35
+CONECT   37   32   36   38
+CONECT   37   32
+CONECT   38   30   37
+CONECT   39    2    8
+ENDMDL
+END   

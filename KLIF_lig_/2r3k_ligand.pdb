@@ -1,0 +1,76 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2r3k_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C01 SCQ A 501       0.735  19.623  41.215  1.00  0.00           C  
+HETATM    2  C02 SCQ A 501       0.266  18.334  41.283  1.00  0.00           C  
+HETATM    3  N03 SCQ A 501      -0.668  18.311  42.274  1.00  0.00           N  
+HETATM    4  N04 SCQ A 501      -0.801  19.571  42.844  1.00  0.00           N  
+HETATM    5  C05 SCQ A 501       0.053  20.356  42.193  1.00  0.00           C  
+HETATM    6  C06 SCQ A 501       0.601  17.162  40.524  1.00  0.00           C  
+HETATM    7  C07 SCQ A 501      -0.047  16.001  40.829  1.00  0.00           C  
+HETATM    8  C08 SCQ A 501      -1.029  16.000  41.881  1.00  0.00           C  
+HETATM    9  C09 SCQ A 501      -1.341  17.159  42.604  1.00  0.00           C  
+HETATM   10  N10 SCQ A 501      -2.277  17.236  43.613  1.00  0.00           N  
+HETATM   11  C11 SCQ A 501       0.246  14.739  40.095  1.00  0.00           C  
+HETATM   12  C12 SCQ A 501      -3.256  16.163  43.760  1.00  0.00           C  
+HETATM   13  C13 SCQ A 501      -2.844  15.350  44.937  1.00  0.00           C  
+HETATM   14  C14 SCQ A 501      -2.643  15.911  46.202  1.00  0.00           C  
+HETATM   15  N15 SCQ A 501      -2.248  15.193  47.253  1.00  0.00           N  
+HETATM   16  C16 SCQ A 501      -2.046  13.889  47.024  1.00  0.00           C  
+HETATM   17  N17 SCQ A 501      -2.173  13.236  45.855  1.00  0.00           N  
+HETATM   18  C18 SCQ A 501      -2.581  13.981  44.820  1.00  0.00           C  
+HETATM   19  C19 SCQ A 501      -0.091  14.591  38.737  1.00  0.00           C  
+HETATM   20  C20 SCQ A 501       0.202  13.399  38.059  1.00  0.00           C  
+HETATM   21  C21 SCQ A 501       0.832  12.350  38.729  1.00  0.00           C  
+HETATM   22  C22 SCQ A 501       1.169  12.493  40.077  1.00  0.00           C  
+HETATM   23  C23 SCQ A 501       0.880  13.684  40.751  1.00  0.00           C  
+HETATM   24 BR24 SCQ A 501       2.022  20.244  40.059  1.00  0.00          Br  
+CONECT    1    2    5   24
+CONECT    1    2
+CONECT    2    1    3    6
+CONECT    2    1
+CONECT    3    2    4    9
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    1    4
+CONECT    5    4
+CONECT    6    2    7
+CONECT    6    7
+CONECT    7    6    8   11
+CONECT    7    6
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    3    8   10
+CONECT    9    8
+CONECT   10    9   12
+CONECT   11    7   19   23
+CONECT   11   23
+CONECT   12   10   13
+CONECT   13   12   14   18
+CONECT   13   18
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   13   17
+CONECT   18   13
+CONECT   19   11   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   11   22
+CONECT   23   11
+CONECT   24    1
+ENDMDL
+END   

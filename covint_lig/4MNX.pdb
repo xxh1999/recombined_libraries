@@ -1,0 +1,56 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4MNX
+MODEL        1
+ATOM      1  N   CYS B   7      26.085  11.979 -11.518  1.00 22.66           N1+
+ATOM      2  CA  CYS B   7      25.552  13.020 -12.396  1.00 24.37           C  
+ATOM      3  C   CYS B   7      24.153  12.659 -12.956  1.00 23.79           C  
+ATOM      4  O   CYS B   7      23.643  13.373 -13.819  1.00 22.61           O  
+ATOM      5  CB  CYS B   7      26.581  13.174 -13.542  1.00 26.69           C  
+ATOM      6  SG  CYS B   7      26.432  14.778 -14.391  1.00 28.34           S  
+TER       7      CYS B   7
+HETATM    8  N1  29N B 101      25.666  19.441  -9.720  1.00 24.10           N  
+HETATM    9  C2  29N B 101      25.089  18.300 -10.432  1.00 23.36           C  
+HETATM   10  N3  29N B 101      26.139  17.324 -10.722  1.00 25.21           N  
+HETATM   11  C4  29N B 101      26.762  16.838  -9.480  1.00 25.77           C  
+HETATM   12  N5  29N B 101      27.311  17.969  -8.702  1.00 25.16           N  
+HETATM   13  C6  29N B 101      26.295  19.013  -8.460  1.00 25.47           C  
+HETATM   14  C7  29N B 101      25.763  20.700 -10.210  1.00 23.92           C  
+HETATM   15  C8  29N B 101      25.129  21.011 -11.576  1.00 23.88           C  
+HETATM   16  O9  29N B 101      26.333  21.602  -9.596  1.00 26.77           O  
+HETATM   17  C10 29N B 101      28.598  18.143  -8.301  1.00 26.29           C  
+HETATM   18  C11 29N B 101      29.650  17.028  -8.456  1.00 25.38           C  
+HETATM   19  O12 29N B 101      28.960  19.181  -7.745  1.00 29.08           O  
+HETATM   20  C13 29N B 101      26.610  17.143 -11.979  1.00 26.06           C  
+HETATM   21  C14 29N B 101      27.681  16.071 -12.232  1.00 24.77           C  
+HETATM   22  O15 29N B 101      26.193  17.803 -12.932  1.00 28.73           O  
+HETATM   23  C16 29N B 101      25.075  22.510 -11.916  1.00 24.23           C  
+HETATM   24  C19 29N B 101      31.061  17.544  -8.799  1.00 26.46           C  
+HETATM   25  C25 29N B 101      27.861  15.682 -13.711  1.00 24.00           C  
+CONECT    8    9   13   14
+CONECT    9    8   10
+CONECT   10    9   11   20
+CONECT   11   10   12
+CONECT   12   11   13   17
+CONECT   13    8   12
+CONECT   14    8   15   16
+CONECT   14   16
+CONECT   15   14   23
+CONECT   16   14
+CONECT   16   14
+CONECT   17   12   18   19
+CONECT   17   19
+CONECT   18   17   24
+CONECT   19   17
+CONECT   19   17
+CONECT   20   10   21   22
+CONECT   20   22
+CONECT   21   20   25
+CONECT   22   20
+CONECT   22   20
+CONECT   23   15
+CONECT   24   18
+CONECT   25    6   21
+ENDMDL
+END   

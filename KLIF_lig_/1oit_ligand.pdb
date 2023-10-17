@@ -1,0 +1,80 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1oit_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C22 HDT A1299      -3.025  16.339  45.754  1.00  0.00           C  
+HETATM    2  N1  HDT A1299       1.061  15.832  40.417  1.00  0.00           N  
+HETATM    3  C2  HDT A1299       0.803  15.028  41.456  1.00  0.00           C  
+HETATM    4  C6  HDT A1299       1.540  15.430  39.257  1.00  0.00           C  
+HETATM    5  C5  HDT A1299       1.831  14.100  39.013  1.00  0.00           C  
+HETATM    6  C4  HDT A1299       1.578  13.228  40.073  1.00  0.00           C  
+HETATM    7  C3  HDT A1299       1.063  13.670  41.298  1.00  0.00           C  
+HETATM    8  C11 HDT A1299       0.741  19.375  41.464  1.00  0.00           C  
+HETATM    9  C10 HDT A1299       0.367  18.042  41.405  1.00  0.00           C  
+HETATM   10  C9  HDT A1299       0.893  17.168  40.311  1.00  0.00           C  
+HETATM   11  C8  HDT A1299       1.287  17.559  39.080  1.00  0.00           C  
+HETATM   12  C12 HDT A1299       0.228  20.149  42.496  1.00  0.00           C  
+HETATM   13  C17 HDT A1299      -2.379  16.585  44.537  1.00  0.00           C  
+HETATM   14  C14 HDT A1299      -0.956  18.299  43.344  1.00  0.00           C  
+HETATM   15  N15 HDT A1299      -0.463  17.526  42.350  1.00  0.00           N  
+HETATM   16  C18 HDT A1299      -2.490  15.639  43.522  1.00  0.00           C  
+HETATM   17  C19 HDT A1299      -3.179  14.443  43.738  1.00  0.00           C  
+HETATM   18  C20 HDT A1299      -3.784  14.187  44.964  1.00  0.00           C  
+HETATM   19  O26 HDT A1299      -5.942  13.048  44.773  1.00  0.00           O1-
+HETATM   20  S23 HDT A1299      -4.595  12.822  45.200  1.00  0.00           S2+
+HETATM   21  O25 HDT A1299      -4.590  12.464  46.595  1.00  0.00           O1-
+HETATM   22  N24 HDT A1299      -3.967  11.631  44.334  1.00  0.00           N  
+HETATM   23  C21 HDT A1299      -3.710  15.145  45.974  1.00  0.00           C  
+HETATM   24  N16 HDT A1299      -1.760  17.835  44.344  1.00  0.00           N  
+HETATM   25  N13 HDT A1299      -0.590  19.597  43.402  1.00  0.00           N  
+HETATM   26  N7  HDT A1299       1.684  16.543  38.419  1.00  0.00           N  
+CONECT    1   13   23
+CONECT    1   23
+CONECT    2    3    4   10
+CONECT    3    2    7
+CONECT    3    7
+CONECT    4    2    5   26
+CONECT    4   26
+CONECT    5    4    6
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    3    6
+CONECT    7    3
+CONECT    8    9   12
+CONECT    8    9
+CONECT    9    8   10   15
+CONECT    9    8
+CONECT   10    2    9   11
+CONECT   10   11
+CONECT   11   10   26
+CONECT   11   10
+CONECT   12    8   25
+CONECT   12   25
+CONECT   13    1   16   24
+CONECT   13   16
+CONECT   14   15   24   25
+CONECT   14   15
+CONECT   15    9   14
+CONECT   15   14
+CONECT   16   13   17
+CONECT   16   13
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   17   20   23
+CONECT   18   17
+CONECT   19   20
+CONECT   20   18   19   21   22
+CONECT   21   20
+CONECT   22   20
+CONECT   23    1   18
+CONECT   23    1
+CONECT   24   13   14
+CONECT   25   12   14
+CONECT   25   12
+CONECT   26    4   11
+CONECT   26    4
+ENDMDL
+END   

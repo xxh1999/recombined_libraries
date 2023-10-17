@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3ccn_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N1  LKG A   0       1.095  17.147  38.916  1.00  0.00           N  
+HETATM    2  N3  LKG A   0       0.912  18.540  37.232  1.00  0.00           N  
+HETATM    3  C4  LKG A   0      -0.227  14.076  40.013  1.00  0.00           C  
+HETATM    4  C5  LKG A   0       0.154  14.094  41.355  1.00  0.00           C  
+HETATM    5  C6  LKG A   0      -0.048  12.975  42.162  1.00  0.00           C  
+HETATM    6  C7  LKG A   0      -0.015  15.200  39.212  1.00  0.00           C  
+HETATM    7  C8  LKG A   0      -0.715  15.350  38.009  1.00  0.00           C  
+HETATM    8  C10 LKG A   0       0.449  17.385  37.696  1.00  0.00           C  
+HETATM    9  C13 LKG A   0       2.094  18.822  41.520  1.00  0.00           C  
+HETATM   10  C15 LKG A   0       0.918  20.446  42.860  1.00  0.00           C  
+HETATM   11  C17 LKG A   0       1.204  18.178  43.666  1.00  0.00           C  
+HETATM   12  C14 LKG A   0       1.616  20.123  41.692  1.00  0.00           C  
+HETATM   13  C16 LKG A   0       0.715  19.474  43.838  1.00  0.00           C  
+HETATM   14  O1  LKG A   0       0.044  19.784  44.979  1.00  0.00           O  
+HETATM   15  C18 LKG A   0       1.896  17.853  42.501  1.00  0.00           C  
+HETATM   16  C12 LKG A   0       2.865  18.449  40.251  1.00  0.00           C  
+HETATM   17  C11 LKG A   0       1.921  18.251  39.062  1.00  0.00           C  
+HETATM   18  N2  LKG A   0       0.875  16.140  39.600  1.00  0.00           N  
+HETATM   19  N4  LKG A   0       1.749  19.037  38.004  1.00  0.00           N  
+HETATM   20  C9  LKG A   0      -0.486  16.470  37.222  1.00  0.00           C  
+HETATM   21  C3  LKG A   0      -0.813  12.924  39.482  1.00  0.00           C  
+HETATM   22  C2  LKG A   0      -1.015  11.801  40.284  1.00  0.00           C  
+HETATM   23  C1  LKG A   0      -0.635  11.827  41.622  1.00  0.00           C  
+CONECT    1    8   17   18
+CONECT    2    8   19
+CONECT    2    8
+CONECT    3    4    6   21
+CONECT    3    4
+CONECT    4    3    5
+CONECT    4    3
+CONECT    5    4   23
+CONECT    5   23
+CONECT    6    3    7   18
+CONECT    6   18
+CONECT    7    6   20
+CONECT    7   20
+CONECT    8    1    2   20
+CONECT    8    2
+CONECT    9   12   15   16
+CONECT    9   12
+CONECT   10   12   13
+CONECT   10   13
+CONECT   11   13   15
+CONECT   11   15
+CONECT   12    9   10
+CONECT   12    9
+CONECT   13   10   11   14
+CONECT   13   10
+CONECT   14   13
+CONECT   15    9   11
+CONECT   15   11
+CONECT   16    9   17
+CONECT   17    1   16   19
+CONECT   17   19
+CONECT   18    1    6
+CONECT   18    6
+CONECT   19    2   17
+CONECT   19   17
+CONECT   20    7    8
+CONECT   20    7
+CONECT   21    3   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23    5   22
+CONECT   23    5
+ENDMDL
+END   

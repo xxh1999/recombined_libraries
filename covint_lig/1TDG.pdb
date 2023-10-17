@@ -1,0 +1,33 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1TDG
+MODEL        1
+HETATM    1  OA4 MDD A 702       9.536  36.517   3.630  0.33 18.57           O  
+HETATM    2  CA5 MDD A 702       9.044  35.431   3.792  0.33 17.31           C  
+HETATM    3  CA6 MDD A 702       9.857  34.312   4.382  0.33 16.61           C  
+HETATM    4  CA7 MDD A 702       9.200  33.840   5.660  0.33 15.18           C  
+HETATM    5  OA8 MDD A 702       9.395  34.427   6.679  0.33 15.34           O  
+HETATM    6  OA4 MDD A 702       9.536  36.517   3.630  0.33 18.57           O  
+HETATM    7  CA5 MDD A 702       9.044  35.431   3.792  0.33 17.31           C  
+HETATM    8  CA6 MDD A 702       9.857  34.312   4.382  0.33 16.61           C  
+HETATM    9  CA7 MDD A 702       9.200  33.840   5.660  0.33 15.18           C  
+HETATM   10  OA8 MDD A 702       9.395  34.427   6.679  0.33 15.34           O  
+CONECT    1    2    6    7
+CONECT    2    1    3    6    7
+CONECT    2    8
+CONECT    3    2    4    7    8
+CONECT    3    9
+CONECT    4    3    5    8    9
+CONECT    4   10
+CONECT    5    4    9   10
+CONECT    6    1    2    7
+CONECT    7    1    2    3    6
+CONECT    7    8
+CONECT    8    2    3    4    7
+CONECT    8    9
+CONECT    9    3    4    5    8
+CONECT    9   10
+CONECT   10    4    5    9
+ENDMDL
+END   

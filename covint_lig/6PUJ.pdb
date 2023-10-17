@@ -1,0 +1,57 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6PUJ
+MODEL        1
+ATOM      1  N   LYS C  43       5.698  34.997 262.105  1.00 37.60           N1+
+ATOM      2  CA  LYS C  43       5.643  35.419 260.710  1.00 36.89           C  
+ATOM      3  C   LYS C  43       6.113  36.864 260.606  1.00 39.11           C  
+ATOM      4  O   LYS C  43       5.631  37.734 261.339  1.00 37.22           O  
+ATOM      5  CB  LYS C  43       4.233  35.286 260.135  1.00 35.90           C  
+ATOM      6  CG  LYS C  43       4.143  35.813 258.701  1.00 38.29           C  
+ATOM      7  CD  LYS C  43       2.756  35.658 258.110  1.00 39.84           C  
+ATOM      8  CE  LYS C  43       2.707  36.234 256.704  1.00 46.59           C  
+ATOM      9  NZ  LYS C  43       1.357  36.282 256.152  1.00 52.78           N1+
+TER      10      LYS C  43
+HETATM   11  C1  Q7S C 302       0.646  35.243 255.479  0.60 34.76           C  
+HETATM   12  C2  Q7S C 302       1.300  33.920 255.255  0.60 37.24           C  
+HETATM   13  C3  Q7S C 302       1.132  31.775 254.377  0.60 36.48           C  
+HETATM   14  C4  Q7S C 302       0.227  30.946 253.694  0.60 37.09           C  
+HETATM   15  C5  Q7S C 302      -1.752  30.904 252.184  0.60 40.00           C  
+HETATM   16  C7  Q7S C 302      -2.322  28.637 253.142  0.60 40.52           C  
+HETATM   17  N   Q7S C 302       0.607  33.042 254.623  0.60 37.73           N  
+HETATM   18  C   Q7S C 302      -0.536  35.602 254.626  0.60 35.01           C  
+HETATM   19  C6  Q7S C 302      -2.852  29.924 252.546  0.60 40.80           C  
+HETATM   20  C8  Q7S C 302       1.843  29.156 253.714  0.60 36.94           C  
+HETATM   21  C9  Q7S C 302       2.443  31.299 254.765  0.60 35.72           C  
+HETATM   22  N1  Q7S C 302      -1.025  31.382 253.351  0.60 40.56           N  
+HETATM   23  N2  Q7S C 302       0.617  29.678 253.388  0.60 37.13           N  
+HETATM   24  N3  Q7S C 302       2.692  29.993 254.385  0.60 34.90           N  
+HETATM   25  O1  Q7S C 302      -1.322  28.006 252.344  0.60 36.72           O  
+HETATM   26  O2  Q7S C 302       2.163  28.006 253.419  0.60 38.76           O  
+HETATM   27  O3  Q7S C 302       3.293  31.926 255.392  0.60 38.14           O  
+CONECT   11    9   12   18
+CONECT   12   11   17
+CONECT   13   14   17   21
+CONECT   13   14
+CONECT   14   13   22   23
+CONECT   14   13
+CONECT   15   19   22
+CONECT   16   19   25
+CONECT   17   12   13
+CONECT   18   11
+CONECT   19   15   16
+CONECT   20   23   24   26
+CONECT   20   26
+CONECT   21   13   24   27
+CONECT   21   27
+CONECT   22   14   15
+CONECT   23   14   20
+CONECT   24   20   21
+CONECT   25   16
+CONECT   26   20
+CONECT   26   20
+CONECT   27   21
+CONECT   27   21
+ENDMDL
+END   

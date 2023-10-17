@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1oz1_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  O12 FPH A 500       3.481  16.358  40.987  1.00  0.00           O  
+HETATM    2  N07 FPH A 500       4.162  17.268  40.366  1.00  0.00           N  
+HETATM    3  C01 FPH A 500       5.033  16.962  39.352  1.00  0.00           C  
+HETATM    4  C06 FPH A 500       5.436  15.735  38.757  1.00  0.00           C  
+HETATM    5  C05 FPH A 500       6.387  15.820  37.729  1.00  0.00           C  
+HETATM    6  C04 FPH A 500       6.861  17.078  37.339  1.00  0.00           C  
+HETATM    7  N03 FPH A 500       6.471  18.267  37.879  1.00  0.00           N  
+HETATM    8  C02 FPH A 500       5.550  18.192  38.907  1.00  0.00           C  
+HETATM    9  C08 FPH A 500       4.964  19.254  39.696  1.00  0.00           C  
+HETATM   10  C24 FPH A 500       5.257  20.693  39.571  1.00  0.00           C  
+HETATM   11  C25 FPH A 500       5.703  21.408  40.712  1.00  0.00           C  
+HETATM   12  C26 FPH A 500       5.991  22.785  40.645  1.00  0.00           C  
+HETATM   13  C27 FPH A 500       5.862  23.437  39.419  1.00  0.00           C  
+HETATM   14  F32 FPH A 500       6.131  24.756  39.346  1.00  0.00           F  
+HETATM   15  C28 FPH A 500       5.427  22.752  38.270  1.00  0.00           C  
+HETATM   16  C29 FPH A 500       5.128  21.384  38.347  1.00  0.00           C  
+HETATM   17  C13 FPH A 500       4.070  18.640  40.632  1.00  0.00           C  
+HETATM   18  C14 FPH A 500       3.142  19.162  41.684  1.00  0.00           C  
+HETATM   19  C19 FPH A 500       2.920  18.433  42.881  1.00  0.00           C  
+HETATM   20  C18 FPH A 500       2.009  18.922  43.823  1.00  0.00           C  
+HETATM   21  N17 FPH A 500       1.314  20.089  43.653  1.00  0.00           N  
+HETATM   22  C16 FPH A 500       1.529  20.776  42.508  1.00  0.00           C  
+HETATM   23  C15 FPH A 500       2.412  20.356  41.510  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3   17
+CONECT    3    2    4    8
+CONECT    3    8
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    5    7
+CONECT    6    7
+CONECT    7    6    8
+CONECT    7    6
+CONECT    8    3    7    9
+CONECT    8    3
+CONECT    9    8   10   17
+CONECT    9   17
+CONECT   10    9   11   16
+CONECT   10   16
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   14   15
+CONECT   13   15
+CONECT   14   13
+CONECT   15   13   16
+CONECT   15   13
+CONECT   16   10   15
+CONECT   16   10
+CONECT   17    2    9   18
+CONECT   17    9
+CONECT   18   17   19   23
+CONECT   18   23
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   18   22
+CONECT   23   18
+ENDMDL
+END   

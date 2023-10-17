@@ -1,0 +1,21 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4DHZ
+MODEL        1
+ATOM      1  N   GLY B 575      62.418  23.790   9.240  1.00 50.22           N1+
+ATOM      2  CA  GLY B 575      62.876  24.470   8.041  1.00 49.74           C  
+ATOM      3  C   GLY B 575      61.807  24.484   6.956  1.00 49.61           C  
+ATOM      4  O   GLY B 575      61.024  23.540   6.826  1.00 49.67           O  
+HETATM    5  N   GLZ B 576      61.806  25.571   6.173  1.00 49.29           N  
+HETATM    6  CA  GLZ B 576      60.831  25.858   5.132  1.00 48.91           C  
+HETATM    7  C   GLZ B 576      61.440  25.805   3.733  1.00 48.78           C  
+HETATM    8  O   GLZ B 576      61.066  26.593   2.870  1.00 48.94           O  
+CONECT    5    3    6
+CONECT    6    5    7
+CONECT    7    6    8
+CONECT    7    8
+CONECT    8    7
+CONECT    8    7
+ENDMDL
+END   

@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2ZK4
+MODEL        1
+ATOM      1  N   CYS A 285      18.087  69.581  12.855  1.00 58.25           N1+
+ATOM      2  CA  CYS A 285      18.090  68.279  13.532  1.00 59.37           C  
+ATOM      3  C   CYS A 285      17.696  68.385  15.023  1.00 58.90           C  
+ATOM      4  O   CYS A 285      16.925  67.549  15.494  1.00 58.66           O  
+ATOM      5  CB  CYS A 285      19.490  67.647  13.327  1.00 61.60           C  
+ATOM      6  SG  CYS A 285      19.687  66.059  14.206  1.00 68.30           S  
+TER       7      CYS A 285
+HETATM    8  C1  OCR A   1      12.416  61.802  14.055  1.00 77.05           C  
+HETATM    9  C2  OCR A   1      13.725  62.549  13.797  1.00 76.73           C  
+HETATM   10  C3  OCR A   1      14.769  62.315  14.887  1.00 77.37           C  
+HETATM   11  C4  OCR A   1      16.046  63.116  14.632  1.00 78.19           C  
+HETATM   12  C5  OCR A   1      17.248  62.651  15.487  1.00 78.71           C  
+HETATM   13  C6  OCR A   1      18.593  63.218  15.008  1.00 77.75           C  
+HETATM   14  O7  OCR A   1      19.521  63.314  15.813  1.00 78.92           O  
+HETATM   15  C8  OCR A   1      18.710  63.578  13.578  1.00 77.88           C  
+HETATM   16  C9  OCR A   1      19.116  64.778  13.110  1.00 74.50           C  
+HETATM   17  C11 OCR A   1      19.023  65.070  11.689  1.00 75.72           C  
+HETATM   18  C12 OCR A   1      17.850  64.997  11.032  1.00 74.83           C  
+HETATM   19  C13 OCR A   1      17.564  65.327   9.576  1.00 74.12           C  
+HETATM   20  C14 OCR A   1      18.662  66.086   8.848  1.00 72.54           C  
+HETATM   21  C15 OCR A   1      18.802  67.422   8.787  1.00 71.36           C  
+HETATM   22  C16 OCR A   1      17.959  68.465   9.494  1.00 70.30           C  
+HETATM   23  C17 OCR A   1      17.393  69.472   8.512  1.00 69.63           C  
+HETATM   24  C18 OCR A   1      16.087  69.669   8.271  1.00 69.99           C  
+HETATM   25  C19 OCR A   1      14.961  68.903   8.940  1.00 71.10           C  
+HETATM   26  C20 OCR A   1      13.570  69.384   8.488  1.00 71.33           C  
+HETATM   27  C21 OCR A   1      12.383  68.951   9.378  1.00 71.79           C  
+HETATM   28  C22 OCR A   1      12.035  67.465   9.319  1.00 72.26           C  
+HETATM   29  O23 OCR A   1      10.834  67.165   9.479  1.00 72.19           O1-
+HETATM   30  O24 OCR A   1      12.952  66.647   9.096  1.00 71.41           O  
+CONECT    8    9
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12   14   15
+CONECT   13   14
+CONECT   14   13
+CONECT   14   13
+CONECT   15   13   16
+CONECT   15   16
+CONECT   16    6   15   17
+CONECT   16   15
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   27   29   30
+CONECT   28   30
+CONECT   29   28
+CONECT   30   28
+CONECT   30   28
+ENDMDL
+END   

@@ -1,0 +1,62 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5WIB
+MODEL        1
+ATOM      1  N   SER B  79      27.128   1.869  60.939  1.00 39.03           N1+
+ATOM      2  CA  SER B  79      28.012   2.475  59.947  1.00 41.05           C  
+ATOM      3  C   SER B  79      27.273   3.205  58.804  1.00 38.89           C  
+ATOM      4  O   SER B  79      27.846   4.140  58.262  1.00 38.40           O  
+ATOM      5  CB  SER B  79      28.963   1.417  59.352  1.00 42.51           C  
+ATOM      6  OG  SER B  79      29.857   0.814  60.285  1.00 45.88           O  
+TER       7      SER B  79
+HETATM    8  C7  ID1 B 301      29.489  -0.296  60.959  1.00 45.75           C  
+HETATM    9  C2  ID1 B 301      31.645  -3.768  60.670  1.00 55.33           C  
+HETATM   10  C6  ID1 B 301      30.628  -0.987  61.716  1.00 50.23           C  
+HETATM   11  C5  ID1 B 301      31.814  -1.449  60.812  1.00 48.92           C  
+HETATM   12  C3  ID1 B 301      31.152  -3.264  59.543  1.00 46.95           C  
+HETATM   13  O7  ID1 B 301      28.350  -0.748  61.029  1.00 35.93           O  
+HETATM   14  C61 ID1 B 301      31.053  -0.140  62.928  1.00 61.54           C  
+HETATM   15  O62 ID1 B 301      32.045  -0.782  63.699  1.00 74.65           O  
+HETATM   16  C62 ID1 B 301      29.922   0.136  63.918  1.00 63.08           C  
+HETATM   17  N4  ID1 B 301      31.373  -1.907  59.491  1.00 48.09           N  
+HETATM   18  C31 ID1 B 301      30.107  -3.876  58.584  1.00 65.41           C  
+HETATM   19  O31 ID1 B 301      29.213  -3.117  58.151  1.00 40.89           O1-
+HETATM   20  O32 ID1 B 301      30.255  -5.092  58.342  1.00 54.34           O  
+HETATM   21  S21 ID1 B 301      30.951  -5.145  61.522  1.00 63.63           S  
+HETATM   22  C22 ID1 B 301      32.302  -6.313  61.581  1.00 73.74           C  
+HETATM   23  C23 ID1 B 301      32.526  -6.973  60.225  1.00 77.01           C  
+HETATM   24  N24 ID1 B 301      33.128  -8.291  60.413  1.00 73.53           N1+
+HETATM   25  C25 ID1 B 301      32.481  -9.277  61.051  1.00 77.82           C  
+HETATM   26  N26 ID1 B 301      33.054 -10.464  61.294  1.00 91.38           N  
+HETATM   27  C1  ID1 B 301      32.422  -2.734  61.418  1.00 51.76           C  
+CONECT    8    6   10   13
+CONECT    8   13
+CONECT    9   12   21   27
+CONECT    9   12
+CONECT   10    8   11   14
+CONECT   11   10   17   27
+CONECT   12    9   17   18
+CONECT   12    9
+CONECT   13    8
+CONECT   13    8
+CONECT   14   10   15   16
+CONECT   15   14
+CONECT   16   14
+CONECT   17   11   12
+CONECT   18   12   19   20
+CONECT   18   20
+CONECT   19   18
+CONECT   20   18
+CONECT   20   18
+CONECT   21    9   22
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26   25
+CONECT   27    9   11
+ENDMDL
+END   

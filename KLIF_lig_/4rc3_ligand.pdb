@@ -1,0 +1,88 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4rc3_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  OAC Q3O A 401      -5.185  10.511  45.551  1.00  0.00           O  
+HETATM    2  CAK Q3O A 401      -5.028  11.793  44.908  1.00  0.00           C  
+HETATM    3  CAM Q3O A 401      -3.596  12.112  44.573  1.00  0.00           C  
+HETATM    4  O1  Q3O A 401      -3.096  12.816  45.711  1.00  0.00           O  
+HETATM    5  CAO Q3O A 401      -3.098  14.230  45.633  1.00  0.00           C  
+HETATM    6  CAQ Q3O A 401      -1.755  14.698  46.129  1.00  0.00           C  
+HETATM    7  NAU Q3O A 401      -1.219  15.560  45.066  1.00  0.00           N  
+HETATM    8  CAY Q3O A 401      -0.523  15.160  43.963  1.00  0.00           C  
+HETATM    9  CAI Q3O A 401      -0.328  13.818  43.578  1.00  0.00           C  
+HETATM   10  CAJ Q3O A 401       0.449  13.508  42.433  1.00  0.00           C  
+HETATM   11  CBE Q3O A 401       0.069  16.195  43.198  1.00  0.00           C  
+HETATM   12  CBA Q3O A 401      -0.095  17.571  43.553  1.00  0.00           C  
+HETATM   13  OAA Q3O A 401      -0.838  17.914  44.682  1.00  0.00           O  
+HETATM   14  CBC Q3O A 401       0.467  18.611  42.813  1.00  0.00           C  
+HETATM   15  CAW Q3O A 401       0.282  19.946  43.120  1.00  0.00           C  
+HETATM   16  OAE Q3O A 401      -0.464  20.284  44.214  1.00  0.00           O  
+HETATM   17  CAG Q3O A 401       0.835  20.927  42.343  1.00  0.00           C  
+HETATM   18  CAH Q3O A 401       1.550  20.567  41.221  1.00  0.00           C  
+HETATM   19  CAX Q3O A 401       1.695  19.250  40.917  1.00  0.00           C  
+HETATM   20  OAF Q3O A 401       2.380  18.795  39.829  1.00  0.00           O  
+HETATM   21  CBD Q3O A 401       1.177  18.265  41.708  1.00  0.00           C  
+HETATM   22  CBB Q3O A 401       1.384  16.931  41.337  1.00  0.00           C  
+HETATM   23  OAB Q3O A 401       2.136  16.673  40.160  1.00  0.00           O  
+HETATM   24  CBF Q3O A 401       0.841  15.870  42.050  1.00  0.00           C  
+HETATM   25  CAZ Q3O A 401       1.018  14.524  41.638  1.00  0.00           C  
+HETATM   26  NAV Q3O A 401       1.744  14.320  40.501  1.00  0.00           N  
+HETATM   27  CAR Q3O A 401       1.760  13.096  39.633  1.00  0.00           C  
+HETATM   28  CAP Q3O A 401       0.501  12.140  39.505  1.00  0.00           C  
+HETATM   29  O2  Q3O A 401       0.876  10.690  39.456  1.00  0.00           O  
+HETATM   30  CAN Q3O A 401       2.034  10.200  40.245  1.00  0.00           C  
+HETATM   31  CAL Q3O A 401       1.984   8.708  40.557  1.00  0.00           C  
+HETATM   32  OAD Q3O A 401       2.807   8.590  41.737  1.00  0.00           O  
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    5    7
+CONECT    7    6    8
+CONECT    8    7    9   11
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    9   25
+CONECT   10   25
+CONECT   11    8   12   24
+CONECT   11   24
+CONECT   12   11   13   14
+CONECT   12   13
+CONECT   13   12
+CONECT   13   12
+CONECT   14   12   15   21
+CONECT   14   21
+CONECT   15   14   16   17
+CONECT   15   17
+CONECT   16   15
+CONECT   17   15   18
+CONECT   17   15
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20   21
+CONECT   19   18
+CONECT   20   19
+CONECT   21   14   19   22
+CONECT   21   14
+CONECT   22   21   23   24
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   11   22   25
+CONECT   24   11
+CONECT   25   10   24   26
+CONECT   25   10
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   27   29
+CONECT   29   28   30
+CONECT   30   29   31
+CONECT   31   30   32
+CONECT   32   31
+ENDMDL
+END   

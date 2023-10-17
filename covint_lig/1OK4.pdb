@@ -1,0 +1,37 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1OK4
+MODEL        1
+ATOM      1  N   LYS A 177      -3.766 123.375  12.215  1.00  6.07           N1+
+ATOM      2  CA  LYS A 177      -2.582 124.035  12.734  1.00  6.90           C  
+ATOM      3  C   LYS A 177      -1.404 123.073  12.547  1.00  6.78           C  
+ATOM      4  O   LYS A 177      -1.450 121.933  13.008  1.00  6.77           O  
+ATOM      5  CB  LYS A 177      -2.826 124.455  14.193  1.00  7.67           C  
+ATOM      6  CG  LYS A 177      -1.677 125.280  14.799  1.00 11.68           C  
+ATOM      7  CD  LYS A 177      -1.910 125.545  16.288  1.00 15.75           C  
+ATOM      8  CE  LYS A 177      -0.717 126.203  16.991  1.00 18.28           C  
+ATOM      9  NZ  LYS A 177      -0.920 126.129  18.427  1.00 19.87           N1+
+TER      10      LYS A 177
+HETATM   11  P   13P A1254       3.064 128.693  19.856  1.00 12.38           P  
+HETATM   12  O1P 13P A1254       3.819 127.458  19.411  1.00 14.59           O  
+HETATM   13  O2P 13P A1254       3.620 129.269  21.143  1.00 11.61           O1-
+HETATM   14  O3P 13P A1254       2.923 129.739  18.773  1.00 13.40           O1-
+HETATM   15  O1  13P A1254       1.544 128.209  20.200  1.00 14.24           O  
+HETATM   16  C1  13P A1254       0.741 127.817  19.092  1.00 16.31           C  
+HETATM   17  C2  13P A1254       0.284 126.350  19.226  1.00 20.22           C  
+HETATM   18  C3  13P A1254      -0.097 125.972  20.669  1.00 21.64           C  
+HETATM   19  O3  13P A1254      -0.241 124.573  20.802  1.00 25.47           O  
+CONECT   11   12   13   14   15
+CONECT   11   12
+CONECT   12   11
+CONECT   12   11
+CONECT   13   11
+CONECT   14   11
+CONECT   15   11   16
+CONECT   16   15   17
+CONECT   17    9   16   18
+CONECT   18   17   19
+CONECT   19   18
+ENDMDL
+END   

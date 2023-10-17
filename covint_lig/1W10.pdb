@@ -1,0 +1,82 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1W10
+MODEL        1
+ATOM      1  N   SER U 195      24.430   4.303  28.349  1.00 11.92           N1+
+ATOM      2  CA  SER U 195      24.397   4.449  29.807  1.00 12.28           C  
+ATOM      3  C   SER U 195      23.119   3.897  30.434  1.00 13.55           C  
+ATOM      4  O   SER U 195      22.068   3.871  29.799  1.00 14.70           O  
+ATOM      5  CB  SER U 195      24.533   5.916  30.185  1.00 12.38           C  
+ATOM      6  OG  SER U 195      25.884   6.286  29.962  1.00 15.24           O  
+TER       7      SER U 195
+HETATM    8  N1  SJ1 U1245      34.132   4.793  27.223  1.00 15.44           N1+
+HETATM    9  C2  SJ1 U1245      32.959   4.460  27.768  1.00 16.42           C  
+HETATM   10  N2  SJ1 U1245      32.716   3.178  28.050  1.00 16.46           N  
+HETATM   11  N3  SJ1 U1245      32.040   5.407  28.011  1.00 17.84           N  
+HETATM   12  C3  SJ1 U1245      30.695   5.156  28.538  1.00 15.98           C  
+HETATM   13  C4  SJ1 U1245      29.884   6.451  28.555  1.00 16.88           C  
+HETATM   14  C5  SJ1 U1245      28.441   6.250  29.036  1.00 16.59           C  
+HETATM   15  C6  SJ1 U1245      27.672   7.587  29.066  1.00 16.84           C  
+HETATM   16  C7  SJ1 U1245      26.168   7.409  29.295  1.00 16.91           C  
+HETATM   17  O1  SJ1 U1245      25.341   8.263  28.988  1.00 18.09           O  
+HETATM   18  N4  SJ1 U1245      28.191   8.396  30.158  1.00 15.81           N  
+HETATM   19  C8  SJ1 U1245      28.409   9.712  30.074  1.00 17.84           C  
+HETATM   20  O2  SJ1 U1245      28.244  10.361  29.041  1.00 15.39           O  
+HETATM   21  C9  SJ1 U1245      28.877  10.406  31.356  1.00 17.93           C  
+HETATM   22  C10 SJ1 U1245      27.750  11.322  31.856  1.00 16.24           C  
+HETATM   23  N5  SJ1 U1245      30.069  11.217  31.123  1.00 18.96           N  
+HETATM   24  C11 SJ1 U1245      31.273  10.765  30.733  1.00 22.53           C  
+HETATM   25  O3  SJ1 U1245      31.506   9.580  30.484  1.00 19.96           O  
+HETATM   26  C12 SJ1 U1245      32.379  11.824  30.636  1.00 24.57           C  
+HETATM   27  C13 SJ1 U1245      33.179  11.864  31.955  1.00 24.89           C  
+HETATM   28  O4  SJ1 U1245      33.785  10.624  32.276  1.00 29.97           O  
+HETATM   29  N6  SJ1 U1245      33.308  11.507  29.549  1.00 28.51           N  
+HETATM   30  C14 SJ1 U1245      33.410  12.083  28.291  1.00 35.08           C  
+HETATM   31  O5  SJ1 U1245      34.237  11.761  27.438  1.00 36.24           O  
+HETATM   32  O6  SJ1 U1245      32.503  13.068  28.152  1.00 38.38           O  
+HETATM   33  C15 SJ1 U1245      32.536  13.960  27.046  1.00 41.86           C  
+HETATM   34  C16 SJ1 U1245      31.513  13.584  25.958  1.00 42.88           C  
+HETATM   35  C17 SJ1 U1245      32.010  12.435  25.067  1.00 45.64           C  
+HETATM   36  C18 SJ1 U1245      31.168  14.812  25.104  1.00 43.30           C  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10   11
+CONECT    9    8
+CONECT   10    9
+CONECT   11    9   12
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   16   18
+CONECT   16    6   15   17
+CONECT   16   17
+CONECT   17   16
+CONECT   17   16
+CONECT   18   15   19
+CONECT   19   18   20   21
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   19   22   23
+CONECT   22   21
+CONECT   23   21   24
+CONECT   24   23   25   26
+CONECT   24   25
+CONECT   25   24
+CONECT   25   24
+CONECT   26   24   27   29
+CONECT   27   26   28
+CONECT   28   27
+CONECT   29   26   30
+CONECT   30   29   31   32
+CONECT   30   31
+CONECT   31   30
+CONECT   31   30
+CONECT   32   30   33
+CONECT   33   32   34
+CONECT   34   33   35   36
+CONECT   35   34
+CONECT   36   34
+ENDMDL
+END   

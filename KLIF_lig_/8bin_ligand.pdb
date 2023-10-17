@@ -1,0 +1,73 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     8bin_ligand
+MODEL        1
+HETATM    1  N1  QRR A1005      -0.663  20.279  44.351  1.00  0.00           N  
+HETATM    2  C7  QRR A1005       3.108  20.622  38.454  1.00  0.00           C  
+HETATM    3  C8  QRR A1005       3.891  21.227  37.495  1.00  0.00           C  
+HETATM    4  N2  QRR A1005       1.995  18.056  42.071  1.00  0.00           N  
+HETATM    5  C9  QRR A1005       5.059  21.869  37.835  1.00  0.00           C  
+HETATM    6  C1  QRR A1005      -0.487  18.956  44.469  1.00  0.00           C  
+HETATM    7  C5  QRR A1005       2.665  20.062  40.843  1.00  0.00           C  
+HETATM    8  C6  QRR A1005       3.497  20.684  39.796  1.00  0.00           C  
+HETATM    9  N3  QRR A1005      -0.146  15.012  38.187  1.00  0.00           N1+
+HETATM   10  C4  QRR A1005       1.795  20.795  41.586  1.00  0.00           C  
+HETATM   11  C3  QRR A1005       0.971  20.212  42.582  1.00  0.00           C  
+HETATM   12  C2  QRR A1005       0.075  20.893  43.415  1.00  0.00           C  
+HETATM   13  N4  QRR A1005       0.353  18.188  43.750  1.00  0.00           N  
+HETATM   14  O   QRR A1005       3.587  17.874  40.441  1.00  0.00           O  
+HETATM   15  C12 QRR A1005       2.800  18.599  41.067  1.00  0.00           C  
+HETATM   16  C13 QRR A1005       2.155  16.620  42.341  1.00  0.00           C  
+HETATM   17  C14 QRR A1005       1.066  15.747  41.761  1.00  0.00           C  
+HETATM   18  C15 QRR A1005       0.909  15.921  40.277  1.00  0.00           C  
+HETATM   19  C16 QRR A1005       0.233  14.734  39.620  1.00  0.00           C  
+HETATM   20  C17 QRR A1005       1.073  18.816  42.812  1.00  0.00           C  
+HETATM   21  N   QRR A1005      -1.207  18.337  45.412  1.00  0.00           N  
+HETATM   22  C   QRR A1005      -1.028  16.938  45.745  1.00  0.00           C  
+HETATM   23  C11 QRR A1005       4.690  21.343  40.112  1.00  0.00           C  
+HETATM   24 CL   QRR A1005       5.271  21.415  41.728  1.00  0.00          Cl  
+HETATM   25  C10 QRR A1005       5.479  21.913  39.145  1.00  0.00           C  
+CONECT    1    6   12
+CONECT    1   12
+CONECT    2    3    8
+CONECT    2    3
+CONECT    3    2    5
+CONECT    3    2
+CONECT    4   15   16   20
+CONECT    5    3   25
+CONECT    5   25
+CONECT    6    1   13   21
+CONECT    6   13
+CONECT    7    8   10   15
+CONECT    7   10
+CONECT    8    2    7   23
+CONECT    8   23
+CONECT    9   19
+CONECT   10    7   11
+CONECT   10    7
+CONECT   11   10   12   20
+CONECT   11   20
+CONECT   12    1   11
+CONECT   12    1
+CONECT   13    6   20
+CONECT   13    6
+CONECT   14   15
+CONECT   14   15
+CONECT   15    4    7   14
+CONECT   15   14
+CONECT   16    4   17
+CONECT   17   16   18
+CONECT   18   17   19
+CONECT   19    9   18
+CONECT   20    4   11   13
+CONECT   20   11
+CONECT   21    6   22
+CONECT   22   21
+CONECT   23    8   24   25
+CONECT   23    8
+CONECT   24   23
+CONECT   25    5   23
+CONECT   25    5
+ENDMDL
+END   

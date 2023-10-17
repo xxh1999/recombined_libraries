@@ -1,0 +1,73 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7a5l_ligand
+MODEL        1
+HETATM    1  C1  QZW A 501      -0.747  18.310  45.588  1.00  0.00           C  
+HETATM    2  N1  QZW A 501       0.298  17.838  43.440  1.00  0.00           N  
+HETATM    3  O1  QZW A 501       1.280  17.334  41.409  1.00  0.00           O  
+HETATM    4  S1  QZW A 501       3.881  13.506  40.251  1.00  0.00           S  
+HETATM    5  C2  QZW A 501      -0.147  18.766  44.304  1.00  0.00           C  
+HETATM    6  N2  QZW A 501       0.640  21.751  42.527  1.00  0.00           N  
+HETATM    7  C3  QZW A 501       0.821  18.228  42.287  1.00  0.00           C  
+HETATM    8  N3  QZW A 501       2.825  21.488  36.361  1.00  0.00           N  
+HETATM    9  C4  QZW A 501       1.092  15.940  41.719  1.00  0.00           C  
+HETATM   10  N4  QZW A 501       3.339  19.416  37.156  1.00  0.00           N  
+HETATM   11  C5  QZW A 501       2.026  15.141  40.866  1.00  0.00           C  
+HETATM   12  N5  QZW A 501      -0.069  20.091  44.123  1.00  0.00           N  
+HETATM   13  C6  QZW A 501       2.931  14.274  41.424  1.00  0.00           C  
+HETATM   14  C7  QZW A 501       3.075  14.249  38.984  1.00  0.00           C  
+HETATM   15  C8  QZW A 501       2.150  15.121  39.443  1.00  0.00           C  
+HETATM   16  C9  QZW A 501       0.936  19.584  41.956  1.00  0.00           C  
+HETATM   17  C10 QZW A 501       0.464  20.477  42.958  1.00  0.00           C  
+HETATM   18  C11 QZW A 501       1.255  21.702  41.293  1.00  0.00           C  
+HETATM   19  C12 QZW A 501       1.468  20.404  40.887  1.00  0.00           C  
+HETATM   20  C13 QZW A 501       2.089  20.029  39.591  1.00  0.00           C  
+HETATM   21  C14 QZW A 501       2.185  20.965  38.571  1.00  0.00           C  
+HETATM   22  C15 QZW A 501       2.804  20.623  37.375  1.00  0.00           C  
+HETATM   23  C16 QZW A 501       3.270  18.517  38.145  1.00  0.00           C  
+HETATM   24  C17 QZW A 501       2.674  18.789  39.364  1.00  0.00           C  
+CONECT    1    5
+CONECT    2    5    7
+CONECT    2    5
+CONECT    3    7    9
+CONECT    4   13   14
+CONECT    5    1    2   12
+CONECT    5    2
+CONECT    6   17   18
+CONECT    7    2    3   16
+CONECT    7   16
+CONECT    8   22
+CONECT    9    3   11
+CONECT   10   22   23
+CONECT   10   22
+CONECT   11    9   13   15
+CONECT   11   13
+CONECT   12    5   17
+CONECT   12   17
+CONECT   13    4   11
+CONECT   13   11
+CONECT   14    4   15
+CONECT   14   15
+CONECT   15   11   14
+CONECT   15   14
+CONECT   16    7   17   19
+CONECT   16    7
+CONECT   17    6   12   16
+CONECT   17   12
+CONECT   18    6   19
+CONECT   18   19
+CONECT   19   16   18   20
+CONECT   19   18
+CONECT   20   19   21   24
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22    8   10   21
+CONECT   22   10
+CONECT   23   10   24
+CONECT   23   24
+CONECT   24   20   23
+CONECT   24   23
+ENDMDL
+END   

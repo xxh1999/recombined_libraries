@@ -1,0 +1,32 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5IVK
+MODEL        1
+ATOM      1  N   SER A 218      18.378  12.784 -25.076  0.02 16.43           N1+
+ATOM      2  CA  SER A 218      17.794  12.152 -23.891  0.02 16.43           C  
+ATOM      3  C   SER A 218      18.904  11.550 -23.021  0.02 16.33           C  
+ATOM      4  O   SER A 218      19.767  12.293 -22.563  0.02 16.30           O  
+ATOM      5  CB  SER A 218      16.637  11.210 -24.265  0.02 16.50           C  
+ATOM      6  OG  SER A 218      15.885  10.893 -23.107  0.02 16.54           O  
+TER       7      SER A 218
+HETATM    8  P1  DPF A 601      15.540   9.344 -22.768  0.02 16.58           P  
+HETATM    9  O2  DPF A 601      16.618   8.382 -23.131  0.02 16.47           O  
+HETATM   10  O3  DPF A 601      15.131   9.386 -21.194  0.02 16.65           O  
+HETATM   11  C1  DPF A 601      14.251  10.352 -20.639  0.02 16.75           C  
+HETATM   12  C4  DPF A 601      12.777  10.087 -20.975  0.02 16.88           C  
+HETATM   13  O1  DPF A 601      14.106   9.150 -23.512  0.02 16.71           O  
+HETATM   14  C2  DPF A 601      14.022   8.737 -24.858  0.02 16.71           C  
+HETATM   15  C3  DPF A 601      14.194   7.221 -24.947  0.02 16.69           C  
+CONECT    8    6    9   10   13
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8   11
+CONECT   11   10   12
+CONECT   12   11
+CONECT   13    8   14
+CONECT   14   13   15
+CONECT   15   14
+ENDMDL
+END   

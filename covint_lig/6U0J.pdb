@@ -1,0 +1,70 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6U0J
+MODEL        1
+ATOM      1  N   CYS A  92     -18.906  -6.586  17.291  1.00 11.54           N1+
+ATOM      2  CA  CYS A  92     -19.788  -7.755  17.237  1.00 12.76           C  
+ATOM      3  C   CYS A  92     -20.638  -7.722  15.952  1.00 10.03           C  
+ATOM      4  O   CYS A  92     -20.076  -7.757  14.857  1.00 11.33           O  
+ATOM      5  CB  CYS A  92     -20.570  -7.911  18.558  1.00 15.26           C  
+ATOM      6  SG  CYS A  92     -19.458  -7.807  19.987  1.00 27.17           S  
+TER       7      CYS A  92
+HETATM    8  OAG 9EF B 101     -24.270   2.597  28.760  1.00 19.45           O  
+HETATM    9  PAW 9EF B 101     -23.261   2.241  29.780  1.00 36.53           P  
+HETATM   10  OAH 9EF B 101     -21.864   2.709  29.633  1.00 23.34           O1-
+HETATM   11  OAR 9EF B 101     -23.273   0.567  29.970  1.00 25.45           O  
+HETATM   12  CAN 9EF B 101     -22.382  -0.103  30.840  1.00 27.55           C  
+HETATM   13  CAX 9EF B 101     -22.341  -1.577  30.392  1.00 22.59           C  
+HETATM   14  CAB 9EF B 101     -21.456  -2.403  31.354  1.00 18.97           C  
+HETATM   15  CAC 9EF B 101     -23.785  -2.125  30.513  1.00 22.11           C  
+HETATM   16  CAV 9EF B 101     -21.791  -1.620  28.925  1.00 15.59           C  
+HETATM   17  OAI 9EF B 101     -20.392  -1.375  28.905  1.00 17.55           O  
+HETATM   18  CAU 9EF B 101     -22.134  -2.892  28.134  1.00 18.65           C  
+HETATM   19  OAF 9EF B 101     -23.264  -3.027  27.662  1.00 19.14           O  
+HETATM   20  NAQ 9EF B 101     -21.172  -3.808  27.975  1.00 13.91           N  
+HETATM   21  CAL 9EF B 101     -21.338  -5.085  27.308  1.00 16.70           C  
+HETATM   22  CAM 9EF B 101     -21.353  -4.938  25.778  1.00 15.51           C  
+HETATM   23  CAT 9EF B 101     -21.434  -6.314  25.127  1.00 17.24           C  
+HETATM   24  OAE 9EF B 101     -20.402  -6.867  24.750  1.00 17.07           O  
+HETATM   25  NAP 9EF B 101     -22.659  -6.861  25.042  1.00 17.88           N  
+HETATM   26  CAK 9EF B 101     -22.966  -8.224  24.608  1.00 17.23           C  
+HETATM   27  CAJ 9EF B 101     -23.589  -8.261  23.199  1.00 20.83           C  
+HETATM   28  NAO 9EF B 101     -22.746  -7.579  22.231  1.00 16.10           N  
+HETATM   29  CAS 9EF B 101     -21.601  -8.095  21.770  1.00 25.15           C  
+HETATM   30  OAD 9EF B 101     -21.302  -9.282  21.895  1.00 25.24           O  
+HETATM   31  CAA 9EF B 101     -20.611  -7.099  21.184  1.00 28.32           C  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10   11
+CONECT    9    8
+CONECT   10    9
+CONECT   11    9   12
+CONECT   12   11   13
+CONECT   13   12   14   15   16
+CONECT   14   13
+CONECT   15   13
+CONECT   16   13   17   18
+CONECT   17   16
+CONECT   18   16   19   20
+CONECT   18   19
+CONECT   19   18
+CONECT   19   18
+CONECT   20   18   21
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   23   22   24   25
+CONECT   23   24
+CONECT   24   23
+CONECT   24   23
+CONECT   25   23   26
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   27   29
+CONECT   29   28   30   31
+CONECT   29   30
+CONECT   30   29
+CONECT   30   29
+CONECT   31    6   29
+ENDMDL
+END   

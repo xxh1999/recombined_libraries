@@ -1,0 +1,18 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1X3Z
+MODEL        1
+ATOM      1  N   ASP I   3      68.106  43.085  82.642  1.00 52.47           N1+
+ATOM      2  CA  ASP I   3      68.348  41.786  82.015  1.00 53.56           C  
+ATOM      3  C   ASP I   3      69.829  41.408  82.182  1.00 53.93           C  
+ATOM      4  O   ASP I   3      70.718  41.660  81.369  1.00 54.14           O  
+ATOM      5  CB  ASP I   3      68.000  41.850  80.509  1.00 53.78           C  
+ATOM      6  CG  ASP I   3      66.525  42.149  80.230  1.00 54.77           C  
+ATOM      7  OD1 ASP I   3      66.265  42.886  79.257  1.00 55.60           O  
+ATOM      8  OD2 ASP I   3      65.676  41.611  80.974  1.00 54.72           O1-
+TER       9      ASP I   3
+HETATM   10  C1  CF0 I   4      70.171  40.617  83.429  1.00 54.08           C  
+CONECT   10    3
+ENDMDL
+END   

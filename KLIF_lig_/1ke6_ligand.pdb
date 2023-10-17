@@ -1,0 +1,80 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1ke6_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N1  LS2 A 299       0.412  20.504  41.977  1.00  0.00           N  
+HETATM    2  C2  LS2 A 299      -0.252  19.655  42.819  1.00  0.00           C  
+HETATM    3  C3  LS2 A 299      -0.188  18.270  42.269  1.00  0.00           C  
+HETATM    4  C4  LS2 A 299       1.013  17.387  40.084  1.00  0.00           C  
+HETATM    5  C5  LS2 A 299       1.911  17.831  38.950  1.00  0.00           C  
+HETATM    6  C6  LS2 A 299       2.296  19.240  38.822  1.00  0.00           C  
+HETATM    7  C7  LS2 A 299       1.803  20.244  39.811  1.00  0.00           C  
+HETATM    8  C8  LS2 A 299       0.961  19.795  40.944  1.00  0.00           C  
+HETATM    9  C9  LS2 A 299       0.589  18.391  41.063  1.00  0.00           C  
+HETATM   10  O11 LS2 A 299      -0.840  19.906  43.872  1.00  0.00           O  
+HETATM   11  N12 LS2 A 299      -0.779  17.090  42.868  1.00  0.00           N  
+HETATM   12  S13 LS2 A 299       0.676  15.726  39.972  1.00  0.00           S  
+HETATM   13  C14 LS2 A 299       1.671  15.547  38.593  1.00  0.00           C  
+HETATM   14  N15 LS2 A 299       2.248  16.709  38.186  1.00  0.00           N  
+HETATM   15  N19 LS2 A 299      -1.772  17.100  43.630  1.00  0.00           N  
+HETATM   16  C21 LS2 A 299      -2.300  16.006  44.243  1.00  0.00           C  
+HETATM   17  C22 LS2 A 299      -2.609  16.118  45.689  1.00  0.00           C  
+HETATM   18  C23 LS2 A 299      -3.033  14.918  46.441  1.00  0.00           C  
+HETATM   19  C24 LS2 A 299      -3.187  13.618  45.738  1.00  0.00           C  
+HETATM   20  C25 LS2 A 299      -2.857  13.503  44.301  1.00  0.00           C  
+HETATM   21  C26 LS2 A 299      -2.520  14.697  43.536  1.00  0.00           C  
+HETATM   22  C29 LS2 A 299      -3.795  12.429  46.426  1.00  0.00           C  
+HETATM   23  S34 LS2 A 299      -5.422  11.920  45.864  1.00  0.00           S2+
+HETATM   24  O35 LS2 A 299      -6.223  13.093  45.613  1.00  0.00           O1-
+HETATM   25  O36 LS2 A 299      -5.941  10.912  46.754  1.00  0.00           O1-
+HETATM   26  N37 LS2 A 299      -5.272  11.140  44.419  1.00  0.00           N  
+HETATM   27  C39 LS2 A 299      -4.410   9.985  44.237  1.00  0.00           C  
+CONECT    1    2    8
+CONECT    2    1    3   10
+CONECT    2   10
+CONECT    3    2    9   11
+CONECT    3   11
+CONECT    4    5    9   12
+CONECT    4    9
+CONECT    5    4    6   14
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    6    8
+CONECT    7    8
+CONECT    8    1    7    9
+CONECT    8    7
+CONECT    9    3    4    8
+CONECT    9    4
+CONECT   10    2
+CONECT   10    2
+CONECT   11    3   15
+CONECT   11    3
+CONECT   12    4   13
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14    5   13
+CONECT   14   13
+CONECT   15   11   16
+CONECT   16   15   17   21
+CONECT   16   21
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   18   20   22
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   16   20
+CONECT   21   16
+CONECT   22   19   23
+CONECT   23   22   24   25   26
+CONECT   24   23
+CONECT   25   23
+CONECT   26   23   27
+CONECT   27   26
+ENDMDL
+END   

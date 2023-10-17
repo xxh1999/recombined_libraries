@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4byj_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1 CL   FH5 A   1       1.621  19.332  41.409  1.00  0.00          Cl  
+HETATM    2  C02 FH5 A   1       0.520  18.983  42.712  1.00  0.00           C  
+HETATM    3  C03 FH5 A   1       0.059  20.052  43.493  1.00  0.00           C  
+HETATM    4  N04 FH5 A   1      -0.795  19.840  44.516  1.00  0.00           N  
+HETATM    5  C05 FH5 A   1      -1.246  18.569  44.825  1.00  0.00           C  
+HETATM    6  N06 FH5 A   1      -2.111  18.095  45.809  1.00  0.00           N  
+HETATM    7  C07 FH5 A   1      -2.219  16.739  45.676  1.00  0.00           C  
+HETATM    8  C08 FH5 A   1      -3.018  15.788  46.475  1.00  0.00           C  
+HETATM    9  C09 FH5 A   1      -3.123  14.442  46.197  1.00  0.00           C  
+HETATM   10  N10 FH5 A   1      -3.914  13.906  47.108  1.00  0.00           N  
+HETATM   11  C11 FH5 A   1      -4.268  12.549  47.168  1.00  0.00           C  
+HETATM   12  N12 FH5 A   1      -4.343  14.864  47.996  1.00  0.00           N  
+HETATM   13  C13 FH5 A   1      -3.799  16.038  47.619  1.00  0.00           C  
+HETATM   14  C14 FH5 A   1      -4.008  17.362  48.323  1.00  0.00           C  
+HETATM   15  N15 FH5 A   1      -1.441  16.364  44.629  1.00  0.00           N  
+HETATM   16  C16 FH5 A   1      -0.828  17.485  44.094  1.00  0.00           C  
+HETATM   17  C17 FH5 A   1       0.081  17.660  43.006  1.00  0.00           C  
+HETATM   18  N18 FH5 A   1       0.460  16.484  42.267  1.00  0.00           N  
+HETATM   19  C19 FH5 A   1       1.867  16.098  42.196  1.00  0.00           C  
+HETATM   20  C20 FH5 A   1       1.943  15.496  40.825  1.00  0.00           C  
+HETATM   21  N21 FH5 A   1       3.076  14.639  40.663  1.00  0.00           N  
+HETATM   22  C22 FH5 A   1       3.864  14.773  39.447  1.00  0.00           C  
+HETATM   23  C23 FH5 A   1       5.071  13.907  39.223  1.00  0.00           C  
+HETATM   24  O24 FH5 A   1       3.542  15.599  38.598  1.00  0.00           O  
+HETATM   25  C25 FH5 A   1       0.691  14.783  40.696  1.00  0.00           C  
+HETATM   26  C26 FH5 A   1      -0.289  15.686  41.318  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3   17
+CONECT    2   17
+CONECT    3    2    4
+CONECT    3    4
+CONECT    4    3    5
+CONECT    4    3
+CONECT    5    4    6   16
+CONECT    5   16
+CONECT    6    5    7
+CONECT    7    6    8   15
+CONECT    7   15
+CONECT    8    7    9   13
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    9   11   12
+CONECT   11   10
+CONECT   12   10   13
+CONECT   12   13
+CONECT   13    8   12   14
+CONECT   13   12
+CONECT   14   13
+CONECT   15    7   16
+CONECT   15    7
+CONECT   16    5   15   17
+CONECT   16    5
+CONECT   17    2   16   18
+CONECT   17    2
+CONECT   18   17   19   26
+CONECT   19   18   20
+CONECT   20   19   21   25
+CONECT   21   20   22
+CONECT   22   21   23   24
+CONECT   22   24
+CONECT   23   22
+CONECT   24   22
+CONECT   24   22
+CONECT   25   20   26
+CONECT   26   18   25
+ENDMDL
+END   

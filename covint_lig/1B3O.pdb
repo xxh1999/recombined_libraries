@@ -1,0 +1,68 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1B3O
+MODEL        1
+ATOM      1  N   CYS B 331      14.927 -17.056 -59.818  1.00 76.64           N1+
+ATOM      2  CA  CYS B 331      15.502 -17.673 -61.015  1.00 81.44           C  
+ATOM      3  C   CYS B 331      14.798 -18.832 -61.724  1.00 83.30           C  
+ATOM      4  O   CYS B 331      14.820 -18.849 -62.972  1.00 84.64           O  
+ATOM      5  CB  CYS B 331      16.974 -18.041 -60.748  1.00 82.37           C  
+ATOM      6  SG  CYS B 331      17.287 -18.872 -59.156  1.00 84.37           S  
+TER       7      CYS B 331
+HETATM    8  P   CPR B 631      19.859  -9.787 -55.957  1.00 29.44           P  
+HETATM    9  O1P CPR B 631      18.457  -9.370 -56.075  1.00 27.03           O  
+HETATM   10  O2P CPR B 631      20.677  -9.131 -54.904  1.00 27.72           O1-
+HETATM   11  O3P CPR B 631      20.505  -9.893 -57.260  1.00 26.97           O1-
+HETATM   12  O5' CPR B 631      19.718 -11.279 -55.441  1.00 28.99           O  
+HETATM   13  C5' CPR B 631      20.887 -12.058 -55.202  1.00 27.98           C  
+HETATM   14  C4' CPR B 631      20.543 -13.170 -54.257  1.00 28.12           C  
+HETATM   15  O4' CPR B 631      19.396 -13.878 -54.744  1.00 31.10           O  
+HETATM   16  C3' CPR B 631      21.663 -14.139 -54.377  1.00 27.87           C  
+HETATM   17  O3' CPR B 631      22.839 -13.943 -53.644  1.00 26.65           O  
+HETATM   18  C2' CPR B 631      20.940 -15.379 -53.915  1.00 30.32           C  
+HETATM   19  O2' CPR B 631      20.916 -15.451 -52.499  1.00 31.48           O  
+HETATM   20  C1' CPR B 631      19.542 -15.295 -54.513  1.00 33.25           C  
+HETATM   21  N9  CPR B 631      19.211 -16.197 -55.677  1.00 39.63           N  
+HETATM   22  C8  CPR B 631      19.982 -16.645 -56.705  1.00 42.46           C  
+HETATM   23  N7  CPR B 631      19.399 -17.522 -57.505  1.00 47.32           N  
+HETATM   24  C5  CPR B 631      18.230 -17.662 -56.930  1.00 48.95           C  
+HETATM   25  C6  CPR B 631      17.252 -18.552 -57.411  1.00 53.02           C  
+HETATM   26  N1  CPR B 631      16.082 -18.437 -56.712  1.00 54.61           N  
+HETATM   27  C2  CPR B 631      15.816 -17.610 -55.680  1.00 53.70           C  
+HETATM   28  N3  CPR B 631      16.844 -16.841 -55.227  1.00 51.48           N  
+HETATM   29  C4  CPR B 631      18.055 -16.819 -55.843  1.00 46.07           C  
+CONECT    8    9   10   11   12
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8
+CONECT   11    8
+CONECT   12    8   13
+CONECT   13   12   14
+CONECT   14   13   15   16
+CONECT   15   14   20
+CONECT   16   14   17   18
+CONECT   17   16
+CONECT   18   16   19   20
+CONECT   19   18
+CONECT   20   15   18   21
+CONECT   21   20   22   29
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   23   25   29
+CONECT   24   29
+CONECT   25    6   24   26
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   21   24   28
+CONECT   29   24
+ENDMDL
+END   

@@ -1,0 +1,36 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7A1E
+MODEL        1
+ATOM      1  N   CYS A 354      -9.441  -3.416  17.950  1.00 22.02           N1+
+ATOM      2  CA  CYS A 354      -9.020  -2.092  17.568  1.00 23.66           C  
+ATOM      3  C   CYS A 354      -9.450  -1.010  18.582  1.00 21.46           C  
+ATOM      4  O   CYS A 354     -10.376  -1.195  19.423  1.00 22.31           O  
+ATOM      5  CB  CYS A 354      -9.593  -1.769  16.173  1.00 26.66           C  
+ATOM      6  SG  CYS A 354      -8.770  -2.819  15.001  1.00 32.44           S  
+TER       7      CYS A 354
+HETATM    8  CAA SDQ A 501      -7.244  -6.886  15.917  0.50 35.83           C  
+HETATM    9  CAF SDQ A 501      -6.354  -7.714  16.575  0.50 39.58           C  
+HETATM   10  CAE SDQ A 501      -6.550  -9.083  16.666  0.50 41.35           C  
+HETATM   11  CAD SDQ A 501      -7.648  -9.635  16.049  0.50 38.53           C  
+HETATM   12  CAC SDQ A 501      -8.526  -8.803  15.383  0.50 37.47           C  
+HETATM   13  CAB SDQ A 501      -8.338  -7.434  15.299  0.50 38.95           C  
+HETATM   14  CAG SDQ A 501      -9.211  -6.633  14.630  0.50 40.31           C  
+HETATM   15  SAH SDQ A 501      -8.907  -4.875  15.038  0.50 46.20           S  
+CONECT    8    9   13
+CONECT    8   13
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13    8   12   14
+CONECT   13    8
+CONECT   14   13   15
+CONECT   15    6   14
+ENDMDL
+END   

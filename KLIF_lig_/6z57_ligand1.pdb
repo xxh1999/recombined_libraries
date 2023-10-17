@@ -1,0 +1,23 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6z57_ligand1
+MODEL        1
+HETATM    1  C1  MRD A 804     -11.399  19.210  11.400  1.00  0.00           C  
+HETATM    2  C2  MRD A 804     -11.530  19.040  12.912  1.00  0.00           C  
+HETATM    3  O2  MRD A 804     -10.569  18.080  13.338  1.00  0.00           O  
+HETATM    4  CM  MRD A 804     -11.153  20.345  13.607  1.00  0.00           C  
+HETATM    5  C3  MRD A 804     -12.938  18.467  13.233  1.00  0.00           C  
+HETATM    6  C4  MRD A 804     -13.914  19.316  14.086  1.00  0.00           C  
+HETATM    7  O4  MRD A 804     -14.897  18.445  14.615  1.00  0.00           O  
+HETATM    8  C5  MRD A 804     -14.696  20.415  13.353  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3    4    5
+CONECT    3    2
+CONECT    4    2
+CONECT    5    2    6
+CONECT    6    5    7    8
+CONECT    7    6
+CONECT    8    6
+ENDMDL
+END   

@@ -1,0 +1,81 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7s9x_ligand
+MODEL        1
+HETATM    1  C13 Q8K A 301       4.243  23.879  32.746  1.00  0.00           C  
+HETATM    2  C15 Q8K A 301       2.183  25.380  33.086  1.00  0.00           C  
+HETATM    3  C17 Q8K A 301       0.954  27.050  31.830  1.00  0.00           C  
+HETATM    4  C20 Q8K A 301       2.069  26.168  34.230  1.00  0.00           C  
+HETATM    5  C22 Q8K A 301      -0.167  28.954  31.387  1.00  0.00           C  
+HETATM    6  C24 Q8K A 301       0.043  27.550  29.442  1.00  0.00           C  
+HETATM    7  C26 Q8K A 301      -1.111  29.674  29.292  1.00  0.00           C  
+HETATM    8  C02 Q8K A 301       4.097  21.602  33.819  1.00  0.00           C  
+HETATM    9  C04 Q8K A 301       4.851  22.670  33.036  1.00  0.00           C  
+HETATM   10  C05 Q8K A 301       6.143  22.403  32.636  1.00  0.00           C  
+HETATM   11  C06 Q8K A 301       6.843  23.361  31.930  1.00  0.00           C  
+HETATM   12  C07 Q8K A 301       8.280  23.064  31.498  1.00  0.00           C  
+HETATM   13  C11 Q8K A 301       6.248  24.579  31.639  1.00  0.00           C  
+HETATM   14  C12 Q8K A 301       4.946  24.841  32.045  1.00  0.00           C  
+HETATM   15  C16 Q8K A 301       1.621  25.814  31.882  1.00  0.00           C  
+HETATM   16  C18 Q8K A 301       0.858  27.828  32.969  1.00  0.00           C  
+HETATM   17  C19 Q8K A 301       1.414  27.390  34.179  1.00  0.00           C  
+HETATM   18  C23 Q8K A 301       0.288  27.788  30.800  1.00  0.00           C  
+HETATM   19  C25 Q8K A 301      -0.650  28.497  28.704  1.00  0.00           C  
+HETATM   20  C27 Q8K A 301      -0.868  29.906  30.639  1.00  0.00           C  
+HETATM   21  F08 Q8K A 301       9.118  23.938  32.142  1.00  0.00           F  
+HETATM   22  F09 Q8K A 301       8.593  21.772  31.816  1.00  0.00           F  
+HETATM   23  F10 Q8K A 301       8.412  23.217  30.150  1.00  0.00           F  
+HETATM   24  N14 Q8K A 301       2.874  24.103  33.192  1.00  0.00           N  
+HETATM   25  N21 Q8K A 301       0.191  28.948  32.676  1.00  0.00           N  
+HETATM   26  O01 Q8K A 301       2.838  21.662  33.935  1.00  0.00           O  
+HETATM   27  O03 Q8K A 301       4.767  20.670  34.338  1.00  0.00           O1-
+CONECT    1    9   14   24
+CONECT    1   14
+CONECT    2    4   15   24
+CONECT    2   15
+CONECT    3   15   16   18
+CONECT    3   16
+CONECT    4    2   17
+CONECT    4   17
+CONECT    5   18   20   25
+CONECT    5   18
+CONECT    6   18   19
+CONECT    6   19
+CONECT    7   19   20
+CONECT    7   20
+CONECT    8    9   26   27
+CONECT    8   26
+CONECT    9    1    8   10
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11   10   12   13
+CONECT   11   13
+CONECT   12   11   21   22   23
+CONECT   13   11   14
+CONECT   13   11
+CONECT   14    1   13
+CONECT   14    1
+CONECT   15    2    3
+CONECT   15    2
+CONECT   16    3   17   25
+CONECT   16    3
+CONECT   17    4   16
+CONECT   17    4
+CONECT   18    3    5    6
+CONECT   18    5
+CONECT   19    6    7
+CONECT   19    6
+CONECT   20    5    7
+CONECT   20    7
+CONECT   21   12
+CONECT   22   12
+CONECT   23   12
+CONECT   24    1    2
+CONECT   25    5   16
+CONECT   26    8
+CONECT   26    8
+CONECT   27    8
+ENDMDL
+END   

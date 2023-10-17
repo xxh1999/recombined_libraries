@@ -1,0 +1,58 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2AGS
+MODEL        1
+ATOM      1  N   TYR A 343      33.179  -0.387   7.712  1.00  8.81           N1+
+ATOM      2  CA  TYR A 343      32.711   0.318   6.520  1.00  7.98           C  
+ATOM      3  C   TYR A 343      33.626   1.529   6.264  1.00  9.13           C  
+ATOM      4  O   TYR A 343      34.161   2.125   7.201  1.00  8.98           O  
+ATOM      5  CB  TYR A 343      31.258   0.806   6.720  1.00  8.79           C  
+ATOM      6  CG  TYR A 343      30.116  -0.206   6.720  1.00  8.50           C  
+ATOM      7  CD1 TYR A 343      30.293  -1.564   7.066  1.00  8.43           C  
+ATOM      8  CD2 TYR A 343      28.831   0.233   6.339  1.00 10.11           C  
+ATOM      9  CE1 TYR A 343      29.199  -2.450   7.054  1.00  9.38           C  
+ATOM     10  CE2 TYR A 343      27.736  -0.653   6.342  1.00 10.30           C  
+ATOM     11  CZ  TYR A 343      27.898  -1.992   6.750  1.00 11.59           C  
+ATOM     12  OH  TYR A 343      26.800  -2.834   6.755  1.00 11.94           O  
+TER      13      TYR A 343
+HETATM   14  C1  FKD A 700      27.239  -4.054   8.869  1.00 13.69           C  
+HETATM   15  F1  FKD A 700      25.336  -2.346  10.005  1.00 17.98           F  
+HETATM   16  C2  FKD A 700      26.222  -3.215   7.991  1.00 11.69           C  
+HETATM   17  C3  FKD A 700      25.661  -1.980   8.761  1.00 12.08           C  
+HETATM   18  C4  FKD A 700      24.419  -1.432   8.046  1.00 13.33           C  
+HETATM   19  O4  FKD A 700      23.920  -0.351   8.797  1.00 12.27           O  
+HETATM   20  C5  FKD A 700      23.365  -2.535   7.943  1.00 12.14           C  
+HETATM   21  O5  FKD A 700      22.230  -2.100   7.232  1.00 12.38           O  
+HETATM   22  C6  FKD A 700      23.978  -3.707   7.170  1.00 11.35           C  
+HETATM   23  O6  FKD A 700      25.183  -4.127   7.784  1.00 14.25           O  
+HETATM   24  C7  FKD A 700      23.080  -4.961   7.110  1.00 13.47           C  
+HETATM   25  O7  FKD A 700      22.773  -5.381   8.424  1.00 13.10           O  
+HETATM   26  C8  FKD A 700      23.725  -6.141   6.359  1.00 13.27           C  
+HETATM   27  O8  FKD A 700      24.075  -5.746   5.046  1.00 12.83           O  
+HETATM   28  C9  FKD A 700      22.843  -7.405   6.312  1.00 16.81           C  
+HETATM   29  O9  FKD A 700      21.621  -7.148   5.655  1.00 16.31           O  
+HETATM   30  O1A FKD A 700      27.351  -5.262   8.563  1.00 13.67           O  
+HETATM   31  O1B FKD A 700      27.847  -3.457   9.780  1.00 10.23           O1-
+CONECT   14   16   30   31
+CONECT   14   30
+CONECT   15   17
+CONECT   16   12   14   17   23
+CONECT   17   15   16   18
+CONECT   18   17   19   20
+CONECT   19   18
+CONECT   20   18   21   22
+CONECT   21   20
+CONECT   22   20   23   24
+CONECT   23   16   22
+CONECT   24   22   25   26
+CONECT   25   24
+CONECT   26   24   27   28
+CONECT   27   26
+CONECT   28   26   29
+CONECT   29   28
+CONECT   30   14
+CONECT   30   14
+CONECT   31   14
+ENDMDL
+END   

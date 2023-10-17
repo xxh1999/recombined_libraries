@@ -1,0 +1,94 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6nsp_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  L0P A 801       8.092  18.404  28.621  1.00  0.00           C  
+HETATM    2  C2  L0P A 801       6.590  18.496  28.606  1.00  0.00           C  
+HETATM    3  C3  L0P A 801       5.823  17.579  27.896  1.00  0.00           C  
+HETATM    4  C4  L0P A 801       4.417  17.629  27.896  1.00  0.00           C  
+HETATM    5  C5  L0P A 801       3.777  18.561  28.626  1.00  0.00           C  
+HETATM    6  C7  L0P A 801       5.910  19.427  29.383  1.00  0.00           C  
+HETATM    7  C11 L0P A 801       4.448  22.177  32.716  1.00  0.00           C  
+HETATM    8  C12 L0P A 801       4.585  23.104  33.730  1.00  0.00           C  
+HETATM    9  C15 L0P A 801       6.567  22.831  31.818  1.00  0.00           C  
+HETATM   10  C16 L0P A 801       4.140  20.481  30.220  1.00  0.00           C  
+HETATM   11  C18 L0P A 801       1.966  21.629  30.096  1.00  0.00           C  
+HETATM   12  C23 L0P A 801       0.837  23.093  32.663  1.00  0.00           C  
+HETATM   13  C24 L0P A 801       0.796  23.742  33.897  1.00  0.00           C  
+HETATM   14  C27 L0P A 801      -1.344  23.986  32.130  1.00  0.00           C  
+HETATM   15  C30 L0P A 801      -0.866  22.997  29.395  1.00  0.00           C  
+HETATM   16  N6  L0P A 801       4.520  19.447  29.377  1.00  0.00           N  
+HETATM   17  N8  L0P A 801       6.381  20.376  30.192  1.00  0.00           N  
+HETATM   18  C9  L0P A 801       5.293  21.011  30.724  1.00  0.00           C  
+HETATM   19  C10 L0P A 801       5.426  22.050  31.741  1.00  0.00           C  
+HETATM   20  C13 L0P A 801       5.699  23.915  33.760  1.00  0.00           C  
+HETATM   21  C14 L0P A 801       6.688  23.789  32.804  1.00  0.00           C  
+HETATM   22  N17 L0P A 801       2.842  20.774  30.591  1.00  0.00           N  
+HETATM   23  O19 L0P A 801       2.274  22.631  29.480  1.00  0.00           O  
+HETATM   24  C20 L0P A 801       0.524  21.306  30.436  1.00  0.00           C  
+HETATM   25  N21 L0P A 801      -0.236  22.547  30.532  1.00  0.00           N  
+HETATM   26  C22 L0P A 801      -0.221  23.235  31.770  1.00  0.00           C  
+HETATM   27  C25 L0P A 801      -0.295  24.526  34.245  1.00  0.00           C  
+HETATM   28  C26 L0P A 801      -1.369  24.629  33.372  1.00  0.00           C  
+HETATM   29  S28 L0P A 801      -2.700  24.071  31.014  1.00  0.00           S  
+HETATM   30  C29 L0P A 801      -1.729  24.214  29.525  1.00  0.00           C  
+HETATM   31  O31 L0P A 801      -0.696  22.468  28.312  1.00  0.00           O  
+CONECT    1    2
+CONECT    2    1    3    6
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4   16
+CONECT    5    4
+CONECT    6    2   16   17
+CONECT    6   17
+CONECT    7    8   19
+CONECT    7   19
+CONECT    8    7   20
+CONECT    8   20
+CONECT    9   19   21
+CONECT    9   21
+CONECT   10   16   18   22
+CONECT   10   18
+CONECT   11   22   23   24
+CONECT   11   23
+CONECT   12   13   26
+CONECT   12   26
+CONECT   13   12   27
+CONECT   13   27
+CONECT   14   26   28   29
+CONECT   14   28
+CONECT   15   25   30   31
+CONECT   15   31
+CONECT   16    5    6   10
+CONECT   17    6   18
+CONECT   17    6
+CONECT   18   10   17   19
+CONECT   18   10
+CONECT   19    7    9   18
+CONECT   19    7
+CONECT   20    8   21
+CONECT   20    8
+CONECT   21    9   20
+CONECT   21    9
+CONECT   22   10   11
+CONECT   23   11
+CONECT   23   11
+CONECT   24   11   25
+CONECT   25   15   24   26
+CONECT   26   12   14   25
+CONECT   26   12
+CONECT   27   13   28
+CONECT   27   13
+CONECT   28   14   27
+CONECT   28   14
+CONECT   29   14   30
+CONECT   30   15   29
+CONECT   31   15
+CONECT   31   15
+ENDMDL
+END   

@@ -1,0 +1,144 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7JX1
+MODEL        1
+ATOM      1  N   CYS B 146     -39.608  30.543  -4.063  0.57 33.46           N1+
+ATOM      2  CA  CYS B 146     -39.655  30.748  -5.509  0.57 31.98           C  
+ATOM      3  C   CYS B 146     -38.316  31.232  -6.054  0.57 32.26           C  
+ATOM      4  O   CYS B 146     -37.852  30.741  -7.090  0.57 33.29           O  
+ATOM      5  CB  CYS B 146     -40.749  31.747  -5.871  0.57 40.42           C  
+ATOM      6  SG  CYS B 146     -42.412  31.067  -5.765  0.57 52.54           S  
+TER       7      CYS B 146
+HETATM    8  N1  VLD B 301     -43.922  34.450  -6.940  0.51 74.64           N  
+HETATM    9  C2  VLD B 301     -43.009  35.163  -7.765  0.51 66.71           C  
+HETATM   10  C4  VLD B 301     -41.603  35.634  -5.956  0.51 87.86           C  
+HETATM   11  C5  VLD B 301     -42.715  35.317  -5.009  0.51 91.38           C  
+HETATM   12  C8  VLD B 301     -46.096  34.283  -2.693  0.51 86.26           C  
+HETATM   13  C11 VLD B 301     -43.142  36.452  -4.099  0.51 86.90           C  
+HETATM   14  C12 VLD B 301     -46.772  41.206  -4.134  0.51 93.51           C  
+HETATM   15  O1  VLD B 301     -48.331  46.043  -7.275  0.51 96.36           O  
+HETATM   16  O2  VLD B 301     -43.195  35.288  -8.987  0.51 52.20           O  
+HETATM   17  N   VLD B 301     -47.347  43.423  -4.985  0.51 97.96           N  
+HETATM   18  CA  VLD B 301     -48.261  44.403  -5.560  0.51 99.41           C  
+HETATM   19  C   VLD B 301     -47.745  42.175  -4.738  0.51 97.25           C  
+HETATM   20  O   VLD B 301     -48.885  41.808  -4.969  0.51 89.17           O  
+HETATM   21  CB  VLD B 301     -48.629  45.330  -4.404  0.51 94.57           C  
+HETATM   22  CG  VLD B 301     -47.524  46.343  -4.120  0.51 92.76           C  
+HETATM   23  CD  VLD B 301     -47.727  46.911  -2.735  0.51103.54           C  
+HETATM   24  OE1 VLD B 301     -48.570  46.363  -1.989  0.51 95.42           O  
+HETATM   25  OE2 VLD B 301     -47.043  47.900  -2.386  0.51109.23           O1-
+HETATM   26  C1' VLD B 301     -45.163  33.835  -7.462  0.51 70.67           C  
+HETATM   27  C13 VLD B 301     -45.413  41.270  -4.434  0.51 86.03           C  
+HETATM   28  C14 VLD B 301     -44.526  40.365  -3.852  0.51 83.93           C  
+HETATM   29  C15 VLD B 301     -45.000  39.396  -2.969  0.51 90.05           C  
+HETATM   30  C16 VLD B 301     -46.361  39.337  -2.675  0.51 85.93           C  
+HETATM   31  C17 VLD B 301     -47.245  40.239  -3.256  0.51 89.69           C  
+HETATM   32  C2" VLD B 301     -47.923  35.715  -5.628  0.51 99.30           C  
+HETATM   33  C2' VLD B 301     -44.905  32.811  -8.564  0.51 64.07           C  
+HETATM   34  C3' VLD B 301     -46.116  31.899  -8.462  0.51 63.93           C  
+HETATM   35  C4" VLD B 301     -45.928  36.930  -5.334  0.51 98.44           C  
+HETATM   36  C4' VLD B 301     -46.484  31.927  -6.978  0.51 70.14           C  
+HETATM   37  C4A VLD B 301     -45.629  36.136  -4.239  0.51 91.37           C  
+HETATM   38  C5' VLD B 301     -45.948  30.695  -6.243  0.51 70.62           C  
+HETATM   39  C6  VLD B 301     -43.608  34.378  -5.511  0.51 86.57           C  
+HETATM   40  C6" VLD B 301     -44.393  36.130  -2.042  0.51 91.50           C  
+HETATM   41  C7  VLD B 301     -45.486  35.153  -1.593  0.51 89.90           C  
+HETATM   42  C8A VLD B 301     -46.488  35.129  -3.877  0.51 91.19           C  
+HETATM   43  C9  VLD B 301     -44.708  37.510  -1.473  0.51104.10           C  
+HETATM   44  CT  VLD B 301     -47.621  45.208  -6.660  0.51102.31           C  
+HETATM   45  N1" VLD B 301     -47.630  34.925  -4.568  0.51 94.48           N  
+HETATM   46  N10 VLD B 301     -44.157  38.502  -2.388  0.51 98.07           N  
+HETATM   47  N3  VLD B 301     -41.896  35.718  -7.260  0.51 80.29           N  
+HETATM   48  N3" VLD B 301     -47.080  36.708  -6.008  0.51100.48           N1+
+HETATM   49  N5  VLD B 301     -44.452  36.257  -3.492  0.51 89.12           N  
+HETATM   50  NA2 VLD B 301     -49.071  35.502  -6.316  0.51104.91           N  
+HETATM   51  NA4 VLD B 301     -45.095  37.924  -5.726  0.51101.46           N  
+HETATM   52  O1P VLD B 301     -45.205  28.089  -7.854  0.51 53.50           O  
+HETATM   53  O2" VLD B 301     -46.406  45.014  -6.914  0.51 93.27           O1-
+HETATM   54  O2P VLD B 301     -45.395  27.650  -5.415  0.51 54.27           O1-
+HETATM   55  O3' VLD B 301     -47.197  32.407  -9.265  0.51 44.47           O  
+HETATM   56  O3P VLD B 301     -47.293  27.095  -6.906  0.51 59.25           O1-
+HETATM   57  O4  VLD B 301     -40.568  36.152  -5.495  0.51 88.34           O  
+HETATM   58  O4' VLD B 301     -45.884  33.122  -6.444  0.51 70.59           O  
+HETATM   59  O5' VLD B 301     -46.769  29.549  -6.498  0.51 67.53           O  
+HETATM   60  P   VLD B 301     -46.144  28.060  -6.671  0.51 55.99           P  
+CONECT    8    9   26   39
+CONECT    9    8   16   47
+CONECT    9   16
+CONECT   10   11   47   57
+CONECT   10   57
+CONECT   11   10   13   39
+CONECT   12   41   42
+CONECT   13   11   49
+CONECT   14   19   27   31
+CONECT   14   31
+CONECT   15   44
+CONECT   15   44
+CONECT   16    9
+CONECT   16    9
+CONECT   17   18   19
+CONECT   18   17   21   44
+CONECT   19   14   17   20
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   18   22
+CONECT   22   21   23
+CONECT   23   22   24   25
+CONECT   23   24
+CONECT   24   23
+CONECT   24   23
+CONECT   25   23
+CONECT   26    8   33   58
+CONECT   27   14   28
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   28   30   46
+CONECT   29   30
+CONECT   30   29   31
+CONECT   30   29
+CONECT   31   14   30
+CONECT   31   14
+CONECT   32   45   48   50
+CONECT   32   48
+CONECT   33   26   34
+CONECT   34   33   36   55
+CONECT   35   37   48   51
+CONECT   35   37
+CONECT   36   34   38   58
+CONECT   37   35   42   49
+CONECT   37   35
+CONECT   38   36   59
+CONECT   39    6    8   11
+CONECT   40   41   43   49
+CONECT   41   12   40
+CONECT   42   12   37   45
+CONECT   42   45
+CONECT   43   40   46
+CONECT   44   15   18   53
+CONECT   44   15
+CONECT   45   32   42
+CONECT   45   42
+CONECT   46   29   43
+CONECT   47    9   10
+CONECT   48   32   35
+CONECT   48   32
+CONECT   49   13   37   40
+CONECT   50   32
+CONECT   51   35
+CONECT   52   60
+CONECT   52   60
+CONECT   53   44
+CONECT   54   60
+CONECT   55   34
+CONECT   56   60
+CONECT   57   10
+CONECT   57   10
+CONECT   58   26   36
+CONECT   59   38   60
+CONECT   60   52   54   56   59
+CONECT   60   52
+ENDMDL
+END   

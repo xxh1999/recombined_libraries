@@ -1,0 +1,77 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6PXX
+MODEL        1
+ATOM      1  N   SER B  70      43.023  31.078   3.074  1.00 10.00           N1+
+ATOM      2  CA  SER B  70      42.513  29.736   2.791  1.00  9.69           C  
+ATOM      3  C   SER B  70      41.051  29.723   2.285  1.00  8.64           C  
+ATOM      4  O   SER B  70      40.649  28.704   1.728  1.00  8.55           O  
+ATOM      5  CB  SER B  70      42.623  28.827   4.039  1.00 11.06           C  
+ATOM      6  OG  SER B  70      43.949  28.564   4.510  1.00 15.67           O  
+TER       7      SER B  70
+HETATM    8  CAA 5R7 B 301      47.141  30.315   4.250  1.00 18.71           C  
+HETATM    9  CAB 5R7 B 301      47.736  28.633   8.387  1.00 26.19           C  
+HETATM   10  NAC 5R7 B 301      47.229  24.188  16.862  0.70 95.90           N  
+HETATM   11  OAD 5R7 B 301      44.003  30.424   5.829  1.00 14.33           O  
+HETATM   12  OAE 5R7 B 301      42.553  27.402   9.515  1.00 37.60           O1-
+HETATM   13  OAF 5R7 B 301      45.811  25.986  15.667  0.70 97.57           O  
+HETATM   14  OAG 5R7 B 301      47.368  26.660  17.607  0.70 99.16           O  
+HETATM   15  OAH 5R7 B 301      43.544  25.656  10.482  1.00 70.90           O  
+HETATM   16  OAI 5R7 B 301      48.147  28.453   5.284  1.00 22.67           O  
+HETATM   17  CAJ 5R7 B 301      44.498  29.368   5.451  1.00 16.64           C  
+HETATM   18  CAK 5R7 B 301      45.709  24.707  12.296  0.70 65.24           C  
+HETATM   19  CAL 5R7 B 301      48.194  26.014  13.890  0.70 87.03           C  
+HETATM   20  CAM 5R7 B 301      48.067  24.614  11.756  0.70 64.53           C  
+HETATM   21  NAN 5R7 B 301      44.585  27.270   7.501  1.00 22.20           N  
+HETATM   22  NAO 5R7 B 301      46.485  24.242  13.461  0.70 72.83           N1+
+HETATM   23  NAP 5R7 B 301      48.396  25.942  15.339  0.70 97.68           N  
+HETATM   24  SAQ 5R7 B 301      46.719  26.815  10.778  0.70 43.49           S  
+HETATM   25  CAR 5R7 B 301      43.505  26.614   9.681  1.00 41.25           C  
+HETATM   26  CAS 5R7 B 301      44.768  26.854   8.800  1.00 25.97           C  
+HETATM   27  CAT 5R7 B 301      46.893  28.922   4.851  1.00 18.95           C  
+HETATM   28  CAU 5R7 B 301      46.904  27.404   7.969  1.00 24.91           C  
+HETATM   29  CAV 5R7 B 301      47.893  24.627  13.275  0.70 75.12           C  
+HETATM   30  CAW 5R7 B 301      46.715  25.044  11.182  0.70 62.15           C  
+HETATM   31  CAX 5R7 B 301      45.863  28.918   6.008  1.00 14.72           C  
+HETATM   32  CAY 5R7 B 301      45.841  27.575   6.822  1.00 18.60           C  
+HETATM   33  CAZ 5R7 B 301      46.058  26.922   9.132  1.00 28.57           C  
+HETATM   34  SBA 5R7 B 301      47.060  25.839  16.425  0.70109.58           S  
+CONECT    8   27
+CONECT    9   28
+CONECT   10   34
+CONECT   11   17
+CONECT   11   17
+CONECT   12   25
+CONECT   13   34
+CONECT   13   34
+CONECT   14   34
+CONECT   14   34
+CONECT   15   25
+CONECT   15   25
+CONECT   16   27
+CONECT   17    6   11   31
+CONECT   17   11
+CONECT   18   22   30
+CONECT   19   23   29
+CONECT   20   29   30
+CONECT   21   26   32
+CONECT   22   18   29
+CONECT   23   19   34
+CONECT   24   30   33
+CONECT   25   12   15   26
+CONECT   25   15
+CONECT   26   21   25   33
+CONECT   26   33
+CONECT   27    8   16   31
+CONECT   28    9   32   33
+CONECT   29   19   20   22
+CONECT   30   18   20   24
+CONECT   31   17   27   32
+CONECT   32   21   28   31
+CONECT   33   24   26   28
+CONECT   33   26
+CONECT   34   10   13   14   23
+CONECT   34   13   14
+ENDMDL
+END   

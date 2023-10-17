@@ -1,0 +1,48 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4zly_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N1  Q4R A 705       0.119  20.761  43.205  1.00  0.00           N  
+HETATM    2  C4  Q4R A 705      -0.141  18.445  43.930  1.00  0.00           C  
+HETATM    3  C7  Q4R A 705       0.356  15.843  43.323  1.00  0.00           C  
+HETATM    4  C8  Q4R A 705       0.621  14.491  43.004  1.00  0.00           C  
+HETATM    5  C10 Q4R A 705      -0.852  13.745  44.786  1.00  0.00           C  
+HETATM    6  C13 Q4R A 705      -0.796  17.481  44.730  1.00  0.00           C  
+HETATM    7  C2  Q4R A 705      -0.296  19.899  44.162  1.00  0.00           C  
+HETATM    8  O3  Q4R A 705      -0.746  20.318  45.231  1.00  0.00           O  
+HETATM    9  N5  Q4R A 705       0.686  18.082  42.932  1.00  0.00           N  
+HETATM   10  N6  Q4R A 705       0.945  16.849  42.637  1.00  0.00           N  
+HETATM   11  C9  Q4R A 705       0.024  13.490  43.727  1.00  0.00           C  
+HETATM   12  C11 Q4R A 705      -1.136  15.051  45.111  1.00  0.00           C  
+HETATM   13  C12 Q4R A 705      -0.533  16.112  44.404  1.00  0.00           C  
+HETATM   14  N14 Q4R A 705      -1.663  17.833  45.754  1.00  0.00           N  
+CONECT    1    7
+CONECT    2    6    7    9
+CONECT    2    9
+CONECT    3    4   10   13
+CONECT    3   10
+CONECT    4    3   11
+CONECT    4   11
+CONECT    5   11   12
+CONECT    5   12
+CONECT    6    2   13   14
+CONECT    6   13
+CONECT    7    1    2    8
+CONECT    7    8
+CONECT    8    7
+CONECT    8    7
+CONECT    9    2   10
+CONECT    9    2
+CONECT   10    3    9
+CONECT   10    3
+CONECT   11    4    5
+CONECT   11    4
+CONECT   12    5   13
+CONECT   12    5
+CONECT   13    3    6   12
+CONECT   13    6
+CONECT   14    6
+ENDMDL
+END   

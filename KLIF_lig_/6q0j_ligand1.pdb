@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6q0j_ligand1
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C10 LCJ C 402       6.147  18.876  32.632  1.00  0.00           C  
+HETATM    2  C11 LCJ C 402       6.589  19.024  30.323  1.00  0.00           C  
+HETATM    3  C12 LCJ C 402       5.836  17.528  32.500  1.00  0.00           C  
+HETATM    4  C13 LCJ C 402       6.265  17.648  30.177  1.00  0.00           C  
+HETATM    5  C14 LCJ C 402       5.893  16.928  31.272  1.00  0.00           C  
+HETATM    6  C15 LCJ C 402       6.893  20.911  31.367  1.00  0.00           C  
+HETATM    7  C16 LCJ C 402       6.992  19.990  29.398  1.00  0.00           C  
+HETATM    8  C17 LCJ C 402       5.182  20.560  34.362  1.00  0.00           C  
+HETATM    9  C18 LCJ C 402       5.428  16.700  33.713  1.00  0.00           C  
+HETATM   10  C19 LCJ C 402       4.971  20.738  35.720  1.00  0.00           C  
+HETATM   11  C20 LCJ C 402       4.531  21.388  33.457  1.00  0.00           C  
+HETATM   12  C21 LCJ C 402       4.118  21.730  36.175  1.00  0.00           C  
+HETATM   13  C22 LCJ C 402       3.679  22.382  33.912  1.00  0.00           C  
+HETATM   14  C23 LCJ C 402       3.467  22.554  35.273  1.00  0.00           C  
+HETATM   15  C24 LCJ C 402       5.979  13.866  35.156  1.00  0.00           C  
+HETATM   16  C25 LCJ C 402       5.793  12.347  35.140  1.00  0.00           C  
+HETATM   17  F02 LCJ C 402       5.610  19.927  36.609  1.00  0.00           F  
+HETATM   18  I01 LCJ C 402       2.167  24.064  35.975  1.00  0.00           I  
+HETATM   19  N06 LCJ C 402       6.530  19.593  31.506  1.00  0.00           N  
+HETATM   20  N07 LCJ C 402       6.100  19.503  33.948  1.00  0.00           N  
+HETATM   21  N08 LCJ C 402       7.170  21.133  30.060  1.00  0.00           N  
+HETATM   22  N09 LCJ C 402       5.188  15.275  33.551  1.00  0.00           N  
+HETATM   23  O03 LCJ C 402       4.825  14.468  34.641  1.00  0.00           O1+
+HETATM   24  O04 LCJ C 402       5.321  17.209  34.778  1.00  0.00           O  
+HETATM   25  O05 LCJ C 402       5.500  11.919  36.438  1.00  0.00           O  
+CONECT    1    3   19   20
+CONECT    1    3
+CONECT    2    4    7   19
+CONECT    2    7
+CONECT    3    1    5    9
+CONECT    3    1
+CONECT    4    2    5
+CONECT    4    5
+CONECT    5    3    4
+CONECT    5    4
+CONECT    6   19   21
+CONECT    6   21
+CONECT    7    2   21
+CONECT    7    2
+CONECT    8   10   11   20
+CONECT    8   10
+CONECT    9    3   22   24
+CONECT    9   24
+CONECT   10    8   12   17
+CONECT   10    8
+CONECT   11    8   13
+CONECT   11   13
+CONECT   12   10   14
+CONECT   12   14
+CONECT   13   11   14
+CONECT   13   11
+CONECT   14   12   13   18
+CONECT   14   12
+CONECT   15   16   23
+CONECT   16   15   25
+CONECT   17   10
+CONECT   18   14
+CONECT   19    1    2    6
+CONECT   20    1    8
+CONECT   21    6    7
+CONECT   21    6
+CONECT   22    9   23
+CONECT   23   15   22
+CONECT   24    9
+CONECT   24    9
+CONECT   25   16
+ENDMDL
+END   

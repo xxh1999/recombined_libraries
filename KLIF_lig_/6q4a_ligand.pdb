@@ -1,0 +1,28 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6q4a_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  HGW A 301      -0.135  19.975  42.716  1.00  0.00           C  
+HETATM    2  N1  HGW A 301      -0.155  17.345  43.458  1.00  0.00           N  
+HETATM    3  N2  HGW A 301      -0.710  19.585  43.907  1.00  0.00           N  
+HETATM    4  C3  HGW A 301      -0.730  18.278  44.205  1.00  0.00           C  
+HETATM    5  I1  HGW A 301       1.269  19.577  39.998  1.00  0.00           I  
+HETATM    6  C1  HGW A 301       0.407  19.041  41.845  1.00  0.00           C  
+HETATM    7  C2  HGW A 301       0.393  17.724  42.279  1.00  0.00           C  
+CONECT    1    3    6
+CONECT    1    3
+CONECT    2    4    7
+CONECT    2    4
+CONECT    3    1    4
+CONECT    3    1
+CONECT    4    2    3
+CONECT    4    2
+CONECT    5    6
+CONECT    6    1    5    7
+CONECT    6    7
+CONECT    7    2    6
+CONECT    7    6
+ENDMDL
+END   

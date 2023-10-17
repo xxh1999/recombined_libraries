@@ -1,0 +1,28 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3TBE
+MODEL        1
+ATOM      1  N   CYS A 184      19.611  -4.186   0.925  1.00 32.62           N1+
+ATOM      2  CA  CYS A 184      18.356  -4.751   0.417  1.00 33.69           C  
+ATOM      3  C   CYS A 184      18.134  -6.177   0.982  1.00 34.51           C  
+ATOM      4  O   CYS A 184      19.097  -6.916   1.136  1.00 34.09           O  
+ATOM      5  CB  CYS A 184      18.495  -4.837  -1.122  1.00 34.22           C  
+ATOM      6  SG  CYS A 184      17.824  -3.451  -2.092  1.00 35.18           S  
+TER       7      CYS A 184
+HETATM    8  SD  ETM A 422      19.112  -3.183  -3.678  1.00111.32           S  
+HETATM    9  C1  ETM A 422      18.654  -4.268  -5.066  1.00114.55           C  
+HETATM   10  C2  ETM A 422      17.649  -3.616  -6.048  1.00115.78           C  
+HETATM   11  N1  ETM A 422      17.379  -4.379  -7.315  1.00116.91           N1+
+HETATM   12  C3  ETM A 422      16.656  -5.644  -7.030  1.00116.66           C  
+HETATM   13  C4  ETM A 422      18.636  -4.685  -8.051  1.00116.26           C  
+HETATM   14  C5  ETM A 422      16.520  -3.545  -8.197  1.00116.74           C  
+CONECT    8    6    9
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10   12   13   14
+CONECT   12   11
+CONECT   13   11
+CONECT   14   11
+ENDMDL
+END   

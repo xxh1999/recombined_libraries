@@ -1,0 +1,70 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6rfe_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C10 K0Z A 403       1.284  19.054  41.309  1.00  0.00           C  
+HETATM    2  C12 K0Z A 403       1.582  16.527  41.434  1.00  0.00           C  
+HETATM    3  C17 K0Z A 403      -0.619  16.745  45.095  1.00  0.00           C  
+HETATM    4  N19 K0Z A 403      -1.620  15.792  46.930  1.00  0.00           N  
+HETATM    5  C14 K0Z A 403       0.433  17.983  43.242  1.00  0.00           C  
+HETATM    6  C20 K0Z A 403      -1.599  17.107  47.253  1.00  0.00           C  
+HETATM    7  C01 K0Z A 403       3.547  16.383  37.460  1.00  0.00           C  
+HETATM    8  C03 K0Z A 403       2.966  18.650  37.911  1.00  0.00           C  
+HETATM    9  C04 K0Z A 403       2.950  19.980  37.509  1.00  0.00           C  
+HETATM   10  C06 K0Z A 403       2.410  20.975  38.305  1.00  0.00           C  
+HETATM   11  C07 K0Z A 403       1.907  20.630  39.548  1.00  0.00           C  
+HETATM   12  C08 K0Z A 403       1.913  19.305  39.955  1.00  0.00           C  
+HETATM   13  C09 K0Z A 403       2.429  18.303  39.144  1.00  0.00           C  
+HETATM   14  C11 K0Z A 403       1.116  17.904  41.908  1.00  0.00           C  
+HETATM   15  N13 K0Z A 403       1.947  15.505  41.108  1.00  0.00           N  
+HETATM   16  N16 K0Z A 403       0.010  16.743  43.809  1.00  0.00           N  
+HETATM   17  N18 K0Z A 403      -1.024  15.561  45.618  1.00  0.00           N  
+HETATM   18  O02 K0Z A 403       3.522  17.719  37.020  1.00  0.00           O  
+HETATM   19  O05 K0Z A 403       3.478  20.267  36.260  1.00  0.00           O  
+HETATM   20  O15 K0Z A 403       0.268  19.023  43.778  1.00  0.00           O  
+HETATM   21  S22 K0Z A 403      -0.914  18.027  46.072  1.00  0.00           S  
+HETATM   22 BR   K0Z A 403      -2.331  17.664  48.952  1.00  0.00          Br  
+CONECT    1   12   14
+CONECT    1   14
+CONECT    2   14   15
+CONECT    2   15
+CONECT    2   15
+CONECT    3   16   17   21
+CONECT    3   17
+CONECT    4    6   17
+CONECT    4    6
+CONECT    5   14   16   20
+CONECT    5   20
+CONECT    6    4   21   22
+CONECT    6    4
+CONECT    7   18
+CONECT    8    9   13   18
+CONECT    8   13
+CONECT    9    8   10   19
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12    1   11   13
+CONECT   12   11
+CONECT   13    8   12
+CONECT   13    8
+CONECT   14    1    2    5
+CONECT   14    1
+CONECT   15    2
+CONECT   15    2
+CONECT   15    2
+CONECT   16    3    5
+CONECT   17    3    4
+CONECT   17    3
+CONECT   18    7    8
+CONECT   19    9
+CONECT   20    5
+CONECT   20    5
+CONECT   21    3    6
+CONECT   22    6
+ENDMDL
+END   

@@ -1,0 +1,138 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6lvm_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C39 EVR A 801       2.531  14.420  42.500  1.00  0.00           C  
+HETATM    2  C34 EVR A 801       3.032  13.783  41.379  1.00  0.00           C  
+HETATM    3  C17 EVR A 801      -1.617  15.202  46.794  1.00  0.00           C  
+HETATM    4  C38 EVR A 801       2.264  15.777  42.445  1.00  0.00           C  
+HETATM    5  C18 EVR A 801      -1.532  16.517  46.379  1.00  0.00           C  
+HETATM    6  C35 EVR A 801       3.239  14.507  40.213  1.00  0.00           C  
+HETATM    7  C3  EVR A 801       1.883  21.466  37.249  1.00  0.00           C  
+HETATM    8  C7  EVR A 801       3.724  21.573  38.781  1.00  0.00           C  
+HETATM    9  C14 EVR A 801      -0.704  15.893  44.230  1.00  0.00           C  
+HETATM   10  C5  EVR A 801       3.959  22.426  36.545  1.00  0.00           C  
+HETATM   11  C50 EVR A 801       0.413  20.650  42.682  1.00  0.00           C  
+HETATM   12  C2  EVR A 801       2.414  21.215  38.491  1.00  0.00           C  
+HETATM   13  C49 EVR A 801       1.260  19.951  41.869  1.00  0.00           C  
+HETATM   14  C16 EVR A 801      -1.222  14.227  45.903  1.00  0.00           C  
+HETATM   15  C13 EVR A 801      -1.085  16.873  45.114  1.00  0.00           C  
+HETATM   16  C37 EVR A 801       2.459  16.508  41.285  1.00  0.00           C  
+HETATM   17  C4  EVR A 801       2.654  22.064  36.289  1.00  0.00           C  
+HETATM   18  C6  EVR A 801       4.490  22.174  37.800  1.00  0.00           C  
+HETATM   19  C15 EVR A 801      -0.776  14.581  44.636  1.00  0.00           C  
+HETATM   20  C36 EVR A 801       2.950  15.856  40.169  1.00  0.00           C  
+HETATM   21  C45 EVR A 801       1.323  18.591  42.074  1.00  0.00           C  
+HETATM   22  C47 EVR A 801      -0.212  18.768  43.762  1.00  0.00           C  
+HETATM   23  C21 EVR A 801      -2.598  11.342  47.706  1.00  0.00           C  
+HETATM   24  C23 EVR A 801      -0.603  10.556  46.309  1.00  0.00           C  
+HETATM   25  C20 EVR A 801      -1.803  12.642  47.675  1.00  0.00           C  
+HETATM   26  C24 EVR A 801      -0.857  11.812  45.505  1.00  0.00           C  
+HETATM   27  C26 EVR A 801      -0.248   9.174  48.756  1.00  0.00           C  
+HETATM   28  C30 EVR A 801      -1.841   7.695  47.451  1.00  0.00           C  
+HETATM   29  C27 EVR A 801       0.180   7.961  49.542  1.00  0.00           C  
+HETATM   30  C29 EVR A 801      -1.298   6.507  48.227  1.00  0.00           C  
+HETATM   31  C22 EVR A 801      -1.833  10.154  47.118  1.00  0.00           C  
+HETATM   32  C52 EVR A 801       0.985  14.088  37.139  1.00  0.00           C  
+HETATM   33  C31 EVR A 801       0.690   5.611  49.407  1.00  0.00           C  
+HETATM   34  C11 EVR A 801       3.103  22.643  34.192  1.00  0.00           C  
+HETATM   35  C10 EVR A 801       6.487  22.931  36.916  1.00  0.00           C  
+HETATM   36  C33 EVR A 801      -1.223  13.811  42.585  1.00  0.00           C  
+HETATM   37  C1  EVR A 801       1.502  20.567  39.481  1.00  0.00           C  
+HETATM   38  C53 EVR A 801       2.070  20.681  40.859  1.00  0.00           C  
+HETATM   39  C44 EVR A 801       1.901  15.253  36.825  1.00  0.00           C  
+HETATM   40  N46 EVR A 801      -0.333  20.086  43.628  1.00  0.00           N  
+HETATM   41  N48 EVR A 801       0.585  17.998  43.015  1.00  0.00           N  
+HETATM   42  N19 EVR A 801      -1.300  12.912  46.343  1.00  0.00           N  
+HETATM   43  N25 EVR A 801      -1.583   9.033  48.093  1.00  0.00           N  
+HETATM   44  N28 EVR A 801       0.096   6.760  48.684  1.00  0.00           N1+
+HETATM   45  N51 EVR A 801       2.200  17.875  41.239  1.00  0.00           N  
+HETATM   46  N12 EVR A 801      -1.030  18.234  44.766  1.00  0.00           N  
+HETATM   47  N41 EVR A 801       1.769  16.385  37.775  1.00  0.00           N  
+HETATM   48  O42 EVR A 801       3.197  18.164  38.901  1.00  0.00           O1-
+HETATM   49  O43 EVR A 801       4.355  16.089  37.986  1.00  0.00           O1-
+HETATM   50  O8  EVR A 801       2.047  22.294  35.070  1.00  0.00           O  
+HETATM   51  O9  EVR A 801       5.799  22.534  38.112  1.00  0.00           O  
+HETATM   52  O32 EVR A 801      -0.390  13.621  43.729  1.00  0.00           O  
+HETATM   53  S40 EVR A 801       3.236  16.731  38.638  1.00  0.00           S2+
+CONECT    1    2    4
+CONECT    1    2
+CONECT    2    1    6
+CONECT    2    1
+CONECT    3    5   14
+CONECT    3   14
+CONECT    4    1   16
+CONECT    4   16
+CONECT    5    3   15
+CONECT    5   15
+CONECT    6    2   20
+CONECT    6   20
+CONECT    7   12   17
+CONECT    7   12
+CONECT    8   12   18
+CONECT    8   18
+CONECT    9   15   19
+CONECT    9   19
+CONECT   10   17   18
+CONECT   10   17
+CONECT   11   13   40
+CONECT   11   13
+CONECT   12    7    8   37
+CONECT   12    7
+CONECT   13   11   21   38
+CONECT   13   11
+CONECT   14    3   19   42
+CONECT   14    3
+CONECT   15    5    9   46
+CONECT   15    5
+CONECT   16    4   20   45
+CONECT   16    4
+CONECT   17    7   10   50
+CONECT   17   10
+CONECT   18    8   10   51
+CONECT   18    8
+CONECT   19    9   14   52
+CONECT   19    9
+CONECT   20    6   16   53
+CONECT   20    6
+CONECT   21   13   41   45
+CONECT   21   41
+CONECT   22   40   41   46
+CONECT   22   40
+CONECT   23   25   31
+CONECT   24   26   31
+CONECT   25   23   42
+CONECT   26   24   42
+CONECT   27   29   43
+CONECT   28   30   43
+CONECT   29   27   44
+CONECT   30   28   44
+CONECT   31   23   24   43
+CONECT   32   39
+CONECT   33   44
+CONECT   34   50
+CONECT   35   51
+CONECT   36   52
+CONECT   37   12   38
+CONECT   38   13   37
+CONECT   39   32   47
+CONECT   40   11   22
+CONECT   40   22
+CONECT   41   21   22
+CONECT   41   21
+CONECT   42   14   25   26
+CONECT   43   27   28   31
+CONECT   44   29   30   33
+CONECT   45   16   21
+CONECT   46   15   22
+CONECT   47   39   53
+CONECT   48   53
+CONECT   49   53
+CONECT   50   17   34
+CONECT   51   18   35
+CONECT   52   19   36
+CONECT   53   20   47   48   49
+ENDMDL
+END   

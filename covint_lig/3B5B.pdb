@@ -1,0 +1,66 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3B5B
+MODEL        1
+ATOM      1  N   CYS A 146      21.559  20.509  27.302  1.00 19.17           N1+
+ATOM      2  CA  CYS A 146      21.419  21.296  28.528  1.00 18.58           C  
+ATOM      3  C   CYS A 146      22.821  21.517  29.116  1.00 17.63           C  
+ATOM      4  O   CYS A 146      23.253  22.662  29.225  1.00 16.18           O  
+ATOM      5  CB  CYS A 146      20.527  20.542  29.546  1.00 18.65           C  
+ATOM      6  SG  CYS A 146      18.834  20.399  28.884  1.00 18.80           S  
+TER       7      CYS A 146
+HETATM    8  P   NDU A 265      15.102  24.053  26.522  1.00 26.18           P  
+HETATM    9  OP1 NDU A 265      13.947  24.900  26.038  1.00 27.28           O  
+HETATM   10  OP2 NDU A 265      16.011  24.821  27.452  1.00 27.47           O1-
+HETATM   11  OP3 NDU A 265      15.857  23.380  25.396  1.00 26.73           O1-
+HETATM   12  O5' NDU A 265      14.394  22.859  27.380  1.00 24.54           O  
+HETATM   13  C5' NDU A 265      15.263  21.989  28.086  1.00 23.58           C  
+HETATM   14  C4' NDU A 265      14.773  21.881  29.537  1.00 23.55           C  
+HETATM   15  C3' NDU A 265      15.151  23.085  30.401  1.00 24.45           C  
+HETATM   16  O3' NDU A 265      14.146  23.265  31.375  1.00 22.87           O  
+HETATM   17  C2' NDU A 265      16.453  22.648  31.045  1.00 22.28           C  
+HETATM   18  C1' NDU A 265      16.187  21.159  31.237  1.00 24.28           C  
+HETATM   19  O4' NDU A 265      15.408  20.762  30.148  1.00 23.33           O  
+HETATM   20  N1  NDU A 265      17.455  20.340  31.266  1.00 25.12           N  
+HETATM   21  C2  NDU A 265      18.262  20.386  32.427  1.00 25.66           C  
+HETATM   22  O2  NDU A 265      18.086  21.231  33.303  1.00 27.61           O  
+HETATM   23  N3  NDU A 265      19.205  19.434  32.570  1.00 26.88           N  
+HETATM   24  C4  NDU A 265      19.383  18.340  31.811  1.00 26.89           C  
+HETATM   25  O4  NDU A 265      20.258  17.526  32.092  1.00 27.05           O  
+HETATM   26  C5  NDU A 265      18.437  18.100  30.616  1.00 25.88           C  
+HETATM   27  C6  NDU A 265      17.852  19.453  30.124  1.00 24.31           C  
+HETATM   28  N5  NDU A 265      19.022  17.289  29.534  1.00 29.36           N  
+HETATM   29  O51 NDU A 265      19.292  15.965  30.053  1.00 29.51           O  
+HETATM   30  O52 NDU A 265      17.993  17.114  28.543  1.00 30.37           O  
+CONECT    8    9   10   11   12
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8
+CONECT   11    8
+CONECT   12    8   13
+CONECT   13   12   14
+CONECT   14   13   15   19
+CONECT   15   14   16   17
+CONECT   16   15
+CONECT   17   15   18
+CONECT   18   17   19   20
+CONECT   19   14   18
+CONECT   20   18   21   27
+CONECT   21   20   22   23
+CONECT   21   22
+CONECT   22   21
+CONECT   22   21
+CONECT   23   21   24
+CONECT   24   23   25   26
+CONECT   24   25
+CONECT   25   24
+CONECT   25   24
+CONECT   26   24   27   28
+CONECT   27    6   20   26
+CONECT   28   26   29   30
+CONECT   29   28
+CONECT   30   28
+ENDMDL
+END   

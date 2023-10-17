@@ -1,0 +1,66 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7ATX
+MODEL        1
+ATOM      1  N   SER A 349      -1.827   4.587  23.163  1.00 36.86           N1+
+ATOM      2  CA  SER A 349      -3.126   4.759  22.472  1.00 34.63           C  
+ATOM      3  C   SER A 349      -4.172   3.788  23.040  1.00 37.74           C  
+ATOM      4  O   SER A 349      -4.902   3.166  22.272  1.00 37.94           O  
+ATOM      5  CB  SER A 349      -2.951   4.626  20.989  1.00 36.26           C  
+ATOM      6  OG  SER A 349      -4.045   5.198  20.296  1.00 38.90           O  
+TER       7      SER A 349
+HETATM    8  C1  S1B A 601      -6.508  -0.978  14.656  1.00 64.20           C  
+HETATM    9  C2  S1B A 601      -6.987   0.225  15.460  1.00 63.45           C  
+HETATM   10  C3  S1B A 601      -8.059  -1.290  17.123  1.00 59.86           C  
+HETATM   11  C4  S1B A 601      -7.577  -2.114  18.316  1.00 60.17           C  
+HETATM   12  C5  S1B A 601      -8.103  -2.314  15.969  1.00 66.26           C  
+HETATM   13  C6  S1B A 601      -9.483  -0.790  17.366  1.00 60.40           C  
+HETATM   14  C7  S1B A 601      -6.508   0.480  17.931  1.00 52.26           C  
+HETATM   15  C8  S1B A 601      -5.399   1.443  17.663  1.00 44.10           C  
+HETATM   16  C9  S1B A 601      -5.418   2.647  18.362  1.00 38.66           C  
+HETATM   17  C10 S1B A 601      -4.353   3.539  18.316  1.00 39.72           C  
+HETATM   18  C11 S1B A 601      -3.281   3.226  17.471  1.00 43.35           C  
+HETATM   19  C12 S1B A 601      -3.251   2.034  16.756  1.00 47.30           C  
+HETATM   20  C13 S1B A 601      -4.304   1.145  16.859  1.00 45.35           C  
+HETATM   21  C14 S1B A 601      -2.290   4.354  17.392  1.00 43.38           C  
+HETATM   22  O1  S1B A 601      -2.754   5.341  18.350  1.00 41.78           O  
+HETATM   23  O4  S1B A 601      -6.866   0.326  19.087  1.00 49.91           O  
+HETATM   24  N1  S1B A 601      -7.148  -0.114  16.882  1.00 56.65           N  
+HETATM   25  O   S1B A 601      -8.758  -3.321  16.160  1.00 71.59           O  
+HETATM   26  N   S1B A 601      -7.420  -2.113  14.831  1.00 63.36           N  
+HETATM   27  C   S1B A 601      -7.826  -2.820  13.616  1.00 59.81           C  
+HETATM   28  B   S1B A 601      -4.124   5.058  18.911  1.00 39.59           B1-
+CONECT    8    9   26
+CONECT    9    8   24
+CONECT   10   11   12   13   24
+CONECT   11   10
+CONECT   12   10   25   26
+CONECT   12   25
+CONECT   13   10
+CONECT   14   15   23   24
+CONECT   14   23
+CONECT   15   14   16   20
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   16   18   28
+CONECT   17   18
+CONECT   18   17   19   21
+CONECT   18   17
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   15   19
+CONECT   20   19
+CONECT   21   18   22
+CONECT   22   21   28
+CONECT   23   14
+CONECT   23   14
+CONECT   24    9   10   14
+CONECT   25   12
+CONECT   25   12
+CONECT   26    8   12   27
+CONECT   27   26
+CONECT   28    6   17   22
+ENDMDL
+END   

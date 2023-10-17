@@ -1,0 +1,67 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6tpf_ligand
+MODEL        1
+HETATM    1  C1  NTQ B1201       1.270  20.663  40.553  1.00  0.00           C  
+HETATM    2  C2  NTQ B1201       0.497  20.242  41.776  1.00  0.00           C  
+HETATM    3  C5  NTQ B1201      -0.626  19.182  43.455  1.00  0.00           C  
+HETATM    4  C6  NTQ B1201       0.105  18.968  42.189  1.00  0.00           C  
+HETATM    5  C7  NTQ B1201       0.221  17.562  41.717  1.00  0.00           C  
+HETATM    6  C8  NTQ B1201      -0.363  16.561  42.473  1.00  0.00           C  
+HETATM    7  C12 NTQ B1201       0.989  17.248  40.447  1.00  0.00           C  
+HETATM    8  C15 NTQ B1201       1.679  15.645  38.090  1.00  0.00           C  
+HETATM    9  C16 NTQ B1201       0.796  16.892  37.940  1.00  0.00           C  
+HETATM   10  C17 NTQ B1201       0.045  17.217  39.236  1.00  0.00           C  
+HETATM   11  C19 NTQ B1201       3.144  14.364  36.564  1.00  0.00           C  
+HETATM   12  O20 NTQ B1201       2.972  13.314  37.156  1.00  0.00           O  
+HETATM   13  C21 NTQ B1201       4.060  14.450  35.374  1.00  0.00           C  
+HETATM   14  C23 NTQ B1201       4.754  13.239  34.780  1.00  0.00           C  
+HETATM   15  N3  NTQ B1201       0.066  21.129  42.685  1.00  0.00           N  
+HETATM   16  N4  NTQ B1201      -0.623  20.464  43.695  1.00  0.00           N  
+HETATM   17  C9  NTQ B1201      -1.050  16.839  43.668  1.00  0.00           C  
+HETATM   18  O10 NTQ B1201      -1.525  15.896  44.280  1.00  0.00           O  
+HETATM   19  N11 NTQ B1201      -1.166  18.097  44.139  1.00  0.00           N  
+HETATM   20  C13 NTQ B1201       1.770  15.923  40.537  1.00  0.00           C  
+HETATM   21  C14 NTQ B1201       2.615  15.796  39.285  1.00  0.00           C  
+HETATM   22  N18 NTQ B1201       2.569  15.524  36.941  1.00  0.00           N  
+HETATM   23  C22 NTQ B1201       5.524  14.191  35.717  1.00  0.00           C  
+HETATM   24  F24 NTQ B1201       6.382  15.198  35.257  1.00  0.00           F  
+HETATM   25  F25 NTQ B1201       5.846  13.682  36.979  1.00  0.00           F  
+CONECT    1    2
+CONECT    2    1    4   15
+CONECT    2    4
+CONECT    3    4   16   19
+CONECT    3   16
+CONECT    4    2    3    5
+CONECT    4    2
+CONECT    5    4    6    7
+CONECT    5    6
+CONECT    6    5   17
+CONECT    6    5
+CONECT    7    5   10   20
+CONECT    8    9   21   22
+CONECT    9    8   10
+CONECT   10    7    9
+CONECT   11   12   13   22
+CONECT   11   12
+CONECT   12   11
+CONECT   12   11
+CONECT   13   11   14   23
+CONECT   14   13   23
+CONECT   15    2   16
+CONECT   16    3   15
+CONECT   16    3
+CONECT   17    6   18   19
+CONECT   17   18
+CONECT   18   17
+CONECT   18   17
+CONECT   19    3   17
+CONECT   20    7   21
+CONECT   21    8   20
+CONECT   22    8   11
+CONECT   23   13   14   24   25
+CONECT   24   23
+CONECT   25   23
+ENDMDL
+END   

@@ -1,0 +1,68 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6XCE
+MODEL        1
+ATOM      1  N   CYS A 165       9.319  -3.828  16.356  1.00 39.57           N1+
+ATOM      2  CA  CYS A 165       9.839  -2.670  15.651  1.00 37.79           C  
+ATOM      3  C   CYS A 165      11.207  -2.984  15.067  1.00 42.62           C  
+ATOM      4  O   CYS A 165      12.002  -3.718  15.664  1.00 48.13           O  
+ATOM      5  CB  CYS A 165       9.935  -1.469  16.592  1.00 41.00           C  
+ATOM      6  SG  CYS A 165       8.356  -0.969  17.300  1.00 58.87           S  
+TER       7      CYS A 165
+HETATM    8  C11 UZM A 501       0.650 -10.723  22.831  1.00 42.51           C  
+HETATM    9  C12 UZM A 501       1.758 -10.378  22.076  1.00 40.76           C  
+HETATM   10  C13 UZM A 501       3.303  -9.666  19.722  0.00 39.94           C  
+HETATM   11  C14 UZM A 501       4.672 -10.325  19.553  1.00 41.33           C  
+HETATM   12  C20 UZM A 501       6.283  -4.711  19.435  0.00 42.11           C  
+HETATM   13  C19 UZM A 501       6.607  -5.725  20.527  1.00 44.18           C  
+HETATM   14  C02 UZM A 501       5.332  -7.493  21.710  1.00 42.41           C  
+HETATM   15  C03 UZM A 501       4.487  -8.764  21.750  1.00 46.10           C  
+HETATM   16  C04 UZM A 501       3.217  -8.706  20.908  0.00 41.24           C  
+HETATM   17  C05 UZM A 501       1.988  -9.053  21.740  1.00 36.66           C  
+HETATM   18  C06 UZM A 501       1.100  -8.071  22.156  1.00 38.81           C  
+HETATM   19  C08 UZM A 501      -0.009  -8.419  22.911  1.00 43.34           C  
+HETATM   20  C09 UZM A 501      -0.237  -9.744  23.248  1.00 45.10           C  
+HETATM   21  C21 UZM A 501       7.457  -3.753  19.234  1.00 46.37           C  
+HETATM   22  N15 UZM A 501       4.958 -11.648  20.080  1.00 44.50           N  
+HETATM   23  N18 UZM A 501       5.802  -6.931  20.458  1.00 43.13           N  
+HETATM   24  O01 UZM A 501       5.611  -6.947  22.724  1.00 42.83           O  
+HETATM   25  O16 UZM A 501       3.982 -12.375  20.775  1.00 51.77           O  
+HETATM   26  O17 UZM A 501       5.523  -9.753  18.973  1.00 36.17           O  
+HETATM   27  S22 UZM A 501       6.993  -2.350  18.180  1.00 59.03           S  
+HETATM   28 CL07 UZM A 501       1.371  -6.357  21.738  1.00 53.06          Cl  
+HETATM   29 CL10 UZM A 501      -1.671 -10.185  24.219  1.00 47.61          Cl  
+CONECT    8    9   20
+CONECT    8   20
+CONECT    9    8   17
+CONECT    9   17
+CONECT   10   11   16
+CONECT   11   10   22   26
+CONECT   11   26
+CONECT   12   13   21
+CONECT   13   12   23
+CONECT   14   15   23   24
+CONECT   14   24
+CONECT   15   14   16
+CONECT   16   10   15   17
+CONECT   17    9   16   18
+CONECT   17    9
+CONECT   18   17   19   28
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20    8   19   29
+CONECT   20    8
+CONECT   21   12   27
+CONECT   22   11   25
+CONECT   23   13   14
+CONECT   24   14
+CONECT   24   14
+CONECT   25   22
+CONECT   26   11
+CONECT   26   11
+CONECT   27    6   21
+CONECT   28   18
+CONECT   29   20
+ENDMDL
+END   

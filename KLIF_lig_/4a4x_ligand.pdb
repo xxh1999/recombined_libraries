@@ -1,0 +1,108 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4a4x_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C01 JUP A1280       4.728  15.295  40.164  1.00  0.00           C  
+HETATM    2  C02 JUP A1280       3.416  15.966  40.528  1.00  0.00           C  
+HETATM    3  O03 JUP A1280       3.163  17.081  39.705  1.00  0.00           O  
+HETATM    4  C04 JUP A1280       2.104  18.006  40.027  1.00  0.00           C  
+HETATM    5  C05 JUP A1280       1.599  18.092  41.352  1.00  0.00           C  
+HETATM    6  C06 JUP A1280       0.531  19.000  41.635  1.00  0.00           C  
+HETATM    7  C07 JUP A1280       0.015  19.081  42.947  1.00  0.00           C  
+HETATM    8  C08 JUP A1280      -0.375  17.899  43.594  1.00  0.00           C  
+HETATM    9  C09 JUP A1280      -0.872  17.999  44.912  1.00  0.00           C  
+HETATM   10  C10 JUP A1280      -1.293  16.876  45.606  1.00  0.00           C  
+HETATM   11  C11 JUP A1280      -1.998  16.776  46.800  1.00  0.00           C  
+HETATM   12  C12 JUP A1280      -2.273  15.522  47.248  1.00  0.00           C  
+HETATM   13  C13 JUP A1280      -3.083  15.230  48.542  1.00  0.00           C  
+HETATM   14  N14 JUP A1280      -2.293  15.266  49.810  1.00  0.00           N1+
+HETATM   15  C15 JUP A1280      -2.875  16.264  50.676  1.00  0.00           C  
+HETATM   16  C16 JUP A1280      -2.412  13.949  50.457  1.00  0.00           C  
+HETATM   17  C17 JUP A1280      -1.822  14.445  46.466  1.00  0.00           C  
+HETATM   18  S18 JUP A1280      -1.083  15.252  45.146  1.00  0.00           S  
+HETATM   19  C19 JUP A1280      -0.957  19.292  45.521  1.00  0.00           C  
+HETATM   20  N20 JUP A1280      -0.572  20.401  44.876  1.00  0.00           N  
+HETATM   21  C21 JUP A1280      -0.086  20.339  43.607  1.00  0.00           C  
+HETATM   22  N22 JUP A1280       0.313  21.567  42.938  1.00  0.00           N  
+HETATM   23  C23 JUP A1280       0.001  19.808  40.614  1.00  0.00           C  
+HETATM   24  C24 JUP A1280       0.524  19.732  39.308  1.00  0.00           C  
+HETATM   25  C25 JUP A1280       1.565  18.830  39.017  1.00  0.00           C  
+HETATM   26  C26 JUP A1280       2.097  18.756  37.647  1.00  0.00           C  
+HETATM   27  N27 JUP A1280       3.098  17.757  37.323  1.00  0.00           N  
+HETATM   28  O28 JUP A1280       1.693  19.522  36.823  1.00  0.00           O  
+HETATM   29  C29 JUP A1280       2.277  14.976  40.704  1.00  0.00           C  
+HETATM   30  C30 JUP A1280       1.485  14.623  39.593  1.00  0.00           C  
+HETATM   31  C31 JUP A1280       0.414  13.712  39.725  1.00  0.00           C  
+HETATM   32  C32 JUP A1280       0.157  13.141  40.986  1.00  0.00           C  
+HETATM   33  C33 JUP A1280       0.988  13.478  42.115  1.00  0.00           C  
+HETATM   34  C34 JUP A1280       2.039  14.384  41.974  1.00  0.00           C  
+HETATM   35  C35 JUP A1280       2.859  14.746  43.210  1.00  0.00           C  
+HETATM   36  F36 JUP A1280       4.192  14.591  43.049  1.00  0.00           F  
+HETATM   37  F37 JUP A1280       2.660  16.050  43.550  1.00  0.00           F  
+HETATM   38  F38 JUP A1280       2.447  13.948  44.174  1.00  0.00           F  
+CONECT    1    2
+CONECT    2    1    3   29
+CONECT    3    2    4
+CONECT    4    3    5   25
+CONECT    4   25
+CONECT    5    4    6
+CONECT    5    6
+CONECT    6    5    7   23
+CONECT    6    5
+CONECT    7    6    8   21
+CONECT    7   21
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    8   10   19
+CONECT    9    8
+CONECT   10    9   11   18
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   13   17
+CONECT   12   17
+CONECT   13   12   14
+CONECT   14   13   15   16
+CONECT   15   14
+CONECT   16   14
+CONECT   17   12   18
+CONECT   17   12
+CONECT   18   10   17
+CONECT   19    9   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21    7   20   22
+CONECT   21    7
+CONECT   22   21
+CONECT   23    6   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25    4   24   26
+CONECT   25    4
+CONECT   26   25   27   28
+CONECT   26   28
+CONECT   27   26
+CONECT   28   26
+CONECT   28   26
+CONECT   29    2   30   34
+CONECT   29   34
+CONECT   30   29   31
+CONECT   30   31
+CONECT   31   30   32
+CONECT   31   30
+CONECT   32   31   33
+CONECT   32   33
+CONECT   33   32   34
+CONECT   33   32
+CONECT   34   29   33   35
+CONECT   34   29
+CONECT   35   34   36   37   38
+CONECT   36   35
+CONECT   37   35
+CONECT   38   35
+ENDMDL
+END   

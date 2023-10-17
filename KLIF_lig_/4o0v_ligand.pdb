@@ -1,0 +1,86 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4o0v_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  Q2O A 601      -2.020  14.435  43.753  1.00  0.00           C  
+HETATM    2  O2  Q2O A 601      -0.594  14.369  43.742  1.00  0.00           O  
+HETATM    3  C3  Q2O A 601      -0.046  13.722  42.590  1.00  0.00           C  
+HETATM    4  C4  Q2O A 601       1.439  14.079  42.474  1.00  0.00           C  
+HETATM    5  N5  Q2O A 601       1.586  15.536  42.547  1.00  0.00           N  
+HETATM    6  C6  Q2O A 601       1.918  16.239  41.410  1.00  0.00           C  
+HETATM    7  N7  Q2O A 601       2.576  15.740  40.393  1.00  0.00           N  
+HETATM    8  C8  Q2O A 601       2.742  16.691  39.438  1.00  0.00           C  
+HETATM    9  C9  Q2O A 601       3.362  16.682  38.184  1.00  0.00           C  
+HETATM   10  C10 Q2O A 601       3.376  17.815  37.422  1.00  0.00           C  
+HETATM   11  C11 Q2O A 601       2.773  18.988  37.888  1.00  0.00           C  
+HETATM   12  C12 Q2O A 601       2.150  19.010  39.128  1.00  0.00           C  
+HETATM   13  C13 Q2O A 601       2.130  17.869  39.915  1.00  0.00           C  
+HETATM   14  N14 Q2O A 601       1.613  17.558  41.173  1.00  0.00           N  
+HETATM   15  C15 Q2O A 601       0.910  18.409  42.042  1.00  0.00           C  
+HETATM   16  C16 Q2O A 601       1.098  19.796  42.021  1.00  0.00           C  
+HETATM   17  C17 Q2O A 601       0.374  20.584  42.897  1.00  0.00           C  
+HETATM   18  N18 Q2O A 601      -0.474  20.007  43.737  1.00  0.00           N  
+HETATM   19  C19 Q2O A 601      -0.637  18.693  43.740  1.00  0.00           C  
+HETATM   20  N20 Q2O A 601       0.036  17.902  42.912  1.00  0.00           N  
+HETATM   21  N21 Q2O A 601      -1.538  18.138  44.631  1.00  0.00           N  
+HETATM   22  C22 Q2O A 601       2.797  20.175  37.082  1.00  0.00           C  
+HETATM   23  C23 Q2O A 601       2.794  21.153  36.437  1.00  0.00           C  
+HETATM   24  C24 Q2O A 601       2.793  22.388  35.628  1.00  0.00           C  
+HETATM   25  C25 Q2O A 601       1.430  23.073  35.741  1.00  0.00           C  
+HETATM   26  C26 Q2O A 601       1.448  24.442  35.036  1.00  0.00           C  
+HETATM   27  C27 Q2O A 601       2.547  25.324  35.629  1.00  0.00           C  
+HETATM   28  C28 Q2O A 601       3.898  24.644  35.424  1.00  0.00           C  
+HETATM   29  C29 Q2O A 601       3.902  23.313  36.172  1.00  0.00           C  
+HETATM   30  O30 Q2O A 601       3.085  22.070  34.272  1.00  0.00           O  
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    5    7   14
+CONECT    6    7
+CONECT    7    6    8
+CONECT    7    6
+CONECT    8    7    9   13
+CONECT    8   13
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11   10   12   22
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13    8   12   14
+CONECT   13    8
+CONECT   14    6   13   15
+CONECT   15   14   16   20
+CONECT   15   20
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20   21
+CONECT   19   18
+CONECT   20   15   19
+CONECT   20   15
+CONECT   21   19
+CONECT   22   11   23
+CONECT   22   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   23   22
+CONECT   24   23   25   29   30
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   27   29
+CONECT   29   24   28
+CONECT   30   24
+ENDMDL
+END   

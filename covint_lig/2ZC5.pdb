@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2ZC5
+MODEL        1
+ATOM      1  N   SER B 370      17.100  12.454  10.503  1.00 42.43           N1+
+ATOM      2  CA  SER B 370      16.631  11.742   9.321  1.00 42.36           C  
+ATOM      3  C   SER B 370      17.769  11.219   8.428  1.00 41.88           C  
+ATOM      4  O   SER B 370      17.494  10.400   7.555  1.00 41.72           O  
+ATOM      5  CB  SER B 370      15.810  12.708   8.447  1.00 42.59           C  
+ATOM      6  OG  SER B 370      14.638  13.213   9.075  1.00 44.20           O  
+TER       7      SER B 370
+HETATM    8  C1  BMG B 701      11.903  16.776   8.585  1.00 55.25           C  
+HETATM    9  C3  BMG B 701      13.636  16.518   7.031  1.00 56.52           C  
+HETATM   10  C5  BMG B 701      12.513  15.335   8.714  1.00 53.32           C  
+HETATM   11  C6  BMG B 701      13.308  15.001  10.034  1.00 50.55           C  
+HETATM   12  C7  BMG B 701      14.689  14.368   9.782  1.00 47.76           C  
+HETATM   13  C8  BMG B 701      12.531  14.127  11.044  1.00 50.77           C  
+HETATM   14  C11 BMG B 701      14.774  16.602   5.982  1.00 57.21           C  
+HETATM   15  C17 BMG B 701      11.861  18.924   5.435  1.00 62.31           C  
+HETATM   16  C18 BMG B 701      10.583  19.783   5.253  1.00 63.57           C  
+HETATM   17  C20 BMG B 701       9.686  20.139   2.871  1.00 65.03           C  
+HETATM   18  C22 BMG B 701      11.588  19.655   1.939  1.00 65.26           C  
+HETATM   19  C9  BMG B 701      13.218  13.963  12.414  1.00 51.09           C  
+HETATM   20  O14 BMG B 701      15.714  14.908  10.188  1.00 47.51           O  
+HETATM   21  O15 BMG B 701      11.249  14.667  11.279  1.00 50.98           O  
+HETATM   22  C10 BMG B 701      11.697  17.621   9.854  1.00 54.90           C  
+HETATM   23  N4  BMG B 701      13.362  15.276   7.532  1.00 54.70           N  
+HETATM   24  O13 BMG B 701      15.083  15.522   5.435  1.00 57.73           O1-
+HETATM   25  O12 BMG B 701      15.297  17.723   5.801  1.00 57.46           O  
+HETATM   26  C2  BMG B 701      12.803  17.417   7.548  1.00 56.98           C  
+HETATM   27  S16 BMG B 701      12.649  19.111   7.055  1.00 59.89           S  
+HETATM   28  C24 BMG B 701      12.763  19.209   4.199  1.00 63.36           C  
+HETATM   29  N23 BMG B 701      11.710  19.580   3.271  1.00 64.31           N1+
+HETATM   30  N19 BMG B 701      10.597  19.869   3.813  1.00 64.39           N1+
+HETATM   31  N21 BMG B 701      10.297  20.001   1.658  1.00 65.60           N  
+CONECT    8   10   22   26
+CONECT    9   14   23   26
+CONECT    9   26
+CONECT   10    8   11   23
+CONECT   11   10   12   13
+CONECT   12    6   11   20
+CONECT   12   20
+CONECT   13   11   19   21
+CONECT   14    9   24   25
+CONECT   14   25
+CONECT   15   16   27   28
+CONECT   16   15   30
+CONECT   17   30   31
+CONECT   17   30
+CONECT   18   29   31
+CONECT   18   29
+CONECT   19   13
+CONECT   20   12
+CONECT   20   12
+CONECT   21   13
+CONECT   22    8
+CONECT   23    9   10
+CONECT   24   14
+CONECT   25   14
+CONECT   25   14
+CONECT   26    8    9   27
+CONECT   26    9
+CONECT   27   15   26
+CONECT   28   15   29
+CONECT   29   18   28   30
+CONECT   29   18
+CONECT   30   16   17   29
+CONECT   30   17
+CONECT   31   17   18
+ENDMDL
+END   

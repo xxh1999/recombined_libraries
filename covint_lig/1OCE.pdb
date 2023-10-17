@@ -1,0 +1,54 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1OCE
+MODEL        1
+ATOM      1  N   SER A 200       7.263  64.995  57.276  1.00 26.50           N1+
+ATOM      2  CA  SER A 200       6.958  63.920  58.224  1.00 26.48           C  
+ATOM      3  C   SER A 200       6.156  62.819  57.518  1.00 24.07           C  
+ATOM      4  O   SER A 200       6.671  62.208  56.584  1.00 24.33           O  
+ATOM      5  CB  SER A 200       6.325  64.498  59.503  1.00 28.91           C  
+ATOM      6  OG  SER A 200       6.336  63.589  60.596  1.00 33.94           O  
+TER       7      SER A 200
+HETATM    8  C2  MF2 A 700       1.149  63.476  71.532  1.00 42.41           C  
+HETATM    9  C3  MF2 A 700      -0.327  63.580  71.955  1.00 44.34           C  
+HETATM   10  O4  MF2 A 700      -0.656  62.433  72.727  1.00 42.81           O  
+HETATM   11  C7  MF2 A 700      -0.978  60.066  72.877  1.00 38.00           C  
+HETATM   12  C8  MF2 A 700      -0.605  64.832  72.797  1.00 43.29           C  
+HETATM   13  C9  MF2 A 700       2.808  62.111  70.293  1.00 39.49           C  
+HETATM   14  C10 MF2 A 700       3.144  62.832  68.967  1.00 42.07           C  
+HETATM   15  C11 MF2 A 700       3.595  64.300  69.111  1.00 44.96           C  
+HETATM   16  C12 MF2 A 700       4.328  64.873  67.879  1.00 42.85           C  
+HETATM   17  C13 MF2 A 700       3.435  65.410  66.746  1.00 45.85           C  
+HETATM   18  C14 MF2 A 700       3.270  64.430  65.576  1.00 40.21           C  
+HETATM   19  C15 MF2 A 700       4.419  64.491  64.551  1.00 35.04           C  
+HETATM   20  C16 MF2 A 700       4.408  63.267  63.625  1.00 31.86           C  
+HETATM   21  N1  MF2 A 700       1.393  62.249  70.739  1.00 40.13           N1+
+HETATM   22  C5  MF2 A 700      -0.527  61.227  71.983  1.00 39.02           C  
+HETATM   23  C6  MF2 A 700       0.933  61.064  71.509  1.00 38.60           C  
+HETATM   24  N17 MF2 A 700       5.454  63.320  62.610  1.00 34.03           N  
+HETATM   25  C18 MF2 A 700       5.201  63.365  61.249  1.00 35.48           C  
+HETATM   26  O19 MF2 A 700       4.110  63.299  60.694  1.00 38.02           O  
+CONECT    8    9   21
+CONECT    9    8   10   12
+CONECT   10    9   22
+CONECT   11   22
+CONECT   12    9
+CONECT   13   14   21
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20   19   24
+CONECT   21    8   13   23
+CONECT   22   10   11   23
+CONECT   23   21   22
+CONECT   24   20   25
+CONECT   25    6   24   26
+CONECT   25   26
+CONECT   26   25
+CONECT   26   25
+ENDMDL
+END   

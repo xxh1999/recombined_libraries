@@ -1,0 +1,94 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6ebw_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C5  J3Y A1500       1.166  14.940  43.057  1.00  0.00           C  
+HETATM    2  C6  J3Y A1500       0.677  14.030  43.994  1.00  0.00           C  
+HETATM    3  C7  J3Y A1500      -0.098  14.480  45.032  1.00  0.00           C  
+HETATM    4  C8  J3Y A1500      -0.375  15.846  45.117  1.00  0.00           C  
+HETATM    5  C10 J3Y A1500      -1.035  17.962  45.578  1.00  0.00           C  
+HETATM    6  C13 J3Y A1500       0.932  19.251  42.722  1.00  0.00           C  
+HETATM    7  C15 J3Y A1500       1.761  21.137  41.163  1.00  0.00           C  
+HETATM    8  C21 J3Y A1500      -1.890  16.200  47.241  1.00  0.00           C  
+HETATM    9  C24 J3Y A1500      -2.938  16.288  49.443  1.00  0.00           C  
+HETATM   10  C28 J3Y A1500      -1.785  18.336  48.569  1.00  0.00           C  
+HETATM   11  C1  J3Y A1500       3.597  14.741  40.205  1.00  0.00           C  
+HETATM   12  C12 J3Y A1500       0.034  19.142  43.738  1.00  0.00           C  
+HETATM   13  C14 J3Y A1500       0.916  20.574  42.275  1.00  0.00           C  
+HETATM   14  C19 J3Y A1500       0.149  16.712  44.144  1.00  0.00           C  
+HETATM   15  C2  J3Y A1500       2.526  15.443  41.041  1.00  0.00           C  
+HETATM   16  C25 J3Y A1500      -2.237  16.540  50.784  1.00  0.00           C  
+HETATM   17  C27 J3Y A1500      -1.105  18.466  49.939  1.00  0.00           C  
+HETATM   18  C29 J3Y A1500       1.453  15.994  40.131  1.00  0.00           C  
+HETATM   19  C30 J3Y A1500       1.654  17.212  39.510  1.00  0.00           C  
+HETATM   20  C31 J3Y A1500       0.668  17.718  38.678  1.00  0.00           C  
+HETATM   21  C32 J3Y A1500      -0.493  16.976  38.500  1.00  0.00           C  
+HETATM   22  C34 J3Y A1500      -0.624  15.764  39.156  1.00  0.00           C  
+HETATM   23  C9  J3Y A1500      -1.142  16.688  46.060  1.00  0.00           C  
+HETATM   24  F33 J3Y A1500      -1.479  17.433  37.698  1.00  0.00           F  
+HETATM   25  N11 J3Y A1500      -0.270  17.985  44.461  1.00  0.00           N  
+HETATM   26  N16 J3Y A1500       0.042  21.238  42.986  1.00  0.00           N  
+HETATM   27  N17 J3Y A1500      -0.534  20.362  43.913  1.00  0.00           N  
+HETATM   28  N20 J3Y A1500       0.896  16.229  43.158  1.00  0.00           N  
+HETATM   29  N23 J3Y A1500      -2.175  16.927  48.356  1.00  0.00           N  
+HETATM   30  N35 J3Y A1500       0.338  15.317  39.940  1.00  0.00           N  
+HETATM   31  N4  J3Y A1500       1.950  14.491  41.999  1.00  0.00           N  
+HETATM   32  O22 J3Y A1500      -2.281  15.048  47.212  1.00  0.00           O  
+HETATM   33  O26 J3Y A1500      -1.985  17.938  50.933  1.00  0.00           O  
+CONECT    1    2   28   31
+CONECT    1   28
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3   14   23
+CONECT    4   14
+CONECT    5   23   25
+CONECT    5   23
+CONECT    6   12   13
+CONECT    6   13
+CONECT    7   13
+CONECT    8   23   29   32
+CONECT    8   32
+CONECT    9   16   29
+CONECT   10   17   29
+CONECT   11   15
+CONECT   12    6   25   27
+CONECT   12   27
+CONECT   13    6    7   26
+CONECT   13    6
+CONECT   14    4   25   28
+CONECT   14    4
+CONECT   15   11   18   31
+CONECT   16    9   33
+CONECT   17   10   33
+CONECT   18   15   19   30
+CONECT   18   30
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22   24
+CONECT   21   22
+CONECT   22   21   30
+CONECT   22   21
+CONECT   23    4    5    8
+CONECT   23    5
+CONECT   24   21
+CONECT   25    5   12   14
+CONECT   26   13   27
+CONECT   27   12   26
+CONECT   27   12
+CONECT   28    1   14
+CONECT   28    1
+CONECT   29    8    9   10
+CONECT   30   18   22
+CONECT   30   18
+CONECT   31    1   15
+CONECT   32    8
+CONECT   32    8
+CONECT   33   16   17
+ENDMDL
+END   

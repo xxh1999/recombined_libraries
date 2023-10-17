@@ -1,0 +1,54 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4e8a_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  O15 Q0O A   0      -0.428   5.617  10.157  1.00  0.00           O1-
+HETATM    2  P12 Q0O A   0      -0.661   6.887   9.341  1.00  0.00           P1+
+HETATM    3  O14 Q0O A   0      -0.408   6.899   7.852  1.00  0.00           O1-
+HETATM    4  O13 Q0O A   0      -2.189   7.357   9.623  1.00  0.00           O  
+HETATM    5  C16 Q0O A   0      -3.087   6.498  10.323  1.00  0.00           C  
+HETATM    6  C17 Q0O A   0      -4.108   7.482  11.027  1.00  0.00           C  
+HETATM    7  O22 Q0O A   0      -4.782   6.687  12.005  1.00  0.00           O  
+HETATM    8  C23 Q0O A   0      -5.990   7.318  12.460  1.00  0.00           C  
+HETATM    9  C18 Q0O A   0      -5.154   7.952  10.043  1.00  0.00           C  
+HETATM   10  O19 Q0O A   0      -6.232   7.020  10.143  1.00  0.00           O  
+HETATM   11  C20 Q0O A   0      -7.051   7.227  11.295  1.00  0.00           C  
+HETATM   12  C21 Q0O A   0      -7.126   5.923  12.060  1.00  0.00           C  
+HETATM   13  O11 Q0O A   0       0.186   8.049  10.046  1.00  0.00           O  
+HETATM   14  C4  Q0O A   0       1.274   7.556  10.784  1.00  0.00           C  
+HETATM   15  C3  Q0O A   0       2.469   8.491  10.931  1.00  0.00           C  
+HETATM   16  O7  Q0O A   0       2.142   9.701  11.599  1.00  0.00           O  
+HETATM   17  C2  Q0O A   0       3.527   7.754  11.703  1.00  0.00           C  
+HETATM   18  O8  Q0O A   0       4.542   8.607  12.236  1.00  0.00           O1-
+HETATM   19  C5  Q0O A   0       1.630   6.157  10.285  1.00  0.00           C  
+HETATM   20  C6  Q0O A   0       3.090   5.746  10.500  1.00  0.00           C  
+HETATM   21  C1  Q0O A   0       4.064   6.917  10.600  1.00  0.00           C  
+HETATM   22  O9  Q0O A   0       5.408   6.556  10.928  1.00  0.00           O  
+HETATM   23  O10 Q0O A   0       1.319   6.062   8.898  1.00  0.00           O  
+CONECT    1    2
+CONECT    2    1    3    4   13
+CONECT    3    2
+CONECT    4    2    5
+CONECT    5    4    6
+CONECT    6    5    7    9
+CONECT    7    6    8
+CONECT    8    7
+CONECT    9    6   10
+CONECT   10    9   11
+CONECT   11   10   12
+CONECT   12   11
+CONECT   13    2   14
+CONECT   14   13   15   19
+CONECT   15   14   16   17
+CONECT   16   15
+CONECT   17   15   18   21
+CONECT   18   17
+CONECT   19   14   20   23
+CONECT   20   19   21
+CONECT   21   17   20   22
+CONECT   22   21
+CONECT   23   19
+ENDMDL
+END   

@@ -1,0 +1,85 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6z84_ligand
+MODEL        1
+HETATM    1  N1  QB8 B 402       0.969  17.884  41.730  1.00  0.00           N  
+HETATM    2  C2  QB8 B 402       0.271  18.963  42.133  1.00  0.00           C  
+HETATM    3  N3  QB8 B 402      -1.177  20.145  43.461  1.00  0.00           N  
+HETATM    4  C4  QB8 B 402       0.013  16.720  43.624  1.00  0.00           C  
+HETATM    5  C5  QB8 B 402      -0.702  17.829  44.033  1.00  0.00           C  
+HETATM    6  C6  QB8 B 402      -0.732  20.914  42.482  1.00  0.00           C  
+HETATM    7  O   QB8 B 402       3.646  18.586  36.469  1.00  0.00           O  
+HETATM    8  C16 QB8 B 402       3.762  18.035  37.554  1.00  0.00           C  
+HETATM    9  C17 QB8 B 402       4.031  18.814  38.811  1.00  0.00           C  
+HETATM   10  N6  QB8 B 402       3.774  16.685  37.694  1.00  0.00           N  
+HETATM   11  C15 QB8 B 402       3.197  15.858  38.695  1.00  0.00           C  
+HETATM   12  C18 QB8 B 402       3.481  14.499  38.563  1.00  0.00           C  
+HETATM   13  C19 QB8 B 402       3.137  13.612  39.565  1.00  0.00           C  
+HETATM   14  C12 QB8 B 402       2.477  14.055  40.710  1.00  0.00           C  
+HETATM   15  C11 QB8 B 402       2.015  13.424  41.910  1.00  0.00           C  
+HETATM   16  C10 QB8 B 402       1.422  14.371  42.667  1.00  0.00           C  
+HETATM   17  C14 QB8 B 402       2.489  16.323  39.804  1.00  0.00           C  
+HETATM   18  C13 QB8 B 402       2.139  15.418  40.801  1.00  0.00           C  
+HETATM   19  N5  QB8 B 402       1.461  15.598  42.016  1.00  0.00           N  
+HETATM   20  C3  QB8 B 402       0.826  16.786  42.458  1.00  0.00           C  
+HETATM   21  N4  QB8 B 402      -1.525  17.896  45.103  1.00  0.00           N  
+HETATM   22  C7  QB8 B 402      -1.767  16.734  45.959  1.00  0.00           C  
+HETATM   23  C9  QB8 B 402      -0.971  16.596  47.199  1.00  0.00           C  
+HETATM   24  C8  QB8 B 402      -2.411  16.946  47.274  1.00  0.00           C  
+HETATM   25  N2  QB8 B 402      -0.548  18.941  43.242  1.00  0.00           N  
+HETATM   26  C1  QB8 B 402       0.168  20.254  41.630  1.00  0.00           C  
+HETATM   27  C   QB8 B 402       0.879  20.784  40.505  1.00  0.00           C  
+HETATM   28  N   QB8 B 402       1.477  21.170  39.607  1.00  0.00           N  
+CONECT    1    2   20
+CONECT    1   20
+CONECT    2    1   25   26
+CONECT    2   26
+CONECT    3    6   25
+CONECT    3    6
+CONECT    4    5   20
+CONECT    4    5
+CONECT    5    4   21   25
+CONECT    5    4
+CONECT    6    3   26
+CONECT    6    3
+CONECT    7    8
+CONECT    7    8
+CONECT    8    7    9   10
+CONECT    8    7
+CONECT    9    8
+CONECT   10    8   11
+CONECT   11   10   12   17
+CONECT   11   17
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15   18
+CONECT   14   18
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16   15   19
+CONECT   16   15
+CONECT   17   11   18
+CONECT   17   11
+CONECT   18   14   17   19
+CONECT   18   14
+CONECT   19   16   18   20
+CONECT   20    1    4   19
+CONECT   20    1
+CONECT   21    5   22
+CONECT   22   21   23   24
+CONECT   23   22   24
+CONECT   24   22   23
+CONECT   25    2    3    5
+CONECT   26    2    6   27
+CONECT   26    2
+CONECT   27   26   28
+CONECT   27   28
+CONECT   27   28
+CONECT   28   27
+CONECT   28   27
+CONECT   28   27
+ENDMDL
+END   

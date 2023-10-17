@@ -1,0 +1,80 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6RTN
+MODEL        1
+ATOM      1  N   SER A  67      16.771 -13.928  -1.289  1.00 22.87           N1+
+ATOM      2  CA  SER A  67      16.344 -13.487   0.031  1.00 12.46           C  
+ATOM      3  C   SER A  67      15.515 -12.187   0.061  1.00 11.94           C  
+ATOM      4  O   SER A  67      14.980 -11.876   1.121  1.00 15.28           O  
+ATOM      5  CB  SER A  67      17.585 -13.333   0.910  1.00 13.00           C  
+ATOM      6  OG  SER A  67      18.210 -14.603   1.035  1.00 13.70           O  
+TER       7      SER A  67
+HETATM    8  B07 KJK A 506      19.608 -14.766   0.564  1.00 20.69           B1-
+HETATM    9  C10 KJK A 506      21.716 -13.985   1.617  1.00 15.80           C  
+HETATM   10  C11 KJK A 506      22.677 -12.952   1.609  1.00 18.29           C  
+HETATM   11  C12 KJK A 506      22.287 -11.558   1.238  1.00 25.32           C  
+HETATM   12  C15 KJK A 506      24.006 -13.234   1.991  1.00 18.98           C  
+HETATM   13  C16 KJK A 506      24.367 -14.536   2.391  1.00 19.39           C  
+HETATM   14  C17 KJK A 506      23.396 -15.554   2.442  1.00 18.00           C  
+HETATM   15  C18 KJK A 506      22.069 -15.271   2.065  1.00 22.03           C  
+HETATM   16  C19 KJK A 506      20.976 -16.310   2.148  1.00 23.69           C  
+HETATM   17  C20 KJK A 506      20.107 -16.294   0.878  1.00 20.58           C  
+HETATM   18  C22 KJK A 506      21.158 -18.167  -0.397  1.00 18.28           C  
+HETATM   19  C23 KJK A 506      22.040 -18.552  -1.587  1.00 17.82           C  
+HETATM   20  C24 KJK A 506      23.532 -18.649  -1.202  1.00 20.06           C  
+HETATM   21  C25 KJK A 506      24.171 -17.273  -0.917  1.00 26.56           C  
+HETATM   22  C26 KJK A 506      25.633 -17.419  -0.474  1.00 25.15           C  
+HETATM   23  C27 KJK A 506      26.478 -18.174  -1.522  1.00 27.37           C  
+HETATM   24  C29 KJK A 506      28.751 -17.235  -1.101  1.00 33.15           C  
+HETATM   25  C30 KJK A 506      30.077 -17.461  -0.359  1.00 32.10           C  
+HETATM   26  C32 KJK A 506      25.822 -19.524  -1.875  1.00 30.24           C  
+HETATM   27  C33 KJK A 506      24.348 -19.375  -2.286  1.00 27.17           C  
+HETATM   28  N21 KJK A 506      20.846 -16.868  -0.250  1.00 24.25           N  
+HETATM   29  N28 KJK A 506      27.853 -18.407  -1.025  1.00 32.34           N1+
+HETATM   30  N31 KJK A 506      29.928 -17.328   1.104  1.00 32.21           N1+
+HETATM   31  O08 KJK A 506      19.644 -14.462  -0.882  1.00 24.89           O  
+HETATM   32  O09 KJK A 506      20.417 -13.731   1.268  1.00 17.92           O  
+HETATM   33  O13 KJK A 506      21.684 -11.364   0.165  1.00 27.26           O  
+HETATM   34  O14 KJK A 506      22.594 -10.622   2.007  1.00 28.59           O1-
+HETATM   35  O34 KJK A 506      20.789 -19.046   0.380  1.00 22.50           O  
+CONECT    8    6   17   31   32
+CONECT    9   10   15   32
+CONECT    9   15
+CONECT   10    9   11   12
+CONECT   10   12
+CONECT   11   10   33   34
+CONECT   11   33
+CONECT   12   10   13
+CONECT   12   10
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15    9   14   16
+CONECT   15    9
+CONECT   16   15   17
+CONECT   17    8   16   28
+CONECT   18   19   28   35
+CONECT   18   35
+CONECT   19   18   20
+CONECT   20   19   21   27
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   23   22   26   29
+CONECT   24   25   29
+CONECT   25   24   30
+CONECT   26   23   27
+CONECT   27   20   26
+CONECT   28   17   18
+CONECT   29   23   24
+CONECT   30   25
+CONECT   31    8
+CONECT   32    8    9
+CONECT   33   11
+CONECT   33   11
+CONECT   34   11
+CONECT   35   18
+CONECT   35   18
+ENDMDL
+END   

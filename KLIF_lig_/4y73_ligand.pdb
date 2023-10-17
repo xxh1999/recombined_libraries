@@ -1,0 +1,82 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4y73_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  XPY A1000       1.471  20.606  39.217  1.00  0.00           C  
+HETATM    2  C2  XPY A1000       1.790  19.386  38.688  1.00  0.00           C  
+HETATM    3  C3  XPY A1000       1.558  18.235  39.521  1.00  0.00           C  
+HETATM    4  N6  XPY A1000      -1.675  15.089  45.601  1.00  0.00           N  
+HETATM    5  C7  XPY A1000       0.943  12.712  39.165  1.00  0.00           C  
+HETATM    6  C8  XPY A1000      -0.185  13.684  39.561  1.00  0.00           C  
+HETATM    7  C9  XPY A1000       0.086  15.100  39.050  1.00  0.00           C  
+HETATM    8  C10 XPY A1000       0.098  21.297  42.371  1.00  0.00           C  
+HETATM    9  C11 XPY A1000       0.220  19.903  42.521  1.00  0.00           C  
+HETATM   10  C12 XPY A1000      -0.238  19.163  43.723  1.00  0.00           C  
+HETATM   11  C13 XPY A1000      -0.911  16.951  44.593  1.00  0.00           C  
+HETATM   12  C14 XPY A1000      -1.102  15.558  44.501  1.00  0.00           C  
+HETATM   13  C15 XPY A1000      -0.753  14.681  43.331  1.00  0.00           C  
+HETATM   14  C16 XPY A1000      -2.555  16.006  47.682  1.00  0.00           C  
+HETATM   15  F2  XPY A1000       0.538  14.449  43.257  1.00  0.00           F  
+HETATM   16  F   XPY A1000      -1.353  13.503  43.380  1.00  0.00           F  
+HETATM   17  F1  XPY A1000      -1.102  15.225  42.177  1.00  0.00           F  
+HETATM   18  N7  XPY A1000      -1.863  16.169  46.401  1.00  0.00           N  
+HETATM   19  C17 XPY A1000      -1.420  17.306  45.855  1.00  0.00           C  
+HETATM   20  N5  XPY A1000      -0.422  17.813  43.580  1.00  0.00           N  
+HETATM   21  O   XPY A1000      -0.483  19.772  44.762  1.00  0.00           O  
+HETATM   22  C   XPY A1000       0.781  19.460  41.276  1.00  0.00           C  
+HETATM   23  N4  XPY A1000       0.526  21.725  41.161  1.00  0.00           N  
+HETATM   24  N1  XPY A1000       0.946  20.626  40.517  1.00  0.00           N  
+HETATM   25  N   XPY A1000       1.071  18.243  40.794  1.00  0.00           N  
+HETATM   26  N2  XPY A1000       1.927  16.923  38.905  1.00  0.00           N  
+HETATM   27  C4  XPY A1000       1.525  15.601  39.503  1.00  0.00           C  
+HETATM   28  N3  XPY A1000      -0.070  15.147  37.564  1.00  0.00           N1+
+HETATM   29  C6  XPY A1000       2.296  13.209  39.642  1.00  0.00           C  
+HETATM   30  C5  XPY A1000       2.589  14.599  39.084  1.00  0.00           C  
+CONECT    1    2   24
+CONECT    1    2
+CONECT    2    1    3
+CONECT    2    1
+CONECT    3    2   25   26
+CONECT    3   25
+CONECT    4   12   18
+CONECT    4   12
+CONECT    5    6   29
+CONECT    6    5    7
+CONECT    7    6   27   28
+CONECT    8    9   23
+CONECT    8   23
+CONECT    9    8   10   22
+CONECT    9   22
+CONECT   10    9   20   21
+CONECT   10   21
+CONECT   11   12   19   20
+CONECT   11   19
+CONECT   12    4   11   13
+CONECT   12    4
+CONECT   13   12   15   16   17
+CONECT   14   18
+CONECT   15   13
+CONECT   16   13
+CONECT   17   13
+CONECT   18    4   14   19
+CONECT   19   11   18
+CONECT   19   11
+CONECT   20   10   11
+CONECT   21   10
+CONECT   21   10
+CONECT   22    9   24   25
+CONECT   22    9
+CONECT   23    8   24
+CONECT   23    8
+CONECT   24    1   22   23
+CONECT   25    3   22
+CONECT   25    3
+CONECT   26    3   27
+CONECT   27    7   26   30
+CONECT   28    7
+CONECT   29    5   30
+CONECT   30   27   29
+ENDMDL
+END   

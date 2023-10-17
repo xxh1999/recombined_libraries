@@ -1,0 +1,46 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5JQT
+MODEL        1
+ATOM      1  N   HIS A 119     -12.002  -2.648  15.081  1.00  5.49           N1+
+ATOM      2  CA  HIS A 119     -11.776  -1.466  15.897  1.00  6.02           C  
+ATOM      3  C   HIS A 119     -12.440  -0.305  15.143  1.00  5.84           C  
+ATOM      4  O   HIS A 119     -11.949   0.099  14.088  1.00  6.74           O  
+ATOM      5  CB  HIS A 119     -10.258  -1.236  15.957  1.00  5.44           C  
+ATOM      6  CG  HIS A 119      -9.327  -2.128  16.740  1.00  5.55           C  
+ATOM      7  ND1 HIS A 119      -7.914  -2.145  16.570  1.00  5.83           N  
+ATOM      8  CD2 HIS A 119      -9.681  -3.024  17.719  1.00  6.09           C  
+ATOM      9  CE1 HIS A 119      -7.512  -2.998  17.505  1.00  6.61           C  
+ATOM     10  NE2 HIS A 119      -8.504  -3.565  18.191  1.00  6.77           N  
+TER      11      HIS A 119
+HETATM   12  C5  6M4 A 302      -6.084   5.579  14.350  0.66 13.92           C  
+HETATM   13  C4  6M4 A 302      -6.972   6.132  15.830  0.66 13.64           C  
+HETATM   14  C3  6M4 A 302      -7.007   5.319  17.455  0.66 15.24           C  
+HETATM   15  C2  6M4 A 302      -6.166   3.798  17.924  0.66 12.82           C  
+HETATM   16  C1  6M4 A 302      -5.150   2.882  16.772  0.66 10.17           C  
+HETATM   17  C6  6M4 A 302      -5.094   4.086  14.349  0.66 10.41           C  
+HETATM   18  C7  6M4 A 302      -3.870   2.826  13.235  0.66 11.44           C  
+HETATM   19  O1  6M4 A 302      -3.272   1.264  14.432  0.66 10.17           O  
+HETATM   20  B1  6M4 A 302      -3.985   1.132  16.431  0.66  7.24           B1-
+HETATM   21  O3  6M4 A 302      -4.957  -0.072  16.794  0.66  7.93           O  
+HETATM   22  O2  6M4 A 302      -2.779   1.027  17.215  0.66  9.10           O  
+CONECT   12   13   17
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   17   20
+CONECT   16   17
+CONECT   17   12   16   18
+CONECT   17   16
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20   16   19   21   22
+CONECT   21   20
+CONECT   22   20
+ENDMDL
+END   

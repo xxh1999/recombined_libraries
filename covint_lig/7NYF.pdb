@@ -1,0 +1,60 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7NYF
+MODEL        1
+ATOM      1  N   LYS A 122     -15.519 -24.688  -8.008  1.00 10.23           N1+
+ATOM      2  CA  LYS A 122     -16.491 -23.645  -8.344  1.00  9.09           C  
+ATOM      3  C   LYS A 122     -15.856 -22.264  -8.208  1.00 10.24           C  
+ATOM      4  O   LYS A 122     -16.045 -21.409  -9.077  1.00 10.24           O  
+ATOM      5  CB  LYS A 122     -17.685 -23.769  -7.385  1.00 11.99           C  
+ATOM      6  CG  LYS A 122     -18.742 -22.693  -7.600  1.00 12.15           C  
+ATOM      7  CD  LYS A 122     -19.817 -22.793  -6.526  1.00 12.12           C  
+ATOM      8  CE  LYS A 122     -20.769 -21.600  -6.582  1.00 13.50           C  
+ATOM      9  NZ  LYS A 122     -21.837 -21.776  -5.551  1.00 16.64           N1+
+TER      10      LYS A 122
+HETATM   11  C01 UVB A 301     -21.453 -20.954  -4.451  1.00 21.70           C  
+HETATM   12  C02 UVB A 301     -22.436 -20.961  -3.296  1.00 24.26           C  
+HETATM   13  C03 UVB A 301     -23.486 -21.869  -3.224  1.00 21.31           C  
+HETATM   14  C04 UVB A 301     -24.348 -21.829  -2.147  1.00 21.72           C  
+HETATM   15  C05 UVB A 301     -24.144 -20.871  -1.175  1.00 26.95           C  
+HETATM   16  C09 UVB A 301     -24.210 -23.152   1.313  1.00 37.53           C  
+HETATM   17  C10 UVB A 301     -24.093 -23.787   2.695  1.00 50.22           C  
+HETATM   18  C12 UVB A 301     -22.997 -23.235   3.476  1.00 40.83           C  
+HETATM   19  C13 UVB A 301     -22.972 -21.780   3.525  1.00 42.59           C  
+HETATM   20  C14 UVB A 301     -23.113 -21.096   2.167  1.00 45.46           C  
+HETATM   21  C16 UVB A 301     -23.092 -19.983  -1.235  1.00 32.77           C  
+HETATM   22  C17 UVB A 301     -22.234 -20.029  -2.304  1.00 30.98           C  
+HETATM   23  N08 UVB A 301     -24.312 -21.639   1.410  1.00 31.85           N  
+HETATM   24  O07 UVB A 301     -26.468 -21.501   0.035  1.00 31.27           O  
+HETATM   25  O11 UVB A 301     -23.952 -25.180   2.564  1.00 49.78           O  
+HETATM   26  O15 UVB A 301     -25.623 -19.403   0.577  1.00 41.46           O  
+HETATM   27  S06 UVB A 301     -25.217 -20.773   0.268  1.00 30.14           S  
+CONECT   11    9   12
+CONECT   12   11   13   22
+CONECT   12   22
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   21   27
+CONECT   15   21
+CONECT   16   17   23
+CONECT   17   16   18   25
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20   19   23
+CONECT   21   15   22
+CONECT   21   15
+CONECT   22   12   21
+CONECT   22   12
+CONECT   23   16   20   27
+CONECT   24   27
+CONECT   24   27
+CONECT   25   17
+CONECT   26   27
+CONECT   26   27
+CONECT   27   15   23   24   26
+CONECT   27   24   26
+ENDMDL
+END   

@@ -1,0 +1,66 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7D56
+MODEL        1
+ATOM      1  N   CYS C 646      36.620   6.213  33.561  1.00 90.57           N1+
+ATOM      2  CA  CYS C 646      37.078   7.563  33.867  1.00 92.84           C  
+ATOM      3  C   CYS C 646      36.043   8.361  34.645  1.00 95.12           C  
+ATOM      4  O   CYS C 646      36.405   9.330  35.321  1.00101.34           O  
+ATOM      5  CB  CYS C 646      37.440   8.298  32.578  1.00 91.92           C  
+ATOM      6  SG  CYS C 646      38.587   7.397  31.524  1.00 89.17           S  
+TER       7      CYS C 646
+HETATM    8  OAE BFB C 701      42.421  14.381  32.435  1.00 92.66           O  
+HETATM    9  CAU BFB C 701      42.036  15.163  31.632  1.00 89.12           C  
+HETATM   10  NAA BFB C 701      42.739  16.418  31.443  1.00 84.08           N  
+HETATM   11  CAZ BFB C 701      40.801  14.852  30.789  1.00 89.38           C  
+HETATM   12  CAO BFB C 701      40.858  13.398  30.329  1.00 91.90           C  
+HETATM   13  CAM BFB C 701      39.964  12.523  31.203  1.00 94.75           C  
+HETATM   14  CAN BFB C 701      40.809  11.509  31.970  1.00 96.72           C  
+HETATM   15  NAR BFB C 701      40.498  10.150  31.557  1.00 95.64           N  
+HETATM   16  CAV BFB C 701      40.540   9.075  32.538  1.00 92.51           C  
+HETATM   17  CAP BFB C 701      40.227   7.640  32.130  1.00 88.79           C  
+HETATM   18  NAC BFB C 701      40.835   9.320  33.725  1.00 91.00           N1+
+HETATM   19  NAS BFB C 701      40.804  15.724  29.628  1.00 91.38           N  
+HETATM   20  CAW BFB C 701      39.925  16.879  29.578  1.00 94.93           C  
+HETATM   21  OAF BFB C 701      39.209  17.110  30.492  1.00 99.73           O  
+HETATM   22  CAX BFB C 701      39.929  17.800  28.359  1.00 97.68           C  
+HETATM   23  CAK BFB C 701      40.975  18.689  28.166  1.00101.14           C  
+HETATM   24  CAL BFB C 701      38.881  17.754  27.450  1.00 93.86           C  
+HETATM   25  CAJ BFB C 701      38.884  18.591  26.345  1.00 90.26           C  
+HETATM   26  CAH BFB C 701      39.932  19.479  26.150  1.00 95.05           C  
+HETATM   27  CAI BFB C 701      40.976  19.528  27.060  1.00102.26           C  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10   11
+CONECT    9    8
+CONECT   10    9
+CONECT   11    9   12   19
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   15   17   18
+CONECT   16   18
+CONECT   17    6   16
+CONECT   18   16
+CONECT   18   16
+CONECT   19   11   20
+CONECT   20   19   21   22
+CONECT   20   21
+CONECT   21   20
+CONECT   21   20
+CONECT   22   20   23   24
+CONECT   22   24
+CONECT   23   22   27
+CONECT   23   27
+CONECT   24   22   25
+CONECT   24   22
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   23   26
+CONECT   27   23
+ENDMDL
+END   

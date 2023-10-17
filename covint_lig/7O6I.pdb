@@ -1,0 +1,81 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7O6I
+MODEL        1
+ATOM      1  N   LYS A 122      15.582  24.862  -8.068  1.00  4.35           N1+
+ATOM      2  CA  LYS A 122      16.552  23.822  -8.399  1.00  4.77           C  
+ATOM      3  C   LYS A 122      15.928  22.437  -8.265  1.00  7.25           C  
+ATOM      4  O   LYS A 122      16.106  21.577  -9.137  1.00  7.13           O  
+ATOM      5  CB  LYS A 122      17.780  23.946  -7.495  1.00  7.16           C  
+ATOM      6  CG  LYS A 122      18.780  22.801  -7.644  1.00  7.90           C  
+ATOM      7  CD  LYS A 122      19.902  22.926  -6.630  1.00  8.22           C  
+ATOM      8  CE  LYS A 122      20.706  21.631  -6.543  1.00 15.64           C  
+ATOM      9  NZ  LYS A 122      21.994  21.826  -5.818  1.00 34.57           N1+
+TER      10      LYS A 122
+HETATM   11  C01 V4B A 302      24.271  15.394   0.498  1.00 52.26           C  
+HETATM   12  C02 V4B A 302      24.920  16.533   1.271  1.00 75.07           C  
+HETATM   13  C03 V4B A 302      24.531  17.871   1.137  1.00 69.45           C  
+HETATM   14  C04 V4B A 302      23.432  18.328   0.167  1.00 67.07           C  
+HETATM   15  C06 V4B A 302      23.809  19.927  -1.746  1.00 49.10           C  
+HETATM   16  C07 V4B A 302      24.727  20.957  -1.493  1.00 39.16           C  
+HETATM   17  C11 V4B A 302      24.626  22.163  -2.178  1.00 31.42           C  
+HETATM   18  C12 V4B A 302      23.646  22.372  -3.129  1.00 21.92           C  
+HETATM   19  C13 V4B A 302      22.745  21.359  -3.401  1.00 35.79           C  
+HETATM   20  C14 V4B A 302      21.652  21.572  -4.452  1.00 28.58           C  
+HETATM   21  C15 V4B A 302      22.835  20.156  -2.714  1.00 49.51           C  
+HETATM   22  C17 V4B A 302      25.182  18.840   1.888  1.00 60.11           C  
+HETATM   23  C18 V4B A 302      26.192  18.429   2.744  1.00 66.80           C  
+HETATM   24  C19 V4B A 302      26.513  17.083   2.830  1.00 80.56           C  
+HETATM   25  C20 V4B A 302      27.622  16.599   3.761  1.00 84.80           C  
+HETATM   26  F21 V4B A 302      28.824  16.760   3.126  1.00 79.85           F  
+HETATM   27  F22 V4B A 302      27.602  17.330   4.914  1.00 88.24           F  
+HETATM   28  F23 V4B A 302      27.437  15.274   4.042  1.00 76.13           F  
+HETATM   29  N08 V4B A 302      25.809  20.878  -0.527  1.00 48.22           N1+
+HETATM   30  N24 V4B A 302      25.882  16.187   2.103  1.00 83.47           N  
+HETATM   31  O05 V4B A 302      23.840  18.641  -1.145  1.00 49.44           O  
+HETATM   32  O09 V4B A 302      26.491  19.674  -0.305  1.00 60.15           O1-
+HETATM   33  O10 V4B A 302      26.128  21.855   0.051  1.00 42.52           O  
+HETATM   34  O16 V4B A 302      22.291  18.378   0.497  1.00 74.20           O  
+CONECT   11   12
+CONECT   12   11   13   30
+CONECT   12   30
+CONECT   13   12   14   22
+CONECT   13   22
+CONECT   14   13   31   34
+CONECT   14   34
+CONECT   15   16   21   31
+CONECT   15   21
+CONECT   16   15   17   29
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20   21
+CONECT   19   18
+CONECT   20    9   19
+CONECT   21   15   19
+CONECT   21   15
+CONECT   22   13   23
+CONECT   22   13
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25   30
+CONECT   24   23
+CONECT   25   24   26   27   28
+CONECT   26   25
+CONECT   27   25
+CONECT   28   25
+CONECT   29   16   32   33
+CONECT   29   33
+CONECT   30   12   24
+CONECT   30   12
+CONECT   31   14   15
+CONECT   32   29
+CONECT   33   29
+CONECT   33   29
+CONECT   34   14
+CONECT   34   14
+ENDMDL
+END   

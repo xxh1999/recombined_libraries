@@ -1,0 +1,102 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5n1v_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  Q8G B 412      -1.682  16.886  45.857  1.00  0.00           C  
+HETATM    2  C2  Q8G B 412      -2.021  15.774  45.087  1.00  0.00           C  
+HETATM    3  C3  Q8G B 412      -2.548  14.647  45.694  1.00  0.00           C  
+HETATM    4  N6  Q8G B 412      -1.092  17.975  45.185  1.00  0.00           N  
+HETATM    5  C7  Q8G B 412      -3.929  14.880  49.641  1.00  0.00           C  
+HETATM    6  C8  Q8G B 412      -4.038  13.588  48.874  1.00  0.00           C  
+HETATM    7  C9  Q8G B 412      -2.064  12.577  44.522  1.00  0.00           C  
+HETATM    8  C10 Q8G B 412      -1.332  13.011  43.311  1.00  0.00           C  
+HETATM    9  C11 Q8G B 412      -0.854  12.243  42.344  1.00  0.00           C  
+HETATM   10  C12 Q8G B 412       0.542  11.742  42.131  1.00  0.00           C  
+HETATM   11  C13 Q8G B 412       2.398  13.301  42.016  1.00  0.00           C  
+HETATM   12  C14 Q8G B 412       3.289  14.080  41.060  1.00  0.00           C  
+HETATM   13  C15 Q8G B 412       2.570  15.425  40.872  1.00  0.00           C  
+HETATM   14  C16 Q8G B 412       1.896  14.372  42.977  1.00  0.00           C  
+HETATM   15  C19 Q8G B 412      -0.262  17.909  44.066  1.00  0.00           C  
+HETATM   16  C20 Q8G B 412       0.692  18.944  42.147  1.00  0.00           C  
+HETATM   17  C21 Q8G B 412       0.654  20.238  41.597  1.00  0.00           C  
+HETATM   18  C22 Q8G B 412      -0.177  20.969  42.457  1.00  0.00           C  
+HETATM   19  C24 Q8G B 412       1.823  15.517  39.549  1.00  0.00           C  
+HETATM   20  N5  Q8G B 412       1.760  21.132  39.468  1.00  0.00           N  
+HETATM   21  C23 Q8G B 412       1.292  20.703  40.412  1.00  0.00           C  
+HETATM   22  N4  Q8G B 412      -0.648  20.243  43.473  1.00  0.00           N  
+HETATM   23  N2  Q8G B 412      -0.106  19.006  43.276  1.00  0.00           N  
+HETATM   24  C18 Q8G B 412       0.454  16.767  43.719  1.00  0.00           C  
+HETATM   25  N3  Q8G B 412       1.334  17.826  41.751  1.00  0.00           N  
+HETATM   26  C17 Q8G B 412       1.173  16.727  42.524  1.00  0.00           C  
+HETATM   27  N1  Q8G B 412       1.745  15.537  42.092  1.00  0.00           N  
+HETATM   28  O3  Q8G B 412       2.697  15.260  38.450  1.00  0.00           O  
+HETATM   29  O2  Q8G B 412       1.357  12.605  41.311  1.00  0.00           O  
+HETATM   30  O1  Q8G B 412      -3.015  13.546  45.008  1.00  0.00           O  
+HETATM   31  C4  Q8G B 412      -2.771  14.624  47.080  1.00  0.00           C  
+HETATM   32  N   Q8G B 412      -3.432  13.553  47.666  1.00  0.00           N  
+HETATM   33  O   Q8G B 412      -4.643  12.614  49.318  1.00  0.00           O  
+HETATM   34  C6  Q8G B 412      -2.672  15.694  49.337  1.00  0.00           C  
+HETATM   35  C5  Q8G B 412      -2.403  15.732  47.853  1.00  0.00           C  
+HETATM   36  C   Q8G B 412      -1.852  16.856  47.240  1.00  0.00           C  
+CONECT    1    2    4   36
+CONECT    1   36
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2   30   31
+CONECT    3    2
+CONECT    4    1   15
+CONECT    5    6   34
+CONECT    6    5   32   33
+CONECT    6   33
+CONECT    7    8   30
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    9   29
+CONECT   11   12   14   29
+CONECT   12   11   13
+CONECT   13   12   19   27
+CONECT   14   11   27
+CONECT   15    4   23   24
+CONECT   15   24
+CONECT   16   17   23   25
+CONECT   16   17
+CONECT   17   16   18   21
+CONECT   17   16
+CONECT   18   17   22
+CONECT   18   22
+CONECT   19   13   28
+CONECT   20   21
+CONECT   20   21
+CONECT   20   21
+CONECT   21   17   20
+CONECT   21   20
+CONECT   21   20
+CONECT   22   18   23
+CONECT   22   18
+CONECT   23   15   16   22
+CONECT   24   15   26
+CONECT   24   15
+CONECT   25   16   26
+CONECT   25   26
+CONECT   26   24   25   27
+CONECT   26   25
+CONECT   27   13   14   26
+CONECT   28   19
+CONECT   29   10   11
+CONECT   30    3    7
+CONECT   31    3   32   35
+CONECT   31   35
+CONECT   32    6   31
+CONECT   33    6
+CONECT   33    6
+CONECT   34    5   35
+CONECT   35   31   34   36
+CONECT   35   31
+CONECT   36    1   35
+CONECT   36    1
+ENDMDL
+END   

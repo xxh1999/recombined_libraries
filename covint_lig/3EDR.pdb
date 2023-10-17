@@ -1,0 +1,32 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3EDR
+MODEL        1
+ATOM      1  N   SER E 705      53.582 -24.333  -2.789  1.00 83.63           N1+
+ATOM      2  CA  SER E 705      52.468 -23.471  -2.397  1.00 81.79           C  
+ATOM      3  C   SER E 705      51.438 -23.328  -3.531  1.00 80.45           C  
+ATOM      4  O   SER E 705      51.783 -23.346  -4.713  1.00 79.94           O  
+ATOM      5  CB  SER E 705      53.027 -22.112  -1.926  1.00 81.52           C  
+ATOM      6  OG  SER E 705      53.551 -21.329  -2.982  1.00 80.47           O  
+TER       7      SER E 705
+HETATM    8  C   ASJ E 706      48.565 -21.392  -3.854  1.00 74.62           C  
+HETATM    9  N   ASJ E 706      50.169 -23.161  -3.135  1.00 78.13           N  
+HETATM   10  O   ASJ E 706      49.107 -20.647  -4.922  1.00 74.65           O  
+HETATM   11  CA  ASJ E 706      49.002 -22.872  -3.970  1.00 76.07           C  
+HETATM   12  CB  ASJ E 706      47.843 -23.832  -3.601  1.00 76.54           C  
+HETATM   13  CG  ASJ E 706      48.080 -25.265  -4.079  1.00 76.49           C  
+HETATM   14  OD1 ASJ E 706      48.740 -25.428  -5.127  1.00 76.51           O1-
+HETATM   15  OD2 ASJ E 706      47.536 -26.194  -3.445  1.00 74.88           O  
+CONECT    8   10   11
+CONECT    9    3   11
+CONECT   10    8
+CONECT   11    8    9   12
+CONECT   12   11   13
+CONECT   13   12   14   15
+CONECT   13   15
+CONECT   14   13
+CONECT   15   13
+CONECT   15   13
+ENDMDL
+END   

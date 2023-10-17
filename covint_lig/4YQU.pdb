@@ -1,0 +1,69 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4YQU
+MODEL        1
+ATOM      1  N   CYS A  32      17.304  -4.552  -3.676  1.00 24.39           N1+
+ATOM      2  CA  CYS A  32      18.001  -4.618  -2.393  1.00 22.86           C  
+ATOM      3  C   CYS A  32      17.377  -3.573  -1.443  1.00 23.86           C  
+ATOM      4  O   CYS A  32      17.365  -2.392  -1.793  1.00 24.27           O  
+ATOM      5  CB  CYS A  32      19.468  -4.232  -2.662  1.00 22.37           C  
+ATOM      6  SG  CYS A  32      20.489  -4.318  -1.160  1.00 26.05           S  
+TER       7      CYS A  32
+HETATM    8  O3  4GB A 301      15.484  -8.547   1.147  1.00 46.33           O  
+HETATM    9  S2  4GB A 301      16.120  -9.724   1.759  1.00 48.26           S  
+HETATM   10  O2  4GB A 301      15.573 -10.310   2.992  1.00 46.53           O  
+HETATM   11  N2  4GB A 301      16.193 -10.968   0.561  1.00 52.92           N  
+HETATM   12  C13 4GB A 301      16.206 -10.551  -0.859  1.00 56.31           C  
+HETATM   13  C12 4GB A 301      16.476 -11.666  -1.878  1.00 57.66           C  
+HETATM   14  C11 4GB A 301      15.451 -12.805  -1.838  1.00 59.14           C  
+HETATM   15  C10 4GB A 301      15.838 -13.895  -0.833  1.00 58.67           C  
+HETATM   16  C9  4GB A 301      15.788 -13.427   0.628  1.00 57.34           C  
+HETATM   17  C8  4GB A 301      16.757 -12.279   0.941  1.00 54.26           C  
+HETATM   18  C7  4GB A 301      17.859  -9.381   2.010  1.00 46.91           C  
+HETATM   19  C6  4GB A 301      18.539  -8.535   1.117  1.00 44.27           C  
+HETATM   20  C14 4GB A 301      18.541  -9.972   3.090  1.00 46.49           C  
+HETATM   21  C15 4GB A 301      19.910  -9.706   3.283  1.00 46.65           C  
+HETATM   22  C16 4GB A 301      20.608  -8.848   2.397  1.00 46.59           C  
+HETATM   23  O4  4GB A 301      21.944  -8.529   2.538  1.00 47.36           O  
+HETATM   24  C17 4GB A 301      22.617  -8.945   3.716  1.00 47.66           C  
+HETATM   25  C5  4GB A 301      19.917  -8.275   1.303  1.00 43.63           C  
+HETATM   26  N1  4GB A 301      20.633  -7.375   0.474  1.00 38.86           N  
+HETATM   27  C4  4GB A 301      20.415  -7.070  -0.816  1.00 37.91           C  
+HETATM   28  O1  4GB A 301      19.614  -7.647  -1.551  1.00 39.60           O  
+HETATM   29  C3  4GB A 301      21.270  -5.939  -1.367  1.00 33.20           C  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10   11   18
+CONECT    9    8   10
+CONECT   10    9
+CONECT   10    9
+CONECT   11    9   12   17
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   11   16
+CONECT   18    9   19   20
+CONECT   18   20
+CONECT   19   18   25
+CONECT   19   25
+CONECT   20   18   21
+CONECT   20   18
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23   25
+CONECT   22   21
+CONECT   23   22   24
+CONECT   24   23
+CONECT   25   19   22   26
+CONECT   25   19
+CONECT   26   25   27
+CONECT   27   26   28   29
+CONECT   27   28
+CONECT   28   27
+CONECT   28   27
+CONECT   29    6   27
+ENDMDL
+END   

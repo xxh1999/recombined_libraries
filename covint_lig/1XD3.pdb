@@ -1,0 +1,32 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1XD3
+MODEL        1
+ATOM      1  N   CYS A  95      27.838  46.475  52.197  1.00 10.66           N1+
+ATOM      2  CA  CYS A  95      26.582  45.799  51.861  1.00 10.04           C  
+ATOM      3  C   CYS A  95      26.167  45.898  50.378  1.00  9.19           C  
+ATOM      4  O   CYS A  95      25.503  44.996  49.874  1.00  9.25           O  
+ATOM      5  CB  CYS A  95      25.454  46.278  52.791  1.00  9.89           C  
+ATOM      6  SG  CYS A  95      24.981  47.999  52.477  1.00 11.41           S  
+TER       7      CYS A  95
+HETATM    8  N   GVE B1176      24.462  50.934  53.064  0.50 14.20           N  
+HETATM    9  CA  GVE B1176      25.721  50.400  53.574  0.50 13.89           C  
+HETATM   10  CB  GVE B1176      25.606  48.900  53.932  0.50 11.85           C  
+HETATM   11  CG  GVE B1176      24.733  48.588  55.166  0.50 10.15           C  
+HETATM   12  CD  GVE B1176      25.217  49.061  56.537  0.50 18.86           C  
+HETATM   13  OE1 GVE B1176      24.789  48.242  57.514  0.50 16.96           O  
+HETATM   14  OE2 GVE B1176      25.894  50.075  56.700  0.50 21.18           O  
+HETATM   15  CH3 GVE B1176      25.101  48.531  58.864  0.50 19.64           C  
+CONECT    8    9
+CONECT    9    8   10
+CONECT   10    6    9   11
+CONECT   11   10   12
+CONECT   12   11   13   14
+CONECT   12   14
+CONECT   13   12   15
+CONECT   14   12
+CONECT   14   12
+CONECT   15   13
+ENDMDL
+END   

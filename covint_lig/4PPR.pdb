@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4PPR
+MODEL        1
+ATOM      1  N   SER A 121     -24.938 -16.296   8.838  1.00 26.17           N1+
+ATOM      2  CA  SER A 121     -24.324 -16.378  10.165  1.00 26.50           C  
+ATOM      3  C   SER A 121     -22.930 -17.035  10.214  1.00 25.50           C  
+ATOM      4  O   SER A 121     -22.310 -16.997  11.277  1.00 24.19           O  
+ATOM      5  CB  SER A 121     -25.250 -17.191  11.089  1.00 30.41           C  
+ATOM      6  OG  SER A 121     -26.401 -16.467  11.507  1.00 31.89           O  
+TER       7      SER A 121
+HETATM    8  C1  MER A 400     -27.542 -16.520  10.786  1.00 33.79           C  
+HETATM    9  C2  MER A 400     -30.182 -18.709  12.001  1.00 46.24           C  
+HETATM   10  C3  MER A 400     -28.731 -15.802  11.452  1.00 37.00           C  
+HETATM   11  C4  MER A 400     -29.405 -16.579  12.651  1.00 37.20           C  
+HETATM   12  C5  MER A 400     -28.990 -18.870  12.580  1.00 39.78           C  
+HETATM   13  O6  MER A 400     -27.672 -17.078   9.701  1.00 31.21           O  
+HETATM   14  C7  MER A 400     -28.399 -14.335  11.795  1.00 36.45           C  
+HETATM   15  O8  MER A 400     -29.616 -13.668  12.062  1.00 36.70           O  
+HETATM   16  C9  MER A 400     -27.703 -13.540  10.677  1.00 33.69           C  
+HETATM   17  N10 MER A 400     -28.589 -17.683  13.157  1.00 35.86           N  
+HETATM   18  C11 MER A 400     -27.944 -20.020  12.442  1.00 40.30           C  
+HETATM   19  O12 MER A 400     -28.382 -21.146  12.122  1.00 44.92           O1-
+HETATM   20  O13 MER A 400     -26.748 -19.710  12.632  1.00 37.39           O  
+HETATM   21  S14 MER A 400     -30.839 -19.736  10.728  1.00 50.52           S  
+HETATM   22  C15 MER A 400     -32.206 -20.610  11.519  1.00 51.20           C  
+HETATM   23  C16 MER A 400     -33.495 -20.459  10.712  1.00 47.45           C  
+HETATM   24  C17 MER A 400     -33.951 -21.871  10.309  1.00 51.91           C  
+HETATM   25  C18 MER A 400     -30.713 -17.324  12.276  1.00 39.14           C  
+HETATM   26  N19 MER A 400     -32.974 -22.828  10.870  1.00 48.70           N1+
+HETATM   27  C20 MER A 400     -31.658 -16.711  11.233  1.00 41.98           C  
+HETATM   28  C21 MER A 400     -31.917 -22.112  11.606  1.00 49.41           C  
+HETATM   29  C22 MER A 400     -34.082 -22.048   8.783  1.00 49.30           C  
+HETATM   30  N23 MER A 400     -35.110 -21.460   8.124  1.00 50.24           N  
+HETATM   31  O24 MER A 400     -33.241 -22.736   8.202  1.00 49.10           O  
+HETATM   32  C25 MER A 400     -36.119 -20.615   8.771  1.00 54.25           C  
+HETATM   33  C26 MER A 400     -35.273 -21.639   6.680  1.00 47.62           C  
+CONECT    8    6   10   13
+CONECT    8   13
+CONECT    9   12   21   25
+CONECT    9   12
+CONECT   10    8   11   14
+CONECT   11   10   17   25
+CONECT   12    9   17   18
+CONECT   12    9
+CONECT   13    8
+CONECT   13    8
+CONECT   14   10   15   16
+CONECT   15   14
+CONECT   16   14
+CONECT   17   11   12
+CONECT   18   12   19   20
+CONECT   18   20
+CONECT   19   18
+CONECT   20   18
+CONECT   20   18
+CONECT   21    9   22
+CONECT   22   21   23   28
+CONECT   23   22   24
+CONECT   24   23   26   29
+CONECT   25    9   11   27
+CONECT   26   24   28
+CONECT   27   25
+CONECT   28   22   26
+CONECT   29   24   30   31
+CONECT   29   31
+CONECT   30   29   32   33
+CONECT   31   29
+CONECT   31   29
+CONECT   32   30
+CONECT   33   30
+ENDMDL
+END   

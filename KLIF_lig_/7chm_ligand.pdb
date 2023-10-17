@@ -1,0 +1,97 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7chm_ligand
+MODEL        1
+HETATM    1  C15 FZF A 801      -2.150  15.835  44.757  1.00  0.00           C  
+HETATM    2  C20 FZF A 801       0.521  20.304  43.536  1.00  0.00           C  
+HETATM    3  C21 FZF A 801       1.179  19.389  42.749  1.00  0.00           C  
+HETATM    4  C22 FZF A 801       2.012  20.134  41.898  1.00  0.00           C  
+HETATM    5  C01 FZF A 801      -2.534  17.316  49.247  1.00  0.00           C  
+HETATM    6  C03 FZF A 801      -1.985  16.348  47.127  1.00  0.00           C  
+HETATM    7  C04 FZF A 801      -2.350  15.061  47.453  1.00  0.00           C  
+HETATM    8  C05 FZF A 801      -2.629  14.179  46.430  1.00  0.00           C  
+HETATM    9  C06 FZF A 801      -3.078  12.779  46.846  1.00  0.00           C  
+HETATM   10  C08 FZF A 801      -2.569  10.311  47.065  1.00  0.00           C  
+HETATM   11  C09 FZF A 801      -2.394   9.359  45.894  1.00  0.00           C  
+HETATM   12  C11 FZF A 801      -0.719  10.787  45.010  1.00  0.00           C  
+HETATM   13  C12 FZF A 801      -0.912  11.765  46.152  1.00  0.00           C  
+HETATM   14  C14 FZF A 801      -2.530  14.543  45.084  1.00  0.00           C  
+HETATM   15  C16 FZF A 801      -1.877  16.723  45.788  1.00  0.00           C  
+HETATM   16  C18 FZF A 801      -0.582  18.525  44.543  1.00  0.00           C  
+HETATM   17  C23 FZF A 801       2.921  19.506  40.862  1.00  0.00           C  
+HETATM   18  C25 FZF A 801       1.822  21.481  42.189  1.00  0.00           C  
+HETATM   19  C27 FZF A 801       0.897  17.999  42.916  1.00  0.00           C  
+HETATM   20  C29 FZF A 801       1.031  15.628  42.166  1.00  0.00           C  
+HETATM   21  C30 FZF A 801      -0.204  15.548  41.300  1.00  0.00           C  
+HETATM   22  C31 FZF A 801      -0.597  14.124  40.893  1.00  0.00           C  
+HETATM   23  C32 FZF A 801       0.499  13.063  40.716  1.00  0.00           C  
+HETATM   24  C33 FZF A 801       1.747  13.245  41.555  1.00  0.00           C  
+HETATM   25  C34 FZF A 801       2.141  14.707  41.700  1.00  0.00           C  
+HETATM   26  N07 FZF A 801      -2.223  11.650  46.687  1.00  0.00           N  
+HETATM   27  N17 FZF A 801      -1.507  18.113  45.551  1.00  0.00           N  
+HETATM   28  N19 FZF A 801      -0.379  19.814  44.435  1.00  0.00           N  
+HETATM   29  N24 FZF A 801       3.596  18.993  40.106  1.00  0.00           N  
+HETATM   30  N26 FZF A 801       0.931  21.578  43.185  1.00  0.00           N  
+HETATM   31  N28 FZF A 801       1.548  16.980  42.120  1.00  0.00           N  
+HETATM   32  N35 FZF A 801       0.022  17.618  43.816  1.00  0.00           N  
+HETATM   33  O02 FZF A 801      -1.682  17.277  48.136  1.00  0.00           O  
+HETATM   34  O10 FZF A 801      -1.078   9.467  45.376  1.00  0.00           O  
+HETATM   35  O13 FZF A 801      -4.161  12.638  47.307  1.00  0.00           O  
+CONECT    1   14   15
+CONECT    1   14
+CONECT    2    3   28   30
+CONECT    2   28
+CONECT    3    2    4   19
+CONECT    3   19
+CONECT    4    3   17   18
+CONECT    4   18
+CONECT    5   33
+CONECT    6    7   15   33
+CONECT    6   15
+CONECT    7    6    8
+CONECT    7    8
+CONECT    8    7    9   14
+CONECT    8    7
+CONECT    9    8   26   35
+CONECT    9   35
+CONECT   10   11   26
+CONECT   11   10   34
+CONECT   12   13   34
+CONECT   13   12   26
+CONECT   14    1    8
+CONECT   14    1
+CONECT   15    1    6   27
+CONECT   15    6
+CONECT   16   27   28   32
+CONECT   16   32
+CONECT   17    4   29
+CONECT   17   29
+CONECT   17   29
+CONECT   18    4   30
+CONECT   18    4
+CONECT   19    3   31   32
+CONECT   19    3
+CONECT   20   21   25   31
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   20   24
+CONECT   26    9   10   13
+CONECT   27   15   16
+CONECT   28    2   16
+CONECT   28    2
+CONECT   29   17
+CONECT   29   17
+CONECT   29   17
+CONECT   30    2   18
+CONECT   31   19   20
+CONECT   32   16   19
+CONECT   32   16
+CONECT   33    5    6
+CONECT   34   11   12
+CONECT   35    9
+CONECT   35    9
+ENDMDL
+END   

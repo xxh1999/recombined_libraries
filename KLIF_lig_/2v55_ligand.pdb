@@ -1,0 +1,78 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2v55_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  PG  ANP A1480       4.180  11.371  33.537  1.00  0.00           P1+
+HETATM    2  O1G ANP A1480       4.620   9.990  33.309  1.00  0.00           O1-
+HETATM    3  O2G ANP A1480       5.196  12.405  32.751  1.00  0.00           O  
+HETATM    4  O3G ANP A1480       2.656  11.559  32.922  1.00  0.00           O  
+HETATM    5  PB  ANP A1480       4.912  13.261  35.540  1.00  0.00           P1+
+HETATM    6  O1B ANP A1480       6.558  13.126  35.531  1.00  0.00           O1-
+HETATM    7  O2B ANP A1480       4.482  14.220  34.526  1.00  0.00           O  
+HETATM    8  N3B ANP A1480       4.183  11.739  35.214  1.00  0.00           N  
+HETATM    9  PA  ANP A1480       3.708  15.267  37.241  1.00  0.00           P1+
+HETATM   10  O1A ANP A1480       3.046  15.691  36.010  1.00  0.00           O1-
+HETATM   11  O2A ANP A1480       4.802  16.418  37.694  1.00  0.00           O  
+HETATM   12  O3A ANP A1480       4.444  13.800  37.033  1.00  0.00           O  
+HETATM   13  O5' ANP A1480       2.571  15.058  38.426  1.00  0.00           O  
+HETATM   14  C5' ANP A1480       2.012  13.775  38.608  1.00  0.00           C  
+HETATM   15  C4' ANP A1480       1.261  13.724  39.950  1.00  0.00           C  
+HETATM   16  O4' ANP A1480       1.889  14.654  40.886  1.00  0.00           O  
+HETATM   17  C3' ANP A1480      -0.209  14.132  39.796  1.00  0.00           C  
+HETATM   18  O3' ANP A1480      -1.033  13.006  39.585  1.00  0.00           O  
+HETATM   19  C2' ANP A1480      -0.520  14.790  41.117  1.00  0.00           C  
+HETATM   20  O2' ANP A1480      -1.037  13.834  42.016  1.00  0.00           O  
+HETATM   21  C1' ANP A1480       0.830  15.357  41.608  1.00  0.00           C  
+HETATM   22  N9  ANP A1480       0.948  16.825  41.460  1.00  0.00           N  
+HETATM   23  C8  ANP A1480       1.715  17.518  40.371  1.00  0.00           C  
+HETATM   24  N7  ANP A1480       1.580  18.967  40.540  1.00  0.00           N  
+HETATM   25  C5  ANP A1480       0.740  19.209  41.729  1.00  0.00           C  
+HETATM   26  C6  ANP A1480       0.269  20.492  42.378  1.00  0.00           C  
+HETATM   27  N6  ANP A1480       0.637  21.781  41.811  1.00  0.00           N  
+HETATM   28  N1  ANP A1480      -0.566  20.445  43.565  1.00  0.00           N  
+HETATM   29  C2  ANP A1480      -0.961  19.110  44.144  1.00  0.00           C  
+HETATM   30  N3  ANP A1480      -0.501  17.843  43.509  1.00  0.00           N  
+HETATM   31  C4  ANP A1480       0.348  17.884  42.295  1.00  0.00           C  
+CONECT    1    2    3    4    8
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1
+CONECT    5    6    7    8   12
+CONECT    6    5
+CONECT    7    5
+CONECT    8    1    5
+CONECT    9   10   11   12   13
+CONECT   10    9
+CONECT   11    9
+CONECT   12    5    9
+CONECT   13    9   14
+CONECT   14   13   15
+CONECT   15   14   16   17
+CONECT   16   15   21
+CONECT   17   15   18   19
+CONECT   18   17
+CONECT   19   17   20   21
+CONECT   20   19
+CONECT   21   16   19   22
+CONECT   22   21   23   31
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   24   26   31
+CONECT   25   31
+CONECT   26   25   27   28
+CONECT   26   28
+CONECT   27   26
+CONECT   28   26   29
+CONECT   28   26
+CONECT   29   28   30
+CONECT   29   30
+CONECT   30   29   31
+CONECT   30   29
+CONECT   31   22   25   30
+CONECT   31   25
+ENDMDL
+END   

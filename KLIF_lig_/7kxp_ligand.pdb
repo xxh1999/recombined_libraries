@@ -1,0 +1,117 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7kxp_ligand
+MODEL        1
+HETATM    1  C2  X9V A 701       3.985  14.291  38.081  1.00  0.00           C  
+HETATM    2  C4  X9V A 701       2.285  13.369  39.668  1.00  0.00           C  
+HETATM    3  C5  X9V A 701       3.068  12.278  40.392  1.00  0.00           C  
+HETATM    4  C6  X9V A 701       2.325  11.979  41.702  1.00  0.00           C  
+HETATM    5  C7  X9V A 701       2.269  13.198  42.632  1.00  0.00           C  
+HETATM    6  C8  X9V A 701       1.909  14.478  41.917  1.00  0.00           C  
+HETATM    7  C11 X9V A 701       1.242  16.876  40.710  1.00  0.00           C  
+HETATM    8  C12 X9V A 701       1.606  15.781  39.938  1.00  0.00           C  
+HETATM    9  C15 X9V A 701       0.956  19.314  42.475  1.00  0.00           C  
+HETATM   10  C16 X9V A 701       0.378  20.360  43.183  1.00  0.00           C  
+HETATM   11  C18 X9V A 701      -0.689  18.933  44.629  1.00  0.00           C  
+HETATM   12  C21 X9V A 701      -1.399  17.077  45.614  1.00  0.00           C  
+HETATM   13  N22 X9V A 701      -0.609  16.709  44.626  1.00  0.00           N  
+HETATM   14  C23 X9V A 701      -0.144  17.806  43.969  1.00  0.00           C  
+HETATM   15  C24 X9V A 701      -2.091  16.198  46.575  1.00  0.00           C  
+HETATM   16  C30 X9V A 701      -3.986  15.560  49.611  1.00  0.00           C  
+HETATM   17  C31 X9V A 701      -5.315  14.800  49.478  1.00  0.00           C  
+HETATM   18  C32 X9V A 701      -6.050  14.848  50.826  1.00  0.00           C  
+HETATM   19  C34 X9V A 701      -3.942  14.939  52.027  1.00  0.00           C  
+HETATM   20  C35 X9V A 701      -3.166  14.873  50.706  1.00  0.00           C  
+HETATM   21  C36 X9V A 701       4.291  14.539  36.648  1.00  0.00           C  
+HETATM   22  C38 X9V A 701       4.254  14.518  34.512  1.00  0.00           C  
+HETATM   23  O1  X9V A 701       4.735  14.631  38.982  1.00  0.00           O  
+HETATM   24  N3  X9V A 701       2.811  13.690  38.328  1.00  0.00           N  
+HETATM   25  C9  X9V A 701       1.547  15.574  42.700  1.00  0.00           C  
+HETATM   26  C10 X9V A 701       1.234  16.807  42.111  1.00  0.00           C  
+HETATM   27  C13 X9V A 701       1.963  14.576  40.538  1.00  0.00           C  
+HETATM   28  C14 X9V A 701       0.737  17.994  42.867  1.00  0.00           C  
+HETATM   29  N17 X9V A 701      -0.416  20.164  44.219  1.00  0.00           N  
+HETATM   30  N19 X9V A 701      -1.467  18.448  45.648  1.00  0.00           N  
+HETATM   31  C25 X9V A 701      -2.736  16.633  47.715  1.00  0.00           C  
+HETATM   32  N26 X9V A 701      -3.229  15.554  48.346  1.00  0.00           N  
+HETATM   33  N27 X9V A 701      -2.883  14.422  47.609  1.00  0.00           N  
+HETATM   34  C28 X9V A 701      -2.206  14.787  46.551  1.00  0.00           C  
+HETATM   35  C29 X9V A 701      -1.669  13.842  45.509  1.00  0.00           C  
+HETATM   36  O33 X9V A 701      -5.221  14.320  51.870  1.00  0.00           O  
+HETATM   37  N37 X9V A 701       3.684  13.978  35.610  1.00  0.00           N  
+HETATM   38  N39 X9V A 701       5.143  15.381  34.923  1.00  0.00           N  
+HETATM   39  O40 X9V A 701       5.179  15.416  36.148  1.00  0.00           O  
+HETATM   40  C41 X9V A 701       3.928  14.191  33.072  1.00  0.00           C  
+HETATM   41  C42 X9V A 701       2.468  14.542  32.787  1.00  0.00           C  
+HETATM   42  C43 X9V A 701       4.168  12.706  32.809  1.00  0.00           C  
+HETATM   43  C44 X9V A 701       4.806  15.011  32.133  1.00  0.00           C  
+CONECT    1   21   23   24
+CONECT    1   23
+CONECT    2    3   24   27
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    5   25   27
+CONECT    6   25
+CONECT    7    8   26
+CONECT    7   26
+CONECT    8    7   27
+CONECT    8   27
+CONECT    9   10   28
+CONECT    9   28
+CONECT   10    9   29
+CONECT   10   29
+CONECT   11   14   29   30
+CONECT   11   14
+CONECT   12   13   15   30
+CONECT   12   30
+CONECT   13   12   14
+CONECT   14   11   13   28
+CONECT   14   11
+CONECT   15   12   31   34
+CONECT   15   31
+CONECT   16   17   20   32
+CONECT   17   16   18
+CONECT   18   17   36
+CONECT   19   20   36
+CONECT   20   16   19
+CONECT   21    1   37   39
+CONECT   21   37
+CONECT   22   37   38   40
+CONECT   22   38
+CONECT   23    1
+CONECT   23    1
+CONECT   24    1    2
+CONECT   25    6   26
+CONECT   25    6
+CONECT   26    7   25   28
+CONECT   26    7
+CONECT   27    2    6    8
+CONECT   27    8
+CONECT   28    9   14   26
+CONECT   28    9
+CONECT   29   10   11
+CONECT   29   10
+CONECT   30   11   12
+CONECT   30   12
+CONECT   31   15   32
+CONECT   31   15
+CONECT   32   16   31   33
+CONECT   33   32   34
+CONECT   33   34
+CONECT   34   15   33   35
+CONECT   34   33
+CONECT   35   34
+CONECT   36   18   19
+CONECT   37   21   22
+CONECT   37   21
+CONECT   38   22   39
+CONECT   38   22
+CONECT   39   21   38
+CONECT   40   22   41   42   43
+CONECT   41   40
+CONECT   42   40
+CONECT   43   40
+ENDMDL
+END   

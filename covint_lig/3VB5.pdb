@@ -1,0 +1,38 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3VB5
+MODEL        1
+ATOM      1  N   LEU E   4      -0.182 -14.797  39.863  1.00 39.93           N1+
+ATOM      2  CA  LEU E   4      -0.342 -13.384  40.203  1.00 38.59           C  
+ATOM      3  C   LEU E   4       1.038 -12.727  40.305  1.00 38.02           C  
+ATOM      4  O   LEU E   4       1.857 -13.103  41.144  1.00 42.49           O  
+ATOM      5  CB  LEU E   4      -1.105 -13.257  41.534  1.00 39.28           C  
+ATOM      6  CG  LEU E   4      -2.555 -13.786  41.503  1.00 40.84           C  
+ATOM      7  CD1 LEU E   4      -3.179 -13.759  42.904  1.00 40.99           C  
+ATOM      8  CD2 LEU E   4      -3.441 -13.013  40.519  1.00 41.72           C  
+TER       9      LEU E   4
+HETATM   10  C   0JU E   5       2.699  -9.798  39.305  1.00 33.05           C  
+HETATM   11  NF  0JU E   5       3.680  -9.302  39.924  1.00 33.59           N  
+HETATM   12  CA  0JU E   5       2.612 -11.291  39.030  1.00 38.67           C  
+HETATM   13  N   0JU E   5       1.293 -11.792  39.383  1.00 36.49           N  
+HETATM   14  CB  0JU E   5       2.885 -11.671  37.561  1.00 35.88           C  
+HETATM   15  CG  0JU E   5       4.357 -11.525  37.156  1.00 37.75           C  
+HETATM   16  CD  0JU E   5       4.635 -12.132  35.782  1.00 40.49           C  
+HETATM   17  OE  0JU E   5       4.155 -11.628  34.772  1.00 35.60           O  
+HETATM   18  NE  0JU E   5       5.402 -13.222  35.730  1.00 34.80           N  
+CONECT   10   11   12
+CONECT   10   11
+CONECT   11   10
+CONECT   11   10
+CONECT   12   10   13   14
+CONECT   13    3   12
+CONECT   14   12   15
+CONECT   15   14   16
+CONECT   16   15   17   18
+CONECT   16   17
+CONECT   17   16
+CONECT   17   16
+CONECT   18   16
+ENDMDL
+END   

@@ -1,0 +1,75 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7q7l_ligand
+MODEL        1
+HETATM    1  N1  Q9I A4000      -0.103  18.142  42.766  1.00  0.00           N  
+HETATM    2  N3  Q9I A4000      -0.756  20.302  43.614  1.00  0.00           N  
+HETATM    3  C4  Q9I A4000       2.915  21.717  35.668  1.00  0.00           C  
+HETATM    4  C5  Q9I A4000       1.674  21.974  36.219  1.00  0.00           C  
+HETATM    5  C6  Q9I A4000       1.212  21.368  37.362  1.00  0.00           C  
+HETATM    6  C7  Q9I A4000       2.041  20.466  38.038  1.00  0.00           C  
+HETATM    7  C8  Q9I A4000       1.523  19.898  39.320  1.00  0.00           C  
+HETATM    8  C10 Q9I A4000       0.986  17.928  40.655  1.00  0.00           C  
+HETATM    9  C13 Q9I A4000      -0.003  15.191  39.000  1.00  0.00           C  
+HETATM   10  C15 Q9I A4000      -0.718  18.935  43.656  1.00  0.00           C  
+HETATM   11  C17 Q9I A4000       0.516  20.170  41.547  1.00  0.00           C  
+HETATM   12  F   Q9I A4000       0.910  22.896  35.593  1.00  0.00           F  
+HETATM   13  O   Q9I A4000       3.312  22.207  34.472  1.00  0.00           O  
+HETATM   14  C3  Q9I A4000       3.734  20.827  36.340  1.00  0.00           C  
+HETATM   15  C2  Q9I A4000       3.312  20.179  37.502  1.00  0.00           C  
+HETATM   16  C1  Q9I A4000       4.231  19.102  38.033  1.00  0.00           C  
+HETATM   17  C   Q9I A4000       4.149  17.751  37.194  1.00  0.00           C  
+HETATM   18  C18 Q9I A4000       1.053  20.714  40.347  1.00  0.00           C  
+HETATM   19  C16 Q9I A4000      -0.155  20.871  42.590  1.00  0.00           C  
+HETATM   20  N2  Q9I A4000      -1.401  18.327  44.634  1.00  0.00           N  
+HETATM   21  C14 Q9I A4000       0.500  18.760  41.709  1.00  0.00           C  
+HETATM   22  C9  Q9I A4000       1.468  18.514  39.505  1.00  0.00           C  
+HETATM   23  N   Q9I A4000       0.904  16.554  40.814  1.00  0.00           N  
+HETATM   24  C11 Q9I A4000       1.280  15.551  39.815  1.00  0.00           C  
+HETATM   25  C12 Q9I A4000       1.804  14.287  40.473  1.00  0.00           C  
+HETATM   26  O1  Q9I A4000       0.306  15.054  37.614  1.00  0.00           O  
+CONECT    1   10   21
+CONECT    1   10
+CONECT    2   10   19
+CONECT    2   19
+CONECT    3    4   13   14
+CONECT    3    4
+CONECT    4    3    5   12
+CONECT    4    3
+CONECT    5    4    6
+CONECT    5    6
+CONECT    6    5    7   15
+CONECT    6    5
+CONECT    7    6   18   22
+CONECT    7   22
+CONECT    8   21   22   23
+CONECT    8   21
+CONECT    9   24   26
+CONECT   10    1    2   20
+CONECT   10    1
+CONECT   11   18   19   21
+CONECT   11   18
+CONECT   12    4
+CONECT   13    3
+CONECT   14    3   15
+CONECT   14   15
+CONECT   15    6   14   16
+CONECT   15   14
+CONECT   16   15   17
+CONECT   17   16
+CONECT   18    7   11
+CONECT   18   11
+CONECT   19    2   11
+CONECT   19    2
+CONECT   20   10
+CONECT   21    1    8   11
+CONECT   21    8
+CONECT   22    7    8
+CONECT   22    7
+CONECT   23    8   24
+CONECT   24    9   23   25
+CONECT   25   24
+CONECT   26    9
+ENDMDL
+END   

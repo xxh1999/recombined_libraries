@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4qp9_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C5  Q35 A 401       1.353  17.417  40.058  1.00  0.00           C  
+HETATM    2  C6  Q35 A 401       1.617  18.736  40.313  1.00  0.00           C  
+HETATM    3  C7  Q35 A 401       2.542  19.183  39.352  1.00  0.00           C  
+HETATM    4  C10 Q35 A 401       1.088  20.910  41.534  1.00  0.00           C  
+HETATM    5  C13 Q35 A 401      -0.193  20.209  43.231  1.00  0.00           C  
+HETATM    6  C17 Q35 A 401      -1.377  18.861  44.660  1.00  0.00           C  
+HETATM    7  C20 Q35 A 401      -1.723  15.371  43.474  1.00  0.00           C  
+HETATM    8  C21 Q35 A 401      -2.211  14.168  43.956  1.00  0.00           C  
+HETATM    9  C24 Q35 A 401      -1.818  16.208  45.717  1.00  0.00           C  
+HETATM   10  C1  Q35 A 401       1.096  14.395  36.480  1.00  0.00           C  
+HETATM   11  C2  Q35 A 401       1.036  15.716  37.272  1.00  0.00           C  
+HETATM   12  C3  Q35 A 401       2.125  15.737  38.354  1.00  0.00           C  
+HETATM   13  N4  Q35 A 401       2.092  17.062  38.981  1.00  0.00           N  
+HETATM   14  N8  Q35 A 401       2.827  18.180  38.565  1.00  0.00           N  
+HETATM   15  C9  Q35 A 401       1.008  19.559  41.388  1.00  0.00           C  
+HETATM   16  N11 Q35 A 401       0.380  21.308  42.637  1.00  0.00           N  
+HETATM   17  C14 Q35 A 401       0.164  19.064  42.479  1.00  0.00           C  
+HETATM   18  N15 Q35 A 401      -0.255  17.858  42.842  1.00  0.00           N  
+HETATM   19  C16 Q35 A 401      -1.008  17.732  43.927  1.00  0.00           C  
+HETATM   20  N18 Q35 A 401      -0.961  20.061  44.296  1.00  0.00           N  
+HETATM   21  C19 Q35 A 401      -1.514  16.416  44.370  1.00  0.00           C  
+HETATM   22  N22 Q35 A 401      -2.474  14.009  45.244  1.00  0.00           N  
+HETATM   23  C23 Q35 A 401      -2.295  14.977  46.114  1.00  0.00           C  
+CONECT    1    2   13
+CONECT    1    2
+CONECT    2    1    3   15
+CONECT    2    1
+CONECT    3    2   14
+CONECT    3   14
+CONECT    4   15   16
+CONECT    4   15
+CONECT    5   16   17   20
+CONECT    5   20
+CONECT    6   19   20
+CONECT    6   19
+CONECT    7    8   21
+CONECT    7   21
+CONECT    8    7   22
+CONECT    8   22
+CONECT    9   21   23
+CONECT    9   23
+CONECT   10   11
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13    1   12   14
+CONECT   14    3   13
+CONECT   14    3
+CONECT   15    2    4   17
+CONECT   15    4
+CONECT   16    4    5
+CONECT   17    5   15   18
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19    6   18   21
+CONECT   19    6
+CONECT   20    5    6
+CONECT   20    5
+CONECT   21    7    9   19
+CONECT   21    7
+CONECT   22    8   23
+CONECT   22    8
+CONECT   23    9   22
+CONECT   23    9
+ENDMDL
+END   

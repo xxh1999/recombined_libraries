@@ -1,0 +1,70 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5DAD
+MODEL        1
+ATOM      1  N   CYS A 151     -24.445  -9.819   8.421  1.00 74.55           N1+
+ATOM      2  CA  CYS A 151     -23.653  -8.589   8.497  1.00 70.01           C  
+ATOM      3  C   CYS A 151     -22.141  -8.832   8.340  1.00 67.50           C  
+ATOM      4  O   CYS A 151     -21.356  -7.897   8.500  1.00 66.02           O  
+ATOM      5  CB  CYS A 151     -24.003  -7.847   9.808  1.00 72.44           C  
+ATOM      6  SG  CYS A 151     -25.502  -6.841   9.543  1.00 74.35           S  
+TER       7      CYS A 151
+HETATM    8  N16 TX6 A 201     -26.674  -9.119  12.353  1.00 78.86           N  
+HETATM    9  C15 TX6 A 201     -26.195  -8.069  12.379  1.00 78.44           C  
+HETATM   10  C2  TX6 A 201     -25.604  -6.723  12.406  1.00 77.56           C  
+HETATM   11  C1  TX6 A 201     -25.889  -5.939  11.108  1.00 77.07           C  
+HETATM   12  C10 TX6 A 201     -25.345  -4.481  11.174  1.00 78.03           C  
+HETATM   13  C19 TX6 A 201     -26.061  -3.713  12.318  1.00 76.68           C  
+HETATM   14  C9  TX6 A 201     -25.660  -3.705   9.884  1.00 79.54           C  
+HETATM   15  N11 TX6 A 201     -26.928  -3.786   9.415  1.00 81.97           N  
+HETATM   16  C12 TX6 A 201     -27.222  -3.086   8.319  1.00 83.87           C  
+HETATM   17  C20 TX6 A 201     -28.633  -3.225   7.790  1.00 83.89           C  
+HETATM   18  N13 TX6 A 201     -26.399  -2.283   7.645  1.00 83.08           N  
+HETATM   19  C14 TX6 A 201     -25.137  -2.156   8.119  1.00 82.66           C  
+HETATM   20  O21 TX6 A 201     -24.257  -1.320   7.463  1.00 84.95           O  
+HETATM   21  C22 TX6 A 201     -24.734  -0.596   6.337  1.00 85.24           C  
+HETATM   22  C8  TX6 A 201     -24.712  -2.855   9.269  1.00 80.73           C  
+HETATM   23  C7  TX6 A 201     -23.308  -2.683   9.813  1.00 78.26           C  
+HETATM   24  C6  TX6 A 201     -23.150  -3.177  11.256  1.00 78.27           C  
+HETATM   25  C5  TX6 A 201     -23.803  -4.560  11.429  1.00 78.05           C  
+HETATM   26  C4  TX6 A 201     -23.419  -5.308  12.744  1.00 77.77           C  
+HETATM   27  C18 TX6 A 201     -21.891  -5.460  12.938  1.00 77.13           C  
+HETATM   28  C3  TX6 A 201     -24.127  -6.679  12.824  1.00 77.67           C  
+HETATM   29  O17 TX6 A 201     -23.557  -7.688  13.239  1.00 75.22           O  
+CONECT    8    9
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT    9    8
+CONECT   10    9   11   28
+CONECT   11    6   10   12
+CONECT   12   11   13   14   25
+CONECT   13   12
+CONECT   14   12   15   22
+CONECT   14   22
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16   15   17   18
+CONECT   16   15
+CONECT   17   16
+CONECT   18   16   19
+CONECT   18   19
+CONECT   19   18   20   22
+CONECT   19   18
+CONECT   20   19   21
+CONECT   21   20
+CONECT   22   14   19   23
+CONECT   22   14
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   12   24   26
+CONECT   26   25   27   28
+CONECT   27   26
+CONECT   28   10   26   29
+CONECT   28   29
+CONECT   29   28
+CONECT   29   28
+ENDMDL
+END   

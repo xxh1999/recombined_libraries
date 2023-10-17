@@ -1,0 +1,21 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7vdp_ligand1
+MODEL        1
+HETATM    1  C1  PEG A 309       6.002  34.596  34.593  1.00  0.00           C  
+HETATM    2  O1  PEG A 309       7.015  35.412  34.035  1.00  0.00           O  
+HETATM    3  C2  PEG A 309       6.074  34.500  36.088  1.00  0.00           C  
+HETATM    4  O2  PEG A 309       6.401  33.168  36.488  1.00  0.00           O  
+HETATM    5  C3  PEG A 309       7.499  33.102  37.397  1.00  0.00           C  
+HETATM    6  C4  PEG A 309       8.273  31.837  37.185  1.00  0.00           C  
+HETATM    7  O4  PEG A 309       9.562  32.075  36.638  1.00  0.00           O  
+CONECT    1    2    3
+CONECT    2    1
+CONECT    3    1    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    5    7
+CONECT    7    6
+ENDMDL
+END   

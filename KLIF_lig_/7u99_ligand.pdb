@@ -1,0 +1,83 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7u99_ligand
+MODEL        1
+HETATM    1  C12 M0R A1101      -0.151  19.063  44.149  1.00  0.00           C  
+HETATM    2  C13 M0R A1101       0.703  18.506  43.232  1.00  0.00           C  
+HETATM    3  C17 M0R A1101       1.579  14.333  43.459  1.00  0.00           C  
+HETATM    4  C18 M0R A1101       0.761  13.482  42.444  1.00  0.00           C  
+HETATM    5  C20 M0R A1101      -0.320  13.487  40.350  1.00  0.00           C  
+HETATM    6  C21 M0R A1101       0.329  13.849  38.979  1.00  0.00           C  
+HETATM    7  C23 M0R A1101       0.528  15.771  37.608  1.00  0.00           C  
+HETATM    8  C10 M0R A1101       0.071  21.132  43.131  1.00  0.00           C  
+HETATM    9  C14 M0R A1101       1.024  17.094  43.292  1.00  0.00           C  
+HETATM   10  C29 M0R A1101      -0.748  18.284  45.176  1.00  0.00           C  
+HETATM   11  C30 M0R A1101       3.587  20.419  40.248  1.00  0.00           C  
+HETATM   12  C15 M0R A1101       0.451  16.333  44.292  1.00  0.00           C  
+HETATM   13  C24 M0R A1101       1.374  17.105  37.473  1.00  0.00           C  
+HETATM   14  C26 M0R A1101      -0.425  16.912  45.222  1.00  0.00           C  
+HETATM   15  C28 M0R A1101      -1.789  16.762  47.155  1.00  0.00           C  
+HETATM   16  C02 M0R A1101       4.154  20.987  39.116  1.00  0.00           C  
+HETATM   17  C03 M0R A1101       3.891  20.531  37.832  1.00  0.00           C  
+HETATM   18  C04 M0R A1101       3.008  19.439  37.719  1.00  0.00           C  
+HETATM   19  C05 M0R A1101       2.418  18.849  38.846  1.00  0.00           C  
+HETATM   20  C06 M0R A1101       2.703  19.333  40.143  1.00  0.00           C  
+HETATM   21  C08 M0R A1101       1.266  19.333  42.206  1.00  0.00           C  
+HETATM   22  N07 M0R A1101       2.146  18.781  41.257  1.00  0.00           N  
+HETATM   23  N09 M0R A1101       0.944  20.657  42.163  1.00  0.00           N  
+HETATM   24  N11 M0R A1101      -0.502  20.419  44.129  1.00  0.00           N  
+HETATM   25  O16 M0R A1101       0.728  14.970  44.387  1.00  0.00           O  
+HETATM   26  O19 M0R A1101       0.267  14.256  41.384  1.00  0.00           O  
+HETATM   27  O22 M0R A1101       0.537  15.254  38.918  1.00  0.00           O  
+HETATM   28  O25 M0R A1101       1.515  17.757  38.727  1.00  0.00           O  
+HETATM   29  O27 M0R A1101      -0.973  16.122  46.182  1.00  0.00           O  
+HETATM   30 CL01 M0R A1101       5.234  22.329  39.299  1.00  0.00          Cl  
+CONECT    1    2   10   24
+CONECT    1   24
+CONECT    2    1    9   21
+CONECT    2   21
+CONECT    3    4   25
+CONECT    4    3   26
+CONECT    5    6   26
+CONECT    6    5   27
+CONECT    7   13   27
+CONECT    8   23   24
+CONECT    8   23
+CONECT    9    2   12
+CONECT    9   12
+CONECT   10    1   14
+CONECT   10   14
+CONECT   11   16   20
+CONECT   11   20
+CONECT   12    9   14   25
+CONECT   12    9
+CONECT   13    7   28
+CONECT   14   10   12   29
+CONECT   14   10
+CONECT   15   29
+CONECT   16   11   17   30
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20   28
+CONECT   19   18
+CONECT   20   11   19   22
+CONECT   20   11
+CONECT   21    2   22   23
+CONECT   21    2
+CONECT   22   20   21
+CONECT   23    8   21
+CONECT   23    8
+CONECT   24    1    8
+CONECT   24    1
+CONECT   25    3   12
+CONECT   26    4    5
+CONECT   27    6    7
+CONECT   28   13   19
+CONECT   29   14   15
+CONECT   30   16
+ENDMDL
+END   

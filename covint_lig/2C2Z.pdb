@@ -1,0 +1,70 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2C2Z
+MODEL        1
+ATOM      1  N   CYS A 360     -10.888  34.517  34.094  1.00 12.12           N1+
+ATOM      2  CA  CYS A 360     -12.344  34.416  34.214  1.00 11.67           C  
+ATOM      3  C   CYS A 360     -12.965  34.570  32.821  1.00 10.99           C  
+ATOM      4  O   CYS A 360     -12.439  35.306  31.986  1.00 11.72           O  
+ATOM      5  CB  CYS A 360     -12.909  35.579  35.063  1.00 13.07           C  
+ATOM      6  SG  CYS A 360     -12.830  35.288  36.858  1.00 14.28           S  
+TER       7      CYS A 360
+HETATM    8  C1  MX5 C   5     -14.129  42.352  38.605  1.00 35.05           C  
+HETATM    9  C2  MX5 C   5     -14.683  42.493  37.212  1.00 34.84           C  
+HETATM   10  N20 MX5 C   5      -9.935  34.812  38.658  1.00 11.85           N  
+HETATM   11  C4  MX5 C   5     -12.994  42.188  41.167  1.00 36.19           C  
+HETATM   12  C5  MX5 C   5     -13.889  43.229  40.867  1.00 35.55           C  
+HETATM   13  C6  MX5 C   5     -14.452  43.314  39.583  1.00 36.16           C  
+HETATM   14  C7  MX5 C   5     -13.246  41.278  38.893  1.00 34.10           C  
+HETATM   15  C9  MX5 C   5     -12.261  38.045  36.995  1.00 20.86           C  
+HETATM   16  C10 MX5 C   5     -11.730  36.629  37.405  1.00 16.53           C  
+HETATM   17  C11 MX5 C   5     -10.330  36.311  36.849  1.00 12.10           C  
+HETATM   18  C15 MX5 C   5     -12.688  38.991  38.142  1.00 28.14           C  
+HETATM   19  C12 MX5 C   5      -8.290  34.893  36.878  1.00 11.31           C  
+HETATM   20  C13 MX5 C   5      -7.018  35.061  37.696  1.00 12.06           C  
+HETATM   21  C14 MX5 C   5     -13.067  40.711  36.443  1.00 31.87           C  
+HETATM   22  N2  MX5 C   5      -9.488  35.472  37.500  1.00 12.73           N  
+HETATM   23  N3  MX5 C   5     -12.929  40.310  37.863  1.00 31.38           N  
+HETATM   24  O4  MX5 C   5     -12.845  38.509  39.263  1.00 26.23           O  
+HETATM   25  O6  MX5 C   5     -10.068  36.731  35.729  1.00  9.93           O  
+HETATM   26  O7  MX5 C   5      -6.199  34.118  37.679  1.00 12.29           O  
+HETATM   27  C19 MX5 C   5     -13.579  42.139  36.225  1.00 35.09           C  
+HETATM   28  O8  MX5 C   5      -6.840  36.146  38.289  1.00 13.82           O1-
+HETATM   29  C24 MX5 C   5     -12.671  41.229  40.187  1.00 35.45           C  
+CONECT    8    9   13   14
+CONECT    8   13
+CONECT    9    8   27
+CONECT   10   22
+CONECT   11   12   29
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13    8   12
+CONECT   13    8
+CONECT   14    8   23   29
+CONECT   14   29
+CONECT   15   16   18
+CONECT   16    6   15   17
+CONECT   17   16   22   25
+CONECT   17   25
+CONECT   18   15   23   24
+CONECT   18   24
+CONECT   19   20   22
+CONECT   20   19   26   28
+CONECT   20   26
+CONECT   21   23   27
+CONECT   22   10   17   19
+CONECT   23   14   18   21
+CONECT   24   18
+CONECT   24   18
+CONECT   25   17
+CONECT   25   17
+CONECT   26   20
+CONECT   26   20
+CONECT   27    9   21
+CONECT   28   20
+CONECT   29   11   14
+CONECT   29   14
+ENDMDL
+END   

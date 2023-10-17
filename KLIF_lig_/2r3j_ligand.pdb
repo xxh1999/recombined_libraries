@@ -1,0 +1,76 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2r3j_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C01 SCJ A 501       0.685  19.621  41.373  1.00  0.00           C  
+HETATM    2  C02 SCJ A 501       0.197  18.338  41.423  1.00  0.00           C  
+HETATM    3  N03 SCJ A 501      -0.656  18.300  42.485  1.00  0.00           N  
+HETATM    4  N04 SCJ A 501      -0.732  19.535  43.113  1.00  0.00           N  
+HETATM    5  C05 SCJ A 501       0.069  20.329  42.412  1.00  0.00           C  
+HETATM    6  N06 SCJ A 501       0.488  17.274  40.599  1.00  0.00           N  
+HETATM    7  C07 SCJ A 501      -0.112  16.137  40.886  1.00  0.00           C  
+HETATM    8  C08 SCJ A 501      -1.015  16.041  41.989  1.00  0.00           C  
+HETATM    9  C09 SCJ A 501      -1.313  17.137  42.797  1.00  0.00           C  
+HETATM   10  N10 SCJ A 501      -2.168  17.159  43.881  1.00  0.00           N  
+HETATM   11  C11 SCJ A 501       0.172  14.982  40.022  1.00  0.00           C  
+HETATM   12  C12 SCJ A 501      -3.171  16.088  44.041  1.00  0.00           C  
+HETATM   13  C13 SCJ A 501      -2.833  15.283  45.271  1.00  0.00           C  
+HETATM   14  C14 SCJ A 501      -2.722  13.883  45.244  1.00  0.00           C  
+HETATM   15  N15 SCJ A 501      -2.422  13.126  46.307  1.00  0.00           N  
+HETATM   16  C16 SCJ A 501      -2.222  13.760  47.467  1.00  0.00           C  
+HETATM   17  C17 SCJ A 501      -2.325  15.141  47.613  1.00  0.00           C  
+HETATM   18  C18 SCJ A 501      -2.622  15.912  46.494  1.00  0.00           C  
+HETATM   19  C19 SCJ A 501       0.243  15.143  38.633  1.00  0.00           C  
+HETATM   20  C20 SCJ A 501       0.505  14.050  37.789  1.00  0.00           C  
+HETATM   21  C21 SCJ A 501       0.680  12.780  38.327  1.00  0.00           C  
+HETATM   22  C22 SCJ A 501       0.585  12.597  39.711  1.00  0.00           C  
+HETATM   23  C23 SCJ A 501       0.337  13.688  40.548  1.00  0.00           C  
+HETATM   24 BR24 SCJ A 501       1.871  20.297  40.125  1.00  0.00          Br  
+CONECT    1    2    5   24
+CONECT    1    2
+CONECT    2    1    3    6
+CONECT    2    1
+CONECT    3    2    4    9
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    1    4
+CONECT    5    4
+CONECT    6    2    7
+CONECT    6    7
+CONECT    7    6    8   11
+CONECT    7    6
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    3    8   10
+CONECT    9    8
+CONECT   10    9   12
+CONECT   11    7   19   23
+CONECT   11   23
+CONECT   12   10   13
+CONECT   13   12   14   18
+CONECT   13   18
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   13   17
+CONECT   18   13
+CONECT   19   11   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   11   22
+CONECT   23   11
+CONECT   24    1
+ENDMDL
+END   

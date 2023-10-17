@@ -1,0 +1,105 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2XRG
+MODEL        1
+ATOM      1  N   THR A 209     -18.597   0.539   1.336  1.00 33.74           N1+
+ATOM      2  CA  THR A 209     -19.620   0.772   2.360  1.00 33.71           C  
+ATOM      3  C   THR A 209     -20.469   2.048   2.182  1.00 37.25           C  
+ATOM      4  O   THR A 209     -21.680   1.934   1.988  1.00 35.75           O  
+ATOM      5  CB  THR A 209     -18.930   0.696   3.739  1.00 41.45           C  
+ATOM      6  OG1 THR A 209     -18.301  -0.575   3.783  1.00 39.38           O  
+ATOM      7  CG2 THR A 209     -19.898   0.804   4.930  1.00 40.31           C  
+TER       8      THR A 209
+HETATM    9  O1  SWH A1862     -24.977   5.799   5.420  1.00 39.45           O  
+HETATM   10  C2  SWH A1862     -24.676   5.334   6.519  1.00 88.94           C  
+HETATM   11  N3  SWH A1862     -25.530   5.152   7.532  1.00 69.09           N  
+HETATM   12  C4  SWH A1862     -26.960   5.491   7.442  1.00 75.88           C  
+HETATM   13  C5  SWH A1862     -27.816   4.322   6.977  1.00 97.36           C  
+HETATM   14  C6  SWH A1862     -28.164   3.291   7.876  1.00 43.29           C  
+HETATM   15  C7  SWH A1862     -28.927   2.192   7.437  1.00 43.94           C  
+HETATM   16  C8  SWH A1862     -29.356   2.124   6.098  1.00 80.14           C  
+HETATM   17  F9  SWH A1862     -30.086   1.067   5.673  1.00 60.46           F  
+HETATM   18  C10 SWH A1862     -29.026   3.158   5.202  1.00 80.17           C  
+HETATM   19  C11 SWH A1862     -28.252   4.252   5.637  1.00 54.01           C  
+HETATM   20  C12 SWH A1862     -24.979   4.619   8.647  1.00 79.47           C  
+HETATM   21  O13 SWH A1862     -25.621   4.411   9.678  1.00117.49           O  
+HETATM   22  S14 SWH A1862     -23.050   4.854   6.874  1.00101.45           S  
+HETATM   23  C15 SWH A1862     -23.548   4.333   8.487  1.00 30.50           C  
+HETATM   24  C16 SWH A1862     -22.828   3.767   9.484  1.00 59.26           C  
+HETATM   25  C17 SWH A1862     -21.403   3.380   9.582  1.00 31.03           C  
+HETATM   26  C18 SWH A1862     -20.962   2.890  10.831  1.00 44.74           C  
+HETATM   27  C19 SWH A1862     -19.629   2.489  11.029  1.00 47.25           C  
+HETATM   28  C20 SWH A1862     -18.686   2.582   9.990  1.00 43.54           C  
+HETATM   29  O21 SWH A1862     -17.402   2.164  10.278  1.00 97.23           O  
+HETATM   30  C22 SWH A1862     -16.354   2.402   9.343  1.00 52.19           C  
+HETATM   31  C23 SWH A1862     -16.416   1.539   8.093  1.00 39.39           C  
+HETATM   32  C24 SWH A1862     -17.019   0.265   8.110  1.00 39.64           C  
+HETATM   33  C25 SWH A1862     -17.138  -0.472   6.917  1.00 41.51           C  
+HETATM   34  C26 SWH A1862     -16.662   0.045   5.691  1.00103.23           C  
+HETATM   35  B27 SWH A1862     -16.918  -0.737   4.283  1.00 45.28           B1-
+HETATM   36  O28 SWH A1862     -16.721  -2.196   4.402  1.00 74.57           O  
+HETATM   37  O29 SWH A1862     -15.997  -0.259   3.228  1.00 44.40           O  
+HETATM   38  C30 SWH A1862     -16.009   1.298   5.702  1.00 36.08           C  
+HETATM   39  C31 SWH A1862     -15.879   2.035   6.891  1.00 27.36           C  
+HETATM   40  C32 SWH A1862     -19.116   3.085   8.737  1.00 49.17           C  
+HETATM   41  C33 SWH A1862     -20.457   3.472   8.535  1.00 66.54           C  
+CONECT    9   10
+CONECT    9   10
+CONECT   10    9   11   22
+CONECT   10    9
+CONECT   11   10   12   20
+CONECT   12   11   13
+CONECT   13   12   14   19
+CONECT   13   19
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   17   18
+CONECT   16   18
+CONECT   17   16
+CONECT   18   16   19
+CONECT   18   16
+CONECT   19   13   18
+CONECT   19   13
+CONECT   20   11   21   23
+CONECT   20   21
+CONECT   21   20
+CONECT   21   20
+CONECT   22   10   23
+CONECT   23   20   22   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   24   26   41
+CONECT   25   41
+CONECT   26   25   27
+CONECT   26   27
+CONECT   27   26   28
+CONECT   27   26
+CONECT   28   27   29   40
+CONECT   28   40
+CONECT   29   28   30
+CONECT   30   29   31
+CONECT   31   30   32   39
+CONECT   31   39
+CONECT   32   31   33
+CONECT   32   33
+CONECT   33   32   34
+CONECT   33   32
+CONECT   34   33   35   38
+CONECT   34   38
+CONECT   35    6   34   36   37
+CONECT   36   35
+CONECT   37   35
+CONECT   38   34   39
+CONECT   38   34
+CONECT   39   31   38
+CONECT   39   31
+CONECT   40   28   41
+CONECT   40   28
+CONECT   41   25   40
+CONECT   41   25
+ENDMDL
+END   

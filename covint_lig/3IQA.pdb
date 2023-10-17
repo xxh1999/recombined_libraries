@@ -1,0 +1,77 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3IQA
+MODEL        1
+ATOM      1  N   SER A  84     -15.032 -11.103   5.692  1.00  3.92           N1+
+ATOM      2  CA  SER A  84     -14.432 -10.855   6.997  1.00  3.61           C  
+ATOM      3  C   SER A  84     -15.250  -9.842   7.833  1.00  3.52           C  
+ATOM      4  O   SER A  84     -14.823  -9.513   8.939  1.00  2.91           O  
+ATOM      5  CB  SER A  84     -13.005 -10.299   6.801  1.00  3.92           C  
+ATOM      6  OG  SER A  84     -12.025 -11.228   6.332  1.00  4.46           O  
+TER       7      SER A  84
+HETATM    8  CAA DRW A 309      -8.856 -13.946   4.560  1.00 12.38           C  
+HETATM    9  CAB DRW A 309      -7.847 -10.976   2.966  1.00 15.68           C  
+HETATM   10  NAC DRW A 309      -5.054  -5.915  -2.875  1.00 52.31           N  
+HETATM   11  OAD DRW A 309     -12.717 -11.275   4.147  1.00  7.44           O  
+HETATM   12  OAE DRW A 309     -11.005  -6.873   4.603  1.00 18.06           O1-
+HETATM   13  OAF DRW A 309      -5.543  -4.414  -0.822  1.00 52.88           O  
+HETATM   14  OAG DRW A 309      -3.290  -4.218  -2.048  1.00 52.53           O  
+HETATM   15  OAH DRW A 309      -8.939  -6.033   4.786  1.00 17.90           O  
+HETATM   16  OAI DRW A 309      -9.653 -13.077   6.611  1.00 15.10           O  
+HETATM   17  CAJ DRW A 309     -11.868 -11.479   5.008  1.00 11.13           C  
+HETATM   18  CAK DRW A 309      -6.522  -6.153   3.025  1.00 34.02           C  
+HETATM   19  CAL DRW A 309      -4.674  -7.280   0.055  1.00 43.81           C  
+HETATM   20  CAM DRW A 309      -5.198  -8.047   2.483  1.00 35.56           C  
+HETATM   21  NAN DRW A 309     -10.140  -9.372   4.400  1.00 16.40           N  
+HETATM   22  NAO DRW A 309      -5.818  -5.846   1.766  1.00 37.30           N1+
+HETATM   23  NAP DRW A 309      -3.793  -6.332  -0.634  1.00 49.12           N  
+HETATM   24  SAQ DRW A 309      -6.477  -8.200   5.026  1.00 25.99           S  
+HETATM   25  CAR DRW A 309      -9.755  -6.963   4.617  1.00 16.97           C  
+HETATM   26  CAS DRW A 309      -9.185  -8.397   4.401  1.00 17.90           C  
+HETATM   27  CAT DRW A 309     -10.002 -13.206   5.250  1.00 13.72           C  
+HETATM   28  CAU DRW A 309      -8.083 -10.471   4.403  1.00 17.55           C  
+HETATM   29  CAV DRW A 309      -4.805  -6.900   1.538  1.00 39.24           C  
+HETATM   30  CAW DRW A 309      -5.691  -7.251   3.685  1.00 32.02           C  
+HETATM   31  CAX DRW A 309     -10.428 -11.857   4.604  1.00 13.88           C  
+HETATM   32  CAY DRW A 309      -9.545 -10.609   4.885  1.00 15.55           C  
+HETATM   33  CAZ DRW A 309      -7.965  -8.954   4.427  1.00 20.27           C  
+HETATM   34  SBA DRW A 309      -4.422  -5.019  -1.556  1.00 53.02           S  
+CONECT    8   27
+CONECT    9   28
+CONECT   10   34
+CONECT   11   17
+CONECT   11   17
+CONECT   12   25
+CONECT   13   34
+CONECT   13   34
+CONECT   14   34
+CONECT   14   34
+CONECT   15   25
+CONECT   15   25
+CONECT   16   27
+CONECT   17    6   11   31
+CONECT   17   11
+CONECT   18   22   30
+CONECT   19   23   29
+CONECT   20   29   30
+CONECT   21   26   32
+CONECT   22   18   29
+CONECT   23   19   34
+CONECT   24   30   33
+CONECT   25   12   15   26
+CONECT   25   15
+CONECT   26   21   25   33
+CONECT   26   33
+CONECT   27    8   16   31
+CONECT   28    9   32   33
+CONECT   29   19   20   22
+CONECT   30   18   20   24
+CONECT   31   17   27   32
+CONECT   32   21   28   31
+CONECT   33   24   26   28
+CONECT   33   26
+CONECT   34   10   13   14   23
+CONECT   34   13   14
+ENDMDL
+END   

@@ -1,0 +1,60 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6VHS
+MODEL        1
+ATOM      1  N   SER A  70       2.655   2.622 -15.135  1.00  3.67           N1+
+ATOM      2  CA  SER A  70       2.244   1.680 -16.228  1.00  4.08           C  
+ATOM      3  C   SER A  70       0.853   2.018 -16.803  1.00  3.87           C  
+ATOM      4  O   SER A  70       0.522   1.521 -17.855  1.00  4.17           O  
+ATOM      5  CB  SER A  70       2.256   0.233 -15.775  1.00 30.00           C  
+ATOM      6  OG  SER A  70       3.585  -0.299 -15.576  1.00 30.00           O  
+TER       7      SER A  70
+HETATM    8  O5  X57 A 301       7.944  -0.447 -13.793  1.00 16.31           O  
+HETATM    9  C9  X57 A 301       7.193  -0.166 -12.862  1.00 15.06           C  
+HETATM   10  N2  X57 A 301       7.577   0.680 -11.891  1.00 13.92           N  
+HETATM   11  C1  X57 A 301       5.831  -0.816 -12.768  1.00 13.62           C  
+HETATM   12  C2  X57 A 301       6.060  -2.161 -12.066  1.00 14.02           C  
+HETATM   13  C3  X57 A 301       5.689  -3.363 -12.633  1.00 14.33           C  
+HETATM   14  C8  X57 A 301       5.974  -4.683 -11.894  1.00 15.11           C  
+HETATM   15  C4  X57 A 301       4.957  -3.412 -13.978  1.00 14.48           C  
+HETATM   16  C5  X57 A 301       5.326  -2.265 -14.949  1.00 12.34           C  
+HETATM   17  N   X57 A 301       5.092  -1.014 -14.053  1.00 13.31           N  
+HETATM   18  C   X57 A 301       4.072  -0.196 -14.336  1.00 13.14           C  
+HETATM   19  O   X57 A 301       3.645   0.586 -13.473  1.00  8.58           O  
+HETATM   20  N1  X57 A 301       3.499  -3.194 -13.683  1.00 17.06           N  
+HETATM   21  O2  X57 A 301       2.989  -4.375 -13.235  1.00 18.96           O  
+HETATM   22  C6  X57 A 301       1.708  -4.211 -12.720  1.00 17.54           C  
+HETATM   23  F   X57 A 301       0.862  -3.943 -13.685  1.00 16.33           F  
+HETATM   24  C7  X57 A 301       1.721  -3.075 -11.736  1.00 17.67           C  
+HETATM   25  O4  X57 A 301       2.632  -2.964 -10.932  1.00 15.80           O1-
+HETATM   26  O3  X57 A 301       0.739  -2.177 -11.728  1.00 13.78           O  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10   11
+CONECT    9    8
+CONECT   10    9
+CONECT   11    9   12   17
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14   15
+CONECT   13   12
+CONECT   14   13
+CONECT   15   13   16   20
+CONECT   16   15   17
+CONECT   17   11   16   18
+CONECT   18    6   17   19
+CONECT   18   19
+CONECT   19   18
+CONECT   19   18
+CONECT   20   15   21
+CONECT   21   20   22
+CONECT   22   21   23   24
+CONECT   23   22
+CONECT   24   22   25   26
+CONECT   24   26
+CONECT   25   24
+CONECT   26   24
+CONECT   26   24
+ENDMDL
+END   

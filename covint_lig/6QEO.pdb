@@ -1,0 +1,81 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6QEO
+MODEL        1
+ATOM      1  N   SER A 195       6.952   2.401   0.960  1.00  9.72           N1+
+ATOM      2  CA  SER A 195       6.650   3.575   1.769  1.00  9.93           C  
+ATOM      3  C   SER A 195       5.209   3.595   2.296  1.00  9.77           C  
+ATOM      4  O   SER A 195       4.282   3.259   1.569  1.00 10.15           O  
+ATOM      5  CB  SER A 195       6.964   4.815   0.930  1.00 11.29           C  
+ATOM      6  OG  SER A 195       8.185   5.416   1.345  1.00 12.25           O  
+TER       7      SER A 195
+HETATM    8  C1  J02 A1001       3.157  10.830  -4.485  0.90 22.62           C  
+HETATM    9  C12 J02 A1001       5.821   8.144  -2.330  0.90 14.71           C  
+HETATM   10  C13 J02 A1001       4.499   8.443  -2.469  0.90 15.19           C  
+HETATM   11  C14 J02 A1001       6.452   6.813  -2.077  0.90 13.67           C  
+HETATM   12  C16 J02 A1001       8.872   6.544  -1.598  0.90 12.36           C  
+HETATM   13  C19 J02 A1001       9.956   6.415  -0.501  0.90 11.49           C  
+HETATM   14  C2  J02 A1001       4.096  11.538  -5.263  0.90 27.33           C  
+HETATM   15  C20 J02 A1001      10.050   7.686   0.367  0.90 11.87           C  
+HETATM   16  C21 J02 A1001      11.340   6.184  -1.135  0.90 12.06           C  
+HETATM   17  C3  J02 A1001       3.901  11.688  -6.648  0.90 28.41           C  
+HETATM   18  C4  J02 A1001       2.759  11.147  -7.276  0.90 28.30           C  
+HETATM   19  C5  J02 A1001       1.823  10.430  -6.493  0.90 25.36           C  
+HETATM   20  C6  J02 A1001       2.017  10.280  -5.106  0.90 23.42           C  
+HETATM   21  C8  J02 A1001       3.377  10.666  -2.991  0.90 19.13           C  
+HETATM   22  N1  J02 A1001       2.536  11.344  -8.721  0.90 34.02           N1+
+HETATM   23  N10 J02 A1001       5.759  10.301  -2.712  0.90 15.88           N  
+HETATM   24  N11 J02 A1001       6.564   9.311  -2.497  0.90 15.16           N  
+HETATM   25  N15 J02 A1001       7.634   6.892  -1.225  0.90 11.68           N  
+HETATM   26  N9  J02 A1001       4.502   9.798  -2.717  0.90 16.26           N  
+HETATM   27  O1  J02 A1001      10.639   4.780   1.575  0.90 13.49           O  
+HETATM   28  O18 J02 A1001       9.135   6.303  -2.773  0.90 14.40           O  
+HETATM   29  O2  J02 A1001       1.418  11.120  -9.170  0.90 34.10           O  
+HETATM   30  O24 J02 A1001       9.259   3.779  -0.324  0.90 13.22           O  
+HETATM   31  O3  J02 A1001       3.475  11.744  -9.402  0.90 39.19           O1-
+HETATM   32  S22 J02 A1001       9.594   4.915   0.548  0.90 12.25           S  
+CONECT    8   14   20   21
+CONECT    8   20
+CONECT    9   10   11   24
+CONECT    9   10
+CONECT   10    9   26
+CONECT   10    9
+CONECT   11    9   25
+CONECT   12   13   25   28
+CONECT   12   28
+CONECT   13   12   15   16   32
+CONECT   14    8   17
+CONECT   14   17
+CONECT   15   13
+CONECT   16   13
+CONECT   17   14   18
+CONECT   17   14
+CONECT   18   17   19   22
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20    8   19
+CONECT   20    8
+CONECT   21    8   26
+CONECT   22   18   29   31
+CONECT   22   29
+CONECT   23   24   26
+CONECT   23   24
+CONECT   24    9   23
+CONECT   24   23
+CONECT   25   11   12
+CONECT   26   10   21   23
+CONECT   27   32
+CONECT   27   32
+CONECT   28   12
+CONECT   28   12
+CONECT   29   22
+CONECT   29   22
+CONECT   30   32
+CONECT   30   32
+CONECT   31   22
+CONECT   32    6   13   27   30
+CONECT   32   27   30
+ENDMDL
+END   

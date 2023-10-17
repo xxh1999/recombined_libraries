@@ -1,0 +1,70 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4IVK
+MODEL        1
+ATOM      1  N   SER A 100     -29.447 -15.816 -28.976  1.00 21.67           N1+
+ATOM      2  CA  SER A 100     -28.569 -14.658 -28.786  1.00 21.25           C  
+ATOM      3  C   SER A 100     -28.085 -14.033 -30.103  1.00 20.05           C  
+ATOM      4  O   SER A 100     -27.606 -12.902 -30.089  1.00 19.63           O  
+ATOM      5  CB  SER A 100     -27.338 -15.082 -27.970  1.00 22.79           C  
+ATOM      6  OG  SER A 100     -27.637 -15.235 -26.588  1.00 25.13           O  
+TER       7      SER A 100
+HETATM    8  S1  CEP A 501     -26.597 -16.965 -22.273  1.00 52.77           S  
+HETATM    9  C2  CEP A 501     -24.800 -17.217 -22.135  1.00 49.67           C  
+HETATM   10  C3  CEP A 501     -24.160 -18.059 -23.243  1.00 50.11           C  
+HETATM   11  C3' CEP A 501     -22.703 -18.394 -22.968  1.00 45.96           C  
+HETATM   12  C4  CEP A 501     -24.813 -18.413 -24.381  1.00 51.96           C  
+HETATM   13  C4' CEP A 501     -24.227 -19.174 -25.625  1.00 54.39           C  
+HETATM   14  O4A CEP A 501     -24.843 -19.030 -26.704  1.00 39.71           O  
+HETATM   15  O4B CEP A 501     -23.218 -19.888 -25.438  1.00 63.28           O1-
+HETATM   16  N5  CEP A 501     -26.116 -18.019 -24.624  1.00 50.29           N  
+HETATM   17  C6  CEP A 501     -26.666 -16.799 -24.072  1.00 46.00           C  
+HETATM   18  C7  CEP A 501     -28.079 -16.418 -24.584  1.00 41.00           C  
+HETATM   19  C8  CEP A 501     -28.048 -16.422 -26.119  1.00 33.35           C  
+HETATM   20  O9  CEP A 501     -28.285 -17.414 -26.806  1.00 24.25           O  
+HETATM   21  N10 CEP A 501     -29.076 -17.357 -24.072  1.00 43.69           N  
+HETATM   22  C11 CEP A 501     -30.408 -17.236 -24.206  1.00 47.08           C  
+HETATM   23  O12 CEP A 501     -30.948 -16.282 -24.763  1.00 47.76           O  
+HETATM   24  C13 CEP A 501     -31.239 -18.398 -23.661  1.00 52.15           C  
+HETATM   25  C14 CEP A 501     -32.381 -18.022 -22.762  1.00 56.73           C  
+HETATM   26  C15 CEP A 501     -32.616 -16.856 -22.075  1.00 57.27           C  
+HETATM   27  C16 CEP A 501     -33.752 -16.927 -21.218  1.00 59.70           C  
+HETATM   28  C17 CEP A 501     -34.404 -18.128 -21.294  1.00 65.65           C  
+HETATM   29  S19 CEP A 501     -33.624 -19.201 -22.421  1.00 67.02           S  
+CONECT    8    9   17
+CONECT    9    8   10
+CONECT   10    9   11   12
+CONECT   10   12
+CONECT   11   10
+CONECT   12   10   13   16
+CONECT   12   10
+CONECT   13   12   14   15
+CONECT   13   14
+CONECT   14   13
+CONECT   14   13
+CONECT   15   13
+CONECT   16   12   17
+CONECT   17    8   16   18
+CONECT   18   17   19   21
+CONECT   19    6   18   20
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   18   22
+CONECT   22   21   23   24
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22   25
+CONECT   25   24   26   29
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   25   28
+ENDMDL
+END   

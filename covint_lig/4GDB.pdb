@@ -1,0 +1,66 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4GDB
+MODEL        1
+ATOM      1  N   SER A  70      33.142  60.316   8.496  1.00 10.01           N1+
+ATOM      2  CA  SER A  70      32.724  59.210   7.634  1.00 10.43           C  
+ATOM      3  C   SER A  70      33.277  57.855   8.121  1.00 10.08           C  
+ATOM      4  O   SER A  70      32.889  56.830   7.564  1.00  8.88           O  
+ATOM      5  CB  SER A  70      33.275  59.419   6.202  1.00 11.35           C  
+ATOM      6  OG  SER A  70      32.655  60.453   5.437  1.00 12.56           O  
+TER       7      SER A  70
+HETATM    8  OAC 17O A 301      31.724  64.819  -0.748  1.00 17.89           O  
+HETATM    9  CAN 17O A 301      31.514  63.775  -0.094  1.00 17.81           C  
+HETATM   10  OAB 17O A 301      30.847  62.787  -0.473  1.00 17.76           O1-
+HETATM   11  CAP 17O A 301      32.247  63.641   1.290  1.00 18.32           C  
+HETATM   12  NAK 17O A 301      31.800  62.520   1.989  1.00 17.94           N  
+HETATM   13  CAE 17O A 301      32.140  62.022   3.242  1.00 16.92           C  
+HETATM   14  CAF 17O A 301      33.251  64.486   1.600  1.00 19.01           C  
+HETATM   15  SAM 17O A 301      34.378  64.385   2.937  1.00 18.30           S  
+HETATM   16  CAS 17O A 301      33.339  63.989   4.343  1.00 19.06           C  
+HETATM   17  CAO 17O A 301      32.795  62.564   4.297  1.00 16.92           C  
+HETATM   18  CAD 17O A 301      33.115  61.727   5.496  1.00 14.25           C  
+HETATM   19  OAA 17O A 301      33.819  62.126   6.423  1.00 12.82           O  
+HETATM   20  CAQ 17O A 301      32.339  65.093   4.573  1.00 19.36           C  
+HETATM   21  NAJ 17O A 301      31.072  64.969   4.181  1.00 20.22           N  
+HETATM   22  NAT 17O A 301      30.536  66.156   4.505  1.00 21.18           N  
+HETATM   23  CAI 17O A 301      29.183  66.545   4.244  1.00 21.70           C  
+HETATM   24  SAL 17O A 301      29.165  68.299   4.740  1.00 23.93           S  
+HETATM   25  CAH 17O A 301      30.840  68.328   5.464  1.00 21.80           C  
+HETATM   26  CAR 17O A 301      31.407  67.006   5.104  1.00 21.59           C  
+HETATM   27  CAG 17O A 301      32.606  66.364   5.172  1.00 20.49           C  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10   11
+CONECT    9    8
+CONECT   10    9
+CONECT   11    9   12   14
+CONECT   11   14
+CONECT   12   11   13
+CONECT   13   12   17
+CONECT   13   17
+CONECT   14   11   15
+CONECT   14   11
+CONECT   15   14   16
+CONECT   16   15   17   20
+CONECT   17   13   16   18
+CONECT   17   13
+CONECT   18    6   17   19
+CONECT   18   19
+CONECT   19   18
+CONECT   19   18
+CONECT   20   16   21   27
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   21   23   26
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26   22   25   27
+CONECT   26   27
+CONECT   27   20   26
+CONECT   27   26
+ENDMDL
+END   

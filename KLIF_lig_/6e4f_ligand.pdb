@@ -1,0 +1,98 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6e4f_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  HRA A 701       0.939  13.952  44.106  1.00  0.00           C  
+HETATM    2  C2  HRA A 701       0.461  12.675  44.681  1.00  0.00           C  
+HETATM    3  C3  HRA A 701      -0.912  12.364  44.140  1.00  0.00           C  
+HETATM    4  C4  HRA A 701      -1.441  14.737  43.851  1.00  0.00           C  
+HETATM    5  C5  HRA A 701       2.778  18.395  39.189  1.00  0.00           C  
+HETATM    6  C6  HRA A 701       3.549  18.914  38.152  1.00  0.00           C  
+HETATM    7  C7  HRA A 701       4.590  19.776  38.451  1.00  0.00           C  
+HETATM    8  C9  HRA A 701       4.096  19.588  40.794  1.00  0.00           C  
+HETATM    9  C10 HRA A 701       3.016  18.723  40.531  1.00  0.00           C  
+HETATM   10  C11 HRA A 701       2.141  18.151  41.529  1.00  0.00           C  
+HETATM   11  C12 HRA A 701       1.278  20.335  42.198  1.00  0.00           C  
+HETATM   12  C13 HRA A 701       1.334  18.983  42.361  1.00  0.00           C  
+HETATM   13  C14 HRA A 701       0.049  17.552  44.147  1.00  0.00           C  
+HETATM   14  C16 HRA A 701      -0.018  19.897  43.873  1.00  0.00           C  
+HETATM   15  C   HRA A 701      -1.302  11.087  44.846  1.00  0.00           C  
+HETATM   16  O   HRA A 701      -2.658  10.878  44.525  1.00  0.00           O  
+HETATM   17  O1  HRA A 701      -1.841  13.474  44.368  1.00  0.00           O  
+HETATM   18  C18 HRA A 701      -0.056  15.073  44.427  1.00  0.00           C  
+HETATM   19  N3  HRA A 701       0.458  16.310  43.821  1.00  0.00           N  
+HETATM   20  C15 HRA A 701       0.483  18.682  43.448  1.00  0.00           C  
+HETATM   21  N1  HRA A 701      -0.801  17.662  45.179  1.00  0.00           N  
+HETATM   22  C17 HRA A 701      -1.237  18.900  45.557  1.00  0.00           C  
+HETATM   23  N2  HRA A 701      -0.868  20.044  44.913  1.00  0.00           N  
+HETATM   24  N   HRA A 701       0.452  20.874  43.098  1.00  0.00           N  
+HETATM   25  O3  HRA A 701       2.071  16.913  41.620  1.00  0.00           O  
+HETATM   26 CL   HRA A 701       4.517  20.055  42.391  1.00  0.00          Cl  
+HETATM   27  C8  HRA A 701       4.862  20.104  39.766  1.00  0.00           C  
+HETATM   28  O2  HRA A 701       5.364  20.297  37.465  1.00  0.00           O  
+HETATM   29  C19 HRA A 701       4.750  20.896  36.381  1.00  0.00           C  
+HETATM   30  C24 HRA A 701       5.387  20.785  35.134  1.00  0.00           C  
+HETATM   31  C23 HRA A 701       4.817  21.360  33.993  1.00  0.00           C  
+HETATM   32  C22 HRA A 701       3.609  22.068  34.097  1.00  0.00           C  
+HETATM   33  C21 HRA A 701       2.978  22.192  35.340  1.00  0.00           C  
+HETATM   34  C20 HRA A 701       3.539  21.605  36.483  1.00  0.00           C  
+CONECT    1    2   18
+CONECT    2    1    3
+CONECT    3    2   15   17
+CONECT    4   17   18
+CONECT    5    6    9
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    6   27   28
+CONECT    7   27
+CONECT    8    9   26   27
+CONECT    8    9
+CONECT    9    5    8   10
+CONECT    9    8
+CONECT   10    9   12   25
+CONECT   10   25
+CONECT   11   12   24
+CONECT   11   12
+CONECT   12   10   11   20
+CONECT   12   11
+CONECT   13   19   20   21
+CONECT   13   20
+CONECT   14   20   23   24
+CONECT   14   23
+CONECT   15    3   16
+CONECT   16   15
+CONECT   17    3    4
+CONECT   18    1    4   19
+CONECT   19   13   18
+CONECT   20   12   13   14
+CONECT   20   13
+CONECT   21   13   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   14   22
+CONECT   23   14
+CONECT   24   11   14
+CONECT   25   10
+CONECT   25   10
+CONECT   26    8
+CONECT   27    7    8
+CONECT   27    7
+CONECT   28    7   29
+CONECT   29   28   30   34
+CONECT   29   34
+CONECT   30   29   31
+CONECT   30   31
+CONECT   31   30   32
+CONECT   31   30
+CONECT   32   31   33
+CONECT   32   33
+CONECT   33   32   34
+CONECT   33   32
+CONECT   34   29   33
+CONECT   34   29
+ENDMDL
+END   

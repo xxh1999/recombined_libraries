@@ -1,0 +1,94 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2ycf_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  NAA YCF A 600      -1.263  12.550  49.126  1.00  0.00           N  
+HETATM    2  NAB YCF A 600      -2.281  13.143  51.091  1.00  0.00           N  
+HETATM    3  NAC YCF A 600      -2.312  14.625  49.334  1.00  0.00           N  
+HETATM    4  NAD YCF A 600      -2.005  14.912  48.172  1.00  0.00           N  
+HETATM    5  NAE YCF A 600      -0.375  16.404  42.367  1.00  0.00           N  
+HETATM    6  NAF YCF A 600       0.547  17.031  40.410  1.00  0.00           N  
+HETATM    7  NAG YCF A 600       4.518  18.404  35.659  1.00  0.00           N  
+HETATM    8  NAH YCF A 600       5.290  18.752  34.748  1.00  0.00           N  
+HETATM    9  NAI YCF A 600       5.743  16.530  34.347  1.00  0.00           N  
+HETATM   10  NAJ YCF A 600       6.782  18.107  33.057  1.00  0.00           N  
+HETATM   11  CAK YCF A 600      -1.946  13.443  49.845  1.00  0.00           C  
+HETATM   12  CAL YCF A 600      -2.337  16.057  47.568  1.00  0.00           C  
+HETATM   13  CAM YCF A 600      -3.084  17.162  48.324  1.00  0.00           C  
+HETATM   14  CAN YCF A 600      -1.872  16.221  46.256  1.00  0.00           C  
+HETATM   15  CAO YCF A 600      -1.565  15.073  45.514  1.00  0.00           C  
+HETATM   16  CAP YCF A 600      -1.063  15.165  44.220  1.00  0.00           C  
+HETATM   17  CAQ YCF A 600      -0.860  16.416  43.633  1.00  0.00           C  
+HETATM   18  CAR YCF A 600      -1.157  17.567  44.375  1.00  0.00           C  
+HETATM   19  CAS YCF A 600      -1.653  17.473  45.690  1.00  0.00           C  
+HETATM   20  CAT YCF A 600       0.243  17.383  41.676  1.00  0.00           C  
+HETATM   21  CAU YCF A 600       1.320  17.667  39.491  1.00  0.00           C  
+HETATM   22  CAV YCF A 600       1.634  16.938  38.333  1.00  0.00           C  
+HETATM   23  CAW YCF A 600       2.440  17.467  37.328  1.00  0.00           C  
+HETATM   24  CAX YCF A 600       2.990  18.748  37.459  1.00  0.00           C  
+HETATM   25  CAY YCF A 600       2.697  19.485  38.626  1.00  0.00           C  
+HETATM   26  CAZ YCF A 600       1.877  18.946  39.634  1.00  0.00           C  
+HETATM   27  CBA YCF A 600       3.818  19.259  36.441  1.00  0.00           C  
+HETATM   28  CBB YCF A 600       4.011  20.773  36.275  1.00  0.00           C  
+HETATM   29  CBC YCF A 600       5.954  17.804  34.065  1.00  0.00           C  
+HETATM   30  OBD YCF A 600       0.438  18.513  42.125  1.00  0.00           O  
+HETATM   31  OBE YCF A 600      -1.911  11.941  51.606  1.00  0.00           O  
+HETATM   32  OBF YCF A 600       6.378  15.552  33.634  1.00  0.00           O  
+CONECT    1   11
+CONECT    1   11
+CONECT    2   11   31
+CONECT    3    4   11
+CONECT    4    3   12
+CONECT    4   12
+CONECT    5   17   20
+CONECT    6   20   21
+CONECT    7    8   27
+CONECT    7   27
+CONECT    8    7   29
+CONECT    9   29   32
+CONECT    9   29
+CONECT   10   29
+CONECT   11    1    2    3
+CONECT   11    1
+CONECT   12    4   13   14
+CONECT   12    4
+CONECT   13   12
+CONECT   14   12   15   19
+CONECT   14   19
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17    5   16   18
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   14   18
+CONECT   19   14
+CONECT   20    5    6   30
+CONECT   20   30
+CONECT   21    6   22   26
+CONECT   21   26
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   23   25   27
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26   21   25
+CONECT   26   21
+CONECT   27    7   24   28
+CONECT   27    7
+CONECT   28   27
+CONECT   29    8    9   10
+CONECT   29    9
+CONECT   30   20
+CONECT   30   20
+CONECT   31    2
+CONECT   32    9
+ENDMDL
+END   

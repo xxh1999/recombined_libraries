@@ -1,0 +1,55 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6O9W
+MODEL        1
+ATOM      1  N   SER A 389     -12.458 -25.522  19.521  1.00 27.11           N1+
+ATOM      2  CA  SER A 389     -11.284 -26.377  19.353  1.00 26.25           C  
+ATOM      3  C   SER A 389      -9.989 -25.802  19.948  1.00 24.84           C  
+ATOM      4  O   SER A 389      -8.999 -26.527  19.983  1.00 23.16           O  
+ATOM      5  CB  SER A 389     -11.027 -26.616  17.856  1.00 30.25           C  
+ATOM      6  OG  SER A 389     -12.032 -27.395  17.232  1.00 45.36           O  
+TER       7      SER A 389
+HETATM    8  OAC NXL A 601     -13.385 -25.620  16.815  0.58 22.26           O  
+HETATM    9  CAN NXL A 601     -13.114 -26.813  16.678  0.58 22.91           C  
+HETATM   10  N   NXL A 601     -13.858 -27.737  15.933  0.58 26.56           N  
+HETATM   11  CAJ NXL A 601     -13.291 -29.026  15.498  0.58 33.46           C  
+HETATM   12  CA  NXL A 601     -15.046 -27.288  15.193  0.58 31.41           C  
+HETATM   13  C   NXL A 601     -16.341 -28.087  15.425  0.58 34.16           C  
+HETATM   14  O   NXL A 601     -16.428 -29.276  15.132  0.58 35.60           O  
+HETATM   15  NAA NXL A 601     -17.385 -27.412  15.912  0.58 35.65           N  
+HETATM   16  CB  NXL A 601     -14.659 -27.110  13.718  0.58 30.84           C  
+HETATM   17  CAH NXL A 601     -13.980 -28.364  13.120  0.58 32.78           C  
+HETATM   18  CAO NXL A 601     -12.878 -28.958  14.016  0.58 34.48           C  
+HETATM   19  NAK NXL A 601     -11.589 -28.319  13.797  0.58 36.21           N  
+HETATM   20  OAL NXL A 601     -11.744 -26.929  14.102  0.58 38.11           O  
+HETATM   21  SAR NXL A 601     -10.748 -25.820  13.342  0.58 40.56           S  
+HETATM   22  OAD NXL A 601      -9.446 -26.068  13.977  0.58 49.15           O1-
+HETATM   23  OAE NXL A 601     -11.356 -24.519  13.664  0.58 26.91           O  
+HETATM   24  OAG NXL A 601     -10.826 -26.217  11.930  0.58 46.75           O  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    6    8   10
+CONECT    9    8
+CONECT   10    9   11   12
+CONECT   11   10   18
+CONECT   12   10   13   16
+CONECT   13   12   14   15
+CONECT   13   14
+CONECT   14   13
+CONECT   14   13
+CONECT   15   13
+CONECT   16   12   17
+CONECT   17   16   18
+CONECT   18   11   17   19
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   20   22   23   24
+CONECT   21   23   24
+CONECT   22   21
+CONECT   23   21
+CONECT   23   21
+CONECT   24   21
+CONECT   24   21
+ENDMDL
+END   

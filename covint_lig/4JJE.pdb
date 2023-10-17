@@ -1,0 +1,36 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4JJE
+MODEL        1
+ATOM      1  N   ASP B 403      41.679  14.370  74.056  1.00 44.89           N1+
+ATOM      2  CA  ASP B 403      41.589  13.509  72.874  1.00 44.92           C  
+ATOM      3  C   ASP B 403      41.681  12.052  73.410  1.00 51.59           C  
+ATOM      4  O   ASP B 403      42.382  11.805  74.389  1.00 60.19           O  
+ATOM      5  CB  ASP B 403      42.744  13.843  71.887  1.00 39.92           C  
+ATOM      6  CG  ASP B 403      42.985  15.336  71.611  1.00 41.46           C  
+ATOM      7  OD1 ASP B 403      41.994  16.076  71.407  1.00 36.19           O  
+ATOM      8  OD2 ASP B 403      44.176  15.716  71.606  1.00 31.63           O1-
+TER       9      ASP B 403
+HETATM   10  O   B3L B 404      39.374  11.914  69.086  1.00 23.84           O  
+HETATM   11  C   B3L B 404      38.903  10.966  69.709  1.00 22.72           C  
+HETATM   12  CA  B3L B 404      39.191  10.825  71.199  1.00 33.28           C  
+HETATM   13  CB  B3L B 404      40.710  10.842  71.459  1.00 34.72           C  
+HETATM   14  N   B3L B 404      40.975  11.051  72.869  1.00 48.21           N  
+HETATM   15  CG  B3L B 404      41.391   9.526  70.990  1.00 27.45           C  
+HETATM   16  CD  B3L B 404      42.718   9.113  71.686  1.00 34.79           C  
+HETATM   17  CE2 B3L B 404      43.185   7.743  71.177  1.00 34.91           C  
+HETATM   18  CE1 B3L B 404      43.871  10.126  71.571  1.00 34.06           C  
+CONECT   10   11
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   13
+CONECT   13   12   14   15
+CONECT   14    3   13
+CONECT   15   13   16
+CONECT   16   15   17   18
+CONECT   17   16
+CONECT   18   16
+ENDMDL
+END   

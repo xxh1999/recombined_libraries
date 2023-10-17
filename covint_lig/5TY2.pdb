@@ -1,0 +1,88 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5TY2
+MODEL        1
+ATOM      1  N   SER A  75      27.826 -62.039  37.282  1.00 23.48           N1+
+ATOM      2  CA  SER A  75      27.966 -62.024  35.824  1.00 21.36           C  
+ATOM      3  C   SER A  75      28.647 -60.771  35.242  1.00 18.13           C  
+ATOM      4  O   SER A  75      28.990 -60.789  34.060  1.00 23.80           O  
+ATOM      5  CB  SER A  75      26.592 -62.104  35.159  1.00 23.85           C  
+ATOM      6  OG  SER A  75      25.904 -63.334  35.315  1.00 29.22           O  
+TER       7      SER A  75
+HETATM    8  C   NFF A 401      25.042 -63.490  36.327  1.00 39.54           C  
+HETATM    9  N   NFF A 401      23.504 -65.204  37.235  1.00 33.45           N  
+HETATM   10  O   NFF A 401      25.007 -62.793  37.339  1.00 27.14           O  
+HETATM   11  CA  NFF A 401      24.040 -64.607  36.008  1.00 26.25           C  
+HETATM   12  CB  NFF A 401      22.967 -64.244  34.921  1.00 27.23           C  
+HETATM   13  CAA NFF A 401      26.295 -65.563  39.166  1.00 45.75           C  
+HETATM   14  CAB NFF A 401      19.593 -63.421  36.724  1.00 37.19           C  
+HETATM   15  CAC NFF A 401      19.691 -63.024  34.234  1.00 29.36           C  
+HETATM   16  OAE NFF A 401      22.142 -60.162  34.882  1.00 28.09           O1-
+HETATM   17  OAF NFF A 401      23.490 -67.362  36.532  1.00 41.37           O  
+HETATM   18  OAG NFF A 401      20.483 -60.468  36.308  1.00 37.79           O  
+HETATM   19  CAI NFF A 401      19.442 -66.376  40.928  1.00 44.03           C  
+HETATM   20  CAJ NFF A 401      19.568 -65.924  39.603  1.00 49.78           C  
+HETATM   21  CAK NFF A 401      24.021 -68.045  40.841  1.00 49.85           C  
+HETATM   22  CAL NFF A 401      20.526 -67.006  41.560  1.00 35.32           C  
+HETATM   23  CAM NFF A 401      20.778 -66.099  38.910  1.00 34.19           C  
+HETATM   24  CAN NFF A 401      22.806 -67.841  41.516  1.00 34.23           C  
+HETATM   25  CAO NFF A 401      26.454 -67.084  39.231  1.00 50.32           C  
+HETATM   26  NAQ NFF A 401      22.758 -62.812  34.750  1.00 32.56           N  
+HETATM   27  OAR NFF A 401      25.329 -67.843  38.824  1.00 50.12           O  
+HETATM   28  SAS NFF A 401      21.319 -64.938  35.251  1.00 30.24           S  
+HETATM   29  CAT NFF A 401      21.423 -60.889  35.605  1.00 29.18           C  
+HETATM   30  CAU NFF A 401      23.348 -66.524  37.423  1.00 43.50           C  
+HETATM   31  CAV NFF A 401      24.168 -67.611  39.510  1.00 46.89           C  
+HETATM   32  CAW NFF A 401      23.110 -66.952  38.844  1.00 39.66           C  
+HETATM   33  CAX NFF A 401      21.740 -67.190  40.866  1.00 44.78           C  
+HETATM   34  CAY NFF A 401      21.882 -66.732  39.527  1.00 30.52           C  
+HETATM   35  CBB NFF A 401      21.725 -62.393  35.697  1.00 22.30           C  
+HETATM   36  CBC NFF A 401      20.516 -63.343  35.494  1.00 31.54           C  
+CONECT    8    6   10   11
+CONECT    8   10
+CONECT    9   11   30
+CONECT   10    8
+CONECT   10    8
+CONECT   11    8    9   12
+CONECT   12   11   26   28
+CONECT   13   25
+CONECT   14   36
+CONECT   15   36
+CONECT   16   29
+CONECT   17   30
+CONECT   17   30
+CONECT   18   29
+CONECT   18   29
+CONECT   19   20   22
+CONECT   19   22
+CONECT   20   19   23
+CONECT   20   23
+CONECT   21   24   31
+CONECT   21   31
+CONECT   22   19   33
+CONECT   22   19
+CONECT   23   20   34
+CONECT   23   20
+CONECT   24   21   33
+CONECT   24   33
+CONECT   25   13   27
+CONECT   26   12   35
+CONECT   27   25   31
+CONECT   28   12   36
+CONECT   29   16   18   35
+CONECT   29   18
+CONECT   30    9   17   32
+CONECT   30   17
+CONECT   31   21   27   32
+CONECT   31   21
+CONECT   32   30   31   34
+CONECT   32   34
+CONECT   33   22   24   34
+CONECT   33   24
+CONECT   34   23   32   33
+CONECT   34   32
+CONECT   35   26   29   36
+CONECT   36   14   15   28   35
+ENDMDL
+END   

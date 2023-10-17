@@ -1,0 +1,62 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1Y54
+MODEL        1
+ATOM      1  N   SER A  64      13.149  23.586  23.879  1.00 23.66           N1+
+ATOM      2  CA  SER A  64      12.342  23.743  25.084  1.00 24.31           C  
+ATOM      3  C   SER A  64      11.100  22.837  25.188  1.00 24.74           C  
+ATOM      4  O   SER A  64      10.334  23.007  26.136  1.00 25.51           O  
+ATOM      5  CB  SER A  64      11.893  25.197  25.225  1.00 26.50           C  
+ATOM      6  OG  SER A  64      12.971  26.118  25.070  1.00 29.48           O  
+TER       7      SER A  64
+HETATM    8  C1  FDT A 400      14.244  28.545  22.768  1.00 40.54           C  
+HETATM    9  C2  FDT A 400      14.197  27.779  23.873  1.00 36.83           C  
+HETATM   10  C3  FDT A 400      13.070  26.820  23.926  1.00 32.49           C  
+HETATM   11  C5  FDT A 400      15.147  27.992  25.072  1.00 39.29           C  
+HETATM   12  S6  FDT A 400      14.978  29.603  25.919  1.00 46.81           S  
+HETATM   13  O7  FDT A 400      12.253  26.724  23.011  1.00 25.42           O  
+HETATM   14  N8  FDT A 400      14.945  29.717  22.719  1.00 45.18           N  
+HETATM   15  C9  FDT A 400      14.325  30.719  23.447  1.00 48.82           C  
+HETATM   16  C10 FDT A 400      16.612  27.835  24.748  1.00 40.68           C  
+HETATM   17  C11 FDT A 400      14.350  30.789  24.787  1.00 48.44           C  
+HETATM   18  C12 FDT A 400      13.216  31.516  22.696  1.00 52.56           C  
+HETATM   19  O13 FDT A 400      12.743  30.992  21.664  1.00 65.65           O1-
+HETATM   20  C14 FDT A 400      17.246  27.468  23.595  1.00 42.57           C  
+HETATM   21  O15 FDT A 400      12.805  32.548  23.267  1.00 58.28           O  
+HETATM   22  N16 FDT A 400      17.592  28.115  25.702  1.00 41.84           N  
+HETATM   23  N17 FDT A 400      18.766  27.927  25.194  1.00 42.79           N  
+HETATM   24  N18 FDT A 400      18.582  27.515  23.922  1.00 42.95           N  
+HETATM   25  C19 FDT A 400      19.723  27.195  23.093  1.00 42.66           C  
+CONECT    8    9   14
+CONECT    8    9
+CONECT    9    8   10   11
+CONECT    9    8
+CONECT   10    6    9   13
+CONECT   10   13
+CONECT   11    9   12   16
+CONECT   12   11   17
+CONECT   13   10
+CONECT   13   10
+CONECT   14    8   15
+CONECT   15   14   17   18
+CONECT   15   17
+CONECT   16   11   20   22
+CONECT   16   20
+CONECT   17   12   15
+CONECT   17   15
+CONECT   18   15   19   21
+CONECT   18   21
+CONECT   19   18
+CONECT   20   16   24
+CONECT   20   16
+CONECT   21   18
+CONECT   21   18
+CONECT   22   16   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   20   23   25
+CONECT   25   24
+ENDMDL
+END   

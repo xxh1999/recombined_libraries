@@ -1,0 +1,22 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5vub_ligand1
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+ATOM      1  C   SER B 101      -7.900  28.677  36.286  1.00  0.00           C  
+ATOM      2  O   SER B 101      -7.492  28.532  37.440  1.00  0.00           O  
+ATOM      3  N   GLY B 102      -8.324  27.665  35.536  1.00  0.00           N  
+ATOM      4  CA  GLY B 102      -8.262  26.290  35.994  1.00  0.00           C  
+ATOM      5  C   GLY B 102      -6.949  25.683  35.538  1.00  0.00           C  
+ATOM      6  O   GLY B 102      -6.886  24.514  35.160  1.00  0.00           O  
+ATOM      7  N   VAL B 103      -5.892  26.494  35.546  1.00  0.00           N  
+ATOM      8  CA  VAL B 103      -4.557  26.004  35.221  1.00  0.00           C  
+ATOM      9  C   VAL B 103      -3.634  26.288  36.401  1.00  0.00           C  
+ATOM     10  O   VAL B 103      -3.657  27.389  36.943  1.00  0.00           O  
+ATOM     11  CB  VAL B 103      -3.997  26.678  33.951  1.00  0.00           C  
+ATOM     12  CG1 VAL B 103      -2.593  26.179  33.671  1.00  0.00           C  
+ATOM     13  CG2 VAL B 103      -4.892  26.395  32.755  1.00  0.00           C  
+ATOM     14  N   ILE B 104      -2.843  25.303  36.815  1.00  0.00           N  
+ENDMDL
+END   

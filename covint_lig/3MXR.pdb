@@ -1,0 +1,88 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3MXR
+MODEL        1
+ATOM      1  N   SER A  70      33.116  60.477   8.382  1.00 10.46           N1+
+ATOM      2  CA  SER A  70      32.647  59.330   7.609  1.00  9.84           C  
+ATOM      3  C   SER A  70      33.254  57.989   8.072  1.00  9.90           C  
+ATOM      4  O   SER A  70      32.818  56.950   7.580  1.00 10.24           O  
+ATOM      5  CB  SER A  70      32.971  59.538   6.111  1.00 10.70           C  
+ATOM      6  OG  SER A  70      32.143  60.487   5.452  1.00 10.53           O  
+TER       7      SER A  70
+HETATM    8  C   CZ8 A   1      31.337  65.250   4.222  1.00 18.11           C  
+HETATM    9  N   CZ8 A   1      30.908  67.619   4.759  1.00 20.86           N  
+HETATM   10  O   CZ8 A   1      30.251  65.135   3.656  1.00 16.64           O  
+HETATM   11  CA  CZ8 A   1      31.946  66.638   4.454  1.00 18.87           C  
+HETATM   12  CB  CZ8 A   1      32.806  67.146   3.281  1.00 24.87           C  
+HETATM   13  CAA CZ8 A   1      25.700  72.470   6.720  1.00 48.45           C  
+HETATM   14  OAC CZ8 A   1      32.068  68.851   6.232  1.00 23.32           O  
+HETATM   15  OAD CZ8 A   1      27.006  70.940   4.216  1.00 40.08           O  
+HETATM   16  OAE CZ8 A   1      28.932  69.116   3.667  1.00 31.22           O  
+HETATM   17  OAF CZ8 A   1      36.993  68.317  -1.437  1.00 38.69           O  
+HETATM   18  OAG CZ8 A   1      33.580  62.366   6.141  1.00 11.40           O  
+HETATM   19  OAH CZ8 A   1      31.296  62.217   6.854  1.00 13.53           O  
+HETATM   20  CAI CZ8 A   1      35.107  67.096  -0.584  1.00 39.15           C  
+HETATM   21  CAJ CZ8 A   1      36.757  68.057   0.937  1.00 36.28           C  
+HETATM   22  CAK CZ8 A   1      34.387  66.594   0.516  1.00 34.16           C  
+HETATM   23  CAL CZ8 A   1      36.035  67.557   2.038  1.00 35.26           C  
+HETATM   24  CAM CZ8 A   1      26.115  71.009   6.919  1.00 44.73           C  
+HETATM   25  CAN CZ8 A   1      34.057  66.297   3.004  1.00 32.91           C  
+HETATM   26  CAP CZ8 A   1      31.749  62.800   4.456  1.00 11.45           C  
+HETATM   27  CAQ CZ8 A   1      28.490  70.574   7.476  1.00 37.18           C  
+HETATM   28  CAR CZ8 A   1      29.908  70.367   6.912  1.00 31.99           C  
+HETATM   29  NAS CZ8 A   1      32.073  64.209   4.638  1.00 16.15           N  
+HETATM   30  CAV CZ8 A   1      31.030  68.674   5.590  1.00 23.34           C  
+HETATM   31  CAW CZ8 A   1      27.738  70.552   5.127  1.00 38.78           C  
+HETATM   32  CAX CZ8 A   1      28.958  69.652   4.778  1.00 30.59           C  
+HETATM   33  BAY CZ8 A   1      32.220  61.944   5.744  1.00 14.25           B1-
+HETATM   34  CAY CZ8 A   1      36.293  67.828  -0.373  1.00 34.98           C  
+HETATM   35  CAZ CZ8 A   1      34.848  66.825   1.828  1.00 36.88           C  
+HETATM   36  NBC CZ8 A   1      27.472  70.727   6.439  1.00 39.00           N  
+HETATM   37  NBD CZ8 A   1      29.945  69.500   5.715  1.00 27.88           N  
+CONECT    8   10   11   29
+CONECT    8   10
+CONECT    9   11   30
+CONECT   10    8
+CONECT   10    8
+CONECT   11    8    9   12
+CONECT   12   11   25
+CONECT   13   24
+CONECT   14   30
+CONECT   14   30
+CONECT   15   31
+CONECT   15   31
+CONECT   16   32
+CONECT   16   32
+CONECT   17   34
+CONECT   18   33
+CONECT   19   33
+CONECT   20   22   34
+CONECT   20   34
+CONECT   21   23   34
+CONECT   21   23
+CONECT   22   20   35
+CONECT   22   35
+CONECT   23   21   35
+CONECT   23   21
+CONECT   24   13   36
+CONECT   25   12   35
+CONECT   26   29   33
+CONECT   27   28   36
+CONECT   28   27   37
+CONECT   29    8   26
+CONECT   30    9   14   37
+CONECT   30   14
+CONECT   31   15   32   36
+CONECT   31   15
+CONECT   32   16   31   37
+CONECT   32   16
+CONECT   33    6   18   19   26
+CONECT   34   17   20   21
+CONECT   34   20
+CONECT   35   22   23   25
+CONECT   35   22
+CONECT   36   24   27   31
+CONECT   37   28   30   32
+ENDMDL
+END   

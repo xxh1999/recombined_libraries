@@ -1,0 +1,94 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3wf9_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N01 FS7 A 402       0.173  19.477  44.387  1.00  0.00           N  
+HETATM    2  C02 FS7 A 402       0.158  18.193  44.976  1.00  0.00           C  
+HETATM    3  C03 FS7 A 402      -0.646  17.958  46.136  1.00  0.00           C  
+HETATM    4  C04 FS7 A 402      -0.648  16.679  46.704  1.00  0.00           C  
+HETATM    5  C05 FS7 A 402       0.121  15.643  46.141  1.00  0.00           C  
+HETATM    6  C06 FS7 A 402       0.907  15.873  45.004  1.00  0.00           C  
+HETATM    7  C07 FS7 A 402       0.909  17.180  44.425  1.00  0.00           C  
+HETATM    8  C08 FS7 A 402       1.690  17.453  43.289  1.00  0.00           C  
+HETATM    9  C09 FS7 A 402       2.519  16.350  42.700  1.00  0.00           C  
+HETATM   10  O10 FS7 A 402       3.678  16.220  43.063  1.00  0.00           O  
+HETATM   11  O11 FS7 A 402       2.120  15.780  41.498  1.00  0.00           O  
+HETATM   12  C12 FS7 A 402       2.840  14.659  41.110  1.00  0.00           C  
+HETATM   13  C13 FS7 A 402       2.045  13.638  40.347  1.00  0.00           C  
+HETATM   14  C14 FS7 A 402       4.146  15.075  40.454  1.00  0.00           C  
+HETATM   15  O15 FS7 A 402       4.299  16.256  40.182  1.00  0.00           O  
+HETATM   16  N16 FS7 A 402       5.157  14.068  40.175  1.00  0.00           N  
+HETATM   17  C17 FS7 A 402       6.414  14.394  39.514  1.00  0.00           C  
+HETATM   18  C18 FS7 A 402       6.849  15.711  39.344  1.00  0.00           C  
+HETATM   19  C19 FS7 A 402       8.045  15.985  38.687  1.00  0.00           C  
+HETATM   20  C20 FS7 A 402       8.785  14.920  38.202  1.00  0.00           C  
+HETATM   21  S21 FS7 A 402      10.296  15.217  37.355  1.00  0.00           S2+
+HETATM   22  O22 FS7 A 402      11.134  14.067  37.423  1.00  0.00           O1-
+HETATM   23  O23 FS7 A 402      11.037  16.262  38.013  1.00  0.00           O1-
+HETATM   24  N24 FS7 A 402       9.967  15.610  35.804  1.00  0.00           N  
+HETATM   25  C25 FS7 A 402       8.351  13.617  38.357  1.00  0.00           C  
+HETATM   26  C26 FS7 A 402       7.154  13.343  39.019  1.00  0.00           C  
+HETATM   27  C27 FS7 A 402       1.710  18.747  42.697  1.00  0.00           C  
+HETATM   28  C28 FS7 A 402       2.543  18.969  41.495  1.00  0.00           C  
+HETATM   29  C29 FS7 A 402       2.768  20.378  41.106  1.00  0.00           C  
+HETATM   30  C30 FS7 A 402       3.169  20.443  39.660  1.00  0.00           C  
+HETATM   31  C31 FS7 A 402       1.646  21.332  41.352  1.00  0.00           C  
+HETATM   32  C32 FS7 A 402       0.906  21.168  42.681  1.00  0.00           C  
+HETATM   33  C33 FS7 A 402       0.948  19.742  43.253  1.00  0.00           C  
+CONECT    1    2   33
+CONECT    1   33
+CONECT    2    1    3    7
+CONECT    2    7
+CONECT    3    2    4
+CONECT    3    4
+CONECT    4    3    5
+CONECT    4    3
+CONECT    5    4    6
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    2    6    8
+CONECT    7    2
+CONECT    8    7    9   27
+CONECT    8   27
+CONECT    9    8   10   11
+CONECT    9   10
+CONECT   10    9
+CONECT   10    9
+CONECT   11    9   12
+CONECT   12   11   13   14
+CONECT   13   12
+CONECT   14   12   15   16
+CONECT   14   15
+CONECT   15   14
+CONECT   15   14
+CONECT   16   14   17
+CONECT   17   16   18   26
+CONECT   17   26
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   19   21   25
+CONECT   20   25
+CONECT   21   20   22   23   24
+CONECT   22   21
+CONECT   23   21
+CONECT   24   21
+CONECT   25   20   26
+CONECT   25   20
+CONECT   26   17   25
+CONECT   26   17
+CONECT   27    8   28   33
+CONECT   27    8
+CONECT   28   27   29
+CONECT   29   28   30   31
+CONECT   30   29
+CONECT   31   29   32
+CONECT   32   31   33
+CONECT   33    1   27   32
+CONECT   33    1
+ENDMDL
+END   

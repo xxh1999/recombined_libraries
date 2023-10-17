@@ -1,0 +1,87 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7avz_ligand
+MODEL        1
+HETATM    1  C1  S4N A 901      -0.638  15.917  50.229  1.00  0.00           C  
+HETATM    2  C2  S4N A 901      -0.236  17.036  49.204  1.00  0.00           C  
+HETATM    3  C3  S4N A 901      -2.039  16.236  47.699  1.00  0.00           C  
+HETATM    4  C7  S4N A 901       0.106  19.636  44.947  1.00  0.00           C  
+HETATM    5  C8  S4N A 901       0.058  17.421  45.575  1.00  0.00           C  
+HETATM    6  C9  S4N A 901       0.704  15.701  43.929  1.00  0.00           C  
+HETATM    7  C10 S4N A 901       2.070  15.037  43.984  1.00  0.00           C  
+HETATM    8  C11 S4N A 901       2.453  14.545  42.606  1.00  0.00           C  
+HETATM    9  C12 S4N A 901       0.200  14.321  41.943  1.00  0.00           C  
+HETATM   10  C13 S4N A 901      -0.320  14.780  43.284  1.00  0.00           C  
+HETATM   11  C14 S4N A 901       0.761  20.326  42.639  1.00  0.00           C  
+HETATM   12  C15 S4N A 901       1.698  19.341  42.328  1.00  0.00           C  
+HETATM   13  C16 S4N A 901       2.043  19.143  41.015  1.00  0.00           C  
+HETATM   14  C19 S4N A 901       0.188  21.081  41.619  1.00  0.00           C  
+HETATM   15  C20 S4N A 901       0.900  19.002  37.844  1.00  0.00           C  
+HETATM   16  C21 S4N A 901       0.718  17.551  38.250  1.00  0.00           C  
+HETATM   17  C22 S4N A 901      -0.535  16.851  37.851  1.00  0.00           C  
+HETATM   18  F1  S4N A 901       2.956  18.187  40.725  1.00  0.00           F  
+HETATM   19  C17 S4N A 901       1.504  19.871  39.960  1.00  0.00           C  
+HETATM   20  O1  S4N A 901       1.927  19.579  38.668  1.00  0.00           O  
+HETATM   21  C23 S4N A 901       0.757  16.483  37.215  1.00  0.00           C  
+HETATM   22  C18 S4N A 901       0.569  20.841  40.321  1.00  0.00           C  
+HETATM   23  F   S4N A 901       0.010  21.580  39.343  1.00  0.00           F  
+HETATM   24  N5  S4N A 901       0.375  20.555  43.976  1.00  0.00           N  
+HETATM   25  N2  S4N A 901      -0.344  20.104  46.118  1.00  0.00           N  
+HETATM   26  C6  S4N A 901      -0.605  19.180  47.052  1.00  0.00           C  
+HETATM   27  N3  S4N A 901       0.316  18.347  44.639  1.00  0.00           N  
+HETATM   28  N4  S4N A 901       0.272  16.128  45.256  1.00  0.00           N  
+HETATM   29  O   S4N A 901       1.463  13.654  42.078  1.00  0.00           O  
+HETATM   30  C5  S4N A 901      -0.426  17.812  46.857  1.00  0.00           C  
+HETATM   31  N   S4N A 901      -0.701  16.825  47.830  1.00  0.00           N  
+HETATM   32  C4  S4N A 901      -2.162  14.971  48.525  1.00  0.00           C  
+HETATM   33  N1  S4N A 901      -1.982  15.284  49.947  1.00  0.00           N1+
+HETATM   34  C   S4N A 901      -0.669  16.447  51.654  1.00  0.00           C  
+CONECT    1    2   33   34
+CONECT    2    1   31
+CONECT    3   31   32
+CONECT    4   24   25   27
+CONECT    4   27
+CONECT    5   27   28   30
+CONECT    5   30
+CONECT    6    7   10   28
+CONECT    7    6    8
+CONECT    8    7   29
+CONECT    9   10   29
+CONECT   10    6    9
+CONECT   11   12   14   24
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   18   19
+CONECT   13   19
+CONECT   14   11   22
+CONECT   14   22
+CONECT   15   16   20
+CONECT   16   15   17   21
+CONECT   17   16   21
+CONECT   18   13
+CONECT   19   13   20   22
+CONECT   19   13
+CONECT   20   15   19
+CONECT   21   16   17
+CONECT   22   14   19   23
+CONECT   22   14
+CONECT   23   22
+CONECT   24    4   11
+CONECT   25    4   26
+CONECT   25   26
+CONECT   26   25   30
+CONECT   26   25
+CONECT   27    4    5
+CONECT   27    4
+CONECT   28    5    6
+CONECT   29    8    9
+CONECT   30    5   26   31
+CONECT   30    5
+CONECT   31    2    3   30
+CONECT   32    3   33
+CONECT   33    1   32
+CONECT   34    1
+ENDMDL
+END   

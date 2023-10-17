@@ -1,0 +1,123 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6XQT
+MODEL        1
+ATOM      1  N   CYS A 145      -9.464  -5.221  37.662  1.00 32.67           N1+
+ATOM      2  CA  CYS A 145      -9.127  -5.571  39.035  1.00 33.39           C  
+ATOM      3  C   CYS A 145      -8.547  -6.977  39.102  1.00 35.04           C  
+ATOM      4  O   CYS A 145      -9.042  -7.906  38.457  1.00 32.62           O  
+ATOM      5  CB  CYS A 145     -10.360  -5.451  39.930  1.00 34.24           C  
+ATOM      6  SG  CYS A 145     -10.854  -3.733  40.180  1.00 34.87           S  
+TER       7      CYS A 145
+HETATM    8  C1  NNA A 401     -13.972   4.249  44.998  1.00 45.65           C  
+HETATM    9  O2  NNA A 401     -14.781   3.668  45.656  1.00 46.97           O  
+HETATM   10  N3  NNA A 401     -13.055   5.278  45.573  1.00 49.59           N  
+HETATM   11  C4  NNA A 401     -13.086   5.695  47.014  1.00 54.79           C  
+HETATM   12  C5  NNA A 401     -11.915   6.664  47.207  1.00 51.38           C  
+HETATM   13  C6  NNA A 401     -13.034   4.465  47.965  1.00 50.87           C  
+HETATM   14  C7  NNA A 401     -10.608   5.863  47.120  1.00 52.40           C  
+HETATM   15  C8  NNA A 401     -11.644   3.924  48.364  1.00 57.18           C  
+HETATM   16  C9  NNA A 401     -10.526   4.973  48.363  1.00 50.84           C  
+HETATM   17  C10 NNA A 401     -14.419   6.492  47.210  1.00 51.70           C  
+HETATM   18  S11 NNA A 401     -14.667   7.892  46.018  1.00 50.98           S  
+HETATM   19  O12 NNA A 401     -13.974   7.355  44.824  1.00 58.35           O  
+HETATM   20  O13 NNA A 401     -14.001   9.051  46.743  1.00 63.45           O  
+HETATM   21  C14 NNA A 401     -16.512   8.070  45.836  1.00 58.56           C  
+HETATM   22  C15 NNA A 401     -17.098   6.768  45.183  1.00 57.62           C  
+HETATM   23  C16 NNA A 401     -17.138   8.288  47.253  1.00 53.15           C  
+HETATM   24  C17 NNA A 401     -16.748   9.320  44.927  1.00 53.05           C  
+HETATM   25  N18 NNA A 401     -13.857   3.961  43.542  1.00 44.01           N  
+HETATM   26  C19 NNA A 401     -14.744   2.951  43.008  1.00 42.52           C  
+HETATM   27  C20 NNA A 401     -15.314   3.357  41.628  1.00 41.51           C  
+HETATM   28  C21 NNA A 401     -15.954   2.148  40.913  1.00 41.79           C  
+HETATM   29  C22 NNA A 401     -16.414   4.388  41.949  1.00 42.60           C  
+HETATM   30  C23 NNA A 401     -14.248   3.955  40.685  1.00 34.62           C  
+HETATM   31  C24 NNA A 401     -13.954   1.642  42.955  1.00 42.99           C  
+HETATM   32  O25 NNA A 401     -12.913   1.522  42.369  1.00 39.41           O  
+HETATM   33  N26 NNA A 401     -14.536   0.459  43.677  1.00 41.87           N  
+HETATM   34  C27 NNA A 401     -15.676   0.423  44.364  1.00 41.39           C  
+HETATM   35  C28 NNA A 401     -13.800  -0.934  43.670  1.00 39.20           C  
+HETATM   36  C29 NNA A 401     -14.272  -1.611  44.749  1.00 41.26           C  
+HETATM   37  C30 NNA A 401     -15.549  -0.863  45.225  1.00 44.67           C  
+HETATM   38  C31 NNA A 401     -14.528  -1.396  46.273  1.00 43.78           C  
+HETATM   39  C32 NNA A 401     -15.044  -2.555  47.165  1.00 41.91           C  
+HETATM   40  C33 NNA A 401     -13.684  -0.274  46.922  1.00 41.90           C  
+HETATM   41  C34 NNA A 401     -14.090  -1.553  42.293  1.00 41.46           C  
+HETATM   42  O35 NNA A 401     -15.215  -1.679  41.953  1.00 43.88           O  
+HETATM   43  N36 NNA A 401     -12.983  -1.921  41.348  1.00 35.78           N  
+HETATM   44  C37 NNA A 401     -13.337  -2.450  40.051  1.00 42.92           C  
+HETATM   45  C38 NNA A 401     -12.885  -1.522  38.880  1.00 41.97           C  
+HETATM   46  C39 NNA A 401     -12.361  -0.113  39.364  1.00 44.14           C  
+HETATM   47  C40 NNA A 401     -12.374   1.073  38.331  1.00 44.08           C  
+HETATM   48  C41 NNA A 401     -11.048   1.138  37.509  1.00 47.53           C  
+HETATM   49  O42 NNA A 401     -13.180  -4.541  41.028  1.00 34.34           O  
+HETATM   50  C43 NNA A 401     -12.681  -3.790  40.013  1.00 41.29           C  
+HETATM   51  O44 NNA A 401     -12.540  -4.357  37.731  1.00 37.30           O  
+HETATM   52  N45 NNA A 401     -14.369  -5.379  38.766  1.00 40.60           N  
+HETATM   53  C46 NNA A 401     -14.947  -5.944  37.585  1.00 43.27           C  
+HETATM   54  C47 NNA A 401     -15.741  -4.889  36.781  1.00 35.40           C  
+HETATM   55  C48 NNA A 401     -16.487  -5.971  37.585  1.00 39.47           C  
+HETATM   56  C49 NNA A 401     -13.159  -4.496  38.765  1.00 40.24           C  
+CONECT    8    9   10   25
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8   11
+CONECT   11   10   12   13   17
+CONECT   12   11   14
+CONECT   13   11   15
+CONECT   14   12   16
+CONECT   15   13   16
+CONECT   16   14   15
+CONECT   17   11   18
+CONECT   18   17   19   20   21
+CONECT   18   19   20
+CONECT   19   18
+CONECT   19   18
+CONECT   20   18
+CONECT   20   18
+CONECT   21   18   22   23   24
+CONECT   22   21
+CONECT   23   21
+CONECT   24   21
+CONECT   25    8   26
+CONECT   26   25   27   31
+CONECT   27   26   28   29   30
+CONECT   28   27
+CONECT   29   27
+CONECT   30   27
+CONECT   31   26   32   33
+CONECT   31   32
+CONECT   32   31
+CONECT   32   31
+CONECT   33   31   34   35
+CONECT   34   33   37
+CONECT   35   33   36   41
+CONECT   36   35   37   38
+CONECT   37   34   36   38
+CONECT   38   36   37   39   40
+CONECT   39   38
+CONECT   40   38
+CONECT   41   35   42   43
+CONECT   41   42
+CONECT   42   41
+CONECT   42   41
+CONECT   43   41   44
+CONECT   44   43   45   50
+CONECT   45   44   46
+CONECT   46   45   47
+CONECT   47   46   48
+CONECT   48   47
+CONECT   49   50
+CONECT   50    6   44   49   56
+CONECT   51   56
+CONECT   51   56
+CONECT   52   53   56
+CONECT   53   52   54   55
+CONECT   54   53   55
+CONECT   55   53   54
+CONECT   56   50   51   52
+CONECT   56   51
+ENDMDL
+END   

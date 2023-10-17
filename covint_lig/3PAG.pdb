@@ -1,0 +1,77 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3PAG
+MODEL        1
+ATOM      1  N   SER A  81      26.972  49.293  -5.200  1.00 29.66           N1+
+ATOM      2  CA  SER A  81      26.489  49.748  -6.498  1.00 29.49           C  
+ATOM      3  C   SER A  81      25.600  48.710  -7.203  1.00 29.40           C  
+ATOM      4  O   SER A  81      25.034  49.049  -8.238  1.00 30.12           O  
+ATOM      5  CB  SER A  81      27.672  50.083  -7.422  1.00 31.12           C  
+ATOM      6  OG  SER A  81      28.451  51.196  -6.990  1.00 33.19           O  
+TER       7      SER A  81
+HETATM    8  CAA 4J6 A 300      28.730  53.419  -4.603  1.00 37.32           C  
+HETATM    9  CAB 4J6 A 300      33.484  52.597  -5.955  1.00 38.42           C  
+HETATM   10  NAC 4J6 A 300      36.863  47.966 -14.387  0.33 60.21           N  
+HETATM   11  OAD 4J6 A 300      29.696  49.990  -5.488  1.00 37.64           O  
+HETATM   12  OAE 4J6 A 300      31.815  48.594  -9.380  1.00 45.70           O1-
+HETATM   13  OAF 4J6 A 300      36.184  47.855 -11.945  0.33 60.82           O  
+HETATM   14  OAG 4J6 A 300      38.630  48.071 -12.554  0.33 61.31           O  
+HETATM   15  OAH 4J6 A 300      33.694  49.370 -10.315  1.00 43.20           O  
+HETATM   16  OAI 4J6 A 300      30.769  54.435  -5.255  1.00 42.48           O  
+HETATM   17  CAJ 4J6 A 300      29.476  51.015  -6.126  1.00 39.38           C  
+HETATM   18  CAK 4J6 A 300      34.111  52.721 -11.217  1.00 52.79           C  
+HETATM   19  CAL 4J6 A 300      37.208  50.923 -11.884  1.00 59.41           C  
+HETATM   20  CAM 4J6 A 300      36.409  53.178 -10.830  1.00 54.18           C  
+HETATM   21  NAN 4J6 A 300      31.377  50.970  -8.115  1.00 37.99           N  
+HETATM   22  NAO 4J6 A 300      34.869  51.770 -12.043  1.00 54.86           N1+
+HETATM   23  NAP 4J6 A 300      37.023  50.041 -13.024  1.00 61.57           N1-
+HETATM   24  SAQ 4J6 A 300      35.141  51.842  -8.770  1.00 47.67           S  
+HETATM   25  CAR 4J6 A 300      32.715  49.449  -9.542  1.00 44.42           C  
+HETATM   26  CAS 4J6 A 300      32.600  50.726  -8.658  1.00 41.05           C  
+HETATM   27  CAT 4J6 A 300      29.792  53.527  -5.716  1.00 39.11           C  
+HETATM   28  CAU 4J6 A 300      32.810  52.676  -7.338  1.00 38.69           C  
+HETATM   29  CAV 4J6 A 300      36.293  52.163 -11.998  1.00 57.11           C  
+HETATM   30  CAW 4J6 A 300      35.071  53.101 -10.087  1.00 50.45           C  
+HETATM   31  CAX 4J6 A 300      30.476  52.181  -6.082  1.00 39.80           C  
+HETATM   32  CAY 4J6 A 300      31.309  52.241  -7.406  1.00 38.77           C  
+HETATM   33  CAZ 4J6 A 300      33.456  51.675  -8.276  1.00 40.67           C  
+HETATM   34  SBA 4J6 A 300      37.228  48.452 -12.787  1.00 61.51           S  
+CONECT    8   27
+CONECT    9   28
+CONECT   10   34
+CONECT   11   17
+CONECT   11   17
+CONECT   12   25
+CONECT   13   34
+CONECT   13   34
+CONECT   14   34
+CONECT   14   34
+CONECT   15   25
+CONECT   15   25
+CONECT   16   27
+CONECT   17    6   11   31
+CONECT   17   11
+CONECT   18   22   30
+CONECT   19   23   29
+CONECT   20   29   30
+CONECT   21   26   32
+CONECT   22   18   29
+CONECT   23   19   34
+CONECT   24   30   33
+CONECT   25   12   15   26
+CONECT   25   15
+CONECT   26   21   25   33
+CONECT   26   33
+CONECT   27    8   16   31
+CONECT   28    9   32   33
+CONECT   29   19   20   22
+CONECT   30   18   20   24
+CONECT   31   17   27   32
+CONECT   32   21   28   31
+CONECT   33   24   26   28
+CONECT   33   26
+CONECT   34   10   13   14   23
+CONECT   34   13   14
+ENDMDL
+END   

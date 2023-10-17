@@ -1,0 +1,56 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2GBF
+MODEL        1
+ATOM      1  N   SER A 631      22.039  39.665 -84.299  1.00 65.23           N1+
+ATOM      2  CA  SER A 631      20.623  39.426 -84.583  1.00 65.23           C  
+ATOM      3  C   SER A 631      19.969  40.690 -85.171  1.00 65.23           C  
+ATOM      4  O   SER A 631      20.286  41.075 -86.295  1.00 65.23           O  
+ATOM      5  CB  SER A 631      19.897  38.798 -83.373  1.00 65.23           C  
+ATOM      6  OG  SER A 631      18.609  38.397 -83.821  1.00 65.23           O  
+TER       7      SER A 631
+HETATM    8  C2  AIA A 768      14.295  39.230 -83.298  1.00 65.23           C  
+HETATM    9  C3  AIA A 768      16.296  37.963 -83.690  1.00 65.23           C  
+HETATM   10  C4  AIA A 768      14.740  37.158 -81.910  1.00 65.23           C  
+HETATM   11  C5  AIA A 768      14.755  39.518 -84.728  1.00 65.23           C  
+HETATM   12  C6  AIA A 768      14.531  40.363 -82.379  1.00 65.23           C  
+HETATM   13  C7  AIA A 768      16.209  39.103 -84.724  1.00 65.23           C  
+HETATM   14  C8  AIA A 768      17.620  38.073 -82.886  1.00 65.23           C  
+HETATM   15  C9  AIA A 768      13.429  37.336 -81.112  1.00 65.23           C  
+HETATM   16  N1  AIA A 768      15.077  38.061 -82.869  1.00 65.23           N  
+HETATM   17  O10 AIA A 768      15.456  36.188 -81.652  1.00 65.23           O  
+HETATM   18  C11 AIA A 768      14.714  41.246 -81.564  1.00 65.23           C  
+HETATM   19  N12 AIA A 768      17.579  38.971 -81.762  1.00 65.23           N  
+HETATM   20  C13 AIA A 768      13.646  38.059 -79.761  1.00 65.23           C  
+HETATM   21  N14 AIA A 768      12.750  36.046 -80.929  1.00 65.23           N1+
+HETATM   22  C16 AIA A 768      12.356  38.514 -79.073  1.00 65.23           C  
+HETATM   23  C17 AIA A 768      14.390  37.286 -78.666  1.00 65.23           C  
+HETATM   24  C18 AIA A 768      12.785  38.856 -77.644  1.00 65.23           C  
+HETATM   25  C19 AIA A 768      14.062  38.042 -77.371  1.00 65.23           C  
+CONECT    8   11   12   16
+CONECT    9   13   14   16
+CONECT   10   15   16   17
+CONECT   10   17
+CONECT   11    8   13
+CONECT   12    8   18
+CONECT   12   18
+CONECT   12   18
+CONECT   13    9   11
+CONECT   14    6    9   19
+CONECT   15   10   20   21
+CONECT   16    8    9   10
+CONECT   17   10
+CONECT   17   10
+CONECT   18   12
+CONECT   18   12
+CONECT   18   12
+CONECT   19   14
+CONECT   20   15   22   23
+CONECT   21   15
+CONECT   22   20   24
+CONECT   23   20   25
+CONECT   24   22   25
+CONECT   25   23   24
+ENDMDL
+END   

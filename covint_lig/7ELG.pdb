@@ -1,0 +1,53 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7ELG
+MODEL        1
+ATOM      1  N   LYS A  53       8.476   3.109 -10.180  1.00 29.41           N1+
+ATOM      2  CA  LYS A  53       9.479   3.786  -9.372  1.00 33.92           C  
+ATOM      3  C   LYS A  53      10.459   2.733  -8.878  1.00 24.26           C  
+ATOM      4  O   LYS A  53      10.150   1.541  -8.861  1.00 27.95           O  
+ATOM      5  CB  LYS A  53       8.835   4.536  -8.197  1.00 38.60           C  
+ATOM      6  CG  LYS A  53       9.666   5.693  -7.665  1.00 53.13           C  
+ATOM      7  CD  LYS A  53       8.802   6.677  -6.894  1.00 55.80           C  
+ATOM      8  CE  LYS A  53       8.048   5.976  -5.780  1.00 53.68           C  
+ATOM      9  NZ  LYS A  53       8.087   6.719  -4.487  1.00 53.92           N1+
+TER      10      LYS A  53
+HETATM   11  CAA 8Z6 A 201       6.982   6.772  -3.653  1.00 46.74           C  
+HETATM   12  CAB 8Z6 A 201       6.559   7.310  -2.418  1.00 40.27           C  
+HETATM   13  CAC 8Z6 A 201       5.291   7.861  -2.316  1.00 39.72           C  
+HETATM   14  CAE 8Z6 A 201       4.864   8.413  -1.105  1.00 39.65           C  
+HETATM   15  CAF 8Z6 A 201       5.543   7.718   0.059  1.00 39.36           C  
+HETATM   16  CAG 8Z6 A 201       5.081   8.321   1.414  1.00 41.03           C  
+HETATM   17  CAH 8Z6 A 201       4.685   7.634   2.500  1.00 26.52           C  
+HETATM   18  CAI 8Z6 A 201       4.328   8.411   3.543  1.00 41.54           C  
+HETATM   19  CAJ 8Z6 A 201       4.428   9.729   3.337  1.00 48.79           C  
+HETATM   20  CAL 8Z6 A 201       7.054   7.844  -0.125  1.00 41.17           C  
+HETATM   21  CAM 8Z6 A 201       7.443   7.299  -1.352  1.00 45.27           C  
+HETATM   22  OAD 8Z6 A 201       4.537   7.869  -3.294  1.00 44.37           O1-
+HETATM   23  OAN 8Z6 A 201       8.570   6.815  -1.499  1.00 47.73           O  
+HETATM   24  SAK 8Z6 A 201       4.984   9.940   1.778  1.00 55.72           S  
+CONECT   11    9   12
+CONECT   12   11   13   21
+CONECT   12   13
+CONECT   13   12   14   22
+CONECT   13   12
+CONECT   14   13   15
+CONECT   15   14   16   20
+CONECT   16   15   17   24
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   24
+CONECT   19   18
+CONECT   20   15   21
+CONECT   21   12   20   23
+CONECT   21   23
+CONECT   22   13
+CONECT   23   21
+CONECT   23   21
+CONECT   24   16   19
+ENDMDL
+END   

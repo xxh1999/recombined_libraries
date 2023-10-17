@@ -1,0 +1,32 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7LFV
+MODEL        1
+ATOM      1  N   CYS A 112     -33.811  32.238 -13.028  1.00 55.74           N1+
+ATOM      2  CA  CYS A 112     -33.756  31.016 -12.230  1.00 54.96           C  
+ATOM      3  C   CYS A 112     -32.343  30.717 -11.737  1.00 56.42           C  
+ATOM      4  O   CYS A 112     -32.179  30.149 -10.653  1.00 64.45           O  
+ATOM      5  CB  CYS A 112     -34.303  29.839 -13.029  1.00 66.09           C  
+ATOM      6  SG  CYS A 112     -33.207  29.252 -14.336  1.00 76.65           S  
+TER       7      CYS A 112
+HETATM    8  N   GVE D   5     -32.641  29.241 -17.296  1.00 66.23           N  
+HETATM    9  CA  GVE D   5     -33.605  30.301 -17.047  1.00 59.70           C  
+HETATM   10  CB  GVE D   5     -34.196  29.918 -15.694  1.00 50.82           C  
+HETATM   11  CG  GVE D   5     -35.691  29.623 -15.640  1.00 64.51           C  
+HETATM   12  CD  GVE D   5     -36.474  29.747 -16.940  1.00 69.24           C  
+HETATM   13  OE1 GVE D   5     -37.057  28.585 -17.469  1.00 78.13           O  
+HETATM   14  OE2 GVE D   5     -36.622  30.798 -17.461  1.00 65.68           O  
+HETATM   15  CH3 GVE D   5     -38.370  28.717 -17.950  1.00 73.54           C  
+CONECT    8    9
+CONECT    9    8   10
+CONECT   10    6    9   11
+CONECT   11   10   12
+CONECT   12   11   13   14
+CONECT   12   14
+CONECT   13   12   15
+CONECT   14   12
+CONECT   14   12
+CONECT   15   13
+ENDMDL
+END   

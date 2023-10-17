@@ -1,0 +1,83 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7aka_ligand
+MODEL        1
+HETATM    1  C1  RK2 A   0       1.855  15.586  44.233  1.00  0.00           C  
+HETATM    2  N1  RK2 A   0       0.260  18.050  43.093  1.00  0.00           N  
+HETATM    3  O1  RK2 A   0       1.698  14.864  41.890  1.00  0.00           O  
+HETATM    4  C2  RK2 A   0       1.617  16.011  42.806  1.00  0.00           C  
+HETATM    5  N2  RK2 A   0      -0.273  20.006  43.997  1.00  0.00           N  
+HETATM    6  C3  RK2 A   0       0.260  16.605  42.867  1.00  0.00           C  
+HETATM    7  N3  RK2 A   0       1.299  18.827  41.045  1.00  0.00           N  
+HETATM    8  C4  RK2 A   0      -0.312  18.699  44.151  1.00  0.00           C  
+HETATM    9  N4  RK2 A   0       3.821  17.168  36.960  1.00  0.00           N  
+HETATM   10  C5  RK2 A   0      -0.904  17.982  45.304  1.00  0.00           C  
+HETATM   11  N5  RK2 A   0       3.380  19.396  36.496  1.00  0.00           N  
+HETATM   12  C6  RK2 A   0       0.373  20.216  42.776  1.00  0.00           C  
+HETATM   13  N6  RK2 A   0       2.972  21.613  35.976  1.00  0.00           N  
+HETATM   14  C7  RK2 A   0       0.702  21.375  42.071  1.00  0.00           C  
+HETATM   15  N7  RK2 A   0       2.503  14.483  39.794  1.00  0.00           N  
+HETATM   16  C8  RK2 A   0       1.342  21.237  40.863  1.00  0.00           C  
+HETATM   17  C9  RK2 A   0       1.605  19.945  40.343  1.00  0.00           C  
+HETATM   18  C10 RK2 A   0       0.677  18.996  42.199  1.00  0.00           C  
+HETATM   19  C11 RK2 A   0       2.241  19.746  39.021  1.00  0.00           C  
+HETATM   20  C12 RK2 A   0       2.739  18.503  38.632  1.00  0.00           C  
+HETATM   21  C13 RK2 A   0       3.336  18.361  37.368  1.00  0.00           C  
+HETATM   22  C14 RK2 A   0       2.878  20.591  36.855  1.00  0.00           C  
+HETATM   23  C15 RK2 A   0       2.311  20.796  38.117  1.00  0.00           C  
+HETATM   24  C16 RK2 A   0       1.551  15.017  40.545  1.00  0.00           C  
+HETATM   25  C17 RK2 A   0       0.421  15.651  40.013  1.00  0.00           C  
+HETATM   26  C18 RK2 A   0       0.289  15.689  38.639  1.00  0.00           C  
+HETATM   27  C19 RK2 A   0       1.266  15.139  37.831  1.00  0.00           C  
+HETATM   28  C20 RK2 A   0       2.360  14.552  38.443  1.00  0.00           C  
+CONECT    1    4
+CONECT    2    6    8   18
+CONECT    3    4   24
+CONECT    4    1    3    6
+CONECT    5    8   12
+CONECT    5    8
+CONECT    6    2    4
+CONECT    7   17   18
+CONECT    7   18
+CONECT    8    2    5   10
+CONECT    8    5
+CONECT    9   21
+CONECT   10    8
+CONECT   11   21   22
+CONECT   11   21
+CONECT   12    5   14   18
+CONECT   12   14
+CONECT   13   22
+CONECT   14   12   16
+CONECT   14   12
+CONECT   15   24   28
+CONECT   15   28
+CONECT   16   14   17
+CONECT   16   17
+CONECT   17    7   16   19
+CONECT   17   16
+CONECT   18    2    7   12
+CONECT   18    7
+CONECT   19   17   20   23
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21    9   11   20
+CONECT   21   11
+CONECT   22   11   13   23
+CONECT   22   23
+CONECT   23   19   22
+CONECT   23   22
+CONECT   24    3   15   25
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26   25   27
+CONECT   26   27
+CONECT   27   26   28
+CONECT   27   26
+CONECT   28   15   27
+CONECT   28   15
+ENDMDL
+END   

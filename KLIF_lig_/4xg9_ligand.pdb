@@ -1,0 +1,88 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4xg9_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  X9G A 700       0.990  19.451  41.628  1.00  0.00           C  
+HETATM    2  C5  X9G A 700       0.734  20.826  41.542  1.00  0.00           C  
+HETATM    3  C6  X9G A 700       0.005  21.431  42.557  1.00  0.00           C  
+HETATM    4  N1  X9G A 700      -0.465  20.664  43.636  1.00  0.00           N  
+HETATM    5  N3  X9G A 700       0.487  18.774  42.690  1.00  0.00           N  
+HETATM    6  CAM X9G A 700       1.239  14.373  37.389  1.00  0.00           C  
+HETATM    7  CBB X9G A 700      -0.182  14.221  37.960  1.00  0.00           C  
+HETATM    8  OAD X9G A 700      -0.397  12.882  38.487  1.00  0.00           O  
+HETATM    9  CAN X9G A 700       0.196  15.190  39.053  1.00  0.00           C  
+HETATM   10  NBC X9G A 700       1.608  14.816  38.767  1.00  0.00           N1+
+HETATM   11  CAL X9G A 700       2.737  15.766  38.901  1.00  0.00           C  
+HETATM   12  CAV X9G A 700       2.397  17.193  39.417  1.00  0.00           C  
+HETATM   13  CAK X9G A 700       1.698  17.469  40.511  1.00  0.00           C  
+HETATM   14  CAS X9G A 700       2.791  18.364  38.929  1.00  0.00           C  
+HETATM   15  CAA X9G A 700       3.651  18.625  37.685  1.00  0.00           C  
+HETATM   16  NAQ X9G A 700       2.299  19.322  39.708  1.00  0.00           N  
+HETATM   17  NBE X9G A 700       1.658  18.801  40.656  1.00  0.00           N  
+HETATM   18  C2  X9G A 700      -0.226  19.339  43.694  1.00  0.00           C  
+HETATM   19  NAR X9G A 700      -0.708  18.668  44.765  1.00  0.00           N  
+HETATM   20  CAT X9G A 700      -0.747  17.310  44.895  1.00  0.00           C  
+HETATM   21  CAJ X9G A 700      -0.138  16.318  44.082  1.00  0.00           C  
+HETATM   22  CAZ X9G A 700      -0.258  15.003  44.361  1.00  0.00           C  
+HETATM   23  CAW X9G A 700       0.207  13.901  43.766  1.00  0.00           C  
+HETATM   24 CL1  X9G A 700       1.186  13.844  42.349  1.00  0.00          Cl  
+HETATM   25  CAU X9G A 700      -0.200  12.835  44.441  1.00  0.00           C  
+HETATM   26  CAB X9G A 700       0.103  11.372  44.103  1.00  0.00           C  
+HETATM   27  NBD X9G A 700      -0.927  13.240  45.471  1.00  0.00           N  
+HETATM   28  CAC X9G A 700      -1.593  12.386  46.491  1.00  0.00           C  
+HETATM   29  CBA X9G A 700      -0.963  14.576  45.426  1.00  0.00           C  
+HETATM   30  CAI X9G A 700      -1.559  15.462  46.228  1.00  0.00           C  
+HETATM   31  CAH X9G A 700      -1.464  16.835  45.993  1.00  0.00           C  
+CONECT    1    2    5   17
+CONECT    1    5
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3   18
+CONECT    4   18
+CONECT    5    1   18
+CONECT    5    1
+CONECT    6    7   10
+CONECT    7    6    8    9
+CONECT    8    7
+CONECT    9    7   10
+CONECT   10    6    9   11
+CONECT   11   10   12
+CONECT   12   11   13   14
+CONECT   12   13
+CONECT   13   12   17
+CONECT   13   12
+CONECT   14   12   15   16
+CONECT   14   16
+CONECT   15   14
+CONECT   16   14   17
+CONECT   16   14
+CONECT   17    1   13   16
+CONECT   18    4    5   19
+CONECT   18    4
+CONECT   19   18   20
+CONECT   20   19   21   31
+CONECT   20   31
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23   29
+CONECT   22   21
+CONECT   23   22   24   25
+CONECT   23   25
+CONECT   24   23
+CONECT   25   23   26   27
+CONECT   25   23
+CONECT   26   25
+CONECT   27   25   28   29
+CONECT   28   27
+CONECT   29   22   27   30
+CONECT   29   30
+CONECT   30   29   31
+CONECT   30   29
+CONECT   31   20   30
+CONECT   31   20
+ENDMDL
+END   

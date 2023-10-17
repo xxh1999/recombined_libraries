@@ -1,0 +1,89 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6vnj_ligand
+MODEL        1
+HETATM    1  N12 R5S A1201      -1.291  18.364  45.290  1.00  0.00           N  
+HETATM    2  C13 R5S A1201      -1.514  16.985  45.773  1.00  0.00           C  
+HETATM    3  C15 R5S A1201      -2.414  15.627  47.495  1.00  0.00           C  
+HETATM    4  C17 R5S A1201      -2.280  13.050  47.181  1.00  0.00           C  
+HETATM    5  C21 R5S A1201      -1.333  11.050  48.281  1.00  0.00           C  
+HETATM    6  C22 R5S A1201      -1.204  12.597  48.161  1.00  0.00           C  
+HETATM    7  C24 R5S A1201      -1.107  15.852  45.004  1.00  0.00           C  
+HETATM    8  C26 R5S A1201       0.153  20.521  42.846  1.00  0.00           C  
+HETATM    9  C28 R5S A1201       1.327  20.433  40.770  1.00  0.00           C  
+HETATM   10  C02 R5S A1201      -0.344  16.399  37.383  1.00  0.00           C  
+HETATM   11  C03 R5S A1201       0.739  15.245  37.354  1.00  0.00           C  
+HETATM   12  C04 R5S A1201       1.990  15.863  37.978  1.00  0.00           C  
+HETATM   13  C07 R5S A1201       1.085  15.783  41.444  1.00  0.00           C  
+HETATM   14  C08 R5S A1201       1.000  17.157  41.170  1.00  0.00           C  
+HETATM   15  C09 R5S A1201       0.530  18.229  42.125  1.00  0.00           C  
+HETATM   16  C11 R5S A1201      -0.581  18.789  44.062  1.00  0.00           C  
+HETATM   17  C14 R5S A1201      -2.165  16.841  47.017  1.00  0.00           C  
+HETATM   18  C16 R5S A1201      -1.993  14.503  46.735  1.00  0.00           C  
+HETATM   19  C18 R5S A1201      -3.648  12.794  47.645  1.00  0.00           C  
+HETATM   20  C19 R5S A1201      -3.840  11.258  47.799  1.00  0.00           C  
+HETATM   21  C23 R5S A1201      -1.360  14.649  45.476  1.00  0.00           C  
+HETATM   22  C27 R5S A1201       0.663  19.621  41.880  1.00  0.00           C  
+HETATM   23  C29 R5S A1201       1.132  21.891  41.156  1.00  0.00           C  
+HETATM   24  C31 R5S A1201       1.330  17.311  39.848  1.00  0.00           C  
+HETATM   25  N01 R5S A1201      -1.185  17.201  37.393  1.00  0.00           N  
+HETATM   26  N05 R5S A1201       1.590  16.144  39.373  1.00  0.00           N  
+HETATM   27  N06 R5S A1201       1.448  15.168  40.343  1.00  0.00           N  
+HETATM   28  N10 R5S A1201      -0.085  17.857  43.182  1.00  0.00           N  
+HETATM   29  N20 R5S A1201      -2.703  10.610  48.592  1.00  0.00           N1+
+HETATM   30  N25 R5S A1201      -0.478  20.099  43.900  1.00  0.00           N  
+HETATM   31  N30 R5S A1201       0.450  21.906  42.432  1.00  0.00           N  
+CONECT    1    2   16
+CONECT    2    1    7   17
+CONECT    2   17
+CONECT    3   17   18
+CONECT    3   18
+CONECT    4    6   18   19
+CONECT    5    6   29
+CONECT    6    4    5
+CONECT    7    2   21
+CONECT    7   21
+CONECT    8   22   30   31
+CONECT    8   22
+CONECT    9   22   23
+CONECT   10   11   25
+CONECT   10   25
+CONECT   10   25
+CONECT   11   10   12
+CONECT   12   11   26
+CONECT   13   14   27
+CONECT   13   27
+CONECT   14   13   15   24
+CONECT   14   24
+CONECT   15   14   22   28
+CONECT   15   28
+CONECT   16    1   28   30
+CONECT   16   30
+CONECT   17    2    3
+CONECT   17    2
+CONECT   18    3    4   21
+CONECT   18    3
+CONECT   19    4   20
+CONECT   20   19   29
+CONECT   21    7   18
+CONECT   21    7
+CONECT   22    8    9   15
+CONECT   22    8
+CONECT   23    9   31
+CONECT   24   14   26
+CONECT   24   14
+CONECT   25   10
+CONECT   25   10
+CONECT   25   10
+CONECT   26   12   24   27
+CONECT   27   13   26
+CONECT   27   13
+CONECT   28   15   16
+CONECT   28   15
+CONECT   29    5   20
+CONECT   30    8   16
+CONECT   30   16
+CONECT   31    8   23
+ENDMDL
+END   

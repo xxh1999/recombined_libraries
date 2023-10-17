@@ -1,0 +1,66 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4OLG
+MODEL        1
+ATOM      1  N   SER A  64      26.989   1.604  16.247  1.00 16.72           N1+
+ATOM      2  CA  SER A  64      28.323   2.119  16.563  1.00 17.92           C  
+ATOM      3  C   SER A  64      29.205   1.211  17.442  1.00 17.08           C  
+ATOM      4  O   SER A  64      30.382   1.530  17.596  1.00 18.60           O  
+ATOM      5  CB  SER A  64      28.215   3.472  17.276  1.00 18.80           C  
+ATOM      6  OG  SER A  64      27.714   4.512  16.449  1.00 22.75           O  
+TER       7      SER A  64
+HETATM    8  CAB 2TV A 401      26.970  13.116  20.318  0.80 60.53           C  
+HETATM    9  CAP 2TV A 401      26.773  11.606  20.288  0.80 68.49           C  
+HETATM   10  OAD 2TV A 401      27.642  10.850  20.720  0.80 69.38           O  
+HETATM   11  OAN 2TV A 401      25.584  11.251  19.756  0.80 66.95           O  
+HETATM   12  CAI 2TV A 401      25.226   9.929  19.788  0.80 67.57           C  
+HETATM   13  CAR 2TV A 401      25.343   9.114  18.718  0.80 62.64           C  
+HETATM   14  CAJ 2TV A 401      25.977   9.645  17.445  0.80 57.84           C  
+HETATM   15  SAO 2TV A 401      25.550   8.722  15.951  0.80 47.76           S  
+HETATM   16  CAS 2TV A 401      24.903   7.679  18.773  0.80 50.52           C  
+HETATM   17  CAQ 2TV A 401      24.194   7.130  19.971  0.80 57.43           C  
+HETATM   18  OAF 2TV A 401      23.095   7.653  20.260  0.80 53.69           O  
+HETATM   19  OAE 2TV A 401      24.781   6.199  20.566  0.80 59.30           O1-
+HETATM   20  NAL 2TV A 401      25.102   6.846  17.819  0.80 38.74           N  
+HETATM   21  CAU 2TV A 401      25.995   7.156  16.718  0.80 31.13           C  
+HETATM   22  CAV 2TV A 401      26.075   6.031  15.649  0.80 30.48           C  
+HETATM   23  NAK 2TV A 401      24.820   5.904  14.913  0.80 37.47           N  
+HETATM   24  CAH 2TV A 401      24.747   5.364  13.690  0.80 34.72           C  
+HETATM   25  OAC 2TV A 401      23.692   5.192  13.089  0.80 49.94           O  
+HETATM   26  CAT 2TV A 401      26.392   4.713  16.369  0.80 26.41           C  
+HETATM   27  OAG 2TV A 401      25.540   3.987  16.871  0.80 21.97           O  
+CONECT    8    9
+CONECT    9    8   10   11
+CONECT    9   10
+CONECT   10    9
+CONECT   10    9
+CONECT   11    9   12
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14   16
+CONECT   13   12
+CONECT   14   13   15
+CONECT   15   14   21
+CONECT   16   13   17   20
+CONECT   16   20
+CONECT   17   16   18   19
+CONECT   17   18
+CONECT   18   17
+CONECT   18   17
+CONECT   19   17
+CONECT   20   16   21
+CONECT   20   16
+CONECT   21   15   20   22
+CONECT   22   21   23   26
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   24   25
+CONECT   25   24
+CONECT   25   24
+CONECT   26    6   22   27
+CONECT   26   27
+CONECT   27   26
+CONECT   27   26
+ENDMDL
+END   

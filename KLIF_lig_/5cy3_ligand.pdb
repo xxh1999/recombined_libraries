@@ -1,0 +1,70 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5cy3_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N1  Q55 A 701      -2.113  15.164  46.554  1.00  0.00           N  
+HETATM    2  N3  Q55 A 701       0.597  17.273  37.563  1.00  0.00           N  
+HETATM    3  C4  Q55 A 701      -0.578  16.958  43.862  1.00  0.00           C  
+HETATM    4  C5  Q55 A 701      -0.726  18.255  43.971  1.00  0.00           C  
+HETATM    5  C6  Q55 A 701      -0.167  19.137  42.992  1.00  0.00           C  
+HETATM    6  C7  Q55 A 701       0.998  19.665  41.117  1.00  0.00           C  
+HETATM    7  C8  Q55 A 701       0.547  18.612  41.897  1.00  0.00           C  
+HETATM    8  C10 Q55 A 701      -1.853  16.324  45.949  1.00  0.00           C  
+HETATM    9  C13 Q55 A 701       1.386  15.476  38.723  1.00  0.00           C  
+HETATM   10  C15 Q55 A 701       1.955  17.334  37.687  1.00  0.00           C  
+HETATM   11  O1  Q55 A 701       2.632  18.202  37.338  1.00  0.00           O  
+HETATM   12  C14 Q55 A 701       0.106  16.139  38.132  1.00  0.00           C  
+HETATM   13  O2  Q55 A 701       2.414  16.290  38.337  1.00  0.00           O  
+HETATM   14  C1  Q55 A 701       1.276  15.482  40.291  1.00  0.00           C  
+HETATM   15  C   Q55 A 701       2.453  14.762  40.823  1.00  0.00           C  
+HETATM   16  O   Q55 A 701       1.268  16.796  40.646  1.00  0.00           O  
+HETATM   17  C2  Q55 A 701       0.648  17.221  41.770  1.00  0.00           C  
+HETATM   18  S   Q55 A 701       0.495  21.147  41.746  1.00  0.00           S  
+HETATM   19  N   Q55 A 701      -0.233  20.438  42.965  1.00  0.00           N  
+HETATM   20  C3  Q55 A 701       0.123  16.436  42.711  1.00  0.00           C  
+HETATM   21  C9  Q55 A 701      -1.075  16.048  44.862  1.00  0.00           C  
+HETATM   22  C12 Q55 A 701      -0.958  14.696  44.949  1.00  0.00           C  
+HETATM   23  N2  Q55 A 701      -1.608  14.190  45.976  1.00  0.00           N  
+HETATM   24  C11 Q55 A 701      -2.942  15.011  47.762  1.00  0.00           C  
+CONECT    1    8   23   24
+CONECT    2   10   12
+CONECT    3    4   20   21
+CONECT    3    4
+CONECT    4    3    5
+CONECT    4    3
+CONECT    5    4    7   19
+CONECT    5   19
+CONECT    6    7   18
+CONECT    6    7
+CONECT    7    5    6   17
+CONECT    7    6
+CONECT    8    1   21
+CONECT    8   21
+CONECT    9   12   13   14
+CONECT   10    2   11   13
+CONECT   10   11
+CONECT   11   10
+CONECT   11   10
+CONECT   12    2    9
+CONECT   13    9   10
+CONECT   14    9   15   16
+CONECT   15   14
+CONECT   16   14   17
+CONECT   17    7   16   20
+CONECT   17   20
+CONECT   18    6   19
+CONECT   19    5   18
+CONECT   19    5
+CONECT   20    3   17
+CONECT   20   17
+CONECT   21    3    8   22
+CONECT   21    8
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23    1   22
+CONECT   23   22
+CONECT   24    1
+ENDMDL
+END   

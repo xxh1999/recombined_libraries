@@ -1,0 +1,67 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6QW7
+MODEL        1
+ATOM      1  N   SER B  70      41.792  -1.517 -16.286  1.00 10.47           N1+
+ATOM      2  CA  SER B  70      41.403  -1.208 -14.909  1.00  8.82           C  
+ATOM      3  C   SER B  70      42.267  -1.930 -13.853  1.00  8.59           C  
+ATOM      4  O   SER B  70      42.150  -1.590 -12.678  1.00  7.42           O  
+ATOM      5  CB  SER B  70      39.958  -1.684 -14.652  1.00  9.38           C  
+ATOM      6  OG  SER B  70      38.900  -0.986 -15.299  1.00 10.40           O  
+TER       7      SER B  70
+HETATM    8  C4  MK7 B 301      34.421  -0.549 -17.442  1.00 31.48           C  
+HETATM    9  C5  MK7 B 301      36.980   2.755 -23.457  1.00 25.19           C  
+HETATM   10  C6  MK7 B 301      35.156   3.607 -22.027  1.00 25.05           C  
+HETATM   11  C7  MK7 B 301      36.419  -0.058 -15.917  1.00 28.80           C  
+HETATM   12  C8  MK7 B 301      38.528  -1.297 -16.558  1.00 14.74           C  
+HETATM   13  C10 MK7 B 301      36.849  -0.765 -18.306  1.00 23.79           C  
+HETATM   14  C1  MK7 B 301      35.385  -1.257 -18.396  1.00 27.58           C  
+HETATM   15  C2  MK7 B 301      37.160   1.523 -22.557  1.00 24.33           C  
+HETATM   16  C3  MK7 B 301      35.318   2.419 -21.070  1.00 24.32           C  
+HETATM   17  C9  MK7 B 301      36.747   1.842 -21.112  1.00 23.86           C  
+HETATM   18  C11 MK7 B 301      37.044   0.594 -18.998  1.00 23.11           C  
+HETATM   19  C12 MK7 B 301      34.958  -0.525 -16.005  1.00 35.81           C  
+HETATM   20  N13 MK7 B 301      35.585   3.247 -23.396  1.00 25.39           N1+
+HETATM   21  N14 MK7 B 301      36.791   0.627 -20.311  1.00 23.34           N  
+HETATM   22  N15 MK7 B 301      34.684  -1.749 -15.260  1.00 47.07           N  
+HETATM   23  N16 MK7 B 301      37.292  -0.739 -16.894  1.00 21.94           N  
+HETATM   24  O17 MK7 B 301      34.976  -4.366 -13.990  1.00 70.88           O1-
+HETATM   25  O18 MK7 B 301      39.225  -1.964 -17.316  1.00 11.87           O  
+HETATM   26  O19 MK7 B 301      37.416   1.586 -18.371  1.00 22.10           O  
+HETATM   27  O20 MK7 B 301      37.186  -3.235 -13.977  1.00 69.55           O  
+HETATM   28  O21 MK7 B 301      36.706  -4.960 -15.655  1.00 78.38           O  
+HETATM   29  O22 MK7 B 301      35.548  -2.766 -15.788  1.00 58.27           O  
+HETATM   30  S23 MK7 B 301      36.159  -3.941 -14.750  1.00 69.59           S  
+CONECT    8   14   19
+CONECT    9   15   20
+CONECT   10   16   20
+CONECT   11   19   23
+CONECT   12    6   23   25
+CONECT   12   25
+CONECT   13   14   18   23
+CONECT   14    8   13
+CONECT   15    9   17
+CONECT   16   10   17
+CONECT   17   15   16   21
+CONECT   18   13   21   26
+CONECT   18   26
+CONECT   19    8   11   22
+CONECT   20    9   10
+CONECT   21   17   18
+CONECT   22   19   29
+CONECT   23   11   12   13
+CONECT   24   30
+CONECT   25   12
+CONECT   25   12
+CONECT   26   18
+CONECT   26   18
+CONECT   27   30
+CONECT   27   30
+CONECT   28   30
+CONECT   28   30
+CONECT   29   22   30
+CONECT   30   24   27   28   29
+CONECT   30   27   28
+ENDMDL
+END   

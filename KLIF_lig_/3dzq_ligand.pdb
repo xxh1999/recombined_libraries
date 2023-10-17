@@ -1,0 +1,100 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3dzq_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1A IFC A1001       6.441  22.052  28.862  1.00  0.00           C  
+HETATM    2  C1Y IFC A1001       5.199  22.866  29.296  1.00  0.00           C  
+HETATM    3  C1Q IFC A1001       4.367  22.555  30.288  1.00  0.00           C  
+HETATM    4  N1S IFC A1001       4.772  23.979  28.685  1.00  0.00           N  
+HETATM    5  C1L IFC A1001       3.662  24.385  29.322  1.00  0.00           C  
+HETATM    6  N2G IFC A1001       3.402  23.504  30.302  1.00  0.00           N  
+HETATM    7  C2C IFC A1001       2.379  23.595  31.174  1.00  0.00           C  
+HETATM    8  C1M IFC A1001       2.649  23.292  32.518  1.00  0.00           C  
+HETATM    9  C1P IFC A1001       1.098  24.003  30.760  1.00  0.00           C  
+HETATM   10  C2D IFC A1001       0.070  24.099  31.706  1.00  0.00           C  
+HETATM   11  C2H IFC A1001      -1.339  24.485  31.240  1.00  0.00           C  
+HETATM   12  F1F IFC A1001      -1.877  23.564  30.502  1.00  0.00           F  
+HETATM   13  F1G IFC A1001      -2.126  24.651  32.262  1.00  0.00           F  
+HETATM   14  F1E IFC A1001      -1.381  25.440  30.410  1.00  0.00           F  
+HETATM   15  C1O IFC A1001       0.335  23.792  33.061  1.00  0.00           C  
+HETATM   16  C2B IFC A1001       1.634  23.362  33.451  1.00  0.00           C  
+HETATM   17  C1W IFC A1001       1.872  23.069  34.938  1.00  0.00           C  
+HETATM   18  O1C IFC A1001       0.933  22.615  35.579  1.00  0.00           O  
+HETATM   19  N1T IFC A1001       3.108  23.332  35.437  1.00  0.00           N  
+HETATM   20  C2A IFC A1001       3.438  23.278  36.764  1.00  0.00           C  
+HETATM   21  C1N IFC A1001       2.600  22.862  37.806  1.00  0.00           C  
+HETATM   22  C1K IFC A1001       4.676  23.849  37.073  1.00  0.00           C  
+HETATM   23  C1J IFC A1001       5.106  23.949  38.396  1.00  0.00           C  
+HETATM   24  C1Z IFC A1001       4.323  23.475  39.435  1.00  0.00           C  
+HETATM   25  C1B IFC A1001       4.870  23.667  40.872  1.00  0.00           C  
+HETATM   26  C2E IFC A1001       3.050  22.937  39.170  1.00  0.00           C  
+HETATM   27  N1U IFC A1001       2.289  22.534  40.248  1.00  0.00           N  
+HETATM   28  C1X IFC A1001       2.434  21.297  40.778  1.00  0.00           C  
+HETATM   29  O1D IFC A1001       3.220  20.437  40.382  1.00  0.00           O  
+HETATM   30  C2F IFC A1001       1.556  21.002  41.985  1.00  0.00           C  
+HETATM   31  C1I IFC A1001       1.535  19.849  42.665  1.00  0.00           C  
+HETATM   32  C1H IFC A1001       0.646  19.952  43.664  1.00  0.00           C  
+HETATM   33  N1R IFC A1001       0.131  21.186  43.652  1.00  0.00           N  
+HETATM   34  O1V IFC A1001       0.735  21.919  42.505  1.00  0.00           O  
+CONECT    1    2
+CONECT    2    1    3    4
+CONECT    2    3
+CONECT    3    2    6
+CONECT    3    2
+CONECT    4    2    5
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    3    5    7
+CONECT    7    6    8    9
+CONECT    7    9
+CONECT    8    7   16
+CONECT    8   16
+CONECT    9    7   10
+CONECT    9    7
+CONECT   10    9   11   15
+CONECT   10   15
+CONECT   11   10   12   13   14
+CONECT   12   11
+CONECT   13   11
+CONECT   14   11
+CONECT   15   10   16
+CONECT   15   10
+CONECT   16    8   15   17
+CONECT   16    8
+CONECT   17   16   18   19
+CONECT   17   18
+CONECT   18   17
+CONECT   18   17
+CONECT   19   17   20
+CONECT   20   19   21   22
+CONECT   20   22
+CONECT   21   20   26
+CONECT   21   26
+CONECT   22   20   23
+CONECT   22   20
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25   26
+CONECT   24   23
+CONECT   25   24
+CONECT   26   21   24   27
+CONECT   26   21
+CONECT   27   26   28
+CONECT   28   27   29   30
+CONECT   28   29
+CONECT   29   28
+CONECT   29   28
+CONECT   30   28   31   34
+CONECT   30   31
+CONECT   31   30   32
+CONECT   31   30
+CONECT   32   31   33
+CONECT   32   33
+CONECT   33   32   34
+CONECT   33   32
+CONECT   34   30   33
+ENDMDL
+END   

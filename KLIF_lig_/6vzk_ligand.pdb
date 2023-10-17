@@ -1,0 +1,41 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6vzk_ligand
+MODEL        1
+HETATM    1  C1  HC4 A 301       2.691  19.864  37.421  1.00  0.00           C  
+HETATM    2  O1  HC4 A 301       3.187  18.864  36.885  1.00  0.00           O  
+HETATM    3  O2  HC4 A 301       2.583  21.021  36.709  1.00  0.00           O1-
+HETATM    4  C2  HC4 A 301       2.208  19.700  38.829  1.00  0.00           C  
+HETATM    5  C3  HC4 A 301       1.819  20.741  39.591  1.00  0.00           C  
+HETATM    6  C1' HC4 A 301       1.289  20.607  40.988  1.00  0.00           C  
+HETATM    7  C2' HC4 A 301       1.289  19.377  41.667  1.00  0.00           C  
+HETATM    8  C3' HC4 A 301       0.768  19.272  42.953  1.00  0.00           C  
+HETATM    9  C4' HC4 A 301       0.194  20.381  43.549  1.00  0.00           C  
+HETATM   10  C5' HC4 A 301       0.157  21.600  42.873  1.00  0.00           C  
+HETATM   11  C6' HC4 A 301       0.693  21.716  41.596  1.00  0.00           C  
+HETATM   12  O4' HC4 A 301      -0.335  20.235  44.798  1.00  0.00           O  
+CONECT    1    2    3    4
+CONECT    1    2
+CONECT    2    1
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1    5
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    5    7   11
+CONECT    6   11
+CONECT    7    6    8
+CONECT    7    8
+CONECT    8    7    9
+CONECT    8    7
+CONECT    9    8   10   12
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11    6   10
+CONECT   11    6
+CONECT   12    9
+ENDMDL
+END   

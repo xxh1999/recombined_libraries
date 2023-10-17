@@ -1,0 +1,56 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4f09_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  JAK A1201      -0.787  14.483  42.712  1.00  0.00           C  
+HETATM    2  C2  JAK A1201      -0.613  15.943  42.860  1.00  0.00           C  
+HETATM    3  N3  JAK A1201      -1.085  16.653  43.828  1.00  0.00           N  
+HETATM    4  C4  JAK A1201      -0.704  17.951  43.558  1.00  0.00           C  
+HETATM    5  C5  JAK A1201      -0.992  19.132  44.222  1.00  0.00           C  
+HETATM    6  N6  JAK A1201      -0.604  20.309  43.746  1.00  0.00           N  
+HETATM    7  C7  JAK A1201       0.084  20.312  42.600  1.00  0.00           C  
+HETATM    8  C8  JAK A1201       0.440  19.183  41.873  1.00  0.00           C  
+HETATM    9  C9  JAK A1201       0.013  17.957  42.394  1.00  0.00           C  
+HETATM   10  N10 JAK A1201       0.042  16.643  41.989  1.00  0.00           N  
+HETATM   11  C11 JAK A1201       0.586  16.060  40.761  1.00  0.00           C  
+HETATM   12  C12 JAK A1201       2.077  16.185  40.646  1.00  0.00           C  
+HETATM   13  C13 JAK A1201       2.486  15.360  39.474  1.00  0.00           C  
+HETATM   14  N14 JAK A1201       1.884  15.677  38.203  1.00  0.00           N1+
+HETATM   15  C15 JAK A1201       0.447  15.879  38.297  1.00  0.00           C  
+HETATM   16  C16 JAK A1201      -0.094  16.574  39.514  1.00  0.00           C  
+HETATM   17  C17 JAK A1201       1.172  19.658  40.738  1.00  0.00           C  
+HETATM   18  C18 JAK A1201       1.207  20.995  40.826  1.00  0.00           C  
+HETATM   19  N19 JAK A1201       0.549  21.400  41.934  1.00  0.00           N  
+CONECT    1    2
+CONECT    2    1    3   10
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3    5    9
+CONECT    4    9
+CONECT    5    4    6
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    6    8   19
+CONECT    7    8
+CONECT    8    7    9   17
+CONECT    8    7
+CONECT    9    4    8   10
+CONECT    9    4
+CONECT   10    2    9   11
+CONECT   11   10   12   16
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   11   15
+CONECT   17    8   18
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19    7   18
+ENDMDL
+END   

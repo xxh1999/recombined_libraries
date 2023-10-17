@@ -1,0 +1,78 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6P0K
+MODEL        1
+ATOM      1  N   TYR B  82      18.958  -2.816  13.526  1.00 15.69           N1+
+ATOM      2  CA  TYR B  82      19.288  -1.411  13.774  1.00 16.64           C  
+ATOM      3  C   TYR B  82      18.024  -0.548  13.865  1.00 16.89           C  
+ATOM      4  O   TYR B  82      17.933   0.280  14.768  1.00 17.48           O  
+ATOM      5  CB  TYR B  82      20.187  -0.847  12.657  1.00 18.83           C  
+ATOM      6  CG  TYR B  82      21.606  -1.382  12.599  1.00 22.56           C  
+ATOM      7  CD1 TYR B  82      22.153  -1.776  11.361  1.00 24.71           C  
+ATOM      8  CD2 TYR B  82      22.400  -1.454  13.765  1.00 27.39           C  
+ATOM      9  CE1 TYR B  82      23.471  -2.260  11.294  1.00 28.27           C  
+ATOM     10  CE2 TYR B  82      23.716  -1.945  13.698  1.00 28.54           C  
+ATOM     11  CZ  TYR B  82      24.255  -2.349  12.461  1.00 31.13           C  
+ATOM     12  OH  TYR B  82      25.530  -2.842  12.383  1.00 38.30           O  
+TER      13      TYR B  82
+HETATM   14  N12 NLV B 503      23.840   0.856   6.600  1.00 21.28           N1-
+HETATM   15  C13 NLV B 503      22.558   0.886   6.975  1.00 22.28           C  
+HETATM   16  C15 NLV B 503      20.227   0.641   6.335  1.00 25.64           C  
+HETATM   17  C17 NLV B 503      20.896   1.158   8.596  1.00 22.77           C  
+HETATM   18  C20 NLV B 503      26.244  -0.469   8.467  1.00 25.58           C  
+HETATM   19  C21 NLV B 503      26.642  -1.217   9.593  1.00 27.25           C  
+HETATM   20  C05 NLV B 503      26.303  -0.768  10.885  1.00 31.07           C  
+HETATM   21  C06 NLV B 503      25.550   0.411  11.065  1.00 27.61           C  
+HETATM   22  C07 NLV B 503      25.132   1.144   9.941  1.00 23.86           C  
+HETATM   23  C08 NLV B 503      25.483   0.705   8.646  1.00 23.45           C  
+HETATM   24  C14 NLV B 503      21.585   0.615   5.991  1.00 24.47           C  
+HETATM   25  C16 NLV B 503      19.871   0.930   7.662  1.00 24.19           C  
+HETATM   26  N19 NLV B 503      22.200   1.152   8.254  1.00 22.12           N  
+HETATM   27  O01 NLV B 503      26.719  -0.886  13.525  1.00 39.46           O  
+HETATM   28  O03 NLV B 503      28.021  -2.475  11.998  1.00 44.15           O  
+HETATM   29  O10 NLV B 503      26.224   1.734   6.353  1.00 22.58           O  
+HETATM   30  O11 NLV B 503      24.586   2.994   7.772  1.00 22.63           O  
+HETATM   31  S1  NLV B 503      26.797  -1.723  12.318  1.00 39.32           S  
+HETATM   32  S09 NLV B 503      25.048   1.713   7.233  1.00 21.53           S  
+HETATM   33 CL1  NLV B 503      20.469   1.443  10.240  1.00 23.98          Cl  
+CONECT   14   15   32
+CONECT   15   14   24   26
+CONECT   15   26
+CONECT   16   24   25
+CONECT   16   24
+CONECT   17   25   26   33
+CONECT   17   25
+CONECT   18   19   23
+CONECT   18   23
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21   31
+CONECT   20   19
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   18   22   32
+CONECT   23   18
+CONECT   24   15   16
+CONECT   24   16
+CONECT   25   16   17
+CONECT   25   17
+CONECT   26   15   17
+CONECT   26   15
+CONECT   27   31
+CONECT   27   31
+CONECT   28   31
+CONECT   28   31
+CONECT   29   32
+CONECT   29   32
+CONECT   30   32
+CONECT   30   32
+CONECT   31   12   20   27   28
+CONECT   31   27   28
+CONECT   32   14   23   29   30
+CONECT   32   29   30
+CONECT   33   17
+ENDMDL
+END   

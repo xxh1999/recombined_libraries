@@ -1,0 +1,110 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3iw5_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  OAA DF3 A 362       0.221  20.970  44.273  1.00  0.00           O  
+HETATM    2  OAB DF3 A 362       4.111  20.156  41.313  1.00  0.00           O  
+HETATM    3  FAC DF3 A 362       5.891  25.447  37.167  1.00  0.00           F  
+HETATM    4  FAD DF3 A 362       4.216  24.399  36.729  1.00  0.00           F  
+HETATM    5  FAE DF3 A 362       3.970  26.074  37.978  1.00  0.00           F  
+HETATM    6  CAF DF3 A 362       5.733  24.113  41.243  1.00  0.00           C  
+HETATM    7  CAG DF3 A 362      -0.448  16.953  41.876  1.00  0.00           C  
+HETATM    8  CAH DF3 A 362       0.330  16.177  41.027  1.00  0.00           C  
+HETATM    9  CAI DF3 A 362       5.410  22.761  41.308  1.00  0.00           C  
+HETATM   10  CAJ DF3 A 362       5.525  24.825  40.062  1.00  0.00           C  
+HETATM   11  CAK DF3 A 362       1.392  19.154  45.269  1.00  0.00           C  
+HETATM   12  CAL DF3 A 362       1.319  18.064  46.122  1.00  0.00           C  
+HETATM   13  CAM DF3 A 362      -0.436  18.333  41.751  1.00  0.00           C  
+HETATM   14  CAN DF3 A 362       1.121  16.807  40.057  1.00  0.00           C  
+HETATM   15  CAO DF3 A 362       2.576  17.889  43.630  1.00  0.00           C  
+HETATM   16  CAP DF3 A 362       4.638  22.860  38.994  1.00  0.00           C  
+HETATM   17  CAQ DF3 A 362       1.441  20.305  39.434  1.00  0.00           C  
+HETATM   18  CAR DF3 A 362       4.130  18.628  38.822  1.00  0.00           C  
+HETATM   19  CAS DF3 A 362       2.536  14.738  46.175  1.00  0.00           C  
+HETATM   20  CAT DF3 A 362       2.346  14.591  44.684  1.00  0.00           C  
+HETATM   21  CAU DF3 A 362       2.749  18.718  38.122  1.00  0.00           C  
+HETATM   22  CAV DF3 A 362       1.092  22.124  42.429  1.00  0.00           C  
+HETATM   23  NAW DF3 A 362       4.515  20.023  39.040  1.00  0.00           N  
+HETATM   24  NAX DF3 A 362       2.041  20.117  43.272  1.00  0.00           N  
+HETATM   25  OAY DF3 A 362       1.771  15.857  46.598  1.00  0.00           O  
+HETATM   26  OAZ DF3 A 362       3.062  15.665  44.072  1.00  0.00           O  
+HETATM   27  SBA DF3 A 362      -0.109  21.743  41.122  1.00  0.00           S  
+HETATM   28  CBB DF3 A 362       1.084  21.005  43.419  1.00  0.00           C  
+HETATM   29  CBC DF3 A 362       4.479  20.654  40.246  1.00  0.00           C  
+HETATM   30  CBD DF3 A 362       2.041  19.086  44.055  1.00  0.00           C  
+HETATM   31  CBE DF3 A 362       4.877  22.131  40.183  1.00  0.00           C  
+HETATM   32  CBF DF3 A 362       4.978  24.204  38.940  1.00  0.00           C  
+HETATM   33  CBG DF3 A 362       1.879  16.886  45.727  1.00  0.00           C  
+HETATM   34  CBH DF3 A 362       2.497  16.805  44.483  1.00  0.00           C  
+HETATM   35  CBI DF3 A 362       0.576  20.274  40.428  1.00  0.00           C  
+HETATM   36  CBJ DF3 A 362       0.351  18.957  40.796  1.00  0.00           C  
+HETATM   37  CBK DF3 A 362       1.136  18.201  39.953  1.00  0.00           C  
+HETATM   38  NBL DF3 A 362       1.774  19.059  39.162  1.00  0.00           N  
+HETATM   39  CBM DF3 A 362       4.766  25.050  37.684  1.00  0.00           C  
+CONECT    1   28
+CONECT    1   28
+CONECT    2   29
+CONECT    2   29
+CONECT    3   39
+CONECT    4   39
+CONECT    5   39
+CONECT    6    9   10
+CONECT    6    9
+CONECT    7    8   13
+CONECT    7    8
+CONECT    8    7   14
+CONECT    8    7
+CONECT    9    6   31
+CONECT    9    6
+CONECT   10    6   32
+CONECT   10   32
+CONECT   11   12   30
+CONECT   11   30
+CONECT   12   11   33
+CONECT   12   33
+CONECT   13    7   36
+CONECT   13   36
+CONECT   14    8   37
+CONECT   14   37
+CONECT   15   30   34
+CONECT   15   34
+CONECT   16   31   32
+CONECT   16   31
+CONECT   17   35   38
+CONECT   17   35
+CONECT   18   21   23
+CONECT   19   20   25
+CONECT   20   19   26
+CONECT   21   18   38
+CONECT   22   27   28
+CONECT   23   18   29
+CONECT   24   28   30
+CONECT   25   19   33
+CONECT   26   20   34
+CONECT   27   22   35
+CONECT   28    1   22   24
+CONECT   28    1
+CONECT   29    2   23   31
+CONECT   29    2
+CONECT   30   11   15   24
+CONECT   30   11
+CONECT   31    9   16   29
+CONECT   31   16
+CONECT   32   10   16   39
+CONECT   32   10
+CONECT   33   12   25   34
+CONECT   33   12
+CONECT   34   15   26   33
+CONECT   34   15
+CONECT   35   17   27   36
+CONECT   35   17
+CONECT   36   13   35   37
+CONECT   36   13
+CONECT   37   14   36   38
+CONECT   37   14
+CONECT   38   17   21   37
+CONECT   39    3    4    5   32
+ENDMDL
+END   

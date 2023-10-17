@@ -1,0 +1,18 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1M72
+MODEL        1
+ATOM      1  N   ASP D 504      10.063  94.601  57.798  1.00 37.29           N1+
+ATOM      2  CA  ASP D 504       9.083  95.481  57.154  1.00 36.75           C  
+ATOM      3  C   ASP D 504       8.356  94.790  55.990  1.00 36.16           C  
+ATOM      4  O   ASP D 504       7.767  95.413  55.112  1.00 35.02           O  
+ATOM      5  CB  ASP D 504       9.829  96.718  56.597  1.00 37.41           C  
+ATOM      6  CG  ASP D 504      10.358  97.626  57.699  1.00 38.78           C  
+ATOM      7  OD1 ASP D 504       9.676  97.700  58.741  1.00 35.33           O  
+ATOM      8  OD2 ASP D 504      11.370  98.314  57.468  1.00 38.34           O1-
+TER       9      ASP D 504
+HETATM   10  C1  0QE D 505       8.370  93.276  55.895  1.00 36.86           C  
+CONECT   10    3
+ENDMDL
+END   

@@ -1,0 +1,43 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4Y82
+MODEL        1
+ATOM      1  N   ALA c   3      62.308-136.076  38.334  1.00 57.94           N1+
+ATOM      2  CA  ALA c   3      61.876-136.381  39.669  1.00 55.48           C  
+ATOM      3  C   ALA c   3      63.116-136.383  40.521  1.00 58.92           C  
+ATOM      4  O   ALA c   3      64.208-136.447  40.011  1.00 56.53           O  
+ATOM      5  CB  ALA c   3      61.230-137.737  39.629  1.00 49.27           C  
+TER       6      ALA c   3
+HETATM    7  C   TYE c   4      63.904-137.179  43.925  1.00 62.51           C  
+HETATM    8  N   TYE c   4      62.946-136.295  41.823  1.00 64.04           N  
+HETATM    9  O   TYE c   4      62.630-136.960  44.359  1.00 61.88           O  
+HETATM   10  CA  TYE c   4      64.064-136.220  42.746  1.00 65.42           C  
+HETATM   11  CB  TYE c   4      63.913-134.823  43.299  1.00 69.55           C  
+HETATM   12  CG  TYE c   4      64.508-133.805  42.604  1.00 69.54           C  
+HETATM   13  OH  TYE c   4      66.087-130.502  40.798  1.00 62.48           O  
+HETATM   14  CZ  TYE c   4      65.575-131.586  41.379  1.00 64.62           C  
+HETATM   15  CD1 TYE c   4      65.331-133.971  41.529  1.00 68.06           C  
+HETATM   16  CD2 TYE c   4      64.234-132.540  43.043  1.00 70.30           C  
+HETATM   17  CE1 TYE c   4      65.857-132.847  40.926  1.00 65.91           C  
+HETATM   18  CE2 TYE c   4      64.761-131.425  42.443  1.00 67.11           C  
+CONECT    7    9   10
+CONECT    8    3   10
+CONECT    9    7
+CONECT   10    7    8   11
+CONECT   11   10   12
+CONECT   12   11   15   16
+CONECT   12   15
+CONECT   13   14
+CONECT   14   13   17   18
+CONECT   14   17
+CONECT   15   12   17
+CONECT   15   12
+CONECT   16   12   18
+CONECT   16   18
+CONECT   17   14   15
+CONECT   17   14
+CONECT   18   14   16
+CONECT   18   16
+ENDMDL
+END   

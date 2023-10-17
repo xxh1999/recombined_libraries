@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3UPO
+MODEL        1
+ATOM      1  N   SER A 222      37.624 -39.812   8.762  1.00 38.38           N1+
+ATOM      2  CA  SER A 222      38.971 -39.915   8.210  1.00 39.27           C  
+ATOM      3  C   SER A 222      39.181 -39.134   6.896  1.00 38.83           C  
+ATOM      4  O   SER A 222      40.312 -39.081   6.419  1.00 39.39           O  
+ATOM      5  CB  SER A 222      39.278 -41.395   7.946  1.00 39.89           C  
+ATOM      6  OG  SER A 222      39.322 -42.205   9.119  1.00 42.81           O  
+TER       7      SER A 222
+HETATM    8  O8  PNM A 800      37.057 -42.549   9.253  1.00 42.56           O  
+HETATM    9  C7  PNM A 800      38.216 -42.880   9.508  1.00 47.10           C  
+HETATM   10  N4  PNM A 800      39.462 -44.830   7.870  1.00 44.66           N  
+HETATM   11  C3  PNM A 800      38.359 -45.606   7.306  1.00 45.87           C  
+HETATM   12  C11 PNM A 800      38.165 -45.305   5.812  1.00 46.21           C  
+HETATM   13  O13 PNM A 800      37.033 -45.528   5.329  1.00 46.24           O1-
+HETATM   14  O12 PNM A 800      39.135 -44.830   5.179  1.00 44.94           O  
+HETATM   15  C2  PNM A 800      38.632 -47.083   7.671  1.00 47.35           C  
+HETATM   16  C10 PNM A 800      37.388 -47.983   7.611  1.00 45.33           C  
+HETATM   17  C9  PNM A 800      39.769 -47.717   6.841  1.00 46.61           C  
+HETATM   18  S1  PNM A 800      39.169 -46.915   9.386  1.00 48.33           S  
+HETATM   19  C5  PNM A 800      39.519 -45.139   9.292  1.00 47.26           C  
+HETATM   20  C6  PNM A 800      38.601 -44.210  10.178  1.00 47.37           C  
+HETATM   21  N14 PNM A 800      37.414 -44.842  10.768  1.00 49.76           N  
+HETATM   22  C15 PNM A 800      37.378 -45.545  11.912  1.00 52.21           C  
+HETATM   23  O16 PNM A 800      38.390 -45.911  12.506  1.00 49.32           O  
+HETATM   24  C17 PNM A 800      35.995 -45.873  12.483  1.00 55.27           C  
+HETATM   25  C18 PNM A 800      35.898 -45.413  13.928  1.00 58.53           C  
+HETATM   26  C19 PNM A 800      35.937 -46.356  14.977  1.00 58.65           C  
+HETATM   27  C20 PNM A 800      35.871 -45.927  16.317  1.00 60.48           C  
+HETATM   28  C21 PNM A 800      35.765 -44.555  16.614  1.00 58.98           C  
+HETATM   29  C22 PNM A 800      35.719 -43.612  15.570  1.00 60.28           C  
+HETATM   30  C23 PNM A 800      35.783 -44.039  14.229  1.00 59.12           C  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    6    8   20
+CONECT    9    8
+CONECT   10   11   19
+CONECT   11   10   12   15
+CONECT   12   11   13   14
+CONECT   12   14
+CONECT   13   12
+CONECT   14   12
+CONECT   14   12
+CONECT   15   11   16   17   18
+CONECT   16   15
+CONECT   17   15
+CONECT   18   15   19
+CONECT   19   10   18   20
+CONECT   20    9   19   21
+CONECT   21   20   22
+CONECT   22   21   23   24
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22   25
+CONECT   25   24   26   30
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   28   30
+CONECT   29   30
+CONECT   30   25   29
+CONECT   30   29
+ENDMDL
+END   

@@ -1,0 +1,29 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4EST
+MODEL        1
+ATOM      1  N   PRO I   3     -12.574  19.652  38.241  1.00 21.27           N1+
+ATOM      2  CA  PRO I   3     -11.344  20.309  38.693  1.00 19.97           C  
+ATOM      3  C   PRO I   3     -10.831  21.301  37.636  1.00 19.53           C  
+ATOM      4  O   PRO I   3     -10.950  21.040  36.439  1.00 21.76           O  
+ATOM      5  CB  PRO I   3     -10.362  19.166  38.972  1.00 19.99           C  
+ATOM      6  CG  PRO I   3     -10.815  18.035  38.066  1.00 22.93           C  
+ATOM      7  CD  PRO I   3     -12.322  18.248  37.906  1.00 22.06           C  
+TER       8      PRO I   3
+HETATM    9  C   VAI I   4      -8.403  23.697  36.998  1.00 19.58           C  
+HETATM   10  N   VAI I   4     -10.308  22.448  38.097  1.00 20.31           N  
+HETATM   11  O   VAI I   4      -8.127  24.936  36.395  1.00 20.13           O  
+HETATM   12  CA  VAI I   4      -9.945  23.619  37.291  1.00 21.10           C  
+HETATM   13  CB  VAI I   4     -10.554  24.923  37.897  1.00 19.03           C  
+HETATM   14  CG1 VAI I   4     -12.034  25.041  37.508  1.00 19.02           C  
+HETATM   15  CG2 VAI I   4     -10.450  25.021  39.423  1.00 20.07           C  
+CONECT    9   11   12
+CONECT   10    3   12
+CONECT   11    9
+CONECT   12    9   10   13
+CONECT   13   12   14   15
+CONECT   14   13
+CONECT   15   13
+ENDMDL
+END   

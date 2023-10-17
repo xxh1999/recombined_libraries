@@ -1,0 +1,68 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1ONG
+MODEL        1
+ATOM      1  N   SER A  70       8.527  32.624   8.576  1.00 11.23           N1+
+ATOM      2  CA  SER A  70       8.099  31.531   7.703  1.00 11.13           C  
+ATOM      3  C   SER A  70       8.660  30.165   8.155  1.00 10.47           C  
+ATOM      4  O   SER A  70       8.263  29.154   7.583  1.00 10.89           O  
+ATOM      5  CB  SER A  70       8.570  31.788   6.248  1.00 12.58           C  
+ATOM      6  OG  SER A  70       8.010  32.948   5.616  1.00 14.43           O  
+TER       7      SER A  70
+HETATM    8  S1  WY4 A 400       5.507  36.138   4.354  0.63 16.36           S  
+HETATM    9  C2  WY4 A 400       5.996  37.810   3.895  0.63 19.35           C  
+HETATM   10  C3  WY4 A 400       7.385  38.366   4.216  0.63 22.85           C  
+HETATM   11  N4  WY4 A 400       8.391  37.779   4.733  0.63 20.08           N  
+HETATM   12  C5  WY4 A 400       8.580  36.504   5.256  0.63 16.56           C  
+HETATM   13  C6  WY4 A 400       8.009  35.300   5.031  0.63 13.42           C  
+HETATM   14  C7  WY4 A 400       8.597  34.158   5.792  0.63 13.08           C  
+HETATM   15  O8  WY4 A 400       9.556  34.302   6.545  0.63 11.43           O  
+HETATM   16  C31 WY4 A 400       7.548  39.829   3.844  0.63 28.21           C  
+HETATM   17  O32 WY4 A 400       8.696  40.318   3.972  0.63 30.95           O  
+HETATM   18  O33 WY4 A 400       6.528  40.443   3.464  0.63 32.50           O1-
+HETATM   19  C61 WY4 A 400       6.910  35.041   4.023  0.63 14.88           C  
+HETATM   20  C62 WY4 A 400       7.478  35.042   2.624  0.63 14.23           C  
+HETATM   21  N63 WY4 A 400       8.450  34.088   2.321  0.63 16.31           N  
+HETATM   22  C64 WY4 A 400       8.879  34.394   1.108  0.63 17.80           C  
+HETATM   23  N65 WY4 A 400       8.263  35.463   0.595  0.63 18.77           N  
+HETATM   24  C66 WY4 A 400       7.311  35.861   1.526  0.63 13.98           C  
+HETATM   25  C67 WY4 A 400       9.965  33.695   0.348  0.63 20.60           C  
+HETATM   26  O68 WY4 A 400      10.583  34.644  -0.517  0.63 23.83           O  
+HETATM   27  C69 WY4 A 400       9.666  35.248  -1.425  0.63 24.97           C  
+HETATM   28  C70 WY4 A 400       8.617  36.088  -0.662  0.63 21.58           C  
+CONECT    8    9   19
+CONECT    9    8   10
+CONECT   10    9   11   16
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14   19
+CONECT   13   12
+CONECT   14    6   13   15
+CONECT   14   15
+CONECT   15   14
+CONECT   15   14
+CONECT   16   10   17   18
+CONECT   16   17
+CONECT   17   16
+CONECT   17   16
+CONECT   18   16
+CONECT   19    8   13   20
+CONECT   20   19   21   24
+CONECT   20   24
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23   25
+CONECT   22   21
+CONECT   23   22   24   28
+CONECT   24   20   23
+CONECT   24   20
+CONECT   25   22   26
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   23   27
+ENDMDL
+END   

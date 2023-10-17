@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3FMQ
+MODEL        1
+ATOM      1  N   HIS A 109      13.089  -0.636  22.237  1.00 10.83           N1+
+ATOM      2  CA  HIS A 109      13.814  -1.016  21.019  1.00 11.44           C  
+ATOM      3  C   HIS A 109      13.692  -0.001  19.876  1.00 11.44           C  
+ATOM      4  O   HIS A 109      13.848  -0.367  18.716  1.00 11.86           O  
+ATOM      5  CB  HIS A 109      13.553  -2.483  20.595  1.00 11.99           C  
+ATOM      6  CG  HIS A 109      13.966  -3.479  21.631  1.00 13.89           C  
+ATOM      7  ND1 HIS A 109      13.620  -4.797  21.538  1.00 13.57           N  
+ATOM      8  CD2 HIS A 109      14.732  -3.382  22.766  1.00 14.79           C  
+ATOM      9  CE1 HIS A 109      14.143  -5.498  22.544  1.00 16.57           C  
+ATOM     10  NE2 HIS A 109      14.820  -4.636  23.317  1.00 17.61           N1+
+TER      11      HIS A 109
+HETATM   12  C5  FUG A 481      12.563  -6.111  25.871  1.00 28.76           C  
+HETATM   13  C4  FUG A 481      12.670  -7.614  26.244  1.00 28.60           C  
+HETATM   14  C3  FUG A 481      14.144  -8.113  26.321  1.00 27.91           C  
+HETATM   15  C2  FUG A 481      15.015  -7.374  25.287  1.00 27.93           C  
+HETATM   16  C1  FUG A 481      15.125  -5.848  25.636  1.00 28.43           C  
+HETATM   17  C6  FUG A 481      13.805  -5.294  26.245  1.00 27.85           C  
+HETATM   18  O11 FUG A 481      16.078  -5.678  26.680  1.00 28.27           O  
+HETATM   19  C11 FUG A 481      15.679  -4.976  24.470  1.00 27.31           C  
+HETATM   20  C21 FUG A 481      16.323  -8.077  24.865  1.00 27.93           C  
+HETATM   21  C22 FUG A 481      16.706  -8.070  23.400  1.00 27.62           C  
+HETATM   22  C23 FUG A 481      18.141  -8.063  22.924  1.00 26.41           C  
+HETATM   23  C24 FUG A 481      18.752  -6.689  23.134  1.00 26.44           C  
+HETATM   24  C25 FUG A 481      18.814  -5.668  22.256  1.00 26.26           C  
+HETATM   25  C2A FUG A 481      17.352  -8.259  25.976  1.00 27.22           C  
+HETATM   26  O2A FUG A 481      16.199  -9.249  24.041  1.00 27.34           O  
+HETATM   27  C2B FUG A 481      18.279  -5.715  20.839  1.00 26.57           C  
+HETATM   28  C2C FUG A 481      19.414  -4.337  22.650  1.00 24.89           C  
+HETATM   29  O31 FUG A 481      14.242  -9.522  26.149  1.00 27.63           O  
+HETATM   30  C31 FUG A 481      14.171 -10.248  27.363  1.00 27.44           C  
+HETATM   31  O41 FUG A 481      11.923  -8.313  25.245  1.00 30.95           O  
+HETATM   32  C41 FUG A 481      11.090  -9.332  25.572  1.00 31.10           C  
+HETATM   33  O4A FUG A 481      10.991  -9.806  26.703  1.00 32.54           O  
+HETATM   34  C42 FUG A 481      10.272  -9.818  24.445  1.00 31.22           C  
+HETATM   35  C43 FUG A 481      10.279  -9.264  23.219  1.00 29.73           C  
+CONECT   12   13   17
+CONECT   13   12   14   31
+CONECT   14   13   15   29
+CONECT   15   14   16   20
+CONECT   16   15   17   18   19
+CONECT   17   12   16
+CONECT   18   16
+CONECT   19   10   16
+CONECT   20   15   21   25   26
+CONECT   21   20   22   26
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   27   28
+CONECT   24   23
+CONECT   25   20
+CONECT   26   20   21
+CONECT   27   24
+CONECT   28   24
+CONECT   29   14   30
+CONECT   30   29
+CONECT   31   13   32
+CONECT   32   31   33   34
+CONECT   32   33
+CONECT   33   32
+CONECT   33   32
+CONECT   34   32   35
+CONECT   34   35
+CONECT   35   34
+CONECT   35   34
+ENDMDL
+END   

@@ -1,0 +1,79 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7jyr_ligand
+MODEL        1
+HETATM    1  C4  VTA A1601      -0.109  19.356  44.012  1.00  0.00           C  
+HETATM    2  C8  VTA A1601      -0.446  18.159  44.826  1.00  0.00           C  
+HETATM    3  C10 VTA A1601      -1.450  17.272  46.835  1.00  0.00           C  
+HETATM    4  C13 VTA A1601      -0.118  16.852  44.425  1.00  0.00           C  
+HETATM    5  C15 VTA A1601       0.910  15.237  43.044  1.00  0.00           C  
+HETATM    6  C17 VTA A1601       2.230  14.962  42.317  1.00  0.00           C  
+HETATM    7  C20 VTA A1601       0.416  15.518  40.469  1.00  0.00           C  
+HETATM    8  C21 VTA A1601      -0.720  15.101  39.800  1.00  0.00           C  
+HETATM    9  C22 VTA A1601      -1.222  15.824  38.736  1.00  0.00           C  
+HETATM   10  C26 VTA A1601       1.062  16.679  40.053  1.00  0.00           C  
+HETATM   11  C28 VTA A1601      -2.134  17.485  48.074  1.00  0.00           C  
+HETATM   12  C1  VTA A1601       1.446  21.218  41.217  1.00  0.00           C  
+HETATM   13  C11 VTA A1601      -1.122  15.976  46.430  1.00  0.00           C  
+HETATM   14  C12 VTA A1601      -0.463  15.777  45.237  1.00  0.00           C  
+HETATM   15  C18 VTA A1601       0.897  14.661  41.623  1.00  0.00           C  
+HETATM   16  C2  VTA A1601       0.721  20.697  42.431  1.00  0.00           C  
+HETATM   17  C23 VTA A1601      -0.581  16.978  38.327  1.00  0.00           C  
+HETATM   18  C25 VTA A1601       0.558  17.403  38.986  1.00  0.00           C  
+HETATM   19  C3  VTA A1601       0.671  19.409  42.839  1.00  0.00           C  
+HETATM   20  C9  VTA A1601      -1.108  18.357  46.030  1.00  0.00           C  
+HETATM   21  F24 VTA A1601      -1.068  17.687  37.286  1.00  0.00           F  
+HETATM   22  F27 VTA A1601       2.177  17.134  40.665  1.00  0.00           F  
+HETATM   23  N29 VTA A1601      -2.676  17.653  49.057  1.00  0.00           N  
+HETATM   24  N5  VTA A1601      -0.507  20.581  44.282  1.00  0.00           N  
+HETATM   25  N6  VTA A1601       0.005  21.439  43.301  1.00  0.00           N  
+HETATM   26  O14 VTA A1601       0.530  16.601  43.258  1.00  0.00           O  
+CONECT    1    2   19   24
+CONECT    1   24
+CONECT    2    1    4   20
+CONECT    2   20
+CONECT    3   11   13   20
+CONECT    3   13
+CONECT    4    2   14   26
+CONECT    4   14
+CONECT    5    6   15   26
+CONECT    6    5   15
+CONECT    7    8   10   15
+CONECT    7    8
+CONECT    8    7    9
+CONECT    8    7
+CONECT    9    8   17
+CONECT    9   17
+CONECT   10    7   18   22
+CONECT   10   18
+CONECT   11    3   23
+CONECT   11   23
+CONECT   11   23
+CONECT   12   16
+CONECT   13    3   14
+CONECT   13    3
+CONECT   14    4   13
+CONECT   14    4
+CONECT   15    5    6    7
+CONECT   16   12   19   25
+CONECT   16   19
+CONECT   17    9   18   21
+CONECT   17    9
+CONECT   18   10   17
+CONECT   18   10
+CONECT   19    1   16
+CONECT   19   16
+CONECT   20    2    3
+CONECT   20    2
+CONECT   21   17
+CONECT   22   10
+CONECT   23   11
+CONECT   23   11
+CONECT   23   11
+CONECT   24    1   25
+CONECT   24    1
+CONECT   25   16   24
+CONECT   26    4    5
+ENDMDL
+END   

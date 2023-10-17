@@ -1,0 +1,78 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3p2b_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  P2B A   0       2.259  17.614  41.035  1.00  0.00           C  
+HETATM    2  N2  P2B A   0       1.931  16.347  41.519  1.00  0.00           N  
+HETATM    3  C4  P2B A   0       1.175  15.885  42.600  1.00  0.00           C  
+HETATM    4  N5  P2B A   0       1.741  18.630  41.743  1.00  0.00           N  
+HETATM    5  C6  P2B A   0       1.982  19.892  41.360  1.00  0.00           C  
+HETATM    6  N7  P2B A   0       1.441  20.913  42.097  1.00  0.00           N  
+HETATM    7  N8  P2B A   0       2.727  20.179  40.285  1.00  0.00           N  
+HETATM    8  C9  P2B A   0       3.250  19.162  39.569  1.00  0.00           C  
+HETATM    9  C10 P2B A   0       4.064  19.573  38.407  1.00  0.00           C  
+HETATM   10  C11 P2B A   0       3.032  17.844  39.919  1.00  0.00           C  
+HETATM   11  C13 P2B A   0       0.840  16.664  43.711  1.00  0.00           C  
+HETATM   12  C15 P2B A   0       0.078  16.132  44.750  1.00  0.00           C  
+HETATM   13  C17 P2B A   0      -0.339  14.817  44.650  1.00  0.00           C  
+HETATM   14  N19 P2B A   0      -0.048  14.018  43.601  1.00  0.00           N  
+HETATM   15  C20 P2B A   0       0.697  14.572  42.612  1.00  0.00           C  
+HETATM   16  C22 P2B A   0       0.964  20.693  43.460  1.00  0.00           C  
+HETATM   17  C25 P2B A   0      -0.418  21.326  43.641  1.00  0.00           C  
+HETATM   18  O28 P2B A   0      -0.412  22.695  43.222  1.00  0.00           O  
+HETATM   19  C29 P2B A   0      -0.093  22.790  41.830  1.00  0.00           C  
+HETATM   20  C32 P2B A   0       1.317  22.260  41.551  1.00  0.00           C  
+HETATM   21  C35 P2B A   0       5.140  18.779  37.964  1.00  0.00           C  
+HETATM   22  C37 P2B A   0       5.926  19.160  36.872  1.00  0.00           C  
+HETATM   23  C39 P2B A   0       5.660  20.354  36.210  1.00  0.00           C  
+HETATM   24  C41 P2B A   0       4.611  21.157  36.640  1.00  0.00           C  
+HETATM   25  O42 P2B A   0       4.382  22.320  35.964  1.00  0.00           O  
+HETATM   26  C44 P2B A   0       3.820  20.783  37.727  1.00  0.00           C  
+CONECT    1    2    4   10
+CONECT    1   10
+CONECT    2    1    3
+CONECT    3    2   11   15
+CONECT    3   15
+CONECT    4    1    5
+CONECT    4    5
+CONECT    5    4    6    7
+CONECT    5    4
+CONECT    6    5   16   20
+CONECT    7    5    8
+CONECT    7    8
+CONECT    8    7    9   10
+CONECT    8    7
+CONECT    9    8   21   26
+CONECT    9   26
+CONECT   10    1    8
+CONECT   10    1
+CONECT   11    3   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15    3   14
+CONECT   15    3
+CONECT   16    6   17
+CONECT   17   16   18
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20    6   19
+CONECT   21    9   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25   26
+CONECT   24   23
+CONECT   25   24
+CONECT   26    9   24
+CONECT   26    9
+ENDMDL
+END   

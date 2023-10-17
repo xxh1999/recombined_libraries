@@ -1,0 +1,34 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5RHC
+MODEL        1
+ATOM      1  N   CYS A 145       6.428  -5.111  16.800  1.00 15.55           N1+
+ATOM      2  CA  CYS A 145       7.865  -5.364  16.682  1.00 15.41           C  
+ATOM      3  C   CYS A 145       8.090  -6.755  16.068  1.00 15.19           C  
+ATOM      4  O   CYS A 145       7.322  -7.684  16.312  1.00 16.02           O  
+ATOM      5  CB  CYS A 145       8.562  -5.281  18.050  1.00 16.41           C  
+ATOM      6  SG  CYS A 145       8.130  -3.747  18.934  1.00 20.05           S  
+TER       7      CYS A 145
+HETATM    8  N1  USA A1001       5.342  -3.364  21.874  0.80 23.52           N  
+HETATM    9  N   USA A1001       6.246  -5.338  19.870  0.80 20.21           N  
+HETATM   10  C   USA A1001       6.848  -4.256  20.101  0.80 21.09           C  
+HETATM   11  C1  USA A1001       6.513  -3.409  21.244  0.80 22.68           C  
+HETATM   12  N2  USA A1001       7.410  -2.564  21.763  0.80 23.22           N  
+HETATM   13  C3  USA A1001       6.797  -1.892  22.805  0.80 23.76           C  
+HETATM   14  C2  USA A1001       5.518  -2.399  22.867  0.80 23.86           C  
+CONECT    8   11   14
+CONECT    8   11
+CONECT    9   10
+CONECT    9   10
+CONECT   10    6    9   11
+CONECT   10    9
+CONECT   11    8   10   12
+CONECT   11    8
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14    8   13
+CONECT   14   13
+ENDMDL
+END   

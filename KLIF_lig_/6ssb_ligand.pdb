@@ -1,0 +1,95 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6ssb_ligand
+MODEL        1
+HETATM    1  C1  LUE A 701      -1.445  13.411  45.926  1.00  0.00           C  
+HETATM    2  C2  LUE A 701      -0.248  13.744  44.146  1.00  0.00           C  
+HETATM    3  C3  LUE A 701      -0.578  15.012  44.618  1.00  0.00           C  
+HETATM    4  N6  LUE A 701       2.195  19.143  39.523  1.00  0.00           N  
+HETATM    5  C7  LUE A 701      -0.355  16.349  44.208  1.00  0.00           C  
+HETATM    6  C8  LUE A 701      -0.293  19.427  43.521  1.00  0.00           C  
+HETATM    7  C9  LUE A 701       0.121  21.403  42.476  1.00  0.00           C  
+HETATM    8  C10 LUE A 701       0.889  20.768  41.519  1.00  0.00           C  
+HETATM    9  C11 LUE A 701       1.024  19.390  41.651  1.00  0.00           C  
+HETATM   10  C12 LUE A 701       1.619  18.570  40.588  1.00  0.00           C  
+HETATM   11  C13 LUE A 701       1.788  17.175  40.563  1.00  0.00           C  
+HETATM   12  C14 LUE A 701       2.459  16.900  39.405  1.00  0.00           C  
+HETATM   13  C15 LUE A 701       3.455  18.365  37.587  1.00  0.00           C  
+HETATM   14  C16 LUE A 701       2.782  15.531  38.878  1.00  0.00           C  
+HETATM   15  C19 LUE A 701       0.487  13.391  42.938  1.00  0.00           C  
+HETATM   16  C20 LUE A 701       1.425  12.108  41.516  1.00  0.00           C  
+HETATM   17  C21 LUE A 701       1.863  10.827  40.915  1.00  0.00           C  
+HETATM   18  N9  LUE A 701       1.705  13.307  41.158  1.00  0.00           N  
+HETATM   19  N8  LUE A 701       1.062  14.159  42.083  1.00  0.00           N  
+HETATM   20  O   LUE A 701       0.669  12.069  42.657  1.00  0.00           O  
+HETATM   21  N   LUE A 701      -0.792  12.776  44.975  1.00  0.00           N  
+HETATM   22  C6  LUE A 701      -0.905  17.393  44.908  1.00  0.00           C  
+HETATM   23  C5  LUE A 701      -1.636  17.101  46.137  1.00  0.00           C  
+HETATM   24  C4  LUE A 701      -1.854  15.825  46.517  1.00  0.00           C  
+HETATM   25  N1  LUE A 701      -1.337  14.776  45.770  1.00  0.00           N  
+HETATM   26  C   LUE A 701      -2.183  12.764  47.038  1.00  0.00           C  
+HETATM   27  N2  LUE A 701      -0.808  18.769  44.625  1.00  0.00           N  
+HETATM   28  N4  LUE A 701       0.428  18.705  42.640  1.00  0.00           N  
+HETATM   29  N3  LUE A 701      -0.482  20.760  43.490  1.00  0.00           N  
+HETATM   30  N5  LUE A 701       2.742  18.091  38.829  1.00  0.00           N  
+HETATM   31  N7  LUE A 701       1.792  15.004  37.908  1.00  0.00           N1+
+HETATM   32  C18 LUE A 701       2.184  13.675  37.454  1.00  0.00           C  
+HETATM   33  C17 LUE A 701       0.442  14.949  38.480  1.00  0.00           C  
+CONECT    1   21   25   26
+CONECT    1   21
+CONECT    2    3   15   21
+CONECT    2    3
+CONECT    3    2    5   25
+CONECT    3    2
+CONECT    4   10   30
+CONECT    4   10
+CONECT    5    3   22
+CONECT    5   22
+CONECT    6   27   28   29
+CONECT    6   28
+CONECT    7    8   29
+CONECT    7   29
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    8   10   28
+CONECT    9    8
+CONECT   10    4    9   11
+CONECT   10    4
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12   11   14   30
+CONECT   12   11
+CONECT   13   30
+CONECT   14   12   31
+CONECT   15    2   19   20
+CONECT   15   19
+CONECT   16   17   18   20
+CONECT   16   18
+CONECT   17   16
+CONECT   18   16   19
+CONECT   18   16
+CONECT   19   15   18
+CONECT   19   15
+CONECT   20   15   16
+CONECT   21    1    2
+CONECT   21    1
+CONECT   22    5   23   27
+CONECT   22    5
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25    1    3   24
+CONECT   26    1
+CONECT   27    6   22
+CONECT   28    6    9
+CONECT   28    6
+CONECT   29    6    7
+CONECT   29    7
+CONECT   30    4   12   13
+CONECT   31   14   32   33
+CONECT   32   31
+CONECT   33   31
+ENDMDL
+END   

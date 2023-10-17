@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6s1i_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C10 KR8 D 503       1.734  20.016  39.713  1.00  0.00           C  
+HETATM    2  C12 KR8 D 503       1.976  18.753  39.140  1.00  0.00           C  
+HETATM    3  C13 KR8 D 503       1.780  17.407  39.522  1.00  0.00           C  
+HETATM    4  C15 KR8 D 503       2.671  16.814  37.441  1.00  0.00           C  
+HETATM    5  N   KR8 D 503       0.040  18.356  43.785  1.00  0.00           N  
+HETATM    6  C   KR8 D 503       0.235  14.428  42.293  1.00  0.00           C  
+HETATM    7  C1  KR8 D 503      -0.951  14.919  42.795  1.00  0.00           C  
+HETATM    8  C11 KR8 D 503       2.184  20.936  38.754  1.00  0.00           C  
+HETATM    9  C14 KR8 D 503       2.129  16.403  38.669  1.00  0.00           C  
+HETATM   10  C16 KR8 D 503      -0.723  18.554  45.012  1.00  0.00           C  
+HETATM   11  C2  KR8 D 503      -1.024  16.212  43.284  1.00  0.00           C  
+HETATM   12  C3  KR8 D 503       0.107  17.024  43.271  1.00  0.00           C  
+HETATM   13  C4  KR8 D 503       1.306  16.522  42.770  1.00  0.00           C  
+HETATM   14  C5  KR8 D 503       1.359  15.228  42.280  1.00  0.00           C  
+HETATM   15  C6  KR8 D 503       0.262  19.436  42.964  1.00  0.00           C  
+HETATM   16  C7  KR8 D 503       0.112  21.674  42.624  1.00  0.00           C  
+HETATM   17  C8  KR8 D 503       0.738  21.561  41.403  1.00  0.00           C  
+HETATM   18  C9  KR8 D 503       1.103  20.284  41.014  1.00  0.00           C  
+HETATM   19  N1  KR8 D 503      -0.142  20.633  43.430  1.00  0.00           N  
+HETATM   20  N2  KR8 D 503       2.660  20.355  37.664  1.00  0.00           N  
+HETATM   21  N3  KR8 D 503       2.519  19.049  37.926  1.00  0.00           N  
+HETATM   22  N4  KR8 D 503       2.874  18.082  37.050  1.00  0.00           N  
+HETATM   23  N5  KR8 D 503       0.877  19.209  41.782  1.00  0.00           N  
+CONECT    1    2    8   18
+CONECT    1    2
+CONECT    2    1    3   21
+CONECT    2    1
+CONECT    3    2    9
+CONECT    3    9
+CONECT    4    9   22
+CONECT    4   22
+CONECT    5   10   12   15
+CONECT    6    7   14
+CONECT    6   14
+CONECT    7    6   11
+CONECT    7   11
+CONECT    8    1   20
+CONECT    8   20
+CONECT    9    3    4
+CONECT    9    3
+CONECT   10    5
+CONECT   11    7   12
+CONECT   11    7
+CONECT   12    5   11   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14    6   13
+CONECT   14    6
+CONECT   15    5   19   23
+CONECT   15   19
+CONECT   16   17   19
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18    1   17   23
+CONECT   18   23
+CONECT   19   15   16
+CONECT   19   15
+CONECT   20    8   21
+CONECT   20    8
+CONECT   21    2   20   22
+CONECT   22    4   21
+CONECT   22    4
+CONECT   23   15   18
+CONECT   23   18
+ENDMDL
+END   

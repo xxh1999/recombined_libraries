@@ -1,0 +1,53 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1X84
+MODEL        1
+ATOM      1  N   GLU A 116       4.469  13.972  10.875  1.00 17.65           N1+
+ATOM      2  CA  GLU A 116       3.709  12.938  11.545  1.00 18.62           C  
+ATOM      3  C   GLU A 116       2.787  13.427  12.647  1.00 20.38           C  
+ATOM      4  O   GLU A 116       3.016  14.341  13.419  1.00 20.10           O  
+ATOM      5  CB  GLU A 116       4.686  11.922  12.190  1.00 16.39           C  
+ATOM      6  CG  GLU A 116       5.373  11.057  11.141  1.00 22.20           C  
+ATOM      7  CD  GLU A 116       6.496  10.182  11.629  1.00 26.10           C  
+ATOM      8  OE1 GLU A 116       7.030  10.461  12.719  1.00 33.66           O  
+ATOM      9  OE2 GLU A 116       6.827   9.210  10.917  1.00 21.58           O1-
+TER      10      GLU A 116
+HETATM   11  O1  SBH A 301      11.187   2.709  10.159  0.72 18.60           O  
+HETATM   12  O2  SBH A 301       8.956   2.170  10.723  0.72 16.83           O  
+HETATM   13  O3  SBH A 301      10.810   1.888  12.277  0.72 12.80           O  
+HETATM   14  P1  SBH A 301      10.278   2.751  11.184  0.72 20.60           P  
+HETATM   15  O4  SBH A 301       9.993   4.162  11.686  0.72 17.32           O  
+HETATM   16  O5  SBH A 301      11.494   5.992  11.552  0.72 20.72           O  
+HETATM   17  O6  SBH A 301      11.766   4.439  13.375  0.72 13.94           O  
+HETATM   18  P2  SBH A 301      10.868   5.179  12.418  0.72 19.93           P  
+HETATM   19  O7  SBH A 301       9.892   5.927  13.350  0.72 22.09           O  
+HETATM   20  C1  SBH A 301       8.871   6.624  12.640  0.72 27.79           C  
+HETATM   21  C2  SBH A 301       7.964   7.482  13.542  0.72 31.11           C  
+HETATM   22  C3  SBH A 301       8.726   8.794  13.903  0.72 33.93           C  
+HETATM   23  C4  SBH A 301       9.897   9.090  12.838  0.72 25.33           C  
+HETATM   24  C5  SBH A 301       7.647   9.917  14.013  0.72 38.26           C  
+HETATM   25  O8  SBH A 301       9.274   8.674  15.352  0.72 50.85           O  
+HETATM   26 BR1  SBH A 301      12.568   9.847  12.494  0.28 26.57          Br  
+CONECT   11   14
+CONECT   12   14
+CONECT   13   14
+CONECT   13   14
+CONECT   14   11   12   13   15
+CONECT   14   13
+CONECT   15   14   18
+CONECT   16   18
+CONECT   17   18
+CONECT   17   18
+CONECT   18   15   16   17   19
+CONECT   18   17
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22   21   23   24   25
+CONECT   23   22
+CONECT   24    8   22   26
+CONECT   25   22
+CONECT   26   24
+ENDMDL
+END   

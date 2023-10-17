@@ -1,0 +1,78 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4u81_ligand1
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  O3  Q3E A 502       5.864  12.654  36.729  1.00  0.00           O  
+HETATM    2  C4  Q3E A 502       5.840  17.390  32.661  1.00  0.00           C  
+HETATM    3  C5  Q3E A 502       6.589  19.527  31.820  1.00  0.00           C  
+HETATM    4  C6  Q3E A 502       7.347  19.883  29.782  1.00  0.00           C  
+HETATM    5  N1  Q3E A 502       6.849  18.961  30.625  1.00  0.00           N  
+HETATM    6  C7  Q3E A 502       6.957  20.912  31.665  1.00  0.00           C  
+HETATM    7  C8  Q3E A 502       5.337  16.434  33.716  1.00  0.00           C  
+HETATM    8  N2  Q3E A 502       7.409  21.079  30.396  1.00  0.00           N  
+HETATM    9  C9  Q3E A 502       5.032  20.368  34.468  1.00  0.00           C  
+HETATM   10  C10 Q3E A 502       4.501  21.236  33.521  1.00  0.00           C  
+HETATM   11  C11 Q3E A 502       3.761  22.339  33.912  1.00  0.00           C  
+HETATM   12  C12 Q3E A 502       3.548  22.607  35.263  1.00  0.00           C  
+HETATM   13  N3  Q3E A 502       5.779  19.274  34.122  1.00  0.00           N  
+HETATM   14  C13 Q3E A 502       4.067  21.743  36.233  1.00  0.00           C  
+HETATM   15  C14 Q3E A 502       4.814  20.622  35.822  1.00  0.00           C  
+HETATM   16  C15 Q3E A 502       2.738  23.818  35.590  1.00  0.00           C  
+HETATM   17  N4  Q3E A 502       4.879  15.248  33.353  1.00  0.00           N  
+HETATM   18  F1  Q3E A 502       5.344  19.764  36.721  1.00  0.00           F  
+HETATM   19  C17 Q3E A 502       3.241  24.597  36.797  1.00  0.00           C  
+HETATM   20  C16 Q3E A 502       2.047  23.660  36.943  1.00  0.00           C  
+HETATM   21  C3  Q3E A 502       6.057  18.760  32.879  1.00  0.00           C  
+HETATM   22  C2  Q3E A 502       6.647  17.652  30.426  1.00  0.00           C  
+HETATM   23  C1  Q3E A 502       6.145  16.840  31.428  1.00  0.00           C  
+HETATM   24  O1  Q3E A 502       5.439  16.698  34.908  1.00  0.00           O  
+HETATM   25  O2  Q3E A 502       4.495  14.391  34.346  1.00  0.00           O  
+HETATM   26  C18 Q3E A 502       5.130  13.103  34.465  1.00  0.00           C  
+HETATM   27  C19 Q3E A 502       6.281  13.170  35.466  1.00  0.00           C  
+CONECT    1   27
+CONECT    2    7   21   23
+CONECT    2   21
+CONECT    3    5    6   21
+CONECT    3    6
+CONECT    4    5    8
+CONECT    4    8
+CONECT    5    3    4   22
+CONECT    6    3    8
+CONECT    6    3
+CONECT    7    2   17   24
+CONECT    7   24
+CONECT    8    4    6
+CONECT    8    4
+CONECT    9   10   13   15
+CONECT    9   15
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   14   16
+CONECT   12   14
+CONECT   13    9   21
+CONECT   14   12   15
+CONECT   14   12
+CONECT   15    9   14   18
+CONECT   15    9
+CONECT   16   12   19   20
+CONECT   17    7   25
+CONECT   18   15
+CONECT   19   16   20
+CONECT   20   16   19
+CONECT   21    2    3   13
+CONECT   21    2
+CONECT   22    5   23
+CONECT   22   23
+CONECT   23    2   22
+CONECT   23   22
+CONECT   24    7
+CONECT   24    7
+CONECT   25   17   26
+CONECT   26   25   27
+CONECT   27    1   26
+ENDMDL
+END   

@@ -1,0 +1,33 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1PAU
+MODEL        1
+ATOM      1  N   VAL C 504      39.494  94.147  20.930  1.00 14.81           N1+
+ATOM      2  CA  VAL C 504      39.117  94.109  19.514  1.00 14.81           C  
+ATOM      3  C   VAL C 504      37.653  93.673  19.333  1.00 14.81           C  
+ATOM      4  O   VAL C 504      37.133  92.855  20.093  1.00 11.58           O  
+ATOM      5  CB  VAL C 504      40.101  93.219  18.706  1.00 11.58           C  
+ATOM      6  CG1 VAL C 504      41.504  93.844  18.621  1.00 11.58           C  
+ATOM      7  CG2 VAL C 504      40.186  91.763  19.204  1.00 11.58           C  
+TER       8      VAL C 504
+HETATM    9  C   ASJ C 505      35.841  92.920  16.532  1.00  2.62           C  
+HETATM   10  N   ASJ C 505      37.020  94.213  18.282  1.00  2.62           N  
+HETATM   11  O   ASJ C 505      36.006  91.585  16.955  1.00 19.56           O  
+HETATM   12  CA  ASJ C 505      35.701  93.845  17.763  1.00  2.62           C  
+HETATM   13  CB  ASJ C 505      34.882  95.113  17.413  1.00 12.55           C  
+HETATM   14  CG  ASJ C 505      34.487  95.950  18.633  1.00 14.75           C  
+HETATM   15  OD1 ASJ C 505      34.430  95.387  19.747  1.00 17.98           O1-
+HETATM   16  OD2 ASJ C 505      34.170  97.141  18.432  1.00 18.38           O  
+CONECT    9   11   12
+CONECT   10    3   12
+CONECT   11    9
+CONECT   12    9   10   13
+CONECT   13   12   14
+CONECT   14   13   15   16
+CONECT   14   16
+CONECT   15   14
+CONECT   16   14
+CONECT   16   14
+ENDMDL
+END   

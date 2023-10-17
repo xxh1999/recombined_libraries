@@ -1,0 +1,70 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6OLT
+MODEL        1
+ATOM      1  N   CYS A 163      -5.632  -9.102 -27.252  1.00 37.72           N1+
+ATOM      2  CA  CYS A 163      -5.947 -10.031 -26.172  1.00 43.44           C  
+ATOM      3  C   CYS A 163      -4.865 -11.104 -25.959  1.00 40.40           C  
+ATOM      4  O   CYS A 163      -5.022 -11.949 -25.077  1.00 43.75           O  
+ATOM      5  CB  CYS A 163      -7.267 -10.718 -26.541  1.00 55.56           C  
+ATOM      6  SG  CYS A 163      -8.564  -9.443 -26.639  1.00 61.09           S  
+TER       7      CYS A 163
+HETATM    8  O23 MRJ A 501     -20.249 -13.832 -37.864  0.48 65.27           O  
+HETATM    9  P24 MRJ A 501     -20.633 -12.490 -37.376  0.48 63.79           P  
+HETATM   10  O25 MRJ A 501     -21.739 -12.344 -36.405  0.48 64.46           O1-
+HETATM   11  O27 MRJ A 501     -19.236 -11.735 -36.756  0.48 63.25           O  
+HETATM   12  C28 MRJ A 501     -19.286 -10.644 -35.846  0.48 63.06           C  
+HETATM   13  C29 MRJ A 501     -18.862 -11.074 -34.422  0.48 65.20           C  
+HETATM   14  C30 MRJ A 501     -18.659  -9.790 -33.587  0.48 64.72           C  
+HETATM   15  C31 MRJ A 501     -20.015 -11.883 -33.786  0.48 67.30           C  
+HETATM   16  C32 MRJ A 501     -17.559 -11.930 -34.540  0.48 65.90           C  
+HETATM   17  O33 MRJ A 501     -16.534 -11.205 -35.194  0.48 66.72           O  
+HETATM   18  C34 MRJ A 501     -16.983 -12.545 -33.260  0.48 65.83           C  
+HETATM   19  O35 MRJ A 501     -17.365 -12.214 -32.136  0.48 66.62           O  
+HETATM   20  N36 MRJ A 501     -16.037 -13.472 -33.473  0.48 64.43           N  
+HETATM   21  C37 MRJ A 501     -15.334 -14.188 -32.428  0.48 62.00           C  
+HETATM   22  C38 MRJ A 501     -14.088 -13.414 -31.973  0.48 61.03           C  
+HETATM   23  C39 MRJ A 501     -13.680 -13.706 -30.530  0.48 58.99           C  
+HETATM   24  O40 MRJ A 501     -14.510 -13.999 -29.672  0.48 58.56           O  
+HETATM   25  N41 MRJ A 501     -12.382 -13.584 -30.253  0.48 57.21           N  
+HETATM   26  C42 MRJ A 501     -11.862 -13.686 -28.907  0.48 52.65           C  
+HETATM   27  C43 MRJ A 501     -10.338 -13.547 -28.927  0.48 44.20           C  
+HETATM   28  C2  MRJ A 501     -10.075 -11.246 -28.087  0.48 41.23           C  
+HETATM   29  C3  MRJ A 501      -9.344  -9.915 -28.208  0.48 38.64           C  
+HETATM   30  N1  MRJ A 501      -9.862 -12.172 -29.031  0.48 41.96           N  
+HETATM   31  O14 MRJ A 501     -10.805 -11.443 -27.121  0.48 39.62           O  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10   11
+CONECT    9    8
+CONECT   10    9
+CONECT   11    9   12
+CONECT   12   11   13
+CONECT   13   12   14   15   16
+CONECT   14   13
+CONECT   15   13
+CONECT   16   13   17   18
+CONECT   17   16
+CONECT   18   16   19   20
+CONECT   18   19
+CONECT   19   18
+CONECT   19   18
+CONECT   20   18   21
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   23   22   24   25
+CONECT   23   24
+CONECT   24   23
+CONECT   24   23
+CONECT   25   23   26
+CONECT   26   25   27
+CONECT   27   26   30
+CONECT   28   29   30   31
+CONECT   28   31
+CONECT   29    6   28
+CONECT   30   27   28
+CONECT   31   28
+CONECT   31   28
+ENDMDL
+END   

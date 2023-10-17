@@ -1,0 +1,80 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6g3c_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C2  EKT B 901      -1.505  18.381  44.264  1.00  0.00           C  
+HETATM    2  C11 EKT B 901       0.176  12.729  40.596  1.00  0.00           C  
+HETATM    3  C12 EKT B 901       1.712  13.033  42.568  1.00  0.00           C  
+HETATM    4  C13 EKT B 901      -0.783  17.616  39.551  1.00  0.00           C  
+HETATM    5  C15 EKT B 901      -0.291  19.062  39.442  1.00  0.00           C  
+HETATM    6  C16 EKT B 901       0.099  16.770  38.572  1.00  0.00           C  
+HETATM    7  C18 EKT B 901      -1.124  15.558  45.310  1.00  0.00           C  
+HETATM    8  C19 EKT B 901      -1.070  14.281  45.926  1.00  0.00           C  
+HETATM    9  C20 EKT B 901      -1.538  14.114  47.245  1.00  0.00           C  
+HETATM   10  C21 EKT B 901      -2.114  15.207  47.915  1.00  0.00           C  
+HETATM   11  C22 EKT B 901      -2.160  16.467  47.312  1.00  0.00           C  
+HETATM   12  C23 EKT B 901      -1.661  16.664  46.015  1.00  0.00           C  
+HETATM   13  C28 EKT B 901       0.090  21.313  40.347  1.00  0.00           C  
+HETATM   14  C29 EKT B 901      -2.282  17.647  39.074  1.00  0.00           C  
+HETATM   15  N1  EKT B 901      -1.446  19.707  44.084  1.00  0.00           N  
+HETATM   16  N3  EKT B 901      -1.343  17.567  43.194  1.00  0.00           N  
+HETATM   17  C4  EKT B 901      -0.951  18.012  41.968  1.00  0.00           C  
+HETATM   18  C5  EKT B 901      -0.908  19.426  41.748  1.00  0.00           C  
+HETATM   19  C6  EKT B 901      -1.101  20.238  42.886  1.00  0.00           C  
+HETATM   20  N7  EKT B 901      -0.846  17.110  40.947  1.00  0.00           N  
+HETATM   21  C8  EKT B 901      -0.930  15.662  41.248  1.00  0.00           C  
+HETATM   22  C9  EKT B 901       0.448  15.073  41.685  1.00  0.00           C  
+HETATM   23  C10 EKT B 901       0.397  13.529  41.915  1.00  0.00           C  
+HETATM   24  N14 EKT B 901      -0.433  19.922  40.492  1.00  0.00           N  
+HETATM   25  O17 EKT B 901       0.234  19.399  38.386  1.00  0.00           O  
+HETATM   26  O24 EKT B 901      -1.466  12.853  47.855  1.00  0.00           O  
+HETATM   27  N25 EKT B 901      -1.835  17.909  45.485  1.00  0.00           N  
+HETATM   28  F26 EKT B 901      -2.565  15.077  49.161  1.00  0.00           F  
+HETATM   29  F27 EKT B 901      -0.556  13.247  45.266  1.00  0.00           F  
+CONECT    1   15   16   27
+CONECT    1   16
+CONECT    2   23
+CONECT    3   23
+CONECT    4    5    6   14   20
+CONECT    5    4   24   25
+CONECT    5   25
+CONECT    6    4
+CONECT    7    8   12
+CONECT    7   12
+CONECT    8    7    9   29
+CONECT    8    9
+CONECT    9    8   10   26
+CONECT    9    8
+CONECT   10    9   11   28
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12    7   11   27
+CONECT   12    7
+CONECT   13   24
+CONECT   14    4
+CONECT   15    1   19
+CONECT   15   19
+CONECT   16    1   17
+CONECT   16    1
+CONECT   17   16   18   20
+CONECT   17   18
+CONECT   18   17   19   24
+CONECT   18   17
+CONECT   19   15   18
+CONECT   19   15
+CONECT   20    4   17   21
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   23    2    3   22
+CONECT   24    5   13   18
+CONECT   25    5
+CONECT   25    5
+CONECT   26    9
+CONECT   27    1   12
+CONECT   28   10
+CONECT   29    8
+ENDMDL
+END   

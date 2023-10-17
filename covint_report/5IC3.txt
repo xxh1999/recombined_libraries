@@ -1,0 +1,22 @@
+Prediction of noncovalent interactions for PDB structure 5IC3
+=============================================================
+Created on 2023/09/02 using PLIP v2.2.2
+
+If you are using PLIP in your work, please cite:
+Adasme,M. et al. PLIP 2021: expanding the scope of the protein-ligand interaction profiler to DNA and RNA. Nucl. Acids Res. (05 May 2021), gkab294. doi: 10.1093/nar/gkab294
+Analysis was done on model 1.
+
+PQR:A:401 (PQR) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): A
+
+
+**Hydrogen Bonds**
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+------------------------+------------------------+
+| RESNR | RESTYPE | RESCHAIN | RESNR_LIG | RESTYPE_LIG | RESCHAIN_LIG | SIDECHAIN | DIST_H-A | DIST_D-A | DON_ANGLE | PROTISDON | DONORIDX | DONORTYPE | ACCEPTORIDX | ACCEPTORTYPE | LIGCOO                 | PROTCOO                | 
++=======+=========+==========+===========+=============+==============+===========+==========+==========+===========+===========+==========+===========+=============+==============+========================+========================+
+| 318   | ARG     | A        | 401       | PQR         | A            | False     | 3.77     | 4.05     | 100.67    | False     | 2961     | O2        | 670         | O2           | 43.436, 35.071, 20.334 | 39.503, 35.994, 20.593 | 
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+------------------------+------------------------+
+
+
+

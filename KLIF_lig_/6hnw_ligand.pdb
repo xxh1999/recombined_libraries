@@ -1,0 +1,64 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6hnw_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  OAA CUE A 401       1.669  15.259  41.042  1.00  0.00           O  
+HETATM    2  OAB CUE A 401       3.641  20.313  36.419  1.00  0.00           O  
+HETATM    3  OAC CUE A 401      -1.934  18.010  46.377  1.00  0.00           O  
+HETATM    4  CAD CUE A 401       2.358  20.904  38.425  1.00  0.00           C  
+HETATM    5  CAE CUE A 401      -0.800  16.446  44.883  1.00  0.00           C  
+HETATM    6  CAF CUE A 401       1.708  20.522  39.617  1.00  0.00           C  
+HETATM    7  CAG CUE A 401      -0.069  16.199  43.721  1.00  0.00           C  
+HETATM    8  CAH CUE A 401       2.975  18.562  37.990  1.00  0.00           C  
+HETATM    9  CAI CUE A 401      -0.852  18.812  44.357  1.00  0.00           C  
+HETATM   10  OAJ CUE A 401       2.303  16.801  39.584  1.00  0.00           O  
+HETATM   11  OAK CUE A 401       0.344  19.424  42.194  1.00  0.00           O  
+HETATM   12  CAL CUE A 401       2.995  19.920  37.611  1.00  0.00           C  
+HETATM   13  CAM CUE A 401      -1.193  17.757  45.202  1.00  0.00           C  
+HETATM   14  CAN CUE A 401       1.670  16.432  40.739  1.00  0.00           C  
+HETATM   15  CAO CUE A 401       2.324  18.179  39.186  1.00  0.00           C  
+HETATM   16  CAP CUE A 401      -0.110  18.562  43.178  1.00  0.00           C  
+HETATM   17  CAQ CUE A 401       1.688  19.167  39.999  1.00  0.00           C  
+HETATM   18  CAR CUE A 401       0.278  17.273  42.860  1.00  0.00           C  
+HETATM   19  CAS CUE A 401       1.024  18.729  41.229  1.00  0.00           C  
+HETATM   20  CAT CUE A 401       1.021  17.395  41.581  1.00  0.00           C  
+CONECT    1   14
+CONECT    1   14
+CONECT    2   12
+CONECT    3   13
+CONECT    4    6   12
+CONECT    4   12
+CONECT    5    7   13
+CONECT    5    7
+CONECT    6    4   17
+CONECT    6   17
+CONECT    7    5   18
+CONECT    7    5
+CONECT    8   12   15
+CONECT    8   15
+CONECT    9   13   16
+CONECT    9   13
+CONECT   10   14   15
+CONECT   11   16   19
+CONECT   12    2    4    8
+CONECT   12    4
+CONECT   13    3    5    9
+CONECT   13    9
+CONECT   14    1   10   20
+CONECT   14    1
+CONECT   15    8   10   17
+CONECT   15    8
+CONECT   16    9   11   18
+CONECT   16   18
+CONECT   17    6   15   19
+CONECT   17    6
+CONECT   18    7   16   20
+CONECT   18   16
+CONECT   19   11   17   20
+CONECT   19   20
+CONECT   20   14   18   19
+CONECT   20   19
+ENDMDL
+END   

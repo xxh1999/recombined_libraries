@@ -1,0 +1,80 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5ouu_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C8  AWN A 403      -0.926  13.522  42.946  1.00  0.00           C  
+HETATM    2  C5  AWN A 403      -4.925  14.190  40.122  1.00  0.00           C  
+HETATM    3  C4  AWN A 403      -5.770  12.942  40.295  1.00  0.00           C  
+HETATM    4  C2  AWN A 403      -9.345  13.517  39.154  1.00  0.00           C  
+HETATM    5  N1  AWN A 403      -3.208  13.650  41.846  1.00  0.00           N  
+HETATM    6  C6  AWN A 403      -3.533  14.030  40.624  1.00  0.00           C  
+HETATM    7 CL   AWN A 403     -13.175  12.422  39.013  1.00  0.00          Cl  
+HETATM    8  C   AWN A 403     -11.663  13.168  38.602  1.00  0.00           C  
+HETATM    9  C15 AWN A 403     -11.554  13.979  37.458  1.00  0.00           C  
+HETATM   10  C16 AWN A 403     -12.686  14.314  36.547  1.00  0.00           C  
+HETATM   11  C21 AWN A 403     -12.682  13.889  35.218  1.00  0.00           C  
+HETATM   12  C20 AWN A 403     -13.660  14.318  34.332  1.00  0.00           C  
+HETATM   13  C19 AWN A 403     -14.674  15.150  34.764  1.00  0.00           C  
+HETATM   14  C18 AWN A 403     -14.708  15.558  36.083  1.00  0.00           C  
+HETATM   15  C17 AWN A 403     -13.723  15.147  36.969  1.00  0.00           C  
+HETATM   16  C14 AWN A 403     -10.303  14.534  37.179  1.00  0.00           C  
+HETATM   17  C13 AWN A 403      -9.224  14.303  38.015  1.00  0.00           C  
+HETATM   18  C1  AWN A 403     -10.582  12.940  39.433  1.00  0.00           C  
+HETATM   19  C3  AWN A 403      -8.181  13.333  40.097  1.00  0.00           C  
+HETATM   20  N   AWN A 403      -6.959  12.853  39.439  1.00  0.00           N1+
+HETATM   21  N2  AWN A 403      -2.458  14.363  39.875  1.00  0.00           N  
+HETATM   22  C12 AWN A 403      -1.340  14.203  40.669  1.00  0.00           C  
+HETATM   23  C7  AWN A 403      -1.818  13.758  41.900  1.00  0.00           C  
+HETATM   24  C11 AWN A 403       0.014  14.423  40.441  1.00  0.00           C  
+HETATM   25  C10 AWN A 403       0.894  14.188  41.490  1.00  0.00           C  
+HETATM   26  C9  AWN A 403       0.429  13.742  42.727  1.00  0.00           C  
+CONECT    1   23   26
+CONECT    1   23
+CONECT    2    3    6
+CONECT    3    2   20
+CONECT    4   17   18   19
+CONECT    4   17
+CONECT    5    6   23
+CONECT    6    2    5   21
+CONECT    6   21
+CONECT    7    8
+CONECT    8    7    9   18
+CONECT    8   18
+CONECT    9    8   10   16
+CONECT    9   16
+CONECT   10    9   11   15
+CONECT   10   15
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   10   14
+CONECT   15   10
+CONECT   16    9   17
+CONECT   16    9
+CONECT   17    4   16
+CONECT   17    4
+CONECT   18    4    8
+CONECT   18    8
+CONECT   19    4   20
+CONECT   20    3   19
+CONECT   21    6   22
+CONECT   21    6
+CONECT   22   21   23   24
+CONECT   22   24
+CONECT   23    1    5   22
+CONECT   23    1
+CONECT   24   22   25
+CONECT   24   22
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26    1   25
+CONECT   26   25
+ENDMDL
+END   

@@ -1,0 +1,82 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5i3r_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C8  IDK A 401       1.296  17.324  40.059  1.00  0.00           C  
+HETATM    2  C5  IDK A 401       2.231  17.304  37.418  1.00  0.00           C  
+HETATM    3  C6  IDK A 401       2.604  18.311  38.282  1.00  0.00           C  
+HETATM    4  N1  IDK A 401      -1.943  17.947  46.131  1.00  0.00           N  
+HETATM    5  C2  IDK A 401       3.582  12.649  38.247  1.00  0.00           C  
+HETATM    6  N3  IDK A 401      -0.413  20.055  43.861  1.00  0.00           N  
+HETATM    7  C4  IDK A 401       1.431  16.264  37.866  1.00  0.00           C  
+HETATM    8  O2  IDK A 401       0.461  13.050  36.101  1.00  0.00           O1-
+HETATM    9  S   IDK A 401       1.291  13.527  37.165  1.00  0.00           S2+
+HETATM   10  O1  IDK A 401       0.922  13.251  38.525  1.00  0.00           O1-
+HETATM   11  C3  IDK A 401       2.921  12.882  36.886  1.00  0.00           C  
+HETATM   12  C1  IDK A 401       4.244  13.830  38.824  1.00  0.00           C  
+HETATM   13  C   IDK A 401       5.057  12.710  38.317  1.00  0.00           C  
+HETATM   14  N   IDK A 401       1.429  15.156  36.958  1.00  0.00           N  
+HETATM   15  C9  IDK A 401       0.956  16.279  39.185  1.00  0.00           C  
+HETATM   16  C7  IDK A 401       2.151  18.320  39.587  1.00  0.00           C  
+HETATM   17  C10 IDK A 401       0.648  17.484  41.392  1.00  0.00           C  
+HETATM   18  C20 IDK A 401       0.532  18.766  41.941  1.00  0.00           C  
+HETATM   19  C19 IDK A 401      -0.049  18.936  43.188  1.00  0.00           C  
+HETATM   20  C13 IDK A 401      -0.496  17.842  43.951  1.00  0.00           C  
+HETATM   21  C12 IDK A 401      -0.426  16.562  43.383  1.00  0.00           C  
+HETATM   22  C11 IDK A 401       0.158  16.391  42.128  1.00  0.00           C  
+HETATM   23  N2  IDK A 401      -1.398  19.811  44.775  1.00  0.00           N  
+HETATM   24  C14 IDK A 401      -1.356  18.498  44.960  1.00  0.00           C  
+HETATM   25  C15 IDK A 401      -1.998  16.659  46.587  1.00  0.00           C  
+HETATM   26  O   IDK A 401      -1.467  15.711  46.013  1.00  0.00           O  
+HETATM   27  C16 IDK A 401      -2.793  16.487  47.889  1.00  0.00           C  
+HETATM   28  C18 IDK A 401      -2.580  15.241  48.709  1.00  0.00           C  
+HETATM   29  C17 IDK A 401      -3.830  15.396  47.940  1.00  0.00           C  
+CONECT    1   15   16   17
+CONECT    1   15
+CONECT    2    3    7
+CONECT    2    7
+CONECT    3    2   16
+CONECT    3   16
+CONECT    4   24   25
+CONECT    5   11   12   13
+CONECT    6   19   23
+CONECT    7    2   14   15
+CONECT    7    2
+CONECT    8    9
+CONECT    9    8   10   11   14
+CONECT   10    9
+CONECT   11    5    9
+CONECT   12    5   13
+CONECT   13    5   12
+CONECT   14    7    9
+CONECT   15    1    7
+CONECT   15    1
+CONECT   16    1    3
+CONECT   16    3
+CONECT   17    1   18   22
+CONECT   17   22
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19    6   18   20
+CONECT   19   18
+CONECT   20   19   21   24
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   17   21
+CONECT   22   17
+CONECT   23    6   24
+CONECT   23   24
+CONECT   24    4   20   23
+CONECT   24   23
+CONECT   25    4   26   27
+CONECT   25   26
+CONECT   26   25
+CONECT   26   25
+CONECT   27   25   28   29
+CONECT   28   27   29
+CONECT   29   27   28
+ENDMDL
+END   

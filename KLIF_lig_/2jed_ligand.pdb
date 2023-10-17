@@ -1,0 +1,100 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2jed_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CBD LG8 A1701       1.258  15.233  38.331  1.00  0.00           C  
+HETATM    2  CBB LG8 A1701       1.805  16.391  37.448  1.00  0.00           C  
+HETATM    3  NAW LG8 A1701       1.999  17.597  38.271  1.00  0.00           N1+
+HETATM    4  CAV LG8 A1701       1.253  17.910  39.305  1.00  0.00           C  
+HETATM    5  CAX LG8 A1701       2.960  18.524  38.067  1.00  0.00           C  
+HETATM    6  CAY LG8 A1701       3.958  18.566  37.078  1.00  0.00           C  
+HETATM    7  CAZ LG8 A1701       4.845  19.663  37.125  1.00  0.00           C  
+HETATM    8  CAP LG8 A1701       4.723  20.666  38.108  1.00  0.00           C  
+HETATM    9  CAO LG8 A1701       3.734  20.609  39.093  1.00  0.00           C  
+HETATM   10  CAN LG8 A1701       2.847  19.515  39.040  1.00  0.00           C  
+HETATM   11  CAM LG8 A1701       1.680  19.058  39.876  1.00  0.00           C  
+HETATM   12  CAH LG8 A1701       1.192  19.832  41.046  1.00  0.00           C  
+HETATM   13  CAE LG8 A1701       0.952  21.300  41.040  1.00  0.00           C  
+HETATM   14  OAF LG8 A1701       1.090  22.052  40.073  1.00  0.00           O  
+HETATM   15  NAD LG8 A1701       0.537  21.704  42.253  1.00  0.00           N  
+HETATM   16  CAC LG8 A1701       0.516  20.631  43.054  1.00  0.00           C  
+HETATM   17  OAB LG8 A1701       0.197  20.631  44.236  1.00  0.00           O  
+HETATM   18  CAG LG8 A1701       0.955  19.433  42.324  1.00  0.00           C  
+HETATM   19  CAL LG8 A1701       0.977  18.097  42.958  1.00  0.00           C  
+HETATM   20  CAU LG8 A1701       0.106  17.691  43.922  1.00  0.00           C  
+HETATM   21  CAK LG8 A1701       1.869  16.920  42.658  1.00  0.00           C  
+HETATM   22  CAJ LG8 A1701       2.939  16.636  41.788  1.00  0.00           C  
+HETATM   23  CAI LG8 A1701       3.493  15.355  41.826  1.00  0.00           C  
+HETATM   24  CAQ LG8 A1701       2.997  14.380  42.703  1.00  0.00           C  
+HETATM   25  CAR LG8 A1701       1.934  14.659  43.566  1.00  0.00           C  
+HETATM   26  CAS LG8 A1701       1.382  15.945  43.524  1.00  0.00           C  
+HETATM   27  NAT LG8 A1701       0.353  16.446  44.254  1.00  0.00           N1+
+HETATM   28  CBA LG8 A1701      -0.357  15.675  45.263  1.00  0.00           C  
+HETATM   29  CBF LG8 A1701      -0.048  15.664  39.061  1.00  0.00           C  
+HETATM   30  CBG LG8 A1701      -0.635  14.642  40.095  1.00  0.00           C  
+HETATM   31  NBH LG8 A1701      -0.551  13.192  39.754  1.00  0.00           N1+
+HETATM   32  C6  LG8 A1701       0.100  17.050  39.766  1.00  0.00           C  
+HETATM   33  CBI LG8 A1701       0.710  12.554  40.276  1.00  0.00           C  
+HETATM   34  CBJ LG8 A1701      -1.784  12.393  40.011  1.00  0.00           C  
+CONECT    1    2   29
+CONECT    2    1    3
+CONECT    3    2    4    5
+CONECT    3    4
+CONECT    4    3   11   32
+CONECT    4    3
+CONECT    5    3    6   10
+CONECT    5   10
+CONECT    6    5    7
+CONECT    6    7
+CONECT    7    6    8
+CONECT    7    6
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    5    9   11
+CONECT   10    5
+CONECT   11    4   10   12
+CONECT   11   12
+CONECT   12   11   13   18
+CONECT   12   11
+CONECT   13   12   14   15
+CONECT   13   14
+CONECT   14   13
+CONECT   14   13
+CONECT   15   13   16
+CONECT   16   15   17   18
+CONECT   16   17
+CONECT   17   16
+CONECT   17   16
+CONECT   18   12   16   19
+CONECT   18   19
+CONECT   19   18   20   21
+CONECT   19   18
+CONECT   20   19   27
+CONECT   20   27
+CONECT   21   19   22   26
+CONECT   21   26
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   23   25
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26   21   25   27
+CONECT   26   21
+CONECT   27   20   26   28
+CONECT   27   20
+CONECT   28   27
+CONECT   29    1   30   32
+CONECT   30   29   31
+CONECT   31   30   33   34
+CONECT   32    4   29
+CONECT   33   31
+CONECT   34   31
+ENDMDL
+END   

@@ -1,0 +1,81 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5X79
+MODEL        1
+ATOM      1  N   TYR A 109       3.120   2.075  19.314  1.00 21.73           N1+
+ATOM      2  CA  TYR A 109       2.384   2.720  20.401  1.00 21.89           C  
+ATOM      3  C   TYR A 109       1.137   3.495  19.956  1.00 23.52           C  
+ATOM      4  O   TYR A 109       0.303   3.767  20.821  1.00 19.58           O  
+ATOM      5  CB  TYR A 109       3.328   3.703  21.122  1.00 23.45           C  
+ATOM      6  CG  TYR A 109       4.339   3.000  22.008  1.00 22.34           C  
+ATOM      7  CD1 TYR A 109       4.075   2.806  23.380  1.00 24.41           C  
+ATOM      8  CD2 TYR A 109       5.528   2.494  21.452  1.00 22.70           C  
+ATOM      9  CE1 TYR A 109       5.007   2.132  24.192  1.00 24.96           C  
+ATOM     10  CE2 TYR A 109       6.444   1.799  22.251  1.00 20.68           C  
+ATOM     11  CZ  TYR A 109       6.201   1.639  23.630  1.00 26.31           C  
+ATOM     12  OH  TYR A 109       7.134   1.055  24.440  1.00 30.83           O  
+TER      13      TYR A 109
+HETATM   14  C01 GF5 A 301      14.111  10.041  24.216  1.00 12.76           C  
+HETATM   15  C02 GF5 A 301      12.739   9.334  24.290  1.00 12.93           C  
+HETATM   16  C03 GF5 A 301      12.414   8.656  25.639  1.00 12.44           C  
+HETATM   17  C04 GF5 A 301      10.967   8.157  25.740  1.00 17.62           C  
+HETATM   18  C05 GF5 A 301       9.335   6.885  27.140  1.00 17.20           C  
+HETATM   19  C06 GF5 A 301       9.331   5.364  27.442  1.00 17.80           C  
+HETATM   20  C07 GF5 A 301       9.317   4.553  24.716  1.00 29.31           C  
+HETATM   21  C08 GF5 A 301       8.134   3.587  24.676  1.00 37.03           C  
+HETATM   22  C09 GF5 A 301       8.919   7.581  28.444  1.00 16.75           C  
+HETATM   23  C10 GF5 A 301       7.006   8.149  29.914  1.00 20.62           C  
+HETATM   24  C11 GF5 A 301       6.282   9.492  29.821  1.00 19.63           C  
+HETATM   25  C12 GF5 A 301      15.297   9.060  24.241  1.00 11.06           C  
+HETATM   26  N01 GF5 A 301      14.170  10.880  23.005  1.00  9.86           N1+
+HETATM   27  N02 GF5 A 301      10.678   7.350  26.773  1.00 16.56           N  
+HETATM   28  N03 GF5 A 301       7.602   7.722  28.652  1.00 17.01           N  
+HETATM   29  O01 GF5 A 301      10.126   8.499  24.908  1.00 15.66           O  
+HETATM   30  O02 GF5 A 301       9.314   1.583  23.228  1.00 31.62           O  
+HETATM   31  O03 GF5 A 301       9.290   1.347  25.760  1.00 35.96           O  
+HETATM   32  O04 GF5 A 301       9.768   7.925  29.269  1.00 12.40           O  
+HETATM   33  O05 GF5 A 301       6.400  10.169  28.774  1.00 21.86           O  
+HETATM   34  O06 GF5 A 301       5.623   9.831  30.828  1.00 22.72           O1-
+HETATM   35  O07 GF5 A 301      15.934   8.855  23.186  1.00 10.08           O  
+HETATM   36  O08 GF5 A 301      15.590   8.534  25.333  1.00  8.30           O1-
+HETATM   37  S01 GF5 A 301      10.269   4.385  26.237  1.00 45.50           S  
+HETATM   38  S02 GF5 A 301       8.647   1.804  24.520  1.00 37.92           S  
+CONECT   14   15   25   26
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16   27   29
+CONECT   17   29
+CONECT   18   19   22   27
+CONECT   19   18   37
+CONECT   20   21   37
+CONECT   21   20   38
+CONECT   22   18   28   32
+CONECT   22   32
+CONECT   23   24   28
+CONECT   24   23   33   34
+CONECT   24   33
+CONECT   25   14   35   36
+CONECT   25   35
+CONECT   26   14
+CONECT   27   17   18
+CONECT   28   22   23
+CONECT   29   17
+CONECT   29   17
+CONECT   30   38
+CONECT   30   38
+CONECT   31   38
+CONECT   31   38
+CONECT   32   22
+CONECT   32   22
+CONECT   33   24
+CONECT   33   24
+CONECT   34   24
+CONECT   35   25
+CONECT   35   25
+CONECT   36   25
+CONECT   37   19   20
+CONECT   38   12   21   30   31
+CONECT   38   30   31
+ENDMDL
+END   

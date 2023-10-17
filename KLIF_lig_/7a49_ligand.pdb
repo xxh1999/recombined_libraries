@@ -1,0 +1,37 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7a49_ligand
+MODEL        1
+HETATM    1  C04 QWN B 401       2.651  18.391  38.486  1.00  0.00           C  
+HETATM    2  C06 QWN B 401       1.568  18.786  40.511  1.00  0.00           C  
+HETATM    3  C08 QWN B 401       1.530  20.159  40.250  1.00  0.00           C  
+HETATM    4  C10 QWN B 401       2.073  20.643  39.065  1.00  0.00           C  
+HETATM    5  C11 QWN B 401       2.650  19.718  38.156  1.00  0.00           C  
+HETATM    6  N01 QWN B 401       3.252  19.848  36.943  1.00  0.00           N  
+HETATM    7  N02 QWN B 401       3.626  18.600  36.523  1.00  0.00           N  
+HETATM    8  N03 QWN B 401       3.249  17.701  37.479  1.00  0.00           N  
+HETATM    9  N05 QWN B 401       2.113  17.947  39.650  1.00  0.00           N  
+HETATM   10 BR9  QWN B 401       0.733  21.382  41.521  1.00  0.00          Br  
+HETATM   11 CL7  QWN B 401       0.878  18.141  42.023  1.00  0.00          Cl  
+CONECT    1    5    8    9
+CONECT    1    5
+CONECT    2    3    9   11
+CONECT    2    9
+CONECT    3    2    4   10
+CONECT    3    4
+CONECT    4    3    5
+CONECT    4    3
+CONECT    5    1    4    6
+CONECT    5    1
+CONECT    6    5    7
+CONECT    7    6    8
+CONECT    7    8
+CONECT    8    1    7
+CONECT    8    7
+CONECT    9    1    2
+CONECT    9    2
+CONECT   10    3
+CONECT   11    2
+ENDMDL
+END   

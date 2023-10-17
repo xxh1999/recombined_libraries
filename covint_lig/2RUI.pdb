@@ -1,0 +1,32 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2RUI
+MODEL        1
+ATOM      1  N   LEU B 702     114.721   2.092 -11.662  1.00 20.00           N  
+ATOM      2  CA  LEU B 702     115.258   3.050 -10.694  1.00 20.00           C  
+ATOM      3  C   LEU B 702     114.125   3.961 -10.164  1.00 20.00           C  
+ATOM      4  O   LEU B 702     113.934   5.068 -10.669  1.00 20.00           O  
+ATOM      5  CB  LEU B 702     116.438   3.850 -11.298  1.00 20.00           C  
+ATOM      6  CG  LEU B 702     117.534   4.259 -10.278  1.00 20.00           C  
+ATOM      7  CD1 LEU B 702     117.030   5.109  -9.096  1.00 20.00           C  
+ATOM      8  CD2 LEU B 702     118.309   3.045  -9.738  1.00 20.00           C  
+TER       9      LEU B 702
+HETATM   10  O1  BOC B 701     113.547   3.422 -13.200  1.00 20.00           O  
+HETATM   11  C   BOC B 701     113.913   2.332 -12.764  1.00 20.00           C  
+HETATM   12  O2  BOC B 701     113.569   1.150 -13.305  1.00 20.00           O  
+HETATM   13  CT  BOC B 701     112.311   0.514 -13.043  1.00 20.00           C  
+HETATM   14  C1  BOC B 701     111.113   1.426 -13.386  1.00 20.00           C  
+HETATM   15  C2  BOC B 701     112.307  -0.709 -13.973  1.00 20.00           C  
+HETATM   16  C3  BOC B 701     112.230   0.039 -11.578  1.00 20.00           C  
+CONECT   10   11
+CONECT   10   11
+CONECT   11    1   10   12
+CONECT   11   10
+CONECT   12   11   13
+CONECT   13   12   14   15   16
+CONECT   14   13
+CONECT   15   13
+CONECT   16   13
+ENDMDL
+END   

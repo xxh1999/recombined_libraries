@@ -1,0 +1,64 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6B1O
+MODEL        1
+ATOM      1  N   SER A 630      -0.798   5.316  40.029  1.00 18.91           N1+
+ATOM      2  CA  SER A 630      -0.654   3.992  39.377  1.00 18.86           C  
+ATOM      3  C   SER A 630      -0.255   2.837  40.330  1.00 18.41           C  
+ATOM      4  O   SER A 630      -1.072   2.428  41.166  1.00 18.75           O  
+ATOM      5  CB  SER A 630       0.268   4.096  38.161  1.00 18.83           C  
+ATOM      6  OG  SER A 630       0.113   2.958  37.335  1.00 21.74           O  
+TER       7      SER A 630
+HETATM    8  C2  C8S A 811       5.363   2.152  33.005  1.00 16.27           C  
+HETATM    9  C3  C8S A 811       6.810   2.608  33.316  1.00 18.85           C  
+HETATM   10  C4  C8S A 811       5.176   0.690  33.486  1.00 15.67           C  
+HETATM   11  C5  C8S A 811       7.811   1.710  32.557  1.00 19.28           C  
+HETATM   12  C6  C8S A 811       6.245  -0.202  32.774  1.00 16.91           C  
+HETATM   13  C7  C8S A 811       7.682   0.279  33.062  1.00 18.09           C  
+HETATM   14  C8  C8S A 811       5.516   0.648  35.010  1.00 14.87           C  
+HETATM   15  N1  C8S A 811       3.356  -0.036  31.832  1.00 16.26           N1+
+HETATM   16  C9  C8S A 811       6.934   1.186  35.333  1.00 16.25           C  
+HETATM   17  C10 C8S A 811       7.065   2.649  34.859  1.00 16.49           C  
+HETATM   18  C11 C8S A 811       7.920   0.269  34.586  1.00 16.51           C  
+HETATM   19  C12 C8S A 811       3.724   0.096  33.273  1.00 15.19           C  
+HETATM   20  O13 C8S A 811       7.031   3.889  32.769  1.00 21.48           O  
+HETATM   21  C14 C8S A 811       2.659   0.956  33.964  1.00 17.01           C  
+HETATM   22  C15 C8S A 811       1.068   1.243  35.811  1.00 19.43           C  
+HETATM   23  N16 C8S A 811       2.190   0.578  35.192  1.00 16.90           N  
+HETATM   24  C17 C8S A 811       0.345   0.275  36.696  1.00 18.74           C  
+HETATM   25  C18 C8S A 811       2.546  -0.614  35.944  1.00 16.59           C  
+HETATM   26  C19 C8S A 811       1.418  -0.740  36.990  1.00 18.57           C  
+HETATM   27  C20 C8S A 811       2.852  -0.556  37.424  1.00 17.67           C  
+HETATM   28  O21 C8S A 811       2.250   1.970  33.421  1.00 16.31           O  
+HETATM   29  O22 C8S A 811       7.186   1.102  36.759  1.00 18.56           O  
+HETATM   30  C23 C8S A 811       1.395   2.493  36.757  1.00 20.01           C  
+HETATM   31  N24 C8S A 811       2.611   3.066  36.565  1.00 22.45           N1+
+CONECT    8    9   10
+CONECT    9    8   11   17   20
+CONECT   10    8   12   14   19
+CONECT   11    9   13
+CONECT   12   10   13
+CONECT   13   11   12   18
+CONECT   14   10   16
+CONECT   15   19
+CONECT   16   14   17   18   29
+CONECT   17    9   16
+CONECT   18   13   16
+CONECT   19   10   15   21
+CONECT   20    9
+CONECT   21   19   23   28
+CONECT   21   28
+CONECT   22   23   24   30
+CONECT   23   21   22   25
+CONECT   24   22   26
+CONECT   25   23   26   27
+CONECT   26   24   25   27
+CONECT   27   25   26
+CONECT   28   21
+CONECT   28   21
+CONECT   29   16
+CONECT   30    6   22   31
+CONECT   31   30
+ENDMDL
+END   

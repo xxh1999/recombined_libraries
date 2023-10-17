@@ -1,0 +1,20 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6U37
+MODEL        1
+ATOM      1  N   PRO A 113     -40.959 108.557 -37.066  1.00 46.95           N1+
+ATOM      2  CA  PRO A 113     -40.037 107.509 -36.609  1.00 48.63           C  
+ATOM      3  C   PRO A 113     -40.365 107.047 -35.196  1.00 39.47           C  
+ATOM      4  O   PRO A 113     -40.769 107.837 -34.340  1.00 30.12           O  
+ATOM      5  CB  PRO A 113     -38.667 108.192 -36.677  1.00 46.84           C  
+ATOM      6  CG  PRO A 113     -38.827 109.229 -37.736  1.00 44.99           C  
+ATOM      7  CD  PRO A 113     -40.243 109.721 -37.619  1.00 46.63           C  
+ATOM      8  N   SER A 117     -18.826   4.506 -14.678  0.71 13.19           N  
+ATOM      9  CA  SER A 117     -20.216   4.274 -14.342  0.71 13.18           C  
+ATOM     10  C   SER A 117     -20.508   5.061 -13.059  0.71 10.48           C  
+ATOM     11  O   SER A 117     -19.638   5.190 -12.200  0.71 12.84           O  
+ATOM     12  CB  SER A 117     -20.355   2.762 -14.112  0.71 18.86           C  
+ATOM     13  OG  SER A 117     -21.636   2.428 -13.627  0.71 22.47           O  
+ENDMDL
+END   

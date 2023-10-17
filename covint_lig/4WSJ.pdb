@@ -1,0 +1,46 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4WSJ
+MODEL        1
+ATOM      1  N   ASP A 229      26.243  11.336  51.871  1.00 18.77           N1+
+ATOM      2  CA  ASP A 229      27.304  11.124  52.822  1.00 18.49           C  
+ATOM      3  C   ASP A 229      28.544  11.891  52.320  1.00 21.76           C  
+ATOM      4  O   ASP A 229      28.536  12.452  51.220  1.00 19.56           O  
+ATOM      5  CB  ASP A 229      27.561   9.641  52.924  1.00 19.38           C  
+ATOM      6  CG  ASP A 229      28.348   9.213  54.174  1.00 19.28           C  
+ATOM      7  OD1 ASP A 229      28.799  10.005  55.053  1.00 22.56           O  
+ATOM      8  OD2 ASP A 229      28.579   7.879  54.271  1.00 20.48           O  
+TER       9      ASP A 229
+HETATM   10  CAK 3U3 A 503      26.749   4.536  55.640  1.00 19.34           C  
+HETATM   11  CAB 3U3 A 503      28.149   5.039  56.070  1.00 18.46           C  
+HETATM   12  CAC 3U3 A 503      29.280   4.523  55.142  1.00 18.05           C  
+HETATM   13  OAJ 3U3 A 503      28.909   4.797  53.731  1.00 17.60           O  
+HETATM   14  CAD 3U3 A 503      30.545   5.253  55.444  1.00 20.30           C  
+HETATM   15  OAI 3U3 A 503      31.650   4.534  54.800  1.00 21.01           O  
+HETATM   16  CAE 3U3 A 503      30.444   6.604  55.002  1.00 19.32           C  
+HETATM   17  OAH 3U3 A 503      31.666   7.350  55.515  1.00 20.24           O  
+HETATM   18  CAF 3U3 A 503      29.245   7.360  55.421  1.00 21.33           C  
+HETATM   19  CAA 3U3 A 503      28.140   6.554  56.208  1.00 19.30           C  
+HETATM   20  NAG 3U3 A 503      28.262   6.824  57.683  1.00 21.80           N  
+HETATM   21  CAL 3U3 A 503      27.771   7.952  58.146  1.00 23.30           C  
+HETATM   22  OAM 3U3 A 503      27.283   8.878  57.479  1.00 24.23           O  
+HETATM   23  CAN 3U3 A 503      27.960   8.111  59.664  1.00 23.99           C  
+CONECT   10   11
+CONECT   11   10   12   19
+CONECT   12   11   13   14
+CONECT   13   12
+CONECT   14   12   15   16
+CONECT   15   14
+CONECT   16   14   17   18
+CONECT   17   16
+CONECT   18    8   16   19
+CONECT   19   11   18   20
+CONECT   20   19   21
+CONECT   21   20   22   23
+CONECT   21   22
+CONECT   22   21
+CONECT   22   21
+CONECT   23   21
+ENDMDL
+END   

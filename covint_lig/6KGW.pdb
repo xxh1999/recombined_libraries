@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6KGW
+MODEL        1
+ATOM      1  N   SER A 386      24.633   2.201  -2.141  1.00 43.91           N1+
+ATOM      2  CA  SER A 386      24.734   0.751  -2.089  1.00 46.67           C  
+ATOM      3  C   SER A 386      25.427   0.176  -0.831  1.00 43.97           C  
+ATOM      4  O   SER A 386      25.437  -1.041  -0.677  1.00 42.17           O  
+ATOM      5  CB  SER A 386      25.450   0.266  -3.360  1.00 43.85           C  
+ATOM      6  OG  SER A 386      24.756   0.575  -4.568  1.00 46.93           O  
+TER       7      SER A 386
+HETATM    8  C8  AIX A 704      26.928   5.365 -10.847  1.00 65.66           C  
+HETATM    9  C5  AIX A 704      24.755   4.584  -9.986  1.00 57.43           C  
+HETATM   10  C6  AIX A 704      27.825   0.814  -8.689  1.00 48.87           C  
+HETATM   11  N1  AIX A 704      24.556   2.853  -7.417  1.00 58.36           N  
+HETATM   12  C2  AIX A 704      29.015   0.501  -6.387  1.00 51.79           C  
+HETATM   13  N3  AIX A 704      26.621  -0.017  -6.774  1.00 49.17           N  
+HETATM   14  C4  AIX A 704      23.709   4.629  -8.918  1.00 56.01           C  
+HETATM   15  C1  AIX A 704      28.394  -0.516  -9.235  1.00 43.54           C  
+HETATM   16  C3  AIX A 704      23.639   3.203  -8.336  1.00 59.22           C  
+HETATM   17  C7  AIX A 704      25.916   5.377  -9.867  1.00 64.05           C  
+HETATM   18  C9  AIX A 704      26.784   4.568 -11.994  1.00 59.44           C  
+HETATM   19  C10 AIX A 704      25.623   3.794 -12.154  1.00 57.62           C  
+HETATM   20  C11 AIX A 704      24.626   3.799 -11.159  1.00 59.75           C  
+HETATM   21  C12 AIX A 704      27.733   0.858  -7.150  1.00 50.21           C  
+HETATM   22  C13 AIX A 704      25.445   0.442  -7.502  1.00 49.72           C  
+HETATM   23  C14 AIX A 704      24.629   1.552  -6.734  1.00 51.42           C  
+HETATM   24  C15 AIX A 704      25.011   1.719  -5.250  1.00 53.83           C  
+HETATM   25  C16 AIX A 704      28.602   1.999  -9.284  1.00 45.51           C  
+HETATM   26  N2  AIX A 704      22.424   5.094  -9.437  1.00 62.87           N  
+HETATM   27  O1  AIX A 704      29.211  -0.705  -6.126  1.00 52.84           O1-
+HETATM   28  O2  AIX A 704      29.764   1.444  -6.047  1.00 57.77           O  
+HETATM   29  O3  AIX A 704      22.764   2.430  -8.720  1.00 57.60           O  
+HETATM   30  O4  AIX A 704      25.566   2.715  -4.787  1.00 53.59           O  
+HETATM   31  S1  AIX A 704      26.078   0.946  -9.130  1.00 58.52           S  
+CONECT    8   17   18
+CONECT    8   18
+CONECT    9   14   17   20
+CONECT    9   17
+CONECT   10   15   21   25   31
+CONECT   11   16   23
+CONECT   12   21   27   28
+CONECT   12   28
+CONECT   13   21   22
+CONECT   14    9   16   26
+CONECT   15   10
+CONECT   16   11   14   29
+CONECT   16   29
+CONECT   17    8    9
+CONECT   17    9
+CONECT   18    8   19
+CONECT   18    8
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20    9   19
+CONECT   20   19
+CONECT   21   10   12   13
+CONECT   22   13   23   31
+CONECT   23   11   22   24
+CONECT   24    6   23   30
+CONECT   24   30
+CONECT   25   10
+CONECT   26   14
+CONECT   27   12
+CONECT   28   12
+CONECT   28   12
+CONECT   29   16
+CONECT   29   16
+CONECT   30   24
+CONECT   30   24
+CONECT   31   10   22
+ENDMDL
+END   

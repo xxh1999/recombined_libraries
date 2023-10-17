@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6d1y_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N3  FQJ A 801       5.801  19.412  29.453  1.00  0.00           N  
+HETATM    2  C4  FQJ A 801       3.780  18.657  28.814  1.00  0.00           C  
+HETATM    3  C6  FQJ A 801       1.710  21.227  29.204  1.00  0.00           C  
+HETATM    4  C7  FQJ A 801       0.515  21.904  29.819  1.00  0.00           C  
+HETATM    5  C8  FQJ A 801      -0.677  22.100  29.120  1.00  0.00           C  
+HETATM    6  C10 FQJ A 801       0.619  22.452  31.095  1.00  0.00           C  
+HETATM    7  C20 FQJ A 801       4.376  21.506  32.008  1.00  0.00           C  
+HETATM    8  C21 FQJ A 801       4.712  22.542  32.861  1.00  0.00           C  
+HETATM    9  C22 FQJ A 801       6.601  23.066  31.507  1.00  0.00           C  
+HETATM   10  C1  FQJ A 801       3.544  19.757  29.581  1.00  0.00           C  
+HETATM   11  N2  FQJ A 801       4.789  20.213  29.972  1.00  0.00           N  
+HETATM   12  N5  FQJ A 801       2.345  20.308  29.987  1.00  0.00           N  
+HETATM   13  C9  FQJ A 801       5.165  18.476  28.761  1.00  0.00           C  
+HETATM   14  C11 FQJ A 801      -1.711  22.843  29.648  1.00  0.00           C  
+HETATM   15  C12 FQJ A 801       5.144  21.268  30.871  1.00  0.00           C  
+HETATM   16  O13 FQJ A 801       2.125  21.528  28.089  1.00  0.00           O  
+HETATM   17  C14 FQJ A 801      -1.572  23.373  30.912  1.00  0.00           C  
+HETATM   18 CL2  FQJ A 801      -0.918  21.356  27.584  1.00  0.00          Cl  
+HETATM   19  C16 FQJ A 801      -0.418  23.191  31.641  1.00  0.00           C  
+HETATM   20 CL1  FQJ A 801      -2.887  24.286  31.594  1.00  0.00          Cl  
+HETATM   21  C18 FQJ A 801       5.932  17.410  28.049  1.00  0.00           C  
+HETATM   22  C19 FQJ A 801       6.267  22.051  30.622  1.00  0.00           C  
+HETATM   23  C23 FQJ A 801       5.819  23.319  32.611  1.00  0.00           C  
+CONECT    1   11   13
+CONECT    1   13
+CONECT    2   10   13
+CONECT    2   10
+CONECT    3    4   12   16
+CONECT    3   16
+CONECT    4    3    5    6
+CONECT    4    5
+CONECT    5    4   14   18
+CONECT    5    4
+CONECT    6    4   19
+CONECT    6   19
+CONECT    7    8   15
+CONECT    7   15
+CONECT    8    7   23
+CONECT    8   23
+CONECT    9   22   23
+CONECT    9   22
+CONECT   10    2   11   12
+CONECT   10    2
+CONECT   11    1   10   15
+CONECT   12    3   10
+CONECT   13    1    2   21
+CONECT   13    1
+CONECT   14    5   17
+CONECT   14   17
+CONECT   15    7   11   22
+CONECT   15    7
+CONECT   16    3
+CONECT   16    3
+CONECT   17   14   19   20
+CONECT   17   14
+CONECT   18    5
+CONECT   19    6   17
+CONECT   19    6
+CONECT   20   17
+CONECT   21   13
+CONECT   22    9   15
+CONECT   22    9
+CONECT   23    8    9
+CONECT   23    8
+ENDMDL
+END   

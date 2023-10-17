@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3v04_ligand1
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  V04 A 501       5.890  17.518  32.779  1.00  0.00           C  
+HETATM    2  F1  V04 A 501       5.164  19.852  36.742  1.00  0.00           F  
+HETATM    3  I1  V04 A 501       2.056  24.152  36.157  1.00  0.00           I  
+HETATM    4  N1  V04 A 501       7.284  19.982  29.804  1.00  0.00           N  
+HETATM    5  O1  V04 A 501       5.530  16.886  35.043  1.00  0.00           O  
+HETATM    6  C2  V04 A 501       6.245  16.904  31.580  1.00  0.00           C  
+HETATM    7  N2  V04 A 501       7.230  21.242  30.430  1.00  0.00           N  
+HETATM    8  O2  V04 A 501       4.390  14.557  34.384  1.00  0.00           O  
+HETATM    9  C3  V04 A 501       6.721  17.656  30.521  1.00  0.00           C  
+HETATM   10  N3  V04 A 501       5.665  19.461  34.137  1.00  0.00           N  
+HETATM   11  O3  V04 A 501       6.031  12.110  36.447  1.00  0.00           O  
+HETATM   12  C4  V04 A 501       6.001  18.908  32.931  1.00  0.00           C  
+HETATM   13  N4  V04 A 501       4.843  15.458  33.476  1.00  0.00           N  
+HETATM   14  C5  V04 A 501       6.510  19.663  31.855  1.00  0.00           C  
+HETATM   15  C6  V04 A 501       6.848  19.029  30.663  1.00  0.00           C  
+HETATM   16  C7  V04 A 501       6.748  21.057  31.676  1.00  0.00           C  
+HETATM   17  C8  V04 A 501       4.855  20.510  34.482  1.00  0.00           C  
+HETATM   18  C9  V04 A 501       4.269  21.408  33.582  1.00  0.00           C  
+HETATM   19  C10 V04 A 501       3.472  22.455  34.041  1.00  0.00           C  
+HETATM   20  C11 V04 A 501       3.250  22.613  35.406  1.00  0.00           C  
+HETATM   21  C12 V04 A 501       3.825  21.731  36.302  1.00  0.00           C  
+HETATM   22  C13 V04 A 501       4.619  20.690  35.842  1.00  0.00           C  
+HETATM   23  C14 V04 A 501       5.396  16.603  33.862  1.00  0.00           C  
+HETATM   24  C15 V04 A 501       5.139  13.355  34.590  1.00  0.00           C  
+HETATM   25  C16 V04 A 501       5.886  13.425  35.919  1.00  0.00           C  
+CONECT    1    6   12   23
+CONECT    1    6
+CONECT    2   22
+CONECT    3   20
+CONECT    4    7   15
+CONECT    5   23
+CONECT    5   23
+CONECT    6    1    9
+CONECT    6    1
+CONECT    7    4   16
+CONECT    7   16
+CONECT    8   13   24
+CONECT    9    6   15
+CONECT    9   15
+CONECT   10   12   17
+CONECT   11   25
+CONECT   12    1   10   14
+CONECT   12   14
+CONECT   13    8   23
+CONECT   14   12   15   16
+CONECT   14   12
+CONECT   15    4    9   14
+CONECT   15    9
+CONECT   16    7   14
+CONECT   16    7
+CONECT   17   10   18   22
+CONECT   17   22
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20    3   19   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22    2   17   21
+CONECT   22   17
+CONECT   23    1    5   13
+CONECT   23    5
+CONECT   24    8   25
+CONECT   25   11   24
+ENDMDL
+END   

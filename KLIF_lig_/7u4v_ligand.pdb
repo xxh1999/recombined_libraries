@@ -1,0 +1,89 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7u4v_ligand
+MODEL        1
+HETATM    1  C13 LZN A 901       2.853  12.642  36.804  1.00  0.00           C  
+HETATM    2  C18 LZN A 901      -1.735  16.158  48.707  1.00  0.00           C  
+HETATM    3  C17 LZN A 901      -2.990  15.652  48.098  1.00  0.00           C  
+HETATM    4  C16 LZN A 901      -2.343  16.891  47.551  1.00  0.00           C  
+HETATM    5  C15 LZN A 901      -1.629  16.777  46.211  1.00  0.00           C  
+HETATM    6  C19 LZN A 901       0.598  21.853  39.379  1.00  0.00           C  
+HETATM    7  C11 LZN A 901       0.301  15.999  38.038  1.00  0.00           C  
+HETATM    8  C12 LZN A 901       2.119  12.935  38.739  1.00  0.00           C  
+HETATM    9  C1  LZN A 901      -0.184  19.165  41.908  1.00  0.00           C  
+HETATM   10  N1  LZN A 901      -0.836  19.968  42.778  1.00  0.00           N  
+HETATM   11  N2  LZN A 901      -1.220  19.505  43.978  1.00  0.00           N  
+HETATM   12  C2  LZN A 901      -0.923  18.242  44.331  1.00  0.00           C  
+HETATM   13  C3  LZN A 901      -0.267  17.361  43.487  1.00  0.00           C  
+HETATM   14  C4  LZN A 901       0.095  17.800  42.215  1.00  0.00           C  
+HETATM   15  N3  LZN A 901       0.655  16.921  41.227  1.00  0.00           N  
+HETATM   16  N4  LZN A 901      -1.278  17.961  45.658  1.00  0.00           N  
+HETATM   17  C5  LZN A 901       0.238  19.785  40.604  1.00  0.00           C  
+HETATM   18  O1  LZN A 901       0.302  19.109  39.584  1.00  0.00           O  
+HETATM   19  N5  LZN A 901       0.482  21.095  40.613  1.00  0.00           N  
+HETATM   20  C6  LZN A 901       0.809  15.561  41.153  1.00  0.00           C  
+HETATM   21  N6  LZN A 901       0.628  14.825  42.273  1.00  0.00           N  
+HETATM   22  C7  LZN A 901       1.031  13.536  42.260  1.00  0.00           C  
+HETATM   23  C8  LZN A 901       1.573  12.898  41.152  1.00  0.00           C  
+HETATM   24  C9  LZN A 901       1.690  13.629  39.964  1.00  0.00           C  
+HETATM   25  C10 LZN A 901       1.318  14.988  39.963  1.00  0.00           C  
+HETATM   26  O2  LZN A 901       1.480  15.768  38.817  1.00  0.00           O  
+HETATM   27  N7  LZN A 901       2.745  13.589  37.720  1.00  0.00           N  
+HETATM   28  N8  LZN A 901       2.331  11.489  37.241  1.00  0.00           N  
+HETATM   29  N9  LZN A 901       1.867  11.654  38.505  1.00  0.00           N  
+HETATM   30  C14 LZN A 901       2.150  10.213  36.569  1.00  0.00           C  
+HETATM   31  O3  LZN A 901      -1.431  15.673  45.692  1.00  0.00           O  
+CONECT    1   27   28
+CONECT    1   27
+CONECT    2    3    4
+CONECT    3    2    4
+CONECT    4    2    3    5
+CONECT    5    4   16   31
+CONECT    5   31
+CONECT    6   19
+CONECT    7   26
+CONECT    8   24   27   29
+CONECT    8   29
+CONECT    9   10   14   17
+CONECT    9   14
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   13   16
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14    9   13   15
+CONECT   14    9
+CONECT   15   14   20
+CONECT   16    5   12
+CONECT   17    9   18   19
+CONECT   17   18
+CONECT   18   17
+CONECT   18   17
+CONECT   19    6   17
+CONECT   20   15   21   25
+CONECT   20   25
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24    8   23   25
+CONECT   24   23
+CONECT   25   20   24   26
+CONECT   25   20
+CONECT   26    7   25
+CONECT   27    1    8
+CONECT   27    1
+CONECT   28    1   29   30
+CONECT   29    8   28
+CONECT   29    8
+CONECT   30   28
+CONECT   31    5
+CONECT   31    5
+ENDMDL
+END   

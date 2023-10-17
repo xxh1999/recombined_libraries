@@ -1,0 +1,70 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4ivc_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  Q1J B1201      -1.115  13.651  43.843  1.00  0.00           C  
+HETATM    2  C2  Q1J B1201      -0.621  14.265  42.528  1.00  0.00           C  
+HETATM    3  O4  Q1J B1201      -1.598  14.026  41.518  1.00  0.00           O  
+HETATM    4  C5  Q1J B1201      -0.500  15.758  42.618  1.00  0.00           C  
+HETATM    5  N6  Q1J B1201       0.117  16.529  41.683  1.00  0.00           N  
+HETATM    6  C7  Q1J B1201      -0.013  17.839  42.116  1.00  0.00           C  
+HETATM    7  C8  Q1J B1201      -0.727  17.796  43.344  1.00  0.00           C  
+HETATM    8  N9  Q1J B1201      -1.003  16.498  43.574  1.00  0.00           N  
+HETATM    9  C10 Q1J B1201      -1.000  18.985  44.051  1.00  0.00           C  
+HETATM   10  N11 Q1J B1201      -0.593  20.158  43.588  1.00  0.00           N  
+HETATM   11  C12 Q1J B1201       0.067  20.248  42.417  1.00  0.00           C  
+HETATM   12  C13 Q1J B1201       0.379  19.105  41.647  1.00  0.00           C  
+HETATM   13  C14 Q1J B1201       1.086  19.578  40.469  1.00  0.00           C  
+HETATM   14  C15 Q1J B1201       1.149  20.900  40.577  1.00  0.00           C  
+HETATM   15  N16 Q1J B1201       0.553  21.302  41.729  1.00  0.00           N  
+HETATM   16  C18 Q1J B1201       0.755  16.010  40.462  1.00  0.00           C  
+HETATM   17  C20 Q1J B1201       0.060  16.637  39.234  1.00  0.00           C  
+HETATM   18  C21 Q1J B1201       0.608  15.960  37.996  1.00  0.00           C  
+HETATM   19  C22 Q1J B1201       2.121  16.165  37.867  1.00  0.00           C  
+HETATM   20  C24 Q1J B1201       2.839  15.583  39.110  1.00  0.00           C  
+HETATM   21  C25 Q1J B1201       2.273  16.246  40.402  1.00  0.00           C  
+HETATM   22  C26 Q1J B1201       2.599  15.551  36.527  1.00  0.00           C  
+HETATM   23  C27 Q1J B1201       4.082  15.573  36.435  1.00  0.00           C  
+HETATM   24  N28 Q1J B1201       5.230  15.626  36.401  1.00  0.00           N  
+CONECT    1    2
+CONECT    2    1    3    4
+CONECT    3    2
+CONECT    4    2    5    8
+CONECT    4    8
+CONECT    5    4    6   16
+CONECT    6    5    7   12
+CONECT    6   12
+CONECT    7    6    8    9
+CONECT    7    9
+CONECT    8    4    7
+CONECT    8    4
+CONECT    9    7   10
+CONECT    9    7
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   12   15
+CONECT   11   10
+CONECT   12    6   11   13
+CONECT   12    6
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   11   14
+CONECT   16    5   17   21
+CONECT   17   16   18
+CONECT   18   17   19
+CONECT   19   18   20   22
+CONECT   20   19   21
+CONECT   21   16   20
+CONECT   22   19   23
+CONECT   23   22   24
+CONECT   23   24
+CONECT   23   24
+CONECT   24   23
+CONECT   24   23
+CONECT   24   23
+ENDMDL
+END   

@@ -1,0 +1,47 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1REE
+MODEL        1
+ATOM      1  N   GLU B 177      76.932  28.732   3.238  1.00 16.57           N1+
+ATOM      2  CA  GLU B 177      77.481  27.395   3.008  1.00 17.45           C  
+ATOM      3  C   GLU B 177      77.533  27.178   1.485  1.00 16.90           C  
+ATOM      4  O   GLU B 177      76.577  27.511   0.786  1.00 20.08           O  
+ATOM      5  CB  GLU B 177      76.517  26.341   3.613  1.00 19.99           C  
+ATOM      6  CG  GLU B 177      77.080  24.892   3.685  1.00 30.74           C  
+ATOM      7  CD  GLU B 177      77.552  24.441   5.076  1.00 34.32           C  
+ATOM      8  OE1 GLU B 177      77.128  24.959   6.110  1.00 39.67           O  
+ATOM      9  OE2 GLU B 177      78.455  23.437   5.014  1.00 41.14           O  
+TER      10      GLU B 177
+HETATM   11  C1  07E B 401      81.808  22.643  10.392  0.80 34.60           C  
+HETATM   12  C2  07E B 401      81.614  23.839  11.353  0.80 31.53           C  
+HETATM   13  C3  07E B 401      82.888  24.011  12.206  0.80 30.11           C  
+HETATM   14  C4  07E B 401      83.215  22.696  12.922  0.80 32.30           C  
+HETATM   15  C5  07E B 401      83.310  21.569  11.885  0.80 35.67           C  
+HETATM   16  O1  07E B 401      80.617  22.452   9.691  0.80 39.91           O  
+HETATM   17  O2  07E B 401      81.442  25.035  10.619  0.80 29.40           O  
+HETATM   18  O3  07E B 401      82.654  25.001  13.190  0.80 25.09           O  
+HETATM   19  O4  07E B 401      84.460  22.819  13.578  0.80 32.83           O  
+HETATM   20  O5  07E B 401      82.098  21.498  11.144  0.80 36.14           O  
+HETATM   21  C1' 07E B 401      80.787  21.687   8.502  0.80 40.70           C  
+HETATM   22  C2' 07E B 401      79.441  21.207   7.917  0.80 43.65           C  
+HETATM   23  C3' 07E B 401      78.541  22.270   7.247  0.80 44.76           C  
+HETATM   24  C4' 07E B 401      79.256  23.081   6.143  0.80 43.56           C  
+HETATM   25  O'  07E B 401      78.069  23.134   8.258  0.80 46.66           O  
+CONECT   11   12   16   20
+CONECT   12   11   13   17
+CONECT   13   12   14   18
+CONECT   14   13   15   19
+CONECT   15   14   20
+CONECT   16   11   21
+CONECT   17   12
+CONECT   18   13
+CONECT   19   14
+CONECT   20   11   15
+CONECT   21   16   22
+CONECT   22   21   23
+CONECT   23   22   24   25
+CONECT   24    9   23
+CONECT   25   23
+ENDMDL
+END   

@@ -1,0 +1,38 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1H6M
+MODEL        1
+ATOM      1  N   ASP A  52       9.932  18.072  22.086  1.00 11.28           N1+
+ATOM      2  CA  ASP A  52       8.570  18.293  21.575  1.00 10.78           C  
+ATOM      3  C   ASP A  52       8.231  17.154  20.591  1.00 10.40           C  
+ATOM      4  O   ASP A  52       9.062  16.753  19.772  1.00 11.17           O  
+ATOM      5  CB  ASP A  52       8.554  19.589  20.792  1.00 11.39           C  
+ATOM      6  CG  ASP A  52       8.511  20.872  21.641  1.00 17.97           C  
+ATOM      7  OD1 ASP A  52       8.353  20.937  22.835  1.00 20.06           O  
+ATOM      8  OD2 ASP A  52       8.669  21.961  20.834  1.00 20.87           O  
+TER       9      ASP A  52
+HETATM   10  C1  G2F B   1       8.582  23.287  21.414  0.70 19.48           C  
+HETATM   11  C2  G2F B   1       9.415  23.544  22.641  0.70 18.90           C  
+HETATM   12  C3  G2F B   1       8.547  23.441  23.862  0.70 17.47           C  
+HETATM   13  C4  G2F B   1       7.103  24.032  23.686  0.70 15.87           C  
+HETATM   14  C5  G2F B   1       6.460  23.557  22.381  0.70 15.36           C  
+HETATM   15  C6  G2F B   1       5.142  24.272  22.081  0.70 15.61           C  
+HETATM   16  O3  G2F B   1       9.252  24.177  24.887  0.70 20.58           O  
+HETATM   17  O4  G2F B   1       6.437  23.551  24.826  0.70 16.37           O  
+HETATM   18  O5  G2F B   1       7.299  23.849  21.347  0.70 15.87           O  
+HETATM   19  O6  G2F B   1       5.430  25.634  21.758  0.70 16.15           O  
+HETATM   20  F2  G2F B   1      10.467  22.640  22.697  0.70 21.56           F  
+CONECT   10    8   11   18
+CONECT   11   10   12   20
+CONECT   12   11   13   16
+CONECT   13   12   14   17
+CONECT   14   13   15   18
+CONECT   15   14   19
+CONECT   16   12
+CONECT   17   13
+CONECT   18   10   14
+CONECT   19   15
+CONECT   20   11
+ENDMDL
+END   

@@ -1,0 +1,116 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5vnd_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C2  Q9E B 801      -2.655  10.960  47.668  1.00  0.00           C  
+HETATM    2  C3  Q9E B 801      -2.838  12.440  47.305  1.00  0.00           C  
+HETATM    3  C4  Q9E B 801      -0.974  11.796  45.728  1.00  0.00           C  
+HETATM    4  C5  Q9E B 801      -1.941  10.683  45.304  1.00  0.00           C  
+HETATM    5  C6  Q9E B 801      -1.714  14.202  45.941  1.00  0.00           C  
+HETATM    6  C9  Q9E B 801      -1.602  16.908  45.099  1.00  0.00           C  
+HETATM    7  C10 Q9E B 801      -0.342  18.608  43.974  1.00  0.00           C  
+HETATM    8  C11 Q9E B 801       0.617  17.774  43.374  1.00  0.00           C  
+HETATM    9  C12 Q9E B 801       1.558  18.345  42.542  1.00  0.00           C  
+HETATM   10  C13 Q9E B 801       0.483  20.450  42.916  1.00  0.00           C  
+HETATM   11  C14 Q9E B 801       2.673  16.249  42.213  1.00  0.00           C  
+HETATM   12  C21 Q9E B 801       3.548  21.253  37.264  1.00  0.00           C  
+HETATM   13  C22 Q9E B 801       2.965  22.327  35.137  1.00  0.00           C  
+HETATM   14  O3  Q9E B 801      -1.181  16.947  49.413  1.00  0.00           O  
+HETATM   15  C25 Q9E B 801      -1.212  17.835  48.593  1.00  0.00           C  
+HETATM   16  C26 Q9E B 801      -0.899  19.248  49.011  1.00  0.00           C  
+HETATM   17  C27 Q9E B 801      -0.239  20.072  47.902  1.00  0.00           C  
+HETATM   18  N7  Q9E B 801      -1.495  17.695  47.321  1.00  0.00           N  
+HETATM   19  C24 Q9E B 801      -1.593  16.584  46.545  1.00  0.00           C  
+HETATM   20  C28 Q9E B 801      -1.662  15.236  46.915  1.00  0.00           C  
+HETATM   21  N1  Q9E B 801      -1.814  12.838  46.321  1.00  0.00           N  
+HETATM   22  N   Q9E B 801      -2.645  10.079  46.468  1.00  0.00           N1+
+HETATM   23  C1  Q9E B 801      -2.096   8.745  46.804  1.00  0.00           C  
+HETATM   24  C   Q9E B 801      -2.744   7.658  45.967  1.00  0.00           C  
+HETATM   25  C8  Q9E B 801      -1.649  15.853  44.186  1.00  0.00           C  
+HETATM   26  C7  Q9E B 801      -1.725  14.526  44.579  1.00  0.00           C  
+HETATM   27  N2  Q9E B 801      -1.347  18.214  44.745  1.00  0.00           N  
+HETATM   28  N4  Q9E B 801      -0.381  19.939  43.763  1.00  0.00           N  
+HETATM   29  N3  Q9E B 801       1.420  19.678  42.368  1.00  0.00           N  
+HETATM   30  N5  Q9E B 801       2.582  17.647  41.837  1.00  0.00           N  
+HETATM   31  C15 Q9E B 801       3.357  18.277  40.863  1.00  0.00           C  
+HETATM   32  O   Q9E B 801       4.250  17.695  40.281  1.00  0.00           O  
+HETATM   33  N6  Q9E B 801       3.049  19.562  40.575  1.00  0.00           N  
+HETATM   34  C16 Q9E B 801       3.638  20.337  39.643  1.00  0.00           C  
+HETATM   35  C23 Q9E B 801       2.990  20.570  38.398  1.00  0.00           C  
+HETATM   36 CL1  Q9E B 801       1.326  20.104  38.309  1.00  0.00          Cl  
+HETATM   37  O2  Q9E B 801       2.706  21.454  36.214  1.00  0.00           O  
+HETATM   38  C20 Q9E B 801       4.852  21.644  37.339  1.00  0.00           C  
+HETATM   39  C18 Q9E B 801       5.602  21.395  38.483  1.00  0.00           C  
+HETATM   40  C17 Q9E B 801       5.024  20.740  39.617  1.00  0.00           C  
+HETATM   41 CL   Q9E B 801       5.992  20.526  41.058  1.00  0.00          Cl  
+HETATM   42  O1  Q9E B 801       6.910  21.764  38.615  1.00  0.00           O  
+HETATM   43  C19 Q9E B 801       7.613  22.473  37.580  1.00  0.00           C  
+CONECT    1    2   22
+CONECT    2    1   21
+CONECT    3    4   21
+CONECT    4    3   22
+CONECT    5   20   21   26
+CONECT    5   20
+CONECT    6   19   25   27
+CONECT    6   19
+CONECT    7    8   27   28
+CONECT    7    8
+CONECT    8    7    9
+CONECT    8    7
+CONECT    9    8   29   30
+CONECT    9   29
+CONECT   10   28   29
+CONECT   10   28
+CONECT   11   30
+CONECT   12   35   37   38
+CONECT   12   35
+CONECT   13   37
+CONECT   14   15
+CONECT   14   15
+CONECT   15   14   16   18
+CONECT   15   14
+CONECT   16   15   17
+CONECT   17   16
+CONECT   18   15   19
+CONECT   19    6   18   20
+CONECT   19    6
+CONECT   20    5   19
+CONECT   20    5
+CONECT   21    2    3    5
+CONECT   22    1    4   23
+CONECT   23   22   24
+CONECT   24   23
+CONECT   25    6   26
+CONECT   25   26
+CONECT   26    5   25
+CONECT   26   25
+CONECT   27    6    7
+CONECT   28    7   10
+CONECT   28   10
+CONECT   29    9   10
+CONECT   29    9
+CONECT   30    9   11   31
+CONECT   31   30   32   33
+CONECT   31   32
+CONECT   32   31
+CONECT   32   31
+CONECT   33   31   34
+CONECT   34   33   35   40
+CONECT   34   40
+CONECT   35   12   34   36
+CONECT   35   12
+CONECT   36   35
+CONECT   37   12   13
+CONECT   38   12   39
+CONECT   38   39
+CONECT   39   38   40   42
+CONECT   39   38
+CONECT   40   34   39   41
+CONECT   40   34
+CONECT   41   40
+CONECT   42   39   43
+CONECT   43   42
+ENDMDL
+END   

@@ -1,0 +1,126 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5LCJ
+MODEL        1
+ATOM      1  N   CYS A 166       4.312   2.012  40.569  1.00 17.81           N1+
+ATOM      2  CA  CYS A 166       4.214   2.632  41.885  1.00 18.78           C  
+ATOM      3  C   CYS A 166       2.885   3.360  42.102  1.00 22.54           C  
+ATOM      4  O   CYS A 166       2.166   3.657  41.149  1.00 17.92           O  
+ATOM      5  CB  CYS A 166       5.470   3.480  42.163  1.00 20.26           C  
+ATOM      6  SG  CYS A 166       5.440   5.026  41.220  1.00 24.07           S  
+TER       7      CYS A 166
+HETATM    8  C2  6TS A 401      10.839   6.798  44.311  1.00 28.70           C  
+HETATM    9  C3  6TS A 401      12.001   6.103  43.927  1.00 30.72           C  
+HETATM   10  N4  6TS A 401      12.978   6.686  43.198  1.00 29.61           N  
+HETATM   11  C5  6TS A 401      12.779   7.956  42.851  1.00 29.05           C  
+HETATM   12  C7  6TS A 401      13.732   9.719  41.286  1.00 40.81           C  
+HETATM   13  C8  6TS A 401      12.553  10.348  40.831  1.00 44.52           C  
+HETATM   14  C11 6TS A 401      14.971  11.550  40.293  1.00 53.62           C  
+HETATM   15  C12 6TS A 401      16.228  12.208  40.001  1.00 70.82           C  
+HETATM   16  C13 6TS A 401      17.300  12.762  39.823  1.00 77.36           C  
+HETATM   17  C14 6TS A 401      18.610  13.422  39.734  1.00 80.47           C  
+HETATM   18  C15 6TS A 401      19.768  12.480  40.092  1.00 86.16           C  
+HETATM   19  C22 6TS A 401      25.166  14.609  40.884  1.00 84.44           C  
+HETATM   20  C23 6TS A 401      25.307  15.289  42.261  1.00 82.07           C  
+HETATM   21  C24 6TS A 401      26.360  16.419  42.309  1.00 82.55           C  
+HETATM   22  C25 6TS A 401      25.823  17.815  42.046  1.00 83.34           C  
+HETATM   23  C26 6TS A 401      25.201  18.250  40.936  1.00 83.86           C  
+HETATM   24  C27 6TS A 401      24.876  17.423  39.710  1.00 84.26           C  
+HETATM   25  C28 6TS A 401      23.645  16.531  39.945  1.00 85.79           C  
+HETATM   26  C31 6TS A 401      10.754   8.148  43.908  1.00 25.45           C  
+HETATM   27  N32 6TS A 401       9.615   8.909  44.174  1.00 31.96           N  
+HETATM   28  C35 6TS A 401       9.972  12.590  43.729  1.00 39.90           C  
+HETATM   29  C36 6TS A 401       8.825  12.896  42.980  1.00 41.36           C  
+HETATM   30  C37 6TS A 401       7.953  11.866  42.590  1.00 38.94           C  
+HETATM   31  C38 6TS A 401       8.192  10.527  42.968  1.00 34.90           C  
+HETATM   32  C40 6TS A 401       6.754   8.482  42.990  1.00 34.17           C  
+HETATM   33  O41 6TS A 401       6.916   8.171  44.168  1.00 36.95           O  
+HETATM   34  C42 6TS A 401       5.884   7.623  42.073  1.00 37.06           C  
+HETATM   35  C43 6TS A 401       5.772   6.176  42.569  1.00 35.23           C  
+HETATM   36  N39 6TS A 401       7.309   9.561  42.415  1.00 32.43           N  
+HETATM   37  C34 6TS A 401      10.235  11.258  44.095  1.00 33.52           C  
+HETATM   38  C33 6TS A 401       9.347  10.217  43.741  1.00 35.78           C  
+HETATM   39  N30 6TS A 401      11.743   8.716  43.199  1.00 27.54           N  
+HETATM   40  N6  6TS A 401      13.707   8.517  42.003  1.00 32.91           N  
+HETATM   41  C9  6TS A 401      12.659  11.576  40.165  1.00 49.56           C  
+HETATM   42  N10 6TS A 401      13.840  12.173  39.903  1.00 53.24           N  
+HETATM   43  N16 6TS A 401      20.923  13.219  40.578  1.00 92.03           N  
+HETATM   44  C17 6TS A 401      21.903  13.761  39.768  1.00 95.74           C  
+HETATM   45  O18 6TS A 401      21.955  13.710  38.539  1.00 96.67           O  
+HETATM   46  O19 6TS A 401      22.800  14.366  40.565  1.00 94.15           O  
+HETATM   47  C20 6TS A 401      23.946  15.020  40.032  1.00 88.21           C  
+HETATM   48  C29 6TS A 401      14.967  10.323  40.988  1.00 43.39           C  
+HETATM   49 CL1  6TS A 401       9.591   6.012  45.206  1.00 32.29          Cl  
+CONECT    8    9   26   49
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   39   40
+CONECT   11   10
+CONECT   12   13   40   48
+CONECT   12   13
+CONECT   13   12   41
+CONECT   13   12
+CONECT   14   15   42   48
+CONECT   14   48
+CONECT   15   14   16
+CONECT   15   16
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   16   15
+CONECT   17   16   18
+CONECT   18   17   43
+CONECT   19   20   47
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   23   25
+CONECT   25   24   47
+CONECT   26    8   27   39
+CONECT   26   39
+CONECT   27   26   38
+CONECT   28   29   37
+CONECT   28   29
+CONECT   29   28   30
+CONECT   29   28
+CONECT   30   29   31
+CONECT   30   31
+CONECT   31   30   36   38
+CONECT   31   30
+CONECT   32   33   34   36
+CONECT   32   33
+CONECT   33   32
+CONECT   33   32
+CONECT   34   32   35
+CONECT   35    6   34
+CONECT   36   31   32
+CONECT   37   28   38
+CONECT   37   38
+CONECT   38   27   31   37
+CONECT   38   37
+CONECT   39   11   26
+CONECT   39   26
+CONECT   40   11   12
+CONECT   41   13   42
+CONECT   41   42
+CONECT   42   14   41
+CONECT   42   41
+CONECT   43   18   44
+CONECT   44   43   45   46
+CONECT   44   45
+CONECT   45   44
+CONECT   45   44
+CONECT   46   44   47
+CONECT   47   19   25   46
+CONECT   48   12   14
+CONECT   48   14
+CONECT   49    8
+ENDMDL
+END   

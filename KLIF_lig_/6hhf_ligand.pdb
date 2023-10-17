@@ -1,0 +1,130 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6hhf_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CAM G4K A 501      -1.808  24.983  30.462  1.00  0.00           C  
+HETATM    2  CAN G4K A 501      -2.349  24.279  31.531  1.00  0.00           C  
+HETATM    3  CAO G4K A 501      -1.993  24.600  32.835  1.00  0.00           C  
+HETATM    4  CAP G4K A 501      -1.087  25.626  33.069  1.00  0.00           C  
+HETATM    5  CAQ G4K A 501      -0.544  26.329  32.001  1.00  0.00           C  
+HETATM    6  CAK G4K A 501      -0.890  26.003  30.694  1.00  0.00           C  
+HETATM    7  CAH G4K A 501      -0.324  26.746  29.656  1.00  0.00           C  
+HETATM    8  CAG G4K A 501      -0.438  28.128  29.761  1.00  0.00           C  
+HETATM    9  CAD G4K A 501       0.098  28.937  28.771  1.00  0.00           C  
+HETATM   10  CAC G4K A 501      -0.012  30.320  28.847  1.00  0.00           C  
+HETATM   11  OBN G4K A 501      -0.588  30.855  29.794  1.00  0.00           O  
+HETATM   12  NAB G4K A 501       0.542  31.107  27.835  1.00  0.00           N  
+HETATM   13  CAA G4K A 501       1.163  30.550  26.810  1.00  0.00           C  
+HETATM   14  CAF G4K A 501       1.283  29.166  26.710  1.00  0.00           C  
+HETATM   15  CAE G4K A 501       0.745  28.349  27.696  1.00  0.00           C  
+HETATM   16  NAJ G4K A 501       0.852  27.013  27.611  1.00  0.00           N  
+HETATM   17  CAI G4K A 501       0.347  26.196  28.552  1.00  0.00           C  
+HETATM   18  CAL G4K A 501       0.518  24.821  28.368  1.00  0.00           C  
+HETATM   19  CAV G4K A 501       1.258  24.056  29.266  1.00  0.00           C  
+HETATM   20  CAU G4K A 501       1.420  22.691  29.066  1.00  0.00           C  
+HETATM   21  CAR G4K A 501      -0.053  24.204  27.259  1.00  0.00           C  
+HETATM   22  CAS G4K A 501       0.106  22.832  27.065  1.00  0.00           C  
+HETATM   23  CAT G4K A 501       0.862  22.070  27.956  1.00  0.00           C  
+HETATM   24  CAW G4K A 501       1.002  20.691  27.766  1.00  0.00           C  
+HETATM   25  NAX G4K A 501       2.245  20.200  27.124  1.00  0.00           N1+
+HETATM   26  CBC G4K A 501       2.744  21.116  26.077  1.00  0.00           C  
+HETATM   27  CBB G4K A 501       3.882  20.505  25.271  1.00  0.00           C  
+HETATM   28  CAY G4K A 501       1.894  18.877  26.565  1.00  0.00           C  
+HETATM   29  CAZ G4K A 501       3.009  18.256  25.736  1.00  0.00           C  
+HETATM   30  CBA G4K A 501       3.340  19.238  24.634  1.00  0.00           C  
+HETATM   31  NBD G4K A 501       4.207  18.691  23.536  1.00  0.00           N  
+HETATM   32  CBE G4K A 501       5.226  17.830  23.392  1.00  0.00           C  
+HETATM   33  CBI G4K A 501       5.897  17.075  24.262  1.00  0.00           C  
+HETATM   34  CBH G4K A 501       3.933  19.159  22.328  1.00  0.00           C  
+HETATM   35  OBM G4K A 501       3.048  19.977  22.079  1.00  0.00           O  
+HETATM   36  NBG G4K A 501       4.744  18.619  21.433  1.00  0.00           N  
+HETATM   37  CBF G4K A 501       5.549  17.790  22.089  1.00  0.00           C  
+HETATM   38  CBL G4K A 501       6.532  17.017  21.630  1.00  0.00           C  
+HETATM   39  CBK G4K A 501       7.258  16.215  22.485  1.00  0.00           C  
+HETATM   40  CBJ G4K A 501       6.936  16.253  23.832  1.00  0.00           C  
+HETATM   41  NBO G4K A 501       7.599  15.510  24.716  1.00  0.00           N  
+HETATM   42  CBP G4K A 501       8.943  15.590  24.745  1.00  0.00           C  
+HETATM   43  OBR G4K A 501       9.630  16.306  24.016  1.00  0.00           O  
+HETATM   44  CBQ G4K A 501       9.593  14.716  25.810  1.00  0.00           C  
+HETATM   45  CBS G4K A 501      11.113  14.890  25.967  1.00  0.00           C  
+CONECT    1    2    6
+CONECT    1    6
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    1    5    7
+CONECT    6    1
+CONECT    7    6    8   17
+CONECT    7   17
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    8   10   15
+CONECT    9    8
+CONECT   10    9   11   12
+CONECT   10   11
+CONECT   11   10
+CONECT   11   10
+CONECT   12   10   13
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15    9   14   16
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17    7   16   18
+CONECT   17    7
+CONECT   18   17   19   21
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   19   23
+CONECT   20   23
+CONECT   21   18   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   20   22   24
+CONECT   23   20
+CONECT   24   23   25
+CONECT   25   24   26   28
+CONECT   26   25   27
+CONECT   27   26   30
+CONECT   28   25   29
+CONECT   29   28   30
+CONECT   30   27   29   31
+CONECT   31   30   32   34
+CONECT   32   31   33   37
+CONECT   32   37
+CONECT   33   32   40
+CONECT   33   40
+CONECT   34   31   35   36
+CONECT   34   35
+CONECT   35   34
+CONECT   35   34
+CONECT   36   34   37
+CONECT   37   32   36   38
+CONECT   37   32
+CONECT   38   37   39
+CONECT   38   39
+CONECT   39   38   40
+CONECT   39   38
+CONECT   40   33   39   41
+CONECT   40   33
+CONECT   41   40   42
+CONECT   42   41   43   44
+CONECT   42   43
+CONECT   43   42
+CONECT   43   42
+CONECT   44   42   45
+CONECT   45   44
+ENDMDL
+END   

@@ -1,0 +1,70 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3N3G
+MODEL        1
+ATOM      1  N   CYS B  25       3.514  26.820  25.593  1.00 23.24           N1+
+ATOM      2  CA  CYS B  25       4.783  27.512  25.865  1.00 23.60           C  
+ATOM      3  C   CYS B  25       5.817  27.415  24.727  1.00 22.43           C  
+ATOM      4  O   CYS B  25       6.619  28.327  24.548  1.00 22.79           O  
+ATOM      5  CB  CYS B  25       5.370  26.985  27.184  1.00 23.52           C  
+ATOM      6  SG  CYS B  25       5.876  25.239  27.036  1.00 26.30           S  
+TER       7      CYS B  25
+HETATM    8  N1  935 B 221       5.987  22.061  27.358  0.75 35.88           N  
+HETATM    9  C2  935 B 221       6.231  20.818  26.874  0.75 35.09           C  
+HETATM   10  C3  935 B 221       5.238  19.814  26.871  0.75 34.98           C  
+HETATM   11  C4  935 B 221       3.966  20.102  27.393  0.75 35.15           C  
+HETATM   12  C5  935 B 221       3.732  21.380  27.922  0.75 34.88           C  
+HETATM   13  C6  935 B 221       4.774  22.325  27.906  0.75 35.59           C  
+HETATM   14  C7  935 B 221       7.605  20.533  26.408  0.75 34.97           C  
+HETATM   15  C8  935 B 221       8.399  21.514  25.775  0.75 34.55           C  
+HETATM   16  C9  935 B 221       9.704  21.218  25.311  0.75 35.37           C  
+HETATM   17  C10 935 B 221      10.238  19.916  25.467  0.75 35.06           C  
+HETATM   18  C11 935 B 221       9.456  18.940  26.126  0.75 35.00           C  
+HETATM   19  C12 935 B 221       8.163  19.248  26.584  0.75 35.03           C  
+HETATM   20  O13 935 B 221      11.498  19.666  24.962  0.75 34.90           O  
+HETATM   21  C14 935 B 221      11.963  18.324  24.931  0.75 34.67           C  
+HETATM   22  C15 935 B 221      13.279  18.283  24.149  0.75 33.74           C  
+HETATM   23  C18 935 B 221       4.542  23.582  28.648  0.75 34.28           C  
+HETATM   24  N19 935 B 221       4.964  24.754  28.434  0.75 36.26           N  
+HETATM   25  C20 935 B 221      10.539  22.296  24.629  0.75 35.11           C  
+HETATM   26  F21 935 B 221      10.852  21.925  23.387  0.75 35.74           F  
+HETATM   27  F22 935 B 221      11.662  22.496  25.319  0.75 35.07           F  
+HETATM   28  F23 935 B 221       9.879  23.451  24.567  0.75 35.83           F  
+CONECT    8    9   13
+CONECT    8    9
+CONECT    9    8   10   14
+CONECT    9    8
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13    8   12   23
+CONECT   13   12
+CONECT   14    9   15   19
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   17   25
+CONECT   16   17
+CONECT   17   16   18   20
+CONECT   17   16
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   14   18
+CONECT   19   18
+CONECT   20   17   21
+CONECT   21   20   22
+CONECT   22   21
+CONECT   23   13   24
+CONECT   23   24
+CONECT   24    6   23
+CONECT   24   23
+CONECT   25   16   26   27   28
+CONECT   26   25
+CONECT   27   25
+CONECT   28   25
+ENDMDL
+END   

@@ -1,0 +1,101 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7z39_ligand
+MODEL        1
+HETATM    1  O1  ICQ A 402       0.531  10.988  44.070  1.00  0.00           O  
+HETATM    2  N1  ICQ A 402       2.498  13.813  40.415  1.00  0.00           N  
+HETATM    3  C1  ICQ A 402      -0.088   8.595  45.641  1.00  0.00           C  
+HETATM    4  C2  ICQ A 402      -1.413   9.310  45.485  1.00  0.00           C  
+HETATM    5  C3  ICQ A 402       1.475   8.748  43.744  1.00  0.00           C  
+HETATM    6  C4  ICQ A 402       1.325  10.161  43.230  1.00  0.00           C  
+HETATM    7  C5  ICQ A 402       0.418  12.308  43.723  1.00  0.00           C  
+HETATM    8  C6  ICQ A 402      -0.337  13.154  44.517  1.00  0.00           C  
+HETATM    9  N2  ICQ A 402       1.646  15.989  40.882  1.00  0.00           N  
+HETATM   10  C7  ICQ A 402      -0.415  14.496  44.187  1.00  0.00           C  
+HETATM   11  C8  ICQ A 402       0.258  14.985  43.081  1.00  0.00           C  
+HETATM   12  C9  ICQ A 402       1.023  14.139  42.280  1.00  0.00           C  
+HETATM   13  C10 ICQ A 402       1.091  12.785  42.608  1.00  0.00           C  
+HETATM   14  C11 ICQ A 402       1.771  14.674  41.120  1.00  0.00           C  
+HETATM   15  N3  ICQ A 402       2.366  17.865  39.739  1.00  0.00           N  
+HETATM   16  C12 ICQ A 402       3.165  14.320  39.336  1.00  0.00           C  
+HETATM   17  C13 ICQ A 402       3.963  13.450  38.557  1.00  0.00           C  
+HETATM   18  C14 ICQ A 402       4.637  13.921  37.467  1.00  0.00           C  
+HETATM   19  N4  ICQ A 402      -0.069  21.729  42.804  1.00  0.00           N  
+HETATM   20  O   ICQ A 402       2.547   8.166  43.613  1.00  0.00           O  
+HETATM   21  N   ICQ A 402       0.412   8.188  44.324  1.00  0.00           N  
+HETATM   22  C   ICQ A 402      -0.208   7.384  46.537  1.00  0.00           C  
+HETATM   23  C18 ICQ A 402       2.307  16.518  39.856  1.00  0.00           C  
+HETATM   24  C17 ICQ A 402       3.094  15.688  38.981  1.00  0.00           C  
+HETATM   25  C16 ICQ A 402       3.800  16.126  37.833  1.00  0.00           C  
+HETATM   26  C15 ICQ A 402       4.546  15.253  37.099  1.00  0.00           C  
+HETATM   27  C19 ICQ A 402       1.769  18.874  40.518  1.00  0.00           C  
+HETATM   28  C24 ICQ A 402       2.075  20.198  40.210  1.00  0.00           C  
+HETATM   29  C23 ICQ A 402       1.519  21.241  40.932  1.00  0.00           C  
+HETATM   30  C22 ICQ A 402       0.632  20.939  41.952  1.00  0.00           C  
+HETATM   31  N5  ICQ A 402      -0.850  20.994  43.646  1.00  0.00           N  
+HETATM   32  C25 ICQ A 402      -0.639  19.730  43.330  1.00  0.00           C  
+HETATM   33  C21 ICQ A 402       0.291  19.613  42.266  1.00  0.00           C  
+HETATM   34  C20 ICQ A 402       0.875  18.570  41.544  1.00  0.00           C  
+CONECT    1    6    7
+CONECT    2   14   16
+CONECT    2   14
+CONECT    3    4   21   22
+CONECT    4    3
+CONECT    5    6   20   21
+CONECT    5   20
+CONECT    6    1    5
+CONECT    7    1    8   13
+CONECT    7   13
+CONECT    8    7   10
+CONECT    8   10
+CONECT    9   14   23
+CONECT    9   23
+CONECT   10    8   11
+CONECT   10    8
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12   11   13   14
+CONECT   12   11
+CONECT   13    7   12
+CONECT   13    7
+CONECT   14    2    9   12
+CONECT   14    2
+CONECT   15   23   27
+CONECT   16    2   17   24
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   17   26
+CONECT   18   26
+CONECT   19   30   31
+CONECT   20    5
+CONECT   20    5
+CONECT   21    3    5
+CONECT   22    3
+CONECT   23    9   15   24
+CONECT   23    9
+CONECT   24   16   23   25
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26   18   25
+CONECT   26   18
+CONECT   27   15   28   34
+CONECT   27   34
+CONECT   28   27   29
+CONECT   28   29
+CONECT   29   28   30
+CONECT   29   28
+CONECT   30   19   29   33
+CONECT   30   33
+CONECT   31   19   32
+CONECT   31   32
+CONECT   32   31   33
+CONECT   32   31
+CONECT   33   30   32   34
+CONECT   33   30
+CONECT   34   27   33
+CONECT   34   27
+ENDMDL
+END   

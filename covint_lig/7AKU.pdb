@@ -1,0 +1,76 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7AKU
+MODEL        1
+ATOM      1  N   CYS A 145       7.061  -4.938  16.446  1.00 20.90           N1+
+ATOM      2  CA  CYS A 145       8.460  -5.308  16.282  1.00 15.43           C  
+ATOM      3  C   CYS A 145       8.540  -6.710  15.677  1.00 20.58           C  
+ATOM      4  O   CYS A 145       7.801  -7.616  16.063  1.00 26.34           O  
+ATOM      5  CB  CYS A 145       9.180  -5.236  17.607  1.00 19.10           C  
+ATOM      6  SG  CYS A 145       9.167  -3.589  18.347  1.00 23.00           S  
+TER       7      CYS A 145
+HETATM    8  C10 RN2 A 401      11.656  -1.287  22.778  1.00 21.95           C  
+HETATM    9  C13 RN2 A 401      13.635  -1.528  24.257  1.00 34.41           C  
+HETATM   10  C15 RN2 A 401      10.176   2.019  21.660  1.00 24.04           C  
+HETATM   11  C20 RN2 A 401       7.317   4.770  21.750  1.00 27.64           C  
+HETATM   12  C21 RN2 A 401       6.042   4.819  21.203  1.00 30.59           C  
+HETATM   13  C22 RN2 A 401       5.174   3.744  21.340  1.00 28.31           C  
+HETATM   14  C24 RN2 A 401       6.852   2.556  22.571  1.00 30.22           C  
+HETATM   15  C01 RN2 A 401       5.708   2.429  18.551  1.00 25.73           C  
+HETATM   16  C02 RN2 A 401       5.618   0.969  18.999  1.00 23.70           C  
+HETATM   17  C03 RN2 A 401       6.925   0.488  19.655  1.00 21.03           C  
+HETATM   18  C04 RN2 A 401       7.217  -0.873  19.040  1.00 25.65           C  
+HETATM   19  C05 RN2 A 401       7.883  -1.965  19.975  1.00 21.20           C  
+HETATM   20  C07 RN2 A 401       9.561  -0.826  21.457  1.00 31.37           C  
+HETATM   21  C09 RN2 A 401      11.001  -0.360  21.779  1.00 17.29           C  
+HETATM   22  C11 RN2 A 401      13.128  -0.981  22.917  1.00 28.16           C  
+HETATM   23  C12 RN2 A 401      13.904  -1.671  21.793  1.00 32.46           C  
+HETATM   24  C18 RN2 A 401       9.128   3.553  23.060  1.00 25.83           C  
+HETATM   25  C19 RN2 A 401       7.727   3.632  22.435  1.00 32.18           C  
+HETATM   26  C23 RN2 A 401       5.581   2.616  22.025  1.00 27.07           C  
+HETATM   27  C25 RN2 A 401       7.647  -3.208  19.267  1.00 19.89           C  
+HETATM   28  N06 RN2 A 401       9.223  -1.558  20.204  1.00 29.60           N  
+HETATM   29  N14 RN2 A 401      10.934   0.965  22.340  1.00 17.95           N  
+HETATM   30  O08 RN2 A 401       8.683  -0.581  22.224  1.00 28.61           O  
+HETATM   31  O16 RN2 A 401       9.592   1.779  20.658  1.00 26.14           O  
+HETATM   32  O17 RN2 A 401      10.124   3.341  22.141  1.00 19.86           O  
+HETATM   33  O26 RN2 A 401       7.294  -4.338  19.876  1.00 26.92           O  
+CONECT    8   21   22
+CONECT    9   22
+CONECT   10   29   31   32
+CONECT   10   31
+CONECT   11   12   25
+CONECT   11   25
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   26
+CONECT   13   12
+CONECT   14   25   26
+CONECT   14   26
+CONECT   15   16
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   18   17   19
+CONECT   19   18   27   28
+CONECT   20   21   28   30
+CONECT   20   30
+CONECT   21    8   20   29
+CONECT   22    8    9   23
+CONECT   23   22
+CONECT   24   25   32
+CONECT   25   11   14   24
+CONECT   25   11
+CONECT   26   13   14
+CONECT   26   14
+CONECT   27    6   19   33
+CONECT   28   19   20
+CONECT   29   10   21
+CONECT   30   20
+CONECT   30   20
+CONECT   31   10
+CONECT   31   10
+CONECT   32   10   24
+CONECT   33   27
+ENDMDL
+END   

@@ -1,0 +1,78 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5iev_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C5  R0N A1001       0.646  19.307  41.386  1.00  0.00           C  
+HETATM    2  C6  R0N A1001       0.341  17.958  41.419  1.00  0.00           C  
+HETATM    3  C8  R0N A1001      -1.063  18.329  43.268  1.00  0.00           C  
+HETATM    4  C10 R0N A1001       0.086  20.134  42.363  1.00  0.00           C  
+HETATM    5  C13 R0N A1001      -2.225  15.558  43.523  1.00  0.00           C  
+HETATM    6  C15 R0N A1001      -3.443  14.183  45.077  1.00  0.00           C  
+HETATM    7  C17 R0N A1001      -3.003  16.424  45.630  1.00  0.00           C  
+HETATM    8  C21 R0N A1001      -4.260  12.158  47.188  1.00  0.00           C  
+HETATM    9  C22 R0N A1001      -2.965  11.869  47.997  1.00  0.00           C  
+HETATM   10  C26 R0N A1001       0.271  15.562  38.824  1.00  0.00           C  
+HETATM   11  C28 R0N A1001      -0.397  16.609  37.968  1.00  0.00           C  
+HETATM   12  C23 R0N A1001      -3.756  10.729  47.349  1.00  0.00           C  
+HETATM   13  S18 R0N A1001      -4.149  12.653  45.449  1.00  0.00           S  
+HETATM   14  N19 R0N A1001      -3.433  11.527  44.587  1.00  0.00           N1-
+HETATM   15  O20 R0N A1001      -5.536  12.738  44.938  1.00  0.00           O1-
+HETATM   16  C16 R0N A1001      -3.581  15.219  45.969  1.00  0.00           C  
+HETATM   17  C14 R0N A1001      -2.780  14.337  43.867  1.00  0.00           C  
+HETATM   18  C12 R0N A1001      -2.323  16.626  44.420  1.00  0.00           C  
+HETATM   19  N11 R0N A1001      -1.861  17.867  44.229  1.00  0.00           N  
+HETATM   20  N7  R0N A1001      -0.514  17.520  42.371  1.00  0.00           N  
+HETATM   21  N9  R0N A1001      -0.705  19.632  43.286  1.00  0.00           N  
+HETATM   22  C2  R0N A1001       1.600  19.899  40.367  1.00  0.00           C  
+HETATM   23  F3  R0N A1001       1.626  21.280  40.544  1.00  0.00           F  
+HETATM   24  F4  R0N A1001       2.803  19.430  40.557  1.00  0.00           F  
+HETATM   25  F1  R0N A1001       1.269  19.510  39.113  1.00  0.00           F  
+HETATM   26  O24 R0N A1001       0.869  17.058  40.512  1.00  0.00           O  
+HETATM   27  C25 R0N A1001       0.132  15.901  40.336  1.00  0.00           C  
+HETATM   28  C29 R0N A1001       0.884  14.817  41.105  1.00  0.00           C  
+HETATM   29  O27 R0N A1001       1.673  15.461  38.550  1.00  0.00           O  
+CONECT    1    2    4   22
+CONECT    1    4
+CONECT    2    1   20   26
+CONECT    2   20
+CONECT    3   19   20   21
+CONECT    3   21
+CONECT    4    1   21
+CONECT    4    1
+CONECT    5   17   18
+CONECT    5   17
+CONECT    6   13   16   17
+CONECT    6   16
+CONECT    7   16   18
+CONECT    7   18
+CONECT    8    9   12   13
+CONECT    9    8   12
+CONECT   10   11   27   29
+CONECT   11   10
+CONECT   12    8    9
+CONECT   13    6    8   14   15
+CONECT   14   13
+CONECT   15   13
+CONECT   16    6    7
+CONECT   16    6
+CONECT   17    5    6
+CONECT   17    5
+CONECT   18    5    7   19
+CONECT   18    7
+CONECT   19    3   18
+CONECT   20    2    3
+CONECT   20    2
+CONECT   21    3    4
+CONECT   21    3
+CONECT   22    1   23   24   25
+CONECT   23   22
+CONECT   24   22
+CONECT   25   22
+CONECT   26    2   27
+CONECT   27   10   26   28
+CONECT   28   27
+CONECT   29   10
+ENDMDL
+END   

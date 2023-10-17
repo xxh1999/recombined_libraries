@@ -1,0 +1,104 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6ccf_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CAJ H1N A 501      -2.753  14.099  51.646  1.00  0.00           C  
+HETATM    2  CAL H1N A 501      -1.667  13.950  52.696  1.00  0.00           C  
+HETATM    3  CAW H1N A 501      -1.836  12.662  53.480  1.00  0.00           C  
+HETATM    4  CAV H1N A 501      -1.979  11.471  52.543  1.00  0.00           C  
+HETATM    5  CAK H1N A 501      -3.039  11.725  51.484  1.00  0.00           C  
+HETATM    6  NAI H1N A 501      -2.779  12.953  50.715  1.00  0.00           N1+
+HETATM    7  CAH H1N A 501      -3.787  13.135  49.656  1.00  0.00           C  
+HETATM    8  CAG H1N A 501      -3.448  14.225  48.667  1.00  0.00           C  
+HETATM    9  CAS H1N A 501      -2.514  14.014  47.665  1.00  0.00           C  
+HETATM   10  CAR H1N A 501      -2.167  15.027  46.786  1.00  0.00           C  
+HETATM   11  CAF H1N A 501      -4.039  15.475  48.763  1.00  0.00           C  
+HETATM   12  CAE H1N A 501      -3.702  16.496  47.891  1.00  0.00           C  
+HETATM   13  CAQ H1N A 501      -2.758  16.283  46.891  1.00  0.00           C  
+HETATM   14  NAP H1N A 501      -2.471  17.390  46.038  1.00  0.00           N  
+HETATM   15  CAO H1N A 501      -1.641  17.598  44.934  1.00  0.00           C  
+HETATM   16  CAN H1N A 501      -0.961  16.455  44.312  1.00  0.00           C  
+HETATM   17  CAM H1N A 501       0.409  16.272  44.474  1.00  0.00           C  
+HETATM   18  CAC H1N A 501       1.057  15.234  43.827  1.00  0.00           C  
+HETATM   19  CAA H1N A 501       0.345  14.358  43.027  1.00  0.00           C  
+HETATM   20  CAB H1N A 501      -1.017  14.525  42.870  1.00  0.00           C  
+HETATM   21  CAD H1N A 501      -1.669  15.569  43.504  1.00  0.00           C  
+HETATM   22  CBD H1N A 501      -1.539  18.884  44.404  1.00  0.00           C  
+HETATM   23  CBC H1N A 501      -0.884  19.411  43.203  1.00  0.00           C  
+HETATM   24  CBB H1N A 501      -0.110  18.858  42.176  1.00  0.00           C  
+HETATM   25  CBJ H1N A 501      -2.231  20.049  45.015  1.00  0.00           C  
+HETATM   26  OBK H1N A 501      -2.889  20.065  46.055  1.00  0.00           O  
+HETATM   27  NBI H1N A 501      -2.002  21.114  44.212  1.00  0.00           N  
+HETATM   28  CBH H1N A 501      -1.208  20.779  43.131  1.00  0.00           C  
+HETATM   29  CBG H1N A 501      -0.771  21.579  42.086  1.00  0.00           C  
+HETATM   30  CBF H1N A 501       0.003  21.020  41.086  1.00  0.00           C  
+HETATM   31  CBA H1N A 501       0.311  19.659  41.104  1.00  0.00           C  
+HETATM   32  NAZ H1N A 501       0.996  19.121  39.962  1.00  0.00           N  
+HETATM   33  SAY H1N A 501       1.420  17.577  39.696  1.00  0.00           S2+
+HETATM   34  OBE H1N A 501       2.053  17.068  40.878  1.00  0.00           O1-
+HETATM   35  OAU H1N A 501       2.138  17.553  38.455  1.00  0.00           O1-
+HETATM   36  CAX H1N A 501      -0.200  16.919  39.468  1.00  0.00           C  
+HETATM   37  CAT H1N A 501      -0.197  15.415  39.431  1.00  0.00           C  
+CONECT    1    2    6
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    1    5    7
+CONECT    7    6    8
+CONECT    8    7    9   11
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    9   13
+CONECT   10   13
+CONECT   11    8   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   10   12   14
+CONECT   13   10
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16   22
+CONECT   15   14
+CONECT   16   15   17   21
+CONECT   16   21
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   16   20
+CONECT   21   16
+CONECT   22   15   23   25
+CONECT   23   22   24   28
+CONECT   23   28
+CONECT   24   23   31
+CONECT   24   31
+CONECT   25   22   26   27
+CONECT   25   26
+CONECT   26   25
+CONECT   26   25
+CONECT   27   25   28
+CONECT   28   23   27   29
+CONECT   28   23
+CONECT   29   28   30
+CONECT   29   30
+CONECT   30   29   31
+CONECT   30   29
+CONECT   31   24   30   32
+CONECT   31   24
+CONECT   32   31   33
+CONECT   33   32   34   35   36
+CONECT   34   33
+CONECT   35   33
+CONECT   36   33   37
+CONECT   37   36
+ENDMDL
+END   

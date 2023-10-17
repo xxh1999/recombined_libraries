@@ -1,0 +1,33 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4ZVS
+MODEL        1
+ATOM      1  N   VAL E   3      97.508  52.130  -2.638  1.00 52.19           N1+
+ATOM      2  CA  VAL E   3      96.355  52.948  -2.263  1.00 54.11           C  
+ATOM      3  C   VAL E   3      95.364  53.059  -3.427  1.00 55.50           C  
+ATOM      4  O   VAL E   3      95.748  53.091  -4.597  1.00 58.33           O  
+ATOM      5  CB  VAL E   3      96.793  54.350  -1.759  1.00 52.71           C  
+ATOM      6  CG1 VAL E   3      97.371  54.280  -0.340  1.00 54.19           C  
+ATOM      7  CG2 VAL E   3      97.743  55.101  -2.712  1.00 48.06           C  
+TER       8      VAL E   3
+HETATM    9  C   ASJ E   4      92.836  55.135  -3.822  1.00 51.24           C  
+HETATM   10  N   ASJ E   4      94.083  53.174  -3.060  1.00 51.60           N  
+HETATM   11  O   ASJ E   4      91.841  55.548  -4.731  1.00 53.74           O  
+HETATM   12  CA  ASJ E   4      92.976  53.599  -3.908  1.00 51.09           C  
+HETATM   13  CB  ASJ E   4      91.679  52.824  -3.551  1.00 52.24           C  
+HETATM   14  CG  ASJ E   4      91.753  51.332  -3.892  1.00 54.12           C  
+HETATM   15  OD1 ASJ E   4      90.935  50.572  -3.331  1.00 49.61           O1-
+HETATM   16  OD2 ASJ E   4      92.571  50.960  -4.761  1.00 56.97           O  
+CONECT    9   11   12
+CONECT   10    3   12
+CONECT   11    9
+CONECT   12    9   10   13
+CONECT   13   12   14
+CONECT   14   13   15   16
+CONECT   14   16
+CONECT   15   14
+CONECT   16   14
+CONECT   16   14
+ENDMDL
+END   

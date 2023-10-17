@@ -1,0 +1,76 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3t9i_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N1  Q3T A 401       0.122  20.772  43.335  1.00  0.00           N  
+HETATM    2  C2  Q3T A 401       0.996  19.391  41.831  1.00  0.00           C  
+HETATM    3  C3  Q3T A 401       1.107  20.681  41.365  1.00  0.00           C  
+HETATM    4  C4  Q3T A 401       0.386  19.461  43.092  1.00  0.00           C  
+HETATM    5  N5  Q3T A 401       0.579  21.545  42.255  1.00  0.00           N  
+HETATM    6  N6  Q3T A 401       1.671  20.988  40.174  1.00  0.00           N  
+HETATM    7  C7  Q3T A 401       2.168  19.998  39.398  1.00  0.00           C  
+HETATM    8  C8  Q3T A 401       1.491  18.345  41.051  1.00  0.00           C  
+HETATM    9  C9  Q3T A 401       2.758  20.378  38.079  1.00  0.00           C  
+HETATM   10  C10 Q3T A 401       2.164  21.435  37.395  1.00  0.00           C  
+HETATM   11  C11 Q3T A 401       2.639  21.837  36.153  1.00  0.00           C  
+HETATM   12  C12 Q3T A 401       3.713  21.176  35.587  1.00  0.00           C  
+HETATM   13  C13 Q3T A 401      -0.005  18.352  44.016  1.00  0.00           C  
+HETATM   14  C14 Q3T A 401       2.075  18.663  39.818  1.00  0.00           C  
+HETATM   15  C15 Q3T A 401       3.829  19.704  37.503  1.00  0.00           C  
+HETATM   16  C16 Q3T A 401       4.309  20.105  36.257  1.00  0.00           C  
+HETATM   17  O17 Q3T A 401       2.059  22.883  35.476  1.00  0.00           O  
+HETATM   18  O18 Q3T A 401       4.165  21.587  34.367  1.00  0.00           O  
+HETATM   19  C19 Q3T A 401      -0.247  18.619  45.362  1.00  0.00           C  
+HETATM   20  C20 Q3T A 401      -0.169  17.055  43.539  1.00  0.00           C  
+HETATM   21  C21 Q3T A 401       0.894  23.532  35.984  1.00  0.00           C  
+HETATM   22  C22 Q3T A 401      -0.553  16.030  44.406  1.00  0.00           C  
+HETATM   23  C23 Q3T A 401      -0.629  17.593  46.231  1.00  0.00           C  
+HETATM   24  C24 Q3T A 401      -0.783  16.297  45.756  1.00  0.00           C  
+CONECT    1    4    5
+CONECT    1    4
+CONECT    2    3    4    8
+CONECT    2    8
+CONECT    3    2    5    6
+CONECT    3    6
+CONECT    4    1    2   13
+CONECT    4    1
+CONECT    5    1    3
+CONECT    6    3    7
+CONECT    6    3
+CONECT    7    6    9   14
+CONECT    7   14
+CONECT    8    2   14
+CONECT    8    2
+CONECT    9    7   10   15
+CONECT    9   15
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   12   17
+CONECT   11   10
+CONECT   12   11   16   18
+CONECT   12   16
+CONECT   13    4   19   20
+CONECT   13   20
+CONECT   14    7    8
+CONECT   14    7
+CONECT   15    9   16
+CONECT   15    9
+CONECT   16   12   15
+CONECT   16   12
+CONECT   17   11   21
+CONECT   18   12
+CONECT   19   13   23
+CONECT   19   23
+CONECT   20   13   22
+CONECT   20   13
+CONECT   21   17
+CONECT   22   20   24
+CONECT   22   24
+CONECT   23   19   24
+CONECT   23   19
+CONECT   24   22   23
+CONECT   24   22
+ENDMDL
+END   

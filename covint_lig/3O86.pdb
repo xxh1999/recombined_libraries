@@ -1,0 +1,53 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3O86
+MODEL        1
+ATOM      1  N   SER A  64      27.041   1.710  16.198  1.00 11.98           N1+
+ATOM      2  CA  SER A  64      28.390   2.178  16.514  1.00 11.77           C  
+ATOM      3  C   SER A  64      29.209   1.319  17.506  1.00 11.60           C  
+ATOM      4  O   SER A  64      30.335   1.697  17.826  1.00 12.78           O  
+ATOM      5  CB  SER A  64      28.298   3.606  17.048  1.00 14.45           C  
+ATOM      6  OG  SER A  64      27.808   4.465  16.032  1.00 16.94           O  
+TER       7      SER A  64
+HETATM    8  OAA BSF A   1      22.884   8.135  14.334  0.84 26.30           O  
+HETATM    9  OAB BSF A   1      24.778   7.665  12.697  0.84 24.99           O  
+HETATM   10  OAC BSF A   1      25.461   4.335  16.589  0.84 16.24           O  
+HETATM   11  OAD BSF A   1      26.758   6.154  17.429  0.84 16.69           O  
+HETATM   12  CAF BSF A   1      21.170   6.025   9.670  0.84 28.74           C  
+HETATM   13  CAG BSF A   1      22.454   5.451   9.719  0.84 31.13           C  
+HETATM   14  CAH BSF A   1      20.521   6.402  10.861  0.84 32.24           C  
+HETATM   15  CAI BSF A   1      23.104   5.287  10.955  0.84 26.98           C  
+HETATM   16  CAJ BSF A   1      21.165   6.226  12.100  0.84 27.50           C  
+HETATM   17  CAK BSF A   1      26.208   6.123  14.975  0.84 18.10           C  
+HETATM   18  CAL BSF A   1      23.204   5.603  13.463  0.84 20.05           C  
+HETATM   19  NAM BSF A   1      24.995   6.913  15.154  0.84 22.23           N  
+HETATM   20  CAN BSF A   1      22.467   5.690  12.146  0.84 22.77           C  
+HETATM   21  SAP BSF A   1      23.948   7.247  13.836  0.84 23.44           S  
+HETATM   22  BOR BSF A   1      26.575   5.249  16.280  0.84 14.81           B1-
+CONECT    8   21
+CONECT    8   21
+CONECT    9   21
+CONECT    9   21
+CONECT   10   22
+CONECT   11   22
+CONECT   12   13   14
+CONECT   12   13
+CONECT   13   12   15
+CONECT   13   12
+CONECT   14   12   16
+CONECT   14   16
+CONECT   15   13   20
+CONECT   15   20
+CONECT   16   14   20
+CONECT   16   14
+CONECT   17   19   22
+CONECT   18   20   21
+CONECT   19   17   21
+CONECT   20   15   16   18
+CONECT   20   15
+CONECT   21    8    9   18   19
+CONECT   21    8    9
+CONECT   22    6   10   11   17
+ENDMDL
+END   

@@ -1,0 +1,35 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2QL5
+MODEL        1
+ATOM      1  N   GLN E 704      49.387 -17.858  33.525  1.00 71.78           N1+
+ATOM      2  CA  GLN E 704      49.598 -19.261  33.176  1.00 71.08           C  
+ATOM      3  C   GLN E 704      49.120 -20.164  34.325  1.00 69.73           C  
+ATOM      4  O   GLN E 704      49.243 -19.815  35.501  1.00 70.69           O  
+ATOM      5  CB  GLN E 704      51.094 -19.531  32.895  1.00 72.27           C  
+ATOM      6  CG  GLN E 704      51.721 -18.656  31.785  1.00 74.91           C  
+ATOM      7  CD  GLN E 704      52.326 -17.352  32.317  1.00 76.64           C  
+ATOM      8  OE1 GLN E 704      53.100 -17.363  33.271  1.00 77.87           O  
+ATOM      9  NE2 GLN E 704      51.979 -16.218  31.708  1.00 75.16           N  
+TER      10      GLN E 704
+HETATM   11  C   ASJ E 705      49.274 -23.613  34.744  1.00 62.19           C  
+HETATM   12  N   ASJ E 705      48.610 -21.345  33.956  1.00 66.88           N  
+HETATM   13  O   ASJ E 705      50.180 -23.536  35.823  1.00 65.09           O  
+HETATM   14  CA  ASJ E 705      48.244 -22.461  34.829  1.00 63.52           C  
+HETATM   15  CB  ASJ E 705      46.815 -22.947  34.482  1.00 63.85           C  
+HETATM   16  CG  ASJ E 705      45.731 -21.968  34.933  1.00 63.50           C  
+HETATM   17  OD1 ASJ E 705      44.653 -21.951  34.303  1.00 63.17           O1-
+HETATM   18  OD2 ASJ E 705      45.951 -21.284  35.954  1.00 64.74           O  
+CONECT   11   13   14
+CONECT   12    3   14
+CONECT   13   11
+CONECT   14   11   12   15
+CONECT   15   14   16
+CONECT   16   15   17   18
+CONECT   16   18
+CONECT   17   16
+CONECT   18   16
+CONECT   18   16
+ENDMDL
+END   

@@ -1,0 +1,51 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6G3Z
+MODEL        1
+ATOM      1  N   LYS B 155     -53.874  37.625   1.204  1.00 58.77           N1+
+ATOM      2  CA  LYS B 155     -54.849  36.601   0.853  1.00 59.31           C  
+ATOM      3  C   LYS B 155     -54.579  36.258  -0.616  1.00 65.86           C  
+ATOM      4  O   LYS B 155     -54.605  37.148  -1.466  1.00 60.03           O  
+ATOM      5  CB  LYS B 155     -56.268  37.188   0.968  1.00 55.97           C  
+ATOM      6  CG  LYS B 155     -57.372  36.165   0.638  1.00 74.56           C  
+ATOM      7  CD  LYS B 155     -58.735  36.835   0.479  1.00 74.69           C  
+ATOM      8  CE  LYS B 155     -59.833  35.852   0.058  1.00 66.17           C  
+ATOM      9  NZ  LYS B 155     -60.939  36.589  -0.512  1.00 68.37           N1+
+TER      10      LYS B 155
+HETATM   11  C4  ELE B 301     -62.491  34.218  -2.252  0.52 83.47           C  
+HETATM   12  C5  ELE B 301     -63.896  33.880  -2.819  0.52 83.53           C  
+HETATM   13  C6  ELE B 301     -63.911  33.479  -4.299  0.52 89.44           C  
+HETATM   14  C3  ELE B 301     -62.444  34.545  -0.731  0.52 72.18           C  
+HETATM   15  C1  ELE B 301     -63.333  37.016  -0.634  0.52 74.51           C  
+HETATM   16  C2  ELE B 301     -62.245  36.011  -0.228  0.52 74.97           C  
+HETATM   17  O11 ELE B 301     -64.418  36.589  -1.063  0.52 71.00           O  
+HETATM   18  O12 ELE B 301     -63.081  38.228  -0.460  0.52 71.15           O1-
+HETATM   19  O1P ELE B 301     -61.932  30.558  -5.917  0.52 91.28           O  
+HETATM   20  O2P ELE B 301     -63.381  30.076  -3.850  0.52 91.72           O  
+HETATM   21  O3P ELE B 301     -64.444  31.029  -5.972  0.52 91.78           O1-
+HETATM   22  O4  ELE B 301     -61.876  35.235  -3.013  0.52 78.32           O  
+HETATM   23  O5  ELE B 301     -64.492  32.824  -2.102  0.52 89.44           O  
+HETATM   24  O6  ELE B 301     -62.866  32.576  -4.620  0.52 93.85           O  
+HETATM   25  P   ELE B 301     -63.161  31.019  -5.236  0.52107.40           P  
+CONECT   11   12   14   22
+CONECT   12   11   13   23
+CONECT   13   12   24
+CONECT   14   11   16
+CONECT   15   16   17   18
+CONECT   15   17
+CONECT   16    9   14   15
+CONECT   17   15
+CONECT   17   15
+CONECT   18   15
+CONECT   19   25
+CONECT   19   25
+CONECT   20   25
+CONECT   21   25
+CONECT   22   11
+CONECT   23   12
+CONECT   24   13   25
+CONECT   25   19   20   21   24
+CONECT   25   19
+ENDMDL
+END   

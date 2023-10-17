@@ -1,0 +1,68 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3oxt_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  Q3S A2001       4.685  14.222  36.673  1.00  0.00           C  
+HETATM    2  N1  Q3S A2001       2.596  14.001  35.429  1.00  0.00           N  
+HETATM    3  O1  Q3S A2001       2.667  16.546  36.463  1.00  0.00           O  
+HETATM    4  C2  Q3S A2001       3.167  14.224  36.721  1.00  0.00           C  
+HETATM    5  N2  Q3S A2001       2.245  15.716  38.595  1.00  0.00           N  
+HETATM    6  O2  Q3S A2001      -0.392  21.299  43.491  1.00  0.00           O  
+HETATM    7  C3  Q3S A2001       2.679  15.575  37.214  1.00  0.00           C  
+HETATM    8  N3  Q3S A2001       1.796  16.903  39.142  1.00  0.00           N  
+HETATM    9  O3  Q3S A2001       1.717  19.611  39.539  1.00  0.00           O  
+HETATM   10  C4  Q3S A2001       1.493  16.875  40.443  1.00  0.00           C  
+HETATM   11  C5  Q3S A2001       0.995  18.074  41.224  1.00  0.00           C  
+HETATM   12  C6  Q3S A2001       5.338  14.607  35.507  1.00  0.00           C  
+HETATM   13  C7  Q3S A2001       6.733  14.614  35.449  1.00  0.00           C  
+HETATM   14  C8  Q3S A2001       7.474  14.237  36.570  1.00  0.00           C  
+HETATM   15  C9  Q3S A2001       6.823  13.864  37.736  1.00  0.00           C  
+HETATM   16  C10 Q3S A2001       5.431  13.851  37.797  1.00  0.00           C  
+HETATM   17  C11 Q3S A2001       0.406  17.839  42.464  1.00  0.00           C  
+HETATM   18  C12 Q3S A2001       0.293  16.397  42.927  1.00  0.00           C  
+HETATM   19  C13 Q3S A2001      -0.073  18.913  43.232  1.00  0.00           C  
+HETATM   20  C14 Q3S A2001       0.061  20.214  42.754  1.00  0.00           C  
+HETATM   21  C15 Q3S A2001       0.651  20.442  41.515  1.00  0.00           C  
+HETATM   22  C16 Q3S A2001       1.119  19.369  40.755  1.00  0.00           C  
+CONECT    1    4   12   16
+CONECT    1   16
+CONECT    2    4
+CONECT    3    7
+CONECT    3    7
+CONECT    4    1    2    7
+CONECT    5    7    8
+CONECT    6   20
+CONECT    7    3    4    5
+CONECT    7    3
+CONECT    8    5   10
+CONECT    8   10
+CONECT    9   22
+CONECT   10    8   11
+CONECT   10    8
+CONECT   11   10   17   22
+CONECT   11   22
+CONECT   12    1   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16    1   15
+CONECT   16    1
+CONECT   17   11   18   19
+CONECT   17   19
+CONECT   18   17
+CONECT   19   17   20
+CONECT   19   17
+CONECT   20    6   19   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22    9   11   21
+CONECT   22   11
+ENDMDL
+END   

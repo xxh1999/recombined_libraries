@@ -1,0 +1,92 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1urw_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C22 I1P A1300      -3.086  16.485  46.008  1.00  0.00           C  
+HETATM    2  C1  I1P A1300       3.081  18.050  37.231  1.00  0.00           C  
+HETATM    3  C2  I1P A1300       2.489  16.823  37.510  1.00  0.00           C  
+HETATM    4  C7  I1P A1300       0.490  17.618  40.455  1.00  0.00           C  
+HETATM    5  C6  I1P A1300       2.834  19.199  37.974  1.00  0.00           C  
+HETATM    6  C3  I1P A1300       1.539  16.768  38.750  1.00  0.00           C  
+HETATM    7  N5  I1P A1300       2.020  19.182  39.023  1.00  0.00           N  
+HETATM    8  C11 I1P A1300       0.102  19.901  41.399  1.00  0.00           C  
+HETATM    9  C10 I1P A1300      -0.037  18.467  41.479  1.00  0.00           C  
+HETATM   10  C9  I1P A1300       0.215  16.198  40.273  1.00  0.00           C  
+HETATM   11  C17 I1P A1300      -2.479  16.771  44.752  1.00  0.00           C  
+HETATM   12  C14 I1P A1300      -1.173  18.740  43.507  1.00  0.00           C  
+HETATM   13  C13 I1P A1300      -0.454  20.663  42.463  1.00  0.00           C  
+HETATM   14  N15 I1P A1300      -0.683  17.931  42.553  1.00  0.00           N  
+HETATM   15  C18 I1P A1300      -2.530  15.784  43.709  1.00  0.00           C  
+HETATM   16  C19 I1P A1300      -3.180  14.556  43.913  1.00  0.00           C  
+HETATM   17  C20 I1P A1300      -3.786  14.304  45.162  1.00  0.00           C  
+HETATM   18  N4  I1P A1300       1.426  17.966  39.457  1.00  0.00           N  
+HETATM   19  N8  I1P A1300       0.893  15.641  39.174  1.00  0.00           N  
+HETATM   20  N13 I1P A1300      -1.081  20.074  43.497  1.00  0.00           N  
+HETATM   21  N16 I1P A1300      -1.851  18.061  44.585  1.00  0.00           N  
+HETATM   22  C21 I1P A1300      -3.743  15.250  46.219  1.00  0.00           C  
+HETATM   23  S23 I1P A1300      -4.632  12.804  45.406  1.00  0.00           S2+
+HETATM   24  N24 I1P A1300      -3.853  11.574  44.454  1.00  0.00           N  
+HETATM   25  C25 I1P A1300      -2.593  11.112  45.078  1.00  0.00           C  
+HETATM   26  C26 I1P A1300      -2.261   9.678  44.648  1.00  0.00           C  
+HETATM   27  C27 I1P A1300      -3.360   8.652  45.057  1.00  0.00           C  
+HETATM   28  N28 I1P A1300      -3.014   7.186  44.987  1.00  0.00           N1+
+HETATM   29  C29 I1P A1300      -2.192   6.691  46.125  1.00  0.00           C  
+HETATM   30  C30 I1P A1300      -2.387   6.797  43.678  1.00  0.00           C  
+HETATM   31  O31 I1P A1300      -6.125  12.962  44.892  1.00  0.00           O1-
+HETATM   32  O32 I1P A1300      -4.623  12.401  46.936  1.00  0.00           O1-
+CONECT    1   11   22
+CONECT    1   22
+CONECT    2    3    5
+CONECT    2    3
+CONECT    3    2    6
+CONECT    3    2
+CONECT    4    9   10   18
+CONECT    4   10
+CONECT    5    2    7
+CONECT    5    7
+CONECT    6    3   18   19
+CONECT    6   19
+CONECT    7    5   18
+CONECT    7    5
+CONECT    8    9   13
+CONECT    8   13
+CONECT    9    4    8   14
+CONECT    9   14
+CONECT   10    4   19
+CONECT   10    4
+CONECT   11    1   15   21
+CONECT   11   15
+CONECT   12   14   20   21
+CONECT   12   20
+CONECT   13    8   20
+CONECT   13    8
+CONECT   14    9   12
+CONECT   14    9
+CONECT   15   11   16
+CONECT   15   11
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   16   22   23
+CONECT   17   16
+CONECT   18    4    6    7
+CONECT   19    6   10
+CONECT   19    6
+CONECT   20   12   13
+CONECT   20   12
+CONECT   21   11   12
+CONECT   22    1   17
+CONECT   22    1
+CONECT   23   17   24   31   32
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   27   29   30
+CONECT   29   28
+CONECT   30   28
+CONECT   31   23
+CONECT   32   23
+ENDMDL
+END   

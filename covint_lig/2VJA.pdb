@@ -1,0 +1,34 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2VJA
+MODEL        1
+ATOM      1  N   SER A 200      86.115  50.499  23.367  1.00 24.34           N1+
+ATOM      2  CA  SER A 200      87.022  51.511  23.906  1.00 26.15           C  
+ATOM      3  C   SER A 200      86.386  52.896  23.739  1.00 24.55           C  
+ATOM      4  O   SER A 200      85.305  53.143  24.263  1.00 25.03           O  
+ATOM      5  CB  SER A 200      88.457  51.334  23.356  1.00 26.46           C  
+ATOM      6  OG  SER A 200      89.375  52.133  24.102  1.00 30.27           O  
+TER       7      SER A 200
+HETATM    8  O7  CCD A1540      89.728  53.557  22.299  1.00 32.64           O  
+HETATM    9  C5  CCD A1540      90.294  52.923  23.407  1.00 32.67           C  
+HETATM   10  C6  CCD A1540      90.718  54.008  24.406  1.00 31.18           C  
+HETATM   11  C4  CCD A1540      91.548  52.147  22.959  1.00 32.17           C  
+HETATM   12  C3  CCD A1540      91.352  51.021  21.924  1.00 33.34           C  
+HETATM   13  C2  CCD A1540      92.745  50.415  21.651  1.00 34.40           C  
+HETATM   14  N1  CCD A1540      92.900  49.371  20.598  1.00 35.55           N1+
+HETATM   15  C9  CCD A1540      92.542  49.876  19.241  1.00 35.09           C  
+HETATM   16  C10 CCD A1540      94.338  48.989  20.581  1.00 34.56           C  
+HETATM   17  C8  CCD A1540      92.093  48.174  20.947  1.00 31.86           C  
+CONECT    8    9
+CONECT    9    6    8   10   11
+CONECT   10    9
+CONECT   11    9   12
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   13   15   16   17
+CONECT   15   14
+CONECT   16   14
+CONECT   17   14
+ENDMDL
+END   

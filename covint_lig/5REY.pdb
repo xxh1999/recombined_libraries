@@ -1,0 +1,58 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5REY
+MODEL        1
+ATOM      1  N   CYS A 145       6.410  -5.116  16.653  1.00 29.24           N1+
+ATOM      2  CA  CYS A 145       7.846  -5.315  16.531  1.00 28.39           C  
+ATOM      3  C   CYS A 145       8.109  -6.734  16.018  1.00 27.78           C  
+ATOM      4  O   CYS A 145       7.372  -7.667  16.332  1.00 27.07           O  
+ATOM      5  CB  CYS A 145       8.526  -5.069  17.885  1.00 29.66           C  
+ATOM      6  SG  CYS A 145       8.632  -3.270  18.188  1.00 29.76           S  
+TER       7      CYS A 145
+HETATM    8  N1  T4Y A 404       6.611  -2.824  21.077  0.72 35.17           N  
+HETATM    9  C4  T4Y A 404      11.424   1.198  24.652  0.72 36.98           C  
+HETATM   10  C5  T4Y A 404      10.670   0.013  24.639  0.72 36.59           C  
+HETATM   11  C6  T4Y A 404      11.036  -1.059  23.799  0.72 36.73           C  
+HETATM   12  C7  T4Y A 404      10.113  -2.271  23.755  0.72 36.23           C  
+HETATM   13  C8  T4Y A 404       9.002  -1.533  21.657  0.72 36.14           C  
+HETATM   14  C10 T4Y A 404       6.471  -1.377  21.248  0.72 35.81           C  
+HETATM   15  C13 T4Y A 404       6.452  -3.442  19.889  0.72 33.32           C  
+HETATM   16  N   T4Y A 404       8.834  -1.921  23.083  0.72 36.43           N1+
+HETATM   17  C   T4Y A 404      12.659  -2.070  22.082  0.72 35.49           C  
+HETATM   18  O   T4Y A 404       6.061  -4.606  19.806  0.72 34.45           O  
+HETATM   19  C1  T4Y A 404      12.195  -0.944  22.984  0.72 36.04           C  
+HETATM   20  C11 T4Y A 404       6.991  -3.612  22.262  0.72 35.93           C  
+HETATM   21  C12 T4Y A 404       7.701  -2.846  23.418  0.72 36.20           C  
+HETATM   22  C14 T4Y A 404       6.938  -2.745  18.617  0.72 31.99           C  
+HETATM   23  C2  T4Y A 404      12.951   0.246  23.011  0.72 36.42           C  
+HETATM   24  C3  T4Y A 404      12.562   1.316  23.835  0.72 36.44           C  
+HETATM   25  C9  T4Y A 404       7.831  -0.674  21.158  0.72 36.16           C  
+CONECT    8   14   15   20
+CONECT    9   10   24
+CONECT    9   24
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   12   19
+CONECT   11   10
+CONECT   12   11   16
+CONECT   13   16   25
+CONECT   14    8   25
+CONECT   15    8   18   22
+CONECT   15   18
+CONECT   16   12   13   21
+CONECT   17   19
+CONECT   18   15
+CONECT   18   15
+CONECT   19   11   17   23
+CONECT   19   23
+CONECT   20    8   21
+CONECT   21   16   20
+CONECT   22    6   15
+CONECT   23   19   24
+CONECT   23   19
+CONECT   24    9   23
+CONECT   24    9
+CONECT   25   13   14
+ENDMDL
+END   

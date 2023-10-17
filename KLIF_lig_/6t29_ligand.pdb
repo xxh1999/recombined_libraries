@@ -1,0 +1,95 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6t29_ligand
+MODEL        1
+HETATM    1  C1  M8Z A 410      -0.672  16.093  47.892  1.00  0.00           C  
+HETATM    2  C2  M8Z A 410       0.797  16.119  48.375  1.00  0.00           C  
+HETATM    3  C3  M8Z A 410      -1.190  17.463  48.093  1.00  0.00           C  
+HETATM    4  C4  M8Z A 410      -0.662  15.773  46.396  1.00  0.00           C  
+HETATM    5  C5  M8Z A 410      -0.775  14.458  45.971  1.00  0.00           C  
+HETATM    6  C6  M8Z A 410      -0.745  14.141  44.617  1.00  0.00           C  
+HETATM    7  C8  M8Z A 410      -0.450  16.480  44.096  1.00  0.00           C  
+HETATM    8  C9  M8Z A 410       0.476  17.557  41.992  1.00  0.00           C  
+HETATM    9  C10 M8Z A 410       0.832  18.786  41.370  1.00  0.00           C  
+HETATM   10  C11 M8Z A 410       1.584  18.662  40.205  1.00  0.00           C  
+HETATM   11  C12 M8Z A 410       1.411  16.412  40.234  1.00  0.00           C  
+HETATM   12  C13 M8Z A 410       0.942  14.005  40.026  1.00  0.00           C  
+HETATM   13  C14 M8Z A 410      -0.231  13.820  39.067  1.00  0.00           C  
+HETATM   14  C15 M8Z A 410       0.250  13.776  37.602  1.00  0.00           C  
+HETATM   15  C16 M8Z A 410       1.145  14.965  37.269  1.00  0.00           C  
+HETATM   16  C17 M8Z A 410       2.235  15.105  38.309  1.00  0.00           C  
+HETATM   17  C18 M8Z A 410       0.468  20.117  41.922  1.00  0.00           C  
+HETATM   18  C19 M8Z A 410      -0.501  16.785  45.453  1.00  0.00           C  
+HETATM   19  C20 M8Z A 410      -0.904  12.692  44.150  1.00  0.00           C  
+HETATM   20  C21 M8Z A 410      -1.517  11.707  45.210  1.00  0.00           C  
+HETATM   21  C22 M8Z A 410       0.481  12.184  43.707  1.00  0.00           C  
+HETATM   22  C23 M8Z A 410      -1.790  12.652  42.969  1.00  0.00           C  
+HETATM   23  N7  M8Z A 410      -2.439  12.666  42.035  1.00  0.00           N  
+HETATM   24  C7  M8Z A 410      -0.572  15.155  43.679  1.00  0.00           C  
+HETATM   25  N   M8Z A 410      -1.531  18.537  48.221  1.00  0.00           N  
+HETATM   26  C   M8Z A 410      -1.521  15.147  48.773  1.00  0.00           C  
+HETATM   27  N1  M8Z A 410      -0.115  17.552  43.228  1.00  0.00           N  
+HETATM   28  N3  M8Z A 410       0.739  16.384  41.399  1.00  0.00           N  
+HETATM   29  N2  M8Z A 410       1.932  17.493  39.655  1.00  0.00           N  
+HETATM   30  O   M8Z A 410       0.108  20.201  43.109  1.00  0.00           O  
+HETATM   31  N6  M8Z A 410       0.577  21.174  41.111  1.00  0.00           N  
+HETATM   32  N4  M8Z A 410       1.607  15.239  39.618  1.00  0.00           N  
+HETATM   33  N5  M8Z A 410       1.758  14.850  35.945  1.00  0.00           N1+
+CONECT    1    2    3    4   26
+CONECT    2    1
+CONECT    3    1   25
+CONECT    3   25
+CONECT    3   25
+CONECT    4    1    5   18
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    5   19   24
+CONECT    6   24
+CONECT    7   18   24   27
+CONECT    7   18
+CONECT    8    9   27   28
+CONECT    8    9
+CONECT    9    8   10   17
+CONECT    9    8
+CONECT   10    9   29
+CONECT   10   29
+CONECT   11   28   29   32
+CONECT   11   28
+CONECT   12   13   32
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   16   33
+CONECT   16   15   32
+CONECT   17    9   30   31
+CONECT   17   30
+CONECT   18    4    7
+CONECT   18    7
+CONECT   19    6   20   21   22
+CONECT   20   19
+CONECT   21   19
+CONECT   22   19   23
+CONECT   22   23
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   23   22
+CONECT   24    6    7
+CONECT   24    6
+CONECT   25    3
+CONECT   25    3
+CONECT   25    3
+CONECT   26    1
+CONECT   27    7    8
+CONECT   28    8   11
+CONECT   28   11
+CONECT   29   10   11
+CONECT   29   10
+CONECT   30   17
+CONECT   30   17
+CONECT   31   17
+CONECT   32   11   12   16
+CONECT   33   15
+ENDMDL
+END   

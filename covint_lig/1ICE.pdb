@@ -1,0 +1,32 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1ICE
+MODEL        1
+ATOM      1  N   ALA T 288      32.744  63.453   8.713  1.00 14.70           N1+
+ATOM      2  CA  ALA T 288      33.632  62.393   8.254  1.00 15.03           C  
+ATOM      3  C   ALA T 288      33.226  61.958   6.839  1.00 18.63           C  
+ATOM      4  O   ALA T 288      32.046  61.773   6.537  1.00 23.52           O  
+ATOM      5  CB  ALA T 288      33.493  61.190   9.194  1.00 14.37           C  
+HETATM    6  N   ASA T 289      34.236  61.818   5.979  1.00 16.58           N  
+HETATM    7  CA  ASA T 289      34.139  61.458   4.574  1.00 19.83           C  
+HETATM    8  C   ASA T 289      34.439  59.957   4.372  1.00 27.82           C  
+HETATM    9  O   ASA T 289      33.919  59.295   3.477  1.00 33.88           O  
+HETATM   10  CB  ASA T 289      35.197  62.305   3.824  1.00 26.87           C  
+HETATM   11  CG  ASA T 289      34.815  62.577   2.374  1.00 29.07           C  
+HETATM   12  OD1 ASA T 289      33.897  62.010   1.790  1.00 32.30           O  
+HETATM   13  OD2 ASA T 289      35.557  63.574   1.819  1.00 32.70           O  
+CONECT    6    3    7
+CONECT    7    6    8   10
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT   10    7   11
+CONECT   11   10   12   13
+CONECT   11   12
+CONECT   12   11
+CONECT   12   11
+CONECT   13   11
+ENDMDL
+END   

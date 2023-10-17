@@ -1,0 +1,59 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6PUI
+MODEL        1
+ATOM      1  N   LYS A  43     -50.249  39.968 197.717  1.00 27.03           N1+
+ATOM      2  CA  LYS A  43     -50.493  39.554 196.351  1.00 25.72           C  
+ATOM      3  C   LYS A  43     -51.740  38.691 196.291  1.00 27.54           C  
+ATOM      4  O   LYS A  43     -51.902  37.773 197.089  1.00 25.94           O  
+ATOM      5  CB  LYS A  43     -49.322  38.767 195.797  1.00 23.45           C  
+ATOM      6  CG  LYS A  43     -49.501  38.539 194.302  1.00 22.81           C  
+ATOM      7  CD  LYS A  43     -48.450  37.527 193.795  1.00 25.23           C  
+ATOM      8  CE  LYS A  43     -48.525  37.247 192.280  1.00 31.30           C  
+ATOM      9  NZ  LYS A  43     -47.918  35.956 191.806  1.00 37.56           N1+
+TER      10      LYS A  43
+HETATM   11  C9  Q7P A 801     -43.751  41.824 189.023  0.87 24.77           C  
+HETATM   12  C10 Q7P A 801     -45.535  40.623 190.223  0.87 25.87           C  
+HETATM   13  N   Q7P A 801     -45.284  38.065 190.141  0.87 28.14           N  
+HETATM   14  C   Q7P A 801     -45.926  35.493 190.351  0.87 30.52           C  
+HETATM   15  C1  Q7P A 801     -46.772  36.457 191.119  0.87 24.77           C  
+HETATM   16  C2  Q7P A 801     -46.342  37.865 190.848  0.87 28.68           C  
+HETATM   17  C3  Q7P A 801     -44.866  39.362 189.850  0.87 27.96           C  
+HETATM   18  C4  Q7P A 801     -43.668  39.408 189.095  0.87 26.97           C  
+HETATM   19  C5  Q7P A 801     -41.880  38.197 187.811  0.87 33.72           C  
+HETATM   20  C6  Q7P A 801     -40.545  38.091 188.538  0.87 33.26           C  
+HETATM   21  C7  Q7P A 801     -39.394  38.563 187.630  0.87 36.25           C  
+HETATM   22  C8  Q7P A 801     -39.132  40.078 187.538  0.87 37.40           C  
+HETATM   23  N1  Q7P A 801     -43.013  38.232 188.728  0.87 30.36           N  
+HETATM   24  N2  Q7P A 801     -43.173  40.620 188.717  0.87 26.22           N  
+HETATM   25  N3  Q7P A 801     -44.895  41.765 189.771  0.87 24.77           N  
+HETATM   26  O1  Q7P A 801     -40.264  40.960 187.354  0.87 33.55           O  
+HETATM   27  O2  Q7P A 801     -43.292  42.889 188.619  0.87 29.09           O  
+HETATM   28  O3  Q7P A 801     -46.593  40.718 190.834  0.87 26.59           O  
+CONECT   11   24   25   27
+CONECT   11   27
+CONECT   12   17   25   28
+CONECT   12   28
+CONECT   13   16   17
+CONECT   14   15
+CONECT   15    9   14   16
+CONECT   16   13   15
+CONECT   17   12   13   18
+CONECT   17   18
+CONECT   18   17   23   24
+CONECT   18   17
+CONECT   19   20   23
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22   21   26
+CONECT   23   18   19
+CONECT   24   11   18
+CONECT   25   11   12
+CONECT   26   22
+CONECT   27   11
+CONECT   27   11
+CONECT   28   12
+CONECT   28   12
+ENDMDL
+END   

@@ -1,0 +1,89 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7mgk_ligand
+MODEL        1
+HETATM    1  C01 ZGD A   0       0.640  18.097  43.823  1.00  0.00           C  
+HETATM    2  N05 ZGD A   0       0.056  19.442  43.818  1.00  0.00           N  
+HETATM    3  C07 ZGD A   0       0.533  20.377  42.868  1.00  0.00           C  
+HETATM    4  C08 ZGD A   0       1.544  20.022  41.953  1.00  0.00           C  
+HETATM    5  C10 ZGD A   0       1.966  21.008  41.041  1.00  0.00           C  
+HETATM    6  O11 ZGD A   0       2.942  20.747  40.108  1.00  0.00           O  
+HETATM    7  C12 ZGD A   0       2.964  21.455  38.920  1.00  0.00           C  
+HETATM    8  C13 ZGD A   0       3.910  22.462  38.654  1.00  0.00           C  
+HETATM    9 CL14 ZGD A   0       5.123  22.915  39.816  1.00  0.00          Cl  
+HETATM   10  C15 ZGD A   0       3.900  23.144  37.433  1.00  0.00           C  
+HETATM   11  C17 ZGD A   0       2.957  22.848  36.450  1.00  0.00           C  
+HETATM   12  N18 ZGD A   0       3.018  23.576  35.231  1.00  0.00           N  
+HETATM   13  C20 ZGD A   0       2.158  23.508  34.212  1.00  0.00           C  
+HETATM   14  O21 ZGD A   0       1.150  22.767  34.238  1.00  0.00           O  
+HETATM   15  N22 ZGD A   0       2.411  24.280  33.153  1.00  0.00           N  
+HETATM   16  C24 ZGD A   0       1.593  24.309  31.997  1.00  0.00           C  
+HETATM   17  C25 ZGD A   0       2.199  24.376  30.741  1.00  0.00           C  
+HETATM   18  C27 ZGD A   0       1.415  24.404  29.581  1.00  0.00           C  
+HETATM   19  C29 ZGD A   0       0.021  24.369  29.668  1.00  0.00           C  
+HETATM   20  C31 ZGD A   0      -0.577  24.307  30.925  1.00  0.00           C  
+HETATM   21  C32 ZGD A   0       0.197  24.281  32.084  1.00  0.00           C  
+HETATM   22  C34 ZGD A   0      -2.072  24.259  31.027  1.00  0.00           C  
+HETATM   23  F35 ZGD A   0      -2.572  25.080  30.112  1.00  0.00           F  
+HETATM   24  F36 ZGD A   0      -2.468  24.625  32.251  1.00  0.00           F  
+HETATM   25  F37 ZGD A   0      -2.458  23.012  30.777  1.00  0.00           F  
+HETATM   26  C38 ZGD A   0       2.023  21.843  36.709  1.00  0.00           C  
+HETATM   27  C40 ZGD A   0       2.029  21.161  37.924  1.00  0.00           C  
+HETATM   28 CL41 ZGD A   0       0.837  19.928  38.180  1.00  0.00          Cl  
+HETATM   29  N42 ZGD A   0       1.393  22.225  41.074  1.00  0.00           N  
+HETATM   30  C43 ZGD A   0       0.435  22.532  41.962  1.00  0.00           C  
+HETATM   31  N45 ZGD A   0       0.011  21.617  42.844  1.00  0.00           N  
+CONECT    1    2
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2    4   31
+CONECT    3    2
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4    6   29
+CONECT    5    4
+CONECT    6    5    7
+CONECT    7    6    8   27
+CONECT    7   27
+CONECT    8    7    9   10
+CONECT    8   10
+CONECT    9    8
+CONECT   10    8   11
+CONECT   10    8
+CONECT   11   10   12   26
+CONECT   11   26
+CONECT   12   11   13
+CONECT   13   12   14   15
+CONECT   13   14
+CONECT   14   13
+CONECT   14   13
+CONECT   15   13   16
+CONECT   16   15   17   21
+CONECT   16   21
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21   22
+CONECT   20   19
+CONECT   21   16   20
+CONECT   21   16
+CONECT   22   20   23   24   25
+CONECT   23   22
+CONECT   24   22
+CONECT   25   22
+CONECT   26   11   27
+CONECT   26   11
+CONECT   27    7   26   28
+CONECT   27    7
+CONECT   28   27
+CONECT   29    5   30
+CONECT   30   29   31
+CONECT   30   31
+CONECT   31    3   30
+CONECT   31   30
+ENDMDL
+END   

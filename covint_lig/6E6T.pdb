@@ -1,0 +1,52 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6E6T
+MODEL        1
+ATOM      1  N   CYS A  89      16.416  28.347   6.653  1.00 10.33           N1+
+ATOM      2  CA  CYS A  89      15.296  28.737   7.504  1.00 12.73           C  
+ATOM      3  C   CYS A  89      15.723  28.799   8.982  1.00 12.29           C  
+ATOM      4  O   CYS A  89      16.614  29.578   9.318  1.00 10.42           O  
+ATOM      5  CB  CYS A  89      14.027  27.923   7.168  1.00 12.73           C  
+ATOM      6  SG  CYS A  89      12.582  28.840   7.769  1.00 16.76           S  
+TER       7      CYS A  89
+HETATM    8  CAP HVV A 302       2.499  22.616   4.715  1.00 20.00           C  
+HETATM    9  CAO HVV A 302       3.510  22.151   5.738  1.00 20.00           C  
+HETATM   10  CAN HVV A 302       4.650  22.804   6.006  1.00 20.00           C  
+HETATM   11  CAM HVV A 302       5.693  22.345   6.995  1.00 20.00           C  
+HETATM   12  CAL HVV A 302       5.944  23.440   8.009  1.00 20.00           C  
+HETATM   13  CAK HVV A 302       7.073  24.141   8.185  1.00 20.00           C  
+HETATM   14  CAJ HVV A 302       8.368  24.039   7.405  1.00 20.00           C  
+HETATM   15  CAI HVV A 302       8.850  25.437   6.986  1.00 20.00           C  
+HETATM   16  CAH HVV A 302      10.375  25.568   6.771  1.00 20.00           C  
+HETATM   17  OAC HVV A 302      10.821  24.718   5.735  1.00 20.00           O  
+HETATM   18  NAD HVV A 302      11.054  25.266   8.024  1.00 20.00           N  
+HETATM   19  CAE HVV A 302      11.585  26.330   8.624  1.00 20.00           C  
+HETATM   20  OAB HVV A 302      12.207  26.326   9.684  1.00 20.00           O  
+HETATM   21  CAF HVV A 302      11.275  27.582   7.824  1.00 20.00           C  
+HETATM   22  CAG HVV A 302      10.844  27.018   6.463  1.00 20.00           C  
+HETATM   23  OAA HVV A 302       9.829  27.832   5.911  1.00 20.00           O  
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   15   17   18   22
+CONECT   17   16
+CONECT   18   16   19
+CONECT   19   18   20   21
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21    6   19   22
+CONECT   22   16   21   23
+CONECT   23   22
+ENDMDL
+END   

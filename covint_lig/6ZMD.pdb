@@ -1,0 +1,96 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6ZMD
+MODEL        1
+ATOM      1  N   TYR A  39      15.587  31.265  -2.188  1.00 47.43           N1+
+ATOM      2  CA  TYR A  39      16.145  32.477  -1.600  1.00 47.39           C  
+ATOM      3  C   TYR A  39      17.047  32.131  -0.425  1.00 53.75           C  
+ATOM      4  O   TYR A  39      16.663  31.347   0.450  1.00 64.63           O  
+ATOM      5  CB  TYR A  39      15.034  33.428  -1.148  1.00 41.08           C  
+ATOM      6  CG  TYR A  39      14.222  34.003  -2.287  1.00 43.60           C  
+ATOM      7  CD1 TYR A  39      14.714  35.050  -3.057  1.00 42.36           C  
+ATOM      8  CD2 TYR A  39      12.964  33.502  -2.589  1.00 46.15           C  
+ATOM      9  CE1 TYR A  39      13.974  35.577  -4.099  1.00 45.21           C  
+ATOM     10  CE2 TYR A  39      12.219  34.022  -3.628  1.00 48.73           C  
+ATOM     11  CZ  TYR A  39      12.727  35.058  -4.380  1.00 48.48           C  
+ATOM     12  OH  TYR A  39      11.980  35.573  -5.414  1.00 50.16           O  
+TER      13      TYR A  39
+HETATM   14  PG  ANP A 601      13.002  26.190   1.331  1.00 46.42           P  
+HETATM   15  O1G ANP A 601      11.828  26.185   0.405  1.00 50.64           O  
+HETATM   16  O2G ANP A 601      14.184  25.401   0.653  1.00 30.68           O1-
+HETATM   17  O3G ANP A 601      12.596  25.496   2.699  1.00 42.57           O1-
+HETATM   18  PB  ANP A 601      13.087  28.853   0.428  1.00 50.39           P  
+HETATM   19  O1B ANP A 601      14.090  29.960   0.390  1.00 49.74           O  
+HETATM   20  O2B ANP A 601      13.085  28.123  -0.948  1.00 50.98           O1-
+HETATM   21  N3B ANP A 601      13.495  27.781   1.656  1.00 48.92           N  
+HETATM   22  PA  ANP A 601      11.454  30.829   1.449  1.00 43.41           P  
+HETATM   23  O1A ANP A 601      10.921  30.605   2.812  1.00 46.14           O  
+HETATM   24  O2A ANP A 601      12.795  31.573   1.408  1.00 45.98           O1-
+HETATM   25  O3A ANP A 601      11.665  29.440   0.691  1.00 48.75           O  
+HETATM   26  O5' ANP A 601      10.330  31.578   0.617  1.00 49.27           O  
+HETATM   27  C5' ANP A 601      10.461  31.756  -0.811  1.00 52.75           C  
+HETATM   28  C4' ANP A 601       9.198  31.297  -1.498  1.00 53.80           C  
+HETATM   29  O4' ANP A 601       8.069  32.048  -0.995  1.00 54.25           O  
+HETATM   30  C3' ANP A 601       9.184  31.468  -3.018  1.00 57.21           C  
+HETATM   31  O3' ANP A 601       8.536  30.373  -3.655  1.00 60.77           O  
+HETATM   32  C2' ANP A 601       8.390  32.760  -3.208  1.00 54.90           C  
+HETATM   33  O2' ANP A 601       7.729  32.790  -4.467  1.00 58.58           O  
+HETATM   34  C1' ANP A 601       7.379  32.651  -2.071  1.00 55.17           C  
+HETATM   35  N9  ANP A 601       6.850  33.936  -1.625  1.00 53.59           N  
+HETATM   36  C8  ANP A 601       7.558  34.989  -1.108  1.00 53.48           C  
+HETATM   37  N7  ANP A 601       6.818  36.025  -0.793  1.00 54.54           N  
+HETATM   38  C5  ANP A 601       5.533  35.625  -1.127  1.00 53.03           C  
+HETATM   39  C6  ANP A 601       4.284  36.271  -1.037  1.00 53.34           C  
+HETATM   40  N6  ANP A 601       4.121  37.509  -0.565  1.00 51.29           N  
+HETATM   41  N1  ANP A 601       3.194  35.590  -1.456  1.00 52.24           N  
+HETATM   42  C2  ANP A 601       3.352  34.351  -1.931  1.00 49.98           C  
+HETATM   43  N3  ANP A 601       4.476  33.642  -2.064  1.00 49.81           N  
+HETATM   44  C4  ANP A 601       5.537  34.339  -1.642  1.00 51.82           C  
+CONECT   14   15   16   17   21
+CONECT   14   15
+CONECT   15   14
+CONECT   15   14
+CONECT   16   14
+CONECT   17   14
+CONECT   18   19   20   21   25
+CONECT   18   19
+CONECT   19   18
+CONECT   19   18
+CONECT   20   18
+CONECT   21   14   18
+CONECT   22   23   24   25   26
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22
+CONECT   25   18   22
+CONECT   26   22   27
+CONECT   27   26   28
+CONECT   28   27   29   30
+CONECT   29   28   34
+CONECT   30   28   31   32
+CONECT   31   30
+CONECT   32   30   33   34
+CONECT   33   32
+CONECT   34   29   32   35
+CONECT   35   34   36   44
+CONECT   36   35   37
+CONECT   36   37
+CONECT   37   36   38
+CONECT   37   36
+CONECT   38   37   39   44
+CONECT   38   44
+CONECT   39   38   40   41
+CONECT   39   41
+CONECT   40   39
+CONECT   41   39   42
+CONECT   41   39
+CONECT   42   41   43
+CONECT   42   43
+CONECT   43   42   44
+CONECT   43   42
+CONECT   44   35   38   43
+CONECT   44   38
+ENDMDL
+END   

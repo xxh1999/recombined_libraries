@@ -1,0 +1,30 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6WCX
+MODEL        1
+ATOM      1  N   SER A 121     -23.465  19.602  -1.439  1.00 42.06           N1+
+ATOM      2  CA  SER A 121     -23.022  20.065  -0.120  1.00 42.18           C  
+ATOM      3  C   SER A 121     -24.189  20.575   0.722  1.00 42.49           C  
+ATOM      4  O   SER A 121     -24.992  19.783   1.224  1.00 43.15           O  
+ATOM      5  CB  SER A 121     -21.939  21.142  -0.260  1.00 40.64           C  
+ATOM      6  OG  SER A 121     -21.556  21.667   0.995  1.00 41.02           O  
+TER       7      SER A 121
+HETATM    8  CAA HE4 A 301     -19.628  20.537   6.741  1.00 43.10           C  
+HETATM    9  CAC HE4 A 301     -18.876  20.566   5.418  1.00 43.10           C  
+HETATM   10  CAE HE4 A 301     -19.459  21.726   4.625  1.00 43.10           C  
+HETATM   11  CAG HE4 A 301     -18.669  22.009   3.341  1.00 43.10           C  
+HETATM   12  CAH HE4 A 301     -19.058  23.381   2.788  1.00 43.10           C  
+HETATM   13  CAF HE4 A 301     -19.737  23.220   1.433  1.00 43.10           C  
+HETATM   14  CAD HE4 A 301     -21.198  22.829   1.637  1.00 43.10           C  
+HETATM   15  OAB HE4 A 301     -22.041  23.733   0.982  1.00 43.10           O  
+CONECT    8    9
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14    6   13   15
+CONECT   15   14
+ENDMDL
+END   

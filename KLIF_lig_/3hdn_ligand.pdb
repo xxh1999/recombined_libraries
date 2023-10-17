@@ -1,0 +1,92 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3hdn_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  GMG A   0      -4.405  16.529  47.397  1.00  0.00           C  
+HETATM    2  C5  GMG A   0       0.880  14.739  38.812  1.00  0.00           C  
+HETATM    3  C6  GMG A   0       2.430  16.263  37.830  1.00  0.00           C  
+HETATM    4  C7  GMG A   0      -2.789  14.132  45.175  1.00  0.00           C  
+HETATM    5  C8  GMG A   0       0.589  15.663  39.794  1.00  0.00           C  
+HETATM    6  C10 GMG A   0      -2.020  14.979  44.406  1.00  0.00           C  
+HETATM    7  C13 GMG A   0       1.413  19.168  40.679  1.00  0.00           C  
+HETATM    8  C15 GMG A   0       2.107  14.038  36.773  1.00  0.00           C  
+HETATM    9  C17 GMG A   0      -3.588  14.643  46.175  1.00  0.00           C  
+HETATM   10  C20 GMG A   0      -2.027  16.345  44.618  1.00  0.00           C  
+HETATM   11  C21 GMG A   0      -1.220  17.259  43.829  1.00  0.00           C  
+HETATM   12  C22 GMG A   0       0.142  17.839  41.993  1.00  0.00           C  
+HETATM   13  C24 GMG A   0       0.201  19.103  42.549  1.00  0.00           C  
+HETATM   14  C1  GMG A   0      -5.158  14.333  47.946  1.00  0.00           C  
+HETATM   15  C2  GMG A   0      -5.180  15.692  48.170  1.00  0.00           C  
+HETATM   16  C3  GMG A   0      -4.363  13.806  46.949  1.00  0.00           C  
+HETATM   17  C9  GMG A   0       2.137  17.185  38.809  1.00  0.00           C  
+HETATM   18  C11 GMG A   0      -2.835  16.837  45.625  1.00  0.00           C  
+HETATM   19  C12 GMG A   0      -0.599  16.872  42.656  1.00  0.00           C  
+HETATM   20  C14 GMG A   0      -1.065  18.561  44.259  1.00  0.00           C  
+HETATM   21  C16 GMG A   0       1.799  15.038  37.829  1.00  0.00           C  
+HETATM   22  C18 GMG A   0       1.218  16.892  39.797  1.00  0.00           C  
+HETATM   23  C19 GMG A   0      -3.611  16.004  46.399  1.00  0.00           C  
+HETATM   24  C23 GMG A   0       0.919  17.888  40.800  1.00  0.00           C  
+HETATM   25  C25 GMG A   0       3.463  13.446  36.978  1.00  0.00           C  
+HETATM   26  N26 GMG A   0       0.972  19.889  41.747  1.00  0.00           N  
+HETATM   27  N27 GMG A   0      -0.373  19.534  43.670  1.00  0.00           N  
+HETATM   28  O28 GMG A   0       4.013  13.120  35.782  1.00  0.00           O  
+HETATM   29  O29 GMG A   0       4.005  13.275  38.062  1.00  0.00           O1-
+CONECT    1   15   23
+CONECT    1   15
+CONECT    2    5   21
+CONECT    2   21
+CONECT    3   17   21
+CONECT    3   17
+CONECT    4    6    9
+CONECT    4    6
+CONECT    5    2   22
+CONECT    5   22
+CONECT    6    4   10
+CONECT    6    4
+CONECT    7   24   26
+CONECT    7   24
+CONECT    8   21   25
+CONECT    9    4   16   23
+CONECT    9   23
+CONECT   10    6   11   18
+CONECT   10   18
+CONECT   11   10   19   20
+CONECT   11   19
+CONECT   12   13   19   24
+CONECT   12   13
+CONECT   13   12   26   27
+CONECT   13   12
+CONECT   14   15   16
+CONECT   14   16
+CONECT   15    1   14
+CONECT   15    1
+CONECT   16    9   14
+CONECT   16   14
+CONECT   17    3   22
+CONECT   17    3
+CONECT   18   10   23
+CONECT   18   10
+CONECT   19   11   12
+CONECT   19   11
+CONECT   20   11   27
+CONECT   20   27
+CONECT   21    2    3    8
+CONECT   21    2
+CONECT   22    5   17   24
+CONECT   22    5
+CONECT   23    1    9   18
+CONECT   23    9
+CONECT   24    7   12   22
+CONECT   24    7
+CONECT   25    8   28   29
+CONECT   25   28
+CONECT   26    7   13
+CONECT   27   13   20
+CONECT   27   20
+CONECT   28   25
+CONECT   28   25
+CONECT   29   25
+ENDMDL
+END   

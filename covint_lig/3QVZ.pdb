@@ -1,0 +1,135 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3QVZ
+MODEL        1
+ATOM      1  N   HIS A 102      -8.522  16.440 -18.196  1.00 19.59           N1+
+ATOM      2  CA  HIS A 102      -8.060  15.890 -19.476  1.00 20.33           C  
+ATOM      3  C   HIS A 102      -7.302  16.919 -20.325  1.00 21.06           C  
+ATOM      4  O   HIS A 102      -6.322  16.561 -20.973  1.00 21.55           O  
+ATOM      5  CB  HIS A 102      -9.262  15.377 -20.291  1.00 20.04           C  
+ATOM      6  CG  HIS A 102      -9.949  14.170 -19.715  1.00 17.32           C  
+ATOM      7  ND1 HIS A 102     -11.181  13.730 -20.160  1.00 15.34           N  
+ATOM      8  CD2 HIS A 102      -9.580  13.295 -18.720  1.00 14.86           C  
+ATOM      9  CE1 HIS A 102     -11.501  12.660 -19.432  1.00 14.92           C  
+ATOM     10  NE2 HIS A 102     -10.567  12.324 -18.552  1.00 14.37           N  
+TER      11      HIS A 102
+HETATM   12  CHA HEM A 150      -8.309   9.106 -19.574  1.00 12.50           C  
+HETATM   13  CHB HEM A 150     -13.091   9.323 -18.865  1.00  8.96           C  
+HETATM   14  CHC HEM A 150     -12.468  12.220 -14.978  1.00 14.68           C  
+HETATM   15  CHD HEM A 150      -7.656  12.066 -15.774  1.00 12.10           C  
+HETATM   16  C1A HEM A 150      -9.698   8.936 -19.727  1.00 12.83           C  
+HETATM   17  C2A HEM A 150     -10.267   8.141 -20.732  1.00 14.91           C  
+HETATM   18  C3A HEM A 150     -11.648   8.195 -20.525  1.00 13.04           C  
+HETATM   19  C4A HEM A 150     -11.829   9.026 -19.408  1.00 10.99           C  
+HETATM   20  CMA HEM A 150     -12.727   7.471 -21.308  1.00 10.88           C  
+HETATM   21  CAA HEM A 150      -9.518   7.362 -21.799  1.00 21.04           C  
+HETATM   22  CBA HEM A 150      -8.916   6.056 -21.246  1.00 26.19           C  
+HETATM   23  CGA HEM A 150      -7.900   5.464 -22.223  1.00 29.07           C  
+HETATM   24  O1A HEM A 150      -8.107   4.298 -22.624  1.00 30.33           O  
+HETATM   25  O2A HEM A 150      -6.936   6.189 -22.551  1.00 30.81           O1-
+HETATM   26  C1B HEM A 150     -13.307  10.146 -17.736  1.00  9.93           C  
+HETATM   27  C2B HEM A 150     -14.590  10.486 -17.305  1.00  8.44           C  
+HETATM   28  C3B HEM A 150     -14.440  11.330 -16.207  1.00 12.23           C  
+HETATM   29  C4B HEM A 150     -13.054  11.450 -16.010  1.00 13.11           C  
+HETATM   30  CMB HEM A 150     -15.922  10.118 -17.934  1.00  4.57           C  
+HETATM   31  CAB HEM A 150     -15.513  12.060 -15.524  1.00 14.93           C  
+HETATM   32  CBB HEM A 150     -16.446  11.386 -14.835  1.00 12.99           C  
+HETATM   33  C1C HEM A 150     -11.079  12.445 -14.845  1.00 14.14           C  
+HETATM   34  C2C HEM A 150     -10.439  13.251 -13.889  1.00 13.67           C  
+HETATM   35  C3C HEM A 150      -9.076  13.226 -14.141  1.00 12.52           C  
+HETATM   36  C4C HEM A 150      -8.926  12.375 -15.238  1.00 11.69           C  
+HETATM   37  CMC HEM A 150     -11.268  14.064 -12.908  1.00 13.18           C  
+HETATM   38  CAC HEM A 150      -8.066  14.050 -13.478  1.00 16.35           C  
+HETATM   39  CBC HEM A 150      -7.848  13.924 -12.164  1.00 19.76           C  
+HETATM   40  C1D HEM A 150      -7.434  11.210 -16.871  1.00 10.53           C  
+HETATM   41  C2D HEM A 150      -6.151  10.917 -17.356  1.00 10.83           C  
+HETATM   42  C3D HEM A 150      -6.339  10.067 -18.444  1.00 12.45           C  
+HETATM   43  C4D HEM A 150      -7.725   9.895 -18.560  1.00 11.08           C  
+HETATM   44  CMD HEM A 150      -4.830  11.416 -16.805  1.00 10.03           C  
+HETATM   45  CAD HEM A 150      -5.269   9.453 -19.328  1.00 12.11           C  
+HETATM   46  CBD HEM A 150      -4.897   8.029 -18.880  1.00 12.86           C  
+HETATM   47  CGD HEM A 150      -3.962   7.340 -19.875  1.00 15.29           C  
+HETATM   48  O1D HEM A 150      -3.123   6.551 -19.390  1.00 16.86           O  
+HETATM   49  O2D HEM A 150      -4.099   7.602 -21.091  1.00 14.06           O1-
+HETATM   50  NA  HEM A 150     -10.651   9.467 -18.943  1.00 10.42           N1-
+HETATM   51  NB  HEM A 150     -12.387  10.744 -16.952  1.00 11.43           N  
+HETATM   52  NC  HEM A 150     -10.128  11.925 -15.655  1.00 12.21           N1-
+HETATM   53  ND  HEM A 150      -8.374  10.581 -17.599  1.00  9.94           N  
+HETATM   54 FE   HEM A 150     -10.377  10.701 -17.259  1.00 12.61          Fe2+
+CONECT   12   16   43
+CONECT   12   16
+CONECT   13   19   26
+CONECT   13   19
+CONECT   14   29   33
+CONECT   14   29
+CONECT   15   36   40
+CONECT   15   40
+CONECT   16   12   17   50
+CONECT   16   12
+CONECT   17   16   18   21
+CONECT   17   18
+CONECT   18   17   19   20
+CONECT   18   17
+CONECT   19   13   18   50
+CONECT   19   13
+CONECT   20   18
+CONECT   21   17   22
+CONECT   22   21   23
+CONECT   23   22   24   25
+CONECT   23   24
+CONECT   24   23
+CONECT   24   23
+CONECT   25   23
+CONECT   26   13   27   51
+CONECT   26   51
+CONECT   27   26   28   30
+CONECT   27   28
+CONECT   28   27   29   31
+CONECT   28   27
+CONECT   29   14   28   51
+CONECT   29   14
+CONECT   30   27
+CONECT   31   28   32
+CONECT   31   32
+CONECT   32   31
+CONECT   32   31
+CONECT   33   14   34   52
+CONECT   33   34
+CONECT   34   33   35   37
+CONECT   34   33
+CONECT   35   34   36   38
+CONECT   35   36
+CONECT   36   15   35   52
+CONECT   36   35
+CONECT   37   34
+CONECT   38   35   39
+CONECT   38   39
+CONECT   39   38
+CONECT   39   38
+CONECT   40   15   41   53
+CONECT   40   15
+CONECT   41   40   42   44
+CONECT   41   42
+CONECT   42   41   43   45
+CONECT   42   41
+CONECT   43   12   42   53
+CONECT   43   53
+CONECT   44   41
+CONECT   45   42   46
+CONECT   46   45   47
+CONECT   47   46   48   49
+CONECT   47   48
+CONECT   48   47
+CONECT   48   47
+CONECT   49   47
+CONECT   50   16   19   54
+CONECT   51   26   29   54
+CONECT   51   26
+CONECT   52   33   36   54
+CONECT   53   40   43   54
+CONECT   53   43
+CONECT   54   10   50   51   52
+CONECT   54   53
+ENDMDL
+END   

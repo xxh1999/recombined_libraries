@@ -1,0 +1,81 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3O88
+MODEL        1
+ATOM      1  N   SER A  64      26.882   2.325  16.160  1.00 13.99           N1+
+ATOM      2  CA  SER A  64      28.220   2.799  16.501  1.00 14.38           C  
+ATOM      3  C   SER A  64      29.074   1.867  17.389  1.00 13.85           C  
+ATOM      4  O   SER A  64      30.241   2.185  17.598  1.00 14.37           O  
+ATOM      5  CB  SER A  64      28.105   4.147  17.205  1.00 18.20           C  
+ATOM      6  OG  SER A  64      27.473   5.087  16.356  1.00 23.77           O  
+TER       7      SER A  64
+HETATM    8  OAA BSH A   1      20.725  10.524  14.873  0.64 41.24           O1-
+HETATM    9  OAB BSH A   1      26.870   5.502  13.360  0.64 31.41           O  
+HETATM   10  OAC BSH A   1      24.835   3.967  13.574  0.64 25.16           O  
+HETATM   11  OAD BSH A   1      20.858  10.773  12.696  0.64 43.90           O  
+HETATM   12  OAE BSH A   1      25.312   5.163  17.457  0.64 23.91           O  
+HETATM   13  OAF BSH A   1      26.965   6.777  18.018  0.64 22.21           O  
+HETATM   14  CAH BSH A   1      20.334   5.627  11.605  0.64 29.20           C  
+HETATM   15  CAI BSH A   1      20.811   6.447  12.645  0.64 25.77           C  
+HETATM   16  CAJ BSH A   1      21.241   4.929  10.788  0.64 26.05           C  
+HETATM   17  CAK BSH A   1      24.992   9.881  12.749  0.64 29.18           C  
+HETATM   18  CAL BSH A   1      22.197   6.596  12.839  0.64 29.07           C  
+HETATM   19  CAM BSH A   1      22.627   5.082  10.980  0.64 24.98           C  
+HETATM   20  CAN BSH A   1      25.532   9.326  13.918  0.64 28.70           C  
+HETATM   21  CAO BSH A   1      23.627  10.215  12.705  0.64 31.77           C  
+HETATM   22  CAP BSH A   1      23.355   9.466  15.004  0.64 30.30           C  
+HETATM   23  CAQ BSH A   1      25.239   8.241  16.191  0.64 28.93           C  
+HETATM   24  CAR BSH A   1      24.597   6.228  12.105  0.64 25.49           C  
+HETATM   25  NAS BSH A   1      24.901   6.189  14.872  0.64 25.84           N  
+HETATM   26  CAT BSH A   1      21.367  10.476  13.801  0.64 40.18           C  
+HETATM   27  CAU BSH A   1      23.112   5.937  11.992  0.64 25.04           C  
+HETATM   28  CAV BSH A   1      24.705   9.058  15.026  0.64 27.88           C  
+HETATM   29  CAW BSH A   1      22.808  10.055  13.841  0.64 29.02           C  
+HETATM   30  CAX BSH A   1      25.864   6.910  15.714  0.64 24.41           C  
+HETATM   31  SAZ BSH A   1      25.413   5.315  13.484  0.64 28.63           S  
+HETATM   32  BOR BSH A   1      26.417   5.974  16.912  0.64 23.24           B1-
+CONECT    8   26
+CONECT    9   31
+CONECT    9   31
+CONECT   10   31
+CONECT   10   31
+CONECT   11   26
+CONECT   11   26
+CONECT   12   32
+CONECT   13   32
+CONECT   14   15   16
+CONECT   14   15
+CONECT   15   14   18
+CONECT   15   14
+CONECT   16   14   19
+CONECT   16   19
+CONECT   17   20   21
+CONECT   17   20
+CONECT   18   15   27
+CONECT   18   27
+CONECT   19   16   27
+CONECT   19   16
+CONECT   20   17   28
+CONECT   20   17
+CONECT   21   17   29
+CONECT   21   29
+CONECT   22   28   29
+CONECT   22   28
+CONECT   23   28   30
+CONECT   24   27   31
+CONECT   25   30   31
+CONECT   26    8   11   29
+CONECT   26   11
+CONECT   27   18   19   24
+CONECT   27   18
+CONECT   28   20   22   23
+CONECT   28   22
+CONECT   29   21   22   26
+CONECT   29   21
+CONECT   30   23   25   32
+CONECT   31    9   10   24   25
+CONECT   31    9   10
+CONECT   32    6   12   13   30
+ENDMDL
+END   

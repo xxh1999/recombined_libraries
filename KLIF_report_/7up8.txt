@@ -1,0 +1,22 @@
+Prediction of noncovalent interactions for PDB structure KLIF_COMPLEX\7UP8_PROTEIN
+==================================================================================
+Created on 2023/05/28 using PLIP v2.2.2
+
+If you are using PLIP in your work, please cite:
+Adasme,M. et al. PLIP 2021: expanding the scope of the protein-ligand interaction profiler to DNA and RNA. Nucl. Acids Res. (05 May 2021), gkab294. doi: 10.1093/nar/gkab294
+Analysis was done on model 1.
+
+O10:A:0 (O10) - SMALLMOLECULE
+-----------------------------
+Interacting chain(s): A
+
+
+**Hydrogen Bonds**
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+------------------------+------------------------+
+| RESNR | RESTYPE | RESCHAIN | RESNR_LIG | RESTYPE_LIG | RESCHAIN_LIG | SIDECHAIN | DIST_H-A | DIST_D-A | DON_ANGLE | PROTISDON | DONORIDX | DONORTYPE | ACCEPTORIDX | ACCEPTORTYPE | LIGCOO                 | PROTCOO                | 
++=======+=========+==========+===========+=============+==============+===========+==========+==========+===========+===========+==========+===========+=============+==============+========================+========================+
+| 501   | LEU     | A        | 0         | O10         | A            | False     | 1.89     | 2.85     | 162.00    | True      | 700      | Nam       | 2184        | Nar          | -0.866, 20.283, 43.265 | -2.205, 22.166, 44.927 | 
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+------------------------+------------------------+
+
+
+

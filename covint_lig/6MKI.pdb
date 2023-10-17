@@ -1,0 +1,116 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6MKI
+MODEL        1
+ATOM      1  N   SER A 424      41.675   4.071   7.415  1.00 64.84           N1+
+ATOM      2  CA  SER A 424      41.551   3.218   6.239  1.00 63.04           C  
+ATOM      3  C   SER A 424      41.583   3.954   4.888  1.00 54.28           C  
+ATOM      4  O   SER A 424      41.557   3.297   3.851  1.00 51.46           O  
+ATOM      5  CB  SER A 424      40.222   2.480   6.310  1.00 59.08           C  
+ATOM      6  OG  SER A 424      40.138   1.497   7.328  1.00 78.61           O  
+TER       7      SER A 424
+HETATM    8  S1  AI8 A 701      36.337  -0.758   9.295  0.92 81.51           S  
+HETATM    9  N2  AI8 A 701      36.831   1.445   7.791  0.92 61.79           N1-
+HETATM   10  S2  AI8 A 701      33.512   2.486   9.969  0.92 89.42           S  
+HETATM   11  N3  AI8 A 701      38.679   0.806  10.566  0.92 64.29           N  
+HETATM   12  O3  AI8 A 701      39.607   2.938   9.022  0.92 77.65           O  
+HETATM   13  S3  AI8 A 701      32.605   1.032   7.402  0.92 96.52           S  
+HETATM   14  C4  AI8 A 701      37.516   0.266   8.352  0.92 72.36           C  
+HETATM   15  N4  AI8 A 701      38.292   0.966  13.616  0.92 82.80           N  
+HETATM   16  O4  AI8 A 701      35.151   4.420   7.980  0.92 65.79           O1-
+HETATM   17  S4  AI8 A 701      42.511   1.833  14.825  0.92108.47           S  
+HETATM   18  C5  AI8 A 701      38.856   0.593   9.125  0.92 69.39           C  
+HETATM   19  N5  AI8 A 701      30.945   1.814   9.233  0.92110.98           N  
+HETATM   20  O5  AI8 A 701      35.056   3.083   6.185  0.92 82.60           O  
+HETATM   21  C6  AI8 A 701      39.592   1.812   8.519  0.92 77.58           C  
+HETATM   22  N6  AI8 A 701      41.518   1.803  12.469  0.92 85.73           N  
+HETATM   23  O6  AI8 A 701      39.901  -0.975  11.327  0.92 79.22           O  
+HETATM   24  C7  AI8 A 701      35.734   2.101   8.271  0.92 77.93           C  
+HETATM   25  N7  AI8 A 701      41.019   1.078  14.596  0.92 87.02           N  
+HETATM   26  O7  AI8 A 701      37.087   0.401  13.176  0.92 97.23           O  
+HETATM   27  C8  AI8 A 701      35.433   0.508  10.227  0.92 91.14           C  
+HETATM   28  N8  AI8 A 701      43.555   3.025  12.550  0.92 62.48           N  
+HETATM   29  C9  AI8 A 701      34.999   1.690   9.388  0.92 90.35           C  
+HETATM   30  N9  AI8 A 701      25.927   1.078   8.321  0.92130.31           N1+
+HETATM   31  C10 AI8 A 701      35.256   3.319   7.399  0.92 71.05           C  
+HETATM   32  C11 AI8 A 701      39.295   0.078  11.518  0.92 66.80           C  
+HETATM   33  C12 AI8 A 701      39.298   0.752  12.866  0.92 65.74           C  
+HETATM   34  C13 AI8 A 701      32.252   1.804   8.940  0.92 93.15           C  
+HETATM   35  C14 AI8 A 701      40.647   1.191  13.303  0.92 78.31           C  
+HETATM   36  C15 AI8 A 701      30.164   1.212   8.239  0.92102.33           C  
+HETATM   37  C16 AI8 A 701      30.916   0.688   7.224  0.92101.52           C  
+HETATM   38  C17 AI8 A 701      28.711   1.190   8.318  0.92102.44           C  
+HETATM   39  C18 AI8 A 701      42.568   2.248  13.148  0.92 68.42           C  
+HETATM   40  C19 AI8 A 701      27.956   2.091   7.538  0.92 98.30           C  
+HETATM   41  C20 AI8 A 701      28.036   0.238   9.110  0.92110.51           C  
+HETATM   42  C21 AI8 A 701      36.030   1.113  13.807  0.92 85.90           C  
+HETATM   43  C22 AI8 A 701      26.549   2.012   7.561  0.92110.96           C  
+HETATM   44  C23 AI8 A 701      26.626   0.203   9.090  0.92120.49           C  
+HETATM   45  C24 AI8 A 701      34.766   0.252  13.860  0.92 89.68           C  
+HETATM   46  C25 AI8 A 701      24.457   1.026   8.303  0.92100.40           C  
+CONECT    8   14   27
+CONECT    9   14   24
+CONECT   10   29   34
+CONECT   11   18   32
+CONECT   12   21
+CONECT   12   21
+CONECT   13   34   37
+CONECT   14    8    9   18
+CONECT   15   26   33
+CONECT   15   33
+CONECT   16   31
+CONECT   17   25   39
+CONECT   18   11   14   21
+CONECT   19   34   36
+CONECT   19   34
+CONECT   20   31
+CONECT   20   31
+CONECT   21    6   12   18
+CONECT   21   12
+CONECT   22   35   39
+CONECT   22   39
+CONECT   23   32
+CONECT   23   32
+CONECT   24    9   29   31
+CONECT   24   29
+CONECT   25   17   35
+CONECT   25   35
+CONECT   26   15   42
+CONECT   27    8   29
+CONECT   28   39
+CONECT   29   10   24   27
+CONECT   29   24
+CONECT   30   43   44   46
+CONECT   30   43
+CONECT   31   16   20   24
+CONECT   31   20
+CONECT   32   11   23   33
+CONECT   32   23
+CONECT   33   15   32   35
+CONECT   33   15
+CONECT   34   10   13   19
+CONECT   34   19
+CONECT   35   22   25   33
+CONECT   35   25
+CONECT   36   19   37   38
+CONECT   36   37
+CONECT   37   13   36
+CONECT   37   36
+CONECT   38   36   40   41
+CONECT   38   40
+CONECT   39   17   22   28
+CONECT   39   22
+CONECT   40   38   43
+CONECT   40   38
+CONECT   41   38   44
+CONECT   41   44
+CONECT   42   26   45
+CONECT   43   30   40
+CONECT   43   30
+CONECT   44   30   41
+CONECT   44   41
+CONECT   45   42
+CONECT   46   30
+ENDMDL
+END   

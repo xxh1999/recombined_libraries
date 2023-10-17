@@ -1,0 +1,28 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2xk4_ligand3
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+ATOM      1  C   MET A 188      -2.920   6.231  13.985  1.00  0.00           C  
+ATOM      2  O   MET A 188      -2.421   5.146  13.691  1.00  0.00           O  
+ATOM      3  N   ASN A 189      -3.147   7.190  13.087  1.00  0.00           N  
+ATOM      4  CA  ASN A 189      -2.624   7.119  11.724  1.00  0.00           C  
+ATOM      5  C   ASN A 189      -1.881   8.412  11.403  1.00  0.00           C  
+ATOM      6  O   ASN A 189      -0.663   8.508  11.571  1.00  0.00           O  
+ATOM      7  CB  ASN A 189      -3.724   6.901  10.680  1.00  0.00           C  
+ATOM      8  CG  ASN A 189      -5.084   6.612  11.291  1.00  0.00           C  
+ATOM      9  OD1 ASN A 189      -5.338   5.520  11.800  1.00  0.00           O  
+ATOM     10  ND2 ASN A 189      -5.980   7.590  11.212  1.00  0.00           N  
+ATOM     11  N   ARG A 190      -2.636   9.403  10.943  1.00  0.00           N  
+ATOM     12  CA  ARG A 190      -2.128  10.751  10.729  1.00  0.00           C  
+ATOM     13  C   ARG A 190      -3.272  11.650  10.264  1.00  0.00           C  
+ATOM     14  O   ARG A 190      -4.165  11.203   9.540  1.00  0.00           O  
+ATOM     15  CB  ARG A 190      -0.995  10.743   9.703  1.00  0.00           C  
+ATOM     16  N   MET A 191      -3.260  12.909  10.692  1.00  0.00           N  
+ATOM     17  CA  MET A 191      -2.226  13.426  11.579  1.00  0.00           C  
+ATOM     18  C   MET A 191      -2.836  14.043  12.835  1.00  0.00           C  
+ATOM     19  O   MET A 191      -2.907  15.268  12.968  1.00  0.00           O  
+ATOM     20  CB  MET A 191      -1.373  14.469  10.850  1.00  0.00           C  
+ENDMDL
+END   

@@ -1,0 +1,82 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4a9s_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  RU9 A1515       2.133  17.882  37.579  1.00  0.00           C  
+HETATM    2  N1  RU9 A1515       2.612  16.578  37.156  1.00  0.00           N  
+HETATM    3  O1  RU9 A1515      -2.965  15.247  47.996  1.00  0.00           O  
+HETATM    4  C2  RU9 A1515       1.556  18.062  38.981  1.00  0.00           C  
+HETATM    5  C3  RU9 A1515       1.044  17.038  39.633  1.00  0.00           C  
+HETATM    6  N3  RU9 A1515      -0.102  16.354  41.967  1.00  0.00           N  
+HETATM    7  C4  RU9 A1515       0.491  17.229  41.046  1.00  0.00           C  
+HETATM    8  N4  RU9 A1515      -0.070  18.308  42.965  1.00  0.00           N  
+HETATM    9  C5  RU9 A1515      -0.424  17.086  43.151  1.00  0.00           C  
+HETATM   10  C6  RU9 A1515       0.531  18.417  41.600  1.00  0.00           C  
+HETATM   11  C7  RU9 A1515       1.127  19.603  40.842  1.00  0.00           C  
+HETATM   12  C8  RU9 A1515       1.601  19.438  39.629  1.00  0.00           C  
+HETATM   13  C9  RU9 A1515      -1.090  16.561  44.420  1.00  0.00           C  
+HETATM   14  C10 RU9 A1515      -1.807  17.556  45.326  1.00  0.00           C  
+HETATM   15  C11 RU9 A1515      -2.382  17.143  46.431  1.00  0.00           C  
+HETATM   16  C12 RU9 A1515      -2.334  15.667  46.817  1.00  0.00           C  
+HETATM   17  C13 RU9 A1515      -1.712  14.804  46.036  1.00  0.00           C  
+HETATM   18  C14 RU9 A1515      -1.040  15.285  44.748  1.00  0.00           C  
+HETATM   19  C15 RU9 A1515      -2.570  16.061  49.066  1.00  0.00           C  
+HETATM   20  C16 RU9 A1515      -1.308  15.724  49.859  1.00  0.00           C  
+HETATM   21  C17 RU9 A1515      -0.932  16.489  50.862  1.00  0.00           C  
+HETATM   22  C18 RU9 A1515      -1.760  17.717  51.236  1.00  0.00           C  
+HETATM   23  C19 RU9 A1515      -2.847  18.008  50.554  1.00  0.00           C  
+HETATM   24  C20 RU9 A1515      -3.284  17.119  49.391  1.00  0.00           C  
+HETATM   25  OAB RU9 A1515       2.309  18.832  36.889  1.00  0.00           O  
+HETATM   26  OAC RU9 A1515      -3.600  19.137  50.892  1.00  0.00           O  
+CONECT    1    2    4   25
+CONECT    1   25
+CONECT    2    1
+CONECT    3   16   19
+CONECT    4    1    5   12
+CONECT    4   12
+CONECT    5    4    7
+CONECT    5    7
+CONECT    6    7    9
+CONECT    7    5    6   10
+CONECT    7    5
+CONECT    8    9   10
+CONECT    8    9
+CONECT    9    6    8   13
+CONECT    9    8
+CONECT   10    7    8   11
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12    4   11
+CONECT   12    4
+CONECT   13    9   14   18
+CONECT   13   18
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16    3   15   17
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   13   17
+CONECT   18   13
+CONECT   19    3   20   24
+CONECT   19   24
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24   26
+CONECT   23   22
+CONECT   24   19   23
+CONECT   24   19
+CONECT   25    1
+CONECT   25    1
+CONECT   26   23
+ENDMDL
+END   

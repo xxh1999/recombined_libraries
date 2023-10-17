@@ -1,0 +1,88 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1AIM
+MODEL        1
+ATOM      1  N   CYS A  25     104.882  17.619 -12.691  1.00  2.57           N1+
+ATOM      2  CA  CYS A  25     104.314  16.456 -11.993  1.00  6.68           C  
+ATOM      3  C   CYS A  25     103.647  15.403 -12.901  1.00  9.64           C  
+ATOM      4  O   CYS A  25     103.659  14.216 -12.583  1.00  9.18           O  
+ATOM      5  CB  CYS A  25     103.356  16.954 -10.892  1.00  7.61           C  
+ATOM      6  SG  CYS A  25     101.845  17.683 -11.605  1.00 14.98           S  
+TER       7      CYS A  25
+HETATM    8  C1  ZYA A 280      97.681  21.051 -15.585  1.00 21.81           C  
+HETATM    9  O1  ZYA A 280      97.601  22.147 -15.030  1.00 22.76           O  
+HETATM   10  O2  ZYA A 280      97.391  20.814 -16.873  1.00 27.97           O  
+HETATM   11  C2  ZYA A 280      96.951  21.878 -17.702  1.00 17.57           C  
+HETATM   12  C3  ZYA A 280      97.081  21.536 -19.170  1.00 22.49           C  
+HETATM   13  C4  ZYA A 280      96.100  20.744 -19.802  1.00 14.68           C  
+HETATM   14  C5  ZYA A 280      96.228  20.418 -21.167  1.00 15.17           C  
+HETATM   15  C6  ZYA A 280      97.334  20.886 -21.902  1.00 15.63           C  
+HETATM   16  C7  ZYA A 280      98.309  21.684 -21.273  1.00 19.44           C  
+HETATM   17  C8  ZYA A 280      98.185  22.008 -19.909  1.00 14.77           C  
+HETATM   18  N1  ZYA A 280      98.096  19.868 -15.003  1.00 17.19           N  
+HETATM   19  CA1 ZYA A 280      98.551  19.716 -13.624  1.00 11.01           C  
+HETATM   20  C   ZYA A 280     100.040  20.079 -13.559  1.00 10.22           C  
+HETATM   21  O   ZYA A 280     100.837  19.541 -14.325  1.00 11.12           O  
+HETATM   22  CB1 ZYA A 280      98.425  18.227 -13.216  1.00  7.52           C  
+HETATM   23  CG  ZYA A 280      97.049  17.612 -13.405  1.00  7.84           C  
+HETATM   24  CD1 ZYA A 280      95.902  18.253 -12.892  1.00  7.98           C  
+HETATM   25  CD2 ZYA A 280      96.912  16.404 -14.120  1.00  7.68           C  
+HETATM   26  CE1 ZYA A 280      94.627  17.704 -13.117  1.00  9.66           C  
+HETATM   27  CE2 ZYA A 280      95.637  15.847 -14.332  1.00  6.82           C  
+HETATM   28  CZ  ZYA A 280      94.492  16.503 -13.839  1.00  7.34           C  
+HETATM   29  OH  ZYA A 280      93.250  15.987 -14.062  1.00 17.55           O  
+HETATM   30  N2  ZYA A 280     100.415  20.958 -12.619  1.00  9.36           N  
+HETATM   31  CA2 ZYA A 280     101.797  21.342 -12.319  1.00 12.10           C  
+HETATM   32  CT  ZYA A 280     102.510  20.328 -11.385  1.00 12.69           C  
+HETATM   33  OT  ZYA A 280     103.721  20.358 -11.180  1.00  4.29           O  
+HETATM   34  CB2 ZYA A 280     101.766  22.701 -11.604  1.00 13.21           C  
+HETATM   35  CM  ZYA A 280     101.708  19.238 -10.687  1.00  9.99           C  
+CONECT    8    9   10   18
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8   11
+CONECT   11   10   12
+CONECT   12   11   13   17
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   12   16
+CONECT   17   16
+CONECT   18    8   19
+CONECT   19   18   20   22
+CONECT   20   19   21   30
+CONECT   20   21
+CONECT   21   20
+CONECT   21   20
+CONECT   22   19   23
+CONECT   23   22   24   25
+CONECT   23   24
+CONECT   24   23   26
+CONECT   24   23
+CONECT   25   23   27
+CONECT   25   27
+CONECT   26   24   28
+CONECT   26   28
+CONECT   27   25   28
+CONECT   27   25
+CONECT   28   26   27   29
+CONECT   28   26
+CONECT   29   28
+CONECT   30   20   31
+CONECT   31   30   32   34
+CONECT   32   31   33   35
+CONECT   32   33
+CONECT   33   32
+CONECT   33   32
+CONECT   34   31
+CONECT   35    6   32
+ENDMDL
+END   

@@ -1,0 +1,60 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5REM
+MODEL        1
+ATOM      1  N   CYS A 145       6.566  -5.056  16.644  1.00 27.13           N1+
+ATOM      2  CA  CYS A 145       8.000  -5.309  16.494  1.00 28.41           C  
+ATOM      3  C   CYS A 145       8.237  -6.707  15.908  1.00 27.52           C  
+ATOM      4  O   CYS A 145       7.472  -7.636  16.165  1.00 25.98           O  
+ATOM      5  CB  CYS A 145       8.728  -5.170  17.840  1.00 34.06           C  
+ATOM      6  SG  CYS A 145       8.954  -3.411  18.271  1.00 38.78           S  
+TER       7      CYS A 145
+HETATM    8  N1  T2J A 404       7.025  -4.060  23.844  0.60 51.05           N  
+HETATM    9  C4  T2J A 404       9.087  -4.754  24.980  0.60 53.61           C  
+HETATM   10  C5  T2J A 404       7.683  -4.580  24.972  0.60 53.76           C  
+HETATM   11  C6  T2J A 404       7.617  -2.933  23.120  0.60 50.23           C  
+HETATM   12  C7  T2J A 404       8.280  -3.376  21.798  0.60 49.67           C  
+HETATM   13  C8  T2J A 404       6.993  -5.441  21.816  0.60 48.26           C  
+HETATM   14  C10 T2J A 404       6.759  -3.937  19.884  0.60 43.75           C  
+HETATM   15  N   T2J A 404       5.481  -4.756  26.182  0.60 56.94           N  
+HETATM   16  C   T2J A 404       6.932  -4.952  26.119  0.60 53.84           C  
+HETATM   17  O   T2J A 404       4.766  -5.697  25.859  0.60 57.88           O1-
+HETATM   18  C1  T2J A 404       7.585  -5.494  27.240  0.60 53.11           C  
+HETATM   19  C11 T2J A 404       7.356  -2.883  18.954  0.60 41.02           C  
+HETATM   20  C2  T2J A 404       8.976  -5.670  27.226  0.60 53.79           C  
+HETATM   21  C3  T2J A 404       9.732  -5.302  26.102  0.60 52.46           C  
+HETATM   22  C9  T2J A 404       6.231  -5.014  23.073  0.60 48.79           C  
+HETATM   23  N2  T2J A 404       7.351  -4.237  21.058  0.60 47.81           N  
+HETATM   24  O1  T2J A 404       5.074  -3.668  26.570  0.60 59.12           O  
+HETATM   25  O2  T2J A 404       5.810  -4.581  19.459  0.60 43.45           O  
+CONECT    8   10   11   22
+CONECT    9   10   21
+CONECT    9   21
+CONECT   10    8    9   16
+CONECT   10   16
+CONECT   11    8   12
+CONECT   12   11   23
+CONECT   13   22   23
+CONECT   14   19   23   25
+CONECT   14   25
+CONECT   15   16   17   24
+CONECT   15   24
+CONECT   16   10   15   18
+CONECT   16   10
+CONECT   17   15
+CONECT   18   16   20
+CONECT   18   20
+CONECT   19    6   14
+CONECT   20   18   21
+CONECT   20   18
+CONECT   21    9   20
+CONECT   21    9
+CONECT   22    8   13
+CONECT   23   12   13   14
+CONECT   24   15
+CONECT   24   15
+CONECT   25   14
+CONECT   25   14
+ENDMDL
+END   

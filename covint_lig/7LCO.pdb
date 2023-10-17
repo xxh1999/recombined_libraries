@@ -1,0 +1,86 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7LCO
+MODEL        1
+ATOM      1  N   CYS A 145     -11.577   9.000   5.644  1.00 35.41           N1+
+ATOM      2  CA  CYS A 145     -12.985   8.662   5.851  1.00 26.89           C  
+ATOM      3  C   CYS A 145     -13.149   7.272   6.465  1.00 24.48           C  
+ATOM      4  O   CYS A 145     -12.423   6.335   6.163  1.00 28.17           O  
+ATOM      5  CB  CYS A 145     -13.732   8.751   4.492  1.00 26.04           C  
+ATOM      6  SG  CYS A 145     -13.911  10.455   4.021  1.00 33.31           S  
+TER       7      CYS A 145
+HETATM    8  C10 XTJ A 401     -11.548  15.306   4.303  1.00 35.11           C  
+HETATM    9  C15 XTJ A 401     -16.321  12.748  -0.753  1.00 44.45           C  
+HETATM   10  C17 XTJ A 401     -18.695  13.315   0.122  1.00 35.15           C  
+HETATM   11  C20 XTJ A 401     -14.940  16.165   0.065  1.00 41.39           C  
+HETATM   12  C22 XTJ A 401     -14.455  18.522  -0.070  1.00 41.27           C  
+HETATM   13  C24 XTJ A 401     -14.979  20.946  -0.194  1.00 52.35           C  
+HETATM   14  C26 XTJ A 401     -16.465  22.052  -1.826  1.00 57.49           C  
+HETATM   15  C02 XTJ A 401     -14.275  13.195   0.588  1.00 38.18           C  
+HETATM   16  C04 XTJ A 401     -12.688  12.136   2.243  1.00 38.43           C  
+HETATM   17  C05 XTJ A 401     -12.205  12.886   3.509  1.00 36.41           C  
+HETATM   18  C06 XTJ A 401     -11.948  14.387   3.177  1.00 34.32           C  
+HETATM   19  C07 XTJ A 401     -10.785  14.464   2.201  1.00 41.31           C  
+HETATM   20  C08 XTJ A 401     -10.132  15.854   2.446  1.00 37.08           C  
+HETATM   21  C12 XTJ A 401     -12.713  10.617   2.473  1.00 32.50           C  
+HETATM   22  C14 XTJ A 401     -15.650  13.750   0.149  1.00 34.47           C  
+HETATM   23  C16 XTJ A 401     -17.580  12.277   0.010  1.00 43.97           C  
+HETATM   24  C18 XTJ A 401     -18.834  12.138  -0.864  1.00 39.93           C  
+HETATM   25  C23 XTJ A 401     -15.189  19.729  -0.702  1.00 54.44           C  
+HETATM   26  C25 XTJ A 401     -15.656  22.192  -0.791  1.00 55.12           C  
+HETATM   27  C27 XTJ A 401     -16.724  20.663  -2.421  1.00 57.97           C  
+HETATM   28  C29 XTJ A 401     -16.138  19.576  -1.915  1.00 51.47           C  
+HETATM   29  F28 XTJ A 401     -17.573  20.587  -3.507  1.00 63.18           F  
+HETATM   30  N03 XTJ A 401     -14.038  12.625   1.905  1.00 33.09           N  
+HETATM   31  N09 XTJ A 401     -10.470  16.196   3.864  1.00 38.24           N  
+HETATM   32  N19 XTJ A 401     -15.423  14.969  -0.602  1.00 37.27           N  
+HETATM   33  O01 XTJ A 401     -13.359  13.231  -0.150  1.00 34.72           O  
+HETATM   34  O11 XTJ A 401     -12.018  15.365   5.374  1.00 34.13           O  
+HETATM   35  O13 XTJ A 401     -11.693  10.091   2.889  1.00 42.74           O  
+HETATM   36  O21 XTJ A 401     -14.821  17.320  -0.731  1.00 41.98           O  
+HETATM   37  O30 XTJ A 401     -14.654  16.148   1.239  1.00 40.39           O  
+CONECT    8   18   31   34
+CONECT    8   34
+CONECT    9   22   23
+CONECT   10   23   24
+CONECT   11   32   36   37
+CONECT   11   37
+CONECT   12   25   36
+CONECT   13   25   26
+CONECT   13   26
+CONECT   14   26   27
+CONECT   14   27
+CONECT   15   22   30   33
+CONECT   15   33
+CONECT   16   17   21   30
+CONECT   17   16   18
+CONECT   18    8   17   19
+CONECT   19   18   20
+CONECT   20   19   31
+CONECT   21    6   16   35
+CONECT   22    9   15   32
+CONECT   23    9   10   24
+CONECT   24   10   23
+CONECT   25   12   13   28
+CONECT   25   28
+CONECT   26   13   14
+CONECT   26   13
+CONECT   27   14   28   29
+CONECT   27   14
+CONECT   28   25   27
+CONECT   28   25
+CONECT   29   27
+CONECT   30   15   16
+CONECT   31    8   20
+CONECT   32   11   22
+CONECT   33   15
+CONECT   33   15
+CONECT   34    8
+CONECT   34    8
+CONECT   35   21
+CONECT   36   11   12
+CONECT   37   11
+CONECT   37   11
+ENDMDL
+END   

@@ -1,0 +1,86 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5t23_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  Q74 A1201       3.916  17.640  39.608  1.00  0.00           C  
+HETATM    2  C2  Q74 A1201       3.287  17.250  40.770  1.00  0.00           C  
+HETATM    3  C3  Q74 A1201       3.683  18.865  39.024  1.00  0.00           C  
+HETATM    4  C7  Q74 A1201       2.159  19.276  40.840  1.00  0.00           C  
+HETATM    5  C8  Q74 A1201      -0.056  19.886  44.399  1.00  0.00           C  
+HETATM    6  C9  Q74 A1201       0.765  20.584  42.431  1.00  0.00           C  
+HETATM    7  C10 Q74 A1201       0.511  21.899  42.777  1.00  0.00           C  
+HETATM    8  C11 Q74 A1201      -0.364  18.836  45.334  1.00  0.00           C  
+HETATM    9  C12 Q74 A1201      -0.415  16.921  46.211  1.00  0.00           C  
+HETATM   10  C13 Q74 A1201      -2.272  14.364  46.054  1.00  0.00           C  
+HETATM   11  C14 Q74 A1201      -0.254  13.500  45.167  1.00  0.00           C  
+HETATM   12  C15 Q74 A1201      -3.046  13.638  44.977  1.00  0.00           C  
+HETATM   13  C16 Q74 A1201      -1.060  12.789  44.103  1.00  0.00           C  
+HETATM   14  C19 Q74 A1201      -0.287  15.495  46.548  1.00  0.00           C  
+HETATM   15  N23 Q74 A1201       0.025  17.536  45.136  1.00  0.00           N  
+HETATM   16  N25 Q74 A1201       1.481  21.310  40.275  1.00  0.00           N  
+HETATM   17  N26 Q74 A1201       1.354  20.329  41.180  1.00  0.00           N  
+HETATM   18  N29 Q74 A1201       0.829  22.927  41.886  1.00  0.00           N  
+HETATM   19  C4  Q74 A1201       2.383  18.052  41.431  1.00  0.00           C  
+HETATM   20  C5  Q74 A1201      -0.315  21.192  44.747  1.00  0.00           C  
+HETATM   21  C6  Q74 A1201       2.779  19.681  39.678  1.00  0.00           C  
+HETATM   22  C17 Q74 A1201       1.174  15.135  46.721  1.00  0.00           C  
+HETATM   23  C18 Q74 A1201      -1.685  17.599  48.288  1.00  0.00           C  
+HETATM   24  N20 Q74 A1201      -0.040  22.225  43.950  1.00  0.00           N  
+HETATM   25  N21 Q74 A1201       2.348  20.934  39.348  1.00  0.00           N  
+HETATM   26  N22 Q74 A1201       0.493  19.543  43.229  1.00  0.00           N  
+HETATM   27  N24 Q74 A1201      -1.026  19.056  46.476  1.00  0.00           N  
+HETATM   28  N27 Q74 A1201      -1.049  17.828  47.007  1.00  0.00           N  
+HETATM   29  N28 Q74 A1201      -0.967  14.723  45.514  1.00  0.00           N1+
+HETATM   30  O30 Q74 A1201      -2.338  12.448  44.642  1.00  0.00           O  
+CONECT    1    2    3
+CONECT    1    2
+CONECT    2    1   19
+CONECT    2    1
+CONECT    3    1   21
+CONECT    3   21
+CONECT    4   17   19   21
+CONECT    4   19
+CONECT    5    8   20   26
+CONECT    5   20
+CONECT    6    7   17   26
+CONECT    6   26
+CONECT    7    6   18   24
+CONECT    7   24
+CONECT    8    5   15   27
+CONECT    8   27
+CONECT    9   14   15   28
+CONECT    9   15
+CONECT   10   12   29
+CONECT   11   13   29
+CONECT   12   10   30
+CONECT   13   11   30
+CONECT   14    9   22   29
+CONECT   15    8    9
+CONECT   15    9
+CONECT   16   17   25
+CONECT   16   25
+CONECT   17    4    6   16
+CONECT   18    7
+CONECT   19    2    4
+CONECT   19    4
+CONECT   20    5   24
+CONECT   20    5
+CONECT   21    3    4   25
+CONECT   21    3
+CONECT   22   14
+CONECT   23   28
+CONECT   24    7   20
+CONECT   24    7
+CONECT   25   16   21
+CONECT   25   16
+CONECT   26    5    6
+CONECT   26    6
+CONECT   27    8   28
+CONECT   27    8
+CONECT   28    9   23   27
+CONECT   29   10   11   14
+CONECT   30   12   13
+ENDMDL
+END   

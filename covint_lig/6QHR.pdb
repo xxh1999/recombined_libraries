@@ -1,0 +1,90 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6QHR
+MODEL        1
+ATOM      1  N   CYS A 218     -19.240 -12.806   4.527  1.00 34.12           N1+
+ATOM      2  CA  CYS A 218     -18.812 -13.067   5.904  1.00 29.57           C  
+ATOM      3  C   CYS A 218     -17.680 -14.107   5.976  1.00 33.10           C  
+ATOM      4  O   CYS A 218     -17.457 -14.863   5.030  1.00 35.46           O  
+ATOM      5  CB  CYS A 218     -20.031 -13.537   6.731  1.00 33.71           C  
+ATOM      6  SG  CYS A 218     -20.713 -15.090   6.079  1.00 43.11           S  
+TER       7      CYS A 218
+HETATM    8  C11 J3N A 501     -24.696 -14.283   6.048  1.00 44.38           C  
+HETATM    9  C13 J3N A 501     -22.377 -15.108   6.799  1.00 41.59           C  
+HETATM   10  C16 J3N A 501     -28.466  -5.351   9.015  1.00 59.41           C  
+HETATM   11  C17 J3N A 501     -27.050  -7.090   8.601  1.00 40.28           C  
+HETATM   12  C18 J3N A 501     -29.708  -4.034   7.575  1.00 44.08           C  
+HETATM   13  C19 J3N A 501     -29.943  -3.639   8.867  1.00 33.22           C  
+HETATM   14  N   J3N A 501     -24.375  -6.779   3.426  1.00 38.76           N  
+HETATM   15  C   J3N A 501     -24.169  -8.040   3.034  1.00 40.05           C  
+HETATM   16  O   J3N A 501     -24.921 -15.384   5.540  1.00 52.98           O  
+HETATM   17  C1  J3N A 501     -25.437  -8.917   4.644  1.00 35.54           C  
+HETATM   18  C10 J3N A 501     -25.564 -11.972   6.539  1.00 37.38           C  
+HETATM   19  C12 J3N A 501     -23.239 -13.906   6.354  1.00 37.57           C  
+HETATM   20  C14 J3N A 501     -28.141  -5.991   6.725  1.00 36.56           C  
+HETATM   21  C15 J3N A 501     -28.780  -5.130   7.644  1.00 51.22           C  
+HETATM   22  C2  J3N A 501     -25.753  -7.641   5.178  1.00 34.36           C  
+HETATM   23  C3  J3N A 501     -25.165  -6.548   4.496  1.00 35.05           C  
+HETATM   24  C4  J3N A 501     -26.609  -7.923   6.296  1.00 33.66           C  
+HETATM   25  C5  J3N A 501     -27.259  -6.984   7.206  1.00 37.38           C  
+HETATM   26  C6  J3N A 501     -26.203 -11.265   5.320  1.00 39.96           C  
+HETATM   27  C7  J3N A 501     -27.665 -11.724   5.101  1.00 47.63           C  
+HETATM   28  C8  J3N A 501     -27.782 -13.256   5.093  1.00 46.61           C  
+HETATM   29  C9  J3N A 501     -27.099 -13.843   6.339  1.00 36.72           C  
+HETATM   30  N1  J3N A 501     -24.638  -9.170   3.567  1.00 47.21           N  
+HETATM   31  N2  J3N A 501     -26.125  -9.818   5.443  1.00 33.67           N  
+HETATM   32  N3  J3N A 501     -26.805  -9.209   6.451  1.00 39.13           N  
+HETATM   33  N4  J3N A 501     -25.354  -5.226   4.870  1.00 35.88           N  
+HETATM   34  N5  J3N A 501     -25.695 -13.425   6.364  1.00 46.50           N  
+HETATM   35  N6  J3N A 501     -27.631  -6.297   9.527  1.00 44.71           N  
+HETATM   36  N7  J3N A 501     -29.192  -4.421   9.727  1.00 49.76           N  
+CONECT    8   16   19   34
+CONECT    8   16
+CONECT    9    6   19
+CONECT   10   21   35   36
+CONECT   10   21
+CONECT   11   25   35
+CONECT   11   35
+CONECT   12   13   21
+CONECT   12   13
+CONECT   13   12   36
+CONECT   13   12
+CONECT   14   15   23
+CONECT   14   23
+CONECT   15   14   30
+CONECT   15   30
+CONECT   16    8
+CONECT   16    8
+CONECT   17   22   30   31
+CONECT   17   22
+CONECT   18   26   34
+CONECT   19    8    9
+CONECT   20   21   25
+CONECT   20   25
+CONECT   21   10   12   20
+CONECT   21   10
+CONECT   22   17   23   24
+CONECT   22   17
+CONECT   23   14   22   33
+CONECT   23   14
+CONECT   24   22   25   32
+CONECT   24   32
+CONECT   25   11   20   24
+CONECT   25   20
+CONECT   26   18   27   31
+CONECT   27   26   28
+CONECT   28   27   29
+CONECT   29   28   34
+CONECT   30   15   17
+CONECT   30   15
+CONECT   31   17   26   32
+CONECT   32   24   31
+CONECT   32   24
+CONECT   33   23
+CONECT   34    8   18   29
+CONECT   35   10   11
+CONECT   35   11
+CONECT   36   10   13
+ENDMDL
+END   

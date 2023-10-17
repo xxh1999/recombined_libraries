@@ -1,0 +1,63 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3S22
+MODEL        1
+ATOM      1  N   SER A  90       7.374   8.192  16.870  1.00  9.64           N1+
+ATOM      2  CA  SER A  90       6.918   7.418  18.024  1.00 10.17           C  
+ATOM      3  C   SER A  90       6.582   5.944  17.750  1.00  9.90           C  
+ATOM      4  O   SER A  90       6.314   5.218  18.703  1.00 10.14           O  
+ATOM      5  CB  SER A  90       5.666   8.070  18.620  1.00  9.84           C  
+ATOM      6  OG  SER A  90       5.875   9.356  19.181  1.00 11.78           O  
+TER       7      SER A  90
+HETATM    8  C4  3S2 A   1      10.393  15.767  19.172  1.00 32.99           C  
+HETATM    9  C5  3S2 A   1       9.564  15.784  17.886  1.00 30.11           C  
+HETATM   10  C6  3S2 A   1      10.702  17.168  19.701  1.00 35.50           C  
+HETATM   11  C7  3S2 A   1       9.111  14.379  17.471  1.00 24.88           C  
+HETATM   12  C8  3S2 A   1       5.769  10.441  18.405  1.00 12.60           C  
+HETATM   13  C10 3S2 A   1       5.398  11.674  19.234  1.00 13.25           C  
+HETATM   14  N12 3S2 A   1      11.309  17.098  21.040  1.00 36.31           N1+
+HETATM   15  C1  3S2 A   1      11.616  18.410  21.633  1.00 40.35           C  
+HETATM   16  C2  3S2 A   1       3.688  12.814  17.975  1.00 16.60           C  
+HETATM   17  C3  3S2 A   1       4.974  13.648  17.910  1.00 18.26           C  
+HETATM   18  C9  3S2 A   1       3.872  11.925  19.198  1.00 14.59           C  
+HETATM   19  C11 3S2 A   1       7.325  13.103  18.637  1.00 17.40           C  
+HETATM   20  N13 3S2 A   1       7.728  14.117  17.860  1.00 18.97           N  
+HETATM   21  N14 3S2 A   1       3.100  10.662  19.195  1.00 16.16           N  
+HETATM   22  N15 3S2 A   1       5.993  12.868  18.623  1.00 16.51           N  
+HETATM   23  O16 3S2 A   1       1.993  10.400  16.944  1.00 21.55           O  
+HETATM   24  O17 3S2 A   1       5.851  10.457  17.181  1.00 12.00           O  
+HETATM   25  O18 3S2 A   1       8.115  12.380  19.244  1.00 17.90           O  
+HETATM   26  O19 3S2 A   1       0.743  11.404  18.835  1.00 20.99           O1-
+HETATM   27  O20 3S2 A   1       1.293   8.984  18.831  1.00 18.07           O  
+HETATM   28  S21 3S2 A   1       1.636  10.334  18.367  1.00 18.58           S  
+CONECT    8    9   10
+CONECT    9    8   11
+CONECT   10    8   14
+CONECT   11    9   20
+CONECT   12    6   13   24
+CONECT   12   24
+CONECT   13   12   18   22
+CONECT   14   10   15
+CONECT   15   14
+CONECT   16   17   18
+CONECT   17   16   22
+CONECT   18   13   16   21
+CONECT   19   20   22   25
+CONECT   19   25
+CONECT   20   11   19
+CONECT   21   18   28
+CONECT   22   13   17   19
+CONECT   23   28
+CONECT   23   28
+CONECT   24   12
+CONECT   24   12
+CONECT   25   19
+CONECT   25   19
+CONECT   26   28
+CONECT   27   28
+CONECT   27   28
+CONECT   28   21   23   26   27
+CONECT   28   23   27
+ENDMDL
+END   

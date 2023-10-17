@@ -1,0 +1,106 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6d8e_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  FZP A1101      -1.120  17.108  46.085  1.00  0.00           C  
+HETATM    2  C14 FZP A1101       5.682  23.266  39.784  1.00  0.00           C  
+HETATM    3  C5  FZP A1101      -0.268  18.903  44.528  1.00  0.00           C  
+HETATM    4  C6  FZP A1101       1.164  18.472  42.678  1.00  0.00           C  
+HETATM    5  C11 FZP A1101       4.998  20.605  39.984  1.00  0.00           C  
+HETATM    6  C7  FZP A1101       1.097  19.819  42.310  1.00  0.00           C  
+HETATM    7  C8  FZP A1101       0.328  20.688  43.100  1.00  0.00           C  
+HETATM    8  C9  FZP A1101       2.705  17.724  40.957  1.00  0.00           C  
+HETATM    9  C10 FZP A1101       4.621  19.137  40.107  1.00  0.00           C  
+HETATM   10  C12 FZP A1101       5.038  21.202  38.712  1.00  0.00           C  
+HETATM   11  C13 FZP A1101       5.380  22.543  38.612  1.00  0.00           C  
+HETATM   12  N1  FZP A1101      -1.659  15.418  47.288  1.00  0.00           N  
+HETATM   13  N2  FZP A1101      -1.667  16.832  47.293  1.00  0.00           N  
+HETATM   14  C3  FZP A1101      -0.789  15.973  45.345  1.00  0.00           C  
+HETATM   15  N3  FZP A1101      -0.916  18.388  45.610  1.00  0.00           N  
+HETATM   16  C1  FZP A1101      -2.224  14.810  48.528  1.00  0.00           C  
+HETATM   17  C15 FZP A1101       5.664  22.689  41.055  1.00  0.00           C  
+HETATM   18  C16 FZP A1101       5.298  21.349  41.147  1.00  0.00           C  
+HETATM   19  C17 FZP A1101       1.598  16.090  42.266  1.00  0.00           C  
+HETATM   20  C18 FZP A1101       2.078  15.393  43.407  1.00  0.00           C  
+HETATM   21  C19 FZP A1101       1.760  14.042  43.590  1.00  0.00           C  
+HETATM   22  C2  FZP A1101      -1.141  14.897  46.155  1.00  0.00           C  
+HETATM   23  C20 FZP A1101       0.973  13.357  42.655  1.00  0.00           C  
+HETATM   24  C21 FZP A1101       0.478  14.025  41.515  1.00  0.00           C  
+HETATM   25  C22 FZP A1101       0.808  15.363  41.343  1.00  0.00           C  
+HETATM   26  C23 FZP A1101      -1.019  12.362  40.550  1.00  0.00           C  
+HETATM   27  C24 FZP A1101      -1.788  11.800  39.362  1.00  0.00           C  
+HETATM   28  C25 FZP A1101      -3.301  11.872  39.607  1.00  0.00           C  
+HETATM   29  F1  FZP A1101       6.001  24.559  39.703  1.00  0.00           F  
+HETATM   30  N4  FZP A1101       0.471  18.056  43.773  1.00  0.00           N  
+HETATM   31  N5  FZP A1101      -0.336  20.224  44.189  1.00  0.00           N  
+HETATM   32  N6  FZP A1101       1.892  17.464  42.000  1.00  0.00           N  
+HETATM   33  N7  FZP A1101      -0.300  13.400  40.498  1.00  0.00           N  
+HETATM   34  O1  FZP A1101       2.925  16.891  40.093  1.00  0.00           O  
+HETATM   35  O2  FZP A1101       3.417  18.989  40.855  1.00  0.00           O  
+HETATM   36  O3  FZP A1101      -1.139  11.788  41.624  1.00  0.00           O  
+CONECT    1   13   14   15
+CONECT    1   13
+CONECT    2   11   17   29
+CONECT    2   11
+CONECT    3   15   30   31
+CONECT    3   30
+CONECT    4    6   30   32
+CONECT    4    6
+CONECT    5    9   10   18
+CONECT    5   10
+CONECT    6    4    7
+CONECT    6    4
+CONECT    7    6   31
+CONECT    7   31
+CONECT    8   32   34   35
+CONECT    8   34
+CONECT    9    5   35
+CONECT   10    5   11
+CONECT   10    5
+CONECT   11    2   10
+CONECT   11    2
+CONECT   12   13   16   22
+CONECT   13    1   12
+CONECT   13    1
+CONECT   14    1   22
+CONECT   14   22
+CONECT   15    1    3
+CONECT   16   12
+CONECT   17    2   18
+CONECT   17   18
+CONECT   18    5   17
+CONECT   18   17
+CONECT   19   20   25   32
+CONECT   19   25
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20   23
+CONECT   21   20
+CONECT   22   12   14
+CONECT   22   14
+CONECT   23   21   24
+CONECT   23   24
+CONECT   24   23   25   33
+CONECT   24   23
+CONECT   25   19   24
+CONECT   25   19
+CONECT   26   27   33   36
+CONECT   26   36
+CONECT   27   26   28
+CONECT   28   27
+CONECT   29    2
+CONECT   30    3    4
+CONECT   30    3
+CONECT   31    3    7
+CONECT   31    7
+CONECT   32    4    8   19
+CONECT   33   24   26
+CONECT   34    8
+CONECT   34    8
+CONECT   35    8    9
+CONECT   36   26
+CONECT   36   26
+ENDMDL
+END   

@@ -1,0 +1,90 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4uxl_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C23 Q5P A3230      -1.309  17.428  47.650  1.00  0.00           C  
+HETATM    2  C12 Q5P A3230       0.240  15.401  39.859  1.00  0.00           C  
+HETATM    3  C13 Q5P A3230      -0.397  16.077  38.781  1.00  0.00           C  
+HETATM    4  C6  Q5P A3230       0.641  18.154  43.604  1.00  0.00           C  
+HETATM    5  C15 Q5P A3230       0.851  18.117  39.321  1.00  0.00           C  
+HETATM    6  C4  Q5P A3230      -1.012  19.335  44.911  1.00  0.00           C  
+HETATM    7  C19 Q5P A3230      -1.090  16.505  46.599  1.00  0.00           C  
+HETATM    8  C5  Q5P A3230      -0.361  18.097  44.603  1.00  0.00           C  
+HETATM    9  C18 Q5P A3230      -0.683  16.756  45.274  1.00  0.00           C  
+HETATM   10  C11 Q5P A3230       1.201  16.064  40.699  1.00  0.00           C  
+HETATM   11  C10 Q5P A3230       1.519  17.464  40.426  1.00  0.00           C  
+HETATM   12  C1  Q5P A3230       0.986  19.378  42.930  1.00  0.00           C  
+HETATM   13  C14 Q5P A3230      -0.095  17.439  38.502  1.00  0.00           C  
+HETATM   14  C22 Q5P A3230      -0.642  15.392  44.672  1.00  0.00           C  
+HETATM   15  C2  Q5P A3230       0.262  20.532  43.337  1.00  0.00           C  
+HETATM   16  C27 Q5P A3230       1.848  15.278  41.808  1.00  0.00           C  
+HETATM   17  C28 Q5P A3230      -0.277  14.975  43.237  1.00  0.00           C  
+HETATM   18  C8  Q5P A3230       2.558  18.295  41.247  1.00  0.00           C  
+HETATM   19  C9  Q5P A3230       3.635  18.839  40.299  1.00  0.00           C  
+HETATM   20  C25 Q5P A3230      -1.663  14.382  47.862  1.00  0.00           C  
+HETATM   21  C29 Q5P A3230       1.938  14.028  43.949  1.00  0.00           C  
+HETATM   22  N24 Q5P A3230      -1.514  18.194  48.502  1.00  0.00           N  
+HETATM   23  N3  Q5P A3230      -0.708  20.517  44.299  1.00  0.00           N  
+HETATM   24  N21 Q5P A3230      -0.980  14.524  45.556  1.00  0.00           N  
+HETATM   25  N20 Q5P A3230      -1.244  15.108  46.664  1.00  0.00           N  
+HETATM   26  N26 Q5P A3230       1.182  14.798  42.934  1.00  0.00           N  
+HETATM   27  N17 Q5P A3230       0.550  21.768  42.728  1.00  0.00           N  
+HETATM   28  O30 Q5P A3230       3.069  15.063  41.668  1.00  0.00           O  
+HETATM   29  O7  Q5P A3230       1.969  19.478  41.940  1.00  0.00           O  
+HETATM   30  F16 Q5P A3230      -0.686  18.072  37.485  1.00  0.00           F  
+CONECT    1    7   22
+CONECT    1   22
+CONECT    1   22
+CONECT    2    3   10
+CONECT    2   10
+CONECT    3    2   13
+CONECT    3   13
+CONECT    4    8   12
+CONECT    4    8
+CONECT    5   11   13
+CONECT    5   11
+CONECT    6    8   23
+CONECT    6   23
+CONECT    7    1    9   25
+CONECT    7    9
+CONECT    8    4    6    9
+CONECT    8    4
+CONECT    9    7    8   14
+CONECT    9    7
+CONECT   10    2   11   16
+CONECT   10    2
+CONECT   11    5   10   18
+CONECT   11    5
+CONECT   12    4   15   29
+CONECT   12   15
+CONECT   13    3    5   30
+CONECT   13    3
+CONECT   14    9   17   24
+CONECT   14   24
+CONECT   15   12   23   27
+CONECT   15   12
+CONECT   16   10   26   28
+CONECT   16   28
+CONECT   17   14   26
+CONECT   18   11   19   29
+CONECT   19   18
+CONECT   20   25
+CONECT   21   26
+CONECT   22    1
+CONECT   22    1
+CONECT   22    1
+CONECT   23    6   15
+CONECT   23    6
+CONECT   24   14   25
+CONECT   24   14
+CONECT   25    7   20   24
+CONECT   26   16   17   21
+CONECT   27   15
+CONECT   28   16
+CONECT   28   16
+CONECT   29   12   18
+CONECT   30   13
+ENDMDL
+END   

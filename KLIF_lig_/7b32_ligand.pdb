@@ -1,0 +1,119 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7b32_ligand
+MODEL        1
+HETATM    1  C2  SQQ A 401      -0.657  18.876  44.128  1.00  0.00           C  
+HETATM    2  C4  SQQ A 401       1.081  18.777  42.671  1.00  0.00           C  
+HETATM    3  C5  SQQ A 401       1.069  20.173  42.522  1.00  0.00           C  
+HETATM    4  C6  SQQ A 401       0.110  20.846  43.286  1.00  0.00           C  
+HETATM    5  CAG SQQ A 401      -2.631  16.868  48.606  1.00  0.00           C  
+HETATM    6  CAH SQQ A 401      -2.062  16.345  46.351  1.00  0.00           C  
+HETATM    7  CAI SQQ A 401      -2.318  15.000  46.541  1.00  0.00           C  
+HETATM    8  CAJ SQQ A 401      -2.206  14.126  45.471  1.00  0.00           C  
+HETATM    9  CAK SQQ A 401      -1.842  14.591  44.224  1.00  0.00           C  
+HETATM   10  CAL SQQ A 401      -1.592  15.937  44.022  1.00  0.00           C  
+HETATM   11  CAM SQQ A 401      -1.703  16.832  45.086  1.00  0.00           C  
+HETATM   12  CAQ SQQ A 401       2.021  20.759  41.631  1.00  0.00           C  
+HETATM   13  CAR SQQ A 401       2.944  20.017  40.976  1.00  0.00           C  
+HETATM   14  CAS SQQ A 401       2.991  18.583  41.182  1.00  0.00           C  
+HETATM   15  CAT SQQ A 401       2.025  16.567  42.120  1.00  0.00           C  
+HETATM   16  CAU SQQ A 401       1.662  15.905  40.803  1.00  0.00           C  
+HETATM   17  CAV SQQ A 401       0.026  15.738  39.134  1.00  0.00           C  
+HETATM   18  CAW SQQ A 401       0.320  14.255  38.967  1.00  0.00           C  
+HETATM   19  CAX SQQ A 401       1.652  13.898  39.607  1.00  0.00           C  
+HETATM   20  CAZ SQQ A 401       3.913  20.608  40.017  1.00  0.00           C  
+HETATM   21  CBA SQQ A 401       3.699  20.436  38.653  1.00  0.00           C  
+HETATM   22  CBB SQQ A 401       4.656  20.815  37.733  1.00  0.00           C  
+HETATM   23  CBC SQQ A 401       5.858  21.382  38.138  1.00  0.00           C  
+HETATM   24  CBD SQQ A 401       6.074  21.568  39.501  1.00  0.00           C  
+HETATM   25  CBE SQQ A 401       5.105  21.201  40.419  1.00  0.00           C  
+HETATM   26  CBF SQQ A 401       6.883  21.785  37.142  1.00  0.00           C  
+HETATM   27  CBG SQQ A 401       6.970  23.084  36.665  1.00  0.00           C  
+HETATM   28  CBH SQQ A 401       7.923  23.377  35.708  1.00  0.00           C  
+HETATM   29  CBI SQQ A 401       8.760  22.377  35.261  1.00  0.00           C  
+HETATM   30  CBJ SQQ A 401       8.630  21.099  35.790  1.00  0.00           C  
+HETATM   31  CBK SQQ A 401       9.547  19.986  35.384  1.00  0.00           C  
+HETATM   32  N1  SQQ A 401      -0.754  20.215  44.095  1.00  0.00           N  
+HETATM   33  N3  SQQ A 401       0.230  18.121  43.464  1.00  0.00           N  
+HETATM   34  NAA SQQ A 401      -1.563  18.220  44.905  1.00  0.00           N  
+HETATM   35  NAC SQQ A 401       2.023  18.025  41.992  1.00  0.00           N  
+HETATM   36  NAD SQQ A 401       0.341  13.888  37.545  1.00  0.00           N1+
+HETATM   37  NAF SQQ A 401       7.699  20.802  36.716  1.00  0.00           N  
+HETATM   38  OBL SQQ A 401      -2.144  17.291  47.332  1.00  0.00           O  
+HETATM   39  OBM SQQ A 401       3.832  17.857  40.670  1.00  0.00           O  
+HETATM   40  OBN SQQ A 401       0.320  16.178  40.466  1.00  0.00           O  
+HETATM   41  OBO SQQ A 401       1.815  14.523  40.889  1.00  0.00           O  
+HETATM   42 CL1  SQQ A 401       5.384  21.579  42.094  1.00  0.00          Cl  
+CONECT    1   32   33   34
+CONECT    1   32
+CONECT    2    3   33   35
+CONECT    2   33
+CONECT    3    2    4   12
+CONECT    3    4
+CONECT    4    3   32
+CONECT    4    3
+CONECT    5   38
+CONECT    6    7   11   38
+CONECT    6   11
+CONECT    7    6    8
+CONECT    7    8
+CONECT    8    7    9
+CONECT    8    7
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11    6   10   34
+CONECT   11    6
+CONECT   12    3   13
+CONECT   12   13
+CONECT   13   12   14   20
+CONECT   13   12
+CONECT   14   13   35   39
+CONECT   14   39
+CONECT   15   16   35
+CONECT   16   15   40   41
+CONECT   17   18   40
+CONECT   18   17   19   36
+CONECT   19   18   41
+CONECT   20   13   21   25
+CONECT   20   25
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   22   24   26
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   20   24   42
+CONECT   25   20
+CONECT   26   23   27   37
+CONECT   26   37
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   28   30
+CONECT   29   30
+CONECT   30   29   31   37
+CONECT   30   29
+CONECT   31   30
+CONECT   32    1    4
+CONECT   32    1
+CONECT   33    1    2
+CONECT   33    2
+CONECT   34    1   11
+CONECT   35    2   14   15
+CONECT   36   18
+CONECT   37   26   30
+CONECT   37   26
+CONECT   38    5    6
+CONECT   39   14
+CONECT   39   14
+CONECT   40   16   17
+CONECT   41   16   19
+CONECT   42   25
+ENDMDL
+END   

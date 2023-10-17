@@ -1,0 +1,83 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7otv_ligand
+MODEL        1
+HETATM    1  C1  KWT A6101       3.305  15.877  40.280  1.00  0.00           C  
+HETATM    2  O1  KWT A6101       4.422  15.020  39.896  1.00  0.00           O  
+HETATM    3  C9  KWT A6101       3.845  17.261  40.810  1.00  0.00           C  
+HETATM    4  C23 KWT A6101       2.385  15.969  39.026  1.00  0.00           C  
+HETATM    5  C2  KWT A6101       5.592  15.436  39.186  1.00  0.00           C  
+HETATM    6  O2  KWT A6101       6.327  14.602  38.665  1.00  0.00           O  
+HETATM    7  C3  KWT A6101       5.849  16.999  39.140  1.00  0.00           C  
+HETATM    8  C4  KWT A6101       4.811  17.842  39.619  1.00  0.00           C  
+HETATM    9  C19 KWT A6101       7.057  17.269  38.576  1.00  0.00           C  
+HETATM   10  C5  KWT A6101       4.531  19.140  39.126  1.00  0.00           C  
+HETATM   11  C6  KWT A6101       3.397  20.038  39.645  1.00  0.00           C  
+HETATM   12  O5  KWT A6101       5.254  19.738  38.113  1.00  0.00           O  
+HETATM   13  O3  KWT A6101       3.276  21.167  39.133  1.00  0.00           O  
+HETATM   14  C7  KWT A6101       2.463  19.527  40.760  1.00  0.00           C  
+HETATM   15  O6  KWT A6101       0.896  16.541  42.042  1.00  0.00           O  
+HETATM   16  C11 KWT A6101       1.669  17.722  42.485  1.00  0.00           C  
+HETATM   17  C21 KWT A6101       0.496  15.511  42.916  1.00  0.00           C  
+HETATM   18  C8  KWT A6101       2.648  18.242  41.316  1.00  0.00           C  
+HETATM   19  C15 KWT A6101       1.294  20.449  41.329  1.00  0.00           C  
+HETATM   20  C10 KWT A6101       4.740  17.083  42.100  1.00  0.00           C  
+HETATM   21  C12 KWT A6101       0.562  18.735  42.946  1.00  0.00           C  
+HETATM   22  C13 KWT A6101       1.020  20.237  42.872  1.00  0.00           C  
+HETATM   23  C14 KWT A6101       2.205  20.538  43.862  1.00  0.00           C  
+HETATM   24  C18 KWT A6101      -0.070  21.268  43.048  1.00  0.00           C  
+HETATM   25  C16 KWT A6101       1.339  21.999  41.274  1.00  0.00           C  
+HETATM   26  C17 KWT A6101       0.080  22.405  42.025  1.00  0.00           C  
+HETATM   27  O4  KWT A6101      -0.959  21.189  43.885  1.00  0.00           O  
+HETATM   28  O7  KWT A6101       0.726  15.442  44.131  1.00  0.00           O  
+HETATM   29  C22 KWT A6101      -0.303  14.434  42.170  1.00  0.00           C  
+HETATM   30  O8  KWT A6101       1.931  14.683  38.592  1.00  0.00           O  
+HETATM   31  C24 KWT A6101       1.056  14.751  37.451  1.00  0.00           C  
+CONECT    1    2    3    4
+CONECT    2    1    5
+CONECT    3    1    8   18   20
+CONECT    4    1   30
+CONECT    5    2    6    7
+CONECT    5    6
+CONECT    6    5
+CONECT    6    5
+CONECT    7    5    8    9
+CONECT    7    9
+CONECT    8    3    7   10
+CONECT    8   10
+CONECT    9    7   12
+CONECT    9    7
+CONECT   10    8   11   12
+CONECT   10    8
+CONECT   11   10   13   14
+CONECT   11   13
+CONECT   12    9   10
+CONECT   13   11
+CONECT   13   11
+CONECT   14   11   18   19
+CONECT   14   18
+CONECT   15   16   17
+CONECT   16   15   18   21
+CONECT   17   15   28   29
+CONECT   17   28
+CONECT   18    3   14   16
+CONECT   18   14
+CONECT   19   14   22   25
+CONECT   20    3
+CONECT   21   16   22
+CONECT   22   19   21   23   24
+CONECT   23   22
+CONECT   24   22   26   27
+CONECT   24   27
+CONECT   25   19   26
+CONECT   26   24   25
+CONECT   27   24
+CONECT   27   24
+CONECT   28   17
+CONECT   28   17
+CONECT   29   17
+CONECT   30    4   31
+CONECT   31   30
+ENDMDL
+END   

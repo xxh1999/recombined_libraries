@@ -1,0 +1,140 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7LC4
+MODEL        1
+ATOM      1  N   SER A 294      -7.356  33.740 -16.194  1.00 17.79           N1+
+ATOM      2  CA  SER A 294      -6.665  33.366 -17.444  1.00 17.05           C  
+ATOM      3  C   SER A 294      -5.988  31.996 -17.365  1.00 16.96           C  
+ATOM      4  O   SER A 294      -5.617  31.504 -18.427  1.00 16.32           O  
+ATOM      5  CB  SER A 294      -5.713  34.437 -17.828  1.00 17.93           C  
+ATOM      6  OG  SER A 294      -6.498  35.627 -18.013  1.00 19.48           O  
+TER       7      SER A 294
+HETATM    8  C1  XVG A 601      -6.152  43.145 -15.801  1.00 52.54           C  
+HETATM    9  C2  XVG A 601      -7.104  42.605 -14.738  1.00 53.58           C  
+HETATM   10  C3  XVG A 601      -6.307  42.086 -13.542  1.00 46.50           C  
+HETATM   11  O1  XVG A 601      -7.879  41.542 -15.378  1.00 45.63           O  
+HETATM   12  N1  XVG A 601      -8.751  40.874 -14.463  1.00 33.73           N  
+HETATM   13  C4  XVG A 601      -9.234  39.795 -14.976  1.00 28.50           C  
+HETATM   14  C5  XVG A 601      -8.707  39.275 -16.281  1.00 25.04           C  
+HETATM   15  O2  XVG A 601      -9.255  39.582 -17.331  1.00 22.88           O  
+HETATM   16  N2  XVG A 601      -7.596  38.559 -16.268  1.00 21.92           N  
+HETATM   17  C6  XVG A 601      -7.167  37.763 -17.401  1.00 20.56           C  
+HETATM   18  C7  XVG A 601      -6.272  36.614 -16.905  1.00 20.31           C  
+HETATM   19  O3  XVG A 601      -6.211  36.332 -15.769  1.00 20.83           O  
+HETATM   20  C8  XVG A 601      -6.399  38.576 -18.441  1.00 21.94           C  
+HETATM   21  N3  XVG A 601      -5.028  38.883 -18.080  1.00 24.56           N  
+HETATM   22  C9  XVG A 601      -4.686  39.821 -17.040  1.00 28.99           C  
+HETATM   23  C10 XVG A 601      -3.243  39.462 -17.039  1.00 32.15           C  
+HETATM   24  C11 XVG A 601      -2.274  40.221 -17.592  1.00 31.12           C  
+HETATM   25  O4  XVG A 601      -2.614  40.834 -18.597  1.00 31.42           O  
+HETATM   26  N4  XVG A 601      -1.021  40.178 -17.151  1.00 33.36           N  
+HETATM   27  C12 XVG A 601       0.109  40.629 -17.946  1.00 35.95           C  
+HETATM   28  C13 XVG A 601       0.483  42.063 -17.625  1.00 43.60           C  
+HETATM   29  N5  XVG A 601       1.692  42.468 -18.325  1.00 49.46           N  
+HETATM   30  C14 XVG A 601       2.981  42.206 -17.860  1.00 58.67           C  
+HETATM   31  O5  XVG A 601       3.224  41.627 -16.820  1.00 53.57           O  
+HETATM   32  C15 XVG A 601       3.914  42.725 -18.901  1.00 65.16           C  
+HETATM   33  C16 XVG A 601       5.299  42.727 -18.972  1.00 73.08           C  
+HETATM   34  C17 XVG A 601       5.907  43.282 -20.090  1.00 75.87           C  
+HETATM   35  O6  XVG A 601       7.264  43.334 -20.245  1.00 78.28           O  
+HETATM   36  C18 XVG A 601       5.128  43.819 -21.129  1.00 78.92           C  
+HETATM   37  O7  XVG A 601       5.779  44.349 -22.206  1.00 84.18           O  
+HETATM   38  C19 XVG A 601       3.743  43.800 -21.055  1.00 73.48           C  
+HETATM   39  C20 XVG A 601       3.149  43.258 -19.928  1.00 66.43           C  
+HETATM   40  C21 XVG A 601       1.713  43.081 -19.580  1.00 57.91           C  
+HETATM   41  O8  XVG A 601       0.729  43.336 -20.246  1.00 51.08           O  
+HETATM   42  C22 XVG A 601      -3.197  38.130 -16.979  1.00 24.92           C  
+HETATM   43  C23 XVG A 601      -2.149  37.139 -16.557  1.00 30.23           C  
+HETATM   44  O9  XVG A 601      -1.855  36.259 -17.369  1.00 27.36           O  
+HETATM   45  O10 XVG A 601      -1.640  37.292 -15.459  1.00 28.58           O1-
+HETATM   46  N6  XVG A 601      -4.201  37.796 -17.720  1.00 24.84           N  
+HETATM   47  C24 XVG A 601     -10.148  39.021 -14.191  1.00 26.75           C  
+HETATM   48  N7  XVG A 601     -10.718  39.576 -13.038  1.00 23.29           N  
+HETATM   49  C25 XVG A 601     -11.550  38.715 -12.490  1.00 27.94           C  
+HETATM   50  N8  XVG A 601     -12.281  38.957 -11.385  1.00 25.96           N  
+HETATM   51  S1  XVG A 601     -11.607  37.162 -13.280  1.00 28.62           S  
+HETATM   52  C26 XVG A 601     -10.567  37.734 -14.479  1.00 24.83           C  
+HETATM   53 CL1  XVG A 601     -10.220  36.733 -15.818  0.58 23.52          Cl  
+HETATM   54  C27 XVG A 601      -7.990  43.809 -14.299  1.00 52.99           C  
+HETATM   55  O11 XVG A 601      -9.106  43.903 -14.836  1.00 43.60           O  
+HETATM   56  O12 XVG A 601      -7.521  44.613 -13.445  1.00 56.07           O1-
+CONECT    8    9
+CONECT    9    8   10   11   54
+CONECT   10    9
+CONECT   11    9   12
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14   47
+CONECT   13   12
+CONECT   14   13   15   16
+CONECT   14   15
+CONECT   15   14
+CONECT   15   14
+CONECT   16   14   17
+CONECT   17   16   18   20
+CONECT   18    6   17   19
+CONECT   18   19
+CONECT   19   18
+CONECT   19   18
+CONECT   20   17   21
+CONECT   21   20   22   46
+CONECT   22   21   23
+CONECT   23   22   24   42
+CONECT   24   23   25   26
+CONECT   24   25
+CONECT   25   24
+CONECT   25   24
+CONECT   26   24   27
+CONECT   27   26   28
+CONECT   28   27   29
+CONECT   29   28   30   40
+CONECT   30   29   31   32
+CONECT   30   31
+CONECT   31   30
+CONECT   31   30
+CONECT   32   30   33   39
+CONECT   32   39
+CONECT   33   32   34
+CONECT   33   34
+CONECT   34   33   35   36
+CONECT   34   33
+CONECT   35   34
+CONECT   36   34   37   38
+CONECT   36   38
+CONECT   37   36
+CONECT   38   36   39
+CONECT   38   36
+CONECT   39   32   38   40
+CONECT   39   32
+CONECT   40   29   39   41
+CONECT   40   41
+CONECT   41   40
+CONECT   41   40
+CONECT   42   23   43   46
+CONECT   42   46
+CONECT   43   42   44   45
+CONECT   43   44
+CONECT   44   43
+CONECT   44   43
+CONECT   45   43
+CONECT   46   21   42
+CONECT   46   42
+CONECT   47   13   48   52
+CONECT   47   52
+CONECT   48   47   49
+CONECT   48   49
+CONECT   49   48   50   51
+CONECT   49   48
+CONECT   50   49
+CONECT   51   49   52
+CONECT   52   47   51   53
+CONECT   52   47
+CONECT   53   52
+CONECT   54    9   55   56
+CONECT   54   55
+CONECT   55   54
+CONECT   55   54
+CONECT   56   54
+ENDMDL
+END   

@@ -1,0 +1,126 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4rfy_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  Q3O A 701      -0.296  19.109  44.094  1.00  0.00           C  
+HETATM    2  C2  Q3O A 701      -0.590  17.816  44.632  1.00  0.00           C  
+HETATM    3  C3  Q3O A 701      -0.005  16.732  44.052  1.00  0.00           C  
+HETATM    4  C4  Q3O A 701       0.885  16.938  42.953  1.00  0.00           C  
+HETATM    5  C5  Q3O A 701       1.141  18.213  42.465  1.00  0.00           C  
+HETATM    6  N6  Q3O A 701       0.550  19.287  43.042  1.00  0.00           N  
+HETATM    7  C7  Q3O A 701       0.796  20.665  42.514  1.00  0.00           C  
+HETATM    8  O8  Q3O A 701      -0.849  20.062  44.646  1.00  0.00           O  
+HETATM    9  N9  Q3O A 701      -1.512  17.804  45.718  1.00  0.00           N  
+HETATM   10  C10 Q3O A 701      -1.935  16.782  46.538  1.00  0.00           C  
+HETATM   11  C11 Q3O A 701      -2.724  17.084  47.668  1.00  0.00           C  
+HETATM   12  C12 Q3O A 701      -3.161  16.049  48.463  1.00  0.00           C  
+HETATM   13  C13 Q3O A 701      -2.797  14.736  48.105  1.00  0.00           C  
+HETATM   14  C14 Q3O A 701      -2.015  14.510  46.941  1.00  0.00           C  
+HETATM   15  N15 Q3O A 701      -1.606  15.533  46.200  1.00  0.00           N  
+HETATM   16  C16 Q3O A 701      -3.235  13.530  48.871  1.00  0.00           C  
+HETATM   17  O17 Q3O A 701      -2.387  12.746  49.247  1.00  0.00           O  
+HETATM   18  N18 Q3O A 701      -4.559  13.247  49.061  1.00  0.00           N  
+HETATM   19  C19 Q3O A 701      -4.949  12.001  49.799  1.00  0.00           C  
+HETATM   20  C20 Q3O A 701      -6.404  12.044  50.297  1.00  0.00           C  
+HETATM   21  O21 Q3O A 701      -7.240  12.520  49.224  1.00  0.00           O  
+HETATM   22  C22 Q3O A 701      -7.031  13.928  49.110  1.00  0.00           C  
+HETATM   23  C23 Q3O A 701      -5.628  14.160  48.527  1.00  0.00           C  
+HETATM   24  C24 Q3O A 701       1.557  15.749  42.350  1.00  0.00           C  
+HETATM   25  C25 Q3O A 701       2.115  14.814  43.263  1.00  0.00           C  
+HETATM   26  C26 Q3O A 701       2.765  13.666  42.833  1.00  0.00           C  
+HETATM   27  C27 Q3O A 701       2.922  13.429  41.438  1.00  0.00           C  
+HETATM   28  C28 Q3O A 701       2.357  14.332  40.525  1.00  0.00           C  
+HETATM   29  C29 Q3O A 701       1.719  15.509  40.959  1.00  0.00           C  
+HETATM   30  C30 Q3O A 701       1.056  16.494  39.998  1.00  0.00           C  
+HETATM   31  N31 Q3O A 701       2.506  14.159  39.114  1.00  0.00           N  
+HETATM   32  C32 Q3O A 701       1.389  13.487  38.396  1.00  0.00           C  
+HETATM   33  C33 Q3O A 701       1.201  14.131  37.037  1.00  0.00           C  
+HETATM   34  C34 Q3O A 701       3.643  14.579  38.490  1.00  0.00           C  
+HETATM   35  C35 Q3O A 701       3.708  14.509  37.005  1.00  0.00           C  
+HETATM   36  C36 Q3O A 701       2.478  14.329  36.288  1.00  0.00           C  
+HETATM   37  C37 Q3O A 701       2.492  14.356  34.901  1.00  0.00           C  
+HETATM   38  C38 Q3O A 701       3.712  14.633  34.215  1.00  0.00           C  
+HETATM   39  C39 Q3O A 701       4.927  14.792  34.927  1.00  0.00           C  
+HETATM   40  C40 Q3O A 701       4.903  14.780  36.323  1.00  0.00           C  
+HETATM   41  N41 Q3O A 701       3.771  14.658  32.796  1.00  0.00           N  
+HETATM   42  C42 Q3O A 701       2.506  14.775  31.991  1.00  0.00           C  
+HETATM   43  C43 Q3O A 701       5.029  14.630  32.070  1.00  0.00           C  
+HETATM   44  O44 Q3O A 701       4.583  15.137  39.102  1.00  0.00           O  
+HETATM   45  O45 Q3O A 701       2.011  17.385  39.373  1.00  0.00           O  
+CONECT    1    2    6    8
+CONECT    1    8
+CONECT    2    1    3    9
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3    5   24
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    1    5    7
+CONECT    7    6
+CONECT    8    1
+CONECT    8    1
+CONECT    9    2   10
+CONECT   10    9   11   15
+CONECT   10   15
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   14   16
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   10   14
+CONECT   15   10
+CONECT   16   13   17   18
+CONECT   16   17
+CONECT   17   16
+CONECT   17   16
+CONECT   18   16   19   23
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   23   18   22
+CONECT   24    4   25   29
+CONECT   24   29
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   27   29   31
+CONECT   28   27
+CONECT   29   24   28   30
+CONECT   29   24
+CONECT   30   29   45
+CONECT   31   28   32   34
+CONECT   32   31   33
+CONECT   33   32   36
+CONECT   34   31   35   44
+CONECT   34   44
+CONECT   35   34   36   40
+CONECT   35   40
+CONECT   36   33   35   37
+CONECT   36   37
+CONECT   37   36   38
+CONECT   37   36
+CONECT   38   37   39   41
+CONECT   38   39
+CONECT   39   38   40
+CONECT   39   38
+CONECT   40   35   39
+CONECT   40   35
+CONECT   41   38   42   43
+CONECT   42   41
+CONECT   43   41
+CONECT   44   34
+CONECT   44   34
+CONECT   45   30
+ENDMDL
+END   

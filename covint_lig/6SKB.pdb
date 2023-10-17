@@ -1,0 +1,90 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6SKB
+MODEL        1
+ATOM      1  N   SER C 195     -15.530  -6.878 -13.665  1.00 15.18           N1+
+ATOM      2  CA  SER C 195     -16.326  -7.215 -12.453  1.00 14.75           C  
+ATOM      3  C   SER C 195     -15.464  -7.383 -11.272  1.00 17.39           C  
+ATOM      4  O   SER C 195     -14.415  -8.014 -11.384  1.00 16.72           O  
+ATOM      5  CB  SER C 195     -17.090  -8.525 -12.629  1.00 20.25           C  
+ATOM      6  OG  SER C 195     -17.955  -8.495 -13.743  1.00 21.30           O  
+TER       7      SER C 195
+HETATM    8  C10 RH5 C 301     -19.409  -5.210 -15.723  0.50 21.78           C  
+HETATM    9  C12 RH5 C 301     -20.182  -6.283 -16.143  0.50 19.92           C  
+HETATM   10  C13 RH5 C 301     -21.328  -6.031 -16.899  0.50 18.25           C  
+HETATM   11  C15 RH5 C 301     -21.677  -4.733 -17.242  0.50 17.32           C  
+HETATM   12  C17 RH5 C 301     -23.488  -5.480 -18.699  0.50 18.19           C  
+HETATM   13  C20 RH5 C 301     -22.691  -6.088 -19.826  0.50 20.85           C  
+HETATM   14  C21 RH5 C 301     -22.298  -7.419 -19.804  0.50 23.06           C  
+HETATM   15  C28 RH5 C 301     -22.371  -5.359 -20.958  0.50 19.93           C  
+HETATM   16  N01 RH5 C 301     -20.713  -1.238 -16.318  0.50 11.01           N1+
+HETATM   17  C04 RH5 C 301     -21.185  -2.215 -17.125  0.50 14.82           C  
+HETATM   18  N05 RH5 C 301     -21.840  -1.866 -18.186  0.50 15.51           N  
+HETATM   19  C07 RH5 C 301     -20.896  -3.640 -16.816  0.50 17.13           C  
+HETATM   20  C08 RH5 C 301     -19.751  -3.910 -16.055  0.50 21.27           C  
+HETATM   21  O16 RH5 C 301     -22.788  -4.429 -18.003  0.50 17.47           O  
+HETATM   22  C23 RH5 C 301     -21.574  -7.949 -20.857  0.50 24.11           C  
+HETATM   23  C25 RH5 C 301     -21.289  -7.130 -21.930  0.50 24.31           C  
+HETATM   24  N27 RH5 C 301     -21.683  -5.847 -22.000  0.50 23.54           N  
+HETATM   25  C30 RH5 C 301     -19.790  -7.700 -15.784  0.50 19.34           C  
+HETATM   26  C32 RH5 C 301     -20.231  -8.780 -16.762  0.50 18.54           C  
+HETATM   27  C35 RH5 C 301     -19.852 -10.147 -16.237  0.50 20.20           C  
+HETATM   28  C36 RH5 C 301     -20.630 -11.281 -16.472  0.50 19.58           C  
+HETATM   29  C38 RH5 C 301     -20.258 -12.518 -15.966  0.50 20.88           C  
+HETATM   30  C40 RH5 C 301     -19.086 -12.642 -15.245  0.50 22.56           C  
+HETATM   31  C42 RH5 C 301     -18.306 -11.521 -14.988  0.50 21.49           C  
+HETATM   32  C44 RH5 C 301     -18.665 -10.252 -15.473  0.50 20.72           C  
+HETATM   33  B45 RH5 C 301     -17.781  -9.000 -15.302  0.50 22.74           B1-
+HETATM   34  O46 RH5 C 301     -16.430  -9.064 -15.327  0.50 24.06           O  
+HETATM   35  O48 RH5 C 301     -18.338  -7.806 -15.692  0.50 20.45           O  
+CONECT    8    9   20
+CONECT    8   20
+CONECT    9    8   10   25
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11   10   19   21
+CONECT   11   19
+CONECT   12   13   21
+CONECT   13   12   14   15
+CONECT   13   14
+CONECT   14   13   22
+CONECT   14   13
+CONECT   15   13   24
+CONECT   15   24
+CONECT   16   17
+CONECT   16   17
+CONECT   17   16   18   19
+CONECT   17   16
+CONECT   18   17
+CONECT   19   11   17   20
+CONECT   19   11
+CONECT   20    8   19
+CONECT   20    8
+CONECT   21   11   12
+CONECT   22   14   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   15   23
+CONECT   24   15
+CONECT   25    9   26   35
+CONECT   26   25   27
+CONECT   27   26   28   32
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   28   30
+CONECT   29   30
+CONECT   30   29   31
+CONECT   30   29
+CONECT   31   30   32
+CONECT   31   32
+CONECT   32   27   31   33
+CONECT   32   31
+CONECT   33    6   32   34   35
+CONECT   34   33
+CONECT   35   25   33
+ENDMDL
+END   

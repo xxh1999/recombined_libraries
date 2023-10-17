@@ -1,0 +1,92 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4bid_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C   IE8 B4000       0.667  14.156  37.535  1.00  0.00           C  
+HETATM    2  N   IE8 B4000       1.563  13.101  38.022  1.00  0.00           N  
+HETATM    3  O   IE8 B4000       2.054  16.050  37.945  1.00  0.00           O  
+HETATM    4  C1  IE8 B4000       0.829  15.455  38.415  1.00  0.00           C  
+HETATM    5  N1  IE8 B4000       4.230  18.926  38.012  1.00  0.00           N  
+HETATM    6  O1  IE8 B4000       5.698  22.336  40.517  1.00  0.00           O  
+HETATM    7  C2  IE8 B4000       2.452  17.338  38.251  1.00  0.00           C  
+HETATM    8  N2  IE8 B4000       0.977  21.866  41.883  1.00  0.00           N  
+HETATM    9  C3  IE8 B4000       3.641  17.768  37.687  1.00  0.00           C  
+HETATM   10  N3  IE8 B4000      -0.213  20.619  43.614  1.00  0.00           N  
+HETATM   11  C4  IE8 B4000       3.651  19.699  38.951  1.00  0.00           C  
+HETATM   12  C5  IE8 B4000       4.509  20.855  39.315  1.00  0.00           C  
+HETATM   13  C6  IE8 B4000       5.311  21.658  38.459  1.00  0.00           C  
+HETATM   14  C7  IE8 B4000       6.000  22.513  39.209  1.00  0.00           C  
+HETATM   15  C8  IE8 B4000       4.786  21.323  40.567  1.00  0.00           C  
+HETATM   16  C9  IE8 B4000       2.427  19.373  39.560  1.00  0.00           C  
+HETATM   17  C10 IE8 B4000       1.824  18.177  39.163  1.00  0.00           C  
+HETATM   18  C11 IE8 B4000       1.750  20.140  40.649  1.00  0.00           C  
+HETATM   19  C12 IE8 B4000       1.694  21.515  40.767  1.00  0.00           C  
+HETATM   20  C13 IE8 B4000       0.546  20.729  42.502  1.00  0.00           C  
+HETATM   21  C14 IE8 B4000      -0.524  19.380  44.038  1.00  0.00           C  
+HETATM   22  C15 IE8 B4000      -0.102  18.219  43.406  1.00  0.00           C  
+HETATM   23  C16 IE8 B4000       0.679  18.329  42.266  1.00  0.00           C  
+HETATM   24  C17 IE8 B4000       1.003  19.604  41.796  1.00  0.00           C  
+HETATM   25  C18 IE8 B4000       0.778  15.161  39.894  1.00  0.00           C  
+HETATM   26  C19 IE8 B4000       1.943  15.073  40.652  1.00  0.00           C  
+HETATM   27  C20 IE8 B4000       1.882  14.917  42.027  1.00  0.00           C  
+HETATM   28  C21 IE8 B4000       0.659  14.828  42.664  1.00  0.00           C  
+HETATM   29  C22 IE8 B4000      -0.503  14.892  41.925  1.00  0.00           C  
+HETATM   30  C23 IE8 B4000      -0.445  15.054  40.547  1.00  0.00           C  
+CONECT    1    2    4
+CONECT    2    1
+CONECT    3    4    7
+CONECT    4    1    3   25
+CONECT    5    9   11
+CONECT    5    9
+CONECT    6   14   15
+CONECT    7    3    9   17
+CONECT    7   17
+CONECT    8   19   20
+CONECT    9    5    7
+CONECT    9    5
+CONECT   10   20   21
+CONECT   10   21
+CONECT   11    5   12   16
+CONECT   11   16
+CONECT   12   11   13   15
+CONECT   12   15
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14    6   13
+CONECT   14   13
+CONECT   15    6   12
+CONECT   15   12
+CONECT   16   11   17   18
+CONECT   16   11
+CONECT   17    7   16
+CONECT   17    7
+CONECT   18   16   19   24
+CONECT   18   19
+CONECT   19    8   18
+CONECT   19   18
+CONECT   20    8   10   24
+CONECT   20   24
+CONECT   21   10   22
+CONECT   21   10
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   18   20   23
+CONECT   24   20
+CONECT   25    4   26   30
+CONECT   25   30
+CONECT   26   25   27
+CONECT   26   27
+CONECT   27   26   28
+CONECT   27   26
+CONECT   28   27   29
+CONECT   28   29
+CONECT   29   28   30
+CONECT   29   28
+CONECT   30   25   29
+CONECT   30   25
+ENDMDL
+END   

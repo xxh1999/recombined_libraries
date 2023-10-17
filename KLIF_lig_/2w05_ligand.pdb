@@ -1,0 +1,84 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2w05_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  FRT A1299       0.951  19.016  41.141  1.00  0.00           C  
+HETATM    2  N2  FRT A1299       0.369  18.343  42.179  1.00  0.00           N  
+HETATM    3  C3  FRT A1299      -0.326  19.017  43.110  1.00  0.00           C  
+HETATM    4  N4  FRT A1299      -0.507  20.339  43.114  1.00  0.00           N  
+HETATM    5  C5  FRT A1299       0.041  21.061  42.121  1.00  0.00           C  
+HETATM    6  C6  FRT A1299       0.797  20.456  41.084  1.00  0.00           C  
+HETATM    7  N7  FRT A1299      -0.894  18.195  44.154  1.00  0.00           N  
+HETATM    8  C8  FRT A1299      -1.529  16.895  44.238  1.00  0.00           C  
+HETATM    9  C9  FRT A1299      -1.684  16.014  43.119  1.00  0.00           C  
+HETATM   10  C10 FRT A1299      -2.317  14.761  43.272  1.00  0.00           C  
+HETATM   11  C11 FRT A1299      -2.798  14.388  44.547  1.00  0.00           C  
+HETATM   12  C12 FRT A1299      -2.661  15.231  45.674  1.00  0.00           C  
+HETATM   13  C13 FRT A1299      -2.025  16.488  45.515  1.00  0.00           C  
+HETATM   14  S14 FRT A1299      -3.581  12.854  44.734  1.00  0.00           S2+
+HETATM   15  N15 FRT A1299      -2.903  11.771  43.556  1.00  0.00           N  
+HETATM   16  C16 FRT A1299      -2.018  10.759  44.171  1.00  0.00           C  
+HETATM   17  C17 FRT A1299      -1.455   9.810  43.111  1.00  0.00           C  
+HETATM   18  O18 FRT A1299      -0.605   8.835  43.745  1.00  0.00           O  
+HETATM   19  C19 FRT A1299      -0.013   7.876  42.836  1.00  0.00           C  
+HETATM   20  C20 FRT A1299       1.692  18.285  40.134  1.00  0.00           C  
+HETATM   21  N21 FRT A1299       1.458  16.941  39.674  1.00  0.00           N  
+HETATM   22  C22 FRT A1299       2.504  16.874  38.709  1.00  0.00           C  
+HETATM   23  N23 FRT A1299       3.332  17.945  38.507  1.00  0.00           N  
+HETATM   24  C24 FRT A1299       2.806  18.829  39.413  1.00  0.00           C  
+HETATM   25  C25 FRT A1299       0.384  15.934  40.096  1.00  0.00           C  
+HETATM   26  C26 FRT A1299      -0.571  15.591  38.936  1.00  0.00           C  
+HETATM   27  C27 FRT A1299       1.006  14.645  40.697  1.00  0.00           C  
+HETATM   28  C28 FRT A1299       2.811  15.651  37.818  1.00  0.00           C  
+HETATM   29  O29 FRT A1299      -3.311  12.282  46.197  1.00  0.00           O1-
+HETATM   30  O30 FRT A1299      -5.142  12.997  44.463  1.00  0.00           O1-
+CONECT    1    2    6   20
+CONECT    1    6
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2    4    7
+CONECT    3    2
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    1    5
+CONECT    6    1
+CONECT    7    3    8
+CONECT    8    7    9   13
+CONECT    8   13
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11   10   12   14
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13    8   12
+CONECT   13    8
+CONECT   14   11   15   29   30
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   18   17   19
+CONECT   19   18
+CONECT   20    1   21   24
+CONECT   20   24
+CONECT   21   20   22   25
+CONECT   22   21   23   28
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   20   23
+CONECT   24   20
+CONECT   25   21   26   27
+CONECT   26   25
+CONECT   27   25
+CONECT   28   22
+CONECT   29   14
+CONECT   30   14
+ENDMDL
+END   

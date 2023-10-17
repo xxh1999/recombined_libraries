@@ -1,0 +1,84 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6vnv_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N3  R4Y A4000      -1.387  18.543  44.627  1.00  0.00           N  
+HETATM    2  C4  R4Y A4000      -1.204  13.568  45.062  1.00  0.00           C  
+HETATM    3  N2  R4Y A4000      -2.032  15.462  46.405  1.00  0.00           N  
+HETATM    4  C7  R4Y A4000       0.364  20.816  42.551  1.00  0.00           C  
+HETATM    5  C6  R4Y A4000      -0.592  18.988  43.586  1.00  0.00           C  
+HETATM    6  C9  R4Y A4000       0.607  18.601  41.623  1.00  0.00           C  
+HETATM    7  C13 R4Y A4000       1.546  16.763  38.575  1.00  0.00           C  
+HETATM    8  C8  R4Y A4000       0.917  19.989  41.566  1.00  0.00           C  
+HETATM    9  N5  R4Y A4000      -0.116  18.077  42.675  1.00  0.00           N  
+HETATM   10  C18 R4Y A4000       4.769  13.629  36.819  1.00  0.00           C  
+HETATM   11  C16 R4Y A4000       4.545  15.134  36.957  1.00  0.00           C  
+HETATM   12  C19 R4Y A4000       4.917  13.127  35.485  1.00  0.00           C  
+HETATM   13  C1  R4Y A4000      -2.083  16.810  46.270  1.00  0.00           C  
+HETATM   14  C2  R4Y A4000      -1.485  17.207  45.020  1.00  0.00           C  
+HETATM   15  C3  R4Y A4000      -1.073  16.033  44.395  1.00  0.00           C  
+HETATM   16  N1  R4Y A4000      -1.415  15.004  45.282  1.00  0.00           N  
+HETATM   17  C5  R4Y A4000      -2.450  12.891  44.440  1.00  0.00           C  
+HETATM   18  O1  R4Y A4000      -2.534  13.125  43.071  1.00  0.00           O  
+HETATM   19  N4  R4Y A4000      -0.398  20.367  43.562  1.00  0.00           N  
+HETATM   20  N6  R4Y A4000       0.972  17.688  40.668  1.00  0.00           N  
+HETATM   21  C10 R4Y A4000       0.485  16.284  40.729  1.00  0.00           C  
+HETATM   22  C11 R4Y A4000       0.791  15.704  39.364  1.00  0.00           C  
+HETATM   23  C12 R4Y A4000       0.118  16.377  38.184  1.00  0.00           C  
+HETATM   24  C14 R4Y A4000       1.653  18.039  39.405  1.00  0.00           C  
+HETATM   25  N7  R4Y A4000       2.627  16.474  37.693  1.00  0.00           N  
+HETATM   26  C15 R4Y A4000       3.582  15.528  38.032  1.00  0.00           C  
+HETATM   27  O2  R4Y A4000       3.615  15.018  39.147  1.00  0.00           O  
+HETATM   28  C17 R4Y A4000       5.857  14.512  37.392  1.00  0.00           C  
+HETATM   29  N8  R4Y A4000       5.023  12.731  34.405  1.00  0.00           N  
+HETATM   30  F1  R4Y A4000       1.705  20.520  40.638  1.00  0.00           F  
+CONECT    1    5   14
+CONECT    2   16   17
+CONECT    3   13   16
+CONECT    3   13
+CONECT    4    8   19
+CONECT    4    8
+CONECT    5    1    9   19
+CONECT    5   19
+CONECT    6    8    9   20
+CONECT    6    9
+CONECT    7   22   23   24   25
+CONECT    8    4    6   30
+CONECT    8    4
+CONECT    9    5    6
+CONECT    9    6
+CONECT   10   11   12   28
+CONECT   11   10   26   28
+CONECT   12   10   29
+CONECT   12   29
+CONECT   12   29
+CONECT   13    3   14
+CONECT   13    3
+CONECT   14    1   13   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16    2    3   15
+CONECT   17    2   18
+CONECT   18   17
+CONECT   19    4    5
+CONECT   19    5
+CONECT   20    6   21   24
+CONECT   21   20   22
+CONECT   22    7   21   23
+CONECT   23    7   22
+CONECT   24    7   20
+CONECT   25    7   26
+CONECT   26   11   25   27
+CONECT   26   27
+CONECT   27   26
+CONECT   27   26
+CONECT   28   10   11
+CONECT   29   12
+CONECT   29   12
+CONECT   29   12
+CONECT   30    8
+ENDMDL
+END   

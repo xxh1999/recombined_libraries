@@ -1,0 +1,62 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3UBB
+MODEL        1
+ATOM      1  N   SER A 201       1.674  47.631  36.695  1.00 40.27           N1+
+ATOM      2  CA  SER A 201       0.239  47.849  36.905  1.00 43.81           C  
+ATOM      3  C   SER A 201      -0.571  46.608  37.308  1.00 40.21           C  
+ATOM      4  O   SER A 201      -1.532  46.755  38.054  1.00 40.93           O  
+ATOM      5  CB  SER A 201      -0.428  48.562  35.725  1.00 42.82           C  
+ATOM      6  OG  SER A 201      -0.502  47.731  34.587  1.00 47.52           O  
+TER       7      SER A 201
+HETATM    8  O2P 3UB A 301       1.566  48.719  33.306  1.00 43.46           O  
+HETATM    9  P   3UB A 301       0.169  48.215  33.195  1.00 40.74           P  
+HETATM   10  C1  3UB A 301       0.367  45.636  32.636  1.00 44.69           C  
+HETATM   11  C2  3UB A 301      -0.824  44.862  33.219  1.00 47.93           C  
+HETATM   12  C3  3UB A 301       0.989  44.941  31.425  1.00 41.50           C  
+HETATM   13  C4  3UB A 301      -1.057  49.472  32.583  1.00 51.20           C  
+HETATM   14  C5  3UB A 301      -1.667  49.048  31.243  1.00 51.53           C  
+HETATM   15  C6  3UB A 301      -0.546  51.786  33.415  1.00 62.27           C  
+HETATM   16  C7  3UB A 301       0.042  54.098  33.665  1.00 61.22           C  
+HETATM   17  NC  3UB A 301      -0.480  50.803  32.443  1.00 56.37           N  
+HETATM   18  O1C 3UB A 301      -1.022  51.678  34.546  1.00 64.80           O  
+HETATM   19  O1P 3UB A 301      -0.053  46.925  32.232  1.00 47.12           O  
+HETATM   20  O2C 3UB A 301       0.002  52.897  32.910  1.00 66.45           O  
+HETATM   21  C71 3UB A 301       0.110  55.318  32.768  1.00 62.59           C  
+HETATM   22  C72 3UB A 301       0.846  55.288  31.563  1.00 59.22           C  
+HETATM   23  C73 3UB A 301       0.870  56.414  30.719  1.00 62.99           C  
+HETATM   24  C74 3UB A 301       0.163  57.578  31.078  1.00 67.19           C  
+HETATM   25  C75 3UB A 301      -0.549  57.623  32.292  1.00 67.84           C  
+HETATM   26  C76 3UB A 301      -0.571  56.497  33.137  1.00 66.53           C  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    6    8   13   19
+CONECT    9    8
+CONECT   10   11   12   19
+CONECT   11   10
+CONECT   12   10
+CONECT   13    9   14   17
+CONECT   14   13
+CONECT   15   17   18   20
+CONECT   15   18
+CONECT   16   20   21
+CONECT   17   13   15
+CONECT   18   15
+CONECT   18   15
+CONECT   19    9   10
+CONECT   20   15   16
+CONECT   21   16   22   26
+CONECT   21   26
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   23   25
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26   21   25
+CONECT   26   21
+ENDMDL
+END   

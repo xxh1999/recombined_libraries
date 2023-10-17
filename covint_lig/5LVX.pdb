@@ -1,0 +1,121 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5LVX
+MODEL        1
+ATOM      1  N   LYS A 346      -5.059 -34.722 -25.417  1.00 27.13           N1+
+ATOM      2  CA  LYS A 346      -4.425 -35.009 -24.125  1.00 31.43           C  
+ATOM      3  C   LYS A 346      -5.379 -35.915 -23.343  1.00 34.17           C  
+ATOM      4  O   LYS A 346      -6.580 -35.650 -23.294  1.00 27.64           O  
+ATOM      5  CB  LYS A 346      -4.096 -33.729 -23.379  1.00 36.85           C  
+ATOM      6  CG  LYS A 346      -3.109 -32.837 -24.128  1.00 31.61           C  
+ATOM      7  CD  LYS A 346      -2.895 -31.509 -23.426  1.00 37.43           C  
+ATOM      8  CE  LYS A 346      -1.846 -30.708 -24.176  1.00 43.38           C  
+ATOM      9  NZ  LYS A 346      -1.673 -29.335 -23.734  1.00 70.86           N1+
+TER      10      LYS A 346
+HETATM   11  C2  79B A 507      -0.713 -28.536 -24.218  1.00 76.22           C  
+HETATM   12  C3  79B A 507      -0.690 -27.100 -23.712  1.00 73.45           C  
+HETATM   13  C4  79B A 507       0.676 -26.583 -23.278  1.00 74.35           C  
+HETATM   14  C5  79B A 507       0.998 -27.016 -21.849  1.00 73.29           C  
+HETATM   15  C6  79B A 507       1.816 -28.295 -21.837  1.00 79.87           C  
+HETATM   16  C7  79B A 507       1.308 -29.287 -20.807  1.00 69.27           C  
+HETATM   17  C8  79B A 507       2.319 -30.421 -20.778  1.00 63.37           C  
+HETATM   18  C11 79B A 507       1.745 -33.407 -21.406  1.00 57.70           C  
+HETATM   19  C12 79B A 507       1.217 -33.767 -22.412  1.00 50.41           C  
+HETATM   20  C15 79B A 507      -0.668 -36.369 -24.011  1.00 35.15           C  
+HETATM   21  C16 79B A 507      -0.582 -35.955 -25.320  1.00 32.50           C  
+HETATM   22  C17 79B A 507      -1.163 -36.655 -26.496  1.00 33.31           C  
+HETATM   23  C18 79B A 507      -0.340 -36.062 -27.643  1.00 31.32           C  
+HETATM   24  C19 79B A 507       0.057 -34.653 -27.164  1.00 35.65           C  
+HETATM   25  C21 79B A 507       0.738 -34.054 -24.714  1.00 39.48           C  
+HETATM   26  N22 79B A 507      -1.146 -36.096 -28.897  1.00 33.84           N  
+HETATM   27  C23 79B A 507      -0.520 -36.653 -30.018  1.00 29.94           C  
+HETATM   28  C27 79B A 507      -0.552 -37.358 -32.306  1.00 27.50           C  
+HETATM   29  C30 79B A 507      -3.217 -36.562 -32.621  1.00 26.74           C  
+HETATM   30  C31 79B A 507      -2.572 -36.406 -31.393  1.00 31.35           C  
+HETATM   31  C32 79B A 507      -1.228 -36.793 -31.222  1.00 26.86           C  
+HETATM   32  C33 79B A 507       2.826 -37.998 -30.929  1.00 30.61           C  
+HETATM   33  C34 79B A 507       3.371 -38.921 -31.822  1.00 30.17           C  
+HETATM   34  C35 79B A 507       4.720 -39.203 -31.757  1.00 33.76           C  
+HETATM   35  C36 79B A 507       5.516 -38.548 -30.820  1.00 35.17           C  
+HETATM   36  C38 79B A 507       3.667 -37.347 -30.030  1.00 32.91           C  
+HETATM   37  O1  79B A 507       0.099 -28.918 -25.046  1.00 50.75           O  
+HETATM   38  C9  79B A 507       1.884 -31.524 -19.842  1.00 51.53           C  
+HETATM   39  C10 79B A 507       2.458 -32.867 -20.236  1.00 56.75           C  
+HETATM   40  C13 79B A 507       0.641 -34.444 -23.364  1.00 39.29           C  
+HETATM   41  C20 79B A 507       0.104 -34.838 -25.676  1.00 35.01           C  
+HETATM   42  C14 79B A 507      -0.049 -35.608 -23.026  1.00 41.83           C  
+HETATM   43  C29 79B A 507      -2.510 -37.119 -33.701  1.00 29.63           C  
+HETATM   44  C28 79B A 507      -1.188 -37.522 -33.541  1.00 29.85           C  
+HETATM   45  N26 79B A 507       0.730 -37.736 -32.170  1.00 28.80           N  
+HETATM   46  C25 79B A 507       1.396 -37.609 -30.997  1.00 26.54           C  
+HETATM   47  N24 79B A 507       0.774 -37.056 -29.947  1.00 26.69           N  
+HETATM   48  N37 79B A 507       4.983 -37.639 -29.989  1.00 34.00           N  
+CONECT   11    9   12   37
+CONECT   11   37
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16   38
+CONECT   18   19   39
+CONECT   18   19
+CONECT   18   19
+CONECT   19   18   40
+CONECT   19   18
+CONECT   19   18
+CONECT   20   21   42
+CONECT   20   42
+CONECT   21   20   22   41
+CONECT   21   41
+CONECT   22   21   23
+CONECT   23   22   24   26
+CONECT   24   23   41
+CONECT   25   40   41
+CONECT   25   40
+CONECT   26   23   27
+CONECT   27   26   31   47
+CONECT   27   31
+CONECT   28   31   44   45
+CONECT   28   45
+CONECT   29   30   43
+CONECT   29   30
+CONECT   30   29   31
+CONECT   30   29
+CONECT   31   27   28   30
+CONECT   31   27
+CONECT   32   33   36   46
+CONECT   32   36
+CONECT   33   32   34
+CONECT   33   34
+CONECT   34   33   35
+CONECT   34   33
+CONECT   35   34   48
+CONECT   35   48
+CONECT   36   32   48
+CONECT   36   32
+CONECT   37   11
+CONECT   37   11
+CONECT   38   17   39
+CONECT   39   18   38
+CONECT   40   19   25   42
+CONECT   40   25
+CONECT   41   21   24   25
+CONECT   41   21
+CONECT   42   20   40
+CONECT   42   20
+CONECT   43   29   44
+CONECT   43   44
+CONECT   44   28   43
+CONECT   44   43
+CONECT   45   28   46
+CONECT   45   28
+CONECT   46   32   45   47
+CONECT   46   47
+CONECT   47   27   46
+CONECT   47   46
+CONECT   48   35   36
+CONECT   48   35
+ENDMDL
+END   

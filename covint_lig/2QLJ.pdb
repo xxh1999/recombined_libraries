@@ -1,0 +1,36 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2QLJ
+MODEL        1
+ATOM      1  N   HIS E 704     -40.525  34.064 -34.211  1.00 97.19           N1+
+ATOM      2  CA  HIS E 704     -41.781  33.447 -33.794  1.00 94.51           C  
+ATOM      3  C   HIS E 704     -42.489  32.729 -34.947  1.00 91.23           C  
+ATOM      4  O   HIS E 704     -42.298  33.053 -36.120  1.00 90.25           O  
+ATOM      5  CB  HIS E 704     -42.682  34.451 -33.045  1.00 96.38           C  
+ATOM      6  CG  HIS E 704     -43.145  35.613 -33.888  1.00 98.74           C  
+ATOM      7  ND1 HIS E 704     -42.372  36.741 -34.104  1.00 99.68           N  
+ATOM      8  CD2 HIS E 704     -44.293  35.803 -34.625  1.00 99.20           C  
+ATOM      9  CE1 HIS E 704     -43.066  37.542 -34.917  1.00 99.73           C  
+ATOM     10  NE2 HIS E 704     -44.241  37.038 -35.274  1.00 99.72           N  
+TER      11      HIS E 704
+HETATM   12  C   ASJ E 705     -45.687  31.366 -35.245  1.00 82.20           C  
+HETATM   13  N   ASJ E 705     -43.328  31.759 -34.566  1.00 87.45           N  
+HETATM   14  O   ASJ E 705     -46.079  32.220 -36.297  1.00 82.64           O  
+HETATM   15  CA  ASJ E 705     -44.203  30.962 -35.420  1.00 84.00           C  
+HETATM   16  CB  ASJ E 705     -43.962  29.463 -35.127  1.00 83.18           C  
+HETATM   17  CG  ASJ E 705     -42.551  29.010 -35.514  1.00 82.05           C  
+HETATM   18  OD1 ASJ E 705     -42.039  28.060 -34.888  1.00 80.14           O1-
+HETATM   19  OD2 ASJ E 705     -42.005  29.579 -36.483  1.00 82.08           O  
+CONECT   12   14   15
+CONECT   13    3   15
+CONECT   14   12
+CONECT   15   12   13   16
+CONECT   16   15   17
+CONECT   17   16   18   19
+CONECT   17   19
+CONECT   18   17
+CONECT   19   17
+CONECT   19   17
+ENDMDL
+END   

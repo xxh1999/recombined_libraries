@@ -1,0 +1,90 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3fkl_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N1  FKL A 361      -0.676  19.915  43.928  1.00  0.00           N  
+HETATM    2  N3  FKL A 361       0.129  17.851  43.127  1.00  0.00           N  
+HETATM    3  C4  FKL A 361       0.180  20.577  43.129  1.00  0.00           C  
+HETATM    4  C5  FKL A 361       1.052  19.867  42.303  1.00  0.00           C  
+HETATM    5  C6  FKL A 361       1.002  18.478  42.316  1.00  0.00           C  
+HETATM    6  C8  FKL A 361       2.772  18.388  40.647  1.00  0.00           C  
+HETATM    7  C10 FKL A 361       1.960  20.526  41.467  1.00  0.00           C  
+HETATM    8  C15 FKL A 361       3.518  20.534  38.372  1.00  0.00           C  
+HETATM    9  C17 FKL A 361       5.534  21.806  37.978  1.00  0.00           C  
+HETATM   10  C20 FKL A 361       5.271  21.112  41.703  1.00  0.00           C  
+HETATM   11  C21 FKL A 361       4.031  21.187  36.028  1.00  0.00           C  
+HETATM   12  C24 FKL A 361       4.688  21.328  33.643  1.00  0.00           C  
+HETATM   13  C26 FKL A 361       5.415  22.500  32.991  1.00  0.00           C  
+HETATM   14  C28 FKL A 361      -2.295  16.016  46.032  1.00  0.00           C  
+HETATM   15  O22 FKL A 361       2.845  21.051  35.760  1.00  0.00           O  
+HETATM   16  N23 FKL A 361       4.975  21.347  35.084  1.00  0.00           N  
+HETATM   17  C25 FKL A 361       3.926  22.601  33.290  1.00  0.00           C  
+HETATM   18  C16 FKL A 361       4.384  21.186  37.490  1.00  0.00           C  
+HETATM   19  C18 FKL A 361       5.806  21.770  39.347  1.00  0.00           C  
+HETATM   20  C19 FKL A 361       4.938  21.120  40.228  1.00  0.00           C  
+HETATM   21  C14 FKL A 361       3.785  20.496  39.743  1.00  0.00           C  
+HETATM   22  C9  FKL A 361       2.822  19.786  40.642  1.00  0.00           C  
+HETATM   23  O13 FKL A 361       3.533  17.715  39.914  1.00  0.00           O  
+HETATM   24  N7  FKL A 361       1.858  17.719  41.487  1.00  0.00           N  
+HETATM   25  C12 FKL A 361       1.797  16.251  41.519  1.00  0.00           C  
+HETATM   26  C2  FKL A 361      -0.711  18.558  43.924  1.00  0.00           C  
+HETATM   27  N11 FKL A 361      -1.578  17.893  44.731  1.00  0.00           N  
+HETATM   28  C27 FKL A 361      -1.637  16.436  44.712  1.00  0.00           C  
+HETATM   29  C32 FKL A 361      -2.551  16.075  43.543  1.00  0.00           C  
+HETATM   30  C31 FKL A 361      -2.928  14.593  43.599  1.00  0.00           C  
+HETATM   31  O30 FKL A 361      -3.506  14.283  44.868  1.00  0.00           O  
+HETATM   32  C29 FKL A 361      -2.627  14.526  45.973  1.00  0.00           C  
+CONECT    1    3   26
+CONECT    1   26
+CONECT    2    5   26
+CONECT    2    5
+CONECT    3    1    4
+CONECT    3    4
+CONECT    4    3    5    7
+CONECT    4    3
+CONECT    5    2    4   24
+CONECT    5    2
+CONECT    6   22   23   24
+CONECT    6   23
+CONECT    7    4   22
+CONECT    7   22
+CONECT    8   18   21
+CONECT    8   18
+CONECT    9   18   19
+CONECT    9   19
+CONECT   10   20
+CONECT   11   15   16   18
+CONECT   11   15
+CONECT   12   13   16   17
+CONECT   13   12   17
+CONECT   14   28   32
+CONECT   15   11
+CONECT   15   11
+CONECT   16   11   12
+CONECT   17   12   13
+CONECT   18    8    9   11
+CONECT   18    8
+CONECT   19    9   20
+CONECT   19    9
+CONECT   20   10   19   21
+CONECT   20   21
+CONECT   21    8   20   22
+CONECT   21   20
+CONECT   22    6    7   21
+CONECT   22    7
+CONECT   23    6
+CONECT   23    6
+CONECT   24    5    6   25
+CONECT   25   24
+CONECT   26    1    2   27
+CONECT   26    1
+CONECT   27   26   28
+CONECT   28   14   27   29
+CONECT   29   28   30
+CONECT   30   29   31
+CONECT   31   30   32
+CONECT   32   14   31
+ENDMDL
+END   

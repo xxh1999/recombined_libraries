@@ -1,0 +1,78 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3VFF
+MODEL        1
+ATOM      1  N   SER A  70      27.391  15.105   7.023  1.00 64.47           N1+
+ATOM      2  CA  SER A  70      27.907  15.050   8.385  1.00 65.57           C  
+ATOM      3  C   SER A  70      28.755  13.824   8.720  1.00 64.07           C  
+ATOM      4  O   SER A  70      29.026  13.574   9.893  1.00 61.00           O  
+ATOM      5  CB  SER A  70      26.941  15.605   9.447  1.00 70.33           C  
+ATOM      6  OG  SER A  70      25.625  15.095   9.565  1.00 78.71           O  
+TER       7      SER A  70
+HETATM    8  CAA CD8 A 301      19.790  12.602   9.846  1.00 81.02           C  
+HETATM    9  CAC CD8 A 301      24.770  18.516   9.791  1.00 84.62           C  
+HETATM   10  OAF CD8 A 301      22.164  10.965   9.250  1.00 80.36           O  
+HETATM   11  OAG CD8 A 301      23.407  18.120   7.274  1.00 79.04           O  
+HETATM   12  OAH CD8 A 301      24.584  15.515   7.592  1.00 87.32           O  
+HETATM   13  OAI CD8 A 301      23.948  11.574  10.425  1.00 78.88           O1-
+HETATM   14  CAJ CD8 A 301      18.510  18.431   6.173  1.00 94.07           C  
+HETATM   15  CAK CD8 A 301      18.868  17.115   6.516  1.00 90.74           C  
+HETATM   16  CAL CD8 A 301      19.425  19.484   6.366  1.00 97.03           C  
+HETATM   17  CAM CD8 A 301      20.138  16.855   7.061  1.00 94.30           C  
+HETATM   18  CAN CD8 A 301      20.697  19.224   6.912  1.00 91.56           C  
+HETATM   19  CAO CD8 A 301      20.324  14.956  10.341  1.00 79.64           C  
+HETATM   20  NAQ CD8 A 301      23.097  13.998  10.539  1.00 83.58           N  
+HETATM   21  NAS CD8 A 301      22.432  16.827   8.904  1.00 88.35           N  
+HETATM   22  OAT CD8 A 301      24.176  17.385  10.426  1.00 86.84           O  
+HETATM   23  SAV CD8 A 301      21.344  15.854  11.528  1.00100.93           S  
+HETATM   24  CAX CD8 A 301      20.747  13.513  10.107  1.00 87.02           C  
+HETATM   25  CAY CD8 A 301      22.802  11.774   9.956  1.00 77.45           C  
+HETATM   26  CAZ CD8 A 301      22.420  17.628   7.819  1.00 87.83           C  
+HETATM   27  CBA CD8 A 301      24.645  15.618   8.810  1.00 82.49           C  
+HETATM   28  CBB CD8 A 301      22.205  13.150  10.212  1.00 80.72           C  
+HETATM   29  CBC CD8 A 301      21.055  17.909   7.277  1.00 91.38           C  
+HETATM   30  CBE CD8 A 301      22.958  15.407  10.822  1.00 90.01           C  
+HETATM   31  CBF CD8 A 301      23.560  16.336   9.699  1.00 87.83           C  
+CONECT    8   24
+CONECT    8   24
+CONECT    9   22
+CONECT   10   25
+CONECT   10   25
+CONECT   11   26
+CONECT   11   26
+CONECT   12   27
+CONECT   12   27
+CONECT   13   25
+CONECT   14   15   16
+CONECT   14   16
+CONECT   15   14   17
+CONECT   15   17
+CONECT   16   14   18
+CONECT   16   14
+CONECT   17   15   29
+CONECT   17   15
+CONECT   18   16   29
+CONECT   18   29
+CONECT   19   23   24
+CONECT   20   28   30
+CONECT   20   28
+CONECT   21   26   31
+CONECT   22    9   31
+CONECT   23   19   30
+CONECT   24    8   19   28
+CONECT   24    8
+CONECT   25   10   13   28
+CONECT   25   10
+CONECT   26   11   21   29
+CONECT   26   11
+CONECT   27    6   12   31
+CONECT   27   12
+CONECT   28   20   24   25
+CONECT   28   20
+CONECT   29   17   18   26
+CONECT   29   18
+CONECT   30   20   23   31
+CONECT   31   21   22   27   30
+ENDMDL
+END   

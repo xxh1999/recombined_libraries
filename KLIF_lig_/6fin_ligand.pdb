@@ -1,0 +1,104 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6fin_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  DJQ A1009       0.327  24.176  31.913  1.00  0.00           C  
+HETATM    2  C7  DJQ A1009       2.044  23.421  32.930  1.00  0.00           C  
+HETATM    3  C13 DJQ A1009       2.399  21.755  38.115  1.00  0.00           C  
+HETATM    4  C17 DJQ A1009       4.802  21.133  37.404  1.00  0.00           C  
+HETATM    5  C20 DJQ A1009       2.496  18.178  42.009  1.00  0.00           C  
+HETATM    6  C21 DJQ A1009       1.650  18.209  43.087  1.00  0.00           C  
+HETATM    7  C22 DJQ A1009       1.169  19.461  43.472  1.00  0.00           C  
+HETATM    8  C24 DJQ A1009       2.405  20.604  41.708  1.00  0.00           C  
+HETATM    9  C1  DJQ A1009      -1.397  23.634  30.153  1.00  0.00           C  
+HETATM   10  C2  DJQ A1009      -0.547  24.665  30.871  1.00  0.00           C  
+HETATM   11  C3  DJQ A1009      -2.037  24.563  31.156  1.00  0.00           C  
+HETATM   12  N5  DJQ A1009      -0.068  23.894  33.175  1.00  0.00           N  
+HETATM   13  O6  DJQ A1009       0.997  23.425  33.801  1.00  0.00           O  
+HETATM   14  N8  DJQ A1009       1.703  23.881  31.733  1.00  0.00           N  
+HETATM   15  C9  DJQ A1009       3.358  22.909  33.404  1.00  0.00           C  
+HETATM   16  N10 DJQ A1009       3.498  22.774  34.846  1.00  0.00           N  
+HETATM   17  C11 DJQ A1009       3.082  21.690  35.665  1.00  0.00           C  
+HETATM   18  C12 DJQ A1009       3.531  21.981  37.102  1.00  0.00           C  
+HETATM   19  C14 DJQ A1009       2.217  20.288  38.528  1.00  0.00           C  
+HETATM   20  N15 DJQ A1009       3.502  19.665  38.885  1.00  0.00           N  
+HETATM   21  C16 DJQ A1009       4.485  19.666  37.794  1.00  0.00           C  
+HETATM   22  C18 DJQ A1009       3.816  19.168  40.162  1.00  0.00           C  
+HETATM   23  C19 DJQ A1009       2.873  19.351  41.318  1.00  0.00           C  
+HETATM   24  C23 DJQ A1009       1.533  20.654  42.791  1.00  0.00           C  
+HETATM   25  C25 DJQ A1009       0.797  21.688  43.436  1.00  0.00           C  
+HETATM   26  N26 DJQ A1009       0.053  21.175  44.425  1.00  0.00           N  
+HETATM   27  N27 DJQ A1009       0.274  19.838  44.457  1.00  0.00           N  
+HETATM   28  O28 DJQ A1009       4.875  18.525  40.316  1.00  0.00           O  
+HETATM   29  N29 DJQ A1009       3.815  23.451  37.046  1.00  0.00           N  
+HETATM   30  C30 DJQ A1009       4.108  23.869  35.642  1.00  0.00           C  
+HETATM   31  C31 DJQ A1009       4.314  24.247  38.183  1.00  0.00           C  
+HETATM   32  C32 DJQ A1009       4.590  23.749  39.471  1.00  0.00           C  
+HETATM   33  C33 DJQ A1009       5.006  24.605  40.484  1.00  0.00           C  
+HETATM   34  C34 DJQ A1009       5.141  25.963  40.213  1.00  0.00           C  
+HETATM   35  C35 DJQ A1009       4.880  26.467  38.945  1.00  0.00           C  
+HETATM   36  C36 DJQ A1009       4.466  25.611  37.915  1.00  0.00           C  
+HETATM   37  O37 DJQ A1009       2.469  20.714  35.258  1.00  0.00           O  
+CONECT    1   10   12   14
+CONECT    1   12
+CONECT    2   13   14   15
+CONECT    2   14
+CONECT    3   18   19
+CONECT    4   18   21
+CONECT    5    6   23
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    6   24   27
+CONECT    7   24
+CONECT    8   23   24
+CONECT    8   23
+CONECT    9   10   11
+CONECT   10    1    9   11
+CONECT   11    9   10
+CONECT   12    1   13
+CONECT   12    1
+CONECT   13    2   12
+CONECT   14    1    2
+CONECT   14    2
+CONECT   15    2   16
+CONECT   16   15   17   30
+CONECT   17   16   18   37
+CONECT   17   37
+CONECT   18    3    4   17   29
+CONECT   19    3   20
+CONECT   20   19   21   22
+CONECT   21    4   20
+CONECT   22   20   23   28
+CONECT   22   28
+CONECT   23    5    8   22
+CONECT   23    8
+CONECT   24    7    8   25
+CONECT   24    7
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27    7   26
+CONECT   28   22
+CONECT   28   22
+CONECT   29   18   30   31
+CONECT   30   16   29
+CONECT   31   29   32   36
+CONECT   31   36
+CONECT   32   31   33
+CONECT   32   33
+CONECT   33   32   34
+CONECT   33   32
+CONECT   34   33   35
+CONECT   34   35
+CONECT   35   34   36
+CONECT   35   34
+CONECT   36   31   35
+CONECT   36   31
+CONECT   37   17
+CONECT   37   17
+ENDMDL
+END   

@@ -1,0 +1,40 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4Y75
+MODEL        1
+ATOM      1  N   ALA c   3      10.532-137.815  17.541  1.00 75.61           N1+
+ATOM      2  CA  ALA c   3      11.518-137.596  16.542  1.00 84.39           C  
+ATOM      3  C   ALA c   3      10.719-137.673  15.270  1.00 80.38           C  
+ATOM      4  O   ALA c   3       9.616-138.168  15.305  1.00 67.41           O  
+ATOM      5  CB  ALA c   3      12.471-138.744  16.620  1.00 85.95           C  
+HETATM    6  N   PHL c   4      11.277-137.197  14.163  1.00 85.20           N  
+HETATM    7  CA  PHL c   4      10.585-137.137  12.889  1.00 91.46           C  
+HETATM    8  C   PHL c   4      11.362-137.884  11.781  1.00 90.54           C  
+HETATM    9  O   PHL c   4      12.644-137.538  11.961  1.00 78.74           O  
+HETATM   10  CB  PHL c   4      10.533-135.634  12.575  1.00 90.07           C  
+HETATM   11  CG  PHL c   4       9.557-134.857  13.187  1.00 75.44           C  
+HETATM   12  CD1 PHL c   4       9.539-133.505  12.927  1.00 70.49           C  
+HETATM   13  CD2 PHL c   4       8.620-135.366  14.037  1.00 70.56           C  
+HETATM   14  CE1 PHL c   4       8.616-132.663  13.488  1.00 66.00           C  
+HETATM   15  CE2 PHL c   4       7.697-134.518  14.600  1.00 66.46           C  
+HETATM   16  CZ  PHL c   4       7.681-133.177  14.334  1.00 64.25           C  
+CONECT    6    3    7
+CONECT    7    6    8   10
+CONECT    8    7    9
+CONECT    9    8
+CONECT   10    7   11
+CONECT   11   10   12   13
+CONECT   11   12
+CONECT   12   11   14
+CONECT   12   11
+CONECT   13   11   15
+CONECT   13   15
+CONECT   14   12   16
+CONECT   14   16
+CONECT   15   13   16
+CONECT   15   13
+CONECT   16   14   15
+CONECT   16   14
+ENDMDL
+END   

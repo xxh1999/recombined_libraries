@@ -1,0 +1,92 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4cd0_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  AWJ A1500       0.901  19.284  42.701  1.00  0.00           C  
+HETATM    2  C2  AWJ A1500       0.270  20.474  43.124  1.00  0.00           C  
+HETATM    3  N3  AWJ A1500      -0.663  20.477  44.140  1.00  0.00           N  
+HETATM    4  C4  AWJ A1500      -0.988  19.291  44.756  1.00  0.00           C  
+HETATM    5  C5  AWJ A1500      -0.424  18.050  44.418  1.00  0.00           C  
+HETATM    6  C6  AWJ A1500       0.527  18.091  43.375  1.00  0.00           C  
+HETATM    7  O7  AWJ A1500       1.825  19.402  41.666  1.00  0.00           O  
+HETATM    8  N8  AWJ A1500       0.591  21.688  42.500  1.00  0.00           N  
+HETATM    9  C9  AWJ A1500       2.543  18.244  41.137  1.00  0.00           C  
+HETATM   10  C10 AWJ A1500       1.654  17.380  40.220  1.00  0.00           C  
+HETATM   11  C11 AWJ A1500       3.769  18.796  40.391  1.00  0.00           C  
+HETATM   12  C12 AWJ A1500       1.584  15.937  40.269  1.00  0.00           C  
+HETATM   13  C13 AWJ A1500       0.715  15.226  39.380  1.00  0.00           C  
+HETATM   14  C14 AWJ A1500      -0.085  15.917  38.446  1.00  0.00           C  
+HETATM   15  C15 AWJ A1500      -0.025  17.327  38.390  1.00  0.00           C  
+HETATM   16  C16 AWJ A1500       0.822  18.054  39.253  1.00  0.00           C  
+HETATM   17  F17 AWJ A1500      -0.782  17.979  37.511  1.00  0.00           F  
+HETATM   18  N18 AWJ A1500       2.344  15.150  41.174  1.00  0.00           N  
+HETATM   19  N19 AWJ A1500       1.741  14.453  42.178  1.00  0.00           N  
+HETATM   20  C20 AWJ A1500       2.777  13.868  42.780  1.00  0.00           C  
+HETATM   21  C21 AWJ A1500       3.960  14.221  42.136  1.00  0.00           C  
+HETATM   22  N22 AWJ A1500       3.694  15.036  41.114  1.00  0.00           N  
+HETATM   23  C23 AWJ A1500      -0.769  16.769  45.069  1.00  0.00           C  
+HETATM   24  C24 AWJ A1500      -1.118  16.414  46.377  1.00  0.00           C  
+HETATM   25  N25 AWJ A1500      -1.369  15.059  46.572  1.00  0.00           N  
+HETATM   26  C26 AWJ A1500      -1.222  14.378  45.449  1.00  0.00           C  
+HETATM   27  S27 AWJ A1500      -0.776  15.334  44.100  1.00  0.00           S  
+HETATM   28  C28 AWJ A1500      -1.250  17.287  47.577  1.00  0.00           C  
+HETATM   29  C29 AWJ A1500      -1.422  12.866  45.344  1.00  0.00           C  
+HETATM   30  C30 AWJ A1500      -2.831  12.424  45.778  1.00  0.00           C  
+HETATM   31  O31 AWJ A1500      -1.198  12.408  44.008  1.00  0.00           O  
+HETATM   32  C32 AWJ A1500      -0.387  12.171  46.237  1.00  0.00           C  
+HETATM   33  O33 AWJ A1500      -3.833  13.041  44.970  1.00  0.00           O  
+CONECT    1    2    6    7
+CONECT    1    6
+CONECT    2    1    3    8
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4    6   23
+CONECT    5    4
+CONECT    6    1    5
+CONECT    6    1
+CONECT    7    1    9
+CONECT    8    2
+CONECT    9    7   10   11
+CONECT   10    9   12   16
+CONECT   10   16
+CONECT   11    9
+CONECT   12   10   13   18
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16   17
+CONECT   15   14
+CONECT   16   10   15
+CONECT   16   10
+CONECT   17   15
+CONECT   18   12   19   22
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   18   21
+CONECT   23    5   24   27
+CONECT   23   24
+CONECT   24   23   25   28
+CONECT   24   23
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   25   27   29
+CONECT   26   25
+CONECT   27   23   26
+CONECT   28   24
+CONECT   29   26   30   31   32
+CONECT   30   29   33
+CONECT   31   29
+CONECT   32   29
+CONECT   33   30
+ENDMDL
+END   

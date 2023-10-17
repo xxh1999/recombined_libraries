@@ -1,0 +1,51 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     8ahh_ligand
+MODEL        1
+HETATM    1  N1  M4X A 601      -0.958  16.189  44.284  1.00  0.00           N  
+HETATM    2  N3  M4X A 601       0.204  20.347  42.691  1.00  0.00           N  
+HETATM    3  C4  M4X A 601      -0.718  19.175  44.237  1.00  0.00           C  
+HETATM    4  C5  M4X A 601       0.617  21.413  41.938  1.00  0.00           C  
+HETATM    5  C6  M4X A 601       1.300  21.175  40.800  1.00  0.00           C  
+HETATM    6  C7  M4X A 601       1.588  19.865  40.399  1.00  0.00           C  
+HETATM    7  C8  M4X A 601       2.292  19.654  39.158  1.00  0.00           C  
+HETATM    8  C10 M4X A 601       0.428  19.029  42.327  1.00  0.00           C  
+HETATM    9  C1  M4X A 601      -1.184  14.768  44.294  1.00  0.00           C  
+HETATM   10  C2  M4X A 601      -0.174  16.772  43.387  1.00  0.00           C  
+HETATM   11  O1  M4X A 601       0.566  16.085  42.662  1.00  0.00           O  
+HETATM   12  C3  M4X A 601      -0.153  18.253  43.330  1.00  0.00           C  
+HETATM   13  N2  M4X A 601      -0.508  20.436  43.853  1.00  0.00           N  
+HETATM   14  N4  M4X A 601       2.877  19.484  38.182  1.00  0.00           N  
+HETATM   15  C9  M4X A 601       1.136  18.769  41.145  1.00  0.00           C  
+CONECT    1    9   10
+CONECT    2    4    8   13
+CONECT    3   12   13
+CONECT    3   13
+CONECT    4    2    5
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    5    7   15
+CONECT    6   15
+CONECT    7    6   14
+CONECT    7   14
+CONECT    7   14
+CONECT    8    2   12   15
+CONECT    8   12
+CONECT    9    1
+CONECT   10    1   11   12
+CONECT   10   11
+CONECT   11   10
+CONECT   11   10
+CONECT   12    3    8   10
+CONECT   12    8
+CONECT   13    2    3
+CONECT   13    3
+CONECT   14    7
+CONECT   14    7
+CONECT   14    7
+CONECT   15    6    8
+CONECT   15    6
+ENDMDL
+END   

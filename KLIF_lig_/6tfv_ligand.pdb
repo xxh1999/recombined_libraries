@@ -1,0 +1,115 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6tfv_ligand
+MODEL        1
+HETATM    1  C4  N7Q B1105      -0.648  18.588  44.270  1.00  0.00           C  
+HETATM    2  C5  N7Q B1105      -0.018  17.873  43.274  1.00  0.00           C  
+HETATM    3  C6  N7Q B1105       0.680  18.598  42.305  1.00  0.00           C  
+HETATM    4  N1  N7Q B1105       0.755  19.947  42.395  1.00  0.00           N  
+HETATM    5  N3  N7Q B1105      -0.575  19.944  44.349  1.00  0.00           N  
+HETATM    6  C2  N7Q B1105       0.119  20.607  43.399  1.00  0.00           C  
+HETATM    7  CAK N7Q B1105      -1.076  16.510  44.651  1.00  0.00           C  
+HETATM    8  CAL N7Q B1105      -0.339  16.545  43.532  1.00  0.00           C  
+HETATM    9  CAM N7Q B1105       0.030  15.359  42.943  1.00  0.00           C  
+HETATM   10  CAN N7Q B1105       2.109  18.643  40.351  1.00  0.00           C  
+HETATM   11  CAO N7Q B1105       2.042  18.308  38.979  1.00  0.00           C  
+HETATM   12  CAP N7Q B1105       2.893  18.922  38.037  1.00  0.00           C  
+HETATM   13  CAQ N7Q B1105       3.863  19.848  38.451  1.00  0.00           C  
+HETATM   14  CAR N7Q B1105       3.928  20.209  39.808  1.00  0.00           C  
+HETATM   15  CAS N7Q B1105       3.072  19.609  40.727  1.00  0.00           C  
+HETATM   16  CAT N7Q B1105       4.526  20.582  36.240  1.00  0.00           C  
+HETATM   17  CAU N7Q B1105       3.728  21.723  35.953  1.00  0.00           C  
+HETATM   18  CAV N7Q B1105       3.689  22.883  36.752  1.00  0.00           C  
+HETATM   19  CAW N7Q B1105       2.902  23.987  36.386  1.00  0.00           C  
+HETATM   20  CAX N7Q B1105       2.143  23.935  35.210  1.00  0.00           C  
+HETATM   21  CAY N7Q B1105       2.214  22.773  34.432  1.00  0.00           C  
+HETATM   22  CAZ N7Q B1105      -0.839  14.271  42.821  1.00  0.00           C  
+HETATM   23  CBA N7Q B1105      -0.428  13.041  42.276  1.00  0.00           C  
+HETATM   24  CBB N7Q B1105       0.895  12.857  41.844  1.00  0.00           C  
+HETATM   25  CBC N7Q B1105       1.810  13.896  42.005  1.00  0.00           C  
+HETATM   26  CBD N7Q B1105       1.368  15.130  42.550  1.00  0.00           C  
+HETATM   27  CBE N7Q B1105       1.995  11.779  40.056  1.00  0.00           C  
+HETATM   28  CBF N7Q B1105       2.227  10.409  39.392  1.00  0.00           C  
+HETATM   29  CBG N7Q B1105      -1.844  11.774  40.976  1.00  0.00           C  
+HETATM   30  CBH N7Q B1105      -2.930  10.674  40.951  1.00  0.00           C  
+HETATM   31  CBI N7Q B1105      -4.085  11.223  40.097  1.00  0.00           C  
+HETATM   32  NAC N7Q B1105      -1.281  17.780  45.095  1.00  0.00           N  
+HETATM   33  NAD N7Q B1105       1.290  18.003  41.249  1.00  0.00           N  
+HETATM   34  NAE N7Q B1105       3.013  21.694  34.819  1.00  0.00           N  
+HETATM   35  NAF N7Q B1105      -1.331  12.028  42.169  1.00  0.00           N  
+HETATM   36  OBJ N7Q B1105       4.761  20.511  37.637  1.00  0.00           O  
+HETATM   37  OBK N7Q B1105       1.256  11.616  41.297  1.00  0.00           O  
+HETATM   38  OBL N7Q B1105       0.961   9.780  39.100  1.00  0.00           O  
+HETATM   39  OBM N7Q B1105      -1.538  12.409  39.977  1.00  0.00           O  
+HETATM   40 CL1  N7Q B1105       5.100  21.361  40.348  1.00  0.00          Cl  
+CONECT    1    2    5   32
+CONECT    1    5
+CONECT    2    1    3    8
+CONECT    2    3
+CONECT    3    2    4   33
+CONECT    3    2
+CONECT    4    3    6
+CONECT    4    6
+CONECT    5    1    6
+CONECT    5    1
+CONECT    6    4    5
+CONECT    6    4
+CONECT    7    8   32
+CONECT    7    8
+CONECT    8    2    7    9
+CONECT    8    7
+CONECT    9    8   22   26
+CONECT    9   26
+CONECT   10   11   15   33
+CONECT   10   15
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   14   36
+CONECT   13   14
+CONECT   14   13   15   40
+CONECT   14   13
+CONECT   15   10   14
+CONECT   15   10
+CONECT   16   17   36
+CONECT   17   16   18   34
+CONECT   17   34
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20   34
+CONECT   21   20
+CONECT   22    9   23
+CONECT   22   23
+CONECT   23   22   24   35
+CONECT   23   22
+CONECT   24   23   25   37
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26    9   25
+CONECT   26    9
+CONECT   27   28   37
+CONECT   28   27   38
+CONECT   29   30   35   39
+CONECT   29   39
+CONECT   30   29   31
+CONECT   31   30
+CONECT   32    1    7
+CONECT   33    3   10
+CONECT   34   17   21
+CONECT   34   17
+CONECT   35   23   29
+CONECT   36   13   16
+CONECT   37   24   27
+CONECT   38   28
+CONECT   39   29
+CONECT   39   29
+CONECT   40   14
+ENDMDL
+END   

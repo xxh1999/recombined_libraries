@@ -1,0 +1,78 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6eif_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CAG B5T C 501      -0.596  16.394  45.703  1.00  0.00           C  
+HETATM    2  CAF B5T C 501      -0.870  15.124  46.209  1.00  0.00           C  
+HETATM    3  CAE B5T C 501      -1.316  14.111  45.360  1.00  0.00           C  
+HETATM    4  SAB B5T C 501      -1.644  12.515  46.036  1.00  0.00           S2+
+HETATM    5  OAC B5T C 501      -0.509  12.131  46.987  1.00  0.00           O1-
+HETATM    6  OAD B5T C 501      -1.723  11.473  44.922  1.00  0.00           O1-
+HETATM    7  NAA B5T C 501      -3.023  12.547  46.855  1.00  0.00           N  
+HETATM    8  CAJ B5T C 501      -1.485  14.380  43.997  1.00  0.00           C  
+HETATM    9  CAI B5T C 501      -1.211  15.656  43.490  1.00  0.00           C  
+HETATM   10  CAH B5T C 501      -0.759  16.674  44.338  1.00  0.00           C  
+HETATM   11  CAK B5T C 501      -0.483  17.955  43.845  1.00  0.00           C  
+HETATM   12  CAS B5T C 501       0.327  18.182  42.721  1.00  0.00           C  
+HETATM   13  CAR B5T C 501       0.567  19.438  42.286  1.00  0.00           C  
+HETATM   14  CAL B5T C 501      -1.026  19.063  44.487  1.00  0.00           C  
+HETATM   15  NAM B5T C 501      -0.749  20.348  44.001  1.00  0.00           N  
+HETATM   16  CAN B5T C 501       0.030  20.501  42.917  1.00  0.00           C  
+HETATM   17  NAO B5T C 501       0.414  21.609  42.292  1.00  0.00           N  
+HETATM   18  CAP B5T C 501       1.183  21.266  41.269  1.00  0.00           C  
+HETATM   19  CAQ B5T C 501       1.278  19.941  41.268  1.00  0.00           C  
+HETATM   20  CAT B5T C 501       1.983  19.273  40.343  1.00  0.00           C  
+HETATM   21  CAY B5T C 501       1.391  18.250  39.590  1.00  0.00           C  
+HETATM   22  CAX B5T C 501       2.120  17.567  38.614  1.00  0.00           C  
+HETATM   23  CAW B5T C 501       3.447  17.904  38.363  1.00  0.00           C  
+HETATM   24  NAV B5T C 501       4.051  18.938  39.103  1.00  0.00           N  
+HETATM   25  CAU B5T C 501       3.314  19.623  40.087  1.00  0.00           C  
+CONECT    1    2   10
+CONECT    1   10
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2    4    8
+CONECT    3    2
+CONECT    4    3    5    6    7
+CONECT    5    4
+CONECT    6    4
+CONECT    7    4
+CONECT    8    3    9
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    1    9   11
+CONECT   10    1
+CONECT   11   10   12   14
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   16   19
+CONECT   13   16
+CONECT   14   11   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   13   15   17
+CONECT   16   13
+CONECT   17   16   18
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   13   18   20
+CONECT   19   18
+CONECT   20   19   21   25
+CONECT   20   25
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   20   24
+CONECT   25   20
+ENDMDL
+END   

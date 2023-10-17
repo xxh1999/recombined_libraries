@@ -1,0 +1,66 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4alw_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C5  HY7 A1308       3.847  14.744  36.000  1.00  0.00           C  
+HETATM    2  C6  HY7 A1308       3.471  13.811  34.792  1.00  0.00           C  
+HETATM    3  N3  HY7 A1308       1.980  13.750  34.727  1.00  0.00           N1+
+HETATM    4  C7  HY7 A1308       1.495  12.761  33.708  1.00  0.00           C  
+HETATM    5  C8  HY7 A1308       1.295  13.286  35.972  1.00  0.00           C  
+HETATM    6  C9  HY7 A1308       1.591  14.332  37.069  1.00  0.00           C  
+HETATM    7  N2  HY7 A1308       3.093  14.354  37.196  1.00  0.00           N  
+HETATM    8  C4  HY7 A1308       3.534  15.113  38.379  1.00  0.00           C  
+HETATM    9  C3  HY7 A1308       3.068  16.521  38.576  1.00  0.00           C  
+HETATM   10  N4  HY7 A1308       2.482  16.862  39.678  1.00  0.00           N  
+HETATM   11  C10 HY7 A1308       2.126  18.162  39.924  1.00  0.00           C  
+HETATM   12  C11 HY7 A1308       1.475  18.815  40.968  1.00  0.00           C  
+HETATM   13  C12 HY7 A1308       1.012  18.380  42.202  1.00  0.00           C  
+HETATM   14  C13 HY7 A1308       0.439  19.394  42.933  1.00  0.00           C  
+HETATM   15 BR1  HY7 A1308      -0.339  18.931  44.612  1.00  0.00          Br  
+HETATM   16  C14 HY7 A1308       0.319  20.771  42.583  1.00  0.00           C  
+HETATM   17  C15 HY7 A1308       0.809  21.181  41.343  1.00  0.00           C  
+HETATM   18  C16 HY7 A1308       1.379  20.161  40.617  1.00  0.00           C  
+HETATM   19  O2  HY7 A1308       1.916  20.252  39.381  1.00  0.00           O  
+HETATM   20  C1  HY7 A1308       2.429  19.110  38.969  1.00  0.00           C  
+HETATM   21  C2  HY7 A1308       3.033  18.742  37.751  1.00  0.00           C  
+HETATM   22  O1  HY7 A1308       3.275  19.535  36.828  1.00  0.00           O  
+HETATM   23  N1  HY7 A1308       3.426  17.446  37.655  1.00  0.00           N  
+CONECT    1    2    7
+CONECT    2    1    3
+CONECT    3    2    4    5
+CONECT    4    3
+CONECT    5    3    6
+CONECT    6    5    7
+CONECT    7    1    6    8
+CONECT    8    7    9
+CONECT    9    8   10   23
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11   10   12   20
+CONECT   11   20
+CONECT   12   11   13   18
+CONECT   12   18
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15   16
+CONECT   14   13
+CONECT   15   14
+CONECT   16   14   17
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   12   17   19
+CONECT   18   12
+CONECT   19   18   20
+CONECT   20   11   19   21
+CONECT   20   11
+CONECT   21   20   22   23
+CONECT   21   22
+CONECT   22   21
+CONECT   22   21
+CONECT   23    9   21
+ENDMDL
+END   

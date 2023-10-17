@@ -1,0 +1,57 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4PA8
+MODEL        1
+ATOM      1  N   LYS A1083      -1.237 -17.207  -2.096  1.00 14.67           N1+
+ATOM      2  CA  LYS A1083      -0.443 -16.267  -1.319  1.00 14.54           C  
+ATOM      3  C   LYS A1083      -0.855 -14.841  -1.715  1.00 14.81           C  
+ATOM      4  O   LYS A1083      -0.585 -14.420  -2.838  1.00 18.62           O  
+ATOM      5  CB  LYS A1083       1.050 -16.522  -1.628  1.00 16.69           C  
+ATOM      6  CG  LYS A1083       1.985 -16.143  -0.471  1.00 21.92           C  
+ATOM      7  CD  LYS A1083       1.922 -17.165   0.672  1.00 26.71           C  
+ATOM      8  CE  LYS A1083       3.008 -16.976   1.735  1.00 29.98           C  
+ATOM      9  NZ  LYS A1083       2.854 -18.082   2.673  1.00 28.01           N1+
+TER      10      LYS A1083
+HETATM   11  C1  2K6 A2001       5.843 -17.013  11.226  0.69 27.88           C  
+HETATM   12  O1  2K6 A2001       5.420 -18.223  10.615  0.69 26.48           O  
+HETATM   13  C2  2K6 A2001       5.564 -18.343   9.249  0.69 22.04           C  
+HETATM   14  C3  2K6 A2001       6.170 -17.364   8.421  0.69 21.75           C  
+HETATM   15  C4  2K6 A2001       6.196 -17.532   7.021  0.69 24.74           C  
+HETATM   16  C5  2K6 A2001       5.068 -19.517   8.649  0.69 24.44           C  
+HETATM   17  C6  2K6 A2001       5.119 -19.692   7.251  0.69 28.31           C  
+HETATM   18  C7  2K6 A2001       5.632 -18.675   6.418  0.69 24.75           C  
+HETATM   19  C8  2K6 A2001       5.570 -18.809   4.895  0.69 25.66           C  
+HETATM   20  C9  2K6 A2001       4.821 -17.631   4.189  0.69 27.16           C  
+HETATM   21  C10 2K6 A2001       3.276 -17.821   4.045  0.69 27.21           C  
+HETATM   22  C11 2K6 A2001       2.354 -16.727   4.636  0.69 28.68           C  
+HETATM   23  C12 2K6 A2001       6.968 -19.083   4.302  0.69 27.36           C  
+HETATM   24  C13 2K6 A2001       7.934 -17.977   4.401  0.69 25.99           C  
+HETATM   25  N1  2K6 A2001       8.698 -17.113   4.482  0.69 28.41           N  
+CONECT   11   12
+CONECT   12   11   13
+CONECT   13   12   14   16
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   18
+CONECT   15   18
+CONECT   16   13   17
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   15   17   19
+CONECT   18   15
+CONECT   19   18   20   23
+CONECT   20   19   21
+CONECT   21    9   20   22
+CONECT   22   21
+CONECT   23   19   24
+CONECT   24   23   25
+CONECT   24   25
+CONECT   24   25
+CONECT   25   24
+CONECT   25   24
+CONECT   25   24
+ENDMDL
+END   

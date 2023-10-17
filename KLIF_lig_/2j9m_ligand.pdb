@@ -1,0 +1,64 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2j9m_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1 BR1  PY8 A 299       1.256  19.932  40.541  1.00  0.00          Br  
+HETATM    2  C1  PY8 A 299       0.264  19.386  42.071  1.00  0.00           C  
+HETATM    3  C2  PY8 A 299      -0.357  20.326  42.883  1.00  0.00           C  
+HETATM    4  N3  PY8 A 299      -1.048  19.944  43.939  1.00  0.00           N  
+HETATM    5  C4  PY8 A 299      -1.167  18.651  44.258  1.00  0.00           C  
+HETATM    6  N5  PY8 A 299      -0.573  17.718  43.498  1.00  0.00           N  
+HETATM    7  C6  PY8 A 299       0.134  18.042  42.402  1.00  0.00           C  
+HETATM    8  N7  PY8 A 299       0.718  17.089  41.669  1.00  0.00           N  
+HETATM    9  C8  PY8 A 299      -0.019  15.927  41.137  1.00  0.00           C  
+HETATM   10  C9  PY8 A 299      -0.107  14.798  42.173  1.00  0.00           C  
+HETATM   11  C10 PY8 A 299      -1.574  14.465  42.448  1.00  0.00           C  
+HETATM   12  N13 PY8 A 299      -1.659  13.306  43.355  1.00  0.00           N  
+HETATM   13  S14 PY8 A 299      -2.845  13.386  44.517  1.00  0.00           S2+
+HETATM   14  O14 PY8 A 299      -2.769  12.125  45.341  1.00  0.00           O1-
+HETATM   15  O15 PY8 A 299      -4.202  13.526  43.907  1.00  0.00           O1-
+HETATM   16  C15 PY8 A 299      -2.614  14.752  45.548  1.00  0.00           C  
+HETATM   17  C20 PY8 A 299      -2.337  15.996  44.987  1.00  0.00           C  
+HETATM   18  C16 PY8 A 299      -2.725  14.591  46.926  1.00  0.00           C  
+HETATM   19  C17 PY8 A 299      -2.544  15.681  47.767  1.00  0.00           C  
+HETATM   20  C18 PY8 A 299      -2.266  16.926  47.204  1.00  0.00           C  
+HETATM   21  C19 PY8 A 299      -2.143  17.100  45.817  1.00  0.00           C  
+HETATM   22  N21 PY8 A 299      -1.880  18.327  45.336  1.00  0.00           N  
+CONECT    1    2
+CONECT    2    1    3    7
+CONECT    2    7
+CONECT    3    2    4
+CONECT    3    4
+CONECT    4    3    5
+CONECT    4    3
+CONECT    5    4    6   22
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    2    6    8
+CONECT    7    2
+CONECT    8    7    9
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12   14   15   16
+CONECT   14   13
+CONECT   15   13
+CONECT   16   13   17   18
+CONECT   16   18
+CONECT   17   16   21
+CONECT   17   21
+CONECT   18   16   19
+CONECT   18   16
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   17   20   22
+CONECT   21   17
+CONECT   22    5   21
+ENDMDL
+END   

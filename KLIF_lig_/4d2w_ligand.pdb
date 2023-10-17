@@ -1,0 +1,64 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4d2w_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1 BR1  NF5 D1334       2.188  19.631  40.398  1.00  0.00          Br  
+HETATM    2  C2  NF5 D1334       1.519  19.567  42.176  1.00  0.00           C  
+HETATM    3  C3  NF5 D1334       1.567  18.374  42.893  1.00  0.00           C  
+HETATM    4  C4  NF5 D1334       1.064  18.331  44.184  1.00  0.00           C  
+HETATM    5  C5  NF5 D1334       0.515  19.475  44.757  1.00  0.00           C  
+HETATM    6  C6  NF5 D1334       0.472  20.659  44.022  1.00  0.00           C  
+HETATM    7  C7  NF5 D1334       0.975  20.715  42.737  1.00  0.00           C  
+HETATM    8  C8  NF5 D1334      -0.055  19.520  46.133  1.00  0.00           C  
+HETATM    9  O9  NF5 D1334      -0.394  20.602  46.615  1.00  0.00           O  
+HETATM   10  N10 NF5 D1334      -0.184  18.338  46.802  1.00  0.00           N  
+HETATM   11  C11 NF5 D1334      -0.745  18.099  48.090  1.00  0.00           C  
+HETATM   12  C12 NF5 D1334      -0.962  19.198  48.904  1.00  0.00           C  
+HETATM   13  C13 NF5 D1334      -1.501  19.047  50.163  1.00  0.00           C  
+HETATM   14  C14 NF5 D1334      -1.851  17.788  50.650  1.00  0.00           C  
+HETATM   15  C15 NF5 D1334      -2.427  17.714  52.044  1.00  0.00           C  
+HETATM   16  C16 NF5 D1334      -3.805  17.068  52.134  1.00  0.00           C  
+HETATM   17  N17 NF5 D1334      -3.806  15.605  52.060  1.00  0.00           N1+
+HETATM   18  C20 NF5 D1334      -3.435  15.059  50.753  1.00  0.00           C  
+HETATM   19  C21 NF5 D1334      -1.984  15.282  50.336  1.00  0.00           C  
+HETATM   20  C22 NF5 D1334      -1.635  16.664  49.840  1.00  0.00           C  
+HETATM   21  C23 NF5 D1334      -1.089  16.838  48.563  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3    7
+CONECT    2    7
+CONECT    3    2    4
+CONECT    3    4
+CONECT    4    3    5
+CONECT    4    3
+CONECT    5    4    6    8
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    2    6
+CONECT    7    2
+CONECT    8    5    9   10
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8   11
+CONECT   11   10   12   21
+CONECT   11   21
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15   20
+CONECT   14   20
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20   14   19   21
+CONECT   20   14
+CONECT   21   11   20
+CONECT   21   11
+ENDMDL
+END   

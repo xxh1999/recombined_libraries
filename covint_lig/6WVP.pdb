@@ -1,0 +1,36 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6WVP
+MODEL        1
+ATOM      1  N   SER A 203       2.551  41.900  29.256  1.00 24.54           N1+
+ATOM      2  CA  SER A 203       3.675  41.417  28.470  1.00 31.38           C  
+ATOM      3  C   SER A 203       3.515  39.910  28.360  1.00 28.45           C  
+ATOM      4  O   SER A 203       2.442  39.422  28.006  1.00 31.88           O  
+ATOM      5  CB  SER A 203       4.999  41.766  29.149  1.00 51.54           C  
+ATOM      6  OG  SER A 203       6.100  41.298  28.389  1.00 63.25           O  
+TER       7      SER A 203
+HETATM    8  C1  WW2 A 602       7.158  43.759  30.336  1.00 55.18           C  
+HETATM    9  O1  WW2 A 602       8.226  40.212  28.566  1.00 32.62           O  
+HETATM   10  P1  WW2 A 602       7.480  41.396  28.086  1.00 32.27           P  
+HETATM   11  C2  WW2 A 602       7.294  44.262  31.756  1.00 55.11           C  
+HETATM   12  O2  WW2 A 602       8.259  42.711  28.494  1.00 51.71           O  
+HETATM   13  C3  WW2 A 602       8.555  45.079  31.953  1.00 53.62           C  
+HETATM   14  C4  WW2 A 602       9.793  44.335  31.493  1.00 59.86           C  
+HETATM   15  C5  WW2 A 602       9.658  43.831  30.072  1.00 61.90           C  
+HETATM   16  C6  WW2 A 602       8.396  43.016  29.873  1.00 53.37           C  
+HETATM   17  C7  WW2 A 602       7.323  41.322  26.279  1.00 33.40           C  
+CONECT    8   11   16
+CONECT    9   10
+CONECT    9   10
+CONECT   10    6    9   12   17
+CONECT   10    9
+CONECT   11    8   13
+CONECT   12   10   16
+CONECT   13   11   14
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16    8   12   15
+CONECT   17   10
+ENDMDL
+END   

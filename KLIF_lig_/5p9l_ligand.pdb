@@ -1,0 +1,90 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5p9l_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  Q7G A 701       0.676  19.357  43.054  1.00  0.00           C  
+HETATM    2  C2  Q7G A 701      -0.035  20.323  43.691  1.00  0.00           C  
+HETATM    3  C8  Q7G A 701      -2.057  17.066  46.565  1.00  0.00           C  
+HETATM    4  C9  Q7G A 701      -2.890  17.105  47.664  1.00  0.00           C  
+HETATM    5  C10 Q7G A 701      -3.263  15.986  48.369  1.00  0.00           C  
+HETATM    6  C11 Q7G A 701      -2.816  14.775  47.938  1.00  0.00           C  
+HETATM    7  C12 Q7G A 701      -1.974  14.672  46.844  1.00  0.00           C  
+HETATM    8  C13 Q7G A 701      -1.609  15.829  46.136  1.00  0.00           C  
+HETATM    9  C15 Q7G A 701      -2.245  12.818  49.116  1.00  0.00           C  
+HETATM   10  C16 Q7G A 701      -2.200  11.767  48.029  1.00  0.00           C  
+HETATM   11  O17 Q7G A 701      -2.910  10.631  48.526  1.00  0.00           O  
+HETATM   12  C20 Q7G A 701       1.048  15.644  42.843  1.00  0.00           C  
+HETATM   13  C21 Q7G A 701       0.332  14.896  41.849  1.00  0.00           C  
+HETATM   14  C22 Q7G A 701      -0.087  13.553  42.023  1.00  0.00           C  
+HETATM   15  C24 Q7G A 701       0.866  13.691  44.263  1.00  0.00           C  
+HETATM   16  N26 Q7G A 701      -0.836  12.893  41.034  1.00  0.00           N  
+HETATM   17  C27 Q7G A 701      -1.726  11.825  41.151  1.00  0.00           C  
+HETATM   18  N3  Q7G A 701      -0.838  19.959  44.709  1.00  0.00           N  
+HETATM   19  C4  Q7G A 701      -0.943  18.666  45.031  1.00  0.00           C  
+HETATM   20  N5  Q7G A 701      -0.328  17.647  44.402  1.00  0.00           N  
+HETATM   21  C6  Q7G A 701       0.511  17.938  43.404  1.00  0.00           C  
+HETATM   22  N7  Q7G A 701      -1.810  18.310  46.033  1.00  0.00           N  
+HETATM   23  O14 Q7G A 701      -3.249  13.711  48.692  1.00  0.00           O  
+HETATM   24  C18 Q7G A 701      -3.800  10.976  49.601  1.00  0.00           C  
+HETATM   25  N19 Q7G A 701       1.255  17.011  42.679  1.00  0.00           N  
+HETATM   26  C23 Q7G A 701       0.183  12.968  43.262  1.00  0.00           C  
+HETATM   27  C25 Q7G A 701       1.258  15.009  44.058  1.00  0.00           C  
+HETATM   28  C28 Q7G A 701      -2.558  11.445  39.947  1.00  0.00           C  
+HETATM   29  C29 Q7G A 701      -3.834  10.981  40.008  1.00  0.00           C  
+HETATM   30  O30 Q7G A 701      -1.953  11.170  42.189  1.00  0.00           O  
+HETATM   31  F31 Q7G A 701       1.505  19.750  42.067  1.00  0.00           F  
+CONECT    1    2   21   31
+CONECT    1   21
+CONECT    2    1   18
+CONECT    2   18
+CONECT    3    4    8   22
+CONECT    3    8
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    5    7   23
+CONECT    6    7
+CONECT    7    6    8
+CONECT    7    6
+CONECT    8    3    7
+CONECT    8    3
+CONECT    9   10   23
+CONECT   10    9   11
+CONECT   11   10   24
+CONECT   12   13   25   27
+CONECT   12   27
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   16   26
+CONECT   14   13
+CONECT   15   26   27
+CONECT   15   26
+CONECT   16   14   17
+CONECT   17   16   28   30
+CONECT   17   30
+CONECT   18    2   19
+CONECT   18    2
+CONECT   19   18   20   22
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21    1   20   25
+CONECT   21    1
+CONECT   22    3   19
+CONECT   23    6    9
+CONECT   24   11
+CONECT   25   12   21
+CONECT   26   14   15
+CONECT   26   15
+CONECT   27   12   15
+CONECT   27   12
+CONECT   28   17   29
+CONECT   29   28
+CONECT   30   17
+CONECT   30   17
+CONECT   31    1
+ENDMDL
+END   

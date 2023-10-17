@@ -1,0 +1,100 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6fdy_ligand1
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CAA DB8 U 301       1.037  14.063  45.400  1.00  0.00           C  
+HETATM    2  O02 DB8 U 301       1.893  16.751  37.462  1.00  0.00           O  
+HETATM    3  CAC DB8 U 301      -3.632  15.037  48.772  1.00  0.00           C  
+HETATM    4  NAD DB8 U 301       1.212  20.912  40.161  1.00  0.00           N  
+HETATM    5 CL1  DB8 U 301       4.154  18.420  36.701  1.00  0.00          Cl  
+HETATM    6 CL2  DB8 U 301       4.296  19.826  41.906  1.00  0.00          Cl  
+HETATM    7  CAG DB8 U 301       0.996  20.482  41.207  1.00  0.00           C  
+HETATM    8  CAH DB8 U 301      -0.104  20.713  43.379  1.00  0.00           C  
+HETATM    9  CAI DB8 U 301       4.063  19.003  39.342  1.00  0.00           C  
+HETATM   10  CAJ DB8 U 301       1.966  17.238  39.859  1.00  0.00           C  
+HETATM   11  CAK DB8 U 301      -0.869  18.437  46.066  1.00  0.00           C  
+HETATM   12  CAL DB8 U 301       0.865  16.785  44.614  1.00  0.00           C  
+HETATM   13  CAM DB8 U 301      -2.881  16.276  49.239  1.00  0.00           C  
+HETATM   14  CAN DB8 U 301      -2.341  17.183  48.147  1.00  0.00           C  
+HETATM   15  CAO DB8 U 301      -4.808  11.296  52.983  1.00  0.00           C  
+HETATM   16  CAP DB8 U 301      -3.038  13.957  50.935  1.00  0.00           C  
+HETATM   17  CAQ DB8 U 301      -4.733  12.956  49.544  1.00  0.00           C  
+HETATM   18  CAR DB8 U 301      -3.613  13.256  52.151  1.00  0.00           C  
+HETATM   19  CAS DB8 U 301      -5.304  12.253  50.777  1.00  0.00           C  
+HETATM   20  NAT DB8 U 301      -0.552  20.254  44.547  1.00  0.00           N  
+HETATM   21  NAU DB8 U 301       1.998  17.799  42.219  1.00  0.00           N  
+HETATM   22  OAV DB8 U 301       0.321  15.015  46.193  1.00  0.00           O  
+HETATM   23  OAW DB8 U 301      -1.270  16.526  47.513  1.00  0.00           O  
+HETATM   24  CAX DB8 U 301       2.410  17.417  38.547  1.00  0.00           C  
+HETATM   25  CAY DB8 U 301       3.483  18.280  38.312  1.00  0.00           C  
+HETATM   26  CAZ DB8 U 301       3.586  18.843  40.630  1.00  0.00           C  
+HETATM   27  CBA DB8 U 301       0.691  19.952  42.510  1.00  0.00           C  
+HETATM   28  CBB DB8 U 301       2.530  17.954  40.916  1.00  0.00           C  
+HETATM   29  CBC DB8 U 301       0.221  16.300  45.718  1.00  0.00           C  
+HETATM   30  CBD DB8 U 301      -0.672  17.134  46.441  1.00  0.00           C  
+HETATM   31  CBE DB8 U 301       1.091  18.637  42.901  1.00  0.00           C  
+HETATM   32  CBF DB8 U 301      -0.248  18.956  44.910  1.00  0.00           C  
+HETATM   33  CBG DB8 U 301       0.603  18.114  44.145  1.00  0.00           C  
+HETATM   34  NBH DB8 U 301      -4.096  14.221  49.926  1.00  0.00           N1+
+HETATM   35  NBI DB8 U 301      -4.254  11.998  51.773  1.00  0.00           N  
+HETATM   36  C01 DB8 U 301       0.758  15.864  37.688  1.00  0.00           C  
+CONECT    1   22
+CONECT    2   24   36
+CONECT    3   13   34
+CONECT    4    7
+CONECT    4    7
+CONECT    4    7
+CONECT    5   25
+CONECT    6   26
+CONECT    7    4   27
+CONECT    7    4
+CONECT    7    4
+CONECT    8   20   27
+CONECT    8   27
+CONECT    9   25   26
+CONECT    9   25
+CONECT   10   24   28
+CONECT   10   24
+CONECT   11   30   32
+CONECT   11   30
+CONECT   12   29   33
+CONECT   12   29
+CONECT   13    3   14
+CONECT   14   13   23
+CONECT   15   35
+CONECT   16   18   34
+CONECT   17   19   34
+CONECT   18   16   35
+CONECT   19   17   35
+CONECT   20    8   32
+CONECT   20   32
+CONECT   21   28   31
+CONECT   22    1   29
+CONECT   23   14   30
+CONECT   24    2   10   25
+CONECT   24   10
+CONECT   25    5    9   24
+CONECT   25    9
+CONECT   26    6    9   28
+CONECT   26   28
+CONECT   27    7    8   31
+CONECT   27    8
+CONECT   28   10   21   26
+CONECT   28   26
+CONECT   29   12   22   30
+CONECT   29   12
+CONECT   30   11   23   29
+CONECT   30   11
+CONECT   31   21   27   33
+CONECT   31   33
+CONECT   32   11   20   33
+CONECT   32   20
+CONECT   33   12   31   32
+CONECT   33   31
+CONECT   34    3   16   17
+CONECT   35   15   18   19
+CONECT   36    2
+ENDMDL
+END   

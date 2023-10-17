@@ -1,0 +1,157 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4EM4
+MODEL        1
+ATOM      1  N   CYS A  43      14.814  12.221  40.243  1.00 19.09           N1+
+ATOM      2  CA  CYS A  43      14.318  12.971  41.383  1.00 21.07           C  
+ATOM      3  C   CYS A  43      15.430  13.813  42.033  1.00 21.48           C  
+ATOM      4  O   CYS A  43      15.122  14.778  42.726  1.00 22.79           O  
+ATOM      5  CB  CYS A  43      13.799  11.966  42.427  1.00 23.66           C  
+ATOM      6  SG  CYS A  43      12.567  10.840  41.710  1.00 40.20           S  
+TER       7      CYS A  43
+HETATM    8  N1  CA8 A 508      14.404  -8.331  47.477  0.64 41.64           N  
+HETATM    9  C2  CA8 A 508      15.287  -8.087  48.448  0.64 30.43           C  
+HETATM   10  N3  CA8 A 508      16.223  -7.135  48.508  0.64 36.05           N  
+HETATM   11  C4  CA8 A 508      16.203  -6.344  47.394  0.64 42.30           C  
+HETATM   12  C5  CA8 A 508      15.315  -6.475  46.293  0.64 41.95           C  
+HETATM   13  C6  CA8 A 508      14.377  -7.534  46.384  0.64 39.05           C  
+HETATM   14  N6  CA8 A 508      13.461  -7.789  45.444  0.64 26.02           N  
+HETATM   15  N7  CA8 A 508      15.579  -5.487  45.354  0.64 44.31           N  
+HETATM   16  C8  CA8 A 508      16.570  -4.811  45.872  0.64 40.82           C  
+HETATM   17  N9  CA8 A 508      17.002  -5.260  47.102  0.64 42.21           N  
+HETATM   18  C1' CA8 A 508      18.088  -4.721  47.967  0.64 42.35           C  
+HETATM   19  C2' CA8 A 508      19.444  -5.257  47.519  0.64 50.33           C  
+HETATM   20  O2' CA8 A 508      19.825  -6.478  48.115  0.64 40.28           O  
+HETATM   21  C3' CA8 A 508      20.337  -4.144  48.031  0.64 51.57           C  
+HETATM   22  O3' CA8 A 508      20.431  -4.301  49.444  0.64 66.54           O  
+HETATM   23  C4' CA8 A 508      19.492  -2.891  47.754  0.64 54.77           C  
+HETATM   24  O4' CA8 A 508      18.132  -3.334  47.791  0.64 54.24           O  
+HETATM   25  C5' CA8 A 508      19.765  -2.227  46.393  0.64 43.20           C  
+HETATM   26  O5' CA8 A 508      19.662  -3.189  45.363  0.64 36.58           O  
+HETATM   27  PAR CA8 A 508      21.846  -3.889  50.157  0.64 65.09           P  
+HETATM   28  OAS CA8 A 508      21.963  -2.382  50.049  0.64 53.39           O1-
+HETATM   29  OAT CA8 A 508      21.702  -4.359  51.590  0.64 46.24           O1-
+HETATM   30  OAU CA8 A 508      22.942  -4.621  49.406  0.64 58.92           O  
+HETATM   31  PAX CA8 A 508      19.564  -2.759  43.728  0.64 40.13           P  
+HETATM   32  OAY CA8 A 508      17.970  -2.198  43.540  0.64 52.55           O  
+HETATM   33  PAZ CA8 A 508      16.979  -1.818  42.208  0.64 36.25           P  
+HETATM   34  OBA CA8 A 508      17.948  -0.819  41.232  0.64 33.17           O  
+HETATM   35  CBB CA8 A 508      18.469   0.406  41.714  0.64 39.61           C  
+HETATM   36  CBC CA8 A 508      18.617   1.459  40.592  0.64 37.74           C  
+HETATM   37  CBD CA8 A 508      17.299   1.525  39.763  0.64 25.91           C  
+HETATM   38  CBE CA8 A 508      17.304   2.611  38.677  0.64 30.42           C  
+HETATM   39  NBF CA8 A 508      16.703   3.760  38.993  0.64 34.74           N  
+HETATM   40  CBG CA8 A 508      16.728   4.977  38.208  0.64 24.33           C  
+HETATM   41  CBH CA8 A 508      16.322   6.183  39.054  0.64 17.48           C  
+HETATM   42  CBI CA8 A 508      14.924   6.084  39.671  0.64 25.83           C  
+HETATM   43  NBJ CA8 A 508      14.042   7.008  39.279  0.64 24.11           N  
+HETATM   44  CBK CA8 A 508      12.692   7.179  39.786  0.64 23.74           C  
+HETATM   45  CBL CA8 A 508      12.435   8.627  40.206  0.64 25.06           C  
+HETATM   46  OBM CA8 A 508      15.839  -1.013  42.698  0.64 32.67           O1-
+HETATM   47  OBN CA8 A 508      20.497  -1.635  43.482  0.64 53.94           O1-
+HETATM   48  OBO CA8 A 508      16.707  -3.060  41.454  0.64 21.95           O  
+HETATM   49  OBP CA8 A 508      19.720  -4.004  42.945  0.64 33.58           O  
+HETATM   50  CBQ CA8 A 508      19.840   1.115  39.721  0.64 40.61           C  
+HETATM   51  CBR CA8 A 508      18.939   2.816  41.256  0.64 42.91           C  
+HETATM   52  OBS CA8 A 508      17.872   2.426  37.603  0.64 32.88           O  
+HETATM   53  OBT CA8 A 508      14.676   5.228  40.517  0.64 23.08           O  
+HETATM   54  CBU CA8 A 508      13.420   9.318  41.169  0.64 34.53           C  
+HETATM   55  CBV CA8 A 508      13.863   8.415  42.349  0.64 23.28           C  
+HETATM   56  SBW CA8 A 508      15.687   8.438  42.608  0.64 30.55           S  
+HETATM   57  CBX CA8 A 508      16.043   7.058  43.674  0.64 29.32           C  
+HETATM   58  OBY CA8 A 508      16.206   1.716  40.649  0.64 25.94           O  
+HETATM   59  OBZ CA8 A 508      16.326   8.192  41.316  0.64 33.18           O  
+HETATM   60  OCA CA8 A 508      16.060   9.646  43.349  0.64 35.63           O  
+HETATM   61  CCB CA8 A 508      15.747   7.172  45.042  0.64 37.76           C  
+HETATM   62  CCC CA8 A 508      16.104   6.136  45.922  0.64 40.08           C  
+HETATM   63  CCD CA8 A 508      16.722   4.974  45.429  0.64 36.79           C  
+HETATM   64  CCE CA8 A 508      16.986   4.851  44.053  0.64 42.81           C  
+HETATM   65  CCF CA8 A 508      16.646   5.892  43.167  0.64 30.64           C  
+CONECT    8    9   13
+CONECT    8   13
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11   10   12   17
+CONECT   11   12
+CONECT   12   11   13   15
+CONECT   12   11
+CONECT   13    8   12   14
+CONECT   13    8
+CONECT   14   13
+CONECT   15   12   16
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   11   16   18
+CONECT   18   17   19   24
+CONECT   19   18   20   21
+CONECT   20   19
+CONECT   21   19   22   23
+CONECT   22   21   27
+CONECT   23   21   24   25
+CONECT   24   18   23
+CONECT   25   23   26
+CONECT   26   25   31
+CONECT   27   22   28   29   30
+CONECT   27   30
+CONECT   28   27
+CONECT   29   27
+CONECT   30   27
+CONECT   30   27
+CONECT   31   26   32   47   49
+CONECT   31   49
+CONECT   32   31   33
+CONECT   33   32   34   46   48
+CONECT   33   48
+CONECT   34   33   35
+CONECT   35   34   36
+CONECT   36   35   37   50   51
+CONECT   37   36   38   58
+CONECT   38   37   39   52
+CONECT   38   52
+CONECT   39   38   40
+CONECT   40   39   41
+CONECT   41   40   42
+CONECT   42   41   43   53
+CONECT   42   53
+CONECT   43   42   44
+CONECT   44   43   45
+CONECT   45   44   54
+CONECT   46   33
+CONECT   47   31
+CONECT   48   33
+CONECT   48   33
+CONECT   49   31
+CONECT   49   31
+CONECT   50   36
+CONECT   51   36
+CONECT   52   38
+CONECT   52   38
+CONECT   53   42
+CONECT   53   42
+CONECT   54    6   45   55
+CONECT   55   54   56
+CONECT   56   55   57   59   60
+CONECT   56   59   60
+CONECT   57   56   61   65
+CONECT   57   65
+CONECT   58   37
+CONECT   59   56
+CONECT   59   56
+CONECT   60   56
+CONECT   60   56
+CONECT   61   57   62
+CONECT   61   62
+CONECT   62   61   63
+CONECT   62   61
+CONECT   63   62   64
+CONECT   63   64
+CONECT   64   63   65
+CONECT   64   63
+CONECT   65   57   64
+CONECT   65   57
+ENDMDL
+END   

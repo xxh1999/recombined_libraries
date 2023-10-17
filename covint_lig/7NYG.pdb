@@ -1,0 +1,58 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7NYG
+MODEL        1
+ATOM      1  N   LYS A 122      15.590  24.714  -8.004  1.00  9.40           N1+
+ATOM      2  CA  LYS A 122      16.566  23.670  -8.319  1.00  8.34           C  
+ATOM      3  C   LYS A 122      15.929  22.291  -8.196  1.00  9.67           C  
+ATOM      4  O   LYS A 122      16.113  21.435  -9.068  1.00  9.48           O  
+ATOM      5  CB  LYS A 122      17.762  23.816  -7.368  1.00  9.67           C  
+ATOM      6  CG  LYS A 122      18.851  22.784  -7.571  1.00 11.34           C  
+ATOM      7  CD  LYS A 122      19.899  22.898  -6.452  1.00 11.79           C  
+ATOM      8  CE  LYS A 122      20.878  21.697  -6.435  1.00 13.82           C  
+ATOM      9  NZ  LYS A 122      21.888  21.906  -5.334  1.00 17.36           N1+
+TER      10      LYS A 122
+HETATM   11  C01 UVT A 301      28.165  21.281   0.585  1.00 33.13           C  
+HETATM   12  C02 UVT A 301      27.045  20.714  -0.169  1.00 36.06           C  
+HETATM   13  C03 UVT A 301      27.357  19.302  -0.733  1.00 33.35           C  
+HETATM   14  C04 UVT A 301      26.841  18.463   0.118  1.00 34.35           C  
+HETATM   15  C05 UVT A 301      25.575  19.201   0.847  1.00 31.74           C  
+HETATM   16  C09 UVT A 301      23.687  21.589  -0.585  1.00 31.12           C  
+HETATM   17  C10 UVT A 301      24.074  22.398  -1.688  1.00 25.79           C  
+HETATM   18  C11 UVT A 301      23.330  22.274  -2.904  1.00 23.75           C  
+HETATM   19  C12 UVT A 301      22.254  21.354  -2.971  1.00 25.82           C  
+HETATM   20  C13 UVT A 301      21.883  20.560  -1.885  1.00 26.36           C  
+HETATM   21  C14 UVT A 301      22.632  20.675  -0.653  1.00 31.86           C  
+HETATM   22  C15 UVT A 301      21.434  21.188  -4.194  1.00 22.34           C  
+HETATM   23  N06 UVT A 301      25.765  20.496   0.712  1.00 28.47           N  
+HETATM   24  O08 UVT A 301      23.621  21.419   2.081  1.00 36.26           O  
+HETATM   25  O16 UVT A 301      25.048  23.061   1.217  1.00 31.46           O  
+HETATM   26  S07 UVT A 301      24.579  21.672   0.987  1.00 25.36           S  
+CONECT   11   12
+CONECT   12   11   13   23
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   23
+CONECT   16   17   21   26
+CONECT   16   21
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   18   20   22
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   16   20
+CONECT   21   16
+CONECT   22    9   19
+CONECT   23   12   15   26
+CONECT   24   26
+CONECT   24   26
+CONECT   25   26
+CONECT   25   26
+CONECT   26   16   23   24   25
+CONECT   26   24   25
+ENDMDL
+END   

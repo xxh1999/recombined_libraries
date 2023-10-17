@@ -1,0 +1,90 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1GA9
+MODEL        1
+ATOM      1  N   SER A  64      27.306   1.476  16.179  1.00 23.33           N1+
+ATOM      2  CA  SER A  64      28.655   1.948  16.472  1.00 24.39           C  
+ATOM      3  C   SER A  64      29.485   1.101  17.464  1.00 24.89           C  
+ATOM      4  O   SER A  64      30.624   1.474  17.738  1.00 25.56           O  
+ATOM      5  CB  SER A  64      28.564   3.371  17.012  1.00 24.35           C  
+ATOM      6  OG  SER A  64      28.009   4.250  16.042  1.00 29.89           O  
+TER       7      SER A  64
+HETATM    8  B   ETP A 964      26.761   4.980  16.385  1.00 31.99           B1-
+HETATM    9  O1  ETP A 964      25.732   3.988  16.715  1.00 30.87           O  
+HETATM   10  O2  ETP A 964      26.978   5.779  17.609  1.00 32.47           O  
+HETATM   11  C1  ETP A 964      26.232   5.901  15.153  1.00 34.00           C  
+HETATM   12  C2  ETP A 964      25.849   5.305  13.930  1.00 34.96           C  
+HETATM   13  C3  ETP A 964      25.333   6.073  12.860  1.00 39.04           C  
+HETATM   14  N1  ETP A 964      24.937   5.528  11.702  1.00 46.25           N1-
+HETATM   15  C4  ETP A 964      25.209   7.467  13.039  1.00 35.38           C  
+HETATM   16  C5  ETP A 964      25.589   8.079  14.245  1.00 33.49           C  
+HETATM   17  C6  ETP A 964      26.098   7.298  15.296  1.00 35.30           C  
+HETATM   18  S1  ETP A 964      23.675   4.530  11.548  1.00 52.40           S  
+HETATM   19  O3  ETP A 964      23.771   3.347  12.415  1.00 54.91           O  
+HETATM   20  O4  ETP A 964      23.317   4.308  10.138  1.00 53.72           O  
+HETATM   21  S3  ETP A 964      21.166   6.275  11.168  1.00 59.16           S  
+HETATM   22  C7  ETP A 964      20.294   6.880  12.552  1.00 60.33           C  
+HETATM   23  C8  ETP A 964      20.884   6.465  13.716  1.00 62.10           C  
+HETATM   24  C9  ETP A 964      22.032   5.648  13.529  1.00 58.55           C  
+HETATM   25  C10 ETP A 964      22.297   5.437  12.202  1.00 56.80           C  
+HETATM   26  S2  ETP A 964      20.397   6.920  15.344  1.00 64.30           S  
+HETATM   27  O6  ETP A 964      18.940   7.126  15.310  1.00 66.53           O  
+HETATM   28  O5  ETP A 964      20.991   5.946  16.273  1.00 65.34           O  
+HETATM   29  C11 ETP A 964      21.200   8.504  15.568  1.00 65.79           C  
+HETATM   30  C16 ETP A 964      22.413   8.576  16.276  1.00 66.52           C  
+HETATM   31  C15 ETP A 964      23.047   9.820  16.462  1.00 66.23           C  
+HETATM   32  C14 ETP A 964      22.482  10.984  15.906  1.00 66.71           C  
+HETATM   33  C13 ETP A 964      21.286  10.904  15.165  1.00 66.72           C  
+HETATM   34  C12 ETP A 964      20.638   9.664  14.997  1.00 67.10           C  
+CONECT    8    6    9   10   11
+CONECT    9    8
+CONECT   10    8
+CONECT   11    8   12   17
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   14   15
+CONECT   13   15
+CONECT   14   13   18
+CONECT   15   13   16
+CONECT   15   13
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   11   16
+CONECT   17   16
+CONECT   18   14   19   20   25
+CONECT   18   19   20
+CONECT   19   18
+CONECT   19   18
+CONECT   20   18
+CONECT   20   18
+CONECT   21   22   25
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24   26
+CONECT   23   22
+CONECT   24   23   25
+CONECT   24   25
+CONECT   25   18   21   24
+CONECT   25   24
+CONECT   26   23   27   28   29
+CONECT   26   27   28
+CONECT   27   26
+CONECT   27   26
+CONECT   28   26
+CONECT   28   26
+CONECT   29   26   30   34
+CONECT   29   30
+CONECT   30   29   31
+CONECT   30   29
+CONECT   31   30   32
+CONECT   31   32
+CONECT   32   31   33
+CONECT   32   31
+CONECT   33   32   34
+CONECT   33   34
+CONECT   34   29   33
+CONECT   34   33
+ENDMDL
+END   

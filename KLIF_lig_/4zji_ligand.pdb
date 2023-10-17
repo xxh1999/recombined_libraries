@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4zji_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  Q4O D 601       0.841  28.409  34.102  1.00  0.00           C  
+HETATM    2  C2  Q4O D 601      -0.134  26.675  32.597  1.00  0.00           C  
+HETATM    3  C3  Q4O D 601      -0.929  26.136  33.609  1.00  0.00           C  
+HETATM    4  C11 Q4O D 601      -1.219  30.735  30.084  1.00  0.00           C  
+HETATM    5  C12 Q4O D 601      -1.306  30.958  31.437  1.00  0.00           C  
+HETATM    6  C13 Q4O D 601      -0.717  30.061  32.308  1.00  0.00           C  
+HETATM    7  C14 Q4O D 601      -0.025  28.951  31.831  1.00  0.00           C  
+HETATM    8  C15 Q4O D 601       2.466  29.115  28.670  1.00  0.00           C  
+HETATM    9  C16 Q4O D 601       2.717  29.501  27.221  1.00  0.00           C  
+HETATM   10  C17 Q4O D 601       3.637  28.790  25.100  1.00  0.00           C  
+HETATM   11  C18 Q4O D 601       2.467  27.228  26.523  1.00  0.00           C  
+HETATM   12  C19 Q4O D 601       2.201  26.787  27.956  1.00  0.00           C  
+HETATM   13 CL   Q4O D 601      -2.103  31.755  29.000  1.00  0.00          Cl  
+HETATM   14  C10 Q4O D 601      -0.525  29.664  29.570  1.00  0.00           C  
+HETATM   15  N   Q4O D 601       0.457  27.967  32.753  1.00  0.00           N  
+HETATM   16  C   Q4O D 601       1.817  27.475  34.814  1.00  0.00           C  
+HETATM   17  C9  Q4O D 601       0.095  28.764  30.438  1.00  0.00           C  
+HETATM   18  C8  Q4O D 601       0.855  27.616  29.873  1.00  0.00           C  
+HETATM   19  N2  Q4O D 601       1.634  27.898  28.736  1.00  0.00           N  
+HETATM   20  N3  Q4O D 601       3.341  28.398  26.490  1.00  0.00           N1+
+HETATM   21  N1  Q4O D 601       0.825  26.404  30.311  1.00  0.00           N  
+HETATM   22  C7  Q4O D 601       0.018  25.972  31.381  1.00  0.00           C  
+HETATM   23  C6  Q4O D 601      -0.645  24.753  31.207  1.00  0.00           C  
+HETATM   24  C5  Q4O D 601      -1.414  24.273  32.237  1.00  0.00           C  
+HETATM   25  F   Q4O D 601      -2.060  23.092  32.056  1.00  0.00           F  
+HETATM   26  C4  Q4O D 601      -1.574  24.924  33.431  1.00  0.00           C  
+CONECT    1   15   16
+CONECT    2    3   15   22
+CONECT    2   22
+CONECT    3    2   26
+CONECT    3   26
+CONECT    4    5   13   14
+CONECT    4   14
+CONECT    5    4    6
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    6   15   17
+CONECT    7   17
+CONECT    8    9   19
+CONECT    9    8   20
+CONECT   10   20
+CONECT   11   12   20
+CONECT   12   11   19
+CONECT   13    4
+CONECT   14    4   17
+CONECT   14    4
+CONECT   15    1    2    7
+CONECT   16    1
+CONECT   17    7   14   18
+CONECT   17    7
+CONECT   18   17   19   21
+CONECT   18   21
+CONECT   19    8   12   18
+CONECT   20    9   10   11
+CONECT   21   18   22
+CONECT   21   18
+CONECT   22    2   21   23
+CONECT   22    2
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25   26
+CONECT   24   23
+CONECT   25   24
+CONECT   26    3   24
+CONECT   26    3
+ENDMDL
+END   

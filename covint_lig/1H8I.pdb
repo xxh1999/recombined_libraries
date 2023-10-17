@@ -1,0 +1,128 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1H8I
+MODEL        1
+ATOM      1  N   SER H 195      15.252  -7.250  17.907  1.00 10.56           N1+
+ATOM      2  CA  SER H 195      13.919  -6.826  17.469  1.00 11.34           C  
+ATOM      3  C   SER H 195      13.517  -5.471  18.028  1.00 11.44           C  
+ATOM      4  O   SER H 195      13.783  -5.186  19.191  1.00 12.76           O  
+ATOM      5  CB  SER H 195      12.861  -7.832  17.916  1.00 15.83           C  
+ATOM      6  OG  SER H 195      12.774  -8.870  16.999  1.00 16.79           O  
+TER       7      SER H 195
+HETATM    8  C14 PHV H 301      12.623 -17.894  12.479  1.00 27.09           C  
+HETATM    9  O14 PHV H 301      11.847 -18.691  13.002  1.00 30.20           O  
+HETATM   10  O15 PHV H 301      13.933 -18.109  12.280  1.00 29.80           O  
+HETATM   11  C16 PHV H 301      14.584 -19.210  12.906  1.00 40.06           C  
+HETATM   12  C41 PHV H 301      15.459 -18.788  14.073  1.00 54.48           C  
+HETATM   13  C42 PHV H 301      15.329 -17.513  14.660  1.00 55.81           C  
+HETATM   14  C43 PHV H 301      16.195 -17.114  15.691  1.00 60.42           C  
+HETATM   15  C44 PHV H 301      17.187 -17.994  16.153  1.00 61.39           C  
+HETATM   16  C45 PHV H 301      17.281 -19.290  15.618  1.00 58.67           C  
+HETATM   17  C46 PHV H 301      16.424 -19.685  14.574  1.00 56.77           C  
+HETATM   18  C22 PHV H 301       8.716 -14.043   9.923  1.00 12.62           C  
+HETATM   19  C23 PHV H 301       7.403 -13.543   9.867  1.00 17.97           C  
+HETATM   20  C24 PHV H 301       6.355 -14.242  10.495  1.00 21.94           C  
+HETATM   21  C25 PHV H 301       6.624 -15.452  11.160  1.00 21.49           C  
+HETATM   22  C26 PHV H 301       7.935 -15.960  11.195  1.00 19.64           C  
+HETATM   23  C21 PHV H 301       8.999 -15.245  10.604  1.00 15.14           C  
+HETATM   24  C12 PHV H 301      10.433 -15.771  10.661  1.00 15.21           C  
+HETATM   25  C11 PHV H 301      11.003 -15.978  12.100  1.00 19.77           C  
+HETATM   26  C10 PHV H 301      11.207 -14.631  12.826  1.00 17.25           C  
+HETATM   27  O10 PHV H 301      12.146 -13.922  12.458  1.00 18.81           O  
+HETATM   28  N13 PHV H 301      12.312 -16.627  12.019  1.00 17.74           N  
+HETATM   29  C31 PHV H 301      10.565 -16.972   9.731  1.00 21.19           C  
+HETATM   30  C36 PHV H 301      11.104 -16.799   8.437  1.00 22.37           C  
+HETATM   31  C35 PHV H 301      11.262 -17.904   7.583  1.00 26.57           C  
+HETATM   32  C34 PHV H 301      10.897 -19.191   8.020  1.00 26.38           C  
+HETATM   33  C33 PHV H 301      10.335 -19.368   9.298  1.00 29.97           C  
+HETATM   34  C32 PHV H 301      10.163 -18.260  10.147  1.00 25.61           C  
+HETATM   35  N9  PHV H 301      10.355 -14.228  13.804  1.00 19.52           N  
+HETATM   36  C8  PHV H 301      10.418 -12.896  14.432  1.00 18.34           C  
+HETATM   37  C7  PHV H 301      11.762 -12.627  15.133  1.00 21.55           C  
+HETATM   38  O7  PHV H 301      12.284 -13.498  15.827  1.00 19.55           O  
+HETATM   39  C8A PHV H 301       9.285 -12.852  15.470  1.00 21.04           C  
+HETATM   40  C8B PHV H 301       8.425 -14.076  15.225  1.00 18.63           C  
+HETATM   41  C8C PHV H 301       9.239 -15.007  14.336  1.00 18.75           C  
+HETATM   42  P   PHV H 301      13.367 -10.393  17.358  1.00 23.23           P  
+HETATM   43  C1  PHV H 301      15.870 -14.390  13.727  1.00 32.11           C  
+HETATM   44  C2  PHV H 301      16.559 -12.127  13.595  1.00 25.28           C  
+HETATM   45  O2  PHV H 301      16.407 -13.362  12.925  1.00 31.30           O  
+HETATM   46  C3  PHV H 301      15.219 -11.462  13.845  1.00 23.29           C  
+HETATM   47  C4  PHV H 301      14.767 -11.660  15.290  1.00 35.77           C  
+HETATM   48  C5  PHV H 301      13.493 -10.869  15.569  1.00 22.59           C  
+HETATM   49  N6  PHV H 301      12.280 -11.404  14.960  1.00 21.38           N  
+HETATM   50  OP1 PHV H 301      12.271 -11.144  18.008  1.00 19.99           O  
+HETATM   51  OP2 PHV H 301      14.688 -10.250  18.011  1.00 21.25           O1-
+CONECT    8    9   10   28
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8   11
+CONECT   11   10   12
+CONECT   12   11   13   17
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   12   16
+CONECT   17   16
+CONECT   18   19   23
+CONECT   18   23
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   18   22   24
+CONECT   23   18
+CONECT   24   23   25   29
+CONECT   25   24   26   28
+CONECT   26   25   27   35
+CONECT   26   27
+CONECT   27   26
+CONECT   27   26
+CONECT   28    8   25
+CONECT   29   24   30   34
+CONECT   29   30
+CONECT   30   29   31
+CONECT   30   29
+CONECT   31   30   32
+CONECT   31   32
+CONECT   32   31   33
+CONECT   32   31
+CONECT   33   32   34
+CONECT   33   34
+CONECT   34   29   33
+CONECT   34   33
+CONECT   35   26   36   41
+CONECT   36   35   37   39
+CONECT   37   36   38   49
+CONECT   37   38
+CONECT   38   37
+CONECT   38   37
+CONECT   39   36   40
+CONECT   40   39   41
+CONECT   41   35   40
+CONECT   42    6   48   50   51
+CONECT   42   50
+CONECT   43   45
+CONECT   44   45   46
+CONECT   45   43   44
+CONECT   46   44   47
+CONECT   47   46   48
+CONECT   48   42   47   49
+CONECT   49   37   48
+CONECT   50   42
+CONECT   50   42
+CONECT   51   42
+ENDMDL
+END   

@@ -1,0 +1,71 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5FAP
+MODEL        1
+ATOM      1  N   SER A  70      -3.092 -25.492  18.089  1.00 21.04           N1+
+ATOM      2  CA  SER A  70      -4.363 -26.169  18.367  1.00 22.12           C  
+ATOM      3  C   SER A  70      -5.602 -25.260  18.159  1.00 21.76           C  
+ATOM      4  O   SER A  70      -6.719 -25.756  18.291  1.00 20.73           O  
+ATOM      5  CB  SER A  70      -4.399 -26.692  19.830  1.00 22.34           C  
+ATOM      6  OG  SER A  70      -3.484 -27.738  20.163  1.00 24.60           O  
+TER       7      SER A  70
+HETATM    8  OAL 602 A 301      -3.416 -25.013  23.762  1.00 37.32           O1-
+HETATM    9  SAI 602 A 301      -3.759 -26.204  24.551  1.00 35.65           S  
+HETATM   10  OAJ 602 A 301      -2.919 -26.420  25.740  1.00 37.39           O  
+HETATM   11  OAK 602 A 301      -5.197 -26.409  24.769  1.00 35.05           O  
+HETATM   12  OAH 602 A 301      -3.346 -27.477  23.536  1.00 33.86           O  
+HETATM   13  NAG 602 A 301      -3.511 -28.817  24.014  1.00 31.67           N  
+HETATM   14  CAE 602 A 301      -2.442 -29.610  23.429  1.00 28.20           C  
+HETATM   15  CAF 602 A 301      -1.077 -29.283  24.068  1.00 27.69           C  
+HETATM   16  CB  602 A 301      -0.360 -28.133  23.348  1.00 28.02           C  
+HETATM   17  CAD 602 A 301      -2.453 -29.628  21.876  1.00 26.15           C  
+HETATM   18  N   602 A 301      -1.654 -28.523  21.304  1.00 25.75           N  
+HETATM   19  CAM 602 A 301      -2.240 -27.447  20.612  1.00 23.75           C  
+HETATM   20  OAN 602 A 301      -1.715 -26.347  20.441  1.00 22.21           O  
+HETATM   21  CA  602 A 301      -0.280 -28.388  21.832  1.00 28.23           C  
+HETATM   22  C   602 A 301       0.734 -29.485  21.458  1.00 28.57           C  
+HETATM   23  O   602 A 301       0.384 -30.590  21.041  1.00 28.60           O  
+HETATM   24  NAQ 602 A 301       2.017 -29.151  21.659  1.00 29.24           N  
+HETATM   25  NAR 602 A 301       3.011 -30.128  21.793  1.00 31.78           N  
+HETATM   26  CAS 602 A 301       3.976 -30.280  20.878  1.00 32.54           C  
+HETATM   27  OAU 602 A 301       3.968 -29.725  19.780  1.00 30.30           O  
+HETATM   28  CAT 602 A 301       5.148 -31.184  21.297  1.00 34.76           C  
+HETATM   29  CAV 602 A 301       5.225 -32.515  20.550  1.00 35.56           C  
+HETATM   30  NAW 602 A 301       6.177 -31.898  19.631  1.00 34.95           N1+
+HETATM   31  CAX 602 A 301       6.487 -30.872  20.623  1.00 35.18           C  
+CONECT    8    9
+CONECT    9    8   10   11   12
+CONECT    9   10   11
+CONECT   10    9
+CONECT   10    9
+CONECT   11    9
+CONECT   11    9
+CONECT   12    9   13
+CONECT   13   12   14
+CONECT   14   13   15   17
+CONECT   15   14   16
+CONECT   16   15   21
+CONECT   17   14   18
+CONECT   18   17   19   21
+CONECT   19    6   18   20
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   16   18   22
+CONECT   22   21   23   24
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22   25
+CONECT   25   24   26
+CONECT   26   25   27   28
+CONECT   26   27
+CONECT   27   26
+CONECT   27   26
+CONECT   28   26   29   31
+CONECT   29   28   30
+CONECT   30   29   31
+CONECT   31   28   30
+ENDMDL
+END   

@@ -1,0 +1,78 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3psb_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  SM6 A   1       3.796  19.668  37.859  1.00  0.00           C  
+HETATM    2  C2  SM6 A   1       3.788  19.829  39.246  1.00  0.00           C  
+HETATM    3  C3  SM6 A   1       3.080  18.951  40.087  1.00  0.00           C  
+HETATM    4  C4  SM6 A   1       2.365  17.899  39.474  1.00  0.00           C  
+HETATM    5  C5  SM6 A   1       2.369  17.735  38.071  1.00  0.00           C  
+HETATM    6  C6  SM6 A   1       3.089  18.621  37.242  1.00  0.00           C  
+HETATM    7  C7  SM6 A   1       4.582  20.673  37.184  1.00  0.00           C  
+HETATM    8  C8  SM6 A   1       5.067  21.587  38.331  1.00  0.00           C  
+HETATM    9  C9  SM6 A   1       4.599  21.002  39.696  1.00  0.00           C  
+HETATM   10  N10 SM6 A   1       1.662  17.015  40.192  1.00  0.00           N  
+HETATM   11  C11 SM6 A   1       1.095  16.956  41.475  1.00  0.00           C  
+HETATM   12  N12 SM6 A   1       4.785  20.778  35.934  1.00  0.00           N  
+HETATM   13  C13 SM6 A   1       0.578  18.100  42.225  1.00  0.00           C  
+HETATM   14  C14 SM6 A   1       0.065  17.749  43.480  1.00  0.00           C  
+HETATM   15  S15 SM6 A   1       0.178  16.034  43.820  1.00  0.00           S  
+HETATM   16  C16 SM6 A   1       0.925  15.768  42.252  1.00  0.00           C  
+HETATM   17  C17 SM6 A   1       1.287  14.421  41.910  1.00  0.00           C  
+HETATM   18  O18 SM6 A   1       1.952  14.207  40.890  1.00  0.00           O  
+HETATM   19  C19 SM6 A   1       0.538  19.459  41.843  1.00  0.00           C  
+HETATM   20  C20 SM6 A   1      -0.020  20.387  42.754  1.00  0.00           C  
+HETATM   21  N21 SM6 A   1      -0.510  20.038  43.964  1.00  0.00           N  
+HETATM   22  C22 SM6 A   1      -0.474  18.738  44.334  1.00  0.00           C  
+HETATM   23  O23 SM6 A   1       3.916  21.768  35.365  1.00  0.00           O  
+HETATM   24  O24 SM6 A   1       0.487  13.473  42.464  1.00  0.00           O  
+HETATM   25  C25 SM6 A   1       0.333  11.547  43.935  1.00  0.00           C  
+HETATM   26  C26 SM6 A   1       0.918  12.123  42.631  1.00  0.00           C  
+CONECT    1    2    6    7
+CONECT    1    7
+CONECT    2    1    3    9
+CONECT    2    9
+CONECT    3    2    4
+CONECT    3    4
+CONECT    4    3    5   10
+CONECT    4    3
+CONECT    5    4    6
+CONECT    5    6
+CONECT    6    1    5
+CONECT    6    5
+CONECT    7    1    8   12
+CONECT    7    1
+CONECT    8    7    9
+CONECT    9    2    8
+CONECT    9    2
+CONECT   10    4   11
+CONECT   11   10   13   16
+CONECT   11   16
+CONECT   12    7   23
+CONECT   13   11   14   19
+CONECT   13   19
+CONECT   14   13   15   22
+CONECT   14   22
+CONECT   15   14   16
+CONECT   16   11   15   17
+CONECT   16   11
+CONECT   17   16   18   24
+CONECT   17   18
+CONECT   18   17
+CONECT   18   17
+CONECT   19   13   20
+CONECT   19   13
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   14   21
+CONECT   22   14
+CONECT   23   12
+CONECT   24   17   26
+CONECT   25   26
+CONECT   26   24   25
+ENDMDL
+END   

@@ -1,0 +1,33 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4X2P
+MODEL        1
+ATOM      1  N   LYS A 166       2.489 -27.472 -27.132  1.00 13.10           N1+
+ATOM      2  CA  LYS A 166       1.325 -27.215 -27.972  1.00 12.87           C  
+ATOM      3  C   LYS A 166       0.194 -26.726 -27.056  1.00 17.10           C  
+ATOM      4  O   LYS A 166       0.035 -27.201 -25.930  1.00 18.36           O  
+ATOM      5  CB  LYS A 166       0.841 -28.502 -28.663  1.00 17.30           C  
+ATOM      6  CG  LYS A 166       1.918 -29.277 -29.435  1.00 27.02           C  
+ATOM      7  CD  LYS A 166       2.609 -28.579 -30.612  1.00 37.80           C  
+ATOM      8  CE  LYS A 166       3.248 -29.629 -31.534  1.00 39.39           C  
+ATOM      9  NZ  LYS A 166       4.124 -29.022 -32.524  1.00 27.94           N1+
+TER      10      LYS A 166
+HETATM   11  C1  3PY A 401       6.022 -29.371 -34.112  0.50 26.68           C  
+HETATM   12  O1  3PY A 401       6.939 -30.128 -34.494  0.50 31.60           O  
+HETATM   13  O2  3PY A 401       5.925 -28.162 -34.421  0.50 18.96           O1-
+HETATM   14  C2  3PY A 401       4.970 -30.014 -33.191  0.50 27.32           C  
+HETATM   15  C3  3PY A 401       4.230 -31.139 -33.940  0.50 32.51           C  
+HETATM   16  O4  3PY A 401       3.739 -30.972 -35.056  0.50 14.13           O  
+CONECT   11   12   13   14
+CONECT   11   12
+CONECT   12   11
+CONECT   12   11
+CONECT   13   11
+CONECT   14    9   11   15
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16   15
+CONECT   16   15
+ENDMDL
+END   

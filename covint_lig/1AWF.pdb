@@ -1,0 +1,130 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1AWF
+MODEL        1
+ATOM      1  N   SER H 195       8.764  26.449  53.697  1.00 16.06           N1+
+ATOM      2  CA  SER H 195       7.426  26.751  53.189  1.00 15.83           C  
+ATOM      3  C   SER H 195       6.890  28.074  53.719  1.00 15.72           C  
+ATOM      4  O   SER H 195       7.105  28.395  54.881  1.00 14.89           O  
+ATOM      5  CB  SER H 195       6.459  25.649  53.623  1.00 16.96           C  
+ATOM      6  OG  SER H 195       6.502  24.556  52.735  1.00 20.94           O  
+TER       7      SER H 195
+HETATM    8  C1  GR4 H   1       2.825  17.349  47.891  1.00 39.03           C  
+HETATM    9  C2  GR4 H   1       2.025  16.169  47.335  1.00 43.14           C  
+HETATM   10  C3  GR4 H   1       2.403  14.877  48.076  1.00 45.83           C  
+HETATM   11  C4  GR4 H   1       2.064  14.938  49.616  1.00 45.88           C  
+HETATM   12  C5  GR4 H   1       2.721  16.230  50.222  1.00 39.47           C  
+HETATM   13  C6  GR4 H   1       2.462  16.462  51.737  1.00 35.50           C  
+HETATM   14  C7  GR4 H   1       3.003  17.791  52.246  1.00 31.13           C  
+HETATM   15  C8  GR4 H   1       3.557  18.735  51.460  1.00 28.18           C  
+HETATM   16  C9  GR4 H   1       3.740  18.482  49.961  1.00 30.51           C  
+HETATM   17  C10 GR4 H   1       2.598  17.576  49.404  1.00 35.66           C  
+HETATM   18  C11 GR4 H   1       4.091  19.742  49.132  1.00 26.42           C  
+HETATM   19  C12 GR4 H   1       5.170  20.658  49.769  1.00 23.78           C  
+HETATM   20  C13 GR4 H   1       5.377  20.489  51.312  1.00 23.68           C  
+HETATM   21  C14 GR4 H   1       4.004  20.109  51.966  1.00 24.25           C  
+HETATM   22  C15 GR4 H   1       4.328  20.214  53.471  1.00 22.64           C  
+HETATM   23  C16 GR4 H   1       5.345  21.372  53.570  1.00 21.92           C  
+HETATM   24  C17 GR4 H   1       5.731  21.784  52.109  1.00 22.71           C  
+HETATM   25  C18 GR4 H   1       6.487  19.414  51.596  1.00 22.39           C  
+HETATM   26  C19 GR4 H   1       1.227  18.296  49.571  1.00 35.58           C  
+HETATM   27  C22 GR4 H   1       7.481  23.005  50.561  1.00 21.90           C  
+HETATM   28  C23 GR4 H   1       8.854  22.636  49.999  1.00 20.02           C  
+HETATM   29  C24 GR4 H   1       9.225  23.248  48.711  1.00 18.49           C  
+HETATM   30  C25 GR4 H   1      10.112  22.740  47.828  1.00 16.55           C  
+HETATM   31  C26 GR4 H   1      10.396  23.451  46.527  1.00 17.47           C  
+HETATM   32  C27 GR4 H   1      10.880  21.437  47.965  1.00 16.96           C  
+HETATM   33  C28 GR4 H   1       2.845  21.134  51.691  1.00 23.34           C  
+HETATM   34  C29 GR4 H   1       2.589  13.643  50.329  1.00 51.18           C  
+HETATM   35  C30 GR4 H   1       0.518  14.928  49.781  1.00 45.58           C  
+HETATM   36  O31 GR4 H   1       1.887  12.953  51.073  1.00 53.00           O  
+HETATM   37  O32 GR4 H   1       4.773  22.431  54.308  1.00 20.51           O  
+HETATM   38  O33 GR4 H   1       8.164  23.487  53.872  1.00 21.19           O  
+HETATM   39  O34 GR4 H   1       3.857  13.336  49.998  1.00 58.48           O  
+HETATM   40  O35 GR4 H   1       9.592  21.897  50.644  1.00 24.66           O  
+HETATM   41  O36 GR4 H   1       3.801  14.707  47.798  1.00 49.74           O  
+HETATM   42  C37 GR4 H   1       4.236  14.069  46.693  1.00 52.15           C  
+HETATM   43  C38 GR4 H   1       5.751  14.119  46.551  1.00 52.53           C  
+HETATM   44  O39 GR4 H   1       3.532  13.484  45.871  1.00 53.19           O  
+HETATM   45  O1  GR4 H   1       1.583  20.696  52.157  1.00 21.19           O  
+HETATM   46  O2  GR4 H   1       6.373  20.450  49.047  1.00 21.92           O  
+HETATM   47  O3  GR4 H   1       5.159  11.355  50.341  1.00 67.21           O  
+HETATM   48  C32 GR4 H   1       4.288  12.072  49.501  1.00 64.49           C  
+HETATM   49  C33 GR4 H   1       3.219  11.097  48.931  1.00 67.42           C  
+HETATM   50  C34 GR4 H   1       3.947  10.026  48.105  1.00 69.56           C  
+HETATM   51  C35 GR4 H   1       5.100   9.385  48.892  1.00 69.94           C  
+HETATM   52  C36 GR4 H   1       5.985  10.433  49.601  1.00 69.61           C  
+HETATM   53  O4  GR4 H   1       5.902   8.611  48.003  1.00 70.91           O  
+HETATM   54  O5  GR4 H   1       3.024   9.022  47.697  1.00 70.96           O  
+HETATM   55  O6  GR4 H   1       2.289  11.754  48.077  1.00 68.80           O  
+HETATM   56  C31 GR4 H   1       6.980   9.792  50.567  1.00 70.75           C  
+HETATM   57  O7  GR4 H   1       6.344   9.220  51.705  1.00 72.14           O  
+HETATM   58  C20 GR4 H   1       7.162  22.404  51.963  1.00 21.82           C  
+HETATM   59  C21 GR4 H   1       7.340  23.542  52.964  1.00 21.50           C  
+CONECT    8    9   17
+CONECT    9    8   10
+CONECT   10    9   11   41
+CONECT   11   10   12   34   35
+CONECT   12   11   13   17
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16   21
+CONECT   15   14
+CONECT   16   15   17   18
+CONECT   17    8   12   16   26
+CONECT   18   16   19
+CONECT   19   18   20   46
+CONECT   20   19   21   24   25
+CONECT   21   15   20   22   33
+CONECT   22   21   23
+CONECT   23   22   24   37
+CONECT   24   20   23   58
+CONECT   25   20
+CONECT   26   17
+CONECT   27   28   58
+CONECT   28   27   29   40
+CONECT   28   40
+CONECT   29   28   30
+CONECT   29   30
+CONECT   30   29   31   32
+CONECT   30   29
+CONECT   31   30
+CONECT   32   30
+CONECT   33   21   45
+CONECT   34   11   36   39
+CONECT   34   36
+CONECT   35   11
+CONECT   36   34
+CONECT   36   34
+CONECT   37   23
+CONECT   38   59
+CONECT   38   59
+CONECT   39   34   48
+CONECT   40   28
+CONECT   40   28
+CONECT   41   10   42
+CONECT   42   41   43   44
+CONECT   42   44
+CONECT   43   42
+CONECT   44   42
+CONECT   44   42
+CONECT   45   33
+CONECT   46   19
+CONECT   47   48   52
+CONECT   48   39   47   49
+CONECT   49   48   50   55
+CONECT   50   49   51   54
+CONECT   51   50   52   53
+CONECT   52   47   51   56
+CONECT   53   51
+CONECT   54   50
+CONECT   55   49
+CONECT   56   52   57
+CONECT   57   56
+CONECT   58   24   27   59
+CONECT   59    6   38   58
+CONECT   59   38
+ENDMDL
+END   

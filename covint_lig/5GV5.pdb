@@ -1,0 +1,62 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5GV5
+MODEL        1
+ATOM      1  N   SER A 105       7.811  23.117  32.191  1.00 23.43           N1+
+ATOM      2  CA  SER A 105       8.227  24.118  31.210  1.00 24.32           C  
+ATOM      3  C   SER A 105       8.564  25.463  31.913  1.00 22.62           C  
+ATOM      4  O   SER A 105       9.350  25.493  32.852  1.00 23.67           O  
+ATOM      5  CB  SER A 105       7.096  24.148  30.257  1.00 27.61           C  
+ATOM      6  OG  SER A 105       7.646  24.498  29.015  1.00 33.81           O  
+TER       7      SER A 105
+HETATM    8  PAY MSW A 401       6.892  25.482  27.973  1.00 40.95           P  
+HETATM    9  CAN MSW A 401       8.443  26.206  27.272  1.00 38.30           C  
+HETATM   10  CAM MSW A 401       7.975  27.390  26.462  1.00 38.54           C  
+HETATM   11  CAA MSW A 401       8.970  27.634  25.300  1.00 38.95           C  
+HETATM   12  OAF MSW A 401       6.085  26.399  28.767  1.00 40.09           O  
+HETATM   13  OAT MSW A 401       6.052  24.639  26.648  1.00 58.93           O  
+HETATM   14  CAX MSW A 401       4.846  24.922  25.713  1.00 85.67           C  
+HETATM   15  CAO MSW A 401       3.976  23.643  25.916  1.00 97.56           C  
+HETATM   16  NAQ MSW A 401       4.081  22.746  24.702  1.00110.56           N  
+HETATM   17  CAU MSW A 401       3.210  21.750  24.377  1.00109.83           C  
+HETATM   18  OAE MSW A 401       2.283  21.470  25.132  1.00115.76           O  
+HETATM   19  OAR MSW A 401       3.339  21.070  23.192  1.00105.08           O  
+HETATM   20  CAB MSW A 401       2.865  21.871  22.062  1.00103.67           C  
+HETATM   21  CAV MSW A 401       4.987  25.329  24.194  1.00101.92           C  
+HETATM   22  CAK MSW A 401       3.988  25.025  23.195  1.00103.56           C  
+HETATM   23  CAI MSW A 401       4.091  25.356  21.808  1.00102.41           C  
+HETATM   24  CAH MSW A 401       5.203  26.055  21.301  1.00103.19           C  
+HETATM   25  CAJ MSW A 401       6.211  26.407  22.214  1.00106.64           C  
+HETATM   26  CAL MSW A 401       6.081  26.058  23.599  1.00113.08           C  
+CONECT    8    6    9   12   13
+CONECT    8   12
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10
+CONECT   12    8
+CONECT   12    8
+CONECT   13    8   14
+CONECT   14   13   15   21
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16   18   19
+CONECT   17   18
+CONECT   18   17
+CONECT   18   17
+CONECT   19   17   20
+CONECT   20   19
+CONECT   21   14   22   26
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   21   25
+CONECT   26   25
+ENDMDL
+END   

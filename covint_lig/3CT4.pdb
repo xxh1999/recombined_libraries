@@ -1,0 +1,30 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3CT4
+MODEL        1
+ATOM      1  N   HIS A 220      25.175 -43.061 -31.730  1.00 25.68           N1+
+ATOM      2  CA  HIS A 220      24.338 -42.561 -32.829  1.00 33.63           C  
+ATOM      3  C   HIS A 220      22.882 -42.358 -32.367  1.00 43.28           C  
+ATOM      4  O   HIS A 220      22.010 -42.130 -33.204  1.00 33.92           O  
+ATOM      5  CB  HIS A 220      24.305 -43.594 -33.975  1.00 16.23           C  
+ATOM      6  CG  HIS A 220      25.662 -43.950 -34.466  1.00 16.22           C  
+ATOM      7  ND1 HIS A 220      26.289 -45.129 -34.173  1.00 19.97           N1+
+ATOM      8  CD2 HIS A 220      26.518 -43.269 -35.285  1.00 36.61           C  
+ATOM      9  CE1 HIS A 220      27.466 -45.197 -34.800  1.00 43.62           C  
+ATOM     10  NE2 HIS A 220      27.620 -44.061 -35.497  1.00 27.37           N  
+TER      11      HIS A 220
+HETATM   12  O1  2HA A 333      28.152 -45.796 -37.720  1.00 13.05           O  
+HETATM   13  O2  2HA A 333      28.841 -42.511 -36.593  1.00 13.06           O1-
+HETATM   14  O3  2HA A 333      31.194 -44.044 -36.645  1.00 22.33           O  
+HETATM   15  C1  2HA A 333      28.480 -44.429 -37.812  1.00 21.36           C  
+HETATM   16  C2  2HA A 333      28.762 -43.809 -36.425  1.00 19.24           C  
+HETATM   17  C3  2HA A 333      30.101 -44.244 -35.780  1.00 18.80           C  
+CONECT   12   15
+CONECT   13   16
+CONECT   14   17
+CONECT   15   12   16
+CONECT   16   10   13   15   17
+CONECT   17   14   16
+ENDMDL
+END   

@@ -1,0 +1,66 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2vts_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  LZC A1299      -2.588  16.370  46.944  1.00  0.00           C  
+HETATM    2  C2  LZC A1299      -2.354  16.116  45.454  1.00  0.00           C  
+HETATM    3  C3  LZC A1299      -3.663  15.903  44.693  1.00  0.00           C  
+HETATM    4  N4  LZC A1299      -1.624  17.227  44.864  1.00  0.00           N  
+HETATM    5  C5  LZC A1299      -0.863  17.089  43.713  1.00  0.00           C  
+HETATM    6  C6  LZC A1299      -0.531  15.874  43.129  1.00  0.00           C  
+HETATM    7  C7  LZC A1299       0.227  15.886  41.965  1.00  0.00           C  
+HETATM    8  N8  LZC A1299       0.597  14.734  41.314  1.00  0.00           N  
+HETATM    9  C9  LZC A1299       1.149  14.723  39.970  1.00  0.00           C  
+HETATM   10  C10 LZC A1299       1.680  13.326  39.646  1.00  0.00           C  
+HETATM   11  C11 LZC A1299       2.187  13.230  38.224  1.00  0.00           C  
+HETATM   12  C12 LZC A1299       1.057  13.543  37.269  1.00  0.00           C  
+HETATM   13  N13 LZC A1299       1.526  13.376  35.852  1.00  0.00           N1+
+HETATM   14  C14 LZC A1299       0.520  14.960  37.499  1.00  0.00           C  
+HETATM   15  C15 LZC A1299       0.084  15.171  38.951  1.00  0.00           C  
+HETATM   16  N16 LZC A1299       0.677  17.026  41.398  1.00  0.00           N  
+HETATM   17  C17 LZC A1299       0.344  18.186  41.964  1.00  0.00           C  
+HETATM   18  C18 LZC A1299       0.590  19.488  41.620  1.00  0.00           C  
+HETATM   19  C19 LZC A1299       1.347  19.904  40.498  1.00  0.00           C  
+HETATM   20  N20 LZC A1299       1.959  20.237  39.581  1.00  0.00           N  
+HETATM   21  C21 LZC A1299      -0.008  20.279  42.604  1.00  0.00           C  
+HETATM   22  N22 LZC A1299      -0.605  19.520  43.534  1.00  0.00           N  
+HETATM   23  N23 LZC A1299      -0.392  18.231  43.115  1.00  0.00           N  
+CONECT    1    2
+CONECT    2    1    3    4
+CONECT    3    2
+CONECT    4    2    5
+CONECT    5    4    6   23
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    6    8   16
+CONECT    7   16
+CONECT    8    7    9
+CONECT    9    8   10   15
+CONECT   10    9   11
+CONECT   11   10   12
+CONECT   12   11   13   14
+CONECT   13   12
+CONECT   14   12   15
+CONECT   15    9   14
+CONECT   16    7   17
+CONECT   16    7
+CONECT   17   16   18   23
+CONECT   17   18
+CONECT   18   17   19   21
+CONECT   18   17
+CONECT   19   18   20
+CONECT   19   20
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   20   19
+CONECT   21   18   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23    5   17   22
+ENDMDL
+END   

@@ -1,0 +1,20 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3TAX
+MODEL        1
+ATOM      1  N   CYS A 917      21.229  37.540   9.036  1.00 19.67           N1+
+ATOM      2  CA  CYS A 917      21.538  36.177   8.652  1.00 20.54           C  
+ATOM      3  C   CYS A 917      22.008  35.492   9.931  1.00 20.28           C  
+ATOM      4  O   CYS A 917      22.965  35.946  10.556  1.00 18.26           O  
+ATOM      5  CB  CYS A 917      22.532  36.147   7.476  1.00 22.18           C  
+ATOM      6  SG  CYS A 917      22.923  34.416   7.061  1.00 27.11           S  
+TER       7      CYS A 917
+HETATM    8  C   FOR A1250      24.686  34.486   7.353  0.55 29.76           C  
+HETATM    9  O   FOR A1250      25.418  35.151   6.626  0.55 31.24           O  
+CONECT    8    6    9
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+ENDMDL
+END   

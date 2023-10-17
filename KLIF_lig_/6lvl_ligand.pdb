@@ -1,0 +1,108 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6lvl_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  EVL B 804       2.424  14.772  42.151  1.00  0.00           C  
+HETATM    2  C2  EVL B 804       2.782  14.288  40.910  1.00  0.00           C  
+HETATM    3  C24 EVL B 804      -2.195  15.199  47.037  1.00  0.00           C  
+HETATM    4  C6  EVL B 804       2.108  16.104  42.334  1.00  0.00           C  
+HETATM    5  C25 EVL B 804      -2.034  16.517  46.670  1.00  0.00           C  
+HETATM    6  C3  EVL B 804       2.824  15.148  39.840  1.00  0.00           C  
+HETATM    7  C21 EVL B 804      -0.810  15.901  44.749  1.00  0.00           C  
+HETATM    8  C18 EVL B 804       0.122  20.867  43.270  1.00  0.00           C  
+HETATM    9  C23 EVL B 804      -1.643  14.201  46.263  1.00  0.00           C  
+HETATM   10  C20 EVL B 804      -1.344  16.893  45.529  1.00  0.00           C  
+HETATM   11  C5  EVL B 804       2.134  16.994  41.276  1.00  0.00           C  
+HETATM   12  C22 EVL B 804      -0.958  14.582  45.121  1.00  0.00           C  
+HETATM   13  C4  EVL B 804       2.504  16.474  40.040  1.00  0.00           C  
+HETATM   14  C15 EVL B 804      -0.466  18.909  44.210  1.00  0.00           C  
+HETATM   15  C13 EVL B 804       0.976  18.951  42.436  1.00  0.00           C  
+HETATM   16  C28 EVL B 804      -0.618  10.790  46.995  1.00  0.00           C  
+HETATM   17  C30 EVL B 804      -2.904  11.076  48.095  1.00  0.00           C  
+HETATM   18  C27 EVL B 804      -1.214  11.749  45.986  1.00  0.00           C  
+HETATM   19  C31 EVL B 804      -2.569  12.553  47.910  1.00  0.00           C  
+HETATM   20  C33 EVL B 804      -2.619   7.835  48.072  1.00  0.00           C  
+HETATM   21  C37 EVL B 804      -0.253   8.386  48.716  1.00  0.00           C  
+HETATM   22  C34 EVL B 804      -2.663   6.709  49.083  1.00  0.00           C  
+HETATM   23  C36 EVL B 804      -0.282   7.209  49.681  1.00  0.00           C  
+HETATM   24  C29 EVL B 804      -1.799  10.115  47.655  1.00  0.00           C  
+HETATM   25  C41 EVL B 804      -1.190  17.091  37.541  1.00  0.00           C  
+HETATM   26  C38 EVL B 804      -1.372   5.167  50.354  1.00  0.00           C  
+HETATM   27  C40 EVL B 804      -1.125  13.694  43.063  1.00  0.00           C  
+HETATM   28  C10 EVL B 804      -0.054  17.016  38.515  1.00  0.00           C  
+HETATM   29  N14 EVL B 804      -0.587  20.241  44.206  1.00  0.00           N  
+HETATM   30  N17 EVL B 804       0.911  20.285  42.364  1.00  0.00           N  
+HETATM   31  N16 EVL B 804       0.303  18.229  43.346  1.00  0.00           N  
+HETATM   32  N26 EVL B 804      -1.812  12.864  46.689  1.00  0.00           N  
+HETATM   33  N32 EVL B 804      -1.621   8.869  48.433  1.00  0.00           N  
+HETATM   34  N35 EVL B 804      -1.305   6.197  49.314  1.00  0.00           N1+
+HETATM   35  N19 EVL B 804      -1.225  18.268  45.212  1.00  0.00           N  
+HETATM   36  N7  EVL B 804       1.821  18.363  41.467  1.00  0.00           N  
+HETATM   37  N9  EVL B 804       1.203  16.941  37.739  1.00  0.00           N  
+HETATM   38  O11 EVL B 804       2.383  18.863  38.939  1.00  0.00           O1-
+HETATM   39  O12 EVL B 804       3.765  16.971  37.866  1.00  0.00           O1-
+HETATM   40  O39 EVL B 804      -0.395  13.634  44.291  1.00  0.00           O  
+HETATM   41  S8  EVL B 804       2.599  17.471  38.573  1.00  0.00           S2+
+CONECT    1    2    4
+CONECT    1    2
+CONECT    2    1    6
+CONECT    2    1
+CONECT    3    5    9
+CONECT    3    9
+CONECT    4    1   11
+CONECT    4   11
+CONECT    5    3   10
+CONECT    5   10
+CONECT    6    2   13
+CONECT    6   13
+CONECT    7   10   12
+CONECT    7   12
+CONECT    8   29   30
+CONECT    8   29
+CONECT    9    3   12   32
+CONECT    9    3
+CONECT   10    5    7   35
+CONECT   10    5
+CONECT   11    4   13   36
+CONECT   11    4
+CONECT   12    7    9   40
+CONECT   12    7
+CONECT   13    6   11   41
+CONECT   13    6
+CONECT   14   29   31   35
+CONECT   14   31
+CONECT   15   30   31   36
+CONECT   15   30
+CONECT   16   18   24
+CONECT   17   19   24
+CONECT   18   16   32
+CONECT   19   17   32
+CONECT   20   22   33
+CONECT   21   23   33
+CONECT   22   20   34
+CONECT   23   21   34
+CONECT   24   16   17   33
+CONECT   25   28
+CONECT   26   34
+CONECT   27   40
+CONECT   28   25   37
+CONECT   29    8   14
+CONECT   29    8
+CONECT   30    8   15
+CONECT   30   15
+CONECT   31   14   15
+CONECT   31   14
+CONECT   32    9   18   19
+CONECT   33   20   21   24
+CONECT   34   22   23   26
+CONECT   35   10   14
+CONECT   36   11   15
+CONECT   37   28   41
+CONECT   38   41
+CONECT   39   41
+CONECT   40   12   27
+CONECT   41   13   37   38   39
+ENDMDL
+END   

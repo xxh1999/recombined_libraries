@@ -1,0 +1,112 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3Q3Y
+MODEL        1
+ATOM      1  N   CYS A 147     -15.921  20.141 -26.366  1.00  7.13           N1+
+ATOM      2  CA  CYS A 147     -16.561  19.767 -27.629  1.00  6.92           C  
+ATOM      3  C   CYS A 147     -15.550  19.148 -28.593  1.00  5.11           C  
+ATOM      4  O   CYS A 147     -14.402  19.586 -28.680  1.00  6.22           O  
+ATOM      5  CB  CYS A 147     -17.185  20.982 -28.320  1.00  7.32           C  
+ATOM      6  SG  CYS A 147     -18.721  21.429 -27.484  1.00  7.31           S  
+TER       7      CYS A 147
+HETATM    8  C01 XNV A 190     -18.534  28.708 -26.628  0.69 53.57           C  
+HETATM    9  C02 XNV A 190     -17.530  27.584 -26.365  0.69 41.59           C  
+HETATM   10  O03 XNV A 190     -17.940  26.415 -27.055  0.69 23.74           O  
+HETATM   11  C04 XNV A 190     -17.232  25.288 -26.917  0.69 19.10           C  
+HETATM   12  C05 XNV A 190     -17.865  24.094 -27.626  1.00 12.55           C  
+HETATM   13  C06 XNV A 190     -18.289  22.982 -26.631  1.00  7.60           C  
+HETATM   14  C07 XNV A 190     -19.480  23.439 -25.756  1.00  8.11           C  
+HETATM   15  N08 XNV A 190     -20.683  23.520 -26.585  1.00  8.40           N  
+HETATM   16  C09 XNV A 190     -21.439  24.601 -26.806  1.00  9.74           C  
+HETATM   17  C10 XNV A 190     -22.662  24.374 -27.707  1.00  8.05           C  
+HETATM   18  N11 XNV A 190     -23.861  25.079 -27.175  1.00  8.56           N  
+HETATM   19  C12 XNV A 190     -24.609  24.447 -26.220  1.00  8.33           C  
+HETATM   20  C13 XNV A 190     -25.895  25.066 -25.872  1.00  8.16           C  
+HETATM   21  N14 XNV A 190     -26.718  24.314 -25.031  1.00  7.98           N  
+HETATM   22  C15 XNV A 190     -28.039  24.107 -25.165  1.00  7.67           C  
+HETATM   23  C16 XNV A 190     -28.588  23.101 -24.199  1.00  8.77           C  
+HETATM   24  N17 XNV A 190     -27.908  22.453 -23.271  1.00 11.26           N  
+HETATM   25  O18 XNV A 190     -28.831  21.652 -22.596  1.00 12.79           O  
+HETATM   26  C19 XNV A 190     -30.047  21.836 -23.165  1.00 12.84           C  
+HETATM   27  C20 XNV A 190     -31.174  21.072 -22.562  1.00 16.26           C  
+HETATM   28  C21 XNV A 190     -29.961  22.732 -24.196  1.00 10.81           C  
+HETATM   29  O22 XNV A 190     -28.754  24.633 -26.019  1.00  9.75           O  
+HETATM   30  C23 XNV A 190     -26.228  26.284 -26.350  1.00  8.32           C  
+HETATM   31  C24 XNV A 190     -25.317  27.001 -27.208  1.00  9.11           C  
+HETATM   32  C25 XNV A 190     -24.187  26.387 -27.595  1.00  8.82           C  
+HETATM   33  O26 XNV A 190     -24.237  23.397 -25.698  1.00  8.10           O  
+HETATM   34  C27 XNV A 190     -22.255  24.777 -29.143  1.00  8.86           C  
+HETATM   35  C28 XNV A 190     -23.261  24.478 -30.175  1.00  9.21           C  
+HETATM   36  C29 XNV A 190     -24.071  24.252 -31.058  1.00 10.73           C  
+HETATM   37  O30 XNV A 190     -21.190  25.712 -26.341  1.00  9.43           O  
+HETATM   38  C31 XNV A 190     -19.731  22.527 -24.540  1.00  7.80           C  
+HETATM   39  C32 XNV A 190     -20.884  23.017 -23.636  1.00  6.74           C  
+HETATM   40  C33 XNV A 190     -20.660  24.396 -22.991  1.00  9.87           C  
+HETATM   41  C34 XNV A 190     -21.222  24.285 -21.569  1.00  8.87           C  
+HETATM   42  N35 XNV A 190     -21.315  22.861 -21.335  1.00  8.14           N  
+HETATM   43  C36 XNV A 190     -21.121  22.127 -22.427  1.00  7.89           C  
+HETATM   44  O37 XNV A 190     -21.137  20.901 -22.473  1.00  8.51           O  
+HETATM   45  O38 XNV A 190     -16.196  25.168 -26.266  0.69 19.72           O  
+CONECT    8    9
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10   12   45
+CONECT   11   45
+CONECT   12   11   13
+CONECT   13    6   12   14
+CONECT   14   13   15   38
+CONECT   15   14   16
+CONECT   16   15   17   37
+CONECT   16   37
+CONECT   17   16   18   34
+CONECT   18   17   19   32
+CONECT   19   18   20   33
+CONECT   19   33
+CONECT   20   19   21   30
+CONECT   20   30
+CONECT   21   20   22
+CONECT   22   21   23   29
+CONECT   22   29
+CONECT   23   22   24   28
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   24   26
+CONECT   26   25   27   28
+CONECT   26   28
+CONECT   27   26
+CONECT   28   23   26
+CONECT   28   26
+CONECT   29   22
+CONECT   29   22
+CONECT   30   20   31
+CONECT   30   20
+CONECT   31   30   32
+CONECT   31   32
+CONECT   32   18   31
+CONECT   32   31
+CONECT   33   19
+CONECT   33   19
+CONECT   34   17   35
+CONECT   35   34   36
+CONECT   35   36
+CONECT   35   36
+CONECT   36   35
+CONECT   36   35
+CONECT   36   35
+CONECT   37   16
+CONECT   37   16
+CONECT   38   14   39
+CONECT   39   38   40   43
+CONECT   40   39   41
+CONECT   41   40   42
+CONECT   42   41   43
+CONECT   43   39   42   44
+CONECT   43   44
+CONECT   44   43
+CONECT   44   43
+CONECT   45   11
+CONECT   45   11
+ENDMDL
+END   

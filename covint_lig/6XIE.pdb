@@ -1,0 +1,57 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6XIE
+MODEL        1
+ATOM      1  N   GLN I   7       8.165  -4.129  31.817  1.00 31.38           N  
+ATOM      2  CA  GLN I   7       7.899  -2.791  31.295  1.00 31.91           C  
+ATOM      3  C   GLN I   7       9.123  -1.852  31.366  1.00 32.56           C  
+ATOM      4  O   GLN I   7       9.094  -0.773  30.780  1.00 33.55           O  
+ATOM      5  CB  GLN I   7       6.677  -2.174  32.020  1.00 32.77           C  
+ATOM      6  CG  GLN I   7       5.485  -3.127  32.099  1.00 34.28           C  
+ATOM      7  CD  GLN I   7       4.995  -3.515  30.718  1.00 34.99           C  
+ATOM      8  OE1 GLN I   7       4.817  -2.663  29.840  1.00 37.49           O  
+ATOM      9  NE2 GLN I   7       4.783  -4.807  30.490  1.00 33.00           N  
+TER      10      GLN I   7
+HETATM   11  N   FTR I   6       8.941  -7.477  30.777  1.00 29.91           N  
+HETATM   12  CA  FTR I   6       8.965  -6.402  31.762  1.00 30.46           C  
+HETATM   13  CB  FTR I   6      10.292  -6.402  32.535  1.00 29.93           C  
+HETATM   14  CG  FTR I   6      10.683  -7.740  33.083  1.00 30.46           C  
+HETATM   15  CD2 FTR I   6      11.403  -8.771  32.386  1.00 30.42           C  
+HETATM   16  CE2 FTR I   6      11.534  -9.859  33.276  1.00 30.39           C  
+HETATM   17  CE3 FTR I   6      11.941  -8.871  31.094  1.00 30.20           C  
+HETATM   18  CD1 FTR I   6      10.416  -8.237  34.327  1.00 30.49           C  
+HETATM   19  NE1 FTR I   6      10.926  -9.502  34.454  1.00 30.56           N  
+HETATM   20  CZ2 FTR I   6      12.189 -11.036  32.920  1.00 30.42           C  
+HETATM   21  CZ3 FTR I   6      12.585 -10.038  30.784  1.00 30.19           C  
+HETATM   22  F   FTR I   6      13.129 -10.164  29.537  1.00 30.25           F  
+HETATM   23  CH2 FTR I   6      12.706 -11.123  31.644  1.00 30.26           C  
+HETATM   24  C   FTR I   6       8.739  -5.075  31.081  1.00 31.05           C  
+HETATM   25  O   FTR I   6       9.102  -4.893  29.912  1.00 30.97           O  
+CONECT   11   12
+CONECT   12   11   13   24
+CONECT   13   12   14
+CONECT   14   13   15   18
+CONECT   14   18
+CONECT   15   14   16   17
+CONECT   15   16
+CONECT   16   15   19   20
+CONECT   16   15
+CONECT   17   15   21
+CONECT   17   21
+CONECT   18   14   19
+CONECT   18   14
+CONECT   19   16   18
+CONECT   20   16   23
+CONECT   20   23
+CONECT   21   17   22   23
+CONECT   21   17
+CONECT   22   21
+CONECT   23   20   21
+CONECT   23   20
+CONECT   24    1   12   25
+CONECT   24   25
+CONECT   25   24
+CONECT   25   24
+ENDMDL
+END   

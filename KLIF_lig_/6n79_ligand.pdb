@@ -1,0 +1,84 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6n79_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  KES A1201      -0.832  19.330  44.205  1.00  0.00           C  
+HETATM    2  C14 KES A1201       1.815  16.649  37.831  1.00  0.00           C  
+HETATM    3  C5  KES A1201       0.409  21.635  41.909  1.00  0.00           C  
+HETATM    4  C6  KES A1201      -0.358  16.964  43.221  1.00  0.00           C  
+HETATM    5  C11 KES A1201       2.792  14.506  39.308  1.00  0.00           C  
+HETATM    6  C7  KES A1201       0.138  15.005  41.814  1.00  0.00           C  
+HETATM    7  C8  KES A1201      -0.549  13.961  42.496  1.00  0.00           C  
+HETATM    8  C9  KES A1201       0.762  14.387  40.703  1.00  0.00           C  
+HETATM    9  C10 KES A1201       1.530  15.021  39.611  1.00  0.00           C  
+HETATM   10  C12 KES A1201       3.527  15.055  38.279  1.00  0.00           C  
+HETATM   11  C13 KES A1201       3.063  16.125  37.546  1.00  0.00           C  
+HETATM   12  N1  KES A1201      -0.673  20.603  43.868  1.00  0.00           N  
+HETATM   13  N2  KES A1201       0.062  20.565  42.706  1.00  0.00           N  
+HETATM   14  C3  KES A1201      -0.231  18.447  43.295  1.00  0.00           C  
+HETATM   15  N3  KES A1201       0.260  16.376  42.145  1.00  0.00           N  
+HETATM   16 CL   KES A1201       5.061  14.351  37.870  1.00  0.00          Cl  
+HETATM   17  C15 KES A1201       1.050  16.099  38.848  1.00  0.00           C  
+HETATM   18  O1  KES A1201      -0.190  16.589  39.186  1.00  0.00           O  
+HETATM   19  C16 KES A1201      -1.167  16.536  38.266  1.00  0.00           C  
+HETATM   20  F1  KES A1201      -2.215  15.919  38.773  1.00  0.00           F  
+HETATM   21  F   KES A1201      -1.333  17.677  37.587  1.00  0.00           F  
+HETATM   22  N5  KES A1201       0.503  13.075  40.739  1.00  0.00           N  
+HETATM   23  N4  KES A1201      -0.284  12.846  41.813  1.00  0.00           N  
+HETATM   24  O   KES A1201      -1.022  16.341  44.051  1.00  0.00           O  
+HETATM   25  C   KES A1201       1.086  21.376  40.769  1.00  0.00           C  
+HETATM   26  C2  KES A1201       0.386  19.280  42.352  1.00  0.00           C  
+HETATM   27  N   KES A1201       1.108  18.989  41.233  1.00  0.00           N  
+HETATM   28  C1  KES A1201       1.435  20.032  40.477  1.00  0.00           C  
+CONECT    1   12   14
+CONECT    1   12
+CONECT    2   11   17
+CONECT    2   11
+CONECT    3   13   25
+CONECT    3   25
+CONECT    4   14   15   24
+CONECT    4   24
+CONECT    5    9   10
+CONECT    5   10
+CONECT    6    7    8   15
+CONECT    6    8
+CONECT    7    6   23
+CONECT    7   23
+CONECT    8    6    9   22
+CONECT    8    6
+CONECT    9    5    8   17
+CONECT    9   17
+CONECT   10    5   11   16
+CONECT   10    5
+CONECT   11    2   10
+CONECT   11    2
+CONECT   12    1   13
+CONECT   12    1
+CONECT   13    3   12   26
+CONECT   14    1    4   26
+CONECT   14   26
+CONECT   15    4    6
+CONECT   16   10
+CONECT   17    2    9   18
+CONECT   17    9
+CONECT   18   17   19
+CONECT   19   18   20   21
+CONECT   20   19
+CONECT   21   19
+CONECT   22    8   23
+CONECT   23    7   22
+CONECT   23    7
+CONECT   24    4
+CONECT   24    4
+CONECT   25    3   28
+CONECT   25    3
+CONECT   26   13   14   27
+CONECT   26   14
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   25   27
+CONECT   28   27
+ENDMDL
+END   

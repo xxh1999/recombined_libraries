@@ -1,0 +1,110 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5jzn_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  GUI B 701       0.700  20.172  42.319  1.00  0.00           C  
+HETATM    2  C2  GUI B 701       0.717  18.701  42.450  1.00  0.00           C  
+HETATM    3  N3  GUI B 701      -0.094  18.149  43.363  1.00  0.00           N  
+HETATM    4  C4  GUI B 701      -0.900  18.886  44.148  1.00  0.00           C  
+HETATM    5  N5  GUI B 701      -0.922  20.244  44.039  1.00  0.00           N  
+HETATM    6  C6  GUI B 701      -0.147  20.900  43.155  1.00  0.00           C  
+HETATM    7  N7  GUI B 701      -1.688  18.254  45.059  1.00  0.00           N  
+HETATM    8  C8  GUI B 701      -1.784  16.903  45.258  1.00  0.00           C  
+HETATM    9  C9  GUI B 701      -1.566  15.911  44.298  1.00  0.00           C  
+HETATM   10  C10 GUI B 701      -1.690  14.559  44.604  1.00  0.00           C  
+HETATM   11  C11 GUI B 701      -2.046  14.141  45.882  1.00  0.00           C  
+HETATM   12  C12 GUI B 701      -2.299  15.097  46.871  1.00  0.00           C  
+HETATM   13  C13 GUI B 701      -2.171  16.459  46.608  1.00  0.00           C  
+HETATM   14  O14 GUI B 701      -2.402  17.435  47.543  1.00  0.00           O  
+HETATM   15  C15 GUI B 701      -1.495  17.635  48.622  1.00  0.00           C  
+HETATM   16  N16 GUI B 701      -2.198  12.750  46.141  1.00  0.00           N  
+HETATM   17  C17 GUI B 701      -1.170  11.915  45.493  1.00  0.00           C  
+HETATM   18  C18 GUI B 701      -1.587  10.447  45.607  1.00  0.00           C  
+HETATM   19  C19 GUI B 701      -1.876  10.010  47.049  1.00  0.00           C  
+HETATM   20  C20 GUI B 701      -2.749  11.041  47.761  1.00  0.00           C  
+HETATM   21  C21 GUI B 701      -2.195  12.445  47.578  1.00  0.00           C  
+HETATM   22  N22 GUI B 701      -2.576   8.709  47.093  1.00  0.00           N1+
+HETATM   23  C23 GUI B 701      -2.737   8.276  48.493  1.00  0.00           C  
+HETATM   24  C24 GUI B 701      -3.589   7.011  48.522  1.00  0.00           C  
+HETATM   25  N25 GUI B 701      -2.965   5.939  47.723  1.00  0.00           N  
+HETATM   26  C26 GUI B 701      -2.672   6.384  46.345  1.00  0.00           C  
+HETATM   27  C27 GUI B 701      -1.843   7.669  46.348  1.00  0.00           C  
+HETATM   28  C28 GUI B 701      -3.886   4.793  47.672  1.00  0.00           C  
+HETATM   29  N29 GUI B 701       1.528  17.984  41.638  1.00  0.00           N  
+HETATM   30  C30 GUI B 701       1.697  16.639  41.655  1.00  0.00           C  
+HETATM   31  C31 GUI B 701       2.132  15.967  40.402  1.00  0.00           C  
+HETATM   32  C32 GUI B 701       2.328  14.591  40.426  1.00  0.00           C  
+HETATM   33  C33 GUI B 701       2.086  13.863  41.585  1.00  0.00           C  
+HETATM   34  C34 GUI B 701       1.663  14.486  42.749  1.00  0.00           C  
+HETATM   35  C35 GUI B 701       1.474  15.857  42.786  1.00  0.00           C  
+HETATM   36  S36 GUI B 701       2.432  16.806  39.072  1.00  0.00           S2+
+HETATM   37  C37 GUI B 701       1.157  16.928  37.999  1.00  0.00           C  
+HETATM   38  C38 GUI B 701      -0.086  17.477  38.692  1.00  0.00           C  
+HETATM   39  C39 GUI B 701       0.915  15.581  37.322  1.00  0.00           C  
+HETATM   40  O40 GUI B 701       3.541  16.183  38.411  1.00  0.00           O1-
+HETATM   41  O41 GUI B 701       2.783  18.146  39.441  1.00  0.00           O1-
+HETATM   42 CL   GUI B 701       1.786  20.901  41.088  1.00  0.00          Cl  
+CONECT    1    2    6   42
+CONECT    1    6
+CONECT    2    1    3   29
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3    5    7
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    1    5
+CONECT    6    1
+CONECT    7    4    8
+CONECT    8    7    9   13
+CONECT    8   13
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11   10   12   16
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13    8   12   14
+CONECT   13    8
+CONECT   14   13   15
+CONECT   15   14
+CONECT   16   11   17   21
+CONECT   17   16   18
+CONECT   18   17   19
+CONECT   19   18   20   22
+CONECT   20   19   21
+CONECT   21   16   20
+CONECT   22   19   23   27
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   24   26   28
+CONECT   26   25   27
+CONECT   27   22   26
+CONECT   28   25
+CONECT   29    2   30
+CONECT   30   29   31   35
+CONECT   30   35
+CONECT   31   30   32   36
+CONECT   31   32
+CONECT   32   31   33
+CONECT   32   31
+CONECT   33   32   34
+CONECT   33   34
+CONECT   34   33   35
+CONECT   34   33
+CONECT   35   30   34
+CONECT   35   30
+CONECT   36   31   37   40   41
+CONECT   37   36   38   39
+CONECT   38   37
+CONECT   39   37
+CONECT   40   36
+CONECT   41   36
+CONECT   42    1
+ENDMDL
+END   

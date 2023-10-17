@@ -1,0 +1,59 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7M8R
+MODEL        1
+ATOM      1  N   PHE D  75      21.577  26.915  38.977  1.00 41.60           N1+
+ATOM      2  CA  PHE D  75      21.510  25.617  39.641  1.00 41.23           C  
+ATOM      3  C   PHE D  75      22.556  25.459  40.736  1.00 41.54           C  
+ATOM      4  O   PHE D  75      23.528  26.213  40.808  1.00 41.71           O  
+ATOM      5  CB  PHE D  75      21.654  24.480  38.619  1.00 37.50           C  
+ATOM      6  CG  PHE D  75      22.964  24.488  37.856  1.00 38.23           C  
+ATOM      7  CD1 PHE D  75      23.103  25.232  36.689  1.00 39.09           C  
+ATOM      8  CD2 PHE D  75      24.041  23.721  38.283  1.00 37.25           C  
+ATOM      9  CE1 PHE D  75      24.300  25.228  35.972  1.00 37.34           C  
+ATOM     10  CE2 PHE D  75      25.242  23.708  37.568  1.00 36.17           C  
+ATOM     11  CZ  PHE D  75      25.369  24.464  36.412  1.00 34.78           C  
+TER      12      PHE D  75
+HETATM   13  N   FTR D  76      22.326  24.473  41.596  1.00 42.56           N  
+HETATM   14  CA  FTR D  76      23.304  24.065  42.587  1.00 44.13           C  
+HETATM   15  CB  FTR D  76      22.671  23.614  43.904  1.00 43.49           C  
+HETATM   16  CG  FTR D  76      21.857  24.647  44.548  1.00 43.53           C  
+HETATM   17  CD2 FTR D  76      22.391  25.797  45.257  1.00 43.85           C  
+HETATM   18  CE2 FTR D  76      21.248  26.558  45.724  1.00 44.15           C  
+HETATM   19  CE3 FTR D  76      23.679  26.238  45.531  1.00 42.34           C  
+HETATM   20  CD1 FTR D  76      20.470  24.744  44.603  1.00 44.17           C  
+HETATM   21  NE1 FTR D  76      20.092  25.896  45.312  1.00 43.70           N  
+HETATM   22  CZ2 FTR D  76      21.418  27.741  46.453  1.00 45.24           C  
+HETATM   23  CZ3 FTR D  76      23.826  27.424  46.262  1.00 48.09           C  
+HETATM   24  F   FTR D  76      25.073  27.884  46.550  1.00 52.27           F  
+HETATM   25  CH2 FTR D  76      22.710  28.166  46.719  1.00 45.88           C  
+HETATM   26  C   FTR D  76      24.190  22.895  42.056  1.00 44.26           C  
+HETATM   27  O   FTR D  76      23.649  21.863  41.560  1.00 43.11           O  
+CONECT   13    3   14
+CONECT   14   13   15   26
+CONECT   15   14   16
+CONECT   16   15   17   20
+CONECT   16   20
+CONECT   17   16   18   19
+CONECT   17   18
+CONECT   18   17   21   22
+CONECT   18   17
+CONECT   19   17   23
+CONECT   19   23
+CONECT   20   16   21
+CONECT   20   16
+CONECT   21   18   20
+CONECT   22   18   25
+CONECT   22   25
+CONECT   23   19   24   25
+CONECT   23   19
+CONECT   24   23
+CONECT   25   22   23
+CONECT   25   22
+CONECT   26   14   27
+CONECT   26   27
+CONECT   27   26
+CONECT   27   26
+ENDMDL
+END   

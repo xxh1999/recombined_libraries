@@ -1,0 +1,86 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2vww_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  Q7X A1888      -2.624  15.776  48.932  1.00  0.00           C  
+HETATM    2  O2  Q7X A1888      -2.149  14.863  47.946  1.00  0.00           O  
+HETATM    3  C3  Q7X A1888      -1.610  15.434  46.831  1.00  0.00           C  
+HETATM    4  C4  Q7X A1888      -1.545  16.797  46.601  1.00  0.00           C  
+HETATM    5  C5  Q7X A1888      -0.975  17.267  45.406  1.00  0.00           C  
+HETATM    6  N6  Q7X A1888      -0.914  18.637  45.190  1.00  0.00           N  
+HETATM    7  C7  Q7X A1888      -0.234  19.312  44.197  1.00  0.00           C  
+HETATM    8  N8  Q7X A1888      -0.464  20.625  44.117  1.00  0.00           N  
+HETATM    9  C9  Q7X A1888       0.144  21.398  43.234  1.00  0.00           C  
+HETATM   10  C10 Q7X A1888       1.013  20.804  42.361  1.00  0.00           C  
+HETATM   11  C11 Q7X A1888       1.256  19.411  42.437  1.00  0.00           C  
+HETATM   12  N12 Q7X A1888       2.142  18.777  41.556  1.00  0.00           N  
+HETATM   13  C13 Q7X A1888       2.930  19.496  40.628  1.00  0.00           C  
+HETATM   14  C14 Q7X A1888       3.947  20.363  41.062  1.00  0.00           C  
+HETATM   15  O15 Q7X A1888       4.373  20.655  42.327  1.00  0.00           O  
+HETATM   16  C16 Q7X A1888       5.148  21.862  42.184  1.00  0.00           C  
+HETATM   17  O17 Q7X A1888       5.640  21.839  40.825  1.00  0.00           O  
+HETATM   18  C18 Q7X A1888       4.711  21.087  40.141  1.00  0.00           C  
+HETATM   19  C19 Q7X A1888       4.471  20.961  38.771  1.00  0.00           C  
+HETATM   20  C20 Q7X A1888       3.436  20.114  38.333  1.00  0.00           C  
+HETATM   21  C21 Q7X A1888       2.695  19.376  39.253  1.00  0.00           C  
+HETATM   22 CL1  Q7X A1888       1.431  18.323  38.717  1.00  0.00          Cl  
+HETATM   23  N23 Q7X A1888       0.621  18.701  43.379  1.00  0.00           N  
+HETATM   24  C24 Q7X A1888      -0.512  16.408  44.431  1.00  0.00           C  
+HETATM   25  C25 Q7X A1888      -0.585  15.050  44.642  1.00  0.00           C  
+HETATM   26  O26 Q7X A1888      -0.105  14.211  43.666  1.00  0.00           O  
+HETATM   27  C27 Q7X A1888      -0.921  14.255  42.504  1.00  0.00           C  
+HETATM   28  C28 Q7X A1888      -1.128  14.565  45.846  1.00  0.00           C  
+HETATM   29  O29 Q7X A1888      -1.225  13.229  46.099  1.00  0.00           O  
+HETATM   30  C30 Q7X A1888       0.098  12.696  46.105  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4   28
+CONECT    3   28
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4    6   24
+CONECT    5    4
+CONECT    6    5    7
+CONECT    7    6    8   23
+CONECT    7   23
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   12   23
+CONECT   11   10
+CONECT   12   11   13
+CONECT   13   12   14   21
+CONECT   13   21
+CONECT   14   13   15   18
+CONECT   14   18
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   18   14   17   19
+CONECT   18   14
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   13   20   22
+CONECT   21   13
+CONECT   22   21
+CONECT   23    7   11
+CONECT   23    7
+CONECT   24    5   25
+CONECT   24   25
+CONECT   25   24   26   28
+CONECT   25   24
+CONECT   26   25   27
+CONECT   27   26
+CONECT   28    3   25   29
+CONECT   28    3
+CONECT   29   28   30
+CONECT   30   29
+ENDMDL
+END   

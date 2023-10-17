@@ -1,0 +1,52 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1KE0
+MODEL        1
+ATOM      1  N   SER A  64      27.314   1.771  16.111  1.00 14.82           N1+
+ATOM      2  CA  SER A  64      28.665   2.239  16.401  1.00 15.63           C  
+ATOM      3  C   SER A  64      29.569   1.308  17.231  1.00 15.34           C  
+ATOM      4  O   SER A  64      30.762   1.580  17.261  1.00 12.96           O  
+ATOM      5  CB  SER A  64      28.617   3.611  17.071  1.00 18.10           C  
+ATOM      6  OG  SER A  64      28.115   4.578  16.163  1.00 22.33           O  
+TER       7      SER A  64
+HETATM    8  B   CVB A 364      26.858   5.294  16.495  1.00 26.09           B1-
+HETATM    9  OB1 CVB A 364      25.832   4.330  16.915  1.00 24.80           O  
+HETATM   10  OB2 CVB A 364      27.095   6.200  17.635  1.00 25.04           O  
+HETATM   11  CP1 CVB A 364      26.297   6.086  15.200  1.00 29.48           C  
+HETATM   12  CP2 CVB A 364      25.866   5.352  14.077  1.00 31.33           C  
+HETATM   13  CP3 CVB A 364      25.314   6.004  12.960  1.00 32.63           C  
+HETATM   14  CP4 CVB A 364      25.177   7.411  12.953  1.00 34.62           C  
+HETATM   15  CX1 CVB A 364      24.625   8.141  11.805  1.00 38.89           C  
+HETATM   16  CX2 CVB A 364      24.383   7.635  10.584  1.00 42.93           C  
+HETATM   17  CX3 CVB A 364      23.789   8.456   9.423  1.00 45.61           C  
+HETATM   18  OX1 CVB A 364      24.544   8.636   8.443  1.00 45.91           O1-
+HETATM   19  OX2 CVB A 364      22.613   8.849   9.579  1.00 48.95           O  
+HETATM   20  CP5 CVB A 364      25.629   8.147  14.066  1.00 32.83           C  
+HETATM   21  CP6 CVB A 364      26.185   7.491  15.180  1.00 30.62           C  
+CONECT    8    6    9   10   11
+CONECT    9    8
+CONECT   10    8
+CONECT   11    8   12   21
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15   20
+CONECT   14   13
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   16   18   19
+CONECT   17   19
+CONECT   18   17
+CONECT   19   17
+CONECT   19   17
+CONECT   20   14   21
+CONECT   20   21
+CONECT   21   11   20
+CONECT   21   20
+ENDMDL
+END   

@@ -1,0 +1,45 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3ROP
+MODEL        1
+ATOM      1  N   GLU A 226      -5.618  13.383  47.826  1.00 17.57           N1+
+ATOM      2  CA  GLU A 226      -7.018  13.674  47.501  1.00 17.51           C  
+ATOM      3  C   GLU A 226      -7.295  15.148  47.157  1.00 17.55           C  
+ATOM      4  O   GLU A 226      -8.044  15.389  46.215  1.00 17.51           O  
+ATOM      5  CB  GLU A 226      -7.923  13.207  48.654  1.00 17.20           C  
+ATOM      6  CG  GLU A 226      -7.883  11.674  48.833  1.00 18.78           C  
+ATOM      7  CD  GLU A 226      -8.306  11.168  50.210  1.00 17.97           C  
+ATOM      8  OE1 GLU A 226      -8.721  11.932  51.078  1.00 19.77           O  
+ATOM      9  OE2 GLU A 226      -8.139   9.824  50.294  1.00 20.69           O  
+TER      10      GLU A 226
+HETATM   11  P   50A A 301      -5.694  10.593  55.954  1.00 19.00           P  
+HETATM   12  C1  50A A 301      -8.259   9.150  51.526  1.00 16.63           C  
+HETATM   13  C2  50A A 301      -9.699   9.003  52.029  1.00 16.99           C  
+HETATM   14  F2  50A A 301     -10.595   9.264  51.073  1.00 20.65           F  
+HETATM   15  C3  50A A 301      -9.775   9.898  53.255  1.00 18.38           C  
+HETATM   16  O3  50A A 301     -10.501  11.068  52.952  1.00 14.89           O  
+HETATM   17  C4  50A A 301      -8.304  10.207  53.619  1.00 17.67           C  
+HETATM   18  O4  50A A 301      -7.500   9.689  52.563  1.00 16.38           O  
+HETATM   19  C5  50A A 301      -7.874   9.559  54.952  1.00 16.74           C  
+HETATM   20  O5  50A A 301      -6.463   9.448  55.073  1.00 18.08           O  
+HETATM   21  OP1 50A A 301      -6.019  11.931  55.327  1.00 16.83           O  
+HETATM   22  OP2 50A A 301      -4.220  10.252  55.841  1.00 18.75           O1-
+HETATM   23  OP3 50A A 301      -6.207  10.467  57.376  1.00 17.74           O1-
+CONECT   11   20   21   22   23
+CONECT   11   21
+CONECT   12    9   13   18
+CONECT   13   12   14   15
+CONECT   14   13
+CONECT   15   13   16   17
+CONECT   16   15
+CONECT   17   15   18   19
+CONECT   18   12   17
+CONECT   19   17   20
+CONECT   20   11   19
+CONECT   21   11
+CONECT   21   11
+CONECT   22   11
+CONECT   23   11
+ENDMDL
+END   

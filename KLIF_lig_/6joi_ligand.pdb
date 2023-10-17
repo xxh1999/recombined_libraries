@@ -1,0 +1,92 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6joi_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  Q6T A1001       0.201  20.002  43.320  1.00  0.00           C  
+HETATM    2  C2  Q6T A1001       1.134  18.675  41.654  1.00  0.00           C  
+HETATM    3  C3  Q6T A1001       1.831  19.734  41.137  1.00  0.00           C  
+HETATM    4  C4  Q6T A1001       2.527  19.568  39.967  1.00  0.00           C  
+HETATM    5  C5  Q6T A1001      -1.667  15.890  47.557  1.00  0.00           C  
+HETATM    6  C6  Q6T A1001       2.499  18.341  39.352  1.00  0.00           C  
+HETATM    7  C7  Q6T A1001       1.780  17.302  39.900  1.00  0.00           C  
+HETATM    8  C9  Q6T A1001      -0.077  17.898  43.494  1.00  0.00           C  
+HETATM    9  C10 Q6T A1001      -0.677  18.469  44.520  1.00  0.00           C  
+HETATM   10  C11 Q6T A1001       1.771  16.069  39.258  1.00  0.00           C  
+HETATM   11  C12 Q6T A1001      -1.315  17.755  45.432  1.00  0.00           C  
+HETATM   12  C13 Q6T A1001      -1.351  16.381  45.323  1.00  0.00           C  
+HETATM   13  C14 Q6T A1001       2.475  15.926  38.076  1.00  0.00           C  
+HETATM   14  C15 Q6T A1001       3.194  16.969  37.536  1.00  0.00           C  
+HETATM   15  C30 Q6T A1001      -0.216  15.230  40.374  1.00  0.00           C  
+HETATM   16  C40 Q6T A1001      -0.497  14.231  41.436  1.00  0.00           C  
+HETATM   17  C50 Q6T A1001      -0.297  12.877  40.864  1.00  0.00           C  
+HETATM   18  N80 Q6T A1001      -1.047  12.727  39.620  1.00  0.00           N1+
+HETATM   19  C60 Q6T A1001       1.159  12.716  40.611  1.00  0.00           C  
+HETATM   20  C70 Q6T A1001       1.581  13.649  39.526  1.00  0.00           C  
+HETATM   21  N4  Q6T A1001       1.081  15.018  39.724  1.00  0.00           N  
+HETATM   22  N3  Q6T A1001       1.122  17.502  41.044  1.00  0.00           N  
+HETATM   23  C16 Q6T A1001       3.201  18.182  38.183  1.00  0.00           C  
+HETATM   24  N1  Q6T A1001       0.462  18.843  42.764  1.00  0.00           N  
+HETATM   25  N2  Q6T A1001      -0.506  19.768  44.406  1.00  0.00           N  
+HETATM   26  C19 Q6T A1001      -0.080  16.590  43.335  1.00  0.00           C  
+HETATM   27  C18 Q6T A1001      -0.724  15.790  44.255  1.00  0.00           C  
+HETATM   28  O1  Q6T A1001      -1.990  15.596  46.216  1.00  0.00           O  
+HETATM   29  C23 Q6T A1001      -2.325  14.852  48.456  1.00  0.00           C  
+HETATM   30  C27 Q6T A1001      -1.732  14.831  49.876  1.00  0.00           C  
+HETATM   31  C24 Q6T A1001      -3.816  14.968  48.463  1.00  0.00           C  
+HETATM   32  O2  Q6T A1001      -3.773  13.541  48.687  1.00  0.00           O  
+HETATM   33  C26 Q6T A1001      -2.591  13.527  47.848  1.00  0.00           C  
+CONECT    1   24   25
+CONECT    1   25
+CONECT    2    3   22   24
+CONECT    2   22
+CONECT    3    2    4
+CONECT    3    4
+CONECT    4    3    6
+CONECT    4    3
+CONECT    5   28   29
+CONECT    6    4    7   23
+CONECT    6   23
+CONECT    7    6   10   22
+CONECT    7   10
+CONECT    8    9   24   26
+CONECT    8   26
+CONECT    9    8   11   25
+CONECT    9   11
+CONECT   10    7   13   21
+CONECT   10    7
+CONECT   11    9   12
+CONECT   11    9
+CONECT   12   11   27   28
+CONECT   12   27
+CONECT   13   10   14
+CONECT   13   14
+CONECT   14   13   23
+CONECT   14   13
+CONECT   15   16   21
+CONECT   16   15   17
+CONECT   17   16   18   19
+CONECT   18   17
+CONECT   19   17   20
+CONECT   20   19   21
+CONECT   21   10   15   20
+CONECT   22    2    7
+CONECT   22    2
+CONECT   23    6   14
+CONECT   23    6
+CONECT   24    1    2    8
+CONECT   25    1    9
+CONECT   25    1
+CONECT   26    8   27
+CONECT   26    8
+CONECT   27   12   26
+CONECT   27   12
+CONECT   28    5   12
+CONECT   29    5   30   31   33
+CONECT   30   29
+CONECT   31   29   32
+CONECT   32   31   33
+CONECT   33   29   32
+ENDMDL
+END   

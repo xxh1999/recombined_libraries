@@ -1,0 +1,90 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5xgn_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  OAC Q85 A1101      -0.882  19.427  44.119  1.00  0.00           O  
+HETATM    2  CAQ Q85 A1101      -0.249  19.627  43.086  1.00  0.00           C  
+HETATM    3  NAP Q85 A1101       0.013  20.818  42.579  1.00  0.00           N  
+HETATM    4  CAN Q85 A1101       0.772  20.568  41.352  1.00  0.00           C  
+HETATM    5  CAR Q85 A1101       0.857  19.183  41.283  1.00  0.00           C  
+HETATM    6  CAS Q85 A1101       0.237  18.657  42.333  1.00  0.00           C  
+HETATM    7  CAY Q85 A1101       0.188  17.345  42.483  1.00  0.00           C  
+HETATM    8  CAT Q85 A1101      -0.357  16.592  43.423  1.00  0.00           C  
+HETATM    9  CAI Q85 A1101      -1.027  16.931  44.515  1.00  0.00           C  
+HETATM   10  CAE Q85 A1101      -1.506  15.947  45.360  1.00  0.00           C  
+HETATM   11  CAG Q85 A1101      -1.267  14.623  45.034  1.00  0.00           C  
+HETATM   12  CAK Q85 A1101      -0.562  14.334  43.879  1.00  0.00           C  
+HETATM   13  CAV Q85 A1101      -0.129  15.320  43.110  1.00  0.00           C  
+HETATM   14  NBB Q85 A1101       0.554  15.299  41.979  1.00  0.00           N  
+HETATM   15  CAA Q85 A1101       1.010  14.089  41.289  1.00  0.00           C  
+HETATM   16  CAZ Q85 A1101       0.750  16.548  41.591  1.00  0.00           C  
+HETATM   17  CBA Q85 A1101       1.367  17.066  40.547  1.00  0.00           C  
+HETATM   18  CAX Q85 A1101       1.420  18.379  40.390  1.00  0.00           C  
+HETATM   19  CAU Q85 A1101       2.088  18.627  39.275  1.00  0.00           C  
+HETATM   20  CAJ Q85 A1101       2.408  19.770  38.688  1.00  0.00           C  
+HETATM   21  CAF Q85 A1101       3.125  19.768  37.504  1.00  0.00           C  
+HETATM   22  CAH Q85 A1101       3.495  18.555  36.953  1.00  0.00           C  
+HETATM   23  CAL Q85 A1101       3.130  17.399  37.614  1.00  0.00           C  
+HETATM   24  CAW Q85 A1101       2.445  17.467  38.744  1.00  0.00           C  
+HETATM   25  NBC Q85 A1101       1.998  16.508  39.531  1.00  0.00           N  
+HETATM   26  CAO Q85 A1101       2.211  15.083  39.254  1.00  0.00           C  
+HETATM   27  CAM Q85 A1101       2.708  14.890  37.818  1.00  0.00           C  
+HETATM   28  CAD Q85 A1101       4.091  14.366  37.801  1.00  0.00           C  
+HETATM   29  NAB Q85 A1101       5.150  13.966  37.774  1.00  0.00           N  
+CONECT    1    2
+CONECT    1    2
+CONECT    2    1    3    6
+CONECT    2    1
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    4    6   18
+CONECT    5   18
+CONECT    6    2    5    7
+CONECT    6    7
+CONECT    7    6    8   16
+CONECT    7    6
+CONECT    8    7    9   13
+CONECT    8   13
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13    8   12   14
+CONECT   13    8
+CONECT   14   13   15   16
+CONECT   15   14
+CONECT   16    7   14   17
+CONECT   16   17
+CONECT   17   16   18   25
+CONECT   17   16
+CONECT   18    5   17   19
+CONECT   18    5
+CONECT   19   18   20   24
+CONECT   19   24
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   19   23   25
+CONECT   24   19
+CONECT   25   17   24   26
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   27   29
+CONECT   28   29
+CONECT   28   29
+CONECT   29   28
+CONECT   29   28
+CONECT   29   28
+ENDMDL
+END   

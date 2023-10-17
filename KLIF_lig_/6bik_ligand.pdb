@@ -1,0 +1,124 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6bik_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  DTJ A 703       5.367  14.532  32.240  1.00  0.00           C  
+HETATM    2  C14 DTJ A 703       2.892  14.494  40.715  1.00  0.00           C  
+HETATM    3  C5  DTJ A 703       4.003  14.452  34.316  1.00  0.00           C  
+HETATM    4  C6  DTJ A 703       5.196  14.742  34.977  1.00  0.00           C  
+HETATM    5  C11 DTJ A 703       4.024  14.906  38.593  1.00  0.00           C  
+HETATM    6  C7  DTJ A 703       5.208  14.903  36.361  1.00  0.00           C  
+HETATM    7  C8  DTJ A 703       4.029  14.748  37.109  1.00  0.00           C  
+HETATM    8  C9  DTJ A 703       2.834  14.442  36.430  1.00  0.00           C  
+HETATM    9  C10 DTJ A 703       2.832  14.297  35.049  1.00  0.00           C  
+HETATM   10  C3  DTJ A 703       3.616  12.826  32.474  1.00  0.00           C  
+HETATM   11  C1  DTJ A 703       2.944  15.200  32.172  1.00  0.00           C  
+HETATM   12  C2  DTJ A 703       3.974  14.268  32.817  1.00  0.00           C  
+HETATM   13  O12 DTJ A 703       4.947  15.496  39.153  1.00  0.00           O  
+HETATM   14  N13 DTJ A 703       3.006  14.366  39.311  1.00  0.00           N  
+HETATM   15  C15 DTJ A 703       3.495  13.624  41.603  1.00  0.00           C  
+HETATM   16  C16 DTJ A 703       3.349  13.790  42.966  1.00  0.00           C  
+HETATM   17  C17 DTJ A 703       2.584  14.824  43.468  1.00  0.00           C  
+HETATM   18  C18 DTJ A 703       1.942  15.698  42.590  1.00  0.00           C  
+HETATM   19  C19 DTJ A 703       2.119  15.541  41.208  1.00  0.00           C  
+HETATM   20  C20 DTJ A 703       1.419  16.447  40.223  1.00  0.00           C  
+HETATM   21  O21 DTJ A 703       2.280  17.401  39.625  1.00  0.00           O1-
+HETATM   22  C22 DTJ A 703       1.135  16.813  43.131  1.00  0.00           C  
+HETATM   23  C23 DTJ A 703       0.194  16.604  44.170  1.00  0.00           C  
+HETATM   24  C24 DTJ A 703      -0.503  17.685  44.649  1.00  0.00           C  
+HETATM   25  C25 DTJ A 703      -0.287  18.965  44.095  1.00  0.00           C  
+HETATM   26  O26 DTJ A 703      -0.928  19.926  44.511  1.00  0.00           O  
+HETATM   27  N27 DTJ A 703       0.597  19.117  43.103  1.00  0.00           N  
+HETATM   28  N28 DTJ A 703       1.322  18.015  42.640  1.00  0.00           N  
+HETATM   29  C29 DTJ A 703       0.805  20.437  42.517  1.00  0.00           C  
+HETATM   30  N30 DTJ A 703      -1.447  17.636  45.671  1.00  0.00           N  
+HETATM   31  C31 DTJ A 703      -1.842  16.555  46.433  1.00  0.00           C  
+HETATM   32  C32 DTJ A 703      -2.657  16.871  47.515  1.00  0.00           C  
+HETATM   33  C33 DTJ A 703      -3.104  15.874  48.321  1.00  0.00           C  
+HETATM   34  C34 DTJ A 703      -2.740  14.552  48.020  1.00  0.00           C  
+HETATM   35  C35 DTJ A 703      -1.909  14.293  46.920  1.00  0.00           C  
+HETATM   36  N36 DTJ A 703      -1.490  15.300  46.165  1.00  0.00           N  
+HETATM   37  C37 DTJ A 703      -3.219  13.472  48.897  1.00  0.00           C  
+HETATM   38  O38 DTJ A 703      -2.403  12.696  49.339  1.00  0.00           O  
+HETATM   39  N39 DTJ A 703      -4.527  13.345  49.220  1.00  0.00           N  
+HETATM   40  C40 DTJ A 703      -5.567  14.254  48.703  1.00  0.00           C  
+HETATM   41  C41 DTJ A 703      -6.927  13.743  49.186  1.00  0.00           C  
+HETATM   42  O42 DTJ A 703      -6.904  13.703  50.614  1.00  0.00           O  
+HETATM   43  C43 DTJ A 703      -5.858  12.911  51.196  1.00  0.00           C  
+HETATM   44  C44 DTJ A 703      -4.988  12.265  50.106  1.00  0.00           C  
+CONECT    1   12
+CONECT    2   14   15   19
+CONECT    2   19
+CONECT    3    4    9   12
+CONECT    3    9
+CONECT    4    3    6
+CONECT    4    6
+CONECT    5    7   13   14
+CONECT    5   13
+CONECT    6    4    7
+CONECT    6    4
+CONECT    7    5    6    8
+CONECT    7    8
+CONECT    8    7    9
+CONECT    8    7
+CONECT    9    3    8
+CONECT    9    3
+CONECT   10   12
+CONECT   11   12
+CONECT   12    1    3   10   11
+CONECT   13    5
+CONECT   13    5
+CONECT   14    2    5
+CONECT   15    2   16
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   17   19   22
+CONECT   18   17
+CONECT   19    2   18   20
+CONECT   19    2
+CONECT   20   19   21
+CONECT   21   20
+CONECT   22   18   23   28
+CONECT   22   28
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25   30
+CONECT   24   23
+CONECT   25   24   26   27
+CONECT   25   26
+CONECT   26   25
+CONECT   26   25
+CONECT   27   25   28   29
+CONECT   28   22   27
+CONECT   28   22
+CONECT   29   27
+CONECT   30   24   31
+CONECT   31   30   32   36
+CONECT   31   36
+CONECT   32   31   33
+CONECT   32   33
+CONECT   33   32   34
+CONECT   33   32
+CONECT   34   33   35   37
+CONECT   34   35
+CONECT   35   34   36
+CONECT   35   34
+CONECT   36   31   35
+CONECT   36   31
+CONECT   37   34   38   39
+CONECT   37   38
+CONECT   38   37
+CONECT   38   37
+CONECT   39   37   40   44
+CONECT   40   39   41
+CONECT   41   40   42
+CONECT   42   41   43
+CONECT   43   42   44
+CONECT   44   39   43
+ENDMDL
+END   

@@ -1,0 +1,130 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6LKA
+MODEL        1
+ATOM      1  N   CYS A 147       7.023  10.373  -8.580  1.00 29.12           N1+
+ATOM      2  CA  CYS A 147       8.277  10.814  -7.961  1.00 32.48           C  
+ATOM      3  C   CYS A 147       9.285  11.226  -9.029  1.00 32.26           C  
+ATOM      4  O   CYS A 147       9.384  10.623 -10.099  1.00 34.51           O  
+ATOM      5  CB  CYS A 147       8.928   9.719  -7.106  1.00 25.26           C  
+ATOM      6  SG  CYS A 147       7.957   9.464  -5.589  1.00 33.60           S  
+TER       7      CYS A 147
+HETATM    8  C1  EGF A 201       4.023  11.856   6.833  1.00 81.01           C  
+HETATM    9  C10 EGF A 201       6.293   7.567  -4.436  1.00 32.11           C  
+HETATM   10  C11 EGF A 201       5.148   8.606  -4.397  1.00 37.93           C  
+HETATM   11  C12 EGF A 201       4.117   8.396  -3.265  1.00 48.59           C  
+HETATM   12  C13 EGF A 201       3.393   7.041  -3.248  1.00 50.93           C  
+HETATM   13  C14 EGF A 201       1.956   7.351  -2.799  1.00 49.17           C  
+HETATM   14  C15 EGF A 201       2.953   9.375  -3.335  1.00 50.29           C  
+HETATM   15  C16 EGF A 201       7.279   7.811  -5.586  1.00 29.17           C  
+HETATM   16  C17 EGF A 201       7.687   6.876  -6.474  1.00 34.90           C  
+HETATM   17  C18 EGF A 201       7.202   5.496  -6.561  1.00 45.43           C  
+HETATM   18  C19 EGF A 201       8.148   3.304  -6.502  1.00 57.82           C  
+HETATM   19  C2  EGF A 201       4.192  10.853   5.743  1.00 73.07           C  
+HETATM   20  C20 EGF A 201       8.211   3.165  -4.993  1.00 52.60           C  
+HETATM   21  C21 EGF A 201       9.338   2.914  -4.314  1.00 45.30           C  
+HETATM   22  C22 EGF A 201       9.438   2.877  -2.807  1.00 50.83           C  
+HETATM   23  C23 EGF A 201      10.340   3.997  -2.277  1.00 66.13           C  
+HETATM   24  C24 EGF A 201       9.263   5.745  -1.028  1.00 60.43           C  
+HETATM   25  C25 EGF A 201      10.460   6.362  -0.300  1.00 59.33           C  
+HETATM   26  C26 EGF A 201      11.229   5.589   0.597  1.00 63.03           C  
+HETATM   27  C27 EGF A 201      12.330   6.151   1.273  1.00 67.67           C  
+HETATM   28  C28 EGF A 201      12.662   7.502   1.074  1.00 64.68           C  
+HETATM   29  C29 EGF A 201      11.913   8.272   0.169  1.00 58.46           C  
+HETATM   30  C3  EGF A 201       4.768   9.616   5.699  1.00 69.72           C  
+HETATM   31  C30 EGF A 201      10.839   7.702  -0.532  1.00 60.01           C  
+HETATM   32  C31 EGF A 201       4.383   5.480   1.400  1.00 52.38           C  
+HETATM   33  C32 EGF A 201       3.915   4.678   2.624  1.00 59.98           C  
+HETATM   34  C33 EGF A 201       3.173   6.030   0.624  1.00 54.08           C  
+HETATM   35  C4  EGF A 201       4.613   9.219   4.341  1.00 66.56           C  
+HETATM   36  C5  EGF A 201       5.187   7.926   3.838  1.00 65.26           C  
+HETATM   37  C6  EGF A 201       5.451   6.542   1.779  1.00 59.61           C  
+HETATM   38  C7  EGF A 201       6.160   7.120   0.549  1.00 63.64           C  
+HETATM   39  C8  EGF A 201       8.015   6.690  -1.090  1.00 53.03           C  
+HETATM   40  C9  EGF A 201       7.153   6.480  -2.350  1.00 39.62           C  
+HETATM   41  N1  EGF A 201       4.871   7.629   2.568  1.00 64.83           N  
+HETATM   42  N2  EGF A 201       7.223   6.427   0.113  1.00 62.29           N  
+HETATM   43  N3  EGF A 201       7.041   7.535  -3.178  1.00 36.47           N  
+HETATM   44  N4  EGF A 201       1.809   8.772  -3.028  1.00 54.65           N  
+HETATM   45  N5  EGF A 201       3.966  10.136   3.638  1.00 64.95           N  
+HETATM   46  O1  EGF A 201       5.914   7.226   4.545  1.00 58.59           O  
+HETATM   47  O2  EGF A 201       5.754   8.150   0.011  1.00 54.38           O  
+HETATM   48  O3  EGF A 201       6.599   5.399  -2.550  1.00 34.66           O  
+HETATM   49  O4  EGF A 201       3.069  10.557  -3.642  1.00 46.09           O  
+HETATM   50  O5  EGF A 201       6.036   5.139  -6.399  1.00 48.45           O  
+HETATM   51  O6  EGF A 201       8.212   4.672  -6.871  1.00 52.91           O  
+HETATM   52  O7  EGF A 201       9.666   5.260  -2.308  1.00 71.33           O  
+HETATM   53  O8  EGF A 201       3.685  11.179   4.526  1.00 66.85           O  
+CONECT    8   19
+CONECT    9   10   15   43
+CONECT   10    9   11
+CONECT   11   10   12   14
+CONECT   12   11   13
+CONECT   13   12   44
+CONECT   14   11   44   49
+CONECT   14   49
+CONECT   15    6    9   16
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   16   50   51
+CONECT   17   50
+CONECT   18   20   51
+CONECT   19    8   30   53
+CONECT   19   30
+CONECT   20   18   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   21   23
+CONECT   23   22   52
+CONECT   24   25   39   52
+CONECT   25   24   26   31
+CONECT   25   31
+CONECT   26   25   27
+CONECT   26   27
+CONECT   27   26   28
+CONECT   27   26
+CONECT   28   27   29
+CONECT   28   29
+CONECT   29   28   31
+CONECT   29   28
+CONECT   30   19   35
+CONECT   30   19
+CONECT   31   25   29
+CONECT   31   25
+CONECT   32   33   34   37
+CONECT   33   32
+CONECT   34   32
+CONECT   35   30   36   45
+CONECT   35   45
+CONECT   36   35   41   46
+CONECT   36   46
+CONECT   37   32   38   41
+CONECT   38   37   42   47
+CONECT   38   47
+CONECT   39   24   40   42
+CONECT   40   39   43   48
+CONECT   40   48
+CONECT   41   36   37
+CONECT   42   38   39
+CONECT   43    9   40
+CONECT   44   13   14
+CONECT   45   35   53
+CONECT   45   35
+CONECT   46   36
+CONECT   46   36
+CONECT   47   38
+CONECT   47   38
+CONECT   48   40
+CONECT   48   40
+CONECT   49   14
+CONECT   49   14
+CONECT   50   17
+CONECT   50   17
+CONECT   51   17   18
+CONECT   52   23   24
+CONECT   53   19   45
+ENDMDL
+END   

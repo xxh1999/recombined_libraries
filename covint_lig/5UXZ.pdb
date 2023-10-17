@@ -1,0 +1,83 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5UXZ
+MODEL        1
+ATOM      1  N   ASP A 106      -8.211  -9.311 -38.119  1.00 12.17           N1+
+ATOM      2  CA  ASP A 106      -7.969  -9.956 -36.828  1.00 12.55           C  
+ATOM      3  C   ASP A 106      -8.584  -9.126 -35.688  1.00 12.66           C  
+ATOM      4  O   ASP A 106      -9.756  -8.774 -35.763  1.00 12.75           O  
+ATOM      5  CB  ASP A 106      -6.464 -10.281 -36.716  0.85 12.74           C  
+ATOM      6  CG  ASP A 106      -6.079 -11.214 -35.579  0.62 13.12           C  
+ATOM      7  OD1 ASP A 106      -6.686 -12.404 -35.657  0.71 13.86           O  
+ATOM      8  OD2 ASP A 106      -5.239 -10.875 -34.750  1.00 12.88           O1-
+TER       9      ASP A 106
+HETATM   10  C2  8PM A 401      -4.483 -22.156 -35.251  1.00 24.10           C  
+HETATM   11  C5  8PM A 401      -7.340 -22.037 -35.111  1.00 25.02           C  
+HETATM   12  C6  8PM A 401      -6.670 -23.163 -35.655  1.00 24.63           C  
+HETATM   13  C7  8PM A 401      -5.266 -23.223 -35.726  1.00 24.36           C  
+HETATM   14  C16 8PM A 401      -1.914 -18.728 -36.615  1.00 19.69           C  
+HETATM   15  C18 8PM A 401      -1.560 -16.313 -36.233  1.00 17.49           C  
+HETATM   16  C19 8PM A 401      -2.326 -16.127 -34.909  1.00 16.80           C  
+HETATM   17  C20 8PM A 401      -3.198 -14.879 -34.893  1.00 16.19           C  
+HETATM   18  C21 8PM A 401      -2.423 -21.643 -37.947  1.00 22.00           C  
+HETATM   19  C25 8PM A 401      -4.467 -15.080 -34.046  1.00 15.70           C  
+HETATM   20  C26 8PM A 401      -5.405 -13.867 -34.058  1.00 15.10           C  
+HETATM   21  C27 8PM A 401      -5.919 -13.577 -35.475  1.00 14.63           C  
+HETATM   22  S1  8PM A 401      -2.691 -22.336 -35.275  1.00 23.73           S  
+HETATM   23  C3  8PM A 401      -5.127 -21.005 -34.746  1.00 24.75           C  
+HETATM   24  C4  8PM A 401      -6.532 -20.948 -34.669  1.00 24.95           C  
+HETATM   25  N8  8PM A 401      -8.755 -22.043 -35.022  1.00 25.33           N  
+HETATM   26  C9  8PM A 401      -9.509 -20.840 -35.346  1.00 25.38           C  
+HETATM   27  C10 8PM A 401      -9.474 -23.309 -35.065  1.00 25.44           C  
+HETATM   28  N11 8PM A 401      -7.027 -19.815 -34.151  1.00 25.30           N  
+HETATM   29  N12 8PM A 401      -4.465 -19.924 -34.319  1.00 25.07           N  
+HETATM   30  S13 8PM A 401      -5.678 -18.866 -33.840  1.00 25.69           S  
+HETATM   31  N14 8PM A 401      -2.204 -21.264 -36.546  1.00 22.02           N  
+HETATM   32  C15 8PM A 401      -1.337 -20.103 -36.286  1.00 20.76           C  
+HETATM   33  N17 8PM A 401      -1.114 -17.689 -36.342  1.00 18.36           N  
+HETATM   34  O22 8PM A 401      -2.161 -21.834 -33.998  1.00 23.56           O  
+HETATM   35  O23 8PM A 401      -2.362 -23.703 -35.713  1.00 23.57           O  
+HETATM   36  O24 8PM A 401      -3.061 -18.602 -37.039  1.00 19.48           O  
+CONECT   10   13   22   23
+CONECT   10   13
+CONECT   11   12   24   25
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   10   12
+CONECT   13   10
+CONECT   14   32   33   36
+CONECT   14   36
+CONECT   15   16   33
+CONECT   16   15   17
+CONECT   17   16   19
+CONECT   18   31
+CONECT   19   17   20
+CONECT   20   19   21
+CONECT   21    7   20
+CONECT   22   10   31   34   35
+CONECT   22   34   35
+CONECT   23   10   24   29
+CONECT   23   29
+CONECT   24   11   23   28
+CONECT   24   28
+CONECT   25   11   26   27
+CONECT   26   25
+CONECT   27   25
+CONECT   28   24   30
+CONECT   28   24
+CONECT   29   23   30
+CONECT   29   23
+CONECT   30   28   29
+CONECT   31   18   22   32
+CONECT   32   14   31
+CONECT   33   14   15
+CONECT   34   22
+CONECT   34   22
+CONECT   35   22
+CONECT   35   22
+CONECT   36   14
+CONECT   36   14
+ENDMDL
+END   

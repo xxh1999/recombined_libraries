@@ -1,0 +1,88 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1A54
+MODEL        1
+ATOM      1  N   CYS A 197      13.228  30.723  21.729  1.00 10.21           N1+
+ATOM      2  CA  CYS A 197      12.707  31.260  22.976  1.00 13.20           C  
+ATOM      3  C   CYS A 197      11.167  31.276  23.035  1.00 10.95           C  
+ATOM      4  O   CYS A 197      10.611  30.975  24.085  1.00 11.94           O  
+ATOM      5  CB  CYS A 197      13.306  32.664  23.250  1.00 15.26           C  
+ATOM      6  SG  CYS A 197      12.605  33.278  24.805  0.50 12.20           S1+
+TER       7      CYS A 197
+HETATM    8  C1  MDC A 323      13.854  33.470  26.065  0.50 27.17           C  
+HETATM    9  C2  MDC A 323      13.532  32.047  25.806  0.50 35.63           C  
+HETATM   10  C3  MDC A 323      12.834  31.573  27.010  0.50 34.81           C  
+HETATM   11  O3  MDC A 323      12.435  30.421  27.184  0.50 40.97           O  
+HETATM   12  N4  MDC A 323      12.670  32.616  27.838  0.50 39.47           N  
+HETATM   13  C5  MDC A 323      13.243  33.751  27.376  0.50 31.45           C  
+HETATM   14  O5  MDC A 323      13.220  34.861  27.904  0.50 34.42           O  
+HETATM   15  C6  MDC A 323      11.799  32.529  28.930  0.50 40.58           C  
+HETATM   16  C7  MDC A 323      10.669  33.248  29.087  0.50 40.16           C  
+HETATM   17  N8  MDC A 323      10.209  34.190  28.165  0.50 39.76           N  
+HETATM   18  C9  MDC A 323      10.229  35.507  28.429  0.50 38.25           C  
+HETATM   19  O9  MDC A 323      10.474  35.912  29.571  0.50 42.90           O  
+HETATM   20  O11 MDC A 323       9.447  36.974  24.939  0.50 31.81           O  
+HETATM   21  C12 MDC A 323       9.665  35.964  25.855  0.50 32.29           C  
+HETATM   22  O12 MDC A 323       9.573  34.790  25.495  0.50 41.51           O  
+HETATM   23  C13 MDC A 323      10.012  36.385  27.265  0.50 37.84           C  
+HETATM   24  C14 MDC A 323      10.173  37.705  27.512  0.50 33.74           C  
+HETATM   25  C24 MDC A 323       9.996  38.730  26.503  0.50 32.29           C  
+HETATM   26  C28 MDC A 323       9.609  38.314  25.221  0.50 28.18           C  
+HETATM   27  C15 MDC A 323      10.181  40.094  26.788  0.50 27.07           C  
+HETATM   28  C16 MDC A 323       9.931  41.056  25.794  0.50 29.84           C  
+HETATM   29  C17 MDC A 323       9.499  40.672  24.500  0.50 30.25           C  
+HETATM   30  N17 MDC A 323       9.156  41.629  23.513  0.50 37.02           N  
+HETATM   31  C18 MDC A 323       9.373  39.283  24.226  0.50 31.64           C  
+HETATM   32  C19 MDC A 323       9.532  43.028  23.746  0.50 34.60           C  
+HETATM   33  C20 MDC A 323       9.484  43.911  22.489  0.50 34.04           C  
+HETATM   34  C21 MDC A 323       7.917  41.340  22.786  0.50 34.69           C  
+HETATM   35  C22 MDC A 323       8.179  40.976  21.320  0.50 29.63           C  
+CONECT    8    6    9   13
+CONECT    9    6    8   10
+CONECT   10    9   11   12
+CONECT   10   11
+CONECT   11   10
+CONECT   11   10
+CONECT   12   10   13   15
+CONECT   13    8   12   14
+CONECT   13   14
+CONECT   14   13
+CONECT   14   13
+CONECT   15   12   16
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   16   18
+CONECT   18   17   19   23
+CONECT   18   19
+CONECT   19   18
+CONECT   19   18
+CONECT   20   21   26
+CONECT   21   20   22   23
+CONECT   21   22
+CONECT   22   21
+CONECT   22   21
+CONECT   23   18   21   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   24   26   27
+CONECT   25   26
+CONECT   26   20   25   31
+CONECT   26   25
+CONECT   27   25   28
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   28   30   31
+CONECT   29   31
+CONECT   30   29   32   34
+CONECT   31   26   29
+CONECT   31   29
+CONECT   32   30   33
+CONECT   33   32
+CONECT   34   30   35
+CONECT   35   34
+ENDMDL
+END   

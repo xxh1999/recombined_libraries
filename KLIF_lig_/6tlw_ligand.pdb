@@ -1,0 +1,35 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6tlw_ligand
+MODEL        1
+HETATM    1  C1  NKZ A 401       1.226  19.721  40.939  1.00  0.00           C  
+HETATM    2  C2  NKZ A 401       1.322  21.002  40.459  1.00  0.00           C  
+HETATM    3  C3  NKZ A 401       1.874  21.222  39.210  1.00  0.00           C  
+HETATM    4  C4  NKZ A 401       1.719  18.678  40.178  1.00  0.00           C  
+HETATM    5  C6  NKZ A 401       2.281  18.874  38.936  1.00  0.00           C  
+HETATM    6 BR1  NKZ A 401       1.559  16.927  40.825  1.00  0.00          Br  
+HETATM    7  N5  NKZ A 401       2.823  18.034  37.991  1.00  0.00           N  
+HETATM    8  N9  NKZ A 401       3.214  18.829  36.933  1.00  0.00           N  
+HETATM    9  N8  NKZ A 401       2.915  20.109  37.158  1.00  0.00           N  
+HETATM   10  C7  NKZ A 401       2.360  20.172  38.428  1.00  0.00           C  
+CONECT    1    2    4
+CONECT    1    2
+CONECT    2    1    3
+CONECT    2    1
+CONECT    3    2   10
+CONECT    3   10
+CONECT    4    1    5    6
+CONECT    4    5
+CONECT    5    4    7   10
+CONECT    5    4
+CONECT    6    4
+CONECT    7    5    8
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    3    5    9
+CONECT   10    3
+ENDMDL
+END   

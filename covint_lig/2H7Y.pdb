@@ -1,0 +1,42 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2H7Y
+MODEL        1
+ATOM      1  N   SER A 148      49.583  48.544   9.201  1.00 23.89           N1+
+ATOM      2  CA  SER A 148      48.362  49.205   9.673  1.00 25.10           C  
+ATOM      3  C   SER A 148      48.595  49.861  11.042  1.00 22.47           C  
+ATOM      4  O   SER A 148      49.393  50.791  11.138  1.00 23.87           O  
+ATOM      5  CB  SER A 148      47.136  48.271   9.587  1.00 29.70           C  
+ATOM      6  OG  SER A 148      45.959  49.018   9.831  1.00 31.88           O  
+TER       7      SER A 148
+HETATM    8  CAA PSK A 548      45.592  51.538  15.385  1.00 45.10           C  
+HETATM    9  CAJ PSK A 548      44.891  50.855  14.204  1.00 45.38           C  
+HETATM   10  CAQ PSK A 548      43.519  51.467  13.855  1.00 43.75           C  
+HETATM   11  OAG PSK A 548      42.697  51.361  15.004  1.00 44.46           O  
+HETATM   12  CAP PSK A 548      42.818  50.754  12.666  1.00 42.64           C  
+HETATM   13  CAB PSK A 548      41.397  51.294  12.419  1.00 42.56           C  
+HETATM   14  CAN PSK A 548      43.619  50.824  11.353  1.00 39.50           C  
+HETATM   15  OAE PSK A 548      44.382  51.758  11.103  1.00 41.45           O  
+HETATM   16  CAL PSK A 548      43.393  49.708  10.338  1.00 34.20           C  
+HETATM   17  P1  PSK A 548      44.608  48.297  10.560  1.00 32.84           P  
+HETATM   18  OAH PSK A 548      44.906  48.075  11.996  1.00 29.36           O  
+HETATM   19  OAF PSK A 548      44.192  47.170   9.698  1.00 30.43           O1-
+CONECT    8    9
+CONECT    9    8   10
+CONECT   10    9   11   12
+CONECT   11   10
+CONECT   12   10   13   14
+CONECT   13   12
+CONECT   14   12   15   16
+CONECT   14   15
+CONECT   15   14
+CONECT   15   14
+CONECT   16   14   17
+CONECT   17    6   16   18   19
+CONECT   17   18
+CONECT   18   17
+CONECT   18   17
+CONECT   19   17
+ENDMDL
+END   

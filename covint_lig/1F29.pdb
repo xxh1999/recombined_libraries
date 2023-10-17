@@ -1,0 +1,119 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1F29
+MODEL        1
+ATOM      1  N   CYS A  25       3.450  -9.097  10.492  1.00  9.16           N1+
+ATOM      2  CA  CYS A  25       4.346  -7.941  10.351  1.00  6.29           C  
+ATOM      3  C   CYS A  25       3.890  -6.866   9.334  1.00  3.74           C  
+ATOM      4  O   CYS A  25       4.198  -5.688   9.505  1.00  7.22           O  
+ATOM      5  CB  CYS A  25       5.773  -8.445  10.052  1.00  4.41           C  
+ATOM      6  SG  CYS A  25       5.852  -9.230   8.412  1.00  8.59           S  
+TER       7      CYS A  25
+HETATM    8  N1  VS1 A 300       4.810 -11.121   3.056  1.00 13.12           N  
+HETATM    9  C3  VS1 A 300       5.658 -10.542   4.102  1.00 11.64           C  
+HETATM   10  C12 VS1 A 300       5.679  -8.998   3.996  1.00 10.77           C  
+HETATM   11  C14 VS1 A 300       6.047  -8.390   2.652  1.00 13.50           C  
+HETATM   12  C15 VS1 A 300       7.002  -8.994   1.805  1.00 13.21           C  
+HETATM   13  C16 VS1 A 300       7.300  -8.418   0.555  1.00 10.26           C  
+HETATM   14  C17 VS1 A 300       6.670  -7.223   0.156  1.00 10.48           C  
+HETATM   15  C18 VS1 A 300       5.732  -6.610   1.007  1.00 12.45           C  
+HETATM   16  C19 VS1 A 300       5.419  -7.194   2.248  1.00 15.15           C  
+HETATM   17  C11 VS1 A 300       5.053 -10.902   5.464  1.00 15.23           C  
+HETATM   18  N20 VS1 A 300       5.865 -11.487   6.356  1.00 14.22           N  
+HETATM   19  C21 VS1 A 300       5.483 -11.887   7.712  1.00 16.50           C  
+HETATM   20  C23 VS1 A 300       5.744 -13.399   7.896  1.00 15.32           C  
+HETATM   21  C24 VS1 A 300       4.829 -14.292   7.047  1.00 22.81           C  
+HETATM   22  C29 VS1 A 300       5.229 -15.751   7.131  1.00 25.29           C  
+HETATM   23  C30 VS1 A 300       6.219 -16.267   6.269  1.00 28.67           C  
+HETATM   24  C31 VS1 A 300       6.602 -17.619   6.362  1.00 29.81           C  
+HETATM   25  C32 VS1 A 300       5.992 -18.461   7.312  1.00 29.90           C  
+HETATM   26  C33 VS1 A 300       5.001 -17.950   8.172  1.00 28.22           C  
+HETATM   27  C34 VS1 A 300       4.625 -16.597   8.083  1.00 26.62           C  
+HETATM   28  C25 VS1 A 300       7.707 -11.247   8.846  1.00 17.19           C  
+HETATM   29  S26 VS1 A 300       8.241 -11.879  10.485  1.00 20.41           S  
+HETATM   30  C35 VS1 A 300       9.873 -12.524  10.139  1.00 28.30           C  
+HETATM   31  C36 VS1 A 300      10.128 -13.907  10.237  1.00 35.17           C  
+HETATM   32  C37 VS1 A 300      11.403 -14.403   9.901  1.00 39.61           C  
+HETATM   33  C38 VS1 A 300      12.412 -13.524   9.461  1.00 38.22           C  
+HETATM   34  C39 VS1 A 300      12.149 -12.145   9.361  1.00 36.95           C  
+HETATM   35  C40 VS1 A 300      10.879 -11.642   9.701  1.00 33.85           C  
+HETATM   36  O36 VS1 A 300       7.360 -12.994  10.863  1.00 22.37           O  
+HETATM   37  O35 VS1 A 300       8.379 -10.729  11.391  1.00 19.84           O  
+HETATM   38  O13 VS1 A 300       3.873 -10.641   5.693  1.00 15.38           O  
+HETATM   39  C2  VS1 A 300       4.797 -12.431   2.742  1.00 12.75           C  
+HETATM   40  O10 VS1 A 300       5.514 -13.246   3.325  1.00 11.95           O  
+HETATM   41  N4  VS1 A 300       3.860 -12.791   1.834  1.00 13.29           N  
+HETATM   42  C5  VS1 A 300       3.522 -14.203   1.615  1.00 12.71           C  
+HETATM   43  C6  VS1 A 300       2.003 -14.350   1.443  1.00 11.51           C  
+HETATM   44  O7  VS1 A 300       1.579 -13.551   0.347  1.00 16.57           O  
+HETATM   45  C8  VS1 A 300       1.851 -12.169   0.548  1.00 17.78           C  
+HETATM   46  C9  VS1 A 300       3.359 -11.937   0.748  1.00 15.28           C  
+HETATM   47  C22 VS1 A 300       6.187 -10.990   8.764  1.00 13.45           C  
+CONECT    8    9   39
+CONECT    9    8   10   17
+CONECT   10    9   11
+CONECT   11   10   12   16
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16   11   15
+CONECT   16   15
+CONECT   17    9   18   38
+CONECT   17   38
+CONECT   18   17   19
+CONECT   19   18   20   47
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22   21   23   27
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   23   25
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26   25   27
+CONECT   26   27
+CONECT   27   22   26
+CONECT   27   26
+CONECT   28   29   47
+CONECT   29   28   30   36   37
+CONECT   29   36   37
+CONECT   30   29   31   35
+CONECT   30   31
+CONECT   31   30   32
+CONECT   31   30
+CONECT   32   31   33
+CONECT   32   33
+CONECT   33   32   34
+CONECT   33   32
+CONECT   34   33   35
+CONECT   34   35
+CONECT   35   30   34
+CONECT   35   34
+CONECT   36   29
+CONECT   36   29
+CONECT   37   29
+CONECT   37   29
+CONECT   38   17
+CONECT   38   17
+CONECT   39    8   40   41
+CONECT   39   40
+CONECT   40   39
+CONECT   40   39
+CONECT   41   39   42   46
+CONECT   42   41   43
+CONECT   43   42   44
+CONECT   44   43   45
+CONECT   45   44   46
+CONECT   46   41   45
+CONECT   47    6   19   28
+ENDMDL
+END   

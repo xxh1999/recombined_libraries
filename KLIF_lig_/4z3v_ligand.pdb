@@ -1,0 +1,76 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4z3v_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  Q4L A 705      -0.279  15.517  39.089  1.00  0.00           C  
+HETATM    2  C2  Q4L A 705       1.088  14.909  39.352  1.00  0.00           C  
+HETATM    3  C3  Q4L A 705       1.936  14.768  38.284  1.00  0.00           C  
+HETATM    4  C4  Q4L A 705       3.214  14.207  38.502  1.00  0.00           C  
+HETATM    5  C5  Q4L A 705       4.319  13.929  37.650  1.00  0.00           C  
+HETATM    6  N6  Q4L A 705       5.274  13.401  38.370  1.00  0.00           N  
+HETATM    7  N7  Q4L A 705       4.879  13.292  39.703  1.00  0.00           N  
+HETATM    8  C9  Q4L A 705       3.598  13.794  39.803  1.00  0.00           C  
+HETATM    9  C10 Q4L A 705       2.725  13.937  40.876  1.00  0.00           C  
+HETATM   10  C11 Q4L A 705       1.473  14.496  40.658  1.00  0.00           C  
+HETATM   11  C12 Q4L A 705       0.561  14.643  41.829  1.00  0.00           C  
+HETATM   12  C13 Q4L A 705      -0.106  13.550  42.376  1.00  0.00           C  
+HETATM   13  C14 Q4L A 705      -0.961  13.701  43.462  1.00  0.00           C  
+HETATM   14  C15 Q4L A 705      -1.179  14.924  44.055  1.00  0.00           C  
+HETATM   15  C16 Q4L A 705      -0.532  16.055  43.519  1.00  0.00           C  
+HETATM   16  C17 Q4L A 705      -0.736  17.357  44.078  1.00  0.00           C  
+HETATM   17  N18 Q4L A 705      -1.583  17.551  45.154  1.00  0.00           N  
+HETATM   18  C19 Q4L A 705      -0.049  18.412  43.450  1.00  0.00           C  
+HETATM   19  N20 Q4L A 705       0.749  18.177  42.397  1.00  0.00           N  
+HETATM   20  N21 Q4L A 705       0.949  17.002  41.905  1.00  0.00           N  
+HETATM   21  C22 Q4L A 705       0.340  15.922  42.411  1.00  0.00           C  
+HETATM   22  C23 Q4L A 705      -0.190  19.817  43.873  1.00  0.00           C  
+HETATM   23  N24 Q4L A 705       0.246  20.776  43.022  1.00  0.00           N  
+HETATM   24  O25 Q4L A 705      -0.719  20.116  44.938  1.00  0.00           O  
+CONECT    1    2
+CONECT    2    1    3   10
+CONECT    2   10
+CONECT    3    2    4
+CONECT    3    4
+CONECT    4    3    5    8
+CONECT    4    3
+CONECT    5    4    6
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    6    8
+CONECT    8    4    7    9
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    2    9   11
+CONECT   10    2
+CONECT   11   10   12   21
+CONECT   11   21
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16   21
+CONECT   15   14
+CONECT   16   15   17   18
+CONECT   16   18
+CONECT   17   16
+CONECT   18   16   19   22
+CONECT   18   16
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   11   15   20
+CONECT   21   11
+CONECT   22   18   23   24
+CONECT   22   24
+CONECT   23   22
+CONECT   24   22
+CONECT   24   22
+ENDMDL
+END   

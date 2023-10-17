@@ -1,0 +1,65 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6l12_ligand
+MODEL        1
+HETATM    1  C4  E2R A 401       3.359  16.767  38.476  1.00  0.00           C  
+HETATM    2  C5  E2R A 401       3.808  17.227  37.322  1.00  0.00           C  
+HETATM    3  C6  E2R A 401       3.668  18.687  36.968  1.00  0.00           C  
+HETATM    4  C7  E2R A 401       3.099  19.498  37.819  1.00  0.00           C  
+HETATM    5  C8  E2R A 401       2.582  19.000  39.139  1.00  0.00           C  
+HETATM    6  C10 E2R A 401       1.499  19.614  41.150  1.00  0.00           C  
+HETATM    7  C13 E2R A 401       0.402  19.117  43.628  1.00  0.00           C  
+HETATM    8  C15 E2R A 401       0.884  20.749  41.905  1.00  0.00           C  
+HETATM    9  C17 E2R A 401       0.843  12.382  40.960  1.00  0.00           C  
+HETATM   10  C20 E2R A 401      -0.111  15.194  41.149  1.00  0.00           C  
+HETATM   11  C21 E2R A 401      -0.961  13.986  40.778  1.00  0.00           C  
+HETATM   12  C22 E2R A 401      -0.104  13.035  39.960  1.00  0.00           C  
+HETATM   13  C1  E2R A 401       2.318  15.863  41.261  1.00  0.00           C  
+HETATM   14  N2  E2R A 401       2.133  17.266  40.818  1.00  0.00           N  
+HETATM   15  C19 E2R A 401       1.253  14.877  41.749  1.00  0.00           C  
+HETATM   16  C11 E2R A 401       1.525  18.377  41.640  1.00  0.00           C  
+HETATM   17  C3  E2R A 401       2.689  17.718  39.471  1.00  0.00           C  
+HETATM   18  C12 E2R A 401       0.928  18.113  42.982  1.00  0.00           C  
+HETATM   19 CL1  E2R A 401      -0.328  18.826  45.203  1.00  0.00          Cl  
+HETATM   20  C14 E2R A 401       0.362  20.514  43.069  1.00  0.00           C  
+HETATM   21  N23 E2R A 401      -0.911  12.066  39.196  1.00  0.00           N1+
+HETATM   22  C18 E2R A 401       1.815  13.419  41.540  1.00  0.00           C  
+HETATM   23  O9  E2R A 401       2.023  19.851  39.972  1.00  0.00           O  
+CONECT    1    2   17
+CONECT    1   17
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4   17   23
+CONECT    5    4
+CONECT    6    8   16   23
+CONECT    6   16
+CONECT    7   18   19   20
+CONECT    7   18
+CONECT    8    6   20
+CONECT    8   20
+CONECT    9   12   22
+CONECT   10   11   15
+CONECT   11   10   12
+CONECT   12    9   11   21
+CONECT   13   14   15
+CONECT   14   13   16   17
+CONECT   15   10   13   22
+CONECT   16    6   14   18
+CONECT   16    6
+CONECT   17    1    5   14
+CONECT   17    1
+CONECT   18    7   16
+CONECT   18    7
+CONECT   19    7
+CONECT   20    7    8
+CONECT   20    8
+CONECT   21   12
+CONECT   22    9   15
+CONECT   23    5    6
+ENDMDL
+END   

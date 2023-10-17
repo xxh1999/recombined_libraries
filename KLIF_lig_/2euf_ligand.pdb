@@ -1,0 +1,92 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2euf_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  O01 LQQ B 401       1.930  20.967  36.985  1.00  0.00           O  
+HETATM    2  C02 LQQ B 401       2.496  20.473  37.934  1.00  0.00           C  
+HETATM    3  C01 LQQ B 401       3.988  20.499  38.081  1.00  0.00           C  
+HETATM    4  C03 LQQ B 401       1.679  19.792  38.993  1.00  0.00           C  
+HETATM    5  C04 LQQ B 401       1.137  20.497  40.071  1.00  0.00           C  
+HETATM    6  C05 LQQ B 401       1.252  21.991  40.211  1.00  0.00           C  
+HETATM    7  C06 LQQ B 401       0.246  19.772  41.000  1.00  0.00           C  
+HETATM    8  C07 LQQ B 401      -0.270  20.399  42.215  1.00  0.00           C  
+HETATM    9  N01 LQQ B 401      -1.000  19.676  43.069  1.00  0.00           N  
+HETATM   10  C08 LQQ B 401      -1.121  18.339  42.940  1.00  0.00           C  
+HETATM   11  N02 LQQ B 401      -0.538  17.683  41.886  1.00  0.00           N  
+HETATM   12  C09 LQQ B 401       0.218  18.315  40.945  1.00  0.00           C  
+HETATM   13  N03 LQQ B 401       0.765  17.676  39.879  1.00  0.00           N  
+HETATM   14  C10 LQQ B 401       0.625  16.212  39.779  1.00  0.00           C  
+HETATM   15  C11 LQQ B 401       0.174  15.688  38.421  1.00  0.00           C  
+HETATM   16  C12 LQQ B 401       1.026  14.450  38.117  1.00  0.00           C  
+HETATM   17  C13 LQQ B 401       2.095  14.306  39.214  1.00  0.00           C  
+HETATM   18  C14 LQQ B 401       1.980  15.560  40.080  1.00  0.00           C  
+HETATM   19  C15 LQQ B 401       1.522  18.406  38.903  1.00  0.00           C  
+HETATM   20  O02 LQQ B 401       2.068  17.825  37.927  1.00  0.00           O  
+HETATM   21  N04 LQQ B 401      -1.857  17.733  43.917  1.00  0.00           N  
+HETATM   22  C16 LQQ B 401      -2.081  16.409  44.102  1.00  0.00           C  
+HETATM   23  N05 LQQ B 401      -2.569  16.004  45.299  1.00  0.00           N  
+HETATM   24  C17 LQQ B 401      -2.817  14.712  45.542  1.00  0.00           C  
+HETATM   25  C18 LQQ B 401      -2.583  13.747  44.562  1.00  0.00           C  
+HETATM   26  C19 LQQ B 401      -2.085  14.147  43.326  1.00  0.00           C  
+HETATM   27  C20 LQQ B 401      -1.837  15.485  43.093  1.00  0.00           C  
+HETATM   28  N06 LQQ B 401      -2.842  12.380  44.811  1.00  0.00           N  
+HETATM   29  C21 LQQ B 401      -2.022  11.919  45.959  1.00  0.00           C  
+HETATM   30  C22 LQQ B 401      -2.325  10.461  46.291  1.00  0.00           C  
+HETATM   31  N07 LQQ B 401      -2.194   9.628  45.105  1.00  0.00           N1+
+HETATM   32  C23 LQQ B 401      -2.711  10.068  43.812  1.00  0.00           C  
+HETATM   33  C24 LQQ B 401      -2.609  11.578  43.581  1.00  0.00           C  
+CONECT    1    2
+CONECT    1    2
+CONECT    2    1    3    4
+CONECT    2    1
+CONECT    3    2
+CONECT    4    2    5   19
+CONECT    4    5
+CONECT    5    4    6    7
+CONECT    5    4
+CONECT    6    5
+CONECT    7    5    8   12
+CONECT    7   12
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    9   11   21
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12    7   11   13
+CONECT   12    7
+CONECT   13   12   14   19
+CONECT   14   13   15   18
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   18   14   17
+CONECT   19    4   13   20
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   10   22
+CONECT   22   21   23   27
+CONECT   22   27
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   24   26   28
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   22   26
+CONECT   27   22
+CONECT   28   25   29   33
+CONECT   29   28   30
+CONECT   30   29   31
+CONECT   31   30   32
+CONECT   32   31   33
+CONECT   33   28   32
+ENDMDL
+END   

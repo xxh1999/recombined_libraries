@@ -1,0 +1,86 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3pe2_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N1  E1B A 338      -0.481  20.394  44.353  1.00  0.00           N  
+HETATM    2  C2  E1B A 338      -0.499  19.161  44.915  1.00  0.00           C  
+HETATM    3  N3  E1B A 338       0.042  18.100  44.288  1.00  0.00           N  
+HETATM    4  C4  E1B A 338       0.640  18.241  43.047  1.00  0.00           C  
+HETATM    5  C5  E1B A 338       0.680  19.485  42.446  1.00  0.00           C  
+HETATM    6  C6  E1B A 338       0.096  20.589  43.142  1.00  0.00           C  
+HETATM    7  CAA E1B A 338       5.467  13.022  39.896  1.00  0.00           C  
+HETATM    8  OAB E1B A 338       3.879  18.862  36.975  1.00  0.00           O  
+HETATM    9  OAC E1B A 338       2.873  20.970  36.688  1.00  0.00           O1-
+HETATM   10  CAD E1B A 338       4.492  13.069  40.599  1.00  0.00           C  
+HETATM   11  CAE E1B A 338       1.548  12.108  42.752  1.00  0.00           C  
+HETATM   12  CAG E1B A 338       2.668  11.990  41.947  1.00  0.00           C  
+HETATM   13  CAH E1B A 338       1.031  13.356  43.069  1.00  0.00           C  
+HETATM   14  CAI E1B A 338       2.018  20.931  39.210  1.00  0.00           C  
+HETATM   15  CAJ E1B A 338       1.399  20.858  40.464  1.00  0.00           C  
+HETATM   16  CAL E1B A 338       2.780  14.369  41.770  1.00  0.00           C  
+HETATM   17  CAM E1B A 338       2.512  18.563  39.237  1.00  0.00           C  
+HETATM   18  NAP E1B A 338       1.808  17.278  41.155  1.00  0.00           N  
+HETATM   19  NAQ E1B A 338       1.233  15.801  42.806  1.00  0.00           N  
+HETATM   20  CAR E1B A 338       3.228  19.903  37.246  1.00  0.00           C  
+HETATM   21  CAS E1B A 338       3.289  13.130  41.463  1.00  0.00           C  
+HETATM   22  CAT E1B A 338       1.659  14.480  42.568  1.00  0.00           C  
+HETATM   23  CAU E1B A 338       2.585  19.797  38.594  1.00  0.00           C  
+HETATM   24  CAV E1B A 338       1.222  17.136  42.346  1.00  0.00           C  
+HETATM   25  CAW E1B A 338       1.878  18.491  40.513  1.00  0.00           C  
+HETATM   26  CAY E1B A 338       1.322  19.596  41.120  1.00  0.00           C  
+CONECT    1    2    6
+CONECT    1    6
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3    5   24
+CONECT    4   24
+CONECT    5    4    6   26
+CONECT    5   26
+CONECT    6    1    5
+CONECT    6    1
+CONECT    7   10
+CONECT    7   10
+CONECT    7   10
+CONECT    8   20
+CONECT    8   20
+CONECT    9   20
+CONECT   10    7   21
+CONECT   10    7
+CONECT   10    7
+CONECT   11   12   13
+CONECT   11   12
+CONECT   12   11   21
+CONECT   12   11
+CONECT   13   11   22
+CONECT   13   22
+CONECT   14   15   23
+CONECT   14   15
+CONECT   15   14   26
+CONECT   15   14
+CONECT   16   21   22
+CONECT   16   21
+CONECT   17   23   25
+CONECT   17   23
+CONECT   18   24   25
+CONECT   18   25
+CONECT   19   22   24
+CONECT   20    8    9   23
+CONECT   20    8
+CONECT   21   10   12   16
+CONECT   21   16
+CONECT   22   13   16   19
+CONECT   22   13
+CONECT   23   14   17   20
+CONECT   23   17
+CONECT   24    4   18   19
+CONECT   24    4
+CONECT   25   17   18   26
+CONECT   25   18
+CONECT   26    5   15   25
+CONECT   26    5
+ENDMDL
+END   

@@ -1,0 +1,76 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6gu4_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  FC8 A 301      -0.200  19.112  42.503  1.00  0.00           C  
+HETATM    2  C14 FC8 A 301       1.925  13.585  40.273  1.00  0.00           C  
+HETATM    3  C5  FC8 A 301      -0.599  17.815  42.866  1.00  0.00           C  
+HETATM    4  C6  FC8 A 301      -1.833  16.398  44.508  1.00  0.00           C  
+HETATM    5  C11 FC8 A 301      -1.750  16.247  45.894  1.00  0.00           C  
+HETATM    6  C7  FC8 A 301      -2.253  15.324  43.727  1.00  0.00           C  
+HETATM    7  C8  FC8 A 301      -2.593  14.125  44.323  1.00  0.00           C  
+HETATM    8  C9  FC8 A 301      -2.522  13.970  45.692  1.00  0.00           C  
+HETATM    9  C10 FC8 A 301      -2.099  15.034  46.455  1.00  0.00           C  
+HETATM   10  C12 FC8 A 301       0.704  17.000  41.097  1.00  0.00           C  
+HETATM   11  C13 FC8 A 301       0.785  14.516  40.682  1.00  0.00           C  
+HETATM   12  N1  FC8 A 301       0.891  20.557  41.268  1.00  0.00           N  
+HETATM   13  N2  FC8 A 301      -0.496  20.358  43.029  1.00  0.00           N  
+HETATM   14  C3  FC8 A 301       0.185  21.173  42.259  1.00  0.00           C  
+HETATM   15  N3  FC8 A 301      -1.449  17.616  43.909  1.00  0.00           N  
+HETATM   16  C1  FC8 A 301       3.173  21.057  40.618  1.00  0.00           C  
+HETATM   17  C2  FC8 A 301       1.735  21.190  40.246  1.00  0.00           C  
+HETATM   18 CL1  FC8 A 301      -1.995  14.865  48.181  1.00  0.00          Cl  
+HETATM   19  N4  FC8 A 301      -0.126  16.784  42.141  1.00  0.00           N  
+HETATM   20  N5  FC8 A 301       1.152  15.909  40.412  1.00  0.00           N  
+HETATM   21  C15 FC8 A 301       1.427  12.181  39.950  1.00  0.00           C  
+HETATM   22  C16 FC8 A 301       0.177  11.832  40.730  1.00  0.00           C  
+HETATM   23  C17 FC8 A 301      -0.988  12.732  40.348  1.00  0.00           C  
+HETATM   24  C18 FC8 A 301      -0.535  14.146  39.982  1.00  0.00           C  
+HETATM   25  N6  FC8 A 301      -0.431  14.288  38.495  1.00  0.00           N1+
+HETATM   26  N7  FC8 A 301       1.134  18.211  40.680  1.00  0.00           N  
+HETATM   27  C19 FC8 A 301       0.650  19.219  41.419  1.00  0.00           C  
+CONECT    1    3   13   27
+CONECT    1   27
+CONECT    2   11   21
+CONECT    3    1   15   19
+CONECT    3   19
+CONECT    4    5    6   15
+CONECT    4    6
+CONECT    5    4    9
+CONECT    5    9
+CONECT    6    4    7
+CONECT    6    4
+CONECT    7    6    8
+CONECT    7    8
+CONECT    8    7    9
+CONECT    8    7
+CONECT    9    5    8   18
+CONECT    9    5
+CONECT   10   19   20   26
+CONECT   10   26
+CONECT   11    2   20   24
+CONECT   12   14   17   27
+CONECT   13    1   14
+CONECT   13   14
+CONECT   14   12   13
+CONECT   14   13
+CONECT   15    3    4
+CONECT   16   17
+CONECT   17   12   16
+CONECT   18    9
+CONECT   19    3   10
+CONECT   19    3
+CONECT   20   10   11
+CONECT   21    2   22
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   11   23   25
+CONECT   25   24
+CONECT   26   10   27
+CONECT   26   10
+CONECT   27    1   12   26
+CONECT   27    1
+ENDMDL
+END   

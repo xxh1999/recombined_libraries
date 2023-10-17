@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1zzl_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C7  TZY A 999       1.091  18.276  41.873  1.00  0.00           C  
+HETATM    2  C9  TZY A 999       3.930  17.132  39.094  1.00  0.00           C  
+HETATM    3  C13 TZY A 999       0.822  21.015  42.222  1.00  0.00           C  
+HETATM    4  C21 TZY A 999      -1.187  16.637  43.418  1.00  0.00           C  
+HETATM    5  C8  TZY A 999       1.834  20.525  41.446  1.00  0.00           C  
+HETATM    6  C18 TZY A 999       5.900  22.973  40.636  1.00  0.00           C  
+HETATM    7  C16 TZY A 999      -0.096  20.103  42.846  1.00  0.00           C  
+HETATM    8  F22 TZY A 999       6.389  24.215  40.806  1.00  0.00           F  
+HETATM    9  C15 TZY A 999       5.452  22.636  39.364  1.00  0.00           C  
+HETATM   10  C11 TZY A 999       4.897  21.376  39.128  1.00  0.00           C  
+HETATM   11  C14 TZY A 999       5.787  22.086  41.705  1.00  0.00           C  
+HETATM   12  C10 TZY A 999       5.242  20.810  41.483  1.00  0.00           C  
+HETATM   13  C5  TZY A 999       4.787  20.459  40.185  1.00  0.00           C  
+HETATM   14  C2  TZY A 999       4.191  19.104  39.896  1.00  0.00           C  
+HETATM   15  N6  TZY A 999       4.715  18.159  39.086  1.00  0.00           N  
+HETATM   16  O4  TZY A 999       2.859  17.332  39.873  1.00  0.00           O  
+HETATM   17  C1  TZY A 999       3.020  18.562  40.414  1.00  0.00           C  
+HETATM   18  C3  TZY A 999       2.004  19.136  41.293  1.00  0.00           C  
+HETATM   19  N12 TZY A 999       0.051  18.742  42.643  1.00  0.00           N  
+HETATM   20  C17 TZY A 999      -0.951  18.139  43.352  1.00  0.00           C  
+HETATM   21  C24 TZY A 999      -2.133  16.253  42.265  1.00  0.00           C  
+HETATM   22  C23 TZY A 999      -1.817  16.210  44.747  1.00  0.00           C  
+HETATM   23  N19 TZY A 999      -1.152  20.273  43.641  1.00  0.00           N  
+HETATM   24  N20 TZY A 999      -1.676  19.106  43.911  1.00  0.00           N  
+CONECT    1   18   19
+CONECT    1   18
+CONECT    2   15   16
+CONECT    2   15
+CONECT    3    5    7
+CONECT    3    5
+CONECT    4   20   21   22
+CONECT    5    3   18
+CONECT    5    3
+CONECT    6    8    9   11
+CONECT    6    9
+CONECT    7    3   19   23
+CONECT    7   23
+CONECT    8    6
+CONECT    9    6   10
+CONECT    9    6
+CONECT   10    9   13
+CONECT   10   13
+CONECT   11    6   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   10   12   14
+CONECT   13   10
+CONECT   14   13   15   17
+CONECT   14   17
+CONECT   15    2   14
+CONECT   15    2
+CONECT   16    2   17
+CONECT   17   14   16   18
+CONECT   17   14
+CONECT   18    1    5   17
+CONECT   18    1
+CONECT   19    1    7   20
+CONECT   20    4   19   24
+CONECT   20   24
+CONECT   21    4
+CONECT   22    4
+CONECT   23    7   24
+CONECT   23    7
+CONECT   24   20   23
+CONECT   24   20
+ENDMDL
+END   

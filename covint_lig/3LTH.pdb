@@ -1,0 +1,32 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3LTH
+MODEL        1
+ATOM      1  N   CYS A 115      59.019  56.492  65.155  1.00 17.37           N1+
+ATOM      2  CA  CYS A 115      59.974  57.480  65.655  1.00 18.25           C  
+ATOM      3  C   CYS A 115      61.296  56.808  66.040  1.00 14.83           C  
+ATOM      4  O   CYS A 115      61.325  55.958  66.931  1.00 15.48           O  
+ATOM      5  CB  CYS A 115      59.350  58.241  66.842  1.00 17.40           C  
+ATOM      6  SG  CYS A 115      58.063  59.374  66.231  1.00 17.41           S  
+TER       7      CYS A 115
+HETATM    8  C1  FFQ A 500      56.759  59.409  67.516  1.00 16.27           C  
+HETATM    9  O1  FFQ A 500      54.346  59.123  67.762  1.00 19.62           O  
+HETATM   10  P1  FFQ A 500      55.426  56.849  67.170  1.00 17.37           P  
+HETATM   11  C2  FFQ A 500      55.472  58.679  67.036  1.00 14.99           C  
+HETATM   12  O2  FFQ A 500      54.166  56.436  66.441  1.00 17.33           O1-
+HETATM   13  C3  FFQ A 500      57.271  59.061  68.926  1.00 15.77           C  
+HETATM   14  O3  FFQ A 500      55.397  56.465  68.635  1.00 15.72           O  
+HETATM   15  O4  FFQ A 500      56.655  56.329  66.466  1.00 17.83           O1-
+CONECT    8    6   11   13
+CONECT    9   11
+CONECT   10   11   12   14   15
+CONECT   10   14
+CONECT   11    8    9   10
+CONECT   12   10
+CONECT   13    8
+CONECT   14   10
+CONECT   14   10
+CONECT   15   10
+ENDMDL
+END   

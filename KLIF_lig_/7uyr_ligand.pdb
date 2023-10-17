@@ -1,0 +1,93 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7uyr_ligand
+MODEL        1
+HETATM    1  C1  OVI A1201       2.206  11.551  48.686  1.00  0.00           C  
+HETATM    2  C2  OVI A1201       1.086  10.909  47.849  1.00  0.00           C  
+HETATM    3  C4  OVI A1201      -1.025  11.930  47.025  1.00  0.00           C  
+HETATM    4  C6  OVI A1201      -1.808  13.229  47.161  1.00  0.00           C  
+HETATM    5  C7  OVI A1201      -1.379  14.208  46.289  1.00  0.00           C  
+HETATM    6  C8  OVI A1201      -1.759  15.491  46.618  1.00  0.00           C  
+HETATM    7  C11 OVI A1201      -0.173  15.127  44.382  1.00  0.00           C  
+HETATM    8  C12 OVI A1201      -0.563  14.026  45.169  1.00  0.00           C  
+HETATM    9  N13 OVI A1201      -0.335  17.605  44.118  1.00  0.00           N  
+HETATM   10  C16 OVI A1201       0.918  17.297  40.644  1.00  0.00           C  
+HETATM   11  C18 OVI A1201       0.914  19.481  41.376  1.00  0.00           C  
+HETATM   12  C19 OVI A1201       1.092  20.806  41.334  1.00  0.00           C  
+HETATM   13  C21 OVI A1201       0.315  20.320  43.263  1.00  0.00           C  
+HETATM   14  C23 OVI A1201       0.421  19.138  42.595  1.00  0.00           C  
+HETATM   15  C24 OVI A1201       1.175  16.342  39.671  1.00  0.00           C  
+HETATM   16  C27 OVI A1201       0.926  15.444  37.474  1.00  0.00           C  
+HETATM   17  C30 OVI A1201       2.006  15.264  39.989  1.00  0.00           C  
+HETATM   18  F26 OVI A1201      -0.198  17.445  38.045  1.00  0.00           F  
+HETATM   19  C25 OVI A1201       0.631  16.427  38.401  1.00  0.00           C  
+HETATM   20  C28 OVI A1201       1.738  14.367  37.790  1.00  0.00           C  
+HETATM   21  C29 OVI A1201       2.280  14.270  39.057  1.00  0.00           C  
+HETATM   22  F31 OVI A1201       2.538  15.173  41.188  1.00  0.00           F  
+HETATM   23  N15 OVI A1201       0.416  16.891  41.880  1.00  0.00           N  
+HETATM   24  N17 OVI A1201       1.159  18.578  40.417  1.00  0.00           N  
+HETATM   25  N20 OVI A1201       0.717  21.328  42.501  1.00  0.00           N  
+HETATM   26  O22 OVI A1201      -0.100  20.488  44.413  1.00  0.00           O  
+HETATM   27  C14 OVI A1201       0.157  17.835  42.885  1.00  0.00           C  
+HETATM   28  C10 OVI A1201      -0.598  16.422  44.704  1.00  0.00           C  
+HETATM   29  C9  OVI A1201      -1.378  16.568  45.841  1.00  0.00           C  
+HETATM   30  O5  OVI A1201      -1.444  10.959  46.392  1.00  0.00           O  
+HETATM   31  N3  OVI A1201       0.109  11.978  47.745  1.00  0.00           N  
+CONECT    1    2
+CONECT    2    1   31
+CONECT    3    4   30   31
+CONECT    3   30
+CONECT    4    3    5
+CONECT    5    4    6    8
+CONECT    5    8
+CONECT    6    5   29
+CONECT    6   29
+CONECT    7    8   28
+CONECT    7   28
+CONECT    8    5    7
+CONECT    8    5
+CONECT    9   27   28
+CONECT   10   15   23   24
+CONECT   10   23
+CONECT   11   12   14   24
+CONECT   11   24
+CONECT   12   11   25
+CONECT   12   25
+CONECT   13   14   25   26
+CONECT   13   26
+CONECT   14   11   13   27
+CONECT   14   27
+CONECT   15   10   17   19
+CONECT   15   19
+CONECT   16   19   20
+CONECT   16   20
+CONECT   17   15   21   22
+CONECT   17   21
+CONECT   18   19
+CONECT   19   15   16   18
+CONECT   19   15
+CONECT   20   16   21
+CONECT   20   16
+CONECT   21   17   20
+CONECT   21   17
+CONECT   22   17
+CONECT   23   10   27
+CONECT   23   10
+CONECT   24   10   11
+CONECT   24   11
+CONECT   25   12   13
+CONECT   25   12
+CONECT   26   13
+CONECT   26   13
+CONECT   27    9   14   23
+CONECT   27   14
+CONECT   28    7    9   29
+CONECT   28    7
+CONECT   29    6   28
+CONECT   29    6
+CONECT   30    3
+CONECT   30    3
+CONECT   31    2    3
+ENDMDL
+END   

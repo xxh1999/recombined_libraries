@@ -1,0 +1,87 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1GA0
+MODEL        1
+ATOM      1  N   SER A  64      17.525  16.592   9.965  1.00  8.42           N1+
+ATOM      2  CA  SER A  64      18.257  15.702   9.072  1.00 10.79           C  
+ATOM      3  C   SER A  64      18.727  14.392   9.735  1.00  8.29           C  
+ATOM      4  O   SER A  64      19.319  13.569   9.039  1.00  7.36           O  
+ATOM      5  CB  SER A  64      19.504  16.429   8.552  1.00 14.32           C  
+ATOM      6  OG  SER A  64      19.208  17.498   7.654  1.00 18.84           O  
+TER       7      SER A  64
+HETATM    8  S1  DVR A 400      22.463  19.102   8.841  0.70 51.40           S  
+HETATM    9  C2  DVR A 400      22.437  20.363   7.502  0.70 49.61           C  
+HETATM   10  C3  DVR A 400      22.363  21.726   8.199  1.00 47.52           C  
+HETATM   11  C4  DVR A 400      21.017  22.296   8.640  1.00 45.47           C  
+HETATM   12  N5  DVR A 400      19.850  21.825   8.366  1.00 39.81           N  
+HETATM   13  C6  DVR A 400      19.489  21.090   7.262  1.00 35.07           C  
+HETATM   14  C7  DVR A 400      19.127  19.775   7.066  1.00 30.22           C  
+HETATM   15  C8  DVR A 400      19.121  18.766   8.116  1.00 25.30           C  
+HETATM   16  C9  DVR A 400      18.826  19.564   5.698  1.00 32.26           C  
+HETATM   17  C10 DVR A 400      23.509  22.398   8.480  1.00 48.50           C  
+HETATM   18  C11 DVR A 400      24.857  21.880   8.301  1.00 49.77           C  
+HETATM   19  C12 DVR A 400      25.884  22.482   8.994  1.00 50.87           C  
+HETATM   20  N12 DVR A 400      27.073  21.809   8.844  1.00 51.16           N  
+HETATM   21  O12 DVR A 400      26.004  23.465   9.759  1.00 51.44           O1-
+HETATM   22  O8  DVR A 400      19.115  19.031   9.316  1.00 19.25           O  
+HETATM   23  C4A DVR A 400      20.935  23.509   9.557  1.00 46.02           C  
+HETATM   24  O4A DVR A 400      21.711  23.537  10.538  1.00 46.40           O1-
+HETATM   25  O4B DVR A 400      20.039  24.348   9.298  1.00 47.04           O  
+HETATM   26  O1A DVR A 400      23.579  19.440   9.734  0.70 51.33           O  
+HETATM   27  O1B DVR A 400      22.441  17.774   8.215  0.70 50.70           O  
+HETATM   28  CG  DVR A 400      18.933  20.784   5.078  1.00 33.93           C  
+HETATM   29  CD1 DVR A 400      18.725  21.231   3.745  1.00 34.78           C  
+HETATM   30  ND2 DVR A 400      19.330  21.746   6.042  1.00 34.42           N  
+HETATM   31  CE1 DVR A 400      18.887  22.565   3.444  1.00 35.78           C  
+HETATM   32  CE2 DVR A 400      19.485  23.068   5.723  1.00 35.55           C  
+HETATM   33  CZ  DVR A 400      19.266  23.490   4.438  1.00 34.74           C  
+CONECT    8    9   26   27
+CONECT    8   26   27
+CONECT    9    8   10
+CONECT   10    9   11   17
+CONECT   10   17
+CONECT   11   10   12   23
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   14   30
+CONECT   13   14
+CONECT   14   13   15   16
+CONECT   14   13
+CONECT   15    6   14   22
+CONECT   15   22
+CONECT   16   14   28
+CONECT   16   28
+CONECT   17   10   18
+CONECT   17   10
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20   21
+CONECT   19   18
+CONECT   20   19
+CONECT   21   19
+CONECT   22   15
+CONECT   22   15
+CONECT   23   11   24   25
+CONECT   23   25
+CONECT   24   23
+CONECT   25   23
+CONECT   25   23
+CONECT   26    8
+CONECT   26    8
+CONECT   27    8
+CONECT   27    8
+CONECT   28   16   29   30
+CONECT   28   16
+CONECT   29   28   31
+CONECT   29   31
+CONECT   30   13   28   32
+CONECT   31   29   33
+CONECT   31   29
+CONECT   32   30   33
+CONECT   32   33
+CONECT   33   31   32
+CONECT   33   32
+ENDMDL
+END   

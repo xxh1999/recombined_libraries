@@ -1,0 +1,62 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7NUK
+MODEL        1
+ATOM      1  N   CYS B 145      19.441   0.359 -22.354  0.29 31.03           N1+
+ATOM      2  CA  CYS B 145      19.965  -0.646 -23.317  0.29 31.58           C  
+ATOM      3  C   CYS B 145      20.270  -1.944 -22.561  0.29 29.64           C  
+ATOM      4  O   CYS B 145      20.884  -1.859 -21.486  0.29 30.35           O  
+ATOM      5  CB  CYS B 145      21.206  -0.095 -24.011  0.29 35.11           C  
+ATOM      6  SG  CYS B 145      20.946   1.388 -24.949  0.29 41.39           S  
+TER       7      CYS B 145
+HETATM    8  N1  USH B 704      22.526   3.698 -25.291  0.21 32.67           N  
+HETATM    9  C4  USH B 704      24.397   2.812 -23.363  0.21 33.25           C  
+HETATM   10  C5  USH B 704      23.287   3.529 -26.514  0.21 33.38           C  
+HETATM   11  C6  USH B 704      22.513   3.848 -27.793  0.21 33.90           C  
+HETATM   12  C7  USH B 704      22.925   3.479 -30.197  0.21 34.44           C  
+HETATM   13  C8  USH B 704      22.713   2.155 -30.540  0.21 34.10           C  
+HETATM   14  C10 USH B 704      22.203   2.806 -32.790  0.21 34.83           C  
+HETATM   15  C13 USH B 704      23.798   6.607 -31.545  0.21 35.42           C  
+HETATM   16  O1  USH B 704      20.687   3.215 -24.054  0.21 30.64           O  
+HETATM   17  C1  USH B 704      21.424   2.965 -25.008  0.21 32.08           C  
+HETATM   18  C2  USH B 704      23.025   4.692 -24.327  0.21 32.89           C  
+HETATM   19  C3  USH B 704      24.327   4.295 -23.657  0.21 32.99           C  
+HETATM   20  N2  USH B 704      23.280   3.904 -28.898  0.21 34.84           N  
+HETATM   21  C9  USH B 704      22.356   1.822 -31.838  0.21 34.39           C  
+HETATM   22  C11 USH B 704      22.402   4.137 -32.467  0.21 34.85           C  
+HETATM   23  C12 USH B 704      22.767   4.483 -31.170  0.21 35.54           C  
+HETATM   24  O2  USH B 704      22.995   5.756 -30.732  0.21 36.32           O  
+HETATM   25  O3  USH B 704      21.295   4.016 -27.788  0.21 33.14           O  
+HETATM   26  C14 USH B 704      21.127   1.776 -25.892  0.21 31.44           C  
+CONECT    8   10   17   18
+CONECT    9   19
+CONECT   10    8   11
+CONECT   11   10   20   25
+CONECT   11   25
+CONECT   12   13   20   23
+CONECT   12   23
+CONECT   13   12   21
+CONECT   13   21
+CONECT   14   21   22
+CONECT   14   22
+CONECT   15   24
+CONECT   16   17
+CONECT   16   17
+CONECT   17    8   16   26
+CONECT   17   16
+CONECT   18    8   19
+CONECT   19    9   18
+CONECT   20   11   12
+CONECT   21   13   14
+CONECT   21   13
+CONECT   22   14   23
+CONECT   22   14
+CONECT   23   12   22   24
+CONECT   23   12
+CONECT   24   15   23
+CONECT   25   11
+CONECT   25   11
+CONECT   26    6   17
+ENDMDL
+END   

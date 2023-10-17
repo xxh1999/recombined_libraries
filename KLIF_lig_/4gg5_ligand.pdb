@@ -1,0 +1,90 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4gg5_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CAQ Q0J A1401      -0.864  15.242  46.821  1.00  0.00           C  
+HETATM    2  CAO Q0J A1401      -1.933  14.498  47.564  1.00  0.00           C  
+HETATM    3  NBD Q0J A1401      -1.896  14.754  49.031  1.00  0.00           N1+
+HETATM    4  CAA Q0J A1401      -1.487  13.762  49.959  1.00  0.00           C  
+HETATM    5  CAP Q0J A1401      -1.817  16.195  49.364  1.00  0.00           C  
+HETATM    6  CAR Q0J A1401      -1.620  17.072  48.175  1.00  0.00           C  
+HETATM    7  NBE Q0J A1401      -0.718  16.520  47.295  1.00  0.00           N  
+HETATM    8  CAX Q0J A1401      -0.297  17.383  46.170  1.00  0.00           C  
+HETATM    9  CAM Q0J A1401       0.354  16.900  45.048  1.00  0.00           C  
+HETATM   10  CBB Q0J A1401       0.703  17.814  44.014  1.00  0.00           C  
+HETATM   11  CAJ Q0J A1401      -0.603  18.781  46.254  1.00  0.00           C  
+HETATM   12  NAT Q0J A1401      -0.272  19.600  45.278  1.00  0.00           N  
+HETATM   13  CBA Q0J A1401       0.365  19.165  44.170  1.00  0.00           C  
+HETATM   14  CAN Q0J A1401       0.687  20.106  43.164  1.00  0.00           C  
+HETATM   15  CAY Q0J A1401       1.343  19.699  42.006  1.00  0.00           C  
+HETATM   16  CBF Q0J A1401       1.658  20.723  40.914  1.00  0.00           C  
+HETATM   17  FAE Q0J A1401       0.900  20.385  39.843  1.00  0.00           F  
+HETATM   18  FAF Q0J A1401       1.294  21.931  41.284  1.00  0.00           F  
+HETATM   19  FAD Q0J A1401       2.924  20.708  40.567  1.00  0.00           F  
+HETATM   20  CAL Q0J A1401       1.697  18.308  41.834  1.00  0.00           C  
+HETATM   21  CAZ Q0J A1401       1.383  17.392  42.807  1.00  0.00           C  
+HETATM   22  NAU Q0J A1401       1.745  16.001  42.632  1.00  0.00           N  
+HETATM   23  CAS Q0J A1401       2.318  15.548  41.381  1.00  0.00           C  
+HETATM   24  CAV Q0J A1401       1.267  15.328  40.292  1.00  0.00           C  
+HETATM   25  CAK Q0J A1401       1.194  16.226  39.192  1.00  0.00           C  
+HETATM   26  CAH Q0J A1401       0.367  14.255  40.404  1.00  0.00           C  
+HETATM   27  CAG Q0J A1401      -0.612  14.051  39.420  1.00  0.00           C  
+HETATM   28  CAI Q0J A1401      -0.679  14.943  38.312  1.00  0.00           C  
+HETATM   29  CAW Q0J A1401       0.227  16.020  38.216  1.00  0.00           C  
+HETATM   30  NBC Q0J A1401       0.140  16.896  37.093  1.00  0.00           N1+
+HETATM   31  OAC Q0J A1401      -0.918  16.820  36.347  1.00  0.00           O  
+HETATM   32  OAB Q0J A1401       1.091  17.762  36.815  1.00  0.00           O1-
+CONECT    1    2    7
+CONECT    2    1    3
+CONECT    3    2    4    5
+CONECT    4    3
+CONECT    5    3    6
+CONECT    6    5    7
+CONECT    7    1    6    8
+CONECT    8    7    9   11
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    9   13   21
+CONECT   10   21
+CONECT   11    8   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   10   12   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   16   20
+CONECT   15   20
+CONECT   16   15   17   18   19
+CONECT   17   16
+CONECT   18   16
+CONECT   19   16
+CONECT   20   15   21
+CONECT   20   15
+CONECT   21   10   20   22
+CONECT   21   10
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   23   25   26
+CONECT   24   26
+CONECT   25   24   29
+CONECT   25   29
+CONECT   26   24   27
+CONECT   26   24
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   25   28   30
+CONECT   29   25
+CONECT   30   29   31   32
+CONECT   30   31
+CONECT   31   30
+CONECT   31   30
+CONECT   32   30
+ENDMDL
+END   

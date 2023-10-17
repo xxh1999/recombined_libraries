@@ -1,0 +1,92 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2hog_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C   Q71 A 324       1.773  17.950  40.262  1.00  0.00           C  
+HETATM    2  C1  Q71 A 324       2.021  19.291  39.849  1.00  0.00           C  
+HETATM    3  C2  Q71 A 324       1.518  20.385  40.645  1.00  0.00           C  
+HETATM    4  C3  Q71 A 324       1.032  17.665  41.440  1.00  0.00           C  
+HETATM    5  C4  Q71 A 324       0.517  18.749  42.233  1.00  0.00           C  
+HETATM    6  C5  Q71 A 324       0.778  20.070  41.816  1.00  0.00           C  
+HETATM    7  N   Q71 A 324       0.178  20.871  42.748  1.00  0.00           N  
+HETATM    8  N6  Q71 A 324      -0.450  20.203  43.723  1.00  0.00           N  
+HETATM    9  C7  Q71 A 324      -0.254  18.912  43.424  1.00  0.00           C  
+HETATM   10  C8  Q71 A 324      -0.825  17.866  44.295  1.00  0.00           C  
+HETATM   11  N9  Q71 A 324      -1.691  18.079  45.327  1.00  0.00           N  
+HETATM   12  C10 Q71 A 324      -0.585  16.509  44.221  1.00  0.00           C  
+HETATM   13  C11 Q71 A 324      -1.319  15.876  45.234  1.00  0.00           C  
+HETATM   14  C12 Q71 A 324      -2.014  16.889  45.928  1.00  0.00           C  
+HETATM   15  C13 Q71 A 324      -2.868  16.613  47.031  1.00  0.00           C  
+HETATM   16  C14 Q71 A 324      -2.998  15.257  47.436  1.00  0.00           C  
+HETATM   17  C15 Q71 A 324      -2.308  14.212  46.760  1.00  0.00           C  
+HETATM   18  C16 Q71 A 324      -1.464  14.521  45.652  1.00  0.00           C  
+HETATM   19  C17 Q71 A 324      -2.434  12.785  47.228  1.00  0.00           C  
+HETATM   20  N18 Q71 A 324      -1.690  12.495  48.563  1.00  0.00           N1+
+HETATM   21  C19 Q71 A 324      -1.701  10.995  48.867  1.00  0.00           C  
+HETATM   22  C20 Q71 A 324      -0.968  10.698  50.194  1.00  0.00           C  
+HETATM   23  C21 Q71 A 324       0.463  11.253  50.188  1.00  0.00           C  
+HETATM   24  C22 Q71 A 324       0.475  12.746  49.871  1.00  0.00           C  
+HETATM   25  C23 Q71 A 324      -0.235  13.039  48.545  1.00  0.00           C  
+HETATM   26  C24 Q71 A 324       2.775  19.540  38.607  1.00  0.00           C  
+HETATM   27  C25 Q71 A 324       2.713  20.620  37.651  1.00  0.00           C  
+HETATM   28  N26 Q71 A 324       3.599  20.395  36.674  1.00  0.00           N  
+HETATM   29  N27 Q71 A 324       4.136  19.241  37.060  1.00  0.00           N  
+HETATM   30  N28 Q71 A 324       3.706  18.673  38.186  1.00  0.00           N  
+HETATM   31  C29 Q71 A 324       1.867  21.846  37.605  1.00  0.00           C  
+HETATM   32  O   Q71 A 324       1.472  22.181  36.280  1.00  0.00           O  
+CONECT    1    2    4
+CONECT    1    2
+CONECT    2    1    3   26
+CONECT    2    1
+CONECT    3    2    6
+CONECT    3    6
+CONECT    4    1    5
+CONECT    4    5
+CONECT    5    4    6    9
+CONECT    5    4
+CONECT    6    3    5    7
+CONECT    6    3
+CONECT    7    6    8
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    5    8   10
+CONECT    9    8
+CONECT   10    9   11   12
+CONECT   10   12
+CONECT   11   10   14
+CONECT   12   10   13
+CONECT   12   10
+CONECT   13   12   14   18
+CONECT   13   18
+CONECT   14   11   13   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   16   18   19
+CONECT   17   16
+CONECT   18   13   17
+CONECT   18   13
+CONECT   19   17   20
+CONECT   20   19   21   25
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   20   24
+CONECT   26    2   27   30
+CONECT   26   30
+CONECT   27   26   28   31
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   28   30
+CONECT   30   26   29
+CONECT   30   26
+CONECT   31   27   32
+CONECT   32   31
+ENDMDL
+END   

@@ -1,0 +1,77 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7ayi_ligand
+MODEL        1
+HETATM    1  C7  S9K A 501       0.579  15.879  42.032  1.00  0.00           C  
+HETATM    2  C9  S9K A 501       0.723  13.492  41.252  1.00  0.00           C  
+HETATM    3  N1  S9K A 501      -1.176  19.961  44.445  1.00  0.00           N  
+HETATM    4  C2  S9K A 501       1.799  13.714  38.320  1.00  0.00           C  
+HETATM    5  N2  S9K A 501      -2.101  18.206  45.534  1.00  0.00           N  
+HETATM    6  C10 S9K A 501       0.236  18.226  42.848  1.00  0.00           C  
+HETATM    7  C4  S9K A 501       2.239  16.755  39.992  1.00  0.00           C  
+HETATM    8  N3  S9K A 501      -0.589  17.724  43.791  1.00  0.00           N  
+HETATM    9  C6  S9K A 501       0.866  17.243  41.925  1.00  0.00           C  
+HETATM   10  O   S9K A 501       1.738  13.967  37.120  1.00  0.00           O  
+HETATM   11  C1  S9K A 501       1.082  12.531  38.916  1.00  0.00           C  
+HETATM   12  N   S9K A 501       2.494  14.504  39.165  1.00  0.00           N  
+HETATM   13  C3  S9K A 501       1.942  15.399  40.108  1.00  0.00           C  
+HETATM   14  C8  S9K A 501       1.099  14.949  41.133  1.00  0.00           C  
+HETATM   15  C   S9K A 501       0.064  12.909  39.997  1.00  0.00           C  
+HETATM   16  C5  S9K A 501       1.707  17.659  40.893  1.00  0.00           C  
+HETATM   17  C13 S9K A 501      -1.256  18.626  44.545  1.00  0.00           C  
+HETATM   18  C12 S9K A 501      -0.333  20.414  43.511  1.00  0.00           C  
+HETATM   19  C11 S9K A 501       0.407  19.595  42.690  1.00  0.00           C  
+HETATM   20  C14 S9K A 501      -2.485  16.926  45.997  1.00  0.00           C  
+HETATM   21  C19 S9K A 501      -2.004  15.756  45.418  1.00  0.00           C  
+HETATM   22  C18 S9K A 501      -2.420  14.524  45.900  1.00  0.00           C  
+HETATM   23  C17 S9K A 501      -3.313  14.450  46.951  1.00  0.00           C  
+HETATM   24  C16 S9K A 501      -3.791  15.608  47.528  1.00  0.00           C  
+HETATM   25  C15 S9K A 501      -3.381  16.846  47.060  1.00  0.00           C  
+CONECT    1    9   14
+CONECT    1   14
+CONECT    2   14   15
+CONECT    3   17   18
+CONECT    3   17
+CONECT    4   10   11   12
+CONECT    4   10
+CONECT    5   17   20
+CONECT    6    8    9   19
+CONECT    6    8
+CONECT    7   13   16
+CONECT    7   13
+CONECT    8    6   17
+CONECT    8    6
+CONECT    9    1    6   16
+CONECT    9   16
+CONECT   10    4
+CONECT   10    4
+CONECT   11    4   15
+CONECT   12    4   13
+CONECT   13    7   12   14
+CONECT   13    7
+CONECT   14    1    2   13
+CONECT   14    1
+CONECT   15    2   11
+CONECT   16    7    9
+CONECT   16    9
+CONECT   17    3    5    8
+CONECT   17    3
+CONECT   18    3   19
+CONECT   18   19
+CONECT   19    6   18
+CONECT   19   18
+CONECT   20    5   21   25
+CONECT   20   25
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   20   24
+CONECT   25   20
+ENDMDL
+END   

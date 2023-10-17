@@ -1,0 +1,33 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3PRK
+MODEL        1
+ATOM      1  N   ALA I 281     -27.478  24.362  15.729  1.00 35.35           N1+
+ATOM      2  CA  ALA I 281     -26.734  23.365  14.968  1.00 32.77           C  
+ATOM      3  C   ALA I 281     -25.292  23.224  15.486  1.00 30.79           C  
+ATOM      4  O   ALA I 281     -24.756  24.107  16.159  1.00 29.77           O  
+ATOM      5  CB  ALA I 281     -26.646  23.856  13.511  1.00 33.33           C  
+TER       6      ALA I 281
+HETATM    7  C1  MSU I 280     -28.222  24.128  16.819  1.00 37.80           C  
+HETATM    8  O1  MSU I 280     -28.359  23.010  17.317  1.00 39.42           O  
+HETATM    9  C2  MSU I 280     -28.920  25.344  17.428  1.00 38.39           C  
+HETATM   10  C3  MSU I 280     -30.218  24.962  18.165  1.00 39.47           C  
+HETATM   11  C4  MSU I 280     -31.089  26.161  18.539  1.00 40.40           C  
+HETATM   12  OT1 MSU I 280     -32.317  26.074  18.562  1.00 41.17           O  
+HETATM   13  OT2 MSU I 280     -30.371  27.244  18.877  1.00 40.25           O  
+HETATM   14  CT  MSU I 280     -31.016  28.373  19.431  1.00 40.24           C  
+CONECT    7    1    8    9
+CONECT    7    8
+CONECT    8    7
+CONECT    8    7
+CONECT    9    7   10
+CONECT   10    9   11
+CONECT   11   10   12   13
+CONECT   11   12
+CONECT   12   11
+CONECT   12   11
+CONECT   13   11   14
+CONECT   14   13
+ENDMDL
+END   

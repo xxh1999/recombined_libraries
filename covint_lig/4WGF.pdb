@@ -1,0 +1,26 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4WGF
+MODEL        1
+ATOM      1  N   CYS A 118     -75.111  23.279  25.709  1.00  7.78           N1+
+ATOM      2  CA  CYS A 118     -76.409  23.528  26.325  1.00  8.89           C  
+ATOM      3  C   CYS A 118     -76.288  24.283  27.644  1.00 11.45           C  
+ATOM      4  O   CYS A 118     -77.273  24.808  28.157  1.00 10.08           O  
+ATOM      5  CB  CYS A 118     -77.152  22.209  26.537  1.00 12.83           C  
+ATOM      6  SG  CYS A 118     -77.375  21.247  25.021  1.00 48.07           S  
+TER       7      CYS A 118
+HETATM    8  CA  ROP A 301     -76.891  19.863  24.120  1.00 55.15           C  
+HETATM    9  CB  ROP A 301     -77.170  19.009  22.902  1.00 55.57           C  
+HETATM   10  CG  ROP A 301     -78.424  19.506  22.216  1.00 57.08           C  
+HETATM   11  OD1 ROP A 301     -78.812  18.975  21.194  1.00 56.02           O  
+HETATM   12  ND2 ROP A 301     -79.148  20.595  22.767  1.00 59.41           N  
+CONECT    8    6    9
+CONECT    9    8   10
+CONECT   10    9   11   12
+CONECT   10   11
+CONECT   11   10
+CONECT   11   10
+CONECT   12   10
+ENDMDL
+END   

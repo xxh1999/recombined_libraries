@@ -1,0 +1,73 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7lt3_ligand
+MODEL        1
+HETATM    1  PB  ADP C4201       4.781  14.690  34.848  1.00  0.00           P1+
+HETATM    2  O1B ADP C4201       6.191  14.174  34.812  1.00  0.00           O1-
+HETATM    3  O2B ADP C4201       3.800  13.843  35.606  1.00  0.00           O1-
+HETATM    4  O3B ADP C4201       4.292  15.202  33.525  1.00  0.00           O1-
+HETATM    5  PA  ADP C4201       3.526  16.393  36.505  1.00  0.00           P1+
+HETATM    6  O1A ADP C4201       3.678  17.792  37.022  1.00  0.00           O1-
+HETATM    7  O2A ADP C4201       2.390  16.029  35.611  1.00  0.00           O1-
+HETATM    8  O3A ADP C4201       4.864  15.969  35.782  1.00  0.00           O  
+HETATM    9  O5' ADP C4201       3.402  15.453  37.772  1.00  0.00           O  
+HETATM   10  C5' ADP C4201       2.067  15.179  38.103  1.00  0.00           C  
+HETATM   11  C4' ADP C4201       1.897  15.100  39.591  1.00  0.00           C  
+HETATM   12  O4' ADP C4201       2.256  16.331  40.149  1.00  0.00           O  
+HETATM   13  C3' ADP C4201       0.443  14.924  39.913  1.00  0.00           C  
+HETATM   14  O3' ADP C4201       0.209  13.585  40.352  1.00  0.00           O  
+HETATM   15  C2' ADP C4201       0.154  15.848  41.050  1.00  0.00           C  
+HETATM   16  O2' ADP C4201      -0.041  15.053  42.213  1.00  0.00           O1-
+HETATM   17  C1' ADP C4201       1.415  16.617  41.249  1.00  0.00           C  
+HETATM   18  N9  ADP C4201       1.144  18.030  41.069  1.00  0.00           N  
+HETATM   19  C8  ADP C4201       1.268  18.572  39.876  1.00  0.00           C  
+HETATM   20  N7  ADP C4201       1.001  19.881  39.907  1.00  0.00           N  
+HETATM   21  C5  ADP C4201       0.718  20.181  41.160  1.00  0.00           C  
+HETATM   22  C6  ADP C4201       0.361  21.421  41.833  1.00  0.00           C  
+HETATM   23  N6  ADP C4201       0.257  22.574  41.141  1.00  0.00           N  
+HETATM   24  N1  ADP C4201       0.147  21.358  43.146  1.00  0.00           N  
+HETATM   25  C2  ADP C4201       0.250  20.190  43.774  1.00  0.00           C  
+HETATM   26  N3  ADP C4201       0.591  19.021  43.232  1.00  0.00           N  
+HETATM   27  C4  ADP C4201       0.818  18.962  41.931  1.00  0.00           C  
+CONECT    1    2    3    4    8
+CONECT    1    2
+CONECT    2    1
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1
+CONECT    5    6    7    8    9
+CONECT    5    6
+CONECT    6    5
+CONECT    6    5
+CONECT    7    5
+CONECT    8    1    5
+CONECT    9    5   10
+CONECT   10    9   11
+CONECT   11   10   12   13
+CONECT   12   11   17
+CONECT   13   11   14   15
+CONECT   14   13
+CONECT   15   13   16   17
+CONECT   16   15
+CONECT   17   12   15   18
+CONECT   18   17   19   27
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22   27
+CONECT   21   27
+CONECT   22   21   23   24
+CONECT   22   24
+CONECT   23   22
+CONECT   24   22   25
+CONECT   24   22
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   18   21   26
+CONECT   27   21
+ENDMDL
+END   

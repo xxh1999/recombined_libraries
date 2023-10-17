@@ -1,0 +1,94 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5ime_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C14 Q6B B 601       6.088  21.968  39.066  1.00  0.00           C  
+HETATM    2  C6  Q6B B 601       6.444  24.041  36.436  1.00  0.00           C  
+HETATM    3  C11 Q6B B 601       3.566  21.184  38.231  1.00  0.00           C  
+HETATM    4  C7  Q6B B 601       7.329  24.600  35.573  1.00  0.00           C  
+HETATM    5  C9  Q6B B 601       5.705  22.161  37.744  1.00  0.00           C  
+HETATM    6  C10 Q6B B 601       4.438  21.764  37.332  1.00  0.00           C  
+HETATM    7  C12 Q6B B 601       3.946  20.993  39.560  1.00  0.00           C  
+HETATM    8  C13 Q6B B 601       5.217  21.390  39.970  1.00  0.00           C  
+HETATM    9  C3  Q6B B 601       7.645  22.041  36.367  1.00  0.00           C  
+HETATM   10  C1  Q6B B 601       9.715  21.882  34.923  1.00  0.00           C  
+HETATM   11  C2  Q6B B 601       8.544  22.656  35.464  1.00  0.00           C  
+HETATM   12  O4  Q6B B 601       7.804  20.883  36.715  1.00  0.00           O  
+HETATM   13  N5  Q6B B 601       6.601  22.750  36.841  1.00  0.00           N  
+HETATM   14  N8  Q6B B 601       8.360  23.903  35.102  1.00  0.00           N  
+HETATM   15 CL1  Q6B B 601       5.705  21.158  41.615  1.00  0.00          Cl  
+HETATM   16  C16 Q6B B 601       2.997  20.368  40.512  1.00  0.00           C  
+HETATM   17  C17 Q6B B 601       2.010  21.114  41.099  1.00  0.00           C  
+HETATM   18  C18 Q6B B 601       1.105  20.483  41.984  1.00  0.00           C  
+HETATM   19  C19 Q6B B 601       0.073  21.208  42.601  1.00  0.00           C  
+HETATM   20  N20 Q6B B 601      -0.757  20.574  43.408  1.00  0.00           N  
+HETATM   21  C21 Q6B B 601      -0.624  19.273  43.639  1.00  0.00           C  
+HETATM   22  N22 Q6B B 601       0.334  18.546  43.083  1.00  0.00           N  
+HETATM   23  C23 Q6B B 601       1.213  19.101  42.253  1.00  0.00           C  
+HETATM   24  N24 Q6B B 601       2.213  18.361  41.668  1.00  0.00           N  
+HETATM   25  C25 Q6B B 601       3.094  18.941  40.827  1.00  0.00           C  
+HETATM   26  O26 Q6B B 601       3.979  18.276  40.320  1.00  0.00           O  
+HETATM   27  C27 Q6B B 601       2.342  16.931  41.976  1.00  0.00           C  
+HETATM   28  C28 Q6B B 601       1.251  16.104  41.284  1.00  0.00           C  
+HETATM   29  C29 Q6B B 601       1.432  16.156  39.766  1.00  0.00           C  
+HETATM   30  N30 Q6B B 601       0.560  15.152  39.146  1.00  0.00           N1+
+HETATM   31  N31 Q6B B 601      -1.517  18.660  44.493  1.00  0.00           N  
+HETATM   32  C32 Q6B B 601      -1.533  17.201  44.612  1.00  0.00           C  
+CONECT    1    5    8
+CONECT    1    5
+CONECT    2    4   13
+CONECT    2    4
+CONECT    3    6    7
+CONECT    3    6
+CONECT    4    2   14
+CONECT    4    2
+CONECT    5    1    6   13
+CONECT    5    1
+CONECT    6    3    5
+CONECT    6    3
+CONECT    7    3    8   16
+CONECT    7    8
+CONECT    8    1    7   15
+CONECT    8    7
+CONECT    9   11   12   13
+CONECT    9   12
+CONECT   10   11
+CONECT   11    9   10   14
+CONECT   11   14
+CONECT   12    9
+CONECT   12    9
+CONECT   13    2    5    9
+CONECT   14    4   11
+CONECT   14   11
+CONECT   15    8
+CONECT   16    7   17   25
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   17   19   23
+CONECT   18   23
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22   31
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   18   22   24
+CONECT   23   18
+CONECT   24   23   25   27
+CONECT   25   16   24   26
+CONECT   25   26
+CONECT   26   25
+CONECT   26   25
+CONECT   27   24   28
+CONECT   28   27   29
+CONECT   29   28   30
+CONECT   30   29
+CONECT   31   21   32
+CONECT   32   31
+ENDMDL
+END   

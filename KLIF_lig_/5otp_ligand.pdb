@@ -1,0 +1,88 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5otp_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1 CL2  AT8 A 406     -11.037  16.059  35.911  1.00  0.00          Cl  
+HETATM    2  C23 AT8 A 406     -10.999  14.684  36.961  1.00  0.00           C  
+HETATM    3  C8  AT8 A 406     -11.974  13.706  36.830  1.00  0.00           C  
+HETATM    4  C7  AT8 A 406     -13.129  13.850  35.891  1.00  0.00           C  
+HETATM    5  C6  AT8 A 406     -12.935  13.424  34.573  1.00  0.00           C  
+HETATM    6  C5  AT8 A 406     -13.857  13.735  33.584  1.00  0.00           C  
+HETATM    7  C4  AT8 A 406     -14.998  14.439  33.900  1.00  0.00           C  
+HETATM    8  C3  AT8 A 406     -15.228  14.835  35.206  1.00  0.00           C  
+HETATM    9  C2  AT8 A 406     -14.303  14.554  36.215  1.00  0.00           C  
+HETATM   10  C1  AT8 A 406     -14.573  15.034  37.630  1.00  0.00           C  
+HETATM   11  C   AT8 A 406     -16.033  15.150  38.025  1.00  0.00           C  
+HETATM   12  C22 AT8 A 406      -9.992  14.592  37.901  1.00  0.00           C  
+HETATM   13  C11 AT8 A 406      -9.918  13.494  38.749  1.00  0.00           C  
+HETATM   14  C10 AT8 A 406     -10.861  12.484  38.598  1.00  0.00           C  
+HETATM   15  C9  AT8 A 406     -11.874  12.581  37.654  1.00  0.00           C  
+HETATM   16  C12 AT8 A 406      -8.878  13.443  39.843  1.00  0.00           C  
+HETATM   17  N   AT8 A 406      -7.504  13.575  39.344  1.00  0.00           N1+
+HETATM   18  C13 AT8 A 406      -6.508  13.623  40.420  1.00  0.00           C  
+HETATM   19  C14 AT8 A 406      -5.172  13.283  39.796  1.00  0.00           C  
+HETATM   20  C15 AT8 A 406      -4.013  13.721  40.623  1.00  0.00           C  
+HETATM   21  N2  AT8 A 406      -4.022  13.827  41.938  1.00  0.00           N  
+HETATM   22  C21 AT8 A 406      -2.715  14.170  42.280  1.00  0.00           C  
+HETATM   23  C16 AT8 A 406      -1.941  14.269  41.124  1.00  0.00           C  
+HETATM   24  N1  AT8 A 406      -2.802  13.989  40.080  1.00  0.00           N  
+HETATM   25  C20 AT8 A 406      -2.130  14.384  43.529  1.00  0.00           C  
+HETATM   26  C19 AT8 A 406      -0.779  14.682  43.590  1.00  0.00           C  
+HETATM   27 CL1  AT8 A 406      -0.097  15.067  45.142  1.00  0.00          Cl  
+HETATM   28  C18 AT8 A 406       0.000  14.731  42.424  1.00  0.00           C  
+HETATM   29 CL   AT8 A 406       1.724  14.897  42.509  1.00  0.00          Cl  
+HETATM   30  C17 AT8 A 406      -0.580  14.550  41.180  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3   12
+CONECT    2   12
+CONECT    3    2    4   15
+CONECT    3   15
+CONECT    4    3    5    9
+CONECT    4    9
+CONECT    5    4    6
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    6    8
+CONECT    7    8
+CONECT    8    7    9
+CONECT    8    7
+CONECT    9    4    8   10
+CONECT    9    4
+CONECT   10    9   11
+CONECT   11   10
+CONECT   12    2   13
+CONECT   12    2
+CONECT   13   12   14   16
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15    3   14
+CONECT   15    3
+CONECT   16   13   17
+CONECT   17   16   18
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20   19   21   24
+CONECT   20   24
+CONECT   21   20   22
+CONECT   22   21   23   25
+CONECT   22   25
+CONECT   23   22   24   30
+CONECT   23   30
+CONECT   24   20   23
+CONECT   24   20
+CONECT   25   22   26
+CONECT   25   22
+CONECT   26   25   27   28
+CONECT   26   28
+CONECT   27   26
+CONECT   28   26   29   30
+CONECT   28   26
+CONECT   29   28
+CONECT   30   23   28
+CONECT   30   23
+ENDMDL
+END   

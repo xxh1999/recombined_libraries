@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6i82_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  H6W A1101       1.429  17.485  38.702  1.00  0.00           C  
+HETATM    2  C14 H6W A1101      -0.344  13.885  43.664  1.00  0.00           C  
+HETATM    3  C5  H6W A1101       2.631  18.079  39.402  1.00  0.00           C  
+HETATM    4  C6  H6W A1101       1.716  19.657  41.026  1.00  0.00           C  
+HETATM    5  C11 H6W A1101      -0.071  16.628  43.789  1.00  0.00           C  
+HETATM    6  C7  H6W A1101       1.471  21.005  41.394  1.00  0.00           C  
+HETATM    7  C8  H6W A1101       0.782  21.275  42.519  1.00  0.00           C  
+HETATM    8  C9  H6W A1101      -0.630  18.991  44.726  1.00  0.00           C  
+HETATM    9  C10 H6W A1101      -0.018  18.110  43.830  1.00  0.00           C  
+HETATM   10  C12 H6W A1101      -0.740  15.912  44.786  1.00  0.00           C  
+HETATM   11  C13 H6W A1101      -0.874  14.525  44.742  1.00  0.00           C  
+HETATM   12  N1  H6W A1101       0.346  15.335  37.919  1.00  0.00           N1+
+HETATM   13  N2  H6W A1101       2.393  19.426  39.900  1.00  0.00           N  
+HETATM   14  C3  H6W A1101       1.491  15.966  38.609  1.00  0.00           C  
+HETATM   15  N3  H6W A1101       0.314  20.222  43.250  1.00  0.00           N  
+HETATM   16  C1  H6W A1101       0.666  13.959  37.555  1.00  0.00           C  
+HETATM   17  C2  H6W A1101      -0.880  15.382  38.729  1.00  0.00           C  
+HETATM   18  N4  H6W A1101      -0.424  20.265  44.401  1.00  0.00           N  
+HETATM   19  C15 H6W A1101       0.262  14.583  42.645  1.00  0.00           C  
+HETATM   20  C16 H6W A1101       0.404  15.939  42.674  1.00  0.00           C  
+HETATM   21  O1  H6W A1101       0.684  13.716  41.663  1.00  0.00           O  
+HETATM   22  C17 H6W A1101       0.179  12.431  42.046  1.00  0.00           C  
+HETATM   23  O2  H6W A1101      -0.352  12.536  43.372  1.00  0.00           O  
+HETATM   24  C18 H6W A1101       0.574  18.903  42.863  1.00  0.00           C  
+HETATM   25  N5  H6W A1101       1.294  18.633  41.752  1.00  0.00           N  
+CONECT    1    3   14
+CONECT    2   11   19   23
+CONECT    2   11
+CONECT    3    1   13
+CONECT    4    6   13   25
+CONECT    4   25
+CONECT    5    9   10   20
+CONECT    5   10
+CONECT    6    4    7
+CONECT    6    7
+CONECT    7    6   15
+CONECT    7    6
+CONECT    8    9   18
+CONECT    8   18
+CONECT    9    5    8   24
+CONECT    9   24
+CONECT   10    5   11
+CONECT   10    5
+CONECT   11    2   10
+CONECT   11    2
+CONECT   12   14   16   17
+CONECT   13    3    4
+CONECT   14    1   12
+CONECT   15    7   18   24
+CONECT   16   12
+CONECT   17   12
+CONECT   18    8   15
+CONECT   18    8
+CONECT   19    2   20   21
+CONECT   19   20
+CONECT   20    5   19
+CONECT   20   19
+CONECT   21   19   22
+CONECT   22   21   23
+CONECT   23    2   22
+CONECT   24    9   15   25
+CONECT   24    9
+CONECT   25    4   24
+CONECT   25    4
+ENDMDL
+END   

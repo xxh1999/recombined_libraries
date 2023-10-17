@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3fv8_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1 CL15 JK3 A 500      -3.245  13.183  43.708  1.00  0.00          Cl  
+HETATM    2  C01 JK3 A 500       1.218  20.743  42.301  1.00  0.00           C  
+HETATM    3  C02 JK3 A 500       2.144  20.457  41.292  1.00  0.00           C  
+HETATM    4  C03 JK3 A 500       2.076  19.073  40.902  1.00  0.00           C  
+HETATM    5  O05 JK3 A 500       1.036  18.511  41.748  1.00  0.00           O  
+HETATM    6  C06 JK3 A 500       0.521  19.474  42.574  1.00  0.00           C  
+HETATM    7  C07 JK3 A 500      -0.590  19.143  43.546  1.00  0.00           C  
+HETATM    8  O08 JK3 A 500      -1.050  19.915  44.305  1.00  0.00           O  
+HETATM    9  N09 JK3 A 500      -1.012  17.768  43.414  1.00  0.00           N  
+HETATM   10  C10 JK3 A 500      -2.044  17.047  44.105  1.00  0.00           C  
+HETATM   11  C11 JK3 A 500      -2.848  17.575  45.089  1.00  0.00           C  
+HETATM   12  C12 JK3 A 500      -3.811  16.752  45.690  1.00  0.00           C  
+HETATM   13  C13 JK3 A 500      -3.956  15.382  45.289  1.00  0.00           C  
+HETATM   14  C14 JK3 A 500      -3.116  14.869  44.276  1.00  0.00           C  
+HETATM   15  C16 JK3 A 500      -2.192  15.668  43.686  1.00  0.00           C  
+HETATM   16  N17 JK3 A 500      -1.295  15.134  42.680  1.00  0.00           N  
+HETATM   17  C18 JK3 A 500       0.107  14.924  43.061  1.00  0.00           C  
+HETATM   18  C19 JK3 A 500       0.784  13.894  42.283  1.00  0.00           C  
+HETATM   19  C20 JK3 A 500      -1.792  14.822  41.271  1.00  0.00           C  
+HETATM   20  C21 JK3 A 500      -0.654  14.343  40.236  1.00  0.00           C  
+HETATM   21  N22 JK3 A 500       0.758  14.214  40.850  1.00  0.00           N1+
+HETATM   22  C23 JK3 A 500       1.846  13.569  39.971  1.00  0.00           C  
+HETATM   23  C24 JK3 A 500       2.952  14.466  39.396  1.00  0.00           C  
+HETATM   24  C25 JK3 A 500       2.760  15.146  38.284  1.00  0.00           C  
+HETATM   25 BR04 JK3 A 500       3.112  18.080  39.543  1.00  0.00          Br  
+CONECT    1   14
+CONECT    2    3    6
+CONECT    2    6
+CONECT    3    2    4
+CONECT    3    4
+CONECT    4    3    5   25
+CONECT    4    3
+CONECT    5    4    6
+CONECT    6    2    5    7
+CONECT    6    2
+CONECT    7    6    8    9
+CONECT    7    8
+CONECT    8    7
+CONECT    8    7
+CONECT    9    7   10
+CONECT   10    9   11   15
+CONECT   10   15
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14    1   13   15
+CONECT   14   13
+CONECT   15   10   14   16
+CONECT   15   10
+CONECT   16   15   17   19
+CONECT   17   16   18
+CONECT   18   17   21
+CONECT   19   16   20
+CONECT   20   19   21
+CONECT   21   18   20   22
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   23   24
+CONECT   23   24
+CONECT   24   23
+CONECT   24   23
+CONECT   24   23
+CONECT   25    4
+ENDMDL
+END   

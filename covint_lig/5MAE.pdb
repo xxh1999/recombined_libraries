@@ -1,0 +1,82 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5MAE
+MODEL        1
+ATOM      1  N   CYS A  25     -10.011   7.626  10.752  1.00  8.43           N1+
+ATOM      2  CA  CYS A  25      -9.748   6.187  10.610  1.00  8.22           C  
+ATOM      3  C   CYS A  25     -10.685   5.272  11.427  1.00  7.41           C  
+ATOM      4  O   CYS A  25     -10.914   4.129  11.036  1.00  7.94           O  
+ATOM      5  CB  CYS A  25      -8.270   5.886  10.923  1.00  8.40           C  
+ATOM      6  SG  CYS A  25      -7.919   6.057  12.696  1.00  9.35           S  
+TER       7      CYS A  25
+HETATM    8  C16 7KN A 301      -7.103   4.652  18.485  1.00 13.53           C  
+HETATM    9  C12 7KN A 301      -6.423   7.790  22.165  1.00 30.69           C  
+HETATM   10  C11 7KN A 301      -5.079   8.104  21.872  1.00 25.84           C  
+HETATM   11  C15 7KN A 301      -7.956   7.540  18.834  1.00 23.63           C  
+HETATM   12  C14 7KN A 301      -6.911   7.763  19.917  1.00 22.06           C  
+HETATM   13  C9  7KN A 301      -5.561   8.076  19.626  1.00 20.05           C  
+HETATM   14  C1  7KN A 301      -5.732  11.723  17.248  0.50 13.03           C  
+HETATM   15  C2  7KN A 301      -6.585  12.980  17.474  0.50 16.31           C  
+HETATM   16  C4  7KN A 301      -6.679  13.392  15.139  0.50 13.68           C  
+HETATM   17  C5  7KN A 301      -5.817  12.150  14.866  0.50 15.50           C  
+HETATM   18  O3  7KN A 301      -6.361  13.918  16.423  0.50 18.08           O  
+HETATM   19  N6  7KN A 301      -6.029  11.168  15.930  0.50 21.29           N  
+HETATM   20  N7  7KN A 301      -7.209   8.500  11.919  0.50 11.87           N  
+HETATM   21  C8  7KN A 301      -7.395   7.768  12.930  1.00 11.47           C  
+HETATM   22  N10 7KN A 301      -4.646   8.249  20.602  1.00 23.86           N  
+HETATM   23  N13 7KN A 301      -7.343   7.622  21.191  1.00 28.37           N  
+HETATM   24  C17 7KN A 301      -8.329   3.864  18.942  1.00 19.66           C  
+HETATM   25  C18 7KN A 301      -9.188   3.747  17.686  1.00 21.34           C  
+HETATM   26  C19 7KN A 301      -9.036   5.112  17.018  1.00 18.05           C  
+HETATM   27  C20 7KN A 301      -7.595   5.554  17.332  1.00 11.90           C  
+HETATM   28  N21 7KN A 301      -7.454   7.003  17.569  1.00 20.02           N  
+HETATM   29  N22 7KN A 301      -6.802   9.130  16.798  0.50 21.72           N  
+HETATM   30  C23 7KN A 301      -7.217   7.887  16.508  0.50 17.38           C  
+HETATM   31  N24 7KN A 301      -7.425   7.407  15.284  0.50 13.70           N  
+HETATM   32  C25 7KN A 301      -7.178   8.271  14.301  0.50 13.16           C  
+HETATM   33  N26 7KN A 301      -6.749   9.529  14.449  0.50 15.28           N  
+HETATM   34  C27 7KN A 301      -6.560   9.890  15.720  0.50 19.70           C  
+CONECT    8   24   27
+CONECT    9   10   23
+CONECT    9   23
+CONECT   10    9   22
+CONECT   10   22
+CONECT   11   12   28
+CONECT   12   11   13   23
+CONECT   12   13
+CONECT   13   12   22
+CONECT   13   12
+CONECT   14   15   19
+CONECT   15   14   18
+CONECT   16   17   18
+CONECT   17   16   19
+CONECT   18   15   16
+CONECT   19   14   17   34
+CONECT   20   21
+CONECT   20   21
+CONECT   21    6   20   32
+CONECT   21   20
+CONECT   22   10   13
+CONECT   22   10
+CONECT   23    9   12
+CONECT   23    9
+CONECT   24    8   25
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   27    8   26   28
+CONECT   28   11   27   30
+CONECT   29   30   34
+CONECT   29   34
+CONECT   30   28   29   31
+CONECT   30   31
+CONECT   31   30   32
+CONECT   31   30
+CONECT   32   21   31   33
+CONECT   32   33
+CONECT   33   32   34
+CONECT   33   32
+CONECT   34   19   29   33
+CONECT   34   29
+ENDMDL
+END   

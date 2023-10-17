@@ -1,0 +1,98 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7MBI
+MODEL        1
+ATOM      1  N   CYS A 145       0.848  23.039  47.454  1.00 45.25           N1+
+ATOM      2  CA  CYS A 145       1.564  21.942  46.804  1.00 42.68           C  
+ATOM      3  C   CYS A 145       0.615  20.845  46.355  1.00 44.33           C  
+ATOM      4  O   CYS A 145      -0.357  20.511  47.049  1.00 40.08           O  
+ATOM      5  CB  CYS A 145       2.583  21.312  47.765  1.00 51.05           C  
+ATOM      6  SG  CYS A 145       3.927  22.387  48.305  1.00 68.52           S  
+TER       7      CYS A 145
+HETATM    8  C10 YWJ A 401       9.300  21.455  48.431  1.00 48.55           C  
+HETATM    9  C13 YWJ A 401      10.677  27.084  50.156  1.00 55.84           C  
+HETATM   10  C15 YWJ A 401      12.448  27.890  51.269  1.00 58.71           C  
+HETATM   11  C20 YWJ A 401      13.715  30.401  51.086  1.00 60.64           C  
+HETATM   12  C21 YWJ A 401      12.616  30.101  50.288  1.00 56.90           C  
+HETATM   13  C22 YWJ A 401      11.985  28.835  50.382  1.00 47.37           C  
+HETATM   14  C26 YWJ A 401       4.232  26.126  49.005  1.00 43.99           C  
+HETATM   15  C28 YWJ A 401       5.107  27.958  50.513  1.00 48.12           C  
+HETATM   16  C02 YWJ A 401       3.531  23.891  50.013  1.00 48.73           C  
+HETATM   17  C03 YWJ A 401       4.578  24.993  49.978  1.00 46.50           C  
+HETATM   18  C05 YWJ A 401       7.048  24.587  50.414  1.00 44.88           C  
+HETATM   19  C06 YWJ A 401       8.385  23.993  49.967  1.00 47.47           C  
+HETATM   20  C07 YWJ A 401       8.607  22.597  50.525  1.00 41.34           C  
+HETATM   21  C08 YWJ A 401       9.760  21.899  49.812  1.00 42.99           C  
+HETATM   22  C09 YWJ A 401      10.250  20.654  50.562  1.00 54.76           C  
+HETATM   23  C12 YWJ A 401       9.570  26.159  49.675  1.00 52.00           C  
+HETATM   24  C14 YWJ A 401      11.622  26.763  51.123  1.00 53.87           C  
+HETATM   25  C16 YWJ A 401      13.578  28.187  52.076  1.00 58.40           C  
+HETATM   26  C18 YWJ A 401      14.073  27.637  54.294  1.00 60.30           C  
+HETATM   27  C19 YWJ A 401      14.204  29.443  51.974  1.00 57.85           C  
+HETATM   28  C27 YWJ A 401       5.124  27.441  49.179  1.00 45.23           C  
+HETATM   29  C29 YWJ A 401       5.523  29.361  50.579  1.00 51.12           C  
+HETATM   30  C30 YWJ A 401       4.556  30.292  49.935  1.00 52.36           C  
+HETATM   31  C32 YWJ A 401       4.562  28.477  48.085  1.00 47.34           C  
+HETATM   32  C34 YWJ A 401       4.019  22.451  50.274  1.00 55.68           C  
+HETATM   33  N04 YWJ A 401       5.865  24.429  49.581  1.00 39.31           N  
+HETATM   34  N11 YWJ A 401       9.426  24.912  50.399  1.00 42.20           N  
+HETATM   35  N23 YWJ A 401      10.901  28.327  49.750  1.00 51.86           N  
+HETATM   36  N31 YWJ A 401       4.269  29.917  48.490  1.00 50.27           N  
+HETATM   37  O01 YWJ A 401       2.356  24.148  49.856  1.00 44.38           O  
+HETATM   38  O17 YWJ A 401      14.050  27.208  52.957  1.00 54.62           O  
+HETATM   39  O24 YWJ A 401       8.837  26.434  48.756  1.00 44.87           O  
+HETATM   40  O25 YWJ A 401       6.967  25.176  51.464  1.00 45.01           O  
+HETATM   41  O33 YWJ A 401       4.334  28.136  46.965  1.00 45.38           O  
+CONECT    8   21
+CONECT    9   23   24   35
+CONECT    9   24
+CONECT   10   13   24   25
+CONECT   10   13
+CONECT   11   12   27
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   10   12   35
+CONECT   13   10
+CONECT   14   17   28
+CONECT   15   28   29
+CONECT   16   17   32   37
+CONECT   16   37
+CONECT   17   14   16   33
+CONECT   18   19   33   40
+CONECT   18   40
+CONECT   19   18   20   34
+CONECT   20   19   21
+CONECT   21    8   20   22
+CONECT   22   21
+CONECT   23    9   34   39
+CONECT   23   39
+CONECT   24    9   10
+CONECT   24    9
+CONECT   25   10   27   38
+CONECT   25   27
+CONECT   26   38
+CONECT   27   11   25
+CONECT   27   25
+CONECT   28   14   15   31
+CONECT   29   15   30
+CONECT   30   29   36
+CONECT   31   28   36   41
+CONECT   31   41
+CONECT   32    6   16
+CONECT   33   17   18
+CONECT   34   19   23
+CONECT   35    9   13
+CONECT   36   30   31
+CONECT   37   16
+CONECT   37   16
+CONECT   38   25   26
+CONECT   39   23
+CONECT   39   23
+CONECT   40   18
+CONECT   40   18
+CONECT   41   31
+CONECT   41   31
+ENDMDL
+END   

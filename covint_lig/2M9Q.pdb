@@ -1,0 +1,51 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2M9Q
+MODEL        1
+ATOM      1  N   ARG B 254       6.934  -0.006  -7.881  1.00  0.00           N1+
+ATOM      2  CA  ARG B 254       8.111  -0.132  -7.012  1.00  0.00           C  
+ATOM      3  C   ARG B 254       7.727  -0.448  -5.562  1.00  0.00           C  
+ATOM      4  O   ARG B 254       7.498  -1.609  -5.253  1.00  0.00           O  
+ATOM      5  CB  ARG B 254       9.015   1.107  -7.181  1.00  0.00           C  
+ATOM      6  CG  ARG B 254      10.319   1.042  -6.372  1.00  0.00           C  
+ATOM      7  CD  ARG B 254      11.116   2.339  -6.434  1.00  0.00           C  
+ATOM      8  NE  ARG B 254      12.176   2.280  -5.430  1.00  0.00           N  
+ATOM      9  CZ  ARG B 254      13.490   2.438  -5.624  1.00  0.00           C  
+ATOM     10  NH1 ARG B 254      14.017   2.742  -6.818  1.00  0.00           N  
+ATOM     11  NH2 ARG B 254      14.291   2.268  -4.577  1.00  0.00           N1+
+TER      12      ARG B 254
+HETATM   13  N   M9P B 255       7.620   0.574  -4.701  1.00  0.00           N  
+HETATM   14  F1  M9P B 255       8.781   2.803  -3.487  1.00  0.00           F  
+HETATM   15  F2  M9P B 255       8.201   2.589  -1.407  1.00  0.00           F  
+HETATM   16  F3  M9P B 255       7.417   4.223  -2.577  1.00  0.00           F  
+HETATM   17  CA  M9P B 255       6.917   0.587  -3.417  1.00  0.00           C  
+HETATM   18  CB  M9P B 255       7.675  -0.118  -2.255  1.00  0.00           C  
+HETATM   19  CD  M9P B 255       8.457  -2.585  -2.614  1.00  0.00           C  
+HETATM   20  NE  M9P B 255       9.467  -2.916  -1.603  1.00  0.00           N  
+HETATM   21  CF  M9P B 255       7.777   2.940  -2.619  1.00  0.00           C  
+HETATM   22  CG  M9P B 255       7.385  -1.625  -2.079  1.00  0.00           C  
+HETATM   23  CI  M9P B 255       6.554   2.074  -3.056  1.00  0.00           C  
+HETATM   24  CZ  M9P B 255       9.650  -4.096  -0.988  1.00  0.00           C  
+HETATM   25  NH1 M9P B 255      10.723  -4.276  -0.216  1.00  0.00           N  
+HETATM   26  NH2 M9P B 255       8.796  -5.111  -1.133  1.00  0.00           N1+
+HETATM   27  OI2 M9P B 255       5.997   2.721  -4.184  1.00  0.00           O  
+CONECT   13    3   17
+CONECT   14   21
+CONECT   15   21
+CONECT   16   21
+CONECT   17   13   18   23
+CONECT   18   17   22
+CONECT   19   20   22
+CONECT   20   19   24
+CONECT   21   14   15   16   23
+CONECT   22   18   19
+CONECT   23   17   21   27
+CONECT   24   20   25   26
+CONECT   24   26
+CONECT   25   24
+CONECT   26   24
+CONECT   26   24
+CONECT   27   23
+ENDMDL
+END   

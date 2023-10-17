@@ -1,0 +1,73 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7suf_ligand
+MODEL        1
+HETATM    1  C2  BVI A 301      -0.626  18.567  43.890  1.00  0.00           C  
+HETATM    2  C4  BVI A 301       0.785  18.381  42.099  1.00  0.00           C  
+HETATM    3  C5  BVI A 301       0.749  19.747  41.927  1.00  0.00           C  
+HETATM    4  C6  BVI A 301      -0.029  20.471  42.816  1.00  0.00           C  
+HETATM    5  C7  BVI A 301       1.445  20.387  40.936  1.00  0.00           C  
+HETATM    6  N1  BVI A 301      -0.708  19.902  43.815  1.00  0.00           N  
+HETATM    7  C8  BVI A 301       2.197  19.627  40.082  1.00  0.00           C  
+HETATM    8  C9  BVI A 301       2.248  18.266  40.222  1.00  0.00           C  
+HETATM    9  C10 BVI A 301       1.535  17.622  41.216  1.00  0.00           C  
+HETATM   10  C11 BVI A 301       1.605  16.128  41.395  1.00  0.00           C  
+HETATM   11  C12 BVI A 301       2.048  15.151  40.315  1.00  0.00           C  
+HETATM   12  C13 BVI A 301       0.641  15.174  40.768  1.00  0.00           C  
+HETATM   13  C15 BVI A 301      -1.481  16.749  45.269  1.00  0.00           C  
+HETATM   14  C16 BVI A 301      -1.826  16.339  46.542  1.00  0.00           C  
+HETATM   15  C19 BVI A 301      -1.311  15.577  44.511  1.00  0.00           C  
+HETATM   16  C20 BVI A 301      -2.093  14.000  47.540  1.00  0.00           C  
+HETATM   17  N3  BVI A 301       0.092  17.784  43.061  1.00  0.00           N  
+HETATM   18  C21 BVI A 301      -0.984  12.957  47.653  1.00  0.00           C  
+HETATM   19  C25 BVI A 301      -3.449  13.356  47.425  1.00  0.00           C  
+HETATM   20  C22 BVI A 301      -1.363  11.957  48.694  1.00  0.00           C  
+HETATM   21  C24 BVI A 301      -3.692  12.350  48.516  1.00  0.00           C  
+HETATM   22  C26 BVI A 301      -2.113  17.123  47.766  1.00  0.00           C  
+HETATM   23  N18 BVI A 301      -1.538  14.509  45.268  1.00  0.00           N  
+HETATM   24  N17 BVI A 301      -1.837  14.974  46.478  1.00  0.00           N  
+HETATM   25  N14 BVI A 301      -1.373  18.025  44.906  1.00  0.00           N  
+HETATM   26  O23 BVI A 301      -2.659  11.385  48.448  1.00  0.00           O  
+CONECT    1    6   17   25
+CONECT    1    6
+CONECT    2    3    9   17
+CONECT    2   17
+CONECT    3    2    4    5
+CONECT    3    4
+CONECT    4    3    6
+CONECT    4    3
+CONECT    5    3    7
+CONECT    5    7
+CONECT    6    1    4
+CONECT    6    1
+CONECT    7    5    8
+CONECT    7    5
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    2    8   10
+CONECT    9    8
+CONECT   10    9   11   12
+CONECT   11   10   12
+CONECT   12   10   11
+CONECT   13   14   15   25
+CONECT   13   14
+CONECT   14   13   22   24
+CONECT   14   13
+CONECT   15   13   23
+CONECT   15   23
+CONECT   16   18   19   24
+CONECT   17    1    2
+CONECT   17    2
+CONECT   18   16   20
+CONECT   19   16   21
+CONECT   20   18   26
+CONECT   21   19   26
+CONECT   22   14
+CONECT   23   15   24
+CONECT   23   15
+CONECT   24   14   16   23
+CONECT   25    1   13
+CONECT   26   20   21
+ENDMDL
+END   

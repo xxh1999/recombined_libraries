@@ -1,0 +1,66 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6AFH
+MODEL        1
+ATOM      1  N   CYS A 106     -35.692  11.521  -6.314  1.00 15.05           N1+
+ATOM      2  CA  CYS A 106     -35.775  12.386  -7.496  1.00 16.78           C  
+ATOM      3  C   CYS A 106     -36.141  13.820  -7.083  1.00 16.13           C  
+ATOM      4  O   CYS A 106     -35.350  14.459  -6.392  1.00 16.77           O  
+ATOM      5  CB  CYS A 106     -36.593  11.735  -8.640  1.00 20.38           C  
+ATOM      6  SG  CYS A 106     -35.896  12.114 -10.279  1.00 24.37           S  
+TER       7      CYS A 106
+HETATM    8  O10 73F A 201     -38.628  14.020 -10.035  1.00 26.56           O  
+HETATM    9  C8  73F A 201     -37.955  13.815 -11.041  1.00 29.64           C  
+HETATM   10  C9  73F A 201     -37.321  12.452 -11.356  1.00 27.33           C  
+HETATM   11  O11 73F A 201     -38.238  11.522 -11.366  1.00 25.47           O1-
+HETATM   12  C1  73F A 201     -36.807  12.760 -12.748  1.00 29.54           C  
+HETATM   13  C2  73F A 201     -36.209  11.892 -13.682  1.00 28.73           C  
+HETATM   14  C3  73F A 201     -35.761  12.429 -14.909  1.00 23.79           C  
+HETATM   15  C4  73F A 201     -35.915  13.807 -15.190  1.00 29.35           C  
+HETATM   16  C5  73F A 201     -36.537  14.665 -14.257  1.00 30.68           C  
+HETATM   17  C6  73F A 201     -36.983  14.104 -13.046  1.00 29.99           C  
+HETATM   18  N7  73F A 201     -37.676  14.718 -11.995  1.00 27.39           N  
+HETATM   19  C12 73F A 201     -38.035  16.127 -11.970  1.00 24.03           C  
+HETATM   20  C13 73F A 201     -36.840  16.975 -11.525  1.00 23.38           C  
+HETATM   21  C14 73F A 201     -37.172  18.449 -11.581  1.00 28.71           C  
+HETATM   22  C15 73F A 201     -37.528  19.149 -10.410  1.00 32.72           C  
+HETATM   23  C16 73F A 201     -37.844  20.520 -10.477  1.00 36.74           C  
+HETATM   24  C17 73F A 201     -37.823  21.186 -11.717  1.00 36.78           C  
+HETATM   25  C18 73F A 201     -37.482  20.485 -12.890  1.00 37.24           C  
+HETATM   26  C19 73F A 201     -37.151  19.120 -12.822  1.00 31.43           C  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10   18
+CONECT    9    8
+CONECT   10    6    9   11   12
+CONECT   11   10
+CONECT   12   10   13   17
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   12   16   18
+CONECT   17   16
+CONECT   18    9   17   19
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   20   22   26
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   21   25
+CONECT   26   25
+ENDMDL
+END   

@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6TZG
+MODEL        1
+ATOM      1  N   SER A  64      29.687  -9.510 -37.933  1.00 29.01           N1+
+ATOM      2  CA  SER A  64      29.914 -10.976 -37.994  1.00 27.51           C  
+ATOM      3  C   SER A  64      31.394 -11.324 -38.209  1.00 30.87           C  
+ATOM      4  O   SER A  64      31.748 -12.486 -37.982  1.00 28.90           O  
+ATOM      5  CB  SER A  64      29.057 -11.612 -39.046  1.00 24.25           C  
+ATOM      6  OG  SER A  64      27.718 -11.702 -38.584  1.00 29.36           O  
+TER       7      SER A  64
+HETATM    8  O7  PKY A 401      22.538  -5.839 -33.111  1.00 58.62           O  
+HETATM    9  C2  PKY A 401      22.484  -5.034 -34.032  1.00 68.57           C  
+HETATM   10  N8  PKY A 401      22.359  -3.655 -33.698  1.00 51.60           N  
+HETATM   11  C12 PKY A 401      22.506  -5.539 -35.465  1.00 51.82           C  
+HETATM   12  C11 PKY A 401      23.105  -6.773 -35.772  1.00 54.11           C  
+HETATM   13  C13 PKY A 401      21.887  -4.834 -36.501  1.00 54.14           C  
+HETATM   14  C14 PKY A 401      21.889  -5.325 -37.816  1.00 45.53           C  
+HETATM   15  C15 PKY A 401      22.496  -6.541 -38.129  1.00 48.11           C  
+HETATM   16  C10 PKY A 401      23.105  -7.271 -37.097  1.00 65.28           C  
+HETATM   17  C8  PKY A 401      23.759  -8.586 -37.383  1.00 49.09           C  
+HETATM   18  N7  PKY A 401      24.062  -9.477 -36.401  1.00 39.74           N  
+HETATM   19  N6  PKY A 401      24.664 -10.592 -36.996  1.00 44.11           N  
+HETATM   20  C9  PKY A 401      24.142  -9.120 -38.624  1.00 45.28           C  
+HETATM   21  N5  PKY A 401      24.688 -10.316 -38.357  1.00 41.31           N  
+HETATM   22  C1  PKY A 401      25.274 -11.400 -39.131  1.00 38.68           C  
+HETATM   23  B1  PKY A 401      26.802 -11.088 -39.511  1.00 31.92           B1-
+HETATM   24  O2  PKY A 401      27.073  -9.567 -39.459  1.00 30.20           O  
+HETATM   25  O4  PKY A 401      27.044 -11.724 -40.783  1.00 32.97           O  
+HETATM   26  P1  PKY A 401      26.606 -11.169 -42.217  1.00 50.86           P  
+HETATM   27  O6  PKY A 401      27.730 -10.433 -42.920  1.00 40.29           O1-
+HETATM   28  O3  PKY A 401      26.238 -12.381 -43.049  1.00 83.49           O  
+HETATM   29  O5  PKY A 401      25.419 -10.235 -42.070  1.00 61.63           O1-
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10   11
+CONECT    9    8
+CONECT   10    9
+CONECT   11    9   12   13
+CONECT   11   13
+CONECT   12   11   16
+CONECT   12   16
+CONECT   13   11   14
+CONECT   13   11
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   12   15   17
+CONECT   16   12
+CONECT   17   16   18   20
+CONECT   17   20
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   21
+CONECT   19   18
+CONECT   20   17   21
+CONECT   20   17
+CONECT   21   19   20   22
+CONECT   22   21   23
+CONECT   23    6   22   24   25
+CONECT   24   23
+CONECT   25   23   26
+CONECT   26   25   27   28   29
+CONECT   26   28
+CONECT   27   26
+CONECT   28   26
+CONECT   28   26
+CONECT   29   26
+ENDMDL
+END   

@@ -1,0 +1,68 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6p5p_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N3  O1V A2500      -0.328  21.113  43.841  1.00  0.00           N  
+HETATM    2  C6  O1V A2500      -0.292  18.921  43.631  1.00  0.00           C  
+HETATM    3  C7  O1V A2500       0.435  19.509  42.572  1.00  0.00           C  
+HETATM    4  C8  O1V A2500       1.129  18.794  41.484  1.00  0.00           C  
+HETATM    5  C10 O1V A2500       2.089  16.992  40.409  1.00  0.00           C  
+HETATM    6  C15 O1V A2500       3.017  17.562  38.236  1.00  0.00           C  
+HETATM    7  C17 O1V A2500       2.334  17.962  39.428  1.00  0.00           C  
+HETATM    8  C21 O1V A2500       5.013  13.704  38.543  1.00  0.00           C  
+HETATM    9  C22 O1V A2500       4.975  12.561  37.504  1.00  0.00           C  
+HETATM   10  C24 O1V A2500       2.832  11.650  38.474  1.00  0.00           C  
+HETATM   11  C26 O1V A2500       2.742  13.344  36.750  1.00  0.00           C  
+HETATM   12  C1  O1V A2500       1.014  21.907  41.861  1.00  0.00           C  
+HETATM   13  C2  O1V A2500       0.388  20.864  42.741  1.00  0.00           C  
+HETATM   14  N5  O1V A2500      -0.746  19.891  44.380  1.00  0.00           N  
+HETATM   15  C9  O1V A2500       1.424  17.492  41.526  1.00  0.00           C  
+HETATM   16  N11 O1V A2500       2.520  15.706  40.187  1.00  0.00           N  
+HETATM   17  C12 O1V A2500       3.157  15.351  39.113  1.00  0.00           C  
+HETATM   18  N13 O1V A2500       3.413  16.260  38.108  1.00  0.00           N  
+HETATM   19  O16 O1V A2500       3.247  18.377  37.345  1.00  0.00           O  
+HETATM   20  S18 O1V A2500       1.687  19.521  39.973  1.00  0.00           S  
+HETATM   21  C19 O1V A2500       3.573  13.886  39.051  1.00  0.00           C  
+HETATM   22  C23 O1V A2500       4.292  11.316  38.129  1.00  0.00           C  
+HETATM   23  N25 O1V A2500       2.635  13.084  38.210  1.00  0.00           N1+
+HETATM   24  C27 O1V A2500       4.168  13.017  36.272  1.00  0.00           C  
+CONECT    1   13   14
+CONECT    2    3   14
+CONECT    2   14
+CONECT    3    2    4   13
+CONECT    3   13
+CONECT    4    3   15   20
+CONECT    4   15
+CONECT    5    7   15   16
+CONECT    5    7
+CONECT    6    7   18   19
+CONECT    6   19
+CONECT    7    5    6   20
+CONECT    7    5
+CONECT    8    9   21
+CONECT    9    8   22   24
+CONECT   10   22   23
+CONECT   11   23   24
+CONECT   12   13
+CONECT   13    1    3   12
+CONECT   13    3
+CONECT   14    1    2
+CONECT   14    2
+CONECT   15    4    5
+CONECT   15    4
+CONECT   16    5   17
+CONECT   16   17
+CONECT   17   16   18   21
+CONECT   17   16
+CONECT   18    6   17
+CONECT   19    6
+CONECT   19    6
+CONECT   20    4    7
+CONECT   21    8   17   23
+CONECT   22    9   10
+CONECT   23   10   11   21
+CONECT   24    9   11
+ENDMDL
+END   

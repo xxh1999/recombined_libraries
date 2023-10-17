@@ -1,0 +1,106 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5C1U
+MODEL        1
+ATOM      1  N   CYS A 147       9.432 -10.311  -8.994  1.00 10.51           N1+
+ATOM      2  CA  CYS A 147       8.215 -10.754  -8.312  1.00 10.43           C  
+ATOM      3  C   CYS A 147       7.134 -11.156  -9.306  1.00  9.60           C  
+ATOM      4  O   CYS A 147       6.956 -10.545 -10.360  1.00  9.95           O  
+ATOM      5  CB  CYS A 147       7.649  -9.660  -7.403  1.00 11.19           C  
+ATOM      6  SG  CYS A 147       8.682  -9.615  -5.920  1.00 12.64           S  
+TER       7      CYS A 147
+HETATM    8  O1  GHV A 201      13.634 -10.385  -4.210  1.00 13.54           O  
+HETATM    9  C34 GHV A 201      13.697  -9.215  -3.840  1.00 16.57           C  
+HETATM   10  N33 GHV A 201      14.798  -8.585  -3.440  1.00 16.92           N  
+HETATM   11  C32 GHV A 201      14.566  -7.193  -3.112  1.00 17.32           C  
+HETATM   12  C31 GHV A 201      13.170  -6.900  -3.680  1.00 14.85           C  
+HETATM   13  C30 GHV A 201      12.503  -8.276  -3.776  1.00 14.69           C  
+HETATM   14  C29 GHV A 201      11.489  -8.476  -4.924  1.00 13.30           C  
+HETATM   15  C26 GHV A 201      10.251  -7.548  -4.844  1.00 14.78           C  
+HETATM   16  C27 GHV A 201       9.213  -7.887  -5.914  1.00 13.67           C  
+HETATM   17  O28 GHV A 201       8.704  -7.038  -6.640  1.00 15.27           O  
+HETATM   18  N24 GHV A 201       9.589  -7.684  -3.553  1.00 16.52           N  
+HETATM   19  C23 GHV A 201       9.372  -6.689  -2.683  1.00 18.89           C  
+HETATM   20  O25 GHV A 201       9.733  -5.528  -2.876  1.00 19.75           O  
+HETATM   21  C15 GHV A 201       8.637  -7.075  -1.390  1.00 21.43           C  
+HETATM   22  C16 GHV A 201       7.227  -6.452  -1.408  1.00 19.53           C  
+HETATM   23  C17 GHV A 201       6.218  -6.993  -0.409  1.00 20.70           C  
+HETATM   24  C22 GHV A 201       5.372  -6.097   0.277  1.00 25.46           C  
+HETATM   25  C21 GHV A 201       4.432  -6.576   1.209  1.00 21.41           C  
+HETATM   26  C20 GHV A 201       4.322  -7.959   1.451  1.00 24.50           C  
+HETATM   27  C19 GHV A 201       5.141  -8.860   0.747  1.00 25.19           C  
+HETATM   28  C18 GHV A 201       6.078  -8.380  -0.185  1.00 21.50           C  
+HETATM   29  N13 GHV A 201       9.386  -6.617  -0.222  1.00 20.05           N  
+HETATM   30  C12 GHV A 201      10.593  -7.099   0.111  1.00 26.58           C  
+HETATM   31  O14 GHV A 201      11.107  -8.068  -0.450  1.00 20.11           O  
+HETATM   32  C11 GHV A 201      11.214  -6.344   1.176  1.00 37.38           C  
+HETATM   33  C10 GHV A 201      12.556  -6.265   1.204  1.00 49.99           C  
+HETATM   34  C5  GHV A 201      13.372  -5.614   2.229  1.00 65.91           C  
+HETATM   35  C6  GHV A 201      14.735  -5.958   2.308  1.00 72.31           C  
+HETATM   36  C1  GHV A 201      15.541  -5.467   3.349  1.00 82.31           C  
+HETATM   37  C4  GHV A 201      12.831  -4.735   3.190  1.00 71.27           C  
+HETATM   38  C3  GHV A 201      13.640  -4.234   4.227  1.00 85.16           C  
+HETATM   39  C2  GHV A 201      15.001  -4.613   4.342  1.00 89.94           C  
+HETATM   40  N7  GHV A 201      15.783  -4.161   5.427  1.00 89.85           N  
+HETATM   41  C9  GHV A 201      15.106  -3.860   6.683  1.00 84.59           C  
+HETATM   42  C8  GHV A 201      17.209  -4.463   5.465  1.00 78.98           C  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10   13
+CONECT    9    8
+CONECT   10    9   11
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13    9   12   14
+CONECT   14   13   15
+CONECT   15   14   16   18
+CONECT   16    6   15   17
+CONECT   16   17
+CONECT   17   16
+CONECT   17   16
+CONECT   18   15   19
+CONECT   19   18   20   21
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   19   22   29
+CONECT   22   21   23
+CONECT   23   22   24   28
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   23   27
+CONECT   28   27
+CONECT   29   21   30
+CONECT   30   29   31   32
+CONECT   30   31
+CONECT   31   30
+CONECT   31   30
+CONECT   32   30   33
+CONECT   32   33
+CONECT   33   32   34
+CONECT   33   32
+CONECT   34   33   35   37
+CONECT   34   35
+CONECT   35   34   36
+CONECT   35   34
+CONECT   36   35   39
+CONECT   36   39
+CONECT   37   34   38
+CONECT   37   38
+CONECT   38   37   39
+CONECT   38   37
+CONECT   39   36   38   40
+CONECT   39   36
+CONECT   40   39   41   42
+CONECT   41   40
+CONECT   42   40
+ENDMDL
+END   

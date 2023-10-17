@@ -1,0 +1,66 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5IZR
+MODEL        1
+ATOM      1  N   SER A 361      -6.263  85.813  47.163  1.00 56.20           N1+
+ATOM      2  CA  SER A 361      -5.660  87.154  47.097  1.00 56.54           C  
+ATOM      3  C   SER A 361      -5.893  87.904  45.752  1.00 58.31           C  
+ATOM      4  O   SER A 361      -7.041  88.187  45.415  1.00 63.15           O  
+ATOM      5  CB  SER A 361      -4.185  87.078  47.503  1.00 54.96           C  
+ATOM      6  OG  SER A 361      -3.797  88.311  48.070  1.00 55.52           O  
+TER       7      SER A 361
+HETATM    8  C1  7FA A 901      -2.639  90.846  47.940  1.00 57.30           C  
+HETATM    9  P1  7FA A 901      -2.401  89.048  47.764  1.00 57.45           P  
+HETATM   10  C2  7FA A 901      -1.443  91.666  47.478  1.00 55.95           C  
+HETATM   11  O2  7FA A 901      -1.438  88.495  48.911  1.00 61.51           O  
+HETATM   12  C3  7FA A 901      -1.684  93.163  47.678  1.00 56.07           C  
+HETATM   13  C4  7FA A 901      -0.424  94.001  47.370  1.00 58.85           C  
+HETATM   14  C5  7FA A 901      -0.770  95.467  47.075  1.00 61.63           C  
+HETATM   15  C6  7FA A 901       0.129  96.513  47.710  1.00 61.11           C  
+HETATM   16  C7  7FA A 901      -0.363  97.751  47.806  1.00 64.43           C  
+HETATM   17  C8  7FA A 901       0.398  98.914  48.411  1.00 69.29           C  
+HETATM   18  C9  7FA A 901      -0.626  99.898  48.934  1.00 71.13           C  
+HETATM   19  CM  7FA A 901      -1.310  87.077  49.007  1.00 66.21           C  
+HETATM   20  C10 7FA A 901      -0.833 100.023  50.241  1.00 74.74           C  
+HETATM   21  C11 7FA A 901      -1.880 100.985  50.725  1.00 78.02           C  
+HETATM   22  C12 7FA A 901      -1.506 101.557  52.064  1.00 82.51           C  
+HETATM   23  C13 7FA A 901      -2.232 101.296  53.153  1.00 91.84           C  
+HETATM   24  C14 7FA A 901      -1.818 101.915  54.480  1.00103.77           C  
+HETATM   25  C15 7FA A 901      -0.415 101.496  54.978  1.00104.11           C  
+HETATM   26  C16 7FA A 901       0.367 102.583  55.739  1.00 93.22           C  
+HETATM   27  C17 7FA A 901      -0.454 103.195  56.877  1.00 91.29           C  
+HETATM   28  C18 7FA A 901       0.365 104.033  57.830  1.00 91.95           C  
+HETATM   29  O1  7FA A 901      -1.876  88.631  46.447  1.00 57.46           O  
+CONECT    8    9   10
+CONECT    9    6    8   11   29
+CONECT    9   29
+CONECT   10    8   12
+CONECT   11    9   19
+CONECT   12   10   13
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   16   18
+CONECT   18   17   20
+CONECT   18   20
+CONECT   19   11
+CONECT   20   18   21
+CONECT   20   18
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   27
+CONECT   29    9
+CONECT   29    9
+ENDMDL
+END   

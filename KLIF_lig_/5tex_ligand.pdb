@@ -1,0 +1,90 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5tex_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CAY Q7A A 402       1.090  10.264  39.975  1.00  0.00           C  
+HETATM    2  CAZ Q7A A 402       0.264   8.997  39.980  1.00  0.00           C  
+HETATM    3  NBA Q7A A 402      -0.950   9.118  40.785  1.00  0.00           N1+
+HETATM    4  CBB Q7A A 402      -0.524   9.204  42.190  1.00  0.00           C  
+HETATM    5  CBC Q7A A 402       0.698  10.102  42.405  1.00  0.00           C  
+HETATM    6  NAX Q7A A 402       0.956  10.953  41.244  1.00  0.00           N  
+HETATM    7  CAU Q7A A 402       0.995  12.280  41.335  1.00  0.00           C  
+HETATM    8  CAV Q7A A 402       1.310  12.876  42.527  1.00  0.00           C  
+HETATM    9  CAW Q7A A 402       1.355  14.244  42.645  1.00  0.00           C  
+HETATM   10  CAT Q7A A 402       0.721  13.071  40.252  1.00  0.00           C  
+HETATM   11  CAS Q7A A 402       0.765  14.442  40.377  1.00  0.00           C  
+HETATM   12  CAR Q7A A 402       1.097  15.030  41.568  1.00  0.00           C  
+HETATM   13  CAH Q7A A 402       1.116  16.338  41.660  1.00  0.00           C  
+HETATM   14  NAG Q7A A 402       1.747  17.087  40.820  1.00  0.00           N  
+HETATM   15  CBD Q7A A 402       2.535  16.757  39.694  1.00  0.00           C  
+HETATM   16  CAF Q7A A 402       1.543  18.302  41.170  1.00  0.00           C  
+HETATM   17  NAD Q7A A 402       2.006  19.380  40.576  1.00  0.00           N  
+HETATM   18  CAC Q7A A 402       1.709  20.604  41.068  1.00  0.00           C  
+HETATM   19  CAB Q7A A 402       0.911  20.710  42.166  1.00  0.00           C  
+HETATM   20  CAA Q7A A 402       0.449  19.556  42.752  1.00  0.00           C  
+HETATM   21 CL1  Q7A A 402      -0.446  19.834  44.011  1.00  0.00          Cl  
+HETATM   22  CAE Q7A A 402       0.765  18.355  42.247  1.00  0.00           C  
+HETATM   23  CAI Q7A A 402       0.492  17.085  42.539  1.00  0.00           C  
+HETATM   24  CAJ Q7A A 402      -0.217  16.552  43.539  1.00  0.00           C  
+HETATM   25  CAK Q7A A 402      -0.068  16.925  44.857  1.00  0.00           C  
+HETATM   26  CAL Q7A A 402      -0.795  16.329  45.876  1.00  0.00           C  
+HETATM   27  CAO Q7A A 402      -1.102  15.547  43.291  1.00  0.00           C  
+HETATM   28  CAN Q7A A 402      -1.824  14.945  44.285  1.00  0.00           C  
+HETATM   29  CAM Q7A A 402      -1.677  15.318  45.577  1.00  0.00           C  
+HETATM   30  CAP Q7A A 402      -2.452  14.671  46.484  1.00  0.00           C  
+HETATM   31  OAQ Q7A A 402      -1.871  14.699  47.741  1.00  0.00           O  
+CONECT    1    2    6
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    1    5    7
+CONECT    7    6    8   10
+CONECT    7    8
+CONECT    8    7    9
+CONECT    8    7
+CONECT    9    8   12
+CONECT    9   12
+CONECT   10    7   11
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12    9   11   13
+CONECT   12    9
+CONECT   13   12   14   23
+CONECT   13   23
+CONECT   14   13   15   16
+CONECT   15   14
+CONECT   16   14   17   22
+CONECT   16   22
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21   22
+CONECT   20   19
+CONECT   21   20
+CONECT   22   16   20   23
+CONECT   22   16
+CONECT   23   13   22   24
+CONECT   23   13
+CONECT   24   23   25   27
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26   25   29
+CONECT   26   29
+CONECT   27   24   28
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   26   28   30
+CONECT   29   26
+CONECT   30   29   31
+CONECT   31   30
+ENDMDL
+END   

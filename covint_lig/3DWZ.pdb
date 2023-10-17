@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3DWZ
+MODEL        1
+ATOM      1  N   SER A  84     -15.081  11.016  -5.652  1.00  4.10           N1+
+ATOM      2  CA  SER A  84     -14.503  10.781  -6.972  1.00  5.40           C  
+ATOM      3  C   SER A  84     -15.330   9.777  -7.799  1.00  5.06           C  
+ATOM      4  O   SER A  84     -14.937   9.478  -8.924  1.00  5.99           O  
+ATOM      5  CB  SER A  84     -13.071  10.232  -6.806  1.00  5.21           C  
+ATOM      6  OG  SER A  84     -12.118  11.183  -6.331  1.00  7.88           O  
+TER       7      SER A  84
+HETATM    8  CBE DWZ A 400      -3.702   8.704  -1.836  1.00 33.55           C  
+HETATM    9  NBC DWZ A 400      -2.895   8.555  -3.050  1.00 33.06           N  
+HETATM   10  CBD DWZ A 400      -1.871   9.598  -3.206  1.00 32.77           C  
+HETATM   11  C   DWZ A 400      -2.974   7.551  -3.967  1.00 32.59           C  
+HETATM   12  O   DWZ A 400      -2.191   7.512  -4.917  1.00 32.91           O  
+HETATM   13  CA  DWZ A 400      -3.988   6.377  -3.922  1.00 32.02           C  
+HETATM   14  CB  DWZ A 400      -4.994   6.417  -5.081  1.00 31.70           C  
+HETATM   15  N   DWZ A 400      -4.782   6.144  -2.695  1.00 31.57           N1+
+HETATM   16  CD  DWZ A 400      -6.217   6.286  -3.025  1.00 31.26           C  
+HETATM   17  CG  DWZ A 400      -6.303   6.857  -4.443  1.00 30.53           C  
+HETATM   18  SAK DWZ A 400      -6.373   8.658  -4.356  1.00 24.40           S  
+HETATM   19  CAI DWZ A 400      -8.046   9.189  -4.126  1.00 18.43           C  
+HETATM   20  CAH DWZ A 400      -8.266  10.687  -4.119  1.00 15.60           C  
+HETATM   21  CAS DWZ A 400      -8.312  11.177  -2.659  1.00 13.98           C  
+HETATM   22  CAL DWZ A 400      -9.221   8.541  -4.193  1.00 15.97           C  
+HETATM   23  CAM DWZ A 400      -9.757   7.085  -4.296  1.00 17.20           C  
+HETATM   24  OAT DWZ A 400     -10.835   6.954  -4.913  1.00 16.27           O  
+HETATM   25  OAU DWZ A 400      -9.130   6.198  -3.681  1.00 18.69           O1-
+HETATM   26  NAJ DWZ A 400     -10.194   9.458  -4.445  1.00 14.69           N  
+HETATM   27  CAD DWZ A 400      -9.626  10.742  -4.824  1.00 14.46           C  
+HETATM   28  CAB DWZ A 400     -10.592  11.926  -4.589  1.00 12.19           C  
+HETATM   29  CAE DWZ A 400     -10.211  13.282  -5.241  1.00 13.93           C  
+HETATM   30  CAF DWZ A 400      -9.020  14.017  -4.620  1.00 12.53           C  
+HETATM   31  OAG DWZ A 400      -9.935  13.165  -6.618  1.00 16.38           O  
+HETATM   32  CAA DWZ A 400     -11.988  11.438  -5.005  1.00  9.83           C  
+HETATM   33  OAC DWZ A 400     -12.793  11.110  -4.143  1.00  8.40           O  
+CONECT    8    9
+CONECT    9    8   10   11
+CONECT   10    9
+CONECT   11    9   12   13
+CONECT   11   12
+CONECT   12   11
+CONECT   12   11
+CONECT   13   11   14   15
+CONECT   14   13   17
+CONECT   15   13   16
+CONECT   16   15   17
+CONECT   17   14   16   18
+CONECT   18   17   19
+CONECT   19   18   20   22
+CONECT   19   22
+CONECT   20   19   21   27
+CONECT   21   20
+CONECT   22   19   23   26
+CONECT   22   19
+CONECT   23   22   24   25
+CONECT   23   24
+CONECT   24   23
+CONECT   24   23
+CONECT   25   23
+CONECT   26   22   27
+CONECT   27   20   26   28
+CONECT   28   27   29   32
+CONECT   29   28   30   31
+CONECT   30   29
+CONECT   31   29
+CONECT   32    6   28   33
+CONECT   32   33
+CONECT   33   32
+CONECT   33   32
+ENDMDL
+END   

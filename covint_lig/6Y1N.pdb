@@ -1,0 +1,64 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6Y1N
+MODEL        1
+ATOM      1  N   TYR L  33     -26.732 -11.245 -45.305  1.00 32.39           N1+
+ATOM      2  CA  TYR L  33     -25.633 -12.177 -45.597  1.00 29.19           C  
+ATOM      3  C   TYR L  33     -25.007 -12.581 -44.275  1.00 31.67           C  
+ATOM      4  O   TYR L  33     -25.238 -11.919 -43.247  1.00 29.44           O  
+ATOM      5  CB  TYR L  33     -24.595 -11.539 -46.514  1.00 29.73           C  
+ATOM      6  CG  TYR L  33     -24.049 -10.227 -46.023  1.00 30.05           C  
+ATOM      7  CD1 TYR L  33     -22.900 -10.179 -45.240  1.00 28.46           C  
+ATOM      8  CD2 TYR L  33     -24.679  -9.038 -46.352  1.00 28.01           C  
+ATOM      9  CE1 TYR L  33     -22.396  -8.973 -44.783  1.00 29.66           C  
+ATOM     10  CE2 TYR L  33     -24.182  -7.825 -45.911  1.00 29.78           C  
+ATOM     11  CZ  TYR L  33     -23.038  -7.794 -45.128  1.00 29.41           C  
+ATOM     12  OH  TYR L  33     -22.553  -6.597 -44.697  1.00 29.58           O  
+TER      13      TYR L  33
+HETATM   14  C1  XOP L 301     -21.765  -5.296 -42.653  1.00 33.68           C  
+HETATM   15  C2  XOP L 301     -21.728  -4.804 -41.357  1.00 34.31           C  
+HETATM   16  C3  XOP L 301     -20.642  -4.055 -40.923  1.00 34.48           C  
+HETATM   17  C4  XOP L 301     -19.602  -3.776 -41.774  1.00 33.22           C  
+HETATM   18  C5  XOP L 301     -19.625  -4.253 -43.063  1.00 35.38           C  
+HETATM   19  C6  XOP L 301     -20.712  -4.990 -43.513  1.00 35.15           C  
+HETATM   20  C7  XOP L 301     -24.131  -4.069 -44.627  1.00 36.56           C  
+HETATM   21  C8  XOP L 301     -25.492  -3.725 -45.234  1.00 35.82           C  
+HETATM   22  C9  XOP L 301     -26.279  -2.740 -44.362  1.00 36.68           C  
+HETATM   23  N   XOP L 301     -25.537  -1.479 -44.145  1.00 39.34           N1+
+HETATM   24  O1  XOP L 301     -23.695  -7.213 -42.249  1.00 31.37           O  
+HETATM   25  O2  XOP L 301     -24.285  -5.107 -43.599  1.00 33.74           O  
+HETATM   26  P   XOP L 301     -23.195  -6.217 -43.256  1.00 32.62           P  
+HETATM   27  C10 XOP L 301     -26.444  -3.236 -42.937  1.00 36.09           C  
+HETATM   28  C11 XOP L 301     -25.212  -2.669 -42.190  1.00 38.80           C  
+HETATM   29  C12 XOP L 301     -24.433  -1.917 -43.279  1.00 39.12           C  
+HETATM   30  C13 XOP L 301     -23.452  -2.828 -44.023  1.00 39.17           C  
+HETATM   31  C14 XOP L 301     -25.144  -0.734 -45.352  1.00 45.38           C  
+CONECT   14   15   19   26
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   14   18
+CONECT   19   18
+CONECT   20   21   25   30
+CONECT   21   20   22
+CONECT   22   21   23   27
+CONECT   23   22   29   31
+CONECT   24   26
+CONECT   24   26
+CONECT   25   20   26
+CONECT   26   12   14   24   25
+CONECT   26   24
+CONECT   27   22   28
+CONECT   28   27   29
+CONECT   29   23   28   30
+CONECT   30   20   29
+CONECT   31   23
+ENDMDL
+END   

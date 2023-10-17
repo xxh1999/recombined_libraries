@@ -1,0 +1,65 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4E3K
+MODEL        1
+ATOM      1  N   SER A  64      26.927   1.309  16.072  1.00 10.75           N1+
+ATOM      2  CA  SER A  64      28.290   1.736  16.365  1.00 10.72           C  
+ATOM      3  C   SER A  64      29.093   0.878  17.366  1.00  9.47           C  
+ATOM      4  O   SER A  64      30.237   1.229  17.650  1.00 10.73           O  
+ATOM      5  CB  SER A  64      28.231   3.165  16.876  1.00 12.01           C  
+ATOM      6  OG  SER A  64      27.678   3.984  15.859  1.00 13.11           O  
+TER       7      SER A  64
+HETATM    8  B03 0NA A 401      26.496   4.816  16.184  1.00 14.59           B1-
+HETATM    9  O04 0NA A 401      26.813   5.760  17.270  1.00 15.51           O  
+HETATM   10  O05 0NA A 401      25.407   3.951  16.652  1.00 16.33           O  
+HETATM   11  C06 0NA A 401      25.999   5.633  14.884  1.00 16.49           C  
+HETATM   12  N07 0NA A 401      24.857   6.490  15.187  1.00 18.31           N  
+HETATM   13  S08 0NA A 401      24.256   7.576  14.003  1.00 19.40           S  
+HETATM   14  O09 0NA A 401      23.246   8.424  14.653  1.00 21.79           O  
+HETATM   15  O10 0NA A 401      25.407   8.179  13.316  1.00 20.96           O  
+HETATM   16  C11 0NA A 401      23.422   6.480  12.873  1.00 19.91           C  
+HETATM   17  C12 0NA A 401      23.938   6.214  11.593  1.00 21.10           C  
+HETATM   18  C13 0NA A 401      23.168   5.422  10.722  1.00 21.97           C  
+HETATM   19  C14 0NA A 401      21.914   4.926  11.156  1.00 19.61           C  
+HETATM   20  C15 0NA A 401      21.010   4.173  10.256  1.00 18.70           C  
+HETATM   21  N16 0NA A 401      21.257   4.030   8.949  1.00 19.45           N1-
+HETATM   22  N17 0NA A 401      20.179   3.370   8.515  1.00 18.49           N  
+HETATM   23  N18 0NA A 401      19.358   3.108   9.538  1.00 18.82           N  
+HETATM   24  N19 0NA A 401      19.869   3.602  10.668  1.00 18.14           N  
+HETATM   25  N20 0NA A 401      21.454   5.159  12.410  1.00 21.23           N  
+HETATM   26  C21 0NA A 401      22.193   5.912  13.249  1.00 21.57           C  
+CONECT    8    6    9   10   11
+CONECT    9    8
+CONECT   10    8
+CONECT   11    8   12
+CONECT   12   11   13
+CONECT   13   12   14   15   16
+CONECT   13   14   15
+CONECT   14   13
+CONECT   14   13
+CONECT   15   13
+CONECT   15   13
+CONECT   16   13   17   26
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20   25
+CONECT   19   18
+CONECT   20   19   21   24
+CONECT   20   24
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   20   23
+CONECT   24   20
+CONECT   25   19   26
+CONECT   25   26
+CONECT   26   16   25
+CONECT   26   25
+ENDMDL
+END   

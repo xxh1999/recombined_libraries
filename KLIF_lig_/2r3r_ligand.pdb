@@ -1,0 +1,76 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2r3r_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C01 Q6S A 501       0.485  19.279  41.611  1.00  0.00           C  
+HETATM    2  C02 Q6S A 501       0.027  17.956  41.847  1.00  0.00           C  
+HETATM    3  N03 Q6S A 501      -0.872  18.097  42.940  1.00  0.00           N  
+HETATM    4  N04 Q6S A 501      -0.949  19.364  43.393  1.00  0.00           N  
+HETATM    5  C05 Q6S A 501      -0.203  20.092  42.599  1.00  0.00           C  
+HETATM    6  N06 Q6S A 501       0.264  16.736  41.229  1.00  0.00           N  
+HETATM    7  C07 Q6S A 501      -0.445  15.688  41.700  1.00  0.00           C  
+HETATM    8  C08 Q6S A 501      -1.381  15.781  42.767  1.00  0.00           C  
+HETATM    9  C09 Q6S A 501      -1.622  17.024  43.372  1.00  0.00           C  
+HETATM   10  N10 Q6S A 501      -2.497  17.216  44.397  1.00  0.00           N  
+HETATM   11  C11 Q6S A 501      -0.216  14.339  41.123  1.00  0.00           C  
+HETATM   12  C12 Q6S A 501      -3.438  16.165  44.685  1.00  0.00           C  
+HETATM   13  C13 Q6S A 501      -3.064  15.370  45.872  1.00  0.00           C  
+HETATM   14  C14 Q6S A 501      -2.824  15.998  47.070  1.00  0.00           C  
+HETATM   15  C15 Q6S A 501      -2.504  15.224  48.198  1.00  0.00           C  
+HETATM   16  N16 Q6S A 501      -2.374  13.882  48.154  1.00  0.00           N  
+HETATM   17  C17 Q6S A 501      -2.593  13.288  46.975  1.00  0.00           C  
+HETATM   18  C18 Q6S A 501      -2.954  13.980  45.806  1.00  0.00           C  
+HETATM   19  C19 Q6S A 501       0.968  14.064  40.441  1.00  0.00           C  
+HETATM   20  C20 Q6S A 501       1.177  12.802  39.879  1.00  0.00           C  
+HETATM   21  C21 Q6S A 501       0.242  11.793  40.047  1.00  0.00           C  
+HETATM   22  C22 Q6S A 501      -0.950  12.043  40.750  1.00  0.00           C  
+HETATM   23  C23 Q6S A 501      -1.179  13.320  41.297  1.00  0.00           C  
+HETATM   24 BR24 Q6S A 501       1.694  19.868  40.387  1.00  0.00          Br  
+CONECT    1    2    5   24
+CONECT    1    2
+CONECT    2    1    3    6
+CONECT    2    1
+CONECT    3    2    4    9
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    1    4
+CONECT    5    4
+CONECT    6    2    7
+CONECT    6    7
+CONECT    7    6    8   11
+CONECT    7    6
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    3    8   10
+CONECT    9    8
+CONECT   10    9   12
+CONECT   11    7   19   23
+CONECT   11   23
+CONECT   12   10   13
+CONECT   13   12   14   18
+CONECT   13   18
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   13   17
+CONECT   18   13
+CONECT   19   11   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   11   22
+CONECT   23   11
+CONECT   24    1
+ENDMDL
+END   

@@ -1,0 +1,97 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7fcz_ligand
+MODEL        1
+HETATM    1  N1  Q3I A 301       0.344  24.191  34.193  1.00  0.00           N  
+HETATM    2  N3  Q3I A 301       0.787  26.303  34.491  1.00  0.00           N  
+HETATM    3  C4  Q3I A 301      -2.068  24.081  31.463  1.00  0.00           C  
+HETATM    4  C5  Q3I A 301      -2.018  23.518  30.198  1.00  0.00           C  
+HETATM    5  C6  Q3I A 301      -1.142  24.010  29.258  1.00  0.00           C  
+HETATM    6  C7  Q3I A 301      -1.298  25.765  33.173  1.00  0.00           C  
+HETATM    7  C8  Q3I A 301      -0.071  25.448  33.960  1.00  0.00           C  
+HETATM    8  C10 Q3I A 301       2.278  23.190  35.384  1.00  0.00           C  
+HETATM    9  C13 Q3I A 301       5.943  20.517  37.244  1.00  0.00           C  
+HETATM   10  C15 Q3I A 301       4.929  23.293  37.768  1.00  0.00           C  
+HETATM   11  C17 Q3I A 301       5.932  19.133  37.070  1.00  0.00           C  
+HETATM   12  C20 Q3I A 301       5.016  20.248  39.453  1.00  0.00           C  
+HETATM   13  C21 Q3I A 301       4.518  18.101  40.385  1.00  0.00           C  
+HETATM   14  C22 Q3I A 301       4.105  17.460  41.298  1.00  0.00           C  
+HETATM   15  C24 Q3I A 301       1.966  16.580  42.180  1.00  0.00           C  
+HETATM   16  C1  Q3I A 301      -0.316  25.062  29.578  1.00  0.00           C  
+HETATM   17  C11 Q3I A 301       4.305  22.602  36.564  1.00  0.00           C  
+HETATM   18  C12 Q3I A 301       5.332  22.090  35.572  1.00  0.00           C  
+HETATM   19  C14 Q3I A 301       5.495  21.056  38.463  1.00  0.00           C  
+HETATM   20  C16 Q3I A 301       6.024  23.017  39.901  1.00  0.00           C  
+HETATM   21  C18 Q3I A 301       5.468  18.307  38.093  1.00  0.00           C  
+HETATM   22  C19 Q3I A 301       5.011  18.868  39.289  1.00  0.00           C  
+HETATM   23  C2  Q3I A 301      -0.369  25.626  30.842  1.00  0.00           C  
+HETATM   24  C23 Q3I A 301       3.457  16.728  42.355  1.00  0.00           C  
+HETATM   25  C25 Q3I A 301       2.839  15.409  41.974  1.00  0.00           C  
+HETATM   26  C3  Q3I A 301      -1.247  25.144  31.796  1.00  0.00           C  
+HETATM   27  C9  Q3I A 301       1.481  24.281  34.902  1.00  0.00           C  
+HETATM   28  N2  Q3I A 301       1.779  25.545  35.100  1.00  0.00           N  
+HETATM   29  N4  Q3I A 301       3.432  23.565  35.930  1.00  0.00           N  
+HETATM   30  N5  Q3I A 301       5.464  22.473  38.657  1.00  0.00           N  
+HETATM   31  O1  Q3I A 301       1.921  22.015  35.304  1.00  0.00           O  
+HETATM   32  O2  Q3I A 301       6.362  21.412  36.302  1.00  0.00           O  
+HETATM   33  O3  Q3I A 301       4.901  24.504  37.910  1.00  0.00           O  
+CONECT    1    7   27
+CONECT    2    7   28
+CONECT    2    7
+CONECT    3    4   26
+CONECT    3   26
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4   16
+CONECT    5    4
+CONECT    6    7   26
+CONECT    7    1    2    6
+CONECT    7    2
+CONECT    8   27   29   31
+CONECT    8   31
+CONECT    9   11   19   32
+CONECT    9   19
+CONECT   10   17   30   33
+CONECT   10   33
+CONECT   11    9   21
+CONECT   11   21
+CONECT   12   19   22
+CONECT   12   22
+CONECT   13   14   22
+CONECT   13   14
+CONECT   13   14
+CONECT   14   13   24
+CONECT   14   13
+CONECT   14   13
+CONECT   15   24   25
+CONECT   16    5   23
+CONECT   16   23
+CONECT   17   10   18   29
+CONECT   18   17   32
+CONECT   19    9   12   30
+CONECT   19    9
+CONECT   20   30
+CONECT   21   11   22
+CONECT   21   11
+CONECT   22   12   13   21
+CONECT   22   12
+CONECT   23   16   26
+CONECT   23   16
+CONECT   24   14   15   25
+CONECT   25   15   24
+CONECT   26    3    6   23
+CONECT   26    3
+CONECT   27    1    8   28
+CONECT   27   28
+CONECT   28    2   27
+CONECT   28   27
+CONECT   29    8   17
+CONECT   30   10   19   20
+CONECT   31    8
+CONECT   31    8
+CONECT   32    9   18
+CONECT   33   10
+CONECT   33   10
+ENDMDL
+END   

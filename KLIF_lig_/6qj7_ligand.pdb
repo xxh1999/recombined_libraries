@@ -1,0 +1,76 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6qj7_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C3  J4B A 401       2.124  17.590  39.816  1.00  0.00           C  
+HETATM    2  O5  J4B A 401       4.379  18.226  36.976  1.00  0.00           O  
+HETATM    3  C7  J4B A 401       1.471  18.522  40.786  1.00  0.00           C  
+HETATM    4  C8  J4B A 401       0.746  18.079  41.935  1.00  0.00           C  
+HETATM    5  C9  J4B A 401       0.215  19.053  42.815  1.00  0.00           C  
+HETATM    6  C10 J4B A 401       0.391  20.420  42.542  1.00  0.00           C  
+HETATM    7  C11 J4B A 401       1.101  20.850  41.411  1.00  0.00           C  
+HETATM    8  C12 J4B A 401       1.677  19.911  40.571  1.00  0.00           C  
+HETATM    9  C14 J4B A 401       0.497  16.596  42.176  1.00  0.00           C  
+HETATM   10  C15 J4B A 401      -0.588  18.697  44.056  1.00  0.00           C  
+HETATM   11  C16 J4B A 401       1.491  15.989  43.160  1.00  0.00           C  
+HETATM   12  C19 J4B A 401       6.899  15.553  36.385  1.00  0.00           C  
+HETATM   13  C20 J4B A 401       7.988  15.065  37.085  1.00  0.00           C  
+HETATM   14  C21 J4B A 401       7.810  14.475  38.323  1.00  0.00           C  
+HETATM   15  C22 J4B A 401       6.536  14.357  38.852  1.00  0.00           C  
+HETATM   16  N1  J4B A 401       2.712  16.921  37.644  1.00  0.00           N  
+HETATM   17  N2  J4B A 401       2.061  17.830  38.481  1.00  0.00           N  
+HETATM   18  C4  J4B A 401       3.839  17.147  36.968  1.00  0.00           C  
+HETATM   19  O6  J4B A 401       2.816  16.658  40.205  1.00  0.00           O  
+HETATM   20  O13 J4B A 401      -0.143  21.343  43.396  1.00  0.00           O  
+HETATM   21  C17 J4B A 401       4.429  16.008  36.170  1.00  0.00           C  
+HETATM   22  C18 J4B A 401       5.611  15.450  36.929  1.00  0.00           C  
+HETATM   23  C23 J4B A 401       5.424  14.821  38.166  1.00  0.00           C  
+HETATM   24  O24 J4B A 401       4.944  16.617  34.988  1.00  0.00           O  
+HETATM   25  F25 J4B A 401       9.227  15.192  36.591  1.00  0.00           F  
+HETATM   26  F26 J4B A 401       6.398  13.770  40.041  1.00  0.00           F  
+CONECT    1    3   17   19
+CONECT    1   19
+CONECT    2   18
+CONECT    2   18
+CONECT    3    1    4    8
+CONECT    3    8
+CONECT    4    3    5    9
+CONECT    4    5
+CONECT    5    4    6   10
+CONECT    5    4
+CONECT    6    5    7   20
+CONECT    6    7
+CONECT    7    6    8
+CONECT    7    6
+CONECT    8    3    7
+CONECT    8    3
+CONECT    9    4   11
+CONECT   10    5
+CONECT   11    9
+CONECT   12   13   22
+CONECT   12   22
+CONECT   13   12   14   25
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   23   26
+CONECT   15   23
+CONECT   16   17   18
+CONECT   17    1   16
+CONECT   18    2   16   21
+CONECT   18    2
+CONECT   19    1
+CONECT   19    1
+CONECT   20    6
+CONECT   21   18   22   24
+CONECT   22   12   21   23
+CONECT   22   12
+CONECT   23   15   22
+CONECT   23   15
+CONECT   24   21
+CONECT   25   13
+CONECT   26   15
+ENDMDL
+END   

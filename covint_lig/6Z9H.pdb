@@ -1,0 +1,21 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6Z9H
+MODEL        1
+ATOM      1  N   LYS A 167      -1.354  12.924 -40.969  1.00 12.33           N1+
+ATOM      2  CA  LYS A 167      -2.424  13.576 -40.231  1.00 13.73           C  
+ATOM      3  C   LYS A 167      -2.383  15.061 -40.564  1.00 15.47           C  
+ATOM      4  O   LYS A 167      -1.300  15.638 -40.702  1.00 13.66           O  
+ATOM      5  CB  LYS A 167      -2.236  13.316 -38.720  1.00 14.80           C  
+ATOM      6  CG  LYS A 167      -3.079  14.162 -37.770  1.00 13.41           C  
+ATOM      7  CD  LYS A 167      -3.027  13.565 -36.329  1.00 12.04           C  
+ATOM      8  CE  LYS A 167      -3.330  14.651 -35.286  1.00 13.10           C  
+ATOM      9  NZ  LYS A 167      -3.317  14.032 -33.926  1.00 15.76           N1+
+TER      10      LYS A 167
+HETATM   11  C1  EDO A 301      -3.487  14.730 -32.796  0.72 22.46           C  
+HETATM   12  C2  EDO A 301      -3.774  16.235 -32.737  0.72 16.65           C  
+CONECT   11    9   12
+CONECT   12   11
+ENDMDL
+END   

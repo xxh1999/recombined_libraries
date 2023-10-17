@@ -1,0 +1,69 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6w9e_ligand
+MODEL        1
+HETATM    1  C1  TOJ A   0       5.178  19.441  39.056  1.00  0.00           C  
+HETATM    2  O2  TOJ A   0       1.096  20.891  39.313  1.00  0.00           O  
+HETATM    3  C3  TOJ A   0       4.004  19.940  39.582  1.00  0.00           C  
+HETATM    4  C4  TOJ A   0       3.966  17.683  37.984  1.00  0.00           C  
+HETATM    5  C5  TOJ A   0       2.804  19.314  39.333  1.00  0.00           C  
+HETATM    6  C6  TOJ A   0       2.793  18.197  38.518  1.00  0.00           C  
+HETATM    7  C7  TOJ A   0       0.895  19.609  41.195  1.00  0.00           C  
+HETATM    8  C8  TOJ A   0       0.275  20.573  42.126  1.00  0.00           C  
+HETATM    9  C9  TOJ A   0      -0.236  18.731  43.233  1.00  0.00           C  
+HETATM   10  C11 TOJ A   0      -1.482  13.960  44.975  1.00  0.00           C  
+HETATM   11  C12 TOJ A   0      -1.651  14.694  43.650  1.00  0.00           C  
+HETATM   12  C10 TOJ A   0       1.577  19.951  39.919  1.00  0.00           C  
+HETATM   13  N4  TOJ A   0       1.603  17.553  38.235  1.00  0.00           N  
+HETATM   14  O3  TOJ A   0       0.455  17.925  38.926  1.00  0.00           O  
+HETATM   15  O1  TOJ A   0       1.595  16.549  37.270  1.00  0.00           O  
+HETATM   16  C2  TOJ A   0       5.171  18.311  38.251  1.00  0.00           C  
+HETATM   17  S1  TOJ A   0       0.608  18.043  41.867  1.00  0.00           S  
+HETATM   18  N1  TOJ A   0      -0.328  20.084  43.237  1.00  0.00           N  
+HETATM   19  N2  TOJ A   0       0.323  21.998  41.865  1.00  0.00           N  
+HETATM   20  N3  TOJ A   0      -0.786  18.093  44.294  1.00  0.00           N  
+HETATM   21  C17 TOJ A   0      -0.756  16.672  44.606  1.00  0.00           C  
+HETATM   22  C16 TOJ A   0      -0.511  15.685  43.462  1.00  0.00           C  
+HETATM   23  C14 TOJ A   0      -2.103  16.220  45.143  1.00  0.00           C  
+HETATM   24  C13 TOJ A   0      -2.794  15.637  43.938  1.00  0.00           C  
+HETATM   25  C15 TOJ A   0      -1.886  15.006  46.014  1.00  0.00           C  
+CONECT    1    3   16
+CONECT    1   16
+CONECT    2   12
+CONECT    2   12
+CONECT    3    1    5
+CONECT    3    5
+CONECT    4    6   16
+CONECT    4    6
+CONECT    5    3    6   12
+CONECT    5    3
+CONECT    6    4    5   13
+CONECT    6    4
+CONECT    7    8   12   17
+CONECT    7    8
+CONECT    8    7   18   19
+CONECT    8    7
+CONECT    9   17   18   20
+CONECT    9   18
+CONECT   10   11   25
+CONECT   11   10   22   24
+CONECT   12    2    5    7
+CONECT   12    2
+CONECT   13    6   14   15
+CONECT   14   13
+CONECT   15   13
+CONECT   16    1    4
+CONECT   16    1
+CONECT   17    7    9
+CONECT   18    8    9
+CONECT   18    9
+CONECT   19    8
+CONECT   20    9   21
+CONECT   21   20   22   23
+CONECT   22   11   21
+CONECT   23   21   24   25
+CONECT   24   11   23
+CONECT   25   10   23
+ENDMDL
+END   

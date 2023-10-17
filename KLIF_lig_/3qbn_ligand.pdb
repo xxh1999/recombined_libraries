@@ -1,0 +1,66 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3qbn_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N1  E9Z A   0      -1.552  19.526  45.000  1.00  0.00           N  
+HETATM    2  C2  E9Z A   0      -1.789  18.212  45.137  1.00  0.00           C  
+HETATM    3  N3  E9Z A   0      -1.053  17.358  44.421  1.00  0.00           N  
+HETATM    4  C4  E9Z A   0      -0.068  17.749  43.596  1.00  0.00           C  
+HETATM    5  C5  E9Z A   0       0.182  19.117  43.478  1.00  0.00           C  
+HETATM    6  C6  E9Z A   0      -0.605  19.986  44.210  1.00  0.00           C  
+HETATM    7  CAA E9Z A   0      -6.568   9.691  50.688  1.00  0.00           C  
+HETATM    8  CAC E9Z A   0      -2.376  15.411  46.394  1.00  0.00           C  
+HETATM    9  CAD E9Z A   0      -3.772  16.746  47.824  1.00  0.00           C  
+HETATM   10  CAE E9Z A   0      -2.616  14.290  47.205  1.00  0.00           C  
+HETATM   11  CAF E9Z A   0      -4.019  15.630  48.632  1.00  0.00           C  
+HETATM   12  CAH E9Z A   0      -5.141  11.678  50.376  1.00  0.00           C  
+HETATM   13  CAI E9Z A   0      -5.073  12.825  49.306  1.00  0.00           C  
+HETATM   14  CAJ E9Z A   0       0.688  14.219  43.226  1.00  0.00           C  
+HETATM   15  CAK E9Z A   0       0.807  14.524  41.711  1.00  0.00           C  
+HETATM   16  NAN E9Z A   0      -2.786  17.791  45.958  1.00  0.00           N  
+HETATM   17  NAO E9Z A   0       0.624  16.796  42.928  1.00  0.00           N  
+HETATM   18  OAP E9Z A   0      -5.548  10.349  49.865  1.00  0.00           O  
+HETATM   19  OAQ E9Z A   0      -3.680  13.290  49.137  1.00  0.00           O  
+HETATM   20  CAS E9Z A   0      -2.946  16.658  46.696  1.00  0.00           C  
+HETATM   21  CAT E9Z A   0      -3.453  14.388  48.328  1.00  0.00           C  
+HETATM   22  CAW E9Z A   0      -0.020  15.455  42.600  1.00  0.00           C  
+HETATM   23 CL5  E9Z A   0       1.418  19.768  42.452  1.00  0.00          Cl  
+CONECT    1    2    6
+CONECT    1    6
+CONECT    2    1    3   16
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3    5   17
+CONECT    4    5
+CONECT    5    4    6   23
+CONECT    5    4
+CONECT    6    1    5
+CONECT    6    1
+CONECT    7   18
+CONECT    8   10   20
+CONECT    8   20
+CONECT    9   11   20
+CONECT    9   11
+CONECT   10    8   21
+CONECT   10   21
+CONECT   11    9   21
+CONECT   11    9
+CONECT   12   13   18
+CONECT   13   12   19
+CONECT   14   15   22
+CONECT   15   14   22
+CONECT   16    2   20
+CONECT   17    4   22
+CONECT   18    7   12
+CONECT   19   13   21
+CONECT   20    8    9   16
+CONECT   20    8
+CONECT   21   10   11   19
+CONECT   21   10
+CONECT   22   14   15   17
+CONECT   23    5
+ENDMDL
+END   

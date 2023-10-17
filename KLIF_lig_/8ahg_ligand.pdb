@@ -1,0 +1,49 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     8ahg_ligand
+MODEL        1
+HETATM    1  N1  M4I A 601       0.456  15.680  40.460  1.00  0.00           N  
+HETATM    2  N3  M4I A 601       0.226  20.968  42.951  1.00  0.00           N  
+HETATM    3  C4  M4I A 601       1.582  18.426  40.016  1.00  0.00           C  
+HETATM    4  C5  M4I A 601       1.321  20.659  40.692  1.00  0.00           C  
+HETATM    5  C6  M4I A 601       0.752  20.285  41.901  1.00  0.00           C  
+HETATM    6  C7  M4I A 601      -0.070  18.866  43.457  1.00  0.00           C  
+HETATM    7  C8  M4I A 601      -0.540  17.643  44.202  1.00  0.00           C  
+HETATM    8  C10 M4I A 601      -1.637  16.893  43.450  1.00  0.00           C  
+HETATM    9  C1  M4I A 601       0.130  14.293  40.728  1.00  0.00           C  
+HETATM   10  C2  M4I A 601       0.857  16.466  41.457  1.00  0.00           C  
+HETATM   11  O1  M4I A 601       1.048  15.989  42.589  1.00  0.00           O  
+HETATM   12  C3  M4I A 601       1.014  17.943  41.200  1.00  0.00           C  
+HETATM   13  N2  M4I A 601       1.735  19.741  39.773  1.00  0.00           N  
+HETATM   14  N4  M4I A 601      -0.261  20.110  43.903  1.00  0.00           N  
+HETATM   15  C9  M4I A 601      -1.061  18.023  45.574  1.00  0.00           C  
+HETATM   16  C11 M4I A 601       0.574  18.908  42.168  1.00  0.00           C  
+CONECT    1    9   10
+CONECT    2    5   14
+CONECT    3   12   13
+CONECT    3   12
+CONECT    4    5   13
+CONECT    4   13
+CONECT    5    2    4   16
+CONECT    5   16
+CONECT    6    7   14   16
+CONECT    6   14
+CONECT    7    6    8   15
+CONECT    8    7
+CONECT    9    1
+CONECT   10    1   11   12
+CONECT   10   11
+CONECT   11   10
+CONECT   11   10
+CONECT   12    3   10   16
+CONECT   12    3
+CONECT   13    3    4
+CONECT   13    4
+CONECT   14    2    6
+CONECT   14    6
+CONECT   15    7
+CONECT   16    5    6   12
+CONECT   16    5
+ENDMDL
+END   

@@ -1,0 +1,39 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3FNM
+MODEL        1
+ATOM      1  N   THR B 380      48.088  -6.163  33.098  1.00 34.02           N1+
+ATOM      2  CA  THR B 380      46.635  -6.255  33.362  1.00 31.83           C  
+ATOM      3  C   THR B 380      45.925  -6.775  32.121  1.00 28.98           C  
+ATOM      4  O   THR B 380      46.417  -6.581  31.008  1.00 27.64           O  
+ATOM      5  CB  THR B 380      46.061  -4.877  33.749  1.00 34.29           C  
+ATOM      6  OG1 THR B 380      47.093  -4.196  34.460  1.00 38.97           O  
+ATOM      7  CG2 THR B 380      44.653  -4.949  34.431  1.00 35.68           C  
+TER       8      THR B 380
+HETATM    9  C1  AVN B   1      45.011  -1.355  39.127  1.00 25.75           C  
+HETATM   10  O1  AVN B   1      44.529  -2.150  39.959  1.00 26.22           O1-
+HETATM   11  O2  AVN B   1      44.472  -0.296  38.756  1.00 24.91           O  
+HETATM   12  C2  AVN B   1      46.336  -1.728  38.471  1.00 28.70           C  
+HETATM   13  N1  AVN B   1      47.124  -2.590  39.364  1.00 25.79           N1+
+HETATM   14  C3  AVN B   1      46.026  -2.475  37.187  1.00 32.39           C  
+HETATM   15  O3  AVN B   1      45.530  -1.632  36.150  1.00 37.65           O  
+HETATM   16  N2  AVN B   1      45.843  -2.265  34.929  1.00 40.46           N  
+HETATM   17  C4  AVN B   1      46.712  -3.125  35.199  1.00 39.84           C  
+HETATM   18  C5  AVN B   1      47.230  -3.115  36.556  1.00 35.64           C  
+CONECT    9   10   11   12
+CONECT    9   11
+CONECT   10    9
+CONECT   11    9
+CONECT   11    9
+CONECT   12    9   13   14
+CONECT   13   12
+CONECT   14   12   15   18
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17    6   16   18
+CONECT   17   16
+CONECT   18   14   17
+ENDMDL
+END   

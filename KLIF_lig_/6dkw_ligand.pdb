@@ -1,0 +1,100 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6dkw_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N3  GXA A 801       0.252  22.096  42.140  1.00  0.00           N  
+HETATM    2  C4  GXA A 801      -0.871  15.284  47.536  1.00  0.00           C  
+HETATM    3  N2  GXA A 801       1.685  15.549  44.964  1.00  0.00           N  
+HETATM    4  C7  GXA A 801       2.473  17.532  42.972  1.00  0.00           C  
+HETATM    5  C6  GXA A 801       1.403  17.753  43.830  1.00  0.00           C  
+HETATM    6  C9  GXA A 801       2.286  19.761  42.123  1.00  0.00           C  
+HETATM    7  C13 GXA A 801       1.774  19.999  39.208  1.00  0.00           C  
+HETATM    8  C20 GXA A 801       1.291  23.419  33.542  1.00  0.00           C  
+HETATM    9  C21 GXA A 801       0.479  23.782  32.482  1.00  0.00           C  
+HETATM   10  C8  GXA A 801       2.911  18.523  42.116  1.00  0.00           C  
+HETATM   11  C18 GXA A 801       1.876  23.392  35.990  1.00  0.00           C  
+HETATM   12  C16 GXA A 801       3.446  21.867  39.299  1.00  0.00           C  
+HETATM   13  C19 GXA A 801       1.059  23.898  34.823  1.00  0.00           C  
+HETATM   14  N1  GXA A 801       0.007  15.642  46.424  1.00  0.00           N  
+HETATM   15  C1  GXA A 801      -0.060  16.776  45.679  1.00  0.00           C  
+HETATM   16  C2  GXA A 801       0.978  16.718  44.792  1.00  0.00           C  
+HETATM   17  C3  GXA A 801       1.072  14.941  45.971  1.00  0.00           C  
+HETATM   18  C5  GXA A 801       0.747  18.981  43.793  1.00  0.00           C  
+HETATM   19  C10 GXA A 801       1.194  20.007  42.968  1.00  0.00           C  
+HETATM   20  C11 GXA A 801       0.532  21.336  43.181  1.00  0.00           C  
+HETATM   21  O1  GXA A 801       0.228  21.677  44.322  1.00  0.00           O  
+HETATM   22  O2  GXA A 801       2.692  20.798  41.320  1.00  0.00           O  
+HETATM   23  C12 GXA A 801       2.998  20.555  39.906  1.00  0.00           C  
+HETATM   24  C14 GXA A 801       1.995  19.952  37.698  1.00  0.00           C  
+HETATM   25  N4  GXA A 801       2.313  21.291  37.192  1.00  0.00           N  
+HETATM   26  C15 GXA A 801       3.578  21.741  37.783  1.00  0.00           C  
+HETATM   27  C17 GXA A 801       1.444  22.014  36.453  1.00  0.00           C  
+HETATM   28  O3  GXA A 801       0.322  21.610  36.211  1.00  0.00           O  
+HETATM   29  C22 GXA A 801      -0.582  24.644  32.697  1.00  0.00           C  
+HETATM   30  C23 GXA A 801      -0.826  25.140  33.970  1.00  0.00           C  
+HETATM   31  C24 GXA A 801       0.004  24.780  35.016  1.00  0.00           C  
+HETATM   32  O4  GXA A 801      -1.353  25.054  31.601  1.00  0.00           O  
+HETATM   33  C25 GXA A 801      -2.326  24.256  31.174  1.00  0.00           C  
+HETATM   34  F1  GXA A 801      -1.868  23.148  30.645  1.00  0.00           F  
+HETATM   35  F2  GXA A 801      -3.189  23.924  32.114  1.00  0.00           F  
+HETATM   36  F3  GXA A 801      -2.990  24.882  30.227  1.00  0.00           F  
+CONECT    1   20
+CONECT    2   14
+CONECT    3   16   17
+CONECT    3   17
+CONECT    4    5   10
+CONECT    4   10
+CONECT    5    4   16   18
+CONECT    5   18
+CONECT    6   10   19   22
+CONECT    6   19
+CONECT    7   23   24
+CONECT    8    9   13
+CONECT    8    9
+CONECT    9    8   29
+CONECT    9    8
+CONECT   10    4    6
+CONECT   10    4
+CONECT   11   13   27
+CONECT   12   23   26
+CONECT   13    8   11   31
+CONECT   13   31
+CONECT   14    2   15   17
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16    3    5   15
+CONECT   16   15
+CONECT   17    3   14
+CONECT   17    3
+CONECT   18    5   19
+CONECT   18    5
+CONECT   19    6   18   20
+CONECT   19    6
+CONECT   20    1   19   21
+CONECT   20   21
+CONECT   21   20
+CONECT   21   20
+CONECT   22    6   23
+CONECT   23    7   12   22
+CONECT   24    7   25
+CONECT   25   24   26   27
+CONECT   26   12   25
+CONECT   27   11   25   28
+CONECT   27   28
+CONECT   28   27
+CONECT   28   27
+CONECT   29    9   30   32
+CONECT   29   30
+CONECT   30   29   31
+CONECT   30   29
+CONECT   31   13   30
+CONECT   31   13
+CONECT   32   29   33
+CONECT   33   32   34   35   36
+CONECT   34   33
+CONECT   35   33
+CONECT   36   33
+ENDMDL
+END   

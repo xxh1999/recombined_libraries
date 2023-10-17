@@ -1,0 +1,142 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5na0_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  O46 Q8Q A 901      -5.231   8.169  46.765  1.00  0.00           O  
+HETATM    2  C45 Q8Q A 901      -4.319   8.924  47.115  1.00  0.00           C  
+HETATM    3  C47 Q8Q A 901      -3.045   8.347  47.758  1.00  0.00           C  
+HETATM    4  O48 Q8Q A 901      -2.242   7.450  46.961  1.00  0.00           O  
+HETATM    5  C49 Q8Q A 901      -0.993   7.823  46.358  1.00  0.00           C  
+HETATM    6  N44 Q8Q A 901      -4.510  10.294  46.900  1.00  0.00           N  
+HETATM    7  C43 Q8Q A 901      -3.468  10.870  46.006  1.00  0.00           C  
+HETATM    8  C42 Q8Q A 901      -2.402  11.691  46.741  1.00  0.00           C  
+HETATM    9  C51 Q8Q A 901      -4.592  11.066  48.163  1.00  0.00           C  
+HETATM   10  C52 Q8Q A 901      -4.405  12.552  47.854  1.00  0.00           C  
+HETATM   11  N41 Q8Q A 901      -2.982  12.811  47.529  1.00  0.00           N  
+HETATM   12  C40 Q8Q A 901      -2.789  14.133  47.014  1.00  0.00           C  
+HETATM   13  C39 Q8Q A 901      -2.451  14.461  45.703  1.00  0.00           C  
+HETATM   14  C38 Q8Q A 901      -2.244  15.785  45.302  1.00  0.00           C  
+HETATM   15  C53 Q8Q A 901      -2.914  15.168  47.927  1.00  0.00           C  
+HETATM   16  C54 Q8Q A 901      -2.722  16.491  47.573  1.00  0.00           C  
+HETATM   17  O55 Q8Q A 901      -2.869  17.477  48.507  1.00  0.00           O  
+HETATM   18  C56 Q8Q A 901      -2.175  17.472  49.757  1.00  0.00           C  
+HETATM   19  C37 Q8Q A 901      -2.394  16.855  46.184  1.00  0.00           C  
+HETATM   20  N36 Q8Q A 901      -2.108  18.171  45.905  1.00  0.00           N  
+HETATM   21  C35 Q8Q A 901      -1.172  18.605  44.997  1.00  0.00           C  
+HETATM   22  N1  Q8Q A 901      -0.807  19.915  45.045  1.00  0.00           N  
+HETATM   23  N34 Q8Q A 901      -0.575  17.790  44.093  1.00  0.00           N  
+HETATM   24  C4  Q8Q A 901       0.372  18.237  43.232  1.00  0.00           C  
+HETATM   25  N5  Q8Q A 901       0.864  17.387  42.329  1.00  0.00           N  
+HETATM   26  C33 Q8Q A 901       0.403  16.167  42.196  1.00  0.00           C  
+HETATM   27  C32 Q8Q A 901       1.107  15.621  41.149  1.00  0.00           C  
+HETATM   28  C9  Q8Q A 901       1.993  16.551  40.621  1.00  0.00           C  
+HETATM   29  C6  Q8Q A 901       1.778  17.785  41.442  1.00  0.00           C  
+HETATM   30  C7  Q8Q A 901       2.430  19.161  41.401  1.00  0.00           C  
+HETATM   31  C8  Q8Q A 901       1.772  20.211  42.320  1.00  0.00           C  
+HETATM   32  C3  Q8Q A 901       0.740  19.669  43.294  1.00  0.00           C  
+HETATM   33  C2  Q8Q A 901       0.100  20.462  44.225  1.00  0.00           C  
+HETATM   34  C10 Q8Q A 901       2.931  16.359  39.443  1.00  0.00           C  
+HETATM   35  O11 Q8Q A 901       3.693  17.294  39.203  1.00  0.00           O  
+HETATM   36  N12 Q8Q A 901       2.818  15.168  38.744  1.00  0.00           N  
+HETATM   37  C13 Q8Q A 901       3.642  14.922  37.689  1.00  0.00           C  
+HETATM   38  C29 Q8Q A 901       4.989  14.346  37.816  1.00  0.00           C  
+HETATM   39  C30 Q8Q A 901       5.511  13.539  38.956  1.00  0.00           C  
+HETATM   40  C31 Q8Q A 901       5.607  14.428  40.160  1.00  0.00           C  
+HETATM   41  N28 Q8Q A 901       5.640  14.589  36.660  1.00  0.00           N  
+HETATM   42  N17 Q8Q A 901       4.799  15.377  35.841  1.00  0.00           N  
+HETATM   43  C14 Q8Q A 901       3.603  15.652  36.408  1.00  0.00           C  
+HETATM   44  C15 Q8Q A 901       2.456  16.445  35.834  1.00  0.00           C  
+HETATM   45  C16 Q8Q A 901       1.147  15.787  36.227  1.00  0.00           C  
+HETATM   46  C18 Q8Q A 901       5.410  15.720  34.533  1.00  0.00           C  
+HETATM   47  C19 Q8Q A 901       6.331  16.962  34.496  1.00  0.00           C  
+HETATM   48  O20 Q8Q A 901       7.143  17.158  35.669  1.00  0.00           O  
+HETATM   49  C21 Q8Q A 901       8.467  16.602  35.665  1.00  0.00           C  
+HETATM   50  C22 Q8Q A 901       9.514  17.468  34.931  1.00  0.00           C  
+HETATM   51  O23 Q8Q A 901       9.798  18.732  35.574  1.00  0.00           O  
+HETATM   52  C24 Q8Q A 901       9.078  19.890  35.077  1.00  0.00           C  
+HETATM   53  C25 Q8Q A 901       7.987  20.417  36.034  1.00  0.00           C  
+HETATM   54  O26 Q8Q A 901       6.609  20.255  35.611  1.00  0.00           O  
+HETATM   55  C27 Q8Q A 901       5.657  21.013  36.383  1.00  0.00           C  
+CONECT    1    2
+CONECT    1    2
+CONECT    2    1    3    6
+CONECT    2    1
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    4
+CONECT    6    2    7    9
+CONECT    7    6    8
+CONECT    8    7   11
+CONECT    9    6   10
+CONECT   10    9   11
+CONECT   11    8   10   12
+CONECT   12   11   13   15
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   19
+CONECT   14   19
+CONECT   15   12   16
+CONECT   15   16
+CONECT   16   15   17   19
+CONECT   16   15
+CONECT   17   16   18
+CONECT   18   17
+CONECT   19   14   16   20
+CONECT   19   14
+CONECT   20   19   21
+CONECT   21   20   22   23
+CONECT   21   23
+CONECT   22   21   33
+CONECT   22   33
+CONECT   23   21   24
+CONECT   23   21
+CONECT   24   23   25   32
+CONECT   24   32
+CONECT   25   24   26   29
+CONECT   26   25   27
+CONECT   26   27
+CONECT   27   26   28
+CONECT   27   26
+CONECT   28   27   29   34
+CONECT   28   29
+CONECT   29   25   28   30
+CONECT   29   28
+CONECT   30   29   31
+CONECT   31   30   32
+CONECT   32   24   31   33
+CONECT   32   24
+CONECT   33   22   32
+CONECT   33   22
+CONECT   34   28   35   36
+CONECT   34   35
+CONECT   35   34
+CONECT   35   34
+CONECT   36   34   37
+CONECT   37   36   38   43
+CONECT   37   43
+CONECT   38   37   39   41
+CONECT   38   41
+CONECT   39   38   40
+CONECT   40   39
+CONECT   41   38   42
+CONECT   41   38
+CONECT   42   41   43   46
+CONECT   43   37   42   44
+CONECT   43   37
+CONECT   44   43   45
+CONECT   45   44
+CONECT   46   42   47
+CONECT   47   46   48
+CONECT   48   47   49
+CONECT   49   48   50
+CONECT   50   49   51
+CONECT   51   50   52
+CONECT   52   51   53
+CONECT   53   52   54
+CONECT   54   53   55
+CONECT   55   54
+ENDMDL
+END   

@@ -1,0 +1,92 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5ax9_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C14 Q4K A 401      -1.349  15.830  43.998  1.00  0.00           C  
+HETATM    2  C16 Q4K A 401      -1.592  14.482  44.331  1.00  0.00           C  
+HETATM    3  C17 Q4K A 401      -1.890  14.069  45.652  1.00  0.00           C  
+HETATM    4  C22 Q4K A 401      -1.403  10.331  46.807  1.00  0.00           C  
+HETATM    5  C21 Q4K A 401      -3.612  10.724  46.592  1.00  0.00           C  
+HETATM    6  C20 Q4K A 401      -1.108  11.877  46.639  1.00  0.00           C  
+HETATM    7  C19 Q4K A 401      -1.917  15.088  46.642  1.00  0.00           C  
+HETATM    8  C18 Q4K A 401      -1.660  16.422  46.291  1.00  0.00           C  
+HETATM    9  C3  Q4K A 401       2.473  17.046  37.712  1.00  0.00           C  
+HETATM   10  C2  Q4K A 401       2.044  18.876  39.136  1.00  0.00           C  
+HETATM   11  C4  Q4K A 401       1.165  18.171  39.990  1.00  0.00           C  
+HETATM   12  C5  Q4K A 401       1.593  16.282  38.513  1.00  0.00           C  
+HETATM   13  C11 Q4K A 401      -0.445  20.884  42.162  1.00  0.00           C  
+HETATM   14  C9  Q4K A 401      -0.636  18.906  43.413  1.00  0.00           C  
+HETATM   15  C8  Q4K A 401       0.482  18.866  41.161  1.00  0.00           C  
+HETATM   16  C24 Q4K A 401      -2.497  15.818  48.902  1.00  0.00           C  
+HETATM   17  C6  Q4K A 401       0.920  16.788  39.637  1.00  0.00           C  
+HETATM   18  C1  Q4K A 401       2.738  18.403  37.994  1.00  0.00           C  
+HETATM   19  C7  Q4K A 401       0.052  18.216  42.333  1.00  0.00           C  
+HETATM   20  N1  Q4K A 401      -0.857  20.252  43.291  1.00  0.00           N  
+HETATM   21  C10 Q4K A 401       0.207  20.241  41.103  1.00  0.00           C  
+HETATM   22  C12 Q4K A 401       3.638  19.261  37.202  1.00  0.00           C  
+HETATM   23  O1  Q4K A 401       0.066  15.959  40.382  1.00  0.00           O  
+HETATM   24  C13 Q4K A 401      -0.124  14.579  40.072  1.00  0.00           C  
+HETATM   25  C15 Q4K A 401      -1.371  16.861  44.980  1.00  0.00           C  
+HETATM   26  O2  Q4K A 401      -2.198  14.756  47.975  1.00  0.00           O  
+HETATM   27  N2  Q4K A 401      -2.124  12.692  45.973  1.00  0.00           N  
+HETATM   28  O3  Q4K A 401      -2.541   9.948  46.067  1.00  0.00           O  
+HETATM   29  C23 Q4K A 401      -3.467  12.266  46.334  1.00  0.00           C  
+HETATM   30  N3  Q4K A 401      -1.103  18.267  44.626  1.00  0.00           N  
+HETATM   31  N4  Q4K A 401       4.347  19.962  36.595  1.00  0.00           N  
+CONECT    1    2   25
+CONECT    1   25
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2    7   27
+CONECT    3    2
+CONECT    4    6   28
+CONECT    5   28   29
+CONECT    6    4   27
+CONECT    7    3    8   26
+CONECT    7    8
+CONECT    8    7   25
+CONECT    8    7
+CONECT    9   12   18
+CONECT    9   12
+CONECT   10   11   18
+CONECT   10   18
+CONECT   11   10   15   17
+CONECT   11   17
+CONECT   12    9   17
+CONECT   12    9
+CONECT   13   20   21
+CONECT   13   20
+CONECT   14   19   20   30
+CONECT   14   19
+CONECT   15   11   19   21
+CONECT   15   21
+CONECT   16   26
+CONECT   17   11   12   23
+CONECT   17   11
+CONECT   18    9   10   22
+CONECT   18   10
+CONECT   19   14   15
+CONECT   19   14
+CONECT   20   13   14
+CONECT   20   13
+CONECT   21   13   15
+CONECT   21   15
+CONECT   22   18   31
+CONECT   22   31
+CONECT   22   31
+CONECT   23   17   24
+CONECT   24   23
+CONECT   25    1    8   30
+CONECT   25    1
+CONECT   26    7   16
+CONECT   27    3    6   29
+CONECT   28    4    5
+CONECT   29    5   27
+CONECT   30   14   25
+CONECT   31   22
+CONECT   31   22
+CONECT   31   22
+ENDMDL
+END   

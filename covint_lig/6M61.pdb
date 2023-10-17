@@ -1,0 +1,60 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6M61
+MODEL        1
+ATOM      1  N   CYS O 152     -14.588  10.377 -27.245  1.00 11.55           N1+
+ATOM      2  CA  CYS O 152     -13.230  10.777 -27.601  1.00 10.70           C  
+ATOM      3  C   CYS O 152     -12.842  10.174 -28.947  1.00 13.12           C  
+ATOM      4  O   CYS O 152     -12.357  10.876 -29.842  1.00 10.18           O  
+ATOM      5  CB  CYS O 152     -12.261  10.329 -26.501  1.00 12.79           C  
+ATOM      6  SG  CYS O 152     -12.340   8.540 -26.182  1.00 20.10           S  
+TER       7      CYS O 152
+HETATM    8  C11 F4F O 406     -14.888   6.505 -24.453  0.80 20.99           C  
+HETATM    9  C12 F4F O 406     -13.619   7.074 -23.740  0.80 20.00           C  
+HETATM   10  C13 F4F O 406     -12.971   8.185 -24.570  0.80 16.62           C  
+HETATM   11  C15 F4F O 406     -12.576   5.973 -23.475  0.80 18.98           C  
+HETATM   12  C16 F4F O 406     -12.412   4.932 -24.618  0.80 15.77           C  
+HETATM   13  C17 F4F O 406     -13.769   4.447 -25.166  0.80 24.10           C  
+HETATM   14  C18 F4F O 406     -13.593   3.288 -26.158  0.80 21.06           C  
+HETATM   15  C19 F4F O 406     -12.842   2.123 -25.501  0.80 24.48           C  
+HETATM   16  C20 F4F O 406     -12.910   3.661 -27.474  0.80 16.63           C  
+HETATM   17  C02 F4F O 406     -16.008   7.579 -24.662  0.80 21.90           C  
+HETATM   18  C04 F4F O 406     -17.600   5.768 -24.730  0.80 24.85           C  
+HETATM   19  C05 F4F O 406     -17.202   5.193 -26.095  0.80 23.41           C  
+HETATM   20  C06 F4F O 406     -18.221   4.422 -26.938  0.80 26.59           C  
+HETATM   21  C09 F4F O 406     -15.751   5.215 -26.582  0.80 25.21           C  
+HETATM   22  C10 F4F O 406     -14.533   5.678 -25.711  0.80 18.26           C  
+HETATM   23  O01 F4F O 406     -15.771   8.724 -24.846  0.80 16.95           O  
+HETATM   24  O03 F4F O 406     -17.330   7.136 -24.603  0.80 26.09           O  
+HETATM   25  O07 F4F O 406     -17.855   3.934 -28.036  0.80 28.86           O  
+HETATM   26  O08 F4F O 406     -19.413   4.272 -26.559  0.80 31.53           O1-
+HETATM   27  O14 F4F O 406     -13.955   7.574 -22.482  0.80 23.00           O  
+CONECT    8    9   17   22
+CONECT    9    8   10   11   27
+CONECT   10    6    9
+CONECT   11    9   12
+CONECT   12   11   13
+CONECT   13   12   14   22
+CONECT   14   13   15   16
+CONECT   15   14
+CONECT   16   14
+CONECT   17    8   23   24
+CONECT   17   23
+CONECT   18   19   24
+CONECT   19   18   20   21
+CONECT   19   21
+CONECT   20   19   25   26
+CONECT   20   25
+CONECT   21   19   22
+CONECT   21   19
+CONECT   22    8   13   21
+CONECT   23   17
+CONECT   23   17
+CONECT   24   17   18
+CONECT   25   20
+CONECT   25   20
+CONECT   26   20
+CONECT   27    9
+ENDMDL
+END   

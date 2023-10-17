@@ -1,0 +1,60 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5WDK
+MODEL        1
+ATOM      1  N   CYS A  56      41.811 -14.348 -10.994  1.00 55.05           N1+
+ATOM      2  CA  CYS A  56      42.974 -15.229 -10.969  1.00 59.49           C  
+ATOM      3  C   CYS A  56      44.254 -14.466 -10.668  1.00 56.52           C  
+ATOM      4  O   CYS A  56      45.193 -15.033 -10.097  1.00 57.97           O  
+ATOM      5  CB  CYS A  56      43.120 -15.940 -12.310  1.00 64.73           C  
+ATOM      6  SG  CYS A  56      43.555 -14.765 -13.646  1.00 65.55           S  
+TER       7      CYS A  56
+HETATM    8  O01 T1O A 503      28.785 -16.281 -14.041  1.00 97.08           O  
+HETATM    9  C02 T1O A 503      29.812 -16.073 -14.608  1.00 97.43           C  
+HETATM   10  N03 T1O A 503      30.867 -17.100 -14.877  1.00 99.64           N  
+HETATM   11  C04 T1O A 503      31.872 -16.485 -15.517  1.00101.33           C  
+HETATM   12  C05 T1O A 503      31.451 -14.868 -15.751  1.00101.56           C  
+HETATM   13  C06 T1O A 503      32.662 -13.940 -15.031  1.00104.24           C  
+HETATM   14  S07 T1O A 503      33.760 -14.876 -14.734  1.00109.49           S  
+HETATM   15  N08 T1O A 503      30.311 -14.676 -15.219  1.00100.06           N  
+HETATM   16  C09 T1O A 503      33.023 -16.468 -14.612  1.00101.63           C  
+HETATM   17  C10 T1O A 503      34.025 -17.664 -14.974  1.00 91.68           C  
+HETATM   18  C11 T1O A 503      35.504 -17.224 -15.058  1.00 92.19           C  
+HETATM   19  C12 T1O A 503      36.372 -17.813 -13.897  1.00 85.56           C  
+HETATM   20  C13 T1O A 503      37.571 -18.665 -14.401  1.00 77.08           C  
+HETATM   21  C14 T1O A 503      38.816 -17.792 -14.753  1.00 73.45           C  
+HETATM   22  N15 T1O A 503      38.638 -16.480 -15.440  1.00 66.06           N  
+HETATM   23  C16 T1O A 503      39.782 -15.593 -15.812  1.00 56.19           C  
+HETATM   24  C17 T1O A 503      40.710 -15.209 -14.622  1.00 55.45           C  
+HETATM   25  C18 T1O A 503      42.220 -14.950 -14.838  1.00 47.05           C  
+HETATM   26  O19 T1O A 503      40.283 -15.112 -13.525  1.00 59.02           O  
+HETATM   27  O20 T1O A 503      39.908 -18.189 -14.464  1.00 72.81           O  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10   15
+CONECT    9    8
+CONECT   10    9   11
+CONECT   11   10   12   16
+CONECT   12   11   13   15
+CONECT   13   12   14
+CONECT   14   13   16
+CONECT   15    9   12
+CONECT   16   11   14   17
+CONECT   17   16   18
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   20   22   27
+CONECT   21   27
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   23   25   26
+CONECT   24   26
+CONECT   25    6   24
+CONECT   26   24
+CONECT   26   24
+CONECT   27   21
+CONECT   27   21
+ENDMDL
+END   

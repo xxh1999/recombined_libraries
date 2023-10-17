@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7BIQ
+MODEL        1
+ATOM      1  N   LYS A 122      25.753  24.771   8.061  1.00  8.99           N1+
+ATOM      2  CA  LYS A 122      24.762  23.754   8.382  1.00  9.23           C  
+ATOM      3  C   LYS A 122      25.368  22.360   8.261  1.00  8.77           C  
+ATOM      4  O   LYS A 122      25.186  21.517   9.139  1.00  9.10           O  
+ATOM      5  CB  LYS A 122      23.544  23.916   7.463  1.00 10.31           C  
+ATOM      6  CG  LYS A 122      22.461  22.894   7.627  1.00 10.88           C  
+ATOM      7  CD  LYS A 122      21.444  23.040   6.483  1.00 11.98           C  
+ATOM      8  CE  LYS A 122      20.417  21.926   6.345  1.00 13.41           C  
+ATOM      9  NZ  LYS A 122      19.422  22.224   5.272  1.00 14.38           N1+
+TER      10      LYS A 122
+HETATM   11  C01 TVB A 301      17.509  19.452  -3.022  1.00 16.39           C  
+HETATM   12  C02 TVB A 301      17.368  19.935  -1.575  1.00 14.34           C  
+HETATM   13  C03 TVB A 301      16.798  18.782  -0.759  1.00 17.77           C  
+HETATM   14  C04 TVB A 301      16.080  19.256   0.505  1.00 16.31           C  
+HETATM   15  C05 TVB A 301      14.943  20.203  -0.008  1.00 14.70           C  
+HETATM   16  C06 TVB A 301      13.635  20.064   0.515  1.00 16.02           C  
+HETATM   17  C07 TVB A 301      12.632  20.916  -0.012  1.00 17.34           C  
+HETATM   18  C08 TVB A 301      12.940  21.837  -1.002  1.00 17.93           C  
+HETATM   19  C09 TVB A 301      14.252  21.962  -1.552  1.00 16.02           C  
+HETATM   20  C10 TVB A 301      15.226  21.109  -1.006  1.00 14.52           C  
+HETATM   21  C14 TVB A 301      18.153  22.484   0.294  1.00 12.53           C  
+HETATM   22  C15 TVB A 301      17.415  22.868   1.426  1.00 13.25           C  
+HETATM   23  C16 TVB A 301      18.033  22.731   2.687  1.00 13.57           C  
+HETATM   24  C17 TVB A 301      19.346  22.260   2.780  1.00 13.22           C  
+HETATM   25  C18 TVB A 301      20.062  21.861   1.649  1.00 12.99           C  
+HETATM   26  C19 TVB A 301      19.467  21.995   0.400  1.00 13.90           C  
+HETATM   27  C20 TVB A 301      20.138  21.997   4.079  1.00 15.48           C  
+HETATM   28  N11 TVB A 301      16.586  21.176  -1.491  1.00 14.60           N  
+HETATM   29  O13 TVB A 301      18.481  22.623  -2.315  1.00 15.84           O  
+HETATM   30  O22 TVB A 301      16.520  23.707  -1.341  1.00 15.15           O  
+HETATM   31  S12 TVB A 301      17.437  22.583  -1.294  1.00 13.97           S  
+CONECT   11   12
+CONECT   12   11   13   28
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   16   20
+CONECT   15   20
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   15   19   28
+CONECT   20   15
+CONECT   21   22   26   31
+CONECT   21   26
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   23   25   27
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26   21   25
+CONECT   26   21
+CONECT   27    9   24
+CONECT   28   12   20   31
+CONECT   29   31
+CONECT   29   31
+CONECT   30   31
+CONECT   30   31
+CONECT   31   21   28   29   30
+CONECT   31   29   30
+ENDMDL
+END   

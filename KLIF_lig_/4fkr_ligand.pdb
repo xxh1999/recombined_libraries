@@ -1,0 +1,78 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4fkr_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N1  Q45 A 301       1.900  16.336  38.355  1.00  0.00           N  
+HETATM    2  N2  Q45 A 301      -1.734  17.063  44.057  1.00  0.00           N  
+HETATM    3  N3  Q45 A 301       0.365  20.074  42.041  1.00  0.00           N  
+HETATM    4  OAA Q45 A 301      -0.898  19.656  43.895  1.00  0.00           O  
+HETATM    5  OAB Q45 A 301      -6.641  13.084  44.895  1.00  0.00           O1-
+HETATM    6  OAC Q45 A 301      -5.712  10.783  45.386  1.00  0.00           O1-
+HETATM    7  CAD Q45 A 301      -0.948  16.883  42.987  1.00  0.00           C  
+HETATM    8  CAE Q45 A 301      -2.716  16.257  46.053  1.00  0.00           C  
+HETATM    9  CAF Q45 A 301      -3.417  15.270  46.755  1.00  0.00           C  
+HETATM   10  CAG Q45 A 301       2.014  18.707  38.992  1.00  0.00           C  
+HETATM   11  CAH Q45 A 301       1.645  19.661  39.941  1.00  0.00           C  
+HETATM   12  CAI Q45 A 301       1.395  15.137  38.700  1.00  0.00           C  
+HETATM   13  CAJ Q45 A 301      -2.855  14.944  44.048  1.00  0.00           C  
+HETATM   14  CAK Q45 A 301      -4.652  12.928  46.733  1.00  0.00           C  
+HETATM   15  CAL Q45 A 301      -4.055  12.589  44.149  1.00  0.00           C  
+HETATM   16  SAP Q45 A 301       0.486  15.359  40.115  1.00  0.00           S  
+HETATM   17  CAQ Q45 A 301      -2.377  16.078  44.706  1.00  0.00           C  
+HETATM   18  CAR Q45 A 301      -3.851  14.104  46.114  1.00  0.00           C  
+HETATM   19  CAS Q45 A 301      -3.525  13.922  44.740  1.00  0.00           C  
+HETATM   20  CAT Q45 A 301      -0.271  19.271  42.901  1.00  0.00           C  
+HETATM   21  CAU Q45 A 301      -0.326  17.979  42.378  1.00  0.00           C  
+HETATM   22  CAV Q45 A 301       1.621  17.377  39.153  1.00  0.00           C  
+HETATM   23  CAW Q45 A 301       0.869  19.317  41.053  1.00  0.00           C  
+HETATM   24  CAX Q45 A 301       0.806  17.032  40.261  1.00  0.00           C  
+HETATM   25  CAY Q45 A 301       0.428  17.992  41.205  1.00  0.00           C  
+HETATM   26  SAZ Q45 A 301      -5.446  12.255  45.238  1.00  0.00           S2+
+CONECT    1   12   22
+CONECT    1   12
+CONECT    2    7   17
+CONECT    3   20   23
+CONECT    4   20
+CONECT    4   20
+CONECT    5   26
+CONECT    6   26
+CONECT    7    2   21
+CONECT    7   21
+CONECT    8    9   17
+CONECT    8   17
+CONECT    9    8   18
+CONECT    9   18
+CONECT   10   11   22
+CONECT   10   11
+CONECT   11   10   23
+CONECT   11   10
+CONECT   12    1   16
+CONECT   12    1
+CONECT   13   17   19
+CONECT   13   19
+CONECT   14   18   26
+CONECT   15   19   26
+CONECT   16   12   24
+CONECT   17    2    8   13
+CONECT   17    8
+CONECT   18    9   14   19
+CONECT   18    9
+CONECT   19   13   15   18
+CONECT   19   13
+CONECT   20    3    4   21
+CONECT   20    4
+CONECT   21    7   20   25
+CONECT   21    7
+CONECT   22    1   10   24
+CONECT   22   24
+CONECT   23    3   11   25
+CONECT   23   25
+CONECT   24   16   22   25
+CONECT   24   22
+CONECT   25   21   23   24
+CONECT   25   23
+CONECT   26    5    6   14   15
+ENDMDL
+END   

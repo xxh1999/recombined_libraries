@@ -1,0 +1,82 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5op7_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  A1K A 301       1.168  15.236  41.909  1.00  0.00           C  
+HETATM    2  N1  A1K A 301       1.259  16.644  41.574  1.00  0.00           N  
+HETATM    3  O1  A1K A 301      -1.764  17.959  47.877  1.00  0.00           O  
+HETATM    4  C2  A1K A 301       0.719  17.634  42.294  1.00  0.00           C  
+HETATM    5  N2  A1K A 301       0.319  21.150  42.200  1.00  0.00           N  
+HETATM    6  O2  A1K A 301      -3.994  12.867  47.501  1.00  0.00           O  
+HETATM    7  C3  A1K A 301       0.800  18.995  41.894  1.00  0.00           C  
+HETATM    8  N3  A1K A 301      -0.444  19.633  43.888  1.00  0.00           N  
+HETATM    9  O3  A1K A 301       0.060  10.466  48.755  1.00  0.00           O  
+HETATM   10  C4  A1K A 301       1.327  19.708  40.863  1.00  0.00           C  
+HETATM   11  N4  A1K A 301      -1.139  18.064  45.293  1.00  0.00           N  
+HETATM   12  C5  A1K A 301       1.012  21.013  41.032  1.00  0.00           C  
+HETATM   13  N5  A1K A 301      -1.914  12.417  48.235  1.00  0.00           N  
+HETATM   14  C6  A1K A 301       0.190  19.932  42.756  1.00  0.00           C  
+HETATM   15  N6  A1K A 301       0.087  17.316  43.436  1.00  0.00           N  
+HETATM   16  C7  A1K A 301      -0.464  18.326  44.162  1.00  0.00           C  
+HETATM   17  C8  A1K A 301      -1.525  16.848  45.816  1.00  0.00           C  
+HETATM   18  C9  A1K A 301      -1.593  15.703  45.040  1.00  0.00           C  
+HETATM   19  C10 A1K A 301      -1.995  14.510  45.599  1.00  0.00           C  
+HETATM   20  C11 A1K A 301      -2.348  14.439  46.939  1.00  0.00           C  
+HETATM   21  C12 A1K A 301      -2.290  15.578  47.727  1.00  0.00           C  
+HETATM   22  C13 A1K A 301      -1.864  16.778  47.186  1.00  0.00           C  
+HETATM   23  C14 A1K A 301      -1.819  17.921  49.308  1.00  0.00           C  
+HETATM   24  C15 A1K A 301      -2.807  13.158  47.551  1.00  0.00           C  
+HETATM   25  C16 A1K A 301      -2.262  11.137  48.844  1.00  0.00           C  
+HETATM   26  C17 A1K A 301      -1.271  10.091  48.424  1.00  0.00           C  
+HETATM   27  C18 A1K A 301       0.401  11.686  48.104  1.00  0.00           C  
+HETATM   28  C19 A1K A 301      -0.525  12.803  48.498  1.00  0.00           C  
+HETATM   29 CL1  A1K A 301       2.140  19.097  39.462  1.00  0.00          Cl  
+CONECT    1    2
+CONECT    2    1    4
+CONECT    3   22   23
+CONECT    4    2    7   15
+CONECT    4   15
+CONECT    5   12   14
+CONECT    6   24
+CONECT    6   24
+CONECT    7    4   10   14
+CONECT    7   14
+CONECT    8   14   16
+CONECT    8   16
+CONECT    9   26   27
+CONECT   10    7   12   29
+CONECT   10   12
+CONECT   11   16   17
+CONECT   12    5   10
+CONECT   12   10
+CONECT   13   24   25   28
+CONECT   14    5    7    8
+CONECT   14    7
+CONECT   15    4   16
+CONECT   15    4
+CONECT   16    8   11   15
+CONECT   16    8
+CONECT   17   11   18   22
+CONECT   17   22
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   19   21   24
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22    3   17   21
+CONECT   22   17
+CONECT   23    3
+CONECT   24    6   13   20
+CONECT   24    6
+CONECT   25   13   26
+CONECT   26    9   25
+CONECT   27    9   28
+CONECT   28   13   27
+CONECT   29   10
+ENDMDL
+END   

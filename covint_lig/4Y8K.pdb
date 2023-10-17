@@ -1,0 +1,32 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4Y8K
+MODEL        1
+ATOM      1  N   LEU c   3      11.356-138.858  17.348  1.00 77.03           N1+
+ATOM      2  CA  LEU c   3      12.239-138.705  16.190  1.00 75.99           C  
+ATOM      3  C   LEU c   3      11.425-138.760  14.921  1.00 76.06           C  
+ATOM      4  O   LEU c   3      10.275-139.142  14.930  1.00 75.06           O  
+ATOM      5  CB  LEU c   3      13.332-139.765  16.174  1.00 78.41           C  
+ATOM      6  CG  LEU c   3      14.218-139.608  17.407  1.00 79.30           C  
+ATOM      7  CD1 LEU c   3      15.027-140.881  17.594  1.00 80.26           C  
+ATOM      8  CD2 LEU c   3      15.182-138.450  17.221  1.00 79.01           C  
+TER       9      LEU c   3
+HETATM   10  N   DCL c   4      12.062-138.370  13.835  1.00 79.05           N  
+HETATM   11  CA  DCL c   4      11.406-138.241  12.553  1.00 78.82           C  
+HETATM   12  C   DCL c   4      12.195-138.943  11.440  1.00 75.63           C  
+HETATM   13  CB  DCL c   4      11.424-136.709  12.337  1.00 78.72           C  
+HETATM   14  CG  DCL c   4      10.080-136.022  12.644  1.00 79.72           C  
+HETATM   15  CD1 DCL c   4      10.249-134.512  12.888  1.00 77.80           C  
+HETATM   16  CD2 DCL c   4       9.439-136.647  13.874  1.00 79.98           C  
+HETATM   17  OXT DCL c   4      13.538-138.560  11.701  1.00 70.63           O  
+CONECT   10    3   11
+CONECT   11   10   12   13
+CONECT   12   11   17
+CONECT   13   11   14
+CONECT   14   13   15   16
+CONECT   15   14
+CONECT   16   14
+CONECT   17   12
+ENDMDL
+END   

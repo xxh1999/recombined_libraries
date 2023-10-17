@@ -1,0 +1,37 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6N9J
+MODEL        1
+ATOM      1  N   THR C 404       1.620 -26.363   8.507  1.00 24.85           N1+
+ATOM      2  CA  THR C 404       1.083 -25.663   7.348  1.00 26.84           C  
+ATOM      3  C   THR C 404       1.779 -24.294   7.268  1.00 28.07           C  
+ATOM      4  O   THR C 404       2.411 -23.845   8.228  1.00 25.92           O  
+ATOM      5  CB  THR C 404      -0.445 -25.509   7.520  1.00 24.36           C  
+ATOM      6  OG1 THR C 404      -0.726 -24.762   8.687  1.00 23.82           O  
+ATOM      7  CG2 THR C 404      -1.197 -26.850   7.550  1.00 23.24           C  
+TER       8      THR C 404
+HETATM    9  CAK CKC C 405      -0.159 -21.535   6.899  1.00 32.16           C  
+HETATM   10  CAO CKC C 405       1.120 -21.185   6.154  1.00 29.57           C  
+HETATM   11  OAF CKC C 405       1.229 -20.039   5.730  1.00 31.17           O  
+HETATM   12  CAR CKC C 405       2.177 -22.278   5.882  1.00 26.43           C  
+HETATM   13  NAC CKC C 405       1.634 -23.614   6.124  1.00 27.05           N  
+HETATM   14  CAL CKC C 405       2.595 -22.202   4.397  1.00 26.03           C  
+HETATM   15  CAH CKC C 405       3.518 -23.356   3.966  1.00 27.60           C  
+HETATM   16  CAG CKC C 405       4.070 -23.215   2.544  1.00 29.61           C  
+HETATM   17  CAI CKC C 405       5.341 -22.368   2.467  1.00 29.90           C  
+HETATM   18  NAM CKC C 405       5.857 -22.347   1.093  1.00 31.61           N1+
+CONECT    9   10
+CONECT   10    9   11   12
+CONECT   10   11
+CONECT   11   10
+CONECT   11   10
+CONECT   12   10   13   14
+CONECT   13    3   12
+CONECT   14   12   15
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   18   17
+ENDMDL
+END   

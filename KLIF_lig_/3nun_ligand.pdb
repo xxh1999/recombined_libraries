@@ -1,0 +1,56 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3nun_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  JMZ A 361       3.900  17.226  37.638  1.00  0.00           C  
+HETATM    2  C5  JMZ A 361       1.482  19.649  40.927  1.00  0.00           C  
+HETATM    3  C6  JMZ A 361       1.829  18.413  40.435  1.00  0.00           C  
+HETATM    4  C7  JMZ A 361       0.359  18.514  42.777  1.00  0.00           C  
+HETATM    5  C8  JMZ A 361       2.587  18.346  39.203  1.00  0.00           C  
+HETATM    6  C10 JMZ A 361      -0.370  18.991  43.903  1.00  0.00           C  
+HETATM    7  N12 JMZ A 361      -0.941  18.189  44.841  1.00  0.00           N  
+HETATM    8  C1  JMZ A 361       1.460  17.269  41.113  1.00  0.00           C  
+HETATM    9  C2  JMZ A 361       0.721  17.273  42.276  1.00  0.00           C  
+HETATM   10  C3  JMZ A 361       3.157  17.170  38.791  1.00  0.00           C  
+HETATM   11  C9  JMZ A 361       0.756  19.646  42.094  1.00  0.00           C  
+HETATM   12  C11 JMZ A 361       3.479  19.432  37.389  1.00  0.00           C  
+HETATM   13  N13 JMZ A 361       3.655  20.600  36.631  1.00  0.00           N  
+HETATM   14  N14 JMZ A 361       0.264  20.698  42.807  1.00  0.00           N  
+HETATM   15  N15 JMZ A 361       4.074  18.334  36.917  1.00  0.00           N  
+HETATM   16  N16 JMZ A 361       2.744  19.483  38.512  1.00  0.00           N  
+HETATM   17  N17 JMZ A 361      -0.419  20.326  43.899  1.00  0.00           N  
+CONECT    1   10   15
+CONECT    1   10
+CONECT    2    3   11
+CONECT    2   11
+CONECT    3    2    5    8
+CONECT    3    8
+CONECT    4    6    9   11
+CONECT    4    9
+CONECT    5    3   10   16
+CONECT    5   16
+CONECT    6    4    7   17
+CONECT    6   17
+CONECT    7    6
+CONECT    8    3    9
+CONECT    8    3
+CONECT    9    4    8
+CONECT    9    4
+CONECT   10    1    5
+CONECT   10    1
+CONECT   11    2    4   14
+CONECT   11    2
+CONECT   12   13   15   16
+CONECT   12   15
+CONECT   13   12
+CONECT   14   11   17
+CONECT   15    1   12
+CONECT   15   12
+CONECT   16    5   12
+CONECT   16    5
+CONECT   17    6   14
+CONECT   17    6
+ENDMDL
+END   

@@ -1,0 +1,82 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6PQI
+MODEL        1
+ATOM      1  N   SER A  70      15.871  14.530  44.859  1.00 31.35           N1+
+ATOM      2  CA  SER A  70      15.274  14.056  46.103  1.00 28.34           C  
+ATOM      3  C   SER A  70      15.485  12.548  46.352  1.00 33.04           C  
+ATOM      4  O   SER A  70      15.153  12.102  47.448  1.00 28.96           O  
+ATOM      5  CB  SER A  70      13.757  14.326  46.112  1.00 35.90           C  
+ATOM      6  OG  SER A  70      13.378  15.700  46.064  1.00 42.34           O  
+TER       7      SER A  70
+HETATM    8  S1  CEF A 301       9.639  18.512  45.110  0.82 49.11           S  
+HETATM    9  C1  CEF A 301       8.165  17.567  45.449  0.82 48.83           C  
+HETATM   10  C2  CEF A 301       8.041  16.429  44.466  0.82 50.49           C  
+HETATM   11  C3  CEF A 301       6.942  16.336  43.689  0.82 55.22           C  
+HETATM   12  C4  CEF A 301       9.246  15.556  44.271  0.82 40.93           C  
+HETATM   13  C5  CEF A 301       9.168  14.211  43.582  0.82 42.39           C  
+HETATM   14  O1  CEF A 301       8.059  13.635  43.554  0.82 54.79           O1-
+HETATM   15  O2  CEF A 301      10.236  13.741  43.133  0.82 44.90           O  
+HETATM   16  N1  CEF A 301      10.410  15.891  44.690  0.82 48.97           N  
+HETATM   17  C6  CEF A 301      10.788  17.131  45.371  0.82 49.49           C  
+HETATM   18  C7  CEF A 301      12.263  17.523  45.001  0.82 47.38           C  
+HETATM   19  C8  CEF A 301      13.196  16.305  44.872  0.82 42.69           C  
+HETATM   20  O3  CEF A 301      13.611  15.877  43.796  0.82 33.38           O  
+HETATM   21  N2  CEF A 301      12.354  18.342  43.785  0.82 46.00           N  
+HETATM   22  C9  CEF A 301      12.472  19.681  43.770  0.82 48.92           C  
+HETATM   23  O4  CEF A 301      12.502  20.403  44.765  0.82 50.32           O  
+HETATM   24  C10 CEF A 301      12.553  20.259  42.378  0.82 50.36           C  
+HETATM   25  N3  CEF A 301      13.636  20.350  41.711  0.82 55.71           N  
+HETATM   26  O5  CEF A 301      14.742  19.774  42.364  0.82 58.31           O  
+HETATM   27  C11 CEF A 301      15.923  20.245  41.750  0.82 43.00           C  
+HETATM   28  C12 CEF A 301      11.257  20.761  41.821  0.82 60.08           C  
+HETATM   29  C13 CEF A 301      10.094  20.892  42.552  0.82 48.14           C  
+HETATM   30  S2  CEF A 301       8.756  21.478  41.603  0.82 63.79           S  
+HETATM   31  C14 CEF A 301       9.846  21.618  40.242  0.82 68.61           C  
+HETATM   32  N4  CEF A 301       9.429  22.132  39.027  0.82 65.51           N  
+HETATM   33  N5  CEF A 301      11.083  21.196  40.501  0.82 59.19           N  
+CONECT    8    9   17
+CONECT    9    8   10
+CONECT   10    9   11   12
+CONECT   10   11
+CONECT   11   10
+CONECT   11   10
+CONECT   12   10   13   16
+CONECT   12   16
+CONECT   13   12   14   15
+CONECT   13   15
+CONECT   14   13
+CONECT   15   13
+CONECT   15   13
+CONECT   16   12   17
+CONECT   16   12
+CONECT   17    8   16   18
+CONECT   18   17   19   21
+CONECT   19    6   18   20
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   18   22
+CONECT   22   21   23   24
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22   25   28
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26   25   27
+CONECT   27   26
+CONECT   28   24   29   33
+CONECT   28   29
+CONECT   29   28   30
+CONECT   29   28
+CONECT   30   29   31
+CONECT   31   30   32   33
+CONECT   31   33
+CONECT   32   31
+CONECT   33   28   31
+CONECT   33   31
+ENDMDL
+END   

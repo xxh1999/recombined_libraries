@@ -1,0 +1,66 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4WEF
+MODEL        1
+ATOM      1  N   TYR A 530      47.221 130.065   5.893  1.00 21.42           N1+
+ATOM      2  CA  TYR A 530      46.605 128.881   5.313  1.00 22.34           C  
+ATOM      3  C   TYR A 530      45.309 128.496   5.969  1.00 20.94           C  
+ATOM      4  O   TYR A 530      45.125 128.694   7.166  1.00 19.82           O  
+ATOM      5  CB  TYR A 530      47.523 127.666   5.474  1.00 23.84           C  
+ATOM      6  CG  TYR A 530      48.718 127.677   4.588  1.00 24.76           C  
+ATOM      7  CD1 TYR A 530      48.910 128.726   3.669  1.00 25.08           C  
+ATOM      8  CD2 TYR A 530      49.566 126.559   4.615  1.00 25.37           C  
+ATOM      9  CE1 TYR A 530      49.907 128.617   2.730  1.00 27.29           C  
+ATOM     10  CE2 TYR A 530      50.630 126.499   3.726  1.00 26.75           C  
+ATOM     11  CZ  TYR A 530      50.813 127.558   2.831  1.00 29.51           C  
+ATOM     12  OH  TYR A 530      51.925 127.602   2.083  1.00 30.48           O  
+TER      13      TYR A 530
+HETATM   14  C1  FSI A 609      52.463 129.838   2.741  0.70 23.14           C  
+HETATM   15  F1  FSI A 609      54.146 128.462   4.567  0.70 29.79           F  
+HETATM   16  C2  FSI A 609      52.937 128.345   2.597  0.70 25.50           C  
+HETATM   17  C3  FSI A 609      53.505 127.615   3.812  0.70 26.54           C  
+HETATM   18  C4  FSI A 609      54.183 126.286   3.324  0.70 26.32           C  
+HETATM   19  O4  FSI A 609      55.013 125.760   4.354  0.70 24.52           O  
+HETATM   20  C5  FSI A 609      54.814 126.225   1.855  0.70 26.68           C  
+HETATM   21  N5  FSI A 609      56.219 125.626   2.111  0.70 28.63           N  
+HETATM   22  C6  FSI A 609      54.160 127.427   0.769  0.70 25.36           C  
+HETATM   23  O6  FSI A 609      53.925 128.425   1.700  0.70 24.63           O  
+HETATM   24  C7  FSI A 609      54.580 128.608  -0.401  0.70 24.31           C  
+HETATM   25  O7  FSI A 609      54.305 129.905  -0.064  0.70 22.69           O  
+HETATM   26  C8  FSI A 609      54.577 128.713  -1.990  0.70 23.38           C  
+HETATM   27  O8  FSI A 609      53.443 128.096  -2.519  0.70 22.57           O  
+HETATM   28  C9  FSI A 609      55.838 128.903  -2.963  0.70 23.18           C  
+HETATM   29  O9  FSI A 609      56.912 127.996  -3.192  0.70 22.82           O  
+HETATM   30  C10 FSI A 609      57.173 124.834   1.530  0.70 30.49           C  
+HETATM   31  O10 FSI A 609      57.957 125.196   0.679  0.70 29.77           O  
+HETATM   32  C11 FSI A 609      57.674 123.574   2.167  0.70 30.85           C  
+HETATM   33  O1A FSI A 609      52.343 130.450   1.660  0.70 23.65           O  
+HETATM   34  O1B FSI A 609      52.218 130.289   3.872  0.70 21.80           O1-
+CONECT   14   16   33   34
+CONECT   14   33
+CONECT   15   17
+CONECT   16   12   14   17   23
+CONECT   17   15   16   18
+CONECT   18   17   19   20
+CONECT   19   18
+CONECT   20   18   21   22
+CONECT   21   20   30
+CONECT   22   20   23   24
+CONECT   23   16   22
+CONECT   24   22   25   26
+CONECT   25   24
+CONECT   26   24   27   28
+CONECT   27   26
+CONECT   28   26   29
+CONECT   29   28
+CONECT   30   21   31   32
+CONECT   30   31
+CONECT   31   30
+CONECT   31   30
+CONECT   32   30
+CONECT   33   14
+CONECT   33   14
+CONECT   34   14
+ENDMDL
+END   

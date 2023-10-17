@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2WKH
+MODEL        1
+ATOM      1  N   SER A  67       7.403  14.327  61.602  1.00 10.93           N1+
+ATOM      2  CA  SER A  67       7.774  13.828  62.920  1.00 17.69           C  
+ATOM      3  C   SER A  67       8.600  12.524  62.885  1.00 13.00           C  
+ATOM      4  O   SER A  67       9.100  12.147  63.938  1.00 15.85           O  
+ATOM      5  CB  SER A  67       6.508  13.609  63.774  1.00 30.26           C  
+ATOM      6  OG  SER A  67       5.756  14.802  64.003  1.00 43.82           O  
+TER       7      SER A  67
+HETATM    8  O1  ZZ7 A1265       0.298  12.153  64.656  0.70 46.66           O  
+HETATM    9  C2  ZZ7 A1265      -0.077  13.096  63.929  0.70 54.10           C  
+HETATM   10  O2  ZZ7 A1265      -0.971  13.004  63.067  0.70 57.48           O1-
+HETATM   11  C12 ZZ7 A1265       0.583  14.474  64.079  0.70 48.39           C  
+HETATM   12  C6  ZZ7 A1265       0.299  15.231  65.394  0.70 45.15           C  
+HETATM   13  C1  ZZ7 A1265       0.573  14.425  66.685  0.70 48.90           C  
+HETATM   14  C16 ZZ7 A1265      -1.138  15.771  65.397  0.70 37.94           C  
+HETATM   15  S1  ZZ7 A1265       1.483  16.584  65.266  0.70 59.40           S  
+HETATM   16  N3  ZZ7 A1265       2.011  14.459  63.787  0.70 42.68           N  
+HETATM   17  C13 ZZ7 A1265       2.721  15.470  64.573  0.70 38.89           C  
+HETATM   18  C14 ZZ7 A1265       3.820  16.190  63.753  0.70 36.32           C  
+HETATM   19  C15 ZZ7 A1265       4.779  15.155  63.138  0.70 35.16           C  
+HETATM   20  O4  ZZ7 A1265       4.614  14.650  62.028  0.70 22.59           O  
+HETATM   21  N1  ZZ7 A1265       3.166  16.959  62.702  0.70 30.55           N  
+HETATM   22  C3  ZZ7 A1265       3.201  18.290  62.567  0.70 35.43           C  
+HETATM   23  O3  ZZ7 A1265       3.958  19.011  63.217  0.70 30.76           O  
+HETATM   24  C4  ZZ7 A1265       2.204  18.904  61.571  0.70 37.64           C  
+HETATM   25  N2  ZZ7 A1265       2.487  20.315  61.313  0.70 33.34           N  
+HETATM   26  C5  ZZ7 A1265       0.853  18.711  62.186  0.70 41.11           C  
+HETATM   27  C7  ZZ7 A1265      -0.130  17.926  61.539  0.70 38.33           C  
+HETATM   28  C8  ZZ7 A1265      -1.421  17.774  62.084  0.70 37.06           C  
+HETATM   29  C9  ZZ7 A1265      -1.755  18.395  63.299  0.70 44.73           C  
+HETATM   30  C10 ZZ7 A1265      -0.790  19.160  63.974  0.70 46.29           C  
+HETATM   31  C11 ZZ7 A1265       0.492  19.320  63.416  0.70 46.37           C  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10   11
+CONECT    9    8
+CONECT   10    9
+CONECT   11    9   12   16
+CONECT   12   11   13   14   15
+CONECT   13   12
+CONECT   14   12
+CONECT   15   12   17
+CONECT   16   11   17
+CONECT   17   15   16   18
+CONECT   18   17   19   21
+CONECT   19    6   18   20
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   18   22
+CONECT   22   21   23   24
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22   25   26
+CONECT   25   24
+CONECT   26   24   27   31
+CONECT   26   31
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   28   30
+CONECT   29   30
+CONECT   30   29   31
+CONECT   30   29
+CONECT   31   26   30
+CONECT   31   26
+ENDMDL
+END   

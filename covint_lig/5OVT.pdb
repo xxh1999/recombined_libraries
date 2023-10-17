@@ -1,0 +1,39 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5OVT
+MODEL        1
+ATOM      1  N   THR A   1     -16.646  80.383  -1.956  1.00 51.97           N1+
+ATOM      2  CA  THR A   1     -16.309  79.027  -2.535  1.00 43.27           C  
+ATOM      3  C   THR A   1     -17.546  78.504  -3.200  1.00 37.03           C  
+ATOM      4  O   THR A   1     -18.669  78.765  -2.753  1.00 33.92           O  
+ATOM      5  CB  THR A   1     -15.906  78.000  -1.448  1.00 42.06           C  
+ATOM      6  OG1 THR A   1     -14.760  78.471  -0.753  1.00 47.27           O  
+ATOM      7  CG2 THR A   1     -15.605  76.663  -2.025  1.00 43.62           C  
+TER       8      THR A   1
+HETATM    9  C13 6VO a   5     -12.830  79.029   0.752  1.00 96.83           C  
+HETATM   10  C14 6VO a   5     -12.587  77.504   1.006  1.00 83.18           C  
+HETATM   11  C16 6VO a   5     -10.070  77.590   0.393  1.00 70.39           C  
+HETATM   12  C20 6VO a   5     -11.155  75.505   1.564  1.00 81.68           C  
+HETATM   13  C15 6VO a   5     -11.160  77.046   1.351  1.00 82.66           C  
+HETATM   14  N3  6VO a   5     -12.471  79.851   1.951  1.00 94.35           N  
+HETATM   15  C21 6VO a   5     -14.301  79.341   0.246  1.00 88.13           C  
+HETATM   16  C22 6VO a   5     -14.731  80.904   0.014  1.00 90.49           C  
+HETATM   17  C23 6VO a   5     -15.949  80.899  -0.948  1.00 77.79           C  
+HETATM   18  O6  6VO a   5     -15.080  81.633   1.222  1.00 67.46           O  
+HETATM   19  C24 6VO a   5     -13.715  81.835  -0.707  1.00 84.56           C  
+HETATM   20  O5  6VO a   5     -15.130  78.600   1.189  1.00 93.10           O  
+CONECT    9   10   14   15
+CONECT   10    9   13
+CONECT   11   13
+CONECT   12   13
+CONECT   13   10   11   12
+CONECT   14    9
+CONECT   15    6    9   16   20
+CONECT   16   15   17   18   19
+CONECT   17    1   16
+CONECT   18   16
+CONECT   19   16
+CONECT   20   15
+ENDMDL
+END   

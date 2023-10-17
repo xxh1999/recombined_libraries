@@ -1,0 +1,112 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5DG6
+MODEL        1
+ATOM      1  N   CYS A 139      -8.230   5.118  -1.599  1.00 16.75           N1+
+ATOM      2  CA  CYS A 139      -9.342   4.686  -0.742  1.00 21.23           C  
+ATOM      3  C   CYS A 139     -10.682   4.730  -1.493  1.00 22.70           C  
+ATOM      4  O   CYS A 139     -10.948   5.657  -2.257  1.00 19.44           O  
+ATOM      5  CB  CYS A 139      -9.442   5.517   0.548  1.00 26.01           C  
+ATOM      6  SG  CYS A 139      -8.278   4.894   1.789  1.00 26.98           S  
+TER       7      CYS A 139
+HETATM    8  O43 V66 A 203      -3.029   3.883  11.039  1.00 36.49           O  
+HETATM    9  C37 V66 A 203      -2.760   3.073  10.152  1.00 44.10           C  
+HETATM   10  O38 V66 A 203      -2.395   1.784  10.337  1.00 42.41           O  
+HETATM   11  C39 V66 A 203      -2.087   1.217  11.616  1.00 48.64           C  
+HETATM   12  C40 V66 A 203      -0.884   1.939  12.261  1.00 38.74           C  
+HETATM   13  C41 V66 A 203      -1.683  -0.234  11.302  1.00 38.94           C  
+HETATM   14  C42 V66 A 203      -3.321   1.208  12.545  1.00 40.66           C  
+HETATM   15  O01 V66 A 203      -4.174   3.668   6.412  1.00 26.83           O  
+HETATM   16  C02 V66 A 203      -4.131   4.567   7.249  1.00 32.09           C  
+HETATM   17  N18 V66 A 203      -1.393   3.715   1.323  1.00 40.02           N  
+HETATM   18  C19 V66 A 203      -0.462   4.172   2.334  1.00 36.62           C  
+HETATM   19  C20 V66 A 203       0.790   3.279   2.257  1.00 37.29           C  
+HETATM   20  C21 V66 A 203       1.694   3.391   3.487  1.00 51.35           C  
+HETATM   21  C22 V66 A 203       2.533   4.675   3.522  1.00 51.78           C  
+HETATM   22  C23 V66 A 203       3.217   4.886   4.879  1.00 53.58           C  
+HETATM   23  C28 V66 A 203      -2.931   4.640   8.189  1.00 32.69           C  
+HETATM   24  C29 V66 A 203      -1.685   5.010   7.362  1.00 31.00           C  
+HETATM   25  C30 V66 A 203      -0.383   5.060   8.174  1.00 41.66           C  
+HETATM   26  C31 V66 A 203       0.754   5.528   7.336  1.00 51.07           C  
+HETATM   27  N32 V66 A 203       1.120   6.794   7.130  1.00 56.23           N  
+HETATM   28  N33 V66 A 203       2.126   6.743   6.195  1.00 55.87           N  
+HETATM   29  C34 V66 A 203       2.296   5.451   5.909  1.00 49.70           C  
+HETATM   30  O35 V66 A 203       1.448   4.632   6.587  1.00 51.02           O  
+HETATM   31  N36 V66 A 203      -2.727   3.334   8.798  1.00 38.87           N  
+HETATM   32  N13 V66 A 203      -6.099   5.543   3.906  1.00 27.20           N  
+HETATM   33  C14 V66 A 203      -5.760   5.876   2.527  1.00 24.47           C  
+HETATM   34  C15 V66 A 203      -4.967   4.732   1.874  1.00 31.16           C  
+HETATM   35  C16 V66 A 203      -3.517   4.533   2.383  1.00 25.28           C  
+HETATM   36  C17 V66 A 203      -2.729   3.661   1.396  1.00 24.67           C  
+HETATM   37  O24 V66 A 203      -3.341   2.949   0.612  1.00 20.60           O  
+HETATM   38  C25 V66 A 203      -7.034   6.211   1.722  1.00 31.49           C  
+HETATM   39  O26 V66 A 203      -7.498   7.473   2.149  1.00 27.30           O  
+HETATM   40  N03 V66 A 203      -5.055   5.538   7.320  1.00 31.54           N  
+HETATM   41  C04 V66 A 203      -6.139   5.680   6.346  1.00 31.91           C  
+HETATM   42  C12 V66 A 203      -5.578   6.136   4.989  1.00 30.75           C  
+HETATM   43  O27 V66 A 203      -4.708   7.006   4.935  1.00 24.13           O  
+HETATM   44  C05 V66 A 203      -7.172   6.728   6.817  1.00 23.32           C  
+HETATM   45  C06 V66 A 203      -8.105   6.311   7.975  1.00 26.31           C  
+HETATM   46  C07 V66 A 203      -9.097   7.464   8.254  1.00 24.16           C  
+HETATM   47  C08 V66 A 203     -10.140   7.107   9.320  1.00 26.01           C  
+HETATM   48  C09 V66 A 203     -10.900   5.841   8.919  1.00 23.66           C  
+HETATM   49  C10 V66 A 203      -9.931   4.671   8.733  1.00 30.43           C  
+HETATM   50  C11 V66 A 203      -8.872   5.002   7.675  1.00 28.74           C  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10   31
+CONECT    9    8
+CONECT   10    9   11
+CONECT   11   10   12   13   14
+CONECT   12   11
+CONECT   13   11
+CONECT   14   11
+CONECT   15   16
+CONECT   15   16
+CONECT   16   15   23   40
+CONECT   16   15
+CONECT   17   18   36
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22   21   29
+CONECT   23   16   24   31
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26   25   27   30
+CONECT   26   27
+CONECT   27   26   28
+CONECT   27   26
+CONECT   28   27   29
+CONECT   28   29
+CONECT   29   22   28   30
+CONECT   29   28
+CONECT   30   26   29
+CONECT   31    9   23
+CONECT   32   33   42
+CONECT   33   32   34   38
+CONECT   34   33   35
+CONECT   35   34   36
+CONECT   36   17   35   37
+CONECT   36   37
+CONECT   37   36
+CONECT   37   36
+CONECT   38    6   33   39
+CONECT   39   38
+CONECT   40   16   41
+CONECT   41   40   42   44
+CONECT   42   32   41   43
+CONECT   42   43
+CONECT   43   42
+CONECT   43   42
+CONECT   44   41   45
+CONECT   45   44   46   50
+CONECT   46   45   47
+CONECT   47   46   48
+CONECT   48   47   49
+CONECT   49   48   50
+CONECT   50   45   49
+ENDMDL
+END   

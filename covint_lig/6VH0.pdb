@@ -1,0 +1,80 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6VH0
+MODEL        1
+ATOM      1  N   CYS A 148     -17.198  -3.459  -9.814  1.00 24.24           N1+
+ATOM      2  CA  CYS A 148     -16.357  -3.139  -8.669  1.00 23.96           C  
+ATOM      3  C   CYS A 148     -16.254  -1.636  -8.494  1.00 28.06           C  
+ATOM      4  O   CYS A 148     -16.213  -0.881  -9.474  1.00 28.36           O  
+ATOM      5  CB  CYS A 148     -14.973  -3.740  -8.855  1.00 26.64           C  
+ATOM      6  SG  CYS A 148     -15.005  -5.487  -8.428  1.00 28.13           S  
+TER       7      CYS A 148
+HETATM    8  C12 QZD A 401     -16.609  -7.937  -9.656  1.00 32.07           C  
+HETATM    9  C14 QZD A 401     -18.359  -9.703  -9.320  1.00 31.01           C  
+HETATM   10  N15 QZD A 401     -19.020 -10.485 -10.247  1.00 31.18           N  
+HETATM   11  C16 QZD A 401     -18.148 -10.830 -11.352  1.00 28.37           C  
+HETATM   12  C02 QZD A 401     -13.658 -12.138  -8.484  1.00 42.84           C  
+HETATM   13  C04 QZD A 401     -12.411 -10.014  -8.548  1.00 36.27           C  
+HETATM   14  C05 QZD A 401     -10.947  -9.400  -8.622  1.00 37.32           C  
+HETATM   15  C06 QZD A 401      -9.970  -9.904  -7.502  1.00 41.68           C  
+HETATM   16  C07 QZD A 401      -8.521  -9.407  -7.664  1.00 39.12           C  
+HETATM   17  C08 QZD A 401     -10.481  -9.522  -6.119  1.00 34.02           C  
+HETATM   18  C09 QZD A 401     -13.366  -9.293  -9.566  1.00 39.69           C  
+HETATM   19  C11 QZD A 401     -15.165  -7.640 -10.103  1.00 29.34           C  
+HETATM   20  C13 QZD A 401     -16.944  -9.438  -9.737  1.00 31.08           C  
+HETATM   21  C17 QZD A 401     -16.928  -9.933 -11.153  1.00 32.24           C  
+HETATM   22  C19 QZD A 401     -14.856  -6.115 -10.128  1.00 27.75           C  
+HETATM   23  C23 QZD A 401     -14.012 -14.524  -9.163  1.00 65.50           C  
+HETATM   24  C24 QZD A 401     -13.344 -15.918  -8.930  1.00 54.57           C  
+HETATM   25  C25 QZD A 401     -13.201 -16.313  -7.459  1.00 54.19           C  
+HETATM   26  C26 QZD A 401     -15.520 -14.752  -8.997  1.00 64.94           C  
+HETATM   27  C28 QZD A 401     -15.689 -15.347 -11.271  1.00 82.23           C  
+HETATM   28  C30 QZD A 401     -13.898 -14.003 -10.592  1.00 63.00           C  
+HETATM   29  N03 QZD A 401     -12.523 -11.422  -8.857  1.00 38.58           N  
+HETATM   30  N10 QZD A 401     -14.243  -8.340  -9.187  1.00 32.98           N  
+HETATM   31  O01 QZD A 401     -14.713 -11.559  -8.191  1.00 33.61           O  
+HETATM   32  O18 QZD A 401     -18.918  -9.319  -8.297  1.00 28.98           O  
+HETATM   33  O20 QZD A 401     -15.868  -5.555 -10.943  1.00 34.22           O  
+HETATM   34  O21 QZD A 401     -13.349  -9.608 -10.764  1.00 35.84           O  
+HETATM   35  O22 QZD A 401     -13.547 -13.486  -8.283  1.00 52.38           O  
+HETATM   36  O27 QZD A 401     -15.886 -15.760  -9.942  1.00 65.56           O  
+HETATM   37  O29 QZD A 401     -14.346 -14.992 -11.483  1.00 70.97           O  
+CONECT    8   19   20
+CONECT    9   10   20   32
+CONECT    9   32
+CONECT   10    9   11
+CONECT   11   10   21
+CONECT   12   29   31   35
+CONECT   12   31
+CONECT   13   14   18   29
+CONECT   14   13   15
+CONECT   15   14   16   17
+CONECT   16   15
+CONECT   17   15
+CONECT   18   13   30   34
+CONECT   18   34
+CONECT   19    8   22   30
+CONECT   20    8    9   21
+CONECT   21   11   20
+CONECT   22    6   19   33
+CONECT   23   24   26   28   35
+CONECT   24   23   25
+CONECT   25   24
+CONECT   26   23   36
+CONECT   27   36   37
+CONECT   28   23   37
+CONECT   29   12   13
+CONECT   30   18   19
+CONECT   31   12
+CONECT   31   12
+CONECT   32    9
+CONECT   32    9
+CONECT   33   22
+CONECT   34   18
+CONECT   34   18
+CONECT   35   12   23
+CONECT   36   26   27
+CONECT   37   27   28
+ENDMDL
+END   

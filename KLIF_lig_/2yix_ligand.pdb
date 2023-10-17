@@ -1,0 +1,76 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2yix_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  YIX A1355       5.391  22.509  32.577  1.00  0.00           C  
+HETATM    2  C2  YIX A1355       4.183  21.942  33.394  1.00  0.00           C  
+HETATM    3  N3  YIX A1355       4.745  21.372  34.618  1.00  0.00           N  
+HETATM    4  C4  YIX A1355       4.029  21.013  35.726  1.00  0.00           C  
+HETATM    5  O5  YIX A1355       2.838  21.144  35.754  1.00  0.00           O  
+HETATM    6  N6  YIX A1355       4.685  20.488  36.799  1.00  0.00           N  
+HETATM    7  C7  YIX A1355       4.058  20.041  38.049  1.00  0.00           C  
+HETATM    8  C8  YIX A1355       4.761  20.429  39.371  1.00  0.00           C  
+HETATM    9  C9  YIX A1355       5.684  21.524  39.455  1.00  0.00           C  
+HETATM   10  C10 YIX A1355       6.259  21.858  40.693  1.00  0.00           C  
+HETATM   11  C11 YIX A1355       5.925  21.116  41.853  1.00  0.00           C  
+HETATM   12  C12 YIX A1355       5.022  20.049  41.792  1.00  0.00           C  
+HETATM   13  C13 YIX A1355       4.421  19.691  40.551  1.00  0.00           C  
+HETATM   14  S14 YIX A1355       3.199  18.341  40.465  1.00  0.00           S  
+HETATM   15  C15 YIX A1355       1.873  19.074  41.354  1.00  0.00           C  
+HETATM   16  C16 YIX A1355       1.666  20.512  41.413  1.00  0.00           C  
+HETATM   17  C17 YIX A1355       0.571  21.017  42.137  1.00  0.00           C  
+HETATM   18  C18 YIX A1355      -0.331  20.104  42.832  1.00  0.00           C  
+HETATM   19  N19 YIX A1355      -1.435  20.246  43.615  1.00  0.00           N  
+HETATM   20  N20 YIX A1355      -1.841  19.070  43.966  1.00  0.00           N  
+HETATM   21  C21 YIX A1355      -1.056  18.119  43.474  1.00  0.00           C  
+HETATM   22  C22 YIX A1355      -1.161  16.610  43.623  1.00  0.00           C  
+HETATM   23  C23 YIX A1355      -0.655  16.120  44.967  1.00  0.00           C  
+HETATM   24  C24 YIX A1355      -2.585  16.122  43.501  1.00  0.00           C  
+HETATM   25  N25 YIX A1355      -0.086  18.727  42.748  1.00  0.00           N  
+HETATM   26  C26 YIX A1355       0.986  18.216  42.009  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5    6
+CONECT    4    5
+CONECT    5    4
+CONECT    5    4
+CONECT    6    4    7
+CONECT    7    6    8
+CONECT    8    7    9   13
+CONECT    8   13
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13    8   12   14
+CONECT   13    8
+CONECT   14   13   15
+CONECT   15   14   16   26
+CONECT   15   26
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   17   19   25
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20   22   25
+CONECT   21   20
+CONECT   22   21   23   24
+CONECT   23   22
+CONECT   24   22
+CONECT   25   18   21   26
+CONECT   26   15   25
+CONECT   26   15
+ENDMDL
+END   

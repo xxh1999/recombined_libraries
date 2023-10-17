@@ -1,0 +1,86 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3gxl_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  QIG A 999       5.050  22.573  37.357  1.00  0.00           C  
+HETATM    2  C2  QIG A 999       4.741  21.708  38.548  1.00  0.00           C  
+HETATM    3  C3  QIG A 999       5.129  22.113  39.848  1.00  0.00           C  
+HETATM    4  C4  QIG A 999       4.809  21.264  40.934  1.00  0.00           C  
+HETATM    5  C5  QIG A 999       4.127  20.055  40.724  1.00  0.00           C  
+HETATM    6  C6  QIG A 999       3.761  19.695  39.404  1.00  0.00           C  
+HETATM    7  N7  QIG A 999       4.066  20.515  38.322  1.00  0.00           N  
+HETATM    8  C8  QIG A 999       3.041  18.433  39.117  1.00  0.00           C  
+HETATM    9  N9  QIG A 999       2.256  17.923  40.095  1.00  0.00           N  
+HETATM   10  C10 QIG A 999       1.576  16.760  39.877  1.00  0.00           C  
+HETATM   11  N11 QIG A 999       0.786  16.299  40.958  1.00  0.00           N  
+HETATM   12  C12 QIG A 999       0.243  16.915  42.116  1.00  0.00           C  
+HETATM   13  C13 QIG A 999      -0.272  16.082  43.163  1.00  0.00           C  
+HETATM   14  C14 QIG A 999      -0.843  16.627  44.351  1.00  0.00           C  
+HETATM   15  C15 QIG A 999      -0.881  18.050  44.456  1.00  0.00           C  
+HETATM   16  N16 QIG A 999      -1.353  18.883  45.440  1.00  0.00           N  
+HETATM   17  N18 QIG A 999      -1.202  20.208  45.158  1.00  0.00           N  
+HETATM   18  C19 QIG A 999      -0.611  20.215  43.948  1.00  0.00           C  
+HETATM   19  C20 QIG A 999      -0.381  18.911  43.450  1.00  0.00           C  
+HETATM   20  C21 QIG A 999       0.187  18.337  42.264  1.00  0.00           C  
+HETATM   21  C22 QIG A 999       1.663  16.056  38.640  1.00  0.00           C  
+HETATM   22  C23 QIG A 999       0.990  14.824  38.304  1.00  0.00           C  
+HETATM   23  C24 QIG A 999       1.165  14.226  37.036  1.00  0.00           C  
+HETATM   24  C25 QIG A 999       2.013  14.842  36.085  1.00  0.00           C  
+HETATM   25  C26 QIG A 999       2.692  16.070  36.410  1.00  0.00           C  
+HETATM   26  C27 QIG A 999       2.529  16.683  37.665  1.00  0.00           C  
+HETATM   27  N28 QIG A 999       3.201  17.843  37.898  1.00  0.00           N  
+CONECT    1    2
+CONECT    2    1    3    7
+CONECT    2    7
+CONECT    3    2    4
+CONECT    3    4
+CONECT    4    3    5
+CONECT    4    3
+CONECT    5    4    6
+CONECT    5    6
+CONECT    6    5    7    8
+CONECT    6    5
+CONECT    7    2    6
+CONECT    7    2
+CONECT    8    6    9   27
+CONECT    8   27
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11   21
+CONECT   10    9
+CONECT   11   10   12
+CONECT   12   11   13   20
+CONECT   12   20
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   16   19
+CONECT   15   19
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   15   18   20
+CONECT   19   15
+CONECT   20   12   19
+CONECT   20   12
+CONECT   21   10   22   26
+CONECT   21   26
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   23   25
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26   21   25   27
+CONECT   26   21
+CONECT   27    8   26
+CONECT   27    8
+ENDMDL
+END   

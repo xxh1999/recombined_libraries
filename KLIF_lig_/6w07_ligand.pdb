@@ -1,0 +1,89 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6w07_ligand
+MODEL        1
+HETATM    1  N1  S9A A 901       2.855  13.487  38.956  1.00  0.00           N  
+HETATM    2  N3  S9A A 901      -0.349  17.596  44.241  1.00  0.00           N  
+HETATM    3  C4  S9A A 901       1.382  15.562  43.131  1.00  0.00           C  
+HETATM    4  C5  S9A A 901       1.944  14.479  42.467  1.00  0.00           C  
+HETATM    5  C6  S9A A 901       2.282  13.235  43.248  1.00  0.00           C  
+HETATM    6  C7  S9A A 901       2.247  14.588  41.118  1.00  0.00           C  
+HETATM    7  C8  S9A A 901       2.861  13.405  40.406  1.00  0.00           C  
+HETATM    8  C10 S9A A 901       4.587  15.190  36.155  1.00  0.00           C  
+HETATM    9  C13 S9A A 901       2.489  14.913  32.366  1.00  0.00           C  
+HETATM   10  C15 S9A A 901       2.850  13.748  35.945  1.00  0.00           C  
+HETATM   11  C17 S9A A 901       1.321  16.828  41.095  1.00  0.00           C  
+HETATM   12  C20 S9A A 901      -1.509  15.885  46.203  1.00  0.00           C  
+HETATM   13  C21 S9A A 901      -1.829  13.561  47.170  1.00  0.00           C  
+HETATM   14  C22 S9A A 901      -2.811  16.902  47.678  1.00  0.00           C  
+HETATM   15  C1  S9A A 901       0.631  19.197  42.778  1.00  0.00           C  
+HETATM   16  C11 S9A A 901       3.556  14.824  35.031  1.00  0.00           C  
+HETATM   17  C12 S9A A 901       3.511  13.889  32.781  1.00  0.00           C  
+HETATM   18  C14 S9A A 901       4.540  13.619  31.724  1.00  0.00           C  
+HETATM   19  C16 S9A A 901       1.915  15.761  40.439  1.00  0.00           C  
+HETATM   20  C18 S9A A 901      -0.933  18.625  44.893  1.00  0.00           C  
+HETATM   21  C19 S9A A 901      -2.013  17.137  46.550  1.00  0.00           C  
+HETATM   22  C2  S9A A 901       0.448  17.887  43.195  1.00  0.00           C  
+HETATM   23  C23 S9A A 901      -0.022  20.173  43.502  1.00  0.00           C  
+HETATM   24  C3  S9A A 901       1.065  16.746  42.466  1.00  0.00           C  
+HETATM   25  C9  S9A A 901       3.783  14.184  38.305  1.00  0.00           C  
+HETATM   26  N2  S9A A 901       3.731  14.322  36.968  1.00  0.00           N  
+HETATM   27  N4  S9A A 901      -1.759  18.384  45.962  1.00  0.00           N  
+HETATM   28  N5  S9A A 901      -2.030  15.002  47.089  1.00  0.00           N  
+HETATM   29  N6  S9A A 901      -2.845  15.617  48.001  1.00  0.00           N  
+HETATM   30  N7  S9A A 901      -0.795  19.913  44.552  1.00  0.00           N  
+HETATM   31  O1  S9A A 901       4.254  14.409  33.897  1.00  0.00           O  
+HETATM   32  O2  S9A A 901       4.688  14.730  38.919  1.00  0.00           O  
+CONECT    1    7   25
+CONECT    2   20   22
+CONECT    2   22
+CONECT    3    4   24
+CONECT    3   24
+CONECT    4    3    5    6
+CONECT    4    6
+CONECT    5    4
+CONECT    6    4    7   19
+CONECT    6    4
+CONECT    7    1    6
+CONECT    8   16   26
+CONECT    9   17
+CONECT   10   16   26
+CONECT   11   19   24
+CONECT   11   19
+CONECT   12   21   28
+CONECT   12   21
+CONECT   13   28
+CONECT   14   21   29
+CONECT   14   29
+CONECT   15   22   23
+CONECT   15   23
+CONECT   16    8   10   31
+CONECT   17    9   18   31
+CONECT   18   17
+CONECT   19    6   11
+CONECT   19   11
+CONECT   20    2   27   30
+CONECT   20   30
+CONECT   21   12   14   27
+CONECT   21   12
+CONECT   22    2   15   24
+CONECT   22    2
+CONECT   23   15   30
+CONECT   23   15
+CONECT   24    3   11   22
+CONECT   24    3
+CONECT   25    1   26   32
+CONECT   25   32
+CONECT   26    8   10   25
+CONECT   27   20   21
+CONECT   28   12   13   29
+CONECT   29   14   28
+CONECT   29   14
+CONECT   30   20   23
+CONECT   30   20
+CONECT   31   16   17
+CONECT   32   25
+CONECT   32   25
+ENDMDL
+END   

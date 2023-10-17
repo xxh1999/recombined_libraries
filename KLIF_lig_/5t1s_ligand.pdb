@@ -1,0 +1,92 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5t1s_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N01 Q76 A9901      -0.595  19.968  44.925  1.00  0.00           N  
+HETATM    2  C02 Q76 A9901      -1.016  18.897  45.555  1.00  0.00           C  
+HETATM    3  C03 Q76 A9901      -0.985  17.577  45.137  1.00  0.00           C  
+HETATM    4  C04 Q76 A9901      -0.369  17.355  43.753  1.00  0.00           C  
+HETATM    5  C05 Q76 A9901       0.093  18.544  43.055  1.00  0.00           C  
+HETATM    6  C06 Q76 A9901      -0.092  19.812  43.665  1.00  0.00           C  
+HETATM    7  C07 Q76 A9901       0.729  18.501  41.764  1.00  0.00           C  
+HETATM    8  C08 Q76 A9901       1.124  19.672  41.099  1.00  0.00           C  
+HETATM    9  C09 Q76 A9901       0.918  20.894  41.744  1.00  0.00           C  
+HETATM   10  C10 Q76 A9901       0.317  20.974  42.968  1.00  0.00           C  
+HETATM   11  C11 Q76 A9901      -1.483  16.512  46.062  1.00  0.00           C  
+HETATM   12  C12 Q76 A9901      -0.183  16.001  43.057  1.00  0.00           C  
+HETATM   13  C13 Q76 A9901       1.734  19.615  39.730  1.00  0.00           C  
+HETATM   14  C14 Q76 A9901      -0.641  15.477  46.458  1.00  0.00           C  
+HETATM   15  C15 Q76 A9901      -1.079  14.456  47.294  1.00  0.00           C  
+HETATM   16  C16 Q76 A9901      -2.347  14.537  47.821  1.00  0.00           C  
+HETATM   17  C17 Q76 A9901      -3.196  15.575  47.523  1.00  0.00           C  
+HETATM   18  C18 Q76 A9901      -2.734  16.590  46.685  1.00  0.00           C  
+HETATM   19  C19 Q76 A9901      -0.193  13.293  47.632  1.00  0.00           C  
+HETATM   20  C20 Q76 A9901      -4.595  15.581  48.072  1.00  0.00           C  
+HETATM   21  C21 Q76 A9901      -1.211  14.965  43.477  1.00  0.00           C  
+HETATM   22  C22 Q76 A9901      -1.805  14.056  42.456  1.00  0.00           C  
+HETATM   23  C23 Q76 A9901      -1.264  12.647  42.533  1.00  0.00           C  
+HETATM   24  N24 Q76 A9901      -1.339  12.155  43.943  1.00  0.00           N1+
+HETATM   25  C25 Q76 A9901      -1.085  10.719  44.090  1.00  0.00           C  
+HETATM   26  C26 Q76 A9901       2.565  18.574  39.332  1.00  0.00           C  
+HETATM   27  N27 Q76 A9901       3.134  18.485  38.125  1.00  0.00           N  
+HETATM   28  C28 Q76 A9901       2.897  19.470  37.252  1.00  0.00           C  
+HETATM   29  C29 Q76 A9901       2.096  20.574  37.542  1.00  0.00           C  
+HETATM   30  C30 Q76 A9901       1.506  20.636  38.800  1.00  0.00           C  
+HETATM   31  O31 Q76 A9901       1.869  21.556  36.609  1.00  0.00           O  
+CONECT    1    2    6
+CONECT    1    2
+CONECT    2    1    3
+CONECT    2    1
+CONECT    3    2    4   11
+CONECT    3    4
+CONECT    4    3    5   12
+CONECT    4    3
+CONECT    5    4    6    7
+CONECT    5    7
+CONECT    6    1    5   10
+CONECT    6   10
+CONECT    7    5    8
+CONECT    7    5
+CONECT    8    7    9   13
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    6    9
+CONECT   10    6
+CONECT   11    3   14   18
+CONECT   11   18
+CONECT   12    4   21
+CONECT   13    8   26   30
+CONECT   13   30
+CONECT   14   11   15
+CONECT   14   15
+CONECT   15   14   16   19
+CONECT   15   14
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   16   18   20
+CONECT   17   16
+CONECT   18   11   17
+CONECT   18   11
+CONECT   19   15
+CONECT   20   17
+CONECT   21   12   22
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   24
+CONECT   26   13   27
+CONECT   26   27
+CONECT   27   26   28
+CONECT   27   26
+CONECT   28   27   29
+CONECT   28   29
+CONECT   29   28   30   31
+CONECT   29   28
+CONECT   30   13   29
+CONECT   30   13
+CONECT   31   29
+ENDMDL
+END   

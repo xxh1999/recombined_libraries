@@ -1,0 +1,62 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4WSK
+MODEL        1
+ATOM      1  N   ASP C 229      -8.116 -46.975   1.098  1.00 22.32           N1+
+ATOM      2  CA  ASP C 229      -9.030 -46.120   1.848  1.00 26.62           C  
+ATOM      3  C   ASP C 229     -10.407 -46.142   1.173  1.00 27.86           C  
+ATOM      4  O   ASP C 229     -10.550 -46.682   0.076  1.00 26.74           O  
+ATOM      5  CB  ASP C 229      -8.436 -44.696   1.987  1.00 26.58           C  
+ATOM      6  CG  ASP C 229      -8.907 -43.942   3.240  1.00 28.72           C  
+ATOM      7  OD1 ASP C 229      -9.527 -44.521   4.127  1.00 31.56           O  
+ATOM      8  OD2 ASP C 229      -8.558 -42.634   3.264  1.00 30.62           O  
+TER       9      ASP C 229
+HETATM   10  CAK 3U2 C 502      -5.206 -40.940   4.845  1.00 29.61           C  
+HETATM   11  CAB 3U2 C 502      -6.659 -40.508   5.117  1.00 33.45           C  
+HETATM   12  CAC 3U2 C 502      -7.193 -39.478   4.111  1.00 34.18           C  
+HETATM   13  OAJ 3U2 C 502      -6.992 -39.969   2.806  1.00 26.71           O  
+HETATM   14  CAD 3U2 C 502      -8.691 -39.248   4.352  1.00 32.68           C  
+HETATM   15  OAI 3U2 C 502      -9.135 -38.151   3.587  1.00 35.12           O  
+HETATM   16  CAE 3U2 C 502      -9.506 -40.493   3.965  1.00 35.97           C  
+HETATM   17  OAH 3U2 C 502     -10.799 -40.387   4.533  1.00 29.89           O  
+HETATM   18  CAF 3U2 C 502      -8.870 -41.832   4.412  1.00 40.14           C  
+HETATM   19  CAA 3U2 C 502      -7.611 -41.723   5.322  1.00 37.78           C  
+HETATM   20  NAG 3U2 C 502      -8.020 -41.755   6.718  1.00 46.07           N  
+HETATM   21  CAL 3U2 C 502      -8.233 -42.860   7.441  1.00 59.68           C  
+HETATM   22  OAM 3U2 C 502      -8.217 -43.995   6.966  1.00 55.74           O  
+HETATM   23  CAN 3U2 C 502      -8.541 -42.618   8.888  1.00 66.24           C  
+HETATM   24  CAO 3U2 C 502      -8.034 -41.479   9.559  1.00 72.68           C  
+HETATM   25  CAP 3U2 C 502      -8.318 -41.272  10.921  1.00 79.81           C  
+HETATM   26  CAQ 3U2 C 502      -9.082 -42.216  11.633  1.00 72.08           C  
+HETATM   27  CAR 3U2 C 502      -9.578 -43.356  10.976  1.00 67.78           C  
+HETATM   28  CAS 3U2 C 502      -9.313 -43.554   9.607  1.00 67.10           C  
+CONECT   10   11
+CONECT   11   10   12   19
+CONECT   12   11   13   14
+CONECT   13   12
+CONECT   14   12   15   16
+CONECT   15   14
+CONECT   16   14   17   18
+CONECT   17   16
+CONECT   18    8   16   19
+CONECT   19   11   18   20
+CONECT   20   19   21
+CONECT   21   20   22   23
+CONECT   21   22
+CONECT   22   21
+CONECT   22   21
+CONECT   23   21   24   28
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   23   27
+CONECT   28   27
+ENDMDL
+END   

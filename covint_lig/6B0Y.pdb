@@ -1,0 +1,88 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6B0Y
+MODEL        1
+ATOM      1  N   CYS A  12      -8.916   1.688   8.855  1.00  9.04           N1+
+ATOM      2  CA  CYS A  12      -8.069   1.637   7.658  0.50  9.44           C  
+ATOM      3  C   CYS A  12      -8.673   0.771   6.545  1.00  9.89           C  
+ATOM      4  O   CYS A  12      -9.051  -0.377   6.784  1.00 11.06           O  
+ATOM      5  CB  CYS A  12      -6.670   1.069   7.995  0.50  9.98           C  
+ATOM      6  SG  CYS A  12      -5.618   2.281   8.837  0.50  9.61           S  
+TER       7      CYS A  12
+HETATM    8  C13 8ZG A 203     -10.438   9.265  15.659  1.00  9.91           C  
+HETATM    9  C15 8ZG A 203     -10.804  11.030  17.373  1.00  9.41           C  
+HETATM   10  C17 8ZG A 203     -12.896  12.260  17.512  1.00  9.52           C  
+HETATM   11  C21 8ZG A 203      -9.928   9.411  14.351  1.00  9.64           C  
+HETATM   12  C22 8ZG A 203      -9.048   8.451  13.823  1.00  9.92           C  
+HETATM   13  C26 8ZG A 203      -8.341   5.419  10.524  1.00 13.69           C  
+HETATM   14  C28 8ZG A 203      -5.305   3.526   7.544  1.00 11.83           C  
+HETATM   15  O01 8ZG A 203      -7.668   5.413   7.820  1.00 11.67           O  
+HETATM   16  C02 8ZG A 203      -6.772   5.261   8.650  1.00 11.43           C  
+HETATM   17  N03 8ZG A 203      -6.983   5.318   9.984  1.00 11.86           N  
+HETATM   18  C04 8ZG A 203      -5.904   5.224  10.982  1.00 12.12           C  
+HETATM   19  C05 8ZG A 203      -6.414   5.135  12.425  1.00 12.66           C  
+HETATM   20  N06 8ZG A 203      -7.410   6.165  12.727  1.00 11.79           N  
+HETATM   21  C07 8ZG A 203      -7.881   6.235  14.063  1.00 11.63           C  
+HETATM   22  N08 8ZG A 203      -7.555   5.201  14.875  1.00 12.24           N  
+HETATM   23  C09 8ZG A 203      -8.019   5.199  16.118  1.00 13.35           C  
+HETATM   24  N10 8ZG A 203      -8.809   6.118  16.664  1.00 12.61           N  
+HETATM   25  C11 8ZG A 203      -9.179   7.160  15.893  1.00 10.49           C  
+HETATM   26  C12 8ZG A 203     -10.051   8.137  16.410  1.00 10.61           C  
+HETATM   27  C14 8ZG A 203     -11.298  10.282  16.281  1.00  9.84           C  
+HETATM   28  C16 8ZG A 203     -11.596  12.015  17.988  1.00  9.63           C  
+HETATM   29  C18 8ZG A 203     -13.397  11.529  16.421  1.00  9.82           C  
+HETATM   30  C19 8ZG A 203     -12.606  10.537  15.813  1.00 10.58           C  
+HETATM   31  F20 8ZG A 203     -13.108   9.831  14.773  1.00 12.55           F  
+HETATM   32  C23 8ZG A 203      -8.698   7.296  14.562  1.00 10.16           C  
+HETATM   33 CL24 8ZG A 203     -10.331  10.778  13.373  1.00 11.53          Cl  
+HETATM   34  C25 8ZG A 203      -8.395   6.424  11.675  1.00 13.61           C  
+HETATM   35  C27 8ZG A 203      -5.374   4.948   8.118  1.00 11.09           C  
+CONECT    8   11   26   27
+CONECT    8   26
+CONECT    9   27   28
+CONECT    9   27
+CONECT   10   28   29
+CONECT   10   28
+CONECT   11    8   12   33
+CONECT   11   12
+CONECT   12   11   32
+CONECT   12   11
+CONECT   13   17   34
+CONECT   14    6   35
+CONECT   15   16
+CONECT   15   16
+CONECT   16   15   17   35
+CONECT   16   15
+CONECT   17   13   16   18
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20   19   21   34
+CONECT   21   20   22   32
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   24   26   32
+CONECT   25   32
+CONECT   26    8   25
+CONECT   26    8
+CONECT   27    8    9   30
+CONECT   27    9
+CONECT   28    9   10
+CONECT   28   10
+CONECT   29   10   30
+CONECT   29   30
+CONECT   30   27   29   31
+CONECT   30   29
+CONECT   31   30
+CONECT   32   12   21   25
+CONECT   32   25
+CONECT   33   11
+CONECT   34   13   20
+CONECT   35   14   16
+ENDMDL
+END   

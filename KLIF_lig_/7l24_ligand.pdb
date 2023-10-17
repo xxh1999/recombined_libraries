@@ -1,0 +1,89 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7l24_ligand
+MODEL        1
+HETATM    1  C1  XHV D 301      -3.063  11.837  48.325  1.00  0.00           C  
+HETATM    2  C4  XHV D 301      -1.231  12.756  47.050  1.00  0.00           C  
+HETATM    3  C5  XHV D 301      -0.596  14.053  46.540  1.00  0.00           C  
+HETATM    4  C7  XHV D 301      -2.733  15.109  46.537  1.00  0.00           C  
+HETATM    5  C8  XHV D 301      -3.406  13.811  46.981  1.00  0.00           C  
+HETATM    6  C11 XHV D 301       0.511  17.719  44.637  1.00  0.00           C  
+HETATM    7  C12 XHV D 301      -0.304  18.236  43.647  1.00  0.00           C  
+HETATM    8  C17 XHV D 301       0.182  21.491  42.396  1.00  0.00           C  
+HETATM    9  C18 XHV D 301       0.862  20.761  41.412  1.00  0.00           C  
+HETATM   10  C19 XHV D 301       1.554  21.105  40.244  1.00  0.00           C  
+HETATM   11  C21 XHV D 301       2.009  18.883  39.817  1.00  0.00           C  
+HETATM   12  C23 XHV D 301       0.757  19.406  41.785  1.00  0.00           C  
+HETATM   13  C24 XHV D 301       2.619  17.872  38.941  1.00  0.00           C  
+HETATM   14  C27 XHV D 301       4.586  17.017  37.891  1.00  0.00           C  
+HETATM   15  C30 XHV D 301       1.841  16.863  38.336  1.00  0.00           C  
+HETATM   16  C32 XHV D 301      -0.342  15.816  38.007  1.00  0.00           C  
+HETATM   17  N2  XHV D 301      -2.446  13.076  47.825  1.00  0.00           N1+
+HETATM   18  N6  XHV D 301      -1.558  14.784  45.697  1.00  0.00           N  
+HETATM   19  C9  XHV D 301      -1.069  15.938  45.044  1.00  0.00           C  
+HETATM   20  C10 XHV D 301       0.129  16.574  45.329  1.00  0.00           C  
+HETATM   21  C13 XHV D 301      -1.497  17.624  43.362  1.00  0.00           C  
+HETATM   22  C14 XHV D 301      -1.840  16.498  44.053  1.00  0.00           C  
+HETATM   23  N15 XHV D 301       0.045  19.376  42.941  1.00  0.00           N  
+HETATM   24  N16 XHV D 301      -0.308  20.677  43.275  1.00  0.00           N  
+HETATM   25  N20 XHV D 301       2.095  20.173  39.491  1.00  0.00           N  
+HETATM   26  C22 XHV D 301       1.352  18.454  40.967  1.00  0.00           C  
+HETATM   27  C25 XHV D 301       3.982  17.950  38.709  1.00  0.00           C  
+HETATM   28  F26 XHV D 301       4.688  18.938  39.294  1.00  0.00           F  
+HETATM   29  C28 XHV D 301       3.834  16.015  37.305  1.00  0.00           C  
+HETATM   30  C29 XHV D 301       2.472  15.930  37.523  1.00  0.00           C  
+HETATM   31  O31 XHV D 301       0.497  16.821  38.582  1.00  0.00           O  
+CONECT    1   17
+CONECT    2    3   17
+CONECT    3    2   18
+CONECT    4    5   18
+CONECT    5    4   17
+CONECT    6    7   20
+CONECT    6   20
+CONECT    7    6   21   23
+CONECT    7   21
+CONECT    8    9   24
+CONECT    8   24
+CONECT    9    8   10   12
+CONECT    9   12
+CONECT   10    9   25
+CONECT   10   25
+CONECT   11   13   25   26
+CONECT   11   26
+CONECT   12    9   23   26
+CONECT   12    9
+CONECT   13   11   15   27
+CONECT   13   27
+CONECT   14   27   29
+CONECT   14   29
+CONECT   15   13   30   31
+CONECT   15   30
+CONECT   16   31
+CONECT   17    1    2    5
+CONECT   18    3    4   19
+CONECT   19   18   20   22
+CONECT   19   22
+CONECT   20    6   19
+CONECT   20    6
+CONECT   21    7   22
+CONECT   21    7
+CONECT   22   19   21
+CONECT   22   19
+CONECT   23    7   12   24
+CONECT   24    8   23
+CONECT   24    8
+CONECT   25   10   11
+CONECT   25   10
+CONECT   26   11   12
+CONECT   26   11
+CONECT   27   13   14   28
+CONECT   27   13
+CONECT   28   27
+CONECT   29   14   30
+CONECT   29   14
+CONECT   30   15   29
+CONECT   30   15
+CONECT   31   15   16
+ENDMDL
+END   

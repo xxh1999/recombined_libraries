@@ -1,0 +1,136 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6hrt_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  GMW A 701      -2.860  17.112  47.548  1.00  0.00           C  
+HETATM    2  C2  GMW A 701      -3.285  16.099  48.359  1.00  0.00           C  
+HETATM    3  C3  GMW A 701      -2.912  14.769  48.159  1.00  0.00           C  
+HETATM    4  C4  GMW A 701      -2.015  14.462  47.113  1.00  0.00           C  
+HETATM    5  C6  GMW A 701      -1.952  16.698  46.490  1.00  0.00           C  
+HETATM    6  C12 GMW A 701      -6.606  11.826  49.679  1.00  0.00           C  
+HETATM    7  C15 GMW A 701      -5.806  14.409  48.791  1.00  0.00           C  
+HETATM    8  C16 GMW A 701       1.535  15.637  42.393  1.00  0.00           C  
+HETATM    9  C17 GMW A 701       1.992  14.640  43.208  1.00  0.00           C  
+HETATM   10  C18 GMW A 701       2.525  13.496  42.702  1.00  0.00           C  
+HETATM   11  C23 GMW A 701       1.169  18.112  42.590  1.00  0.00           C  
+HETATM   12  C25 GMW A 701      -0.361  19.090  44.167  1.00  0.00           C  
+HETATM   13  C26 GMW A 701      -0.578  17.736  44.633  1.00  0.00           C  
+HETATM   14  C27 GMW A 701      -0.024  16.609  44.086  1.00  0.00           C  
+HETATM   15  O28 GMW A 701      -0.879  20.119  44.617  1.00  0.00           O  
+HETATM   16  N5  GMW A 701      -1.565  15.461  46.311  1.00  0.00           N  
+HETATM   17  N7  GMW A 701      -1.545  17.770  45.715  1.00  0.00           N  
+HETATM   18  C8  GMW A 701      -3.397  13.628  49.025  1.00  0.00           C  
+HETATM   19  N9  GMW A 701      -4.741  13.460  49.300  1.00  0.00           N  
+HETATM   20  O10 GMW A 701      -2.552  12.849  49.412  1.00  0.00           O  
+HETATM   21  C11 GMW A 701      -5.227  12.332  50.169  1.00  0.00           C  
+HETATM   22  O13 GMW A 701      -7.556  12.910  49.547  1.00  0.00           O  
+HETATM   23  C14 GMW A 701      -7.157  13.731  48.443  1.00  0.00           C  
+HETATM   24  C19 GMW A 701       2.706  13.383  41.330  1.00  0.00           C  
+HETATM   25  C20 GMW A 701       2.231  14.377  40.522  1.00  0.00           C  
+HETATM   26  C21 GMW A 701       1.643  15.564  40.980  1.00  0.00           C  
+HETATM   27  C22 GMW A 701       0.907  16.836  42.993  1.00  0.00           C  
+HETATM   28  N24 GMW A 701       0.536  19.207  43.084  1.00  0.00           N  
+HETATM   29  N29 GMW A 701       2.415  14.243  39.096  1.00  0.00           N  
+HETATM   30  C30 GMW A 701       3.622  14.612  38.508  1.00  0.00           C  
+HETATM   31  C31 GMW A 701       1.235  13.957  37.026  1.00  0.00           C  
+HETATM   32  N32 GMW A 701       1.250  13.955  38.340  1.00  0.00           N  
+HETATM   33  O33 GMW A 701       4.559  14.907  39.237  1.00  0.00           O  
+HETATM   34  C34 GMW A 701       2.483  14.192  36.322  1.00  0.00           C  
+HETATM   35  C35 GMW A 701       3.641  14.537  37.048  1.00  0.00           C  
+HETATM   36  C36 GMW A 701       4.758  14.785  36.244  1.00  0.00           C  
+HETATM   37  C37 GMW A 701       4.781  14.728  34.904  1.00  0.00           C  
+HETATM   38  C38 GMW A 701       3.644  14.392  34.225  1.00  0.00           C  
+HETATM   39  C39 GMW A 701       2.452  14.108  34.904  1.00  0.00           C  
+HETATM   40  C40 GMW A 701       2.244  18.331  41.514  1.00  0.00           C  
+HETATM   41  C41 GMW A 701       1.042  16.636  40.085  1.00  0.00           C  
+HETATM   42  C42 GMW A 701       1.712  18.021  40.067  1.00  0.00           C  
+HETATM   43  F43 GMW A 701       5.903  15.131  36.890  1.00  0.00           F  
+HETATM   44  C44 GMW A 701       3.698  14.228  32.736  1.00  0.00           C  
+HETATM   45  C45 GMW A 701       4.714  15.193  32.095  1.00  0.00           C  
+HETATM   46  C46 GMW A 701       3.972  12.751  32.440  1.00  0.00           C  
+HETATM   47  C47 GMW A 701       2.438  14.656  32.020  1.00  0.00           C  
+HETATM   48  O48 GMW A 701       2.833  17.916  39.247  1.00  0.00           O  
+HETATM   49  C49 GMW A 701       0.719  20.560  42.516  1.00  0.00           C  
+CONECT    1    2    5
+CONECT    1    5
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2    4   18
+CONECT    3    2
+CONECT    4    3   16
+CONECT    4   16
+CONECT    5    1   16   17
+CONECT    5    1
+CONECT    6   21   22
+CONECT    7   19   23
+CONECT    8    9   26   27
+CONECT    8   26
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   24
+CONECT   10    9
+CONECT   11   27   28   40
+CONECT   11   27
+CONECT   12   13   15   28
+CONECT   12   15
+CONECT   13   12   14   17
+CONECT   13   14
+CONECT   14   13   27
+CONECT   14   13
+CONECT   15   12
+CONECT   15   12
+CONECT   16    4    5
+CONECT   16    4
+CONECT   17    5   13
+CONECT   18    3   19   20
+CONECT   18   20
+CONECT   19    7   18   21
+CONECT   20   18
+CONECT   20   18
+CONECT   21    6   19
+CONECT   22    6   23
+CONECT   23    7   22
+CONECT   24   10   25
+CONECT   24   25
+CONECT   25   24   26   29
+CONECT   25   24
+CONECT   26    8   25   41
+CONECT   26    8
+CONECT   27    8   11   14
+CONECT   27   11
+CONECT   28   11   12   49
+CONECT   29   25   30   32
+CONECT   30   29   33   35
+CONECT   30   33
+CONECT   31   32   34
+CONECT   31   32
+CONECT   32   29   31
+CONECT   32   31
+CONECT   33   30
+CONECT   33   30
+CONECT   34   31   35   39
+CONECT   34   39
+CONECT   35   30   34   36
+CONECT   35   36
+CONECT   36   35   37   43
+CONECT   36   35
+CONECT   37   36   38
+CONECT   37   38
+CONECT   38   37   39   44
+CONECT   38   37
+CONECT   39   34   38
+CONECT   39   34
+CONECT   40   11   42
+CONECT   41   26   42
+CONECT   42   40   41   48
+CONECT   43   36
+CONECT   44   38   45   46   47
+CONECT   45   44
+CONECT   46   44
+CONECT   47   44
+CONECT   48   42
+CONECT   49   28
+ENDMDL
+END   

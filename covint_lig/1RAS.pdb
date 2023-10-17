@@ -1,0 +1,75 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1RAS
+MODEL        1
+ATOM      1  N   HIS A  12      23.142  15.744  23.750  1.00 13.59           N1+
+ATOM      2  CA  HIS A  12      23.273  16.943  24.605  1.00 13.50           C  
+ATOM      3  C   HIS A  12      24.606  17.695  24.558  1.00 14.16           C  
+ATOM      4  O   HIS A  12      24.648  18.800  25.092  1.00 14.64           O  
+ATOM      5  CB  HIS A  12      22.863  16.657  26.070  1.00 13.11           C  
+ATOM      6  CG  HIS A  12      21.461  16.180  26.180  1.00 13.39           C  
+ATOM      7  ND1 HIS A  12      20.373  17.002  26.060  1.00 13.50           N  
+ATOM      8  CD2 HIS A  12      20.959  14.920  26.333  1.00 13.26           C  
+ATOM      9  CE1 HIS A  12      19.241  16.302  26.116  1.00 13.67           C  
+ATOM     10  NE2 HIS A  12      19.591  15.027  26.303  1.00 14.52           N1+
+TER      11      HIS A  12
+HETATM   12  C1  AEN A 125      14.404   9.597  31.974  1.00 33.26           C  
+HETATM   13  C2  AEN A 125      13.385  10.216  31.220  1.00 33.34           C  
+HETATM   14  C3  AEN A 125      13.560  10.452  29.849  1.00 32.97           C  
+HETATM   15  C4  AEN A 125      14.756  10.078  29.219  1.00 33.05           C  
+HETATM   16  C5  AEN A 125      17.012   9.089  29.299  1.00 29.14           C  
+HETATM   17  C6  AEN A 125      18.031   8.462  30.052  1.00 29.50           C  
+HETATM   18  C7  AEN A 125      17.845   8.179  31.413  1.00 30.58           C  
+HETATM   19  C8  AEN A 125      16.647   8.536  32.050  1.00 31.35           C  
+HETATM   20  C9  AEN A 125      15.615   9.195  31.340  1.00 32.12           C  
+HETATM   21  C10 AEN A 125      15.798   9.452  29.948  1.00 31.09           C  
+HETATM   22  C1' AEN A 125      18.599  13.956  26.395  1.00 17.40           C  
+HETATM   23  C2' AEN A 125      19.090  12.828  27.297  1.00 19.77           C  
+HETATM   24  O2' AEN A 125      19.605  13.107  28.373  1.00 20.10           O  
+HETATM   25  N3' AEN A 125      18.964  11.578  26.843  1.00 20.61           N  
+HETATM   26  C4' AEN A 125      19.395  10.385  27.549  1.00 22.18           C  
+HETATM   27  C5' AEN A 125      18.446   9.223  27.230  1.00 24.80           C  
+HETATM   28  N6' AEN A 125      17.172   9.348  27.924  1.00 26.65           N  
+HETATM   29  S   AEN A 125      14.078   9.318  33.732  1.00 35.39           S  
+HETATM   30  O1S AEN A 125      15.281   9.817  34.418  1.00 35.44           O  
+HETATM   31  O2S AEN A 125      13.884   7.862  33.804  1.00 35.35           O  
+HETATM   32  O3S AEN A 125      12.869  10.105  34.027  1.00 35.73           O1-
+CONECT   12   13   20   29
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   21
+CONECT   15   14
+CONECT   16   17   21   28
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   12   19   21
+CONECT   20   21
+CONECT   21   15   16   20
+CONECT   21   20
+CONECT   22   10   23
+CONECT   23   22   24   25
+CONECT   23   24
+CONECT   24   23
+CONECT   24   23
+CONECT   25   23   26
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   16   27
+CONECT   29   12   30   31   32
+CONECT   29   30   31
+CONECT   30   29
+CONECT   30   29
+CONECT   31   29
+CONECT   31   29
+CONECT   32   29
+ENDMDL
+END   

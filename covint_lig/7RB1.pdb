@@ -1,0 +1,29 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7RB1
+MODEL        1
+ATOM      1  N   GLN A 308       5.510 -24.993   9.557  1.00 29.03           N1+
+ATOM      2  CA  GLN A 308       4.139 -24.504   9.461  1.00 26.95           C  
+ATOM      3  C   GLN A 308       3.331 -24.926  10.691  1.00 29.44           C  
+ATOM      4  O   GLN A 308       3.180 -26.120  10.965  1.00 29.19           O  
+ATOM      5  CB  GLN A 308       3.501 -25.025   8.183  1.00 26.18           C  
+ATOM      6  CG  GLN A 308       2.032 -24.575   8.036  1.00 24.14           C  
+ATOM      7  CD  GLN A 308       1.922 -23.087   7.897  1.00 26.76           C  
+ATOM      8  OE1 GLN A 308       2.367 -22.515   6.891  1.00 25.95           O  
+ATOM      9  NE2 GLN A 308       1.358 -22.431   8.913  1.00 25.43           N  
+TER      10      GLN A 308
+HETATM   11  C1  GOL A 505       4.562 -20.584  10.765  1.00 34.85           C  
+HETATM   12  O1  GOL A 505       3.405 -21.169  11.307  1.00 26.00           O  
+HETATM   13  C2  GOL A 505       4.497 -20.620   9.231  1.00 30.35           C  
+HETATM   14  O2  GOL A 505       3.535 -19.708   8.794  1.00 27.27           O  
+HETATM   15  C3  GOL A 505       5.829 -20.142   8.670  1.00 36.03           C  
+HETATM   16  O3  GOL A 505       6.772 -21.082   9.116  1.00 40.77           O  
+CONECT   11   12   13
+CONECT   12   11
+CONECT   13   11   14   15
+CONECT   14   13
+CONECT   15   13   16
+CONECT   16   15
+ENDMDL
+END   

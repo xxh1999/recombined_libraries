@@ -1,0 +1,82 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2bal_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N1  PQA A 401       1.322  21.414  42.432  1.00  0.00           N  
+HETATM    2  C2  PQA A 401       1.513  20.095  42.191  1.00  0.00           C  
+HETATM    3  C3  PQA A 401       0.770  19.019  42.642  1.00  0.00           C  
+HETATM    4  C4  PQA A 401       1.410  17.895  42.081  1.00  0.00           C  
+HETATM    5  N5  PQA A 401       2.469  18.218  41.339  1.00  0.00           N  
+HETATM    6  N6  PQA A 401       2.528  19.581  41.389  1.00  0.00           N  
+HETATM    7  C7  PQA A 401       3.578  20.288  40.762  1.00  0.00           C  
+HETATM    8  C8  PQA A 401       3.741  20.487  39.391  1.00  0.00           C  
+HETATM    9  C9  PQA A 401       4.840  21.213  38.935  1.00  0.00           C  
+HETATM   10  C10 PQA A 401       5.759  21.742  39.832  1.00  0.00           C  
+HETATM   11  F11 PQA A 401       6.813  22.430  39.374  1.00  0.00           F  
+HETATM   12  C12 PQA A 401       5.604  21.568  41.201  1.00  0.00           C  
+HETATM   13  C13 PQA A 401       4.515  20.837  41.665  1.00  0.00           C  
+HETATM   14  C14 PQA A 401      -0.385  19.151  43.505  1.00  0.00           C  
+HETATM   15  O15 PQA A 401      -0.616  20.221  44.071  1.00  0.00           O  
+HETATM   16  C16 PQA A 401      -1.289  18.002  43.750  1.00  0.00           C  
+HETATM   17  C17 PQA A 401      -1.670  17.139  42.708  1.00  0.00           C  
+HETATM   18  C18 PQA A 401      -2.525  16.062  42.977  1.00  0.00           C  
+HETATM   19  C19 PQA A 401      -2.999  15.861  44.270  1.00  0.00           C  
+HETATM   20  C20 PQA A 401      -2.628  16.719  45.303  1.00  0.00           C  
+HETATM   21  O21 PQA A 401      -3.138  16.425  46.545  1.00  0.00           O  
+HETATM   22  C22 PQA A 401      -2.142  16.266  47.565  1.00  0.00           C  
+HETATM   23  C23 PQA A 401      -2.695  16.854  48.864  1.00  0.00           C  
+HETATM   24  C24 PQA A 401      -3.756  15.962  49.515  1.00  0.00           C  
+HETATM   25  N25 PQA A 401      -4.069  14.742  48.752  1.00  0.00           N1+
+HETATM   26  C26 PQA A 401      -2.894  13.945  48.389  1.00  0.00           C  
+HETATM   27  C27 PQA A 401      -1.808  14.771  47.699  1.00  0.00           C  
+HETATM   28  C28 PQA A 401      -1.775  17.798  45.054  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3    6
+CONECT    2    3
+CONECT    3    2    4   14
+CONECT    3    2
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    2    5    7
+CONECT    7    6    8   13
+CONECT    7   13
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    9   11   12
+CONECT   10   12
+CONECT   11   10
+CONECT   12   10   13
+CONECT   12   10
+CONECT   13    7   12
+CONECT   13    7
+CONECT   14    3   15   16
+CONECT   14   15
+CONECT   15   14
+CONECT   15   14
+CONECT   16   14   17   28
+CONECT   16   28
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21   28
+CONECT   20   19
+CONECT   21   20   22
+CONECT   22   21   23   27
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   27   22   26
+CONECT   28   16   20
+CONECT   28   16
+ENDMDL
+END   

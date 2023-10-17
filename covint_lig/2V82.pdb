@@ -1,0 +1,51 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2V82
+MODEL        1
+ATOM      1  N   LYS A 126       9.982   9.356   2.053  1.00 33.04           N1+
+ATOM      2  CA  LYS A 126      10.348   8.507   0.928  1.00 34.06           C  
+ATOM      3  C   LYS A 126       9.085   7.706   0.577  1.00 34.64           C  
+ATOM      4  O   LYS A 126       8.519   7.048   1.448  1.00 35.20           O  
+ATOM      5  CB  LYS A 126      11.455   7.561   1.439  1.00 33.98           C  
+ATOM      6  CG  LYS A 126      11.987   6.507   0.454  1.00 34.92           C  
+ATOM      7  CD  LYS A 126      12.616   5.318   1.195  1.00 35.10           C  
+ATOM      8  CE  LYS A 126      13.592   4.487   0.355  1.00 37.26           C  
+ATOM      9  NZ  LYS A 126      14.124   3.411   1.181  1.00 38.31           N1+
+TER      10      LYS A 126
+HETATM   11  OAH KDP A1207      14.839   0.512  -6.883  1.00 54.64           O1-
+HETATM   12  PAP KDP A1207      15.971   1.246  -6.196  1.00 54.93           P  
+HETATM   13  OAC KDP A1207      16.349   2.523  -6.914  1.00 54.88           O1-
+HETATM   14  OAG KDP A1207      17.166   0.357  -5.914  1.00 53.67           O  
+HETATM   15  OAK KDP A1207      15.413   1.749  -4.740  1.00 52.28           O  
+HETATM   16  CAI KDP A1207      14.870   0.751  -3.894  1.00 50.03           C  
+HETATM   17  CAN KDP A1207      15.759   0.511  -2.663  1.00 46.83           C  
+HETATM   18  OAD KDP A1207      16.989  -0.021  -3.126  1.00 46.65           O  
+HETATM   19  CAO KDP A1207      15.916   1.760  -1.745  1.00 44.15           C  
+HETATM   20  OAE KDP A1207      17.239   1.855  -1.289  1.00 45.49           O  
+HETATM   21  CAJ KDP A1207      14.942   1.778  -0.532  1.00 41.18           C  
+HETATM   22  CAM KDP A1207      15.313   2.770   0.628  1.00 38.19           C  
+HETATM   23  CAL KDP A1207      16.092   2.134   1.813  1.00 36.43           C  
+HETATM   24  OAA KDP A1207      16.278   2.845   2.825  1.00 33.60           O1-
+HETATM   25  OAF KDP A1207      16.492   0.953   1.736  1.00 34.28           O  
+CONECT   11   12
+CONECT   12   11   13   14   15
+CONECT   12   14
+CONECT   13   12
+CONECT   14   12
+CONECT   14   12
+CONECT   15   12   16
+CONECT   16   15   17
+CONECT   17   16   18   19
+CONECT   18   17
+CONECT   19   17   20   21
+CONECT   20   19
+CONECT   21   19   22
+CONECT   22    9   21   23
+CONECT   23   22   24   25
+CONECT   23   25
+CONECT   24   23
+CONECT   25   23
+CONECT   25   23
+ENDMDL
+END   

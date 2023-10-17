@@ -1,0 +1,90 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6s1f_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C15 KRE B 400       4.322  21.198  39.008  1.00  0.00           C  
+HETATM    2  C19 KRE B 400      -1.057  19.388  45.193  1.00  0.00           C  
+HETATM    3  O11 KRE B 400       1.534  16.548  36.037  1.00  0.00           O1-
+HETATM    4  C12 KRE B 400       2.502  18.943  39.211  1.00  0.00           C  
+HETATM    5  C13 KRE B 400       3.031  19.701  40.263  1.00  0.00           C  
+HETATM    6  C16 KRE B 400       2.341  19.798  41.460  1.00  0.00           C  
+HETATM    7  C17 KRE B 400      -0.030  18.048  43.492  1.00  0.00           C  
+HETATM    8  C02 KRE B 400      -0.022  20.451  43.453  1.00  0.00           C  
+HETATM    9  C03 KRE B 400       0.329  19.226  42.894  1.00  0.00           C  
+HETATM   10  C04 KRE B 400       1.118  19.143  41.586  1.00  0.00           C  
+HETATM   11  C05 KRE B 400       0.589  18.387  40.560  1.00  0.00           C  
+HETATM   12  C06 KRE B 400       1.276  18.284  39.361  1.00  0.00           C  
+HETATM   13  C10 KRE B 400       0.836  14.693  37.929  1.00  0.00           C  
+HETATM   14  C20 KRE B 400      -0.737  18.134  44.669  1.00  0.00           C  
+HETATM   15  C21 KRE B 400      -1.135  16.843  45.364  1.00  0.00           C  
+HETATM   16  C22 KRE B 400      -0.566  15.658  44.917  1.00  0.00           C  
+HETATM   17  C23 KRE B 400      -0.900  14.464  45.526  1.00  0.00           C  
+HETATM   18  C24 KRE B 400      -2.022  16.860  46.423  1.00  0.00           C  
+HETATM   19  C25 KRE B 400      -2.354  15.663  47.037  1.00  0.00           C  
+HETATM   20  C26 KRE B 400      -1.790  14.470  46.585  1.00  0.00           C  
+HETATM   21  C28 KRE B 400      -2.805  13.191  48.573  1.00  0.00           C  
+HETATM   22  C29 KRE B 400      -3.502  11.858  48.839  1.00  0.00           C  
+HETATM   23  C31 KRE B 400      -2.016  10.706  47.410  1.00  0.00           C  
+HETATM   24  C32 KRE B 400      -1.272  12.002  47.083  1.00  0.00           C  
+HETATM   25  N01 KRE B 400       0.362  21.696  42.800  1.00  0.00           N  
+HETATM   26  N07 KRE B 400       0.669  17.495  38.300  1.00  0.00           N  
+HETATM   27  N18 KRE B 400      -0.694  20.497  44.577  1.00  0.00           N  
+HETATM   28  N27 KRE B 400      -2.147  13.204  47.234  1.00  0.00           N  
+HETATM   29  N30 KRE B 400      -3.365  10.944  47.757  1.00  0.00           N1+
+HETATM   30  O09 KRE B 400       2.973  16.431  37.795  1.00  0.00           O1-
+HETATM   31  O14 KRE B 400       4.251  20.384  40.152  1.00  0.00           O  
+HETATM   32  S08 KRE B 400       1.546  16.300  37.478  1.00  0.00           S2+
+CONECT    1   31
+CONECT    2   14   27
+CONECT    2   14
+CONECT    3   32
+CONECT    4    5   12
+CONECT    4   12
+CONECT    5    4    6   31
+CONECT    5    6
+CONECT    6    5   10
+CONECT    6    5
+CONECT    7    9   14
+CONECT    7    9
+CONECT    8    9   25   27
+CONECT    8   27
+CONECT    9    7    8   10
+CONECT    9    7
+CONECT   10    6    9   11
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12    4   11   26
+CONECT   12    4
+CONECT   13   32
+CONECT   14    2    7   15
+CONECT   14    2
+CONECT   15   14   16   18
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   16   20
+CONECT   17   20
+CONECT   18   15   19
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   17   19   28
+CONECT   20   17
+CONECT   21   22   28
+CONECT   22   21   29
+CONECT   23   24   29
+CONECT   24   23   28
+CONECT   25    8
+CONECT   26   12   32
+CONECT   27    2    8
+CONECT   27    8
+CONECT   28   20   21   24
+CONECT   29   22   23
+CONECT   30   32
+CONECT   31    1    5
+CONECT   32    3   13   26   30
+ENDMDL
+END   

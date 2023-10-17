@@ -1,0 +1,21 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6MPZ
+MODEL        1
+ATOM      1  N   GLY M  13      13.472 -21.904 -29.857  1.00 37.03           N1+
+ATOM      2  CA  GLY M  13      12.590 -22.399 -28.822  1.00 36.30           C  
+ATOM      3  C   GLY M  13      12.361 -23.902 -28.914  1.00 34.45           C  
+ATOM      4  O   GLY M  13      12.403 -24.494 -29.994  1.00 32.63           O  
+HETATM    5  N   GLZ M  14      12.044 -24.490 -27.753  1.00 32.46           N  
+HETATM    6  CA  GLZ M  14      11.527 -25.835 -27.582  1.00 33.71           C  
+HETATM    7  C   GLZ M  14      10.004 -25.761 -27.515  1.00 37.15           C  
+HETATM    8  O   GLZ M  14       9.396 -25.924 -26.459  1.00 34.84           O  
+CONECT    5    3    6
+CONECT    6    5    7
+CONECT    7    6    8
+CONECT    7    8
+CONECT    8    7
+CONECT    8    7
+ENDMDL
+END   

@@ -1,0 +1,58 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1RGY
+MODEL        1
+ATOM      1  N   SER A  64       6.499  33.976  46.817  1.00  9.77           N1+
+ATOM      2  CA  SER A  64       5.365  34.339  47.668  1.00  9.57           C  
+ATOM      3  C   SER A  64       5.457  35.674  48.433  1.00 10.10           C  
+ATOM      4  O   SER A  64       4.494  36.027  49.110  1.00  9.98           O  
+ATOM      5  CB  SER A  64       5.107  33.236  48.685  1.00 11.20           C  
+ATOM      6  OG  SER A  64       4.733  32.045  48.039  1.00 10.97           O  
+TER       7      SER A  64
+HETATM    8  P8  PTX A 400       5.738  30.701  48.034  1.00 11.27           P  
+HETATM    9  O81 PTX A 400       7.099  31.146  47.684  1.00 12.32           O  
+HETATM   10  O82 PTX A 400       5.494  29.930  49.271  1.00 14.65           O1-
+HETATM   11  C7  PTX A 400       5.002  29.826  46.582  1.00 15.59           C  
+HETATM   12  N10 PTX A 400       6.009  29.188  45.760  1.00 15.64           N  
+HETATM   13  C11 PTX A 400       5.861  28.009  45.156  1.00 19.10           C  
+HETATM   14  O12 PTX A 400       4.814  27.370  45.094  1.00 18.06           O  
+HETATM   15  C13 PTX A 400       7.137  27.550  44.504  1.00 18.85           C  
+HETATM   16  N16 PTX A 400       8.128  27.029  45.116  1.00 24.34           N  
+HETATM   17  O17 PTX A 400       7.930  26.881  46.497  1.00 30.20           O  
+HETATM   18  C18 PTX A 400       9.009  26.120  47.008  1.00 30.30           C  
+HETATM   19  C14 PTX A 400       7.178  27.731  43.030  1.00 17.61           C  
+HETATM   20  C15 PTX A 400       6.244  28.445  42.309  1.00 16.98           C  
+HETATM   21  S16 PTX A 400       6.598  28.463  40.607  1.00 17.77           S  
+HETATM   22  C17 PTX A 400       8.039  27.525  40.940  1.00 17.35           C  
+HETATM   23  N18 PTX A 400       8.908  27.146  39.939  1.00 17.91           N  
+HETATM   24  N19 PTX A 400       8.195  27.211  42.221  1.00 17.33           N  
+CONECT    8    6    9   10   11
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8
+CONECT   11    8   12
+CONECT   12   11   13
+CONECT   13   12   14   15
+CONECT   13   14
+CONECT   14   13
+CONECT   14   13
+CONECT   15   13   16   19
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   16   18
+CONECT   18   17
+CONECT   19   15   20   24
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22
+CONECT   22   21   23   24
+CONECT   22   24
+CONECT   23   22
+CONECT   24   19   22
+CONECT   24   22
+ENDMDL
+END   

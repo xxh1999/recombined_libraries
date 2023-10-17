@@ -1,0 +1,106 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3ac5_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  O1  KZM A 513      -0.605  20.188  44.864  1.00  0.00           O  
+HETATM    2  O2  KZM A 513      -3.090  16.001  48.897  1.00  0.00           O  
+HETATM    3  O3  KZM A 513      -0.984  12.886  45.913  1.00  0.00           O  
+HETATM    4  N4  KZM A 513       0.549  16.348  43.503  1.00  0.00           N  
+HETATM    5  N5  KZM A 513       1.748  15.157  41.841  1.00  0.00           N  
+HETATM    6  N6  KZM A 513       0.065  21.136  42.942  1.00  0.00           N  
+HETATM    7  C7  KZM A 513       1.171  18.648  42.049  1.00  0.00           C  
+HETATM    8  N8  KZM A 513      -0.677  17.603  45.181  1.00  0.00           N  
+HETATM    9  C9  KZM A 513      -2.034  14.427  47.425  1.00  0.00           C  
+HETATM   10  C10 KZM A 513       2.329  12.803  41.848  1.00  0.00           C  
+HETATM   11  C11 KZM A 513      -0.813  15.237  45.511  1.00  0.00           C  
+HETATM   12  C12 KZM A 513       0.088  17.517  44.011  1.00  0.00           C  
+HETATM   13  C13 KZM A 513      -0.099  20.097  43.756  1.00  0.00           C  
+HETATM   14  N14 KZM A 513       1.560  17.450  41.679  1.00  0.00           N  
+HETATM   15  C15 KZM A 513      -1.868  16.786  47.020  1.00  0.00           C  
+HETATM   16  C16 KZM A 513       0.377  18.767  43.279  1.00  0.00           C  
+HETATM   17  C17 KZM A 513      -1.115  16.541  45.885  1.00  0.00           C  
+HETATM   18  C18 KZM A 513      -2.332  15.734  47.791  1.00  0.00           C  
+HETATM   19  C19 KZM A 513       1.305  13.851  42.285  1.00  0.00           C  
+HETATM   20  C20 KZM A 513      -4.204  15.160  49.214  1.00  0.00           C  
+HETATM   21  C21 KZM A 513       1.275  16.322  42.350  1.00  0.00           C  
+HETATM   22  C22 KZM A 513      -1.273  14.174  46.284  1.00  0.00           C  
+HETATM   23  C23 KZM A 513      -0.066  13.561  41.690  1.00  0.00           C  
+HETATM   24  C24 KZM A 513       1.962  11.395  42.313  1.00  0.00           C  
+HETATM   25  C25 KZM A 513       0.464  11.250  42.571  1.00  0.00           C  
+HETATM   26  C26 KZM A 513      -0.056  12.116  46.673  1.00  0.00           C  
+HETATM   27  C27 KZM A 513      -0.348  12.062  41.573  1.00  0.00           C  
+HETATM   28  N28 KZM A 513      -0.139  14.180  40.377  1.00  0.00           N1+
+HETATM   29  N29 KZM A 513       1.644  19.508  41.114  1.00  0.00           N  
+HETATM   30  N30 KZM A 513       2.290  17.473  40.502  1.00  0.00           N  
+HETATM   31  C31 KZM A 513       2.319  18.792  40.169  1.00  0.00           C  
+HETATM   32  C32 KZM A 513       3.022  19.335  38.968  1.00  0.00           C  
+HETATM   33  C33 KZM A 513       2.887  18.700  37.739  1.00  0.00           C  
+HETATM   34  C34 KZM A 513       3.853  20.444  39.081  1.00  0.00           C  
+HETATM   35  C35 KZM A 513       3.555  19.179  36.618  1.00  0.00           C  
+HETATM   36  C36 KZM A 513       4.520  20.925  37.958  1.00  0.00           C  
+HETATM   37  C37 KZM A 513       4.370  20.296  36.726  1.00  0.00           C  
+HETATM   38  O66 KZM A 513       5.333  22.012  38.065  1.00  0.00           O  
+CONECT    1   13
+CONECT    1   13
+CONECT    2   18   20
+CONECT    3   22   26
+CONECT    4   12   21
+CONECT    4   21
+CONECT    5   19   21
+CONECT    6   13
+CONECT    7   14   16   29
+CONECT    7   29
+CONECT    8   12   17
+CONECT    9   18   22
+CONECT    9   22
+CONECT   10   19   24
+CONECT   11   17   22
+CONECT   11   17
+CONECT   12    4    8   16
+CONECT   12   16
+CONECT   13    1    6   16
+CONECT   13    1
+CONECT   14    7   21   30
+CONECT   15   17   18
+CONECT   15   18
+CONECT   16    7   12   13
+CONECT   16   12
+CONECT   17    8   11   15
+CONECT   17   11
+CONECT   18    2    9   15
+CONECT   18   15
+CONECT   19    5   10   23
+CONECT   20    2
+CONECT   21    4    5   14
+CONECT   21    4
+CONECT   22    3    9   11
+CONECT   22    9
+CONECT   23   19   27   28
+CONECT   24   10   25
+CONECT   25   24   27
+CONECT   26    3
+CONECT   27   23   25
+CONECT   28   23
+CONECT   29    7   31
+CONECT   29    7
+CONECT   30   14   31
+CONECT   30   31
+CONECT   31   29   30   32
+CONECT   31   30
+CONECT   32   31   33   34
+CONECT   32   33
+CONECT   33   32   35
+CONECT   33   32
+CONECT   34   32   36
+CONECT   34   36
+CONECT   35   33   37
+CONECT   35   37
+CONECT   36   34   37   38
+CONECT   36   34
+CONECT   37   35   36
+CONECT   37   35
+CONECT   38   36
+ENDMDL
+END   

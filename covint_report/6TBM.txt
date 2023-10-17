@@ -1,0 +1,2437 @@
+Prediction of noncovalent interactions for PDB structure 6TBM
+=============================================================
+Created on 2023/09/03 using PLIP v2.2.2
+
+If you are using PLIP in your work, please cite:
+Adasme,M. et al. PLIP 2021: expanding the scope of the protein-ligand interaction profiler to DNA and RNA. Nucl. Acids Res. (05 May 2021), gkab294. doi: 10.1093/nar/gkab294
+Analysis was done on model 1.
+
+GLZ:R:76 (GLZ) - SMALLMOLECULE
+------------------------------
+Interacting chain(s): Q
+
+
+**Hydrogen Bonds**
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+---------------------------+---------------------------+
+| RESNR | RESTYPE | RESCHAIN | RESNR_LIG | RESTYPE_LIG | RESCHAIN_LIG | SIDECHAIN | DIST_H-A | DIST_D-A | DON_ANGLE | PROTISDON | DONORIDX | DONORTYPE | ACCEPTORIDX | ACCEPTORTYPE | LIGCOO                    | PROTCOO                   | 
++=======+=========+==========+===========+=============+==============+===========+==========+==========+===========+===========+==========+===========+=============+==============+===========================+===========================+
+| 189   | ASN     | Q        | 76        | GLZ         | R            | True      | 1.87     | 2.87     | 172.09    | True      | 86480    | Nam       | 83830       | O2           | 234.044, 322.859, 242.260 | 232.241, 324.767, 243.423 | 
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+---------------------------+---------------------------+
+| 194   | CYS     | Q        | 76        | GLZ         | R            | False     | 1.96     | 2.92     | 158.75    | True      | 86535    | Nam       | 83830       | O2           | 234.044, 322.859, 242.260 | 234.316, 325.127, 240.435 | 
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+---------------------------+---------------------------+
+| 458   | GLY     | Q        | 76        | GLZ         | R            | False     | 2.34     | 3.34     | 173.28    | False     | 83827    | N3        | 90712       | O2           | 236.734, 320.455, 241.842 | 237.717, 319.941, 244.995 | 
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+---------------------------+---------------------------+
+
+
+
+UNK:N:100 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:101 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:102 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:103 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:104 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:105 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:106 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:107 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:108 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:109 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:110 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:111 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:112 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:113 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:114 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:115 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:116 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:117 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:172 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:173 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:174 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:175 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:176 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:177 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:178 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:179 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:180 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:181 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:182 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:183 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:184 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:185 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:186 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:187 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:188 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:189 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:190 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:191 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:192 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:193 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:194 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:195 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:196 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:197 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:198 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:199 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:200 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:201 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:202 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:203 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:204 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:205 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:206 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:207 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:208 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:209 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:210 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:211 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:212 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:213 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:214 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:215 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:216 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:217 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:218 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:219 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:220 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:221 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:222 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:223 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:224 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:225 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:226 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:227 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:228 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:229 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:230 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:231 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:232 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:233 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:234 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:235 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:236 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:237 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:238 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:239 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:240 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:241 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:242 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:243 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:244 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:245 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:246 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:247 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:248 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:249 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:250 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:251 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:252 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:253 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:254 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:255 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:256 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:257 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:258 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:259 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:260 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:261 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:262 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:263 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:264 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:265 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:266 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:267 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:268 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:269 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:270 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:271 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:272 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:273 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:274 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:275 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:276 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:277 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:278 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:279 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:280 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:281 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:282 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:283 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:284 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:285 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:286 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:287 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:332 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:333 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:334 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:335 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:336 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:337 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:338 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:339 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:340 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:341 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:342 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:343 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:344 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:345 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:346 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:347 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:348 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:349 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:350 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:351 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:352 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:353 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:354 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:355 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:356 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:357 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:358 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:359 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:360 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:361 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:362 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:363 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:364 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:365 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:366 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:367 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:368 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:369 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:370 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:371 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:372 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:373 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:374 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:375 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:376 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:377 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:378 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:379 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:380 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:381 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:382 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:383 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:384 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:385 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:386 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:387 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:388 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:389 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:390 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:391 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:392 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:393 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:394 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:395 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:396 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:397 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:398 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:399 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:400 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:401 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:402 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:403 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:404 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:405 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:406 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:407 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:408 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:409 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:410 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:411 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:412 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:413 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:414 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:415 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:416 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:417 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:418 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:419 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:420 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:421 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:422 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:423 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:424 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:425 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:426 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:427 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:428 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:429 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:430 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:431 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): M
+
+
+**Hydrogen Bonds**
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+---------------------------+---------------------------+
+| RESNR | RESTYPE | RESCHAIN | RESNR_LIG | RESTYPE_LIG | RESCHAIN_LIG | SIDECHAIN | DIST_H-A | DIST_D-A | DON_ANGLE | PROTISDON | DONORIDX | DONORTYPE | ACCEPTORIDX | ACCEPTORTYPE | LIGCOO                    | PROTCOO                   | 
++=======+=========+==========+===========+=============+==============+===========+==========+==========+===========+===========+==========+===========+=============+==============+===========================+===========================+
+| 84    | THR     | M        | 431       | UNK         | N            | True      | 3.48     | 4.07     | 122.10    | True      | 360      | O3        | 97213       | O2           | 354.375, 291.647, 277.799 | 350.767, 290.408, 279.220 | 
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+---------------------------+---------------------------+
+
+
+
+UNK:N:432 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): M
+
+
+**Hydrogen Bonds**
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+---------------------------+---------------------------+
+| RESNR | RESTYPE | RESCHAIN | RESNR_LIG | RESTYPE_LIG | RESCHAIN_LIG | SIDECHAIN | DIST_H-A | DIST_D-A | DON_ANGLE | PROTISDON | DONORIDX | DONORTYPE | ACCEPTORIDX | ACCEPTORTYPE | LIGCOO                    | PROTCOO                   | 
++=======+=========+==========+===========+=============+==============+===========+==========+==========+===========+===========+==========+===========+=============+==============+===========================+===========================+
+| 84    | THR     | M        | 432       | UNK         | N            | True      | 1.79     | 2.26     | 106.55    | True      | 360      | O3        | 97223       | O2           | 351.182, 292.536, 278.579 | 350.767, 290.408, 279.220 | 
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+---------------------------+---------------------------+
+
+
+
+UNK:N:433 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): M
+
+
+**Hydrophobic Interactions**
++-------+---------+----------+-----------+-------------+--------------+------+--------------+---------------+---------------------------+---------------------------+
+| RESNR | RESTYPE | RESCHAIN | RESNR_LIG | RESTYPE_LIG | RESCHAIN_LIG | DIST | LIGCARBONIDX | PROTCARBONIDX | LIGCOO                    | PROTCOO                   | 
++=======+=========+==========+===========+=============+==============+======+==============+===============+===========================+===========================+
+| 84    | THR     | M        | 433       | UNK         | N            | 2.29 | 97234        | 361           | 349.895, 288.597, 279.552 | 352.068, 288.629, 280.278 | 
++-------+---------+----------+-----------+-------------+--------------+------+--------------+---------------+---------------------------+---------------------------+
+| 87    | LEU     | M        | 433       | UNK         | N            | 3.75 | 97234        | 401           | 349.895, 288.597, 279.552 | 349.489, 286.658, 276.365 | 
++-------+---------+----------+-----------+-------------+--------------+------+--------------+---------------+---------------------------+---------------------------+
+
+
+**Hydrogen Bonds**
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+---------------------------+---------------------------+
+| RESNR | RESTYPE | RESCHAIN | RESNR_LIG | RESTYPE_LIG | RESCHAIN_LIG | SIDECHAIN | DIST_H-A | DIST_D-A | DON_ANGLE | PROTISDON | DONORIDX | DONORTYPE | ACCEPTORIDX | ACCEPTORTYPE | LIGCOO                    | PROTCOO                   | 
++=======+=========+==========+===========+=============+==============+===========+==========+==========+===========+===========+==========+===========+=============+==============+===========================+===========================+
+| 81    | ASP     | M        | 433       | UNK         | N            | False     | 3.49     | 3.92     | 107.66    | True      | 302      | Nam       | 97233       | O2           | 351.138, 290.547, 281.706 | 349.089, 292.976, 283.995 | 
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+---------------------------+---------------------------+
+| 84    | THR     | M        | 433       | UNK         | N            | False     | 3.52     | 3.88     | 103.58    | True      | 355      | Nam       | 97233       | O2           | 351.138, 290.547, 281.706 | 348.351, 288.961, 279.516 | 
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+---------------------------+---------------------------+
+| 85    | VAL     | M        | 433       | UNK         | N            | False     | 2.98     | 3.62     | 121.75    | True      | 369      | Nam       | 97233       | O2           | 351.138, 290.547, 281.706 | 349.400, 287.378, 281.844 | 
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+---------------------------+---------------------------+
+
+
+
+UNK:N:434 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:435 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): M
+
+
+**Hydrogen Bonds**
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+---------------------------+---------------------------+
+| RESNR | RESTYPE | RESCHAIN | RESNR_LIG | RESTYPE_LIG | RESCHAIN_LIG | SIDECHAIN | DIST_H-A | DIST_D-A | DON_ANGLE | PROTISDON | DONORIDX | DONORTYPE | ACCEPTORIDX | ACCEPTORTYPE | LIGCOO                    | PROTCOO                   | 
++=======+=========+==========+===========+=============+==============+===========+==========+==========+===========+===========+==========+===========+=============+==============+===========================+===========================+
+| 147   | GLY     | M        | 435       | UNK         | N            | False     | 3.41     | 3.83     | 107.04    | False     | 97247    | N3        | 1380        | O2           | 355.539, 290.686, 282.507 | 357.173, 291.355, 285.905 | 
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+---------------------------+---------------------------+
+
+
+
+UNK:N:436 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:437 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:438 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:439 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:440 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:441 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:442 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:443 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:444 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:445 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:446 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:447 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:448 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:449 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:450 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:451 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:452 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:453 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:454 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:455 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:456 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:457 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:458 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:459 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): M
+
+
+**Hydrogen Bonds**
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+---------------------------+---------------------------+
+| RESNR | RESTYPE | RESCHAIN | RESNR_LIG | RESTYPE_LIG | RESCHAIN_LIG | SIDECHAIN | DIST_H-A | DIST_D-A | DON_ANGLE | PROTISDON | DONORIDX | DONORTYPE | ACCEPTORIDX | ACCEPTORTYPE | LIGCOO                    | PROTCOO                   | 
++=======+=========+==========+===========+=============+==============+===========+==========+==========+===========+===========+==========+===========+=============+==============+===========================+===========================+
+| 141   | ARG     | M        | 459       | UNK         | N            | True      | 3.20     | 3.99     | 135.60    | True      | 1266     | Ng+       | 97486       | N3           | 362.442, 282.237, 296.229 | 359.090, 282.889, 294.174 | 
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+---------------------------+---------------------------+
+
+
+
+UNK:N:460 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:461 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:462 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:463 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:464 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:465 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:466 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:467 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:468 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:469 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:470 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:471 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:472 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:473 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:474 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:475 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:476 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:477 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:478 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:479 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:480 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:481 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:482 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:483 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:484 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:485 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:486 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:487 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:488 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:489 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:490 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): M
+
+
+**Hydrophobic Interactions**
++-------+---------+----------+-----------+-------------+--------------+------+--------------+---------------+---------------------------+---------------------------+
+| RESNR | RESTYPE | RESCHAIN | RESNR_LIG | RESTYPE_LIG | RESCHAIN_LIG | DIST | LIGCARBONIDX | PROTCARBONIDX | LIGCOO                    | PROTCOO                   | 
++=======+=========+==========+===========+=============+==============+======+==============+===============+===========================+===========================+
+| 87    | LEU     | M        | 490       | UNK         | N            | 1.53 | 97787        | 399           | 349.699, 284.350, 276.210 | 349.305, 284.517, 277.674 | 
++-------+---------+----------+-----------+-------------+--------------+------+--------------+---------------+---------------------------+---------------------------+
+
+
+**Hydrogen Bonds**
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+---------------------------+---------------------------+
+| RESNR | RESTYPE | RESCHAIN | RESNR_LIG | RESTYPE_LIG | RESCHAIN_LIG | SIDECHAIN | DIST_H-A | DIST_D-A | DON_ANGLE | PROTISDON | DONORIDX | DONORTYPE | ACCEPTORIDX | ACCEPTORTYPE | LIGCOO                    | PROTCOO                   | 
++=======+=========+==========+===========+=============+==============+===========+==========+==========+===========+===========+==========+===========+=============+==============+===========================+===========================+
+| 90    | ARG     | M        | 490       | UNK         | N            | True      | 1.53     | 2.53     | 170.03    | True      | 450      | Ng+       | 97786       | O2           | 349.884, 282.275, 274.440 | 349.482, 280.110, 275.678 | 
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+---------------------------+---------------------------+
+| 90    | ARG     | M        | 490       | UNK         | N            | True      | 2.74     | 3.40     | 123.36    | True      | 451      | Ng+       | 97786       | O2           | 349.884, 282.275, 274.440 | 347.214, 280.393, 275.383 | 
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+---------------------------+---------------------------+
+
+
+
+UNK:N:491 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:492 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:493 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:494 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:495 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:496 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:497 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:498 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:499 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:500 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:501 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:502 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:503 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:504 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:505 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:506 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:507 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:508 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:509 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:510 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:511 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:512 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:513 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:514 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:515 (UNK) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:83 (UNK) - SMALLMOLECULE
+------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:84 (UNK) - SMALLMOLECULE
+------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:85 (UNK) - SMALLMOLECULE
+------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:86 (UNK) - SMALLMOLECULE
+------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:87 (UNK) - SMALLMOLECULE
+------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:88 (UNK) - SMALLMOLECULE
+------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:89 (UNK) - SMALLMOLECULE
+------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:90 (UNK) - SMALLMOLECULE
+------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:91 (UNK) - SMALLMOLECULE
+------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:92 (UNK) - SMALLMOLECULE
+------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:93 (UNK) - SMALLMOLECULE
+------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:94 (UNK) - SMALLMOLECULE
+------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:95 (UNK) - SMALLMOLECULE
+------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:96 (UNK) - SMALLMOLECULE
+------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:97 (UNK) - SMALLMOLECULE
+------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:98 (UNK) - SMALLMOLECULE
+------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.
+UNK:N:99 (UNK) - SMALLMOLECULE
+------------------------------
+Interacting chain(s): 
+
+
+
+No interactions detected.

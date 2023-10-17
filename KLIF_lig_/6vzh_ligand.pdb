@@ -1,0 +1,78 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6vzh_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  RYA D 404      -0.119  17.323  44.895  1.00  0.00           C  
+HETATM    2  C14 RYA D 404       1.740  19.180  40.433  1.00  0.00           C  
+HETATM    3  C5  RYA D 404       0.564  19.306  43.228  1.00  0.00           C  
+HETATM    4  C6  RYA D 404      -0.122  18.654  45.304  1.00  0.00           C  
+HETATM    5  C11 RYA D 404       1.648  21.572  39.061  1.00  0.00           C  
+HETATM    6  C7  RYA D 404      -0.914  16.535  47.122  1.00  0.00           C  
+HETATM    7  C8  RYA D 404       1.041  15.408  41.898  1.00  0.00           C  
+HETATM    8  C9  RYA D 404       1.305  20.339  41.066  1.00  0.00           C  
+HETATM    9  C10 RYA D 404       1.260  21.541  40.374  1.00  0.00           C  
+HETATM   10  C12 RYA D 404       2.085  20.437  38.406  1.00  0.00           C  
+HETATM   11  C13 RYA D 404       2.121  19.251  39.118  1.00  0.00           C  
+HETATM   12  N1  RYA D 404       0.298  15.766  43.111  1.00  0.00           N  
+HETATM   13  N2  RYA D 404      -0.479  16.252  45.748  1.00  0.00           N  
+HETATM   14  C3  RYA D 404       0.266  17.061  43.571  1.00  0.00           C  
+HETATM   15  N3  RYA D 404       0.609  18.057  42.736  1.00  0.00           N  
+HETATM   16  C1  RYA D 404      -0.451  14.953  45.335  1.00  0.00           C  
+HETATM   17  C2  RYA D 404      -0.414  14.705  43.841  1.00  0.00           C  
+HETATM   18  N4  RYA D 404       0.207  19.638  44.477  1.00  0.00           N  
+HETATM   19  O1  RYA D 404      -0.458  14.024  46.133  1.00  0.00           O  
+HETATM   20  N5  RYA D 404       0.903  20.332  42.418  1.00  0.00           N  
+HETATM   21  O2  RYA D 404       2.462  20.492  37.115  1.00  0.00           O  
+HETATM   22  F1  RYA D 404       2.545  18.133  38.494  1.00  0.00           F  
+HETATM   23  F2  RYA D 404       1.605  22.741  38.390  1.00  0.00           F  
+HETATM   24  C15 RYA D 404       1.960  14.283  42.095  1.00  0.00           C  
+HETATM   25  C16 RYA D 404       2.698  13.375  42.224  1.00  0.00           C  
+HETATM   26  C17 RYA D 404      -1.817  14.550  43.286  1.00  0.00           C  
+CONECT    1    4   13   14
+CONECT    1   14
+CONECT    2    8   11
+CONECT    2    8
+CONECT    3   15   18   20
+CONECT    3   15
+CONECT    4    1   18
+CONECT    4   18
+CONECT    5    9   10   23
+CONECT    5    9
+CONECT    6   13
+CONECT    7   12   24
+CONECT    8    2    9   20
+CONECT    8    2
+CONECT    9    5    8
+CONECT    9    5
+CONECT   10    5   11   21
+CONECT   10   11
+CONECT   11    2   10   22
+CONECT   11   10
+CONECT   12    7   14   17
+CONECT   13    1    6   16
+CONECT   14    1   12   15
+CONECT   14    1
+CONECT   15    3   14
+CONECT   15    3
+CONECT   16   13   17   19
+CONECT   16   19
+CONECT   17   12   16   26
+CONECT   18    3    4
+CONECT   18    4
+CONECT   19   16
+CONECT   19   16
+CONECT   20    3    8
+CONECT   21   10
+CONECT   22   11
+CONECT   23    5
+CONECT   24    7   25
+CONECT   24   25
+CONECT   24   25
+CONECT   25   24
+CONECT   25   24
+CONECT   25   24
+CONECT   26   17
+ENDMDL
+END   

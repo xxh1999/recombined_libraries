@@ -1,0 +1,66 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3PA8
+MODEL        1
+ATOM      1  N   CYS A 155      18.419   1.997  30.126  1.00 25.83           N1+
+ATOM      2  CA  CYS A 155      18.811   0.603  30.322  1.00 27.44           C  
+ATOM      3  C   CYS A 155      18.121  -0.324  29.320  1.00 27.69           C  
+ATOM      4  O   CYS A 155      16.957  -0.118  28.990  1.00 27.61           O  
+ATOM      5  CB  CYS A 155      18.368   0.114  31.719  1.00 28.52           C  
+ATOM      6  SG  CYS A 155      19.010   1.174  33.046  1.00 33.87           S  
+TER       7      CYS A 155
+HETATM    8  CAT 621 A 300      21.711   7.406  40.521  1.00 47.03           C  
+HETATM    9  OAV 621 A 300      22.387   6.432  40.849  1.00 48.22           O  
+HETATM   10  CAU 621 A 300      22.336   8.797  40.499  1.00 47.38           C  
+HETATM   11  NAS 621 A 300      20.418   7.318  40.176  1.00 46.36           N  
+HETATM   12  CAQ 621 A 300      19.674   6.065  40.062  1.00 42.63           C  
+HETATM   13  CAP 621 A 300      19.873   5.398  38.697  1.00 41.60           C  
+HETATM   14  OAR 621 A 300      20.285   6.051  37.738  1.00 39.84           O  
+HETATM   15  NAM 621 A 300      19.548   4.097  38.598  1.00 38.56           N  
+HETATM   16  CAK 621 A 300      19.606   3.338  37.347  1.00 38.91           C  
+HETATM   17  CAJ 621 A 300      18.484   3.806  36.406  1.00 39.31           C  
+HETATM   18  OAL 621 A 300      17.346   4.021  36.827  1.00 37.05           O  
+HETATM   19  CAN 621 A 300      19.477   1.830  37.641  1.00 40.01           C  
+HETATM   20  OAO 621 A 300      19.712   1.074  36.467  1.00 44.33           O  
+HETATM   21  C   621 A 300      17.488   3.442  33.136  1.00 40.28           C  
+HETATM   22  N   621 A 300      18.836   3.981  35.130  1.00 38.66           N  
+HETATM   23  O   621 A 300      17.034   3.681  32.023  1.00 39.74           O  
+HETATM   24  CA  621 A 300      18.005   4.551  34.083  1.00 39.64           C  
+HETATM   25  CB  621 A 300      18.934   5.557  33.361  1.00 38.92           C  
+HETATM   26  CG  621 A 300      18.300   6.630  32.457  1.00 39.26           C  
+HETATM   27  CAC 621 A 300      17.490   1.987  33.605  1.00 41.52           C  
+HETATM   28  CD1 621 A 300      17.142   7.398  33.116  1.00 37.95           C  
+HETATM   29  CD2 621 A 300      19.395   7.608  32.007  1.00 37.26           C  
+CONECT    8    9   10   11
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8
+CONECT   11    8   12
+CONECT   12   11   13
+CONECT   13   12   14   15
+CONECT   13   14
+CONECT   14   13
+CONECT   14   13
+CONECT   15   13   16
+CONECT   16   15   17   19
+CONECT   17   16   18   22
+CONECT   17   18
+CONECT   18   17
+CONECT   18   17
+CONECT   19   16   20
+CONECT   20   19
+CONECT   21   23   24   27
+CONECT   21   23
+CONECT   22   17   24
+CONECT   23   21
+CONECT   23   21
+CONECT   24   21   22   25
+CONECT   25   24   26
+CONECT   26   25   28   29
+CONECT   27    6   21
+CONECT   28   26
+CONECT   29   26
+ENDMDL
+END   

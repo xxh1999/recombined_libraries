@@ -1,0 +1,24 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4F21
+MODEL        1
+ATOM      1  N   SER E 116       6.148  23.253 -24.610  1.00 23.78           N1+
+ATOM      2  CA  SER E 116       4.849  23.531 -23.988  1.00 22.00           C  
+ATOM      3  C   SER E 116       3.866  24.087 -25.036  1.00 28.28           C  
+ATOM      4  O   SER E 116       3.627  23.442 -26.057  1.00 27.57           O  
+ATOM      5  CB  SER E 116       5.035  24.400 -22.718  1.00 49.15           C  
+ATOM      6  OG  SER E 116       3.790  24.580 -22.047  1.00 49.47           O  
+TER       7      SER E 116
+HETATM    8  C1  0S1 E 301       3.641  25.626 -21.075  1.00 33.20           C  
+HETATM    9  O1  0S1 E 301       2.384  25.557 -20.440  1.00 38.45           O  
+HETATM   10  C2  0S1 E 301       5.293  27.038 -20.855  1.00 28.97           C  
+HETATM   11  C3  0S1 E 301       3.973  27.028 -21.630  1.00 17.30           C  
+HETATM   12  C4  0S1 E 301       4.824  25.795 -20.098  1.00 46.48           C  
+CONECT    8    6    9   11   12
+CONECT    9    8
+CONECT   10   11   12
+CONECT   11    8   10
+CONECT   12    8   10
+ENDMDL
+END   

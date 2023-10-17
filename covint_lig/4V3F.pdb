@@ -1,0 +1,28 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4V3F
+MODEL        1
+ATOM      1  N   CYS A 450     -18.752  -0.374 103.683  0.72 30.07           N1+
+ATOM      2  CA  CYS A 450     -17.691  -1.375 103.545  0.72 30.15           C  
+ATOM      3  C   CYS A 450     -16.352  -0.827 104.044  0.72 21.89           C  
+ATOM      4  O   CYS A 450     -15.706  -0.049 103.356  0.72 21.52           O  
+ATOM      5  CB  CYS A 450     -17.549  -1.840 102.081  0.72 20.44           C  
+ATOM      6  SG  CYS A 450     -18.876  -2.911 101.445  0.72 30.82           S  
+TER       7      CYS A 450
+HETATM    8  C4  CHT A1502     -18.717  -1.738 100.237  0.72 36.33           C  
+HETATM    9  C5  CHT A1502     -18.195  -2.335  98.929  0.72 32.30           C  
+HETATM   10  C6  CHT A1502     -17.795  -2.243  96.677  0.72 24.47           C  
+HETATM   11  C7  CHT A1502     -18.349  -0.226  97.826  0.72 20.13           C  
+HETATM   12  C8  CHT A1502     -19.940  -1.703  97.188  0.72 25.21           C  
+HETATM   13  O6  CHT A1502     -19.682  -1.001 100.240  0.72 33.97           O  
+HETATM   14  N1  CHT A1502     -18.609  -1.630  97.705  0.72 27.35           N1+
+CONECT    8    6    9   13
+CONECT    9    8   14
+CONECT   10   14
+CONECT   11   14
+CONECT   12   14
+CONECT   13    8
+CONECT   14    9   10   11   12
+ENDMDL
+END   

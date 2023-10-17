@@ -1,0 +1,73 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3FO9
+MODEL        1
+ATOM      1  N   LYS H  93       3.120  36.547  83.314  1.00 42.74           N1+
+ATOM      2  CA  LYS H  93       2.169  35.650  82.666  1.00 44.38           C  
+ATOM      3  C   LYS H  93       0.733  36.010  83.051  1.00 44.11           C  
+ATOM      4  O   LYS H  93       0.478  36.368  84.200  1.00 44.00           O  
+ATOM      5  CB  LYS H  93       2.546  34.169  82.902  1.00 45.11           C  
+ATOM      6  CG  LYS H  93       2.309  33.702  84.352  1.00 49.83           C  
+ATOM      7  CD  LYS H  93       3.072  32.439  84.749  1.00 56.75           C  
+ATOM      8  CE  LYS H  93       2.566  31.131  84.122  1.00 64.40           C  
+ATOM      9  NZ  LYS H  93       1.988  30.267  85.147  1.00 66.08           N1+
+TER      10      LYS H  93
+HETATM   11  C1  DIK H 500       2.890  28.170  84.188  1.00 68.70           C  
+HETATM   12  C2  DIK H 500       1.648  28.930  84.659  1.00 68.20           C  
+HETATM   13  C3  DIK H 500       0.982  28.103  85.769  1.00 68.41           C  
+HETATM   14  C4  DIK H 500      -0.395  28.589  86.209  1.00 68.59           C  
+HETATM   15  O1  DIK H 500      -0.744  29.763  86.118  1.00 69.80           O  
+HETATM   16  C5  DIK H 500      -1.301  27.518  86.787  1.00 68.70           C  
+HETATM   17  C6  DIK H 500      -2.547  27.221  85.927  1.00 72.93           C  
+HETATM   18  C7  DIK H 500      -3.829  27.861  86.430  1.00 73.69           C  
+HETATM   19  C8  DIK H 500      -4.775  28.327  85.497  1.00 74.73           C  
+HETATM   20  C9  DIK H 500      -5.970  28.915  85.945  1.00 74.71           C  
+HETATM   21  C10 DIK H 500      -4.115  27.958  87.811  1.00 73.77           C  
+HETATM   22  C11 DIK H 500      -5.311  28.545  88.259  1.00 74.59           C  
+HETATM   23  C12 DIK H 500      -6.227  29.055  87.324  1.00 74.85           C  
+HETATM   24  N1  DIK H 500      -7.402  29.688  87.785  1.00 75.57           N  
+HETATM   25  C13 DIK H 500      -7.874  30.863  87.334  1.00 78.22           C  
+HETATM   26  O2  DIK H 500      -7.280  31.547  86.501  1.00 79.01           O  
+HETATM   27  C14 DIK H 500      -9.195  31.392  87.910  1.00 79.92           C  
+HETATM   28  C15 DIK H 500     -10.073  30.341  88.619  1.00 81.88           C  
+HETATM   29  C16 DIK H 500      -9.599  29.968  90.037  1.00 83.56           C  
+HETATM   30  C17 DIK H 500      -9.561  28.457  90.262  1.00 84.77           C  
+HETATM   31  O3  DIK H 500     -10.653  27.848  90.264  1.00 84.94           O  
+HETATM   32  O4  DIK H 500      -8.433  27.940  90.420  1.00 85.77           O1-
+CONECT   11   12
+CONECT   12    9   11   13
+CONECT   13   12   14
+CONECT   14   13   15   16
+CONECT   14   15
+CONECT   15   14
+CONECT   15   14
+CONECT   16   14   17
+CONECT   17   16   18
+CONECT   18   17   19   21
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   19   23
+CONECT   20   23
+CONECT   21   18   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   20   22   24
+CONECT   23   20
+CONECT   24   23   25
+CONECT   25   24   26   27
+CONECT   25   26
+CONECT   26   25
+CONECT   26   25
+CONECT   27   25   28
+CONECT   28   27   29
+CONECT   29   28   30
+CONECT   30   29   31   32
+CONECT   30   31
+CONECT   31   30
+CONECT   31   30
+CONECT   32   30
+ENDMDL
+END   

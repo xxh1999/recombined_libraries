@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4cfm_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CAU Q4Q A1297       2.871  16.184  39.137  1.00  0.00           C  
+HETATM    2  CAV Q4Q A1297       3.305  15.393  37.977  1.00  0.00           C  
+HETATM    3  CAW Q4Q A1297       2.146  14.492  37.554  1.00  0.00           C  
+HETATM    4  CAX Q4Q A1297       1.076  15.376  36.966  1.00  0.00           C  
+HETATM    5  CAY Q4Q A1297       0.539  16.296  38.037  1.00  0.00           C  
+HETATM    6  CAT Q4Q A1297       1.648  17.049  38.815  1.00  0.00           C  
+HETATM    7  CAS Q4Q A1297       1.010  17.401  40.112  1.00  0.00           C  
+HETATM    8  O6  Q4Q A1297       1.839  18.307  40.800  1.00  0.00           O  
+HETATM    9  C6  Q4Q A1297       1.099  19.061  41.681  1.00  0.00           C  
+HETATM   10  N1  Q4Q A1297       1.166  20.399  41.608  1.00  0.00           N  
+HETATM   11  C2  Q4Q A1297       0.457  21.131  42.474  1.00  0.00           C  
+HETATM   12  N2  Q4Q A1297       0.507  22.445  42.421  1.00  0.00           N  
+HETATM   13  N3  Q4Q A1297      -0.312  20.550  43.398  1.00  0.00           N  
+HETATM   14  C4  Q4Q A1297      -0.381  19.230  43.475  1.00  0.00           C  
+HETATM   15  N4  Q4Q A1297      -1.075  18.472  44.304  1.00  0.00           N  
+HETATM   16  C5  Q4Q A1297       0.320  18.464  42.623  1.00  0.00           C  
+HETATM   17  N7  Q4Q A1297       0.047  17.194  42.940  1.00  0.00           N  
+HETATM   18  C8  Q4Q A1297      -0.820  17.217  43.971  1.00  0.00           C  
+HETATM   19  CAJ Q4Q A1297      -1.356  16.144  44.595  1.00  0.00           C  
+HETATM   20  CAK Q4Q A1297      -1.494  16.143  45.992  1.00  0.00           C  
+HETATM   21  CAL Q4Q A1297      -2.030  15.043  46.672  1.00  0.00           C  
+HETATM   22  CAM Q4Q A1297      -2.462  13.931  45.954  1.00  0.00           C  
+HETATM   23  CAN Q4Q A1297      -2.345  13.915  44.562  1.00  0.00           C  
+HETATM   24  CAO Q4Q A1297      -1.799  15.014  43.880  1.00  0.00           C  
+HETATM   25  CAP Q4Q A1297      -1.691  14.933  42.489  1.00  0.00           C  
+CONECT    1    2    6
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    1    5    7
+CONECT    7    6    8
+CONECT    8    7    9
+CONECT    9    8   10   16
+CONECT    9   16
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   12   13
+CONECT   11   10
+CONECT   12   11
+CONECT   13   11   14
+CONECT   13   14
+CONECT   14   13   15   16
+CONECT   14   13
+CONECT   15   14   18
+CONECT   16    9   14   17
+CONECT   16    9
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   15   17   19
+CONECT   18   17
+CONECT   19   18   20   24
+CONECT   19   24
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   19   23   25
+CONECT   24   19
+CONECT   25   24
+ENDMDL
+END   

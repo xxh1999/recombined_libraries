@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6rff_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C10 K1B A 401       1.233  16.481  41.424  1.00  0.00           C  
+HETATM    2  C12 K1B A 401       0.330  17.896  43.373  1.00  0.00           C  
+HETATM    3  O22 K1B A 401       3.037  16.041  37.865  1.00  0.00           O  
+HETATM    4  C02 K1B A 401       2.846  19.776  37.581  1.00  0.00           C  
+HETATM    5  C03 K1B A 401       2.833  18.480  38.089  1.00  0.00           C  
+HETATM    6  C04 K1B A 401       2.301  18.248  39.333  1.00  0.00           C  
+HETATM    7  C05 K1B A 401       1.781  19.286  40.075  1.00  0.00           C  
+HETATM    8  C06 K1B A 401       1.794  20.574  39.573  1.00  0.00           C  
+HETATM    9  C07 K1B A 401       2.321  20.821  38.320  1.00  0.00           C  
+HETATM   10  C08 K1B A 401       1.177  19.045  41.451  1.00  0.00           C  
+HETATM   11  C09 K1B A 401       0.955  17.869  42.007  1.00  0.00           C  
+HETATM   12  C15 K1B A 401      -0.708  16.509  45.200  1.00  0.00           C  
+HETATM   13  C18 K1B A 401      -1.738  16.873  47.360  1.00  0.00           C  
+HETATM   14  N11 K1B A 401       1.425  15.448  40.998  1.00  0.00           N  
+HETATM   15  N14 K1B A 401      -0.071  16.622  43.915  1.00  0.00           N  
+HETATM   16  N16 K1B A 401      -1.136  15.325  45.727  1.00  0.00           N  
+HETATM   17  N17 K1B A 401      -1.761  15.546  47.049  1.00  0.00           N  
+HETATM   18  N21 K1B A 401       3.349  17.325  37.378  1.00  0.00           N1+
+HETATM   19  O01 K1B A 401       3.383  20.056  36.325  1.00  0.00           O  
+HETATM   20  O13 K1B A 401       0.182  18.934  43.913  1.00  0.00           O  
+HETATM   21  O23 K1B A 401       4.001  17.453  36.411  1.00  0.00           O1-
+HETATM   22  S20 K1B A 401      -1.038  17.766  46.191  1.00  0.00           S  
+HETATM   23 BR   K1B A 401      -2.439  17.644  48.978  1.00  0.00          Br  
+CONECT    1   11   14
+CONECT    1   14
+CONECT    1   14
+CONECT    2   11   15   20
+CONECT    2   20
+CONECT    3   18
+CONECT    3   18
+CONECT    4    5    9   19
+CONECT    4    9
+CONECT    5    4    6   18
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    6    8   10
+CONECT    7    8
+CONECT    8    7    9
+CONECT    8    7
+CONECT    9    4    8
+CONECT    9    4
+CONECT   10    7   11
+CONECT   10   11
+CONECT   11    1    2   10
+CONECT   11   10
+CONECT   12   15   16   22
+CONECT   12   16
+CONECT   13   17   22   23
+CONECT   13   17
+CONECT   14    1
+CONECT   14    1
+CONECT   14    1
+CONECT   15    2   12
+CONECT   16   12   17
+CONECT   16   12
+CONECT   17   13   16
+CONECT   17   13
+CONECT   18    3    5   21
+CONECT   18    3
+CONECT   19    4
+CONECT   20    2
+CONECT   20    2
+CONECT   21   18
+CONECT   22   12   13
+CONECT   23   13
+ENDMDL
+END   

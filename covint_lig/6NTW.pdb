@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6NTW
+MODEL        1
+ATOM      1  N   CYS A 528      17.689 -34.840  38.669  1.00 58.60           N1+
+ATOM      2  CA  CYS A 528      17.237 -36.228  38.888  1.00 56.12           C  
+ATOM      3  C   CYS A 528      16.095 -36.521  37.905  1.00 57.26           C  
+ATOM      4  O   CYS A 528      15.552 -35.606  37.282  1.00 55.43           O  
+ATOM      5  CB  CYS A 528      16.630 -36.438  40.305  1.00 61.44           C  
+ATOM      6  SG  CYS A 528      17.812 -36.882  41.614  1.00 73.09           S  
+TER       7      CYS A 528
+HETATM    8  C1  MXR A 701      18.683 -35.343  41.756  1.00 74.81           C  
+HETATM    9  C2  MXR A 701      21.007 -31.977  44.097  1.00 98.44           C  
+HETATM   10  C3  MXR A 701      18.431 -34.479  43.015  1.00 80.62           C  
+HETATM   11  C4  MXR A 701      19.656 -33.555  43.224  1.00 82.99           C  
+HETATM   12  C5  MXR A 701      21.652 -33.137  44.257  1.00 85.73           C  
+HETATM   13  O6  MXR A 701      19.503 -35.036  40.893  1.00 81.99           O  
+HETATM   14  C7  MXR A 701      17.039 -33.743  43.069  1.00 80.73           C  
+HETATM   15  O8  MXR A 701      16.161 -34.446  43.925  1.00 83.06           O  
+HETATM   16  C9  MXR A 701      16.292 -33.365  41.780  1.00 77.35           C  
+HETATM   17  N10 MXR A 701      20.819 -34.170  43.868  1.00 81.24           N  
+HETATM   18  C11 MXR A 701      23.152 -33.464  44.529  1.00 87.85           C  
+HETATM   19  O12 MXR A 701      23.434 -34.678  44.618  1.00 94.16           O1-
+HETATM   20  O13 MXR A 701      23.922 -32.487  44.657  1.00 85.62           O  
+HETATM   21  S14 MXR A 701      21.729 -30.546  43.367  1.00 96.61           S  
+HETATM   22  C15 MXR A 701      21.802 -31.052  41.600  1.00 85.53           C  
+HETATM   23  C16 MXR A 701      22.350 -29.931  40.744  1.00 83.82           C  
+HETATM   24  C17 MXR A 701      23.870 -30.073  40.913  1.00 84.71           C  
+HETATM   25  C18 MXR A 701      19.537 -32.223  43.956  1.00 86.79           C  
+HETATM   26  N19 MXR A 701      24.131 -31.510  41.135  1.00 91.02           N1+
+HETATM   27  C20 MXR A 701      18.942 -32.367  45.379  1.00 88.85           C  
+HETATM   28  C21 MXR A 701      22.827 -32.164  41.332  1.00 85.07           C  
+HETATM   29  C22 MXR A 701      24.587 -29.447  39.700  1.00 83.55           C  
+HETATM   30  N23 MXR A 701      24.811 -30.124  38.540  1.00 81.22           N  
+HETATM   31  O24 MXR A 701      24.933 -28.273  39.831  1.00 79.47           O  
+HETATM   32  C25 MXR A 701      25.360 -29.396  37.390  1.00 79.76           C  
+HETATM   33  C26 MXR A 701      24.508 -31.538  38.278  1.00 77.92           C  
+CONECT    8    6   10   13
+CONECT    8   13
+CONECT    9   12   21   25
+CONECT    9   12
+CONECT   10    8   11   14
+CONECT   11   10   17   25
+CONECT   12    9   17   18
+CONECT   12    9
+CONECT   13    8
+CONECT   13    8
+CONECT   14   10   15   16
+CONECT   15   14
+CONECT   16   14
+CONECT   17   11   12
+CONECT   18   12   19   20
+CONECT   18   20
+CONECT   19   18
+CONECT   20   18
+CONECT   20   18
+CONECT   21    9   22
+CONECT   22   21   23   28
+CONECT   23   22   24
+CONECT   24   23   26   29
+CONECT   25    9   11   27
+CONECT   26   24   28
+CONECT   27   25
+CONECT   28   22   26
+CONECT   29   24   30   31
+CONECT   29   31
+CONECT   30   29   32   33
+CONECT   31   29
+CONECT   31   29
+CONECT   32   30
+CONECT   33   30
+ENDMDL
+END   

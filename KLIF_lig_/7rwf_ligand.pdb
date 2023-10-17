@@ -1,0 +1,73 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7rwf_ligand
+MODEL        1
+HETATM    1  C13 Q7T A 302       0.998  27.261  33.064  1.00  0.00           C  
+HETATM    2  C17 Q7T A 302       0.438  27.542  31.781  1.00  0.00           C  
+HETATM    3  C20 Q7T A 302      -0.775  28.697  29.550  1.00  0.00           C  
+HETATM    4  C21 Q7T A 302      -0.592  29.458  30.700  1.00  0.00           C  
+HETATM    5  C02 Q7T A 302       4.101  21.618  34.002  1.00  0.00           C  
+HETATM    6  C04 Q7T A 302       4.956  22.502  33.109  1.00  0.00           C  
+HETATM    7  C05 Q7T A 302       6.153  21.999  32.628  1.00  0.00           C  
+HETATM    8  C06 Q7T A 302       6.952  22.789  31.821  1.00  0.00           C  
+HETATM    9  C07 Q7T A 302       6.559  24.066  31.486  1.00  0.00           C  
+HETATM   10  C08 Q7T A 302       5.363  24.578  31.961  1.00  0.00           C  
+HETATM   11  C09 Q7T A 302       4.558  23.799  32.769  1.00  0.00           C  
+HETATM   12  C11 Q7T A 302       2.903  25.622  32.876  1.00  0.00           C  
+HETATM   13  C12 Q7T A 302       1.595  25.962  33.547  1.00  0.00           C  
+HETATM   14  C14 Q7T A 302       0.871  28.442  33.793  1.00  0.00           C  
+HETATM   15  C16 Q7T A 302       0.011  28.866  31.817  1.00  0.00           C  
+HETATM   16  C18 Q7T A 302       0.257  26.766  30.621  1.00  0.00           C  
+HETATM   17  C19 Q7T A 302      -0.349  27.358  29.509  1.00  0.00           C  
+HETATM   18  N10 Q7T A 302       3.345  24.317  33.260  1.00  0.00           N  
+HETATM   19  N15 Q7T A 302       0.291  29.361  33.034  1.00  0.00           N  
+HETATM   20  N22 Q7T A 302       8.188  22.281  31.329  1.00  0.00           N1+
+HETATM   21  O01 Q7T A 302       4.635  20.582  34.522  1.00  0.00           O  
+HETATM   22  O03 Q7T A 302       2.903  21.911  34.239  1.00  0.00           O1-
+HETATM   23  O23 Q7T A 302       8.849  22.961  30.360  1.00  0.00           O1-
+HETATM   24  O24 Q7T A 302       8.638  21.241  31.797  1.00  0.00           O  
+CONECT    1    2   13   14
+CONECT    1   14
+CONECT    2    1   15   16
+CONECT    2   15
+CONECT    3    4   17
+CONECT    3    4
+CONECT    4    3   15
+CONECT    4    3
+CONECT    5    6   21   22
+CONECT    5   21
+CONECT    6    5    7   11
+CONECT    6   11
+CONECT    7    6    8
+CONECT    7    8
+CONECT    8    7    9   20
+CONECT    8    7
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11    6   10   18
+CONECT   11    6
+CONECT   12   13   18
+CONECT   13    1   12
+CONECT   14    1   19
+CONECT   14    1
+CONECT   15    2    4   19
+CONECT   15    2
+CONECT   16    2   17
+CONECT   16   17
+CONECT   17    3   16
+CONECT   17   16
+CONECT   18   11   12
+CONECT   19   14   15
+CONECT   20    8   23   24
+CONECT   20   24
+CONECT   21    5
+CONECT   21    5
+CONECT   22    5
+CONECT   23   20
+CONECT   24   20
+CONECT   24   20
+ENDMDL
+END   

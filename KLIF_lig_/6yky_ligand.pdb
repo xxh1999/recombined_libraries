@@ -1,0 +1,85 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6yky_ligand
+MODEL        1
+HETATM    1  C1  OWQ C 401      -0.273  19.351  43.146  1.00  0.00           C  
+HETATM    2  C3  OWQ C 401       0.028  21.299  41.942  1.00  0.00           C  
+HETATM    3  N6  OWQ C 401       0.400  18.617  42.253  1.00  0.00           N  
+HETATM    4  C9  OWQ C 401       2.116  17.410  39.823  1.00  0.00           C  
+HETATM    5  C10 OWQ C 401       2.941  17.224  38.701  1.00  0.00           C  
+HETATM    6  C11 OWQ C 401       2.334  15.074  40.329  1.00  0.00           C  
+HETATM    7  C12 OWQ C 401       1.824  16.329  40.644  1.00  0.00           C  
+HETATM    8  C14 OWQ C 401       3.144  14.879  39.201  1.00  0.00           C  
+HETATM    9  C15 OWQ C 401       3.435  15.968  38.373  1.00  0.00           C  
+HETATM   10  C19 OWQ C 401      -0.729  17.267  44.350  1.00  0.00           C  
+HETATM   11  C20 OWQ C 401      -1.766  16.463  43.550  1.00  0.00           C  
+HETATM   12  C21 OWQ C 401      -1.819  15.130  44.323  1.00  0.00           C  
+HETATM   13  C24 OWQ C 401      -1.266  14.639  46.709  1.00  0.00           C  
+HETATM   14  N2  OWQ C 401      -0.471  20.664  42.997  1.00  0.00           N  
+HETATM   15  C4  OWQ C 401       0.761  20.563  40.989  1.00  0.00           C  
+HETATM   16  C5  OWQ C 401       0.933  19.170  41.181  1.00  0.00           C  
+HETATM   17  N7  OWQ C 401       1.661  18.713  40.113  1.00  0.00           N  
+HETATM   18  N8  OWQ C 401       1.368  20.884  39.830  1.00  0.00           N  
+HETATM   19  N13 OWQ C 401       1.907  19.842  39.308  1.00  0.00           N  
+HETATM   20  O16 OWQ C 401       3.596  13.615  38.924  1.00  0.00           O  
+HETATM   21  N17 OWQ C 401      -0.842  18.719  44.231  1.00  0.00           N  
+HETATM   22  C18 OWQ C 401       4.872  13.426  38.290  1.00  0.00           C  
+HETATM   23  N22 OWQ C 401      -1.017  15.389  45.556  1.00  0.00           N  
+HETATM   24  C23 OWQ C 401      -1.051  16.848  45.775  1.00  0.00           C  
+HETATM   25  C25 OWQ C 401      -1.580  13.264  46.636  1.00  0.00           C  
+HETATM   26  C26 OWQ C 401      -1.677  12.538  47.816  1.00  0.00           C  
+HETATM   27  N27 OWQ C 401      -1.520  13.132  48.998  1.00  0.00           N  
+HETATM   28  C28 OWQ C 401      -1.228  14.424  49.129  1.00  0.00           C  
+HETATM   29  C29 OWQ C 401      -1.055  15.207  47.994  1.00  0.00           C  
+CONECT    1    3   14   21
+CONECT    1   14
+CONECT    2   14   15
+CONECT    2   15
+CONECT    3    1   16
+CONECT    3   16
+CONECT    4    5    7   17
+CONECT    4    7
+CONECT    5    4    9
+CONECT    5    9
+CONECT    6    7    8
+CONECT    6    8
+CONECT    7    4    6
+CONECT    7    4
+CONECT    8    6    9   20
+CONECT    8    6
+CONECT    9    5    8
+CONECT    9    5
+CONECT   10   11   21   24
+CONECT   11   10   12
+CONECT   12   11   23
+CONECT   13   23   25   29
+CONECT   13   29
+CONECT   14    1    2
+CONECT   14    1
+CONECT   15    2   16   18
+CONECT   15    2
+CONECT   16    3   15   17
+CONECT   16    3
+CONECT   17    4   16   19
+CONECT   18   15   19
+CONECT   18   19
+CONECT   19   17   18
+CONECT   19   18
+CONECT   20    8   22
+CONECT   21    1   10
+CONECT   22   20
+CONECT   23   12   13   24
+CONECT   24   10   23
+CONECT   25   13   26
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   13   28
+CONECT   29   13
+ENDMDL
+END   

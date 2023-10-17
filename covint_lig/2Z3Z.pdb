@@ -1,0 +1,60 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2Z3Z
+MODEL        1
+ATOM      1  N   SER A 603      -7.269  35.942  69.095  1.00 22.69           N1+
+ATOM      2  CA  SER A 603      -7.927  37.008  68.342  1.00 22.86           C  
+ATOM      3  C   SER A 603      -8.387  36.522  66.959  1.00 22.05           C  
+ATOM      4  O   SER A 603      -9.318  35.720  66.873  1.00 21.88           O  
+ATOM      5  CB  SER A 603      -7.111  38.307  68.368  1.00 23.17           C  
+ATOM      6  OG  SER A 603      -7.943  39.336  67.891  1.00 25.37           O  
+TER       7      SER A 603
+HETATM    8  O2  AIO A 801      -7.120  43.779  67.487  1.00 27.38           O  
+HETATM    9  C9  AIO A 801      -7.355  43.606  66.289  1.00 28.79           C  
+HETATM   10  C4  AIO A 801      -6.832  44.658  65.281  1.00 30.39           C  
+HETATM   11  C5  AIO A 801      -5.274  44.693  65.303  1.00 33.40           C  
+HETATM   12  C7  AIO A 801      -4.662  45.811  64.427  1.00 35.52           C  
+HETATM   13  C8  AIO A 801      -5.084  45.788  62.952  1.00 34.17           C  
+HETATM   14  C6  AIO A 801      -4.646  43.336  64.948  1.00 33.10           C  
+HETATM   15  N2  AIO A 801      -7.334  45.963  65.701  1.00 30.00           N  
+HETATM   16  C3  AIO A 801      -8.587  46.396  65.507  1.00 29.60           C  
+HETATM   17  O1  AIO A 801      -9.432  45.758  64.877  1.00 27.13           O  
+HETATM   18  C1  AIO A 801      -8.937  47.742  66.140  1.00 27.19           C  
+HETATM   19  C2  AIO A 801      -9.140  47.597  67.655  1.00 31.19           C  
+HETATM   20  N1  AIO A 801     -10.136  48.308  65.506  1.00 28.39           N1+
+HETATM   21  N3  AIO A 801      -8.035  42.526  65.842  1.00 28.34           N  
+HETATM   22  C13 AIO A 801      -8.481  42.308  64.467  1.00 27.48           C  
+HETATM   23  C12 AIO A 801      -9.285  41.009  64.454  1.00 26.42           C  
+HETATM   24  C11 AIO A 801      -9.616  40.736  65.913  1.00 25.93           C  
+HETATM   25  C10 AIO A 801      -8.521  41.455  66.714  1.00 28.59           C  
+HETATM   26  B   AIO A 801      -7.325  40.433  67.119  1.00 32.88           B1-
+HETATM   27  O4  AIO A 801      -6.280  41.081  67.945  1.00 30.07           O  
+HETATM   28  O3  AIO A 801      -6.683  39.873  65.910  1.00 31.60           O  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10   21
+CONECT    9    8
+CONECT   10    9   11   15
+CONECT   11   10   12   14
+CONECT   12   11   13
+CONECT   13   12
+CONECT   14   11
+CONECT   15   10   16
+CONECT   16   15   17   18
+CONECT   16   17
+CONECT   17   16
+CONECT   17   16
+CONECT   18   16   19   20
+CONECT   19   18
+CONECT   20   18
+CONECT   21    9   22   25
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   21   24   26
+CONECT   26    6   25   27   28
+CONECT   27   26
+CONECT   28   26
+ENDMDL
+END   

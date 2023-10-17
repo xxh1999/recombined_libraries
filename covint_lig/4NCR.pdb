@@ -1,0 +1,84 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4NCR
+MODEL        1
+ATOM      1  N   CYS A 387      10.256 -18.772  -1.686  1.00 18.84           N1+
+ATOM      2  CA  CYS A 387      11.470 -18.784  -2.480  1.00 22.36           C  
+ATOM      3  C   CYS A 387      11.353 -19.985  -3.419  1.00 29.63           C  
+ATOM      4  O   CYS A 387      10.981 -21.068  -2.974  1.00 26.81           O  
+ATOM      5  CB  CYS A 387      12.652 -19.049  -1.529  1.00 29.93           C  
+ATOM      6  SG  CYS A 387      12.648 -17.778  -0.239  1.00 37.61           S  
+TER       7      CYS A 387
+HETATM    8  NBE 26J A 501      14.127 -18.198   0.527  1.00 41.01           N  
+HETATM    9  OAE 26J A 501      15.272 -17.838  -0.181  1.00 69.47           O  
+HETATM   10  CAX 26J A 501      14.318 -18.416   1.907  1.00 38.11           C  
+HETATM   11  CBB 26J A 501      15.410 -19.168   2.434  1.00 34.70           C  
+HETATM   12  SAV 26J A 501      16.510 -19.994   1.338  1.00 38.92           S  
+HETATM   13  CAY 26J A 501      17.884 -20.588   2.316  1.00 35.38           C  
+HETATM   14  NAR 26J A 501      17.795 -20.569   3.659  1.00 35.02           N1+
+HETATM   15  CAZ 26J A 501      16.736 -20.040   4.452  1.00 38.01           C  
+HETATM   16  OAD 26J A 501      16.824 -20.195   5.667  1.00 34.48           O  
+HETATM   17  CBA 26J A 501      15.582 -19.303   3.833  1.00 33.95           C  
+HETATM   18  CAK 26J A 501      14.621 -18.736   4.696  1.00 34.54           C  
+HETATM   19  CAW 26J A 501      13.509 -18.044   4.192  1.00 32.83           C  
+HETATM   20  CBG 26J A 501      12.468 -17.517   5.158  1.00 38.15           C  
+HETATM   21  FAG 26J A 501      13.074 -16.906   6.171  1.00 36.93           F  
+HETATM   22  FAH 26J A 501      11.769 -18.548   5.632  1.00 35.96           F  
+HETATM   23  FAF 26J A 501      11.637 -16.653   4.577  1.00 35.74           F  
+HETATM   24  CAJ 26J A 501      13.370 -17.875   2.803  1.00 35.85           C  
+HETATM   25  NBF 26J A 501      18.945 -21.090   1.641  1.00 38.42           N  
+HETATM   26  CAM 26J A 501      20.048 -21.771   2.346  1.00 41.22           C  
+HETATM   27  CAO 26J A 501      20.062 -23.258   1.951  1.00 53.09           C  
+HETATM   28  NBH 26J A 501      20.078 -23.409   0.474  1.00 58.22           N1+
+HETATM   29  CAN 26J A 501      18.962 -22.697  -0.197  1.00 54.28           C  
+HETATM   30  CAL 26J A 501      19.022 -21.211   0.169  1.00 38.53           C  
+HETATM   31  C30 26J A 501      20.281 -24.800   0.010  1.00 70.09           C  
+HETATM   32  C31 26J A 501      21.508 -24.846  -0.920  1.00 78.29           C  
+HETATM   33  C32 26J A 501      21.214 -24.186  -2.290  1.00 88.29           C  
+HETATM   34  C33 26J A 501      22.305 -24.504  -3.316  1.00 84.10           C  
+HETATM   35  C34 26J A 501      22.430 -26.017  -3.579  1.00 86.15           C  
+HETATM   36  C35 26J A 501      21.861 -26.888  -2.441  1.00 92.03           C  
+HETATM   37  C36 26J A 501      22.101 -26.269  -1.059  1.00 88.08           C  
+CONECT    8    6    9   10
+CONECT    9    8
+CONECT   10    8   11   24
+CONECT   10   11
+CONECT   11   10   12   17
+CONECT   11   10
+CONECT   12   11   13
+CONECT   13   12   14   25
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   16   17
+CONECT   15   16
+CONECT   16   15
+CONECT   16   15
+CONECT   17   11   15   18
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   18   20   24
+CONECT   19   24
+CONECT   20   19   21   22   23
+CONECT   21   20
+CONECT   22   20
+CONECT   23   20
+CONECT   24   10   19
+CONECT   24   19
+CONECT   25   13   26   30
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   27   29   31
+CONECT   29   28   30
+CONECT   30   25   29
+CONECT   31   28   32
+CONECT   32   31   33   37
+CONECT   33   32   34
+CONECT   34   33   35
+CONECT   35   34   36
+CONECT   36   35   37
+CONECT   37   32   36
+ENDMDL
+END   

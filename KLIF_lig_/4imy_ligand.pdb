@@ -1,0 +1,62 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4imy_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  P   AMP C 401       3.051  20.100  36.959  1.00  0.00           P1+
+HETATM    2  O1P AMP C 401       2.449  21.033  37.981  1.00  0.00           O1-
+HETATM    3  O2P AMP C 401       2.767  20.515  35.536  1.00  0.00           O1-
+HETATM    4  O3P AMP C 401       4.487  19.730  37.231  1.00  0.00           O1-
+HETATM    5  O5' AMP C 401       2.248  18.739  37.186  1.00  0.00           O  
+HETATM    6  C5' AMP C 401       2.837  17.473  36.915  1.00  0.00           C  
+HETATM    7  C4' AMP C 401       2.395  16.442  37.925  1.00  0.00           C  
+HETATM    8  O4' AMP C 401       3.014  16.736  39.217  1.00  0.00           O  
+HETATM    9  C3' AMP C 401       0.888  16.371  38.191  1.00  0.00           C  
+HETATM   10  O3' AMP C 401       0.216  15.455  37.346  1.00  0.00           O  
+HETATM   11  C2' AMP C 401       0.813  16.014  39.671  1.00  0.00           C  
+HETATM   12  O2' AMP C 401       0.496  14.677  40.057  1.00  0.00           O1-
+HETATM   13  C1' AMP C 401       2.074  16.628  40.262  1.00  0.00           C  
+HETATM   14  N9  AMP C 401       1.824  17.991  40.771  1.00  0.00           N  
+HETATM   15  C8  AMP C 401       2.312  19.105  40.191  1.00  0.00           C  
+HETATM   16  N7  AMP C 401       1.913  20.212  40.861  1.00  0.00           N  
+HETATM   17  C5  AMP C 401       1.154  19.808  41.889  1.00  0.00           C  
+HETATM   18  C6  AMP C 401       0.425  20.476  42.983  1.00  0.00           C  
+HETATM   19  N6  AMP C 401       0.453  21.823  43.077  1.00  0.00           N  
+HETATM   20  N1  AMP C 401      -0.253  19.709  43.863  1.00  0.00           N  
+HETATM   21  C2  AMP C 401      -0.275  18.367  43.761  1.00  0.00           C  
+HETATM   22  N3  AMP C 401       0.371  17.694  42.785  1.00  0.00           N  
+HETATM   23  C4  AMP C 401       1.093  18.343  41.836  1.00  0.00           C  
+CONECT    1    2    3    4    5
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1
+CONECT    5    1    6
+CONECT    6    5    7
+CONECT    7    6    8    9
+CONECT    8    7   13
+CONECT    9    7   10   11
+CONECT   10    9
+CONECT   11    9   12   13
+CONECT   12   11
+CONECT   13    8   11   14
+CONECT   14   13   15   23
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   16   18   23
+CONECT   17   23
+CONECT   18   17   19   20
+CONECT   18   20
+CONECT   19   18
+CONECT   20   18   21
+CONECT   20   18
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   14   17   22
+CONECT   23   17
+ENDMDL
+END   

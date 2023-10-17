@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2ZK1
+MODEL        1
+ATOM      1  N   CYS A 285      17.800  69.840  13.024  1.00 63.57           N1+
+ATOM      2  CA  CYS A 285      17.795  68.468  13.538  1.00 64.55           C  
+ATOM      3  C   CYS A 285      17.611  68.445  15.078  1.00 64.64           C  
+ATOM      4  O   CYS A 285      17.063  67.474  15.599  1.00 64.72           O  
+ATOM      5  CB  CYS A 285      19.121  67.828  13.053  1.00 66.41           C  
+ATOM      6  SG  CYS A 285      19.654  66.369  13.990  1.00 72.39           S  
+TER       7      CYS A 285
+HETATM    8  C1  PTG A   1      11.683  64.211   9.759  1.00 63.40           C  
+HETATM    9  C2  PTG A   1      13.054  64.550  10.358  1.00 62.47           C  
+HETATM   10  C3  PTG A   1      14.091  63.423  10.248  1.00 63.55           C  
+HETATM   11  C4  PTG A   1      15.548  63.896  10.087  1.00 65.32           C  
+HETATM   12  C5  PTG A   1      16.259  64.474  11.333  1.00 66.67           C  
+HETATM   13  C6  PTG A   1      17.711  64.777  10.982  1.00 68.95           C  
+HETATM   14  C7  PTG A   1      18.805  64.952  11.753  1.00 71.82           C  
+HETATM   15  C8  PTG A   1      19.000  64.917  13.203  1.00 74.88           C  
+HETATM   16  C10 PTG A   1      18.963  63.806  13.982  1.00 78.19           C  
+HETATM   17  C11 PTG A   1      18.674  62.435  13.541  1.00 79.81           C  
+HETATM   18  O12 PTG A   1      17.984  62.097  12.590  1.00 80.64           O  
+HETATM   19  C13 PTG A   1      19.300  61.520  14.482  1.00 80.63           C  
+HETATM   20  C14 PTG A   1      19.763  62.222  15.509  1.00 79.37           C  
+HETATM   21  C15 PTG A   1      19.489  63.696  15.417  1.00 78.75           C  
+HETATM   22  C16 PTG A   1      18.436  64.148  16.434  1.00 78.87           C  
+HETATM   23  C17 PTG A   1      18.622  63.595  17.839  1.00 78.44           C  
+HETATM   24  C18 PTG A   1      18.795  64.284  18.977  1.00 79.44           C  
+HETATM   25  C19 PTG A   1      18.861  65.791  19.144  1.00 80.17           C  
+HETATM   26  C20 PTG A   1      20.263  66.304  19.507  1.00 82.19           C  
+HETATM   27  C21 PTG A   1      20.834  65.713  20.807  1.00 82.51           C  
+HETATM   28  C22 PTG A   1      21.834  64.592  20.534  1.00 84.67           C  
+HETATM   29  O23 PTG A   1      21.381  63.431  20.459  1.00 84.25           O  
+HETATM   30  O24 PTG A   1      23.036  64.910  20.413  1.00 86.18           O1-
+CONECT    8    9
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15    6   14   16
+CONECT   15   16
+CONECT   16   15   17   21
+CONECT   16   15
+CONECT   17   16   18   19
+CONECT   17   18
+CONECT   18   17
+CONECT   18   17
+CONECT   19   17   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   16   20   22
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   27   29   30
+CONECT   28   29
+CONECT   29   28
+CONECT   29   28
+CONECT   30   28
+ENDMDL
+END   

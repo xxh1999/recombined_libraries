@@ -1,0 +1,98 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6di3_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C2  GJA A 701       0.898  18.426  42.868  1.00  0.00           C  
+HETATM    2  C3  GJA A 701      -0.005  18.721  43.911  1.00  0.00           C  
+HETATM    3  C9  GJA A 701       2.324  19.441  41.168  1.00  0.00           C  
+HETATM    4  C10 GJA A 701       1.929  18.781  39.984  1.00  0.00           C  
+HETATM    5  C11 GJA A 701       2.765  18.838  38.876  1.00  0.00           C  
+HETATM    6  C12 GJA A 701       3.963  19.563  38.898  1.00  0.00           C  
+HETATM    7  C13 GJA A 701       4.340  20.227  40.072  1.00  0.00           C  
+HETATM    8  C14 GJA A 701       3.529  20.173  41.194  1.00  0.00           C  
+HETATM    9  C15 GJA A 701      -0.251  20.119  44.310  1.00  0.00           C  
+HETATM   10  C19 GJA A 701       0.212  12.648  41.928  1.00  0.00           C  
+HETATM   11  C20 GJA A 701      -0.387  13.846  42.726  1.00  0.00           C  
+HETATM   12  C22 GJA A 701       1.486  13.221  41.245  1.00  0.00           C  
+HETATM   13  C30 GJA A 701       4.362  21.133  34.409  1.00  0.00           C  
+HETATM   14  C31 GJA A 701       3.359  22.078  34.675  1.00  0.00           C  
+HETATM   15  C32 GJA A 701       2.833  22.228  35.966  1.00  0.00           C  
+HETATM   16  C33 GJA A 701       3.331  21.426  36.982  1.00  0.00           C  
+HETATM   17  N1  GJA A 701       1.082  17.170  42.492  1.00  0.00           N  
+HETATM   18  C4  GJA A 701      -0.706  17.664  44.539  1.00  0.00           C  
+HETATM   19  C5  GJA A 701      -0.504  16.381  44.109  1.00  0.00           C  
+HETATM   20  C6  GJA A 701       0.399  16.167  43.042  1.00  0.00           C  
+HETATM   21  N7  GJA A 701       0.672  14.873  42.600  1.00  0.00           N  
+HETATM   22  O8  GJA A 701       1.575  19.459  42.319  1.00  0.00           O  
+HETATM   23  O16 GJA A 701      -0.768  20.332  45.362  1.00  0.00           O  
+HETATM   24  N17 GJA A 701       0.011  21.160  43.495  1.00  0.00           N  
+HETATM   25  C18 GJA A 701       1.243  14.737  41.238  1.00  0.00           C  
+HETATM   26  N21 GJA A 701      -0.690  12.166  40.879  1.00  0.00           N  
+HETATM   27  C23 GJA A 701      -1.444  11.047  41.054  1.00  0.00           C  
+HETATM   28  O24 GJA A 701      -1.388  10.428  42.115  1.00  0.00           O  
+HETATM   29  C25 GJA A 701      -2.321  10.560  39.964  1.00  0.00           C  
+HETATM   30  C26 GJA A 701      -3.611  10.881  39.921  1.00  0.00           C  
+HETATM   31  O27 GJA A 701       4.782  19.657  37.779  1.00  0.00           O  
+HETATM   32  C28 GJA A 701       4.338  20.468  36.746  1.00  0.00           C  
+HETATM   33  C29 GJA A 701       4.847  20.329  35.454  1.00  0.00           C  
+CONECT    1    2   17   22
+CONECT    1    2
+CONECT    2    1    9   18
+CONECT    2    1
+CONECT    3    4    8   22
+CONECT    3    8
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    5    7   31
+CONECT    6    7
+CONECT    7    6    8
+CONECT    7    6
+CONECT    8    3    7
+CONECT    8    3
+CONECT    9    2   23   24
+CONECT    9   23
+CONECT   10   11   12   26
+CONECT   11   10   21
+CONECT   12   10   25
+CONECT   13   14   33
+CONECT   13   33
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   32
+CONECT   16   32
+CONECT   17    1   20
+CONECT   17   20
+CONECT   18    2   19
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   17   19   21
+CONECT   20   17
+CONECT   21   11   20   25
+CONECT   22    1    3
+CONECT   23    9
+CONECT   23    9
+CONECT   24    9
+CONECT   25   12   21
+CONECT   26   10   27
+CONECT   27   26   28   29
+CONECT   27   28
+CONECT   28   27
+CONECT   28   27
+CONECT   29   27   30
+CONECT   29   30
+CONECT   30   29
+CONECT   30   29
+CONECT   31    6   32
+CONECT   32   16   31   33
+CONECT   32   16
+CONECT   33   13   32
+CONECT   33   13
+ENDMDL
+END   

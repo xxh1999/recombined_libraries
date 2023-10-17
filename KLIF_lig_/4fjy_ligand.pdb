@@ -1,0 +1,100 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4fjy_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C26 FJY A1204       1.271  22.114  40.548  1.00  0.00           C  
+HETATM    2  C27 FJY A1204       0.625  22.989  41.612  1.00  0.00           C  
+HETATM    3  O1  FJY A1204      -0.094  22.227  42.590  1.00  0.00           O  
+HETATM    4  C28 FJY A1204       0.819  21.455  43.321  1.00  0.00           C  
+HETATM    5  C29 FJY A1204       0.838  20.315  42.332  1.00  0.00           C  
+HETATM    6  N4  FJY A1204       1.472  20.748  41.061  1.00  0.00           N  
+HETATM    7  C22 FJY A1204       2.269  19.804  40.400  1.00  0.00           C  
+HETATM    8  C23 FJY A1204       2.334  18.572  41.028  1.00  0.00           C  
+HETATM    9  C19 FJY A1204       3.080  17.531  40.518  1.00  0.00           C  
+HETATM   10  C21 FJY A1204       2.976  20.016  39.209  1.00  0.00           C  
+HETATM   11  C20 FJY A1204       3.736  18.967  38.675  1.00  0.00           C  
+HETATM   12  C18 FJY A1204       3.784  17.725  39.331  1.00  0.00           C  
+HETATM   13  C17 FJY A1204       4.496  16.407  39.038  1.00  0.00           C  
+HETATM   14  C24 FJY A1204       4.284  15.997  37.584  1.00  0.00           C  
+HETATM   15  C25 FJY A1204       5.964  16.598  39.402  1.00  0.00           C  
+HETATM   16  C16 FJY A1204       3.834  15.406  39.977  1.00  0.00           C  
+HETATM   17  N2  FJY A1204       3.238  16.292  40.988  1.00  0.00           N  
+HETATM   18  C7  FJY A1204       2.877  15.943  42.237  1.00  0.00           C  
+HETATM   19  C8  FJY A1204       1.539  15.660  42.574  1.00  0.00           C  
+HETATM   20  C11 FJY A1204       0.451  15.721  41.489  1.00  0.00           C  
+HETATM   21  C1  FJY A1204       3.846  15.890  43.245  1.00  0.00           C  
+HETATM   22  C6  FJY A1204       5.185  16.168  42.967  1.00  0.00           C  
+HETATM   23  C5  FJY A1204       6.137  16.103  43.977  1.00  0.00           C  
+HETATM   24  C4  FJY A1204       5.763  15.759  45.265  1.00  0.00           C  
+HETATM   25  F1  FJY A1204       6.697  15.694  46.224  1.00  0.00           F  
+HETATM   26  C3  FJY A1204       4.434  15.476  45.556  1.00  0.00           C  
+HETATM   27  C2  FJY A1204       3.478  15.543  44.546  1.00  0.00           C  
+HETATM   28  N1  FJY A1204       2.200  15.271  44.835  1.00  0.00           N  
+HETATM   29  C9  FJY A1204       1.229  15.313  43.906  1.00  0.00           C  
+HETATM   30  C10 FJY A1204      -0.056  15.024  44.376  1.00  0.00           C  
+HETATM   31  C12 FJY A1204      -0.604  15.873  45.344  1.00  0.00           C  
+HETATM   32  C13 FJY A1204      -1.875  15.603  45.842  1.00  0.00           C  
+HETATM   33  C14 FJY A1204      -2.553  14.486  45.353  1.00  0.00           C  
+HETATM   34  N3  FJY A1204      -2.010  13.692  44.435  1.00  0.00           N  
+HETATM   35  C15 FJY A1204      -0.795  13.918  43.945  1.00  0.00           C  
+CONECT    1    2    6
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    1    5    7
+CONECT    7    6    8   10
+CONECT    7    8
+CONECT    8    7    9
+CONECT    8    7
+CONECT    9    8   12   17
+CONECT    9   12
+CONECT   10    7   11
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12    9   11   13
+CONECT   12    9
+CONECT   13   12   14   15   16
+CONECT   14   13
+CONECT   15   13
+CONECT   16   13   17
+CONECT   17    9   16   18
+CONECT   18   17   19   21
+CONECT   18   21
+CONECT   19   18   20   29
+CONECT   19   29
+CONECT   20   19
+CONECT   21   18   22   27
+CONECT   21   18
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   23   25   26
+CONECT   24   26
+CONECT   25   24
+CONECT   26   24   27
+CONECT   26   24
+CONECT   27   21   26   28
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   19   28   30
+CONECT   29   19
+CONECT   30   29   31   35
+CONECT   30   35
+CONECT   31   30   32
+CONECT   31   32
+CONECT   32   31   33
+CONECT   32   31
+CONECT   33   32   34
+CONECT   33   34
+CONECT   34   33   35
+CONECT   34   33
+CONECT   35   30   34
+CONECT   35   30
+ENDMDL
+END   

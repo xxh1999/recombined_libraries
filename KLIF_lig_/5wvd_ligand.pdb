@@ -1,0 +1,62 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5wvd_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  Q7U A 402       2.679  20.821  37.815  1.00  0.00           C  
+HETATM    2  C2  Q7U A 402       1.712  19.876  38.071  1.00  0.00           C  
+HETATM    3  C3  Q7U A 402       3.072  21.659  38.830  1.00  0.00           C  
+HETATM    4  C4  Q7U A 402       1.157  19.787  39.326  1.00  0.00           C  
+HETATM    5  C5  Q7U A 402       2.517  21.573  40.089  1.00  0.00           C  
+HETATM    6  C6  Q7U A 402       0.373  21.454  42.477  1.00  0.00           C  
+HETATM    7  C7  Q7U A 402       1.549  20.630  40.345  1.00  0.00           C  
+HETATM    8  C8  Q7U A 402       0.948  20.515  41.650  1.00  0.00           C  
+HETATM    9  C9  Q7U A 402       0.047  19.687  43.785  1.00  0.00           C  
+HETATM   10  C10 Q7U A 402      -0.351  17.588  45.172  1.00  0.00           C  
+HETATM   11  C11 Q7U A 402      -1.080  15.797  46.721  1.00  0.00           C  
+HETATM   12  C12 Q7U A 402      -0.241  17.925  47.641  1.00  0.00           C  
+HETATM   13  C13 Q7U A 402      -1.700  15.498  48.067  1.00  0.00           C  
+HETATM   14  C14 Q7U A 402      -0.871  17.540  48.962  1.00  0.00           C  
+HETATM   15  C15 Q7U A 402      -1.010  17.296  46.499  1.00  0.00           C  
+HETATM   16  C16 Q7U A 402      -1.563  15.813  50.370  1.00  0.00           C  
+HETATM   17  N17 Q7U A 402      -0.127  20.991  43.671  1.00  0.00           N  
+HETATM   18  N18 Q7U A 402      -0.882  16.087  49.119  1.00  0.00           N1+
+HETATM   19  N19 Q7U A 402      -0.368  18.958  44.904  1.00  0.00           N  
+HETATM   20  O20 Q7U A 402       0.092  16.653  44.512  1.00  0.00           O  
+HETATM   21  S21 Q7U A 402       0.842  18.988  42.423  1.00  0.00           S  
+CONECT    1    2    3
+CONECT    1    2
+CONECT    2    1    4
+CONECT    2    1
+CONECT    3    1    5
+CONECT    3    5
+CONECT    4    2    7
+CONECT    4    7
+CONECT    5    3    7
+CONECT    5    3
+CONECT    6    8   17
+CONECT    6    8
+CONECT    7    4    5    8
+CONECT    7    4
+CONECT    8    6    7   21
+CONECT    8    6
+CONECT    9   17   19   21
+CONECT    9   17
+CONECT   10   15   19   20
+CONECT   10   20
+CONECT   11   13   15
+CONECT   12   14   15
+CONECT   13   11   18
+CONECT   14   12   18
+CONECT   15   10   11   12
+CONECT   16   18
+CONECT   17    6    9
+CONECT   17    9
+CONECT   18   13   14   16
+CONECT   19    9   10
+CONECT   20   10
+CONECT   20   10
+CONECT   21    8    9
+ENDMDL
+END   

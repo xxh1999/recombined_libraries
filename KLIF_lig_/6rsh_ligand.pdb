@@ -1,0 +1,105 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6rsh_ligand
+MODEL        1
+HETATM    1  N1  KHE B1201      -1.300  17.774  37.746  1.00  0.00           N  
+HETATM    2  N3  KHE B1201       0.358  21.231  42.240  1.00  0.00           N  
+HETATM    3  C4  KHE B1201       0.691  18.461  41.055  1.00  0.00           C  
+HETATM    4  C5  KHE B1201       0.130  18.806  42.260  1.00  0.00           C  
+HETATM    5  C6  KHE B1201      -0.002  20.130  42.905  1.00  0.00           C  
+HETATM    6  C7  KHE B1201      -0.243  17.569  42.869  1.00  0.00           C  
+HETATM    7  C8  KHE B1201      -0.969  16.257  44.809  1.00  0.00           C  
+HETATM    8  C10 KHE B1201      -2.350  15.216  46.682  1.00  0.00           C  
+HETATM    9  C13 KHE B1201       2.665  16.008  37.899  1.00  0.00           C  
+HETATM   10  C15 KHE B1201       5.134  14.468  36.842  1.00  0.00           C  
+HETATM   11  C17 KHE B1201       6.296  15.374  34.949  1.00  0.00           C  
+HETATM   12  C20 KHE B1201       8.969  15.587  33.716  1.00  0.00           C  
+HETATM   13  C21 KHE B1201      10.108  16.086  33.106  1.00  0.00           C  
+HETATM   14  C22 KHE B1201      10.962  16.899  33.810  1.00  0.00           C  
+HETATM   15  C24 KHE B1201       9.565  16.687  35.750  1.00  0.00           C  
+HETATM   16  C26 KHE B1201       6.314  14.516  37.567  1.00  0.00           C  
+HETATM   17  C1  KHE B1201      -0.791  16.908  38.273  1.00  0.00           C  
+HETATM   18  O1  KHE B1201      -0.362  20.199  44.073  1.00  0.00           O  
+HETATM   19  C11 KHE B1201      -1.003  15.496  47.248  1.00  0.00           C  
+HETATM   20  C12 KHE B1201       2.069  16.943  38.924  1.00  0.00           C  
+HETATM   21  C14 KHE B1201       3.863  13.969  37.493  1.00  0.00           C  
+HETATM   22  C16 KHE B1201       5.134  14.896  35.527  1.00  0.00           C  
+HETATM   23  C18 KHE B1201       7.497  15.390  35.653  1.00  0.00           C  
+HETATM   24  C19 KHE B1201       8.678  15.878  35.047  1.00  0.00           C  
+HETATM   25  O2  KHE B1201      -0.559  15.199  44.365  1.00  0.00           O  
+HETATM   26  C2  KHE B1201      -0.172  15.806  38.996  1.00  0.00           C  
+HETATM   27  N2  KHE B1201       0.575  17.119  40.932  1.00  0.00           N  
+HETATM   28  C23 KHE B1201      10.696  17.197  35.127  1.00  0.00           C  
+HETATM   29  C25 KHE B1201       7.482  14.975  36.981  1.00  0.00           C  
+HETATM   30  C3  KHE B1201       1.042  16.238  39.832  1.00  0.00           C  
+HETATM   31  N4  KHE B1201      -0.913  17.408  44.081  1.00  0.00           N  
+HETATM   32  N5  KHE B1201       0.005  16.585  42.047  1.00  0.00           N  
+HETATM   33  N6  KHE B1201       3.338  14.861  38.516  1.00  0.00           N1+
+HETATM   34  C9  KHE B1201      -1.542  16.393  46.158  1.00  0.00           C  
+HETATM   35  C27 KHE B1201       2.389  14.125  39.352  1.00  0.00           C  
+HETATM   36  C28 KHE B1201       1.777  14.995  40.404  1.00  0.00           C  
+HETATM   37  F1  KHE B1201       2.794  15.400  41.293  1.00  0.00           F  
+CONECT    1   17
+CONECT    1   17
+CONECT    1   17
+CONECT    2    5
+CONECT    3    4   27
+CONECT    3    4
+CONECT    4    3    5    6
+CONECT    4    3
+CONECT    5    2    4   18
+CONECT    5   18
+CONECT    6    4   31   32
+CONECT    6   32
+CONECT    7   25   31   34
+CONECT    7   25
+CONECT    8   19   34
+CONECT    9   20   33
+CONECT   10   16   21   22
+CONECT   10   22
+CONECT   11   22   23
+CONECT   11   23
+CONECT   12   13   24
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   28
+CONECT   14   28
+CONECT   15   24   28
+CONECT   15   24
+CONECT   16   10   29
+CONECT   16   29
+CONECT   17    1   26
+CONECT   17    1
+CONECT   17    1
+CONECT   18    5
+CONECT   18    5
+CONECT   19    8   34
+CONECT   20    9   30
+CONECT   21   10   33
+CONECT   22   10   11
+CONECT   22   10
+CONECT   23   11   24   29
+CONECT   23   11
+CONECT   24   12   15   23
+CONECT   24   15
+CONECT   25    7
+CONECT   25    7
+CONECT   26   17   30
+CONECT   27    3   30   32
+CONECT   28   14   15
+CONECT   28   14
+CONECT   29   16   23
+CONECT   29   16
+CONECT   30   20   26   27   36
+CONECT   31    6    7
+CONECT   32    6   27
+CONECT   32    6
+CONECT   33    9   21   35
+CONECT   34    7    8   19
+CONECT   35   33   36
+CONECT   36   30   35   37
+CONECT   37   36
+ENDMDL
+END   

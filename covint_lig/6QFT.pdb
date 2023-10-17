@@ -1,0 +1,66 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6QFT
+MODEL        1
+ATOM      1  N   CYS A 218     -19.111  12.490  -4.652  1.00 48.03           N1+
+ATOM      2  CA  CYS A 218     -18.586  12.879  -5.960  1.00 46.44           C  
+ATOM      3  C   CYS A 218     -17.361  13.807  -5.875  1.00 52.99           C  
+ATOM      4  O   CYS A 218     -17.115  14.450  -4.853  1.00 54.34           O  
+ATOM      5  CB  CYS A 218     -19.721  13.553  -6.759  1.00 47.20           C  
+ATOM      6  SG  CYS A 218     -20.452  14.942  -5.835  1.00 56.58           S  
+TER       7      CYS A 218
+HETATM    8  C12 J0B A 501     -22.149  14.995  -6.480  1.00 65.31           C  
+HETATM    9  C1  J0B A 501     -24.656   8.265  -4.815  1.00 81.60           C  
+HETATM   10  C5  J0B A 501     -25.548  10.559  -5.551  1.00 85.84           C  
+HETATM   11  N4  J0B A 501     -24.071   4.633  -5.230  1.00 62.03           N  
+HETATM   12  C3  J0B A 501     -24.123   5.929  -4.732  1.00 66.57           C  
+HETATM   13  C10 J0B A 501     -24.456  13.862  -6.190  1.00 83.09           C  
+HETATM   14  N2  J0B A 501     -25.277   9.133  -5.710  1.00 83.85           N  
+HETATM   15  C6  J0B A 501     -27.069  10.812  -5.478  1.00 85.13           C  
+HETATM   16  C11 J0B A 501     -22.929  13.681  -6.233  1.00 71.04           C  
+HETATM   17  N   J0B A 501     -23.587   6.169  -3.516  1.00 64.31           N  
+HETATM   18  C   J0B A 501     -23.617   7.416  -3.032  1.00 65.91           C  
+HETATM   19  O   J0B A 501     -24.907  14.965  -5.877  1.00 83.21           O  
+HETATM   20  C2  J0B A 501     -24.705   6.998  -5.448  1.00 77.71           C  
+HETATM   21  C4  J0B A 501     -25.377   7.241  -6.679  1.00 89.85           C  
+HETATM   22  C7  J0B A 501     -27.407  12.304  -5.449  1.00 91.86           C  
+HETATM   23  C8  J0B A 501     -26.723  13.010  -6.623  1.00 93.86           C  
+HETATM   24  C9  J0B A 501     -24.884  11.412  -6.663  1.00 88.48           C  
+HETATM   25  I   J0B A 501     -25.856   5.777  -8.087  1.00133.54           I  
+HETATM   26  N1  J0B A 501     -24.116   8.525  -3.589  1.00 71.61           N  
+HETATM   27  N3  J0B A 501     -25.703   8.499  -6.842  1.00104.88           N  
+HETATM   28  N5  J0B A 501     -25.271  12.826  -6.508  1.00 95.97           N  
+CONECT    8    6   16
+CONECT    9   14   20   26
+CONECT    9   20
+CONECT   10   14   15   24
+CONECT   11   12
+CONECT   12   11   17   20
+CONECT   12   17
+CONECT   13   16   19   28
+CONECT   13   19
+CONECT   14    9   10   27
+CONECT   15   10   22
+CONECT   16    8   13
+CONECT   17   12   18
+CONECT   17   12
+CONECT   18   17   26
+CONECT   18   26
+CONECT   19   13
+CONECT   19   13
+CONECT   20    9   12   21
+CONECT   20    9
+CONECT   21   20   25   27
+CONECT   21   27
+CONECT   22   15   23
+CONECT   23   22   28
+CONECT   24   10   28
+CONECT   25   21
+CONECT   26    9   18
+CONECT   26   18
+CONECT   27   14   21
+CONECT   27   21
+CONECT   28   13   23   24
+ENDMDL
+END   

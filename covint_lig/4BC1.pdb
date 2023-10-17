@@ -1,0 +1,66 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4BC1
+MODEL        1
+ATOM      1  N   SER A 203       4.223 -26.581  86.277  1.00 24.23           N1+
+ATOM      2  CA  SER A 203       5.435 -25.756  86.166  1.00 17.64           C  
+ATOM      3  C   SER A 203       6.286 -26.321  85.011  1.00 17.64           C  
+ATOM      4  O   SER A 203       5.763 -26.462  83.905  1.00 12.57           O  
+ATOM      5  CB  SER A 203       6.102 -25.599  87.562  1.00 34.33           C  
+ATOM      6  OG  SER A 203       6.927 -24.461  87.735  1.00 38.46           O  
+TER       7      SER A 203
+HETATM    8  P   TQV A 600       8.454 -24.671  88.233  1.00 52.67           P  
+HETATM    9  C1  TQV A 600       7.810 -24.828  90.909  1.00 52.98           C  
+HETATM   10  C2  TQV A 600       7.912 -23.470  91.298  1.00 55.83           C  
+HETATM   11  O1P TQV A 600       8.997 -23.172  88.534  1.00 51.61           O  
+HETATM   12  C3  TQV A 600       7.454 -23.036  92.556  1.00 57.38           C  
+HETATM   13  O2P TQV A 600       8.296 -25.333  89.720  1.00 59.85           O  
+HETATM   14  C4  TQV A 600       6.869 -23.948  93.445  1.00 53.09           C  
+HETATM   15  C5  TQV A 600       6.751 -25.295  93.066  1.00 45.41           C  
+HETATM   16  C6  TQV A 600       7.232 -25.741  91.819  1.00 44.53           C  
+HETATM   17  C7  TQV A 600       7.133 -27.213  91.476  1.00 38.13           C  
+HETATM   18  C8  TQV A 600      10.311 -22.980  89.038  0.50 45.59           C  
+HETATM   19  C9  TQV A 600      11.283 -22.457  87.999  0.50 37.33           C  
+HETATM   20  O3P TQV A 600       9.244 -25.469  87.263  1.00 53.96           O  
+HETATM   21  C10 TQV A 600      10.999 -22.617  86.626  0.50 27.71           C  
+HETATM   22  C11 TQV A 600      11.932 -22.210  85.659  0.50 32.38           C  
+HETATM   23  C12 TQV A 600      13.146 -21.633  86.061  0.50 35.25           C  
+HETATM   24  C13 TQV A 600      13.419 -21.420  87.424  0.50 36.90           C  
+HETATM   25  C14 TQV A 600      12.484 -21.823  88.398  0.50 40.32           C  
+HETATM   26  O15 TQV A 600      12.751 -21.600  89.720  0.50 41.71           O  
+CONECT    8    6   11   13   20
+CONECT    8   20
+CONECT    9   10   13   16
+CONECT    9   10
+CONECT   10    9   12
+CONECT   10    9
+CONECT   11    8   18
+CONECT   12   10   14
+CONECT   12   14
+CONECT   13    8    9
+CONECT   14   12   15
+CONECT   14   12
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16    9   15   17
+CONECT   16   15
+CONECT   17   16
+CONECT   18   11   19
+CONECT   19   18   21   25
+CONECT   19   21
+CONECT   20    8
+CONECT   20    8
+CONECT   21   19   22
+CONECT   21   19
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   23   25
+CONECT   24   25
+CONECT   25   19   24   26
+CONECT   25   24
+CONECT   26   25
+ENDMDL
+END   

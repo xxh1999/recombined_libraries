@@ -1,0 +1,18 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2AWZ
+MODEL        1
+ATOM      1  N   ALA A  25      -6.351   9.750  83.274  1.00 23.59           N1+
+ATOM      2  N   CYS A  25      78.776 -11.411 135.578  1.00 16.39           N1+
+ATOM      3  CA  ALA A  25      -5.594   8.734  82.539  1.00 22.17           C  
+ATOM      4  CA  CYS A  25      79.182 -10.175 136.263  1.00 14.39           C  
+ATOM      5  C   ALA A  25      -4.672   9.282  81.436  1.00 21.03           C  
+ATOM      6  C   CYS A  25      78.866 -10.146 137.770  1.00 15.52           C  
+ATOM      7  O   ALA A  25      -3.626   8.685  81.175  1.00 20.81           O  
+ATOM      8  O   CYS A  25      79.649  -9.616 138.555  1.00 14.31           O  
+ATOM      9  CB  ALA A  25      -6.587   7.730  81.935  1.00 21.47           C  
+ATOM     10  CB  CYS A  25      78.605  -8.941 135.535  1.00 16.12           C  
+ATOM     11  SG  CYS A  25      76.781  -8.866 135.637  1.00 10.58           S  
+ENDMDL
+END   

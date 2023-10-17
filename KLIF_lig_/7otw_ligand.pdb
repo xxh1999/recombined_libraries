@@ -1,0 +1,79 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7otw_ligand
+MODEL        1
+HETATM    1  C1  MBW A6101      -1.035  16.373  44.621  1.00  0.00           C  
+HETATM    2  C2  MBW A6101       0.649  15.793  42.821  1.00  0.00           C  
+HETATM    3  C3  MBW A6101       2.116  16.158  42.606  1.00  0.00           C  
+HETATM    4  N6  MBW A6101       3.109  20.403  37.400  1.00  0.00           N  
+HETATM    5  C7  MBW A6101       0.103  18.131  43.761  1.00  0.00           C  
+HETATM    6  C8  MBW A6101       0.865  20.236  43.338  1.00  0.00           C  
+HETATM    7  C9  MBW A6101       2.057  20.913  41.294  1.00  0.00           C  
+HETATM    8  C10 MBW A6101       2.719  19.819  40.847  1.00  0.00           C  
+HETATM    9  C11 MBW A6101       3.693  19.195  37.636  1.00  0.00           C  
+HETATM   10  C12 MBW A6101       2.688  20.735  38.622  1.00  0.00           C  
+HETATM   11  C13 MBW A6101       1.992  21.889  39.081  1.00  0.00           C  
+HETATM   12  C14 MBW A6101       1.665  22.010  40.387  1.00  0.00           C  
+HETATM   13  C15 MBW A6101       0.932  23.207  40.913  1.00  0.00           C  
+HETATM   14  C16 MBW A6101      -0.743  20.003  44.926  1.00  0.00           C  
+HETATM   15  O   MBW A6101      -1.433  15.241  44.834  1.00  0.00           O  
+HETATM   16  N1  MBW A6101      -0.069  16.755  43.706  1.00  0.00           N  
+HETATM   17  C6  MBW A6101      -0.072  15.552  41.494  1.00  0.00           C  
+HETATM   18  C5  MBW A6101       0.611  16.359  40.411  1.00  0.00           C  
+HETATM   19  O1  MBW A6101       1.949  15.903  40.171  1.00  0.00           O  
+HETATM   20  C4  MBW A6101       2.569  15.396  41.376  1.00  0.00           C  
+HETATM   21  C17 MBW A6101      -0.777  18.626  44.731  1.00  0.00           C  
+HETATM   22  N   MBW A6101      -1.464  17.526  45.245  1.00  0.00           N  
+HETATM   23  C   MBW A6101      -2.487  17.561  46.285  1.00  0.00           C  
+HETATM   24  N7  MBW A6101       0.067  20.822  44.244  1.00  0.00           N  
+HETATM   25  N2  MBW A6101       0.925  18.921  43.061  1.00  0.00           N  
+HETATM   26  N3  MBW A6101       1.718  21.053  42.613  1.00  0.00           N  
+HETATM   27  N4  MBW A6101       3.015  19.762  39.529  1.00  0.00           N  
+HETATM   28  N5  MBW A6101       3.679  18.748  38.870  1.00  0.00           N  
+CONECT    1   15   16   22
+CONECT    1   15
+CONECT    2    3   16   17
+CONECT    3    2   20
+CONECT    4    9   10
+CONECT    4   10
+CONECT    5   16   21   25
+CONECT    5   21
+CONECT    6   24   25   26
+CONECT    6   25
+CONECT    7    8   12   26
+CONECT    7    8
+CONECT    8    7   27
+CONECT    8    7
+CONECT    9    4   28
+CONECT    9   28
+CONECT   10    4   11   27
+CONECT   10    4
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12    7   11   13
+CONECT   12   11
+CONECT   13   12
+CONECT   14   21   24
+CONECT   14   24
+CONECT   15    1
+CONECT   15    1
+CONECT   16    1    2    5
+CONECT   17    2   18
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20    3   19
+CONECT   21    5   14   22
+CONECT   21    5
+CONECT   22    1   21   23
+CONECT   23   22
+CONECT   24    6   14
+CONECT   24   14
+CONECT   25    5    6
+CONECT   25    6
+CONECT   26    6    7
+CONECT   27    8   10   28
+CONECT   28    9   27
+CONECT   28    9
+ENDMDL
+END   

@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6qu2_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N1  JHW A 506      -0.555  17.952  44.172  1.00  0.00           N  
+HETATM    2  C2  JHW A 506       0.095  20.050  42.539  1.00  0.00           C  
+HETATM    3  N3  JHW A 506       1.937  19.354  38.833  1.00  0.00           N  
+HETATM    4  C4  JHW A 506      -1.158  16.806  44.901  1.00  0.00           C  
+HETATM    5  C5  JHW A 506      -0.587  16.413  46.221  1.00  0.00           C  
+HETATM    6  C6  JHW A 506      -1.942  17.044  46.148  1.00  0.00           C  
+HETATM    7  O   JHW A 506       0.491  16.493  42.814  1.00  0.00           O  
+HETATM    8  C   JHW A 506       0.140  17.637  43.014  1.00  0.00           C  
+HETATM    9  C3  JHW A 506      -0.804  19.262  44.498  1.00  0.00           C  
+HETATM   10  N   JHW A 506      -0.541  20.288  43.765  1.00  0.00           N  
+HETATM   11  C7  JHW A 506       0.349  21.146  41.707  1.00  0.00           C  
+HETATM   12  C8  JHW A 506       0.968  20.979  40.476  1.00  0.00           C  
+HETATM   13  C9  JHW A 506       1.332  19.701  40.050  1.00  0.00           C  
+HETATM   14  C11 JHW A 506       2.138  18.067  38.766  1.00  0.00           C  
+HETATM   15  S   JHW A 506       1.612  17.149  40.156  1.00  0.00           S  
+HETATM   16  C10 JHW A 506       1.086  18.606  40.878  1.00  0.00           C  
+HETATM   17  C1  JHW A 506       0.468  18.756  42.124  1.00  0.00           C  
+HETATM   18  C12 JHW A 506       2.779  17.386  37.632  1.00  0.00           C  
+HETATM   19  C16 JHW A 506       2.613  16.027  37.411  1.00  0.00           C  
+HETATM   20  C15 JHW A 506       3.253  15.418  36.353  1.00  0.00           C  
+HETATM   21  C14 JHW A 506       4.047  16.198  35.532  1.00  0.00           C  
+HETATM   22  N2  JHW A 506       4.226  17.515  35.714  1.00  0.00           N  
+HETATM   23  C13 JHW A 506       3.599  18.083  36.755  1.00  0.00           C  
+CONECT    1    4    8    9
+CONECT    2   10   11   17
+CONECT    2   17
+CONECT    3   13   14
+CONECT    3   14
+CONECT    4    1    5    6
+CONECT    5    4    6
+CONECT    6    4    5
+CONECT    7    8
+CONECT    7    8
+CONECT    8    1    7   17
+CONECT    8    7
+CONECT    9    1   10
+CONECT    9   10
+CONECT   10    2    9
+CONECT   10    9
+CONECT   11    2   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13    3   12   16
+CONECT   13   16
+CONECT   14    3   15   18
+CONECT   14    3
+CONECT   15   14   16
+CONECT   16   13   15   17
+CONECT   16   13
+CONECT   17    2    8   16
+CONECT   17    2
+CONECT   18   14   19   23
+CONECT   18   23
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   18   22
+CONECT   23   18
+ENDMDL
+END   

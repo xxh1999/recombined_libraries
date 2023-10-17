@@ -1,0 +1,96 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6j5l_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CAA B9C A 801       0.210  14.060  46.926  1.00  0.00           C  
+HETATM    2  CAB B9C A 801      -0.420  12.751  46.623  1.00  0.00           C  
+HETATM    3  NAC B9C A 801      -1.317  12.444  47.760  1.00  0.00           N1+
+HETATM    4  CAD B9C A 801      -2.085  13.624  48.185  1.00  0.00           C  
+HETATM    5  CAE B9C A 801      -2.165  14.643  47.074  1.00  0.00           C  
+HETATM    6  NAF B9C A 801      -0.810  15.081  46.702  1.00  0.00           N  
+HETATM    7  CAI B9C A 801      -0.548  16.247  46.068  1.00  0.00           C  
+HETATM    8  CAH B9C A 801      -1.047  17.453  46.545  1.00  0.00           C  
+HETATM    9  CAG B9C A 801      -0.787  18.629  45.856  1.00  0.00           C  
+HETATM   10  NAJ B9C A 801       0.188  16.231  44.942  1.00  0.00           N  
+HETATM   11  CAK B9C A 801       0.469  17.408  44.253  1.00  0.00           C  
+HETATM   12  CAV B9C A 801       0.003  18.625  44.705  1.00  0.00           C  
+HETATM   13  CAZ B9C A 801       0.236  19.787  44.045  1.00  0.00           C  
+HETATM   14  CBE B9C A 801       0.875  20.018  42.882  1.00  0.00           C  
+HETATM   15  CBD B9C A 801       1.539  19.230  42.022  1.00  0.00           C  
+HETATM   16  NBA B9C A 801      -0.239  20.930  44.509  1.00  0.00           N  
+HETATM   17  NBB B9C A 801       0.122  21.895  43.673  1.00  0.00           N  
+HETATM   18  CBF B9C A 801       0.802  21.343  42.669  1.00  0.00           C  
+HETATM   19  CBG B9C A 801       1.344  21.916  41.582  1.00  0.00           C  
+HETATM   20  CBH B9C A 801       2.039  21.138  40.669  1.00  0.00           C  
+HETATM   21  CBC B9C A 801       2.142  19.767  40.873  1.00  0.00           C  
+HETATM   22  NAY B9C A 801       2.803  19.029  39.970  1.00  0.00           N  
+HETATM   23  CAX B9C A 801       3.013  17.572  40.057  1.00  0.00           C  
+HETATM   24  CAW B9C A 801       1.779  16.941  39.698  1.00  0.00           C  
+HETATM   25  CAU B9C A 801       0.968  17.524  38.749  1.00  0.00           C  
+HETATM   26  CAT B9C A 801      -0.253  16.951  38.355  1.00  0.00           C  
+HETATM   27  CAS B9C A 801      -0.693  15.769  38.936  1.00  0.00           C  
+HETATM   28  CAR B9C A 801       0.118  15.171  39.886  1.00  0.00           C  
+HETATM   29  CAQ B9C A 801       1.326  15.743  40.277  1.00  0.00           C  
+HETATM   30  NAP B9C A 801       2.083  15.183  41.244  1.00  0.00           N  
+HETATM   31  SAO B9C A 801       3.182  14.034  40.858  1.00  0.00           S2+
+HETATM   32  OAL B9C A 801       3.957  14.541  39.638  1.00  0.00           O1-
+HETATM   33  OAM B9C A 801       4.064  13.811  42.070  1.00  0.00           O1-
+HETATM   34  CAN B9C A 801       2.385  12.574  40.184  1.00  0.00           C  
+CONECT    1    2    6
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    1    5    7
+CONECT    7    6    8   10
+CONECT    7    8
+CONECT    8    7    9
+CONECT    8    7
+CONECT    9    8   12
+CONECT    9   12
+CONECT   10    7   11
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12    9   11   13
+CONECT   12    9
+CONECT   13   12   14   16
+CONECT   13   16
+CONECT   14   13   15   18
+CONECT   14   18
+CONECT   15   14   21
+CONECT   15   21
+CONECT   16   13   17
+CONECT   16   13
+CONECT   17   16   18
+CONECT   18   14   17   19
+CONECT   18   14
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   15   20   22
+CONECT   21   15
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   23   25   29
+CONECT   24   29
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   24   28   30
+CONECT   29   24
+CONECT   30   29   31
+CONECT   31   30   32   33   34
+CONECT   32   31
+CONECT   33   31
+CONECT   34   31
+ENDMDL
+END   

@@ -1,0 +1,86 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6fvg_ligand1
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  O3  E8K A 401      18.129  15.328  38.870  1.00  0.00           O1-
+HETATM    2  S   E8K A 401      18.214  14.011  39.424  1.00  0.00           S2+
+HETATM    3  O2  E8K A 401      19.073  13.046  38.809  1.00  0.00           O1-
+HETATM    4  C7  E8K A 401      16.590  13.332  39.475  1.00  0.00           C  
+HETATM    5  C12 E8K A 401      16.412  12.024  39.903  1.00  0.00           C  
+HETATM    6  C11 E8K A 401      15.134  11.486  39.914  1.00  0.00           C  
+HETATM    7  C10 E8K A 401      14.050  12.245  39.510  1.00  0.00           C  
+HETATM    8  C9  E8K A 401      14.239  13.551  39.092  1.00  0.00           C  
+HETATM    9  C8  E8K A 401      15.509  14.104  39.072  1.00  0.00           C  
+HETATM   10  N1  E8K A 401      18.718  14.175  40.949  1.00  0.00           N  
+HETATM   11  C6  E8K A 401      18.098  15.151  41.856  1.00  0.00           C  
+HETATM   12  C5  E8K A 401      18.074  14.594  43.264  1.00  0.00           C  
+HETATM   13  N   E8K A 401      17.823  15.611  44.294  1.00  0.00           N1+
+HETATM   14  C4  E8K A 401      18.983  15.713  45.204  1.00  0.00           C  
+HETATM   15  C3  E8K A 401      18.756  16.758  46.297  1.00  0.00           C  
+HETATM   16  C13 E8K A 401      16.596  15.288  45.052  1.00  0.00           C  
+HETATM   17  C14 E8K A 401      16.322  16.309  46.160  1.00  0.00           C  
+HETATM   18  C2  E8K A 401      17.512  16.420  47.105  1.00  0.00           C  
+HETATM   19  C1  E8K A 401      17.283  17.342  48.283  1.00  0.00           C  
+HETATM   20  O1  E8K A 401      16.990  18.686  47.833  1.00  0.00           O  
+HETATM   21  C   E8K A 401      16.511  19.531  48.755  1.00  0.00           C  
+HETATM   22  O   E8K A 401      16.422  19.247  49.927  1.00  0.00           O  
+HETATM   23  C15 E8K A 401      16.082  20.828  48.175  1.00  0.00           C  
+HETATM   24  C22 E8K A 401      15.663  21.131  46.819  1.00  0.00           C  
+HETATM   25  C17 E8K A 401      15.316  22.499  46.800  1.00  0.00           C  
+HETATM   26  N2  E8K A 401      15.515  23.002  48.066  1.00  0.00           N  
+HETATM   27  C16 E8K A 401      15.970  22.003  48.882  1.00  0.00           C  
+HETATM   28  C21 E8K A 401      15.554  20.401  45.634  1.00  0.00           C  
+HETATM   29  C20 E8K A 401      15.124  21.027  44.470  1.00  0.00           C  
+HETATM   30  C19 E8K A 401      14.787  22.379  44.473  1.00  0.00           C  
+HETATM   31  C18 E8K A 401      14.874  23.128  45.638  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3    4   10
+CONECT    3    2
+CONECT    4    2    5    9
+CONECT    4    9
+CONECT    5    4    6
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    6    8
+CONECT    7    8
+CONECT    8    7    9
+CONECT    8    7
+CONECT    9    4    8
+CONECT    9    4
+CONECT   10    2   11
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12   14   16
+CONECT   14   13   15
+CONECT   15   14   18
+CONECT   16   13   17
+CONECT   17   16   18
+CONECT   18   15   17   19
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   20   22   23
+CONECT   21   22
+CONECT   22   21
+CONECT   22   21
+CONECT   23   21   24   27
+CONECT   23   27
+CONECT   24   23   25   28
+CONECT   24   28
+CONECT   25   24   26   31
+CONECT   25   31
+CONECT   26   25   27
+CONECT   27   23   26
+CONECT   27   23
+CONECT   28   24   29
+CONECT   28   24
+CONECT   29   28   30
+CONECT   29   30
+CONECT   30   29   31
+CONECT   30   29
+CONECT   31   25   30
+CONECT   31   25
+ENDMDL
+END   

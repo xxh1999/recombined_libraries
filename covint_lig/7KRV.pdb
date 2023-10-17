@@ -1,0 +1,22 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7KRV
+MODEL        1
+ATOM      1  N   CYS B 167      32.838  55.889 171.402  1.00 49.81           N1+
+ATOM      2  CA  CYS B 167      34.001  55.958 170.533  1.00 51.90           C  
+ATOM      3  C   CYS B 167      34.725  54.619 170.518  1.00 34.85           C  
+ATOM      4  O   CYS B 167      34.800  53.937 171.538  1.00 39.05           O  
+ATOM      5  CB  CYS B 167      34.947  57.072 171.015  1.00 60.21           C  
+ATOM      6  SG  CYS B 167      35.989  57.756 169.750  1.00 69.71           S  
+TER       7      CYS B 167
+HETATM    8  C1  6LN B 608      33.409  59.871 166.681  1.00131.09           C  
+HETATM    9  S1  6LN B 608      34.803  59.338 165.646  1.00148.47           S  
+HETATM   10  C2  6LN B 608      33.511  59.238 168.078  1.00104.97           C  
+HETATM   11  S2  6LN B 608      35.158  59.371 168.875  1.00 89.77           S  
+CONECT    8    9   10
+CONECT    9    8
+CONECT   10    8   11
+CONECT   11    6   10
+ENDMDL
+END   

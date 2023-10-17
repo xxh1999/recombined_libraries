@@ -1,0 +1,39 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1G65
+MODEL        1
+ATOM      1  N   THR 3   4      10.878-138.115  17.297  1.00 32.38           N1+
+ATOM      2  CA  THR 3   4      11.805-137.900  16.250  1.00 26.88           C  
+ATOM      3  C   THR 3   4      11.163-138.062  14.912  1.00 32.97           C  
+ATOM      4  O   THR 3   4       9.962-138.355  14.897  1.00 33.05           O  
+ATOM      5  CB  THR 3   4      13.020-138.795  16.537  1.00 29.70           C  
+ATOM      6  OG1 THR 3   4      14.086-138.552  15.658  1.00 45.68           O  
+ATOM      7  CG2 THR 3   4      12.572-140.274  16.463  1.00 30.92           C  
+TER       8      THR 3   4
+HETATM    9  N5  04D 3   5      11.872-137.867  13.797  1.00 41.60           N  
+HETATM   10  O6  04D 3   5      10.896-139.797  11.605  1.00 32.93           O  
+HETATM   11  O7  04D 3   5      15.831-139.421  11.149  1.00  9.21           O  
+HETATM   12  C20 04D 3   5      11.173-137.677  12.544  1.00 31.75           C  
+HETATM   13  C21 04D 3   5      11.651-138.567  11.283  1.00 41.91           C  
+HETATM   14  C23 04D 3   5       9.828-135.329  12.491  1.00 40.25           C  
+HETATM   15  C24 04D 3   5       8.901-135.751  13.669  1.00 29.31           C  
+HETATM   16  C25 04D 3   5      10.139-133.859  12.712  1.00 24.93           C  
+HETATM   17  C26 04D 3   5      11.199-136.120  12.319  1.00 36.44           C  
+HETATM   18  C27 04D 3   5      14.629-138.536  11.260  1.00 36.03           C  
+HETATM   19  C28 04D 3   5      13.342-140.571  12.233  1.00 39.47           C  
+HETATM   20  C29 04D 3   5      13.174-139.341  11.202  1.00 37.11           C  
+CONECT    9    3   12
+CONECT   10   13
+CONECT   11   18
+CONECT   12    9   13   17
+CONECT   13   10   12   20
+CONECT   14   15   16   17
+CONECT   15   14
+CONECT   16   14
+CONECT   17   12   14
+CONECT   18   11   20
+CONECT   19   20
+CONECT   20   13   18   19
+ENDMDL
+END   

@@ -1,0 +1,28 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4MBH
+MODEL        1
+ATOM      1  N   SER A  70       8.417  32.727   8.607  1.00  7.98           N1+
+ATOM      2  CA  SER A  70       7.956  31.621   7.773  1.00  8.20           C  
+ATOM      3  C   SER A  70       8.543  30.255   8.188  1.00  7.09           C  
+ATOM      4  O   SER A  70       8.148  29.252   7.600  1.00  8.14           O  
+ATOM      5  CB  SER A  70       8.350  31.883   6.305  1.00  8.66           C  
+ATOM      6  OG  SER A  70       7.669  32.993   5.722  1.00 10.82           O  
+TER       7      SER A  70
+HETATM    8  C   0RJ A 303       8.190  34.232   5.817  1.00 14.59           C  
+HETATM    9  O   0RJ A 303       9.165  34.537   6.498  1.00 13.59           O  
+HETATM   10  CA  0RJ A 303       7.477  35.260   4.939  1.00 18.90           C  
+HETATM   11  CB  0RJ A 303       8.204  36.615   4.945  1.00 21.23           C  
+HETATM   12  NG  0RJ A 303       7.713  37.537   3.907  1.00 22.57           N1+
+HETATM   13  CD  0RJ A 303       8.498  38.786   3.836  1.00 24.01           C  
+CONECT    8    6    9   10
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8   11
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12
+ENDMDL
+END   

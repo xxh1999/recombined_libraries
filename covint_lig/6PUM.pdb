@@ -1,0 +1,65 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6PUM
+MODEL        1
+ATOM      1  N   LYS A  43     -52.057  34.993 199.421  1.00 26.59           N1+
+ATOM      2  CA  LYS A  43     -52.288  34.609 198.034  1.00 29.66           C  
+ATOM      3  C   LYS A  43     -53.563  33.789 197.967  1.00 31.27           C  
+ATOM      4  O   LYS A  43     -53.710  32.801 198.699  1.00 33.48           O  
+ATOM      5  CB  LYS A  43     -51.120  33.796 197.479  1.00 29.86           C  
+ATOM      6  CG  LYS A  43     -51.381  33.373 196.024  1.00 29.10           C  
+ATOM      7  CD  LYS A  43     -50.270  32.521 195.450  1.00 29.66           C  
+ATOM      8  CE  LYS A  43     -50.636  32.069 194.041  1.00 31.11           C  
+ATOM      9  NZ  LYS A  43     -49.607  31.141 193.489  1.00 36.02           N1+
+TER      10      LYS A  43
+HETATM   11  C   Q84 A 303     -47.838  30.540 191.921  0.71 31.46           C  
+HETATM   12  N   Q84 A 303     -47.077  33.172 191.850  0.71 29.83           N  
+HETATM   13  C1  Q84 A 303     -48.419  31.580 192.835  0.71 27.50           C  
+HETATM   14  C10 Q84 A 303     -45.701  36.890 190.570  0.71 26.27           C  
+HETATM   15  C11 Q84 A 303     -47.369  35.661 191.903  0.71 25.29           C  
+HETATM   16  C2  Q84 A 303     -48.124  32.972 192.567  0.71 29.80           C  
+HETATM   17  C3  Q84 A 303     -46.691  34.466 191.514  0.71 28.69           C  
+HETATM   18  C4  Q84 A 303     -45.587  34.489 190.632  0.71 28.28           C  
+HETATM   19  C5  Q84 A 303     -43.953  33.509 189.116  0.71 30.27           C  
+HETATM   20  C6  Q84 A 303     -42.507  33.314 189.517  0.71 28.59           C  
+HETATM   21  C7  Q84 A 303     -41.980  34.649 189.976  0.71 30.04           C  
+HETATM   22  C8  Q84 A 303     -40.456  34.732 189.916  0.71 28.20           C  
+HETATM   23  C9  Q84 A 303     -39.957  34.469 188.519  0.71 27.82           C  
+HETATM   24  N1  Q84 A 303     -44.904  33.386 190.215  0.71 29.72           N  
+HETATM   25  N2  Q84 A 303     -45.128  35.700 190.210  0.71 26.30           N  
+HETATM   26  N3  Q84 A 303     -46.806  36.810 191.376  0.71 26.55           N  
+HETATM   27  O1  Q84 A 303     -42.550  35.683 189.165  0.71 30.25           O  
+HETATM   28  O2  Q84 A 303     -40.085  36.035 190.331  0.71 26.43           O  
+HETATM   29  O3  Q84 A 303     -38.549  34.491 188.402  0.71 31.54           O  
+HETATM   30  O4  Q84 A 303     -45.254  37.968 190.189  0.71 29.94           O  
+HETATM   31  O5  Q84 A 303     -48.389  35.739 192.574  0.71 29.92           O  
+CONECT   11   13
+CONECT   12   16   17
+CONECT   13    9   11   16
+CONECT   14   25   26   30
+CONECT   14   30
+CONECT   15   17   26   31
+CONECT   15   31
+CONECT   16   12   13
+CONECT   17   12   15   18
+CONECT   17   18
+CONECT   18   17   24   25
+CONECT   18   17
+CONECT   19   20   24
+CONECT   20   19   21
+CONECT   21   20   22   27
+CONECT   22   21   23   28
+CONECT   23   22   29
+CONECT   24   18   19
+CONECT   25   14   18
+CONECT   26   14   15
+CONECT   27   21
+CONECT   28   22
+CONECT   29   23
+CONECT   30   14
+CONECT   30   14
+CONECT   31   15
+CONECT   31   15
+ENDMDL
+END   

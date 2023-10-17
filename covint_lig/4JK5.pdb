@@ -1,0 +1,38 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4JK5
+MODEL        1
+ATOM      1  N   CYS B  16     -24.599   8.644 -34.451  1.00 61.59           N1+
+ATOM      2  CA  CYS B  16     -24.743   7.353 -33.780  1.00 60.61           C  
+ATOM      3  C   CYS B  16     -26.046   6.704 -34.265  1.00 68.21           C  
+ATOM      4  O   CYS B  16     -27.099   7.342 -34.301  1.00 76.00           O  
+ATOM      5  CB  CYS B  16     -24.715   7.603 -32.258  1.00 64.71           C  
+ATOM      6  SG  CYS B  16     -25.112   6.144 -31.240  1.00 75.93           S  
+TER       7      CYS B  16
+HETATM    8  C1  ZBR B 101     -20.760   6.155 -29.487  1.00 38.27           C  
+HETATM    9  C2  ZBR B 101     -19.756   6.394 -30.439  1.00 36.88           C  
+HETATM   10  C3  ZBR B 101     -20.137   6.245 -31.787  1.00 53.30           C  
+HETATM   11  C4  ZBR B 101     -21.434   5.812 -32.128  1.00 65.01           C  
+HETATM   12  C5  ZBR B 101     -22.388   5.532 -31.128  1.00 54.12           C  
+HETATM   13  C6  ZBR B 101     -22.074   5.713 -29.759  1.00 43.74           C  
+HETATM   14  C7  ZBR B 101     -20.375   6.435 -28.043  1.00 29.39           C  
+HETATM   15  C8  ZBR B 101     -19.154   6.619 -32.875  1.00 80.43           C  
+HETATM   16  C9  ZBR B 101     -23.745   4.984 -31.546  1.00 79.09           C  
+CONECT    8    9   13   14
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    9   11   15
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   13   16
+CONECT   12   13
+CONECT   13    8   12
+CONECT   13   12
+CONECT   14    8
+CONECT   15   10
+CONECT   16    6   12
+ENDMDL
+END   

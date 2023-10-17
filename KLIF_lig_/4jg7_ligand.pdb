@@ -1,0 +1,78 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4jg7_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  O01 Q1L A 801      -0.035  19.653  43.316  1.00  0.00           O  
+HETATM    2  C02 Q1L A 801       0.425  18.707  42.682  1.00  0.00           C  
+HETATM    3  C03 Q1L A 801       1.654  18.902  41.815  1.00  0.00           C  
+HETATM    4  C04 Q1L A 801       2.224  17.834  41.136  1.00  0.00           C  
+HETATM    5  C05 Q1L A 801       3.444  18.035  40.281  1.00  0.00           C  
+HETATM    6  C06 Q1L A 801       4.062  16.869  39.532  1.00  0.00           C  
+HETATM    7  C07 Q1L A 801       3.452  16.462  38.229  1.00  0.00           C  
+HETATM    8  C08 Q1L A 801       3.644  17.570  37.236  1.00  0.00           C  
+HETATM    9  N09 Q1L A 801       3.797  18.418  36.485  1.00  0.00           N  
+HETATM   10  C10 Q1L A 801       1.985  16.225  38.386  1.00  0.00           C  
+HETATM   11  N11 Q1L A 801       1.497  14.961  38.874  1.00  0.00           N  
+HETATM   12  O12 Q1L A 801       1.199  17.113  38.102  1.00  0.00           O  
+HETATM   13  C13 Q1L A 801       3.992  19.285  40.172  1.00  0.00           C  
+HETATM   14  C14 Q1L A 801       3.379  20.444  40.908  1.00  0.00           C  
+HETATM   15  C15 Q1L A 801       2.262  20.257  41.689  1.00  0.00           C  
+HETATM   16  C16 Q1L A 801      -0.262  17.357  42.774  1.00  0.00           C  
+HETATM   17  C17 Q1L A 801      -0.598  16.499  41.724  1.00  0.00           C  
+HETATM   18  N18 Q1L A 801      -1.209  15.380  42.272  1.00  0.00           N  
+HETATM   19  C19 Q1L A 801      -1.272  15.507  43.654  1.00  0.00           C  
+HETATM   20  N20 Q1L A 801      -1.767  14.693  44.592  1.00  0.00           N  
+HETATM   21  C21 Q1L A 801      -1.715  15.032  45.886  1.00  0.00           C  
+HETATM   22  C22 Q1L A 801      -1.149  16.236  46.302  1.00  0.00           C  
+HETATM   23  C23 Q1L A 801      -0.627  17.101  45.340  1.00  0.00           C  
+HETATM   24  C24 Q1L A 801      -0.690  16.731  44.002  1.00  0.00           C  
+CONECT    1    2
+CONECT    1    2
+CONECT    2    1    3   16
+CONECT    2    1
+CONECT    3    2    4   15
+CONECT    3   15
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4    6   13
+CONECT    5    4
+CONECT    6    5    7
+CONECT    7    6    8   10
+CONECT    8    7    9
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT    9    8
+CONECT   10    7   11   12
+CONECT   10   12
+CONECT   11   10
+CONECT   12   10
+CONECT   12   10
+CONECT   13    5   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15    3   14
+CONECT   15    3
+CONECT   16    2   17   24
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   17   19
+CONECT   19   18   20   24
+CONECT   19   24
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   16   19   23
+CONECT   24   19
+ENDMDL
+END   

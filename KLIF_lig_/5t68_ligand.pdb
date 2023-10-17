@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5t68_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C6  Q77 A 701      -2.694  15.429  47.286  1.00  0.00           C  
+HETATM    2  C1  Q77 A 701      -2.351  16.664  46.782  1.00  0.00           C  
+HETATM    3  C18 Q77 A 701      -0.138  21.540  42.044  1.00  0.00           C  
+HETATM    4  C3  Q77 A 701      -0.772  15.754  45.217  1.00  0.00           C  
+HETATM    5  C17 Q77 A 701       0.801  21.413  41.050  1.00  0.00           C  
+HETATM    6  C5  Q77 A 701      -2.046  14.338  46.725  1.00  0.00           C  
+HETATM    7  C11 Q77 A 701      -0.113  20.313  42.757  1.00  0.00           C  
+HETATM    8  C4  Q77 A 701      -1.108  14.521  45.730  1.00  0.00           C  
+HETATM    9  C2  Q77 A 701      -1.436  16.839  45.765  1.00  0.00           C  
+HETATM   10  C10 Q77 A 701       0.841  19.518  42.159  1.00  0.00           C  
+HETATM   11  C9  Q77 A 701      -2.105  12.934  46.918  1.00  0.00           C  
+HETATM   12  C15 Q77 A 701       1.099  18.239  42.608  1.00  0.00           C  
+HETATM   13  C13 Q77 A 701      -0.549  18.640  44.225  1.00  0.00           C  
+HETATM   14  C22 Q77 A 701       2.022  14.848  41.310  1.00  0.00           C  
+HETATM   15  C23 Q77 A 701       0.638  15.159  41.793  1.00  0.00           C  
+HETATM   16  C21 Q77 A 701       1.813  15.934  42.324  1.00  0.00           C  
+HETATM   17  C24 Q77 A 701      -2.974  12.213  47.862  1.00  0.00           C  
+HETATM   18  N12 Q77 A 701      -0.819  19.890  43.825  1.00  0.00           N  
+HETATM   19  N8  Q77 A 701      -1.265  12.273  46.112  1.00  0.00           N  
+HETATM   20  N14 Q77 A 701       0.358  17.844  43.651  1.00  0.00           N  
+HETATM   21  N7  Q77 A 701      -0.668  13.263  45.422  1.00  0.00           N  
+HETATM   22  N19 Q77 A 701      -1.233  18.169  45.358  1.00  0.00           N  
+HETATM   23  N20 Q77 A 701       2.033  17.363  42.032  1.00  0.00           N  
+HETATM   24  O16 Q77 A 701       1.398  20.190  41.114  1.00  0.00           O  
+CONECT    1    2    6
+CONECT    1    6
+CONECT    2    1    9
+CONECT    2    9
+CONECT    3    5    7
+CONECT    3    5
+CONECT    4    8    9
+CONECT    4    8
+CONECT    5    3   24
+CONECT    5    3
+CONECT    6    1    8   11
+CONECT    6    1
+CONECT    7    3   10   18
+CONECT    7   10
+CONECT    8    4    6   21
+CONECT    8    4
+CONECT    9    2    4   22
+CONECT    9    2
+CONECT   10    7   12   24
+CONECT   10    7
+CONECT   11    6   17   19
+CONECT   11   19
+CONECT   12   10   20   23
+CONECT   12   20
+CONECT   13   18   20   22
+CONECT   13   18
+CONECT   14   15   16
+CONECT   15   14   16
+CONECT   16   14   15   23
+CONECT   17   11
+CONECT   18    7   13
+CONECT   18   13
+CONECT   19   11   21
+CONECT   19   11
+CONECT   20   12   13
+CONECT   20   12
+CONECT   21    8   19
+CONECT   22    9   13
+CONECT   23   12   16
+CONECT   24    5   10
+ENDMDL
+END   

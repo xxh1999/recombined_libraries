@@ -1,0 +1,127 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7ONK
+MODEL        1
+ATOM      1  N   SER A 294     -13.112 -18.499  -8.093  1.00  8.26           N1+
+ATOM      2  CA  SER A 294     -13.520 -19.552  -7.179  1.00 15.28           C  
+ATOM      3  C   SER A 294     -14.940 -19.362  -6.678  1.00 12.33           C  
+ATOM      4  O   SER A 294     -15.532 -20.337  -6.216  1.00 10.20           O  
+ATOM      5  CB  SER A 294     -12.555 -19.650  -5.992  1.00 12.43           C  
+ATOM      6  OG  SER A 294     -11.240 -20.011  -6.426  1.00 14.38           O  
+TER       7      SER A 294
+HETATM    8  C10 VL5 A 601      -3.565 -16.713  -1.737  0.54 49.16           C  
+HETATM    9  C11 VL5 A 601      -2.589 -16.798  -2.727  0.54 46.55           C  
+HETATM   10  C12 VL5 A 601      -2.931 -16.661  -4.066  0.54 45.29           C  
+HETATM   11  C13 VL5 A 601      -4.259 -16.449  -4.417  0.54 39.74           C  
+HETATM   12  C14 VL5 A 601      -5.233 -16.364  -3.429  0.54 38.04           C  
+HETATM   13  C15 VL5 A 601      -4.890 -16.502  -2.093  0.54 43.44           C  
+HETATM   14  C17 VL5 A 601      -3.728 -16.664  -6.785  0.54 36.34           C  
+HETATM   15  C18 VL5 A 601      -4.352 -16.199  -8.095  0.54 36.79           C  
+HETATM   16  C19 VL5 A 601      -3.306 -16.228  -9.163  0.54 33.96           C  
+HETATM   17  C2  VL5 A 601      -0.187 -15.336  -0.823  0.54 57.07           C  
+HETATM   18  C24 VL5 A 601      -7.222 -17.369  -9.711  0.54 48.43           C  
+HETATM   19  C25 VL5 A 601      -8.099 -16.974 -10.847  0.54 52.18           C  
+HETATM   20  C27 VL5 A 601      -8.705 -15.747 -12.617  0.54 44.29           C  
+HETATM   21  C3  VL5 A 601      -1.179 -15.577   0.316  0.54 63.06           C  
+HETATM   22  C30 VL5 A 601      -9.313 -17.618 -11.148  0.54 47.69           C  
+HETATM   23  C31 VL5 A 601      -7.554 -18.492  -8.839  0.54 43.79           C  
+HETATM   24  C34 VL5 A 601      -8.869 -19.327  -6.991  0.54 33.41           C  
+HETATM   25  C35 VL5 A 601      -8.157 -19.662  -5.670  0.54 29.69           C  
+HETATM   26  C36 VL5 A 601      -7.082 -18.622  -5.386  0.54 31.44           C  
+HETATM   27  C37 VL5 A 601      -7.536 -21.048  -5.791  0.54 43.30           C  
+HETATM   28  C39 VL5 A 601     -10.313 -18.977  -6.787  0.54 48.06           C  
+HETATM   29  C4  VL5 A 601      -2.120 -14.382   0.452  0.54 61.89           C  
+HETATM   30  C5  VL5 A 601      -1.315 -13.102   0.629  0.54 61.61           C  
+HETATM   31  C6  VL5 A 601      -0.337 -12.938  -0.529  0.54 63.80           C  
+HETATM   32  C8  VL5 A 601      -3.198 -16.856  -0.286  0.54 56.61           C  
+HETATM   33  N1  VL5 A 601       0.573 -14.095  -0.597  0.54 59.24           N1+
+HETATM   34  N23 VL5 A 601      -6.171 -16.723  -9.448  0.54 33.20           N  
+HETATM   35  N26 VL5 A 601      -7.780 -15.930 -11.675  0.54 26.36           N  
+HETATM   36  N28 VL5 A 601      -8.582 -14.709 -13.601  0.54 24.77           N  
+HETATM   37  N33 VL5 A 601      -8.232 -18.255  -7.726  0.54 47.20           N  
+HETATM   38  N38 VL5 A 601      -9.060 -19.709  -4.497  0.54 27.47           N  
+HETATM   39  N7  VL5 A 601      -1.916 -16.815   0.095  0.54 58.62           N  
+HETATM   40  N9  VL5 A 601      -4.113 -17.020   0.570  0.54 52.86           N1+
+HETATM   41  O16 VL5 A 601      -4.616 -16.311  -5.730  0.54 38.42           O  
+HETATM   42  O20 VL5 A 601      -2.535 -15.256  -9.264  0.54 35.40           O  
+HETATM   43  O21 VL5 A 601      -3.245 -17.226  -9.903  0.54 27.81           O1-
+HETATM   44  O22 VL5 A 601      -5.437 -17.046  -8.478  0.54 30.53           O  
+HETATM   45  O32 VL5 A 601      -7.174 -19.609  -9.138  0.54 22.93           O  
+HETATM   46  O40 VL5 A 601     -10.716 -17.838  -6.904  0.54 16.58           O  
+HETATM   47  O41 VL5 A 601      -9.475 -18.472  -4.139  0.54 27.53           O  
+HETATM   48  O43 VL5 A 601     -10.525 -18.968  -1.982  0.54 26.25           O  
+HETATM   49  O44 VL5 A 601     -10.078 -16.649  -2.626  0.54 22.31           O  
+HETATM   50  O45 VL5 A 601      -8.253 -18.067  -2.071  0.54 25.29           O1-
+HETATM   51  S29 VL5 A 601     -10.021 -16.843 -12.531  0.54 21.22           S  
+HETATM   52  S42 VL5 A 601      -9.598 -18.036  -2.669  0.54 23.55           S  
+CONECT    8    9   13   32
+CONECT    8   13
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11   10   12   41
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13    8   12
+CONECT   13    8
+CONECT   14   15   41
+CONECT   15   14   16   44
+CONECT   16   15   42   43
+CONECT   16   42
+CONECT   17   21   33
+CONECT   18   19   23   34
+CONECT   18   34
+CONECT   19   18   22   35
+CONECT   19   22
+CONECT   20   35   36   51
+CONECT   20   35
+CONECT   21   17   29   39
+CONECT   22   19   51
+CONECT   22   19
+CONECT   23   18   37   45
+CONECT   23   45
+CONECT   24   25   28   37
+CONECT   25   24   26   27   38
+CONECT   26   25
+CONECT   27   25
+CONECT   28    6   24   46
+CONECT   28   46
+CONECT   29   21   30
+CONECT   30   29   31
+CONECT   31   30   33
+CONECT   32    8   39   40
+CONECT   32   40
+CONECT   33   17   31
+CONECT   34   18   44
+CONECT   34   18
+CONECT   35   19   20
+CONECT   35   20
+CONECT   36   20
+CONECT   37   23   24
+CONECT   38   25   47
+CONECT   39   21   32
+CONECT   40   32
+CONECT   40   32
+CONECT   41   11   14
+CONECT   42   16
+CONECT   42   16
+CONECT   43   16
+CONECT   44   15   34
+CONECT   45   23
+CONECT   45   23
+CONECT   46   28
+CONECT   46   28
+CONECT   47   38   52
+CONECT   48   52
+CONECT   48   52
+CONECT   49   52
+CONECT   49   52
+CONECT   50   52
+CONECT   51   20   22
+CONECT   52   47   48   49   50
+CONECT   52   48   49
+ENDMDL
+END   

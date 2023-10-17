@@ -1,0 +1,114 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6XOM
+MODEL        1
+ATOM      1  N   CYS A1115      -2.761   0.770  39.582  1.00 17.87           N1+
+ATOM      2  CA  CYS A1115      -3.656  -0.373  39.846  1.00 20.14           C  
+ATOM      3  C   CYS A1115      -4.915  -0.386  38.993  1.00 22.07           C  
+ATOM      4  O   CYS A1115      -5.865  -1.105  39.319  1.00 20.69           O  
+ATOM      5  CB  CYS A1115      -4.014  -0.489  41.320  1.00 22.45           C  
+ATOM      6  SG  CYS A1115      -2.620  -0.362  42.449  1.00 26.90           S  
+TER       7      CYS A1115
+HETATM    8  C   H8V A1302       0.772   0.463  32.083  1.00 35.89           C  
+HETATM    9  N   H8V A1302      -0.478  -0.299  38.387  1.00 22.12           N  
+HETATM   10  O   H8V A1302       2.735   2.257  40.216  1.00 26.17           O  
+HETATM   11  C1  H8V A1302       0.170  -0.779  32.730  1.00 34.56           C  
+HETATM   12  N1  H8V A1302       2.816   0.009  40.354  1.00 29.35           N  
+HETATM   13  O1  H8V A1302      -4.203  -2.072  50.574  0.50 39.59           O  
+HETATM   14  C2  H8V A1302       0.961  -2.019  32.311  1.00 35.20           C  
+HETATM   15  N2  H8V A1302       1.487   0.309  43.467  1.00 33.32           N  
+HETATM   16  O2  H8V A1302      -2.009   1.264  45.716  1.00 35.93           O  
+HETATM   17  C3  H8V A1302      -0.015  -0.628  34.235  1.00 30.37           C  
+HETATM   18  N3  H8V A1302      -0.496  -0.381  45.537  1.00 34.68           N  
+HETATM   19  O3  H8V A1302       2.246  -1.691  42.758  1.00 24.95           O  
+HETATM   20  C4  H8V A1302       0.874  -1.221  35.128  1.00 29.39           C  
+HETATM   21  N4  H8V A1302      -2.779  -2.179  48.318  0.50 37.84           N1+
+HETATM   22  C5  H8V A1302       0.663  -1.088  36.490  1.00 26.45           C  
+HETATM   23  C6  H8V A1302      -0.400  -0.339  36.997  1.00 25.35           C  
+HETATM   24  C7  H8V A1302       0.467  -1.006  38.914  1.00 26.21           C  
+HETATM   25  C8  H8V A1302       0.646  -1.186  40.385  1.00 30.73           C  
+HETATM   26  C9  H8V A1302       1.550  -0.153  41.063  1.00 31.08           C  
+HETATM   27  C10 H8V A1302       3.321   1.202  40.007  1.00 28.85           C  
+HETATM   28  C11 H8V A1302       4.670   1.186  39.341  1.00 33.80           C  
+HETATM   29  C12 H8V A1302       5.767   1.665  40.259  1.00 34.53           C  
+HETATM   30  C13 H8V A1302       1.784  -0.582  42.513  1.00 30.05           C  
+HETATM   31  C14 H8V A1302       1.839   0.093  44.866  1.00 35.74           C  
+HETATM   32  C15 H8V A1302       0.659   0.475  45.756  1.00 35.88           C  
+HETATM   33  C16 H8V A1302      -1.744   0.081  45.518  1.00 34.63           C  
+HETATM   34  C17 H8V A1302      -2.817  -0.935  45.206  1.00 36.76           C  
+HETATM   35  C18 H8V A1302      -3.878  -1.163  46.301  0.50 36.80           C  
+HETATM   36  C19 H8V A1302      -3.471  -1.003  47.761  0.50 37.59           C  
+HETATM   37  C20 H8V A1302      -2.016  -1.853  49.536  0.50 37.80           C  
+HETATM   38  C21 H8V A1302      -2.802  -2.217  50.774  0.50 38.18           C  
+HETATM   39  C22 H8V A1302      -4.672  -3.043  49.637  0.50 38.37           C  
+HETATM   40  C23 H8V A1302      -3.647  -3.348  48.565  0.50 37.68           C  
+HETATM   41  C24 H8V A1302      -3.567  -0.362  43.996  1.00 34.80           C  
+HETATM   42  C25 H8V A1302       3.160   0.807  45.238  1.00 36.26           C  
+HETATM   43  C26 H8V A1302       2.992   2.312  45.396  1.00 37.46           C  
+HETATM   44  S   H8V A1302       1.554  -1.787  37.798  1.00 25.04           S  
+HETATM   45  C31 H8V A1302      -1.283   0.269  36.105  1.00 30.91           C  
+HETATM   46  C32 H8V A1302      -1.087   0.109  34.737  1.00 31.83           C  
+HETATM   47  C30 H8V A1302       4.283   0.528  44.241  1.00 35.92           C  
+HETATM   48  C29 H8V A1302       5.587   1.206  44.639  1.00 35.84           C  
+HETATM   49  C28 H8V A1302       5.395   2.696  44.791  1.00 36.43           C  
+HETATM   50  C27 H8V A1302       4.299   2.985  45.795  1.00 37.87           C  
+CONECT    8   11
+CONECT    9   23   24
+CONECT    9   24
+CONECT   10   27
+CONECT   10   27
+CONECT   11    8   14   17
+CONECT   12   26   27
+CONECT   13   38   39
+CONECT   14   11
+CONECT   15   30   31
+CONECT   16   33
+CONECT   16   33
+CONECT   17   11   20   46
+CONECT   17   20
+CONECT   18   32   33
+CONECT   19   30
+CONECT   19   30
+CONECT   20   17   22
+CONECT   20   17
+CONECT   21   36   37   40
+CONECT   22   20   23   44
+CONECT   22   23
+CONECT   23    9   22   45
+CONECT   23   22
+CONECT   24    9   25   44
+CONECT   24    9
+CONECT   25   24   26
+CONECT   26   12   25   30
+CONECT   27   10   12   28
+CONECT   27   10
+CONECT   28   27   29
+CONECT   29   28
+CONECT   30   15   19   26
+CONECT   30   19
+CONECT   31   15   32   42
+CONECT   32   18   31
+CONECT   33   16   18   34
+CONECT   33   16
+CONECT   34   33   35   41
+CONECT   35   34   36
+CONECT   36   21   35
+CONECT   37   21   38
+CONECT   38   13   37
+CONECT   39   13   40
+CONECT   40   21   39
+CONECT   41    6   34
+CONECT   42   31   43   47
+CONECT   43   42   50
+CONECT   44   22   24
+CONECT   45   23   46
+CONECT   45   46
+CONECT   46   17   45
+CONECT   46   45
+CONECT   47   42   48
+CONECT   48   47   49
+CONECT   49   48   50
+CONECT   50   43   49
+ENDMDL
+END   

@@ -1,0 +1,81 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7o94_ligand
+MODEL        1
+HETATM    1  C19 V5E B 401      -1.985  11.443  41.903  1.00  0.00           C  
+HETATM    2  C18 V5E B 401      -1.687  13.130  40.608  1.00  0.00           C  
+HETATM    3  C17 V5E B 401      -0.828  13.274  41.631  1.00  0.00           C  
+HETATM    4  C16 V5E B 401       0.167  14.380  41.954  1.00  0.00           C  
+HETATM    5  C15 V5E B 401       0.227  15.421  40.857  1.00  0.00           C  
+HETATM    6  C14 V5E B 401       0.243  17.531  42.217  1.00  0.00           C  
+HETATM    7  C13 V5E B 401      -3.592  16.124  46.067  1.00  0.00           C  
+HETATM    8  C12 V5E B 401      -2.772  14.481  48.808  1.00  0.00           C  
+HETATM    9  C11 V5E B 401      -2.159  14.536  50.188  1.00  0.00           C  
+HETATM   10  C10 V5E B 401      -4.061  13.520  51.107  1.00  0.00           C  
+HETATM   11  C9  V5E B 401      -4.728  13.509  49.751  1.00  0.00           C  
+HETATM   12  C8  V5E B 401      -4.897  14.608  47.613  1.00  0.00           C  
+HETATM   13  C7  V5E B 401      -4.032  14.845  46.395  1.00  0.00           C  
+HETATM   14  C6  V5E B 401      -3.735  13.795  45.542  1.00  0.00           C  
+HETATM   15  C5  V5E B 401      -3.031  14.017  44.371  1.00  0.00           C  
+HETATM   16  C4  V5E B 401      -2.575  15.285  44.061  1.00  0.00           C  
+HETATM   17  C3  V5E B 401      -2.832  16.341  44.923  1.00  0.00           C  
+HETATM   18  C2  V5E B 401      -1.427  18.056  43.706  1.00  0.00           C  
+HETATM   19  C1  V5E B 401      -0.107  19.762  43.010  1.00  0.00           C  
+HETATM   20  N   V5E B 401      -1.152  19.371  43.750  1.00  0.00           N  
+HETATM   21  C   V5E B 401       0.631  18.880  42.243  1.00  0.00           C  
+HETATM   22  O   V5E B 401      -2.626  13.476  51.006  1.00  0.00           O  
+HETATM   23  N1  V5E B 401      -2.298  17.622  44.665  1.00  0.00           N  
+HETATM   24  N2  V5E B 401      -4.226  14.609  48.919  1.00  0.00           N1+
+HETATM   25  N3  V5E B 401      -0.792  17.128  42.964  1.00  0.00           N  
+HETATM   26  N4  V5E B 401       0.783  16.696  41.297  1.00  0.00           N  
+HETATM   27  N5  V5E B 401      -2.424  11.972  40.780  1.00  0.00           N1+
+HETATM   28  N6  V5E B 401      -1.010  12.200  42.459  1.00  0.00           N  
+HETATM   29 BR   V5E B 401       1.912  19.537  41.010  1.00  0.00          Br  
+CONECT    1   27   28
+CONECT    1   27
+CONECT    2    3   27
+CONECT    2    3
+CONECT    3    2    4   28
+CONECT    3    2
+CONECT    4    3    5
+CONECT    5    4   26
+CONECT    6   21   25   26
+CONECT    6   25
+CONECT    7   13   17
+CONECT    7   17
+CONECT    8    9   24
+CONECT    9    8   22
+CONECT   10   11   22
+CONECT   11   10   24
+CONECT   12   13   24
+CONECT   13    7   12   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17    7   16   23
+CONECT   17    7
+CONECT   18   20   23   25
+CONECT   18   20
+CONECT   19   20   21
+CONECT   19   21
+CONECT   20   18   19
+CONECT   20   18
+CONECT   21    6   19   29
+CONECT   21   19
+CONECT   22    9   10
+CONECT   23   17   18
+CONECT   24    8   11   12
+CONECT   25    6   18
+CONECT   25    6
+CONECT   26    5    6
+CONECT   27    1    2
+CONECT   27    1
+CONECT   28    1    3
+CONECT   29   21
+ENDMDL
+END   

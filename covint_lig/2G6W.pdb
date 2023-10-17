@@ -1,0 +1,67 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2G6W
+MODEL        1
+ATOM      1  N   LYS A 236       5.034  -8.051  44.384  1.00 27.91           N1+
+ATOM      2  CA  LYS A 236       5.946  -8.165  45.516  1.00 29.88           C  
+ATOM      3  C   LYS A 236       5.588  -9.433  46.321  1.00 26.96           C  
+ATOM      4  O   LYS A 236       5.829 -10.534  45.825  1.00 27.24           O  
+ATOM      5  CB  LYS A 236       5.941  -6.845  46.328  1.00 32.90           C  
+ATOM      6  CG  LYS A 236       6.746  -5.698  45.672  1.00 33.01           C  
+ATOM      7  CD  LYS A 236       5.950  -4.718  44.798  1.00 37.81           C  
+ATOM      8  CE  LYS A 236       6.824  -3.568  44.255  1.00 41.49           C  
+ATOM      9  NZ  LYS A 236       7.643  -4.018  43.129  1.00 47.26           N1+
+TER      10      LYS A 236
+HETATM   11  CBF LLF A 436       8.790  -3.177  42.755  1.00 51.68           C  
+HETATM   12  CAF LLF A 436       8.513  -2.025  41.765  1.00 52.17           C  
+HETATM   13  F1  LLF A 436       9.643  -3.964  42.102  1.00 51.74           F  
+HETATM   14  F2  LLF A 436       9.406  -2.701  43.841  1.00 52.99           F  
+HETATM   15  NF  LLF A 436       7.874  -0.913  42.426  1.00 52.02           N  
+HETATM   16  C4A LLF A 436       6.618  -0.848  42.312  1.00 52.89           C  
+HETATM   17  C4  LLF A 436       5.696   0.037  43.050  1.00 53.17           C  
+HETATM   18  C3  LLF A 436       5.961   0.501  44.372  1.00 53.08           C  
+HETATM   19  O3  LLF A 436       7.147   0.246  45.006  1.00 52.51           O1-
+HETATM   20  C2  LLF A 436       4.970   1.249  45.047  1.00 52.87           C  
+HETATM   21  C2A LLF A 436       5.131   1.816  46.437  1.00 51.62           C  
+HETATM   22  N1  LLF A 436       3.802   1.504  44.438  1.00 53.38           N1+
+HETATM   23  C5  LLF A 436       4.460   0.393  42.448  1.00 52.51           C  
+HETATM   24  C6  LLF A 436       3.514   1.111  43.192  1.00 52.60           C  
+HETATM   25  C5M LLF A 436       4.095   0.032  41.025  1.00 51.38           C  
+HETATM   26  O4P LLF A 436       3.501  -1.247  40.976  1.00 46.27           O  
+HETATM   27  P   LLF A 436       3.806  -2.135  39.642  1.00 41.60           P  
+HETATM   28  OP1 LLF A 436       2.779  -3.246  39.701  1.00 39.53           O1-
+HETATM   29  OP2 LLF A 436       3.591  -1.208  38.465  1.00 43.37           O1-
+HETATM   30  OP3 LLF A 436       5.224  -2.649  39.752  1.00 42.60           O  
+CONECT   11    9   12   13   14
+CONECT   12   11   15
+CONECT   13   11
+CONECT   14   11
+CONECT   15   12   16
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   16   18   23
+CONECT   17   18
+CONECT   18   17   19   20
+CONECT   18   17
+CONECT   19   18
+CONECT   20   18   21   22
+CONECT   20   22
+CONECT   21   20
+CONECT   22   20   24
+CONECT   22   20
+CONECT   23   17   24   25
+CONECT   23   24
+CONECT   24   22   23
+CONECT   24   23
+CONECT   25   23   26
+CONECT   26   25   27
+CONECT   27   26   28   29   30
+CONECT   27   30
+CONECT   28   27
+CONECT   29   27
+CONECT   30   27
+CONECT   30   27
+ENDMDL
+END   

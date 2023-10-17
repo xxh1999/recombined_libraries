@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1YM1
+MODEL        1
+ATOM      1  N   SER A  70      20.178  58.144   8.110  1.00  7.17           N1+
+ATOM      2  CA  SER A  70      19.797  57.136   7.125  1.00  7.23           C  
+ATOM      3  C   SER A  70      18.351  57.351   6.586  1.00  6.59           C  
+ATOM      4  O   SER A  70      17.977  56.677   5.631  1.00  7.46           O  
+ATOM      5  CB  SER A  70      20.017  55.698   7.710  1.00  8.31           C  
+ATOM      6  OG  SER A  70      21.308  55.087   7.545  1.00 10.22           O  
+TER       7      SER A  70
+HETATM    8  CAF SM2 A2001      27.892  56.484  11.195  0.53 18.54           C  
+HETATM    9  CAC SM2 A2001      28.950  57.319  11.659  0.53 19.37           C  
+HETATM   10  CAB SM2 A2001      28.761  57.750  12.942  0.53 20.16           C  
+HETATM   11  SAD SM2 A2001      27.300  57.096  13.620  0.53 23.04           S  
+HETATM   12  CAE SM2 A2001      26.918  56.256  12.139  0.53 19.09           C  
+HETATM   13  CAG SM2 A2001      25.668  55.420  12.088  0.53 16.88           C  
+HETATM   14  CAH SM2 A2001      25.308  54.823  10.727  0.53 13.29           C  
+HETATM   15  OAI SM2 A2001      26.139  54.153  10.117  0.53 14.03           O  
+HETATM   16  NAJ SM2 A2001      24.046  54.991  10.298  0.53 12.24           N  
+HETATM   17  CAK SM2 A2001      23.404  54.349   9.137  0.53 11.80           C  
+HETATM   18  B   SM2 A2001      22.529  55.490   8.316  0.53 11.04           B1-
+HETATM   19  OAT SM2 A2001      22.240  56.645   9.180  0.53 11.09           O  
+HETATM   20  OAO SM2 A2001      23.434  56.005   7.282  0.53 12.74           O  
+HETATM   21  CAL SM2 A2001      22.820  52.966   9.524  0.53 12.19           C  
+HETATM   22  CAQ SM2 A2001      21.469  52.578   9.341  0.53 12.41           C  
+HETATM   23  CAM SM2 A2001      23.699  52.001  10.073  0.53 14.23           C  
+HETATM   24  CAN SM2 A2001      23.252  50.733  10.471  0.53 14.43           C  
+HETATM   25  CAS SM2 A2001      21.912  50.377  10.298  0.53 14.64           C  
+HETATM   26  CAR SM2 A2001      21.007  51.291   9.722  0.53 13.44           C  
+HETATM   27  CAU SM2 A2001      19.577  50.874   9.533  0.53 14.85           C  
+HETATM   28  OAW SM2 A2001      18.780  51.665   8.976  0.53 16.39           O  
+HETATM   29  OAV SM2 A2001      19.223  49.749   9.939  0.53 18.55           O1-
+CONECT    8    9   12
+CONECT    8   12
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11   10   12
+CONECT   12    8   11   13
+CONECT   12    8
+CONECT   13   12   14
+CONECT   14   13   15   16
+CONECT   14   15
+CONECT   15   14
+CONECT   15   14
+CONECT   16   14   17
+CONECT   17   16   18   21
+CONECT   18    6   17   19   20
+CONECT   19   18
+CONECT   20   18
+CONECT   21   17   22   23
+CONECT   21   22
+CONECT   22   21   26
+CONECT   22   21
+CONECT   23   21   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   22   25   27
+CONECT   26   25
+CONECT   27   26   28   29
+CONECT   27   28
+CONECT   28   27
+CONECT   28   27
+CONECT   29   27
+ENDMDL
+END   

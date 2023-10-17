@@ -1,0 +1,90 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4CDF
+MODEL        1
+ATOM      1  N   CYS B 234      -0.482  42.264  76.861  1.00 36.00           N1+
+ATOM      2  CA  CYS B 234      -0.887  43.585  77.347  1.00 36.38           C  
+ATOM      3  C   CYS B 234       0.104  44.719  77.018  1.00 34.53           C  
+ATOM      4  O   CYS B 234      -0.320  45.854  76.811  1.00 33.50           O  
+ATOM      5  CB  CYS B 234      -1.172  43.499  78.861  1.00 38.31           C  
+ATOM      6  SG  CYS B 234       0.347  43.144  79.811  1.00 38.14           S  
+TER       7      CYS B 234
+HETATM    8  C27 W2C B1369       9.676  34.407  84.324  1.00 37.70           C  
+HETATM    9  C9  W2C B1369       0.344  41.354  80.069  1.00 33.03           C  
+HETATM   10  C23 W2C B1369       7.850  36.005  84.846  1.00 37.47           C  
+HETATM   11  C25 W2C B1369       7.958  34.985  82.641  1.00 39.05           C  
+HETATM   12  C22 W2C B1369       6.684  36.696  84.466  1.00 43.73           C  
+HETATM   13  C26 W2C B1369       6.791  35.676  82.271  1.00 40.47           C  
+HETATM   14  C2  W2C B1369       4.571  38.524  83.370  1.00 41.52           C  
+HETATM   15  C4  W2C B1369       4.075  36.811  81.731  1.00 41.11           C  
+HETATM   16  C1  W2C B1369       3.417  39.229  82.983  1.00 40.17           C  
+HETATM   17  C5  W2C B1369       2.938  37.528  81.317  1.00 40.88           C  
+HETATM   18  C24 W2C B1369       8.490  35.145  83.933  1.00 40.42           C  
+HETATM   19  C21 W2C B1369       6.132  36.550  83.169  1.00 43.33           C  
+HETATM   20  C3  W2C B1369       4.920  37.297  82.758  1.00 43.60           C  
+HETATM   21  C6  W2C B1369       2.600  38.742  81.944  1.00 40.45           C  
+HETATM   22  C12 W2C B1369       3.646  42.184  80.762  1.00 37.05           C  
+HETATM   23  C17 W2C B1369       6.194  45.329  82.396  1.00 38.03           C  
+HETATM   24  C15 W2C B1369       3.944  44.589  81.477  1.00 37.03           C  
+HETATM   25  C18 W2C B1369       6.553  43.847  82.593  1.00 41.31           C  
+HETATM   26  C14 W2C B1369       4.369  43.127  81.725  1.00 37.15           C  
+HETATM   27  C16 W2C B1369       4.670  45.554  82.430  1.00 40.42           C  
+HETATM   28  C7  W2C B1369       1.355  39.498  81.512  1.00 39.61           C  
+HETATM   29  C8  W2C B1369       1.635  40.688  80.557  1.00 39.10           C  
+HETATM   30  N28 W2C B1369      10.618  33.813  84.636  1.00 38.90           N  
+HETATM   31  N10 W2C B1369      -0.694  40.676  79.835  1.00 33.26           N  
+HETATM   32  N19 W2C B1369       5.837  43.010  81.609  1.00 33.82           N1+
+HETATM   33  N11 W2C B1369       2.511  41.645  81.230  1.00 36.63           N  
+HETATM   34  O13 W2C B1369       4.085  41.983  79.632  1.00 37.20           O  
+HETATM   35  O20 W2C B1369       4.181  45.365  83.742  1.00 38.54           O  
+CONECT    8   18   30
+CONECT    8   30
+CONECT    8   30
+CONECT    9    6   29   31
+CONECT    9   31
+CONECT   10   12   18
+CONECT   10   12
+CONECT   11   13   18
+CONECT   11   18
+CONECT   12   10   19
+CONECT   12   10
+CONECT   13   11   19
+CONECT   13   19
+CONECT   14   16   20
+CONECT   14   20
+CONECT   15   17   20
+CONECT   15   17
+CONECT   16   14   21
+CONECT   16   21
+CONECT   17   15   21
+CONECT   17   15
+CONECT   18    8   10   11
+CONECT   18   11
+CONECT   19   12   13   20
+CONECT   19   13
+CONECT   20   14   15   19
+CONECT   20   14
+CONECT   21   16   17   28
+CONECT   21   16
+CONECT   22   26   33   34
+CONECT   22   34
+CONECT   23   25   27
+CONECT   24   26   27
+CONECT   25   23   32
+CONECT   26   22   24   32
+CONECT   27   23   24   35
+CONECT   28   21   29
+CONECT   29    9   28   33
+CONECT   30    8
+CONECT   30    8
+CONECT   30    8
+CONECT   31    9
+CONECT   31    9
+CONECT   32   25   26
+CONECT   33   22   29
+CONECT   34   22
+CONECT   34   22
+CONECT   35   27
+ENDMDL
+END   

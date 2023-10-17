@@ -1,0 +1,112 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5ur1_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CAI YY9 B   0       3.613  22.130  35.304  1.00  0.00           C  
+HETATM    2  OAH YY9 B   0       2.947  21.412  36.366  1.00  0.00           O  
+HETATM    3  CAE YY9 B   0       3.631  21.240  37.532  1.00  0.00           C  
+HETATM    4  CAD YY9 B   0       2.963  20.532  38.501  1.00  0.00           C  
+HETATM    5 CLL  YY9 B   0       1.437  19.880  38.184  1.00  0.00          Cl  
+HETATM    6  CAF YY9 B   0       4.884  21.737  37.803  1.00  0.00           C  
+HETATM    7  CAA YY9 B   0       5.455  21.512  39.069  1.00  0.00           C  
+HETATM    8  OAG YY9 B   0       6.687  21.965  39.425  1.00  0.00           O  
+HETATM    9  CAJ YY9 B   0       7.451  22.636  38.413  1.00  0.00           C  
+HETATM   10  CAB YY9 B   0       4.797  20.778  40.057  1.00  0.00           C  
+HETATM   11 CLK  YY9 B   0       5.680  20.581  41.582  1.00  0.00          Cl  
+HETATM   12  CAC YY9 B   0       3.515  20.266  39.745  1.00  0.00           C  
+HETATM   13  NAM YY9 B   0       2.639  19.512  40.675  1.00  0.00           N  
+HETATM   14  CAR YY9 B   0       2.880  18.229  41.012  1.00  0.00           C  
+HETATM   15  OAW YY9 B   0       3.688  17.651  40.300  1.00  0.00           O  
+HETATM   16  CAN YY9 B   0       2.204  20.429  41.779  1.00  0.00           C  
+HETATM   17  C5  YY9 B   0       1.242  19.769  42.676  1.00  0.00           C  
+HETATM   18  C6  YY9 B   0       0.311  20.507  43.382  1.00  0.00           C  
+HETATM   19  N1  YY9 B   0      -0.554  19.864  44.254  1.00  0.00           N  
+HETATM   20  C2  YY9 B   0      -0.490  18.534  44.378  1.00  0.00           C  
+HETATM   21  NAX YY9 B   0      -1.449  17.932  45.318  1.00  0.00           N  
+HETATM   22  CAY YY9 B   0      -1.581  16.457  45.477  1.00  0.00           C  
+HETATM   23  CAZ YY9 B   0      -1.360  15.551  44.431  1.00  0.00           C  
+HETATM   24  CBA YY9 B   0      -1.524  14.184  44.659  1.00  0.00           C  
+HETATM   25  CBB YY9 B   0      -1.896  13.716  45.911  1.00  0.00           C  
+HETATM   26  CBC YY9 B   0      -2.126  14.606  46.943  1.00  0.00           C  
+HETATM   27  CBD YY9 B   0      -1.972  15.963  46.721  1.00  0.00           C  
+HETATM   28  N3  YY9 B   0       0.431  17.826  43.682  1.00  0.00           N  
+HETATM   29  C4  YY9 B   0       1.280  18.410  42.826  1.00  0.00           C  
+HETATM   30  NAQ YY9 B   0       2.308  17.619  42.095  1.00  0.00           N  
+HETATM   31  CBE YY9 B   0       1.903  16.165  42.095  1.00  0.00           C  
+HETATM   32  CBJ YY9 B   0       3.006  15.356  42.755  1.00  0.00           C  
+HETATM   33  CBI YY9 B   0       2.359  14.142  43.353  1.00  0.00           C  
+HETATM   34  CBF YY9 B   0       1.522  15.482  40.794  1.00  0.00           C  
+HETATM   35  CBG YY9 B   0       1.327  13.978  40.978  1.00  0.00           C  
+HETATM   36  NBH YY9 B   0       1.419  13.472  42.400  1.00  0.00           N  
+HETATM   37  CBK YY9 B   0       0.705  12.402  42.898  1.00  0.00           C  
+HETATM   38  OBL YY9 B   0       0.805  12.015  44.074  1.00  0.00           O  
+HETATM   39  CBM YY9 B   0      -0.288  11.627  41.987  1.00  0.00           C  
+HETATM   40  CBN YY9 B   0      -1.081  10.448  42.610  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4    6
+CONECT    3    6
+CONECT    4    3    5   12
+CONECT    4   12
+CONECT    5    4
+CONECT    6    3    7
+CONECT    6    3
+CONECT    7    6    8   10
+CONECT    7   10
+CONECT    8    7    9
+CONECT    9    8
+CONECT   10    7   11   12
+CONECT   10    7
+CONECT   11   10
+CONECT   12    4   10   13
+CONECT   12    4
+CONECT   13   12   14   16
+CONECT   14   13   15   30
+CONECT   14   15
+CONECT   15   14
+CONECT   15   14
+CONECT   16   13   17
+CONECT   17   16   18   29
+CONECT   17   29
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   19   21   28
+CONECT   20   28
+CONECT   21   20   22
+CONECT   22   21   23   27
+CONECT   22   27
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   22   26
+CONECT   27   22
+CONECT   28   20   29
+CONECT   28   20
+CONECT   29   17   28   30
+CONECT   29   17
+CONECT   30   14   29   31
+CONECT   31   30   32   34
+CONECT   32   31   33
+CONECT   33   32   36
+CONECT   34   31   35
+CONECT   35   34   36
+CONECT   36   33   35   37
+CONECT   37   36   38   39
+CONECT   37   38
+CONECT   38   37
+CONECT   38   37
+CONECT   39   37   40
+CONECT   39   40
+CONECT   40   39
+CONECT   40   39
+ENDMDL
+END   

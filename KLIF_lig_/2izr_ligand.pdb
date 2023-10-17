@@ -1,0 +1,76 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2izr_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CAB BRK A1335       2.998  12.633  39.492  1.00  0.00           C  
+HETATM    2  OAP BRK A1335       3.903  13.717  39.770  1.00  0.00           O  
+HETATM    3  CAU BRK A1335       3.325  14.924  40.126  1.00  0.00           C  
+HETATM    4  CAJ BRK A1335       4.158  16.031  40.222  1.00  0.00           C  
+HETATM    5  CAL BRK A1335       3.670  17.286  40.574  1.00  0.00           C  
+HETATM    6  CAI BRK A1335       1.969  15.069  40.404  1.00  0.00           C  
+HETATM    7  CAK BRK A1335       1.452  16.319  40.769  1.00  0.00           C  
+HETATM    8  CAW BRK A1335       2.309  17.422  40.859  1.00  0.00           C  
+HETATM    9  CAR BRK A1335       1.805  18.806  41.233  1.00  0.00           C  
+HETATM   10  OAD BRK A1335       2.228  19.820  40.666  1.00  0.00           O  
+HETATM   11  CAY BRK A1335       0.877  18.924  42.405  1.00  0.00           C  
+HETATM   12  SAQ BRK A1335       0.433  17.625  43.431  1.00  0.00           S  
+HETATM   13  CAV BRK A1335       0.314  20.120  42.862  1.00  0.00           C  
+HETATM   14  NAC BRK A1335       0.473  21.317  42.273  1.00  0.00           N  
+HETATM   15  NAM BRK A1335      -0.418  19.989  43.989  1.00  0.00           N  
+HETATM   16  CAX BRK A1335      -0.469  18.714  44.463  1.00  0.00           C  
+HETATM   17  NAN BRK A1335      -1.168  18.366  45.501  1.00  0.00           N  
+HETATM   18  CAS BRK A1335      -1.248  17.106  46.005  1.00  0.00           C  
+HETATM   19  CAE BRK A1335      -2.496  16.596  46.372  1.00  0.00           C  
+HETATM   20  CAG BRK A1335      -2.630  15.318  46.914  1.00  0.00           C  
+HETATM   21  CAT BRK A1335      -1.490  14.541  47.125  1.00  0.00           C  
+HETATM   22  OAO BRK A1335      -1.564  13.275  47.663  1.00  0.00           O  
+HETATM   23  CAA BRK A1335      -2.693  12.510  47.208  1.00  0.00           C  
+HETATM   24  CAH BRK A1335      -0.245  15.054  46.786  1.00  0.00           C  
+HETATM   25  CAF BRK A1335      -0.126  16.335  46.244  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4    6
+CONECT    3    4
+CONECT    4    3    5
+CONECT    4    3
+CONECT    5    4    8
+CONECT    5    8
+CONECT    6    3    7
+CONECT    6    7
+CONECT    7    6    8
+CONECT    7    6
+CONECT    8    5    7    9
+CONECT    8    5
+CONECT    9    8   10   11
+CONECT    9   10
+CONECT   10    9
+CONECT   10    9
+CONECT   11    9   12   13
+CONECT   11   13
+CONECT   12   11   16
+CONECT   13   11   14   15
+CONECT   13   11
+CONECT   14   13
+CONECT   15   13   16
+CONECT   15   16
+CONECT   16   12   15   17
+CONECT   16   15
+CONECT   17   16   18
+CONECT   18   17   19   25
+CONECT   18   25
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22   24
+CONECT   21   24
+CONECT   22   21   23
+CONECT   23   22
+CONECT   24   21   25
+CONECT   24   21
+CONECT   25   18   24
+CONECT   25   18
+ENDMDL
+END   

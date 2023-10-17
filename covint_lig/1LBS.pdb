@@ -1,0 +1,38 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1LBS
+MODEL        1
+ATOM      1  N   SER A 105      57.616  -2.864  37.380  1.00  6.65           N1+
+ATOM      2  CA  SER A 105      57.920  -1.440  37.289  1.00  6.65           C  
+ATOM      3  C   SER A 105      58.202  -0.845  38.679  1.00  6.65           C  
+ATOM      4  O   SER A 105      59.177  -1.257  39.311  1.00  8.50           O  
+ATOM      5  CB  SER A 105      56.856  -0.740  36.428  1.00  8.50           C  
+ATOM      6  OG  SER A 105      57.370   0.479  35.941  1.00  8.50           O  
+TER       7      SER A 105
+HETATM    8  C1  HEE A 900      55.275   1.578  34.639  1.00 20.54           C  
+HETATM    9  C2  HEE A 900      54.461   2.835  34.356  1.00 20.54           C  
+HETATM   10  C3  HEE A 900      53.926   2.880  32.919  1.00 20.54           C  
+HETATM   11  C4  HEE A 900      53.400   4.275  32.566  1.00 20.54           C  
+HETATM   12  C5  HEE A 900      53.079   4.431  31.076  1.00 20.54           C  
+HETATM   13  C6  HEE A 900      52.860   5.892  30.682  1.00 20.54           C  
+HETATM   14  P   HEE A 900      56.462   1.815  36.033  1.00 20.54           P  
+HETATM   15  O1P HEE A 900      55.827   2.057  37.356  1.00 20.54           O  
+HETATM   16  O2P HEE A 900      57.467   2.966  35.485  1.00 20.54           O  
+HETATM   17  C1' HEE A 900      58.640   3.290  36.202  1.00 20.54           C  
+HETATM   18  C2' HEE A 900      58.842   4.808  36.198  1.00 20.54           C  
+CONECT    8    9   14
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12
+CONECT   14    6    8   15   16
+CONECT   14   15
+CONECT   15   14
+CONECT   15   14
+CONECT   16   14   17
+CONECT   17   16   18
+CONECT   18   17
+ENDMDL
+END   

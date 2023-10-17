@@ -1,0 +1,108 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6hjk_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C13 G7W A 501       4.155  19.451  39.656  1.00  0.00           C  
+HETATM    2  C15 G7W A 501       2.167  18.830  41.096  1.00  0.00           C  
+HETATM    3  C20 G7W A 501      -0.013  15.534  43.057  1.00  0.00           C  
+HETATM    4  C21 G7W A 501       1.039  18.376  43.034  1.00  0.00           C  
+HETATM    5  C28 G7W A 501       1.995  20.216  39.015  1.00  0.00           C  
+HETATM    6  F01 G7W A 501      11.540  20.035  28.961  1.00  0.00           F  
+HETATM    7  C02 G7W A 501      10.597  20.489  29.806  1.00  0.00           C  
+HETATM    8  C03 G7W A 501      10.137  21.791  29.686  1.00  0.00           C  
+HETATM    9  C04 G7W A 501       9.156  22.253  30.565  1.00  0.00           C  
+HETATM   10  C05 G7W A 501       8.634  21.409  31.573  1.00  0.00           C  
+HETATM   11  C06 G7W A 501       7.571  21.954  32.515  1.00  0.00           C  
+HETATM   12  C07 G7W A 501       7.185  21.225  33.831  1.00  0.00           C  
+HETATM   13  C08 G7W A 501       6.130  21.704  34.556  1.00  0.00           C  
+HETATM   14  C09 G7W A 501       5.585  20.910  35.766  1.00  0.00           C  
+HETATM   15  N10 G7W A 501       4.489  21.455  36.530  1.00  0.00           N  
+HETATM   16  C11 G7W A 501       3.920  20.786  37.668  1.00  0.00           C  
+HETATM   17  C12 G7W A 501       4.710  20.081  38.559  1.00  0.00           C  
+HETATM   18  C14 G7W A 501       2.781  19.521  39.892  1.00  0.00           C  
+HETATM   19  N16 G7W A 501       2.264  17.504  41.376  1.00  0.00           N  
+HETATM   20  N17 G7W A 501       1.590  17.256  42.521  1.00  0.00           N  
+HETATM   21  C18 G7W A 501       1.446  15.948  43.147  1.00  0.00           C  
+HETATM   22  C19 G7W A 501       2.404  14.942  42.511  1.00  0.00           C  
+HETATM   23  N22 G7W A 501       0.276  18.627  44.159  1.00  0.00           N  
+HETATM   24  C23 G7W A 501      -0.152  19.850  44.430  1.00  0.00           C  
+HETATM   25  N24 G7W A 501       0.146  20.893  43.636  1.00  0.00           N  
+HETATM   26  C25 G7W A 501       0.890  20.738  42.517  1.00  0.00           C  
+HETATM   27  N26 G7W A 501       1.178  21.887  41.721  1.00  0.00           N  
+HETATM   28  C27 G7W A 501       1.380  19.451  42.160  1.00  0.00           C  
+HETATM   29  C29 G7W A 501       2.561  20.855  37.902  1.00  0.00           C  
+HETATM   30  O30 G7W A 501       6.083  19.847  36.036  1.00  0.00           O  
+HETATM   31  O31 G7W A 501       7.011  23.009  32.228  1.00  0.00           O  
+HETATM   32  C32 G7W A 501       9.101  20.091  31.696  1.00  0.00           C  
+HETATM   33  C33 G7W A 501      10.066  19.637  30.816  1.00  0.00           C  
+HETATM   34  C34 G7W A 501      10.593  18.218  30.940  1.00  0.00           C  
+HETATM   35  F35 G7W A 501      10.849  17.713  29.737  1.00  0.00           F  
+HETATM   36  F36 G7W A 501       9.688  17.445  31.592  1.00  0.00           F  
+HETATM   37  F37 G7W A 501      11.715  18.306  31.644  1.00  0.00           F  
+CONECT    1   17   18
+CONECT    1   17
+CONECT    2   18   19   28
+CONECT    2   19
+CONECT    3   21
+CONECT    4   20   23   28
+CONECT    4   28
+CONECT    5   18   29
+CONECT    5   18
+CONECT    6    7
+CONECT    7    6    8   33
+CONECT    7   33
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    9   11   32
+CONECT   10   32
+CONECT   11   10   12   31
+CONECT   11   31
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15   30
+CONECT   14   30
+CONECT   15   14   16
+CONECT   16   15   17   29
+CONECT   16   29
+CONECT   17    1   16
+CONECT   17    1
+CONECT   18    1    2    5
+CONECT   18    5
+CONECT   19    2   20
+CONECT   19    2
+CONECT   20    4   19   21
+CONECT   21    3   20   22
+CONECT   22   21
+CONECT   23    4   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   25   27   28
+CONECT   26   25
+CONECT   27   26
+CONECT   28    2    4   26
+CONECT   28    4
+CONECT   29    5   16
+CONECT   29   16
+CONECT   30   14
+CONECT   30   14
+CONECT   31   11
+CONECT   31   11
+CONECT   32   10   33
+CONECT   32   10
+CONECT   33    7   32   34
+CONECT   33    7
+CONECT   34   33   35   36   37
+CONECT   35   34
+CONECT   36   34
+CONECT   37   34
+ENDMDL
+END   

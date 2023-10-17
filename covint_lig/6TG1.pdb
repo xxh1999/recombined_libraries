@@ -1,0 +1,136 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6TG1
+MODEL        1
+ATOM      1  N   CYS A 797     -46.291  14.966  -7.037  1.00 27.79           N1+
+ATOM      2  CA  CYS A 797     -46.810  14.288  -8.225  1.00 27.28           C  
+ATOM      3  C   CYS A 797     -46.679  15.183  -9.470  1.00 25.92           C  
+ATOM      4  O   CYS A 797     -46.685  16.413  -9.377  1.00 28.88           O  
+ATOM      5  CB  CYS A 797     -48.266  13.825  -7.995  1.00 28.36           C  
+ATOM      6  SG  CYS A 797     -49.442  15.207  -7.954  1.00 31.59           S  
+TER       7      CYS A 797
+HETATM    8  C4  N82 A1101     -43.573  12.185  -2.231  1.00 27.21           C  
+HETATM    9  C5  N82 A1101     -44.896  11.653  -2.233  1.00 28.56           C  
+HETATM   10  C6  N82 A1101     -44.961  10.228  -2.231  1.00 28.54           C  
+HETATM   11  N1  N82 A1101     -43.798   9.530  -2.225  1.00 28.72           N  
+HETATM   12  N3  N82 A1101     -42.411  11.481  -2.198  1.00 26.29           N  
+HETATM   13  C2  N82 A1101     -42.633  10.171  -2.220  1.00 25.86           C  
+HETATM   14  CAL N82 A1101     -45.018  13.918  -2.284  1.00 32.74           C  
+HETATM   15  CAM N82 A1101     -45.794  12.790  -2.234  1.00 31.67           C  
+HETATM   16  CAN N82 A1101     -47.244  12.726  -2.165  1.00 33.98           C  
+HETATM   17  CAO N82 A1101     -46.300   8.104  -2.106  1.00 30.63           C  
+HETATM   18  CAP N82 A1101     -47.144   7.367  -2.963  1.00 31.87           C  
+HETATM   19  CAQ N82 A1101     -47.276   5.972  -2.808  1.00 32.44           C  
+HETATM   20  CAR N82 A1101     -46.575   5.297  -1.786  1.00 36.80           C  
+HETATM   21  CAS N82 A1101     -45.734   6.028  -0.926  1.00 32.20           C  
+HETATM   22  CAT N82 A1101     -45.612   7.421  -1.076  1.00 32.04           C  
+HETATM   23  CAU N82 A1101     -48.028  13.442  -3.088  1.00 30.29           C  
+HETATM   24  CAV N82 A1101     -49.431  13.438  -2.974  1.00 31.39           C  
+HETATM   25  CAW N82 A1101     -50.071  12.734  -1.926  1.00 36.71           C  
+HETATM   26  CAX N82 A1101     -49.270  12.034  -0.993  1.00 34.74           C  
+HETATM   27  CAY N82 A1101     -47.870  12.030  -1.118  1.00 32.81           C  
+HETATM   28  CAZ N82 A1101     -46.736   3.799  -1.592  1.00 38.82           C  
+HETATM   29  CBA N82 A1101     -46.267   2.585  -3.702  1.00 36.19           C  
+HETATM   30  CBB N82 A1101     -45.129   1.817  -4.254  1.00 32.02           C  
+HETATM   31  CBC N82 A1101     -44.135   1.825  -3.307  1.00 29.19           C  
+HETATM   32  CBD N82 A1101     -44.624   2.605  -2.146  1.00 30.89           C  
+HETATM   33  CBE N82 A1101     -44.999   1.149  -5.481  1.00 33.22           C  
+HETATM   34  CBF N82 A1101     -43.787   0.451  -5.696  1.00 32.89           C  
+HETATM   35  CBG N82 A1101     -42.759   0.458  -4.719  1.00 29.11           C  
+HETATM   36  CBH N82 A1101     -42.915   1.164  -3.504  1.00 29.90           C  
+HETATM   37  CBI N82 A1101     -52.095  11.619  -1.329  1.00 40.82           C  
+HETATM   38  CBJ N82 A1101     -53.616  11.814  -1.335  1.00 53.18           C  
+HETATM   39  CBK N82 A1101     -54.154  13.105  -3.376  1.00 53.08           C  
+HETATM   40  CBL N82 A1101     -55.587  11.248  -2.688  1.00 53.45           C  
+HETATM   41  CBM N82 A1101     -50.608  13.610  -5.085  1.00 34.11           C  
+HETATM   42  CBN N82 A1101     -51.366  14.545  -6.031  1.00 32.72           C  
+HETATM   43  CBO N82 A1101     -50.989  14.369  -7.512  1.00 34.88           C  
+HETATM   44  NAC N82 A1101     -43.688  13.554  -2.277  1.00 32.74           N  
+HETATM   45  NAD N82 A1101     -46.157   9.492  -2.286  1.00 29.31           N  
+HETATM   46  NAE N82 A1101     -50.188  14.147  -3.930  1.00 31.95           N  
+HETATM   47  NAF N82 A1101     -45.880   3.006  -2.471  1.00 30.52           N  
+HETATM   48  NAG N82 A1101     -54.210  11.790  -2.695  1.00 50.70           N1+
+HETATM   49  OBP N82 A1101     -51.444  12.770  -1.852  1.00 41.09           O  
+HETATM   50  OBQ N82 A1101     -47.340   2.768  -4.269  1.00 35.66           O  
+HETATM   51  OBR N82 A1101     -43.991   2.825  -1.114  1.00 34.27           O  
+HETATM   52  OBS N82 A1101     -50.434  12.427  -5.380  1.00 38.64           O  
+CONECT    8    9   12   44
+CONECT    8    9
+CONECT    9    8   10   15
+CONECT    9    8
+CONECT   10    9   11   45
+CONECT   10   11
+CONECT   11   10   13
+CONECT   11   10
+CONECT   12    8   13
+CONECT   12   13
+CONECT   13   11   12
+CONECT   13   12
+CONECT   14   15   44
+CONECT   14   15
+CONECT   15    9   14   16
+CONECT   15   14
+CONECT   16   15   23   27
+CONECT   16   27
+CONECT   17   18   22   45
+CONECT   17   22
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   19   21   28
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   17   21
+CONECT   22   17
+CONECT   23   16   24
+CONECT   23   24
+CONECT   24   23   25   46
+CONECT   24   23
+CONECT   25   24   26   49
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   16   26
+CONECT   27   16
+CONECT   28   20   47
+CONECT   29   30   47   50
+CONECT   29   50
+CONECT   30   29   31   33
+CONECT   30   31
+CONECT   31   30   32   36
+CONECT   31   30
+CONECT   32   31   47   51
+CONECT   32   51
+CONECT   33   30   34
+CONECT   33   34
+CONECT   34   33   35
+CONECT   34   33
+CONECT   35   34   36
+CONECT   35   36
+CONECT   36   31   35
+CONECT   36   35
+CONECT   37   38   49
+CONECT   38   37   48
+CONECT   39   48
+CONECT   40   48
+CONECT   41   42   46   52
+CONECT   41   52
+CONECT   42   41   43
+CONECT   43    6   42
+CONECT   44    8   14
+CONECT   45   10   17
+CONECT   46   24   41
+CONECT   47   28   29   32
+CONECT   48   38   39   40
+CONECT   49   25   37
+CONECT   50   29
+CONECT   50   29
+CONECT   51   32
+CONECT   51   32
+CONECT   52   41
+CONECT   52   41
+ENDMDL
+END   

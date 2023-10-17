@@ -1,0 +1,59 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7BKH
+MODEL        1
+ATOM      1  N   LYS A 122     -15.604 -24.769  -8.047  1.00 11.27           N1+
+ATOM      2  CA  LYS A 122     -16.580 -23.735  -8.384  1.00 10.59           C  
+ATOM      3  C   LYS A 122     -15.954 -22.346  -8.261  1.00 11.51           C  
+ATOM      4  O   LYS A 122     -16.150 -21.491  -9.131  1.00 11.26           O  
+ATOM      5  CB  LYS A 122     -17.801 -23.873  -7.462  1.00 12.47           C  
+ATOM      6  CG  LYS A 122     -18.868 -22.799  -7.678  1.00 11.75           C  
+ATOM      7  CD  LYS A 122     -20.007 -22.940  -6.676  1.00 12.67           C  
+ATOM      8  CE  LYS A 122     -20.931 -21.735  -6.685  1.00 14.84           C  
+ATOM      9  NZ  LYS A 122     -21.936 -21.877  -5.596  1.00 17.72           N1+
+TER      10      LYS A 122
+HETATM   11  C10 U1B A 301     -21.524 -21.265  -4.377  1.00 22.83           C  
+HETATM   12  C13 U1B A 301     -24.583 -22.006  -2.239  1.00 20.93           C  
+HETATM   13  C02 U1B A 301     -21.397 -17.515   0.848  1.00 45.87           C  
+HETATM   14  C03 U1B A 301     -21.665 -17.967   2.205  1.00 40.06           C  
+HETATM   15  C04 U1B A 301     -22.621 -19.041   2.354  1.00 34.47           C  
+HETATM   16  C05 U1B A 301     -22.453 -20.081   1.264  1.00 41.68           C  
+HETATM   17  C07 U1B A 301     -23.189 -20.373  -1.156  1.00 25.19           C  
+HETATM   18  C08 U1B A 301     -22.299 -20.433  -2.201  1.00 19.22           C  
+HETATM   19  C09 U1B A 301     -22.550 -21.266  -3.265  1.00 21.11           C  
+HETATM   20  C12 U1B A 301     -23.687 -22.067  -3.295  1.00 22.83           C  
+HETATM   21  C14 U1B A 301     -24.335 -21.165  -1.165  1.00 22.53           C  
+HETATM   22  C18 U1B A 301     -21.844 -18.376  -0.343  1.00 40.79           C  
+HETATM   23  N06 U1B A 301     -22.858 -19.478  -0.068  1.00 27.85           N  
+HETATM   24  N15 U1B A 301     -25.305 -21.126  -0.089  1.00 32.42           N1+
+HETATM   25  O01 U1B A 301     -22.040 -16.278   0.722  1.00 50.80           O  
+HETATM   26  O16 U1B A 301     -26.215 -22.174   0.048  1.00 30.54           O1-
+HETATM   27  O17 U1B A 301     -25.365 -20.212   0.648  1.00 52.07           O  
+CONECT   11    9   19
+CONECT   12   20   21
+CONECT   12   21
+CONECT   13   14   22   25
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   15   23
+CONECT   17   18   21   23
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   11   18   20
+CONECT   19   20
+CONECT   20   12   19
+CONECT   20   19
+CONECT   21   12   17   24
+CONECT   21   12
+CONECT   22   13   23
+CONECT   23   16   17   22
+CONECT   24   21   26   27
+CONECT   24   27
+CONECT   25   13
+CONECT   26   24
+CONECT   27   24
+CONECT   27   24
+ENDMDL
+END   

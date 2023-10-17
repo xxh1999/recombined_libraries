@@ -1,0 +1,61 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4BWL
+MODEL        1
+ATOM      1  N   LYS A 165       9.669 -21.306  33.666  1.00 19.00           N1+
+ATOM      2  CA  LYS A 165       8.255 -21.151  33.361  1.00 18.65           C  
+ATOM      3  C   LYS A 165       8.134 -19.911  32.473  1.00 18.90           C  
+ATOM      4  O   LYS A 165       8.258 -18.777  32.937  1.00 17.88           O  
+ATOM      5  CB  LYS A 165       7.447 -20.953  34.653  1.00 18.25           C  
+ATOM      6  CG  LYS A 165       5.935 -20.969  34.386  1.00 19.60           C  
+ATOM      7  CD  LYS A 165       5.146 -20.184  35.426  1.00 19.71           C  
+ATOM      8  CE  LYS A 165       3.683 -20.618  35.428  1.00 21.20           C  
+ATOM      9  NZ  LYS A 165       2.937 -19.679  36.233  1.00 24.20           N1+
+TER      10      LYS A 165
+HETATM   11  O1A SI3 A1165      -0.010 -19.287  38.163  1.00 26.42           O1-
+HETATM   12  C1  SI3 A1165       1.204 -19.316  37.892  1.00 27.54           C  
+HETATM   13  O1B SI3 A1165       2.081 -18.726  38.566  1.00 28.58           O  
+HETATM   14  C2  SI3 A1165       1.652 -20.186  36.702  1.00 25.76           C  
+HETATM   15  C3  SI3 A1165       0.579 -20.318  35.569  1.00 27.57           C  
+HETATM   16  C4  SI3 A1165       0.445 -19.080  34.647  1.00 26.40           C  
+HETATM   17  O4  SI3 A1165       1.193 -19.359  33.484  1.00 23.95           O  
+HETATM   18  C5  SI3 A1165      -0.995 -18.636  34.258  1.00 26.89           C  
+HETATM   19  N5  SI3 A1165      -0.902 -17.236  33.839  1.00 28.27           N  
+HETATM   20  C10 SI3 A1165      -1.704 -16.232  34.220  1.00 30.91           C  
+HETATM   21  C11 SI3 A1165      -1.428 -14.874  33.586  1.00 31.70           C  
+HETATM   22  O10 SI3 A1165      -2.636 -16.370  35.009  1.00 31.91           O  
+HETATM   23  C6  SI3 A1165      -1.707 -19.460  33.144  1.00 24.99           C  
+HETATM   24  O6  SI3 A1165      -1.816 -20.821  33.505  1.00 25.83           O  
+HETATM   25  C7  SI3 A1165      -3.097 -18.912  32.696  1.00 23.99           C  
+HETATM   26  O7  SI3 A1165      -3.946 -18.749  33.817  1.00 23.56           O  
+HETATM   27  C8  SI3 A1165      -3.812 -19.755  31.616  1.00 23.13           C  
+HETATM   28  O8  SI3 A1165      -2.914 -19.997  30.561  1.00 22.13           O  
+HETATM   29  C9  SI3 A1165      -5.097 -19.121  31.041  1.00 22.89           C  
+HETATM   30  O9  SI3 A1165      -4.874 -17.822  30.526  1.00 20.05           O  
+CONECT   11   12
+CONECT   12   11   13   14
+CONECT   12   13
+CONECT   13   12
+CONECT   13   12
+CONECT   14    9   12   15
+CONECT   15   14   16
+CONECT   16   15   17   18
+CONECT   17   16
+CONECT   18   16   19   23
+CONECT   19   18   20
+CONECT   20   19   21   22
+CONECT   20   22
+CONECT   21   20
+CONECT   22   20
+CONECT   22   20
+CONECT   23   18   24   25
+CONECT   24   23
+CONECT   25   23   26   27
+CONECT   26   25
+CONECT   27   25   28   29
+CONECT   28   27
+CONECT   29   27   30
+CONECT   30   29
+ENDMDL
+END   

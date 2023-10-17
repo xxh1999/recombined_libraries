@@ -1,0 +1,84 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4fz6_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  Q0V A 701       0.097  19.661  42.900  1.00  0.00           C  
+HETATM    2  N2  Q0V A 701       0.866  19.973  41.802  1.00  0.00           N  
+HETATM    3  C3  Q0V A 701       0.079  18.344  43.408  1.00  0.00           C  
+HETATM    4  N4  Q0V A 701       1.613  18.989  41.171  1.00  0.00           N  
+HETATM    5  C5  Q0V A 701       0.833  17.393  42.756  1.00  0.00           C  
+HETATM    6  C6  Q0V A 701       1.601  17.748  41.613  1.00  0.00           C  
+HETATM    7  N7  Q0V A 701      -0.437  15.777  44.844  1.00  0.00           N  
+HETATM    8  C8  Q0V A 701      -0.628  14.639  45.508  1.00  0.00           C  
+HETATM    9  N9  Q0V A 701      -0.055  13.451  45.033  1.00  0.00           N  
+HETATM   10  N10 Q0V A 701      -0.523  20.761  43.286  1.00  0.00           N  
+HETATM   11  N11 Q0V A 701      -0.737  18.120  44.534  1.00  0.00           N  
+HETATM   12  C12 Q0V A 701      -0.945  16.938  45.242  1.00  0.00           C  
+HETATM   13  C13 Q0V A 701       0.684  21.291  41.528  1.00  0.00           C  
+HETATM   14  C14 Q0V A 701      -0.182  21.753  42.461  1.00  0.00           C  
+HETATM   15  C15 Q0V A 701       2.412  16.765  40.839  1.00  0.00           C  
+HETATM   16  C16 Q0V A 701       0.674  13.406  43.736  1.00  0.00           C  
+HETATM   17  C17 Q0V A 701      -0.562  12.094  45.389  1.00  0.00           C  
+HETATM   18  C18 Q0V A 701      -1.397  14.634  46.677  1.00  0.00           C  
+HETATM   19  C19 Q0V A 701      -1.721  16.994  46.403  1.00  0.00           C  
+HETATM   20  C20 Q0V A 701      -1.950  15.829  47.130  1.00  0.00           C  
+HETATM   21  C21 Q0V A 701       0.273  11.124  44.531  1.00  0.00           C  
+HETATM   22  C22 Q0V A 701       0.597  11.936  43.260  1.00  0.00           C  
+HETATM   23  C23 Q0V A 701       3.606  17.166  40.211  1.00  0.00           C  
+HETATM   24  C24 Q0V A 701       1.952  15.454  40.675  1.00  0.00           C  
+HETATM   25  C25 Q0V A 701       2.134  13.836  43.937  1.00  0.00           C  
+HETATM   26  C26 Q0V A 701       4.342  16.260  39.464  1.00  0.00           C  
+HETATM   27  C27 Q0V A 701       2.699  14.552  39.929  1.00  0.00           C  
+HETATM   28  C28 Q0V A 701       3.885  14.955  39.327  1.00  0.00           C  
+CONECT    1    2    3   10
+CONECT    1   10
+CONECT    2    1    4   13
+CONECT    3    1    5   11
+CONECT    3    5
+CONECT    4    2    6
+CONECT    4    6
+CONECT    5    3    6
+CONECT    5    3
+CONECT    6    4    5   15
+CONECT    6    4
+CONECT    7    8   12
+CONECT    7    8
+CONECT    8    7    9   18
+CONECT    8    7
+CONECT    9    8   16   17
+CONECT   10    1   14
+CONECT   10    1
+CONECT   11    3   12
+CONECT   12    7   11   19
+CONECT   12   19
+CONECT   13    2   14
+CONECT   13   14
+CONECT   14   10   13
+CONECT   14   13
+CONECT   15    6   23   24
+CONECT   15   23
+CONECT   16    9   22   25
+CONECT   17    9   21
+CONECT   18    8   20
+CONECT   18   20
+CONECT   19   12   20
+CONECT   19   12
+CONECT   20   18   19
+CONECT   20   18
+CONECT   21   17   22
+CONECT   22   16   21
+CONECT   23   15   26
+CONECT   23   15
+CONECT   24   15   27
+CONECT   24   27
+CONECT   25   16
+CONECT   26   23   28
+CONECT   26   28
+CONECT   27   24   28
+CONECT   27   24
+CONECT   28   26   27
+CONECT   28   26
+ENDMDL
+END   

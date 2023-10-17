@@ -1,0 +1,122 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6UT0
+MODEL        1
+ATOM      1  N   CYS A  12      34.362   6.860  35.650  1.00 17.05           N1+
+ATOM      2  CA  CYS A  12      35.287   5.812  36.133  1.00 19.52           C  
+ATOM      3  C   CYS A  12      34.625   5.108  37.312  1.00 18.65           C  
+ATOM      4  O   CYS A  12      34.091   5.811  38.157  1.00 16.50           O  
+ATOM      5  CB  CYS A  12      36.615   6.419  36.571  1.00 20.18           C  
+ATOM      6  SG  CYS A  12      37.550   7.087  35.179  1.00 23.81           S  
+TER       7      CYS A  12
+HETATM    8  N5  M1X A 203      35.496  11.307  30.601  1.00 17.55           N  
+HETATM    9  C13 M1X A 203      37.987   8.249  31.729  1.00 19.16           C  
+HETATM   10  C12 M1X A 203      37.181   9.498  31.402  1.00 19.17           C  
+HETATM   11  C17 M1X A 203      37.109   5.957  32.328  1.00 19.82           C  
+HETATM   12  C16 M1X A 203      36.252   8.125  29.476  1.00 17.50           C  
+HETATM   13  C15 M1X A 203      36.030   7.141  30.578  1.00 18.81           C  
+HETATM   14  N3  M1X A 203      34.200  12.623  29.146  1.00 19.16           N1+
+HETATM   15  C10 M1X A 203      34.027  12.149  26.736  1.00 19.06           C  
+HETATM   16  C8  M1X A 203      35.821  10.598  25.922  1.00 21.36           C  
+HETATM   17  C22 M1X A 203      34.471  12.725  22.424  1.00 25.95           C  
+HETATM   18  C7  M1X A 203      35.854   9.760  27.192  1.00 19.16           C  
+HETATM   19  C6  M1X A 203      35.871  10.494  29.613  1.00 19.74           C  
+HETATM   20  C1  M1X A 203      35.411  10.693  28.312  1.00 18.69           C  
+HETATM   21  C4  M1X A 203      34.698  12.346  30.364  1.00 19.16           C  
+HETATM   22  C19 M1X A 203      38.344   5.516  33.123  1.00 21.34           C  
+HETATM   23  C20 M1X A 203      33.972  11.527  24.485  1.00 23.59           C  
+HETATM   24  C21 M1X A 203      34.869  12.266  23.693  1.00 24.49           C  
+HETATM   25  C2  M1X A 203      34.562  11.820  28.123  1.00 20.12           C  
+HETATM   26  N9  M1X A 203      34.430  11.100  25.782  1.00 21.89           N  
+HETATM   27  N11 M1X A 203      36.745   9.404  29.989  1.00 19.37           N  
+HETATM   28  N14 M1X A 203      37.118   7.069  31.563  1.00 18.53           N  
+HETATM   29  O18 M1X A 203      36.170   5.177  32.191  1.00 18.79           O  
+HETATM   30  C23 M1X A 203      33.164  12.456  21.978  1.00 26.86           C  
+HETATM   31  C24 M1X A 203      32.262  11.723  22.782  1.00 26.88           C  
+HETATM   32  C25 M1X A 203      32.651  11.247  24.050  1.00 24.94           C  
+HETATM   33  C26 M1X A 203      30.972  11.475  22.286  1.00 25.15           C  
+HETATM   34  C27 M1X A 203      30.029  10.769  23.030  1.00 24.65           C  
+HETATM   35  C28 M1X A 203      30.390  10.291  24.293  1.00 25.06           C  
+HETATM   36  C29 M1X A 203      31.681  10.520  24.794  1.00 26.86           C  
+HETATM   37  O30 M1X A 203      34.414  13.173  31.418  1.00 19.72           O  
+HETATM   38  C31 M1X A 203      34.842  12.877  32.722  1.00 21.61           C  
+HETATM   39  C32 M1X A 203      34.408  14.024  33.682  1.00 20.83           C  
+HETATM   40  N33 M1X A 203      34.935  15.316  33.095  1.00 24.07           N1+
+HETATM   41  C34 M1X A 203      33.805  16.102  32.434  1.00 22.81           C  
+HETATM   42  C35 M1X A 203      32.556  15.678  33.205  1.00 20.94           C  
+HETATM   43  C36 M1X A 203      32.879  14.256  33.667  1.00 21.38           C  
+HETATM   44  C37 M1X A 203      35.524  16.144  34.228  1.00 27.47           C  
+HETATM   45  C38 M1X A 203      34.737   7.565  31.261  1.00 16.62           C  
+HETATM   46  C39 M1X A 203      38.082   5.626  34.637  1.00 20.12           C  
+HETATM   47  C40 M1X A 203      33.673   7.359  30.245  1.00 16.41           C  
+HETATM   48  N41 M1X A 203      32.788   7.134  29.532  1.00 15.59           N  
+HETATM   49 CL1  M1X A 203      31.964   9.817  26.371  1.00 36.86          Cl  
+HETATM   50  F42 M1X A 203      39.444   6.219  32.755  1.00 22.08           F  
+CONECT    8   19   21
+CONECT    8   19
+CONECT    9   10   28
+CONECT   10    9   27
+CONECT   11   22   28   29
+CONECT   11   29
+CONECT   12   13   27
+CONECT   13   12   28   45
+CONECT   14   21   25
+CONECT   14   21
+CONECT   15   25   26
+CONECT   16   18   26
+CONECT   17   24   30
+CONECT   17   30
+CONECT   18   16   20
+CONECT   19    8   20   27
+CONECT   19    8
+CONECT   20   18   19   25
+CONECT   20   25
+CONECT   21    8   14   37
+CONECT   21   14
+CONECT   22   11   46   50
+CONECT   23   24   26   32
+CONECT   23   24
+CONECT   24   17   23
+CONECT   24   23
+CONECT   25   14   15   20
+CONECT   25   20
+CONECT   26   15   16   23
+CONECT   27   10   12   19
+CONECT   28    9   11   13
+CONECT   29   11
+CONECT   29   11
+CONECT   30   17   31
+CONECT   30   17
+CONECT   31   30   32   33
+CONECT   31   33
+CONECT   32   23   31   36
+CONECT   32   36
+CONECT   33   31   34
+CONECT   33   31
+CONECT   34   33   35
+CONECT   34   35
+CONECT   35   34   36
+CONECT   35   34
+CONECT   36   32   35   49
+CONECT   36   32
+CONECT   37   21   38
+CONECT   38   37   39
+CONECT   39   38   40   43
+CONECT   40   39   41   44
+CONECT   41   40   42
+CONECT   42   41   43
+CONECT   43   39   42
+CONECT   44   40
+CONECT   45   13   47
+CONECT   46    6   22
+CONECT   47   45   48
+CONECT   47   48
+CONECT   47   48
+CONECT   48   47
+CONECT   48   47
+CONECT   48   47
+CONECT   49   36
+CONECT   50   22
+ENDMDL
+END   

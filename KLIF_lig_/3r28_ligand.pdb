@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3r28_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N01 XA0 A 782      -1.594  17.335  43.939  1.00  0.00           N  
+HETATM    2  N02 XA0 A 782       0.250  20.525  42.053  1.00  0.00           N  
+HETATM    3  N03 XA0 A 782       2.613  16.350  40.580  1.00  0.00           N1+
+HETATM    4  C04 XA0 A 782       1.274  17.905  41.721  1.00  0.00           C  
+HETATM    5  C05 XA0 A 782       0.179  18.194  42.600  1.00  0.00           C  
+HETATM    6  C06 XA0 A 782      -0.592  17.104  43.145  1.00  0.00           C  
+HETATM    7  C07 XA0 A 782      -0.234  15.766  42.807  1.00  0.00           C  
+HETATM    8  C08 XA0 A 782       0.843  15.477  41.951  1.00  0.00           C  
+HETATM    9  C09 XA0 A 782       1.621  16.555  41.380  1.00  0.00           C  
+HETATM   10  C10 XA0 A 782      -0.112  19.512  42.908  1.00  0.00           C  
+HETATM   11  C11 XA0 A 782      -2.770  16.425  44.071  1.00  0.00           C  
+HETATM   12  C12 XA0 A 782      -2.572  15.489  45.245  1.00  0.00           C  
+HETATM   13  C13 XA0 A 782      -2.858  14.102  45.104  1.00  0.00           C  
+HETATM   14  C14 XA0 A 782      -2.665  13.219  46.203  1.00  0.00           C  
+HETATM   15  C15 XA0 A 782      -2.185  13.722  47.443  1.00  0.00           C  
+HETATM   16  C16 XA0 A 782      -1.896  15.107  47.580  1.00  0.00           C  
+HETATM   17  C17 XA0 A 782      -2.090  15.989  46.485  1.00  0.00           C  
+HETATM   18  O18 XA0 A 782      -0.670  19.791  43.952  1.00  0.00           O  
+HETATM   19  O19 XA0 A 782       3.656  17.158  40.578  1.00  0.00           O1-
+HETATM   20  O20 XA0 A 782       2.592  15.355  39.709  1.00  0.00           O  
+HETATM   21 CL21 XA0 A 782       1.171  13.810  41.637  1.00  0.00          Cl  
+HETATM   22  F22 XA0 A 782      -1.445  15.574  48.721  1.00  0.00           F  
+HETATM   23  F23 XA0 A 782      -2.928  11.931  46.068  1.00  0.00           F  
+HETATM   24  F24 XA0 A 782      -2.003  12.902  48.473  1.00  0.00           F  
+CONECT    1    6   11
+CONECT    2   10
+CONECT    3    9   19   20
+CONECT    3   20
+CONECT    4    5    9
+CONECT    4    9
+CONECT    5    4    6   10
+CONECT    5    6
+CONECT    6    1    5    7
+CONECT    6    5
+CONECT    7    6    8
+CONECT    7    8
+CONECT    8    7    9   21
+CONECT    8    7
+CONECT    9    3    4    8
+CONECT    9    4
+CONECT   10    2    5   18
+CONECT   10   18
+CONECT   11    1   12
+CONECT   12   11   13   17
+CONECT   12   17
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15   23
+CONECT   14   13
+CONECT   15   14   16   24
+CONECT   15   16
+CONECT   16   15   17   22
+CONECT   16   15
+CONECT   17   12   16
+CONECT   17   12
+CONECT   18   10
+CONECT   18   10
+CONECT   19    3
+CONECT   20    3
+CONECT   20    3
+CONECT   21    8
+CONECT   22   16
+CONECT   23   14
+CONECT   24   15
+ENDMDL
+END   

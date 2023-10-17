@@ -1,0 +1,126 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4nwm_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C16 Q2P B 701       2.630  13.143  43.089  1.00  0.00           C  
+HETATM    2  C17 Q2P B 701       2.006  14.351  43.490  1.00  0.00           C  
+HETATM    3  C20 Q2P B 701       5.005  14.368  36.559  1.00  0.00           C  
+HETATM    4  C24 Q2P B 701       2.595  13.886  36.553  1.00  0.00           C  
+HETATM    5  C8  Q2P B 701      -3.021  15.838  48.348  1.00  0.00           C  
+HETATM    6  C10 Q2P B 701      -1.878  14.137  47.002  1.00  0.00           C  
+HETATM    7  C21 Q2P B 701       5.007  14.324  35.168  1.00  0.00           C  
+HETATM    8  C23 Q2P B 701       2.613  13.844  35.160  1.00  0.00           C  
+HETATM    9  C15 Q2P B 701       2.870  12.887  41.717  1.00  0.00           C  
+HETATM   10  C7  Q2P B 701      -2.603  16.853  47.493  1.00  0.00           C  
+HETATM   11  C11 Q2P B 701      -1.442  15.155  46.125  1.00  0.00           C  
+HETATM   12  C5  Q2P B 701      -0.012  20.895  43.229  1.00  0.00           C  
+HETATM   13  C12 Q2P B 701       1.601  15.304  42.513  1.00  0.00           C  
+HETATM   14  C9  Q2P B 701      -2.686  14.499  48.116  1.00  0.00           C  
+HETATM   15  C19 Q2P B 701       3.795  14.161  37.256  1.00  0.00           C  
+HETATM   16  C22 Q2P B 701       3.811  14.070  34.426  1.00  0.00           C  
+HETATM   17  C13 Q2P B 701       1.815  15.063  41.136  1.00  0.00           C  
+HETATM   18  C3  Q2P B 701      -0.212  18.833  43.893  1.00  0.00           C  
+HETATM   19  C6  Q2P B 701      -1.815  16.537  46.382  1.00  0.00           C  
+HETATM   20  C14 Q2P B 701       2.485  13.846  40.770  1.00  0.00           C  
+HETATM   21  C2  Q2P B 701       0.720  18.824  42.842  1.00  0.00           C  
+HETATM   22  C4  Q2P B 701      -0.527  17.575  44.484  1.00  0.00           C  
+HETATM   23  C1  Q2P B 701       0.963  16.570  42.986  1.00  0.00           C  
+HETATM   24  C25 Q2P B 701      -3.222  13.448  49.053  1.00  0.00           C  
+HETATM   25  C18 Q2P B 701       3.796  14.343  38.734  1.00  0.00           C  
+HETATM   26  C27 Q2P B 701      -5.626  14.239  48.714  1.00  0.00           C  
+HETATM   27  C30 Q2P B 701      -5.066  12.414  50.389  1.00  0.00           C  
+HETATM   28  C28 Q2P B 701      -6.932  13.517  48.528  1.00  0.00           C  
+HETATM   29  C29 Q2P B 701      -6.423  11.848  50.049  1.00  0.00           C  
+HETATM   30  C26 Q2P B 701       1.265  15.995  40.042  1.00  0.00           C  
+HETATM   31  C32 Q2P B 701       4.147  12.621  32.459  1.00  0.00           C  
+HETATM   32  C33 Q2P B 701       4.907  14.975  32.322  1.00  0.00           C  
+HETATM   33  C34 Q2P B 701       2.507  14.437  32.243  1.00  0.00           C  
+HETATM   34  C31 Q2P B 701       3.836  14.049  32.898  1.00  0.00           C  
+HETATM   35  N4  Q2P B 701      -0.654  20.125  44.144  1.00  0.00           N  
+HETATM   36  N2  Q2P B 701       1.357  17.708  42.368  1.00  0.00           N  
+HETATM   37  N1  Q2P B 701       0.037  16.429  44.014  1.00  0.00           N  
+HETATM   38  N3  Q2P B 701       0.845  20.134  42.416  1.00  0.00           N  
+HETATM   39  N7  Q2P B 701      -4.616  13.340  49.325  1.00  0.00           N  
+HETATM   40  N5  Q2P B 701      -1.343  17.603  45.559  1.00  0.00           N  
+HETATM   41  N6  Q2P B 701       2.761  13.720  39.385  1.00  0.00           N  
+HETATM   42  O2  Q2P B 701      -2.418  12.734  49.638  1.00  0.00           O  
+HETATM   43  O1  Q2P B 701       4.653  14.972  39.331  1.00  0.00           O  
+HETATM   44  O3  Q2P B 701      -7.345  12.879  49.728  1.00  0.00           O  
+CONECT    1    2    9
+CONECT    1    2
+CONECT    2    1   13
+CONECT    2    1
+CONECT    3    7   15
+CONECT    3   15
+CONECT    4    8   15
+CONECT    4    8
+CONECT    5   10   14
+CONECT    5   14
+CONECT    6   11   14
+CONECT    6   11
+CONECT    7    3   16
+CONECT    7   16
+CONECT    8    4   16
+CONECT    8    4
+CONECT    9    1   20
+CONECT    9   20
+CONECT   10    5   19
+CONECT   10   19
+CONECT   11    6   19
+CONECT   11    6
+CONECT   12   35   38
+CONECT   12   38
+CONECT   13    2   17   23
+CONECT   13   17
+CONECT   14    5    6   24
+CONECT   14    5
+CONECT   15    3    4   25
+CONECT   15    3
+CONECT   16    7    8   34
+CONECT   16    7
+CONECT   17   13   20   30
+CONECT   17   13
+CONECT   18   21   22   35
+CONECT   18   21
+CONECT   19   10   11   40
+CONECT   19   10
+CONECT   20    9   17   41
+CONECT   20    9
+CONECT   21   18   36   38
+CONECT   21   18
+CONECT   22   18   37   40
+CONECT   22   37
+CONECT   23   13   36   37
+CONECT   23   36
+CONECT   24   14   39   42
+CONECT   24   42
+CONECT   25   15   41   43
+CONECT   25   43
+CONECT   26   28   39
+CONECT   27   29   39
+CONECT   28   26   44
+CONECT   29   27   44
+CONECT   30   17
+CONECT   31   34
+CONECT   32   34
+CONECT   33   34
+CONECT   34   16   31   32   33
+CONECT   35   12   18
+CONECT   36   21   23
+CONECT   36   23
+CONECT   37   22   23
+CONECT   37   22
+CONECT   38   12   21
+CONECT   38   12
+CONECT   39   24   26   27
+CONECT   40   19   22
+CONECT   41   20   25
+CONECT   42   24
+CONECT   42   24
+CONECT   43   25
+CONECT   43   25
+CONECT   44   28   29
+ENDMDL
+END   

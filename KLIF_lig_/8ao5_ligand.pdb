@@ -1,0 +1,47 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     8ao5_ligand
+MODEL        1
+HETATM    1  C1    * A   0       0.422  18.088  37.235  1.00  0.00           C  
+HETATM    2  C2    * A   0       0.472  16.640  37.598  1.00  0.00           C  
+HETATM    3  C7    * A   0       2.824  16.968  40.688  1.00  0.00           C  
+HETATM    4  C8    * A   0       2.126  18.158  41.295  1.00  0.00           C  
+HETATM    5  C10   * A   0       1.685  20.527  41.352  1.00  0.00           C  
+HETATM    6  C11   * A   0       0.824  20.329  42.437  1.00  0.00           C  
+HETATM    7  C15   * A   0      -0.265  19.247  43.974  1.00  0.00           C  
+HETATM    8  C16   * A   0       0.606  19.083  42.951  1.00  0.00           C  
+HETATM    9  S3    * A   0       2.065  16.196  38.256  1.00  0.00           S2+
+HETATM   10  O4    * A   0       2.963  17.281  37.980  1.00  0.00           O1-
+HETATM   11  O5    * A   0       2.384  14.871  37.809  1.00  0.00           O1-
+HETATM   12  N6    * A   0       1.929  16.148  39.863  1.00  0.00           N  
+HETATM   13  C9    * A   0       2.329  19.439  40.792  1.00  0.00           C  
+HETATM   14  N12   * A   0       0.081  21.195  43.163  1.00  0.00           N  
+HETATM   15  N14   * A   0      -0.604  20.522  44.129  1.00  0.00           N  
+HETATM   16  C17   * A   0       1.264  17.986  42.374  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    9
+CONECT    3    4   12
+CONECT    4    3   13   16
+CONECT    4   13
+CONECT    5    6   13
+CONECT    5    6
+CONECT    6    5    8   14
+CONECT    6    5
+CONECT    7    8   15
+CONECT    7   15
+CONECT    8    6    7   16
+CONECT    8   16
+CONECT    9    2   10   11   12
+CONECT   10    9
+CONECT   11    9
+CONECT   12    3    9
+CONECT   13    4    5
+CONECT   13    4
+CONECT   14    6   15
+CONECT   15    7   14
+CONECT   15    7
+CONECT   16    4    8
+CONECT   16    8
+ENDMDL
+END   

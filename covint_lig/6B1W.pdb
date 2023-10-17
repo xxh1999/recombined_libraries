@@ -1,0 +1,64 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6B1W
+MODEL        1
+ATOM      1  N   SER A  70       6.362   1.881  -3.103  1.00  7.61           N1+
+ATOM      2  CA  SER A  70       6.002   0.509  -3.472  1.00  7.38           C  
+ATOM      3  C   SER A  70       4.526   0.187  -3.166  1.00  7.12           C  
+ATOM      4  O   SER A  70       4.038  -0.837  -3.638  1.00  7.78           O  
+ATOM      5  CB  SER A  70       6.840  -0.496  -2.651  1.00  7.34           C  
+ATOM      6  OG  SER A  70       8.175  -0.648  -3.119  1.00  7.87           O  
+TER       7      SER A  70
+HETATM    8  NAR C8V A 304      11.685  -3.659  -2.645  1.00 11.08           N  
+HETATM    9  CAV C8V A 304      11.707  -2.404  -2.765  1.00 11.08           C  
+HETATM   10  CAK C8V A 304      12.783  -1.568  -2.072  1.00 11.42           C  
+HETATM   11  CB  C8V A 304      12.335  -0.140  -1.720  1.00 11.33           C  
+HETATM   12  CAN C8V A 304      10.692  -1.658  -3.639  1.00 10.64           C  
+HETATM   13  N   C8V A 304      10.417  -0.289  -3.157  1.00 10.29           N  
+HETATM   14  CAG C8V A 304       9.169   0.141  -2.673  1.00  9.07           C  
+HETATM   15  OAA C8V A 304       8.977   1.135  -1.970  1.00  7.79           O  
+HETATM   16  CA  C8V A 304      11.608   0.521  -2.905  1.00 11.31           C  
+HETATM   17  C   C8V A 304      12.468   0.815  -4.148  1.00 11.99           C  
+HETATM   18  O   C8V A 304      12.037   0.637  -5.289  1.00 10.23           O  
+HETATM   19  NAQ C8V A 304      13.675   1.334  -3.898  1.00 13.33           N  
+HETATM   20  NAP C8V A 304      14.413   1.976  -4.897  1.00 14.77           N  
+HETATM   21  CAT C8V A 304      14.291   3.298  -5.070  1.00 15.87           C  
+HETATM   22  OAB C8V A 304      13.408   3.964  -4.528  1.00 15.05           O  
+HETATM   23  CAW C8V A 304      15.327   3.969  -5.985  1.00 17.01           C  
+HETATM   24  CAJ C8V A 304      16.575   4.404  -5.186  1.00 17.25           C  
+HETATM   25  CAH C8V A 304      16.285   5.623  -4.292  1.00 17.61           C  
+HETATM   26  CAI C8V A 304      15.680   6.774  -5.111  1.00 17.92           C  
+HETATM   27  NAO C8V A 304      14.478   6.326  -5.845  1.00 17.45           N1+
+HETATM   28  CAM C8V A 304      14.743   5.180  -6.748  1.00 17.36           C  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10   12
+CONECT    9    8
+CONECT   10    9   11
+CONECT   11   10   16
+CONECT   12    9   13
+CONECT   13   12   14   16
+CONECT   14    6   13   15
+CONECT   14   15
+CONECT   15   14
+CONECT   15   14
+CONECT   16   11   13   17
+CONECT   17   16   18   19
+CONECT   17   18
+CONECT   18   17
+CONECT   18   17
+CONECT   19   17   20
+CONECT   20   19   21
+CONECT   21   20   22   23
+CONECT   21   22
+CONECT   22   21
+CONECT   22   21
+CONECT   23   21   24   28
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   23   27
+ENDMDL
+END   

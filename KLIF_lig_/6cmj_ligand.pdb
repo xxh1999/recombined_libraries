@@ -1,0 +1,86 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6cmj_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  F6J A 501       2.340  15.394  39.691  1.00  0.00           C  
+HETATM    2  N2  F6J A 501      -0.521  20.553  43.599  1.00  0.00           N  
+HETATM    3  C5  F6J A 501       2.665  17.976  38.065  1.00  0.00           C  
+HETATM    4  C6  F6J A 501       1.953  18.555  39.106  1.00  0.00           C  
+HETATM    5  C7  F6J A 501       2.276  19.791  39.622  1.00  0.00           C  
+HETATM    6  C9  F6J A 501       4.037  19.925  38.022  1.00  0.00           C  
+HETATM    7  C10 F6J A 501       3.722  18.683  37.511  1.00  0.00           C  
+HETATM    8  C11 F6J A 501       4.585  18.200  36.389  1.00  0.00           C  
+HETATM    9  C12 F6J A 501       1.520  20.370  40.720  1.00  0.00           C  
+HETATM   10  C13 F6J A 501       1.312  21.732  40.850  1.00  0.00           C  
+HETATM   11  C15 F6J A 501      -0.664  19.261  43.941  1.00  0.00           C  
+HETATM   12  C16 F6J A 501      -0.122  18.161  43.308  1.00  0.00           C  
+HETATM   13  C18 F6J A 501       0.836  19.741  41.787  1.00  0.00           C  
+HETATM   14  C19 F6J A 501      -0.358  16.771  43.761  1.00  0.00           C  
+HETATM   15  C23 F6J A 501      -0.280  14.380  43.367  1.00  0.00           C  
+HETATM   16  C24 F6J A 501      -0.053  15.678  42.964  1.00  0.00           C  
+HETATM   17  C2  F6J A 501       1.525  15.694  38.460  1.00  0.00           C  
+HETATM   18  C3  F6J A 501       1.346  14.377  37.744  1.00  0.00           C  
+HETATM   19  C4  F6J A 501       2.288  16.627  37.538  1.00  0.00           C  
+HETATM   20  C8  F6J A 501       3.329  20.475  39.061  1.00  0.00           C  
+HETATM   21  O1  F6J A 501       5.132  17.067  36.483  1.00  0.00           O  
+HETATM   22  O2  F6J A 501       4.767  19.000  35.440  1.00  0.00           O1-
+HETATM   23  N1  F6J A 501       0.536  21.949  41.944  1.00  0.00           N  
+HETATM   24  C14 F6J A 501       0.230  20.737  42.512  1.00  0.00           C  
+HETATM   25  C17 F6J A 501       0.649  18.439  42.197  1.00  0.00           C  
+HETATM   26  C20 F6J A 501      -0.923  16.479  44.997  1.00  0.00           C  
+HETATM   27  C21 F6J A 501      -1.169  15.194  45.421  1.00  0.00           C  
+HETATM   28  C22 F6J A 501      -0.844  14.138  44.605  1.00  0.00           C  
+CONECT    1   17
+CONECT    2   11   24
+CONECT    2   11
+CONECT    3    4    7   19
+CONECT    3    4
+CONECT    4    3    5
+CONECT    4    3
+CONECT    5    4    9   20
+CONECT    5   20
+CONECT    6    7   20
+CONECT    6    7
+CONECT    7    3    6    8
+CONECT    7    6
+CONECT    8    7   21   22
+CONECT    8   21
+CONECT    9    5   10   13
+CONECT    9   10
+CONECT   10    9   23
+CONECT   10    9
+CONECT   11    2   12
+CONECT   11    2
+CONECT   12   11   14   25
+CONECT   12   25
+CONECT   13    9   24   25
+CONECT   13   24
+CONECT   14   12   16   26
+CONECT   14   16
+CONECT   15   16   28
+CONECT   15   28
+CONECT   16   14   15
+CONECT   16   14
+CONECT   17    1   18   19
+CONECT   18   17
+CONECT   19    3   17
+CONECT   20    5    6
+CONECT   20    5
+CONECT   21    8
+CONECT   21    8
+CONECT   22    8
+CONECT   23   10   24
+CONECT   24    2   13   23
+CONECT   24   13
+CONECT   25   12   13
+CONECT   25   12
+CONECT   26   14   27
+CONECT   26   27
+CONECT   27   26   28
+CONECT   27   26
+CONECT   28   15   27
+CONECT   28   15
+ENDMDL
+END   

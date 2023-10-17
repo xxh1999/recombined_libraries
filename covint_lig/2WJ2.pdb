@@ -1,0 +1,80 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2WJ2
+MODEL        1
+ATOM      1  N   SER A 241      40.454 -35.635   6.734  1.00 25.35           N1+
+ATOM      2  CA  SER A 241      39.660 -35.558   5.509  1.00 20.24           C  
+ATOM      3  C   SER A 241      39.034 -34.192   5.162  1.00 16.93           C  
+ATOM      4  O   SER A 241      38.558 -34.062   4.038  1.00 23.18           O  
+ATOM      5  CB  SER A 241      38.541 -36.607   5.553  1.00 18.29           C  
+ATOM      6  OG  SER A 241      39.001 -37.955   5.426  1.00 25.16           O  
+TER       7      SER A 241
+HETATM    8  O14 OL1 A1579      39.515 -38.227   7.673  1.00 26.85           O  
+HETATM    9  C13 OL1 A1579      38.913 -38.802   6.545  1.00 32.96           C  
+HETATM   10  C15 OL1 A1579      37.455 -39.113   6.822  1.00 24.64           C  
+HETATM   11  O19 OL1 A1579      37.050 -40.401   7.031  1.00 29.13           O  
+HETATM   12  C18 OL1 A1579      35.726 -40.297   7.387  1.00 28.67           C  
+HETATM   13  C20 OL1 A1579      34.951 -41.490   7.694  1.00 32.42           C  
+HETATM   14  C25 OL1 A1579      35.413 -42.790   7.408  1.00 22.30           C  
+HETATM   15  C24 OL1 A1579      34.586 -43.886   7.725  1.00 38.93           C  
+HETATM   16  C23 OL1 A1579      33.333 -43.639   8.315  1.00 24.30           C  
+HETATM   17  C22 OL1 A1579      32.960 -42.304   8.560  1.00 22.77           C  
+HETATM   18  N21 OL1 A1579      33.746 -41.252   8.258  1.00 11.52           N  
+HETATM   19  C17 OL1 A1579      35.367 -38.979   7.377  1.00 27.10           C  
+HETATM   20  N16 OL1 A1579      36.475 -38.238   7.036  1.00 26.68           N  
+HETATM   21  C12 OL1 A1579      39.715 -40.072   6.194  1.00 11.95           C  
+HETATM   22  C11 OL1 A1579      41.180 -39.744   5.817  1.00 21.82           C  
+HETATM   23  C10 OL1 A1579      42.049 -41.003   5.691  1.00 25.83           C  
+HETATM   24  C9  OL1 A1579      42.559 -41.519   7.043  1.00 13.77           C  
+HETATM   25  C8  OL1 A1579      43.204 -42.906   6.930  1.00 21.68           C  
+HETATM   26  C7  OL1 A1579      43.843 -43.357   8.255  1.00 25.35           C  
+HETATM   27  C3  OL1 A1579      44.297 -44.810   8.311  1.00 22.04           C  
+HETATM   28  C2  OL1 A1579      44.429 -45.607   7.149  1.00 10.11           C  
+HETATM   29  C4  OL1 A1579      44.572 -45.385   9.570  1.00 25.66           C  
+HETATM   30  C5  OL1 A1579      44.954 -46.735   9.673  1.00 15.16           C  
+HETATM   31  C6  OL1 A1579      45.077 -47.524   8.514  1.00 20.44           C  
+HETATM   32  C1  OL1 A1579      44.811 -46.959   7.253  1.00 21.02           C  
+CONECT    8    9
+CONECT    9    6    8   10   21
+CONECT   10    9   11   20
+CONECT   10   20
+CONECT   11   10   12
+CONECT   12   11   13   19
+CONECT   12   19
+CONECT   13   12   14   18
+CONECT   13   18
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   13   17
+CONECT   18   13
+CONECT   19   12   20
+CONECT   19   12
+CONECT   20   10   19
+CONECT   20   10
+CONECT   21    9   22
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   27   26   28   29
+CONECT   27   29
+CONECT   28   27   32
+CONECT   28   32
+CONECT   29   27   30
+CONECT   29   27
+CONECT   30   29   31
+CONECT   30   31
+CONECT   31   30   32
+CONECT   31   30
+CONECT   32   28   31
+CONECT   32   28
+ENDMDL
+END   

@@ -1,0 +1,108 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4fnz_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C17 NZF A1501      -0.121  14.071  42.511  1.00  0.00           C  
+HETATM    2  O1  NZF A1501       0.483  14.105  43.837  1.00  0.00           O  
+HETATM    3  C15 NZF A1501      -0.094  15.007  44.712  1.00  0.00           C  
+HETATM    4  C16 NZF A1501      -0.102  16.372  44.382  1.00  0.00           C  
+HETATM    5  C14 NZF A1501      -0.668  14.587  45.932  1.00  0.00           C  
+HETATM    6  O2  NZF A1501      -0.696  13.270  46.304  1.00  0.00           O  
+HETATM    7  C18 NZF A1501       0.244  12.957  47.354  1.00  0.00           C  
+HETATM    8  C13 NZF A1501      -1.240  15.532  46.780  1.00  0.00           C  
+HETATM    9  O3  NZF A1501      -1.801  15.181  47.964  1.00  0.00           O  
+HETATM   10  C19 NZF A1501      -2.859  16.086  48.302  1.00  0.00           C  
+HETATM   11  C12 NZF A1501      -1.223  16.874  46.433  1.00  0.00           C  
+HETATM   12  C11 NZF A1501      -0.657  17.315  45.250  1.00  0.00           C  
+HETATM   13  N4  NZF A1501      -0.730  18.638  45.034  1.00  0.00           N  
+HETATM   14  C10 NZF A1501       0.002  19.360  44.167  1.00  0.00           C  
+HETATM   15  N3  NZF A1501       0.919  18.811  43.355  1.00  0.00           N  
+HETATM   16  N2  NZF A1501      -0.222  20.691  44.126  1.00  0.00           N  
+HETATM   17  C9  NZF A1501       0.437  21.485  43.295  1.00  0.00           C  
+HETATM   18  C8  NZF A1501       1.393  20.945  42.441  1.00  0.00           C  
+HETATM   19  C7  NZF A1501       1.614  19.570  42.494  1.00  0.00           C  
+HETATM   20  N1  NZF A1501       2.555  18.955  41.659  1.00  0.00           N  
+HETATM   21  C3  NZF A1501       3.302  19.719  40.641  1.00  0.00           C  
+HETATM   22  C2  NZF A1501       2.723  17.478  41.706  1.00  0.00           C  
+HETATM   23  C1  NZF A1501       2.313  16.944  40.338  1.00  0.00           C  
+HETATM   24  C5  NZF A1501       3.102  17.660  39.240  1.00  0.00           C  
+HETATM   25  C4  NZF A1501       2.880  19.189  39.280  1.00  0.00           C  
+HETATM   26  C6  NZF A1501       3.642  19.903  38.144  1.00  0.00           C  
+HETATM   27  O4  NZF A1501       4.864  19.823  37.985  1.00  0.00           O  
+HETATM   28  N5  NZF A1501       2.878  20.629  37.356  1.00  0.00           N  
+HETATM   29  C20 NZF A1501       3.458  21.375  36.237  1.00  0.00           C  
+HETATM   30  C21 NZF A1501       2.473  22.430  35.755  1.00  0.00           C  
+HETATM   31  C27 NZF A1501       2.115  22.520  34.412  1.00  0.00           C  
+HETATM   32  C22 NZF A1501       1.945  23.308  36.685  1.00  0.00           C  
+HETATM   33  C23 NZF A1501       1.046  24.280  36.275  1.00  0.00           C  
+HETATM   34  C24 NZF A1501       0.675  24.389  34.945  1.00  0.00           C  
+HETATM   35  C25 NZF A1501       1.202  23.500  34.021  1.00  0.00           C  
+HETATM   36  O5  NZF A1501       0.850  23.635  32.721  1.00  0.00           O  
+HETATM   37  C26 NZF A1501      -0.286  22.937  32.291  1.00  0.00           C  
+HETATM   38  F2  NZF A1501      -1.371  23.437  32.885  1.00  0.00           F  
+HETATM   39  F3  NZF A1501      -0.331  23.195  30.982  1.00  0.00           F  
+HETATM   40  F1  NZF A1501      -0.159  21.606  32.522  1.00  0.00           F  
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4    5
+CONECT    3    5
+CONECT    4    3   12
+CONECT    4   12
+CONECT    5    3    6    8
+CONECT    5    3
+CONECT    6    5    7
+CONECT    7    6
+CONECT    8    5    9   11
+CONECT    8   11
+CONECT    9    8   10
+CONECT   10    9
+CONECT   11    8   12
+CONECT   11    8
+CONECT   12    4   11   13
+CONECT   12    4
+CONECT   13   12   14
+CONECT   14   13   15   16
+CONECT   14   16
+CONECT   15   14   19
+CONECT   15   19
+CONECT   16   14   17
+CONECT   16   14
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   15   18   20
+CONECT   19   15
+CONECT   20   19   21   22
+CONECT   21   20   25
+CONECT   22   20   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   21   24   26
+CONECT   26   25   27   28
+CONECT   26   27
+CONECT   27   26
+CONECT   27   26
+CONECT   28   26   29
+CONECT   29   28   30
+CONECT   30   29   31   32
+CONECT   30   32
+CONECT   31   30   35
+CONECT   31   35
+CONECT   32   30   33
+CONECT   32   30
+CONECT   33   32   34
+CONECT   33   34
+CONECT   34   33   35
+CONECT   34   33
+CONECT   35   31   34   36
+CONECT   35   31
+CONECT   36   35   37
+CONECT   37   36   38   39   40
+CONECT   38   37
+CONECT   39   37
+CONECT   40   37
+ENDMDL
+END   

@@ -1,0 +1,82 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3fls_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  FLS A 361      -2.259  16.474  44.397  1.00  0.00           C  
+HETATM    2  C2  FLS A 361      -3.300  16.423  43.283  1.00  0.00           C  
+HETATM    3  C3  FLS A 361      -2.881  15.864  45.649  1.00  0.00           C  
+HETATM    4  C5  FLS A 361      -1.724  16.870  47.913  1.00  0.00           C  
+HETATM    5  C7  FLS A 361       2.786  17.855  40.860  1.00  0.00           C  
+HETATM    6  C8  FLS A 361       3.068  19.218  40.907  1.00  0.00           C  
+HETATM    7  O29 FLS A 361      -0.481  15.245  46.431  1.00  0.00           O1-
+HETATM    8  S4  FLS A 361      -1.809  15.562  46.886  1.00  0.00           S2+
+HETATM    9  O28 FLS A 361      -2.330  14.421  47.594  1.00  0.00           O1-
+HETATM   10  N17 FLS A 361      -1.841  17.851  44.632  1.00  0.00           N  
+HETATM   11  C14 FLS A 361      -0.832  18.422  43.929  1.00  0.00           C  
+HETATM   12  N15 FLS A 361      -0.071  17.630  43.143  1.00  0.00           N  
+HETATM   13  C10 FLS A 361       0.946  18.149  42.412  1.00  0.00           C  
+HETATM   14  N6  FLS A 361       1.730  17.305  41.600  1.00  0.00           N  
+HETATM   15  C20 FLS A 361       1.454  15.862  41.525  1.00  0.00           C  
+HETATM   16  N13 FLS A 361      -0.576  19.759  44.003  1.00  0.00           N  
+HETATM   17  C12 FLS A 361       0.422  20.313  43.287  1.00  0.00           C  
+HETATM   18  C11 FLS A 361       1.218  19.512  42.468  1.00  0.00           C  
+HETATM   19  C9  FLS A 361       2.311  20.050  41.686  1.00  0.00           C  
+HETATM   20  O16 FLS A 361       3.469  17.097  40.144  1.00  0.00           O  
+HETATM   21  O18 FLS A 361       4.131  19.661  40.148  1.00  0.00           O  
+HETATM   22  C19 FLS A 361       4.648  20.925  40.160  1.00  0.00           C  
+HETATM   23  C25 FLS A 361       5.268  21.433  41.298  1.00  0.00           C  
+HETATM   24  F26 FLS A 361       5.347  20.656  42.388  1.00  0.00           F  
+HETATM   25  C24 FLS A 361       5.793  22.731  41.295  1.00  0.00           C  
+HETATM   26  C23 FLS A 361       5.688  23.494  40.126  1.00  0.00           C  
+HETATM   27  F27 FLS A 361       6.165  24.740  40.067  1.00  0.00           F  
+HETATM   28  C22 FLS A 361       5.066  22.976  38.990  1.00  0.00           C  
+HETATM   29  C21 FLS A 361       4.555  21.687  38.997  1.00  0.00           C  
+CONECT    1    2    3   10
+CONECT    2    1
+CONECT    3    1    8
+CONECT    4    8
+CONECT    5    6   14   20
+CONECT    5   20
+CONECT    6    5   19   21
+CONECT    6   19
+CONECT    7    8
+CONECT    8    3    4    7    9
+CONECT    9    8
+CONECT   10    1   11
+CONECT   11   10   12   16
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   14   18
+CONECT   13   18
+CONECT   14    5   13   15
+CONECT   15   14
+CONECT   16   11   17
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   13   17   19
+CONECT   18   13
+CONECT   19    6   18
+CONECT   19    6
+CONECT   20    5
+CONECT   20    5
+CONECT   21    6   22
+CONECT   22   21   23   29
+CONECT   22   29
+CONECT   23   22   24   25
+CONECT   23   25
+CONECT   24   23
+CONECT   25   23   26
+CONECT   25   23
+CONECT   26   25   27   28
+CONECT   26   28
+CONECT   27   26
+CONECT   28   26   29
+CONECT   28   26
+CONECT   29   22   28
+CONECT   29   22
+ENDMDL
+END   

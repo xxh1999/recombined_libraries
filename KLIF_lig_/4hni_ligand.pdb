@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4hni_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  Q16 A 301       3.970  20.824  38.638  1.00  0.00           C  
+HETATM    2  C2  Q16 A 301       4.034  21.070  40.023  1.00  0.00           C  
+HETATM    3  C3  Q16 A 301       4.955  22.081  40.556  1.00  0.00           C  
+HETATM    4  C7  Q16 A 301      -0.374  19.091  45.001  1.00  0.00           C  
+HETATM    5  C8  Q16 A 301       0.551  17.939  43.079  1.00  0.00           C  
+HETATM    6  C9  Q16 A 301       0.868  19.176  42.406  1.00  0.00           C  
+HETATM    7  C10 Q16 A 301       0.517  20.346  43.110  1.00  0.00           C  
+HETATM    8  C11 Q16 A 301       1.465  18.803  41.170  1.00  0.00           C  
+HETATM    9  C12 Q16 A 301       2.008  19.671  40.147  1.00  0.00           C  
+HETATM   10  C13 Q16 A 301      -0.274  13.474  41.543  1.00  0.00           C  
+HETATM   11  C14 Q16 A 301       1.972  13.356  42.621  1.00  0.00           C  
+HETATM   12  C15 Q16 A 301       2.138  14.822  42.411  1.00  0.00           C  
+HETATM   13  C16 Q16 A 301       0.820  15.592  42.460  1.00  0.00           C  
+HETATM   14  N2  Q16 A 301      -0.055  17.914  44.350  1.00  0.00           N  
+HETATM   15  N4  Q16 A 301      -0.079  20.278  44.359  1.00  0.00           N  
+HETATM   16  N5  Q16 A 301       0.962  17.008  42.215  1.00  0.00           N  
+HETATM   17  N1  Q16 A 301       1.479  17.494  41.133  1.00  0.00           N  
+HETATM   18  N3  Q16 A 301       0.708  21.575  42.593  1.00  0.00           N  
+HETATM   19  O2  Q16 A 301       3.146  20.303  40.784  1.00  0.00           O  
+HETATM   20  O1  Q16 A 301       1.042  12.866  41.656  1.00  0.00           O  
+HETATM   21  C17 Q16 A 301      -0.178  14.991  41.470  1.00  0.00           C  
+HETATM   22  C4  Q16 A 301       5.820  22.850  39.648  1.00  0.00           C  
+HETATM   23  C5  Q16 A 301       5.735  22.582  38.222  1.00  0.00           C  
+HETATM   24  C6  Q16 A 301       4.791  21.565  37.816  1.00  0.00           C  
+HETATM   25 CL1  Q16 A 301       4.361  21.002  36.315  1.00  0.00          Cl  
+CONECT    1    2   24
+CONECT    1   24
+CONECT    2    1    3   19
+CONECT    2    3
+CONECT    3    2   22
+CONECT    3    2
+CONECT    4   14   15
+CONECT    4   14
+CONECT    5    6   14   16
+CONECT    5    6
+CONECT    6    5    7    8
+CONECT    6    5
+CONECT    7    6   15   18
+CONECT    7   15
+CONECT    8    6    9   17
+CONECT    8   17
+CONECT    9    8   19
+CONECT   10   20   21
+CONECT   11   12   20
+CONECT   12   11   13
+CONECT   13   12   16   21
+CONECT   14    4    5
+CONECT   14    4
+CONECT   15    4    7
+CONECT   15    7
+CONECT   16    5   13   17
+CONECT   17    8   16
+CONECT   17    8
+CONECT   18    7
+CONECT   19    2    9
+CONECT   20   10   11
+CONECT   21   10   13
+CONECT   22    3   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24    1   23   25
+CONECT   24    1
+CONECT   25   24
+ENDMDL
+END   

@@ -1,0 +1,82 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5A0Q
+MODEL        1
+ATOM      1  N   THR I   1      30.749 -11.196 -16.875  1.00  0.00           N1+
+ATOM      2  CA  THR I   1      30.074 -12.460 -17.104  1.00  0.00           C  
+ATOM      3  C   THR I   1      29.920 -12.750 -18.589  1.00  0.00           C  
+ATOM      4  O   THR I   1      28.921 -13.332 -19.005  1.00  0.00           O  
+ATOM      5  CB  THR I   1      28.683 -12.439 -16.463  1.00  0.00           C  
+ATOM      6  OG1 THR I   1      28.108 -13.750 -16.492  1.00  0.00           O  
+ATOM      7  CG2 THR I   1      27.779 -11.466 -17.202  1.00  0.00           C  
+TER       8      THR I   1
+HETATM    9  C1  KNM I 300      24.040 -15.211  -6.483  1.00  0.00           C  
+HETATM   10  C2  KNM I 300      24.070 -13.802  -5.970  1.00  0.00           C  
+HETATM   11  N1  KNM I 300      24.613 -15.444  -7.663  1.00  0.00           N1+
+HETATM   12  C3  KNM I 300      25.677 -14.608  -8.188  1.00  0.00           C  
+HETATM   13  C4  KNM I 300      26.662 -14.250  -7.081  1.00  0.00           C  
+HETATM   14  C5  KNM I 300      27.221 -15.496  -6.405  1.00  0.00           C  
+HETATM   15  C6  KNM I 300      28.728 -15.374  -6.209  1.00  0.00           C  
+HETATM   16  C7  KNM I 300      26.510 -15.759  -5.084  1.00  0.00           C  
+HETATM   17  C8  KNM I 300      26.423 -15.275  -9.303  1.00  0.00           C  
+HETATM   18  N2  KNM I 300      26.780 -14.502 -10.319  1.00  0.00           N  
+HETATM   19  C9  KNM I 300      25.793 -13.843 -11.144  1.00  0.00           C  
+HETATM   20  C10 KNM I 300      25.361 -12.531 -10.498  1.00  0.00           C  
+HETATM   21  C11 KNM I 300      23.848 -12.476 -10.315  1.00  0.00           C  
+HETATM   22  C12 KNM I 300      23.460 -11.371  -9.339  1.00  0.00           C  
+HETATM   23  C13 KNM I 300      23.130 -12.301 -11.649  1.00  0.00           C  
+HETATM   24  C14 KNM I 300      26.324 -13.594 -12.525  1.00  0.00           C  
+HETATM   25  O2  KNM I 300      26.584 -12.467 -12.908  1.00  0.00           O  
+HETATM   26  N3  KNM I 300      26.489 -14.665 -13.290  1.00  0.00           N  
+HETATM   27  C15 KNM I 300      27.509 -14.709 -14.316  1.00  0.00           C  
+HETATM   28  C16 KNM I 300      25.735 -14.160 -16.095  1.00  0.00           C  
+HETATM   29  C17 KNM I 300      27.724 -16.153 -14.750  1.00  0.00           C  
+HETATM   30  C18 KNM I 300      27.858 -17.049 -13.523  1.00  0.00           C  
+HETATM   31  C19 KNM I 300      29.176 -16.802 -12.801  1.00  0.00           C  
+HETATM   32  C20 KNM I 300      27.706 -18.520 -13.884  1.00  0.00           C  
+HETATM   33  O3  KNM I 300      26.686 -16.461  -9.252  1.00  0.00           O  
+HETATM   34  C21 KNM I 300      27.095 -13.824 -15.491  1.00  0.00           C  
+HETATM   35  S1  KNM I 300      24.991 -12.754 -16.585  1.00  0.00           S  
+HETATM   36  O4  KNM I 300      25.372 -12.455 -17.933  1.00  0.00           O  
+HETATM   37  O5  KNM I 300      23.569 -12.917 -16.530  1.00  0.00           O  
+HETATM   38  C22 KNM I 300      25.427 -11.500 -15.584  1.00  0.00           C  
+CONECT    9   10   11
+CONECT   10    9
+CONECT   11    9   12
+CONECT   12   11   13   17
+CONECT   13   12   14
+CONECT   14   13   15   16
+CONECT   15   14
+CONECT   16   14
+CONECT   17   12   18   33
+CONECT   17   33
+CONECT   18   17   19
+CONECT   19   18   20   24
+CONECT   20   19   21
+CONECT   21   20   22   23
+CONECT   22   21
+CONECT   23   21
+CONECT   24   19   25   26
+CONECT   24   25
+CONECT   25   24
+CONECT   25   24
+CONECT   26   24   27
+CONECT   27   26   29   34
+CONECT   28   34   35
+CONECT   29   27   30
+CONECT   30   29   31   32
+CONECT   31   30
+CONECT   32   30
+CONECT   33   17
+CONECT   33   17
+CONECT   34    6   27   28
+CONECT   35   28   36   37   38
+CONECT   35   36   37
+CONECT   36   35
+CONECT   36   35
+CONECT   37   35
+CONECT   37   35
+CONECT   38   35
+ENDMDL
+END   

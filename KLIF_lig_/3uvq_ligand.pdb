@@ -1,0 +1,114 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3uvq_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  OAA FS8 A 361       3.218  20.604  36.146  1.00  0.00           O  
+HETATM    2  OAB FS8 A 361      -1.789  19.704  44.691  1.00  0.00           O  
+HETATM    3  OAC FS8 A 361      -2.978  17.267  52.043  1.00  0.00           O  
+HETATM    4  OAD FS8 A 361      -2.868  14.731  51.399  1.00  0.00           O  
+HETATM    5  FAE FS8 A 361       6.453  21.927  38.968  1.00  0.00           F  
+HETATM    6  CAF FS8 A 361       5.992  20.621  32.043  1.00  0.00           C  
+HETATM    7  CAG FS8 A 361       6.336  19.584  32.900  1.00  0.00           C  
+HETATM    8  CAH FS8 A 361       5.129  21.643  32.500  1.00  0.00           C  
+HETATM    9  CAI FS8 A 361       4.204  20.181  41.088  1.00  0.00           C  
+HETATM   10  CAJ FS8 A 361       1.354  19.721  42.094  1.00  0.00           C  
+HETATM   11  CAK FS8 A 361       5.801  19.568  34.205  1.00  0.00           C  
+HETATM   12  CAL FS8 A 361       4.619  21.624  33.793  1.00  0.00           C  
+HETATM   13  CAM FS8 A 361       5.223  21.047  40.659  1.00  0.00           C  
+HETATM   14  CAN FS8 A 361      -2.794  15.306  46.352  1.00  0.00           C  
+HETATM   15  CAO FS8 A 361      -2.764  15.201  44.955  1.00  0.00           C  
+HETATM   16  CAP FS8 A 361       0.305  19.652  43.020  1.00  0.00           C  
+HETATM   17  CAQ FS8 A 361       0.846  17.424  41.491  1.00  0.00           C  
+HETATM   18  CAR FS8 A 361       3.915  19.493  38.765  1.00  0.00           C  
+HETATM   19  CAS FS8 A 361      -1.943  17.573  46.245  1.00  0.00           C  
+HETATM   20  CAT FS8 A 361      -2.109  17.031  50.926  1.00  0.00           C  
+HETATM   21  CAU FS8 A 361      -2.323  16.070  42.842  1.00  0.00           C  
+HETATM   22  CAV FS8 A 361      -0.829  16.061  42.395  1.00  0.00           C  
+HETATM   23  CAW FS8 A 361      -2.608  15.375  49.078  1.00  0.00           C  
+HETATM   24  NAX FS8 A 361       5.323  20.467  37.032  1.00  0.00           N  
+HETATM   25  NAY FS8 A 361       2.578  18.513  40.405  1.00  0.00           N  
+HETATM   26  OAZ FS8 A 361      -2.408  16.604  48.355  1.00  0.00           O  
+HETATM   27  CBA FS8 A 361       4.440  20.556  36.001  1.00  0.00           C  
+HETATM   28  CBB FS8 A 361      -1.452  18.614  44.233  1.00  0.00           C  
+HETATM   29  CBC FS8 A 361       1.620  18.593  41.327  1.00  0.00           C  
+HETATM   30  CBD FS8 A 361       3.545  19.408  40.127  1.00  0.00           C  
+HETATM   31  CBE FS8 A 361       5.579  21.139  39.295  1.00  0.00           C  
+HETATM   32  CBF FS8 A 361      -2.384  16.480  46.990  1.00  0.00           C  
+HETATM   33  CBG FS8 A 361       4.974  20.600  34.684  1.00  0.00           C  
+HETATM   34  CBH FS8 A 361      -2.341  16.300  44.214  1.00  0.00           C  
+HETATM   35  CBI FS8 A 361      -0.214  17.356  42.413  1.00  0.00           C  
+HETATM   36  CBJ FS8 A 361       4.923  20.371  38.332  1.00  0.00           C  
+HETATM   37  CBK FS8 A 361      -0.488  18.497  43.195  1.00  0.00           C  
+HETATM   38  CBL FS8 A 361      -1.946  17.477  44.851  1.00  0.00           C  
+HETATM   39  CBM FS8 A 361      -2.085  15.541  50.507  1.00  0.00           C  
+CONECT    1   27
+CONECT    1   27
+CONECT    2   28
+CONECT    2   28
+CONECT    3   20
+CONECT    4   39
+CONECT    5   31
+CONECT    6    7    8
+CONECT    6    7
+CONECT    7    6   11
+CONECT    7    6
+CONECT    8    6   12
+CONECT    8   12
+CONECT    9   13   30
+CONECT    9   30
+CONECT   10   16   29
+CONECT   10   29
+CONECT   11    7   33
+CONECT   11   33
+CONECT   12    8   33
+CONECT   12    8
+CONECT   13    9   31
+CONECT   13   31
+CONECT   14   15   32
+CONECT   14   32
+CONECT   15   14   34
+CONECT   15   34
+CONECT   16   10   37
+CONECT   16   37
+CONECT   17   29   35
+CONECT   17   35
+CONECT   18   30   36
+CONECT   18   36
+CONECT   19   32   38
+CONECT   19   38
+CONECT   20    3   39
+CONECT   21   22   34
+CONECT   22   21   35
+CONECT   23   26   39
+CONECT   24   27   36
+CONECT   25   29   30
+CONECT   26   23   32
+CONECT   27    1   24   33
+CONECT   27    1
+CONECT   28    2   37   38
+CONECT   28    2
+CONECT   29   10   17   25
+CONECT   29   10
+CONECT   30    9   18   25
+CONECT   30    9
+CONECT   31    5   13   36
+CONECT   31   13
+CONECT   32   14   19   26
+CONECT   32   14
+CONECT   33   11   12   27
+CONECT   33   11
+CONECT   34   15   21   38
+CONECT   34   15
+CONECT   35   17   22   37
+CONECT   35   17
+CONECT   36   18   24   31
+CONECT   36   18
+CONECT   37   16   28   35
+CONECT   37   16
+CONECT   38   19   28   34
+CONECT   38   19
+CONECT   39    4   20   23
+ENDMDL
+END   

@@ -1,0 +1,76 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3p9j_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  P9J A   0      -2.527  14.436  45.832  1.00  0.00           C  
+HETATM    2  N2  P9J A   0      -1.619  15.086  44.974  1.00  0.00           N  
+HETATM    3  C3  P9J A   0      -3.330  15.197  46.654  1.00  0.00           C  
+HETATM    4  C4  P9J A   0      -4.276  14.598  47.469  1.00  0.00           C  
+HETATM    5  C5  P9J A   0      -5.073  15.392  48.286  1.00  0.00           C  
+HETATM    6  C6  P9J A   0      -4.910  16.772  48.287  1.00  0.00           C  
+HETATM    7  C7  P9J A   0      -3.953  17.361  47.464  1.00  0.00           C  
+HETATM    8  C8  P9J A   0      -3.160  16.567  46.643  1.00  0.00           C  
+HETATM    9  C9  P9J A   0      -2.178  17.108  45.814  1.00  0.00           C  
+HETATM   10  N10 P9J A   0      -1.421  16.299  45.059  1.00  0.00           N  
+HETATM   11  C11 P9J A   0      -0.741  14.313  44.228  1.00  0.00           C  
+HETATM   12  C12 P9J A   0      -0.996  12.969  44.024  1.00  0.00           C  
+HETATM   13  C13 P9J A   0      -0.134  12.209  43.249  1.00  0.00           C  
+HETATM   14  C14 P9J A   0       0.969  12.793  42.648  1.00  0.00           C  
+HETATM   15  C15 P9J A   0       1.207  14.148  42.825  1.00  0.00           C  
+HETATM   16  C16 P9J A   0       0.326  14.914  43.576  1.00  0.00           C  
+HETATM   17  N17 P9J A   0      -2.029  18.430  45.761  1.00  0.00           N  
+HETATM   18  C18 P9J A   0      -1.140  19.098  45.020  1.00  0.00           C  
+HETATM   19  C19 P9J A   0      -0.231  18.600  44.186  1.00  0.00           C  
+HETATM   20  C20 P9J A   0       0.348  19.688  43.687  1.00  0.00           C  
+HETATM   21  N21 P9J A   0      -0.227  20.779  44.178  1.00  0.00           N  
+HETATM   22  N22 P9J A   0      -1.119  20.430  44.956  1.00  0.00           N  
+HETATM   23  C23 P9J A   0       1.504  19.715  42.693  1.00  0.00           C  
+HETATM   24  O24 P9J A   0      -2.667  13.214  45.834  1.00  0.00           O  
+CONECT    1    2    3   24
+CONECT    1   24
+CONECT    2    1   10   11
+CONECT    3    1    4    8
+CONECT    3    8
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    5    7
+CONECT    6    7
+CONECT    7    6    8
+CONECT    7    6
+CONECT    8    3    7    9
+CONECT    8    3
+CONECT    9    8   10   17
+CONECT    9   10
+CONECT   10    2    9
+CONECT   10    9
+CONECT   11    2   12   16
+CONECT   11   16
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   11   15
+CONECT   16   11
+CONECT   17    9   18
+CONECT   18   17   19   22
+CONECT   18   22
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21   23
+CONECT   20   19
+CONECT   21   20   22
+CONECT   22   18   21
+CONECT   22   18
+CONECT   23   20
+CONECT   24    1
+CONECT   24    1
+ENDMDL
+END   

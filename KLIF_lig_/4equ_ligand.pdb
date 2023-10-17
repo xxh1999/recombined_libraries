@@ -1,0 +1,124 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4equ_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CAA G6I A 401       2.380  13.173  45.917  1.00  0.00           C  
+HETATM    2  OBC G6I A 401       1.149  13.804  46.359  1.00  0.00           O  
+HETATM    3  CBH G6I A 401       0.872  15.047  45.830  1.00  0.00           C  
+HETATM    4  CAR G6I A 401       1.576  15.594  44.745  1.00  0.00           C  
+HETATM    5  CAP G6I A 401       1.246  16.858  44.242  1.00  0.00           C  
+HETATM    6  CAS G6I A 401      -0.160  15.790  46.402  1.00  0.00           C  
+HETATM    7  CAQ G6I A 401      -0.479  17.049  45.917  1.00  0.00           C  
+HETATM    8  CBF G6I A 401       0.212  17.608  44.834  1.00  0.00           C  
+HETATM    9  NBA G6I A 401      -0.185  18.839  44.439  1.00  0.00           N  
+HETATM   10  CBK G6I A 401       0.368  19.617  43.495  1.00  0.00           C  
+HETATM   11  NAY G6I A 401       1.392  19.231  42.702  1.00  0.00           N  
+HETATM   12  NAW G6I A 401      -0.148  20.856  43.335  1.00  0.00           N  
+HETATM   13  CAJ G6I A 401       0.369  21.659  42.408  1.00  0.00           C  
+HETATM   14  NAX G6I A 401       1.375  21.283  41.617  1.00  0.00           N  
+HETATM   15  CBM G6I A 401       1.907  20.058  41.758  1.00  0.00           C  
+HETATM   16  CBO G6I A 401       2.966  19.624  40.939  1.00  0.00           C  
+HETATM   17  CAN G6I A 401       3.518  18.372  41.227  1.00  0.00           C  
+HETATM   18  CAG G6I A 401       4.566  17.891  40.443  1.00  0.00           C  
+HETATM   19  CAI G6I A 401       5.035  18.659  39.390  1.00  0.00           C  
+HETATM   20  NAV G6I A 401       4.502  19.844  39.119  1.00  0.00           N  
+HETATM   21  CBN G6I A 401       3.497  20.364  39.844  1.00  0.00           C  
+HETATM   22  NBB G6I A 401       3.036  21.572  39.494  1.00  0.00           N  
+HETATM   23  CBL G6I A 401       3.607  22.330  38.541  1.00  0.00           C  
+HETATM   24  CAT G6I A 401       2.954  22.507  37.313  1.00  0.00           C  
+HETATM   25  CBE G6I A 401       4.829  22.982  38.751  1.00  0.00           C  
+HETATM   26  CAB G6I A 401       5.619  22.874  40.041  1.00  0.00           C  
+HETATM   27  CAM G6I A 401       5.374  23.764  37.754  1.00  0.00           C  
+HETATM   28  CAO G6I A 401       4.727  23.911  36.550  1.00  0.00           C  
+HETATM   29  CBG G6I A 401       3.512  23.303  36.302  1.00  0.00           C  
+HETATM   30  NAZ G6I A 401       2.976  23.544  35.089  1.00  0.00           N  
+HETATM   31  CBD G6I A 401       1.750  23.185  34.649  1.00  0.00           C  
+HETATM   32  OAC G6I A 401       0.917  22.564  35.309  1.00  0.00           O  
+HETATM   33  CBI G6I A 401       1.380  23.630  33.202  1.00  0.00           C  
+HETATM   34  CAU G6I A 401       0.042  23.793  32.838  1.00  0.00           C  
+HETATM   35  CAK G6I A 401       2.356  23.859  32.234  1.00  0.00           C  
+HETATM   36  CAH G6I A 401       2.010  24.253  30.941  1.00  0.00           C  
+HETATM   37  CAL G6I A 401       0.674  24.423  30.590  1.00  0.00           C  
+HETATM   38  CBJ G6I A 401      -0.310  24.190  31.547  1.00  0.00           C  
+HETATM   39  CBP G6I A 401      -1.787  24.354  31.173  1.00  0.00           C  
+HETATM   40  FAF G6I A 401      -2.490  23.383  31.724  1.00  0.00           F  
+HETATM   41  FAD G6I A 401      -2.191  25.537  31.607  1.00  0.00           F  
+HETATM   42  FAE G6I A 401      -1.976  24.240  29.862  1.00  0.00           F  
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4    6
+CONECT    3    4
+CONECT    4    3    5
+CONECT    4    3
+CONECT    5    4    8
+CONECT    5    8
+CONECT    6    3    7
+CONECT    6    7
+CONECT    7    6    8
+CONECT    7    6
+CONECT    8    5    7    9
+CONECT    8    5
+CONECT    9    8   10
+CONECT   10    9   11   12
+CONECT   10   12
+CONECT   11   10   15
+CONECT   11   15
+CONECT   12   10   13
+CONECT   12   10
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   11   14   16
+CONECT   15   11
+CONECT   16   15   17   21
+CONECT   16   21
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   16   20   22
+CONECT   21   16
+CONECT   22   21   23
+CONECT   23   22   24   25
+CONECT   23   25
+CONECT   24   23   29
+CONECT   24   29
+CONECT   25   23   26   27
+CONECT   25   23
+CONECT   26   25
+CONECT   27   25   28
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   24   28   30
+CONECT   29   24
+CONECT   30   29   31
+CONECT   31   30   32   33
+CONECT   31   32
+CONECT   32   31
+CONECT   32   31
+CONECT   33   31   34   35
+CONECT   33   35
+CONECT   34   33   38
+CONECT   34   38
+CONECT   35   33   36
+CONECT   35   33
+CONECT   36   35   37
+CONECT   36   37
+CONECT   37   36   38
+CONECT   37   36
+CONECT   38   34   37   39
+CONECT   38   34
+CONECT   39   38   40   41   42
+CONECT   40   39
+CONECT   41   39
+CONECT   42   39
+ENDMDL
+END   

@@ -1,0 +1,62 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1KE3
+MODEL        1
+ATOM      1  N   SER A  64      26.899   1.638  16.127  1.00 16.92           N1+
+ATOM      2  CA  SER A  64      28.245   2.108  16.444  1.00 17.18           C  
+ATOM      3  C   SER A  64      29.093   1.218  17.378  1.00 17.09           C  
+ATOM      4  O   SER A  64      30.254   1.556  17.600  1.00 16.83           O  
+ATOM      5  CB  SER A  64      28.144   3.493  17.069  1.00 18.27           C  
+ATOM      6  OG  SER A  64      27.625   4.408  16.118  1.00 21.54           O  
+TER       7      SER A  64
+HETATM    8  B1  BDB A 364      26.345   5.092  16.416  1.00 23.79           B1-
+HETATM    9  OB1 BDB A 364      25.334   4.110  16.834  1.00 23.69           O  
+HETATM   10  OB2 BDB A 364      26.543   6.029  17.533  1.00 21.64           O  
+HETATM   11  CP1 BDB A 364      25.773   5.834  15.102  1.00 25.81           C  
+HETATM   12  CP2 BDB A 364      25.431   5.051  13.986  1.00 26.07           C  
+HETATM   13  CP3 BDB A 364      24.825   5.634  12.862  1.00 26.90           C  
+HETATM   14  CP4 BDB A 364      24.540   7.014  12.841  1.00 28.92           C  
+HETATM   15  CP5 BDB A 364      24.919   7.808  13.945  1.00 27.29           C  
+HETATM   16  CP6 BDB A 364      25.534   7.224  15.066  1.00 26.57           C  
+HETATM   17  CB1 BDB A 364      23.825   7.593  11.700  1.00 34.08           C  
+HETATM   18  CB2 BDB A 364      24.265   7.352  10.382  1.00 36.24           C  
+HETATM   19  CB3 BDB A 364      23.569   7.885   9.285  1.00 38.14           C  
+HETATM   20  CB4 BDB A 364      22.399   8.644   9.485  1.00 39.15           C  
+HETATM   21  CB5 BDB A 364      21.942   8.871  10.799  1.00 37.81           C  
+HETATM   22  CB6 BDB A 364      22.662   8.366  11.899  1.00 36.68           C  
+HETATM   23  B2  BDB A 364      21.638   9.246   8.253  1.00 41.11           B  
+HETATM   24  OH1 BDB A 364      22.348   9.630   7.153  1.00 46.14           O  
+HETATM   25  OH2 BDB A 364      20.283   9.402   8.276  1.00 44.68           O  
+CONECT    8    6    9   10   11
+CONECT    9    8
+CONECT   10    8
+CONECT   11    8   12   16
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15   17
+CONECT   14   13
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16   11   15
+CONECT   16   15
+CONECT   17   14   18   22
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21   23
+CONECT   20   19
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   17   21
+CONECT   22   21
+CONECT   23   20   24   25
+CONECT   24   23
+CONECT   25   23
+ENDMDL
+END   

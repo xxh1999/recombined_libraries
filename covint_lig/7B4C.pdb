@@ -1,0 +1,36 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7B4C
+MODEL        1
+ATOM      1  N   CYS A 273       0.203  -7.672   3.208  0.80 22.54           N1+
+ATOM      2  CA  CYS A 273       0.285  -7.992   1.755  0.80 25.22           C  
+ATOM      3  C   CYS A 273       0.725  -6.734   1.009  0.80 24.21           C  
+ATOM      4  O   CYS A 273       0.091  -5.696   1.123  0.80 23.46           O  
+ATOM      5  CB  CYS A 273      -1.064  -8.488   1.293  0.80 27.48           C  
+ATOM      6  SG  CYS A 273      -1.094  -8.750  -0.481  0.80 34.61           S  
+TER       7      CYS A 273
+HETATM    8  C1  QNN A 302      -0.586 -10.464  -0.432  0.80 31.26           C  
+HETATM    9  C6  QNN A 302      -2.312 -13.729   0.443  0.80 38.04           C  
+HETATM   10  C2  QNN A 302      -1.157 -11.827  -0.583  0.80 35.42           C  
+HETATM   11  C7  QNN A 302      -0.379 -12.846   1.565  0.80 38.68           C  
+HETATM   12  C8  QNN A 302       0.509 -13.810   0.774  0.80 37.84           C  
+HETATM   13  C3  QNN A 302      -0.230 -12.766  -1.346  0.80 38.34           C  
+HETATM   14  C4  QNN A 302      -0.104 -14.114  -0.583  0.80 38.14           C  
+HETATM   15  C5  QNN A 302      -1.482 -14.721  -0.389  0.80 38.94           C  
+HETATM   16  N1  QNN A 302      -1.575 -12.445   0.734  0.80 36.08           N  
+HETATM   17  O1  QNN A 302       0.376 -12.496  -2.378  0.80 43.80           O  
+CONECT    8    6   10
+CONECT    9   15   16
+CONECT   10    8   13   16
+CONECT   11   12   16
+CONECT   12   11   14
+CONECT   13   10   14   17
+CONECT   13   17
+CONECT   14   12   13   15
+CONECT   15    9   14
+CONECT   16    9   10   11
+CONECT   17   13
+CONECT   17   13
+ENDMDL
+END   

@@ -1,0 +1,102 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6slg_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  LHZ A 401       0.928  20.274  41.926  1.00  0.00           C  
+HETATM    2  C2  LHZ A 401       0.272  20.788  43.038  1.00  0.00           C  
+HETATM    3  C3  LHZ A 401      -0.489  18.750  43.656  1.00  0.00           C  
+HETATM    4  N6  LHZ A 401      -2.449  14.710  45.196  1.00  0.00           N  
+HETATM    5  C7  LHZ A 401       2.342  17.527  38.782  1.00  0.00           C  
+HETATM    6  C8  LHZ A 401       3.337  17.393  37.683  1.00  0.00           C  
+HETATM    7  C9  LHZ A 401       2.483  15.073  37.273  1.00  0.00           C  
+HETATM    8  C10 LHZ A 401       1.223  15.416  38.042  1.00  0.00           C  
+HETATM    9  C11 LHZ A 401       3.227  13.969  38.004  1.00  0.00           C  
+HETATM   10  C12 LHZ A 401       4.414  13.504  39.966  1.00  0.00           C  
+HETATM   11  C13 LHZ A 401       4.246  16.096  35.835  1.00  0.00           C  
+HETATM   12  C14 LHZ A 401       5.673  15.668  36.119  1.00  0.00           C  
+HETATM   13  C15 LHZ A 401       6.521  15.349  35.064  1.00  0.00           C  
+HETATM   14  C16 LHZ A 401       7.826  14.947  35.286  1.00  0.00           C  
+HETATM   15  C19 LHZ A 401       6.161  15.584  37.424  1.00  0.00           C  
+HETATM   16  C20 LHZ A 401      -1.482  16.602  44.457  1.00  0.00           C  
+HETATM   17  C21 LHZ A 401      -1.792  15.840  43.352  1.00  0.00           C  
+HETATM   18  C22 LHZ A 401      -2.394  14.699  43.869  1.00  0.00           C  
+HETATM   19  F1  LHZ A 401       9.528  14.405  36.825  1.00  0.00           F  
+HETATM   20  C17 LHZ A 401       8.278  14.861  36.578  1.00  0.00           C  
+HETATM   21  C18 LHZ A 401       7.460  15.180  37.630  1.00  0.00           C  
+HETATM   22  F   LHZ A 401       7.938  15.065  38.892  1.00  0.00           F  
+HETATM   23  N4  LHZ A 401       3.368  16.219  37.001  1.00  0.00           N  
+HETATM   24  O1  LHZ A 401       3.632  14.453  39.267  1.00  0.00           O  
+HETATM   25  N2  LHZ A 401       1.495  16.476  39.017  1.00  0.00           N  
+HETATM   26  C6  LHZ A 401       0.838  16.753  40.175  1.00  0.00           C  
+HETATM   27  O   LHZ A 401       4.072  18.333  37.407  1.00  0.00           O  
+HETATM   28  N3  LHZ A 401       2.179  18.493  39.693  1.00  0.00           N  
+HETATM   29  C5  LHZ A 401       1.208  18.019  40.541  1.00  0.00           C  
+HETATM   30  C4  LHZ A 401       0.728  18.803  41.689  1.00  0.00           C  
+HETATM   31  C   LHZ A 401       1.675  21.199  40.995  1.00  0.00           C  
+HETATM   32  N1  LHZ A 401       0.033  18.101  42.598  1.00  0.00           N  
+HETATM   33  N   LHZ A 401      -0.443  20.066  43.908  1.00  0.00           N  
+HETATM   34  N5  LHZ A 401      -1.087  17.930  44.587  1.00  0.00           N  
+HETATM   35  N7  LHZ A 401      -1.877  15.897  45.536  1.00  0.00           N  
+HETATM   36  C23 LHZ A 401      -1.681  16.203  46.950  1.00  0.00           C  
+CONECT    1    2   30   31
+CONECT    1   30
+CONECT    2    1   33
+CONECT    2   33
+CONECT    3   32   33   34
+CONECT    3   32
+CONECT    4   18   35
+CONECT    4   18
+CONECT    5    6   25   28
+CONECT    5   28
+CONECT    6    5   23   27
+CONECT    6   27
+CONECT    7    8    9   23
+CONECT    8    7   25
+CONECT    9    7   24
+CONECT   10   24
+CONECT   11   12   23
+CONECT   12   11   13   15
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   20
+CONECT   14   20
+CONECT   15   12   21
+CONECT   15   21
+CONECT   16   17   34   35
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18    4   17
+CONECT   18    4
+CONECT   19   20
+CONECT   20   14   19   21
+CONECT   20   14
+CONECT   21   15   20   22
+CONECT   21   15
+CONECT   22   21
+CONECT   23    6    7   11
+CONECT   24    9   10
+CONECT   25    5    8   26
+CONECT   26   25   29
+CONECT   26   29
+CONECT   27    6
+CONECT   27    6
+CONECT   28    5   29
+CONECT   28    5
+CONECT   29   26   28   30
+CONECT   29   26
+CONECT   30    1   29   32
+CONECT   30    1
+CONECT   31    1
+CONECT   32    3   30
+CONECT   32    3
+CONECT   33    2    3
+CONECT   33    2
+CONECT   34    3   16
+CONECT   35    4   16   36
+CONECT   36   35
+ENDMDL
+END   

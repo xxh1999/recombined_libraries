@@ -1,0 +1,88 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6hdp_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  FZ5 A 501      -1.409  15.203  47.098  1.00  0.00           C  
+HETATM    2  C5  FZ5 A 501      -1.031  16.680  47.188  1.00  0.00           C  
+HETATM    3  C6  FZ5 A 501      -0.048  16.806  48.357  1.00  0.00           C  
+HETATM    4  C3  FZ5 A 501      -2.320  14.987  45.910  1.00  0.00           C  
+HETATM    5  CAA FZ5 A 501       4.216  16.718  36.709  1.00  0.00           C  
+HETATM    6  OAR FZ5 A 501       4.561  17.939  36.004  1.00  0.00           O  
+HETATM    7  CAY FZ5 A 501       3.887  19.039  36.451  1.00  0.00           C  
+HETATM    8  CAN FZ5 A 501       3.074  18.983  37.589  1.00  0.00           C  
+HETATM    9  CAW FZ5 A 501       4.019  20.241  35.754  1.00  0.00           C  
+HETATM   10  OAE FZ5 A 501       4.793  20.313  34.643  1.00  0.00           O  
+HETATM   11  CAK FZ5 A 501       3.353  21.372  36.185  1.00  0.00           C  
+HETATM   12  CAJ FZ5 A 501       2.549  21.312  37.319  1.00  0.00           C  
+HETATM   13  CAV FZ5 A 501       2.407  20.127  38.030  1.00  0.00           C  
+HETATM   14  CAP FZ5 A 501       1.517  20.103  39.292  1.00  0.00           C  
+HETATM   15  CAQ FZ5 A 501       2.352  19.896  40.566  1.00  0.00           C  
+HETATM   16  CBA FZ5 A 501       1.444  19.724  41.788  1.00  0.00           C  
+HETATM   17  CBB FZ5 A 501       1.063  18.454  42.245  1.00  0.00           C  
+HETATM   18  CAU FZ5 A 501       1.571  17.204  41.498  1.00  0.00           C  
+HETATM   19  CAB FZ5 A 501       2.643  16.339  42.100  1.00  0.00           C  
+HETATM   20  OAC FZ5 A 501       1.116  16.893  40.405  1.00  0.00           O  
+HETATM   21  CAX FZ5 A 501       0.963  20.837  42.473  1.00  0.00           C  
+HETATM   22  OAF FZ5 A 501       1.319  22.069  42.044  1.00  0.00           O  
+HETATM   23  CAL FZ5 A 501       0.133  20.712  43.588  1.00  0.00           C  
+HETATM   24  CAM FZ5 A 501      -0.244  19.444  44.037  1.00  0.00           C  
+HETATM   25  CAZ FZ5 A 501       0.228  18.307  43.352  1.00  0.00           C  
+HETATM   26  O1  FZ5 A 501      -0.088  17.030  43.729  1.00  0.00           O  
+HETATM   27  C1  FZ5 A 501      -1.062  16.839  44.764  1.00  0.00           C  
+HETATM   28  O5  FZ5 A 501      -0.356  17.101  45.989  1.00  0.00           O  
+HETATM   29  O6  FZ5 A 501       0.302  18.175  48.532  1.00  0.00           O  
+HETATM   30  O4  FZ5 A 501      -2.099  14.809  48.275  1.00  0.00           O  
+HETATM   31  O3  FZ5 A 501      -2.674  13.617  45.820  1.00  0.00           O  
+HETATM   32  C2  FZ5 A 501      -1.600  15.402  44.641  1.00  0.00           C  
+HETATM   33  O2  FZ5 A 501      -2.533  15.281  43.575  1.00  0.00           O  
+CONECT    1    2    4   30
+CONECT    2    1    3   28
+CONECT    3    2   29
+CONECT    4    1   31   32
+CONECT    5    6
+CONECT    6    5    7
+CONECT    7    6    8    9
+CONECT    7    9
+CONECT    8    7   13
+CONECT    8   13
+CONECT    9    7   10   11
+CONECT    9    7
+CONECT   10    9
+CONECT   11    9   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13    8   12   14
+CONECT   13    8
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   15   17   21
+CONECT   16   21
+CONECT   17   16   18   25
+CONECT   17   25
+CONECT   18   17   19   20
+CONECT   18   20
+CONECT   19   18
+CONECT   20   18
+CONECT   20   18
+CONECT   21   16   22   23
+CONECT   21   16
+CONECT   22   21
+CONECT   23   21   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   17   24   26
+CONECT   25   17
+CONECT   26   25   27
+CONECT   27   26   28   32
+CONECT   28    2   27
+CONECT   29    3
+CONECT   30    1
+CONECT   31    4
+CONECT   32    4   27   33
+CONECT   33   32
+ENDMDL
+END   

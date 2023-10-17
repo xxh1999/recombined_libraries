@@ -1,0 +1,42 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6VIM
+MODEL        1
+ATOM      1  N   HIS B 297     -60.723  -7.220 -13.356  1.00 19.31           N1+
+ATOM      2  CA  HIS B 297     -61.110  -8.585 -13.699  0.50 19.70           C  
+ATOM      3  C   HIS B 297     -61.750  -9.215 -12.475  1.00 17.87           C  
+ATOM      4  O   HIS B 297     -61.116  -9.315 -11.417  1.00 15.06           O  
+ATOM      5  CB  HIS B 297     -59.925  -9.435 -14.172  0.50 20.21           C  
+ATOM      6  CG  HIS B 297     -60.326 -10.773 -14.732  0.50 12.02           C  
+ATOM      7  ND1 HIS B 297     -60.150 -11.952 -14.041  0.50 15.32           N  
+ATOM      8  CD2 HIS B 297     -60.897 -11.115 -15.914  0.50  9.84           C  
+ATOM      9  CE1 HIS B 297     -60.592 -12.961 -14.772  0.50 22.40           C  
+ATOM     10  NE2 HIS B 297     -61.051 -12.481 -15.915  0.50 17.27           N  
+TER      11      HIS B 297
+HETATM   12  B   PBC B 402     -61.529 -13.394 -17.057  0.50 25.79           B1-
+HETATM   13  O1  PBC B 402     -62.298 -12.324 -17.325  0.50 23.02           O  
+HETATM   14  O2  PBC B 402     -60.573 -13.653 -17.964  0.50 26.07           O  
+HETATM   15  CG1 PBC B 402     -62.331 -17.066 -16.218  0.50 42.49           C  
+HETATM   16  CD1 PBC B 402     -63.494 -16.951 -15.471  0.50 27.99           C  
+HETATM   17  CG2 PBC B 402     -64.035 -15.699 -15.230  0.50 19.93           C  
+HETATM   18  CB2 PBC B 402     -63.412 -14.563 -15.734  0.50 32.27           C  
+HETATM   19  CA  PBC B 402     -62.244 -14.674 -16.474  0.50 20.64           C  
+HETATM   20  CB1 PBC B 402     -61.710 -15.930 -16.720  0.50 26.09           C  
+CONECT   12   10   13   14   19
+CONECT   13   12
+CONECT   14   12
+CONECT   15   16   20
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   12   18   20
+CONECT   19   20
+CONECT   20   15   19
+CONECT   20   19
+ENDMDL
+END   

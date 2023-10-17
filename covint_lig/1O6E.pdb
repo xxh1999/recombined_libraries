@@ -1,0 +1,30 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1O6E
+MODEL        1
+ATOM      1  N   SER A 116      11.408   5.743  43.810  1.00 47.76           N1+
+ATOM      2  CA  SER A 116      10.205   5.807  44.633  1.00 51.32           C  
+ATOM      3  C   SER A 116      10.241   4.677  45.656  1.00 53.97           C  
+ATOM      4  O   SER A 116      10.017   3.525  45.294  1.00 50.66           O  
+ATOM      5  CB  SER A 116       8.943   5.757  43.753  1.00 50.06           C  
+ATOM      6  OG  SER A 116       7.800   5.981  44.548  1.00 46.94           O  
+TER       7      SER A 116
+HETATM    8  C1  ISP A1236       6.315   8.487  47.929  1.00 45.63           C  
+HETATM    9  C2  ISP A1236       6.415   7.116  47.260  1.00 45.91           C  
+HETATM   10  C3  ISP A1236       5.562   6.049  47.952  1.00 41.62           C  
+HETATM   11  P   ISP A1236       7.066   7.504  44.647  1.00 48.46           P  
+HETATM   12  O1P ISP A1236       5.976   7.245  45.923  1.00 50.35           O  
+HETATM   13  O2P ISP A1236       8.075   8.507  45.064  1.00 44.22           O  
+HETATM   14  O3P ISP A1236       6.283   7.712  43.411  1.00 47.45           O1-
+CONECT    8    9
+CONECT    9    8   10   12
+CONECT   10    9
+CONECT   11    6   12   13   14
+CONECT   11   13
+CONECT   12    9   11
+CONECT   13   11
+CONECT   13   11
+CONECT   14   11
+ENDMDL
+END   

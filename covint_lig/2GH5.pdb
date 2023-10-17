@@ -1,0 +1,70 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2GH5
+MODEL        1
+ATOM      1  N   CYS A  58      89.856  15.484  53.269  1.00 21.17           N1+
+ATOM      2  CA  CYS A  58      89.281  15.382  54.627  1.00 22.14           C  
+ATOM      3  C   CYS A  58      88.620  14.033  54.962  1.00 23.30           C  
+ATOM      4  O   CYS A  58      89.085  13.326  55.856  1.00 20.81           O  
+ATOM      5  CB  CYS A  58      88.332  16.574  54.908  1.00 24.60           C  
+ATOM      6  SG  CYS A  58      87.734  16.575  56.627  1.00 27.94           S  
+TER       7      CYS A  58
+HETATM    8  C1  ELI A 958      80.434  14.904  56.626  1.00 39.50           C  
+HETATM    9  C2  ELI A 958      81.129  15.550  55.589  1.00 38.94           C  
+HETATM   10  C3  ELI A 958      82.403  16.116  55.814  1.00 38.36           C  
+HETATM   11  C4  ELI A 958      83.006  15.984  57.085  1.00 37.70           C  
+HETATM   12  C5  ELI A 958      82.301  15.340  58.127  1.00 38.95           C  
+HETATM   13  C6  ELI A 958      81.016  14.817  57.902  1.00 39.64           C  
+HETATM   14  O7  ELI A 958      82.608  16.845  53.575  1.00 39.30           O  
+HETATM   15  C10 ELI A 958      83.102  16.814  54.702  1.00 37.59           C  
+HETATM   16  C11 ELI A 958      84.377  16.495  57.329  1.00 36.02           C  
+HETATM   17  C14 ELI A 958      85.033  17.259  56.223  1.00 34.61           C  
+HETATM   18  C15 ELI A 958      84.429  17.435  55.011  1.00 36.57           C  
+HETATM   19  O16 ELI A 958      84.946  16.275  58.399  1.00 33.62           O  
+HETATM   20  C17 ELI A 958      86.404  17.825  56.605  1.00 31.61           C  
+HETATM   21  C18 ELI A 958      85.046  18.221  53.846  1.00 37.44           C  
+HETATM   22  C19 ELI A 958      84.225  19.436  53.376  1.00 40.34           C  
+HETATM   23  C20 ELI A 958      83.984  20.501  54.456  1.00 42.85           C  
+HETATM   24  C23 ELI A 958      82.667  21.233  54.201  1.00 44.62           C  
+HETATM   25  C26 ELI A 958      82.558  22.540  54.999  1.00 46.37           C  
+HETATM   26  C43 ELI A 958      81.168  23.171  54.911  1.00 46.98           C  
+HETATM   27  O44 ELI A 958      80.228  22.496  54.446  1.00 49.34           O  
+HETATM   28  O45 ELI A 958      81.055  24.338  55.341  1.00 47.57           O1-
+CONECT    8    9   13
+CONECT    8   13
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11   15
+CONECT   10    9
+CONECT   11   10   12   16
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13    8   12
+CONECT   13    8
+CONECT   14   15
+CONECT   14   15
+CONECT   15   10   14   18
+CONECT   15   14
+CONECT   16   11   17   19
+CONECT   16   19
+CONECT   17   16   18   20
+CONECT   17   18
+CONECT   18   15   17   21
+CONECT   18   17
+CONECT   19   16
+CONECT   19   16
+CONECT   20    6   17
+CONECT   21   18   22
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26   25   27   28
+CONECT   26   27
+CONECT   27   26
+CONECT   27   26
+CONECT   28   26
+ENDMDL
+END   

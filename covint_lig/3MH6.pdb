@@ -1,0 +1,36 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3MH6
+MODEL        1
+ATOM      1  N   SER A 210      51.410  44.019  28.435  1.00 80.57           N1+
+ATOM      2  CA  SER A 210      52.464  43.155  27.912  1.00 80.92           C  
+ATOM      3  C   SER A 210      53.584  43.988  27.286  1.00 81.08           C  
+ATOM      4  O   SER A 210      53.355  44.690  26.305  1.00 81.65           O  
+ATOM      5  CB  SER A 210      51.902  42.231  26.812  1.00 82.39           C  
+ATOM      6  OG  SER A 210      51.275  41.059  27.286  1.00 81.19           O  
+TER       7      SER A 210
+HETATM    8  C1  DFP A 500      48.392  40.432  25.630  1.00 83.54           C  
+HETATM    9  C2  DFP A 500      48.415  39.151  24.792  1.00 82.54           C  
+HETATM   10  C3  DFP A 500      49.067  41.588  24.874  1.00 85.77           C  
+HETATM   11  C1' DFP A 500      49.356  39.050  29.637  1.00 81.33           C  
+HETATM   12  C2' DFP A 500      49.688  37.903  28.662  1.00 82.14           C  
+HETATM   13  C3' DFP A 500      47.854  39.208  29.863  1.00 82.13           C  
+HETATM   14  P   DFP A 500      49.769  41.097  27.876  1.00 81.28           P  
+HETATM   15  O1P DFP A 500      48.972  40.082  26.885  1.00 83.77           O  
+HETATM   16  O2P DFP A 500      49.961  40.281  29.273  1.00 80.59           O  
+HETATM   17  O3P DFP A 500      49.185  42.450  28.008  1.00 82.32           O  
+CONECT    8    9   10   15
+CONECT    9    8
+CONECT   10    8
+CONECT   11   12   13   16
+CONECT   12   11
+CONECT   13   11
+CONECT   14    6   15   16   17
+CONECT   14   17
+CONECT   15    8   14
+CONECT   16   11   14
+CONECT   17   14
+CONECT   17   14
+ENDMDL
+END   

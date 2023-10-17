@@ -1,0 +1,90 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1NC6
+MODEL        1
+ATOM      1  N   SER A 195      44.649  18.909  45.373  1.00 11.71           N1+
+ATOM      2  CA  SER A 195      43.237  19.311  45.403  1.00 12.76           C  
+ATOM      3  C   SER A 195      42.452  18.869  44.169  1.00 11.90           C  
+ATOM      4  O   SER A 195      42.925  19.046  43.053  1.00 11.23           O  
+ATOM      5  CB  SER A 195      43.120  20.835  45.590  1.00 15.97           C  
+ATOM      6  OG  SER A 195      43.311  21.198  46.956  1.00 17.71           O  
+TER       7      SER A 195
+HETATM    8  N1  ABB A 300      42.480  24.798  52.038  1.00 16.93           N  
+HETATM    9  C54 ABB A 300      41.943  26.155  52.076  1.00 16.23           C  
+HETATM   10  C53 ABB A 300      42.329  24.186  50.707  1.00 16.52           C  
+HETATM   11  C52 ABB A 300      41.756  25.284  49.795  1.00 16.47           C  
+HETATM   12  C51 ABB A 300      41.332  26.430  50.705  1.00 16.94           C  
+HETATM   13  CP  ABB A 300      43.645  23.666  50.111  1.00 15.44           C  
+HETATM   14  OP  ABB A 300      44.673  24.339  50.186  1.00 14.89           O  
+HETATM   15  N   ABB A 300      43.576  22.485  49.485  1.00 14.80           N  
+HETATM   16  CA  ABB A 300      44.682  21.773  48.845  1.00 15.07           C  
+HETATM   17  CB  ABB A 300      44.730  20.348  49.437  1.00 14.16           C  
+HETATM   18  CG  ABB A 300      45.175  20.361  50.904  1.00 13.76           C  
+HETATM   19  CD  ABB A 300      45.143  18.980  51.548  1.00 14.09           C  
+HETATM   20  NE  ABB A 300      45.513  19.071  52.950  1.00 13.85           N  
+HETATM   21  CZ  ABB A 300      45.724  18.005  53.803  1.00 14.41           C  
+HETATM   22  NH1 ABB A 300      46.140  18.172  55.003  1.00 15.20           N  
+HETATM   23  NH2 ABB A 300      45.480  16.757  53.285  1.00 13.39           N  
+HETATM   24  O   ABB A 300      45.588  21.196  46.796  1.00 15.98           O1-
+HETATM   25  N5  ABB A 300      43.489  24.037  46.772  1.00 17.49           N  
+HETATM   26  C5  ABB A 300      44.575  23.247  46.759  1.00 17.09           C  
+HETATM   27  S5  ABB A 300      46.065  24.041  46.190  1.00 16.33           S  
+HETATM   28  C61 ABB A 300      43.809  25.331  46.364  1.00 19.68           C  
+HETATM   29  C62 ABB A 300      45.163  25.532  45.972  1.00 19.07           C  
+HETATM   30  C63 ABB A 300      45.619  26.780  45.507  1.00 20.70           C  
+HETATM   31  C64 ABB A 300      44.731  27.869  45.444  1.00 20.84           C  
+HETATM   32  C65 ABB A 300      43.396  27.705  45.855  1.00 20.53           C  
+HETATM   33  C66 ABB A 300      42.945  26.452  46.313  1.00 20.54           C  
+HETATM   34  O1  ABB A 300      39.926  26.471  50.828  1.00 17.53           O  
+HETATM   35  C1  ABB A 300      42.949  24.164  53.137  1.00 17.01           C  
+HETATM   36  C2  ABB A 300      42.904  24.901  54.477  1.00 19.40           C  
+HETATM   37  O2  ABB A 300      43.380  23.012  53.116  1.00 16.77           O  
+HETATM   38  C   ABB A 300      44.554  21.822  47.297  1.00 16.06           C  
+CONECT    8    9   10   35
+CONECT    9    8   12
+CONECT   10    8   11   13
+CONECT   11   10   12
+CONECT   12    9   11   34
+CONECT   13   10   14   15
+CONECT   13   14
+CONECT   14   13
+CONECT   14   13
+CONECT   15   13   16
+CONECT   16   15   17   38
+CONECT   17   16   18
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   20   22   23
+CONECT   21   22
+CONECT   22   21
+CONECT   22   21
+CONECT   23   21
+CONECT   24   38
+CONECT   25   26   28
+CONECT   25   26
+CONECT   26   25   27   38
+CONECT   26   25
+CONECT   27   26   29
+CONECT   28   25   29   33
+CONECT   28   29
+CONECT   29   27   28   30
+CONECT   29   28
+CONECT   30   29   31
+CONECT   30   31
+CONECT   31   30   32
+CONECT   31   30
+CONECT   32   31   33
+CONECT   32   33
+CONECT   33   28   32
+CONECT   33   32
+CONECT   34   12
+CONECT   35    8   36   37
+CONECT   35   37
+CONECT   36   35
+CONECT   37   35
+CONECT   37   35
+CONECT   38    6   16   24   26
+ENDMDL
+END   

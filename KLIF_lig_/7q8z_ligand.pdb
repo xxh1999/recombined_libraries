@@ -1,0 +1,73 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7q8z_ligand
+MODEL        1
+HETATM    1  N1  Q9I A 303      -0.583  17.676  42.957  1.00  0.00           N  
+HETATM    2  C2  Q9I A 303      -0.270  10.136  39.720  1.00  0.00           C  
+HETATM    3  N3  Q9I A 303       0.348  21.497  41.977  1.00  0.00           N  
+HETATM    4  C4  Q9I A 303      -0.132  12.846  41.545  1.00  0.00           C  
+HETATM    5  C5  Q9I A 303       0.516  13.581  42.517  1.00  0.00           C  
+HETATM    6  C6  Q9I A 303       0.673  14.948  42.355  1.00  0.00           C  
+HETATM    7  C17 Q9I A 303      -2.923   9.547  40.234  1.00  0.00           C  
+HETATM    8  C   Q9I A 303      -2.278   8.952  39.170  1.00  0.00           C  
+HETATM    9  C16 Q9I A 303      -2.247  10.419  41.066  1.00  0.00           C  
+HETATM   10  C3  Q9I A 303      -0.914  10.693  40.814  1.00  0.00           C  
+HETATM   11  C1  Q9I A 303      -0.961   9.251  38.908  1.00  0.00           C  
+HETATM   12  O   Q9I A 303      -0.207  11.462  41.722  1.00  0.00           O  
+HETATM   13  C15 Q9I A 303      -0.609  13.463  40.397  1.00  0.00           C  
+HETATM   14  C14 Q9I A 303      -0.420  14.828  40.225  1.00  0.00           C  
+HETATM   15  C7  Q9I A 303       0.234  15.573  41.193  1.00  0.00           C  
+HETATM   16  N   Q9I A 303       0.484  16.942  41.008  1.00  0.00           N  
+HETATM   17  C8  Q9I A 303       0.089  17.964  41.822  1.00  0.00           C  
+HETATM   18  C13 Q9I A 303       0.406  19.305  41.494  1.00  0.00           C  
+HETATM   19  C12 Q9I A 303       0.991  20.024  40.407  1.00  0.00           C  
+HETATM   20  C11 Q9I A 303       0.946  21.341  40.746  1.00  0.00           C  
+HETATM   21  C10 Q9I A 303       0.004  20.260  42.444  1.00  0.00           C  
+HETATM   22  N2  Q9I A 303      -0.628  19.997  43.620  1.00  0.00           N  
+HETATM   23  C9  Q9I A 303      -0.881  18.689  43.778  1.00  0.00           C  
+CONECT    1   17   23
+CONECT    1   23
+CONECT    2   10   11
+CONECT    2   10
+CONECT    3   20   21
+CONECT    4    5   12   13
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    5   15
+CONECT    6   15
+CONECT    7    8    9
+CONECT    7    9
+CONECT    8    7   11
+CONECT    8   11
+CONECT    9    7   10
+CONECT    9    7
+CONECT   10    2    9   12
+CONECT   10    2
+CONECT   11    2    8
+CONECT   11    8
+CONECT   12    4   10
+CONECT   13    4   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15    6   14   16
+CONECT   15    6
+CONECT   16   15   17
+CONECT   17    1   16   18
+CONECT   17   18
+CONECT   18   17   19   21
+CONECT   18   17
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20    3   19
+CONECT   20   19
+CONECT   21    3   18   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23    1   22
+CONECT   23    1
+ENDMDL
+END   

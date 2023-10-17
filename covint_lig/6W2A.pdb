@@ -1,0 +1,82 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6W2A
+MODEL        1
+ATOM      1  N   CYS A 145      15.986  12.274   0.446  1.00 20.99           N1+
+ATOM      2  CA  CYS A 145      17.316  11.862   0.040  1.00 17.44           C  
+ATOM      3  C   CYS A 145      17.550  10.385   0.331  1.00 18.25           C  
+ATOM      4  O   CYS A 145      17.027   9.819   1.296  1.00 21.48           O  
+ATOM      5  CB  CYS A 145      18.360  12.715   0.751  1.00 24.83           C  
+ATOM      6  SG  CYS A 145      18.388  14.376   0.041  1.00 23.78           S1+
+TER       7      CYS A 145
+HETATM    8  C11 VDJ A 401      20.308  19.106   0.339  0.50 22.33           C  
+HETATM    9  C12 VDJ A 401      21.396  18.830   1.398  0.50 23.45           C  
+HETATM   10  C13 VDJ A 401      22.747  19.396   1.027  0.50 29.24           C  
+HETATM   11  C14 VDJ A 401      23.790  19.166   2.118  0.50 29.69           C  
+HETATM   12  C15 VDJ A 401      23.259  18.792  -0.274  0.50 29.56           C  
+HETATM   13  C16 VDJ A 401      18.980  18.560   0.835  0.50 26.25           C  
+HETATM   14  C18 VDJ A 401      17.241  16.759   0.707  0.50 24.96           C  
+HETATM   15  C19 VDJ A 401      16.283  16.689  -0.498  0.50 24.30           C  
+HETATM   16  C20 VDJ A 401      15.897  18.098  -0.967  0.50 23.59           C  
+HETATM   17  C21 VDJ A 401      15.020  18.048  -2.229  0.50 22.99           C  
+HETATM   18  C23 VDJ A 401      14.011  19.635  -0.809  0.50 24.41           C  
+HETATM   19  C24 VDJ A 401      15.070  18.885   0.038  0.50 23.71           C  
+HETATM   20  C26 VDJ A 401      17.465  15.325   1.254  0.50 22.92           C  
+HETATM   21  C02 VDJ A 401      18.516  27.126  -2.779  0.50 46.46           C  
+HETATM   22  C04 VDJ A 401      19.551  26.544  -1.791  0.50 42.90           C  
+HETATM   23  C05 VDJ A 401      19.512  25.002  -1.810  0.50 38.50           C  
+HETATM   24  C06 VDJ A 401      18.098  24.421  -1.575  0.50 37.93           C  
+HETATM   25  C07 VDJ A 401      18.140  22.868  -1.638  0.50 34.09           C  
+HETATM   26  C09 VDJ A 401      19.231  20.996  -0.732  0.50 30.26           C  
+HETATM   27  C30 VDJ A 401      17.174  25.027  -2.592  0.50 38.67           C  
+HETATM   28  C31 VDJ A 401      17.132  26.542  -2.502  0.50 43.26           C  
+HETATM   29  F01 VDJ A 401      18.496  28.482  -2.717  0.50 51.61           F  
+HETATM   30  F03 VDJ A 401      18.869  26.891  -4.056  0.50 48.21           F  
+HETATM   31  N10 VDJ A 401      20.180  20.515   0.125  0.50 25.15           N  
+HETATM   32  N17 VDJ A 401      18.510  17.387   0.325  0.50 25.54           N  
+HETATM   33  N22 VDJ A 401      13.972  18.913  -2.088  0.50 24.18           N  
+HETATM   34  O08 VDJ A 401      18.985  22.324  -0.651  0.50 32.33           O  
+HETATM   35  O25 VDJ A 401      15.173  17.364  -3.233  0.50 23.84           O  
+HETATM   36  O27 VDJ A 401      18.304  15.493   2.360  0.50 26.08           O1-
+HETATM   37  O28 VDJ A 401      18.369  19.190   1.691  0.50 28.46           O  
+HETATM   38  O29 VDJ A 401      18.624  20.286  -1.519  0.50 27.55           O  
+CONECT    8    9   13   31
+CONECT    9    8   10
+CONECT   10    9   11   12
+CONECT   11   10
+CONECT   12   10
+CONECT   13    8   32   37
+CONECT   13   37
+CONECT   14   15   20   32
+CONECT   15   14   16
+CONECT   16   15   17   19
+CONECT   17   16   33   35
+CONECT   17   35
+CONECT   18   19   33
+CONECT   19   16   18
+CONECT   20    6   14   36
+CONECT   21   22   28   29   30
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   23   25   27
+CONECT   25   24   34
+CONECT   26   31   34   38
+CONECT   26   38
+CONECT   27   24   28
+CONECT   28   21   27
+CONECT   29   21
+CONECT   30   21
+CONECT   31    8   26
+CONECT   32   13   14
+CONECT   33   17   18
+CONECT   34   25   26
+CONECT   35   17
+CONECT   35   17
+CONECT   36   20
+CONECT   37   13
+CONECT   37   13
+CONECT   38   26
+CONECT   38   26
+ENDMDL
+END   

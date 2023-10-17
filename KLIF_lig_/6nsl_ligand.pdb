@@ -1,0 +1,100 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6nsl_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N14 KZJ A 901       0.787  11.153  42.473  1.00  0.00           N  
+HETATM    2  C13 KZJ A 901       0.273  12.103  43.370  1.00  0.00           C  
+HETATM    3  C18 KZJ A 901       0.559   9.751  42.728  1.00  0.00           C  
+HETATM    4  C17 KZJ A 901       1.688  13.772  42.241  1.00  0.00           C  
+HETATM    5  C16 KZJ A 901       2.121  12.766  41.349  1.00  0.00           C  
+HETATM    6  C15 KZJ A 901       1.668  11.500  41.463  1.00  0.00           C  
+HETATM    7  C20 KZJ A 901      -2.181  17.512  47.509  1.00  0.00           C  
+HETATM    8  C24 KZJ A 901       1.303  16.677  39.019  1.00  0.00           C  
+HETATM    9  C11 KZJ A 901       0.660  18.379  40.712  1.00  0.00           C  
+HETATM   10  C12 KZJ A 901       0.775  13.467  43.224  1.00  0.00           C  
+HETATM   11  C27 KZJ A 901       1.306   9.088  43.700  1.00  0.00           C  
+HETATM   12  C1  KZJ A 901      -0.707  16.250  45.303  1.00  0.00           C  
+HETATM   13  C2  KZJ A 901      -0.120  15.656  44.164  1.00  0.00           C  
+HETATM   14  N3  KZJ A 901       0.162  16.266  43.051  1.00  0.00           N  
+HETATM   15  N4  KZJ A 901      -0.159  17.629  43.080  1.00  0.00           N  
+HETATM   16  C5  KZJ A 901      -0.746  18.302  44.137  1.00  0.00           C  
+HETATM   17  C6  KZJ A 901      -1.063  17.561  45.315  1.00  0.00           C  
+HETATM   18  N7  KZJ A 901       0.232  14.310  44.213  1.00  0.00           N  
+HETATM   19  C8  KZJ A 901       0.106  18.563  42.075  1.00  0.00           C  
+HETATM   20  C9  KZJ A 901      -0.338  19.739  42.621  1.00  0.00           C  
+HETATM   21  N10 KZJ A 901      -0.857  19.597  43.872  1.00  0.00           N  
+HETATM   22  N19 KZJ A 901      -1.724  18.180  46.305  1.00  0.00           N  
+HETATM   23  O21 KZJ A 901      -0.538  11.786  44.228  1.00  0.00           O  
+HETATM   24  N22 KZJ A 901       1.012  17.119  40.378  1.00  0.00           N  
+HETATM   25  O23 KZJ A 901       0.771  19.337  39.958  1.00  0.00           O  
+HETATM   26  C25 KZJ A 901       0.660  15.434  38.537  1.00  0.00           C  
+HETATM   27  C26 KZJ A 901       0.243  16.749  37.984  1.00  0.00           C  
+HETATM   28  C28 KZJ A 901       1.120   7.734  43.921  1.00  0.00           C  
+HETATM   29  C29 KZJ A 901       0.189   7.026  43.163  1.00  0.00           C  
+HETATM   30  C30 KZJ A 901      -0.566   7.692  42.194  1.00  0.00           C  
+HETATM   31  C31 KZJ A 901      -0.387   9.052  41.991  1.00  0.00           C  
+HETATM   32  C32 KZJ A 901       0.020   5.610  43.368  1.00  0.00           C  
+HETATM   33  N33 KZJ A 901      -0.089   4.489  43.552  1.00  0.00           N  
+CONECT    1    2    3    6
+CONECT    2    1   10   23
+CONECT    2   23
+CONECT    3    1   11   31
+CONECT    3   31
+CONECT    4    5   10
+CONECT    4   10
+CONECT    5    4    6
+CONECT    5    6
+CONECT    6    1    5
+CONECT    6    5
+CONECT    7   22
+CONECT    8   24   26   27
+CONECT    9   19   24   25
+CONECT    9   25
+CONECT   10    2    4   18
+CONECT   10    4
+CONECT   11    3   28
+CONECT   11   28
+CONECT   12   13   17
+CONECT   12   17
+CONECT   13   12   14   18
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   16   19
+CONECT   16   15   17   21
+CONECT   16   21
+CONECT   17   12   16   22
+CONECT   17   12
+CONECT   18   10   13
+CONECT   19    9   15   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   16   20
+CONECT   21   16
+CONECT   22    7   17
+CONECT   23    2
+CONECT   23    2
+CONECT   24    8    9
+CONECT   25    9
+CONECT   25    9
+CONECT   26    8   27
+CONECT   27    8   26
+CONECT   28   11   29
+CONECT   28   11
+CONECT   29   28   30   32
+CONECT   29   30
+CONECT   30   29   31
+CONECT   30   29
+CONECT   31    3   30
+CONECT   31    3
+CONECT   32   29   33
+CONECT   32   33
+CONECT   32   33
+CONECT   33   32
+CONECT   33   32
+CONECT   33   32
+ENDMDL
+END   

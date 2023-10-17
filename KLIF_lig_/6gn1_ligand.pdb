@@ -1,0 +1,80 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6gn1_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  O11 F4N B 502       2.268  12.498  41.514  1.00  0.00           O1-
+HETATM    2  C7  F4N B 502      -0.350  13.934  40.148  1.00  0.00           C  
+HETATM    3  C1  F4N B 502       0.668  14.584  39.459  1.00  0.00           C  
+HETATM    4  C2  F4N B 502       0.418  15.158  38.210  1.00  0.00           C  
+HETATM    5  C3  F4N B 502       1.427  15.813  37.492  1.00  0.00           C  
+HETATM    6  C4  F4N B 502       2.715  15.921  38.020  1.00  0.00           C  
+HETATM    7  C5  F4N B 502       2.951  15.340  39.263  1.00  0.00           C  
+HETATM    8  C6  F4N B 502       1.956  14.676  39.982  1.00  0.00           C  
+HETATM    9  N8  F4N B 502       3.712  16.551  37.358  1.00  0.00           N1+
+HETATM   10  O22 F4N B 502       3.482  17.101  36.154  1.00  0.00           O  
+HETATM   11  O21 F4N B 502       5.055  16.624  37.946  1.00  0.00           O1-
+HETATM   12  S9  F4N B 502       2.437  14.017  41.526  1.00  0.00           S2+
+HETATM   13  O10 F4N B 502       3.914  14.329  41.758  1.00  0.00           O1-
+HETATM   14  N12 F4N B 502       1.554  14.691  42.797  1.00  0.00           N  
+HETATM   15  C13 F4N B 502       0.632  13.796  43.553  1.00  0.00           C  
+HETATM   16  N14 F4N B 502       1.373  15.906  42.610  1.00  0.00           N  
+HETATM   17  C15 F4N B 502       0.871  16.689  43.590  1.00  0.00           C  
+HETATM   18  C17 F4N B 502       0.698  17.999  43.354  1.00  0.00           C  
+HETATM   19  C16 F4N B 502      -0.090  18.670  44.172  1.00  0.00           C  
+HETATM   20  N20 F4N B 502      -0.249  19.903  43.715  1.00  0.00           N  
+HETATM   21  C19 F4N B 502       0.402  19.984  42.556  1.00  0.00           C  
+HETATM   22  N18 F4N B 502       0.934  18.790  42.262  1.00  0.00           N  
+HETATM   23  C23 F4N B 502       1.727  18.562  41.135  1.00  0.00           C  
+HETATM   24  C24 F4N B 502       1.878  19.626  40.251  1.00  0.00           C  
+HETATM   25 BR2  F4N B 502       2.865  19.461  38.660  1.00  0.00          Br  
+HETATM   26  C25 F4N B 502       1.285  20.847  40.544  1.00  0.00           C  
+HETATM   27  C26 F4N B 502       0.557  21.000  41.714  1.00  0.00           C  
+CONECT    1   12
+CONECT    2    3
+CONECT    3    2    4    8
+CONECT    3    8
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    5    7    9
+CONECT    6    7
+CONECT    7    6    8
+CONECT    7    6
+CONECT    8    3    7   12
+CONECT    8    3
+CONECT    9    6   10   11
+CONECT    9   10
+CONECT   10    9
+CONECT   10    9
+CONECT   11    9
+CONECT   12    1    8   13   14
+CONECT   13   12
+CONECT   14   12   15   16
+CONECT   15   14
+CONECT   16   14   17
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   17   19   22
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20   22   27
+CONECT   21   20
+CONECT   22   18   21   23
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25   26
+CONECT   24   23
+CONECT   25   24
+CONECT   26   24   27
+CONECT   26   27
+CONECT   27   21   26
+CONECT   27   26
+ENDMDL
+END   

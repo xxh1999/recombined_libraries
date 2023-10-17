@@ -1,0 +1,78 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5kpm_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  Q6V A 500       2.512  19.967  39.898  1.00  0.00           C  
+HETATM    2  C2  Q6V A 500       1.632  19.101  39.007  1.00  0.00           C  
+HETATM    3  C3  Q6V A 500       1.889  21.359  39.944  1.00  0.00           C  
+HETATM    4  C4  Q6V A 500       2.695  19.390  41.305  1.00  0.00           C  
+HETATM    5  C5  Q6V A 500       1.430  19.257  42.089  1.00  0.00           C  
+HETATM    6  C6  Q6V A 500      -0.407  18.448  43.274  1.00  0.00           C  
+HETATM    7  C12 Q6V A 500      -2.404  13.403  45.809  1.00  0.00           C  
+HETATM    8  C13 Q6V A 500      -0.275  14.484  46.181  1.00  0.00           C  
+HETATM    9  C14 Q6V A 500      -2.003  15.389  44.524  1.00  0.00           C  
+HETATM   10  C24 Q6V A 500       2.179  15.802  40.186  1.00  0.00           C  
+HETATM   11  C25 Q6V A 500       2.049  15.507  38.813  1.00  0.00           C  
+HETATM   12  C26 Q6V A 500       0.803  15.603  38.183  1.00  0.00           C  
+HETATM   13  C27 Q6V A 500      -0.287  15.991  38.965  1.00  0.00           C  
+HETATM   14  O   Q6V A 500       1.172  13.689  42.427  1.00  0.00           O  
+HETATM   15  C9  Q6V A 500       0.323  14.191  43.153  1.00  0.00           C  
+HETATM   16  C8  Q6V A 500       0.202  15.695  43.168  1.00  0.00           C  
+HETATM   17  C7  Q6V A 500      -1.000  16.287  43.834  1.00  0.00           C  
+HETATM   18  C11 Q6V A 500      -1.305  14.151  45.099  1.00  0.00           C  
+HETATM   19  C10 Q6V A 500      -0.669  13.349  43.957  1.00  0.00           C  
+HETATM   20  C15 Q6V A 500       1.203  16.549  42.450  1.00  0.00           C  
+HETATM   21  C29 Q6V A 500       2.537  16.322  43.168  1.00  0.00           C  
+HETATM   22  C30 Q6V A 500       1.096  16.203  40.970  1.00  0.00           C  
+HETATM   23  C28 Q6V A 500      -0.155  16.275  40.337  1.00  0.00           C  
+HETATM   24  C23 Q6V A 500       0.808  18.005  42.589  1.00  0.00           C  
+HETATM   25  C   Q6V A 500       3.896  20.037  39.246  1.00  0.00           C  
+HETATM   26  N   Q6V A 500       0.606  20.226  42.520  1.00  0.00           N  
+HETATM   27  N1  Q6V A 500      -0.523  19.783  43.247  1.00  0.00           N  
+HETATM   28  N2  Q6V A 500      -1.232  17.593  43.849  1.00  0.00           N  
+CONECT    1    2    3    4   25
+CONECT    2    1
+CONECT    3    1
+CONECT    4    1    5
+CONECT    5    4   24   26
+CONECT    5   24
+CONECT    6   24   27   28
+CONECT    6   27
+CONECT    7   18
+CONECT    8   18
+CONECT    9   17   18
+CONECT   10   11   22
+CONECT   10   22
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   23
+CONECT   13   23
+CONECT   14   15
+CONECT   14   15
+CONECT   15   14   16   19
+CONECT   15   14
+CONECT   16   15   17   20
+CONECT   16   17
+CONECT   17    9   16   28
+CONECT   17   16
+CONECT   18    7    8    9   19
+CONECT   19   15   18
+CONECT   20   16   21   22   24
+CONECT   21   20
+CONECT   22   10   20   23
+CONECT   22   10
+CONECT   23   13   22
+CONECT   23   13
+CONECT   24    5    6   20
+CONECT   24    5
+CONECT   25    1
+CONECT   26    5   27
+CONECT   27    6   26
+CONECT   27    6
+CONECT   28    6   17
+ENDMDL
+END   

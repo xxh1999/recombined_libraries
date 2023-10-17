@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6gi6_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C01 EZB A 501      -0.182  20.013  41.878  1.00  0.00           C  
+HETATM    2  C02 EZB A 501      -0.127  18.537  42.232  1.00  0.00           C  
+HETATM    3  C03 EZB A 501       0.431  17.596  41.342  1.00  0.00           C  
+HETATM    4  C04 EZB A 501       0.449  16.247  41.686  1.00  0.00           C  
+HETATM    5  C05 EZB A 501      -0.041  15.821  42.907  1.00  0.00           C  
+HETATM    6  C06 EZB A 501      -0.586  16.764  43.814  1.00  0.00           C  
+HETATM    7  C07 EZB A 501      -0.635  18.097  43.502  1.00  0.00           C  
+HETATM    8  C08 EZB A 501      -1.229  19.051  44.524  1.00  0.00           C  
+HETATM    9  C10 EZB A 501      -1.646  17.172  46.038  1.00  0.00           C  
+HETATM   10  C13 EZB A 501       0.917  17.875  40.062  1.00  0.00           C  
+HETATM   11  C14 EZB A 501       0.265  17.217  39.018  1.00  0.00           C  
+HETATM   12  C15 EZB A 501       0.653  17.404  37.691  1.00  0.00           C  
+HETATM   13  C16 EZB A 501       1.715  18.247  37.398  1.00  0.00           C  
+HETATM   14  C17 EZB A 501       2.388  18.924  38.453  1.00  0.00           C  
+HETATM   15  C18 EZB A 501       2.010  18.744  39.758  1.00  0.00           C  
+HETATM   16  C19 EZB A 501       2.728  19.440  40.773  1.00  0.00           C  
+HETATM   17  C20 EZB A 501       3.780  20.277  40.407  1.00  0.00           C  
+HETATM   18  C21 EZB A 501       4.125  20.423  39.062  1.00  0.00           C  
+HETATM   19  N09 EZB A 501      -1.706  18.559  45.742  1.00  0.00           N  
+HETATM   20  N11 EZB A 501      -1.087  16.263  45.080  1.00  0.00           N  
+HETATM   21  N22 EZB A 501       3.435  19.758  38.119  1.00  0.00           N  
+HETATM   22  O12 EZB A 501      -1.316  20.246  44.334  1.00  0.00           O  
+CONECT    1    2
+CONECT    2    1    3    7
+CONECT    2    7
+CONECT    3    2    4   10
+CONECT    3    4
+CONECT    4    3    5
+CONECT    4    3
+CONECT    5    4    6
+CONECT    5    6
+CONECT    6    5    7   20
+CONECT    6    5
+CONECT    7    2    6    8
+CONECT    7    2
+CONECT    8    7   19   22
+CONECT    8   22
+CONECT    9   19   20
+CONECT    9   20
+CONECT   10    3   11   15
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15   21
+CONECT   14   21
+CONECT   15   10   14   16
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   17   21
+CONECT   18   17
+CONECT   19    8    9
+CONECT   20    6    9
+CONECT   20    9
+CONECT   21   14   18
+CONECT   21   14
+CONECT   22    8
+CONECT   22    8
+ENDMDL
+END   

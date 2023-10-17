@@ -1,0 +1,22 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5vc5_ligand1
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  PEG A 605       4.294  34.304  44.917  1.00  0.00           C  
+HETATM    2  O1  PEG A 605       2.973  34.616  44.854  1.00  0.00           O  
+HETATM    3  C2  PEG A 605       4.395  33.038  45.702  1.00  0.00           C  
+HETATM    4  O2  PEG A 605       5.720  32.589  46.014  1.00  0.00           O  
+HETATM    5  C3  PEG A 605       6.682  32.185  45.008  1.00  0.00           C  
+HETATM    6  C4  PEG A 605       7.248  33.370  44.253  1.00  0.00           C  
+HETATM    7  O4  PEG A 605       8.528  32.999  43.840  1.00  0.00           O  
+CONECT    1    2    3
+CONECT    2    1
+CONECT    3    1    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    5    7
+CONECT    7    6
+ENDMDL
+END   

@@ -1,0 +1,69 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1QGF
+MODEL        1
+ATOM      1  N   SER A 195      -6.576  26.215  38.442  1.00  8.32           N1+
+ATOM      2  CA  SER A 195      -6.266  25.140  39.387  1.00  7.51           C  
+ATOM      3  C   SER A 195      -4.823  25.209  39.896  1.00  8.31           C  
+ATOM      4  O   SER A 195      -3.909  25.533  39.144  1.00  9.82           O  
+ATOM      5  CB  SER A 195      -6.562  23.771  38.752  1.00  9.70           C  
+ATOM      6  OG  SER A 195      -7.947  23.451  38.820  1.00 11.78           O  
+TER       7      SER A 195
+HETATM    8  C   TPX A 280      -8.780  23.848  37.843  1.00 14.99           C  
+HETATM    9  CA  TPX A 280     -10.190  23.252  37.978  1.00 11.25           C  
+HETATM   10  CB  TPX A 280     -10.401  22.100  36.930  1.00 13.56           C  
+HETATM   11  CC  TPX A 280     -11.838  21.539  36.934  1.00 14.21           C  
+HETATM   12  CD  TPX A 280     -11.246  24.390  37.894  1.00 10.69           C  
+HETATM   13  CE  TPX A 280     -11.016  25.594  38.827  1.00 12.89           C  
+HETATM   14  O   TPX A 280      -8.475  24.572  36.895  1.00 17.25           O  
+HETATM   15  OA  TPX A 280     -12.303  21.170  35.833  1.00 13.62           O1-
+HETATM   16  OB  TPX A 280     -12.455  21.448  38.017  1.00 16.18           O  
+HETATM   17  CK  TPX A 280      -9.458  20.866  37.068  1.00 19.56           C  
+HETATM   18  N   TPX A 280      -8.032  21.140  36.829  1.00 24.51           N  
+HETATM   19  OC  TPX A 280      -8.312  22.289  34.502  1.00 41.61           O  
+HETATM   20  OD  TPX A 280      -5.986  21.911  35.471  1.00 25.44           O  
+HETATM   21  S   TPX A 280      -7.369  21.457  35.264  1.00 26.14           S  
+HETATM   22  CF  TPX A 280      -7.315  19.828  34.534  0.50 12.08           C  
+HETATM   23  CG1 TPX A 280      -6.157  19.039  34.677  0.00 12.15           C  
+HETATM   24  CG2 TPX A 280      -8.425  19.354  33.807  0.00 12.15           C  
+HETATM   25  CH1 TPX A 280      -6.108  17.765  34.079  0.00 12.16           C  
+HETATM   26  CH2 TPX A 280      -8.371  18.078  33.212  0.00 12.16           C  
+HETATM   27  CI  TPX A 280      -7.212  17.283  33.345  0.00 12.16           C  
+HETATM   28  CJ  TPX A 280      -7.144  15.915  32.700  0.00 12.14           C  
+CONECT    8    6    9   14
+CONECT    8   14
+CONECT    9    8   10   12
+CONECT   10    9   11   17
+CONECT   11   10   15   16
+CONECT   11   16
+CONECT   12    9   13
+CONECT   13   12
+CONECT   14    8
+CONECT   14    8
+CONECT   15   11
+CONECT   16   11
+CONECT   16   11
+CONECT   17   10   18
+CONECT   18   17   21
+CONECT   19   21
+CONECT   19   21
+CONECT   20   21
+CONECT   20   21
+CONECT   21   18   19   20   22
+CONECT   21   19   20
+CONECT   22   21   23   24
+CONECT   22   23
+CONECT   23   22   25
+CONECT   23   22
+CONECT   24   22   26
+CONECT   24   26
+CONECT   25   23   27
+CONECT   25   27
+CONECT   26   24   27
+CONECT   26   24
+CONECT   27   25   26   28
+CONECT   27   25
+CONECT   28   27
+ENDMDL
+END   

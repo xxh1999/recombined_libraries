@@ -1,0 +1,85 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6ykd_ligand
+MODEL        1
+HETATM    1  C1  OWB A 400       0.954  21.223  41.570  1.00  0.00           C  
+HETATM    2  C2  OWB A 400       1.550  20.451  40.588  1.00  0.00           C  
+HETATM    3  C4  OWB A 400       1.259  18.505  41.973  1.00  0.00           C  
+HETATM    4  C5  OWB A 400       0.648  19.289  42.938  1.00  0.00           C  
+HETATM    5  C6  OWB A 400       0.484  20.654  42.737  1.00  0.00           C  
+HETATM    6  C13 OWB A 400       0.030  16.559  43.440  1.00  0.00           C  
+HETATM    7  C14 OWB A 400      -0.249  15.239  43.781  1.00  0.00           C  
+HETATM    8  C16 OWB A 400      -1.008  15.922  45.839  1.00  0.00           C  
+HETATM    9  C18 OWB A 400      -1.542  15.564  47.188  1.00  0.00           C  
+HETATM   10  C19 OWB A 400      -2.626  14.699  47.335  1.00  0.00           C  
+HETATM   11  C23 OWB A 400      -0.959  16.067  48.356  1.00  0.00           C  
+HETATM   12  C24 OWB A 400       0.189  14.221  42.735  1.00  0.00           C  
+HETATM   13  C25 OWB A 400      -0.817  14.112  41.580  1.00  0.00           C  
+HETATM   14  C27 OWB A 400       0.956  13.534  39.992  1.00  0.00           C  
+HETATM   15  C28 OWB A 400       1.996  13.517  41.092  1.00  0.00           C  
+HETATM   16  C29 OWB A 400       1.613  14.489  42.204  1.00  0.00           C  
+HETATM   17  C3  OWB A 400       1.709  19.087  40.784  1.00  0.00           C  
+HETATM   18  N7  OWB A 400       2.349  18.207  39.847  1.00  0.00           N  
+HETATM   19  C8  OWB A 400       2.836  18.413  38.580  1.00  0.00           C  
+HETATM   20  C9  OWB A 400       3.258  17.146  37.874  1.00  0.00           C  
+HETATM   21  O10 OWB A 400       2.938  19.543  38.039  1.00  0.00           O  
+HETATM   22  O11 OWB A 400       0.169  18.817  44.190  1.00  0.00           O  
+HETATM   23  C12 OWB A 400      -0.212  17.519  44.418  1.00  0.00           C  
+HETATM   24  N15 OWB A 400      -0.792  14.907  44.969  1.00  0.00           N  
+HETATM   25  N17 OWB A 400      -0.738  17.231  45.610  1.00  0.00           N  
+HETATM   26  C20 OWB A 400      -3.067  14.379  48.606  1.00  0.00           C  
+HETATM   27  N21 OWB A 400      -2.500  14.843  49.730  1.00  0.00           N  
+HETATM   28  C22 OWB A 400      -1.458  15.672  49.585  1.00  0.00           C  
+HETATM   29  N26 OWB A 400      -0.341  13.162  40.567  1.00  0.00           N1+
+CONECT    1    2    5
+CONECT    1    5
+CONECT    2    1   17
+CONECT    2   17
+CONECT    3    4   17
+CONECT    3    4
+CONECT    4    3    5   22
+CONECT    4    3
+CONECT    5    1    4
+CONECT    5    1
+CONECT    6    7   23
+CONECT    6   23
+CONECT    7    6   12   24
+CONECT    7   24
+CONECT    8    9   24   25
+CONECT    8   25
+CONECT    9    8   10   11
+CONECT    9   10
+CONECT   10    9   26
+CONECT   10    9
+CONECT   11    9   28
+CONECT   11   28
+CONECT   12    7   13   16
+CONECT   13   12   29
+CONECT   14   15   29
+CONECT   15   14   16
+CONECT   16   12   15
+CONECT   17    2    3   18
+CONECT   17    2
+CONECT   18   17   19
+CONECT   19   18   20   21
+CONECT   19   21
+CONECT   20   19
+CONECT   21   19
+CONECT   21   19
+CONECT   22    4   23
+CONECT   23    6   22   25
+CONECT   23    6
+CONECT   24    7    8
+CONECT   24    7
+CONECT   25    8   23
+CONECT   25    8
+CONECT   26   10   27
+CONECT   26   27
+CONECT   27   26   28
+CONECT   27   26
+CONECT   28   11   27
+CONECT   28   11
+CONECT   29   13   14
+ENDMDL
+END   

@@ -1,0 +1,34 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4IHA
+MODEL        1
+ATOM      1  N   SER A  97     -19.805  15.357 -20.550  1.00 12.36           N1+
+ATOM      2  CA  SER A  97     -21.094  15.917 -20.134  1.00 14.61           C  
+ATOM      3  C   SER A  97     -20.934  16.972 -19.022  1.00 14.07           C  
+ATOM      4  O   SER A  97     -20.347  18.025 -19.262  1.00 13.97           O  
+ATOM      5  CB  SER A  97     -22.138  14.822 -19.816  1.00 15.23           C  
+ATOM      6  OG  SER A  97     -23.378  15.516 -19.808  1.00 19.61           O  
+TER       7      SER A  97
+HETATM    8  C1  OPL A 900     -24.426  15.059 -19.014  1.00 22.64           C  
+HETATM    9  O1  OPL A 900     -24.061  15.036 -17.652  1.00 18.88           O  
+HETATM   10  C2  OPL A 900     -25.542  16.130 -19.257  1.00 21.75           C  
+HETATM   11  O2  OPL A 900     -24.865  13.797 -19.436  1.00 23.57           O  
+HETATM   12  C3  OPL A 900     -27.003  15.727 -18.877  1.00 27.29           C  
+HETATM   13  O3  OPL A 900     -26.677  15.685 -16.485  1.00 23.40           O  
+HETATM   14  C4  OPL A 900     -27.244  15.197 -17.461  1.00 26.75           C  
+HETATM   15  O4  OPL A 900     -27.536  14.819 -19.824  1.00 27.57           O  
+HETATM   16  C5  OPL A 900     -25.107  17.479 -18.646  1.00 30.07           C  
+CONECT    8    6    9   10   11
+CONECT    9    8
+CONECT   10    8   12   16
+CONECT   11    8
+CONECT   12   10   14   15
+CONECT   13   14
+CONECT   13   14
+CONECT   14   12   13
+CONECT   14   13
+CONECT   15   12
+CONECT   16   10
+ENDMDL
+END   

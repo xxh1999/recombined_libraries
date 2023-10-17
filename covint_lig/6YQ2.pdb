@@ -1,0 +1,62 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6YQ2
+MODEL        1
+ATOM      1  N   LYS A 122     -15.634 -24.687  -7.983  1.00  9.84           N1+
+ATOM      2  CA  LYS A 122     -16.618 -23.658  -8.308  1.00  9.48           C  
+ATOM      3  C   LYS A 122     -15.985 -22.280  -8.197  1.00 11.03           C  
+ATOM      4  O   LYS A 122     -16.186 -21.432  -9.068  1.00 10.85           O  
+ATOM      5  CB  LYS A 122     -17.814 -23.781  -7.353  1.00 11.17           C  
+ATOM      6  CG  LYS A 122     -18.893 -22.730  -7.565  1.00 11.78           C  
+ATOM      7  CD  LYS A 122     -19.991 -22.822  -6.505  1.00 12.03           C  
+ATOM      8  CE  LYS A 122     -20.892 -21.602  -6.539  1.00 13.31           C  
+ATOM      9  NZ  LYS A 122     -21.919 -21.687  -5.467  1.00 16.05           N1+
+TER      10      LYS A 122
+HETATM   11  C01 P7T A 301     -28.956 -17.889  -2.319  1.00 28.76           C  
+HETATM   12  C02 P7T A 301     -28.059 -17.909  -1.083  1.00 28.86           C  
+HETATM   13  C03 P7T A 301     -27.113 -19.097  -1.197  1.00 23.97           C  
+HETATM   14  C07 P7T A 301     -24.272 -20.845  -1.097  1.00 21.84           C  
+HETATM   15  C08 P7T A 301     -24.589 -21.687  -2.149  1.00 20.18           C  
+HETATM   16  C09 P7T A 301     -23.679 -21.805  -3.178  1.00 18.92           C  
+HETATM   17  C10 P7T A 301     -22.493 -21.080  -3.114  1.00 20.97           C  
+HETATM   18  C11 P7T A 301     -22.185 -20.254  -2.053  1.00 22.55           C  
+HETATM   19  C12 P7T A 301     -23.096 -20.128  -1.036  1.00 23.26           C  
+HETATM   20  C13 P7T A 301     -21.466 -21.168  -4.220  1.00 17.44           C  
+HETATM   21  C15 P7T A 301     -25.529 -17.888   0.103  1.00 30.79           C  
+HETATM   22  C16 P7T A 301     -26.479 -16.694   0.105  1.00 33.34           C  
+HETATM   23  C18 P7T A 301     -25.634 -15.421   0.050  1.00 38.31           C  
+HETATM   24  N04 P7T A 301     -26.247 -19.165  -0.017  1.00 26.57           N  
+HETATM   25  O06 P7T A 301     -24.648 -20.575   1.509  1.00 31.85           O  
+HETATM   26  O14 P7T A 301     -26.320 -21.754   0.329  1.00 25.32           O  
+HETATM   27  O17 P7T A 301     -27.347 -16.721  -0.984  1.00 34.27           O  
+HETATM   28  S05 P7T A 301     -25.416 -20.616   0.262  1.00 24.87           S  
+CONECT   11   12
+CONECT   12   11   13   27
+CONECT   13   12   24
+CONECT   14   15   19   28
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   16   18   20
+CONECT   17   16
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   14   18
+CONECT   19   18
+CONECT   20    9   17
+CONECT   21   22   24
+CONECT   22   21   23   27
+CONECT   23   22
+CONECT   24   13   21   28
+CONECT   25   28
+CONECT   25   28
+CONECT   26   28
+CONECT   26   28
+CONECT   27   12   22
+CONECT   28   14   24   25   26
+CONECT   28   25   26
+ENDMDL
+END   

@@ -1,0 +1,50 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5xs2_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C10 Q8D A 402       0.784  19.061  41.756  1.00  0.00           C  
+HETATM    2  C15 Q8D A 402       0.304  18.373  42.884  1.00  0.00           C  
+HETATM    3  N01 Q8D A 402       2.970  16.327  36.650  1.00  0.00           N  
+HETATM    4  C02 Q8D A 402       2.824  17.593  37.285  1.00  0.00           C  
+HETATM    5  O03 Q8D A 402       3.291  18.590  36.759  1.00  0.00           O  
+HETATM    6  C04 Q8D A 402       2.057  17.651  38.562  1.00  0.00           C  
+HETATM    7  C05 Q8D A 402       2.047  18.676  39.499  1.00  0.00           C  
+HETATM    8 CL06 Q8D A 402       2.981  20.132  39.364  1.00  0.00          Cl  
+HETATM    9  C07 Q8D A 402       1.216  18.304  40.539  1.00  0.00           C  
+HETATM   10  C08 Q8D A 402       0.699  17.056  40.196  1.00  0.00           C  
+HETATM   11  N09 Q8D A 402       1.228  16.668  39.010  1.00  0.00           N  
+HETATM   12  C11 Q8D A 402       0.713  20.466  41.752  1.00  0.00           C  
+HETATM   13  C12 Q8D A 402       0.233  21.132  42.881  1.00  0.00           C  
+HETATM   14  N13 Q8D A 402      -0.191  20.428  43.960  1.00  0.00           N  
+HETATM   15  C14 Q8D A 402      -0.155  19.076  43.998  1.00  0.00           C  
+CONECT    1    2    9   12
+CONECT    1   12
+CONECT    2    1   15
+CONECT    2   15
+CONECT    3    4
+CONECT    4    3    5    6
+CONECT    4    5
+CONECT    5    4
+CONECT    5    4
+CONECT    6    4    7   11
+CONECT    6    7
+CONECT    7    6    8    9
+CONECT    7    6
+CONECT    8    7
+CONECT    9    1    7   10
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11    6   10
+CONECT   12    1   13
+CONECT   12    1
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15    2   14
+CONECT   15    2
+ENDMDL
+END   

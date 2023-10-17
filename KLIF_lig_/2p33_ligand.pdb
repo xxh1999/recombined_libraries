@@ -1,0 +1,80 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2p33_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C01 J07 A 507      -4.808  11.320  48.356  1.00  0.00           C  
+HETATM    2  C02 J07 A 507      -5.466  11.423  46.994  1.00  0.00           C  
+HETATM    3  N03 J07 A 507      -5.582  12.814  46.573  1.00  0.00           N  
+HETATM    4  C04 J07 A 507      -5.021  13.221  45.381  1.00  0.00           C  
+HETATM    5  O05 J07 A 507      -5.469  12.852  44.293  1.00  0.00           O  
+HETATM    6  N06 J07 A 507      -3.890  14.082  45.498  1.00  0.00           N  
+HETATM    7  C07 J07 A 507      -3.242  14.537  44.244  1.00  0.00           C  
+HETATM    8  C08 J07 A 507      -3.086  16.060  44.199  1.00  0.00           C  
+HETATM    9  C09 J07 A 507      -2.309  16.543  45.451  1.00  0.00           C  
+HETATM   10  C10 J07 A 507      -3.084  16.115  46.730  1.00  0.00           C  
+HETATM   11  C11 J07 A 507      -3.257  14.590  46.769  1.00  0.00           C  
+HETATM   12  N12 J07 A 507      -2.149  18.020  45.400  1.00  0.00           N  
+HETATM   13  C13 J07 A 507      -1.214  18.698  44.615  1.00  0.00           C  
+HETATM   14  N14 J07 A 507      -0.455  17.952  43.767  1.00  0.00           N  
+HETATM   15  C15 J07 A 507       0.493  18.582  42.968  1.00  0.00           C  
+HETATM   16  C16 J07 A 507       0.696  20.008  43.003  1.00  0.00           C  
+HETATM   17  C17 J07 A 507      -0.141  20.667  43.906  1.00  0.00           C  
+HETATM   18  N18 J07 A 507      -1.087  20.053  44.703  1.00  0.00           N  
+HETATM   19 CL1  J07 A 507       1.817  20.949  42.090  1.00  0.00          Cl  
+HETATM   20  C20 J07 A 507       1.210  17.617  42.107  1.00  0.00           C  
+HETATM   21  C21 J07 A 507       1.166  16.191  42.145  1.00  0.00           C  
+HETATM   22  C22 J07 A 507       0.487  15.221  42.959  1.00  0.00           C  
+HETATM   23  C23 J07 A 507       0.683  13.840  42.700  1.00  0.00           C  
+HETATM   24  C24 J07 A 507       1.536  13.413  41.656  1.00  0.00           C  
+HETATM   25  C25 J07 A 507       2.220  14.344  40.841  1.00  0.00           C  
+HETATM   26  C26 J07 A 507       2.020  15.723  41.108  1.00  0.00           C  
+HETATM   27  N27 J07 A 507       2.544  16.821  40.485  1.00  0.00           N  
+HETATM   28  C28 J07 A 507       2.070  17.951  41.069  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5    6
+CONECT    4    5
+CONECT    5    4
+CONECT    5    4
+CONECT    6    4    7   11
+CONECT    7    6    8
+CONECT    8    7    9
+CONECT    9    8   10   12
+CONECT   10    9   11
+CONECT   11    6   10
+CONECT   12    9   13
+CONECT   13   12   14   18
+CONECT   13   18
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16   20
+CONECT   15   14
+CONECT   16   15   17   19
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   13   17
+CONECT   18   13
+CONECT   19   16
+CONECT   20   15   21   28
+CONECT   20   28
+CONECT   21   20   22   26
+CONECT   21   26
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24
+CONECT   23   22
+CONECT   24   23   25
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26   21   25   27
+CONECT   26   21
+CONECT   27   26   28
+CONECT   28   20   27
+CONECT   28   20
+ENDMDL
+END   

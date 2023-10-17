@@ -1,0 +1,59 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2QDG
+MODEL        1
+ATOM      1  N   LYS D 239     -57.519 -12.177  56.521  1.00 25.97           N1+
+ATOM      2  CA  LYS D 239     -56.949 -13.481  56.198  1.00 25.61           C  
+ATOM      3  C   LYS D 239     -57.455 -14.485  57.242  1.00 25.75           C  
+ATOM      4  O   LYS D 239     -56.733 -14.812  58.179  1.00 27.54           O  
+ATOM      5  CB  LYS D 239     -55.416 -13.382  56.039  1.00 22.58           C  
+ATOM      6  CG  LYS D 239     -54.682 -14.727  55.869  1.00 26.16           C  
+ATOM      7  CD  LYS D 239     -53.161 -14.608  55.759  1.00 28.08           C  
+ATOM      8  CE  LYS D 239     -52.562 -16.008  55.568  1.00 28.42           C  
+ATOM      9  NZ  LYS D 239     -51.157 -16.065  55.905  1.00 29.28           N1+
+TER      10      LYS D 239
+HETATM   11  P6  2FP D 400     -44.597 -19.111  60.094  0.95 34.15           P  
+HETATM   12  O6  2FP D 400     -45.268 -18.295  58.775  0.95 36.63           O  
+HETATM   13  C6  2FP D 400     -46.606 -18.524  58.397  0.95 36.39           C  
+HETATM   14  C5  2FP D 400     -46.961 -17.654  57.185  0.95 37.01           C  
+HETATM   15  O5  2FP D 400     -46.305 -18.232  56.070  0.95 39.12           O  
+HETATM   16  C4  2FP D 400     -48.492 -17.631  56.946  0.95 34.92           C  
+HETATM   17  O4  2FP D 400     -49.142 -16.950  58.002  0.95 35.73           O  
+HETATM   18  C3  2FP D 400     -48.939 -17.017  55.600  0.95 33.53           C  
+HETATM   19  O3  2FP D 400     -48.564 -15.655  55.490  0.95 33.68           O  
+HETATM   20  C2  2FP D 400     -50.430 -17.136  55.223  0.95 32.71           C  
+HETATM   21  C1  2FP D 400     -51.012 -18.548  55.450  0.95 35.15           C  
+HETATM   22  O1  2FP D 400     -50.131 -19.528  54.913  0.95 40.50           O  
+HETATM   23  O61 2FP D 400     -43.146 -18.838  60.104  0.95 33.17           O1-
+HETATM   24  O62 2FP D 400     -45.310 -18.374  61.423  0.95 31.33           O  
+HETATM   25  O63 2FP D 400     -45.073 -20.510  60.096  0.95 33.98           O  
+HETATM   26  P1  2FP D 400     -50.776 -21.021  54.713  0.95 41.47           P  
+HETATM   27  O11 2FP D 400     -49.635 -22.015  54.809  0.95 39.26           O  
+HETATM   28  O12 2FP D 400     -51.806 -21.216  55.799  0.95 41.13           O1-
+HETATM   29  O13 2FP D 400     -51.402 -21.010  53.341  0.95 40.98           O1-
+CONECT   11   12   23   24   25
+CONECT   11   25
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   13   15   16
+CONECT   15   14
+CONECT   16   14   17   18
+CONECT   17   16
+CONECT   18   16   19   20
+CONECT   19   18
+CONECT   20    9   18   21
+CONECT   21   20   22
+CONECT   22   21   26
+CONECT   23   11
+CONECT   24   11
+CONECT   25   11
+CONECT   25   11
+CONECT   26   22   27   28   29
+CONECT   26   27
+CONECT   27   26
+CONECT   27   26
+CONECT   28   26
+CONECT   29   26
+ENDMDL
+END   

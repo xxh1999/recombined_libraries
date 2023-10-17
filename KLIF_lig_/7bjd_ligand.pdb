@@ -1,0 +1,69 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7bjd_ligand
+MODEL        1
+HETATM    1  C1  TVT A   0       1.423  16.055  41.241  1.00  0.00           C  
+HETATM    2  N1  TVT A   0       1.520  17.493  41.154  1.00  0.00           N  
+HETATM    3  C2  TVT A   0       0.819  18.332  41.941  1.00  0.00           C  
+HETATM    4  N2  TVT A   0       0.087  17.800  42.945  1.00  0.00           N  
+HETATM    5  C3  TVT A   0      -0.593  18.660  43.707  1.00  0.00           C  
+HETATM    6  N3  TVT A   0      -1.372  18.193  44.731  1.00  0.00           N  
+HETATM    7  C4  TVT A   0      -1.579  16.854  45.020  1.00  0.00           C  
+HETATM    8  N4  TVT A   0      -1.699  14.689  44.857  1.00  0.00           N  
+HETATM    9  C5  TVT A   0      -1.359  15.796  44.182  1.00  0.00           C  
+HETATM   10  N5  TVT A   0      -2.135  14.983  46.133  1.00  0.00           N  
+HETATM   11  C6  TVT A   0      -2.040  16.308  46.231  1.00  0.00           C  
+HETATM   12  N6  TVT A   0       0.150  12.096  45.776  1.00  0.00           N  
+HETATM   13  C7  TVT A   0      -2.421  16.996  47.505  1.00  0.00           C  
+HETATM   14  N7  TVT A   0      -0.595  19.990  43.544  1.00  0.00           N  
+HETATM   15  C8  TVT A   0      -1.688  13.310  44.399  1.00  0.00           C  
+HETATM   16  C9  TVT A   0      -1.249  13.131  42.944  1.00  0.00           C  
+HETATM   17  C10 TVT A   0      -3.050  12.652  44.620  1.00  0.00           C  
+HETATM   18  C11 TVT A   0      -0.671  12.609  45.209  1.00  0.00           C  
+HETATM   19  C12 TVT A   0       0.145  20.500  42.557  1.00  0.00           C  
+HETATM   20  C13 TVT A   0       0.887  19.728  41.715  1.00  0.00           C  
+HETATM   21  C14 TVT A   0       1.641  20.343  40.579  1.00  0.00           C  
+HETATM   22  F1  TVT A   0       1.600  21.632  40.534  1.00  0.00           F  
+HETATM   23  F2  TVT A   0       2.945  20.023  40.575  1.00  0.00           F  
+HETATM   24  F3  TVT A   0       1.111  19.992  39.395  1.00  0.00           F  
+CONECT    1    2
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2    4   20
+CONECT    3    2
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4    6   14
+CONECT    5    4
+CONECT    6    5    7
+CONECT    7    6    9   11
+CONECT    7    9
+CONECT    8    9   10   15
+CONECT    9    7    8
+CONECT    9    7
+CONECT   10    8   11
+CONECT   10   11
+CONECT   11    7   10   13
+CONECT   11   10
+CONECT   12   18
+CONECT   12   18
+CONECT   12   18
+CONECT   13   11
+CONECT   14    5   19
+CONECT   15    8   16   17   18
+CONECT   16   15
+CONECT   17   15
+CONECT   18   12   15
+CONECT   18   12
+CONECT   18   12
+CONECT   19   14   20
+CONECT   19   20
+CONECT   20    3   19   21
+CONECT   20   19
+CONECT   21   20   22   23   24
+CONECT   22   21
+CONECT   23   21
+CONECT   24   21
+ENDMDL
+END   

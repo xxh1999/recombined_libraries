@@ -1,0 +1,67 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3NIA
+MODEL        1
+ATOM      1  N   SER A  64      10.039 -21.684  -2.418  1.00  5.48           N1+
+ATOM      2  CA  SER A  64      11.103 -22.042  -3.363  1.00  4.82           C  
+ATOM      3  C   SER A  64      12.532 -21.986  -2.843  1.00  5.15           C  
+ATOM      4  O   SER A  64      13.452 -22.422  -3.537  1.00  5.14           O  
+ATOM      5  CB  SER A  64      11.003 -21.264  -4.684  1.00  5.72           C  
+ATOM      6  OG  SER A  64       9.872 -21.679  -5.431  1.00  7.12           O  
+TER       7      SER A  64
+HETATM    8  S1  TBE A 288       2.587 -21.766  -7.071  0.81 13.46           S  
+HETATM    9  O12 TBE A 288       3.620 -22.704  -7.417  0.81 14.48           O  
+HETATM   10  O13 TBE A 288       2.359 -21.794  -5.642  0.81  9.81           O  
+HETATM   11  C2  TBE A 288       3.092 -20.211  -7.456  1.00 12.38           C  
+HETATM   12  C3  TBE A 288       4.185 -19.762  -6.466  1.00 12.89           C  
+HETATM   13  N4  TBE A 288       5.341 -20.644  -6.520  1.00 12.48           N  
+HETATM   14  C5  TBE A 288       6.443 -20.353  -5.824  1.00  9.13           C  
+HETATM   15  C20 TBE A 288       3.598 -20.146  -8.891  1.00 11.16           C  
+HETATM   16  C14 TBE A 288       1.911 -19.265  -7.233  1.00 15.26           C  
+HETATM   17  N15 TBE A 288       0.831 -19.400  -8.217  1.00 15.83           N  
+HETATM   18  N16 TBE A 288       0.973 -18.634  -9.376  1.00 23.11           N  
+HETATM   19  N17 TBE A 288      -0.177 -18.917 -10.132  1.00 27.50           N  
+HETATM   20  C18 TBE A 288      -0.938 -19.785  -9.429  1.00 22.63           C  
+HETATM   21  C19 TBE A 288      -0.319 -20.074  -8.224  1.00 23.42           C  
+HETATM   22  C9  TBE A 288       4.599 -18.329  -6.703  1.00 11.26           C  
+HETATM   23  O10 TBE A 288       5.555 -18.106  -7.476  1.00 13.69           O1-
+HETATM   24  O11 TBE A 288       3.985 -17.394  -6.128  1.00 14.98           O  
+HETATM   25  C6  TBE A 288       7.508 -21.146  -5.952  1.00  7.38           C  
+HETATM   26  C7  TBE A 288       8.668 -20.974  -5.085  1.00  7.73           C  
+HETATM   27  O8  TBE A 288       8.740 -20.033  -4.312  1.00  8.65           O  
+CONECT    8    9   10   11
+CONECT    8    9   10
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8
+CONECT   10    8
+CONECT   11    8   12   15   16
+CONECT   12   11   13   22
+CONECT   13   12   14
+CONECT   14   13   25
+CONECT   14   25
+CONECT   15   11
+CONECT   16   11   17
+CONECT   17   16   18   21
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   17   20
+CONECT   21   20
+CONECT   22   12   23   24
+CONECT   22   24
+CONECT   23   22
+CONECT   24   22
+CONECT   24   22
+CONECT   25   14   26
+CONECT   25   14
+CONECT   26    6   25   27
+CONECT   26   27
+CONECT   27   26
+CONECT   27   26
+ENDMDL
+END   

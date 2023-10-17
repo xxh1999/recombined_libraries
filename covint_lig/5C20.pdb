@@ -1,0 +1,86 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5C20
+MODEL        1
+ATOM      1  N   CYS A 147      -6.997  10.284   8.547  1.00 26.17           N1+
+ATOM      2  CA  CYS A 147      -8.279  10.603   7.923  1.00 29.26           C  
+ATOM      3  C   CYS A 147      -9.281  11.123   8.952  1.00 28.11           C  
+ATOM      4  O   CYS A 147      -9.415  10.586  10.054  1.00 28.72           O  
+ATOM      5  CB  CYS A 147      -8.848   9.368   7.206  1.00 32.28           C  
+ATOM      6  SG  CYS A 147      -8.182   9.350   5.516  1.00 36.09           S  
+TER       7      CYS A 147
+HETATM    8  O25 GHZ A 201      -6.579   5.650   2.085  1.00 48.43           O  
+HETATM    9  C23 GHZ A 201      -7.194   6.715   2.024  1.00 54.57           C  
+HETATM   10  C15 GHZ A 201      -8.018   7.061   0.774  1.00 61.71           C  
+HETATM   11  C16 GHZ A 201      -9.395   6.359   0.897  1.00 61.67           C  
+HETATM   12  C17 GHZ A 201     -10.566   6.910   0.096  1.00 67.29           C  
+HETATM   13  C22 GHZ A 201     -10.804   8.297   0.010  1.00 67.41           C  
+HETATM   14  C21 GHZ A 201     -11.901   8.789  -0.719  1.00 67.47           C  
+HETATM   15  C20 GHZ A 201     -12.787   7.897  -1.351  1.00 69.51           C  
+HETATM   16  C19 GHZ A 201     -12.585   6.511  -1.229  1.00 72.30           C  
+HETATM   17  C18 GHZ A 201     -11.481   6.021  -0.504  1.00 69.68           C  
+HETATM   18  N13 GHZ A 201      -7.337   6.655  -0.463  1.00 70.51           N  
+HETATM   19  C12 GHZ A 201      -6.102   7.117  -0.905  1.00 78.08           C  
+HETATM   20  O11 GHZ A 201      -5.786   6.477  -2.048  1.00 90.78           O  
+HETATM   21  C10 GHZ A 201      -4.512   6.641  -2.668  1.00 91.90           C  
+HETATM   22  C1  GHZ A 201      -4.560   7.629  -3.854  1.00 91.29           C  
+HETATM   23  O14 GHZ A 201      -5.397   7.963  -0.351  1.00 69.66           O  
+HETATM   24  N24 GHZ A 201      -7.215   7.616   3.020  1.00 50.99           N  
+HETATM   25  C26 GHZ A 201      -6.451   7.523   4.264  1.00 48.95           C  
+HETATM   26  C27 GHZ A 201      -7.354   7.738   5.482  1.00 42.04           C  
+HETATM   27  O28 GHZ A 201      -7.473   6.906   6.380  1.00 46.46           O  
+HETATM   28  C29 GHZ A 201      -5.295   8.542   4.260  1.00 50.01           C  
+HETATM   29  C30 GHZ A 201      -4.246   8.327   3.155  1.00 51.95           C  
+HETATM   30  C31 GHZ A 201      -3.532   6.966   3.169  1.00 51.88           C  
+HETATM   31  C32 GHZ A 201      -2.066   7.265   2.834  1.00 50.14           C  
+HETATM   32  N33 GHZ A 201      -1.931   8.685   3.075  1.00 49.71           N  
+HETATM   33  C34 GHZ A 201      -3.088   9.300   3.285  1.00 52.21           C  
+HETATM   34  O1  GHZ A 201      -3.224  10.489   3.563  1.00 56.27           O  
+HETATM   35  C2  GHZ A 201      -3.994   9.005  -3.476  1.00 84.59           C  
+HETATM   36  C3  GHZ A 201      -3.816   7.072  -5.077  1.00 88.35           C  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10   24
+CONECT    9    8
+CONECT   10    9   11   18
+CONECT   11   10   12
+CONECT   12   11   13   17
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   12   16
+CONECT   17   16
+CONECT   18   10   19
+CONECT   19   18   20   23
+CONECT   19   23
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22   21   35   36
+CONECT   23   19
+CONECT   23   19
+CONECT   24    9   25
+CONECT   25   24   26   28
+CONECT   26    6   25   27
+CONECT   26   27
+CONECT   27   26
+CONECT   27   26
+CONECT   28   25   29
+CONECT   29   28   30   33
+CONECT   30   29   31
+CONECT   31   30   32
+CONECT   32   31   33
+CONECT   33   29   32   34
+CONECT   33   34
+CONECT   34   33
+CONECT   34   33
+CONECT   35   22
+CONECT   36   22
+ENDMDL
+END   

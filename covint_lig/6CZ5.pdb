@@ -1,0 +1,80 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6CZ5
+MODEL        1
+ATOM      1  N   CYS A 228       9.483  -4.300   5.130  1.00112.65           N1+
+ATOM      2  CA  CYS A 228      10.178  -3.025   4.925  1.00112.33           C  
+ATOM      3  C   CYS A 228      10.542  -2.868   3.450  1.00104.81           C  
+ATOM      4  O   CYS A 228      10.781  -3.862   2.773  1.00100.77           O  
+ATOM      5  CB  CYS A 228      11.513  -2.993   5.703  1.00107.22           C  
+ATOM      6  SG  CYS A 228      11.283  -3.003   7.509  1.00135.31           S  
+TER       7      CYS A 228
+HETATM    8  C4  FPJ A 601      14.523   0.742   1.650  1.00100.06           C  
+HETATM    9  C5  FPJ A 601      16.417  -0.191   1.735  1.00105.46           C  
+HETATM   10  C6  FPJ A 601      17.592  -0.973   1.639  1.00106.05           C  
+HETATM   11  C11 FPJ A 601       8.667  -0.040   6.522  1.00119.41           C  
+HETATM   12  C7  FPJ A 601      18.674   0.610   2.950  1.00109.60           C  
+HETATM   13  C8  FPJ A 601      16.518   1.002   2.503  1.00105.44           C  
+HETATM   14  C9  FPJ A 601      14.272   3.857   2.087  1.00103.34           C  
+HETATM   15  C10 FPJ A 601      13.077   4.442   2.829  1.00100.82           C  
+HETATM   16  C12 FPJ A 601       9.932  -0.521   7.260  1.00111.95           C  
+HETATM   17  C13 FPJ A 601       9.819  -1.963   7.816  1.00117.33           C  
+HETATM   18  N1  FPJ A 601       8.738   1.014   5.697  1.00115.40           N  
+HETATM   19  N2  FPJ A 601      15.270   1.591   2.440  1.00100.17           N  
+HETATM   20  C3  FPJ A 601      14.844   2.864   3.108  1.00100.22           C  
+HETATM   21  N3  FPJ A 601      15.139  -0.323   1.222  1.00102.48           N  
+HETATM   22  O1P FPJ A 601      10.973   2.294   6.625  1.00140.25           O1-
+HETATM   23  P   FPJ A 601      10.032   2.230   5.486  1.00107.98           P  
+HETATM   24  O2P FPJ A 601       9.476   3.508   4.993  1.00103.39           O  
+HETATM   25  O3  FPJ A 601      10.923   1.584   4.183  1.00100.25           O  
+HETATM   26  C1  FPJ A 601      11.520   2.428   3.208  1.00105.92           C  
+HETATM   27  C2  FPJ A 601      12.645   3.319   3.785  1.00 99.36           C  
+HETATM   28  O4  FPJ A 601      13.819   2.533   3.998  1.00102.97           O  
+HETATM   29  N4  FPJ A 601      18.711  -0.538   2.264  1.00108.74           N  
+HETATM   30  N5  FPJ A 601      17.644   1.443   3.141  1.00107.68           N  
+HETATM   31  N6  FPJ A 601      17.637  -2.118   0.947  1.00108.16           N  
+HETATM   32  O5  FPJ A 601      15.187   4.874   1.713  1.00103.13           O  
+HETATM   33  O6  FPJ A 601      13.423   5.589   3.590  1.00 88.30           O  
+HETATM   34  O7  FPJ A 601       7.600  -0.636   6.663  1.00120.50           O  
+CONECT    8   19   21
+CONECT    8   21
+CONECT    9   10   13   21
+CONECT    9   13
+CONECT   10    9   29   31
+CONECT   10   29
+CONECT   11   16   18   34
+CONECT   11   34
+CONECT   12   29   30
+CONECT   12   30
+CONECT   13    9   19   30
+CONECT   13    9
+CONECT   14   15   20   32
+CONECT   15   14   27   33
+CONECT   16   11   17
+CONECT   17    6   16
+CONECT   18   11   23
+CONECT   19    8   13   20
+CONECT   20   14   19   28
+CONECT   21    8    9
+CONECT   21    8
+CONECT   22   23
+CONECT   23   18   22   24   25
+CONECT   23   24
+CONECT   24   23
+CONECT   24   23
+CONECT   25   23   26
+CONECT   26   25   27
+CONECT   27   15   26   28
+CONECT   28   20   27
+CONECT   29   10   12
+CONECT   29   10
+CONECT   30   12   13
+CONECT   30   12
+CONECT   31   10
+CONECT   32   14
+CONECT   33   15
+CONECT   34   11
+CONECT   34   11
+ENDMDL
+END   

@@ -1,0 +1,32 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5DQL
+MODEL        1
+ATOM      1  N   CYS A 191      16.211  41.714  48.750  1.00 25.42           N1+
+ATOM      2  CA  CYS A 191      17.033  40.972  49.694  1.00 26.84           C  
+ATOM      3  C   CYS A 191      17.752  39.864  48.914  1.00 22.17           C  
+ATOM      4  O   CYS A 191      17.180  39.273  47.995  1.00 24.15           O  
+ATOM      5  CB  CYS A 191      16.125  40.372  50.767  1.00 23.94           C  
+ATOM      6  SG  CYS A 191      16.866  39.150  51.894  1.00 24.58           S  
+TER       7      CYS A 191
+HETATM    8  C01 VGX A 503      18.118  40.296  52.275  1.00 26.50           C  
+HETATM    9  C02 VGX A 503      18.665  40.577  53.653  0.71 27.57           C  
+HETATM   10  C03 VGX A 503      18.170  39.419  54.464  0.78 24.83           C  
+HETATM   11  C04 VGX A 503      18.899  38.113  54.365  1.00 27.94           C  
+HETATM   12  O05 VGX A 503      19.947  37.986  55.060  1.00 28.97           O1-
+HETATM   13  O06 VGX A 503      18.418  37.235  53.586  1.00 29.19           O  
+HETATM   14  O07 VGX A 503      17.178  39.514  55.145  0.31 23.27           O  
+CONECT    8    6    9
+CONECT    9    8   10
+CONECT   10    9   11   14
+CONECT   10   14
+CONECT   11   10   12   13
+CONECT   11   13
+CONECT   12   11
+CONECT   13   11
+CONECT   13   11
+CONECT   14   10
+CONECT   14   10
+ENDMDL
+END   

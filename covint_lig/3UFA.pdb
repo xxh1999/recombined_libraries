@@ -1,0 +1,54 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3UFA
+MODEL        1
+ATOM      1  N   SER A 154      -8.882  41.767  36.730  1.00 21.84           N1+
+ATOM      2  CA  SER A 154      -8.842  40.331  37.002  1.00 21.26           C  
+ATOM      3  C   SER A 154     -10.256  39.742  37.067  1.00 22.30           C  
+ATOM      4  O   SER A 154     -11.095  40.241  37.812  1.00 21.47           O  
+ATOM      5  CB  SER A 154      -8.182  40.085  38.359  1.00 23.54           C  
+ATOM      6  OG  SER A 154      -6.781  40.119  38.298  1.00 23.72           O  
+TER       7      SER A 154
+HETATM    8  CA1 VPF A 201      -1.309  39.637  38.057  0.80 52.12           C  
+HETATM    9  C5  VPF A 201      -2.254  40.825  37.931  0.80 50.80           C  
+HETATM   10  O4  VPF A 201      -1.837  41.956  38.171  0.80 52.49           O  
+HETATM   11  O2P VPF A 201      -5.239  41.070  40.092  0.80 25.41           O1-
+HETATM   12  P   VPF A 201      -5.895  41.454  38.823  0.80 27.48           P  
+HETATM   13  O1P VPF A 201      -6.759  42.652  38.760  0.80 26.40           O  
+HETATM   14  CA2 VPF A 201      -4.679  41.403  37.407  0.80 37.36           C  
+HETATM   15  CB2 VPF A 201      -4.405  42.840  36.932  0.80 45.70           C  
+HETATM   16  CG3 VPF A 201      -4.005  43.025  35.486  0.80 48.60           C  
+HETATM   17  CD2 VPF A 201      -4.298  42.073  34.482  0.80 51.19           C  
+HETATM   18  CE2 VPF A 201      -4.196  42.431  33.128  0.80 51.37           C  
+HETATM   19  CZ  VPF A 201      -3.773  43.725  32.784  0.80 52.49           C  
+HETATM   20  CE1 VPF A 201      -3.376  44.634  33.773  0.80 49.27           C  
+HETATM   21  CD1 VPF A 201      -3.490  44.282  35.124  0.80 52.51           C  
+HETATM   22  N2  VPF A 201      -3.510  40.530  37.556  0.80 45.75           N  
+CONECT    8    9
+CONECT    9    8   10   22
+CONECT    9   10
+CONECT   10    9
+CONECT   10    9
+CONECT   11   12
+CONECT   12    6   11   13   14
+CONECT   12   13
+CONECT   13   12
+CONECT   13   12
+CONECT   14   12   15   22
+CONECT   15   14   16
+CONECT   16   15   17   21
+CONECT   16   21
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   16   20
+CONECT   21   16
+CONECT   22    9   14
+ENDMDL
+END   

@@ -1,0 +1,19 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1P9U
+MODEL        1
+ATOM      1  N   GLN G1446      59.491  51.744  82.250  1.00 61.20           N1+
+ATOM      2  CA  GLN G1446      59.212  50.322  82.121  1.00 65.45           C  
+ATOM      3  C   GLN G1446      60.511  49.683  81.622  1.00 64.56           C  
+ATOM      4  O   GLN G1446      61.241  50.272  80.833  1.00 68.41           O  
+ATOM      5  CB  GLN G1446      58.107  50.119  81.060  1.00 68.34           C  
+ATOM      6  CG  GLN G1446      56.816  50.903  81.363  1.00 67.75           C  
+ATOM      7  CD  GLN G1446      55.675  50.508  80.432  1.00 68.29           C  
+ATOM      8  OE1 GLN G1446      55.015  49.498  80.644  1.00 66.59           O  
+ATOM      9  NE2 GLN G1446      55.410  51.317  79.410  1.00 69.03           N  
+TER      10      GLN G1446
+HETATM   11  C1  0QE G1447      60.919  48.296  82.095  1.00 60.20           C  
+CONECT   11    3
+ENDMDL
+END   

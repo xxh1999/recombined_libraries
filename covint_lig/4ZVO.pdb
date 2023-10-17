@@ -1,0 +1,34 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4ZVO
+MODEL        1
+ATOM      1  N   ILE E   3      53.336 -23.731  -2.935  1.00 68.71           N1+
+ATOM      2  CA  ILE E   3      52.173 -22.949  -2.535  1.00 73.20           C  
+ATOM      3  C   ILE E   3      51.166 -22.889  -3.690  1.00 75.67           C  
+ATOM      4  O   ILE E   3      51.530 -22.803  -4.864  1.00 75.51           O  
+ATOM      5  CB  ILE E   3      52.600 -21.523  -2.088  1.00 73.57           C  
+ATOM      6  CG1 ILE E   3      53.439 -20.746  -3.134  1.00 64.95           C  
+ATOM      7  CG2 ILE E   3      53.298 -21.600  -0.718  1.00 71.88           C  
+ATOM      8  CD1 ILE E   3      53.653 -19.266  -2.788  1.00 69.54           C  
+TER       9      ILE E   3
+HETATM   10  C   ASJ E   4      48.567 -20.949  -3.956  1.00 70.88           C  
+HETATM   11  N   ASJ E   4      49.886 -22.890  -3.311  1.00 68.60           N  
+HETATM   12  O   ASJ E   4      47.495 -20.533  -4.767  1.00 70.62           O  
+HETATM   13  CA  ASJ E   4      48.755 -22.472  -4.126  1.00 69.71           C  
+HETATM   14  CB  ASJ E   4      47.507 -23.329  -3.785  1.00 67.19           C  
+HETATM   15  CG  ASJ E   4      47.678 -24.793  -4.209  1.00 64.83           C  
+HETATM   16  OD1 ASJ E   4      47.128 -25.684  -3.529  1.00 65.90           O1-
+HETATM   17  OD2 ASJ E   4      48.320 -25.017  -5.257  1.00 68.40           O  
+CONECT   10   12   13
+CONECT   11    3   13
+CONECT   12   10
+CONECT   13   10   11   14
+CONECT   14   13   15
+CONECT   15   14   16   17
+CONECT   15   17
+CONECT   16   15
+CONECT   17   15
+CONECT   17   15
+ENDMDL
+END   

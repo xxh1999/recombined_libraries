@@ -1,0 +1,24 @@
+Prediction of noncovalent interactions for PDB structure KLIF_COMPLEX\7BJH_PROTEIN
+==================================================================================
+Created on 2023/05/28 using PLIP v2.2.2
+
+If you are using PLIP in your work, please cite:
+Adasme,M. et al. PLIP 2021: expanding the scope of the protein-ligand interaction profiler to DNA and RNA. Nucl. Acids Res. (05 May 2021), gkab294. doi: 10.1093/nar/gkab294
+Excluded molecules as ligands: CL
+
+Analysis was done on model 1.
+
+Q42:A:301 (Q42) - SMALLMOLECULE
+-------------------------------
+Interacting chain(s): A
+
+
+**Hydrogen Bonds**
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+------------------------+------------------------+
+| RESNR | RESTYPE | RESCHAIN | RESNR_LIG | RESTYPE_LIG | RESCHAIN_LIG | SIDECHAIN | DIST_H-A | DIST_D-A | DON_ANGLE | PROTISDON | DONORIDX | DONORTYPE | ACCEPTORIDX | ACCEPTORTYPE | LIGCOO                 | PROTCOO                | 
++=======+=========+==========+===========+=============+==============+===========+==========+==========+===========+===========+==========+===========+=============+==============+========================+========================+
+| 87    | ALA     | A        | 301       | Q42         | A            | False     | 2.08     | 3.06     | 171.50    | True      | 594      | Nam       | 2309        | Nar          | -0.366, 20.044, 43.815 | -2.493, 21.965, 44.873 | 
++-------+---------+----------+-----------+-------------+--------------+-----------+----------+----------+-----------+-----------+----------+-----------+-------------+--------------+------------------------+------------------------+
+
+
+

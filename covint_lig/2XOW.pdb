@@ -1,0 +1,56 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2XOW
+MODEL        1
+ATOM      1  N   HIS A 254      20.015  -6.908  48.246  1.00 38.18           N1+
+ATOM      2  CA  HIS A 254      19.614  -5.842  47.329  1.00 41.01           C  
+ATOM      3  C   HIS A 254      20.824  -5.268  46.574  1.00 36.21           C  
+ATOM      4  O   HIS A 254      20.777  -5.173  45.347  1.00 37.90           O  
+ATOM      5  CB  HIS A 254      18.948  -4.687  48.108  1.00 40.06           C  
+ATOM      6  CG  HIS A 254      17.650  -5.032  48.772  1.00 41.52           C  
+ATOM      7  ND1 HIS A 254      17.003  -4.111  49.551  1.00 42.76           N1+
+ATOM      8  CD2 HIS A 254      16.846  -6.151  48.785  1.00 40.37           C  
+ATOM      9  CE1 HIS A 254      15.859  -4.603  50.025  1.00 42.24           C  
+ATOM     10  NE2 HIS A 254      15.754  -5.854  49.568  1.00 41.38           N  
+TER      11      HIS A 254
+HETATM   12  O1  ISM A 401      13.033  -9.865  47.786  1.00 31.34           O  
+HETATM   13  C1  ISM A 401      14.047  -9.205  48.008  1.00 35.41           C  
+HETATM   14  C2  ISM A 401      14.804  -9.273  49.264  1.00 33.53           C  
+HETATM   15  C3  ISM A 401      15.325 -10.542  49.589  1.00 37.55           C  
+HETATM   16  C4  ISM A 401      16.092 -10.726  50.749  1.00 36.28           C  
+HETATM   17  N1  ISM A 401      16.631 -11.974  51.031  1.00 39.99           N  
+HETATM   18  C5  ISM A 401      16.311  -9.645  51.616  1.00 42.02           C  
+HETATM   19  C6  ISM A 401      15.769  -8.385  51.308  1.00 40.12           C  
+HETATM   20  C7  ISM A 401      15.026  -8.159  50.131  1.00 41.12           C  
+HETATM   21  C8  ISM A 401      14.588  -6.691  49.913  1.00 39.58           C  
+HETATM   22  C9  ISM A 401      13.267  -6.401  49.165  1.00 40.57           C  
+HETATM   23  O2  ISM A 401      12.269  -7.106  49.317  1.00 40.63           O  
+HETATM   24  O3  ISM A 401      13.331  -5.343  48.340  1.00 43.68           O  
+HETATM   25  C10 ISM A 401      12.200  -5.005  47.558  1.00 40.78           C  
+CONECT   12   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15   20
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   17   18
+CONECT   16   18
+CONECT   17   16
+CONECT   18   16   19
+CONECT   18   16
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   14   19   21
+CONECT   20   19
+CONECT   21   10   20   22
+CONECT   22   21   23   24
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22   25
+CONECT   25   24
+ENDMDL
+END   

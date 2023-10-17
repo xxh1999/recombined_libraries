@@ -1,0 +1,119 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7jxh_ligand
+MODEL        1
+HETATM    1  C01 VOY A   0      -2.015  16.034  48.769  1.00  0.00           C  
+HETATM    2  C02 VOY A   0      -2.335  16.693  47.402  1.00  0.00           C  
+HETATM    3  C04 VOY A   0      -1.384  16.680  45.153  1.00  0.00           C  
+HETATM    4  C05 VOY A   0      -1.337  18.073  45.123  1.00  0.00           C  
+HETATM    5  C06 VOY A   0      -0.786  18.889  44.000  1.00  0.00           C  
+HETATM    6  C07 VOY A   0      -0.261  18.202  42.851  1.00  0.00           C  
+HETATM    7  C08 VOY A   0       0.302  19.030  41.693  1.00  0.00           C  
+HETATM    8  C10 VOY A   0       1.955  18.859  39.616  1.00  0.00           C  
+HETATM    9  C11 VOY A   0       2.049  18.550  38.232  1.00  0.00           C  
+HETATM   10  C12 VOY A   0       3.074  19.102  37.423  1.00  0.00           C  
+HETATM   11  C13 VOY A   0       4.087  19.949  37.941  1.00  0.00           C  
+HETATM   12  C15 VOY A   0       4.608  21.713  36.440  1.00  0.00           C  
+HETATM   13  C16 VOY A   0       3.561  22.529  36.867  1.00  0.00           C  
+HETATM   14  C17 VOY A   0       3.101  23.771  36.181  1.00  0.00           C  
+HETATM   15  C19 VOY A   0       2.172  25.660  35.420  1.00  0.00           C  
+HETATM   16  C22 VOY A   0       4.869  23.337  34.540  1.00  0.00           C  
+HETATM   17  C23 VOY A   0       5.267  22.172  35.217  1.00  0.00           C  
+HETATM   18  C24 VOY A   0       4.042  20.293  39.320  1.00  0.00           C  
+HETATM   19  C25 VOY A   0       5.043  21.215  40.052  1.00  0.00           C  
+HETATM   20  C26 VOY A   0       3.001  19.710  40.093  1.00  0.00           C  
+HETATM   21  C27 VOY A   0       0.304  20.493  41.774  1.00  0.00           C  
+HETATM   22  C28 VOY A   0       0.793  21.420  40.737  1.00  0.00           C  
+HETATM   23  C30 VOY A   0      -0.265  21.012  43.013  1.00  0.00           C  
+HETATM   24  C32 VOY A   0      -0.348  16.724  42.923  1.00  0.00           C  
+HETATM   25  C33 VOY A   0      -0.870  15.940  43.974  1.00  0.00           C  
+HETATM   26  C35 VOY A   0      -1.435  13.800  42.758  1.00  0.00           C  
+HETATM   27  C36 VOY A   0      -1.447  12.297  42.512  1.00  0.00           C  
+HETATM   28  C37 VOY A   0      -2.095  11.930  41.353  1.00  0.00           C  
+HETATM   29  C38 VOY A   0      -2.035  10.520  41.087  1.00  0.00           C  
+HETATM   30  C40 VOY A   0      -2.498   8.168  41.467  1.00  0.00           C  
+HETATM   31  C41 VOY A   0      -3.716   9.159  39.658  1.00  0.00           C  
+HETATM   32  N09 VOY A   0       0.840  18.324  40.470  1.00  0.00           N  
+HETATM   33  N18 VOY A   0       2.103  24.702  36.442  1.00  0.00           N  
+HETATM   34  N20 VOY A   0       3.178  25.382  34.518  1.00  0.00           N  
+HETATM   35  N21 VOY A   0       3.770  24.164  35.012  1.00  0.00           N  
+HETATM   36  N29 VOY A   0       1.204  22.141  39.904  1.00  0.00           N  
+HETATM   37  N31 VOY A   0      -0.750  20.299  44.016  1.00  0.00           N  
+HETATM   38  N34 VOY A   0      -0.862  14.476  43.871  1.00  0.00           N  
+HETATM   39  N39 VOY A   0      -3.291   9.510  40.996  1.00  0.00           N1+
+HETATM   40  O03 VOY A   0      -1.917  15.958  46.220  1.00  0.00           O  
+HETATM   41  O14 VOY A   0       5.051  20.503  37.105  1.00  0.00           O  
+HETATM   42  O42 VOY A   0      -1.859  14.454  41.815  1.00  0.00           O  
+CONECT    1    2
+CONECT    2    1   40
+CONECT    3    4   25   40
+CONECT    3    4
+CONECT    4    3    5
+CONECT    4    3
+CONECT    5    4    6   37
+CONECT    5   37
+CONECT    6    5    7   24
+CONECT    6    7
+CONECT    7    6   21   32
+CONECT    7    6
+CONECT    8    9   20   32
+CONECT    8   20
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11   10   18   41
+CONECT   11   18
+CONECT   12   13   17   41
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   33   35
+CONECT   14   33
+CONECT   15   33   34
+CONECT   15   34
+CONECT   16   17   35
+CONECT   16   17
+CONECT   17   12   16
+CONECT   17   16
+CONECT   18   11   19   20
+CONECT   18   11
+CONECT   19   18
+CONECT   20    8   18
+CONECT   20    8
+CONECT   21    7   22   23
+CONECT   21   23
+CONECT   22   21   36
+CONECT   22   36
+CONECT   22   36
+CONECT   23   21   37
+CONECT   23   21
+CONECT   24    6   25
+CONECT   25    3   24   38
+CONECT   26   27   38   42
+CONECT   26   42
+CONECT   27   26   28
+CONECT   28   27   29
+CONECT   29   28   39
+CONECT   30   39
+CONECT   31   39
+CONECT   32    7    8
+CONECT   33   14   15
+CONECT   33   14
+CONECT   34   15   35
+CONECT   34   15
+CONECT   35   14   16   34
+CONECT   36   22
+CONECT   36   22
+CONECT   36   22
+CONECT   37    5   23
+CONECT   37    5
+CONECT   38   25   26
+CONECT   39   29   30   31
+CONECT   40    2    3
+CONECT   41   11   12
+CONECT   42   26
+CONECT   42   26
+ENDMDL
+END   

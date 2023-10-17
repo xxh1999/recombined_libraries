@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4aze_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CAA Q3R A 700       1.927  14.468  40.067  1.00  0.00           C  
+HETATM    2  CAB Q3R A 700       1.290  13.605  40.950  1.00  0.00           C  
+HETATM    3  CAC Q3R A 700       0.549  12.514  40.529  1.00  0.00           C  
+HETATM    4  CAD Q3R A 700       0.427  12.286  39.175  1.00  0.00           C  
+HETATM    5  CAE Q3R A 700       1.057  13.151  38.276  1.00  0.00           C  
+HETATM    6  CAF Q3R A 700       1.806  14.242  38.712  1.00  0.00           C  
+HETATM    7  NAG Q3R A 700       2.396  15.024  37.817  1.00  0.00           N  
+HETATM    8  CAH Q3R A 700       2.418  16.346  37.932  1.00  0.00           C  
+HETATM    9  NAI Q3R A 700       1.980  17.065  38.965  1.00  0.00           N  
+HETATM   10  CAJ Q3R A 700       2.152  18.345  38.657  1.00  0.00           C  
+HETATM   11  CAK Q3R A 700       2.724  18.360  37.400  1.00  0.00           C  
+HETATM   12  NAL Q3R A 700       2.870  17.125  36.969  1.00  0.00           N  
+HETATM   13  OAM Q3R A 700       3.054  19.367  36.775  1.00  0.00           O  
+HETATM   14  CAN Q3R A 700       1.903  19.547  39.329  1.00  0.00           C  
+HETATM   15  CAO Q3R A 700       1.302  19.671  40.592  1.00  0.00           C  
+HETATM   16  CAP Q3R A 700       1.041  18.587  41.420  1.00  0.00           C  
+HETATM   17  CAQ Q3R A 700       0.434  18.784  42.642  1.00  0.00           C  
+HETATM   18  CAR Q3R A 700       0.101  20.065  43.059  1.00  0.00           C  
+HETATM   19  CAS Q3R A 700       0.368  21.147  42.246  1.00  0.00           C  
+HETATM   20  CAT Q3R A 700       0.978  20.954  41.019  1.00  0.00           C  
+HETATM   21  OAU Q3R A 700       0.067  17.903  43.608  1.00  0.00           O  
+HETATM   22  CAV Q3R A 700      -0.922  18.615  44.353  1.00  0.00           C  
+HETATM   23  OAW Q3R A 700      -0.467  19.990  44.286  1.00  0.00           O  
+CONECT    1    2    6
+CONECT    1    6
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    1    5    7
+CONECT    6    1
+CONECT    7    6    8
+CONECT    8    7    9   12
+CONECT    8   12
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11   14
+CONECT   10    9
+CONECT   11   10   12   13
+CONECT   11   13
+CONECT   12    8   11
+CONECT   12    8
+CONECT   13   11
+CONECT   13   11
+CONECT   14   10   15
+CONECT   15   14   16   20
+CONECT   15   20
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   16   18   21
+CONECT   17   16
+CONECT   18   17   19   23
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   15   19
+CONECT   20   15
+CONECT   21   17   22
+CONECT   22   21   23
+CONECT   23   18   22
+ENDMDL
+END   

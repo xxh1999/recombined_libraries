@@ -1,0 +1,66 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4PID
+MODEL        1
+ATOM      1  N   CYS A 122     -19.592  55.518  38.575  1.00 11.32           N1+
+ATOM      2  CA  CYS A 122     -18.809  55.057  37.415  1.00 11.07           C  
+ATOM      3  C   CYS A 122     -19.045  55.819  36.102  1.00 10.69           C  
+ATOM      4  O   CYS A 122     -18.078  56.197  35.446  1.00 11.38           O  
+ATOM      5  CB  CYS A 122     -18.930  53.533  37.180  1.00 10.96           C  
+ATOM      6  SG  CYS A 122     -20.654  52.986  36.934  1.00 16.86           S  
+TER       7      CYS A 122
+HETATM    8  C1  2UQ A 302     -24.775  50.295  39.047  1.00 34.46           C  
+HETATM    9  C2  2UQ A 302     -23.870  50.481  40.107  1.00 31.32           C  
+HETATM   10  C11 2UQ A 302     -27.059  46.388  38.291  1.00 55.37           C  
+HETATM   11  C12 2UQ A 302     -21.171  52.377  38.554  1.00 21.31           C  
+HETATM   12  C14 2UQ A 302     -25.892  46.046  39.014  1.00 55.23           C  
+HETATM   13  C15 2UQ A 302     -25.508  44.698  39.151  1.00 54.77           C  
+HETATM   14  C16 2UQ A 302     -26.287  43.681  38.569  1.00 57.54           C  
+HETATM   15  C17 2UQ A 302     -27.452  44.013  37.852  1.00 58.08           C  
+HETATM   16  C18 2UQ A 302     -27.835  45.361  37.714  1.00 57.53           C  
+HETATM   17  N3  2UQ A 302     -22.723  51.169  39.946  1.00 26.23           N  
+HETATM   18  C4  2UQ A 302     -22.466  51.681  38.737  1.00 28.57           C  
+HETATM   19  N5  2UQ A 302     -23.273  51.588  37.676  1.00 30.83           N  
+HETATM   20  C6  2UQ A 302     -24.431  50.911  37.827  1.00 36.99           C  
+HETATM   21  C7  2UQ A 302     -26.019  49.485  39.229  1.00 44.23           C  
+HETATM   22  O8  2UQ A 302     -26.550  49.392  40.336  1.00 41.85           O  
+HETATM   23  N9  2UQ A 302     -26.431  48.808  38.147  1.00 49.14           N  
+HETATM   24  C10 2UQ A 302     -27.516  47.834  38.132  1.00 52.54           C  
+HETATM   25  N13 2UQ A 302     -20.383  52.543  39.524  1.00 25.81           N  
+CONECT    8    9   20   21
+CONECT    8    9
+CONECT    9    8   17
+CONECT    9    8
+CONECT   10   12   16   24
+CONECT   10   12
+CONECT   11    6   18   25
+CONECT   11   25
+CONECT   12   10   13
+CONECT   12   10
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16   10   15
+CONECT   16   15
+CONECT   17    9   18
+CONECT   17   18
+CONECT   18   11   17   19
+CONECT   18   17
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20    8   19
+CONECT   20   19
+CONECT   21    8   22   23
+CONECT   21   22
+CONECT   22   21
+CONECT   22   21
+CONECT   23   21   24
+CONECT   24   10   23
+CONECT   25   11
+CONECT   25   11
+ENDMDL
+END   

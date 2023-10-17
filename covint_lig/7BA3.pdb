@@ -1,0 +1,56 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7BA3
+MODEL        1
+ATOM      1  N   CYS A  42      24.429  20.682  -3.470  1.00 11.69           N1+
+ATOM      2  CA  CYS A  42      23.445  19.626  -3.296  1.00 12.46           C  
+ATOM      3  C   CYS A  42      24.016  18.243  -3.596  1.00 13.74           C  
+ATOM      4  O   CYS A  42      23.745  17.291  -2.860  1.00 14.29           O  
+ATOM      5  CB  CYS A  42      22.260  19.908  -4.191  1.00 13.00           C  
+ATOM      6  SG  CYS A  42      21.024  20.931  -3.345  1.00 20.76           S  
+TER       7      CYS A  42
+HETATM    8  N   T5N A 304      17.232  19.194  -1.881  1.00 20.67           N  
+HETATM    9  C   T5N A 304      15.216  17.979   0.937  1.00 21.82           C  
+HETATM   10  O   T5N A 304      15.604  20.170  -0.082  1.00 18.93           O  
+HETATM   11  C1  T5N A 304      15.416  18.781  -0.354  1.00 19.27           C  
+HETATM   12  C10 T5N A 304      18.252  18.813  -2.844  1.00 22.27           C  
+HETATM   13  C11 T5N A 304      19.549  18.388  -2.174  1.00 22.03           C  
+HETATM   14  C2  T5N A 304      16.525  20.679   0.801  1.00 21.31           C  
+HETATM   15  C3  T5N A 304      17.743  20.039   1.085  1.00 20.64           C  
+HETATM   16  C4  T5N A 304      18.641  20.645   1.947  1.00 20.93           C  
+HETATM   17  C5  T5N A 304      18.293  21.870   2.514  1.00 15.89           C  
+HETATM   18  C6  T5N A 304      17.102  22.489   2.235  1.00 18.23           C  
+HETATM   19  C7  T5N A 304      16.219  21.904   1.352  1.00 19.44           C  
+HETATM   20  C8  T5N A 304      14.168  18.671  -1.207  1.00 21.94           C  
+HETATM   21  C9  T5N A 304      16.502  18.272  -1.252  1.00 22.39           C  
+HETATM   22  O1  T5N A 304      16.648  17.074  -1.392  1.00 23.20           O  
+HETATM   23  S   T5N A 304      20.492  19.818  -1.574  1.00 21.48           S  
+HETATM   24 BR   T5N A 304      19.506  22.701   3.693  1.00 21.76          Br  
+CONECT    8   12   21
+CONECT    9   11
+CONECT   10   11   14
+CONECT   11    9   10   20   21
+CONECT   12    8   13
+CONECT   13   12   23
+CONECT   14   10   15   19
+CONECT   14   19
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   16   18   24
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   14   18
+CONECT   19   14
+CONECT   20   11
+CONECT   21    8   11   22
+CONECT   21   22
+CONECT   22   21
+CONECT   22   21
+CONECT   23    6   13
+CONECT   24   17
+ENDMDL
+END   

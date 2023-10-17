@@ -1,0 +1,103 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7b33_ligand
+MODEL        1
+HETATM    1  C13 SQE A 905       9.017  19.945  34.823  1.00  0.00           C  
+HETATM    2  C12 SQE A 905       8.300  21.168  35.366  1.00  0.00           C  
+HETATM    3  C10 SQE A 905       5.744  21.396  37.946  1.00  0.00           C  
+HETATM    4  C7  SQE A 905       3.873  20.564  39.871  1.00  0.00           C  
+HETATM    5  C4  SQE A 905       1.008  20.271  42.370  1.00  0.00           C  
+HETATM    6  C3  SQE A 905       1.010  18.886  42.592  1.00  0.00           C  
+HETATM    7  C2  SQE A 905       0.054  20.990  43.093  1.00  0.00           C  
+HETATM    8  C1  SQE A 905      -0.724  19.071  44.039  1.00  0.00           C  
+HETATM    9  N   SQE A 905      -1.629  18.476  44.827  1.00  0.00           N  
+HETATM   10  C   SQE A 905      -1.711  17.040  44.993  1.00  0.00           C  
+HETATM   11  O   SQE A 905       3.810  17.844  40.718  1.00  0.00           O  
+HETATM   12  C11 SQE A 905       6.733  21.830  36.929  1.00  0.00           C  
+HETATM   13  C14 SQE A 905       8.457  22.466  34.910  1.00  0.00           C  
+HETATM   14  C15 SQE A 905       7.715  23.469  35.502  1.00  0.00           C  
+HETATM   15  C16 SQE A 905       6.845  23.155  36.530  1.00  0.00           C  
+HETATM   16  C17 SQE A 905       4.631  20.644  37.586  1.00  0.00           C  
+HETATM   17  C18 SQE A 905       3.708  20.238  38.529  1.00  0.00           C  
+HETATM   18  C19 SQE A 905       2.937  18.601  41.138  1.00  0.00           C  
+HETATM   19  C20 SQE A 905       1.898  16.644  42.103  1.00  0.00           C  
+HETATM   20  C21 SQE A 905       1.580  15.995  40.771  1.00  0.00           C  
+HETATM   21  C22 SQE A 905      -0.097  15.717  39.156  1.00  0.00           C  
+HETATM   22  C23 SQE A 905       0.378  14.291  38.912  1.00  0.00           C  
+HETATM   23  C24 SQE A 905       1.761  14.040  39.505  1.00  0.00           C  
+HETATM   24  C5  SQE A 905       1.987  20.808  41.475  1.00  0.00           C  
+HETATM   25  C6  SQE A 905       2.913  20.028  40.869  1.00  0.00           C  
+HETATM   26  C8  SQE A 905       4.986  21.321  40.226  1.00  0.00           C  
+HETATM   27  C9  SQE A 905       5.910  21.730  39.286  1.00  0.00           C  
+HETATM   28  F   SQE A 905       9.803  19.402  35.773  1.00  0.00           F  
+HETATM   29  F1  SQE A 905       9.879  20.306  33.849  1.00  0.00           F  
+HETATM   30  N1  SQE A 905      -0.804  20.405  43.938  1.00  0.00           N  
+HETATM   31  N2  SQE A 905       0.150  18.269  43.412  1.00  0.00           N  
+HETATM   32  N3  SQE A 905       7.460  20.852  36.363  1.00  0.00           N  
+HETATM   33  N4  SQE A 905       1.958  18.099  41.965  1.00  0.00           N  
+HETATM   34  N5  SQE A 905       0.398  14.029  37.465  1.00  0.00           N1+
+HETATM   35  O1  SQE A 905       0.210  16.154  40.486  1.00  0.00           O  
+HETATM   36  O2  SQE A 905       1.913  14.643  40.800  1.00  0.00           O  
+HETATM   37 CL   SQE A 905       5.252  21.792  41.871  1.00  0.00          Cl  
+CONECT    1    2   28   29
+CONECT    2    1   13   32
+CONECT    2   32
+CONECT    3   12   16   27
+CONECT    3   16
+CONECT    4   17   25   26
+CONECT    4   17
+CONECT    5    6    7   24
+CONECT    5    6
+CONECT    6    5   31   33
+CONECT    6    5
+CONECT    7    5   30
+CONECT    7   30
+CONECT    8    9   30   31
+CONECT    8   31
+CONECT    9    8   10
+CONECT   10    9
+CONECT   11   18
+CONECT   11   18
+CONECT   12    3   15   32
+CONECT   12   15
+CONECT   13    2   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   12   14
+CONECT   15   12
+CONECT   16    3   17
+CONECT   16    3
+CONECT   17    4   16
+CONECT   17    4
+CONECT   18   11   25   33
+CONECT   18   11
+CONECT   19   20   33
+CONECT   20   19   35   36
+CONECT   21   22   35
+CONECT   22   21   23   34
+CONECT   23   22   36
+CONECT   24    5   25
+CONECT   24   25
+CONECT   25    4   18   24
+CONECT   25   24
+CONECT   26    4   27   37
+CONECT   26   27
+CONECT   27    3   26
+CONECT   27   26
+CONECT   28    1
+CONECT   29    1
+CONECT   30    7    8
+CONECT   30    7
+CONECT   31    6    8
+CONECT   31    8
+CONECT   32    2   12
+CONECT   32    2
+CONECT   33    6   18   19
+CONECT   34   22
+CONECT   35   20   21
+CONECT   36   20   23
+CONECT   37   26
+ENDMDL
+END   

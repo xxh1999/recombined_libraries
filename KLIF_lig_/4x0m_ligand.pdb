@@ -1,0 +1,42 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4x0m_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  Q3W A 601       0.346  18.715  42.281  1.00  0.00           C  
+HETATM    2  C2  Q3W A 601      -0.093  17.608  43.066  1.00  0.00           C  
+HETATM    3  C3  Q3W A 601       1.141  18.428  41.060  1.00  0.00           C  
+HETATM    4  N6  Q3W A 601      -0.784  17.840  44.194  1.00  0.00           N  
+HETATM    5  C7  Q3W A 601       1.350  17.066  40.699  1.00  0.00           C  
+HETATM    6  C11 Q3W A 601       0.842  16.083  41.467  1.00  0.00           C  
+HETATM    7  C12 Q3W A 601      -0.979  19.093  44.602  1.00  0.00           C  
+HETATM    8  C4  Q3W A 601       0.047  20.030  42.745  1.00  0.00           C  
+HETATM    9  N5  Q3W A 601       0.155  16.332  42.618  1.00  0.00           N  
+HETATM   10  O8  Q3W A 601       1.636  19.312  40.382  1.00  0.00           O  
+HETATM   11  N9  Q3W A 601      -0.600  20.157  43.920  1.00  0.00           N  
+HETATM   12  N10 Q3W A 601       0.528  21.148  42.096  1.00  0.00           N  
+CONECT    1    2    3    8
+CONECT    1    8
+CONECT    2    1    4    9
+CONECT    2    4
+CONECT    3    1    5   10
+CONECT    3   10
+CONECT    4    2    7
+CONECT    4    2
+CONECT    5    3    6
+CONECT    5    6
+CONECT    6    5    9
+CONECT    6    5
+CONECT    7    4   11
+CONECT    7   11
+CONECT    8    1   11   12
+CONECT    8    1
+CONECT    9    2    6
+CONECT   10    3
+CONECT   10    3
+CONECT   11    7    8
+CONECT   11    7
+CONECT   12    8
+ENDMDL
+END   

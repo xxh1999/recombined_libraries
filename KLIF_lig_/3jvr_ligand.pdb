@@ -1,0 +1,70 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3jvr_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C   AGX A 901     -14.065   6.397  44.688  1.00  0.00           C  
+HETATM    2  N   AGX A 901     -11.677   6.163  43.812  1.00  0.00           N  
+HETATM    3  O   AGX A 901      -9.346   5.553  41.838  1.00  0.00           O  
+HETATM    4 CL   AGX A 901      -9.475   7.215  34.881  1.00  0.00          Cl  
+HETATM    5  C1  AGX A 901     -15.164   5.654  45.253  1.00  0.00           C  
+HETATM    6  N1  AGX A 901     -11.496   3.930  44.167  1.00  0.00           N  
+HETATM    7  O1  AGX A 901     -10.255   3.749  40.929  1.00  0.00           O  
+HETATM    8 CL1  AGX A 901     -11.648   4.878  34.144  1.00  0.00          Cl  
+HETATM    9  C2  AGX A 901     -15.046   4.237  45.479  1.00  0.00           C  
+HETATM   10  N2  AGX A 901      -9.494   5.591  39.693  1.00  0.00           N  
+HETATM   11  C3  AGX A 901     -13.824   3.564  45.133  1.00  0.00           C  
+HETATM   12  C4  AGX A 901     -12.859   5.699  44.354  1.00  0.00           C  
+HETATM   13  C5  AGX A 901     -12.745   4.324  44.573  1.00  0.00           C  
+HETATM   14  C6  AGX A 901     -10.890   5.054  43.722  1.00  0.00           C  
+HETATM   15  C7  AGX A 901      -9.469   5.008  43.190  1.00  0.00           C  
+HETATM   16  C8  AGX A 901      -9.767   4.852  40.758  1.00  0.00           C  
+HETATM   17  C9  AGX A 901     -10.059   5.356  38.438  1.00  0.00           C  
+HETATM   18  C10 AGX A 901     -11.011   4.326  38.103  1.00  0.00           C  
+HETATM   19  C11 AGX A 901     -11.492   4.197  36.772  1.00  0.00           C  
+HETATM   20  C12 AGX A 901     -11.035   5.085  35.748  1.00  0.00           C  
+HETATM   21  C13 AGX A 901     -10.079   6.117  36.078  1.00  0.00           C  
+HETATM   22  C14 AGX A 901      -9.604   6.242  37.422  1.00  0.00           C  
+HETATM   23  C15 AGX A 901      -8.492   5.923  43.797  1.00  0.00           C  
+CONECT    1    5   12
+CONECT    1   12
+CONECT    2   12   14
+CONECT    3   15   16
+CONECT    4   21
+CONECT    5    1    9
+CONECT    5    9
+CONECT    6   13   14
+CONECT    6   14
+CONECT    7   16
+CONECT    7   16
+CONECT    8   20
+CONECT    9    5   11
+CONECT    9    5
+CONECT   10   16   17
+CONECT   11    9   13
+CONECT   11   13
+CONECT   12    1    2   13
+CONECT   12    1
+CONECT   13    6   11   12
+CONECT   13   11
+CONECT   14    2    6   15
+CONECT   14    6
+CONECT   15    3   14   23
+CONECT   16    3    7   10
+CONECT   16    7
+CONECT   17   10   18   22
+CONECT   17   22
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20    8   19   21
+CONECT   20   21
+CONECT   21    4   20   22
+CONECT   21   20
+CONECT   22   17   21
+CONECT   22   17
+CONECT   23   15
+ENDMDL
+END   

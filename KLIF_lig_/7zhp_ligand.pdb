@@ -1,0 +1,79 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7zhp_ligand
+MODEL        1
+HETATM    1  N1  IQY A 408       1.279  19.956  41.390  1.00  0.00           N  
+HETATM    2  C2  IQY A 408       3.650  22.827  35.461  1.00  0.00           C  
+HETATM    3  N3  IQY A 408      -0.140  20.514  43.244  1.00  0.00           N  
+HETATM    4  C4  IQY A 408       3.322  20.535  36.825  1.00  0.00           C  
+HETATM    5  C5  IQY A 408       3.138  19.288  37.520  1.00  0.00           C  
+HETATM    6  C6  IQY A 408       3.641  18.104  36.962  1.00  0.00           C  
+HETATM    7  O   IQY A 408       3.866  22.491  34.075  1.00  0.00           O  
+HETATM    8  C1  IQY A 408       2.420  23.733  35.547  1.00  0.00           C  
+HETATM    9  C   IQY A 408       1.113  23.018  35.601  1.00  0.00           C  
+HETATM   10  C20 IQY A 408       4.891  23.531  35.977  1.00  0.00           C  
+HETATM   11  C21 IQY A 408       5.063  24.946  35.469  1.00  0.00           C  
+HETATM   12  C3  IQY A 408       3.438  21.577  36.246  1.00  0.00           C  
+HETATM   13  C12 IQY A 408       2.510  19.265  38.778  1.00  0.00           C  
+HETATM   14  C11 IQY A 408       2.407  18.055  39.483  1.00  0.00           C  
+HETATM   15  C8  IQY A 408       2.952  16.892  38.909  1.00  0.00           C  
+HETATM   16  C7  IQY A 408       3.566  16.908  37.657  1.00  0.00           C  
+HETATM   17  C10 IQY A 408       1.818  17.659  40.771  1.00  0.00           C  
+HETATM   18  C13 IQY A 408       1.108  18.650  41.649  1.00  0.00           C  
+HETATM   19  C16 IQY A 408       0.281  18.216  42.701  1.00  0.00           C  
+HETATM   20  C15 IQY A 408      -0.283  19.208  43.469  1.00  0.00           C  
+HETATM   21  C14 IQY A 408       0.637  20.835  42.193  1.00  0.00           C  
+HETATM   22  N2  IQY A 408       0.729  22.127  41.878  1.00  0.00           N  
+HETATM   23  C17 IQY A 408      -0.079  16.775  42.972  1.00  0.00           C  
+HETATM   24  C18 IQY A 408       1.106  15.902  43.272  1.00  0.00           C  
+HETATM   25  C19 IQY A 408       1.728  15.308  42.003  1.00  0.00           C  
+HETATM   26  C9  IQY A 408       2.068  16.270  40.905  1.00  0.00           C  
+HETATM   27  N   IQY A 408       2.745  15.826  39.776  1.00  0.00           N  
+CONECT    1   18   21
+CONECT    1   21
+CONECT    2    7    8   10   12
+CONECT    3   20   21
+CONECT    3   20
+CONECT    4    5   12
+CONECT    4   12
+CONECT    4   12
+CONECT    5    4    6   13
+CONECT    5   13
+CONECT    6    5   16
+CONECT    6   16
+CONECT    7    2
+CONECT    8    2    9
+CONECT    9    8
+CONECT   10    2   11
+CONECT   11   10
+CONECT   12    2    4
+CONECT   12    4
+CONECT   12    4
+CONECT   13    5   14
+CONECT   13    5
+CONECT   14   13   15   17
+CONECT   14   15
+CONECT   15   14   16   27
+CONECT   15   14
+CONECT   16    6   15
+CONECT   16    6
+CONECT   17   14   18   26
+CONECT   17   26
+CONECT   18    1   17   19
+CONECT   18   19
+CONECT   19   18   20   23
+CONECT   19   18
+CONECT   20    3   19
+CONECT   20    3
+CONECT   21    1    3   22
+CONECT   21    1
+CONECT   22   21
+CONECT   23   19   24
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   26   17   25   27
+CONECT   26   17
+CONECT   27   15   26
+ENDMDL
+END   

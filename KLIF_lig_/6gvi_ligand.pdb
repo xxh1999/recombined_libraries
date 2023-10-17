@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6gvi_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C8  FDW A1101       1.095  15.824  42.838  1.00  0.00           C  
+HETATM    2  N2  FDW A1101       1.351  17.245  42.482  1.00  0.00           N  
+HETATM    3  C9  FDW A1101       3.189  19.242  40.269  1.00  0.00           C  
+HETATM    4  C10 FDW A1101       1.540  19.496  42.271  1.00  0.00           C  
+HETATM    5  C11 FDW A1101       0.888  18.455  43.038  1.00  0.00           C  
+HETATM    6  N3  FDW A1101       2.178  17.491  41.433  1.00  0.00           N  
+HETATM    7  C13 FDW A1101      -0.018  15.291  41.951  1.00  0.00           C  
+HETATM    8  C14 FDW A1101       0.875  15.593  44.362  1.00  0.00           C  
+HETATM    9  C15 FDW A1101       1.256  20.790  42.647  1.00  0.00           C  
+HETATM   10  N4  FDW A1101       0.005  18.630  44.090  1.00  0.00           N  
+HETATM   11  C1  FDW A1101       2.318  18.824  41.308  1.00  0.00           C  
+HETATM   12  C19 FDW A1101      -0.180  19.955  44.361  1.00  0.00           C  
+HETATM   13  N6  FDW A1101       0.383  21.067  43.685  1.00  0.00           N  
+HETATM   14  N7  FDW A1101       1.830  21.814  42.002  1.00  0.00           N  
+HETATM   15  N8  FDW A1101      -1.016  20.215  45.423  1.00  0.00           N  
+HETATM   16  C27 FDW A1101       2.848  20.190  39.334  1.00  0.00           C  
+HETATM   17  C28 FDW A1101       3.810  20.349  38.338  1.00  0.00           C  
+HETATM   18  C29 FDW A1101       5.043  19.614  38.363  1.00  0.00           C  
+HETATM   19  C30 FDW A1101       5.394  18.739  39.327  1.00  0.00           C  
+HETATM   20  C31 FDW A1101       4.437  18.580  40.302  1.00  0.00           C  
+HETATM   21  O43 FDW A1101       5.810  19.914  37.291  1.00  0.00           O  
+HETATM   22  C44 FDW A1101       5.027  20.858  36.614  1.00  0.00           C  
+HETATM   23  N9  FDW A1101       3.824  21.161  37.199  1.00  0.00           N  
+HETATM   24  N10 FDW A1101       5.573  21.353  35.453  1.00  0.00           N  
+CONECT    1    2    7    8
+CONECT    2    1    5    6
+CONECT    3   11   16   20
+CONECT    3   20
+CONECT    4    5    9   11
+CONECT    4    5
+CONECT    5    2    4   10
+CONECT    5    4
+CONECT    6    2   11
+CONECT    6   11
+CONECT    7    1
+CONECT    8    1
+CONECT    9    4   13   14
+CONECT    9   13
+CONECT   10    5   12
+CONECT   10   12
+CONECT   11    3    4    6
+CONECT   11    6
+CONECT   12   10   13   15
+CONECT   12   10
+CONECT   13    9   12
+CONECT   13    9
+CONECT   14    9
+CONECT   15   12
+CONECT   16    3   17
+CONECT   16   17
+CONECT   17   16   18   23
+CONECT   17   16
+CONECT   18   17   19   21
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20    3   19
+CONECT   20    3
+CONECT   21   18   22
+CONECT   22   21   23   24
+CONECT   22   23
+CONECT   23   17   22
+CONECT   23   22
+CONECT   24   22
+ENDMDL
+END   

@@ -1,0 +1,82 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5A93
+MODEL        1
+ATOM      1  N   SER A  70     -41.831  22.280  10.566  1.00  8.53           N1+
+ATOM      2  CA  SER A  70     -40.580  21.525  10.528  1.00  7.84           C  
+ATOM      3  C   SER A  70     -39.364  22.339  11.041  1.00  8.39           C  
+ATOM      4  O   SER A  70     -38.265  21.788  11.066  1.00  8.42           O  
+ATOM      5  CB  SER A  70     -40.289  21.053   9.081  1.00  9.86           C  
+ATOM      6  OG  SER A  70     -41.223  20.119   8.521  1.00 10.93           O  
+TER       7      SER A  70
+HETATM    8  S1  CEF A1291     -41.544  18.335   4.639  0.79 35.12           S  
+HETATM    9  C1  CEF A1291     -41.255  19.192   3.065  0.79 35.18           C  
+HETATM   10  C2  CEF A1291     -40.343  20.404   3.207  0.79 44.05           C  
+HETATM   11  C3  CEF A1291     -39.430  20.690   2.259  0.79 48.82           C  
+HETATM   12  C4  CEF A1291     -40.414  21.202   4.473  0.79 23.35           C  
+HETATM   13  C5  CEF A1291     -39.639  22.446   4.734  0.79  3.94           C  
+HETATM   14  O1  CEF A1291     -39.940  23.434   4.032  0.79 28.43           O1-
+HETATM   15  O2  CEF A1291     -38.835  22.403   5.691  0.79 18.58           O  
+HETATM   16  N1  CEF A1291     -41.150  20.879   5.451  0.79 37.59           N  
+HETATM   17  C6  CEF A1291     -42.157  19.852   5.389  0.79 34.84           C  
+HETATM   18  C7  CEF A1291     -42.819  19.598   6.780  0.79 34.07           C  
+HETATM   19  C8  CEF A1291     -42.321  20.571   7.877  0.79 31.34           C  
+HETATM   20  O3  CEF A1291     -42.769  21.707   7.997  0.79 13.93           O  
+HETATM   21  N2  CEF A1291     -44.258  19.755   6.566  0.79 26.84           N  
+HETATM   22  C9  CEF A1291     -45.077  18.821   6.053  0.79 42.27           C  
+HETATM   23  O4  CEF A1291     -44.837  17.614   6.024  0.79 30.84           O  
+HETATM   24  C10 CEF A1291     -46.323  19.417   5.421  0.79 30.19           C  
+HETATM   25  N3  CEF A1291     -47.526  19.137   5.723  0.79 37.66           N  
+HETATM   26  O5  CEF A1291     -47.662  18.184   6.736  0.79 32.96           O  
+HETATM   27  C11 CEF A1291     -49.053  18.016   6.954  0.79 40.94           C  
+HETATM   28  C12 CEF A1291     -46.078  20.394   4.330  0.79 26.70           C  
+HETATM   29  C13 CEF A1291     -45.116  20.203   3.362  0.79 34.53           C  
+HETATM   30  S2  CEF A1291     -45.125  21.460   2.158  0.79 58.97           S  
+HETATM   31  C14 CEF A1291     -46.495  22.167   2.985  0.79 30.29           C  
+HETATM   32  N4  CEF A1291     -47.139  23.277   2.493  0.79 38.41           N  
+HETATM   33  N5  CEF A1291     -46.871  21.516   4.082  0.79 38.84           N  
+CONECT    8    9   17
+CONECT    9    8   10
+CONECT   10    9   11   12
+CONECT   10   11
+CONECT   11   10
+CONECT   11   10
+CONECT   12   10   13   16
+CONECT   12   16
+CONECT   13   12   14   15
+CONECT   13   15
+CONECT   14   13
+CONECT   15   13
+CONECT   15   13
+CONECT   16   12   17
+CONECT   16   12
+CONECT   17    8   16   18
+CONECT   18   17   19   21
+CONECT   19    6   18   20
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   18   22
+CONECT   22   21   23   24
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22   25   28
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26   25   27
+CONECT   27   26
+CONECT   28   24   29   33
+CONECT   28   29
+CONECT   29   28   30
+CONECT   29   28
+CONECT   30   29   31
+CONECT   31   30   32   33
+CONECT   31   33
+CONECT   32   31
+CONECT   33   28   31
+CONECT   33   31
+ENDMDL
+END   

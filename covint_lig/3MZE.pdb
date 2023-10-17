@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3MZE
+MODEL        1
+ATOM      1  N   SER A  44      40.076   6.400  24.667  1.00 26.46           N1+
+ATOM      2  CA  SER A  44      41.245   6.984  24.008  1.00 26.90           C  
+ATOM      3  C   SER A  44      41.459   6.470  22.574  1.00 26.13           C  
+ATOM      4  O   SER A  44      42.375   6.960  21.912  1.00 26.33           O  
+ATOM      5  CB  SER A  44      42.508   6.606  24.798  1.00 27.71           C  
+ATOM      6  OG  SER A  44      42.606   7.308  26.025  1.00 31.38           O  
+TER       7      SER A  44
+HETATM    8  C4  1QL A 364      40.442   7.875  32.154  0.00 51.48           C  
+HETATM    9  C2  1QL A 364      40.290   7.446  29.653  1.00 46.72           C  
+HETATM   10  N2  1QL A 364      44.445   6.015  28.362  1.00 44.24           N  
+HETATM   11  C6  1QL A 364      41.863   8.156  33.977  0.00 52.23           C  
+HETATM   12  O6  1QL A 364      43.922   3.119  28.278  1.00 43.13           O1-
+HETATM   13  C5  1QL A 364      41.425   7.306  32.923  0.00 52.14           C  
+HETATM   14  C8  1QL A 364      43.981   7.350  28.767  1.00 42.94           C  
+HETATM   15  C15 1QL A 364      45.045   3.646  28.388  1.00 44.64           C  
+HETATM   16  O5  1QL A 364      46.138   3.173  28.006  1.00 42.50           O  
+HETATM   17  C13 1QL A 364      45.097   5.033  29.092  1.00 44.77           C  
+HETATM   18  C10 1QL A 364      45.685   5.265  30.282  1.00 46.26           C  
+HETATM   19  C11 1QL A 364      46.380   4.195  31.109  0.00 47.47           C  
+HETATM   20  C9  1QL A 364      45.832   6.675  30.809  1.00 45.14           C  
+HETATM   21  S1  1QL A 364      44.364   7.698  30.525  1.00 45.14           S  
+HETATM   22  C14 1QL A 364      42.045   6.808  27.141  1.00 37.03           C  
+HETATM   23  O4  1QL A 364      41.402   5.762  27.228  1.00 37.07           O  
+HETATM   24  C1  1QL A 364      42.483   7.661  28.368  1.00 41.20           C  
+HETATM   25  O   1QL A 364      42.466   9.036  28.020  1.00 41.48           O  
+HETATM   26  C   1QL A 364      41.250   9.673  27.614  1.00 40.97           C  
+HETATM   27  N   1QL A 364      41.639   7.421  29.552  1.00 42.81           N  
+HETATM   28  O1  1QL A 364      39.526   7.578  28.696  1.00 45.95           O  
+HETATM   29  C3  1QL A 364      39.675   7.245  31.044  0.00 49.74           C  
+HETATM   30  S   1QL A 364      40.068   9.490  32.690  0.00 53.17           S  
+HETATM   31  C7  1QL A 364      41.209   9.359  33.993  0.00 51.72           C  
+CONECT    8   13   29   30
+CONECT    8   13
+CONECT    9   27   28   29
+CONECT    9   28
+CONECT   10   14   17
+CONECT   11   13   31
+CONECT   11   31
+CONECT   12   15
+CONECT   13    8   11
+CONECT   13    8
+CONECT   14   10   21   24
+CONECT   15   12   16   17
+CONECT   15   16
+CONECT   16   15
+CONECT   16   15
+CONECT   17   10   15   18
+CONECT   17   18
+CONECT   18   17   19   20
+CONECT   18   17
+CONECT   19   18
+CONECT   20   18   21
+CONECT   21   14   20
+CONECT   22    6   23   24
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   14   22   25   27
+CONECT   25   24   26
+CONECT   26   25
+CONECT   27    9   24
+CONECT   28    9
+CONECT   28    9
+CONECT   29    8    9
+CONECT   30    8   31
+CONECT   31   11   30
+CONECT   31   11
+ENDMDL
+END   

@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3vf8_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CAZ Q0J A 701      -3.634  14.061  49.600  1.00  0.00           C  
+HETATM    2  CAY Q0J A 701      -2.682  14.905  48.751  1.00  0.00           C  
+HETATM    3  OAX Q0J A 701      -2.462  14.178  47.532  1.00  0.00           O  
+HETATM    4  CAB Q0J A 701      -1.806  14.846  46.537  1.00  0.00           C  
+HETATM    5  CAC Q0J A 701      -1.917  16.234  46.369  1.00  0.00           C  
+HETATM    6  CAA Q0J A 701      -1.043  14.100  45.637  1.00  0.00           C  
+HETATM    7  FAW Q0J A 701      -0.938  12.765  45.796  1.00  0.00           F  
+HETATM    8  CAD Q0J A 701      -0.387  14.729  44.577  1.00  0.00           C  
+HETATM    9  CAH Q0J A 701      -0.490  16.112  44.423  1.00  0.00           C  
+HETATM   10  NAG Q0J A 701       0.021  16.956  43.536  1.00  0.00           N  
+HETATM   11  CAI Q0J A 701      -1.260  16.861  45.307  1.00  0.00           C  
+HETATM   12  NAE Q0J A 701      -1.187  18.128  44.904  1.00  0.00           N  
+HETATM   13  CAF Q0J A 701      -0.403  18.187  43.823  1.00  0.00           C  
+HETATM   14  CAJ Q0J A 701      -0.093  19.343  43.106  1.00  0.00           C  
+HETATM   15  NAK Q0J A 701      -0.431  20.605  43.362  1.00  0.00           N  
+HETATM   16  NAL Q0J A 701       0.027  21.343  42.478  1.00  0.00           N  
+HETATM   17  CAM Q0J A 701       0.703  20.642  41.557  1.00  0.00           C  
+HETATM   18  CAN Q0J A 701       0.651  19.370  41.938  1.00  0.00           C  
+HETATM   19  NAO Q0J A 701       1.129  18.284  41.307  1.00  0.00           N  
+HETATM   20  CAP Q0J A 701       1.339  18.133  39.987  1.00  0.00           C  
+HETATM   21  OAR Q0J A 701       1.185  19.050  39.178  1.00  0.00           O  
+HETATM   22  NAQ Q0J A 701       1.765  16.927  39.581  1.00  0.00           N  
+HETATM   23  CAU Q0J A 701       1.961  15.810  40.523  1.00  0.00           C  
+HETATM   24  CAV Q0J A 701       0.733  14.898  40.480  1.00  0.00           C  
+HETATM   25  CAS Q0J A 701       2.056  16.658  38.162  1.00  0.00           C  
+HETATM   26  CAT Q0J A 701       0.747  16.394  37.413  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5    6
+CONECT    4    6
+CONECT    5    4   11
+CONECT    5   11
+CONECT    6    4    7    8
+CONECT    6    4
+CONECT    7    6
+CONECT    8    6    9
+CONECT    8    9
+CONECT    9    8   10   11
+CONECT    9    8
+CONECT   10    9   13
+CONECT   10   13
+CONECT   11    5    9   12
+CONECT   11    5
+CONECT   12   11   13
+CONECT   13   10   12   14
+CONECT   13   10
+CONECT   14   13   15   18
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   14   17   19
+CONECT   18   17
+CONECT   19   18   20
+CONECT   20   19   21   22
+CONECT   20   21
+CONECT   21   20
+CONECT   21   20
+CONECT   22   20   23   25
+CONECT   23   22   24
+CONECT   24   23
+CONECT   25   22   26
+CONECT   26   25
+ENDMDL
+END   

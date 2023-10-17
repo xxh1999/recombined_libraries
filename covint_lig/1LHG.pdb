@@ -1,0 +1,86 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1LHG
+MODEL        1
+ATOM      1  N   SER H 195      13.152  -7.560  17.925  1.00 22.63           N1+
+ATOM      2  CA  SER H 195      14.482  -7.172  18.386  1.00 22.25           C  
+ATOM      3  C   SER H 195      14.946  -5.855  17.763  1.00 21.42           C  
+ATOM      4  O   SER H 195      14.679  -5.593  16.592  1.00 21.21           O  
+ATOM      5  CB  SER H 195      15.480  -8.304  18.088  1.00 23.07           C  
+ATOM      6  OG  SER H 195      15.401  -9.346  19.049  1.00 23.99           O  
+TER       7      SER H 195
+HETATM    8  B1  DI5 H 400      14.732 -10.636  18.705  1.00 24.83           B1-
+HETATM    9  C   DI5 H 400      14.488 -11.482  20.067  1.00 25.35           C  
+HETATM   10  C2  DI5 H 400      13.618 -10.661  21.038  1.00 25.47           C  
+HETATM   11  C3  DI5 H 400      13.125 -11.407  22.282  1.00 25.74           C  
+HETATM   12  C4  DI5 H 400      12.370 -12.705  21.980  1.00 25.96           C  
+HETATM   13  C6  DI5 H 400      16.445 -12.968  20.600  1.00 25.83           C  
+HETATM   14  C5  DI5 H 400      17.813 -13.026  21.317  1.00 25.88           C  
+HETATM   15  C7  DI5 H 400      18.976 -12.795  20.342  1.00 25.88           C  
+HETATM   16  C8  DI5 H 400      19.764 -14.094  20.268  1.00 25.88           C  
+HETATM   17  C9  DI5 H 400      19.272 -14.968  21.419  1.00 25.89           C  
+HETATM   18  C10 DI5 H 400      17.351 -14.795  23.010  1.00 26.00           C  
+HETATM   19  C11 DI5 H 400      18.254 -15.941  25.087  1.00 26.74           C  
+HETATM   20  C12 DI5 H 400      17.690 -16.157  23.663  1.00 26.32           C  
+HETATM   21  C13 DI5 H 400      15.988 -17.800  22.912  1.00 26.69           C  
+HETATM   22  C14 DI5 H 400      14.565 -18.296  23.111  1.00 26.27           C  
+HETATM   23  C15 DI5 H 400      22.066 -15.762  24.646  1.00 27.03           C  
+HETATM   24  C16 DI5 H 400      22.372 -14.567  25.325  1.00 27.11           C  
+HETATM   25  C17 DI5 H 400      21.341 -13.828  25.934  1.00 27.09           C  
+HETATM   26  C18 DI5 H 400      20.011 -14.273  25.848  1.00 27.05           C  
+HETATM   27  C19 DI5 H 400      19.695 -15.460  25.160  1.00 27.04           C  
+HETATM   28  C20 DI5 H 400      20.734 -16.211  24.570  1.00 27.12           C  
+HETATM   29  N   DI5 H 400      15.785 -11.798  20.676  1.00 25.55           N  
+HETATM   30  N1  DI5 H 400      11.504 -13.103  23.100  1.00 26.18           N1+
+HETATM   31  N2  DI5 H 400      18.095 -14.310  21.986  1.00 25.89           N  
+HETATM   32  N3  DI5 H 400      16.434 -16.893  23.793  1.00 26.43           N  
+HETATM   33  O   DI5 H 400      13.455 -10.392  18.007  1.00 24.87           O  
+HETATM   34  O1  DI5 H 400      15.548 -11.451  17.785  1.00 24.31           O  
+HETATM   35  O2  DI5 H 400      16.016 -13.949  19.991  1.00 25.99           O  
+HETATM   36  O3  DI5 H 400      16.377 -14.176  23.438  1.00 25.80           O  
+HETATM   37  O4  DI5 H 400      16.658 -18.222  21.971  1.00 27.01           O  
+CONECT    8    6    9   33   34
+CONECT    9    8   10   29
+CONECT   10    9   11
+CONECT   11   10   12
+CONECT   12   11   30
+CONECT   13   14   29   35
+CONECT   13   35
+CONECT   14   13   15   31
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16   31
+CONECT   18   20   31   36
+CONECT   18   36
+CONECT   19   20   27
+CONECT   20   18   19   32
+CONECT   21   22   32   37
+CONECT   21   37
+CONECT   22   21
+CONECT   23   24   28
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   19   26   28
+CONECT   27   28
+CONECT   28   23   27
+CONECT   28   27
+CONECT   29    9   13
+CONECT   30   12
+CONECT   31   14   17   18
+CONECT   32   20   21
+CONECT   33    8
+CONECT   34    8
+CONECT   35   13
+CONECT   35   13
+CONECT   36   18
+CONECT   36   18
+CONECT   37   21
+CONECT   37   21
+ENDMDL
+END   

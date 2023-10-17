@@ -1,0 +1,118 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6jz0_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C5  CKO A1100       0.675  18.498  43.048  1.00  0.00           C  
+HETATM    2  C6  CKO A1100      -0.042  19.254  43.891  1.00  0.00           C  
+HETATM    3  N1  CKO A1100      -0.194  20.572  43.715  1.00  0.00           N  
+HETATM    4  C2  CKO A1100       0.394  21.206  42.627  1.00  0.00           C  
+HETATM    5  N3  CKO A1100       1.130  20.414  41.758  1.00  0.00           N  
+HETATM    6  C4  CKO A1100       1.250  19.097  41.983  1.00  0.00           C  
+HETATM    7  CAG CKO A1100       0.598  17.236  43.531  1.00  0.00           C  
+HETATM    8  CAH CKO A1100      -0.143  17.273  44.655  1.00  0.00           C  
+HETATM    9  CAJ CKO A1100      -0.516  16.317  45.522  1.00  0.00           C  
+HETATM   10  CAK CKO A1100       1.184  16.145  43.005  1.00  0.00           C  
+HETATM   11  CAM CKO A1100       2.534  18.804  39.856  1.00  0.00           C  
+HETATM   12  CAN CKO A1100       3.404  19.918  39.913  1.00  0.00           C  
+HETATM   13  CAO CKO A1100       3.318  17.632  39.260  1.00  0.00           C  
+HETATM   14  CAQ CKO A1100      -0.387  14.946  45.314  1.00  0.00           C  
+HETATM   15  CAR CKO A1100      -0.816  14.046  46.287  1.00  0.00           C  
+HETATM   16  CAS CKO A1100      -1.377  14.496  47.477  1.00  0.00           C  
+HETATM   17  CAT CKO A1100      -1.511  15.860  47.695  1.00  0.00           C  
+HETATM   18  CAU CKO A1100      -1.082  16.755  46.720  1.00  0.00           C  
+HETATM   19  CAV CKO A1100       2.526  15.934  43.295  1.00  0.00           C  
+HETATM   20  CAW CKO A1100       3.187  14.823  42.794  1.00  0.00           C  
+HETATM   21  CAX CKO A1100       2.502  13.916  42.000  1.00  0.00           C  
+HETATM   22  CAY CKO A1100       1.161  14.103  41.690  1.00  0.00           C  
+HETATM   23  CAZ CKO A1100       0.490  15.220  42.204  1.00  0.00           C  
+HETATM   24  CBB CKO A1100      -0.689  12.829  40.939  1.00  0.00           C  
+HETATM   25  CBC CKO A1100      -1.009  11.621  40.052  1.00  0.00           C  
+HETATM   26  CBE CKO A1100      -2.464  11.136  39.884  1.00  0.00           C  
+HETATM   27  CBF CKO A1100      -2.679   9.881  38.999  1.00  0.00           C  
+HETATM   28  CBH CKO A1100      -1.631   8.576  40.827  1.00  0.00           C  
+HETATM   29  CBI CKO A1100      -0.461   8.769  38.733  1.00  0.00           C  
+HETATM   30  CBJ CKO A1100       3.690  20.592  38.729  1.00  0.00           C  
+HETATM   31  CBK CKO A1100       4.545  21.689  38.711  1.00  0.00           C  
+HETATM   32  CBL CKO A1100       5.136  22.126  39.889  1.00  0.00           C  
+HETATM   33  CBM CKO A1100       4.863  21.459  41.077  1.00  0.00           C  
+HETATM   34  CBN CKO A1100       4.008  20.358  41.090  1.00  0.00           C  
+HETATM   35  NAL CKO A1100       1.972  18.345  41.151  1.00  0.00           N  
+HETATM   36  NBA CKO A1100       0.622  13.138  40.932  1.00  0.00           N  
+HETATM   37  NBG CKO A1100      -1.789   8.743  39.374  1.00  0.00           N1+
+HETATM   38  OAI CKO A1100      -0.519  18.491  44.848  1.00  0.00           O  
+HETATM   39  OAP CKO A1100       2.973  17.456  37.886  1.00  0.00           O  
+HETATM   40  OBD CKO A1100      -1.566  13.432  41.554  1.00  0.00           O  
+CONECT    1    2    6    7
+CONECT    1    6
+CONECT    2    1    3   38
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    1    5   35
+CONECT    6    1
+CONECT    7    1    8   10
+CONECT    7    8
+CONECT    8    7    9   38
+CONECT    8    7
+CONECT    9    8   14   18
+CONECT    9   18
+CONECT   10    7   19   23
+CONECT   10   23
+CONECT   11   12   13   35
+CONECT   12   11   30   34
+CONECT   12   34
+CONECT   13   11   39
+CONECT   14    9   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18    9   17
+CONECT   18    9
+CONECT   19   10   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23   36
+CONECT   22   21
+CONECT   23   10   22
+CONECT   23   10
+CONECT   24   25   36   40
+CONECT   24   40
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   26   37
+CONECT   28   37
+CONECT   29   37
+CONECT   30   12   31
+CONECT   30   31
+CONECT   31   30   32
+CONECT   31   30
+CONECT   32   31   33
+CONECT   32   33
+CONECT   33   32   34
+CONECT   33   32
+CONECT   34   12   33
+CONECT   34   12
+CONECT   35    6   11
+CONECT   36   22   24
+CONECT   37   27   28   29
+CONECT   38    2    8
+CONECT   39   13
+CONECT   40   24
+CONECT   40   24
+ENDMDL
+END   

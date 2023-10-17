@@ -1,0 +1,84 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5fxr_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  Q8L A2284       0.171  16.379  42.816  1.00  0.00           C  
+HETATM    2  C2  Q8L A2284       0.056  16.814  46.322  1.00  0.00           C  
+HETATM    3  C3  Q8L A2284       0.066  17.375  45.073  1.00  0.00           C  
+HETATM    4  C4  Q8L A2284       0.144  16.307  44.145  1.00  0.00           C  
+HETATM    5  N1  Q8L A2284       0.179  15.126  44.783  1.00  0.00           N  
+HETATM    6  N2  Q8L A2284       0.131  15.473  46.084  1.00  0.00           N  
+HETATM    7  C5  Q8L A2284       0.119  14.497  47.156  1.00  0.00           C  
+HETATM    8  C6  Q8L A2284      -1.288  13.976  47.318  1.00  0.00           C  
+HETATM    9  C7  Q8L A2284      -1.374  12.999  48.476  1.00  0.00           C  
+HETATM   10  N3  Q8L A2284      -0.371  11.945  48.217  1.00  0.00           N1+
+HETATM   11  C8  Q8L A2284       1.012  12.467  48.136  1.00  0.00           C  
+HETATM   12  C9  Q8L A2284       1.038  13.340  46.906  1.00  0.00           C  
+HETATM   13  N4  Q8L A2284      -0.009  18.697  44.848  1.00  0.00           N  
+HETATM   14  C10 Q8L A2284       0.771  19.376  43.926  1.00  0.00           C  
+HETATM   15  N5  Q8L A2284       0.417  20.648  43.694  1.00  0.00           N  
+HETATM   16  C11 Q8L A2284       1.158  21.302  42.800  1.00  0.00           C  
+HETATM   17  C12 Q8L A2284       2.214  20.701  42.167  1.00  0.00           C  
+HETATM   18  C13 Q8L A2284       2.518  19.399  42.496  1.00  0.00           C  
+HETATM   19  N6  Q8L A2284       1.799  18.717  43.382  1.00  0.00           N  
+HETATM   20  C14 Q8L A2284       3.606  18.616  41.867  1.00  0.00           C  
+HETATM   21  C15 Q8L A2284       4.342  18.903  40.741  1.00  0.00           C  
+HETATM   22  N7  Q8L A2284       5.197  17.844  40.475  1.00  0.00           N  
+HETATM   23  C16 Q8L A2284       4.977  16.914  41.416  1.00  0.00           C  
+HETATM   24  N8  Q8L A2284       4.006  17.365  42.302  1.00  0.00           N  
+HETATM   25  C17 Q8L A2284       3.596  16.619  43.364  1.00  0.00           C  
+HETATM   26  C18 Q8L A2284       4.147  15.411  43.551  1.00  0.00           C  
+HETATM   27  C19 Q8L A2284       5.155  14.885  42.663  1.00  0.00           C  
+HETATM   28  C20 Q8L A2284       5.560  15.620  41.621  1.00  0.00           C  
+HETATM   29 CL   Q8L A2284       3.082  21.613  41.027  1.00  0.00          Cl  
+CONECT    1    4
+CONECT    2    3    6
+CONECT    2    3
+CONECT    3    2    4   13
+CONECT    3    2
+CONECT    4    1    3    5
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    2    5    7
+CONECT    7    6    8   12
+CONECT    8    7    9
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10   12
+CONECT   12    7   11
+CONECT   13    3   14
+CONECT   14   13   15   19
+CONECT   14   19
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   16   18   29
+CONECT   17   18
+CONECT   18   17   19   20
+CONECT   18   17
+CONECT   19   14   18
+CONECT   19   14
+CONECT   20   18   21   24
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   22   24   28
+CONECT   23   22
+CONECT   24   20   23   25
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   23   27
+CONECT   28   27
+CONECT   29   17
+ENDMDL
+END   

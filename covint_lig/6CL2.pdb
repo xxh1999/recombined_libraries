@@ -1,0 +1,56 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6CL2
+MODEL        1
+ATOM      1  N   ASP E 403      30.678  28.920  -0.203  1.00 74.91           N1+
+ATOM      2  CA  ASP E 403      31.986  28.272  -0.177  1.00 68.26           C  
+ATOM      3  C   ASP E 403      31.986  26.978  -1.000  1.00 66.32           C  
+ATOM      4  O   ASP E 403      31.148  26.096  -0.809  1.00 68.63           O  
+ATOM      5  CB  ASP E 403      32.393  27.941   1.278  1.00 63.64           C  
+ATOM      6  CG  ASP E 403      32.545  29.185   2.152  1.00 64.50           C  
+ATOM      7  OD1 ASP E 403      33.506  29.943   1.899  1.00 69.32           O  
+ATOM      8  OD2 ASP E 403      31.717  29.354   3.072  1.00 62.50           O1-
+TER       9      ASP E 403
+HETATM   10  N   PF5 E 404      32.966  26.891  -1.906  1.00 61.76           N  
+HETATM   11  CA  PF5 E 404      33.307  25.738  -2.730  1.00 63.91           C  
+HETATM   12  CB  PF5 E 404      33.599  26.258  -4.155  1.00 71.06           C  
+HETATM   13  CG  PF5 E 404      32.366  26.837  -4.826  1.00 76.69           C  
+HETATM   14  CD1 PF5 E 404      31.354  25.966  -5.286  1.00 80.06           C  
+HETATM   15  FD1 PF5 E 404      31.508  24.624  -5.178  1.00 81.65           F  
+HETATM   16  CD2 PF5 E 404      32.199  28.233  -4.947  1.00 76.28           C  
+HETATM   17  FD2 PF5 E 404      33.159  29.081  -4.506  1.00 71.66           F  
+HETATM   18  CE1 PF5 E 404      30.173  26.489  -5.846  1.00 86.85           C  
+HETATM   19  FE1 PF5 E 404      29.199  25.650  -6.274  1.00 95.65           F  
+HETATM   20  CE2 PF5 E 404      31.017  28.753  -5.515  1.00 82.08           C  
+HETATM   21  FE2 PF5 E 404      30.853  30.091  -5.629  1.00 79.64           F  
+HETATM   22  CZ  PF5 E 404      30.002  27.881  -5.955  1.00 85.44           C  
+HETATM   23  FZ  PF5 E 404      28.861  28.385  -6.484  1.00 91.99           F  
+HETATM   24  C   PF5 E 404      34.571  25.076  -2.162  1.00 60.16           C  
+HETATM   25  O   PF5 E 404      35.120  25.528  -1.160  1.00 55.09           O  
+CONECT   10    3   11
+CONECT   11   10   12   24
+CONECT   12   11   13
+CONECT   13   12   14   16
+CONECT   13   16
+CONECT   14   13   15   18
+CONECT   14   18
+CONECT   15   14
+CONECT   16   13   17   20
+CONECT   16   13
+CONECT   17   16
+CONECT   18   14   19   22
+CONECT   18   14
+CONECT   19   18
+CONECT   20   16   21   22
+CONECT   20   22
+CONECT   21   20
+CONECT   22   18   20   23
+CONECT   22   20
+CONECT   23   22
+CONECT   24   11   25
+CONECT   24   25
+CONECT   25   24
+CONECT   25   24
+ENDMDL
+END   

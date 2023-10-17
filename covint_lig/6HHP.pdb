@@ -1,0 +1,56 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6HHP
+MODEL        1
+ATOM      1  N   CYS A  42      24.471  20.727  -3.420  1.00  7.92           N1+
+ATOM      2  CA  CYS A  42      23.426  19.723  -3.241  1.00  8.54           C  
+ATOM      3  C   CYS A  42      23.893  18.299  -3.597  1.00  7.81           C  
+ATOM      4  O   CYS A  42      23.449  17.357  -2.944  1.00  8.64           O  
+ATOM      5  CB  CYS A  42      22.185  20.089  -4.081  1.00 11.19           C  
+ATOM      6  SG  CYS A  42      20.931  21.122  -3.270  1.00 20.20           S  
+TER       7      CYS A  42
+HETATM    8  C13 G4Z A 304      17.888  19.763   1.477  1.00 21.11           C  
+HETATM    9  C10 G4Z A 304      15.397  17.724   1.028  1.00 28.61           C  
+HETATM   10  C12 G4Z A 304      16.800  20.483   0.920  1.00 27.25           C  
+HETATM   11  C17 G4Z A 304      17.678  22.523   1.955  1.00 18.41           C  
+HETATM   12  C14 G4Z A 304      18.846  20.418   2.277  1.00 21.74           C  
+HETATM   13  C15 G4Z A 304      18.741  21.798   2.519  1.00 21.04           C  
+HETATM   14  C18 G4Z A 304      16.719  21.868   1.166  1.00 24.41           C  
+HETATM   15  C01 G4Z A 304      16.609  19.924  -2.874  1.00 29.24           C  
+HETATM   16  C03 G4Z A 304      18.669  18.589  -2.730  1.00 23.59           C  
+HETATM   17  C04 G4Z A 304      19.940  18.583  -1.872  1.00 24.19           C  
+HETATM   18  C06 G4Z A 304      16.782  18.053  -1.156  1.00 30.09           C  
+HETATM   19  C08 G4Z A 304      15.625  18.598  -0.228  1.00 25.07           C  
+HETATM   20  C09 G4Z A 304      14.242  18.633  -0.930  1.00 29.24           C  
+HETATM   21  N02 G4Z A 304      17.476  19.098  -1.992  1.00 30.36           N1+
+HETATM   22  O07 G4Z A 304      16.298  17.173  -2.003  1.00 41.79           O1-
+HETATM   23  O11 G4Z A 304      15.788  19.979   0.126  1.00 28.46           O  
+HETATM   24  S05 G4Z A 304      20.545  20.242  -1.462  1.00 20.63           S  
+HETATM   25 CL   G4Z A 304      19.915  22.614   3.479  1.00 23.74          Cl  
+CONECT    8   10   12
+CONECT    8   12
+CONECT    9   19
+CONECT   10    8   14   23
+CONECT   10   14
+CONECT   11   13   14
+CONECT   11   13
+CONECT   12    8   13
+CONECT   12    8
+CONECT   13   11   12   25
+CONECT   13   11
+CONECT   14   10   11
+CONECT   14   10
+CONECT   15   21
+CONECT   16   17   21
+CONECT   17   16   24
+CONECT   18   19   21   22
+CONECT   19    9   18   20   23
+CONECT   20   19
+CONECT   21   15   16   18
+CONECT   22   18
+CONECT   23   10   19
+CONECT   24    6   17
+CONECT   25   13
+ENDMDL
+END   

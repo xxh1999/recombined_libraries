@@ -1,0 +1,20 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1GRH
+MODEL        1
+ATOM      1  N   CYS A  58      61.783  47.961  16.634  1.00 12.42           N1+
+ATOM      2  CA  CYS A  58      62.649  46.772  16.535  1.00 12.48           C  
+ATOM      3  C   CYS A  58      62.459  45.919  15.269  1.00 12.95           C  
+ATOM      4  O   CYS A  58      63.424  45.679  14.543  1.00 12.97           O  
+ATOM      5  CB  CYS A  58      62.502  45.938  17.827  1.00  8.77           C  
+ATOM      6  SG  CYS A  58      63.623  44.505  17.893  1.00 12.82           S  
+TER       7      CYS A  58
+HETATM    8  C1  EOH A 482      63.181  41.792  17.489  1.00 12.42           C  
+HETATM    9  C2  EOH A 482      62.516  43.164  17.387  1.00 12.95           C  
+HETATM   10  O   EOH A 482      62.364  40.825  16.865  1.00 12.48           O  
+CONECT    8    9   10
+CONECT    9    6    8
+CONECT   10    8
+ENDMDL
+END   

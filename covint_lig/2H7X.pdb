@@ -1,0 +1,40 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2H7X
+MODEL        1
+ATOM      1  N   SER A 148      49.655  48.587   9.277  1.00 23.64           N1+
+ATOM      2  CA  SER A 148      48.417  49.219   9.742  1.00 27.13           C  
+ATOM      3  C   SER A 148      48.616  49.807  11.148  1.00 23.13           C  
+ATOM      4  O   SER A 148      49.425  50.718  11.307  1.00 25.32           O  
+ATOM      5  CB  SER A 148      47.227  48.250   9.589  1.00 34.61           C  
+ATOM      6  OG  SER A 148      46.008  48.892   9.910  1.00 39.62           O  
+TER       7      SER A 148
+HETATM    8  CAA PSX A 548      45.401  50.547  15.516  0.75 49.16           C  
+HETATM    9  C6  PSX A 548      45.190  51.808  14.682  0.75 48.82           C  
+HETATM   10  C5  PSX A 548      43.751  51.994  14.167  0.75 48.31           C  
+HETATM   11  OC5 PSX A 548      42.881  51.974  15.285  0.75 48.29           O  
+HETATM   12  C4  PSX A 548      43.202  51.017  13.088  0.75 46.27           C  
+HETATM   13  CAB PSX A 548      41.984  51.658  12.386  0.75 47.47           C  
+HETATM   14  C3  PSX A 548      44.230  50.482  12.056  0.75 45.06           C  
+HETATM   15  OC3 PSX A 548      44.798  51.518  11.286  0.75 45.38           O  
+HETATM   16  C2  PSX A 548      43.621  49.437  11.095  0.75 41.50           C  
+HETATM   17  P1  PSX A 548      44.808  48.035  10.746  0.75 41.60           P  
+HETATM   18  O2P PSX A 548      45.392  47.542  12.011  0.75 39.29           O  
+HETATM   19  O1P PSX A 548      44.198  47.090   9.786  0.75 42.53           O1-
+CONECT    8    9
+CONECT    9    8   10
+CONECT   10    9   11   12
+CONECT   11   10
+CONECT   12   10   13   14
+CONECT   13   12
+CONECT   14   12   15   16
+CONECT   15   14
+CONECT   16   14   17
+CONECT   17    6   16   18   19
+CONECT   17   18
+CONECT   18   17
+CONECT   18   17
+CONECT   19   17
+ENDMDL
+END   

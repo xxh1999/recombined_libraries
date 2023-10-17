@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6YPD
+MODEL        1
+ATOM      1  N   SER A  64     -14.089  10.150  25.916  1.00 22.55           N1+
+ATOM      2  CA  SER A  64     -15.397   9.584  26.244  1.00 22.62           C  
+ATOM      3  C   SER A  64     -15.508   8.048  26.099  1.00 20.52           C  
+ATOM      4  O   SER A  64     -16.511   7.472  26.522  1.00 19.59           O  
+ATOM      5  CB  SER A  64     -16.465  10.314  25.411  1.00 25.74           C  
+ATOM      6  OG  SER A  64     -16.561  11.707  25.738  1.00 23.67           O  
+TER       7      SER A  64
+HETATM    8  B02 KL8 A 401     -16.150  12.654  24.797  1.00 39.94           B1-
+HETATM    9  C04 KL8 A 401     -15.950  14.164  25.227  1.00 58.35           C  
+HETATM   10  C06 KL8 A 401     -15.242  16.385  27.007  1.00 64.99           C  
+HETATM   11  C07 KL8 A 401     -13.857  16.895  27.424  1.00 66.30           C  
+HETATM   12  C08 KL8 A 401     -12.690  16.269  26.996  1.00 66.99           C  
+HETATM   13  C09 KL8 A 401     -11.454  16.781  27.386  1.00 73.92           C  
+HETATM   14  C10 KL8 A 401     -11.384  17.928  28.200  1.00 77.26           C  
+HETATM   15  C11 KL8 A 401     -12.551  18.561  28.619  1.00 78.21           C  
+HETATM   16  C12 KL8 A 401     -13.791  18.050  28.226  1.00 70.48           C  
+HETATM   17  C13 KL8 A 401     -17.138  15.033  24.863  1.00 64.04           C  
+HETATM   18  C14 KL8 A 401     -17.275  14.870  23.317  1.00 54.10           C  
+HETATM   19  C15 KL8 A 401     -17.200  13.563  22.849  1.00 49.46           C  
+HETATM   20  C16 KL8 A 401     -17.289  13.288  21.468  1.00 49.93           C  
+HETATM   21  C17 KL8 A 401     -17.227  11.815  21.008  1.00 42.71           C  
+HETATM   22  C20 KL8 A 401     -17.429  14.342  20.570  1.00 62.08           C  
+HETATM   23  C21 KL8 A 401     -17.482  15.665  21.046  1.00 62.50           C  
+HETATM   24  C22 KL8 A 401     -17.396  15.932  22.437  1.00 62.65           C  
+HETATM   25  O01 KL8 A 401     -14.916  12.353  24.315  1.00 28.02           O  
+HETATM   26  O18 KL8 A 401     -18.085  10.998  21.438  1.00 48.31           O1-
+HETATM   27  O19 KL8 A 401     -16.357  11.461  20.219  1.00 44.01           O  
+HETATM   28  O23 KL8 A 401     -17.067  12.476  23.795  1.00 34.57           O  
+HETATM   29  S05 KL8 A 401     -15.456  14.540  26.936  1.00 54.25           S  
+CONECT    8    6    9   25   28
+CONECT    9    8   17   29
+CONECT   10   11   29
+CONECT   11   10   12   16
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16   11   15
+CONECT   16   15
+CONECT   17    9   18
+CONECT   18   17   19   24
+CONECT   18   19
+CONECT   19   18   20   28
+CONECT   19   18
+CONECT   20   19   21   22
+CONECT   20   22
+CONECT   21   20   26   27
+CONECT   21   27
+CONECT   22   20   23
+CONECT   22   20
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   18   23
+CONECT   24   23
+CONECT   25    8
+CONECT   26   21
+CONECT   27   21
+CONECT   27   21
+CONECT   28    8   19
+CONECT   29    9   10
+ENDMDL
+END   

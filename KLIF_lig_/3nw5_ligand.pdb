@@ -1,0 +1,92 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3nw5_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N1  LGX A   0       0.134  15.191  45.675  1.00  0.00           N  
+HETATM    2  C2  LGX A   0      -0.242  16.530  45.744  1.00  0.00           C  
+HETATM    3  C3  LGX A   0      -1.228  16.674  46.766  1.00  0.00           C  
+HETATM    4  C4  LGX A   0      -1.405  15.382  47.278  1.00  0.00           C  
+HETATM    5  C5  LGX A   0      -0.566  14.495  46.600  1.00  0.00           C  
+HETATM    6  N6  LGX A   0       1.071  14.783  44.773  1.00  0.00           N  
+HETATM    7  C7  LGX A   0       1.670  15.649  43.914  1.00  0.00           C  
+HETATM    8  N8  LGX A   0       1.335  16.944  43.949  1.00  0.00           N  
+HETATM    9  C9  LGX A   0       0.403  17.395  44.836  1.00  0.00           C  
+HETATM   10  N10 LGX A   0       0.107  18.735  44.820  1.00  0.00           N  
+HETATM   11  C11 LGX A   0       0.659  19.756  43.889  1.00  0.00           C  
+HETATM   12  C12 LGX A   0       1.631  19.744  42.810  1.00  0.00           C  
+HETATM   13  C13 LGX A   0       1.759  21.062  42.257  1.00  0.00           C  
+HETATM   14  N14 LGX A   0       0.904  21.797  42.979  1.00  0.00           N  
+HETATM   15  N15 LGX A   0       0.285  21.035  43.906  1.00  0.00           N  
+HETATM   16  C16 LGX A   0       2.647  21.601  41.101  1.00  0.00           C  
+HETATM   17  C17 LGX A   0       3.594  20.472  40.961  1.00  0.00           C  
+HETATM   18  C18 LGX A   0       3.907  21.583  41.893  1.00  0.00           C  
+HETATM   19  C19 LGX A   0       2.700  15.222  42.916  1.00  0.00           C  
+HETATM   20  N20 LGX A   0       2.760  13.791  42.645  1.00  0.00           N  
+HETATM   21  C21 LGX A   0       4.114  13.258  42.856  1.00  0.00           C  
+HETATM   22  C22 LGX A   0       5.018  14.505  42.894  1.00  0.00           C  
+HETATM   23  C23 LGX A   0       4.115  15.682  43.258  1.00  0.00           C  
+HETATM   24  C24 LGX A   0       1.597  13.147  42.245  1.00  0.00           C  
+HETATM   25  O25 LGX A   0       0.633  13.833  41.889  1.00  0.00           O  
+HETATM   26  C26 LGX A   0       1.487  11.671  42.234  1.00  0.00           C  
+HETATM   27  C27 LGX A   0       0.631  11.083  41.290  1.00  0.00           C  
+HETATM   28  C28 LGX A   0       0.451   9.693  41.193  1.00  0.00           C  
+HETATM   29  C29 LGX A   0       1.179   8.915  42.097  1.00  0.00           C  
+HETATM   30  N30 LGX A   0       2.011   9.433  43.019  1.00  0.00           N  
+HETATM   31  C31 LGX A   0       2.167  10.781  43.093  1.00  0.00           C  
+HETATM   32  F32 LGX A   0       0.991   7.593  41.984  1.00  0.00           F  
+CONECT    1    2    5    6
+CONECT    2    1    3    9
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    1    4
+CONECT    5    4
+CONECT    6    1    7
+CONECT    6    7
+CONECT    7    6    8   19
+CONECT    7    6
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    2    8   10
+CONECT    9    8
+CONECT   10    9   11
+CONECT   11   10   12   15
+CONECT   11   15
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14   16
+CONECT   13   12
+CONECT   14   13   15
+CONECT   15   11   14
+CONECT   15   11
+CONECT   16   13   17   18
+CONECT   17   16   18
+CONECT   18   16   17
+CONECT   19    7   20   23
+CONECT   20   19   21   24
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   23   19   22
+CONECT   24   20   25   26
+CONECT   24   25
+CONECT   25   24
+CONECT   25   24
+CONECT   26   24   27   31
+CONECT   26   31
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   28   30   32
+CONECT   29   30
+CONECT   30   29   31
+CONECT   30   29
+CONECT   31   26   30
+CONECT   31   26
+CONECT   32   29
+ENDMDL
+END   

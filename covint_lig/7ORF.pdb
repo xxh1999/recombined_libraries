@@ -1,0 +1,130 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7ORF
+MODEL        1
+ATOM      1  N   CYS A 154      64.356  11.764  20.854  1.00 19.30           N1+
+ATOM      2  CA  CYS A 154      64.658  12.980  20.034  1.00 20.48           C  
+ATOM      3  C   CYS A 154      66.168  13.285  20.018  1.00 21.49           C  
+ATOM      4  O   CYS A 154      66.713  13.742  19.003  1.00 22.13           O  
+ATOM      5  CB  CYS A 154      63.792  14.161  20.484  1.00 20.73           C  
+ATOM      6  SG  CYS A 154      64.248  14.855  22.128  1.00 22.39           S  
+TER       7      CYS A 154
+HETATM    8  C   0G3 A 501      58.522   7.247  35.501  1.00 15.08           C  
+HETATM    9  O   0G3 A 501      65.411  15.965  24.788  1.00 23.56           O  
+HETATM   10  O1  0G3 A 501      68.326  15.502  30.107  1.00 23.51           O  
+HETATM   11  C14 0G3 A 501      68.092  15.194  28.944  1.00 24.41           C  
+HETATM   12  C15 0G3 A 501      68.423  16.129  27.823  1.00 24.58           C  
+HETATM   13  C23 0G3 A 501      67.560  16.346  26.749  1.00 23.42           C  
+HETATM   14  C19 0G3 A 501      67.906  17.249  25.743  1.00 26.18           C  
+HETATM   15  N3  0G3 A 501      67.157  17.433  24.552  1.00 24.95           N  
+HETATM   16  C20 0G3 A 501      66.022  16.807  24.138  1.00 23.48           C  
+HETATM   17  C21 0G3 A 501      65.560  17.240  22.770  1.00 22.49           C  
+HETATM   18  C22 0G3 A 501      65.560  16.090  21.776  1.00 22.26           C  
+HETATM   19  C18 0G3 A 501      69.096  17.969  25.844  1.00 26.63           C  
+HETATM   20  C17 0G3 A 501      69.942  17.762  26.920  1.00 28.03           C  
+HETATM   21  C16 0G3 A 501      69.615  16.844  27.900  1.00 25.81           C  
+HETATM   22  N2  0G3 A 501      67.311  14.143  28.641  1.00 20.09           N  
+HETATM   23  C13 0G3 A 501      67.085  12.979  29.402  1.00 17.42           C  
+HETATM   24  C12 0G3 A 501      65.958  12.272  29.019  1.00 16.14           C  
+HETATM   25  C11 0G3 A 501      65.490  11.229  29.797  1.00 15.19           C  
+HETATM   26  C24 0G3 A 501      67.837  12.529  30.481  1.00 17.30           C  
+HETATM   27  C25 0G3 A 501      67.415  11.432  31.213  1.00 16.52           C  
+HETATM   28  C10 0G3 A 501      66.222  10.788  30.889  1.00 15.31           C  
+HETATM   29  N1  0G3 A 501      65.763   9.735  31.706  1.00 14.63           N  
+HETATM   30  C9  0G3 A 501      64.509   9.237  31.953  1.00 14.09           C  
+HETATM   31  N   0G3 A 501      64.520   7.944  32.369  1.00 13.32           N  
+HETATM   32  C8  0G3 A 501      63.334   7.344  32.514  1.00 12.80           C  
+HETATM   33  C7  0G3 A 501      62.125   7.952  32.278  1.00 13.33           C  
+HETATM   34  C26 0G3 A 501      63.326   9.945  31.710  1.00 12.95           C  
+HETATM   35  C6  0G3 A 501      62.112   9.284  31.878  1.00 13.76           C  
+HETATM   36  C5  0G3 A 501      60.813   9.965  31.660  1.00 14.69           C  
+HETATM   37  N4  0G3 A 501      60.549  10.925  30.656  1.00 16.74           N  
+HETATM   38  C27 0G3 A 501      61.492  11.461  29.668  1.00 16.62           C  
+HETATM   39  C28 0G3 A 501      59.217  11.214  30.740  1.00 16.76           C  
+HETATM   40  S   0G3 A 501      58.443  12.382  29.683  1.00 22.74           S  
+HETATM   41  C29 0G3 A 501      57.557  11.256  28.616  1.00 23.56           C  
+HETATM   42  N5  0G3 A 501      58.611  10.539  31.669  1.00 15.62           N  
+HETATM   43  C4  0G3 A 501      59.591   9.754  32.265  1.00 14.90           C  
+HETATM   44  C3  0G3 A 501      59.222   8.866  33.385  1.00 14.72           C  
+HETATM   45  C2  0G3 A 501      58.060   8.101  33.335  1.00 14.69           C  
+HETATM   46  C1  0G3 A 501      57.702   7.279  34.391  1.00 14.91           C  
+HETATM   47  C30 0G3 A 501      60.020   8.804  34.534  1.00 14.65           C  
+HETATM   48  C31 0G3 A 501      59.660   7.999  35.606  1.00 14.54           C  
+HETATM   49  F   0G3 A 501      58.221   6.379  36.508  1.00 15.34           F  
+CONECT    8   46   48   49
+CONECT    8   48
+CONECT    9   16
+CONECT    9   16
+CONECT   10   11
+CONECT   10   11
+CONECT   11   10   12   22
+CONECT   11   10
+CONECT   12   11   13   21
+CONECT   12   21
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15   19
+CONECT   14   13
+CONECT   15   14   16
+CONECT   16    9   15   17
+CONECT   16    9
+CONECT   17   16   18
+CONECT   18    6   17
+CONECT   19   14   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   12   20
+CONECT   21   12
+CONECT   22   11   23
+CONECT   23   22   24   26
+CONECT   23   26
+CONECT   24   23   25
+CONECT   24   25
+CONECT   25   24   28
+CONECT   25   24
+CONECT   26   23   27
+CONECT   26   23
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   25   27   29
+CONECT   28   27
+CONECT   29   28   30
+CONECT   30   29   31   34
+CONECT   30   34
+CONECT   31   30   32
+CONECT   31   32
+CONECT   32   31   33
+CONECT   32   31
+CONECT   33   32   35
+CONECT   33   35
+CONECT   34   30   35
+CONECT   34   30
+CONECT   35   33   34   36
+CONECT   35   33
+CONECT   36   35   37   43
+CONECT   36   43
+CONECT   37   36   38   39
+CONECT   38   37
+CONECT   39   37   40   42
+CONECT   39   42
+CONECT   40   39   41
+CONECT   41   40
+CONECT   42   39   43
+CONECT   42   39
+CONECT   43   36   42   44
+CONECT   43   36
+CONECT   44   43   45   47
+CONECT   44   47
+CONECT   45   44   46
+CONECT   45   46
+CONECT   46    8   45
+CONECT   46   45
+CONECT   47   44   48
+CONECT   47   44
+CONECT   48    8   47
+CONECT   48    8
+CONECT   49    8
+ENDMDL
+END   

@@ -1,0 +1,76 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3c5u_ligand1
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C13 P41 A 361      -5.646   5.897  13.840  1.00  0.00           C  
+HETATM    2  C18 P41 A 361      -6.980  10.243  10.334  1.00  0.00           C  
+HETATM    3  C17 P41 A 361      -9.067   8.668  10.665  1.00  0.00           C  
+HETATM    4  C16 P41 A 361      -6.771   7.838  12.790  1.00  0.00           C  
+HETATM    5  C15 P41 A 361      -4.019   2.601  14.593  1.00  0.00           C  
+HETATM    6  C19 P41 A 361      -7.923   9.509  11.263  1.00  0.00           C  
+HETATM    7  C11 P41 A 361      -5.915   5.812  12.458  1.00  0.00           C  
+HETATM    8  C12 P41 A 361      -1.276   1.806  12.891  1.00  0.00           C  
+HETATM    9  C1  P41 A 361      -2.022  -0.529  11.655  1.00  0.00           C  
+HETATM   10  C2  P41 A 361      -0.905   0.186  11.227  1.00  0.00           C  
+HETATM   11  C3  P41 A 361      -2.788  -0.077  12.706  1.00  0.00           C  
+HETATM   12  C4  P41 A 361      -4.896   3.595  12.518  1.00  0.00           C  
+HETATM   13  C5  P41 A 361      -5.551   4.624  11.782  1.00  0.00           C  
+HETATM   14  C6  P41 A 361      -0.527   1.350  11.834  1.00  0.00           C  
+HETATM   15  C7  P41 A 361      -5.033   4.872  14.573  1.00  0.00           C  
+HETATM   16  C8  P41 A 361      -3.821   1.388  16.433  1.00  0.00           C  
+HETATM   17  C9  P41 A 361      -4.616   3.717  13.883  1.00  0.00           C  
+HETATM   18  C10 P41 A 361      -2.417   1.112  13.307  1.00  0.00           C  
+HETATM   19  C14 P41 A 361      -3.177   1.527  14.427  1.00  0.00           C  
+HETATM   20  N20 P41 A 361      -3.047   0.777  15.600  1.00  0.00           N  
+HETATM   21  N21 P41 A 361      -6.555   6.918  11.884  1.00  0.00           N  
+HETATM   22  N22 P41 A 361      -7.347   9.025  12.523  1.00  0.00           N  
+HETATM   23  O23 P41 A 361      -4.440   2.480  15.903  1.00  0.00           O  
+HETATM   24  F24 P41 A 361      -0.890   2.959  13.483  1.00  0.00           F  
+HETATM   25  S25 P41 A 361      -6.211   7.428  14.391  1.00  0.00           S  
+CONECT    1    7   15   25
+CONECT    1    7
+CONECT    2    6
+CONECT    3    6
+CONECT    4   21   22   25
+CONECT    4   21
+CONECT    5   17   19   23
+CONECT    5   19
+CONECT    6    2    3   22
+CONECT    7    1   13   21
+CONECT    7    1
+CONECT    8   14   18   24
+CONECT    8   18
+CONECT    9   10   11
+CONECT    9   11
+CONECT   10    9   14
+CONECT   10   14
+CONECT   11    9   18
+CONECT   11    9
+CONECT   12   13   17
+CONECT   12   13
+CONECT   13    7   12
+CONECT   13   12
+CONECT   14    8   10
+CONECT   14   10
+CONECT   15    1   17
+CONECT   15   17
+CONECT   16   20   23
+CONECT   16   20
+CONECT   17    5   12   15
+CONECT   17   15
+CONECT   18    8   11   19
+CONECT   18    8
+CONECT   19    5   18   20
+CONECT   19    5
+CONECT   20   16   19
+CONECT   20   16
+CONECT   21    4    7
+CONECT   21    4
+CONECT   22    4    6
+CONECT   23    5   16
+CONECT   24    8
+CONECT   25    1    4
+ENDMDL
+END   

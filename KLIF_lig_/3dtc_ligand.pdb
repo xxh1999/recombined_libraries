@@ -1,0 +1,94 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3dtc_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  VIN A6331       1.244  16.694  40.663  1.00  0.00           C  
+HETATM    2  C2  VIN A6331       1.498  18.033  40.413  1.00  0.00           C  
+HETATM    3  C3  VIN A6331       0.574  16.271  41.847  1.00  0.00           C  
+HETATM    4  N1  VIN A6331       1.755  16.012  39.576  1.00  0.00           N  
+HETATM    5  C4  VIN A6331       1.075  18.976  41.352  1.00  0.00           C  
+HETATM    6  C5  VIN A6331       2.176  18.143  39.169  1.00  0.00           C  
+HETATM    7  C6  VIN A6331       0.120  17.224  42.827  1.00  0.00           C  
+HETATM    8  C7  VIN A6331       0.303  14.815  42.143  1.00  0.00           C  
+HETATM    9  C8  VIN A6331       2.323  16.863  38.670  1.00  0.00           C  
+HETATM   10  C9  VIN A6331       1.726  14.578  39.345  1.00  0.00           C  
+HETATM   11  C10 VIN A6331       0.403  18.578  42.520  1.00  0.00           C  
+HETATM   12  C11 VIN A6331       1.232  20.457  41.298  1.00  0.00           C  
+HETATM   13  C12 VIN A6331       2.674  19.223  38.424  1.00  0.00           C  
+HETATM   14  C13 VIN A6331      -0.570  16.723  43.983  1.00  0.00           C  
+HETATM   15  C14 VIN A6331       0.545  14.520  43.617  1.00  0.00           C  
+HETATM   16  C15 VIN A6331       2.951  16.605  37.453  1.00  0.00           C  
+HETATM   17  C16 VIN A6331       0.312  14.066  39.005  1.00  0.00           C  
+HETATM   18  C17 VIN A6331       0.114  19.854  43.249  1.00  0.00           C  
+HETATM   19  N2  VIN A6331       0.612  20.885  42.500  1.00  0.00           N  
+HETATM   20  C18 VIN A6331       3.301  18.975  37.214  1.00  0.00           C  
+HETATM   21  C19 VIN A6331      -0.386  15.387  44.401  1.00  0.00           C  
+HETATM   22  C20 VIN A6331      -1.472  17.466  44.758  1.00  0.00           C  
+HETATM   23  C21 VIN A6331       3.439  17.682  36.734  1.00  0.00           C  
+HETATM   24  O1  VIN A6331      -0.588  15.154  38.755  1.00  0.00           O  
+HETATM   25  O2  VIN A6331      -0.449  20.036  44.308  1.00  0.00           O  
+HETATM   26  C22 VIN A6331      -1.059  14.849  45.520  1.00  0.00           C  
+HETATM   27  C23 VIN A6331      -2.148  16.945  45.870  1.00  0.00           C  
+HETATM   28  C24 VIN A6331      -1.945  15.634  46.256  1.00  0.00           C  
+HETATM   29  O3  VIN A6331      -2.533  15.012  47.297  1.00  0.00           O  
+HETATM   30  C25 VIN A6331      -3.477  15.753  48.073  1.00  0.00           C  
+HETATM   31  C26 VIN A6331      -2.711  16.354  49.262  1.00  0.00           C  
+HETATM   32  C27 VIN A6331      -4.588  14.826  48.565  1.00  0.00           C  
+CONECT    1    2    3    4
+CONECT    1    2
+CONECT    2    1    5    6
+CONECT    2    1
+CONECT    3    1    7    8
+CONECT    3    7
+CONECT    4    1    9   10
+CONECT    5    2   11   12
+CONECT    5   11
+CONECT    6    2    9   13
+CONECT    6    9
+CONECT    7    3   11   14
+CONECT    7    3
+CONECT    8    3   15
+CONECT    9    4    6   16
+CONECT    9    6
+CONECT   10    4   17
+CONECT   11    5    7   18
+CONECT   11    5
+CONECT   12    5   19
+CONECT   12   19
+CONECT   13    6   20
+CONECT   13   20
+CONECT   14    7   21   22
+CONECT   14   21
+CONECT   15    8   21
+CONECT   16    9   23
+CONECT   16   23
+CONECT   17   10   24
+CONECT   18   11   19   25
+CONECT   18   25
+CONECT   19   12   18
+CONECT   19   12
+CONECT   20   13   23
+CONECT   20   13
+CONECT   21   14   15   26
+CONECT   21   14
+CONECT   22   14   27
+CONECT   22   27
+CONECT   23   16   20
+CONECT   23   16
+CONECT   24   17
+CONECT   25   18
+CONECT   25   18
+CONECT   26   21   28
+CONECT   26   28
+CONECT   27   22   28
+CONECT   27   22
+CONECT   28   26   27   29
+CONECT   28   26
+CONECT   29   28   30
+CONECT   30   29   31   32
+CONECT   31   30
+CONECT   32   30
+ENDMDL
+END   

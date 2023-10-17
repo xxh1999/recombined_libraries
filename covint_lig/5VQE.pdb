@@ -1,0 +1,38 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5VQE
+MODEL        1
+ATOM      1  N   ASP A 288      40.000  61.318  65.581  1.00 11.08           N1+
+ATOM      2  CA  ASP A 288      40.434  62.352  64.638  1.00 13.19           C  
+ATOM      3  C   ASP A 288      39.440  63.538  64.723  1.00 10.96           C  
+ATOM      4  O   ASP A 288      38.351  63.393  65.283  1.00 12.92           O  
+ATOM      5  CB  ASP A 288      40.461  61.708  63.229  1.00 13.01           C  
+ATOM      6  CG  ASP A 288      40.975  62.611  62.107  1.00 18.89           C  
+ATOM      7  OD1 ASP A 288      42.015  63.393  62.500  1.00 14.16           O  
+ATOM      8  OD2 ASP A 288      40.448  62.592  60.995  1.00 18.36           O1-
+TER       9      ASP A 288
+HETATM   10  C1  G2F A 601      42.325  64.486  61.682  1.00 13.43           C  
+HETATM   11  C2  G2F A 601      43.439  64.142  60.678  1.00 16.96           C  
+HETATM   12  C3  G2F A 601      44.741  63.843  61.427  1.00 11.41           C  
+HETATM   13  C4  G2F A 601      45.095  64.988  62.398  1.00 13.57           C  
+HETATM   14  C5  G2F A 601      43.870  65.426  63.237  1.00 12.95           C  
+HETATM   15  C6  G2F A 601      44.071  66.712  64.061  1.00 13.96           C  
+HETATM   16  O3  G2F A 601      45.752  63.745  60.449  1.00 11.73           O  
+HETATM   17  O4  G2F A 601      46.073  64.511  63.301  1.00  9.24           O  
+HETATM   18  O5  G2F A 601      42.713  65.604  62.423  1.00 12.31           O  
+HETATM   19  O6  G2F A 601      44.584  67.778  63.287  1.00 14.50           O  
+HETATM   20  F2  G2F A 601      43.056  63.102  59.936  1.00 13.36           F  
+CONECT   10    7   11   18
+CONECT   11   10   12   20
+CONECT   12   11   13   16
+CONECT   13   12   14   17
+CONECT   14   13   15   18
+CONECT   15   14   19
+CONECT   16   12
+CONECT   17   13
+CONECT   18   10   14
+CONECT   19   15
+CONECT   20   11
+ENDMDL
+END   

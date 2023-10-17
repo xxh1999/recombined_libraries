@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6ZAM
+MODEL        1
+ATOM      1  N   HIS A 270       4.191  45.405  -1.646  1.00 14.26           N1+
+ATOM      2  CA  HIS A 270       3.136  44.531  -1.169  1.00 14.17           C  
+ATOM      3  C   HIS A 270       3.145  44.502   0.344  1.00 13.34           C  
+ATOM      4  O   HIS A 270       4.086  44.958   0.997  1.00 14.63           O  
+ATOM      5  CB  HIS A 270       3.275  43.113  -1.760  1.00 14.86           C  
+ATOM      6  CG  HIS A 270       4.602  42.474  -1.505  1.00 13.14           C  
+ATOM      7  ND1 HIS A 270       5.744  42.850  -2.171  1.00 13.44           N  
+ATOM      8  CD2 HIS A 270       4.970  41.490  -0.653  1.00 15.19           C  
+ATOM      9  CE1 HIS A 270       6.764  42.125  -1.739  1.00 15.36           C  
+ATOM     10  NE2 HIS A 270       6.320  41.289  -0.816  1.00 16.48           N  
+TER      11      HIS A 270
+HETATM   12  C1  ACV A 405      17.029  35.976   5.504  1.00 18.13           C  
+HETATM   13  C2  ACV A 405      15.632  36.215   6.065  1.00 14.67           C  
+HETATM   14  C3  ACV A 405      15.039  37.428   5.382  1.00 16.99           C  
+HETATM   15  C4  ACV A 405      13.622  37.761   5.869  1.00 19.75           C  
+HETATM   16  C7  ACV A 405      13.093  39.049   5.244  1.00 21.80           C  
+HETATM   17  C10 ACV A 405      11.675  39.336   5.624  1.00 21.89           C  
+HETATM   18  N11 ACV A 405      10.760  38.975   4.729  1.00 19.89           N  
+HETATM   19  C12 ACV A 405       9.353  39.285   4.871  1.00 15.77           C  
+HETATM   20  C13 ACV A 405       8.569  37.983   4.753  1.00 20.25           C  
+HETATM   21  N14 ACV A 405      15.614  36.351   7.487  1.00 20.79           N1+
+HETATM   22  O15 ACV A 405      11.386  39.874   6.691  1.00 24.32           O  
+HETATM   23  C16 ACV A 405       8.904  40.220   3.761  1.00 21.73           C  
+HETATM   24  S17 ACV A 405       9.298  39.600   2.109  1.00 18.74           S1-
+HETATM   25  O18 ACV A 405       9.153  36.898   4.732  1.00 22.84           O  
+HETATM   26  O19 ACV A 405      17.970  36.098   6.388  1.00 19.85           O1-
+HETATM   27  O20 ACV A 405      17.211  35.709   4.332  1.00 19.41           O  
+HETATM   28  N29 ACV A 405       7.241  38.096   4.682  1.00 20.45           N  
+HETATM   29  C30 ACV A 405       6.393  36.936   4.470  1.00 23.71           C  
+HETATM   30  C31 ACV A 405       5.181  37.028   5.384  1.00 19.23           C  
+HETATM   31  C32 ACV A 405       5.986  36.780   2.991  1.00 28.00           C  
+HETATM   32  C33 ACV A 405       7.180  36.399   2.122  1.00 26.80           C  
+HETATM   33  C37 ACV A 405       5.340  38.058   2.467  1.00 29.44           C  
+HETATM   34  O42 ACV A 405       5.111  37.855   6.291  1.00 22.03           O  
+HETATM   35  O43 ACV A 405       4.262  36.126   5.131  1.00 25.93           O1-
+CONECT   12   13   26   27
+CONECT   12   27
+CONECT   13   12   14   21
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16   18   22
+CONECT   17   22
+CONECT   18   17   19
+CONECT   19   18   20   23
+CONECT   20   19   25   28
+CONECT   20   25
+CONECT   21   13
+CONECT   22   17
+CONECT   22   17
+CONECT   23   19   24
+CONECT   24   23
+CONECT   25   20
+CONECT   25   20
+CONECT   26   12
+CONECT   27   12
+CONECT   27   12
+CONECT   28   20   29
+CONECT   29   28   30   31
+CONECT   30   29   34   35
+CONECT   30   34
+CONECT   31   29   32   33
+CONECT   32   31
+CONECT   33   31
+CONECT   34   30
+CONECT   34   30
+CONECT   35   30
+ENDMDL
+END   

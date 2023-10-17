@@ -1,0 +1,77 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7AZ1
+MODEL        1
+ATOM      1  N   LYS A 122      15.475  24.627  -8.073  1.00 10.48           N1+
+ATOM      2  CA  LYS A 122      16.438  23.575  -8.380  1.00 10.80           C  
+ATOM      3  C   LYS A 122      15.781  22.204  -8.267  1.00 10.18           C  
+ATOM      4  O   LYS A 122      15.959  21.343  -9.134  1.00 10.54           O  
+ATOM      5  CB  LYS A 122      17.646  23.680  -7.443  1.00 11.87           C  
+ATOM      6  CG  LYS A 122      18.693  22.581  -7.628  1.00 12.31           C  
+ATOM      7  CD  LYS A 122      19.758  22.642  -6.528  1.00 13.17           C  
+ATOM      8  CE  LYS A 122      20.712  21.438  -6.525  1.00 14.88           C  
+ATOM      9  NZ  LYS A 122      21.765  21.627  -5.488  1.00 16.31           N1+
+TER      10      LYS A 122
+HETATM   11  C01 SGH A 301      21.380  20.919  -4.311  1.00 16.48           C  
+HETATM   12  C02 SGH A 301      22.229  21.165  -3.075  1.00 18.72           C  
+HETATM   13  C03 SGH A 301      23.484  21.738  -3.225  1.00 19.31           C  
+HETATM   14  C04 SGH A 301      24.273  21.974  -2.115  1.00 20.97           C  
+HETATM   15  C05 SGH A 301      23.810  21.643  -0.855  1.00 22.65           C  
+HETATM   16  C07 SGH A 301      24.486  22.735   1.310  1.00 29.23           C  
+HETATM   17  C08 SGH A 301      23.237  23.553   1.623  1.00 32.32           C  
+HETATM   18  C09 SGH A 301      22.805  23.635   2.936  1.00 35.37           C  
+HETATM   19  C10 SGH A 301      21.678  24.377   3.243  1.00 37.70           C  
+HETATM   20  C11 SGH A 301      20.986  25.038   2.240  1.00 38.26           C  
+HETATM   21  C12 SGH A 301      21.420  24.958   0.926  1.00 36.61           C  
+HETATM   22  C13 SGH A 301      22.549  24.218   0.618  1.00 33.43           C  
+HETATM   23  C15 SGH A 301      26.466  21.903   1.522  1.00 27.24           C  
+HETATM   24  C16 SGH A 301      25.906  21.422   0.374  1.00 26.68           C  
+HETATM   25  C17 SGH A 301      22.550  21.072  -0.702  1.00 21.24           C  
+HETATM   26  C18 SGH A 301      21.751  20.829  -1.819  1.00 18.30           C  
+HETATM   27  C19 SGH A 301      20.358  20.209  -1.655  1.00 21.32           C  
+HETATM   28  F20 SGH A 301      19.404  21.050  -2.143  1.00 22.86           F  
+HETATM   29  F21 SGH A 301      20.098  20.004  -0.335  1.00 24.63           F  
+HETATM   30  F22 SGH A 301      20.234  19.019  -2.303  1.00 23.96           F  
+HETATM   31  N06 SGH A 301      24.700  21.922   0.263  1.00 26.23           N  
+HETATM   32  N14 SGH A 301      25.585  22.707   2.086  1.00 28.49           N  
+CONECT   11    9   12
+CONECT   12   11   13   26
+CONECT   12   26
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   25   31
+CONECT   15   25
+CONECT   16   17   31   32
+CONECT   16   32
+CONECT   17   16   18   22
+CONECT   17   22
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   17   21
+CONECT   22   17
+CONECT   23   24   32
+CONECT   23   24
+CONECT   24   23   31
+CONECT   24   23
+CONECT   25   15   26
+CONECT   25   15
+CONECT   26   12   25   27
+CONECT   26   12
+CONECT   27   26   28   29   30
+CONECT   28   27
+CONECT   29   27
+CONECT   30   27
+CONECT   31   15   16   24
+CONECT   32   16   23
+CONECT   32   16
+ENDMDL
+END   

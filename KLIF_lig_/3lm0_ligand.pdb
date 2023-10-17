@@ -1,0 +1,80 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3lm0_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  N1  EBD A   0      -1.874  14.204  44.004  1.00  0.00           N  
+HETATM    2  C2  EBD A   0      -1.264  15.000  43.093  1.00  0.00           C  
+HETATM    3  N3  EBD A   0      -1.034  16.290  43.419  1.00  0.00           N  
+HETATM    4  C4  EBD A   0      -1.421  16.820  44.620  1.00  0.00           C  
+HETATM    5  C5  EBD A   0      -2.068  15.966  45.554  1.00  0.00           C  
+HETATM    6  C6  EBD A   0      -2.263  14.624  45.204  1.00  0.00           C  
+HETATM    7  NAG EBD A   0      -1.160  18.109  44.887  1.00  0.00           N  
+HETATM    8  CAH EBD A   0      -0.498  18.972  44.041  1.00  0.00           C  
+HETATM    9  NAI EBD A   0      -0.912  14.435  41.898  1.00  0.00           N  
+HETATM   10  CAJ EBD A   0      -0.120  14.916  40.919  1.00  0.00           C  
+HETATM   11  CAK EBD A   0      -0.554  14.781  39.590  1.00  0.00           C  
+HETATM   12  CAL EBD A   0       0.202  15.223  38.486  1.00  0.00           C  
+HETATM   13  CAM EBD A   0       1.438  15.845  38.725  1.00  0.00           C  
+HETATM   14  CAN EBD A   0       1.886  15.951  40.054  1.00  0.00           C  
+HETATM   15  CAO EBD A   0       1.131  15.493  41.143  1.00  0.00           C  
+HETATM   16  NAP EBD A   0      -0.576  20.291  44.236  1.00  0.00           N  
+HETATM   17  NAQ EBD A   0       0.064  20.941  43.384  1.00  0.00           N  
+HETATM   18  CAR EBD A   0       0.631  20.060  42.557  1.00  0.00           C  
+HETATM   19  CAS EBD A   0       0.308  18.781  42.956  1.00  0.00           C  
+HETATM   20  CAT EBD A   0       1.517  20.521  41.375  1.00  0.00           C  
+HETATM   21  CAU EBD A   0       1.331  19.884  39.986  1.00  0.00           C  
+HETATM   22  CAV EBD A   0       2.313  16.327  37.530  1.00  0.00           C  
+HETATM   23  CAW EBD A   0       2.477  19.430  40.860  1.00  0.00           C  
+HETATM   24  CAX EBD A   0      -2.546  16.382  46.946  1.00  0.00           C  
+HETATM   25  CAY EBD A   0       2.927  17.642  37.715  1.00  0.00           C  
+HETATM   26  NAZ EBD A   0       3.363  18.696  37.850  1.00  0.00           N  
+CONECT    1    2    6
+CONECT    1    6
+CONECT    2    1    3    9
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3    5    7
+CONECT    4    5
+CONECT    5    4    6   24
+CONECT    5    4
+CONECT    6    1    5
+CONECT    6    1
+CONECT    7    4    8
+CONECT    8    7   16   19
+CONECT    8   16
+CONECT    9    2   10
+CONECT   10    9   11   15
+CONECT   10   15
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   14   22
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   10   14
+CONECT   15   10
+CONECT   16    8   17
+CONECT   16    8
+CONECT   17   16   18
+CONECT   18   17   19   20
+CONECT   18   19
+CONECT   19    8   18
+CONECT   19   18
+CONECT   20   18   21   23
+CONECT   21   20   23
+CONECT   22   13   25
+CONECT   23   20   21
+CONECT   24    5
+CONECT   25   22   26
+CONECT   25   26
+CONECT   25   26
+CONECT   26   25
+CONECT   26   25
+CONECT   26   25
+ENDMDL
+END   

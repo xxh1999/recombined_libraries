@@ -1,0 +1,83 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5D6E
+MODEL        1
+ATOM      1  N   GLU A 364      28.122  29.536  18.975  1.00 20.15           N1+
+ATOM      2  CA  GLU A 364      27.017  29.167  19.840  1.00 19.98           C  
+ATOM      3  C   GLU A 364      27.392  29.270  21.303  1.00 17.50           C  
+ATOM      4  O   GLU A 364      28.495  28.886  21.691  1.00 23.75           O  
+ATOM      5  CB  GLU A 364      26.364  27.844  19.433  1.00 32.84           C  
+ATOM      6  CG  GLU A 364      27.168  26.521  19.516  1.00 29.82           C  
+ATOM      7  CD  GLU A 364      26.212  25.324  19.405  1.00 27.39           C  
+ATOM      8  OE1 GLU A 364      25.086  25.404  19.885  1.00 31.29           O  
+ATOM      9  OE2 GLU A 364      26.678  24.238  18.743  1.00 29.15           O  
+TER      10      GLU A 364
+HETATM   11  O3  94A A 501      30.749  21.125  22.594  1.00 32.16           O  
+HETATM   12  C9  94A A 501      29.959  20.232  22.284  1.00 34.59           C  
+HETATM   13  N2  94A A 501      29.885  18.965  22.836  1.00 37.71           N  
+HETATM   14  C10 94A A 501      30.788  18.465  23.866  1.00 40.83           C  
+HETATM   15  C11 94A A 501      31.781  17.472  23.250  1.00 61.82           C  
+HETATM   16  C12 94A A 501      29.978  17.833  25.008  1.00 46.12           C  
+HETATM   17  O2  94A A 501      29.019  20.329  21.332  1.00 32.55           O  
+HETATM   18  C1  94A A 501      28.861  21.526  20.583  1.00 28.89           C  
+HETATM   19  C3  94A A 501      28.640  21.195  19.143  1.00 27.28           C  
+HETATM   20  N5  94A A 501      29.602  20.717  18.262  1.00 30.55           N  
+HETATM   21  N6  94A A 501      29.043  20.501  17.112  1.00 30.77           N  
+HETATM   22  N1  94A A 501      27.727  20.819  17.228  1.00 28.87           N  
+HETATM   23  C2  94A A 501      27.453  21.288  18.499  1.00 28.43           C  
+HETATM   24  C5  94A A 501      26.177  21.783  19.082  1.00 27.51           C  
+HETATM   25  C8  94A A 501      25.770  23.152  18.513  1.00 30.07           C  
+HETATM   26  O1  94A A 501      25.102  20.954  18.718  1.00 30.35           O  
+HETATM   27  C7  94A A 501      26.277  21.781  20.631  1.00 29.34           C  
+HETATM   28  C6  94A A 501      27.643  22.298  21.152  1.00 28.76           C  
+HETATM   29  C4  94A A 501      26.860  20.661  16.074  1.00 31.62           C  
+HETATM   30  C19 94A A 501      26.215  19.287  15.948  1.00 27.28           C  
+HETATM   31  C20 94A A 501      26.939  18.104  16.212  1.00 28.85           C  
+HETATM   32  C21 94A A 501      26.336  16.843  16.039  1.00 26.09           C  
+HETATM   33  C22 94A A 501      24.994  16.742  15.596  1.00 25.51           C  
+HETATM   34  O25 94A A 501      24.338  15.551  15.373  1.00 24.77           O  
+HETATM   35  C25 94A A 501      25.071  14.352  15.564  1.00 23.21           C  
+HETATM   36  C23 94A A 501      24.273  17.926  15.349  1.00 26.65           C  
+HETATM   37  C24 94A A 501      24.881  19.185  15.505  1.00 27.06           C  
+CONECT   11   12
+CONECT   11   12
+CONECT   12   11   13   17
+CONECT   12   11
+CONECT   13   12   14
+CONECT   14   13   15   16
+CONECT   15   14
+CONECT   16   14
+CONECT   17   12   18
+CONECT   18   17   19   28
+CONECT   19   18   20   23
+CONECT   19   23
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   21   23   29
+CONECT   23   19   22   24
+CONECT   23   19
+CONECT   24   23   25   26   27
+CONECT   25    9   24
+CONECT   26   24
+CONECT   27   24   28
+CONECT   28   18   27
+CONECT   29   22   30
+CONECT   30   29   31   37
+CONECT   30   31
+CONECT   31   30   32
+CONECT   31   30
+CONECT   32   31   33
+CONECT   32   33
+CONECT   33   32   34   36
+CONECT   33   32
+CONECT   34   33   35
+CONECT   35   34
+CONECT   36   33   37
+CONECT   36   37
+CONECT   37   30   36
+CONECT   37   36
+ENDMDL
+END   

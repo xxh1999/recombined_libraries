@@ -1,0 +1,51 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2B2K
+MODEL        1
+ATOM      1  N   GLU A 116       4.380  13.865  10.977  1.00 17.99           N1+
+ATOM      2  CA  GLU A 116       3.639  12.807  11.637  1.00 23.66           C  
+ATOM      3  C   GLU A 116       2.712  13.352  12.724  1.00 30.27           C  
+ATOM      4  O   GLU A 116       3.022  14.286  13.450  1.00 26.37           O  
+ATOM      5  CB  GLU A 116       4.543  11.738  12.268  1.00 21.20           C  
+ATOM      6  CG  GLU A 116       5.721  11.201  11.522  1.00 30.93           C  
+ATOM      7  CD  GLU A 116       6.588  10.078  12.014  1.00 26.15           C  
+ATOM      8  OE1 GLU A 116       7.265  10.004  13.072  1.00 36.14           O  
+ATOM      9  OE2 GLU A 116       6.670   9.093  11.213  1.00 24.30           O1-
+TER      10      GLU A 116
+HETATM   11  O1  EIP A 401      10.680   1.818  12.324  1.00 22.86           O  
+HETATM   12  O2  EIP A 401      11.016   2.622  10.182  1.00 25.54           O  
+HETATM   13  O3  EIP A 401       8.850   1.926  10.785  1.00 24.73           O  
+HETATM   14  P4  EIP A 401      10.120   2.640  11.194  1.00 27.27           P  
+HETATM   15  O5  EIP A 401       9.770   4.031  11.693  1.00 21.69           O  
+HETATM   16  O6  EIP A 401      11.319   5.893  11.684  1.00 25.72           O  
+HETATM   17  O7  EIP A 401      11.515   4.210  13.338  1.00 21.42           O  
+HETATM   18  P8  EIP A 401      10.622   5.045  12.457  1.00 28.59           P  
+HETATM   19  O9  EIP A 401       9.658   5.744  13.421  1.00 22.70           O  
+HETATM   20  C10 EIP A 401       8.788   6.696  12.794  1.00 26.27           C  
+HETATM   21  C11 EIP A 401       7.950   7.584  13.707  1.00 30.16           C  
+HETATM   22  C12 EIP A 401       8.407   9.080  13.708  1.00 39.11           C  
+HETATM   23  C13 EIP A 401       9.935   9.030  13.373  1.00 30.69           C  
+HETATM   24  C14 EIP A 401       8.468   9.486  15.227  1.00 21.83           C  
+HETATM   25  O15 EIP A 401      10.118   9.109  11.967  1.00 52.72           O  
+CONECT   11   14
+CONECT   12   14
+CONECT   13   14
+CONECT   13   14
+CONECT   14   11   12   13   15
+CONECT   14   13
+CONECT   15   14   18
+CONECT   16   18
+CONECT   17   18
+CONECT   17   18
+CONECT   18   15   16   17   19
+CONECT   18   17
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22    8   21   23   24
+CONECT   23   22   25
+CONECT   24   22
+CONECT   25   23
+ENDMDL
+END   

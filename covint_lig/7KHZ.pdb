@@ -1,0 +1,62 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7KHZ
+MODEL        1
+ATOM      1  N   SER A  70      -2.180  15.482 -14.879  1.00 18.17           N1+
+ATOM      2  CA  SER A  70      -1.779  15.065 -13.539  1.00 17.16           C  
+ATOM      3  C   SER A  70      -1.305  13.614 -13.467  1.00 15.43           C  
+ATOM      4  O   SER A  70      -0.781  13.216 -12.422  1.00 13.96           O  
+ATOM      5  CB  SER A  70      -2.914  15.313 -12.531  1.00 20.14           C  
+ATOM      6  OG  SER A  70      -3.444  16.638 -12.621  1.00 22.97           O  
+TER       7      SER A  70
+HETATM    8  C7  IM2 A 301      -4.472  17.196 -13.517  1.00 24.14           C  
+HETATM    9  C2  IM2 A 301      -8.201  17.952 -11.112  1.00 43.89           C  
+HETATM   10  C6  IM2 A 301      -5.287  18.345 -12.966  1.00 33.61           C  
+HETATM   11  C5  IM2 A 301      -5.821  18.014 -11.556  1.00 35.84           C  
+HETATM   12  C3  IM2 A 301      -7.736  16.669 -11.319  1.00 44.31           C  
+HETATM   13  O7  IM2 A 301      -4.831  16.583 -14.468  1.00 26.36           O  
+HETATM   14  C61 IM2 A 301      -4.647  19.729 -13.112  1.00 33.55           C  
+HETATM   15  O62 IM2 A 301      -5.506  20.551 -13.903  1.00 54.09           O  
+HETATM   16  C62 IM2 A 301      -3.270  19.674 -13.735  1.00 28.94           C  
+HETATM   17  N4  IM2 A 301      -6.388  16.675 -11.566  1.00 32.13           N  
+HETATM   18  C31 IM2 A 301      -8.488  15.412 -11.366  1.00 41.65           C  
+HETATM   19  O31 IM2 A 301      -7.845  14.384 -11.850  1.00 41.66           O  
+HETATM   20  O32 IM2 A 301      -9.641  15.356 -10.966  1.00 49.00           O1-
+HETATM   21  S21 IM2 A 301      -9.836  18.523 -10.861  1.00 67.33           S  
+HETATM   22  C22 IM2 A 301      -9.701  19.726  -9.507  1.00 52.82           C  
+HETATM   23  C23 IM2 A 301     -10.817  19.350  -8.551  1.00 51.99           C  
+HETATM   24  N24 IM2 A 301     -10.815  17.923  -8.252  1.00 72.00           N  
+HETATM   25  C25 IM2 A 301     -11.891  17.130  -8.454  1.00 72.39           C  
+HETATM   26  N26 IM2 A 301     -11.818  15.861  -8.163  1.00 65.02           N1+
+HETATM   27  C1  IM2 A 301      -7.024  18.881 -11.192  1.00 36.52           C  
+CONECT    8    6   10   13
+CONECT    8   13
+CONECT    9   12   21   27
+CONECT    9   12
+CONECT   10    8   11   14
+CONECT   11   10   17   27
+CONECT   12    9   17   18
+CONECT   12    9
+CONECT   13    8
+CONECT   13    8
+CONECT   14   10   15   16
+CONECT   15   14
+CONECT   16   14
+CONECT   17   11   12
+CONECT   18   12   19   20
+CONECT   18   19
+CONECT   19   18
+CONECT   19   18
+CONECT   20   18
+CONECT   21    9   22
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   25
+CONECT   26   25
+CONECT   27    9   11
+ENDMDL
+END   

@@ -1,0 +1,78 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6P0N
+MODEL        1
+ATOM      1  N   TYR B  82      19.013  -2.770  13.383  1.00 11.27           N1+
+ATOM      2  CA  TYR B  82      19.355  -1.363  13.600  1.00 13.43           C  
+ATOM      3  C   TYR B  82      18.102  -0.487  13.724  1.00 12.78           C  
+ATOM      4  O   TYR B  82      18.041   0.342  14.630  1.00 12.72           O  
+ATOM      5  CB  TYR B  82      20.241  -0.823  12.458  1.00 14.87           C  
+ATOM      6  CG  TYR B  82      21.658  -1.368  12.400  1.00 17.55           C  
+ATOM      7  CD1 TYR B  82      22.194  -1.816  11.174  1.00 19.50           C  
+ATOM      8  CD2 TYR B  82      22.460  -1.404  13.562  1.00 19.19           C  
+ATOM      9  CE1 TYR B  82      23.505  -2.322  11.119  1.00 20.79           C  
+ATOM     10  CE2 TYR B  82      23.765  -1.928  13.509  1.00 20.22           C  
+ATOM     11  CZ  TYR B  82      24.291  -2.391  12.287  1.00 21.73           C  
+ATOM     12  OH  TYR B  82      25.555  -2.915  12.226  1.00 24.69           O  
+TER      13      TYR B  82
+HETATM   14  N12 NLS B 504      23.756   0.890   6.701  1.00 16.47           N1-
+HETATM   15  C13 NLS B 504      22.530   0.863   7.238  1.00 16.29           C  
+HETATM   16  C15 NLS B 504      20.142   0.548   6.930  1.00 17.50           C  
+HETATM   17  C17 NLS B 504      21.107   1.037   9.084  1.00 17.15           C  
+HETATM   18  C20 NLS B 504      25.248   1.156   9.954  1.00 18.10           C  
+HETATM   19  C21 NLS B 504      25.682   0.393  11.048  1.00 19.58           C  
+HETATM   20  C05 NLS B 504      26.378  -0.811  10.820  1.00 21.53           C  
+HETATM   21  C06 NLS B 504      26.653  -1.251   9.508  1.00 20.19           C  
+HETATM   22  C07 NLS B 504      26.234  -0.475   8.411  1.00 19.04           C  
+HETATM   23  C08 NLS B 504      25.521   0.720   8.638  1.00 17.70           C  
+HETATM   24  C14 NLS B 504      21.438   0.583   6.390  1.00 16.50           C  
+HETATM   25  C16 NLS B 504      19.973   0.755   8.308  1.00 17.60           C  
+HETATM   26  F18 NLS B 504      20.958   1.276  10.407  1.00 18.53           F  
+HETATM   27  N19 NLS B 504      22.344   1.098   8.556  1.00 16.08           N  
+HETATM   28  O01 NLS B 504      28.059  -2.593  11.865  1.00 26.79           O  
+HETATM   29  O03 NLS B 504      26.788  -1.038  13.454  1.00 27.01           O  
+HETATM   30  O10 NLS B 504      26.133   1.757   6.312  1.00 17.01           O  
+HETATM   31  O11 NLS B 504      24.594   3.018   7.831  1.00 16.42           O  
+HETATM   32  S02 NLS B 504      26.851  -1.828  12.213  1.00 25.95           S  
+HETATM   33  S09 NLS B 504      25.010   1.736   7.259  1.00 16.17           S  
+CONECT   14   15   33
+CONECT   15   14   24   27
+CONECT   15   27
+CONECT   16   24   25
+CONECT   16   24
+CONECT   17   25   26   27
+CONECT   17   25
+CONECT   18   19   23
+CONECT   18   23
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21   32
+CONECT   20   19
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   18   22   33
+CONECT   23   18
+CONECT   24   15   16
+CONECT   24   16
+CONECT   25   16   17
+CONECT   25   17
+CONECT   26   17
+CONECT   27   15   17
+CONECT   27   15
+CONECT   28   32
+CONECT   28   32
+CONECT   29   32
+CONECT   29   32
+CONECT   30   33
+CONECT   30   33
+CONECT   31   33
+CONECT   31   33
+CONECT   32   12   20   28   29
+CONECT   32   28   29
+CONECT   33   14   23   30   31
+CONECT   33   30   31
+ENDMDL
+END   

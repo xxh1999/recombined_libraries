@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2ZC6
+MODEL        1
+ATOM      1  N   SER B 370      17.200  12.371  10.173  1.00 30.61           N1+
+ATOM      2  CA  SER B 370      16.747  11.623   9.002  1.00 30.75           C  
+ATOM      3  C   SER B 370      17.897  11.098   8.125  1.00 30.21           C  
+ATOM      4  O   SER B 370      17.629  10.323   7.210  1.00 30.25           O  
+ATOM      5  CB  SER B 370      15.912  12.546   8.091  1.00 31.14           C  
+ATOM      6  OG  SER B 370      14.719  13.043   8.684  1.00 33.29           O  
+TER       7      SER B 370
+HETATM    8  C7  TEB B 701      14.754  14.209   9.365  1.00 37.24           C  
+HETATM    9  O14 TEB B 701      15.773  14.763   9.760  1.00 38.46           O  
+HETATM   10  C6  TEB B 701      13.375  14.833   9.629  1.00 39.75           C  
+HETATM   11  C8  TEB B 701      12.639  13.994  10.700  1.00 40.35           C  
+HETATM   12  O15 TEB B 701      11.350  14.515  10.936  1.00 40.45           O  
+HETATM   13  C9  TEB B 701      13.356  13.918  12.063  1.00 39.52           C  
+HETATM   14  C5  TEB B 701      12.550  15.152   8.322  1.00 41.85           C  
+HETATM   15  C1  TEB B 701      11.967  16.605   8.209  1.00 43.66           C  
+HETATM   16  C10 TEB B 701      11.745  17.429   9.493  1.00 44.04           C  
+HETATM   17  N4  TEB B 701      13.373  15.090   7.117  1.00 42.96           N  
+HETATM   18  C3  TEB B 701      13.706  16.338   6.661  1.00 44.30           C  
+HETATM   19  C11 TEB B 701      14.889  16.438   5.652  1.00 44.28           C  
+HETATM   20  O13 TEB B 701      15.211  15.375   5.074  1.00 44.90           O1-
+HETATM   21  O12 TEB B 701      15.437  17.555   5.534  1.00 43.69           O  
+HETATM   22  C2  TEB B 701      12.901  17.250   7.204  1.00 44.99           C  
+HETATM   23  S16 TEB B 701      12.916  18.991   6.887  1.00 48.23           S  
+HETATM   24  C17 TEB B 701      11.366  19.247   5.965  1.00 50.00           C  
+HETATM   25  C20 TEB B 701      11.229  18.655   4.552  1.00 51.27           C  
+HETATM   26  N19 TEB B 701      11.088  20.018   4.090  1.00 52.63           N  
+HETATM   27  C18 TEB B 701      11.069  20.642   5.394  1.00 51.32           C  
+HETATM   28  C21 TEB B 701      10.466  20.445   3.000  1.00 53.91           C  
+HETATM   29  N25 TEB B 701      10.165  21.731   2.758  1.00 54.64           N1+
+HETATM   30  C24 TEB B 701       9.489  22.074   1.498  1.00 54.85           C  
+HETATM   31  C23 TEB B 701       9.162  20.779   0.738  1.00 54.33           C  
+HETATM   32  S22 TEB B 701       9.910  19.415   1.653  1.00 55.37           S  
+CONECT    8    6    9   10
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8   11   14
+CONECT   11   10   12   13
+CONECT   12   11
+CONECT   13   11
+CONECT   14   10   15   17
+CONECT   15   14   16   22
+CONECT   16   15
+CONECT   17   14   18
+CONECT   18   17   19   22
+CONECT   18   22
+CONECT   19   18   20   21
+CONECT   19   21
+CONECT   20   19
+CONECT   21   19
+CONECT   21   19
+CONECT   22   15   18   23
+CONECT   22   18
+CONECT   23   22   24
+CONECT   24   23   25   27
+CONECT   25   24   26
+CONECT   26   25   27   28
+CONECT   27   24   26
+CONECT   28   26   29   32
+CONECT   28   29
+CONECT   29   28   30
+CONECT   29   28
+CONECT   30   29   31
+CONECT   31   30   32
+CONECT   32   28   31
+ENDMDL
+END   

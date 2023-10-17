@@ -1,0 +1,93 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7cht_ligand
+MODEL        1
+HETATM    1  C10 FZO A 801      -2.347  11.829  45.390  1.00  0.00           C  
+HETATM    2  C13 FZO A 801      -1.918  15.947  44.701  1.00  0.00           C  
+HETATM    3  C20 FZO A 801       2.104  20.337  41.974  1.00  0.00           C  
+HETATM    4  C21 FZO A 801       3.085  19.808  40.939  1.00  0.00           C  
+HETATM    5  C28 FZO A 801       2.294  14.934  41.790  1.00  0.00           C  
+HETATM    6  C01 FZO A 801      -2.189  16.848  49.303  1.00  0.00           C  
+HETATM    7  C03 FZO A 801      -1.770  16.285  47.063  1.00  0.00           C  
+HETATM    8  C04 FZO A 801      -1.942  14.927  47.286  1.00  0.00           C  
+HETATM    9  C05 FZO A 801      -2.106  14.098  46.191  1.00  0.00           C  
+HETATM   10  C07 FZO A 801      -2.526  11.893  47.690  1.00  0.00           C  
+HETATM   11  C08 FZO A 801      -2.693  10.383  47.240  1.00  0.00           C  
+HETATM   12  C09 FZO A 801      -3.004  10.406  46.013  1.00  0.00           C  
+HETATM   13  C12 FZO A 801      -2.076  14.599  44.906  1.00  0.00           C  
+HETATM   14  C14 FZO A 801      -1.745  16.788  45.777  1.00  0.00           C  
+HETATM   15  C16 FZO A 801      -0.572  18.660  44.576  1.00  0.00           C  
+HETATM   16  C18 FZO A 801       0.533  20.436  43.566  1.00  0.00           C  
+HETATM   17  C19 FZO A 801       1.250  19.552  42.787  1.00  0.00           C  
+HETATM   18  C23 FZO A 801       1.870  21.669  42.289  1.00  0.00           C  
+HETATM   19  C25 FZO A 801       0.988  18.168  42.951  1.00  0.00           C  
+HETATM   20  C27 FZO A 801       1.192  15.820  42.154  1.00  0.00           C  
+HETATM   21  C29 FZO A 801       1.925  13.457  41.749  1.00  0.00           C  
+HETATM   22  C31 FZO A 801      -0.246  14.105  41.004  1.00  0.00           C  
+HETATM   23  C32 FZO A 801       0.103  15.595  41.199  1.00  0.00           C  
+HETATM   24  N06 FZO A 801      -2.305  12.681  46.339  1.00  0.00           N  
+HETATM   25  N15 FZO A 801      -1.549  18.206  45.559  1.00  0.00           N  
+HETATM   26  N17 FZO A 801      -0.382  19.950  44.440  1.00  0.00           N  
+HETATM   27  N22 FZO A 801       3.814  19.391  40.180  1.00  0.00           N  
+HETATM   28  N24 FZO A 801       0.917  21.708  43.246  1.00  0.00           N  
+HETATM   29  N26 FZO A 801       1.669  17.185  42.157  1.00  0.00           N  
+HETATM   30  N33 FZO A 801       0.081  17.777  43.847  1.00  0.00           N  
+HETATM   31  O02 FZO A 801      -1.582  17.188  48.106  1.00  0.00           O  
+HETATM   32  O11 FZO A 801      -2.545  12.352  48.790  1.00  0.00           O  
+HETATM   33  O30 FZO A 801       0.898  13.214  40.754  1.00  0.00           O  
+CONECT    1   12   24
+CONECT    2   13   14
+CONECT    2   13
+CONECT    3    4   17   18
+CONECT    3   18
+CONECT    4    3   27
+CONECT    4   27
+CONECT    4   27
+CONECT    5   20   21
+CONECT    6   31
+CONECT    7    8   14   31
+CONECT    7   14
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    8   13   24
+CONECT    9    8
+CONECT   10   11   24   32
+CONECT   10   32
+CONECT   11   10   12
+CONECT   12    1   11
+CONECT   13    2    9
+CONECT   13    2
+CONECT   14    2    7   25
+CONECT   14    7
+CONECT   15   25   26   30
+CONECT   15   26
+CONECT   16   17   26   28
+CONECT   16   17
+CONECT   17    3   16   19
+CONECT   17   16
+CONECT   18    3   28
+CONECT   18    3
+CONECT   19   17   29   30
+CONECT   19   30
+CONECT   20    5   23   29
+CONECT   21    5   33
+CONECT   22   23   33
+CONECT   23   20   22
+CONECT   24    1    9   10
+CONECT   25   14   15
+CONECT   26   15   16
+CONECT   26   15
+CONECT   27    4
+CONECT   27    4
+CONECT   27    4
+CONECT   28   16   18
+CONECT   29   19   20
+CONECT   30   15   19
+CONECT   30   19
+CONECT   31    6    7
+CONECT   32   10
+CONECT   32   10
+CONECT   33   21   22
+ENDMDL
+END   

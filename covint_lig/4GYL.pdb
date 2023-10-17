@@ -1,0 +1,26 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4GYL
+MODEL        1
+ATOM      1  N   CYS A 166      -9.163 -23.181  39.453  1.00 14.02           N1+
+ATOM      2  CA  CYS A 166      -9.416 -24.375  38.627  1.00 14.02           C  
+ATOM      3  C   CYS A 166      -9.261 -25.718  39.360  1.00 13.62           C  
+ATOM      4  O   CYS A 166     -10.173 -26.098  40.089  1.00 11.87           O  
+ATOM      5  CB  CYS A 166      -8.546 -24.265  37.351  1.00 14.16           C  
+ATOM      6  SG  CYS A 166      -9.295 -25.121  35.927  0.80 13.22           S  
+TER       7      CYS A 166
+HETATM    8  CA  ROP A 401      -8.404 -26.679  35.654  1.00 16.50           C  
+HETATM    9  CB  ROP A 401      -7.222 -26.506  34.699  1.00 19.29           C  
+HETATM   10  CG  ROP A 401      -6.054 -25.834  35.385  1.00 24.37           C  
+HETATM   11  OD1 ROP A 401      -5.854 -26.040  36.571  1.00 31.06           O  
+HETATM   12  ND2 ROP A 401      -5.288 -25.033  34.659  1.00 25.11           N  
+CONECT    8    6    9
+CONECT    9    8   10
+CONECT   10    9   11   12
+CONECT   10   11
+CONECT   11   10
+CONECT   11   10
+CONECT   12   10
+ENDMDL
+END   

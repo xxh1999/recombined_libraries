@@ -1,0 +1,99 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6vne_ligand
+MODEL        1
+HETATM    1  CAQ Q2T A1201       0.647   9.743  46.510  1.00  0.00           C  
+HETATM    2  CAR Q2T A1201       1.912   9.679  47.517  1.00  0.00           C  
+HETATM    3  CAS Q2T A1201       1.873  10.749  48.189  1.00  0.00           C  
+HETATM    4  CAT Q2T A1201       0.405  11.232  48.186  1.00  0.00           C  
+HETATM    5  NAP Q2T A1201      -0.273  10.350  47.155  1.00  0.00           N1+
+HETATM    6  CAO Q2T A1201      -1.028  10.925  46.408  1.00  0.00           C  
+HETATM    7  CAN Q2T A1201      -0.597  12.342  45.990  1.00  0.00           C  
+HETATM    8  OAM Q2T A1201      -1.710  13.182  46.147  1.00  0.00           O  
+HETATM    9  CAJ Q2T A1201      -1.549  14.504  45.720  1.00  0.00           C  
+HETATM   10  CAK Q2T A1201      -1.966  15.506  46.578  1.00  0.00           C  
+HETATM   11  CAL Q2T A1201      -1.846  16.836  46.206  1.00  0.00           C  
+HETATM   12  CAI Q2T A1201      -1.011  14.839  44.476  1.00  0.00           C  
+HETATM   13  CAH Q2T A1201      -0.893  16.175  44.102  1.00  0.00           C  
+HETATM   14  CAG Q2T A1201      -1.313  17.176  44.981  1.00  0.00           C  
+HETATM   15  NAF Q2T A1201      -1.242  18.612  44.729  1.00  0.00           N  
+HETATM   16  C2  Q2T A1201      -0.526  19.299  43.674  1.00  0.00           C  
+HETATM   17  N3  Q2T A1201       0.031  18.617  42.685  1.00  0.00           N  
+HETATM   18  N1  Q2T A1201      -0.467  20.624  43.746  1.00  0.00           N  
+HETATM   19  C6  Q2T A1201       0.157  21.323  42.808  1.00  0.00           C  
+HETATM   20  C5  Q2T A1201       0.756  20.651  41.748  1.00  0.00           C  
+HETATM   21  CAA Q2T A1201       1.498  21.393  40.638  1.00  0.00           C  
+HETATM   22  C4  Q2T A1201       0.674  19.257  41.727  1.00  0.00           C  
+HETATM   23  NAW Q2T A1201       1.304  18.555  40.624  1.00  0.00           N  
+HETATM   24  CAX Q2T A1201       1.391  17.120  40.515  1.00  0.00           C  
+HETATM   25  CBC Q2T A1201       1.399  16.581  39.243  1.00  0.00           C  
+HETATM   26  CAY Q2T A1201       1.461  16.304  41.635  1.00  0.00           C  
+HETATM   27  CAZ Q2T A1201       1.539  14.928  41.463  1.00  0.00           C  
+HETATM   28  CBA Q2T A1201       1.545  14.391  40.181  1.00  0.00           C  
+HETATM   29  CBB Q2T A1201       1.482  15.213  39.079  1.00  0.00           C  
+HETATM   30  SBD Q2T A1201       1.511  14.502  37.398  1.00  0.00           S2+
+HETATM   31  OBJ Q2T A1201       0.452  13.494  37.339  1.00  0.00           O1-
+HETATM   32  OBK Q2T A1201       0.989  15.446  36.408  1.00  0.00           O1-
+HETATM   33  NBE Q2T A1201       3.060  13.830  36.953  1.00  0.00           N  
+HETATM   34  CBF Q2T A1201       4.388  14.475  37.025  1.00  0.00           C  
+HETATM   35  CBH Q2T A1201       4.475  15.767  36.234  1.00  0.00           C  
+HETATM   36  CBI Q2T A1201       5.441  13.575  36.406  1.00  0.00           C  
+HETATM   37  CBG Q2T A1201       4.806  14.746  38.467  1.00  0.00           C  
+CONECT    1    2    5
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    1    4    6
+CONECT    6    5    7
+CONECT    7    6    8
+CONECT    8    7    9
+CONECT    9    8   10   12
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11   10   14
+CONECT   11   14
+CONECT   12    9   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   11   13   15
+CONECT   14   11
+CONECT   15   14   16
+CONECT   16   15   17   18
+CONECT   16   18
+CONECT   17   16   22
+CONECT   17   22
+CONECT   18   16   19
+CONECT   18   16
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21   22
+CONECT   20   19
+CONECT   21   20
+CONECT   22   17   20   23
+CONECT   22   17
+CONECT   23   22   24
+CONECT   24   23   25   26
+CONECT   24   26
+CONECT   25   24   29
+CONECT   25   29
+CONECT   26   24   27
+CONECT   26   24
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   25   28   30
+CONECT   29   25
+CONECT   30   29   31   32   33
+CONECT   31   30
+CONECT   32   30
+CONECT   33   30   34
+CONECT   34   33   35   36   37
+CONECT   35   34
+CONECT   36   34
+CONECT   37   34
+ENDMDL
+END   

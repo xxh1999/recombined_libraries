@@ -1,0 +1,58 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6KGT
+MODEL        1
+ATOM      1  N   SER A 386      24.738   2.185  -2.325  1.00 39.37           N1+
+ATOM      2  CA  SER A 386      24.806   0.733  -2.231  1.00 42.30           C  
+ATOM      3  C   SER A 386      25.439   0.191  -0.930  1.00 44.94           C  
+ATOM      4  O   SER A 386      25.350  -1.009  -0.691  1.00 41.13           O  
+ATOM      5  CB  SER A 386      25.591   0.188  -3.434  1.00 45.36           C  
+ATOM      6  OG  SER A 386      25.012   0.453  -4.708  1.00 42.74           O  
+TER       7      SER A 386
+HETATM    8  C7  SFR A 701      25.348   1.567  -5.396  1.00 51.68           C  
+HETATM    9  C6  SFR A 701      25.146   1.439  -6.913  1.00 51.40           C  
+HETATM   10  N4  SFR A 701      27.259   0.098  -6.939  1.00 58.43           N  
+HETATM   11  C5  SFR A 701      25.879   0.155  -7.399  1.00 54.76           C  
+HETATM   12  C3  SFR A 701      28.271  -0.011  -7.867  1.00 63.33           C  
+HETATM   13  C2  SFR A 701      27.834  -0.110  -9.132  1.00 68.94           C  
+HETATM   14  S1  SFR A 701      26.084   0.002  -9.194  1.00 68.97           S  
+HETATM   15  C31 SFR A 701      29.709   0.015  -7.254  1.00 66.50           C  
+HETATM   16  O71 SFR A 701      25.833   2.586  -4.912  1.00 54.00           O  
+HETATM   17  C61 SFR A 701      23.644   1.479  -7.287  1.00 54.10           C  
+HETATM   18  O62 SFR A 701      23.506   1.707  -8.676  1.00 62.93           O  
+HETATM   19  C62 SFR A 701      22.805   2.574  -6.597  1.00 43.62           C  
+HETATM   20  C14 SFR A 701      28.598  -0.339 -10.424  1.00 83.22           C  
+HETATM   21  C15 SFR A 701      29.375   0.872 -10.927  1.00 83.84           C  
+HETATM   22  C16 SFR A 701      30.320   0.211 -11.907  1.00 85.40           C  
+HETATM   23  C17 SFR A 701      30.631  -1.125 -11.226  1.00 84.37           C  
+HETATM   24  O18 SFR A 701      29.552  -1.390 -10.332  1.00 78.27           O  
+HETATM   25  O32 SFR A 701      30.677  -0.109  -8.032  1.00 76.90           O  
+HETATM   26  O31 SFR A 701      29.761   0.183  -6.014  1.00 60.93           O1-
+CONECT    8    6    9   16
+CONECT    8   16
+CONECT    9    8   11   17
+CONECT   10   11   12
+CONECT   11    9   10   14
+CONECT   12   10   13   15
+CONECT   12   13
+CONECT   13   12   14   20
+CONECT   13   12
+CONECT   14   11   13
+CONECT   15   12   25   26
+CONECT   15   25
+CONECT   16    8
+CONECT   16    8
+CONECT   17    9   18   19
+CONECT   18   17
+CONECT   19   17
+CONECT   20   13   21   24
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   23   22   24
+CONECT   24   20   23
+CONECT   25   15
+CONECT   25   15
+CONECT   26   15
+ENDMDL
+END   

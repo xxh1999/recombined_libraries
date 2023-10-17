@@ -1,0 +1,64 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5W2U
+MODEL        1
+ATOM      1  N   TYR A 405      16.871  22.897  62.068  1.00 21.19           N1+
+ATOM      2  CA  TYR A 405      17.270  22.903  60.668  1.00 21.06           C  
+ATOM      3  C   TYR A 405      16.209  23.435  59.732  1.00 19.33           C  
+ATOM      4  O   TYR A 405      15.020  23.372  60.013  1.00 20.63           O  
+ATOM      5  CB  TYR A 405      17.626  21.469  60.248  1.00 19.26           C  
+ATOM      6  CG  TYR A 405      19.028  21.073  60.623  1.00 20.22           C  
+ATOM      7  CD1 TYR A 405      19.796  21.855  61.511  1.00 19.91           C  
+ATOM      8  CD2 TYR A 405      19.620  19.992  59.954  1.00 19.73           C  
+ATOM      9  CE1 TYR A 405      21.157  21.616  61.647  1.00 19.73           C  
+ATOM     10  CE2 TYR A 405      20.988  19.749  60.088  1.00 20.39           C  
+ATOM     11  CZ  TYR A 405      21.745  20.538  60.971  1.00 19.20           C  
+ATOM     12  OH  TYR A 405      23.056  20.241  61.193  1.00 20.32           O  
+TER      13      TYR A 405
+HETATM   14  O10 9SJ A 515      27.670  16.078  60.841  0.45 20.81           O  
+HETATM   15  C10 9SJ A 515      26.736  15.855  60.082  0.45 20.78           C  
+HETATM   16  C11 9SJ A 515      26.804  14.668  59.150  0.45 19.03           C  
+HETATM   17  N5  9SJ A 515      25.576  16.527  60.078  0.45 21.63           N  
+HETATM   18  C5  9SJ A 515      25.017  17.278  61.189  0.45 21.67           C  
+HETATM   19  C4  9SJ A 515      23.489  17.088  61.222  0.45 20.86           C  
+HETATM   20  O4  9SJ A 515      23.240  15.781  61.681  0.45 20.54           O  
+HETATM   21  C3  9SJ A 515      22.680  18.046  62.139  0.45 22.41           C  
+HETATM   22  F1  9SJ A 515      22.369  17.549  63.323  0.45 25.02           F  
+HETATM   23  C6  9SJ A 515      25.368  18.771  61.237  0.45 21.39           C  
+HETATM   24  O6  9SJ A 515      24.726  19.284  62.390  0.45 22.59           O  
+HETATM   25  C2  9SJ A 515      23.351  19.448  62.294  0.45 22.86           C  
+HETATM   26  C1  9SJ A 515      22.955  20.245  63.612  0.45 22.19           C  
+HETATM   27  O1A 9SJ A 515      23.682  21.226  63.870  0.45 20.48           O1-
+HETATM   28  O1B 9SJ A 515      21.926  19.917  64.236  0.45 21.65           O  
+HETATM   29  C7  9SJ A 515      26.825  19.207  61.390  0.45 21.83           C  
+HETATM   30  C8  9SJ A 515      27.081  20.694  61.173  0.45 22.43           C  
+HETATM   31  O8  9SJ A 515      27.407  20.931  59.838  0.45 21.60           O  
+HETATM   32  C9  9SJ A 515      28.135  21.323  62.098  0.45 21.94           C  
+HETATM   33  O9  9SJ A 515      29.403  20.755  61.941  0.45 23.90           O  
+CONECT   14   15
+CONECT   14   15
+CONECT   15   14   16   17
+CONECT   15   14
+CONECT   16   15
+CONECT   17   15   18
+CONECT   18   17   19   23
+CONECT   19   18   20   21
+CONECT   20   19
+CONECT   21   19   22   25
+CONECT   22   21
+CONECT   23   18   24   29
+CONECT   24   23   25
+CONECT   25   12   21   24   26
+CONECT   26   25   27   28
+CONECT   26   28
+CONECT   27   26
+CONECT   28   26
+CONECT   28   26
+CONECT   29   23   30
+CONECT   30   29   31   32
+CONECT   31   30
+CONECT   32   30   33
+CONECT   33   32
+ENDMDL
+END   

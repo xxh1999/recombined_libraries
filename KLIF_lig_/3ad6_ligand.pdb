@@ -1,0 +1,78 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3ad6_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  KSC A 513      -0.404  16.815  44.435  1.00  0.00           C  
+HETATM    2  N2  KSC A 513       0.196  15.855  43.687  1.00  0.00           N  
+HETATM    3  N3  KSC A 513       1.038  16.598  42.819  1.00  0.00           N  
+HETATM    4  C4  KSC A 513       1.028  17.931  42.957  1.00  0.00           C  
+HETATM    5  C5  KSC A 513       0.071  18.161  44.061  1.00  0.00           C  
+HETATM    6  C6  KSC A 513       1.819  16.028  41.890  1.00  0.00           C  
+HETATM    7  C7  KSC A 513       2.611  16.857  41.094  1.00  0.00           C  
+HETATM    8  C8  KSC A 513       2.573  18.242  41.271  1.00  0.00           C  
+HETATM    9  N9  KSC A 513       1.768  18.791  42.217  1.00  0.00           N  
+HETATM   10  C10 KSC A 513       3.440  19.116  40.408  1.00  0.00           C  
+HETATM   11  N11 KSC A 513       1.836  14.679  41.746  1.00  0.00           N  
+HETATM   12  C12 KSC A 513       1.524  14.041  40.475  1.00  0.00           C  
+HETATM   13  C13 KSC A 513       0.046  14.192  40.128  1.00  0.00           C  
+HETATM   14  C14 KSC A 513      -0.262  13.423  38.847  1.00  0.00           C  
+HETATM   15  C15 KSC A 513      -0.087  14.940  38.806  1.00  0.00           C  
+HETATM   16  N16 KSC A 513      -1.287  16.564  45.430  1.00  0.00           N  
+HETATM   17  C17 KSC A 513      -1.177  15.428  46.169  1.00  0.00           C  
+HETATM   18  C18 KSC A 513      -1.565  15.440  47.511  1.00  0.00           C  
+HETATM   19  C19 KSC A 513      -1.456  14.278  48.276  1.00  0.00           C  
+HETATM   20  C20 KSC A 513      -0.972  13.100  47.702  1.00  0.00           C  
+HETATM   21  C21 KSC A 513      -0.583  13.085  46.361  1.00  0.00           C  
+HETATM   22  C22 KSC A 513      -0.690  14.244  45.597  1.00  0.00           C  
+HETATM   23  C23 KSC A 513      -0.296  19.497  44.585  1.00  0.00           C  
+HETATM   24  O24 KSC A 513      -0.723  19.579  45.717  1.00  0.00           O  
+HETATM   25  N25 KSC A 513      -0.180  20.557  43.797  1.00  0.00           N  
+HETATM   26  O26 KSC A 513      -0.869  11.957  48.458  1.00  0.00           O  
+HETATM   27  C27 KSC A 513      -2.040  11.293  48.940  1.00  0.00           C  
+CONECT    1    2    5   16
+CONECT    1    2
+CONECT    2    1    3
+CONECT    2    1
+CONECT    3    2    4    6
+CONECT    4    3    5    9
+CONECT    4    5
+CONECT    5    1    4   23
+CONECT    5    4
+CONECT    6    3    7   11
+CONECT    6    7
+CONECT    7    6    8
+CONECT    7    6
+CONECT    8    7    9   10
+CONECT    8    9
+CONECT    9    4    8
+CONECT    9    8
+CONECT   10    8
+CONECT   11    6   12
+CONECT   12   11   13
+CONECT   13   12   14   15
+CONECT   14   13   15
+CONECT   15   13   14
+CONECT   16    1   17
+CONECT   17   16   18   22
+CONECT   17   22
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   19   21   26
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   17   21
+CONECT   22   17
+CONECT   23    5   24   25
+CONECT   23   24
+CONECT   24   23
+CONECT   24   23
+CONECT   25   23
+CONECT   26   20   27
+CONECT   27   26
+ENDMDL
+END   

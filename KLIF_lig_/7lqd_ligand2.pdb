@@ -1,0 +1,29 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7lqd_ligand2
+MODEL        1
+HETATM    1  O2' TOE A 907       3.111  10.497  37.517  1.00  0.00           O  
+HETATM    2  CA' TOE A 907       3.692  10.869  36.279  1.00  0.00           C  
+HETATM    3  CB' TOE A 907       2.641  10.752  35.189  1.00  0.00           C  
+HETATM    4  OC' TOE A 907       2.793  11.818  34.260  1.00  0.00           O  
+HETATM    5  CD' TOE A 907       1.746  11.811  33.297  1.00  0.00           C  
+HETATM    6  CE' TOE A 907       1.405  13.229  32.865  1.00  0.00           C  
+HETATM    7  OF' TOE A 907       2.547  13.895  32.335  1.00  0.00           O  
+HETATM    8  CG' TOE A 907       2.213  14.666  31.189  1.00  0.00           C  
+HETATM    9  CH' TOE A 907       3.480  15.117  30.485  1.00  0.00           C  
+HETATM   10  OI' TOE A 907       3.784  14.218  29.424  1.00  0.00           O  
+HETATM   11  CK' TOE A 907       4.506  14.847  28.373  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    5    7
+CONECT    7    6    8
+CONECT    8    7    9
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10
+ENDMDL
+END   

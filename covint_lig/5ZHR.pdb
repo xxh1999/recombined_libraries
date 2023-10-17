@@ -1,0 +1,44 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5ZHR
+MODEL        1
+ATOM      1  N   SER A 147     -19.925  15.524 -20.769  1.00  8.76           N1+
+ATOM      2  CA  SER A 147     -21.236  16.050 -20.368  1.00 10.23           C  
+ATOM      3  C   SER A 147     -21.098  17.062 -19.211  1.00  8.98           C  
+ATOM      4  O   SER A 147     -20.552  18.143 -19.421  1.00 10.21           O  
+ATOM      5  CB  SER A 147     -22.229  14.884 -20.152  1.00 10.99           C  
+ATOM      6  OG  SER A 147     -23.588  15.310 -20.192  1.00 10.49           O  
+TER       7      SER A 147
+HETATM    8  OAB KOK A 500     -23.925  14.963 -17.970  1.00 10.20           O  
+HETATM    9  CAA KOK A 500     -24.345  15.312 -19.072  1.00 12.40           C  
+HETATM   10  NAG KOK A 500     -25.643  15.740 -19.363  1.00  8.82           N  
+HETATM   11  CAF KOK A 500     -26.159  15.953 -20.725  1.00 10.63           C  
+HETATM   12  CAE KOK A 500     -27.580  16.536 -20.545  1.00 14.02           C  
+HETATM   13  CAD KOK A 500     -27.775  16.511 -19.059  1.00 12.68           C  
+HETATM   14  CAC KOK A 500     -26.638  16.048 -18.409  1.00  8.95           C  
+HETATM   15  CAK KOK A 500     -26.603  15.951 -17.003  1.00 11.39           C  
+HETATM   16  CAJ KOK A 500     -27.753  16.322 -16.276  1.00 13.93           C  
+HETATM   17  CAI KOK A 500     -28.905  16.800 -16.946  1.00 13.87           C  
+HETATM   18  CAH KOK A 500     -28.924  16.897 -18.353  1.00 16.57           C  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    6    8   10
+CONECT    9    8
+CONECT   10    9   11   14
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12   14   18
+CONECT   13   14
+CONECT   14   10   13   15
+CONECT   14   13
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   13   17
+CONECT   18   17
+ENDMDL
+END   

@@ -1,0 +1,64 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5LA6
+MODEL        1
+ATOM      1  N   CYS C 316       7.863  33.510  10.417  1.00 42.64           N1+
+ATOM      2  CA  CYS C 316       7.753  34.819   9.780  1.00 45.29           C  
+ATOM      3  C   CYS C 316       6.536  34.792   8.834  1.00 53.42           C  
+ATOM      4  O   CYS C 316       6.419  33.895   7.975  1.00 49.64           O  
+ATOM      5  CB  CYS C 316       9.040  35.161   9.004  1.00 39.65           C  
+ATOM      6  SG  CYS C 316       9.256  36.905   8.542  1.00 54.47           S  
+TER       7      CYS C 316
+HETATM    8  C14 X3H C 504      19.869  38.273  -0.397  1.00 58.82           C  
+HETATM    9  C16 X3H C 504       7.284  35.246   4.750  1.00 64.50           C  
+HETATM   10  C19 X3H C 504      14.266  40.518   3.519  1.00 61.57           C  
+HETATM   11  C18 X3H C 504      15.131  37.564   0.630  1.00 50.77           C  
+HETATM   12  C17 X3H C 504      14.265  35.913   3.824  1.00 47.70           C  
+HETATM   13  O01 X3H C 504       8.273  40.182   5.025  1.00 54.24           O  
+HETATM   14  O07 X3H C 504      13.217  37.799   5.500  1.00 61.31           O  
+HETATM   15  C13 X3H C 504      18.570  38.802   0.171  1.00 63.29           C  
+HETATM   16  C12 X3H C 504      18.088  38.329   1.332  1.00 62.77           C  
+HETATM   17  C15 X3H C 504       8.401  36.239   4.486  1.00 59.56           C  
+HETATM   18  C11 X3H C 504      16.791  38.880   1.869  1.00 57.97           C  
+HETATM   19  C02 X3H C 504       8.137  38.539   6.700  1.00 51.26           C  
+HETATM   20  C06 X3H C 504      11.362  36.827   4.373  1.00 54.30           C  
+HETATM   21  O09 X3H C 504      14.187  39.415   2.623  1.00 52.31           O  
+HETATM   22  O06 X3H C 504       9.860  38.631   4.917  1.00 53.46           O  
+HETATM   23  C01 X3H C 504       8.786  39.171   5.490  1.00 53.40           C  
+HETATM   24  C10 X3H C 504      15.755  37.776   1.994  1.00 58.27           C  
+HETATM   25  C08 X3H C 504      13.625  37.169   3.263  1.00 47.41           C  
+HETATM   26  C07 X3H C 504      12.599  37.707   4.241  1.00 53.58           C  
+HETATM   27  C03 X3H C 504       8.435  37.060   6.899  1.00 57.03           C  
+HETATM   28  C05 X3H C 504      10.404  37.418   5.407  1.00 54.62           C  
+HETATM   29  C04 X3H C 504       9.255  36.476   5.741  1.00 58.75           C  
+HETATM   30  C09 X3H C 504      14.727  38.194   3.042  1.00 49.73           C  
+CONECT    8   15
+CONECT    9   17
+CONECT   10   21
+CONECT   11   24
+CONECT   12   25
+CONECT   13   23
+CONECT   13   23
+CONECT   14   26
+CONECT   15    8   16
+CONECT   15   16
+CONECT   16   15   18
+CONECT   16   15
+CONECT   17    9   29
+CONECT   18   16   24
+CONECT   19   23   27
+CONECT   20   26   28
+CONECT   21   10   30
+CONECT   22   23   28
+CONECT   23   13   19   22
+CONECT   23   13
+CONECT   24   11   18   30
+CONECT   25   12   26   30
+CONECT   26   14   20   25
+CONECT   27    6   19   29
+CONECT   28   20   22   29
+CONECT   29   17   27   28
+CONECT   30   21   24   25
+ENDMDL
+END   

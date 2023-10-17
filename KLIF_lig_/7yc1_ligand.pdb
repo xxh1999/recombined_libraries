@@ -1,0 +1,87 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7yc1_ligand
+MODEL        1
+HETATM    1  CBA IIQ A 801      -5.531  14.279  49.343  1.00  0.00           C  
+HETATM    2  CAV IIQ A 801      -4.099  14.003  48.884  1.00  0.00           C  
+HETATM    3  CAU IIQ A 801      -3.146  14.977  49.576  1.00  0.00           C  
+HETATM    4  NAG IIQ A 801      -2.561  15.933  48.608  1.00  0.00           N  
+HETATM    5  CAH IIQ A 801      -2.271  15.684  47.330  1.00  0.00           C  
+HETATM    6  CAD IIQ A 801      -2.237  17.197  48.885  1.00  0.00           C  
+HETATM    7  CAC IIQ A 801      -2.337  17.906  50.007  1.00  0.00           C  
+HETATM    8  CAB IIQ A 801      -1.918  19.229  50.026  1.00  0.00           C  
+HETATM    9  CAA IIQ A 801      -1.405  19.777  48.860  1.00  0.00           C  
+HETATM   10  CAJ IIQ A 801      -0.975  21.099  48.833  1.00  0.00           C  
+HETATM   11  OBB IIQ A 801      -1.858  21.906  49.619  1.00  0.00           O1-
+HETATM   12  NAF IIQ A 801      -1.327  19.022  47.758  1.00  0.00           N  
+HETATM   13  CAE IIQ A 801      -1.739  17.746  47.778  1.00  0.00           C  
+HETATM   14  CAI IIQ A 801      -1.775  16.813  46.837  1.00  0.00           C  
+HETATM   15  CAK IIQ A 801      -1.342  16.996  45.592  1.00  0.00           C  
+HETATM   16  OAL IIQ A 801      -1.505  16.123  44.737  1.00  0.00           O  
+HETATM   17  NAM IIQ A 801      -0.734  18.191  45.429  1.00  0.00           N  
+HETATM   18  CAN IIQ A 801      -0.166  18.597  44.285  1.00  0.00           C  
+HETATM   19  CAO IIQ A 801       0.391  17.719  43.353  1.00  0.00           C  
+HETATM   20  NAS IIQ A 801      -0.090  19.922  44.071  1.00  0.00           N  
+HETATM   21  CAR IIQ A 801       0.504  20.447  42.916  1.00  0.00           C  
+HETATM   22  CAQ IIQ A 801       1.051  19.588  41.976  1.00  0.00           C  
+HETATM   23  CBC IIQ A 801       1.661  20.103  40.789  1.00  0.00           C  
+HETATM   24  NBD IIQ A 801       2.148  20.512  39.846  1.00  0.00           N  
+HETATM   25  CAP IIQ A 801       0.984  18.221  42.201  1.00  0.00           C  
+HETATM   26  NAT IIQ A 801       1.517  17.437  41.268  1.00  0.00           N  
+HETATM   27  CAW IIQ A 801       1.220  15.999  41.181  1.00  0.00           C  
+HETATM   28  CAX IIQ A 801       1.010  15.615  39.714  1.00  0.00           C  
+HETATM   29  OAY IIQ A 801      -0.361  15.810  39.354  1.00  0.00           O  
+HETATM   30  CAZ IIQ A 801      -0.485  15.798  37.928  1.00  0.00           C  
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5    6
+CONECT    5    4   14
+CONECT    5   14
+CONECT    6    4    7   13
+CONECT    6   13
+CONECT    7    6    8
+CONECT    7    8
+CONECT    8    7    9
+CONECT    8    7
+CONECT    9    8   10   12
+CONECT    9   12
+CONECT   10    9   11
+CONECT   11   10
+CONECT   12    9   13
+CONECT   12    9
+CONECT   13    6   12   14
+CONECT   13    6
+CONECT   14    5   13   15
+CONECT   14    5
+CONECT   15   14   16   17
+CONECT   15   16
+CONECT   16   15
+CONECT   16   15
+CONECT   17   15   18
+CONECT   18   17   19   20
+CONECT   18   20
+CONECT   19   18   25
+CONECT   19   25
+CONECT   20   18   21
+CONECT   20   18
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23   25
+CONECT   22   21
+CONECT   23   22   24
+CONECT   23   24
+CONECT   23   24
+CONECT   24   23
+CONECT   24   23
+CONECT   24   23
+CONECT   25   19   22   26
+CONECT   25   19
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   27   29
+CONECT   29   28   30
+CONECT   30   29
+ENDMDL
+END   

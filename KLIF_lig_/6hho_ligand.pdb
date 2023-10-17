@@ -1,0 +1,84 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6hho_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C10 G4W A 301      -0.468  27.665  33.014  1.00  0.00           C  
+HETATM    2  N12 G4W A 301       1.563  27.001  33.899  1.00  0.00           N  
+HETATM    3  C17 G4W A 301       3.184  23.092  34.588  1.00  0.00           C  
+HETATM    4  C20 G4W A 301       4.173  24.877  36.653  1.00  0.00           C  
+HETATM    5  C21 G4W A 301       2.729  24.967  36.175  1.00  0.00           C  
+HETATM    6  C22 G4W A 301       5.022  22.732  37.538  1.00  0.00           C  
+HETATM    7  C24 G4W A 301       5.269  20.640  38.612  1.00  0.00           C  
+HETATM    8  C26 G4W A 301       5.686  22.572  39.696  1.00  0.00           C  
+HETATM    9  C28 G4W A 301       5.259  19.187  38.619  1.00  0.00           C  
+HETATM   10  N19 G4W A 301       4.724  23.530  36.471  1.00  0.00           N  
+HETATM   11  C18 G4W A 301       4.619  23.014  35.101  1.00  0.00           C  
+HETATM   12  C11 G4W A 301       0.799  27.992  33.675  1.00  0.00           C  
+HETATM   13  F01 G4W A 301      -3.317  22.880  30.996  1.00  0.00           F  
+HETATM   14  C16 G4W A 301       2.667  24.527  34.714  1.00  0.00           C  
+HETATM   15  F05 G4W A 301       0.197  24.835  28.623  1.00  0.00           F  
+HETATM   16  N13 G4W A 301       0.797  25.867  33.776  1.00  0.00           N  
+HETATM   17  O15 G4W A 301       0.532  23.663  34.102  1.00  0.00           O  
+HETATM   18  C09 G4W A 301      -0.567  26.145  33.265  1.00  0.00           C  
+HETATM   19  N27 G4W A 301       5.362  23.367  38.670  1.00  0.00           N  
+HETATM   20  C06 G4W A 301      -0.162  25.457  30.859  1.00  0.00           C  
+HETATM   21  C04 G4W A 301      -0.536  24.716  29.757  1.00  0.00           C  
+HETATM   22  C03 G4W A 301      -1.588  23.834  29.757  1.00  0.00           C  
+HETATM   23  C14 G4W A 301       1.252  24.637  34.190  1.00  0.00           C  
+HETATM   24  C02 G4W A 301      -2.272  23.727  30.941  1.00  0.00           C  
+HETATM   25  C07 G4W A 301      -0.904  25.346  32.031  1.00  0.00           C  
+HETATM   26  N25 G4W A 301       5.598  21.239  39.773  1.00  0.00           N  
+HETATM   27  N29 G4W A 301       5.237  18.044  38.597  1.00  0.00           N  
+HETATM   28  C23 G4W A 301       4.968  21.332  37.443  1.00  0.00           C  
+HETATM   29  C08 G4W A 301      -1.975  24.461  32.066  1.00  0.00           C  
+CONECT    1   12   18
+CONECT    2   12   16
+CONECT    3   11   14
+CONECT    4    5   10
+CONECT    5    4   14
+CONECT    6   10   19   28
+CONECT    6   19
+CONECT    7    9   26   28
+CONECT    7   28
+CONECT    8   19   26
+CONECT    8   26
+CONECT    9    7   27
+CONECT    9   27
+CONECT    9   27
+CONECT   10    4    6   11
+CONECT   11    3   10
+CONECT   12    1    2
+CONECT   13   24
+CONECT   14    3    5   23
+CONECT   15   21
+CONECT   16    2   18   23
+CONECT   17   23
+CONECT   17   23
+CONECT   18    1   16   25
+CONECT   19    6    8
+CONECT   19    6
+CONECT   20   21   25
+CONECT   20   25
+CONECT   21   15   20   22
+CONECT   21   22
+CONECT   22   21   24
+CONECT   22   21
+CONECT   23   14   16   17
+CONECT   23   17
+CONECT   24   13   22   29
+CONECT   24   29
+CONECT   25   18   20   29
+CONECT   25   20
+CONECT   26    7    8
+CONECT   26    8
+CONECT   27    9
+CONECT   27    9
+CONECT   27    9
+CONECT   28    6    7
+CONECT   28    7
+CONECT   29   24   25
+CONECT   29   24
+ENDMDL
+END   

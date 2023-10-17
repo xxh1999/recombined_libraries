@@ -1,0 +1,84 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4PDZ
+MODEL        1
+ATOM      1  N   CYS B  84      27.109 -23.727  40.832  1.00 37.50           N1+
+ATOM      2  CA  CYS B  84      28.416 -24.230  41.249  1.00 39.02           C  
+ATOM      3  C   CYS B  84      28.446 -24.565  42.749  1.00 39.82           C  
+ATOM      4  O   CYS B  84      29.078 -25.549  43.124  1.00 40.99           O  
+ATOM      5  CB  CYS B  84      29.424 -23.116  40.919  1.00 35.66           C  
+ATOM      6  SG  CYS B  84      31.146 -23.580  41.313  1.00 39.81           S  
+TER       7      CYS B  84
+HETATM    8  C1  CTI B 101      29.537 -23.222  36.805  1.00 31.54           C  
+HETATM    9  C2  CTI B 101      30.789 -23.904  36.797  1.00 34.62           C  
+HETATM   10  C3  CTI B 101      31.035 -24.854  35.758  1.00 34.36           C  
+HETATM   11  C4  CTI B 101      30.082 -25.092  34.741  1.00 34.63           C  
+HETATM   12  C5  CTI B 101      31.772 -23.733  37.819  1.00 33.75           C  
+HETATM   13  C6  CTI B 101      32.966 -24.519  37.817  1.00 33.00           C  
+HETATM   14  C7  CTI B 101      33.185 -25.430  36.758  1.00 37.38           C  
+HETATM   15  C8  CTI B 101      32.231 -25.592  35.742  1.00 38.08           C  
+HETATM   16  N9  CTI B 101      31.627 -22.846  38.841  1.00 34.94           N1+
+HETATM   17  C10 CTI B 101      33.927 -24.325  38.855  1.00 38.43           C  
+HETATM   18  C11 CTI B 101      33.545 -23.580  39.997  1.00 35.41           C  
+HETATM   19  C12 CTI B 101      32.244 -23.048  40.020  1.00 38.16           C  
+HETATM   20  C13 CTI B 101      31.207 -21.448  38.587  1.00 36.99           C  
+HETATM   21  C14 CTI B 101      35.770 -23.834  40.987  1.00 38.06           C  
+HETATM   22  C15 CTI B 101      36.145 -24.599  39.856  1.00 39.52           C  
+HETATM   23  C16 CTI B 101      35.234 -24.860  38.817  1.00 39.15           C  
+HETATM   24  C17 CTI B 101      34.431 -23.367  41.082  1.00 39.52           C  
+HETATM   25  O18 CTI B 101      33.972 -22.590  42.128  1.00 43.83           O  
+HETATM   26  C19 CTI B 101      34.369 -22.936  43.446  1.00 43.13           C  
+HETATM   27  O20 CTI B 101      36.669 -23.480  41.973  1.00 45.05           O  
+HETATM   28  C21 CTI B 101      38.049 -23.743  41.764  1.00 48.96           C  
+HETATM   29  C22 CTI B 101      28.625 -23.456  35.771  1.00 35.95           C  
+HETATM   30  C23 CTI B 101      28.883 -24.366  34.774  1.00 34.45           C  
+HETATM   31  O24 CTI B 101      27.407 -22.891  35.574  1.00 37.08           O  
+HETATM   32  C25 CTI B 101      26.903 -23.472  34.400  1.00 38.21           C  
+HETATM   33  O26 CTI B 101      27.834 -24.405  33.914  1.00 42.11           O  
+CONECT    8    9   29
+CONECT    8    9
+CONECT    9    8   10   12
+CONECT    9    8
+CONECT   10    9   11   15
+CONECT   10   11
+CONECT   11   10   30
+CONECT   11   10
+CONECT   12    9   13   16
+CONECT   12   13
+CONECT   13   12   14   17
+CONECT   13   12
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   10   14
+CONECT   15   14
+CONECT   16   12   19   20
+CONECT   16   19
+CONECT   17   13   18   23
+CONECT   17   18
+CONECT   18   17   19   24
+CONECT   18   17
+CONECT   19    6   16   18
+CONECT   19   16
+CONECT   20   16
+CONECT   21   22   24   27
+CONECT   21   24
+CONECT   22   21   23
+CONECT   22   23
+CONECT   23   17   22
+CONECT   23   22
+CONECT   24   18   21   25
+CONECT   24   21
+CONECT   25   24   26
+CONECT   26   25
+CONECT   27   21   28
+CONECT   28   27
+CONECT   29    8   30   31
+CONECT   29   30
+CONECT   30   11   29   33
+CONECT   30   29
+CONECT   31   29   32
+CONECT   32   31   33
+CONECT   33   30   32
+ENDMDL
+END   

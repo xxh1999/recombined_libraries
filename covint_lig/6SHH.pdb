@@ -1,0 +1,60 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6SHH
+MODEL        1
+ATOM      1  N   HIS A  57     -13.239  -9.135  63.151  0.53 30.03           N1+
+ATOM      2  CA  HIS A  57     -12.632  -9.337  61.839  0.53 29.32           C  
+ATOM      3  C   HIS A  57     -13.603  -8.957  60.709  0.53 31.16           C  
+ATOM      4  O   HIS A  57     -13.171  -8.687  59.588  0.53 29.14           O  
+ATOM      5  CB  HIS A  57     -12.293 -10.831  61.735  0.53 34.49           C  
+ATOM      6  CG  HIS A  57     -11.392 -11.174  60.582  0.53 41.85           C  
+ATOM      7  ND1 HIS A  57     -11.791 -11.921  59.465  0.53 44.47           N1+
+ATOM      8  CD2 HIS A  57     -10.084 -10.854  60.341  0.53 43.11           C  
+ATOM      9  CE1 HIS A  57     -10.709 -11.983  58.645  0.53 44.23           C  
+ATOM     10  NE2 HIS A  57      -9.664 -11.358  59.132  0.53 43.84           N  
+TER      11      HIS A  57
+HETATM   12  O5  SH7 A 350     -15.270 -15.721  52.298  0.53 38.90           O  
+HETATM   13  C16 SH7 A 350     -16.007 -14.855  52.701  0.53 35.80           C  
+HETATM   14  O4  SH7 A 350     -17.302 -14.736  52.329  0.53 32.65           O1-
+HETATM   15  C15 SH7 A 350     -15.621 -13.772  53.644  0.53 37.74           C  
+HETATM   16  C23 SH7 A 350     -15.884 -12.360  53.297  0.53 37.23           C  
+HETATM   17  O6  SH7 A 350     -16.461 -11.955  52.320  0.53 36.98           O  
+HETATM   18  C14 SH7 A 350     -15.000 -14.073  54.810  0.53 38.98           C  
+HETATM   19  C13 SH7 A 350     -14.581 -13.047  55.730  0.53 39.21           C  
+HETATM   20  C1  SH7 A 350     -14.818 -11.715  55.376  0.53 39.28           C  
+HETATM   21  O1  SH7 A 350     -15.457 -11.397  54.189  0.53 39.42           O  
+HETATM   22  C12 SH7 A 350     -13.996 -13.302  56.975  0.53 41.55           C  
+HETATM   23  C4  SH7 A 350     -13.665 -12.266  57.850  0.53 44.35           C  
+HETATM   24  C3  SH7 A 350     -13.908 -10.954  57.451  0.53 43.14           C  
+HETATM   25  C2  SH7 A 350     -14.473 -10.670  56.218  0.53 40.89           C  
+HETATM   26  C5  SH7 A 350     -13.094 -12.560  59.220  0.53 45.31           C  
+CONECT   12   13
+CONECT   12   13
+CONECT   13   12   14   15
+CONECT   13   12
+CONECT   14   13
+CONECT   15   13   16   18
+CONECT   15   18
+CONECT   16   15   17   21
+CONECT   16   17
+CONECT   17   16
+CONECT   17   16
+CONECT   18   15   19
+CONECT   18   15
+CONECT   19   18   20   22
+CONECT   19   22
+CONECT   20   19   21   25
+CONECT   20   25
+CONECT   21   16   20
+CONECT   22   19   23
+CONECT   22   19
+CONECT   23   22   24   26
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   20   24
+CONECT   25   20
+CONECT   26    7   23
+ENDMDL
+END   

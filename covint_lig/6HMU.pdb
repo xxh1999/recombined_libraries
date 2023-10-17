@@ -1,0 +1,58 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6HMU
+MODEL        1
+ATOM      1  N   CYS A  45      26.172  17.248  -0.609  1.00  9.65           N1+
+ATOM      2  CA  CYS A  45      25.286  16.964   0.514  1.00 10.12           C  
+ATOM      3  C   CYS A  45      24.558  15.623   0.348  1.00  9.19           C  
+ATOM      4  O   CYS A  45      24.630  14.808   1.260  1.00 10.57           O  
+ATOM      5  CB  CYS A  45      24.293  18.124   0.675  1.00 12.40           C  
+ATOM      6  SG  CYS A  45      23.115  18.021   2.057  1.00 16.45           S  
+TER       7      CYS A  45
+HETATM    8  C12 GE8 A 303      16.671  20.764   0.892  0.75 18.85           C  
+HETATM    9  C13 GE8 A 303      17.034  22.096   0.591  0.75 19.25           C  
+HETATM   10  C14 GE8 A 303      18.013  22.776   1.345  0.75 18.47           C  
+HETATM   11  C15 GE8 A 303      18.659  22.126   2.415  0.75 18.19           C  
+HETATM   12  C17 GE8 A 303      18.291  20.815   2.749  0.75 19.62           C  
+HETATM   13  C18 GE8 A 303      17.300  20.153   2.004  0.75 19.80           C  
+HETATM   14  C10 GE8 A 303      14.289  18.939   1.590  0.75 21.88           C  
+HETATM   15  C02 GE8 A 303      20.831  18.119   0.152  0.75 23.17           C  
+HETATM   16  C03 GE8 A 303      19.319  18.239   0.291  0.75 29.75           C  
+HETATM   17  C04 GE8 A 303      18.477  17.212  -0.480  0.75 27.93           C  
+HETATM   18  C06 GE8 A 303      16.192  17.722   0.340  0.75 25.52           C  
+HETATM   19  C08 GE8 A 303      15.147  18.862   0.309  0.75 21.97           C  
+HETATM   20  C09 GE8 A 303      14.206  18.597  -0.882  0.75 26.68           C  
+HETATM   21  N05 GE8 A 303      17.132  17.756  -0.616  0.75 24.75           N  
+HETATM   22  O07 GE8 A 303      16.194  16.893   1.252  0.75 23.74           O  
+HETATM   23  O11 GE8 A 303      15.759  20.147   0.042  0.75 22.67           O  
+HETATM   24  S01 GE8 A 303      21.552  16.941   1.314  0.75 28.84           S  
+HETATM   25 CL   GE8 A 303      19.916  22.903   3.305  0.75 19.28          Cl  
+CONECT    8    9   13   23
+CONECT    8   13
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11   10   12   25
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13    8   12
+CONECT   13    8
+CONECT   14   19
+CONECT   15   16   24
+CONECT   16   15   17
+CONECT   17   16   21
+CONECT   18   19   21   22
+CONECT   18   22
+CONECT   19   14   18   20   23
+CONECT   20   19
+CONECT   21   17   18
+CONECT   22   18
+CONECT   22   18
+CONECT   23    8   19
+CONECT   24    6   15
+CONECT   25   11
+ENDMDL
+END   

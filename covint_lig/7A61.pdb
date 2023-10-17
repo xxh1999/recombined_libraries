@@ -1,0 +1,56 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7A61
+MODEL        1
+ATOM      1  N   SER A  70      11.756  12.696  19.368  1.00  9.26           N1+
+ATOM      2  CA  SER A  70      12.560  13.665  20.102  1.00  9.57           C  
+ATOM      3  C   SER A  70      12.796  14.972  19.354  1.00 10.08           C  
+ATOM      4  O   SER A  70      13.376  15.902  19.932  1.00 10.15           O  
+ATOM      5  CB  SER A  70      13.954  13.101  20.443  1.00  9.95           C  
+ATOM      6  OG  SER A  70      13.934  12.024  21.379  1.00 11.60           O  
+TER       7      SER A  70
+HETATM    8  C10 R0B A 301      19.432   4.111  19.006  1.00 33.93           C  
+HETATM    9  C17 R0B A 301      12.459   8.859  22.859  1.00 17.12           C  
+HETATM   10  C13 R0B A 301      16.021  10.022  21.897  1.00 11.73           C  
+HETATM   11  C15 R0B A 301      13.787   9.533  23.031  1.00 14.34           C  
+HETATM   12  C18 R0B A 301      13.934  10.773  20.818  1.00 11.79           C  
+HETATM   13  C02 R0B A 301      17.634  11.013  18.611  1.00 13.31           C  
+HETATM   14  C04 R0B A 301      17.161  10.225  19.908  1.00 14.05           C  
+HETATM   15  C05 R0B A 301      17.731   8.883  20.271  1.00 14.59           C  
+HETATM   16  C07 R0B A 301      18.482   7.984  19.599  1.00 19.21           C  
+HETATM   17  C08 R0B A 301      18.790   6.541  19.989  1.00 25.53           C  
+HETATM   18  C09 R0B A 301      19.055   5.608  18.755  1.00 30.77           C  
+HETATM   19  C14 R0B A 301      14.529   9.669  21.658  1.00 11.82           C  
+HETATM   20  N12 R0B A 301      16.532  10.846  20.822  1.00 12.76           N  
+HETATM   21  O01 R0B A 301      17.742  12.225  18.690  1.00 17.25           O1-
+HETATM   22  O03 R0B A 301      17.819  10.253  17.631  1.00 14.24           O1-
+HETATM   23  O16 R0B A 301      14.608   8.743  23.904  1.00 16.34           O  
+HETATM   24  O19 R0B A 301      13.513  10.578  19.694  1.00 11.89           O  
+HETATM   25  S06 R0B A 301      17.081   8.507  21.902  1.00 14.77           S  
+CONECT    8   18
+CONECT    9   11
+CONECT   10   19   20   25
+CONECT   11    9   19   23
+CONECT   12    6   19   24
+CONECT   12   24
+CONECT   13   14   21   22
+CONECT   13   22
+CONECT   14   13   15   20
+CONECT   14   15
+CONECT   15   14   16   25
+CONECT   15   14
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   18    8   17
+CONECT   19   10   11   12
+CONECT   20   10   14
+CONECT   21   13
+CONECT   22   13
+CONECT   22   13
+CONECT   23   11
+CONECT   24   12
+CONECT   24   12
+CONECT   25   10   15
+ENDMDL
+END   

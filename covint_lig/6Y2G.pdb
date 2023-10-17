@@ -1,0 +1,120 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6Y2G
+MODEL        1
+ATOM      1  N   CYS A 145     -19.680  -0.646 -21.969  1.00 28.17           N1+
+ATOM      2  CA  CYS A 145     -20.215   0.389 -22.891  1.00 27.58           C  
+ATOM      3  C   CYS A 145     -20.631   1.611 -22.092  1.00 25.24           C  
+ATOM      4  O   CYS A 145     -21.188   1.404 -21.020  1.00 26.85           O  
+ATOM      5  CB  CYS A 145     -21.367  -0.120 -23.746  1.00 31.94           C  
+ATOM      6  SG  CYS A 145     -20.804  -1.253 -25.052  1.00 34.87           S  
+TER       7      CYS A 145
+HETATM    8  O26 O6K A 402     -19.382  -9.336 -32.329  1.00 63.38           O  
+HETATM    9  C24 O6K A 402     -18.603  -8.584 -31.760  1.00 66.69           C  
+HETATM   10  O25 O6K A 402     -17.185  -8.851 -31.747  1.00 65.31           O  
+HETATM   11  C27 O6K A 402     -16.771 -10.191 -31.573  1.00 76.36           C  
+HETATM   12  C31 O6K A 402     -17.707 -10.933 -30.606  1.00 74.62           C  
+HETATM   13  C32 O6K A 402     -15.391 -10.211 -30.938  1.00 77.63           C  
+HETATM   14  C33 O6K A 402     -16.756 -10.771 -32.990  1.00 74.51           C  
+HETATM   15  N23 O6K A 402     -18.962  -7.501 -31.124  1.00 59.94           N  
+HETATM   16  C19 O6K A 402     -20.227  -7.064 -31.000  1.00 54.02           C  
+HETATM   17  C21 O6K A 402     -20.380  -5.811 -30.220  1.00 51.28           C  
+HETATM   18  O22 O6K A 402     -19.366  -5.200 -29.701  1.00 43.72           O  
+HETATM   19  C18 O6K A 402     -21.366  -7.698 -31.509  1.00 48.70           C  
+HETATM   20  C17 O6K A 402     -22.625  -7.153 -31.298  1.00 45.50           C  
+HETATM   21  C16 O6K A 402     -22.773  -5.989 -30.589  1.00 41.80           C  
+HETATM   22  N15 O6K A 402     -21.703  -5.345 -30.095  1.00 40.02           N  
+HETATM   23  C20 O6K A 402     -21.791  -4.164 -29.267  1.00 39.79           C  
+HETATM   24  C22 O6K A 402     -23.109  -3.390 -29.384  1.00 34.93           C  
+HETATM   25  C29 O6K A 402     -23.437  -2.974 -30.819  1.00 37.04           C  
+HETATM   26  C34 O6K A 402     -22.505  -1.986 -31.520  1.00 37.59           C  
+HETATM   27  C30 O6K A 402     -23.889  -1.531 -31.055  1.00 38.79           C  
+HETATM   28  C36 O6K A 402     -21.545  -4.628 -27.834  1.00 36.27           C  
+HETATM   29  O37 O6K A 402     -21.892  -5.755 -27.384  1.00 38.80           O  
+HETATM   30  N38 O6K A 402     -20.904  -3.754 -27.085  1.00 35.78           N  
+HETATM   31  C40 O6K A 402     -20.656  -4.018 -25.641  1.00 41.65           C  
+HETATM   32  C42 O6K A 402     -19.157  -3.921 -25.296  1.00 38.22           C  
+HETATM   33  C45 O6K A 402     -18.315  -5.107 -25.818  1.00 42.94           C  
+HETATM   34  C47 O6K A 402     -16.812  -4.939 -25.529  1.00 43.31           C  
+HETATM   35  O48 O6K A 402     -16.151  -3.892 -25.741  1.00 38.36           O  
+HETATM   36  N49 O6K A 402     -16.344  -6.092 -25.040  1.00 39.58           N  
+HETATM   37  C51 O6K A 402     -17.367  -7.107 -24.757  1.00 46.27           C  
+HETATM   38  C54 O6K A 402     -18.696  -6.451 -25.205  1.00 42.55           C  
+HETATM   39  C57 O6K A 402     -21.506  -2.922 -24.974  1.00 43.70           C  
+HETATM   40  O40 O6K A 402     -22.894  -2.802 -25.411  1.00 45.97           O  
+HETATM   41  C35 O6K A 402     -21.527  -3.067 -23.504  1.00 46.13           C  
+HETATM   42  O41 O6K A 402     -20.546  -2.809 -22.848  1.00 53.30           O  
+HETATM   43  N36 O6K A 402     -22.552  -3.329 -22.863  1.00 47.27           N  
+HETATM   44  C13 O6K A 402     -23.887  -3.728 -23.024  1.00 40.80           C  
+HETATM   45  C14 O6K A 402     -23.969  -5.133 -22.455  1.00 43.59           C  
+HETATM   46  C28 O6K A 402     -24.368  -5.327 -21.139  1.00 43.94           C  
+HETATM   47  C26 O6K A 402     -24.492  -6.631 -20.648  1.00 48.19           C  
+HETATM   48  C25 O6K A 402     -24.218  -7.747 -21.465  1.00 45.48           C  
+HETATM   49  C23 O6K A 402     -23.814  -7.541 -22.780  1.00 45.63           C  
+HETATM   50  C15 O6K A 402     -23.692  -6.246 -23.279  1.00 43.98           C  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    8   10   15
+CONECT    9    8
+CONECT   10    9   11
+CONECT   11   10   12   13   14
+CONECT   12   11
+CONECT   13   11
+CONECT   14   11
+CONECT   15    9   16
+CONECT   16   15   17   19
+CONECT   16   19
+CONECT   17   16   18   22
+CONECT   17   18
+CONECT   18   17
+CONECT   18   17
+CONECT   19   16   20
+CONECT   19   16
+CONECT   20   19   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22   17   21   23
+CONECT   23   22   24   28
+CONECT   24   23   25
+CONECT   25   24   26   27
+CONECT   26   25   27
+CONECT   27   25   26
+CONECT   28   23   29   30
+CONECT   28   29
+CONECT   29   28
+CONECT   29   28
+CONECT   30   28   31
+CONECT   31   30   32   39
+CONECT   32   31   33
+CONECT   33   32   34   38
+CONECT   34   33   35   36
+CONECT   34   35
+CONECT   35   34
+CONECT   35   34
+CONECT   36   34   37
+CONECT   37   36   38
+CONECT   38   33   37
+CONECT   39    6   31   40   41
+CONECT   40   39
+CONECT   41   39   42   43
+CONECT   41   42
+CONECT   42   41
+CONECT   42   41
+CONECT   43   41   44
+CONECT   44   43   45
+CONECT   45   44   46   50
+CONECT   45   46
+CONECT   46   45   47
+CONECT   46   45
+CONECT   47   46   48
+CONECT   47   48
+CONECT   48   47   49
+CONECT   48   47
+CONECT   49   48   50
+CONECT   49   50
+CONECT   50   45   49
+CONECT   50   49
+ENDMDL
+END   

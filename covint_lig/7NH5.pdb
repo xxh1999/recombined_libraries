@@ -1,0 +1,132 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7NH5
+MODEL        1
+ATOM      1  N   CYS A 310       2.497 -14.051 -24.551  1.00 68.86           N1+
+ATOM      2  CA  CYS A 310       2.617 -13.783 -23.121  1.00 75.84           C  
+ATOM      3  C   CYS A 310       3.200 -12.391 -22.905  1.00 73.49           C  
+ATOM      4  O   CYS A 310       4.369 -12.144 -23.221  1.00 69.10           O  
+ATOM      5  CB  CYS A 310       3.470 -14.836 -22.411  1.00 77.14           C  
+ATOM      6  SG  CYS A 310       3.104 -14.872 -20.650  1.00 83.28           S  
+TER       7      CYS A 310
+HETATM    8  C10 UC8 A 502      15.119 -14.506 -12.340  1.00 32.07           C  
+HETATM    9  C13 UC8 A 502      16.585 -14.683  -8.825  1.00 35.46           C  
+HETATM   10  C15 UC8 A 502      17.804 -16.353  -7.773  1.00 40.74           C  
+HETATM   11  C17 UC8 A 502      19.033 -15.877  -5.586  1.00 46.08           C  
+HETATM   12  C21 UC8 A 502      17.741 -14.137  -6.789  1.00 41.58           C  
+HETATM   13  C22 UC8 A 502      16.927 -13.743  -7.843  1.00 37.91           C  
+HETATM   14  C24 UC8 A 502      15.934 -11.751  -6.722  1.00 35.24           C  
+HETATM   15  C26 UC8 A 502      15.673  -9.670  -7.825  1.00 36.69           C  
+HETATM   16  C28 UC8 A 502      16.644 -11.527  -9.026  1.00 35.92           C  
+HETATM   17  C08 UC8 A 502      12.931 -13.532 -13.299  1.00 35.86           C  
+HETATM   18  C09 UC8 A 502      13.920 -13.850 -12.111  1.00 37.07           C  
+HETATM   19  C11 UC8 A 502      16.011 -14.807 -11.311  1.00 33.55           C  
+HETATM   20  C12 UC8 A 502      15.675 -14.363 -10.020  1.00 35.24           C  
+HETATM   21  C16 UC8 A 502      18.172 -15.449  -6.780  1.00 43.31           C  
+HETATM   22  C19 UC8 A 502      20.311 -17.551  -4.278  1.00 53.65           C  
+HETATM   23  C23 UC8 A 502      16.486 -12.303  -7.861  1.00 33.62           C  
+HETATM   24  C25 UC8 A 502      15.539 -10.434  -6.669  1.00 35.58           C  
+HETATM   25  C27 UC8 A 502      16.221 -10.214  -8.986  1.00 35.10           C  
+HETATM   26  C29 UC8 A 502      14.465 -13.713  -9.763  1.00 34.13           C  
+HETATM   27  C30 UC8 A 502      13.583 -13.439 -10.811  1.00 33.21           C  
+HETATM   28  N14 UC8 A 502      17.027 -15.921  -8.773  1.00 38.99           N  
+HETATM   29  N18 UC8 A 502      19.531 -17.216  -5.477  1.00 51.30           N  
+HETATM   30  O20 UC8 A 502      19.224 -15.102  -4.711  1.00 52.67           O  
+HETATM   31  C02 UC8 A 502      12.773 -18.056 -17.396  0.50 41.19           C  
+HETATM   32  C04 UC8 A 502      11.468 -16.311 -15.925  0.50 42.11           C  
+HETATM   33  C05 UC8 A 502      11.992 -15.047 -16.405  0.50 39.00           C  
+HETATM   34  C06 UC8 A 502      12.100 -13.976 -15.304  0.50 36.03           C  
+HETATM   35  C31 UC8 A 502      12.071 -15.612 -13.622  0.50 37.48           C  
+HETATM   36  C32 UC8 A 502      12.035 -16.770 -14.656  0.50 39.44           C  
+HETATM   37  C33 UC8 A 502      10.430 -18.226 -17.339  0.50 44.97           C  
+HETATM   38  C34 UC8 A 502       9.051 -18.088 -17.108  0.50 45.68           C  
+HETATM   39  C35 UC8 A 502       8.154 -18.973 -17.725  0.50 45.45           C  
+HETATM   40  C37 UC8 A 502       5.883 -19.965 -17.323  0.50 49.23           C  
+HETATM   41  C38 UC8 A 502       4.407 -19.724 -17.063  0.50 45.27           C  
+HETATM   42  C39 UC8 A 502       3.805 -20.869 -16.251  0.50 44.51           C  
+HETATM   43  C41 UC8 A 502       8.608 -19.996 -18.586  0.50 44.11           C  
+HETATM   44  C42 UC8 A 502       9.981 -20.143 -18.802  0.50 49.81           C  
+HETATM   45  C43 UC8 A 502      10.893 -19.249 -18.186  0.50 47.34           C  
+HETATM   46  N03 UC8 A 502      11.592 -17.466 -16.828  0.50 42.43           N  
+HETATM   47  N07 UC8 A 502      12.795 -14.470 -14.129  0.50 35.29           N1+
+HETATM   48  N36 UC8 A 502       6.740 -18.814 -17.484  0.50 47.68           N  
+HETATM   49  N44 UC8 A 502      12.368 -19.160 -18.228  0.50 43.53           N  
+HETATM   50  O01 UC8 A 502      13.899 -17.711 -17.226  0.50 42.50           O  
+HETATM   51  O40 UC8 A 502       6.303 -21.068 -17.385  0.50 54.18           O  
+CONECT    8   18   19
+CONECT    8   19
+CONECT    9   13   20   28
+CONECT    9   28
+CONECT   10   21   28
+CONECT   10   21
+CONECT   11   21   29   30
+CONECT   11   30
+CONECT   12   13   21
+CONECT   12   13
+CONECT   13    9   12   23
+CONECT   13   12
+CONECT   14   23   24
+CONECT   14   24
+CONECT   15   24   25
+CONECT   15   25
+CONECT   16   23   25
+CONECT   16   23
+CONECT   17   18   47
+CONECT   18    8   17   27
+CONECT   18   27
+CONECT   19    8   20
+CONECT   19    8
+CONECT   20    9   19   26
+CONECT   20   26
+CONECT   21   10   11   12
+CONECT   21   10
+CONECT   22   29
+CONECT   23   13   14   16
+CONECT   23   16
+CONECT   24   14   15
+CONECT   24   14
+CONECT   25   15   16
+CONECT   25   15
+CONECT   26   20   27
+CONECT   26   20
+CONECT   27   18   26
+CONECT   27   18
+CONECT   28    9   10
+CONECT   28    9
+CONECT   29   11   22
+CONECT   30   11
+CONECT   30   11
+CONECT   31   46   49   50
+CONECT   31   50
+CONECT   32   33   36   46
+CONECT   33   32   34
+CONECT   34   33   47
+CONECT   35   36   47
+CONECT   36   32   35
+CONECT   37   38   45   46
+CONECT   37   45
+CONECT   38   37   39
+CONECT   38   39
+CONECT   39   38   43   48
+CONECT   39   38
+CONECT   40   41   48   51
+CONECT   40   51
+CONECT   41   40   42
+CONECT   42    6   41
+CONECT   43   39   44
+CONECT   43   44
+CONECT   44   43   45
+CONECT   44   43
+CONECT   45   37   44   49
+CONECT   45   37
+CONECT   46   31   32   37
+CONECT   47   17   34   35
+CONECT   48   39   40
+CONECT   49   31   45
+CONECT   50   31
+CONECT   50   31
+CONECT   51   40
+CONECT   51   40
+ENDMDL
+END   

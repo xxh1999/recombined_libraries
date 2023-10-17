@@ -1,0 +1,55 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1QZ3
+MODEL        1
+ATOM      1  N   SER A 155      70.289  60.766  31.125  1.00 22.22           N1+
+ATOM      2  CA  SER A 155      70.530  59.786  32.189  1.00 23.20           C  
+ATOM      3  C   SER A 155      69.625  60.038  33.405  1.00 21.66           C  
+ATOM      4  O   SER A 155      68.410  59.868  33.312  1.00 21.67           O  
+ATOM      5  CB  SER A 155      72.029  59.713  32.525  1.00 28.32           C  
+ATOM      6  OG  SER A 155      72.252  58.567  33.340  1.00 36.05           O  
+TER       7      SER A 155
+HETATM    8  C1  HDS A 400      74.874  58.657  33.933  1.00 35.09           C  
+HETATM    9  C2  HDS A 400      75.994  59.172  34.815  1.00 35.93           C  
+HETATM   10  C3  HDS A 400      77.342  58.980  34.115  1.00 34.82           C  
+HETATM   11  C4  HDS A 400      78.519  59.433  34.976  1.00 36.99           C  
+HETATM   12  C5  HDS A 400      79.845  59.386  34.218  1.00 35.52           C  
+HETATM   13  C6  HDS A 400      81.013  59.963  35.034  1.00 39.79           C  
+HETATM   14  C7  HDS A 400      82.120  58.951  35.370  1.00 39.23           C  
+HETATM   15  C8  HDS A 400      83.535  59.553  35.356  1.00 40.29           C  
+HETATM   16  C9  HDS A 400      84.028  59.491  33.921  1.00 43.20           C  
+HETATM   17  C10 HDS A 400      85.362  60.142  33.572  1.00 42.53           C  
+HETATM   18  C11 HDS A 400      85.431  60.094  32.046  1.00 42.90           C  
+HETATM   19  C12 HDS A 400      86.734  60.510  31.390  1.00 45.65           C  
+HETATM   20  C13 HDS A 400      86.483  60.565  29.882  1.00 44.64           C  
+HETATM   21  C14 HDS A 400      87.724  60.820  29.046  1.00 45.15           C  
+HETATM   22  C15 HDS A 400      88.578  59.587  28.767  1.00 45.65           C  
+HETATM   23  C16 HDS A 400      89.474  59.872  27.564  1.00 47.93           C  
+HETATM   24  S1  HDS A 400      73.225  58.793  34.701  1.00 35.33           S  
+HETATM   25  O1S HDS A 400      73.010  57.652  35.601  1.00 33.68           O  
+HETATM   26  O2S HDS A 400      73.030  60.171  35.174  1.00 36.33           O  
+CONECT    8    9   24
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   23   22
+CONECT   24    6    8   25   26
+CONECT   24   25   26
+CONECT   25   24
+CONECT   25   24
+CONECT   26   24
+CONECT   26   24
+ENDMDL
+END   

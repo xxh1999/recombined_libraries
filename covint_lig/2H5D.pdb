@@ -1,0 +1,33 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2H5D
+MODEL        1
+ATOM      1  N   ALA B 200      12.964  41.458  18.855  0.78 10.64           N1+
+ATOM      2  CA  ALA B 200      13.748  40.245  18.671  0.78  7.97           C  
+ATOM      3  C   ALA B 200      12.852  39.010  18.773  0.78  6.58           C  
+ATOM      4  O   ALA B 200      12.053  38.879  19.700  0.78  7.56           O  
+ATOM      5  CB  ALA B 200      14.870  40.147  19.706  0.78 11.71           C  
+TER       6      ALA B 200
+HETATM    7  C1  MSU B 199      12.032  41.851  17.975  0.44 10.96           C  
+HETATM    8  O1  MSU B 199      11.714  41.173  16.994  0.44 11.82           O  
+HETATM    9  C2  MSU B 199      11.385  43.210  18.219  0.44 15.54           C  
+HETATM   10  C3  MSU B 199      10.440  43.628  17.076  0.44 15.43           C  
+HETATM   11  C4  MSU B 199      11.125  43.876  15.725  0.44 17.30           C  
+HETATM   12  OT1 MSU B 199      12.347  43.997  15.605  0.44 22.53           O  
+HETATM   13  OT2 MSU B 199      10.226  43.929  14.739  0.44 19.37           O  
+HETATM   14  CT  MSU B 199      10.589  44.355  13.446  0.44 38.80           C  
+CONECT    7    1    8    9
+CONECT    7    8
+CONECT    8    7
+CONECT    8    7
+CONECT    9    7   10
+CONECT   10    9   11
+CONECT   11   10   12   13
+CONECT   11   12
+CONECT   12   11
+CONECT   12   11
+CONECT   13   11   14
+CONECT   14   13
+ENDMDL
+END   

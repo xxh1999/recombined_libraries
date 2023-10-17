@@ -1,0 +1,62 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6R5L
+MODEL        1
+ATOM      1  N   CYS A  38      24.988  25.808  -6.454  1.00 10.07           N1+
+ATOM      2  CA  CYS A  38      23.883  25.205  -5.685  1.00  8.59           C  
+ATOM      3  C   CYS A  38      23.702  23.706  -5.968  1.00 14.03           C  
+ATOM      4  O   CYS A  38      23.576  22.923  -5.027  1.00 12.25           O  
+ATOM      5  CB  CYS A  38      22.539  25.932  -5.919  1.00 30.00           C  
+ATOM      6  SG  CYS A  38      21.179  25.241  -4.910  1.00 30.00           S  
+TER       7      CYS A  38
+HETATM    8  C15 JT2 A 305      19.139  18.464  -5.726  1.00 36.28           C  
+HETATM    9  C17 JT2 A 305      20.334  16.421  -6.635  1.00 29.83           C  
+HETATM   10  C02 JT2 A 305      19.985  20.300  -6.993  1.00 30.12           C  
+HETATM   11  C03 JT2 A 305      19.102  19.903  -5.943  1.00 36.97           C  
+HETATM   12  C04 JT2 A 305      18.350  20.930  -5.308  1.00 37.75           C  
+HETATM   13  C05 JT2 A 305      18.494  22.287  -5.711  1.00 33.33           C  
+HETATM   14  C06 JT2 A 305      19.367  22.648  -6.760  1.00 30.32           C  
+HETATM   15  C07 JT2 A 305      20.091  21.636  -7.409  1.00 25.41           C  
+HETATM   16  C08 JT2 A 305      19.499  24.078  -7.283  1.00 32.67           C  
+HETATM   17  C11 JT2 A 305      16.479  21.443  -3.699  1.00 46.73           C  
+HETATM   18  C12 JT2 A 305      17.073  22.259  -2.532  1.00 46.96           C  
+HETATM   19  C14 JT2 A 305      15.235  20.651  -3.270  1.00 54.08           C  
+HETATM   20  C16 JT2 A 305      20.036  17.835  -6.560  1.00 33.16           C  
+HETATM   21  N10 JT2 A 305      17.468  20.544  -4.284  1.00 41.53           N  
+HETATM   22  N13 JT2 A 305      17.726  21.402  -1.524  1.00 42.74           N1+
+HETATM   23  N18 JT2 A 305      20.915  15.887  -7.718  1.00 22.32           N1+
+HETATM   24  N19 JT2 A 305      20.040  15.596  -5.622  1.00 28.26           N  
+HETATM   25  S01 JT2 A 305      20.867  18.927  -7.630  1.00 38.75           S  
+HETATM   26  S09 JT2 A 305      19.459  25.382  -6.006  1.00 50.07           S  
+CONECT    8   11   20
+CONECT    8   20
+CONECT    9   20   23   24
+CONECT    9   23
+CONECT   10   11   15   25
+CONECT   10   11
+CONECT   11    8   10   12
+CONECT   11   10
+CONECT   12   11   13   21
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15   16
+CONECT   14   15
+CONECT   15   10   14
+CONECT   15   14
+CONECT   16   14   26
+CONECT   17   18   19   21
+CONECT   18   17   22
+CONECT   19   17
+CONECT   20    8    9   25
+CONECT   20    8
+CONECT   21   12   17
+CONECT   22   18
+CONECT   23    9
+CONECT   23    9
+CONECT   24    9
+CONECT   25   10   20
+CONECT   26    6   16
+ENDMDL
+END   

@@ -1,0 +1,53 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7rsp_ligand
+MODEL        1
+HETATM    1  C14 Q7I A 902       3.928  16.501  38.106  1.00  0.00           C  
+HETATM    2  C5  Q7I A 902      -0.134  21.197  43.069  1.00  0.00           C  
+HETATM    3  C6  Q7I A 902       0.953  20.363  42.390  1.00  0.00           C  
+HETATM    4  C8  Q7I A 902       1.999  20.046  40.287  1.00  0.00           C  
+HETATM    5  C9  Q7I A 902       2.750  20.351  39.138  1.00  0.00           C  
+HETATM    6  C10 Q7I A 902       3.384  19.203  38.748  1.00  0.00           C  
+HETATM    7  C13 Q7I A 902       3.512  16.838  39.542  1.00  0.00           C  
+HETATM    8  C3  Q7I A 902       0.503  23.116  41.788  1.00  0.00           C  
+HETATM    9  C1  Q7I A 902       2.924  22.494  41.758  1.00  0.00           C  
+HETATM   10  C16 Q7I A 902       4.300  18.908  37.632  1.00  0.00           C  
+HETATM   11  C18 Q7I A 902       4.677  16.663  40.524  1.00  0.00           C  
+HETATM   12  C19 Q7I A 902       4.984  15.177  40.715  1.00  0.00           C  
+HETATM   13  C2  Q7I A 902       1.579  22.314  41.050  1.00  0.00           C  
+HETATM   14  C20 Q7I A 902       5.914  17.407  40.016  1.00  0.00           C  
+HETATM   15  N11 Q7I A 902       3.024  18.212  39.635  1.00  0.00           N  
+HETATM   16  N12 Q7I A 902       2.169  18.773  40.569  1.00  0.00           N  
+HETATM   17  N15 Q7I A 902       4.533  17.600  37.362  1.00  0.00           N  
+HETATM   18  N7  Q7I A 902       1.178  20.898  41.037  1.00  0.00           N  
+HETATM   19  O17 Q7I A 902       4.828  19.791  36.986  1.00  0.00           O  
+HETATM   20  O4  Q7I A 902       0.296  22.560  43.090  1.00  0.00           O  
+CONECT    1    7   17
+CONECT    2    3   20
+CONECT    3    2   18
+CONECT    4    5   16   18
+CONECT    4   16
+CONECT    5    4    6
+CONECT    5    6
+CONECT    6    5   10   15
+CONECT    6    5
+CONECT    7    1   11   15
+CONECT    8   13   20
+CONECT    9   13
+CONECT   10    6   17   19
+CONECT   10   19
+CONECT   11    7   12   14
+CONECT   12   11
+CONECT   13    8    9   18
+CONECT   14   11
+CONECT   15    6    7   16
+CONECT   16    4   15
+CONECT   16    4
+CONECT   17    1   10
+CONECT   18    3    4   13
+CONECT   19   10
+CONECT   19   10
+CONECT   20    2    8
+ENDMDL
+END   

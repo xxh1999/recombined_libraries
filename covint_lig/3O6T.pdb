@@ -1,0 +1,62 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3O6T
+MODEL        1
+ATOM      1  N   CYS A  37      28.008 -28.219  14.029  1.00 27.84           N1+
+ATOM      2  CA  CYS A  37      28.309 -27.281  15.109  1.00 26.07           C  
+ATOM      3  C   CYS A  37      27.470 -27.621  16.348  1.00 27.47           C  
+ATOM      4  O   CYS A  37      26.245 -27.492  16.340  1.00 23.06           O  
+ATOM      5  CB  CYS A  37      28.059 -25.835  14.642  1.00 25.41           C  
+ATOM      6  SG  CYS A  37      28.506 -24.661  15.958  1.00 31.83           S  
+TER       7      CYS A  37
+HETATM    8  C1  PX5 A 117      30.067 -19.994  20.758  1.00 29.65           C  
+HETATM    9  C2  PX5 A 117      30.859 -20.726  19.853  1.00 26.98           C  
+HETATM   10  C3  PX5 A 117      30.368 -21.078  18.576  1.00 27.24           C  
+HETATM   11  C4  PX5 A 117      29.049 -20.666  18.239  1.00 26.86           C  
+HETATM   12  C5  PX5 A 117      28.252 -19.932  19.134  1.00 27.97           C  
+HETATM   13  C6  PX5 A 117      28.764 -19.600  20.401  1.00 23.24           C  
+HETATM   14  S7  PX5 A 117      28.648 -21.250  16.636  1.00 22.80           S  
+HETATM   15  C8  PX5 A 117      30.238 -22.010  16.537  1.00 23.21           C  
+HETATM   16  N9  PX5 A 117      31.029 -21.820  17.605  1.00 22.60           N  
+HETATM   17  C10 PX5 A 117      30.642 -22.924  15.413  1.00 27.24           C  
+HETATM   18  C11 PX5 A 117      32.157 -22.861  15.182  1.00 27.88           C  
+HETATM   19  C12 PX5 A 117      33.042 -23.859  15.409  1.00 30.95           C  
+HETATM   20  C13 PX5 A 117      32.618 -25.183  15.908  1.00 30.69           C  
+HETATM   21  C14 PX5 A 117      31.152 -25.364  16.031  1.00 32.10           C  
+HETATM   22  C15 PX5 A 117      30.258 -24.372  15.777  1.00 27.53           C  
+HETATM   23  O16 PX5 A 117      30.026 -22.545  14.322  1.00 32.12           O1-
+HETATM   24  O17 PX5 A 117      33.420 -26.065  16.208  1.00 24.55           O  
+CONECT    8    9   13
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    9   11   16
+CONECT   10   11
+CONECT   11   10   12   14
+CONECT   11   10
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13    8   12
+CONECT   13   12
+CONECT   14   11   15
+CONECT   15   14   16   17
+CONECT   15   16
+CONECT   16   10   15
+CONECT   16   15
+CONECT   17   15   18   22   23
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   19   21   24
+CONECT   20   24
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22    6   17   21
+CONECT   22   21
+CONECT   23   17
+CONECT   24   20
+CONECT   24   20
+ENDMDL
+END   

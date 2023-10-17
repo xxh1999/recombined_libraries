@@ -1,0 +1,40 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5FC2
+MODEL        1
+ATOM      1  N   LYS A   2     -29.408 -22.822   8.914  1.00 39.53           N1+
+ATOM      2  CA  LYS A   2     -29.492 -21.421   9.329  1.00 39.46           C  
+ATOM      3  C   LYS A   2     -30.713 -20.773   8.668  1.00 39.81           C  
+ATOM      4  O   LYS A   2     -31.008 -21.074   7.508  1.00 35.20           O  
+ATOM      5  CB  LYS A   2     -28.239 -20.671   8.846  1.00 40.41           C  
+ATOM      6  CG  LYS A   2     -26.974 -20.899   9.690  1.00 47.22           C  
+ATOM      7  CD  LYS A   2     -25.699 -20.464   8.946  1.00 50.57           C  
+ATOM      8  CE  LYS A   2     -25.672 -18.974   8.576  1.00 57.02           C  
+ATOM      9  NZ  LYS A   2     -24.652 -18.699   7.555  1.00 60.61           N1+
+HETATM   10  N   SEP A   3     -31.407 -19.885   9.395  1.00 33.63           N  
+HETATM   11  CA  SEP A   3     -32.584 -19.164   8.915  1.00 38.87           C  
+HETATM   12  CB  SEP A   3     -33.069 -18.201  10.005  1.00 42.30           C  
+HETATM   13  OG  SEP A   3     -33.403 -18.921  11.178  1.00 50.29           O  
+HETATM   14  C   SEP A   3     -32.268 -18.372   7.643  1.00 37.34           C  
+HETATM   15  O   SEP A   3     -31.201 -17.761   7.543  1.00 39.71           O  
+HETATM   16  P   SEP A   3     -33.649 -17.977  12.493  1.00 62.53           P  
+HETATM   17  O1P SEP A   3     -34.685 -16.946  12.084  1.00 64.59           O  
+HETATM   18  O2P SEP A   3     -34.140 -18.924  13.568  1.00 74.51           O1-
+HETATM   19  O3P SEP A   3     -32.304 -17.357  12.817  1.00 62.60           O1-
+CONECT   10    3   11
+CONECT   11   10   12   14
+CONECT   12   11   13
+CONECT   13   12   16
+CONECT   14   11   15
+CONECT   14   15
+CONECT   15   14
+CONECT   15   14
+CONECT   16   13   17   18   19
+CONECT   16   17
+CONECT   17   16
+CONECT   17   16
+CONECT   18   16
+CONECT   19   16
+ENDMDL
+END   

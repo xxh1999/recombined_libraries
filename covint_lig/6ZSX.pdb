@@ -1,0 +1,53 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6ZSX
+MODEL        1
+ATOM      1  N   LYS A 111     -27.627  10.501   2.265  1.00 46.74           N1+
+ATOM      2  CA  LYS A 111     -28.375  11.727   2.094  1.00 48.65           C  
+ATOM      3  C   LYS A 111     -29.704  11.358   1.446  1.00 49.26           C  
+ATOM      4  O   LYS A 111     -29.775  10.463   0.603  1.00 53.45           O  
+ATOM      5  CB  LYS A 111     -27.646  12.754   1.212  1.00 49.62           C  
+ATOM      6  CG  LYS A 111     -26.570  13.581   1.907  1.00 61.10           C  
+ATOM      7  CD  LYS A 111     -25.959  14.646   1.014  1.00 64.84           C  
+ATOM      8  CE  LYS A 111     -24.817  15.412   1.665  1.00 66.08           C  
+ATOM      9  NZ  LYS A 111     -23.592  14.588   1.810  1.00 73.13           N1+
+TER      10      LYS A 111
+HETATM   11  CAM QPE A 201     -18.614  16.777   0.636  0.80 87.20           C  
+HETATM   12  OAL QPE A 201     -19.836  16.033   0.910  0.80102.74           O  
+HETATM   13  CAJ QPE A 201     -19.720  15.185   1.982  0.80103.71           C  
+HETATM   14  OAK QPE A 201     -18.616  14.790   2.342  0.80129.32           O  
+HETATM   15  CAH QPE A 201     -21.042  14.737   2.727  0.80 99.17           C  
+HETATM   16  CAI QPE A 201     -22.415  15.256   2.230  0.80 91.50           C  
+HETATM   17  CAG QPE A 201     -21.080  13.943   3.790  0.80 82.08           C  
+HETATM   18  CAD QPE A 201     -19.953  13.337   4.347  0.80 78.69           C  
+HETATM   19  CAC QPE A 201     -18.796  12.998   3.598  0.80 74.60           C  
+HETATM   20  CAA QPE A 201     -17.671  12.364   4.159  0.80 70.18           C  
+HETATM   21  CAB QPE A 201     -17.735  12.031   5.514  0.80 71.52           C  
+HETATM   22  CAF QPE A 201     -18.896  12.342   6.235  0.80 71.89           C  
+HETATM   23  CAE QPE A 201     -20.010  12.984   5.684  0.80 66.90           C  
+CONECT   11   12
+CONECT   12   11   13
+CONECT   13   12   14   15
+CONECT   13   14
+CONECT   14   13
+CONECT   14   13
+CONECT   15   13   16   17
+CONECT   15   17
+CONECT   16    9   15
+CONECT   17   15   18
+CONECT   17   15
+CONECT   18   17   19   23
+CONECT   18   23
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   18   22
+CONECT   23   18
+ENDMDL
+END   

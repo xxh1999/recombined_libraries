@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6MKG
+MODEL        1
+ATOM      1  N   SER A 422      12.998 -85.658 -45.921  0.87 51.86           N1+
+ATOM      2  CA  SER A 422      12.639 -85.060 -47.208  0.87 42.90           C  
+ATOM      3  C   SER A 422      13.105 -83.600 -47.360  0.87 37.33           C  
+ATOM      4  O   SER A 422      12.985 -83.036 -48.446  0.87 43.75           O  
+ATOM      5  CB  SER A 422      11.115 -85.037 -47.351  0.87 38.70           C  
+ATOM      6  OG  SER A 422      10.480 -86.288 -47.559  0.87 44.30           O  
+TER       7      SER A 422
+HETATM    8  O8  PNM A 701      10.615 -87.092 -45.421  0.87 61.16           O  
+HETATM    9  C7  PNM A 701      10.079 -87.044 -46.526  0.87 46.21           C  
+HETATM   10  N4  PNM A 701       7.715 -85.449 -46.553  0.87 50.96           N  
+HETATM   11  C3  PNM A 701       6.840 -85.358 -45.385  0.87 48.07           C  
+HETATM   12  C11 PNM A 701       6.787 -83.913 -44.861  0.87 50.40           C  
+HETATM   13  O13 PNM A 701       6.498 -83.751 -43.656  0.87 60.92           O1-
+HETATM   14  O12 PNM A 701       7.045 -82.994 -45.671  0.87 42.41           O  
+HETATM   15  C2  PNM A 701       5.465 -85.957 -45.753  0.87 55.41           C  
+HETATM   16  C10 PNM A 701       4.576 -84.996 -46.571  0.87 41.51           C  
+HETATM   17  C9  PNM A 701       4.693 -86.443 -44.514  0.87 49.55           C  
+HETATM   18  S1  PNM A 701       5.923 -87.374 -46.776  0.87 60.96           S  
+HETATM   19  C5  PNM A 701       7.577 -86.753 -47.194  0.87 47.17           C  
+HETATM   20  C6  PNM A 701       8.763 -87.740 -46.891  0.87 50.30           C  
+HETATM   21  N14 PNM A 701       8.457 -88.834 -45.970  0.87 54.64           N  
+HETATM   22  C15 PNM A 701       8.042 -90.056 -46.340  0.87 61.25           C  
+HETATM   23  O16 PNM A 701       7.816 -90.370 -47.506  0.87 57.71           O  
+HETATM   24  C17 PNM A 701       7.825 -91.086 -45.232  0.87 63.63           C  
+HETATM   25  C18 PNM A 701       6.564 -90.782 -44.441  0.87 60.48           C  
+HETATM   26  C19 PNM A 701       5.338 -90.517 -45.094  0.87 59.83           C  
+HETATM   27  C20 PNM A 701       4.184 -90.219 -44.346  0.87 62.10           C  
+HETATM   28  C21 PNM A 701       4.242 -90.204 -42.941  0.87 57.40           C  
+HETATM   29  C22 PNM A 701       5.454 -90.493 -42.289  0.87 65.63           C  
+HETATM   30  C23 PNM A 701       6.612 -90.782 -43.033  0.87 66.96           C  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    6    8   20
+CONECT    9    8
+CONECT   10   11   19
+CONECT   11   10   12   15
+CONECT   12   11   13   14
+CONECT   12   14
+CONECT   13   12
+CONECT   14   12
+CONECT   14   12
+CONECT   15   11   16   17   18
+CONECT   16   15
+CONECT   17   15
+CONECT   18   15   19
+CONECT   19   10   18   20
+CONECT   20    9   19   21
+CONECT   21   20   22
+CONECT   22   21   23   24
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22   25
+CONECT   25   24   26   30
+CONECT   25   26
+CONECT   26   25   27
+CONECT   26   25
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   28   30
+CONECT   29   30
+CONECT   30   25   29
+CONECT   30   29
+ENDMDL
+END   

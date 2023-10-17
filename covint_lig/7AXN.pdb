@@ -1,0 +1,29 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7AXN
+MODEL        1
+ATOM      1  N   SER A  37      11.919  25.485   7.068  1.00 14.66           N1+
+ATOM      2  CA  SER A  37      13.220  26.046   7.351  1.00 14.30           C  
+ATOM      3  C   SER A  37      14.345  25.459   6.484  1.00 13.51           C  
+ATOM      4  O   SER A  37      14.144  24.510   5.755  1.00 13.62           O  
+ATOM      5  CB  SER A  37      13.554  25.775   8.825  1.00 13.18           C  
+ATOM      6  OG  SER A  37      13.853  24.386   8.969  1.00 15.05           O  
+HETATM    7  N   CSO A  38      15.543  26.038   6.560  0.70 14.08           N  
+HETATM    8  CA  CSO A  38      16.666  25.519   5.800  0.70 14.38           C  
+HETATM    9  CB  CSO A  38      17.923  26.318   6.228  0.70 15.30           C  
+HETATM   10  SG  CSO A  38      19.461  25.741   5.454  0.70 23.02           S  
+HETATM   11  C   CSO A  38      16.859  24.035   6.083  0.70 12.92           C  
+HETATM   12  O   CSO A  38      16.949  23.198   5.177  0.70 14.55           O  
+HETATM   13  OD  CSO A  38      20.148  24.478   6.475  0.70 19.09           O  
+CONECT    7    3    8
+CONECT    8    7    9   11
+CONECT    9    8   10
+CONECT   10    9   13
+CONECT   11    8   12
+CONECT   11   12
+CONECT   12   11
+CONECT   12   11
+CONECT   13   10
+ENDMDL
+END   

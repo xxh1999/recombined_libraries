@@ -1,0 +1,46 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1NLU
+MODEL        1
+ATOM      1  N   SER A 287      29.765  14.852  15.647  1.00  7.29           N1+
+ATOM      2  CA  SER A 287      29.084  16.125  15.417  1.00  7.31           C  
+ATOM      3  C   SER A 287      29.296  17.141  16.544  1.00  7.16           C  
+ATOM      4  O   SER A 287      28.961  18.303  16.346  1.00  7.95           O  
+ATOM      5  CB  SER A 287      27.571  15.900  15.347  1.00  8.16           C  
+ATOM      6  OG  SER A 287      27.208  15.080  14.250  1.00  8.86           O  
+TER       7      SER A 287
+HETATM    8  N   TYB B   3      25.700  13.627  12.283  1.00  8.06           N  
+HETATM    9  CA  TYB B   3      26.677  13.026  13.195  1.00  7.84           C  
+HETATM   10  C   TYB B   3      26.806  13.829  14.485  1.00  8.45           C  
+HETATM   11  O   TYB B   3      26.618  13.358  15.602  1.00  9.04           O  
+HETATM   12  CB  TYB B   3      28.069  12.963  12.534  1.00  8.72           C  
+HETATM   13  CG  TYB B   3      28.220  11.964  11.409  1.00  7.97           C  
+HETATM   14  CD1 TYB B   3      29.113  12.247  10.356  1.00  9.44           C  
+HETATM   15  CD2 TYB B   3      27.510  10.744  11.415  1.00 10.56           C  
+HETATM   16  CE1 TYB B   3      29.308  11.313   9.327  1.00  9.34           C  
+HETATM   17  CE2 TYB B   3      27.676   9.836  10.360  1.00 10.28           C  
+HETATM   18  CZ  TYB B   3      28.579  10.112   9.327  1.00  9.11           C  
+HETATM   19  OH  TYB B   3      28.744   9.208   8.331  1.00 10.06           O  
+CONECT    8    9
+CONECT    9    8   10   12
+CONECT   10    6    9   11
+CONECT   10   11
+CONECT   11   10
+CONECT   11   10
+CONECT   12    9   13
+CONECT   13   12   14   15
+CONECT   13   14
+CONECT   14   13   16
+CONECT   14   13
+CONECT   15   13   17
+CONECT   15   17
+CONECT   16   14   18
+CONECT   16   18
+CONECT   17   15   18
+CONECT   17   15
+CONECT   18   16   17   19
+CONECT   18   16
+CONECT   19   18
+ENDMDL
+END   

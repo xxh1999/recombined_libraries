@@ -1,0 +1,65 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4KE8
+MODEL        1
+ATOM      1  N   SER A  97      -4.429  -9.905 -18.981  1.00 16.08           N1+
+ATOM      2  CA  SER A  97      -3.014  -9.977 -18.614  1.00 15.94           C  
+ATOM      3  C   SER A  97      -2.323  -8.606 -18.722  1.00 14.55           C  
+ATOM      4  O   SER A  97      -2.710  -7.685 -18.007  1.00 14.23           O  
+ATOM      5  CB  SER A  97      -2.360 -11.172 -19.328  1.00 17.46           C  
+ATOM      6  OG  SER A  97      -1.122 -11.482 -18.751  1.00 21.06           O  
+TER       7      SER A  97
+HETATM    8  C14 1QY A 301      15.683 -16.204 -15.623  0.83 31.99           C  
+HETATM    9  C13 1QY A 301      14.582 -15.775 -16.596  0.83 37.28           C  
+HETATM   10  C12 1QY A 301      13.283 -15.329 -15.914  0.83 38.48           C  
+HETATM   11  C11 1QY A 301      12.877 -13.898 -16.298  0.83 33.51           C  
+HETATM   12  C10 1QY A 301      11.512 -13.504 -15.748  0.83 36.82           C  
+HETATM   13  C9  1QY A 301      10.334 -14.158 -16.477  0.83 33.87           C  
+HETATM   14  C8  1QY A 301       9.049 -14.082 -15.650  0.83 37.14           C  
+HETATM   15  C7  1QY A 301       7.807 -14.024 -16.535  0.83 32.75           C  
+HETATM   16  C6  1QY A 301       6.509 -14.045 -15.721  0.83 38.48           C  
+HETATM   17  C5  1QY A 301       5.485 -13.048 -16.256  0.83 34.03           C  
+HETATM   18  C4  1QY A 301       4.947 -13.361 -17.655  0.83 39.01           C  
+HETATM   19  C3  1QY A 301       4.186 -12.172 -18.247  0.83 37.00           C  
+HETATM   20  C2  1QY A 301       3.169 -11.570 -17.261  0.83 38.46           C  
+HETATM   21  C1  1QY A 301       2.022 -10.883 -17.974  0.83 29.32           C  
+HETATM   22  O1  1QY A 301       1.328 -11.925 -18.617  0.83 34.57           O  
+HETATM   23  P1  1QY A 301       0.188 -11.561 -19.693  0.83 31.74           P  
+HETATM   24  O2  1QY A 301       0.449 -10.363 -20.529  0.83 19.43           O  
+HETATM   25  C1H 1QY A 301      -0.049 -13.091 -20.704  0.83 29.55           C  
+HETATM   26  C2H 1QY A 301       1.258 -13.780 -21.080  0.83 35.88           C  
+HETATM   27  C3H 1QY A 301       1.764 -14.752 -20.023  0.83 37.49           C  
+HETATM   28  N1  1QY A 301       3.123 -15.134 -20.342  0.83 43.15           N  
+HETATM   29  N2  1QY A 301       4.248 -15.204 -20.654  0.83 47.24           N1+
+HETATM   30  N3  1QY A 301       5.362 -15.055 -20.988  0.83 42.12           N  
+CONECT    8    9
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   23    6   22   24   25
+CONECT   23   24
+CONECT   24   23
+CONECT   24   23
+CONECT   25   23   26
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   27   29
+CONECT   28   29
+CONECT   29   28   30
+CONECT   29   28   30
+CONECT   30   29
+CONECT   30   29
+ENDMDL
+END   

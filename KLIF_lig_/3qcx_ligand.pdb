@@ -1,0 +1,70 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3qcx_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  Q3Q A 370       0.666  17.179  42.254  1.00  0.00           C  
+HETATM    2  C2  Q3Q A 370       1.422  17.114  41.092  1.00  0.00           C  
+HETATM    3  C3  Q3Q A 370       1.507  19.485  40.859  1.00  0.00           C  
+HETATM    4  C4  Q3Q A 370       2.976  16.940  38.616  1.00  0.00           C  
+HETATM    5  C5  Q3Q A 370       0.323  18.447  42.728  1.00  0.00           C  
+HETATM    6  C6  Q3Q A 370       1.833  18.233  40.387  1.00  0.00           C  
+HETATM    7  C7  Q3Q A 370       0.773  19.547  42.018  1.00  0.00           C  
+HETATM    8  C8  Q3Q A 370       2.564  18.145  39.127  1.00  0.00           C  
+HETATM    9  C9  Q3Q A 370       3.647  16.935  37.412  1.00  0.00           C  
+HETATM   10  C10 Q3Q A 370      -0.408  19.006  43.831  1.00  0.00           C  
+HETATM   11  C11 Q3Q A 370       3.466  19.198  37.291  1.00  0.00           C  
+HETATM   12  C12 Q3Q A 370       5.175  15.745  35.951  1.00  0.00           C  
+HETATM   13  C13 Q3Q A 370       5.023  14.502  35.099  1.00  0.00           C  
+HETATM   14  C14 Q3Q A 370       3.856  13.365  36.815  1.00  0.00           C  
+HETATM   15  C15 Q3Q A 370       3.998  14.541  37.756  1.00  0.00           C  
+HETATM   16  C16 Q3Q A 370       5.263  14.389  38.557  1.00  0.00           C  
+HETATM   17  N17 Q3Q A 370       2.812  19.283  38.468  1.00  0.00           N  
+HETATM   18  N18 Q3Q A 370       3.885  18.063  36.734  1.00  0.00           N  
+HETATM   19  N19 Q3Q A 370      -0.410  20.348  43.786  1.00  0.00           N  
+HETATM   20  N20 Q3Q A 370       0.303  20.647  42.686  1.00  0.00           N  
+HETATM   21  N21 Q3Q A 370       4.043  15.692  36.852  1.00  0.00           N  
+HETATM   22  N22 Q3Q A 370      -1.025  18.280  44.818  1.00  0.00           N  
+HETATM   23  N23 Q3Q A 370       3.744  20.349  36.559  1.00  0.00           N  
+HETATM   24  O24 Q3Q A 370       4.988  13.342  35.931  1.00  0.00           O  
+CONECT    1    2    5
+CONECT    1    5
+CONECT    2    1    6
+CONECT    2    6
+CONECT    3    6    7
+CONECT    3    7
+CONECT    4    8    9
+CONECT    4    8
+CONECT    5    1    7   10
+CONECT    5    1
+CONECT    6    2    3    8
+CONECT    6    2
+CONECT    7    3    5   20
+CONECT    7    3
+CONECT    8    4    6   17
+CONECT    8    4
+CONECT    9    4   18   21
+CONECT    9   18
+CONECT   10    5   19   22
+CONECT   10   19
+CONECT   11   17   18   23
+CONECT   11   17
+CONECT   12   13   21
+CONECT   13   12   24
+CONECT   14   15   24
+CONECT   15   14   16   21
+CONECT   16   15
+CONECT   17    8   11
+CONECT   17   11
+CONECT   18    9   11
+CONECT   18    9
+CONECT   19   10   20
+CONECT   19   10
+CONECT   20    7   19
+CONECT   21    9   12   15
+CONECT   22   10
+CONECT   23   11
+CONECT   24   13   14
+ENDMDL
+END   

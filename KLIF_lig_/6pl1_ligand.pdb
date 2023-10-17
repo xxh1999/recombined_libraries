@@ -1,0 +1,96 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6pl1_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C2  OOJ A 801      -2.352  24.184  30.667  1.00  0.00           C  
+HETATM    2  C5  OOJ A 801      -0.871  24.063  30.400  1.00  0.00           C  
+HETATM    3  C6  OOJ A 801       0.013  24.050  31.469  1.00  0.00           C  
+HETATM    4  C7  OOJ A 801       1.385  23.922  31.229  1.00  0.00           C  
+HETATM    5  C8  OOJ A 801       1.860  23.804  29.919  1.00  0.00           C  
+HETATM    6  C12 OOJ A 801       2.247  23.245  33.426  1.00  0.00           C  
+HETATM    7  C15 OOJ A 801       3.428  22.704  35.480  1.00  0.00           C  
+HETATM    8  C18 OOJ A 801       3.480  21.690  37.735  1.00  0.00           C  
+HETATM    9  C21 OOJ A 801       1.748  21.040  41.482  1.00  0.00           C  
+HETATM   10  N22 OOJ A 801       2.159  19.777  41.607  1.00  0.00           N  
+HETATM   11  C23 OOJ A 801       1.825  19.013  42.658  1.00  0.00           C  
+HETATM   12  C24 OOJ A 801       2.297  17.683  42.748  1.00  0.00           C  
+HETATM   13  C27 OOJ A 801       0.704  16.612  46.022  1.00  0.00           C  
+HETATM   14  C30 OOJ A 801       0.601  20.800  43.572  1.00  0.00           C  
+HETATM   15  C32 OOJ A 801       0.957  21.596  42.472  1.00  0.00           C  
+HETATM   16  F1  OOJ A 801      -3.046  24.427  29.490  1.00  0.00           F  
+HETATM   17  F3  OOJ A 801      -2.662  25.183  31.588  1.00  0.00           F  
+HETATM   18  F4  OOJ A 801      -2.786  22.972  31.189  1.00  0.00           F  
+HETATM   19  C9  OOJ A 801       0.973  23.812  28.862  1.00  0.00           C  
+HETATM   20  C10 OOJ A 801      -0.385  23.936  29.100  1.00  0.00           C  
+HETATM   21  N11 OOJ A 801       2.355  23.898  32.239  1.00  0.00           N  
+HETATM   22  O13 OOJ A 801       1.249  22.625  33.759  1.00  0.00           O  
+HETATM   23  N14 OOJ A 801       3.315  23.317  34.242  1.00  0.00           N  
+HETATM   24  N16 OOJ A 801       4.538  22.138  35.812  1.00  0.00           N  
+HETATM   25  N17 OOJ A 801       4.562  21.571  37.049  1.00  0.00           N  
+HETATM   26  S19 OOJ A 801       3.407  20.996  39.350  1.00  0.00           S  
+HETATM   27  C20 OOJ A 801       2.128  21.877  40.279  1.00  0.00           C  
+HETATM   28  C25 OOJ A 801       1.944  16.914  43.828  1.00  0.00           C  
+HETATM   29  C26 OOJ A 801       1.111  17.449  44.832  1.00  0.00           C  
+HETATM   30  C28 OOJ A 801       0.666  18.724  44.726  1.00  0.00           C  
+HETATM   31  N29 OOJ A 801       1.021  19.514  43.658  1.00  0.00           N  
+HETATM   32  O31 OOJ A 801      -0.103  21.276  44.426  1.00  0.00           O  
+HETATM   33  S33 OOJ A 801       2.254  22.574  36.798  1.00  0.00           S  
+CONECT    1    2   16   17   18
+CONECT    2    1    3   20
+CONECT    2   20
+CONECT    3    2    4
+CONECT    3    4
+CONECT    4    3    5   21
+CONECT    4    3
+CONECT    5    4   19
+CONECT    5   19
+CONECT    6   21   22   23
+CONECT    6   22
+CONECT    7   23   24   33
+CONECT    7   24
+CONECT    8   25   26   33
+CONECT    8   25
+CONECT    9   10   15   27
+CONECT    9   15
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   12   31
+CONECT   11   10
+CONECT   12   11   28
+CONECT   12   28
+CONECT   13   29
+CONECT   14   15   31   32
+CONECT   14   32
+CONECT   15    9   14
+CONECT   15    9
+CONECT   16    1
+CONECT   17    1
+CONECT   18    1
+CONECT   19    5   20
+CONECT   19    5
+CONECT   20    2   19
+CONECT   20    2
+CONECT   21    4    6
+CONECT   22    6
+CONECT   22    6
+CONECT   23    6    7
+CONECT   24    7   25
+CONECT   24    7
+CONECT   25    8   24
+CONECT   25    8
+CONECT   26    8   27
+CONECT   27    9   26
+CONECT   28   12   29
+CONECT   28   12
+CONECT   29   13   28   30
+CONECT   29   30
+CONECT   30   29   31
+CONECT   30   29
+CONECT   31   11   14   30
+CONECT   32   14
+CONECT   32   14
+CONECT   33    7    8
+ENDMDL
+END   

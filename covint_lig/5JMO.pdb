@@ -1,0 +1,43 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5JMO
+MODEL        1
+ATOM      1  N   ARG G   2      34.067   9.729  42.880  1.00 16.34           N1+
+ATOM      2  CA  ARG G   2      33.110  10.736  43.334  1.00 16.91           C  
+ATOM      3  C   ARG G   2      32.152  10.087  44.338  1.00 18.39           C  
+ATOM      4  O   ARG G   2      31.485   9.106  44.010  1.00 21.51           O  
+ATOM      5  CB  ARG G   2      32.352  11.357  42.137  1.00 19.56           C  
+ATOM      6  CG  ARG G   2      33.243  12.044  41.084  1.00 15.65           C  
+ATOM      7  CD  ARG G   2      34.007  13.271  41.604  1.00 14.07           C  
+ATOM      8  NE  ARG G   2      35.040  13.701  40.651  1.00 13.92           N  
+ATOM      9  CZ  ARG G   2      36.362  13.777  40.885  1.00 14.47           C  
+ATOM     10  NH1 ARG G   2      36.896  13.383  42.046  1.00 15.92           N  
+ATOM     11  NH2 ARG G   2      37.182  14.246  39.938  1.00 13.64           N1+
+TER      12      ARG G   2
+HETATM   13  C1  DKA G   1      35.401   9.834  42.978  1.00 16.67           C  
+HETATM   14  O1  DKA G   1      35.976  10.850  43.370  1.00 17.34           O  
+HETATM   15  C2  DKA G   1      36.216   8.592  42.614  1.00 19.53           C  
+HETATM   16  C3  DKA G   1      37.043   8.067  43.804  1.00 22.75           C  
+HETATM   17  C4  DKA G   1      36.184   7.573  44.983  1.00 22.06           C  
+HETATM   18  C5  DKA G   1      37.026   7.131  46.190  1.00 27.82           C  
+HETATM   19  C6  DKA G   1      36.180   6.591  47.358  1.00 32.31           C  
+HETATM   20  C7  DKA G   1      35.620   5.172  47.131  1.00 32.17           C  
+HETATM   21  C8  DKA G   1      36.666   4.050  47.296  0.00 29.30           C  
+HETATM   22  C9  DKA G   1      36.626   3.341  48.662  0.00 29.33           C  
+HETATM   23  C10 DKA G   1      36.961   4.246  49.855  0.00 28.81           C  
+CONECT   13    1   14   15
+CONECT   13   14
+CONECT   14   13
+CONECT   14   13
+CONECT   15   13   16
+CONECT   16   15   17
+CONECT   17   16   18
+CONECT   18   17   19
+CONECT   19   18   20
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22   21   23
+CONECT   23   22
+ENDMDL
+END   

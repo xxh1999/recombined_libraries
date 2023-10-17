@@ -1,0 +1,86 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4xg8_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  X8G C 700       0.922  19.667  41.590  1.00  0.00           C  
+HETATM    2  C5  X8G C 700       0.742  21.047  41.570  1.00  0.00           C  
+HETATM    3  C6  X8G C 700       0.002  21.613  42.615  1.00  0.00           C  
+HETATM    4  N1  X8G C 700      -0.530  20.833  43.666  1.00  0.00           N  
+HETATM    5  N3  X8G C 700       0.360  19.019  42.623  1.00  0.00           N  
+HETATM    6  CAL X8G C 700       1.589  13.945  37.873  1.00  0.00           C  
+HETATM    7  CBA X8G C 700       0.103  14.182  37.765  1.00  0.00           C  
+HETATM    8  OAC X8G C 700      -0.642  13.298  38.578  1.00  0.00           O  
+HETATM    9  CAM X8G C 700       0.287  15.502  38.440  1.00  0.00           C  
+HETATM   10  NBB X8G C 700       1.633  15.064  38.859  1.00  0.00           N1+
+HETATM   11  CAK X8G C 700       2.758  16.003  38.766  1.00  0.00           C  
+HETATM   12  CAU X8G C 700       2.389  17.388  39.386  1.00  0.00           C  
+HETATM   13  CAJ X8G C 700       1.643  17.631  40.453  1.00  0.00           C  
+HETATM   14  CAS X8G C 700       2.754  18.582  38.965  1.00  0.00           C  
+HETATM   15  CAA X8G C 700       3.653  18.924  37.775  1.00  0.00           C  
+HETATM   16  NAP X8G C 700       2.234  19.482  39.771  1.00  0.00           N  
+HETATM   17  NBD X8G C 700       1.587  18.970  40.630  1.00  0.00           N  
+HETATM   18  C2  X8G C 700      -0.349  19.512  43.659  1.00  0.00           C  
+HETATM   19  NAR X8G C 700      -0.852  18.707  44.651  1.00  0.00           N  
+HETATM   20  CAT X8G C 700      -0.638  17.374  44.605  1.00  0.00           C  
+HETATM   21  CAI X8G C 700      -1.246  16.342  45.370  1.00  0.00           C  
+HETATM   22  CAY X8G C 700      -0.843  15.051  45.119  1.00  0.00           C  
+HETATM   23  CAV X8G C 700      -1.084  13.818  45.520  1.00  0.00           C  
+HETATM   24 CL1  X8G C 700      -2.176  13.341  46.694  1.00  0.00          Cl  
+HETATM   25  NAQ X8G C 700      -0.339  12.933  44.857  1.00  0.00           N  
+HETATM   26  NBC X8G C 700       0.285  13.443  44.146  1.00  0.00           N  
+HETATM   27  CAB X8G C 700       1.292  12.935  43.157  1.00  0.00           C  
+HETATM   28  CAZ X8G C 700       0.074  14.735  44.206  1.00  0.00           C  
+HETATM   29  CAH X8G C 700       0.652  15.653  43.499  1.00  0.00           C  
+HETATM   30  CAG X8G C 700       0.303  16.941  43.697  1.00  0.00           C  
+CONECT    1    2    5   17
+CONECT    1    5
+CONECT    2    1    3
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3   18
+CONECT    4   18
+CONECT    5    1   18
+CONECT    5    1
+CONECT    6    7   10
+CONECT    7    6    8    9
+CONECT    8    7
+CONECT    9    7   10
+CONECT   10    6    9   11
+CONECT   11   10   12
+CONECT   12   11   13   14
+CONECT   12   13
+CONECT   13   12   17
+CONECT   13   12
+CONECT   14   12   15   16
+CONECT   14   16
+CONECT   15   14
+CONECT   16   14   17
+CONECT   16   14
+CONECT   17    1   13   16
+CONECT   18    4    5   19
+CONECT   18    4
+CONECT   19   18   20
+CONECT   20   19   21   30
+CONECT   20   30
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23   28
+CONECT   22   21
+CONECT   23   22   24   25
+CONECT   23   25
+CONECT   24   23
+CONECT   25   23   26
+CONECT   25   23
+CONECT   26   25   27   28
+CONECT   27   26
+CONECT   28   22   26   29
+CONECT   28   29
+CONECT   29   28   30
+CONECT   29   28
+CONECT   30   20   29
+CONECT   30   20
+ENDMDL
+END   

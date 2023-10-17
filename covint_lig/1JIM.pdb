@@ -1,0 +1,62 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1JIM
+MODEL        1
+ATOM      1  N   SER A 195      -6.818  26.307  38.293  1.00  7.06           N1+
+ATOM      2  CA  SER A 195      -6.553  25.221  39.248  1.00  4.30           C  
+ATOM      3  C   SER A 195      -5.175  25.394  39.902  1.00  4.00           C  
+ATOM      4  O   SER A 195      -4.213  25.762  39.231  1.00  5.57           O  
+ATOM      5  CB  SER A 195      -6.551  23.830  38.582  1.00  5.63           C  
+ATOM      6  OG  SER A 195      -7.694  23.426  37.836  1.00 20.51           O  
+TER       7      SER A 195
+HETATM    8  C1  ICU A 251      -7.652  23.502  36.496  1.00 30.32           C  
+HETATM    9  O1  ICU A 251      -6.861  24.242  35.910  1.00 30.33           O  
+HETATM   10  C2  ICU A 251      -8.537  22.532  35.768  1.00 30.49           C  
+HETATM   11  C3  ICU A 251      -8.078  22.178  34.474  1.00 30.95           C  
+HETATM   12  C4  ICU A 251      -8.762  21.246  33.676  1.00 31.99           C  
+HETATM   13  N1  ICU A 251      -8.290  20.931  32.403  1.00 31.42           N  
+HETATM   14  C5  ICU A 251      -9.923  20.639  34.166  1.00 29.81           C  
+HETATM   15  C6  ICU A 251     -10.413  20.991  35.433  1.00 29.95           C  
+HETATM   16  C7  ICU A 251      -9.750  21.944  36.257  1.00 32.16           C  
+HETATM   17  C8  ICU A 251     -10.385  22.355  37.600  1.00 30.59           C  
+HETATM   18  O2  ICU A 251     -10.911  23.682  37.524  1.00 30.92           O  
+HETATM   19  C9  ICU A 251     -10.765  24.537  38.555  1.00 30.16           C  
+HETATM   20  O3  ICU A 251     -10.116  24.329  39.576  1.00 30.96           O  
+HETATM   21  C10 ICU A 251     -11.512  25.846  38.362  1.00 29.57           C  
+HETATM   22  C11 ICU A 251     -11.486  21.404  38.109  1.00 30.91           C  
+HETATM   23  O4  ICU A 251     -12.685  21.688  38.037  1.00 30.55           O  
+HETATM   24  O5  ICU A 251     -10.983  20.248  38.571  1.00 30.72           O  
+HETATM   25  C12 ICU A 251     -11.853  19.190  38.928  1.00 31.19           C  
+CONECT    8    6    9   10
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8   11   16
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   13   14
+CONECT   12   14
+CONECT   13   12
+CONECT   14   12   15
+CONECT   14   12
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16   10   15   17
+CONECT   16   15
+CONECT   17   16   18   22
+CONECT   18   17   19
+CONECT   19   18   20   21
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   19
+CONECT   22   17   23   24
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22   25
+CONECT   25   24
+ENDMDL
+END   

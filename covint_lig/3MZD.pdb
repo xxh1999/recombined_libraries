@@ -1,0 +1,88 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3MZD
+MODEL        1
+ATOM      1  N   SER A  44      40.633   6.267  24.812  1.00 24.49           N1+
+ATOM      2  CA  SER A  44      41.789   6.819  24.108  1.00 24.09           C  
+ATOM      3  C   SER A  44      41.860   6.410  22.620  1.00 23.14           C  
+ATOM      4  O   SER A  44      42.667   6.999  21.902  1.00 22.27           O  
+ATOM      5  CB  SER A  44      43.088   6.338  24.793  1.00 25.48           C  
+ATOM      6  OG  SER A  44      43.380   6.896  26.076  1.00 27.59           O  
+TER       7      SER A  44
+HETATM    8 CL   CXV A 364      40.870   9.489  27.428  0.00 44.45          Cl  
+HETATM    9  C1  CXV A 364      42.847   6.355  27.197  1.00 33.40           C  
+HETATM   10  O1  CXV A 364      41.898   5.581  27.219  1.00 33.08           O  
+HETATM   11  C2  CXV A 364      43.635   6.719  28.462  1.00 38.14           C  
+HETATM   12  N2  CXV A 364      43.775   8.152  28.590  1.00 41.45           N  
+HETATM   13  C3  CXV A 364      45.064   6.122  28.446  1.00 40.56           C  
+HETATM   14  S4  CXV A 364      45.901   6.427  30.027  1.00 42.39           S  
+HETATM   15  C5  CXV A 364      46.211   4.687  30.384  1.00 42.41           C  
+HETATM   16  C6  CXV A 364      45.170   3.967  29.489  1.00 42.19           C  
+HETATM   17  N7  CXV A 364      45.084   4.687  28.215  1.00 40.90           N  
+HETATM   18  C8  CXV A 364      45.427   2.462  29.268  1.00 41.57           C  
+HETATM   19  C21 CXV A 364      43.404   8.948  29.597  1.00 42.07           C  
+HETATM   20  O21 CXV A 364      44.000   9.999  29.753  1.00 44.17           O  
+HETATM   21  C22 CXV A 364      42.188   8.659  30.428  1.00 42.55           C  
+HETATM   22  C23 CXV A 364      42.044   7.738  31.430  1.00 43.24           C  
+HETATM   23  O24 CXV A 364      40.841   7.950  32.032  1.00 43.16           O  
+HETATM   24  N25 CXV A 364      40.234   9.087  31.473  1.00 42.87           N  
+HETATM   25  C26 CXV A 364      41.062   9.525  30.537  1.00 43.73           C  
+HETATM   26  C27 CXV A 364      42.907   6.687  32.043  1.00 43.57           C  
+HETATM   27  C28 CXV A 364      40.805  10.794  29.848  1.00 43.90           C  
+HETATM   28  C29 CXV A 364      40.780  10.891  28.435  0.00 44.50           C  
+HETATM   29  C30 CXV A 364      40.692  12.156  27.822  0.00 44.62           C  
+HETATM   30  C31 CXV A 364      40.626  13.326  28.599  0.00 44.24           C  
+HETATM   31  C32 CXV A 364      40.600  13.231  30.000  0.00 43.82           C  
+HETATM   32  C33 CXV A 364      40.680  11.971  30.621  0.00 44.06           C  
+HETATM   33  C51 CXV A 364      45.995   4.423  31.886  1.00 42.69           C  
+HETATM   34  C52 CXV A 364      47.667   4.362  30.002  1.00 41.68           C  
+HETATM   35  O81 CXV A 364      45.400   1.726  30.277  1.00 42.13           O1-
+HETATM   36  O82 CXV A 364      45.635   2.065  28.097  1.00 42.56           O  
+CONECT    8   28
+CONECT    9    6   10   11
+CONECT    9   10
+CONECT   10    9
+CONECT   10    9
+CONECT   11    9   12   13
+CONECT   12   11   19
+CONECT   13   11   14   17
+CONECT   14   13   15
+CONECT   15   14   16   33   34
+CONECT   16   15   17   18
+CONECT   17   13   16
+CONECT   18   16   35   36
+CONECT   18   36
+CONECT   19   12   20   21
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   19   22   25
+CONECT   21   22
+CONECT   22   21   23   26
+CONECT   22   21
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   24   25
+CONECT   25   21   24   27
+CONECT   25   24
+CONECT   26   22
+CONECT   27   25   28   32
+CONECT   27   28
+CONECT   28    8   27   29
+CONECT   28   27
+CONECT   29   28   30
+CONECT   29   30
+CONECT   30   29   31
+CONECT   30   29
+CONECT   31   30   32
+CONECT   31   32
+CONECT   32   27   31
+CONECT   32   31
+CONECT   33   15
+CONECT   34   15
+CONECT   35   18
+CONECT   36   18
+CONECT   36   18
+ENDMDL
+END   

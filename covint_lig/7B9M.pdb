@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7B9M
+MODEL        1
+ATOM      1  N   CYS A  45      25.893  17.396  -0.633  1.00  7.41           N1+
+ATOM      2  CA  CYS A  45      24.961  17.058   0.441  1.00  8.10           C  
+ATOM      3  C   CYS A  45      24.370  15.667   0.245  1.00  7.21           C  
+ATOM      4  O   CYS A  45      24.393  14.834   1.162  1.00  7.90           O  
+ATOM      5  CB  CYS A  45      23.843  18.110   0.508  1.00  9.90           C  
+ATOM      6  SG  CYS A  45      22.544  17.787   1.761  1.00 12.11           S  
+TER       7      CYS A  45
+HETATM    8  C1  T4W A 303      18.742  17.265   0.769  0.81 24.64           C  
+HETATM    9  C2  T4W A 303      18.809  19.636   1.141  0.81 17.58           C  
+HETATM   10  C3  T4W A 303      19.019  20.813   2.045  0.81 12.55           C  
+HETATM   11  C4  T4W A 303      20.298  21.166   2.459  0.81 13.64           C  
+HETATM   12  C5  T4W A 303      20.483  22.269   3.298  0.81 13.13           C  
+HETATM   13  C6  T4W A 303      19.373  23.004   3.717  0.81 16.49           C  
+HETATM   14  C7  T4W A 303      18.096  22.647   3.290  0.81  9.86           C  
+HETATM   15  N   T4W A 303      18.849  18.409   1.646  0.81 13.94           N  
+HETATM   16  C   T4W A 303      20.044  17.047   0.012  0.81 14.31           C  
+HETATM   17  O   T4W A 303      18.597  19.840  -0.045  0.81 21.84           O  
+HETATM   18  C10 T4W A 303      16.919  22.909   0.026  0.81 19.90           C  
+HETATM   19  C11 T4W A 303      16.635  23.598  -1.152  0.81 23.48           C  
+HETATM   20  C12 T4W A 303      15.456  23.339  -1.843  0.81 21.81           C  
+HETATM   21  C13 T4W A 303      14.566  22.395  -1.356  0.81 20.11           C  
+HETATM   22  C14 T4W A 303      14.844  21.708  -0.179  0.81 22.19           C  
+HETATM   23  C15 T4W A 303      14.019  20.817   0.249  0.81 30.41           C  
+HETATM   24  C8  T4W A 303      17.922  21.553   2.459  0.81 18.24           C  
+HETATM   25  C9  T4W A 303      16.021  21.956   0.507  0.81 17.68           C  
+HETATM   26  N1  T4W A 303      13.269  20.018   0.635  0.81 28.48           N  
+HETATM   27  S   T4W A 303      21.298  16.356   1.122  0.81 11.07           S  
+HETATM   28  S1  T4W A 303      16.365  21.124   1.948  0.81 20.61           S  
+CONECT    8   15   16
+CONECT    9   10   15   17
+CONECT    9   17
+CONECT   10    9   11   24
+CONECT   10   24
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   14
+CONECT   13   14
+CONECT   14   13   24
+CONECT   14   13
+CONECT   15    8    9
+CONECT   16    8   27
+CONECT   17    9
+CONECT   17    9
+CONECT   18   19   25
+CONECT   18   25
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23   25
+CONECT   22   21
+CONECT   23   22   26
+CONECT   23   26
+CONECT   23   26
+CONECT   24   10   14   28
+CONECT   24   10
+CONECT   25   18   22   28
+CONECT   25   18
+CONECT   26   23
+CONECT   26   23
+CONECT   26   23
+CONECT   27    6   16
+CONECT   28   24   25
+ENDMDL
+END   

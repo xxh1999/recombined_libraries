@@ -1,0 +1,122 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7RFR
+MODEL        1
+ATOM      1  N   CYS A 145      -8.570  12.504   3.685  1.00 14.66           N1+
+ATOM      2  CA  CYS A 145      -8.494  11.868   2.368  1.00 15.05           C  
+ATOM      3  C   CYS A 145      -7.203  12.162   1.657  1.00 14.27           C  
+ATOM      4  O   CYS A 145      -6.664  13.261   1.796  1.00 14.52           O  
+ATOM      5  CB  CYS A 145      -9.691  12.236   1.516  1.00 16.78           C  
+ATOM      6  SG  CYS A 145     -11.240  11.623   2.180  1.00 21.43           S  
+TER       7      CYS A 145
+HETATM    8  C41 4W8 A9001     -15.159  17.275  -0.255  1.00 29.33           C  
+HETATM    9  C42 4W8 A9001     -14.960  16.523  -1.407  1.00 29.39           C  
+HETATM   10  C5  4W8 A9001     -22.726   7.985   6.152  1.00 28.39           C  
+HETATM   11  C40 4W8 A9001     -14.687  16.830   0.971  1.00 28.94           C  
+HETATM   12  C6  4W8 A9001     -21.338   7.920   6.106  1.00 28.07           C  
+HETATM   13  C4  4W8 A9001     -23.439   8.739   5.225  1.00 28.84           C  
+HETATM   14  C43 4W8 A9001     -14.241  15.340  -1.362  1.00 28.79           C  
+HETATM   15  C10 4W8 A9001     -20.366  10.020   3.335  1.00 26.65           C  
+HETATM   16  C11 4W8 A9001     -21.364   9.408   4.168  1.00 27.73           C  
+HETATM   17  C39 4W8 A9001     -13.994  15.622   1.039  1.00 28.26           C  
+HETATM   18  C7  4W8 A9001     -20.671   8.643   5.121  1.00 27.43           C  
+HETATM   19  C3  4W8 A9001     -22.768   9.462   4.241  1.00 29.06           C  
+HETATM   20  C44 4W8 A9001     -13.783  14.884  -0.131  1.00 28.25           C  
+HETATM   21  C9  4W8 A9001     -19.136   9.607   3.794  1.00 25.61           C  
+HETATM   22  C37 4W8 A9001     -12.913  13.905   1.937  1.00 26.30           C  
+HETATM   23  C33 4W8 A9001     -13.153  10.220   7.165  1.00 21.51           C  
+HETATM   24  C12 4W8 A9001     -17.729   9.868   3.387  1.00 24.36           C  
+HETATM   25  C35 4W8 A9001     -12.239  13.053   2.965  1.00 23.33           C  
+HETATM   26  C22 4W8 A9001     -15.374  11.726   2.855  1.00 22.24           C  
+HETATM   27  C30 4W8 A9001     -14.577  12.123   6.752  1.00 21.95           C  
+HETATM   28  C31 4W8 A9001     -14.719  11.638   8.183  1.00 22.00           C  
+HETATM   29  C15 4W8 A9001     -18.425  11.232   1.358  1.00 22.84           C  
+HETATM   30  C28 4W8 A9001     -13.744  11.038   6.032  1.00 21.70           C  
+HETATM   31  C20 4W8 A9001     -16.086  10.793   1.879  1.00 22.51           C  
+HETATM   32  C16 4W8 A9001     -17.617  11.570   0.109  1.00 22.57           C  
+HETATM   33  C18 4W8 A9001     -16.154  11.387   0.456  1.00 22.45           C  
+HETATM   34  C46 4W8 A9001     -16.781  10.570  -0.655  1.00 22.43           C  
+HETATM   35  C47 4W8 A9001     -16.464  10.934  -2.105  1.00 22.76           C  
+HETATM   36  C48 4W8 A9001     -16.980   9.068  -0.444  1.00 22.12           C  
+HETATM   37  C1  4W8 A9001     -24.790  10.390   3.333  1.00 30.29           C  
+HETATM   38  C27 4W8 A9001     -12.677  11.572   5.054  1.00 21.58           C  
+HETATM   39  C25 4W8 A9001     -13.252  12.329   3.850  1.00 22.40           C  
+HETATM   40  N38 4W8 A9001     -13.477  15.049   2.199  1.00 27.75           N  
+HETATM   41  N8  4W8 A9001     -19.313   8.785   4.892  1.00 26.35           N  
+HETATM   42  N32 4W8 A9001     -13.614  10.698   8.325  1.00 21.87           N  
+HETATM   43  N14 4W8 A9001     -17.479  10.597   2.281  1.00 23.06           N  
+HETATM   44  N24 4W8 A9001     -14.082  11.464   3.038  1.00 22.06           N  
+HETATM   45  O34 4W8 A9001     -12.438   9.237   7.031  1.00 20.60           O  
+HETATM   46  O13 4W8 A9001     -16.817   9.407   4.086  1.00 23.60           O  
+HETATM   47  O36 4W8 A9001     -11.131  13.611   3.663  1.00 22.32           O  
+HETATM   48  O23 4W8 A9001     -15.975  12.616   3.451  1.00 22.23           O  
+HETATM   49  O2  4W8 A9001     -23.368  10.235   3.281  1.00 30.14           O  
+HETATM   50  S45 4W8 A9001     -12.903  13.430   0.245  1.00 27.13           S  
+CONECT    8    9   11
+CONECT    8   11
+CONECT    9    8   14
+CONECT    9   14
+CONECT   10   12   13
+CONECT   10   12
+CONECT   11    8   17
+CONECT   11    8
+CONECT   12   10   18
+CONECT   12   10
+CONECT   13   10   19
+CONECT   13   19
+CONECT   14    9   20
+CONECT   14    9
+CONECT   15   16   21
+CONECT   15   21
+CONECT   16   15   18   19
+CONECT   16   18
+CONECT   17   11   20   40
+CONECT   17   20
+CONECT   18   12   16   41
+CONECT   18   16
+CONECT   19   13   16   49
+CONECT   19   13
+CONECT   20   14   17   50
+CONECT   20   17
+CONECT   21   15   24   41
+CONECT   21   15
+CONECT   22   25   40   50
+CONECT   22   40
+CONECT   23   30   42   45
+CONECT   23   45
+CONECT   24   21   43   46
+CONECT   24   46
+CONECT   25    6   22   39   47
+CONECT   26   31   44   48
+CONECT   26   48
+CONECT   27   28   30
+CONECT   28   27   42
+CONECT   29   32   43
+CONECT   30   23   27   38
+CONECT   31   26   33   43
+CONECT   32   29   33   34
+CONECT   33   31   32   34
+CONECT   34   32   33   35   36
+CONECT   35   34
+CONECT   36   34
+CONECT   37   49
+CONECT   38   30   39
+CONECT   39   25   38   44
+CONECT   40   17   22
+CONECT   40   22
+CONECT   41   18   21
+CONECT   42   23   28
+CONECT   43   24   29   31
+CONECT   44   26   39
+CONECT   45   23
+CONECT   45   23
+CONECT   46   24
+CONECT   46   24
+CONECT   47   25
+CONECT   48   26
+CONECT   48   26
+CONECT   49   19   37
+CONECT   50   20   22
+ENDMDL
+END   

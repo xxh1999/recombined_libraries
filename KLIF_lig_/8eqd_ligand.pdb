@@ -1,0 +1,91 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     8eqd_ligand
+MODEL        1
+HETATM    1  C10 WPX A1101       3.159  20.523  38.118  1.00  0.00           C  
+HETATM    2  C11 WPX A1101       4.261  19.846  38.882  1.00  0.00           C  
+HETATM    3  O1  WPX A1101       0.985  23.619  34.459  1.00  0.00           O  
+HETATM    4  C7  WPX A1101       2.209  23.620  34.543  1.00  0.00           C  
+HETATM    5  C6  WPX A1101       3.008  24.257  33.428  1.00  0.00           C  
+HETATM    6  O   WPX A1101       4.177  23.461  33.157  1.00  0.00           O  
+HETATM    7  C5  WPX A1101       3.377  25.661  33.741  1.00  0.00           C  
+HETATM    8  C3  WPX A1101       4.696  26.056  33.991  1.00  0.00           C  
+HETATM    9  C2  WPX A1101       4.989  27.388  34.278  1.00  0.00           C  
+HETATM   10  C1  WPX A1101       3.965  28.326  34.304  1.00  0.00           C  
+HETATM   11  C4  WPX A1101       2.361  26.605  33.767  1.00  0.00           C  
+HETATM   12  C   WPX A1101       2.652  27.931  34.050  1.00  0.00           C  
+HETATM   13  F   WPX A1101       1.646  28.821  34.072  1.00  0.00           F  
+HETATM   14  N   WPX A1101       2.944  23.032  35.507  1.00  0.00           N  
+HETATM   15  C8  WPX A1101       2.503  22.135  36.438  1.00  0.00           C  
+HETATM   16  C12 WPX A1101       1.164  21.800  36.688  1.00  0.00           C  
+HETATM   17  C13 WPX A1101       0.836  20.841  37.649  1.00  0.00           C  
+HETATM   18  C14 WPX A1101       1.837  20.212  38.377  1.00  0.00           C  
+HETATM   19  C9  WPX A1101       3.489  21.471  37.158  1.00  0.00           C  
+HETATM   20  C15 WPX A1101       1.508  19.164  39.387  1.00  0.00           C  
+HETATM   21  C22 WPX A1101       0.815  19.236  40.691  1.00  0.00           C  
+HETATM   22  C18 WPX A1101       0.797  17.929  41.176  1.00  0.00           C  
+HETATM   23  N1  WPX A1101       1.397  17.124  40.299  1.00  0.00           N  
+HETATM   24  C17 WPX A1101       1.564  15.661  40.483  1.00  0.00           C  
+HETATM   25  C16 WPX A1101       1.824  17.822  39.234  1.00  0.00           C  
+HETATM   26  C21 WPX A1101       0.241  20.248  41.445  1.00  0.00           C  
+HETATM   27  N4  WPX A1101       0.234  21.534  41.017  1.00  0.00           N  
+HETATM   28  N3  WPX A1101      -0.322  19.928  42.635  1.00  0.00           N  
+HETATM   29  C19 WPX A1101      -0.329  18.646  43.092  1.00  0.00           C  
+HETATM   30  N2  WPX A1101       0.227  17.648  42.370  1.00  0.00           N  
+HETATM   31  C20 WPX A1101      -0.962  18.327  44.419  1.00  0.00           C  
+CONECT    1    2   18   19
+CONECT    1   18
+CONECT    2    1
+CONECT    3    4
+CONECT    3    4
+CONECT    4    3    5   14
+CONECT    4    3
+CONECT    5    4    6    7
+CONECT    6    5
+CONECT    7    5    8   11
+CONECT    7   11
+CONECT    8    7    9
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    9   12
+CONECT   10   12
+CONECT   11    7   12
+CONECT   11    7
+CONECT   12   10   11   13
+CONECT   12   10
+CONECT   13   12
+CONECT   14    4   15
+CONECT   15   14   16   19
+CONECT   15   19
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18    1   17   20
+CONECT   18    1
+CONECT   19    1   15
+CONECT   19   15
+CONECT   20   18   21   25
+CONECT   20   25
+CONECT   21   20   22   26
+CONECT   21   26
+CONECT   22   21   23   30
+CONECT   22   30
+CONECT   23   22   24   25
+CONECT   24   23
+CONECT   25   20   23
+CONECT   25   20
+CONECT   26   21   27   28
+CONECT   26   21
+CONECT   27   26
+CONECT   28   26   29
+CONECT   28   29
+CONECT   29   28   30   31
+CONECT   29   28
+CONECT   30   22   29
+CONECT   30   22
+CONECT   31   29
+ENDMDL
+END   

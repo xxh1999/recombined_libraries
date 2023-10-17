@@ -1,0 +1,92 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1y6a_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  O4  AAZ A 201      -0.874  12.265  42.472  1.00  0.00           O1-
+HETATM    2  S3  AAZ A 201      -0.074  13.458  42.523  1.00  0.00           S2+
+HETATM    3  O5  AAZ A 201      -0.241  14.150  41.280  1.00  0.00           O1-
+HETATM    4  C2  AAZ A 201       1.532  13.043  42.709  1.00  0.00           C  
+HETATM    5  C1  AAZ A 201       2.463  14.140  42.215  1.00  0.00           C  
+HETATM    6  C6  AAZ A 201      -0.529  14.369  43.773  1.00  0.00           C  
+HETATM    7  C7  AAZ A 201      -1.019  13.751  44.919  1.00  0.00           C  
+HETATM    8  C8  AAZ A 201      -1.419  14.519  46.005  1.00  0.00           C  
+HETATM    9  C9  AAZ A 201      -1.328  15.912  45.984  1.00  0.00           C  
+HETATM   10  O10 AAZ A 201      -1.745  16.629  47.084  1.00  0.00           O  
+HETATM   11  C11 AAZ A 201      -1.536  16.174  48.426  1.00  0.00           C  
+HETATM   12  C12 AAZ A 201      -0.847  16.563  44.842  1.00  0.00           C  
+HETATM   13  C31 AAZ A 201      -0.441  15.768  43.744  1.00  0.00           C  
+HETATM   14  N13 AAZ A 201      -0.719  17.931  44.880  1.00  0.00           N  
+HETATM   15  C14 AAZ A 201       0.022  18.646  44.028  1.00  0.00           C  
+HETATM   16  N15 AAZ A 201       0.134  19.976  44.009  1.00  0.00           N  
+HETATM   17  C16 AAZ A 201       0.891  20.310  43.039  1.00  0.00           C  
+HETATM   18  C17 AAZ A 201       1.318  19.233  42.365  1.00  0.00           C  
+HETATM   19  O18 AAZ A 201       0.790  18.043  42.966  1.00  0.00           O  
+HETATM   20  C19 AAZ A 201       2.233  19.132  41.185  1.00  0.00           C  
+HETATM   21  C20 AAZ A 201       2.238  17.947  40.445  1.00  0.00           C  
+HETATM   22  C21 AAZ A 201       3.092  17.803  39.358  1.00  0.00           C  
+HETATM   23  C22 AAZ A 201       3.970  18.832  39.020  1.00  0.00           C  
+HETATM   24  C23 AAZ A 201       3.984  20.007  39.777  1.00  0.00           C  
+HETATM   25  C24 AAZ A 201       3.120  20.155  40.867  1.00  0.00           C  
+HETATM   26  C25 AAZ A 201       4.928  21.096  39.412  1.00  0.00           C  
+HETATM   27  C26 AAZ A 201       5.556  21.830  40.418  1.00  0.00           C  
+HETATM   28  C27 AAZ A 201       6.426  22.851  40.065  1.00  0.00           C  
+HETATM   29  C28 AAZ A 201       6.680  23.102  38.727  1.00  0.00           C  
+HETATM   30  C29 AAZ A 201       6.046  22.340  37.765  1.00  0.00           C  
+HETATM   31  N30 AAZ A 201       5.198  21.362  38.108  1.00  0.00           N  
+CONECT    1    2
+CONECT    2    1    3    4    6
+CONECT    3    2
+CONECT    4    2    5
+CONECT    5    4
+CONECT    6    2    7   13
+CONECT    6   13
+CONECT    7    6    8
+CONECT    7    8
+CONECT    8    7    9
+CONECT    8    7
+CONECT    9    8   10   12
+CONECT    9   12
+CONECT   10    9   11
+CONECT   11   10
+CONECT   12    9   13   14
+CONECT   12    9
+CONECT   13    6   12
+CONECT   13    6
+CONECT   14   12   15
+CONECT   15   14   16   19
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   17   19   20
+CONECT   18   17
+CONECT   19   15   18
+CONECT   20   18   21   25
+CONECT   20   25
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25   26
+CONECT   24   23
+CONECT   25   20   24
+CONECT   25   20
+CONECT   26   24   27   31
+CONECT   26   31
+CONECT   27   26   28
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   28   30
+CONECT   29   30
+CONECT   30   29   31
+CONECT   30   29
+CONECT   31   26   30
+CONECT   31   26
+ENDMDL
+END   

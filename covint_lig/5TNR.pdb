@@ -1,0 +1,78 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5TNR
+MODEL        1
+ATOM      1  N   ASP C 129     -13.092  -5.227 -29.212  1.00 10.30           N1+
+ATOM      2  CA  ASP C 129     -12.139  -6.008 -28.396  1.00  6.99           C  
+ATOM      3  C   ASP C 129     -12.726  -7.411 -28.216  1.00 10.39           C  
+ATOM      4  O   ASP C 129     -13.162  -8.014 -29.214  1.00 10.29           O  
+ATOM      5  CB  ASP C 129     -11.828  -5.219 -27.111  1.00  8.80           C  
+ATOM      6  CG  ASP C 129     -10.719  -5.850 -26.268  1.00  8.52           C  
+ATOM      7  OD1 ASP C 129      -9.506  -5.592 -26.537  1.00 12.41           O  
+ATOM      8  OD2 ASP C 129     -11.071  -6.533 -25.292  1.00  7.69           O1-
+TER       9      ASP C 129
+HETATM   10  C1  7EZ C 401      -5.178  -4.959 -21.705  0.97 14.25           C  
+HETATM   11  C2  7EZ C 401      -5.472  -4.719 -23.185  0.97 20.66           C  
+HETATM   12  C3  7EZ C 401      -6.853  -4.078 -23.375  0.97 17.39           C  
+HETATM   13  C4  7EZ C 401      -7.641  -4.382 -24.401  0.97 11.64           C  
+HETATM   14  C5  7EZ C 401      -7.285  -5.396 -25.497  0.97  7.91           C  
+HETATM   15  C6  7EZ C 401      -8.514  -6.280 -25.781  0.97  8.35           C  
+HETATM   16  C7  7EZ C 401      -8.094  -7.609 -26.434  0.97 11.08           C  
+HETATM   17  C8  7EZ C 401      -7.057  -7.440 -27.544  0.97 12.93           C  
+HETATM   18  C9  7EZ C 401      -7.527  -6.523 -28.674  0.97  9.26           C  
+HETATM   19  C10 7EZ C 401      -6.692  -5.924 -29.511  0.97 18.24           C  
+HETATM   20  C11 7EZ C 401      -5.153  -6.049 -29.478  0.97 28.83           C  
+HETATM   21  O4  7EZ C 401       1.394  -9.656 -37.827  0.97 69.59           O  
+HETATM   22  C22 7EZ C 401       1.818  -8.923 -36.892  0.97 67.58           C  
+HETATM   23  O3  7EZ C 401       2.644  -9.378 -36.052  0.97 65.38           O  
+HETATM   24  C21 7EZ C 401       1.316  -7.485 -36.776  0.97 64.21           C  
+HETATM   25  C20 7EZ C 401      -0.067  -7.455 -36.120  0.97 61.68           C  
+HETATM   26  C19 7EZ C 401      -0.504  -6.010 -35.839  0.97 56.97           C  
+HETATM   27  C18 7EZ C 401      -1.165  -5.749 -34.727  0.97 51.67           C  
+HETATM   28  C17 7EZ C 401      -1.463  -6.889 -33.763  0.97 44.85           C  
+HETATM   29  C16 7EZ C 401      -2.843  -7.460 -34.065  0.97 36.57           C  
+HETATM   30  C15 7EZ C 401      -3.758  -7.453 -33.121  0.97 27.49           C  
+HETATM   31  C14 7EZ C 401      -3.420  -6.864 -31.753  0.97 25.54           C  
+HETATM   32  C13 7EZ C 401      -3.915  -7.857 -30.704  0.97 30.71           C  
+HETATM   33  C12 7EZ C 401      -4.691  -7.488 -29.700  0.97 31.20           C  
+HETATM   34  O2  7EZ C 401      -7.464  -8.435 -25.484  0.97 11.17           O  
+CONECT   10   11
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15
+CONECT   15    7   14   16
+CONECT   16   15   17   34
+CONECT   17   16   18
+CONECT   18   17   19
+CONECT   18   19
+CONECT   19   18   20
+CONECT   19   18
+CONECT   20   19   33
+CONECT   21   22
+CONECT   21   22
+CONECT   22   21   23   24
+CONECT   22   21
+CONECT   23   22
+CONECT   24   22   25
+CONECT   25   24   26
+CONECT   26   25   27
+CONECT   26   27
+CONECT   27   26   28
+CONECT   27   26
+CONECT   28   27   29
+CONECT   29   28   30
+CONECT   29   30
+CONECT   30   29   31
+CONECT   30   29
+CONECT   31   30   32
+CONECT   32   31   33
+CONECT   32   33
+CONECT   33   20   32
+CONECT   33   32
+CONECT   34   16
+ENDMDL
+END   

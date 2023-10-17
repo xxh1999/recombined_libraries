@@ -1,0 +1,36 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2GZS
+MODEL        1
+ATOM      1  N   SER A 189       3.506  36.792  -0.433  1.00  9.43           N1+
+ATOM      2  CA  SER A 189       4.050  37.347  -1.677  1.00 10.80           C  
+ATOM      3  C   SER A 189       5.449  36.769  -1.937  1.00  9.73           C  
+ATOM      4  O   SER A 189       5.545  35.588  -2.272  1.00 10.24           O  
+ATOM      5  CB  SER A 189       3.875  38.878  -1.737  1.00 10.73           C  
+ATOM      6  OG  SER A 189       4.224  39.398  -3.005  1.00 11.56           O  
+TER       7      SER A 189
+HETATM    8  C1  DFP A1189       3.053  42.198  -3.397  1.00 23.69           C  
+HETATM    9  C2  DFP A1189       3.306  43.435  -4.266  1.00 27.12           C  
+HETATM   10  C3  DFP A1189       1.892  42.374  -2.418  1.00 29.44           C  
+HETATM   11  C1' DFP A1189       6.528  40.334  -5.329  1.00 18.54           C  
+HETATM   12  C2' DFP A1189       6.378  38.809  -5.360  1.00 26.22           C  
+HETATM   13  C3' DFP A1189       6.622  40.947  -6.728  1.00 29.73           C  
+HETATM   14  P   DFP A1189       5.210  40.686  -3.065  1.00 13.37           P  
+HETATM   15  O1P DFP A1189       4.217  41.903  -2.648  1.00 17.13           O  
+HETATM   16  O2P DFP A1189       5.431  40.922  -4.656  1.00 14.24           O  
+HETATM   17  O3P DFP A1189       6.449  40.560  -2.250  1.00 12.17           O  
+CONECT    8    9   10   15
+CONECT    9    8
+CONECT   10    8
+CONECT   11   12   13   16
+CONECT   12   11
+CONECT   13   11
+CONECT   14    6   15   16   17
+CONECT   14   17
+CONECT   15    8   14
+CONECT   16   11   14
+CONECT   17   14
+CONECT   17   14
+ENDMDL
+END   

@@ -1,0 +1,103 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     8c7x_ligand
+MODEL        1
+HETATM    1  N1  TXV A 819       3.391  23.456  34.574  1.00  0.00           N  
+HETATM    2  C7  TXV A 819       3.012  23.436  31.631  1.00  0.00           C  
+HETATM    3  C8  TXV A 819       2.000  23.436  32.586  1.00  0.00           C  
+HETATM    4  N2  TXV A 819       1.658  22.695  41.541  1.00  0.00           N  
+HETATM    5  C9  TXV A 819       0.690  23.705  32.188  1.00  0.00           C  
+HETATM    6  O1  TXV A 819       4.060  19.921  38.775  1.00  0.00           O  
+HETATM    7  C1  TXV A 819      -1.066  24.247  30.419  1.00  0.00           C  
+HETATM    8  C5  TXV A 819       1.416  23.985  29.922  1.00  0.00           C  
+HETATM    9  C6  TXV A 819       2.717  23.722  30.305  1.00  0.00           C  
+HETATM   10  N3  TXV A 819       1.162  21.078  43.246  1.00  0.00           N  
+HETATM   11  C4  TXV A 819       0.380  23.958  30.851  1.00  0.00           C  
+HETATM   12  C3  TXV A 819      -2.013  23.515  31.282  1.00  0.00           C  
+HETATM   13  C2  TXV A 819      -1.410  25.742  30.526  1.00  0.00           C  
+HETATM   14  F1  TXV A 819       5.386  23.265  39.714  1.00  0.00           F  
+HETATM   15  C14 TXV A 819       4.916  23.266  38.451  1.00  0.00           C  
+HETATM   16  C13 TXV A 819       5.275  24.296  37.625  1.00  0.00           C  
+HETATM   17  C12 TXV A 819       4.798  24.315  36.333  1.00  0.00           C  
+HETATM   18  C15 TXV A 819       4.101  22.215  38.061  1.00  0.00           C  
+HETATM   19  C16 TXV A 819       3.609  22.275  36.765  1.00  0.00           C  
+HETATM   20  F   TXV A 819       2.897  21.223  36.313  1.00  0.00           F  
+HETATM   21  C11 TXV A 819       3.902  23.341  35.910  1.00  0.00           C  
+HETATM   22  C10 TXV A 819       2.233  23.073  34.020  1.00  0.00           C  
+HETATM   23  O   TXV A 819       1.283  22.765  34.725  1.00  0.00           O  
+HETATM   24  N   TXV A 819      -2.788  22.966  31.906  1.00  0.00           N  
+HETATM   25  C   TXV A 819      -1.348  23.775  28.982  1.00  0.00           C  
+HETATM   26  C17 TXV A 819       3.719  21.098  39.000  1.00  0.00           C  
+HETATM   27  C18 TXV A 819       2.902  21.465  40.136  1.00  0.00           C  
+HETATM   28  C21 TXV A 819       2.474  20.626  41.242  1.00  0.00           C  
+HETATM   29  C22 TXV A 819       2.643  19.291  41.623  1.00  0.00           C  
+HETATM   30  C23 TXV A 819       2.061  18.901  42.817  1.00  0.00           C  
+HETATM   31 CL   TXV A 819       2.186  17.245  43.318  1.00  0.00          Cl  
+HETATM   32  C24 TXV A 819       1.366  19.800  43.603  1.00  0.00           C  
+HETATM   33  C20 TXV A 819       1.721  21.446  42.094  1.00  0.00           C  
+HETATM   34  C19 TXV A 819       2.363  22.708  40.376  1.00  0.00           C  
+CONECT    1   21   22
+CONECT    2    3    9
+CONECT    2    3
+CONECT    3    2    5   22
+CONECT    3    2
+CONECT    4   33   34
+CONECT    5    3   11
+CONECT    5   11
+CONECT    6   26
+CONECT    6   26
+CONECT    7   11   12   13   25
+CONECT    8    9   11
+CONECT    8    9
+CONECT    9    2    8
+CONECT    9    8
+CONECT   10   32   33
+CONECT   10   32
+CONECT   11    5    7    8
+CONECT   11    5
+CONECT   12    7   24
+CONECT   12   24
+CONECT   12   24
+CONECT   13    7
+CONECT   14   15
+CONECT   15   14   16   18
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   16   21
+CONECT   17   21
+CONECT   18   15   19   26
+CONECT   18   19
+CONECT   19   18   20   21
+CONECT   19   18
+CONECT   20   19
+CONECT   21    1   17   19
+CONECT   21   17
+CONECT   22    1    3   23
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   12
+CONECT   24   12
+CONECT   24   12
+CONECT   25    7
+CONECT   26    6   18   27
+CONECT   26    6
+CONECT   27   26   28   34
+CONECT   27   34
+CONECT   28   27   29   33
+CONECT   28   33
+CONECT   29   28   30
+CONECT   29   30
+CONECT   30   29   31   32
+CONECT   30   29
+CONECT   31   30
+CONECT   32   10   30
+CONECT   32   10
+CONECT   33    4   10   28
+CONECT   33   28
+CONECT   34    4   27
+CONECT   34   27
+ENDMDL
+END   

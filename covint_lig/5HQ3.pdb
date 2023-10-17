@@ -1,0 +1,25 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5HQ3
+MODEL        1
+ATOM      1  N   LYS A 252      38.987  70.836  51.378  1.00 42.98           N  
+ATOM      2  CA  LYS A 252      37.702  71.506  51.544  1.00 41.47           C  
+ATOM      3  C   LYS A 252      37.840  73.013  51.248  1.00 38.90           C  
+ATOM      4  O   LYS A 252      38.655  73.653  51.905  1.00 35.73           O  
+ATOM      5  CB  LYS A 252      37.167  71.202  52.955  1.00 43.19           C  
+ATOM      6  CG  LYS A 252      35.854  71.922  53.280  1.00 43.86           C  
+ATOM      7  CD  LYS A 252      35.288  71.473  54.621  1.00 45.55           C  
+ATOM      8  CE  LYS A 252      34.013  72.229  54.975  1.00 46.42           C  
+ATOM      9  NZ  LYS A 252      33.590  71.868  56.317  1.00 53.35           N1+
+ATOM     10  N   LYS A 253     -16.882   0.932  20.699  1.00 42.39           N1+
+ATOM     11  CA  LYS A 253     -16.529   2.353  20.752  1.00 44.93           C  
+ATOM     12  C   LYS A 253     -17.528   3.181  21.584  1.00 40.01           C  
+ATOM     13  O   LYS A 253     -17.103   3.947  22.449  1.00 41.79           O  
+ATOM     14  CB  LYS A 253     -16.434   2.904  19.312  1.00 50.53           C  
+ATOM     15  CG  LYS A 253     -15.876   4.336  19.221  1.00 55.16           C  
+ATOM     16  CD  LYS A 253     -15.977   4.915  17.805  1.00 61.91           C  
+ATOM     17  CE  LYS A 253     -15.324   6.298  17.701  1.00 65.84           C  
+ATOM     18  NZ  LYS A 253     -15.436   6.795  16.344  1.00 63.27           N1+
+ENDMDL
+END   

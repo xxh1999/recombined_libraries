@@ -1,0 +1,86 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3l8s_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  NAA BFF A 361       0.713  21.390  42.442  1.00  0.00           N  
+HETATM    2  OAB BFF A 361       0.522  20.675  44.559  1.00  0.00           O  
+HETATM    3  OAC BFF A 361       2.353  16.132  45.542  1.00  0.00           O  
+HETATM    4  FAD BFF A 361       6.177  22.862  41.887  1.00  0.00           F  
+HETATM    5  FAE BFF A 361       3.360  21.427  38.252  1.00  0.00           F  
+HETATM    6 BRAF BFF A 361       5.029  26.442  38.493  1.00  0.00          Br  
+HETATM    7  CAG BFF A 361       5.560  24.362  40.243  1.00  0.00           C  
+HETATM    8  CAH BFF A 361       4.163  23.686  38.383  1.00  0.00           C  
+HETATM    9  CAI BFF A 361      -0.015  14.258  46.473  1.00  0.00           C  
+HETATM   10  CAJ BFF A 361      -1.333  14.224  45.645  1.00  0.00           C  
+HETATM   11  CAK BFF A 361      -1.834  16.928  41.826  1.00  0.00           C  
+HETATM   12  CAL BFF A 361      -0.312  16.899  41.835  1.00  0.00           C  
+HETATM   13  CAM BFF A 361       0.183  15.549  47.319  1.00  0.00           C  
+HETATM   14  CAN BFF A 361      -1.133  14.080  44.118  1.00  0.00           C  
+HETATM   15  CAO BFF A 361      -2.246  15.690  42.644  1.00  0.00           C  
+HETATM   16  CAP BFF A 361       0.011  15.569  42.533  1.00  0.00           C  
+HETATM   17  CAQ BFF A 361       4.677  20.849  40.620  1.00  0.00           C  
+HETATM   18  NAR BFF A 361       4.104  18.604  42.266  1.00  0.00           N  
+HETATM   19  NAS BFF A 361       0.345  16.714  46.421  1.00  0.00           N  
+HETATM   20  NAT BFF A 361       1.299  17.997  44.820  1.00  0.00           N  
+HETATM   21  OAU BFF A 361       3.503  20.789  41.509  1.00  0.00           O  
+HETATM   22  SAV BFF A 361       3.517  17.485  43.342  1.00  0.00           S  
+HETATM   23  CAW BFF A 361       1.089  20.633  43.471  1.00  0.00           C  
+HETATM   24  CAX BFF A 361       1.389  16.905  45.593  1.00  0.00           C  
+HETATM   25  CAY BFF A 361       4.899  24.651  39.073  1.00  0.00           C  
+HETATM   26  CAZ BFF A 361       5.500  23.087  40.749  1.00  0.00           C  
+HETATM   27  CBA BFF A 361       4.086  22.387  38.893  1.00  0.00           C  
+HETATM   28  CBB BFF A 361       3.290  19.682  42.300  1.00  0.00           C  
+HETATM   29  CBC BFF A 361       4.781  22.098  40.074  1.00  0.00           C  
+HETATM   30  CBD BFF A 361       2.206  18.376  43.907  1.00  0.00           C  
+HETATM   31  CBE BFF A 361       2.202  19.583  43.211  1.00  0.00           C  
+HETATM   32  NBF BFF A 361      -1.088  15.422  43.496  1.00  0.00           N1+
+CONECT    1   23
+CONECT    2   23
+CONECT    2   23
+CONECT    3   24
+CONECT    3   24
+CONECT    4   26
+CONECT    5   27
+CONECT    6   25
+CONECT    7   25   26
+CONECT    7   25
+CONECT    8   25   27
+CONECT    8   27
+CONECT    9   10   13
+CONECT   10    9   14
+CONECT   11   12   15
+CONECT   12   11   16
+CONECT   13    9   19
+CONECT   14   10   32
+CONECT   15   11   32
+CONECT   16   12   32
+CONECT   17   21   29
+CONECT   18   22   28
+CONECT   18   28
+CONECT   19   13   24
+CONECT   20   24   30
+CONECT   21   17   28
+CONECT   22   18   30
+CONECT   23    1    2   31
+CONECT   23    2
+CONECT   24    3   19   20
+CONECT   24    3
+CONECT   25    6    7    8
+CONECT   25    7
+CONECT   26    4    7   29
+CONECT   26   29
+CONECT   27    5    8   29
+CONECT   27    8
+CONECT   28   18   21   31
+CONECT   28   18
+CONECT   29   17   26   27
+CONECT   29   26
+CONECT   30   20   22   31
+CONECT   30   31
+CONECT   31   23   28   30
+CONECT   31   30
+CONECT   32   14   15   16
+ENDMDL
+END   

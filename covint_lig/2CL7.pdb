@@ -1,0 +1,93 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2CL7
+MODEL        1
+ATOM      1  N   THR X  35      23.204  67.216 -10.798  0.50 32.58           N1+
+ATOM      2  CA  THR X  35      23.843  65.944 -11.170  0.50 32.23           C  
+ATOM      3  C   THR X  35      23.203  65.377 -12.447  0.50 31.89           C  
+ATOM      4  O   THR X  35      22.073  65.720 -12.798  0.50 32.26           O  
+ATOM      5  CB  THR X  35      23.714  64.912 -10.008  0.50 32.23           C  
+ATOM      6  OG1 THR X  35      24.131  65.488  -8.787  0.50 30.19           O  
+ATOM      7  CG2 THR X  35      24.534  63.614 -10.166  0.50 32.38           C  
+TER       8      THR X  35
+HETATM    9  PG  GTP X1167      20.113  66.321  -7.552  0.50  8.97           P  
+HETATM   10  O1G GTP X1167      21.466  65.972  -8.104  0.50  8.46           O  
+HETATM   11  O2G GTP X1167      19.084  65.253  -7.819  0.50 10.35           O1-
+HETATM   12  O3G GTP X1167      19.637  67.706  -7.934  0.50  8.58           O1-
+HETATM   13  O3B GTP X1167      20.333  66.315  -5.961  0.50  5.78           O  
+HETATM   14  PB  GTP X1167      20.907  65.238  -4.811  0.50  6.33           P  
+HETATM   15  O1B GTP X1167      22.116  64.628  -5.392  0.50  5.47           O  
+HETATM   16  O2B GTP X1167      19.789  64.386  -4.349  0.50  6.49           O1-
+HETATM   17  O3A GTP X1167      21.360  66.232  -3.535  0.50  7.38           O  
+HETATM   18  PA  GTP X1167      22.804  66.970  -3.074  0.50  6.78           P  
+HETATM   19  O1A GTP X1167      23.251  67.910  -4.122  0.50  6.29           O  
+HETATM   20  O2A GTP X1167      23.726  65.932  -2.559  0.50  8.21           O1-
+HETATM   21  O5' GTP X1167      22.215  67.873  -1.784  0.50  5.99           O  
+HETATM   22  C5' GTP X1167      21.426  69.023  -2.009  0.50  6.08           C  
+HETATM   23  C4' GTP X1167      21.732  70.043  -0.923  0.50  5.79           C  
+HETATM   24  O4' GTP X1167      21.392  69.435   0.320  0.50  6.63           O  
+HETATM   25  C3' GTP X1167      23.220  70.415  -0.852  0.50  6.36           C  
+HETATM   26  O3' GTP X1167      23.311  71.782  -0.487  0.50  6.63           O  
+HETATM   27  C2' GTP X1167      23.740  69.485   0.236  0.50  5.89           C  
+HETATM   28  O2' GTP X1167      24.864  70.021   0.890  0.50  6.39           O  
+HETATM   29  C1' GTP X1167      22.514  69.393   1.139  0.50  6.53           C  
+HETATM   30  N9  GTP X1167      22.482  68.103   1.883  0.50  6.60           N  
+HETATM   31  C8  GTP X1167      22.561  66.818   1.408  0.50  6.08           C  
+HETATM   32  N7  GTP X1167      22.508  65.900   2.332  0.50  6.95           N  
+HETATM   33  C5  GTP X1167      22.390  66.621   3.514  0.50  5.60           C  
+HETATM   34  C6  GTP X1167      22.304  66.174   4.873  0.50  6.65           C  
+HETATM   35  O6  GTP X1167      22.292  65.021   5.295  0.50  5.88           O  
+HETATM   36  N1  GTP X1167      22.209  67.239   5.773  0.50  5.29           N  
+HETATM   37  C2  GTP X1167      22.193  68.578   5.403  0.50  6.65           C  
+HETATM   38  N2  GTP X1167      22.127  69.487   6.379  0.50  5.52           N  
+HETATM   39  N3  GTP X1167      22.248  68.988   4.152  0.50  6.16           N  
+HETATM   40  C4  GTP X1167      22.354  67.973   3.245  0.50  6.55           C  
+CONECT    9   10   11   12   13
+CONECT    9   10
+CONECT   10    9
+CONECT   10    9
+CONECT   11    9
+CONECT   12    9
+CONECT   13    9   14
+CONECT   14   13   15   16   17
+CONECT   14   15
+CONECT   15   14
+CONECT   15   14
+CONECT   16   14
+CONECT   17   14   18
+CONECT   18   17   19   20   21
+CONECT   18   19
+CONECT   19   18
+CONECT   19   18
+CONECT   20   18
+CONECT   21   18   22
+CONECT   22   21   23
+CONECT   23   22   24   25
+CONECT   24   23   29
+CONECT   25   23   26   27
+CONECT   26   25
+CONECT   27   25   28   29
+CONECT   28   27
+CONECT   29   24   27   30
+CONECT   30   29   31   40
+CONECT   31   30   32
+CONECT   31   32
+CONECT   32   31   33
+CONECT   32   31
+CONECT   33   32   34   40
+CONECT   33   40
+CONECT   34   33   35   36
+CONECT   34   35
+CONECT   35   34
+CONECT   35   34
+CONECT   36   34   37
+CONECT   37   36   38   39
+CONECT   37   39
+CONECT   38   37
+CONECT   39   37   40
+CONECT   39   37
+CONECT   40   30   33   39
+CONECT   40   33
+ENDMDL
+END   

@@ -1,0 +1,72 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4BXW
+MODEL        1
+ATOM      1  N   SER A 362     -25.950   9.978 -10.645  1.00 28.75           N1+
+ATOM      2  CA  SER A 362     -24.929  11.003 -10.893  1.00 29.63           C  
+ATOM      3  C   SER A 362     -25.127  12.249 -10.030  1.00 27.83           C  
+ATOM      4  O   SER A 362     -26.247  12.737  -9.903  1.00 27.75           O  
+ATOM      5  CB  SER A 362     -24.916  11.398 -12.381  1.00 30.07           C  
+ATOM      6  OG  SER A 362     -24.253  10.422 -13.172  1.00 33.39           O  
+TER       7      SER A 362
+HETATM    8  N   0GJ A1411     -19.415   5.090 -19.510  1.00 38.82           N1+
+HETATM    9  CA  0GJ A1411     -20.615   5.941 -19.606  1.00 40.08           C  
+HETATM   10  C   0GJ A1411     -20.761   6.793 -18.332  1.00 38.77           C  
+HETATM   11  O   0GJ A1411     -20.501   6.295 -17.238  1.00 31.28           O  
+HETATM   12  CB  0GJ A1411     -21.852   5.055 -19.899  1.00 36.72           C  
+HETATM   13  CG  0GJ A1411     -23.196   5.811 -19.971  1.00 43.37           C  
+HETATM   14  CD  0GJ A1411     -24.401   4.962 -20.379  1.00 54.83           C  
+HETATM   15  OE1 0GJ A1411     -24.213   3.763 -20.683  1.00 54.79           O  
+HETATM   16  OE2 0GJ A1411     -25.509   5.542 -20.373  1.00 34.10           O1-
+HETATM   17  N1  0GJ A1411     -21.194   8.060 -18.458  1.00 34.22           N  
+HETATM   18  CA1 0GJ A1411     -21.501   8.957 -17.333  1.00 29.70           C  
+HETATM   19  C1  0GJ A1411     -22.811   8.581 -16.638  1.00 33.64           C  
+HETATM   20  O1  0GJ A1411     -23.663   7.966 -17.267  1.00 29.38           O  
+HETATM   21  N2  0GJ A1411     -22.978   8.930 -15.354  1.00 22.88           N  
+HETATM   22  CA2 0GJ A1411     -24.101   8.497 -14.513  1.00 26.65           C  
+HETATM   23  C2  0GJ A1411     -25.017   9.658 -14.061  1.00 34.68           C  
+HETATM   24  O2  0GJ A1411     -26.147   9.120 -13.429  1.00 38.30           O  
+HETATM   25  CB1 0GJ A1411     -23.566   7.731 -13.290  1.00 32.54           C  
+HETATM   26  CG1 0GJ A1411     -22.711   6.516 -13.677  1.00 31.66           C  
+HETATM   27  CD1 0GJ A1411     -23.142   5.218 -13.006  1.00 27.21           C  
+HETATM   28  NE  0GJ A1411     -22.136   4.748 -12.066  1.00 30.47           N  
+HETATM   29  CZ  0GJ A1411     -21.710   3.490 -11.938  1.00 24.94           C  
+HETATM   30  NH1 0GJ A1411     -21.939   2.533 -12.844  1.00 20.66           N  
+HETATM   31  NH2 0GJ A1411     -21.050   3.200 -10.826  1.00 19.78           N1+
+HETATM   32  C3  0GJ A1411     -25.541  10.487 -15.260  1.00 28.47           C  
+CONECT    8    9
+CONECT    9    8   10   12
+CONECT   10    9   11   17
+CONECT   10   11
+CONECT   11   10
+CONECT   11   10
+CONECT   12    9   13
+CONECT   13   12   14
+CONECT   14   13   15   16
+CONECT   14   15
+CONECT   15   14
+CONECT   15   14
+CONECT   16   14
+CONECT   17   10   18
+CONECT   18   17   19
+CONECT   19   18   20   21
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21   19   22
+CONECT   22   21   23   25
+CONECT   23    6   22   24   32
+CONECT   24   23
+CONECT   25   22   26
+CONECT   26   25   27
+CONECT   27   26   28
+CONECT   28   27   29
+CONECT   29   28   30   31
+CONECT   29   31
+CONECT   30   29
+CONECT   31   29
+CONECT   31   29
+CONECT   32   23
+ENDMDL
+END   

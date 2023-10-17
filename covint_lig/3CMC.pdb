@@ -1,0 +1,38 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3CMC
+MODEL        1
+ATOM      1  N   CYS O 149      13.274  12.559   1.817  1.00 17.04           N1+
+ATOM      2  CA  CYS O 149      14.597  12.970   1.367  1.00 17.67           C  
+ATOM      3  C   CYS O 149      14.878  12.686  -0.114  1.00 18.92           C  
+ATOM      4  O   CYS O 149      15.469  13.524  -0.793  1.00 17.84           O  
+ATOM      5  CB  CYS O 149      15.682  12.428   2.328  1.00 17.64           C  
+ATOM      6  SG  CYS O 149      15.930  10.610   2.305  1.00 21.70           S  
+TER       7      CYS O 149
+HETATM    8  O1  G3H O 400      13.657  10.693   3.745  0.64 32.23           O  
+HETATM    9  C1  G3H O 400      14.632  10.019   3.436  0.64 28.77           C  
+HETATM   10  C2  G3H O 400      14.784   8.628   4.042  0.64 30.17           C  
+HETATM   11  O2  G3H O 400      15.978   8.578   4.798  0.64 21.83           O  
+HETATM   12  C3  G3H O 400      14.790   7.446   3.065  0.64 31.14           C  
+HETATM   13  O1P G3H O 400      13.583   7.201   2.349  0.64 30.96           O  
+HETATM   14  O2P G3H O 400      12.431   7.058   0.049  0.64 29.19           O  
+HETATM   15  O3P G3H O 400      14.904   7.077   0.195  0.64 17.30           O1-
+HETATM   16  O4P G3H O 400      13.576   9.145   0.782  0.64 26.77           O1-
+HETATM   17  P   G3H O 400      13.620   7.637   0.771  0.64 25.08           P  
+CONECT    8    9
+CONECT    8    9
+CONECT    9    6    8   10
+CONECT    9    8
+CONECT   10    9   11   12
+CONECT   11   10
+CONECT   12   10   13
+CONECT   13   12   17
+CONECT   14   17
+CONECT   14   17
+CONECT   15   17
+CONECT   16   17
+CONECT   17   13   14   15   16
+CONECT   17   14
+ENDMDL
+END   

@@ -1,0 +1,66 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5OSJ
+MODEL        1
+ATOM      1  N   CYS A 177      -9.982  -9.364  -0.480  1.00 12.93           N1+
+ATOM      2  CA  CYS A 177     -10.409  -7.962  -0.451  1.00 14.71           C  
+ATOM      3  C   CYS A 177     -10.757  -7.503  -1.874  1.00 16.24           C  
+ATOM      4  O   CYS A 177      -9.935  -7.615  -2.785  1.00 16.50           O  
+ATOM      5  CB  CYS A 177      -9.277  -7.086   0.124  1.00 14.89           C  
+ATOM      6  SG  CYS A 177      -9.804  -5.354   0.316  1.00 17.02           S  
+TER       7      CYS A 177
+HETATM    8  C12 AAK A 301      -6.521  -3.153   6.192  1.00 23.86           C  
+HETATM    9  C11 AAK A 301      -7.827  -3.525   5.800  1.00 25.55           C  
+HETATM   10  O2  AAK A 301      -9.738  -2.446   2.327  1.00 19.78           O  
+HETATM   11  O1  AAK A 301     -10.094  -3.727   8.610  1.00 24.92           O  
+HETATM   12  C7  AAK A 301     -10.115  -3.461   2.916  1.00 20.86           C  
+HETATM   13  C8  AAK A 301     -11.349  -4.180   2.341  1.00 19.70           C  
+HETATM   14  C9  AAK A 301     -11.005  -5.522   1.668  1.00 21.57           C  
+HETATM   15  N1  AAK A 301      -9.507  -3.940   4.038  1.00 23.07           N  
+HETATM   16  C6  AAK A 301     -10.286  -4.790   4.961  1.00 23.52           C  
+HETATM   17  C5  AAK A 301      -9.625  -5.081   6.316  1.00 27.18           C  
+HETATM   18  C10 AAK A 301      -8.180  -3.536   4.426  1.00 21.98           C  
+HETATM   19  C15 AAK A 301      -7.190  -3.190   3.470  1.00 21.57           C  
+HETATM   20  C14 AAK A 301      -5.897  -2.811   3.873  1.00 20.50           C  
+HETATM   21  C13 AAK A 301      -5.561  -2.789   5.235  1.00 21.89           C  
+HETATM   22  N   AAK A 301      -8.787  -3.959   6.755  1.00 27.10           N  
+HETATM   23  C   AAK A 301      -9.008  -3.245   7.947  1.00 25.89           C  
+HETATM   24  O   AAK A 301      -8.318  -2.313   8.361  1.00 21.86           O  
+HETATM   25  C1  AAK A 301     -10.529  -3.276   9.900  1.00 27.55           C  
+HETATM   26  C4  AAK A 301     -10.796  -1.754   9.948  1.00 28.40           C  
+HETATM   27  C3  AAK A 301     -11.864  -4.007  10.121  1.00 27.24           C  
+HETATM   28  C2  AAK A 301      -9.524  -3.716  10.984  1.00 28.37           C  
+CONECT    8    9   21
+CONECT    8   21
+CONECT    9    8   18   22
+CONECT    9   18
+CONECT   10   12
+CONECT   10   12
+CONECT   11   23   25
+CONECT   12   10   13   15
+CONECT   12   10
+CONECT   13   12   14
+CONECT   14    6   13
+CONECT   15   12   16   18
+CONECT   16   15   17
+CONECT   17   16   22
+CONECT   18    9   15   19
+CONECT   18    9
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21    8   20
+CONECT   21    8
+CONECT   22    9   17   23
+CONECT   23   11   22   24
+CONECT   23   24
+CONECT   24   23
+CONECT   24   23
+CONECT   25   11   26   27   28
+CONECT   26   25
+CONECT   27   25
+CONECT   28   25
+ENDMDL
+END   

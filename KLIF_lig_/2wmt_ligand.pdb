@@ -1,0 +1,46 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2wmt_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CAA ZYT A1271       0.740  21.707  39.450  1.00  0.00           C  
+HETATM    2  SAI ZYT A1271       1.851  20.629  40.309  1.00  0.00           S  
+HETATM    3  CAL ZYT A1271       0.961  19.775  41.534  1.00  0.00           C  
+HETATM    4  NAG ZYT A1271       0.874  18.448  41.641  1.00  0.00           N  
+HETATM    5  NAH ZYT A1271       0.291  20.377  42.503  1.00  0.00           N  
+HETATM    6  CAM ZYT A1271      -0.239  19.407  43.225  1.00  0.00           C  
+HETATM    7  OAB ZYT A1271      -0.932  19.617  44.208  1.00  0.00           O  
+HETATM    8  CAN ZYT A1271       0.111  18.174  42.695  1.00  0.00           C  
+HETATM    9  CAC ZYT A1271      -0.306  16.950  43.212  1.00  0.00           C  
+HETATM   10  CAK ZYT A1271      -1.114  16.740  44.331  1.00  0.00           C  
+HETATM   11  CAF ZYT A1271      -1.657  17.649  45.138  1.00  0.00           C  
+HETATM   12  CAD ZYT A1271      -2.395  17.139  46.144  1.00  0.00           C  
+HETATM   13  CAE ZYT A1271      -2.480  15.805  46.189  1.00  0.00           C  
+HETATM   14  SAJ ZYT A1271      -1.573  15.233  44.888  1.00  0.00           S  
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4    5
+CONECT    3    4
+CONECT    4    3    8
+CONECT    4    3
+CONECT    5    3    6
+CONECT    6    5    7    8
+CONECT    6    7
+CONECT    7    6
+CONECT    7    6
+CONECT    8    4    6    9
+CONECT    8    9
+CONECT    9    8   10
+CONECT    9    8
+CONECT   10    9   11   14
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   10   13
+ENDMDL
+END   

@@ -1,0 +1,86 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5ngu_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  Q8X A 403      -2.600  11.367  46.577  1.00  0.00           C  
+HETATM    2  C2  Q8X A 403      -2.248  12.857  46.485  1.00  0.00           C  
+HETATM    3  C3  Q8X A 403      -2.007  12.647  44.093  1.00  0.00           C  
+HETATM    4  N6  Q8X A 403       2.472  16.075  36.636  1.00  0.00           N  
+HETATM    5  C7  Q8X A 403      -1.963  16.809  43.630  1.00  0.00           C  
+HETATM    6  C8  Q8X A 403      -1.642  17.595  44.734  1.00  0.00           C  
+HETATM    7  C9  Q8X A 403      -1.666  17.016  46.001  1.00  0.00           C  
+HETATM    8  C10 Q8X A 403      -2.000  15.664  46.142  1.00  0.00           C  
+HETATM    9  C11 Q8X A 403      -0.425  19.517  43.542  1.00  0.00           C  
+HETATM   10  C12 Q8X A 403       0.725  21.381  42.669  1.00  0.00           C  
+HETATM   11  C13 Q8X A 403       1.197  20.614  41.613  1.00  0.00           C  
+HETATM   12  C14 Q8X A 403       0.832  19.272  41.549  1.00  0.00           C  
+HETATM   13  C15 Q8X A 403       1.325  18.463  40.398  1.00  0.00           C  
+HETATM   14  C16 Q8X A 403       2.058  18.827  39.281  1.00  0.00           C  
+HETATM   15  C19 Q8X A 403       1.445  15.195  38.781  1.00  0.00           C  
+HETATM   16  C20 Q8X A 403       1.538  15.124  37.246  1.00  0.00           C  
+HETATM   17  C21 Q8X A 403       2.800  17.314  37.278  1.00  0.00           C  
+HETATM   18  O   Q8X A 403       3.552  18.128  36.767  1.00  0.00           O  
+HETATM   19  C17 Q8X A 403       2.168  17.651  38.580  1.00  0.00           C  
+HETATM   20  C18 Q8X A 403       1.527  16.630  39.265  1.00  0.00           C  
+HETATM   21  N5  Q8X A 403       1.008  17.155  40.389  1.00  0.00           N  
+HETATM   22  N3  Q8X A 403      -0.071  20.826  43.601  1.00  0.00           N  
+HETATM   23  N4  Q8X A 403       0.027  18.744  42.513  1.00  0.00           N  
+HETATM   24  N2  Q8X A 403      -1.292  18.995  44.586  1.00  0.00           N  
+HETATM   25  C6  Q8X A 403      -2.289  15.465  43.799  1.00  0.00           C  
+HETATM   26  C5  Q8X A 403      -2.318  14.822  45.052  1.00  0.00           C  
+HETATM   27  N1  Q8X A 403      -2.660  13.406  45.177  1.00  0.00           N  
+HETATM   28  C4  Q8X A 403      -2.406  11.173  44.166  1.00  0.00           C  
+HETATM   29  N   Q8X A 403      -1.965  10.625  45.465  1.00  0.00           N  
+HETATM   30  C   Q8X A 403      -2.332   9.204  45.547  1.00  0.00           C  
+CONECT    1    2   29
+CONECT    2    1   27
+CONECT    3   27   28
+CONECT    4   16   17
+CONECT    5    6   25
+CONECT    5   25
+CONECT    6    5    7   24
+CONECT    6    7
+CONECT    7    6    8
+CONECT    7    6
+CONECT    8    7   26
+CONECT    8   26
+CONECT    9   22   23   24
+CONECT    9   22
+CONECT   10   11   22
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   13   23
+CONECT   12   23
+CONECT   13   12   14   21
+CONECT   13   14
+CONECT   14   13   19
+CONECT   14   13
+CONECT   15   16   20
+CONECT   16    4   15
+CONECT   17    4   18   19
+CONECT   17   18
+CONECT   18   17
+CONECT   18   17
+CONECT   19   14   17   20
+CONECT   19   20
+CONECT   20   15   19   21
+CONECT   20   19
+CONECT   21   13   20
+CONECT   22    9   10
+CONECT   22    9
+CONECT   23    9   12
+CONECT   23   12
+CONECT   24    6    9
+CONECT   25    5   26
+CONECT   25    5
+CONECT   26    8   25   27
+CONECT   26    8
+CONECT   27    2    3   26
+CONECT   28    3   29
+CONECT   29    1   28   30
+CONECT   30   29
+ENDMDL
+END   

@@ -1,0 +1,98 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6W5J
+MODEL        1
+ATOM      1  N   CYS A 139      -2.404  -4.898 -42.298  1.00 24.58           N1+
+ATOM      2  CA  CYS A 139      -3.473  -4.328 -43.106  1.00 26.96           C  
+ATOM      3  C   CYS A 139      -4.822  -4.655 -42.482  1.00 26.82           C  
+ATOM      4  O   CYS A 139      -5.023  -5.734 -41.913  1.00 25.36           O  
+ATOM      5  CB  CYS A 139      -3.385  -4.826 -44.538  1.00 24.41           C  
+ATOM      6  SG  CYS A 139      -2.149  -3.886 -45.527  1.00 31.42           S  
+TER       7      CYS A 139
+HETATM    8  C10 TKS A 201      -2.117  -5.048 -52.694  1.00 40.87           C  
+HETATM    9  C12 TKS A 201      -3.964  -3.411 -53.473  1.00 33.65           C  
+HETATM   10  C13 TKS A 201      -3.375  -2.334 -52.573  1.00 39.32           C  
+HETATM   11  C15 TKS A 201       0.656  -4.175 -48.681  1.00 42.44           C  
+HETATM   12  C11 TKS A 201      -3.102  -4.631 -53.773  1.00 39.49           C  
+HETATM   13  C14 TKS A 201      -2.494  -2.876 -51.454  1.00 33.00           C  
+HETATM   14  C17 TKS A 201       0.415  -4.518 -46.170  1.00 35.77           C  
+HETATM   15  C18 TKS A 201       0.997  -3.450 -45.266  1.00 33.34           C  
+HETATM   16  C20 TKS A 201       2.939  -1.946 -44.913  1.00 34.31           C  
+HETATM   17  C22 TKS A 201       4.647  -3.168 -46.051  1.00 43.46           C  
+HETATM   18  C23 TKS A 201       3.280  -3.864 -46.240  1.00 37.33           C  
+HETATM   19  C25 TKS A 201      -0.835  -5.136 -45.520  1.00 33.70           C  
+HETATM   20  C29 TKS A 201       6.594  -0.362 -51.438  1.00 51.46           C  
+HETATM   21  C01 TKS A 201       5.419  -1.821 -53.076  1.00 53.48           C  
+HETATM   22  C02 TKS A 201       5.232  -0.823 -51.932  1.00 44.69           C  
+HETATM   23  C03 TKS A 201       4.459  -1.516 -50.807  1.00 44.38           C  
+HETATM   24  C05 TKS A 201       2.202  -2.147 -50.406  1.00 41.54           C  
+HETATM   25  C07 TKS A 201       0.135  -3.529 -49.973  1.00 36.03           C  
+HETATM   26  C08 TKS A 201      -0.759  -4.515 -50.695  1.00 36.31           C  
+HETATM   27  C09 TKS A 201      -1.468  -3.907 -51.914  1.00 34.63           C  
+HETATM   28  C19 TKS A 201       2.247  -2.813 -45.864  1.00 33.11           C  
+HETATM   29  C30 TKS A 201       4.406   0.385 -52.376  1.00 54.10           C  
+HETATM   30  C31 TKS A 201       3.831   1.197 -51.405  1.00 53.11           C  
+HETATM   31  C32 TKS A 201       3.075   2.297 -51.757  1.00 52.11           C  
+HETATM   32  C34 TKS A 201       2.891   2.600 -53.100  1.00 51.65           C  
+HETATM   33  C35 TKS A 201       3.466   1.795 -54.079  1.00 50.32           C  
+HETATM   34  C36 TKS A 201       4.224   0.687 -53.719  1.00 54.19           C  
+HETATM   35  N06 TKS A 201       1.304  -3.213 -50.774  1.00 38.21           N  
+HETATM   36  N16 TKS A 201      -0.042  -3.926 -47.432  1.00 36.72           N  
+HETATM   37  N21 TKS A 201       4.427  -2.162 -45.053  1.00 35.49           N  
+HETATM   38  O04 TKS A 201       3.202  -1.814 -51.334  1.00 43.73           O  
+HETATM   39  O24 TKS A 201       2.423  -1.172 -44.176  1.00 31.57           O  
+HETATM   40  O26 TKS A 201      -1.261  -6.228 -46.305  1.00 33.27           O  
+HETATM   41  O27 TKS A 201       1.625  -4.877 -48.717  1.00 32.32           O  
+HETATM   42  O28 TKS A 201       2.109  -1.578 -49.364  1.00 37.32           O  
+HETATM   43 CL3  TKS A 201       2.339   3.311 -50.480  1.00 62.27          Cl  
+CONECT    8   12   27
+CONECT    9   10   12
+CONECT   10    9   13
+CONECT   11   25   36   41
+CONECT   11   41
+CONECT   12    8    9
+CONECT   13   10   27
+CONECT   14   15   19   36
+CONECT   15   14   28
+CONECT   16   28   37   39
+CONECT   16   39
+CONECT   17   18   37
+CONECT   18   17   28
+CONECT   19    6   14   40
+CONECT   20   22
+CONECT   21   22
+CONECT   22   20   21   23   29
+CONECT   23   22   38
+CONECT   24   35   38   42
+CONECT   24   42
+CONECT   25   11   26   35
+CONECT   26   25   27
+CONECT   27    8   13   26
+CONECT   28   15   16   18
+CONECT   29   22   30   34
+CONECT   29   30
+CONECT   30   29   31
+CONECT   30   29
+CONECT   31   30   32   43
+CONECT   31   32
+CONECT   32   31   33
+CONECT   32   31
+CONECT   33   32   34
+CONECT   33   34
+CONECT   34   29   33
+CONECT   34   33
+CONECT   35   24   25
+CONECT   36   11   14
+CONECT   37   16   17
+CONECT   38   23   24
+CONECT   39   16
+CONECT   39   16
+CONECT   40   19
+CONECT   41   11
+CONECT   41   11
+CONECT   42   24
+CONECT   42   24
+CONECT   43   31
+ENDMDL
+END   

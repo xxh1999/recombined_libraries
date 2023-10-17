@@ -1,0 +1,66 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5EZS
+MODEL        1
+ATOM      1  N   CYS A 477      25.956  42.506  -2.308  0.75 14.89           N1+
+ATOM      2  CA  CYS A 477      26.356  43.751  -1.630  0.75 15.35           C  
+ATOM      3  C   CYS A 477      27.387  43.549  -0.499  0.75 14.50           C  
+ATOM      4  O   CYS A 477      28.215  44.426  -0.263  0.75 14.31           O  
+ATOM      5  CB  CYS A 477      25.094  44.470  -1.092  0.75 16.21           C  
+ATOM      6  SG  CYS A 477      24.152  43.332  -0.007  0.75 17.88           S  
+TER       7      CYS A 477
+HETATM    8  C14 E6D A 801      21.996  38.953   9.146  0.75 27.91           C  
+HETATM    9  C13 E6D A 801      22.109  40.129   8.165  0.75 27.91           C  
+HETATM   10  C15 E6D A 801      20.982  41.146   8.373  0.75 28.64           C  
+HETATM   11  C12 E6D A 801      22.306  39.667   6.701  0.75 28.27           C  
+HETATM   12  C11 E6D A 801      21.088  39.157   5.889  0.75 28.30           C  
+HETATM   13  N10 E6D A 801      20.024  40.125   5.606  0.75 29.06           N  
+HETATM   14  C8  E6D A 801      19.992  41.140   4.724  0.75 28.96           C  
+HETATM   15  O9  E6D A 801      18.947  41.755   4.515  0.75 29.75           O  
+HETATM   16  C7  E6D A 801      21.271  41.564   3.993  0.75 27.81           C  
+HETATM   17  C19 E6D A 801      22.123  42.619   4.727  0.75 28.32           C  
+HETATM   18  C20 E6D A 801      21.534  44.026   4.893  0.75 28.69           C  
+HETATM   19  C22 E6D A 801      22.673  45.036   4.751  0.75 28.70           C  
+HETATM   20  C21 E6D A 801      20.806  44.222   6.232  0.75 28.88           C  
+HETATM   21  N6  E6D A 801      21.015  42.007   2.618  0.75 26.24           N  
+HETATM   22  C4  E6D A 801      21.863  41.826   1.588  0.75 24.63           C  
+HETATM   23  O5  E6D A 801      22.906  41.188   1.723  0.75 23.37           O  
+HETATM   24  C3  E6D A 801      21.472  42.364   0.192  0.75 23.78           C  
+HETATM   25  O1  E6D A 801      20.111  42.768   0.187  0.75 24.17           O  
+HETATM   26  C2  E6D A 801      22.363  43.513  -0.394  0.75 22.63           C  
+HETATM   27  C16 E6D A 801      22.133  43.630  -1.908  0.75 23.30           C  
+HETATM   28  O18 E6D A 801      22.855  43.062  -2.726  0.75 22.59           O  
+HETATM   29  O17 E6D A 801      21.080  44.408  -2.205  0.75 24.32           O  
+HETATM   30  C23 E6D A 801      20.715  44.606  -3.559  0.75 24.27           C  
+CONECT    8    9
+CONECT    9    8   10   11
+CONECT   10    9
+CONECT   11    9   12
+CONECT   12   11   13
+CONECT   13   12   14
+CONECT   14   13   15   16
+CONECT   14   15
+CONECT   15   14
+CONECT   15   14
+CONECT   16   14   17   21
+CONECT   17   16   18
+CONECT   18   17   19   20
+CONECT   19   18
+CONECT   20   18
+CONECT   21   16   22
+CONECT   22   21   23   24
+CONECT   22   23
+CONECT   23   22
+CONECT   23   22
+CONECT   24   22   25   26
+CONECT   25   24
+CONECT   26    6   24   27
+CONECT   27   26   28   29
+CONECT   27   28
+CONECT   28   27
+CONECT   28   27
+CONECT   29   27   30
+CONECT   30   29
+ENDMDL
+END   

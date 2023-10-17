@@ -1,0 +1,79 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     8exv_ligand
+MODEL        1
+HETATM    1  C4  X3N A1101      -1.474  15.900  46.307  1.00  0.00           C  
+HETATM    2  C11 X3N A1101       0.968  19.494  42.923  1.00  0.00           C  
+HETATM    3  C8  X3N A1101      -0.286  18.666  45.314  1.00  0.00           C  
+HETATM    4  C9  X3N A1101       0.473  17.765  44.550  1.00  0.00           C  
+HETATM    5  C10 X3N A1101       1.071  18.166  43.359  1.00  0.00           C  
+HETATM    6  C12 X3N A1101       0.166  20.402  43.688  1.00  0.00           C  
+HETATM    7  C13 X3N A1101      -0.437  19.980  44.862  1.00  0.00           C  
+HETATM    8  C1  X3N A1101      -1.251  16.918  48.577  1.00  0.00           C  
+HETATM    9  C2  X3N A1101      -0.740  16.940  47.128  1.00  0.00           C  
+HETATM   10  O5  X3N A1101      -0.999  14.784  46.202  1.00  0.00           O  
+HETATM   11  N6  X3N A1101      -2.621  16.229  45.671  1.00  0.00           N  
+HETATM   12  N7  X3N A1101      -0.880  18.297  46.534  1.00  0.00           N  
+HETATM   13  O14 X3N A1101      -0.026  21.684  43.313  1.00  0.00           O  
+HETATM   14  C15 X3N A1101      -0.335  22.026  41.966  1.00  0.00           C  
+HETATM   15  C16 X3N A1101       0.981  22.253  41.229  1.00  0.00           C  
+HETATM   16  N17 X3N A1101       1.615  20.994  40.869  1.00  0.00           N  
+HETATM   17  C18 X3N A1101       1.622  19.820  41.621  1.00  0.00           C  
+HETATM   18  N19 X3N A1101       2.285  18.944  40.917  1.00  0.00           N  
+HETATM   19  C20 X3N A1101       2.772  19.452  39.788  1.00  0.00           C  
+HETATM   20  C21 X3N A1101       2.327  20.736  39.717  1.00  0.00           C  
+HETATM   21  N22 X3N A1101       3.529  18.663  38.891  1.00  0.00           N  
+HETATM   22  C23 X3N A1101       3.912  17.264  39.190  1.00  0.00           C  
+HETATM   23  C25 X3N A1101       4.443  16.720  37.854  1.00  0.00           C  
+HETATM   24  O26 X3N A1101       4.622  17.928  37.072  1.00  0.00           O  
+HETATM   25  C27 X3N A1101       3.975  18.949  37.646  1.00  0.00           C  
+HETATM   26  O28 X3N A1101       3.833  20.006  37.070  1.00  0.00           O  
+HETATM   27  C29 X3N A1101       4.989  17.214  40.287  1.00  0.00           C  
+HETATM   28  F30 X3N A1101       5.262  15.891  40.674  1.00  0.00           F  
+HETATM   29  F31 X3N A1101       6.134  17.866  39.820  1.00  0.00           F  
+CONECT    1    9   10   11
+CONECT    1   10
+CONECT    2    5    6   17
+CONECT    2    5
+CONECT    3    4    7   12
+CONECT    3    4
+CONECT    4    3    5
+CONECT    4    3
+CONECT    5    2    4
+CONECT    5    2
+CONECT    6    2    7   13
+CONECT    6    7
+CONECT    7    3    6
+CONECT    7    6
+CONECT    8    9
+CONECT    9    1    8   12
+CONECT   10    1
+CONECT   10    1
+CONECT   11    1
+CONECT   12    3    9
+CONECT   13    6   14
+CONECT   14   13   15
+CONECT   15   14   16
+CONECT   16   15   17   20
+CONECT   17    2   16   18
+CONECT   17   18
+CONECT   18   17   19
+CONECT   18   17
+CONECT   19   18   20   21
+CONECT   19   20
+CONECT   20   16   19
+CONECT   20   19
+CONECT   21   19   22   25
+CONECT   22   21   23   27
+CONECT   23   22   24
+CONECT   24   23   25
+CONECT   25   21   24   26
+CONECT   25   26
+CONECT   26   25
+CONECT   26   25
+CONECT   27   22   28   29
+CONECT   28   27
+CONECT   29   27
+ENDMDL
+END   

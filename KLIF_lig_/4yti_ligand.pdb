@@ -1,0 +1,74 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4yti_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  VJK A4000       2.775  16.212  39.871  1.00  0.00           C  
+HETATM    2  C2  VJK A4000       2.289  14.839  39.378  1.00  0.00           C  
+HETATM    3  C3  VJK A4000       3.453  13.882  39.199  1.00  0.00           C  
+HETATM    4  C4  VJK A4000       1.574  14.962  38.016  1.00  0.00           C  
+HETATM    5  C5  VJK A4000      -0.847  15.568  38.078  1.00  0.00           C  
+HETATM    6  C6  VJK A4000      -0.999  17.009  37.697  1.00  0.00           C  
+HETATM    7  C7  VJK A4000       0.410  14.721  41.321  1.00  0.00           C  
+HETATM    8  C8  VJK A4000      -0.405  13.733  41.926  1.00  0.00           C  
+HETATM    9  C9  VJK A4000      -1.229  14.122  42.971  1.00  0.00           C  
+HETATM   10  C10 VJK A4000      -0.377  16.312  42.743  1.00  0.00           C  
+HETATM   11  C11 VJK A4000      -0.386  17.720  43.158  1.00  0.00           C  
+HETATM   12  C12 VJK A4000      -1.134  18.163  44.220  1.00  0.00           C  
+HETATM   13  C13 VJK A4000      -0.247  20.020  43.316  1.00  0.00           C  
+HETATM   14  F2  VJK A4000      -2.207  17.362  37.711  1.00  0.00           F  
+HETATM   15  F   VJK A4000      -0.567  17.276  36.541  1.00  0.00           F  
+HETATM   16  F1  VJK A4000      -0.385  17.785  38.460  1.00  0.00           F  
+HETATM   17  N   VJK A4000       0.284  14.639  38.072  1.00  0.00           N  
+HETATM   18  O   VJK A4000       2.152  15.389  37.010  1.00  0.00           O  
+HETATM   19  C   VJK A4000       2.877  17.322  38.827  1.00  0.00           C  
+HETATM   20  N1  VJK A4000       1.352  14.290  40.371  1.00  0.00           N  
+HETATM   21  N3  VJK A4000       0.414  16.008  41.705  1.00  0.00           N  
+HETATM   22  N2  VJK A4000      -1.282  15.359  43.462  1.00  0.00           N  
+HETATM   23  C14 VJK A4000       0.251  18.932  42.583  1.00  0.00           C  
+HETATM   24  C15 VJK A4000       1.003  19.241  41.450  1.00  0.00           C  
+HETATM   25  C16 VJK A4000       1.194  20.574  41.087  1.00  0.00           C  
+HETATM   26  C17 VJK A4000       0.641  21.566  41.862  1.00  0.00           C  
+CONECT    1    2   19
+CONECT    2    1    3    4   20
+CONECT    3    2
+CONECT    4    2   17   18
+CONECT    4   18
+CONECT    5    6   17
+CONECT    6    5   14   15   16
+CONECT    7    8   20   21
+CONECT    7    8
+CONECT    8    7    9
+CONECT    8    7
+CONECT    9    8   22
+CONECT    9   22
+CONECT   10   11   21   22
+CONECT   10   21
+CONECT   11   10   12   23
+CONECT   11   12
+CONECT   12   11
+CONECT   12   11
+CONECT   13   23
+CONECT   14    6
+CONECT   15    6
+CONECT   16    6
+CONECT   17    4    5
+CONECT   18    4
+CONECT   18    4
+CONECT   19    1
+CONECT   20    2    7
+CONECT   21    7   10
+CONECT   21   10
+CONECT   22    9   10
+CONECT   22    9
+CONECT   23   11   13   24
+CONECT   23   24
+CONECT   24   23   25
+CONECT   24   23
+CONECT   25   24   26
+CONECT   25   26
+CONECT   26   25
+CONECT   26   25
+ENDMDL
+END   

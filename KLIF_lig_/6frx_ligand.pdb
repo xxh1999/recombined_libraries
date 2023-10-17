@@ -1,0 +1,82 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6frx_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C4  E3Z A 401       0.483  18.658  42.397  1.00  0.00           C  
+HETATM    2  C5  E3Z A 401       0.538  20.029  42.167  1.00  0.00           C  
+HETATM    3  C6  E3Z A 401      -0.170  20.883  43.002  1.00  0.00           C  
+HETATM    4  N1  E3Z A 401      -0.913  20.326  44.029  1.00  0.00           N  
+HETATM    5  N3  E3Z A 401      -0.279  18.194  43.417  1.00  0.00           N  
+HETATM    6  CAA E3Z A 401      -2.429  17.154  47.028  1.00  0.00           C  
+HETATM    7  CAB E3Z A 401      -2.585  15.894  47.607  1.00  0.00           C  
+HETATM    8  CAC E3Z A 401      -2.185  14.758  46.914  1.00  0.00           C  
+HETATM    9  CAD E3Z A 401      -1.631  14.900  45.646  1.00  0.00           C  
+HETATM   10  CAE E3Z A 401      -1.470  16.163  45.080  1.00  0.00           C  
+HETATM   11  CAF E3Z A 401      -1.862  17.317  45.761  1.00  0.00           C  
+HETATM   12  NAG E3Z A 401      -1.749  18.594  45.275  1.00  0.00           N  
+HETATM   13  C2  E3Z A 401      -0.968  19.005  44.237  1.00  0.00           C  
+HETATM   14 CL5  E3Z A 401       1.456  20.714  40.874  1.00  0.00          Cl  
+HETATM   15  NAO E3Z A 401       1.190  17.879  41.536  1.00  0.00           N  
+HETATM   16  CAP E3Z A 401       1.101  16.530  41.572  1.00  0.00           C  
+HETATM   17  CAU E3Z A 401       0.874  15.819  40.382  1.00  0.00           C  
+HETATM   18  CAQ E3Z A 401       1.258  15.814  42.763  1.00  0.00           C  
+HETATM   19  CAR E3Z A 401       1.171  14.423  42.760  1.00  0.00           C  
+HETATM   20  CAS E3Z A 401       0.933  13.741  41.568  1.00  0.00           C  
+HETATM   21  CAT E3Z A 401       0.804  14.422  40.351  1.00  0.00           C  
+HETATM   22  NAV E3Z A 401       0.523  13.841  39.142  1.00  0.00           N  
+HETATM   23  CAW E3Z A 401       0.837  12.588  38.681  1.00  0.00           C  
+HETATM   24  OAX E3Z A 401       0.470  12.179  37.571  1.00  0.00           O  
+HETATM   25  CAY E3Z A 401       1.711  11.648  39.505  1.00  0.00           C  
+HETATM   26  CAZ E3Z A 401       2.022  10.318  38.808  1.00  0.00           C  
+CONECT    1    2    5   15
+CONECT    1    5
+CONECT    2    1    3   14
+CONECT    2    3
+CONECT    3    2    4
+CONECT    3    2
+CONECT    4    3   13
+CONECT    4   13
+CONECT    5    1   13
+CONECT    5    1
+CONECT    6    7   11
+CONECT    6   11
+CONECT    7    6    8
+CONECT    7    8
+CONECT    8    7    9
+CONECT    8    7
+CONECT    9    8   10
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11    6   10   12
+CONECT   11    6
+CONECT   12   11   13
+CONECT   13    4    5   12
+CONECT   13    4
+CONECT   14    2
+CONECT   15    1   16
+CONECT   16   15   17   18
+CONECT   16   18
+CONECT   17   16   21
+CONECT   17   21
+CONECT   18   16   19
+CONECT   18   16
+CONECT   19   18   20
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   17   20   22
+CONECT   21   17
+CONECT   22   21   23
+CONECT   23   22   24   25
+CONECT   23   24
+CONECT   24   23
+CONECT   24   23
+CONECT   25   23   26
+CONECT   25   26
+CONECT   26   25
+CONECT   26   25
+ENDMDL
+END   

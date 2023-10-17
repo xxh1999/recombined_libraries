@@ -1,0 +1,35 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6x3p_ligand1
+MODEL        1
+HETATM    1  C1  BTB A 704       7.170  25.503  23.159  1.00  0.00           C  
+HETATM    2  O1  BTB A 704       6.085  25.227  24.043  1.00  0.00           O  
+HETATM    3  C2  BTB A 704       7.209  26.979  22.748  1.00  0.00           C  
+HETATM    4  C3  BTB A 704       7.614  27.859  23.940  1.00  0.00           C  
+HETATM    5  O3  BTB A 704       8.878  27.496  24.482  1.00  0.00           O  
+HETATM    6  C4  BTB A 704       8.375  27.109  21.762  1.00  0.00           C  
+HETATM    7  O4  BTB A 704       8.303  28.406  21.160  1.00  0.00           O1-
+HETATM    8  N   BTB A 704       5.936  27.439  22.102  1.00  0.00           N1+
+HETATM    9  C5  BTB A 704       5.461  26.644  20.957  1.00  0.00           C  
+HETATM   10  C6  BTB A 704       4.786  27.475  19.874  1.00  0.00           C  
+HETATM   11  O6  BTB A 704       5.662  28.457  19.417  1.00  0.00           O  
+HETATM   12  C7  BTB A 704       4.824  27.819  22.988  1.00  0.00           C  
+HETATM   13  C8  BTB A 704       4.425  29.282  22.885  1.00  0.00           C  
+HETATM   14  O8  BTB A 704       5.513  30.097  22.548  1.00  0.00           O  
+CONECT    1    2    3
+CONECT    2    1
+CONECT    3    1    4    6    8
+CONECT    4    3    5
+CONECT    5    4
+CONECT    6    3    7
+CONECT    7    6
+CONECT    8    3    9   12
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10
+CONECT   12    8   13
+CONECT   13   12   14
+CONECT   14   13
+ENDMDL
+END   

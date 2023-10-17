@@ -1,0 +1,64 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6bkw_ligand2
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C10 FPZ A 705      -1.869  31.361  47.106  1.00  0.00           C  
+HETATM    2  C01 FPZ A 705       5.640  32.173  44.942  1.00  0.00           C  
+HETATM    3  C02 FPZ A 705       4.828  32.459  46.029  1.00  0.00           C  
+HETATM    4  C03 FPZ A 705       3.454  32.715  45.870  1.00  0.00           C  
+HETATM    5  C04 FPZ A 705       2.829  32.685  44.637  1.00  0.00           C  
+HETATM    6  C05 FPZ A 705       3.656  32.397  43.554  1.00  0.00           C  
+HETATM    7  C06 FPZ A 705       5.027  32.140  43.687  1.00  0.00           C  
+HETATM    8  C08 FPZ A 705       0.094  31.916  45.716  1.00  0.00           C  
+HETATM    9  C09 FPZ A 705      -1.195  32.182  46.185  1.00  0.00           C  
+HETATM   10  C11 FPZ A 705      -1.253  30.212  47.611  1.00  0.00           C  
+HETATM   11  C12 FPZ A 705       0.030  29.926  47.167  1.00  0.00           C  
+HETATM   12  C13 FPZ A 705       0.684  30.763  46.246  1.00  0.00           C  
+HETATM   13  C14 FPZ A 705       0.718  34.769  44.976  1.00  0.00           C  
+HETATM   14  C15 FPZ A 705       0.240  35.739  44.107  1.00  0.00           C  
+HETATM   15  C16 FPZ A 705       0.029  37.053  44.513  1.00  0.00           C  
+HETATM   16  C17 FPZ A 705       0.281  37.435  45.827  1.00  0.00           C  
+HETATM   17  C18 FPZ A 705       0.748  36.479  46.712  1.00  0.00           C  
+HETATM   18  C19 FPZ A 705       0.960  35.171  46.282  1.00  0.00           C  
+HETATM   19  P07 FPZ A 705       1.012  33.015  44.494  1.00  0.00           P  
+CONECT    1    9   10
+CONECT    1    9
+CONECT    2    3    7
+CONECT    2    7
+CONECT    3    2    4
+CONECT    3    4
+CONECT    4    3    5
+CONECT    4    3
+CONECT    5    4    6   19
+CONECT    5    6
+CONECT    6    5    7
+CONECT    6    5
+CONECT    7    2    6
+CONECT    7    2
+CONECT    8    9   12   19
+CONECT    8   12
+CONECT    9    1    8
+CONECT    9    1
+CONECT   10    1   11
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12    8   11
+CONECT   12    8
+CONECT   13   14   18   19
+CONECT   13   18
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   15   17
+CONECT   16   17
+CONECT   17   16   18
+CONECT   17   16
+CONECT   18   13   17
+CONECT   18   13
+CONECT   19    5    8   13
+ENDMDL
+END   

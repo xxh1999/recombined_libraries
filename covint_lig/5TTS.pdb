@@ -1,0 +1,64 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     5TTS
+MODEL        1
+ATOM      1  N   CYS A 909       3.135  19.242  -7.681  1.00 35.52           N1+
+ATOM      2  CA  CYS A 909       2.696  19.174  -9.075  1.00 36.16           C  
+ATOM      3  C   CYS A 909       3.685  19.838 -10.049  1.00 41.71           C  
+ATOM      4  O   CYS A 909       4.374  20.799  -9.706  1.00 42.78           O  
+ATOM      5  CB  CYS A 909       1.281  19.769  -9.232  1.00 35.45           C  
+ATOM      6  SG  CYS A 909       1.246  21.561  -8.897  1.00 38.48           S  
+TER       7      CYS A 909
+HETATM    8  N3  7KU A4000       1.412  12.120  -3.560  1.00 33.41           N  
+HETATM    9  C4  7KU A4000      -2.316  19.367  -6.614  1.00 36.03           C  
+HETATM   10  N2  7KU A4000      -1.141  15.928  -4.480  1.00 38.35           N  
+HETATM   11  C7  7KU A4000      -1.338  17.359  -4.690  1.00 37.70           C  
+HETATM   12  C6  7KU A4000      -2.850  17.611  -4.888  1.00 36.99           C  
+HETATM   13  C9  7KU A4000       0.049  15.359  -4.009  1.00 37.04           C  
+HETATM   14  C13 7KU A4000       1.466  13.495  -3.499  1.00 33.26           C  
+HETATM   15  C8  7KU A4000      -0.533  17.880  -5.906  1.00 36.60           C  
+HETATM   16  N5  7KU A4000       1.073  16.143  -3.593  1.00 37.41           N  
+HETATM   17  C1  7KU A4000      -0.416  21.774  -8.193  1.00 35.50           C  
+HETATM   18  C2  7KU A4000      -0.438  21.684  -6.652  1.00 36.88           C  
+HETATM   19  C3  7KU A4000      -0.039  20.301  -6.122  1.00 39.41           C  
+HETATM   20  O1  7KU A4000       1.098  20.172  -5.668  1.00 41.45           O  
+HETATM   21  N1  7KU A4000      -0.908  19.265  -6.218  1.00 37.78           N  
+HETATM   22  C5  7KU A4000      -3.175  19.027  -5.393  1.00 37.43           C  
+HETATM   23  C10 7KU A4000       0.204  13.953  -3.964  1.00 34.55           C  
+HETATM   24  C11 7KU A4000      -0.600  12.800  -4.275  1.00 32.25           C  
+HETATM   25  C12 7KU A4000       0.173  11.699  -4.012  1.00 34.04           C  
+HETATM   26  N4  7KU A4000       2.507  14.270  -3.085  1.00 35.43           N  
+HETATM   27  C14 7KU A4000       2.206  15.570  -3.170  1.00 36.24           C  
+CONECT    8   14   25
+CONECT    9   21   22
+CONECT   10   11   13
+CONECT   11   10   12   15
+CONECT   12   11   22
+CONECT   13   10   16   23
+CONECT   13   16
+CONECT   14    8   23   26
+CONECT   14   23
+CONECT   15   11   21
+CONECT   16   13   27
+CONECT   16   13
+CONECT   17    6   18
+CONECT   18   17   19
+CONECT   19   18   20   21
+CONECT   19   20
+CONECT   20   19
+CONECT   20   19
+CONECT   21    9   15   19
+CONECT   22    9   12
+CONECT   23   13   14   24
+CONECT   23   14
+CONECT   24   23   25
+CONECT   24   25
+CONECT   25    8   24
+CONECT   25   24
+CONECT   26   14   27
+CONECT   26   27
+CONECT   27   16   26
+CONECT   27   26
+ENDMDL
+END   

@@ -1,0 +1,43 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     2HBZ
+MODEL        1
+ATOM      1  N   VAL C   2      58.708  36.744  49.015  1.00 29.87           N1+
+ATOM      2  CA  VAL C   2      59.973  36.102  48.675  1.00 29.59           C  
+ATOM      3  C   VAL C   2      60.786  37.024  47.756  1.00 27.51           C  
+ATOM      4  O   VAL C   2      60.227  37.684  46.883  1.00 27.25           O  
+ATOM      5  CB  VAL C   2      59.658  34.719  48.035  1.00 30.88           C  
+ATOM      6  CG1 VAL C   2      60.857  34.050  47.335  1.00 31.86           C  
+ATOM      7  CG2 VAL C   2      59.061  33.749  49.072  1.00 31.81           C  
+TER       8      VAL C   2
+HETATM    9  C1  PHQ C   1      58.213  37.015  50.274  1.00 30.53           C  
+HETATM   10  O1  PHQ C   1      58.818  36.907  51.342  1.00 30.69           O  
+HETATM   11  O2  PHQ C   1      56.936  37.399  50.128  1.00 31.66           O  
+HETATM   12  C2  PHQ C   1      56.151  37.829  51.232  1.00 33.31           C  
+HETATM   13  C3  PHQ C   1      55.765  39.297  51.148  1.00 33.47           C  
+HETATM   14  C4  PHQ C   1      55.051  39.878  52.217  1.00 34.08           C  
+HETATM   15  C5  PHQ C   1      54.681  41.236  52.167  1.00 33.96           C  
+HETATM   16  C6  PHQ C   1      55.025  42.020  51.049  1.00 34.23           C  
+HETATM   17  C7  PHQ C   1      55.730  41.444  49.975  1.00 34.45           C  
+HETATM   18  C8  PHQ C   1      56.096  40.086  50.022  1.00 33.83           C  
+CONECT    9    1   10   11
+CONECT    9   10
+CONECT   10    9
+CONECT   10    9
+CONECT   11    9   12
+CONECT   12   11   13
+CONECT   13   12   14   18
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15   14   16
+CONECT   15   16
+CONECT   16   15   17
+CONECT   16   15
+CONECT   17   16   18
+CONECT   17   18
+CONECT   18   13   17
+CONECT   18   17
+ENDMDL
+END   

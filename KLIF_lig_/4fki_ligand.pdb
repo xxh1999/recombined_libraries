@@ -1,0 +1,66 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4fki_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  Q09 A 301      -0.536  13.631  50.130  1.00  0.00           C  
+HETATM    2  F1  Q09 A 301      -0.207  12.606  50.919  1.00  0.00           F  
+HETATM    3  N1  Q09 A 301      -1.842  17.800  44.003  1.00  0.00           N  
+HETATM    4  O1  Q09 A 301      -1.576  13.263  49.296  1.00  0.00           O  
+HETATM    5  C2  Q09 A 301      -1.878  13.955  48.126  1.00  0.00           C  
+HETATM    6  F2  Q09 A 301      -0.844  14.657  50.904  1.00  0.00           F  
+HETATM    7  N2  Q09 A 301      -0.833  19.913  43.527  1.00  0.00           N  
+HETATM    8  O2  Q09 A 301      -1.560  15.784  42.952  1.00  0.00           O  
+HETATM    9  C3  Q09 A 301      -2.003  13.214  46.932  1.00  0.00           C  
+HETATM   10  F3  Q09 A 301       0.522  13.986  49.417  1.00  0.00           F  
+HETATM   11  N3  Q09 A 301       0.046  20.386  42.652  1.00  0.00           N  
+HETATM   12  C4  Q09 A 301      -2.464  13.866  45.774  1.00  0.00           C  
+HETATM   13  C5  Q09 A 301      -2.776  15.256  45.827  1.00  0.00           C  
+HETATM   14  C6  Q09 A 301      -2.612  15.960  47.013  1.00  0.00           C  
+HETATM   15  C7  Q09 A 301      -2.161  15.341  48.196  1.00  0.00           C  
+HETATM   16  C8  Q09 A 301      -3.301  15.925  44.633  1.00  0.00           C  
+HETATM   17  C9  Q09 A 301      -2.145  16.469  43.769  1.00  0.00           C  
+HETATM   18  C10 Q09 A 301      -0.900  18.552  43.330  1.00  0.00           C  
+HETATM   19  C11 Q09 A 301       0.592  19.380  41.853  1.00  0.00           C  
+HETATM   20  C12 Q09 A 301       0.009  18.161  42.268  1.00  0.00           C  
+HETATM   21  C13 Q09 A 301       1.578  19.715  40.822  1.00  0.00           C  
+HETATM   22  C14 Q09 A 301       2.613  18.694  40.433  1.00  0.00           C  
+HETATM   23  C15 Q09 A 301       1.534  19.096  39.449  1.00  0.00           C  
+CONECT    1    2    4    6   10
+CONECT    2    1
+CONECT    3   17   18
+CONECT    4    1    5
+CONECT    5    4    9   15
+CONECT    5   15
+CONECT    6    1
+CONECT    7   11   18
+CONECT    8   17
+CONECT    8   17
+CONECT    9    5   12
+CONECT    9   12
+CONECT   10    1
+CONECT   11    7   19
+CONECT   11   19
+CONECT   12    9   13
+CONECT   12    9
+CONECT   13   12   14   16
+CONECT   13   14
+CONECT   14   13   15
+CONECT   14   13
+CONECT   15    5   14
+CONECT   15    5
+CONECT   16   13   17
+CONECT   17    3    8   16
+CONECT   17    8
+CONECT   18    3    7   20
+CONECT   18   20
+CONECT   19   11   20   21
+CONECT   19   11
+CONECT   20   18   19
+CONECT   20   18
+CONECT   21   19   22   23
+CONECT   22   21   23
+CONECT   23   21   22
+ENDMDL
+END   

@@ -1,0 +1,41 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7jyt_ligand
+MODEL        1
+HETATM    1  C4  VRM A1502      -0.139  19.272  44.103  1.00  0.00           C  
+HETATM    2  C8  VRM A1502      -0.566  18.038  44.897  1.00  0.00           C  
+HETATM    3  C10 VRM A1502      -0.815  15.683  45.130  1.00  0.00           C  
+HETATM    4  N12 VRM A1502      -1.515  17.132  46.856  1.00  0.00           N  
+HETATM    5  C13 VRM A1502      -1.132  18.182  46.154  1.00  0.00           C  
+HETATM    6  C1  VRM A1502       1.569  21.213  41.422  1.00  0.00           C  
+HETATM    7  C11 VRM A1502      -1.370  15.912  46.380  1.00  0.00           C  
+HETATM    8  C2  VRM A1502       0.779  20.648  42.601  1.00  0.00           C  
+HETATM    9  C3  VRM A1502       0.697  19.284  42.964  1.00  0.00           C  
+HETATM   10  C9  VRM A1502      -0.403  16.766  44.365  1.00  0.00           C  
+HETATM   11  N5  VRM A1502      -0.485  20.513  44.340  1.00  0.00           N  
+HETATM   12  N7  VRM A1502       0.060  21.334  43.450  1.00  0.00           N  
+CONECT    1    2    9   11
+CONECT    1    9
+CONECT    2    1    5   10
+CONECT    2    5
+CONECT    3    7   10
+CONECT    3   10
+CONECT    4    5    7
+CONECT    4    7
+CONECT    5    2    4
+CONECT    5    2
+CONECT    6    8
+CONECT    7    3    4
+CONECT    7    4
+CONECT    8    6    9   12
+CONECT    8   12
+CONECT    9    1    8
+CONECT    9    1
+CONECT   10    2    3
+CONECT   10    3
+CONECT   11    1   12
+CONECT   12    8   11
+CONECT   12    8
+ENDMDL
+END   

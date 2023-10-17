@@ -1,0 +1,67 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7ug1_ligand1
+MODEL        1
+HETATM    1  C10 N5R A 301       6.415  25.538  33.261  1.00  0.00           C  
+HETATM    2  C13 N5R A 301       3.817  26.204  34.115  1.00  0.00           C  
+HETATM    3  C15 N5R A 301       3.234  23.894  34.662  1.00  0.00           C  
+HETATM    4  C20 N5R A 301       1.981  24.322  35.068  1.00  0.00           C  
+HETATM    5  C21 N5R A 301       1.611  25.681  35.008  1.00  0.00           C  
+HETATM    6  C22 N5R A 301       2.527  26.622  34.541  1.00  0.00           C  
+HETATM    7  C02 N5R A 301       9.463  21.601  31.847  1.00  0.00           C  
+HETATM    8  C03 N5R A 301       8.612  22.410  31.128  1.00  0.00           C  
+HETATM    9  C04 N5R A 301       7.484  22.923  31.721  1.00  0.00           C  
+HETATM   10  C05 N5R A 301       9.192  21.304  33.202  1.00  0.00           C  
+HETATM   11  C06 N5R A 301       8.065  21.814  33.797  1.00  0.00           C  
+HETATM   12  C07 N5R A 301       7.213  22.624  33.081  1.00  0.00           C  
+HETATM   13  C09 N5R A 301       5.537  24.535  33.728  1.00  0.00           C  
+HETATM   14  C11 N5R A 301       6.007  26.882  33.218  1.00  0.00           C  
+HETATM   15  C12 N5R A 301       4.723  27.223  33.654  1.00  0.00           C  
+HETATM   16  C14 N5R A 301       4.199  24.878  34.167  1.00  0.00           C  
+HETATM   17  N08 N5R A 301       5.986  23.148  33.778  1.00  0.00           N  
+HETATM   18  O17 N5R A 301       3.458  21.494  33.512  1.00  0.00           O1-
+HETATM   19  O18 N5R A 301       2.363  21.647  35.621  1.00  0.00           O1-
+HETATM   20  O19 N5R A 301       4.739  21.782  35.466  1.00  0.00           O1-
+HETATM   21  S16 N5R A 301       3.480  22.143  34.819  1.00  0.00           S2+
+HETATM   22 CL01 N5R A 301      10.859  20.964  31.073  1.00  0.00          Cl  
+CONECT    1   13   14
+CONECT    1   13
+CONECT    2    6   15   16
+CONECT    2    6
+CONECT    3    4   16   21
+CONECT    3   16
+CONECT    4    3    5
+CONECT    4    5
+CONECT    5    4    6
+CONECT    5    4
+CONECT    6    2    5
+CONECT    6    2
+CONECT    7    8   10   22
+CONECT    7    8
+CONECT    8    7    9
+CONECT    8    7
+CONECT    9    8   12
+CONECT    9   12
+CONECT   10    7   11
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12    9   11   17
+CONECT   12    9
+CONECT   13    1   16   17
+CONECT   13    1
+CONECT   14    1   15
+CONECT   14   15
+CONECT   15    2   14
+CONECT   15   14
+CONECT   16    2    3   13
+CONECT   16    3
+CONECT   17   12   13
+CONECT   18   21
+CONECT   19   21
+CONECT   20   21
+CONECT   21    3   18   19   20
+CONECT   22    7
+ENDMDL
+END   

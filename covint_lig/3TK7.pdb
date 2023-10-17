@@ -1,0 +1,49 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3TK7
+MODEL        1
+ATOM      1  N   LYS A 135     -22.337 -11.695  33.682  1.00 13.07           N1+
+ATOM      2  CA  LYS A 135     -22.827 -10.633  32.819  1.00 12.83           C  
+ATOM      3  C   LYS A 135     -21.926 -10.515  31.569  1.00 12.85           C  
+ATOM      4  O   LYS A 135     -20.701 -10.502  31.671  1.00 12.85           O  
+ATOM      5  CB  LYS A 135     -22.984  -9.332  33.635  1.00 13.23           C  
+ATOM      6  CG  LYS A 135     -23.786  -8.266  32.891  1.00 13.34           C  
+ATOM      7  CD  LYS A 135     -23.932  -6.932  33.638  1.00 13.56           C  
+ATOM      8  CE  LYS A 135     -25.010  -6.935  34.733  1.00 13.53           C  
+ATOM      9  NZ  LYS A 135     -25.357  -5.607  35.237  1.00 13.63           N1+
+TER      10      LYS A 135
+HETATM   11  C1  F6R A 501     -27.234  -5.273  33.640  1.00 12.25           C  
+HETATM   12  C2  F6R A 501     -25.964  -4.678  34.281  1.00 12.01           C  
+HETATM   13  C3  F6R A 501     -26.228  -3.293  34.934  1.00 12.00           C  
+HETATM   14  C4  F6R A 501     -26.220  -2.141  33.885  1.00 12.12           C  
+HETATM   15  C5  F6R A 501     -26.622  -0.754  34.426  1.00 12.22           C  
+HETATM   16  C6  F6R A 501     -26.500   0.376  33.384  1.00 12.68           C  
+HETATM   17  O1  F6R A 501     -28.148  -5.678  34.635  1.00 12.89           O  
+HETATM   18  O3  F6R A 501     -25.274  -3.024  35.947  1.00 11.74           O  
+HETATM   19  O4  F6R A 501     -24.936  -2.056  33.298  1.00 11.88           O  
+HETATM   20  O5  F6R A 501     -27.981  -0.847  34.787  1.00 12.63           O  
+HETATM   21  O6  F6R A 501     -26.697   1.613  34.044  1.00 12.54           O  
+HETATM   22  P   F6R A 501     -26.053   2.934  33.331  1.00 13.86           P  
+HETATM   23  O1P F6R A 501     -24.551   2.732  33.299  1.00 13.64           O1-
+HETATM   24  O2P F6R A 501     -26.478   4.092  34.206  1.00 13.36           O1-
+HETATM   25  O3P F6R A 501     -26.645   3.024  31.942  1.00 13.30           O  
+CONECT   11   12   17
+CONECT   12    9   11   13
+CONECT   13   12   14   18
+CONECT   14   13   15   19
+CONECT   15   14   16   20
+CONECT   16   15   21
+CONECT   17   11
+CONECT   18   13
+CONECT   19   14
+CONECT   20   15
+CONECT   21   16   22
+CONECT   22   21   23   24   25
+CONECT   22   25
+CONECT   23   22
+CONECT   24   22
+CONECT   25   22
+CONECT   25   22
+ENDMDL
+END   

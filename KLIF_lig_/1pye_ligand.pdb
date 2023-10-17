@@ -1,0 +1,88 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1pye_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  PM1 A 700       1.087  19.519  40.148  1.00  0.00           C  
+HETATM    2  C2  PM1 A 700       0.702  18.399  40.947  1.00  0.00           C  
+HETATM    3  N3  PM1 A 700       0.176  18.508  42.208  1.00  0.00           N  
+HETATM    4  C4  PM1 A 700      -0.034  19.816  42.766  1.00  0.00           C  
+HETATM    5  C5  PM1 A 700       0.325  20.960  42.047  1.00  0.00           C  
+HETATM    6  C6  PM1 A 700       0.875  20.817  40.729  1.00  0.00           C  
+HETATM    7  C10 PM1 A 700      -0.288  17.586  43.166  1.00  0.00           C  
+HETATM    8  C11 PM1 A 700      -0.705  18.375  44.265  1.00  0.00           C  
+HETATM    9  N12 PM1 A 700      -0.559  19.686  44.006  1.00  0.00           N  
+HETATM   10  C13 PM1 A 700      -0.351  16.110  43.206  1.00  0.00           C  
+HETATM   11  C14 PM1 A 700       0.071  15.200  42.111  1.00  0.00           C  
+HETATM   12  C15 PM1 A 700       1.471  14.868  41.947  1.00  0.00           C  
+HETATM   13  C16 PM1 A 700       1.886  13.982  40.884  1.00  0.00           C  
+HETATM   14  C17 PM1 A 700       0.906  13.436  39.999  1.00  0.00           C  
+HETATM   15  C18 PM1 A 700      -0.478  13.768  40.155  1.00  0.00           C  
+HETATM   16  C19 PM1 A 700      -0.902  14.649  41.208  1.00  0.00           C  
+HETATM   17  C23 PM1 A 700       1.686  19.394  38.753  1.00  0.00           C  
+HETATM   18  C24 PM1 A 700       1.906  17.991  38.159  1.00  0.00           C  
+HETATM   19  C25 PM1 A 700       3.246  17.510  37.967  1.00  0.00           C  
+HETATM   20  C26 PM1 A 700       3.539  16.217  37.417  1.00  0.00           C  
+HETATM   21  C27 PM1 A 700       2.467  15.353  37.020  1.00  0.00           C  
+HETATM   22  C28 PM1 A 700       1.107  15.767  37.182  1.00  0.00           C  
+HETATM   23  C29 PM1 A 700       0.826  17.064  37.731  1.00  0.00           C  
+HETATM   24  O33 PM1 A 700       1.997  20.424  38.103  1.00  0.00           O  
+HETATM   25  O34 PM1 A 700      -0.824  15.589  44.239  1.00  0.00           O  
+HETATM   26  N35 PM1 A 700      -1.256  17.862  45.520  1.00  0.00           N  
+HETATM   27  F36 PM1 A 700       4.293  18.260  38.314  1.00  0.00           F  
+HETATM   28  F39 PM1 A 700      -0.475  17.368  37.853  1.00  0.00           F  
+CONECT    1    2    6   17
+CONECT    1    2
+CONECT    2    1    3
+CONECT    2    1
+CONECT    3    2    4    7
+CONECT    4    3    5    9
+CONECT    4    9
+CONECT    5    4    6
+CONECT    5    6
+CONECT    6    1    5
+CONECT    6    5
+CONECT    7    3    8   10
+CONECT    7    8
+CONECT    8    7    9   26
+CONECT    8    7
+CONECT    9    4    8
+CONECT    9    4
+CONECT   10    7   11   25
+CONECT   10   25
+CONECT   11   10   12   16
+CONECT   11   16
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16
+CONECT   15   14
+CONECT   16   11   15
+CONECT   16   11
+CONECT   17    1   18   24
+CONECT   17   24
+CONECT   18   17   19   23
+CONECT   18   23
+CONECT   19   18   20   27
+CONECT   19   20
+CONECT   20   19   21
+CONECT   20   19
+CONECT   21   20   22
+CONECT   21   22
+CONECT   22   21   23
+CONECT   22   21
+CONECT   23   18   22   28
+CONECT   23   18
+CONECT   24   17
+CONECT   24   17
+CONECT   25   10
+CONECT   25   10
+CONECT   26    8
+CONECT   27   19
+CONECT   28   23
+ENDMDL
+END   

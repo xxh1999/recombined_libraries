@@ -1,0 +1,44 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     4eh4_ligand2
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  CAJ Q0O A 402       2.142  19.342  39.943  1.00  0.00           C  
+HETATM    2  CAH Q0O A 402       0.845  19.076  40.764  1.00  0.00           C  
+HETATM    3  CAG Q0O A 402       0.708  19.959  42.022  1.00  0.00           C  
+HETATM    4  CAI Q0O A 402       0.735  21.437  41.604  1.00  0.00           C  
+HETATM    5  CAK Q0O A 402       2.015  21.829  40.804  1.00  0.00           C  
+HETATM    6  NAN Q0O A 402       2.598  20.795  39.871  1.00  0.00           N  
+HETATM    7  CAL Q0O A 402       3.602  21.131  38.965  1.00  0.00           C  
+HETATM    8  OAA Q0O A 402       4.034  20.269  38.196  1.00  0.00           O  
+HETATM    9  CAM Q0O A 402       4.183  22.558  38.781  1.00  0.00           C  
+HETATM   10  CAE Q0O A 402       3.922  23.271  37.605  1.00  0.00           C  
+HETATM   11  CAC Q0O A 402       4.419  24.575  37.440  1.00  0.00           C  
+HETATM   12  CAB Q0O A 402       5.196  25.182  38.424  1.00  0.00           C  
+HETATM   13  CAD Q0O A 402       5.469  24.463  39.586  1.00  0.00           C  
+HETATM   14  CAF Q0O A 402       4.984  23.158  39.764  1.00  0.00           C  
+CONECT    1    2    6
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    1    5    7
+CONECT    7    6    8    9
+CONECT    7    8
+CONECT    8    7
+CONECT    8    7
+CONECT    9    7   10   14
+CONECT    9   14
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   12
+CONECT   11   10
+CONECT   12   11   13
+CONECT   12   13
+CONECT   13   12   14
+CONECT   13   12
+CONECT   14    9   13
+CONECT   14    9
+ENDMDL
+END   

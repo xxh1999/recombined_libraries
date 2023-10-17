@@ -1,0 +1,31 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3GJS
+MODEL        1
+ATOM      1  N   ALA E   4      24.863   6.191  38.627  1.00 27.03           N1+
+ATOM      2  CA  ALA E   4      24.503   5.800  37.271  1.00 26.83           C  
+ATOM      3  C   ALA E   4      25.037   4.387  36.967  1.00 27.43           C  
+ATOM      4  O   ALA E   4      26.193   4.072  37.249  1.00 29.19           O  
+ATOM      5  CB  ALA E   4      25.162   6.800  36.315  1.00 27.47           C  
+TER       6      ALA E   4
+HETATM    7  C   ASJ E   5      24.911   2.233  34.394  1.00 22.82           C  
+HETATM    8  N   ASJ E   5      24.176   3.555  36.365  1.00 26.08           N  
+HETATM    9  O   ASJ E   5      25.038   0.905  33.952  1.00 25.71           O  
+HETATM   10  CA  ASJ E   5      24.425   2.202  35.862  1.00 25.15           C  
+HETATM   11  CB  ASJ E   5      23.148   1.329  36.066  1.00 24.71           C  
+HETATM   12  CG  ASJ E   5      23.010   0.787  37.488  1.00 26.58           C  
+HETATM   13  OD1 ASJ E   5      24.054   0.487  38.103  1.00 26.22           O1-
+HETATM   14  OD2 ASJ E   5      21.860   0.595  37.933  1.00 27.39           O  
+CONECT    7    9   10
+CONECT    8    3   10
+CONECT    9    7
+CONECT   10    7    8   11
+CONECT   11   10   12
+CONECT   12   11   13   14
+CONECT   12   14
+CONECT   13   12
+CONECT   14   12
+CONECT   14   12
+ENDMDL
+END   

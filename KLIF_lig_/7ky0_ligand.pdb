@@ -1,0 +1,107 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7ky0_ligand
+MODEL        1
+HETATM    1  C18 XA4 A1101       2.305  18.642  37.631  1.00  0.00           C  
+HETATM    2  C16 XA4 A1101       2.103  15.224  36.553  1.00  0.00           C  
+HETATM    3  C14 XA4 A1101       0.164  15.763  43.368  1.00  0.00           C  
+HETATM    4  C13 XA4 A1101      -2.088  15.344  42.294  1.00  0.00           C  
+HETATM    5  C12 XA4 A1101      -0.604  15.299  42.112  1.00  0.00           C  
+HETATM    6  C10 XA4 A1101       0.291  13.851  40.341  1.00  0.00           C  
+HETATM    7  C11 XA4 A1101      -0.112  13.937  41.758  1.00  0.00           C  
+HETATM    8  N19 XA4 A1101       0.870  20.364  39.444  1.00  0.00           N  
+HETATM    9  C20 XA4 A1101       0.471  21.293  40.294  1.00  0.00           C  
+HETATM   10  C21 XA4 A1101       0.312  22.727  39.821  1.00  0.00           C  
+HETATM   11  C22 XA4 A1101       0.188  20.967  41.589  1.00  0.00           C  
+HETATM   12  C24 XA4 A1101      -0.815  17.486  44.868  1.00  0.00           C  
+HETATM   13  C26 XA4 A1101      -1.199  15.316  45.558  1.00  0.00           C  
+HETATM   14  C27 XA4 A1101      -1.300  13.939  45.745  1.00  0.00           C  
+HETATM   15  C28 XA4 A1101      -2.017  13.412  46.852  1.00  0.00           C  
+HETATM   16  C29 XA4 A1101      -2.138  11.906  47.070  1.00  0.00           C  
+HETATM   17  N30 XA4 A1101      -3.348  11.325  46.435  1.00  0.00           N  
+HETATM   18  C31 XA4 A1101      -4.101  12.247  45.555  1.00  0.00           C  
+HETATM   19  C02 XA4 A1101      -0.059  19.523  43.491  1.00  0.00           C  
+HETATM   20  C03 XA4 A1101       0.264  19.683  42.068  1.00  0.00           C  
+HETATM   21  C04 XA4 A1101       0.719  18.688  41.163  1.00  0.00           C  
+HETATM   22  C05 XA4 A1101       1.013  19.082  39.798  1.00  0.00           C  
+HETATM   23  C06 XA4 A1101       1.478  18.170  38.738  1.00  0.00           C  
+HETATM   24  C07 XA4 A1101       1.342  16.831  38.387  1.00  0.00           C  
+HETATM   25  C09 XA4 A1101       1.269  14.920  39.874  1.00  0.00           C  
+HETATM   26  C32 XA4 A1101      -3.817  12.133  44.065  1.00  0.00           C  
+HETATM   27  C34 XA4 A1101      -2.364  11.292  42.366  1.00  0.00           C  
+HETATM   28  C35 XA4 A1101      -1.932  10.530  44.553  1.00  0.00           C  
+HETATM   29  C36 XA4 A1101      -2.902  10.175  45.656  1.00  0.00           C  
+HETATM   30  C37 XA4 A1101      -2.575  14.304  47.765  1.00  0.00           C  
+HETATM   31  C38 XA4 A1101      -2.472  15.679  47.593  1.00  0.00           C  
+HETATM   32  C39 XA4 A1101      -1.776  16.148  46.473  1.00  0.00           C  
+HETATM   33  N15 XA4 A1101       1.995  16.518  37.250  1.00  0.00           N  
+HETATM   34  N17 XA4 A1101       2.601  17.628  36.764  1.00  0.00           N  
+HETATM   35  N23 XA4 A1101      -0.518  18.693  44.510  1.00  0.00           N  
+HETATM   36  N25 XA4 A1101      -0.570  16.114  44.551  1.00  0.00           N  
+HETATM   37  N33 XA4 A1101      -2.400  11.712  43.753  1.00  0.00           N1+
+HETATM   38  N40 XA4 A1101      -1.534  17.392  46.089  1.00  0.00           N  
+HETATM   39  O01 XA4 A1101       0.012  20.645  44.040  1.00  0.00           O  
+HETATM   40  O08 XA4 A1101       0.612  15.918  39.141  1.00  0.00           O  
+CONECT    1   23   34
+CONECT    1   34
+CONECT    2   33
+CONECT    3    5   36
+CONECT    4    5
+CONECT    5    3    4    7
+CONECT    6    7   25
+CONECT    7    5    6
+CONECT    8    9   22
+CONECT    8   22
+CONECT    9    8   10   11
+CONECT    9   11
+CONECT   10    9
+CONECT   11    9   20
+CONECT   11    9
+CONECT   12   35   36   38
+CONECT   12   35
+CONECT   13   14   32   36
+CONECT   13   32
+CONECT   14   13   15
+CONECT   14   15
+CONECT   15   14   16   30
+CONECT   15   14
+CONECT   16   15   17
+CONECT   17   16   18   29
+CONECT   18   17   26
+CONECT   19   20   35   39
+CONECT   19   39
+CONECT   20   11   19   21
+CONECT   20   21
+CONECT   21   20   22
+CONECT   21   20
+CONECT   22    8   21   23
+CONECT   22    8
+CONECT   23    1   22   24
+CONECT   23   24
+CONECT   24   23   33   40
+CONECT   24   23
+CONECT   25    6   40
+CONECT   26   18   37
+CONECT   27   37
+CONECT   28   29   37
+CONECT   29   17   28
+CONECT   30   15   31
+CONECT   30   31
+CONECT   31   30   32
+CONECT   31   30
+CONECT   32   13   31   38
+CONECT   32   13
+CONECT   33    2   24   34
+CONECT   34    1   33
+CONECT   34    1
+CONECT   35   12   19
+CONECT   35   12
+CONECT   36    3   12   13
+CONECT   37   26   27   28
+CONECT   38   12   32
+CONECT   39   19
+CONECT   39   19
+CONECT   40   24   25
+ENDMDL
+END   

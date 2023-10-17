@@ -1,0 +1,71 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3EWU
+MODEL        1
+ATOM      1  N   LYS A 314      11.302  -0.568  25.457  1.00 14.69           N1+
+ATOM      2  CA  LYS A 314      10.579  -0.968  24.260  1.00 15.95           C  
+ATOM      3  C   LYS A 314      11.549  -1.703  23.327  1.00 13.82           C  
+ATOM      4  O   LYS A 314      12.187  -1.092  22.470  1.00 14.91           O  
+ATOM      5  CB  LYS A 314      10.004   0.302  23.614  1.00 15.54           C  
+ATOM      6  CG  LYS A 314       9.007   0.997  24.551  1.00 17.33           C  
+ATOM      7  CD  LYS A 314       8.244   2.143  23.900  1.00 21.19           C  
+ATOM      8  CE  LYS A 314       7.391   2.908  24.900  1.00 18.07           C  
+ATOM      9  NZ  LYS A 314       6.245   2.155  25.391  1.00 20.59           N1+
+TER      10      LYS A 314
+HETATM   11  O3P UEP A 482       4.340  11.412  31.617  1.00 15.80           O1-
+HETATM   12  P   UEP A 482       3.613  10.554  30.608  1.00 15.50           P  
+HETATM   13  O1P UEP A 482       2.203  10.236  31.050  1.00 13.18           O  
+HETATM   14  O2P UEP A 482       3.692  11.119  29.204  1.00 16.97           O1-
+HETATM   15  O5' UEP A 482       4.393   9.121  30.583  1.00 16.49           O  
+HETATM   16  C5' UEP A 482       4.031   8.284  29.503  1.00 19.00           C  
+HETATM   17  C4' UEP A 482       4.855   7.002  29.557  1.00 15.81           C  
+HETATM   18  C3' UEP A 482       6.351   7.229  29.266  1.00 17.77           C  
+HETATM   19  O3' UEP A 482       7.125   6.597  30.271  1.00 21.14           O  
+HETATM   20  C2' UEP A 482       6.571   6.615  27.886  1.00 17.11           C  
+HETATM   21  O2' UEP A 482       7.831   5.983  27.766  1.00 18.51           O  
+HETATM   22  O4' UEP A 482       4.352   6.128  28.555  1.00 17.50           O  
+HETATM   23  C1' UEP A 482       5.392   5.633  27.779  1.00 16.83           C  
+HETATM   24  N1  UEP A 482       4.883   5.465  26.349  1.00 14.52           N  
+HETATM   25  C7  UEP A 482       5.493   3.003  26.315  1.00 19.10           C  
+HETATM   26  C8  UEP A 482       4.418   2.200  27.058  1.00 16.25           C  
+HETATM   27  C6  UEP A 482       4.898   4.252  25.636  1.00 14.34           C  
+HETATM   28  C5  UEP A 482       4.457   4.179  24.348  1.00 19.69           C  
+HETATM   29  C4  UEP A 482       3.925   5.337  23.656  1.00 16.53           C  
+HETATM   30  O4  UEP A 482       3.511   5.346  22.506  1.00 16.43           O  
+HETATM   31  N3  UEP A 482       3.891   6.493  24.413  1.00 16.03           N  
+HETATM   32  C2  UEP A 482       4.331   6.611  25.718  1.00 15.04           C  
+HETATM   33  O2  UEP A 482       4.199   7.695  26.277  1.00 15.83           O  
+CONECT   11   12
+CONECT   12   11   13   14   15
+CONECT   12   13
+CONECT   13   12
+CONECT   13   12
+CONECT   14   12
+CONECT   15   12   16
+CONECT   16   15   17
+CONECT   17   16   18   22
+CONECT   18   17   19   20
+CONECT   19   18
+CONECT   20   18   21   23
+CONECT   21   20
+CONECT   22   17   23
+CONECT   23   20   22   24
+CONECT   24   23   27   32
+CONECT   25    9   26   27
+CONECT   26   25
+CONECT   27   24   25   28
+CONECT   27   28
+CONECT   28   27   29
+CONECT   28   27
+CONECT   29   28   30   31
+CONECT   29   30
+CONECT   30   29
+CONECT   30   29
+CONECT   31   29   32
+CONECT   32   24   31   33
+CONECT   32   33
+CONECT   33   32
+CONECT   33   32
+ENDMDL
+END   

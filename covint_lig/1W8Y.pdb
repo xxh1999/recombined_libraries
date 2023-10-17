@@ -1,0 +1,68 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1W8Y
+MODEL        1
+ATOM      1  N   SER A  49      -0.401  -6.139  34.689  1.00 36.63           N1+
+ATOM      2  CA  SER A  49       0.575  -6.252  35.775  1.00 36.89           C  
+ATOM      3  C   SER A  49       0.893  -7.697  36.220  1.00 37.15           C  
+ATOM      4  O   SER A  49       1.770  -7.863  37.062  1.00 37.12           O  
+ATOM      5  CB  SER A  49       0.133  -5.427  37.003  1.00 36.83           C  
+ATOM      6  OG  SER A  49       0.147  -4.014  36.822  1.00 38.62           O  
+TER       7      SER A  49
+HETATM    8  S1  NCF A 520      -1.582  -0.184  39.054  1.00 37.80           S  
+HETATM    9  C2  NCF A 520      -3.388  -0.375  38.964  1.00 38.42           C  
+HETATM   10  C3  NCF A 520      -3.863  -1.773  39.298  1.00 39.33           C  
+HETATM   11  C4  NCF A 520      -3.080  -2.866  39.313  1.00 37.92           C  
+HETATM   12  C4' NCF A 520      -3.591  -4.311  39.564  1.00 39.45           C  
+HETATM   13  O4A NCF A 520      -4.765  -4.436  39.970  1.00 46.87           O1-
+HETATM   14  O4B NCF A 520      -2.778  -5.227  39.308  1.00 43.76           O  
+HETATM   15  N5  NCF A 520      -1.724  -2.834  39.039  1.00 31.39           N  
+HETATM   16  C6  NCF A 520      -0.998  -1.765  38.375  1.00 33.72           C  
+HETATM   17  C7  NCF A 520      -0.948  -1.908  36.816  1.00 33.56           C  
+HETATM   18  C8  NCF A 520      -0.942  -3.375  36.349  1.00 35.16           C  
+HETATM   19  O9  NCF A 520      -1.864  -3.911  35.737  1.00 31.86           O  
+HETATM   20  N10 NCF A 520      -1.980  -1.142  36.120  1.00 32.89           N  
+HETATM   21  C11 NCF A 520      -1.866   0.130  35.714  1.00 35.86           C  
+HETATM   22  O12 NCF A 520      -0.845   0.792  35.884  1.00 33.54           O  
+HETATM   23  C13 NCF A 520      -3.093   0.759  35.055  1.00 39.80           C  
+HETATM   24  C14 NCF A 520      -2.763   1.287  33.699  1.00 42.85           C  
+HETATM   25  C15 NCF A 520      -2.708   0.592  32.518  1.00 43.74           C  
+HETATM   26  C16 NCF A 520      -2.344   1.408  31.406  1.00 43.27           C  
+HETATM   27  C17 NCF A 520      -2.132   2.712  31.758  1.00 44.38           C  
+HETATM   28  S19 NCF A 520      -2.369   2.972  33.463  1.00 49.52           S  
+CONECT    8    9   16
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   10   11
+CONECT   11   10   12   15
+CONECT   11   10
+CONECT   12   11   13   14
+CONECT   12   14
+CONECT   13   12
+CONECT   14   12
+CONECT   14   12
+CONECT   15   11   16
+CONECT   16    8   15   17
+CONECT   17   16   18   20
+CONECT   18    6   17   19
+CONECT   18   19
+CONECT   19   18
+CONECT   19   18
+CONECT   20   17   21
+CONECT   21   20   22   23
+CONECT   21   22
+CONECT   22   21
+CONECT   22   21
+CONECT   23   21   24
+CONECT   24   23   25   28
+CONECT   24   25
+CONECT   25   24   26
+CONECT   25   24
+CONECT   26   25   27
+CONECT   26   27
+CONECT   27   26   28
+CONECT   27   26
+CONECT   28   24   27
+ENDMDL
+END   

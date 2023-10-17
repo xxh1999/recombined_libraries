@@ -1,0 +1,92 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     3nnv_ligand
+CRYST1   10.000   10.000   10.000  90.00  90.00  90.00 P1            0
+MODEL        1
+HETATM    1  C1  Q43 A 355       3.838  21.422  38.727  1.00  0.00           C  
+HETATM    2  C2  Q43 A 355       3.328  20.670  37.661  1.00  0.00           C  
+HETATM    3  C3  Q43 A 355       3.343  21.210  36.368  1.00  0.00           C  
+HETATM    4  C4  Q43 A 355       4.349  22.695  38.493  1.00  0.00           C  
+HETATM    5  C5  Q43 A 355       4.376  23.235  37.192  1.00  0.00           C  
+HETATM    6  C6  Q43 A 355       3.872  22.495  36.099  1.00  0.00           C  
+HETATM    7  N7  Q43 A 355       3.905  22.931  34.777  1.00  0.00           N  
+HETATM    8  C8  Q43 A 355       2.887  23.008  33.914  1.00  0.00           C  
+HETATM    9  O9  Q43 A 355       1.735  22.729  34.254  1.00  0.00           O  
+HETATM   10  N10 Q43 A 355       3.173  23.412  32.656  1.00  0.00           N  
+HETATM   11  C11 Q43 A 355       2.217  23.563  31.682  1.00  0.00           C  
+HETATM   12  C12 Q43 A 355       0.858  23.889  31.732  1.00  0.00           C  
+HETATM   13  C13 Q43 A 355       0.471  23.885  30.386  1.00  0.00           C  
+HETATM   14  C14 Q43 A 355      -0.929  24.217  29.907  1.00  0.00           C  
+HETATM   15  C15 Q43 A 355      -2.015  23.520  30.750  1.00  0.00           C  
+HETATM   16  C16 Q43 A 355      -1.176  23.879  28.425  1.00  0.00           C  
+HETATM   17  C17 Q43 A 355      -1.052  25.726  30.076  1.00  0.00           C  
+HETATM   18  N18 Q43 A 355       1.472  23.620  29.525  1.00  0.00           N  
+HETATM   19  N19 Q43 A 355       2.550  23.424  30.371  1.00  0.00           N  
+HETATM   20  C20 Q43 A 355       3.731  23.101  29.797  1.00  0.00           C  
+HETATM   21  C21 Q43 A 355       4.620  22.124  30.250  1.00  0.00           C  
+HETATM   22  C22 Q43 A 355       4.131  23.759  28.615  1.00  0.00           C  
+HETATM   23  C23 Q43 A 355       5.319  23.490  27.933  1.00  0.00           C  
+HETATM   24  C24 Q43 A 355       6.164  22.513  28.416  1.00  0.00           C  
+HETATM   25  C25 Q43 A 355       7.463  22.230  27.684  1.00  0.00           C  
+HETATM   26  C26 Q43 A 355       5.814  21.821  29.593  1.00  0.00           C  
+HETATM   27  O27 Q43 A 355       7.276  22.322  26.264  1.00  0.00           O  
+HETATM   28  C28 Q43 A 355       4.904  24.514  37.024  1.00  0.00           C  
+HETATM   29  C29 Q43 A 355       5.370  25.245  38.130  1.00  0.00           C  
+HETATM   30  C30 Q43 A 355       5.351  24.694  39.409  1.00  0.00           C  
+HETATM   31  C31 Q43 A 355       4.845  23.413  39.583  1.00  0.00           C  
+CONECT    1    2    4
+CONECT    1    2
+CONECT    2    1    3
+CONECT    2    1
+CONECT    3    2    6
+CONECT    3    6
+CONECT    4    1    5   31
+CONECT    4   31
+CONECT    5    4    6   28
+CONECT    5   28
+CONECT    6    3    5    7
+CONECT    6    3
+CONECT    7    6    8
+CONECT    8    7    9   10
+CONECT    8    9
+CONECT    9    8
+CONECT    9    8
+CONECT   10    8   11
+CONECT   11   10   12   19
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13   12   14   18
+CONECT   13   18
+CONECT   14   13   15   16   17
+CONECT   15   14
+CONECT   16   14
+CONECT   17   14
+CONECT   18   13   19
+CONECT   18   13
+CONECT   19   11   18   20
+CONECT   20   19   21   22
+CONECT   20   22
+CONECT   21   20   26
+CONECT   21   26
+CONECT   22   20   23
+CONECT   22   20
+CONECT   23   22   24
+CONECT   23   24
+CONECT   24   23   25   26
+CONECT   24   23
+CONECT   25   24   27
+CONECT   26   21   24
+CONECT   26   21
+CONECT   27   25
+CONECT   28    5   29
+CONECT   28    5
+CONECT   29   28   30
+CONECT   29   30
+CONECT   30   29   31
+CONECT   30   29
+CONECT   31    4   30
+CONECT   31    4
+ENDMDL
+END   

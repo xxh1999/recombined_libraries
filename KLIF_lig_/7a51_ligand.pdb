@@ -1,0 +1,47 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     7a51_ligand
+MODEL        1
+HETATM    1  C1  QYK A 501       1.141  15.809  41.917  1.00  0.00           C  
+HETATM    2  N1  QYK A 501       1.120  17.263  41.745  1.00  0.00           N  
+HETATM    3  C2  QYK A 501       1.552  17.955  40.603  1.00  0.00           C  
+HETATM    4 BR1  QYK A 501       2.186  17.193  39.024  1.00  0.00          Br  
+HETATM    5  C3  QYK A 501       1.371  19.284  40.796  1.00  0.00           C  
+HETATM    6  C4  QYK A 501       1.678  20.288  39.842  1.00  0.00           C  
+HETATM    7  N2  QYK A 501       1.904  21.137  39.083  1.00  0.00           N  
+HETATM    8  C5  QYK A 501       0.814  19.464  42.107  1.00  0.00           C  
+HETATM    9  C6  QYK A 501       0.674  18.180  42.672  1.00  0.00           C  
+HETATM   10  N3  QYK A 501       0.200  17.936  43.903  1.00  0.00           N  
+HETATM   11  C7  QYK A 501      -0.149  19.053  44.541  1.00  0.00           C  
+HETATM   12  N4  QYK A 501      -0.067  20.335  44.124  1.00  0.00           N  
+HETATM   13  C8  QYK A 501       0.431  20.564  42.900  1.00  0.00           C  
+HETATM   14  N5  QYK A 501       0.527  21.819  42.457  1.00  0.00           N  
+CONECT    1    2
+CONECT    2    1    3    9
+CONECT    3    2    4    5
+CONECT    3    5
+CONECT    4    3
+CONECT    5    3    6    8
+CONECT    5    3
+CONECT    6    5    7
+CONECT    6    7
+CONECT    6    7
+CONECT    7    6
+CONECT    7    6
+CONECT    7    6
+CONECT    8    5    9   13
+CONECT    8   13
+CONECT    9    2    8   10
+CONECT    9   10
+CONECT   10    9   11
+CONECT   10    9
+CONECT   11   10   12
+CONECT   11   12
+CONECT   12   11   13
+CONECT   12   11
+CONECT   13    8   12   14
+CONECT   13    8
+CONECT   14   13
+ENDMDL
+END   

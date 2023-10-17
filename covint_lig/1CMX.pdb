@@ -1,0 +1,21 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     1CMX
+MODEL        1
+ATOM      1  N   GLY B 375      50.737  46.944   7.163  1.00 32.47           N1+
+ATOM      2  CA  GLY B 375      50.982  45.827   6.258  1.00 25.64           C  
+ATOM      3  C   GLY B 375      49.702  45.335   5.602  1.00 27.14           C  
+ATOM      4  O   GLY B 375      48.626  45.415   6.195  1.00 27.25           O  
+HETATM    5  N   GLZ B 376      49.838  44.772   4.394  1.00 26.25           N  
+HETATM    6  CA  GLZ B 376      48.730  44.295   3.579  1.00 32.83           C  
+HETATM    7  C   GLZ B 376      48.489  42.786   3.694  1.00 32.54           C  
+HETATM    8  O   GLZ B 376      47.835  42.203   2.833  1.00 32.98           O  
+CONECT    5    3    6
+CONECT    6    5    7
+CONECT    7    6    8
+CONECT    7    8
+CONECT    8    7
+CONECT    8    7
+ENDMDL
+END   

@@ -1,0 +1,79 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     6SMA
+MODEL        1
+ATOM      1  N   SER C 195      11.825 -48.475  11.323  1.00 31.13           N1+
+ATOM      2  CA  SER C 195      11.349 -47.559  10.296  1.00 34.03           C  
+ATOM      3  C   SER C 195      10.202 -46.716  10.834  1.00 30.42           C  
+ATOM      4  O   SER C 195       9.343 -47.205  11.573  1.00 27.81           O  
+ATOM      5  CB  SER C 195      10.883 -48.337   9.065  1.00 41.61           C  
+ATOM      6  OG  SER C 195      11.942 -49.084   8.485  1.00 51.86           O  
+TER       7      SER C 195
+HETATM    8  C5  LKK C 309      13.530 -52.306  -3.014  1.00106.71           C  
+HETATM    9  C4  LKK C 309      13.359 -53.639  -3.468  1.00110.12           C  
+HETATM   10  C6  LKK C 309      13.094 -51.937  -1.716  1.00103.64           C  
+HETATM   11  C3  LKK C 309      12.760 -54.597  -2.634  1.00107.06           C  
+HETATM   12  C7  LKK C 309      15.978 -52.215   6.900  1.00 50.32           C  
+HETATM   13  C2  LKK C 309      12.332 -54.229  -1.341  1.00104.14           C  
+HETATM   14  C1  LKK C 309      12.503 -52.899  -0.884  1.00100.75           C  
+HETATM   15  C12 LKK C 309      13.429 -49.898   2.632  1.00 80.98           C  
+HETATM   16  C13 LKK C 309      12.317 -50.644   2.127  1.00 83.41           C  
+HETATM   17  C14 LKK C 309      13.310 -48.712   3.641  1.00 73.87           C  
+HETATM   18  C16 LKK C 309      13.527 -50.353   5.633  1.00 57.59           C  
+HETATM   19  C19 LKK C 309      13.934 -50.598   7.144  1.00 48.48           C  
+HETATM   20  C20 LKK C 309      14.927 -49.520   7.650  1.00 47.49           C  
+HETATM   21  C21 LKK C 309      14.510 -52.055   7.366  1.00 48.84           C  
+HETATM   22  C8  LKK C 309      11.988 -52.541   0.582  1.00 93.74           C  
+HETATM   23  C9  LKK C 309      15.143 -49.564   9.203  1.00 46.92           C  
+HETATM   24  N10 LKK C 309      14.149 -51.427   1.258  1.00 83.45           N  
+HETATM   25  N11 LKK C 309      14.525 -50.429   2.055  1.00 83.35           N  
+HETATM   26  N15 LKK C 309      13.699 -49.022   5.025  1.00 66.38           N  
+HETATM   27  N9  LKK C 309      12.831 -51.561   1.293  1.00 85.91           N  
+HETATM   28  O1  LKK C 309      12.587 -50.883   9.700  1.00 37.36           O  
+HETATM   29  O18 LKK C 309      13.066 -51.254   5.010  1.00 57.94           O  
+HETATM   30  O24 LKK C 309      11.185 -51.414   7.412  1.00 36.32           O  
+HETATM   31  S22 LKK C 309      12.354 -50.432   8.103  1.00 38.08           S  
+HETATM   32 BR1  LKK C 309      13.954 -54.161  -5.265  1.00116.90          Br  
+CONECT    8    9   10
+CONECT    8    9
+CONECT    9    8   11   32
+CONECT    9    8
+CONECT   10    8   14
+CONECT   10   14
+CONECT   11    9   13
+CONECT   11   13
+CONECT   12   21
+CONECT   13   11   14
+CONECT   13   11
+CONECT   14   10   13   22
+CONECT   14   10
+CONECT   15   16   17   25
+CONECT   15   16
+CONECT   16   15   27
+CONECT   16   15
+CONECT   17   15   26
+CONECT   18   19   26   29
+CONECT   18   29
+CONECT   19   18   20   21   31
+CONECT   20   19   23
+CONECT   21   12   19
+CONECT   22   14   27
+CONECT   23   20
+CONECT   24   25   27
+CONECT   24   25
+CONECT   25   15   24
+CONECT   25   24
+CONECT   26   17   18
+CONECT   27   16   22   24
+CONECT   28   31
+CONECT   28   31
+CONECT   29   18
+CONECT   29   18
+CONECT   30   31
+CONECT   30   31
+CONECT   31    6   19   28   30
+CONECT   31   28   30
+CONECT   32    9
+ENDMDL
+END   
