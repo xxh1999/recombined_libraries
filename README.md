@@ -22,14 +22,18 @@
 #### 3.Extract covalent adducts from complex PDB files.
 ``python pdb_covalent_extract.py``
 #### 4.Extract covalent fragments with report and PDB files.
-##### Extract covalent fragments from existing adducts.
+##### 1) Extract covalent fragments from existing adducts.
 ``python covalent.py``   
-##### Extract covalent fragments from existing adducts.
-``git clone ``
-``python covalent.py``   
+##### 2) generate covalent fragments with delinker.
+``git clone https://github.com/oxpig/DeLinker.git``
+``python delinker_generate.py``   
+``python delinker_combine.py`` 
 #### 5.Extract noncovalent replacement fragments with report and PDB files.
 ``python noncovalent.py``  
-#### 4.Select appropriate replacement fragments for each pair of retained fragments.  
+#### 6.Select appropriate replacement fragments for each pair of retained fragments.  
 ``python RMSD_calculation.py``  
-#### 5.Fill in every vacancy in the original molecules.  
+#### 7.Fill in every vacancy in the original molecules.  
 ``python final_combine.py``  
+#### 8.Transform adducts to covalent inhibitors.  
+``python warhead2inhibitor.py``  
+``python warhead_recover.py``  
