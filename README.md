@@ -25,7 +25,7 @@ rdkit
 ##### 1) Extract covalent fragments from existing adducts.
 ``python covalent.py``   
 ##### 2) generate covalent fragments with delinker.
-``git clone https://github.com/oxpig/DeLinker.git``
+``git clone https://github.com/oxpig/DeLinker.git``  
 ``python delinker_generate.py``   
 ``python delinker_combine.py`` 
 #### 5.Extract noncovalent replacement fragments with report and PDB files.
