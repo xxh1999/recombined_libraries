@@ -7,7 +7,6 @@
 ``git clone https://github.com/pharmai/plip.git``  
 ``call report_generation.bat``
 #### 3.Extract replacement fragments with report and PDB files
-!change the directories if necessary  
 ``python noncovalent.py``  
 ``python RMSD_calculation.py``  
 ``python final_combine.py``  
