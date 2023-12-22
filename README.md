@@ -4,6 +4,6 @@
 ### data preprocessing
 #### 1.Get complex files in pdb format and rectify inappropriate structures in it.
 #### 2.Use PLIP to analysis noncovalent interactions in PDB files and generate reports. 
-'''git clone https://github.com/pharmai/plip.git  
-'''call report_generation.bat
+```git clone https://github.com/pharmai/plip.git  
+```call report_generation.bat
 #### 3.
