@@ -8,9 +8,9 @@ rdkit
 ``git clone https://github.com/pharmai/plip.git``  
 ``call report_generation.bat``
 #### 3.Extract noncovalent replacement fragments with report and PDB files.
-``python noncovalent.py``  
+``python noncovalent.py --mode 'HB/HI/PC/PS'``  
 #### 4.Select appropriate replacement fragments for each pair of retained fragments.  
-``python RMSD_calculation.py``  
+``python RMSD_calculation.py --provider path_to_frag_provider --acceptor path_to_frag_acceptor``  
 #### 5.Fill in every vacancy in the original molecules.  
 ``python final_combine.py``  
 
@@ -29,9 +29,9 @@ rdkit
 ``python delinker_generate.py``   
 ``python delinker_combine.py`` 
 #### 5.Extract noncovalent replacement fragments with report and PDB files.
-``python noncovalent.py``  
+``python noncovalent.py --mode 'HB/HI/PC/PS'``  
 #### 6.Select appropriate replacement fragments for each pair of retained fragments.  
-``python RMSD_calculation.py``  
+``python RMSD_calculation.py --provider path_to_frag_provider --acceptor path_to_frag_acceptor``  
 #### 7.Fill in every vacancy in the original molecules.  
 ``python final_combine.py``  
 #### 8.Transform adducts to covalent inhibitors.  
