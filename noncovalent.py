@@ -532,15 +532,14 @@ def get_pairs(lig_pdb_path,idx_,Atom_coor,mol,interaction,D_A_):
 
 
 if __name__ == "__main__":
-    # parser = argparse.ArgumentParser()
-    # parser.add_argument('--mode', type=str, default = None)
-    # args = parser.parse_args()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--mode', type=str, default = None)
+    args = parser.parse_args()
     list_res=['ALA','CYS','ASP','GLU','PHE','GLY','HIS','ILE','LYS','LEU','MET','ASN','PRO','GLN','ARG','SER','THR','VAL','TRP','TYR']
     directory_pdb=r"BTK_covint_complex"  
     directory_rep=r"BTK_covint_report"  
     directory_lig=r"BTK_covint_lig"     
-    # Int=args.mode
-    Int='HI'
+    Int=args.mode
     output_path=os.path.join(r"warhead_substitution",'BTK_covint_'+Int+'.txt')          
     with open (output_path,'w+') as t:
         pdbpath=[]
