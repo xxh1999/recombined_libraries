@@ -224,9 +224,15 @@ def process(lines,lines_h,output):
                     break
         return ('finish')
         
-if __name__ == '__main__':                 
-    with open (r"KLIF_HB_onlydis_ring.txt",'r') as t: #t:frag provider
-        with open (r"BTK_covint_HB_onlydis_ring.txt",'r') as h: #h:frag_Accepter       
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--provider', type=str, default = None)
+    parser.add_argument('--acceptor', type=str, default = None)
+    args = parser.parse_args()
+    path_provider=args.provider
+    path_acceptor=args.acceptor
+    with open (path_provider,'r') as t: #t:frag provider
+        with open (path_acceptor,'r') as h: #h:frag_Accepter       
             lines=t.readlines()
             lines_h=h.readlines()
             sub_lists = [lines_h[i:i + len(lines_h) // 10] for i in range(0, len(lines_h), len(lines_h) // 10)]
