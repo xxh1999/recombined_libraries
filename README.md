@@ -2,7 +2,7 @@
 # A split-and-mix computational approach for the design of novel (non)covalent virtual screening libraries.
 ## requirements
 python>=3.6  
-biopandas
+biopandas  
 multiprocessing  
 numpy  
 pandas=1.1.2  
